@@ -1,0 +1,51 @@
+---
+import Base from "../layouts/Base.astro";
+import { SITE, telHref, waHref } from "../site.config.ts";
+---
+
+<Base
+  title={`Over Rens — ${SITE.bedrijfsnaam} | dakdekker regio Den Bosch`}
+  description="Achter Spoed Dak Service zit Rens: één vaste dakdekker uit de regio Den Bosch. Persoonlijk, eerlijk over prijs en garantie op het werk."
+  path="/over"
+>
+  <section class="hero">
+    <div class="wrap">
+      <p class="eyebrow" style="color:#ffb486;">Over mij</p>
+      <h1>Hoi, ik ben Rens</h1>
+      <p class="lead">De dakdekker achter Spoed Dak Service. Geen groot bedrijf met een callcenter — gewoon ik, mijn busje en mijn gereedschap, in de regio Den Bosch.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap" style="display:grid; grid-template-columns: 1.3fr .85fr; gap:40px; align-items:start;">
+      <div class="prose">
+        <p>
+          Ik ben begonnen met iets simpels: goten reinigen vanaf €25. Terwijl ik op het dak sta,
+          zie ik meteen of er meer speelt — een gebroken pan, los lood bij de schoorsteen, een naad
+          die gaat lekken. Ik vertel je dat eerlijk, zonder verkooppraatje, en jij beslist zelf.
+        </p>
+        <h2>Wat je van mij kunt verwachten</h2>
+        <ul class="checks">
+          <li>Je krijgt mij aan de lijn — één vast aanspreekpunt</li>
+          <li>Een vaste prijs vóórdat ik begin, geen voorrijkosten</li>
+          <li>Netjes werk: troep gaat mee, je dak blijft heel</li>
+          <li>Garantie op wat ik doe</li>
+          <li>Bij spoed in de regio vaak nog dezelfde dag langs</li>
+        </ul>
+        <p>
+          Werk je liever met iemand die gewoon zegt wat er nodig is — en wat níet? Dan zit je bij mij goed.
+        </p>
+        <div class="btn-row" style="margin-top:20px;">
+          <a class="btn btn--primary" href={telHref}>Bel {SITE.telefoonWeergave}</a>
+          <a class="btn btn--wa" href={waHref()}>WhatsApp Rens</a>
+        </div>
+      </div>
+      <aside>
+        <div class="photo-frame">
+          <strong>Foto van Rens komt hier</strong>
+          <span>Een gezicht op de site wekt vertrouwen — precies het verschil met de anonieme landelijke sites. Stuur een foto van jezelf + een paar vóór/na's, dan zet ik ze erin.</span>
+        </div>
+      </aside>
+    </div>
+  </section>
+</Base>

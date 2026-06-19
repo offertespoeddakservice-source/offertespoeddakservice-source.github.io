@@ -1,0 +1,34 @@
+---
+import Base from "../../layouts/Base.astro";
+import { SITE, telHref } from "../../site.config.ts";
+import { PLAATSEN } from "../../data/plaatsen.ts";
+---
+
+<Base
+  title={`Werkgebied — dakdekker in de regio Den Bosch | ${SITE.bedrijfsnaam}`}
+  description="In welke plaatsen ik kom als dakdekker: Rosmalen, Vught, Vlijmen, Drunen, Oss, Boxtel en meer in de regio Den Bosch. Staat je plaats er niet bij? Bel gerust."
+  path="/werkgebied"
+>
+  <section class="hero">
+    <div class="wrap">
+      <p class="eyebrow" style="color:#ffb486;">Werkgebied</p>
+      <h1>Dakdekker in {SITE.regioOmschrijving}</h1>
+      <p class="lead">Ik werk vanuit {SITE.basisplaats} in een straal van ongeveer 45 minuten. Kies je plaats, of bel gerust als je plaats er niet bij staat — vaak kan ik er toch bij.</p>
+    </div>
+  </section>
+  <section class="section">
+    <div class="wrap">
+      <div class="grid grid-3">
+        {PLAATSEN.map((p) => (
+          <a class="card" href={`/werkgebied/${p.slug}`}>
+            <h3>{p.naam}</h3>
+            <p>{p.reistijd ?? "In mijn werkgebied"}</p>
+          </a>
+        ))}
+      </div>
+      <p style="margin-top:24px;">
+        Staat je plaats er niet tussen? <a href={telHref}>Bel {SITE.telefoonWeergave}</a> — ik kijk graag of ik kan komen.
+      </p>
+    </div>
+  </section>
+</Base>

@@ -1,0 +1,112 @@
+---
+import Base from "../../layouts/Base.astro";
+import { SITE, telHref, waHref } from "../../site.config.ts";
+import { DIENSTEN } from "../../data/diensten.ts";
+import { PLAATSEN } from "../../data/plaatsen.ts";
+
+export function getStaticPaths() {
+  return DIENSTEN.map((d) => ({ params: { dienst: d.slug }, props: { d } }));
+}
+
+const { d } = Astro.props;
+const path = `/diensten/${d.slug}`;
+
+const serviceSchema = {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  name: d.titel,
+  serviceType: d.titel,
+  description: d.metaDescription,
+  provider: { "@type": "RoofingContractor", name: SITE.bedrijfsnaam, telephone: `+${SITE.telefoonE164}` },
+  areaServed: PLAATSEN.map((p) => ({ "@type": "City", name: p.naam })),
+};
+const faqSchema = d.faq.length
+  ? {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      mainEntity: d.faq.map((f) => ({ "@type": "Question", name: f.v, acceptedAnswer: { "@type": "Answer", text: f.a } })),
+    }
+  : null;
+const schema = faqSchema ? [serviceSchema, faqSchema] : serviceSchema;
+const andere = DIENSTEN.filter((x) => x.slug !== d.slug);
+---
+
+<Base title={d.metaTitle} description={d.metaDescription} path={path} schema={schema}>
+  <section class="hero">
+    <div class="wrap">
+      <p class="eyebrow" style="color:#ffb486;">{d.titel} · {SITE.regioOmschrijving}</p>
+      <h1>{d.h1}</h1>
+      <p class="lead">{d.intro}</p>
+      <div class="btn-row" style="margin-top:22px;">
+        <a class="btn btn--primary" href={telHref}>📞 Bel {SITE.telefoonWeergave}</a>
+        <a class="btn btn--wa" href={waHref(`Hoi Rens, ik heb een vraag over ${d.titel.toLowerCase()}.`)}>WhatsApp Rens</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap" style="display:grid; grid-template-columns: 1.3fr .9fr; gap:40px;">
+      <div class="prose">
+        <h2>Wat ik voor je doe</h2>
+        <ul class="checks">
+          {d.punten.map((p) => <li>{p}</li>)}
+        </ul>
+        <p>
+          Werk je liever met één vast aanspreekpunt voor je hele dak? Dat is precies wat ik bied:
+          ik kom langs, leg uit wat ik zie, en je krijgt een vaste prijs vooraf. Geen callcenter,
+          geen verrassingen.
+        </p>
+      </div>
+      <aside>
+        <div class="card">
+          <h3>Direct contact</h3>
+          <p>Bel of WhatsApp voor een gratis, vrijblijvende inspectie in {SITE.regioOmschrijving}.</p>
+          <div class="btn-row" style="margin-top:14px; flex-direction:column;">
+            <a class="btn btn--primary" href={telHref}>📞 {SITE.telefoonWeergave}</a>
+            <a class="btn btn--outline" href="/contact">Offerte aanvragen</a>
+          </div>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  {d.faq.length > 0 && (
+    <section class="section section--soft">
+      <div class="wrap">
+        <h2>Veelgestelde vragen over {d.titel.toLowerCase()}</h2>
+        <div class="faq" style="margin-top:16px; max-width:760px;">
+          {d.faq.map((f) => (
+            <details>
+              <summary>{f.v}</summary>
+              <p>{f.a}</p>
+            </details>
+          ))}
+        </div>
+      </div>
+    </section>
+  )}
+
+  <section class="section section--white">
+    <div class="wrap">
+      <h2>{d.titel} in de regio Den Bosch</h2>
+      <p class="lead">Ik werk in {SITE.regioOmschrijving}. Kies je plaats voor meer info:</p>
+      <div class="chips">
+        {PLAATSEN.map((p) => <a class="chip" href={`/werkgebied/${p.slug}`}>{p.naam}</a>)}
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <h2>Andere diensten</h2>
+      <div class="grid grid-3" style="margin-top:18px;">
+        {andere.map((x) => (
+          <a class="card" href={`/diensten/${x.slug}`}>
+            <h3>{x.titel}</h3>
+            <p>{x.kort}</p>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+</Base>

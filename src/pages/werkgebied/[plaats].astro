@@ -1,0 +1,112 @@
+---
+import Base from "../../layouts/Base.astro";
+import { SITE, telHref, waHref } from "../../site.config.ts";
+import { PLAATSEN } from "../../data/plaatsen.ts";
+import { DIENSTEN } from "../../data/diensten.ts";
+
+export function getStaticPaths() {
+  return PLAATSEN.map((p) => ({ params: { plaats: p.slug }, props: { p } }));
+}
+
+const { p } = Astro.props;
+const path = `/werkgebied/${p.slug}`;
+const titel = `Dakdekker in ${p.naam}`;
+
+const faq = [
+  { v: `Werk je in heel ${p.naam}?`, a: `Ja, ik werk in heel ${p.naam}${p.wijken.length ? ` — onder andere ${p.wijken.slice(0, 3).join(", ")}` : ""} en de directe omgeving. ${p.reistijd ? `Het is maar ${p.reistijd}.` : ""}` },
+  { v: `Kun je snel langskomen in ${p.naam}?`, a: `Bij spoed of lekkage vaak nog dezelfde dag, want ${p.naam} ligt in mijn vaste werkgebied rond Den Bosch.` },
+  { v: `Wat kost een dakdekker in ${p.naam}?`, a: `Goten reinigen vanaf €25, een punctuele daklekkage meestal €200–€500, en het uurtarief ligt rond €35–€50. Je hoort altijd vooraf de vaste prijs.` },
+];
+
+const schema = [
+  {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    name: `Dakdekker ${p.naam}`,
+    description: `Dakdekker in ${p.naam}: goten reinigen, daklekkage, dakreparatie en stormschade.`,
+    provider: { "@type": "RoofingContractor", name: SITE.bedrijfsnaam, telephone: `+${SITE.telefoonE164}` },
+    areaServed: { "@type": "City", name: p.naam },
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: faq.map((f) => ({ "@type": "Question", name: f.v, acceptedAnswer: { "@type": "Answer", text: f.a } })),
+  },
+];
+---
+
+<Base
+  title={`Dakdekker ${p.naam} | goten, lekkage & reparatie — ${SITE.bedrijfsnaam}`}
+  description={`Dakdekker in ${p.naam} nodig? Goten reinigen vanaf €25, daklekkage vaak dezelfde dag verholpen, eerlijke prijs vooraf. Bel of WhatsApp Rens.`}
+  path={path}
+  schema={schema}
+>
+  <section class="hero">
+    <div class="wrap">
+      <p class="eyebrow" style="color:#ffb486;">Werkgebied · {p.reistijd ?? SITE.regioOmschrijving}</p>
+      <h1>{titel} — goten, lekkage &amp; reparatie</h1>
+      <p class="lead">
+        Zoek je een betrouwbare dakdekker in {p.naam}? Je krijgt mij — Rens — aan de lijn.
+        Ik kom langs voor een gratis inspectie en je hoort een eerlijke, vaste prijs vooraf.
+      </p>
+      <div class="btn-row" style="margin-top:22px;">
+        <a class="btn btn--primary" href={telHref}>📞 Bel {SITE.telefoonWeergave}</a>
+        <a class="btn btn--wa" href={waHref(`Hoi Rens, ik zoek een dakdekker in ${p.naam}.`)}>WhatsApp Rens</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap prose">
+      <h2>Dakdekker in {p.naam}</h2>
+      <p>{p.lokaal}</p>
+      <p>
+        Of het nu gaat om volle goten, een lek na de regen of losse pannen na een storm —
+        ik help je er snel en netjes vanaf. {p.reistijd ? `${p.naam} is ${p.reistijd}, ` : ""}
+        dus ik ben vaak snel ter plaatse.
+      </p>
+      {p.wijken.length > 0 && (
+        <p>Ik kom door heel {p.naam}, waaronder {p.wijken.join(", ")}.</p>
+      )}
+    </div>
+  </section>
+
+  <section class="section section--soft">
+    <div class="wrap">
+      <h2>Wat ik in {p.naam} doe</h2>
+      <div class="grid grid-3" style="margin-top:18px;">
+        {DIENSTEN.map((d) => (
+          <a class="card" href={`/diensten/${d.slug}`}>
+            <h3>{d.titel}</h3>
+            <p>{d.kort}</p>
+            {d.vanafPrijs && <span class="price">{d.vanafPrijs}</span>}
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <h2>Veelgestelde vragen — {p.naam}</h2>
+      <div class="faq" style="margin-top:16px; max-width:760px;">
+        {faq.map((f) => (
+          <details>
+            <summary>{f.v}</summary>
+            <p>{f.a}</p>
+          </details>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--white">
+    <div class="wrap">
+      <h2>Ook dakdekker in de buurt</h2>
+      <div class="chips">
+        {PLAATSEN.filter((x) => x.slug !== p.slug).map((x) => <a class="chip" href={`/werkgebied/${x.slug}`}>{x.naam}</a>)}
+        <a class="chip" href="/diensten">Alle diensten →</a>
+      </div>
+    </div>
+  </section>
+</Base>

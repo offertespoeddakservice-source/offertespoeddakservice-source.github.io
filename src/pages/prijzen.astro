@@ -1,0 +1,87 @@
+---
+import Base from "../layouts/Base.astro";
+import { SITE, telHref, waHref } from "../site.config.ts";
+
+const rijen = [
+  { dienst: "Dakgoot reinigen", prijs: "€25 p/kant · €40 beide", uitleg: "Doorsnee rijtjeswoning. Groter/hoger huis: vaste prijs vooraf." },
+  { dienst: "Schoorsteen vegen", prijs: "€70", uitleg: "Hele schoorsteen, netjes en zonder roetzooi in huis." },
+  { dienst: "Dakkapel poetsen", prijs: "vanaf €70", uitleg: "Reinigen plus controle van kit en aansluitingen." },
+  { dienst: "Zonnepanelen reinigen", prijs: "vanaf €10 p/paneel", uitleg: "Streepvrij schoon voor maximale opbrengst." },
+  { dienst: "Dak reinigen / mos", prijs: "vaste prijs na inspectie", uitleg: "Afhankelijk van oppervlak en vervuiling." },
+  { dienst: "Dak / pannen coaten", prijs: "vaste prijs na inspectie", uitleg: "Veel goedkoper dan vervangen — prijs na een gratis blik." },
+  { dienst: "Dakgoot / pannen vervangen", prijs: "vaste prijs na inspectie", uitleg: "Materiaal + werk, altijd vooraf afgesproken." },
+  { dienst: "Uurtarief dakwerk", prijs: "€35 – €50 p/u", uitleg: "Voor kleine reparaties en losse klussen." },
+  { dienst: "Daklekkage (punctueel)", prijs: "€200 – €500", uitleg: "Eén lek opsporen en dichten, incl. materiaal." },
+  { dienst: "Spoed buiten kantooruren", prijs: "+20 – 30%", uitleg: "Toeslag voor 's avonds, weekend en feestdagen." },
+  { dienst: "Inspectie & offerte", prijs: "gratis", uitleg: "Vrijblijvend, en geen voorrijkosten." },
+];
+
+const faq = [
+  { v: "Waarom geen vaste prijslijst voor alles?", a: "Elk dak is anders. Daarom kom ik eerst kijken en geef je een vaste prijs vóórdat ik begin — dan weet je precies waar je aan toe bent." },
+  { v: "Reken je voorrijkosten?", a: "Nee. De inspectie en offerte zijn gratis en vrijblijvend." },
+];
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: faq.map((f) => ({ "@type": "Question", name: f.v, acceptedAnswer: { "@type": "Answer", text: f.a } })),
+};
+---
+
+<Base
+  title={`Prijzen dakdekker — eerlijk & vooraf | ${SITE.bedrijfsnaam}`}
+  description="Wat kost een dakdekker? Goten reinigen vanaf €25, uurtarief €35–€50, daklekkage €200–€500. Altijd een vaste prijs vooraf en geen voorrijkosten."
+  path="/prijzen"
+  schema={faqSchema}
+>
+  <section class="hero">
+    <div class="wrap">
+      <p class="eyebrow" style="color:#ffb486;">Prijzen</p>
+      <h1>Eerlijke prijzen, altijd vooraf</h1>
+      <p class="lead">Geen verrassingen achteraf. Hieronder een richtlijn — bij elke klus hoor je de vaste prijs voordat ik begin.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap" style="max-width:820px;">
+      <table style="width:100%; border-collapse:collapse;">
+        <thead>
+          <tr style="text-align:left; border-bottom:2px solid var(--line);">
+            <th style="padding:12px 10px;">Dienst</th>
+            <th style="padding:12px 10px;">Richtprijs</th>
+            <th style="padding:12px 10px;">Toelichting</th>
+          </tr>
+        </thead>
+        <tbody>
+          {rijen.map((r) => (
+            <tr style="border-bottom:1px solid var(--line);">
+              <td style="padding:12px 10px; font-weight:700; color:var(--navy);">{r.dienst}</td>
+              <td style="padding:12px 10px; color:var(--orange); font-weight:700; white-space:nowrap;">{r.prijs}</td>
+              <td style="padding:12px 10px; color:var(--muted);">{r.uitleg}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+      <p class="notice" style="margin-top:20px;">
+        Richtprijzen op basis van marktgemiddelden 2025/26. Jouw vaste prijs hoor je na een gratis inspectie.
+      </p>
+      <div class="btn-row" style="margin-top:22px;">
+        <a class="btn btn--primary" href={telHref}>📞 Bel voor een prijs</a>
+        <a class="btn btn--wa" href={waHref("Hoi Rens, kun je me een prijsindicatie geven?")}>WhatsApp Rens</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--soft">
+    <div class="wrap">
+      <h2>Vragen over prijs</h2>
+      <div class="faq" style="margin-top:16px; max-width:760px;">
+        {faq.map((f) => (
+          <details>
+            <summary>{f.v}</summary>
+            <p>{f.a}</p>
+          </details>
+        ))}
+      </div>
+    </div>
+  </section>
+</Base>

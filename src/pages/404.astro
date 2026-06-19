@@ -1,0 +1,23 @@
+---
+import Base from "../layouts/Base.astro";
+import { SITE, telHref, waHref } from "../site.config.ts";
+---
+
+<Base
+  title={`Pagina niet gevonden | ${SITE.bedrijfsnaam}`}
+  description="Deze pagina bestaat niet (meer). Ga terug naar de homepage of bel direct voor dakwerk in de regio Den Bosch."
+  path="/404"
+>
+  <section class="hero">
+    <div class="wrap">
+      <p class="eyebrow" style="color:#ffb486;">404</p>
+      <h1>Deze pagina bestaat niet</h1>
+      <p class="lead">Misschien een typefout in het adres. Ga terug naar de start, of bel/app me gewoon even.</p>
+      <div class="btn-row" style="margin-top:22px;">
+        <a class="btn btn--primary" href="/">Naar de homepage</a>
+        <a class="btn btn--wa" href={waHref()}>WhatsApp Rens</a>
+        <a class="btn btn--ghost" href={telHref}>Bel {SITE.telefoonWeergave}</a>
+      </div>
+    </div>
+  </section>
+</Base>

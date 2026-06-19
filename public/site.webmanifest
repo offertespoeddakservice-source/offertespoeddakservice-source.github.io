@@ -1,0 +1,12 @@
+{
+  "name": "Spoed Dak Service",
+  "short_name": "Spoed Dak",
+  "description": "Dakdekker in de regio Den Bosch — goten, lekkage, reparatie.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f7f3ec",
+  "theme_color": "#0f2742",
+  "icons": [
+    { "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ]
+}

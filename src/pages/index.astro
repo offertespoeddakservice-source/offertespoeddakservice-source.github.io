@@ -1,0 +1,149 @@
+---
+import Base from "../layouts/Base.astro";
+import { SITE, telHref, waHref } from "../site.config.ts";
+import { DIENSTEN } from "../data/diensten.ts";
+import { PLAATSEN } from "../data/plaatsen.ts";
+
+const score = SITE.reviews.score.toString().replace(".", ",");
+
+const faq = [
+  { v: "Wat kost het om iemand te laten komen?", a: "Geen voorrijkosten en een gratis, vrijblijvende inspectie. Goten reinigen begint vanaf €25 per kant (€40 beide), en bij elke klus hoor je vooraf de vaste prijs." },
+  { v: "Hoe snel kun je komen?", a: "Bij spoed en lekkage vaak nog dezelfde dag in de regio Den Bosch. Bel of WhatsApp me, dan hoor je meteen wat kan." },
+  { v: "Werk je ook bij mij in de buurt?", a: `Ik werk in ${SITE.regioOmschrijving}. Staat je plaats er niet bij? Bel gerust, vaak kan ik er toch bij.` },
+  { v: "Krijg ik garantie?", a: "Ja, op het uitgevoerde werk krijg je garantie. Ik leg vooraf duidelijk uit wat ik doe en wat het kost." },
+];
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: faq.map((f) => ({ "@type": "Question", name: f.v, acceptedAnswer: { "@type": "Answer", text: f.a } })),
+};
+---
+
+<Base
+  title={`Dakdekker regio Den Bosch | ${SITE.bedrijfsnaam} — goten, lekkage & reparatie`}
+  description="Vakkundig dakwerk door één vaste man in de regio Den Bosch. Goten reinigen vanaf €25, daklekkage vaak dezelfde dag verholpen, eerlijke prijs vooraf. Bel of WhatsApp Rens."
+  path="/"
+  schema={faqSchema}
+>
+  <!-- HERO -->
+  <section class="hero">
+    <div class="wrap">
+      <div class="topline">
+        <span class="kicker">Dakdekker · {SITE.regioOmschrijving}</span>
+        <span class="stars"><span class="ster">★★★★★</span> <b>{score}</b></span>
+      </div>
+      <h1>Vakkundig dakwerk<br />door één vaste man</h1>
+      <p class="lead">
+        Geen callcenter, geen verrassingen achteraf. Je krijgt mij — Rens — aan de lijn,
+        ik kom langs, en je hoort eerlijk wat er nodig is. Vaste prijs vooraf.
+      </p>
+      <div class="pricehook">
+        <span class="van">Goten reinigen<br />vanaf</span>
+        <span class="big">€25</span>
+        <span class="per">per kant<br />€40 beide</span>
+      </div>
+      <div class="hero-checks">
+        <span><span class="v">✓</span> Gratis dakinspectie</span>
+        <span><span class="v">✓</span> Geen voorrijkosten</span>
+        <span><span class="v">✓</span> Garantie op het werk</span>
+        <span><span class="v">✓</span> Vaak dezelfde dag bij spoed</span>
+      </div>
+      <div class="btn-row">
+        <a class="btn btn--primary" href={telHref}>Bel {SITE.telefoonWeergave}</a>
+        <a class="btn btn--wa" href={waHref()}>WhatsApp Rens</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- DIENSTEN -->
+  <section class="section">
+    <div class="wrap">
+      <p class="eyebrow">Wat ik doe</p>
+      <h2>Voor je hele dak één aanspreekpunt</h2>
+      <p class="lead">Van een verstopte goot tot een lekkend dak — snel, netjes, en met een eerlijke prijs vooraf.</p>
+      <div class="grid grid-3" style="margin-top:26px;">
+        {DIENSTEN.map((d, i) => (
+          <a class="card" href={`/diensten/${d.slug}`}>
+            <span class="num">{(i + 1).toString().padStart(2, "0")}</span>
+            <h3 style="margin-top:6px;">{d.titel}</h3>
+            <p>{d.kort}</p>
+            {d.vanafPrijs && <span class="price">{d.vanafPrijs}</span>}
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- WAAROM RENS -->
+  <section class="section section--white">
+    <div class="wrap">
+      <p class="eyebrow">Waarom mij</p>
+      <h2>Een echte dakdekker, geen tussenpersoon</h2>
+      <div class="grid grid-3" style="margin-top:22px;">
+        <div class="card">
+          <h3>Je krijgt mij</h3>
+          <p>Eén vast gezicht van offerte tot oplevering. Korte lijnen — gewoon mijn nummer, geen callcenter.</p>
+        </div>
+        <div class="card">
+          <h3>Eerlijke prijs vooraf</h3>
+          <p>Vaste prijs voordat ik begin. Geen voorrijkosten, geen verrassingen achteraf.</p>
+        </div>
+        <div class="card">
+          <h3>Uit de regio</h3>
+          <p>Ik werk in {SITE.regioOmschrijving} — vaak ben ik al bij jou in de buurt.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WIJK-PLANNER (urgentie, zoals flyer) -->
+  <section class="section">
+    <div class="wrap" style="display:grid; grid-template-columns: 1.1fr .9fr; gap:34px; align-items:center;">
+      <div>
+        <p class="eyebrow">Plan slim</p>
+        <h2>Ik ben binnenkort bij jou in de wijk</h2>
+        <p class="lead">Plan je klus als ik tóch in de buurt ben en je betaalt <strong>geen voorrijkosten</strong>. Bel of app even — dan zeg ik wanneer ik in jouw straat zit.</p>
+        <div class="btn-row" style="margin-top:18px;">
+          <a class="btn btn--primary" href={telHref}>Bel {SITE.telefoonWeergave}</a>
+          <a class="btn btn--outline" href="/werkgebied">Bekijk werkgebied</a>
+        </div>
+      </div>
+      <div class="planner">
+        <strong style="font-family:var(--font-display); color:var(--navy); text-transform:uppercase; letter-spacing:.03em; font-size:.92rem;">Wanneer ben ik in jouw wijk?</strong>
+        <div class="days">
+          <div class="day">MA</div><div class="day">DI</div><div class="day">WO</div><div class="day">DO</div><div class="day">VR</div><div class="day">ZA</div>
+        </div>
+        <p style="margin:0; color:var(--muted); font-size:.95rem;">Datum al geweest? Bel toch — vaak ben ik snel weer in de buurt.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- WERKGEBIED -->
+  <section class="section section--white">
+    <div class="wrap">
+      <p class="eyebrow">Werkgebied</p>
+      <h2>In welke plaatsen ik kom</h2>
+      <p class="lead">Klik op je plaats voor meer info — of bel gerust als je plaats er niet bij staat.</p>
+      <div class="chips">
+        {PLAATSEN.map((p) => <a class="chip" href={`/werkgebied/${p.slug}`}>{p.naam}</a>)}
+        <a class="chip" href="/werkgebied">Hele werkgebied →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section">
+    <div class="wrap">
+      <p class="eyebrow">Veelgestelde vragen</p>
+      <h2>Goed om te weten</h2>
+      <div class="faq" style="margin-top:18px; max-width:780px;">
+        {faq.map((f) => (
+          <details>
+            <summary>{f.v}</summary>
+            <p>{f.a}</p>
+          </details>
+        ))}
+      </div>
+    </div>
+  </section>
+</Base>

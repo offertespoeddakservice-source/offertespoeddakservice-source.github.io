@@ -1,0 +1,75 @@
+---
+import Base from "../layouts/Base.astro";
+import { SITE, telHref, waHref } from "../site.config.ts";
+---
+
+<Base
+  title={`Contact & offerte | ${SITE.bedrijfsnaam} — dakdekker regio Den Bosch`}
+  description="Vraag een gratis, vrijblijvende offerte aan of bel direct. Spoed Dak Service — dakdekker in de regio Den Bosch. Bel, WhatsApp of vul het formulier in."
+  path="/contact"
+>
+  <section class="hero">
+    <div class="wrap">
+      <p class="eyebrow" style="color:#ffb486;">Contact</p>
+      <h1>Gratis offerte of direct contact</h1>
+      <p class="lead">Het snelst is bellen of WhatsAppen — dan heb je mij meteen. Liever het formulier? Ik reageer dezelfde dag.</p>
+      <div class="btn-row" style="margin-top:22px;">
+        <a class="btn btn--primary" href={telHref}>📞 Bel {SITE.telefoonWeergave}</a>
+        <a class="btn btn--wa" href={waHref("Hoi Rens, ik wil graag een offerte voor mijn dak.")}>WhatsApp Rens</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap" style="display:grid; grid-template-columns: 1fr .8fr; gap:40px; align-items:start;">
+      <div>
+        <h2>Offerte aanvragen</h2>
+        <p class="lead" style="font-size:1.05rem;">Vul kort in wat er speelt, dan neem ik contact op.</p>
+        <!--
+          KOPPELING MET JE BESTAANDE SYSTEEM:
+          Zet hieronder de "action" naar je Google Form (formResponse-URL) en de
+          name-attributen naar de entry.XXXX velden van dat formulier. Dan valt elke
+          weblead automatisch in dezelfde sheet die klussen_sync.py al uitleest
+          (naam/adres/postcode/service/beschrijving). Alternatief: Formspree/Netlify Forms.
+        -->
+        <form class="form" method="POST" action="mailto:offerte.spoeddakservice@gmail.com" enctype="text/plain">
+          <label>Naam
+            <input type="text" name="naam" required autocomplete="name" />
+          </label>
+          <label>Telefoon
+            <input type="tel" name="telefoon" required autocomplete="tel" />
+          </label>
+          <label>Plaats
+            <input type="text" name="plaats" autocomplete="address-level2" />
+          </label>
+          <label>Waar kan ik mee helpen?
+            <select name="service">
+              <option>Goten reinigen</option>
+              <option>Daklekkage / spoed</option>
+              <option>Dakreparatie</option>
+              <option>Plat dak / EPDM</option>
+              <option>Stormschade</option>
+              <option>Iets anders</option>
+            </select>
+          </label>
+          <label>Korte omschrijving
+            <textarea name="beschrijving" placeholder="Bijv. goot loopt over aan de achterkant"></textarea>
+          </label>
+          <button class="btn btn--primary" type="submit">Verstuur aanvraag</button>
+          <p class="notice">Liever direct? Bel of WhatsApp — dan heb je meteen antwoord.</p>
+        </form>
+      </div>
+      <aside>
+        <div class="card">
+          <h3>Direct</h3>
+          <ul class="checks" style="margin-top:8px;">
+            <li><a href={telHref}>{SITE.telefoonWeergave}</a></li>
+            <li><a href={waHref()}>WhatsApp Rens</a></li>
+            <li><a href={`mailto:${SITE.email}`}>{SITE.email}</a></li>
+          </ul>
+          <p style="margin-top:10px; color:var(--muted);">Werkgebied: {SITE.regioOmschrijving}.</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+</Base>

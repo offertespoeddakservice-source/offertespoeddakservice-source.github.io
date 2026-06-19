@@ -1,0 +1,162 @@
+---
+import "../styles/global.css";
+import { SITE, NAV, telHref, waHref } from "../site.config.ts";
+import { PLAATSEN } from "../data/plaatsen.ts";
+
+interface Props {
+  title: string;
+  description: string;
+  path?: string;
+  schema?: object | object[];
+}
+
+const { title, description, path = "/", schema } = Astro.props;
+const canonical = new URL(path, SITE.url).href;
+
+const businessSchema: Record<string, unknown> = {
+  "@context": "https://schema.org",
+  "@type": "RoofingContractor",
+  name: SITE.bedrijfsnaam,
+  description: SITE.slogan,
+  url: SITE.url,
+  telephone: `+${SITE.telefoonE164}`,
+  email: SITE.email,
+  image: `${SITE.url}/og.svg`,
+  priceRange: "€€",
+  openingHoursSpecification: {
+    "@type": "OpeningHoursSpecification",
+    dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+    opens: "07:00",
+    closes: "20:00",
+  },
+  areaServed: PLAATSEN.map((p) => ({ "@type": "City", name: p.naam })),
+  address: { "@type": "PostalAddress", addressLocality: SITE.basisplaats, addressRegion: "Noord-Brabant", addressCountry: "NL" },
+  geo: { "@type": "GeoCoordinates", latitude: SITE.geo.lat, longitude: SITE.geo.lon },
+};
+if (SITE.reviews.aantal > 0) {
+  businessSchema.aggregateRating = { "@type": "AggregateRating", ratingValue: SITE.reviews.score, reviewCount: SITE.reviews.aantal };
+}
+const crumbs = path !== "/" ? path.split("/").filter(Boolean) : [];
+const breadcrumbSchema = crumbs.length
+  ? {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        { "@type": "ListItem", position: 1, name: "Home", item: SITE.url },
+        ...crumbs.map((seg, i) => ({
+          "@type": "ListItem",
+          position: i + 2,
+          name: decodeURIComponent(seg).replace(/-/g, " "),
+          item: new URL("/" + crumbs.slice(0, i + 1).join("/") + "/", SITE.url).href,
+        })),
+      ],
+    }
+  : null;
+const schemas = [businessSchema, ...(breadcrumbSchema ? [breadcrumbSchema] : []), ...(Array.isArray(schema) ? schema : schema ? [schema] : [])];
+---
+
+<!doctype html>
+<html lang="nl">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    <meta name="robots" content="index, follow" />
+    <meta name="theme-color" content="#0f2742" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="nl_NL" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:site_name" content={SITE.bedrijfsnaam} />
+    <meta property="og:image" content={`${SITE.url}/og.svg`} />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={`${SITE.url}/og.svg`} />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="/favicon.svg" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+    {schemas.map((s) => <script type="application/ld+json" set:html={JSON.stringify(s)} />)}
+  </head>
+  <body>
+    <a href="#hoofd" class="skip">Naar inhoud</a>
+    <header class="site-header">
+      <div class="wrap">
+        <a href="/" class="brand">Spoed <span>Dak</span> Service</a>
+        <nav class="nav" aria-label="Hoofdmenu">
+          <div class="nav-links">
+            {NAV.map((item) => <a href={item.href}>{item.label}</a>)}
+          </div>
+          <a class="btn btn--primary" href={telHref}>Bel {SITE.telefoonWeergave}</a>
+        </nav>
+      </div>
+    </header>
+
+    <div class="trust-strip">
+      Échte dakdekker uit de buurt — géén callcenter · garantie op het werk
+    </div>
+
+    <main id="hoofd">
+      <slot />
+    </main>
+
+    <section class="section section--navy cta-band">
+      <div class="wrap">
+        <p class="eyebrow" style="color:#ffb486;">Direct geholpen</p>
+        <h2>Dak nakijken of een lek verhelpen?</h2>
+        <p class="lead" style="margin: 0 auto 24px; color:#c2d2e3;">
+          Je krijgt mij — Rens — meteen aan de lijn. Eerlijk advies, vaste prijs vooraf.
+        </p>
+        <div class="btn-row" style="justify-content:center;">
+          <a class="btn btn--primary" href={telHref}>Bel {SITE.telefoonWeergave}</a>
+          <a class="btn btn--wa" href={waHref()}>WhatsApp Rens</a>
+        </div>
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      <div class="wrap">
+        <div class="cols">
+          <div>
+            <h4>{SITE.bedrijfsnaam}</h4>
+            <p>{SITE.slogan}</p>
+            <p>Werkgebied: {SITE.regioOmschrijving}.</p>
+          </div>
+          <div>
+            <h4>Diensten</h4>
+            <ul>
+              <li><a href="/diensten/goten-reinigen">Goten reinigen</a></li>
+              <li><a href="/diensten/daklekkage">Daklekkage &amp; spoed</a></li>
+              <li><a href="/diensten/dakreparatie">Dakreparatie</a></li>
+              <li><a href="/diensten/platte-daken">Platte daken (EPDM)</a></li>
+              <li><a href="/diensten/stormschade">Stormschade</a></li>
+            </ul>
+          </div>
+          <div>
+            <h4>Contact</h4>
+            <ul>
+              <li><a href={telHref}>{SITE.telefoonWeergave}</a></li>
+              <li><a href={waHref()}>WhatsApp</a></li>
+              <li><a href={`mailto:${SITE.email}`}>{SITE.email}</a></li>
+              <li><a href="/werkgebied">Werkgebied</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="foot-bottom">
+          © {new Date().getFullYear()} {SITE.bedrijfsnaam}{SITE.kvk ? ` · KvK ${SITE.kvk}` : ""} · regio {SITE.basisplaats}
+        </div>
+      </div>
+    </footer>
+
+    <div class="sticky-cta">
+      <a class="btn btn--primary" href={telHref}>Bellen</a>
+      <a class="btn btn--wa" href={waHref()}>WhatsApp</a>
+    </div>
+  </body>
+</html>

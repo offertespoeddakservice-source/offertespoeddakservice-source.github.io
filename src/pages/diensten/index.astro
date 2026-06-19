@@ -1,0 +1,32 @@
+---
+import Base from "../../layouts/Base.astro";
+import { SITE } from "../../site.config.ts";
+import { DIENSTEN } from "../../data/diensten.ts";
+---
+
+<Base
+  title={`Diensten — dakwerk in ${SITE.regioOmschrijving} | ${SITE.bedrijfsnaam}`}
+  description="Alle dakdiensten van Spoed Dak Service: goten reinigen vanaf €25, daklekkage & spoed, dakreparatie, platte daken (EPDM) en stormschade in de regio Den Bosch."
+  path="/diensten"
+>
+  <section class="hero">
+    <div class="wrap">
+      <p class="eyebrow" style="color:#ffb486;">Diensten</p>
+      <h1>Voor je hele dak één aanspreekpunt</h1>
+      <p class="lead">Van een verstopte goot tot een lekkend dak — ik help je er snel en netjes vanaf, met een eerlijke prijs vooraf.</p>
+    </div>
+  </section>
+  <section class="section">
+    <div class="wrap">
+      <div class="grid grid-3">
+        {DIENSTEN.map((d) => (
+          <a class="card" href={`/diensten/${d.slug}`}>
+            <h3>{d.titel}</h3>
+            <p>{d.kort}</p>
+            {d.vanafPrijs && <span class="price">{d.vanafPrijs}</span>}
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+</Base>
