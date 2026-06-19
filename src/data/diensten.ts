@@ -121,6 +121,7 @@ export const DIENSTEN: Dienst[] = [
         v: "Repareren of het hele dak vervangen?",
         a: "Bij een enkel lek op een verder gezond dak is repareren prima. Is de bedekking op meerdere plekken versleten, dan is vervangen op termijn goedkoper. Ik vertel je eerlijk wat in jouw geval slim is.",
       },
+      { v: "EPDM of bitumen — wat is beter?", a: "Beide zijn prima. EPDM is één flexibel, naadloos vel; bitumen is vertrouwd en sterk. Ik adviseer wat bij jouw dak en budget past." },
     ],
   },
   {
@@ -166,6 +167,7 @@ export const DIENSTEN: Dienst[] = [
     ],
     faq: [
       { v: "Reinigen of vervangen?", a: "Zit er alleen blad in, dan volstaat reinigen. Is de goot doorgeroest of lek op de naden, dan is vervangen op termijn goedkoper. Ik zeg eerlijk wat in jouw geval slim is." },
+      { v: "Welk materiaal kies ik?", a: "Zink gaat het langst mee en oogt klassiek; kunststof/pvc is voordeliger en onderhoudsarm. Ik help je kiezen wat bij je huis past." },
     ],
   },
   {
@@ -187,6 +189,7 @@ export const DIENSTEN: Dienst[] = [
     ],
     faq: [
       { v: "Wanneer is coaten zinvol?", a: "Als je pannen of goot nog stevig zijn maar verweerd. Zijn ze poreus of versleten, dan is coaten zonde — dan adviseer ik vervangen. Ik kom kijken en zeg het eerlijk." },
+      { v: "Kun je ook de dakgoot coaten?", a: "Ja. Een goot die nog goed is maar verweerd kun je coaten tegen roest en slijtage — veel goedkoper dan vervangen." },
     ],
   },
   {

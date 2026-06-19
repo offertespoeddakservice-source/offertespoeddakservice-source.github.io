@@ -22,6 +22,7 @@ const businessSchema: Record<string, unknown> = {
   telephone: `+${SITE.telefoonE164}`,
   email: SITE.email,
   image: `${SITE.url}/og.svg`,
+  logo: `${SITE.url}/favicon.svg`,
   priceRange: "€€",
   openingHoursSpecification: {
     "@type": "OpeningHoursSpecification",
@@ -52,7 +53,8 @@ const breadcrumbSchema = crumbs.length
       ],
     }
   : null;
-const schemas = [businessSchema, ...(breadcrumbSchema ? [breadcrumbSchema] : []), ...(Array.isArray(schema) ? schema : schema ? [schema] : [])];
+const websiteSchema = { "@context": "https://schema.org", "@type": "WebSite", name: SITE.bedrijfsnaam, url: SITE.url, inLanguage: "nl-NL" };
+const schemas = [businessSchema, websiteSchema, ...(breadcrumbSchema ? [breadcrumbSchema] : []), ...(Array.isArray(schema) ? schema : schema ? [schema] : [])];
 ---
 
 <!doctype html>
@@ -91,7 +93,9 @@ const schemas = [businessSchema, ...(breadcrumbSchema ? [breadcrumbSchema] : [])
         <a href="/" class="brand">Spoed <span>Dak</span> Service</a>
         <nav class="nav" aria-label="Hoofdmenu">
           <div class="nav-links">
-            {NAV.map((item) => <a href={item.href}>{item.label}</a>)}
+            {NAV.map((item) => (
+              <a href={item.href} aria-current={path === item.href || path.startsWith(item.href + "/") ? "page" : undefined}>{item.label}</a>
+            ))}
           </div>
           <a class="btn btn--primary" href={telHref}>Bel {SITE.telefoonWeergave}</a>
         </nav>
@@ -101,6 +105,24 @@ const schemas = [businessSchema, ...(breadcrumbSchema ? [breadcrumbSchema] : [])
     <div class="trust-strip">
       Échte dakdekker uit de buurt — géén callcenter · garantie op het werk
     </div>
+
+    {crumbs.length > 0 && (
+      <nav class="breadcrumbs" aria-label="Kruimelpad">
+        <div class="wrap">
+          <a href="/">Home</a>
+          {crumbs.map((seg, i) => (
+            <Fragment>
+              <span class="sep" aria-hidden="true">›</span>
+              {i === crumbs.length - 1 ? (
+                <span aria-current="page">{decodeURIComponent(seg).replace(/-/g, " ")}</span>
+              ) : (
+                <a href={"/" + crumbs.slice(0, i + 1).join("/") + "/"}>{decodeURIComponent(seg).replace(/-/g, " ")}</a>
+              )}
+            </Fragment>
+          ))}
+        </div>
+      </nav>
+    )}
 
     <main id="hoofd">
       <slot />
@@ -135,7 +157,11 @@ const schemas = [businessSchema, ...(breadcrumbSchema ? [breadcrumbSchema] : [])
               <li><a href="/diensten/daklekkage">Daklekkage &amp; spoed</a></li>
               <li><a href="/diensten/dakreparatie">Dakreparatie</a></li>
               <li><a href="/diensten/platte-daken">Platte daken (EPDM)</a></li>
+              <li><a href="/diensten/dakgoot-vervangen">Dakgoot vervangen</a></li>
+              <li><a href="/diensten/dakcoating">Dak coaten</a></li>
+              <li><a href="/diensten/schoorsteen-vegen">Schoorsteen vegen</a></li>
               <li><a href="/diensten/stormschade">Stormschade</a></li>
+              <li><a href="/diensten">Alle diensten →</a></li>
             </ul>
           </div>
           <div>
@@ -145,6 +171,8 @@ const schemas = [businessSchema, ...(breadcrumbSchema ? [breadcrumbSchema] : [])
               <li><a href={waHref()}>WhatsApp</a></li>
               <li><a href={`mailto:${SITE.email}`}>{SITE.email}</a></li>
               <li><a href="/werkgebied">Werkgebied</a></li>
+              <li><a href="/prijzen">Prijzen</a></li>
+              <li><a href="/kennisbank">Kennisbank</a></li>
             </ul>
           </div>
         </div>
@@ -155,8 +183,8 @@ const schemas = [businessSchema, ...(breadcrumbSchema ? [breadcrumbSchema] : [])
     </footer>
 
     <div class="sticky-cta">
-      <a class="btn btn--primary" href={telHref}>Bellen</a>
-      <a class="btn btn--wa" href={waHref()}>WhatsApp</a>
+      <a class="btn btn--primary" href={telHref} aria-label={`Bel ${SITE.telefoonWeergave}`}>Bellen</a>
+      <a class="btn btn--wa" href={waHref()} aria-label="WhatsApp Rens">WhatsApp</a>
     </div>
   </body>
 </html>

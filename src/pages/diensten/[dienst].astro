@@ -38,7 +38,7 @@ const andere = DIENSTEN.filter((x) => x.slug !== d.slug);
       <h1>{d.h1}</h1>
       <p class="lead">{d.intro}</p>
       <div class="btn-row" style="margin-top:22px;">
-        <a class="btn btn--primary" href={telHref}>📞 Bel {SITE.telefoonWeergave}</a>
+        <a class="btn btn--primary" href={telHref}>Bel {SITE.telefoonWeergave}</a>
         <a class="btn btn--wa" href={waHref(`Hoi Rens, ik heb een vraag over ${d.titel.toLowerCase()}.`)}>WhatsApp Rens</a>
       </div>
     </div>
@@ -62,7 +62,7 @@ const andere = DIENSTEN.filter((x) => x.slug !== d.slug);
           <h3>Direct contact</h3>
           <p>Bel of WhatsApp voor een gratis, vrijblijvende inspectie in {SITE.regioOmschrijving}.</p>
           <div class="btn-row" style="margin-top:14px; flex-direction:column;">
-            <a class="btn btn--primary" href={telHref}>📞 {SITE.telefoonWeergave}</a>
+            <a class="btn btn--primary" href={telHref}>{SITE.telefoonWeergave}</a>
             <a class="btn btn--outline" href="/contact">Offerte aanvragen</a>
           </div>
         </div>

@@ -1,0 +1,82 @@
+---
+import Base from "../../layouts/Base.astro";
+import { SITE, telHref, waHref } from "../../site.config.ts";
+import { ARTIKELEN } from "../../data/artikelen.ts";
+
+export function getStaticPaths() {
+  return ARTIKELEN.map((a) => ({ params: { slug: a.slug }, props: { a } }));
+}
+const { a } = Astro.props;
+const path = `/kennisbank/${a.slug}`;
+
+const articleSchema = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  headline: a.h1,
+  description: a.metaDescription,
+  inLanguage: "nl-NL",
+  author: { "@type": "Person", name: "Rens" },
+  publisher: { "@type": "Organization", name: SITE.bedrijfsnaam, logo: { "@type": "ImageObject", url: `${SITE.url}/favicon.svg` } },
+  mainEntityOfPage: new URL(path, SITE.url).href,
+};
+const faqSchema = a.faq.length
+  ? { "@context": "https://schema.org", "@type": "FAQPage", mainEntity: a.faq.map((f) => ({ "@type": "Question", name: f.v, acceptedAnswer: { "@type": "Answer", text: f.a } })) }
+  : null;
+const schema = faqSchema ? [articleSchema, faqSchema] : articleSchema;
+---
+
+<Base title={a.metaTitle} description={a.metaDescription} path={path} schema={schema}>
+  <section class="hero">
+    <div class="wrap">
+      <p class="eyebrow" style="color:#ffb486;">Kennisbank</p>
+      <h1>{a.h1}</h1>
+      <p class="lead">{a.intro}</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap" style="display:grid; grid-template-columns: 1.4fr .8fr; gap:40px; align-items:start;">
+      <article class="prose">
+        {a.secties.map((s) => (
+          <>
+            <h2>{s.kop}</h2>
+            {s.tekst.map((p) => <p>{p}</p>)}
+          </>
+        ))}
+        <a class="btn btn--primary" href={a.dienst.href} style="margin-top:8px;">{a.dienst.label}</a>
+      </article>
+      <aside>
+        <div class="card">
+          <h3>Direct een vraag?</h3>
+          <p>Bel of WhatsApp Rens voor een gratis, vrijblijvende inspectie in {SITE.regioOmschrijving}.</p>
+          <div class="btn-row" style="margin-top:14px; flex-direction:column;">
+            <a class="btn btn--primary" href={telHref}>{SITE.telefoonWeergave}</a>
+            <a class="btn btn--wa" href={waHref()}>WhatsApp Rens</a>
+          </div>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  {a.faq.length > 0 && (
+    <section class="section section--white">
+      <div class="wrap">
+        <h2>Veelgestelde vragen</h2>
+        <div class="faq" style="margin-top:16px; max-width:760px;">
+          {a.faq.map((f) => (
+            <details>
+              <summary>{f.v}</summary>
+              <p>{f.a}</p>
+            </details>
+          ))}
+        </div>
+      </div>
+    </section>
+  )}
+
+  <section class="section">
+    <div class="wrap">
+      <a href="/kennisbank">← Terug naar de kennisbank</a>
+    </div>
+  </section>
+</Base>

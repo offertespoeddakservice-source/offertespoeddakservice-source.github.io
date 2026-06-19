@@ -6,6 +6,6 @@ import { SITE } from "./src/site.config.ts";
 // https://astro.build/config
 export default defineConfig({
   site: SITE.url,
-  integrations: [sitemap()],
+  integrations: [sitemap({ serialize: (item) => ({ ...item, lastmod: new Date().toISOString() }) })],
   build: { inlineStylesheets: "auto" },
 });

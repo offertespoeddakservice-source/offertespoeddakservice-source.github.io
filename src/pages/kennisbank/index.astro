@@ -1,0 +1,31 @@
+---
+import Base from "../../layouts/Base.astro";
+import { SITE } from "../../site.config.ts";
+import { ARTIKELEN } from "../../data/artikelen.ts";
+---
+
+<Base
+  title={`Kennisbank — daktips & uitleg | ${SITE.bedrijfsnaam}`}
+  description="Eerlijke daktips van dakdekker Rens: daklekkage opsporen, dakpannen coaten of vervangen, hoe vaak je goten moet reinigen en meer. Praktische uitleg uit de regio Den Bosch."
+  path="/kennisbank"
+>
+  <section class="hero">
+    <div class="wrap">
+      <p class="eyebrow" style="color:#ffb486;">Kennisbank</p>
+      <h1>Daktips & eerlijke uitleg</h1>
+      <p class="lead">Praktische uitleg over je dak — zonder verkooppraatje. Zo weet je wat er speelt voordat je belt.</p>
+    </div>
+  </section>
+  <section class="section">
+    <div class="wrap">
+      <div class="grid grid-3">
+        {ARTIKELEN.map((a) => (
+          <a class="card" href={`/kennisbank/${a.slug}`}>
+            <h3>{a.titel}</h3>
+            <p>{a.metaDescription}</p>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+</Base>

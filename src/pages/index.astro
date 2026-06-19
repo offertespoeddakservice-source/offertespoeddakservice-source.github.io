@@ -3,6 +3,7 @@ import Base from "../layouts/Base.astro";
 import { SITE, telHref, waHref } from "../site.config.ts";
 import { DIENSTEN } from "../data/diensten.ts";
 import { PLAATSEN } from "../data/plaatsen.ts";
+import { ARTIKELEN } from "../data/artikelen.ts";
 
 const score = SITE.reviews.score.toString().replace(".", ",");
 
@@ -38,7 +39,7 @@ const faqSchema = {
         ik kom langs, en je hoort eerlijk wat er nodig is. Vaste prijs vooraf.
       </p>
       <div class="pricehook">
-        <span class="van">Goten reinigen<br />vanaf</span>
+        <span class="van">Dakgoot reinigen<br />vanaf</span>
         <span class="big">€25</span>
         <span class="per">per kant<br />€40 beide</span>
       </div>
@@ -118,8 +119,22 @@ const faqSchema = {
     </div>
   </section>
 
-  <!-- WERKGEBIED -->
+  <!-- ZO WERKT HET -->
   <section class="section section--white">
+    <div class="wrap">
+      <p class="eyebrow">Zo werkt het</p>
+      <h2>Van belletje tot klaar dak — in 4 stappen</h2>
+      <div class="stappen">
+        <div class="stap"><div class="n">1</div><h3>Bel of app</h3><p>Je krijgt mij direct aan de lijn. Vertel kort wat er speelt.</p></div>
+        <div class="stap"><div class="n">2</div><h3>Gratis inspectie</h3><p>Ik kom langs, kijk op het dak en zeg eerlijk wat nodig is.</p></div>
+        <div class="stap"><div class="n">3</div><h3>Vaste prijs vooraf</h3><p>Je hoort de prijs vóór ik begin. Geen voorrijkosten, geen verrassingen.</p></div>
+        <div class="stap"><div class="n">4</div><h3>Netjes gedaan</h3><p>Ik voer het werk uit, ruim op en geef garantie op wat ik doe.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WERKGEBIED -->
+  <section class="section">
     <div class="wrap">
       <p class="eyebrow">Werkgebied</p>
       <h2>In welke plaatsen ik kom</h2>
@@ -127,6 +142,23 @@ const faqSchema = {
       <div class="chips">
         {PLAATSEN.map((p) => <a class="chip" href={`/werkgebied/${p.slug}`}>{p.naam}</a>)}
         <a class="chip" href="/werkgebied">Hele werkgebied →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- KENNISBANK -->
+  <section class="section section--white">
+    <div class="wrap">
+      <p class="eyebrow">Kennisbank</p>
+      <h2>Daktips & eerlijke uitleg</h2>
+      <p class="lead">Zo weet je wat er speelt voordat je belt — zonder verkooppraatje.</p>
+      <div class="grid grid-3" style="margin-top:22px;">
+        {ARTIKELEN.map((a) => (
+          <a class="card" href={`/kennisbank/${a.slug}`}>
+            <h3>{a.titel}</h3>
+            <p>{a.metaDescription}</p>
+          </a>
+        ))}
       </div>
     </div>
   </section>

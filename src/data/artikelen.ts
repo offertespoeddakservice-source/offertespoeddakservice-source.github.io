@@ -1,0 +1,100 @@
+/**
+ * Kennisbank-artikelen — cornerstone-content voor informatie-zoekers (longtail-SEO).
+ * Elk artikel linkt intern naar een dienstpagina (interne links = SEO + conversie).
+ */
+
+export interface Sectie { kop: string; tekst: string[] }
+export interface Artikel {
+  slug: string;
+  titel: string;
+  h1: string;
+  metaTitle: string;
+  metaDescription: string;
+  intro: string;
+  secties: Sectie[];
+  dienst: { label: string; href: string };
+  faq: { v: string; a: string }[];
+}
+
+export const ARTIKELEN: Artikel[] = [
+  {
+    slug: "daklekkage-opsporen",
+    titel: "Daklekkage opsporen",
+    h1: "Daklekkage opsporen: zo vind je de oorzaak (zonder sloopwerk)",
+    metaTitle: "Daklekkage opsporen — oorzaken & aanpak | Spoed Dak Service",
+    metaDescription:
+      "Daklekkage opsporen? De natte plek zit zelden onder het echte lek. Lees de meest voorkomende oorzaken en hoe je een lek vindt zonder sloopwerk — uitleg van dakdekker Rens.",
+    intro:
+      "Een natte plek op je plafond betekent bijna nooit dat het lek daar precies boven zit. Water loopt via panlatten, isolatie en naden naar het laagste punt en komt daar pas naar binnen. Daarom is een lek opsporen vakwerk — hieronder hoe het werkt.",
+    secties: [
+      { kop: "De meest voorkomende oorzaken", tekst: [
+        "Een gebroken of verschoven dakpan is veruit de nummer één. Daarna: gescheurd of losgelaten lood bij de schoorsteen, dakkapel of het dakraam, een verstopte of overlopende goot, en versleten kitwerk of naden bij een plat dak.",
+        "Bij platte daken zit het lek vaak bij een naad of opstand, terwijl het water verderop naar binnen komt — dat maakt opsporen lastiger.",
+      ] },
+      { kop: "Zo spoor je het op — zonder sloopwerk", tekst: [
+        "Ik werk van buiten naar binnen: eerst het dak na op losse pannen, lood en naden, dan de zolder op natte sporen. Vaak is een gerichte controle genoeg en hoeft er niks opengebroken te worden.",
+        "Lukt het visueel niet, dan zijn er technieken (water gericht aanbrengen, rook- of vochtmeting) om de exacte plek te vinden. Eerst de schade beperken, dan de oorzaak aanpakken.",
+      ] },
+      { kop: "Wat kost het?", tekst: [
+        "Een punctuele reparatie kost meestal €200 tot €500, inclusief materiaal. Bij spoed buiten kantooruren komt daar een toeslag bij. Je hoort altijd de prijs voordat ik begin.",
+      ] },
+    ],
+    dienst: { label: "Bekijk: daklekkage & spoed", href: "/diensten/daklekkage" },
+    faq: [
+      { v: "Moet er voor het opsporen iets opengebroken worden?", a: "Meestal niet. In de meeste gevallen vind ik het lek met een gerichte controle van buiten en op zolder, zonder sloopwerk." },
+      { v: "Kun je vandaag nog komen?", a: "Bij spoed in de regio Den Bosch vaak wel. Bel of WhatsApp, dan hoor je meteen wanneer ik kan." },
+    ],
+  },
+  {
+    slug: "dakpannen-coaten-of-vervangen",
+    titel: "Coaten of vervangen?",
+    h1: "Dakpannen coaten of vervangen? Zo maak je de juiste keuze",
+    metaTitle: "Dakpannen coaten of vervangen? Wat is slim | Spoed Dak Service",
+    metaDescription:
+      "Dakpannen coaten of vervangen? Coaten is veel goedkoper en kan jaren schelen — mits je pannen nog goed zijn. Lees wanneer coaten loont en wanneer vervangen verstandiger is.",
+    intro:
+      "Een verweerd dak hoeft niet meteen vervangen te worden. Vaak kun je pannen die nog stevig zijn coaten — veel goedkoper, en je dak gaat er jaren mee verder. Maar coaten is niet altijd de juiste keuze. Hieronder het verschil.",
+    secties: [
+      { kop: "Wanneer coaten loont", tekst: [
+        "Als je pannen nog stevig en heel zijn maar dof, vuil of vol mos, dan is reinigen + coaten ideaal. De coating beschermt tegen vocht, mos en uv, en kost een fractie van vervangen.",
+        "Het is ook een mooi moment voor een gootcheck en het nakijken van lood en nokvorsten.",
+      ] },
+      { kop: "Wanneer vervangen verstandiger is", tekst: [
+        "Zijn de pannen poreus, bros of op meerdere plekken kapot, dan houdt coaten geen stand — dan ben je beter af met (gedeeltelijk) vervangen. Coaten op slechte pannen is zonde van het geld.",
+        "Ik kom kijken en zeg eerlijk wat in jouw geval loont; soms is een combinatie (slechte pannen vervangen, de rest coaten) de slimste route.",
+      ] },
+    ],
+    dienst: { label: "Bekijk: dak coaten", href: "/diensten/dakcoating" },
+    faq: [
+      { v: "Hoe lang gaat een coating mee?", a: "Bij goede pannen en een nette aanbrenging zit je al snel op jaren extra bescherming. Belangrijk is dat eerst goed gereinigd wordt." },
+    ],
+  },
+  {
+    slug: "hoe-vaak-dakgoot-reinigen",
+    titel: "Hoe vaak goten reinigen?",
+    h1: "Hoe vaak moet je je dakgoot reinigen — en wat kost het?",
+    metaTitle: "Hoe vaak dakgoot reinigen + kosten | Spoed Dak Service",
+    metaDescription:
+      "Hoe vaak moet je je dakgoot reinigen? Meestal 1× per jaar, vaker bij bomen in de buurt. Lees waarom het belangrijk is en wat goten reinigen kost (vanaf €25).",
+    intro:
+      "Volle goten lijken onschuldig, maar ze zijn de oorzaak van veel vochtschade: overlopend water, natte muren en op den duur lekkage. Hoe vaak moet je ze laten reinigen, en wat kost dat?",
+    secties: [
+      { kop: "Eén keer per jaar — vaker bij bomen", tekst: [
+        "Voor de meeste huizen is één keer per jaar genoeg, het beste in het najaar als het blad gevallen is. Staan er bomen vlak bij je huis, dan is twee keer per jaar slimmer.",
+        "Het najaar (augustus–oktober) is de drukste én belangrijkste periode: blad én herfststormen zorgen dan voor de meeste verstoppingen.",
+      ] },
+      { kop: "Waarom het belangrijk is", tekst: [
+        "Een verstopte goot loopt over langs de gevel, trekt vocht in muren en fundering en kan binnen voor lekkage zorgen. Een kleine jaarlijkse onderhoudsbeurt voorkomt dure schade.",
+      ] },
+      { kop: "Wat kost goten reinigen?", tekst: [
+        "Voor een doorsnee rijtjeswoning begin ik vanaf €25 per kant (€40 voor beide kanten), zonder voorrijkosten als je tijdig plant. Bij een groter of hoger huis hoor je vooraf de vaste prijs.",
+      ] },
+    ],
+    dienst: { label: "Bekijk: dakgoot reinigen", href: "/diensten/goten-reinigen" },
+    faq: [
+      { v: "Wanneer kan ik het beste laten reinigen?", a: "In het najaar, als het meeste blad gevallen is — dan heb je er het hele jaar profijt van en voorkom je winterlekkage." },
+    ],
+  },
+];
+
+export const getArtikel = (slug: string) => ARTIKELEN.find((a) => a.slug === slug);
