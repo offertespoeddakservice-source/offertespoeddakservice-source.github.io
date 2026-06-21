@@ -6,7 +6,7 @@
 
 ## Te bouwen (gerangschikt)
 
-- ⬜ **1. PRIORITEIT.md** — analyseer `KEYWORD-ONDERZOEK.md` (9.494 kw, incl. 129 plaats-kw + 516 lage-concurrentie-kansen). Rangschik welke **dienst×plaats-pagina's** en welke **artikelen** eerst, op basis van *volume × lage concurrentie × jouw 3 money-diensten (goten/daklekkage/stormschade) × je 12 kerndorpen*. Dit bestand stuurt taak 2–5.
+- ✅ **1. PRIORITEIT.md** — geanalyseerd + geschreven. Kerninzicht: volume zit in product/DIY-termen (negeren), geld in laag-volume hoge-CPC huurtermen (daklekkage-repareren, goten-opener). Dorpsvolume flinterdun → matrix = local-pack/relevantie-zet, geen volumejacht. Stuurt taak 2–5.
 
 - ⬜ **2. Matrix-route** — bouw `src/pages/werkgebied/[plaats]/[dienst].astro` (of `/diensten/[dienst]/[plaats]`). Genereer **selectief** de top-combinaties uit PRIORITEIT.md (start: 3 money-diensten × 12 plaatsen ≈ 36). Elke pagina: unieke lokale tekst (uit `plaatsen.ts` `lokaal` + dienst-data), H1 "dienst in plaats", Service+FAQ JSON-LD, interne links naar de plaats- én dienst-pagina, bel/WhatsApp-CTA. **Geen thin content.**
 
