@@ -218,6 +218,32 @@ export const ARTIKELEN: Artikel[] = [
       { v: "Wat is het beste moment voor onderhoud?", a: "Najaar is het belangrijkst: goten leeg en pannen/lood nakijken vóór de herfststormen. Het voorjaar gebruik je om winterschade te herstellen." },
     ],
   },
+  {
+    slug: "mos-op-dak-verwijderen",
+    titel: "Mos op je dak",
+    h1: "Mos op je dak verwijderen: schadelijk of niet, en hoe wél?",
+    metaTitle: "Mos op dak verwijderen — schadelijk? + aanpak | Spoed Dak Service",
+    metaDescription:
+      "Mos op je dak verwijderen? Mos houdt vocht vast en kan pannen laten scheuren bij vorst. Maar een hogedrukreiniger is riskant. Lees wanneer ontmossen loont en hoe het veilig moet.",
+    intro:
+      "Een groen waas op je dak ziet er onschuldig uit, maar mos is niet alleen cosmetisch. Het houdt vocht vast en kan op den duur schade geven. Tegelijk kun je met de verkeerde aanpak (lees: een te harde hogedrukreiniger) méér kapotmaken dan je oplost. Hieronder hoe het zit.",
+    secties: [
+      { kop: "Is mos echt schadelijk?", tekst: [
+        "Ja, op termijn wel. Mos houdt vocht vast op je pannen; vriest dat vocht 's winters, dan zet het uit en kunnen pannen scheuren of afbladderen. Bovendien spoelt los mos de goot en regenpijp in en verstopt daar de afvoer — een veelvoorkomende oorzaak van overlopende goten en lekkage.",
+      ] },
+      { kop: "Pas op met de hogedrukreiniger", tekst: [
+        "Een hogedrukreiniger lijkt snel, maar te veel druk haalt de beschermende toplaag van je pannen weg en beschadigt vooral oudere, poreuze pannen — dan groeit het mos juist sneller terug. Voor stevige, moderne pannen kan lage druk, maar bij twijfel is voorzichtig handwerk of een zachtere methode beter.",
+      ] },
+      { kop: "Hoe ik het aanpak", tekst: [
+        "Ik kijk eerst of je pannen het aankunnen. Daarna verwijder ik het mos voorzichtig, ruim de goot en afvoer meteen mee op, en bespreek of een coating zin heeft om hergroei te vertragen. Zijn de pannen al bros, dan zeg ik dat eerlijk — soms is gericht vervangen of coaten slimmer dan blijven reinigen.",
+      ] },
+    ],
+    dienst: { label: "Bekijk: dak reinigen & mos", href: "/diensten/dak-reinigen" },
+    faq: [
+      { v: "Mag ik zelf met een hogedrukreiniger mijn dak schoonmaken?", a: "Liever niet op oudere of poreuze pannen — je haalt er de toplaag af en beschadigt ze. Op hoogte werken is bovendien niet zonder risico. Ik doe het veilig en op de juiste druk." },
+      { v: "Voorkomt coaten dat het mos terugkomt?", a: "Een coating op gezonde, gereinigde pannen vertraagt hergroei en beschermt tegen vocht en uv. Op slechte pannen heeft het geen zin — dan eerst kijken wat verstandig is." },
+    ],
+  },
 ];
 
 export const getArtikel = (slug: string) => ARTIKELEN.find((a) => a.slug === slug);

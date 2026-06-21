@@ -23,6 +23,28 @@
 
 ## Rondes
 
+### Ronde 6 — 2026-06-22 01:4x — QA + content
+
+**STAP A — analyse/QA i.p.v. externe research:** volledige site-scan + 1 WebSearch (mos).
+
+**STAP B — 10 tips:**
+1. Gebroken-link-check over alle pagina's — **✅** (0 gebroken)
+2. Meta-description-dekking — **✅** (84/84 → 86/86)
+3. Titel-dekking — **✅** (86/86)
+4. Prijs-consistentie €25/€40 (geen nieuwe €30-mismatch) — **✅** (consistent; €30-knoop blijft bij Rens)
+5. robots/sitemap — ✅ (ronde 5)
+6. Onderscheidend artikel "Mos op je dak verwijderen" (→ dak-reinigen) — **✅ gedaan**
+7. Mos-research wegschrijven — **✅**
+8. Her-check links na toevoeging — **✅** (0)
+9–10. bewust niet bijgebouwd (thin content vermijden)
+
+**STAP C — uitgevoerd:**
+- **QA-pass:** 0 gebroken interne links, 100% meta + titel, prijs consistent. *Let op-moment:* mijn eerste ingekorte link-checker meldde vals 340 gebroken (miste asset-bestanden); met de volledige checker geverifieerd op 0 — niet geloofd zonder na te kijken.
+- **Artikel "Mos op je dak verwijderen":** eigen keyword-cluster (mos/ontmossen) + eigen dienst (dak-reinigen), met research (vorstschade, hogedruk-risico). Build 86 pag., rendert + in index.
+- Commit naar `nacht-seo`.
+
+**Volgende ronde (7):** laatste onderscheidende content of polish; daarna ronde 8 = OCHTENDRAPPORT.
+
 ### Ronde 5 — 2026-06-22 01:3x
 
 **STAP A — research:** WebSearch dakonderhoud per seizoen → 2× per jaar visuele check (voorjaar + najaar), goten 2×/jaar, prof. inspectie elke 3–5 jaar (ouder dak vaker); per daktype (pannen: mos/nokvorst/lood; plat: stilstaand water). Technische check: `robots.txt` bestaat al en verwijst correct naar de sitemap; home linkt al naar diensten + plaatsen → silo voedt de matrix.
