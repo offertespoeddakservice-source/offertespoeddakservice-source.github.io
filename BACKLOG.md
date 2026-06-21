@@ -10,7 +10,7 @@
 
 - 🟡 **2. Matrix-route** — route `src/pages/werkgebied/[plaats]/[dienst].astro` + `src/data/matrix.ts` gebouwd. **Tier A klaar (10 pag.): daklekkage + goten × Oss/Den Bosch/Rosmalen/Vught/Berlicum.** Elke pagina unieke hook + lokale tekst + Service/FAQ-schema + interne links. Build OK (55 pag. totaal). **Nog te doen: Tier B (14) + Tier C stormschade (12).** → splitst naar taak 2b.
 
-- ⬜ **3. Keyword-clusters** — verrijk de 3 money-dienstpagina's met 4–5 secundaire termen uit de data (natuurlijk in koppen/FAQ/tekst, geen stuffing).
+- ✅ **3. Keyword-clusters** — 8 cluster-FAQ's toegevoegd over de 3 money-pagina's: daklekkage (+3: opsporen, plat dak lekt, dak lekt wat nu), goten (+3: verstopte regenpijp, lekkende dakgoot, afvoer/schoonmaken), stormschade (+2: dakpannen weggewaaid, noodreparatie avond/weekend). Renderen in pagina + FAQPage-schema. Build OK.
 
 - ⬜ **4. voice/-map** — `toon.md`, `humor.md`, `woorden.md`, `overtuigingen.md`, afgeleid uit bestaande site-copy + GBP-omschrijving (hoe Rens schrijft). Gebruik deze voortaan voor alle gegenereerde tekst.
 

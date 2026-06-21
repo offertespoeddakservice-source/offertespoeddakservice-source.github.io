@@ -45,6 +45,18 @@ export const DIENSTEN: Dienst[] = [
         v: "Hoe vaak moet ik mijn goten laten reinigen?",
         a: "Eén keer per jaar is meestal genoeg, het beste in het najaar als het blad gevallen is. Staan er bomen vlakbij, dan soms twee keer.",
       },
+      {
+        v: "Mijn regenpijp is verstopt — kun je die ook doorspoelen?",
+        a: "Ja, een verstopte regenpijp hoort erbij: ik spoel de hele afvoer door tot het water vrij wegloopt, niet alleen de goot zelf. Anders loopt de goot zo weer over.",
+      },
+      {
+        v: "Mijn dakgoot lekt — komt dat door verstopping?",
+        a: "Vaak wel: een volle of verstopte goot loopt over langs de muur, wat op lekkage lijkt. Soms zit het in een naad of het zinkwerk. Bij het schoonmaken kijk ik meteen waar het 'm in zit en zeg ik eerlijk of er meer nodig is.",
+      },
+      {
+        v: "Maak je ook de afvoer en bladvangers schoon?",
+        a: "Bij dakgoot schoonmaken hoort de hele afvoer: goot leeg, blad en mos eruit, bladvangers gecontroleerd en de regenpijp doorgespoeld. Klaar is klaar.",
+      },
     ],
   },
   {
@@ -72,6 +84,18 @@ export const DIENSTEN: Dienst[] = [
       {
         v: "Kun je vandaag nog komen?",
         a: "Bij spoed in de regio Den Bosch lukt dat vaak. Bel of WhatsApp me, dan hoor je meteen wanneer ik kan.",
+      },
+      {
+        v: "Hoe wordt een daklekkage opgespoord?",
+        a: "Daklekkage opsporen doe ik van buiten naar binnen: ik volg de waterweg terug naar de échte oorzaak (vaak lood, een scheur of een verschoven pan), want de natte plek binnen ligt zelden recht onder het lek. Zo voorkom ik onnodig sloopwerk.",
+      },
+      {
+        v: "Mijn platte dak lekt — kun je dat ook repareren?",
+        a: "Ja, lekkage in een plat dak (bitumen of EPDM) spoor ik op en repareer ik gericht. Soms volstaat een gerichte reparatie, soms is een nieuwe baan of de hele bedekking beter — je hoort eerlijk wat verstandig is.",
+      },
+      {
+        v: "Mijn dak lekt — wat moet ik nu eerst doen?",
+        a: "Vang het water op, zet spullen droog en bel of WhatsApp me. Ik kan vaak snel langskomen om de lekkage eerst te stoppen; de nette reparatie volgt daarna.",
       },
     ],
   },
@@ -145,6 +169,14 @@ export const DIENSTEN: Dienst[] = [
       {
         v: "Vergoedt mijn verzekering stormschade?",
         a: "Storm- en hagelschade valt vaak onder je opstalverzekering. Ik lever duidelijke foto's en een omschrijving aan zodat je het kunt indienen.",
+      },
+      {
+        v: "Er zijn dakpannen weggewaaid — kun je met spoed komen?",
+        a: "Ja. Weggewaaide of verschoven dakpannen laten regen binnen, dus dat is spoed. Ik kom snel langs voor een noodreparatie: eerst dichten en afdekken, daarna netjes herstellen.",
+      },
+      {
+        v: "Doe je ook noodreparatie 's avonds of in het weekend?",
+        a: "Bij echte stormschade wel — open plekken kunnen niet wachten. Bel of WhatsApp 06 10 18 53 57, dan hoor je meteen wanneer ik kan.",
       },
     ],
   },

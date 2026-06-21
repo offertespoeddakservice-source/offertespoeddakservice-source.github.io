@@ -13,6 +13,16 @@
 
 ## Log
 
+**2026-06-22 — Taak 3 ✅ Keyword-clusters op money-pagina's**
+- Aanpak: secundaire termen als natuurlijke FAQ-vragen (geen stuffing) → ze voeden ook de
+  FAQPage-schema. 8 nieuwe FAQ's over 3 pagina's:
+  - daklekkage (+3): "daklekkage opsporen", "lekkage plat dak", "dak lekt wat nu".
+  - goten (+3): "verstopte regenpijp", "lekkende dakgoot", "dakgoot schoonmaken/afvoer".
+  - stormschade (+2): "dakpannen weggewaaid", "noodreparatie avond/weekend".
+- Termen gekozen op lage comp + huur-intentie uit PRIORITEIT.md.
+- Geverifieerd: build 55 pag. groen; cluster-tekst aanwezig in dist; daklekkage-schema nu 5 FAQ's.
+- Volgende: taak 4 — voice/-map (Rens' schrijfstem).
+
 **2026-06-22 — Taak 2 🟡 Matrix-route (Tier A klaar)**
 - Gebouwd: `src/data/matrix.ts` (selectieve combo-lijst met per combinatie een UNIEKE hook)
   + route `src/pages/werkgebied/[plaats]/[dienst].astro`.
