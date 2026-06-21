@@ -13,6 +13,17 @@
 
 ## Log
 
+**2026-06-22 — Taak 2 🟡 Matrix-route (Tier A klaar)**
+- Gebouwd: `src/data/matrix.ts` (selectieve combo-lijst met per combinatie een UNIEKE hook)
+  + route `src/pages/werkgebied/[plaats]/[dienst].astro`.
+- Tier A = 10 pagina's: `daklekkage` + `goten-reinigen` × {Oss, Den Bosch, Rosmalen, Vught, Berlicum}.
+- Elke pagina: eigen H1 "dienst in plaats", unieke lokale hook, dienst-intro + punten, gecombineerde
+  FAQ (plaats- én dienst-specifiek), Service+FAQPage JSON-LD, interne links ↑plaats ↑dienst, CTA.
+- Geverifieerd met `npm run build`: **55 pagina's, 0 errors**, 10 matrix-pagina's aanwezig in dist.
+  Steekproef bevestigt unieke content (oss/daklekkage ≠ vught/goten) → geen thin content.
+- Opgesplitst: Tier B (14) + Tier C stormschade (12) → nieuwe taak **2b** in backlog.
+- Volgende: taak 3 — keyword-clusters op de money-dienstpagina's.
+
 **2026-06-22 — Taak 1 ✅ PRIORITEIT.md**
 - Gevonden: het grote zoekvolume zit in product/DIY-termen die Rens niet bedient
   (`gootdrains` 27.100, `dakkapel` 22.200, `velux dakraam` 22.200, `dakpannen` 8.100) →

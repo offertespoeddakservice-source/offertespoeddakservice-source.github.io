@@ -1,0 +1,104 @@
+---
+import Base from "../../../layouts/Base.astro";
+import { SITE, telHref, waHref } from "../../../site.config.ts";
+import { MATRIX } from "../../../data/matrix.ts";
+import { getPlaats } from "../../../data/plaatsen.ts";
+import { getDienst } from "../../../data/diensten.ts";
+
+export function getStaticPaths() {
+  return MATRIX.map((c) => {
+    const p = getPlaats(c.plaats);
+    const d = getDienst(c.dienst);
+    return { params: { plaats: c.plaats, dienst: c.dienst }, props: { p, d, hook: c.hook } };
+  }).filter((x) => x.props.p && x.props.d);
+}
+
+const { p, d, hook } = Astro.props;
+const path = `/werkgebied/${p.slug}/${d.slug}`;
+const titel = `${d.titel} in ${p.naam}`;
+
+// FAQ: combineer plaats-specifiek + dienst-specifiek → uniek én rijk per pagina.
+const faq = [
+  {
+    v: `Kun je snel langskomen voor ${d.titel.toLowerCase()} in ${p.naam}?`,
+    a: `Ja — ${p.naam} ligt in mijn vaste werkgebied rond Den Bosch${p.reistijd ? ` (${p.reistijd})` : ""}, dus vaak ben ik al in de buurt. Bij spoed kom ik regelmatig nog dezelfde dag.`,
+  },
+  ...d.faq.slice(0, 2),
+  {
+    v: `Werk je in heel ${p.naam}?`,
+    a: `Ja, door heel ${p.naam}${p.wijken.length ? ` — onder andere ${p.wijken.slice(0, 3).join(", ")}` : ""} en de directe omgeving.`,
+  },
+];
+
+const schema = [
+  {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    name: `${d.titel} ${p.naam}`,
+    serviceType: d.titel,
+    description: `${d.titel} in ${p.naam}: ${d.kort}`,
+    provider: { "@type": "RoofingContractor", name: SITE.bedrijfsnaam, telephone: `+${SITE.telefoonE164}` },
+    areaServed: { "@type": "City", name: p.naam },
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: faq.map((f) => ({ "@type": "Question", name: f.v, acceptedAnswer: { "@type": "Answer", text: f.a } })),
+  },
+];
+---
+
+<Base
+  title={`${titel}${d.vanafPrijs ? ` ${d.vanafPrijs}` : ""} | ${SITE.bedrijfsnaam}`}
+  description={`${d.titel} in ${p.naam} nodig? ${d.kort} Eerlijke, vaste prijs vooraf. Bel of WhatsApp Rens.`}
+  path={path}
+  schema={schema}
+>
+  <section class="hero">
+    <div class="wrap">
+      <p class="eyebrow" style="color:#ffb486;">{p.naam} · {p.reistijd ?? SITE.regioOmschrijving}</p>
+      <h1>{titel}</h1>
+      <p class="lead">{hook}</p>
+      <div class="btn-row" style="margin-top:22px;">
+        <a class="btn btn--primary" href={telHref}>Bel {SITE.telefoonWeergave}</a>
+        <a class="btn btn--wa" href={waHref(`Hoi Rens, ik zoek ${d.titel.toLowerCase()} in ${p.naam}.`)}>WhatsApp Rens</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap prose">
+      <h2>{d.titel} in {p.naam}</h2>
+      <p>{d.intro}</p>
+      <p>{p.lokaal}</p>
+      <ul>
+        {d.punten.map((punt) => <li>{punt}</li>)}
+      </ul>
+    </div>
+  </section>
+
+  <section class="section section--soft">
+    <div class="wrap">
+      <h2>Veelgestelde vragen — {d.titel.toLowerCase()} in {p.naam}</h2>
+      <div class="faq" style="margin-top:16px; max-width:760px;">
+        {faq.map((f) => (
+          <details>
+            <summary>{f.v}</summary>
+            <p>{f.a}</p>
+          </details>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--white">
+    <div class="wrap">
+      <h2>Meer in {p.naam} en omgeving</h2>
+      <div class="chips">
+        <a class="chip" href={`/werkgebied/${p.slug}`}>Alles in {p.naam} →</a>
+        <a class="chip" href={`/diensten/${d.slug}`}>Over {d.titel.toLowerCase()} →</a>
+        <a class="chip" href="/werkgebied">Heel mijn werkgebied →</a>
+      </div>
+    </div>
+  </section>
+</Base>

@@ -8,7 +8,7 @@
 
 - ✅ **1. PRIORITEIT.md** — geanalyseerd + geschreven. Kerninzicht: volume zit in product/DIY-termen (negeren), geld in laag-volume hoge-CPC huurtermen (daklekkage-repareren, goten-opener). Dorpsvolume flinterdun → matrix = local-pack/relevantie-zet, geen volumejacht. Stuurt taak 2–5.
 
-- ⬜ **2. Matrix-route** — bouw `src/pages/werkgebied/[plaats]/[dienst].astro` (of `/diensten/[dienst]/[plaats]`). Genereer **selectief** de top-combinaties uit PRIORITEIT.md (start: 3 money-diensten × 12 plaatsen ≈ 36). Elke pagina: unieke lokale tekst (uit `plaatsen.ts` `lokaal` + dienst-data), H1 "dienst in plaats", Service+FAQ JSON-LD, interne links naar de plaats- én dienst-pagina, bel/WhatsApp-CTA. **Geen thin content.**
+- 🟡 **2. Matrix-route** — route `src/pages/werkgebied/[plaats]/[dienst].astro` + `src/data/matrix.ts` gebouwd. **Tier A klaar (10 pag.): daklekkage + goten × Oss/Den Bosch/Rosmalen/Vught/Berlicum.** Elke pagina unieke hook + lokale tekst + Service/FAQ-schema + interne links. Build OK (55 pag. totaal). **Nog te doen: Tier B (14) + Tier C stormschade (12).** → splitst naar taak 2b.
 
 - ⬜ **3. Keyword-clusters** — verrijk de 3 money-dienstpagina's met 4–5 secundaire termen uit de data (natuurlijk in koppen/FAQ/tekst, geen stuffing).
 
@@ -20,7 +20,9 @@
 
 - ⬜ **7. CITATIES.md** — NL-vermeldingen om aan te maken (Bing Places, Apple Business Connect, De Telefoongids/DTG, Facebook, lokale gidsen) + exacte NAP-tekst om overal identiek te plakken.
 
-- ⬜ **8. Interne-link-pass** — plaatspagina's linken naar hun dienst-combo's, dienstpagina's naar hun plaats-combo's (silo). Voeg een matrix-ingang toe op home/diensten/werkgebied.
+- ⬜ **2b. Matrix Tier B + C** — voeg aan `matrix.ts` toe: Tier B = daklekkage + goten × {Vlijmen, Drunen, Boxtel, Schijndel, Heusden, Sint-Michielsgestel, Oisterwijk}; Tier C = stormschade × alle 12 kerndorpen. Elk een unieke hook. Build verifiëren.
+
+- ⬜ **8. Interne-link-pass** — plaatspagina's linken naar hun dienst-combo's, dienstpagina's naar hun plaats-combo's (silo). Voeg een matrix-ingang toe op home/diensten/werkgebied. (Pas ná 2b, als alle matrix-pagina's bestaan.)
 
 - ⬜ **9. Build-check** — `npm run build`, tel de pagina's, los eventuele errors op, noteer de paginatelling in het log.
 
