@@ -1,0 +1,19 @@
+keyword,volume_mnd,comp,cpc_laag,type,prioriteit,notitie
+daklekkage,1000,Normaal,5.86,huur,hoog,hoofd-huurterm
+daklekkage repareren,880,Laag,5.46,huur,hoog,lage comp + hoge CPC = goud
+lekkage dak repareren,880,Laag,5.46,huur,hoog,variant
+dakreparatie lekkage,880,Laag,5.46,huur,hoog,variant
+daklekkage opsporen,390,Normaal,4.84,huur,hoog,spoed-intentie -> artikel
+lekkage plat dak,260,Laag,,huur,midden,EPDM/bitumen
+lekkage dak opsporen,210,Laag,,huur,midden,artikel
+verstopte regenpijp,720,Laag,,probleem,hoog,lage comp -> goten + artikel
+lekkende dakgoot,480,Normaal,1.35,probleem,hoog,goten-wig
+dakgoot schoonmaken,2400,Hoog,0.81,opener,hoog,comp = glazenwassers
+dakgoot schoonmaken oss,30,Normaal,0.65,lokaal,midden,exact opener+plaats
+dakdekkers oss,480,Normaal,4.38,lokaal,hoog,enige dorp met echt volume
+rosmalen dakbedekking,110,Laag,0.75,lokaal,midden,lokaal lage comp
+dakdekker,9900,Normaal,4.61,hoofdterm,midden,zwaar - later
+stormschade dak,0,Laag,,piek,hoog,0 tot storm -> Tier C klaarzetten
+schoorsteenveger in de buurt,590,Normaal,1.24,nevendienst,midden,lokale intentie
+dakpannen vervangen,,,,,nevendienst,midden,uit KEYWORD-ONDERZOEK.md uitbreiden
+# NEGEREN (product/DIY - geen huur-intentie): gootdrains 27100, dakkapel 22200, velux dakraam 22200, dakpannen 8100, dakisolatie 4400

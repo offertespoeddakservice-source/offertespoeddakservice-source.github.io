@@ -1,29 +1,34 @@
-# BACKLOG — autonome SEO-bouw (branch `nacht-seo`)
+# BACKLOG — startlijst lokale SEO (branch `nacht-seo`)
 
-> De `/dak`-loop pakt telkens de **bovenste ⬜**. Volgorde = prioriteit.
-> Klaar = ✅ + logregel in `WERK-LOG.md`. Nieuwe kans = gerangschikt onderaan toevoegen.
-> Alles lokaal + commit naar `nacht-seo`. Nooit deployen/pushen/main aanraken.
+> De `/dak`-loop werkt hieruit + uit `KANSEN.md`. Klaar = ✅ + logregel in `WERK-LOG.md`.
+> Alles lokaal, commit naar `nacht-seo`, nooit deployen/pushen/main aanraken.
 
-## Te bouwen (gerangschikt)
+## A. Matrix-pagina's — dienst × plaats (~36, unieke lokale teksten)
+Money-diensten in volgorde: **daklekkage → goten reinigen → stormschade** (zie `PRIORITEIT.md`).
 
-- ✅ **1. PRIORITEIT.md** — geanalyseerd + geschreven. Kerninzicht: volume zit in product/DIY-termen (negeren), geld in laag-volume hoge-CPC huurtermen (daklekkage-repareren, goten-opener). Dorpsvolume flinterdun → matrix = local-pack/relevantie-zet, geen volumejacht. Stuurt taak 2–5.
+- ✅ **Tier A (10)** — daklekkage + goten × {Oss, Den Bosch, Rosmalen, Vught, Berlicum}. *(gedaan, `src/data/matrix.ts` + route)*
+- ⬜ **Tier B (14)** — daklekkage + goten × {Vlijmen, Drunen, Boxtel, Schijndel, Heusden, Sint-Michielsgestel, Oisterwijk}.
+- ⬜ **Tier C (12)** — stormschade × alle 12 kerndorpen (klaarzetten voor stormpieken; koppelt aan `storm.py`).
+- ⬜ **Interne-link-pass** — plaatspagina's ↔ hun dienst-combo's, dienstpagina's ↔ hun plaats-combo's (silo) + matrix-ingang op home/diensten/werkgebied. *(pas ná Tier B/C)*
 
-- 🟡 **2. Matrix-route** — route `src/pages/werkgebied/[plaats]/[dienst].astro` + `src/data/matrix.ts` gebouwd. **Tier A klaar (10 pag.): daklekkage + goten × Oss/Den Bosch/Rosmalen/Vught/Berlicum.** Elke pagina unieke hook + lokale tekst + Service/FAQ-schema + interne links. Build OK (55 pag. totaal). **Nog te doen: Tier B (14) + Tier C stormschade (12).** → splitst naar taak 2b.
+## B. Kennisbank — artikelen voor hoge-intentie probleemtermen
+- ⬜ "Daklekkage repareren — wat kost het & hoe wordt het opgespoord" (`daklekkage repareren` 880 · Laag · €5,46)
+- ⬜ "Verstopte regenpijp of lekkende dakgoot — oorzaken & oplossen" (`verstopte regenpijp` 720 · Laag)
+- ⬜ "Wat kost goten reinigen?" (`dakgoot schoonmaken` 2.400 — vang de info-zoeker → €-opener)
+- ⬜ "Stormschade aan je dak — eerste hulp & verzekering" (piek-/intentieterm)
+- ⬜ Extra artikelen uit `KANSEN.md` (research levert er meer aan)
 
-- ✅ **3. Keyword-clusters** — 8 cluster-FAQ's toegevoegd over de 3 money-pagina's: daklekkage (+3: opsporen, plat dak lekt, dak lekt wat nu), goten (+3: verstopte regenpijp, lekkende dakgoot, afvoer/schoonmaken), stormschade (+2: dakpannen weggewaaid, noodreparatie avond/weekend). Renderen in pagina + FAQPage-schema. Build OK.
+## C. Google Bedrijfsprofiel-content (klaar om te plakken zodra GBP live is)
+- ⬜ **1 maand GBP-posts** — ~4–5 wekelijkse posts (aanbod / seizoen / storm / bewijs) → `GBP-CONTENT.md`
+- ⬜ **Q&A-seed** — de echte klantvragen met jouw beste antwoord → `GBP-CONTENT.md`
+- ⬜ **Foto-naamschema** (dienst-plaats.jpg) + categorieën → `GBP-CONTENT.md`
 
-- ⬜ **4. voice/-map** — `toon.md`, `humor.md`, `woorden.md`, `overtuigingen.md`, afgeleid uit bestaande site-copy + GBP-omschrijving (hoe Rens schrijft). Gebruik deze voortaan voor alle gegenereerde tekst.
+## D. Stem & fundament
+- ⬜ **voice/-map** — `toon.md`, `humor.md`, `woorden.md`, `overtuigingen.md` (uit bestaande site-copy + GBP-omschrijving). Gebruik voortaan voor alle gegenereerde tekst.
+- ✅ **Keyword-clusters** op de 3 money-pagina's (8 FAQ's). *(gedaan)*
+- ✅ **PRIORITEIT.md** — data-gedreven bouwvolgorde. *(gedaan)*
+- ⬜ **CITATIES.md** — NL-vermeldingen (Bing Places, Apple Business Connect, De Telefoongids, Facebook, lokale gidsen) + exacte NAP om identiek te plakken.
 
-- ⬜ **5. Kennisbank** — schrijf 4 hoge-intentie probleemartikelen in Rens' stem: "Dakgoot lekt — oorzaken & wat het kost", "Daklekkage opsporen zonder sloopwerk", "Stormschade aan je dak: eerste hulp", "Wat kost goten reinigen?". Met interne links + FAQ-schema.
-
-- ⬜ **6. GBP-CONTENT.md** — een maand wekelijkse Google-posts (aanbod/seizoen/storm/bewijs) + Q&A-seed (vraag+antwoord) + foto-naamschema. Klaar om te plakken zodra het GBP live is.
-
-- ⬜ **7. CITATIES.md** — NL-vermeldingen om aan te maken (Bing Places, Apple Business Connect, De Telefoongids/DTG, Facebook, lokale gidsen) + exacte NAP-tekst om overal identiek te plakken.
-
-- ⬜ **2b. Matrix Tier B + C** — voeg aan `matrix.ts` toe: Tier B = daklekkage + goten × {Vlijmen, Drunen, Boxtel, Schijndel, Heusden, Sint-Michielsgestel, Oisterwijk}; Tier C = stormschade × alle 12 kerndorpen. Elk een unieke hook. Build verifiëren.
-
-- ⬜ **8. Interne-link-pass** — plaatspagina's linken naar hun dienst-combo's, dienstpagina's naar hun plaats-combo's (silo). Voeg een matrix-ingang toe op home/diensten/werkgebied. (Pas ná 2b, als alle matrix-pagina's bestaan.)
-
-- ⬜ **9. Build-check** — `npm run build`, tel de pagina's, los eventuele errors op, noteer de paginatelling in het log.
-
-- ⬜ **10. Eindrapport** — schrijf bovenaan `WERK-LOG.md` een samenvatting: wat gebouwd, hoeveel pagina's, top-kansen, en de definitieve "VOOR RENS"-lijst.
+## E. Afsluiting (laatste ronde)
+- ⬜ **Build-check** — `npm run build`, paginatelling noteren, errors oplossen.
+- ⬜ **OCHTENDRAPPORT.md** — samenvatting + `BESLISSING-NODIG.md` + top-3 kansen morgen.
