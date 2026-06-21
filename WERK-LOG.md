@@ -22,4 +22,26 @@
 ---
 
 ## Rondes
-- _(Ronde 1 begint zodra de loop start — STAP A research, dan 10 tips hier.)_
+
+### Ronde 1 — 2026-06-22 01:1x
+
+**STAP A — research:** WebSearch (concurrenten regio + seizoenspiek) + WebFetch concurrent-plaatspagina. Chrome verbonden, maar KWP niet bereikbaar (geen Ads-account) → gelogd in BESLISSING-NODIG, door op CSV/openbare bronnen. 6 kansen → KANSEN.md. **Kerninzicht:** concurrent-plaatspagina's zijn generiek (geen wijken/prijzen/FAQ); piekvraag = najaar → nú bouwen.
+
+**STAP B — 10 tips deze ronde:**
+1. Matrix Tier B bouwen (daklekkage + goten × 7 dorpen) — **✅ gedaan**
+2. Voice-files aanmaken (toon/humor/woorden/overtuigingen) — **✅ gedaan**
+3. Research wegschrijven in KANSEN.md — **✅ gedaan**
+4. KWP-poging + eerlijk loggen bij falen — **✅ gedaan** (niet beschikbaar, gelogd)
+5. Concurrent-gat benutten: wijken + FAQ in elke matrix-pagina — **✅ gedaan** (zit in Tier A/B)
+6. Najaars-timing vastleggen (build nu → rank vóór sep) — **✅ genoteerd** (KANSEN #2); uitvoering GBP-campagne volgt
+7. Matrix Tier C (stormschade × 12 dorpen) — ⬜ ronde 2
+8. Kennisbank-artikel "Daklekkage repareren — kosten & opsporen" — ⬜ ronde 2
+9. Interne-link-pass (matrix ↔ plaats/dienst) — ⬜ na Tier C
+10. GBP-content (najaarsposts + Q&A-seed) — ⬜ ronde 2/3
+
+**STAP C — uitgevoerd:**
+- **Tier B matrix (14 pag.):** kans (lokale diepte die concurrent mist) → gebouwd in `matrix.ts` (unieke hooks per dorp, gegrond in woningtype/omgeving) → geverifieerd: build 69 pag. groen, 24 matrix-pagina's, steekproef uniek (Drunen "Loonse en Drunense Duinen", Heusden "vesting").
+- **Voice-files:** 4 bestanden in `voice/` afgeleid uit bestaande site-/GBP-copy → vanaf nu leidend voor toon.
+- Commit per groep naar `nacht-seo`.
+
+**Volgende ronde (2):** STAP A opnieuw, dan tips 7–10 (Tier C, eerste artikel, GBP-content).

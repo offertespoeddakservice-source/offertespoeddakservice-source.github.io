@@ -16,7 +16,9 @@
 > Als de loop niet in KWP kon kijken, staan hieronder de termen die je zelf even moet
 > verifiëren (Google Ads → Keyword Planner → locatie 's-Hertogenbosch + omgeving).
 
-- _(nog leeg — de loop vult dit alleen als de optionele KWP-stap niet lukte)_
+- **Ronde 1 (22-06):** Chrome is verbonden, maar de Google-account heeft **geen actief Google Ads-account** — `ads.google.com/aw/keywordplanner` leidt naar de Ads-aanmeldflow ("Laten we het over uw bedrijf hebben"). Keyword Planner werkt pas met een Ads-account, en dat aanmaken doe ik bewust niet. **Niet nodig ook:** je `KEYWORD-ONDERZOEK.md` kómt al uit een KP-export (9.494 kw). Wil je live KWP later: maak (gratis) een Ads-account aan zonder campagne, dan kun je in *Tools → Keyword Planner* deze checks doen:
+  - Volumes per dorp voor "dakdekker [dorp]", "goten reinigen [dorp]", "daklekkage [dorp]" (locatie: 's-Hertogenbosch + omgeving).
+  - Nieuwe ideeën rond "verstopte regenpijp", "lekkende dakgoot", "stormschade dak".
 
 ## Overige twijfelpunten (loop voegt toe)
 - _(nog leeg)_

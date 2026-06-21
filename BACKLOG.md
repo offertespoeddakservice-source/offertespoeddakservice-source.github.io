@@ -7,7 +7,7 @@
 Money-diensten in volgorde: **daklekkage → goten reinigen → stormschade** (zie `PRIORITEIT.md`).
 
 - ✅ **Tier A (10)** — daklekkage + goten × {Oss, Den Bosch, Rosmalen, Vught, Berlicum}. *(gedaan, `src/data/matrix.ts` + route)*
-- ⬜ **Tier B (14)** — daklekkage + goten × {Vlijmen, Drunen, Boxtel, Schijndel, Heusden, Sint-Michielsgestel, Oisterwijk}.
+- ✅ **Tier B (14)** — daklekkage + goten × {Vlijmen, Drunen, Boxtel, Schijndel, Heusden, Sint-Michielsgestel, Oisterwijk}. *(ronde 1)*
 - ⬜ **Tier C (12)** — stormschade × alle 12 kerndorpen (klaarzetten voor stormpieken; koppelt aan `storm.py`).
 - ⬜ **Interne-link-pass** — plaatspagina's ↔ hun dienst-combo's, dienstpagina's ↔ hun plaats-combo's (silo) + matrix-ingang op home/diensten/werkgebied. *(pas ná Tier B/C)*
 
@@ -24,7 +24,7 @@ Money-diensten in volgorde: **daklekkage → goten reinigen → stormschade** (z
 - ⬜ **Foto-naamschema** (dienst-plaats.jpg) + categorieën → `GBP-CONTENT.md`
 
 ## D. Stem & fundament
-- ⬜ **voice/-map** — `toon.md`, `humor.md`, `woorden.md`, `overtuigingen.md` (uit bestaande site-copy + GBP-omschrijving). Gebruik voortaan voor alle gegenereerde tekst.
+- ✅ **voice/-map** — `toon.md`, `humor.md`, `woorden.md`, `overtuigingen.md`. *(ronde 1)*
 - ✅ **Keyword-clusters** op de 3 money-pagina's (8 FAQ's). *(gedaan)*
 - ✅ **PRIORITEIT.md** — data-gedreven bouwvolgorde. *(gedaan)*
 - ⬜ **CITATIES.md** — NL-vermeldingen (Bing Places, Apple Business Connect, De Telefoongids, Facebook, lokale gidsen) + exacte NAP om identiek te plakken.

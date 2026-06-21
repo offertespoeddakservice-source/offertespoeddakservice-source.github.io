@@ -5,7 +5,12 @@
 
 | # | Kans | Bron | Waarom | → Actie | Status |
 |---|------|------|--------|---------|--------|
-| _(nog leeg — de loop vult dit vanaf ronde 1)_ | | | | | |
+| 1 | Concurrent-plaatspagina's zijn generiek (plaatsnaam ingevuld, géén wijken/woningtypes/prijzen/FAQ) | WebFetch dakbeheerzuid.nl/dakdekker-rosmalen | Onze matrix wint op échte lokale diepte | Matrix Tier A+B mét wijken/hooks/FAQ | ✅ benut (R1) |
+| 2 | Piekvraag goten + lekkage = najaar (sep–nov), bladval + storm | WebSearch seizoen | Nú bouwen = geïndexeerd vóór de piek | Matrix/artikelen nu af; GBP-najaarscampagne klaarzetten | ⬜ deels (GBP later) |
+| 3 | Organische SERP vol directories + landelijke lead-sites (slimster, trustoo, dakdekkersgids, dakdekker-info) | WebSearch concurrenten | Generiek = niet lokaal; local-pack + echte pagina's winbaar | Maps-focus + unieke plaatspagina's | ✅ bevestigt strategie |
+| 4 | Concurrent-reviews leven op Trustoo (9,5 / 18.950 over 14 bronnen), niet op Google | WebSearch | Google-kaart telt; daar zijn ze zwak | Google-review-motor (zie BESLISSING-NODIG) | 🔴 → Rens (GBP) |
+| 5 | Concurrenten tonen géén prijzen | WebFetch concurrent | Transparante prijs = vertrouwens-edge | Prijzen op pagina's zodra €25/€30 vaststaat | 🔴 → Rens (prijs) |
+| 6 | Tweede onderhoudsmoment = "april na winter" (voorjaarscheck) | WebSearch seizoen | Tweede seizoenspiek voor goten-content | Voorjaars-GBP-post + artikel-hoek | ⬜ open |
 
 ---
 
