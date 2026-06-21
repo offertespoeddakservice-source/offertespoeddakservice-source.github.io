@@ -21,4 +21,9 @@
   - Nieuwe ideeën rond "verstopte regenpijp", "lekkende dakgoot", "stormschade dak".
 
 ## Overige twijfelpunten (loop voegt toe)
-- _(nog leeg)_
+- **OG-deelafbeelding (ronde 7):** de social-share-afbeelding is nu `og.svg`. Facebook,
+  LinkedIn en WhatsApp renderen **SVG vaak niet** in linkvoorvertoningen → exporteer 'm
+  als **PNG 1200×630** (`og.png`) en wijs `og:image` daarnaar in `Base.astro`. Klein
+  klusje, maar het scheelt of je gedeelde links er professioneel uitzien. (Technisch
+  SEO/social is verder compleet: OG/Twitter-tags, canonical, RoofingContractor- + WebSite-
+  + Breadcrumb- + Article-schema staan allemaal goed.)

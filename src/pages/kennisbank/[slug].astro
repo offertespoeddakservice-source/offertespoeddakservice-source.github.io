@@ -8,6 +8,8 @@ export function getStaticPaths() {
 }
 const { a } = Astro.props;
 const path = `/kennisbank/${a.slug}`;
+const idx = ARTIKELEN.findIndex((x) => x.slug === a.slug);
+const gerelateerd = [1, 2, 3].map((n) => ARTIKELEN[(idx + n) % ARTIKELEN.length]).filter((x) => x.slug !== a.slug);
 
 const articleSchema = {
   "@context": "https://schema.org",
@@ -68,6 +70,22 @@ const schema = faqSchema ? [articleSchema, faqSchema] : articleSchema;
               <summary>{f.v}</summary>
               <p>{f.a}</p>
             </details>
+          ))}
+        </div>
+      </div>
+    </section>
+  )}
+
+  {gerelateerd.length > 0 && (
+    <section class="section section--soft">
+      <div class="wrap">
+        <h2>Lees ook</h2>
+        <div class="grid grid-3" style="margin-top:18px;">
+          {gerelateerd.map((g) => (
+            <a class="card" href={`/kennisbank/${g.slug}`}>
+              <h3>{g.titel}</h3>
+              <p>{g.metaDescription}</p>
+            </a>
           ))}
         </div>
       </div>

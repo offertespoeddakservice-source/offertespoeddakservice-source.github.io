@@ -23,6 +23,27 @@
 
 ## Rondes
 
+### Ronde 7 — 2026-06-22 01:4x — technische finishing
+
+**STAP A — analyse:** layout `Base.astro` gecontroleerd. Bevinding: technisch SEO/social is
+al **compleet** (OG- + Twitter-tags, canonical, RoofingContractor- + WebSite- + Breadcrumb-
+schema, Article-schema per artikel). **Geen schijnwerk verzonnen** — niets toe te voegen daar.
+
+**STAP B — tips (alleen wat écht waarde heeft):**
+1. Layout technische SEO verifiëren — **✅** (compleet, niets nodig)
+2. Kennisbank-artikelen onderling kruislinken ("Lees ook") — **✅ gedaan** (was het echte gat)
+3. OG-image SVG→PNG-aanbeveling → BESLISSING-NODIG — **✅** (SVG rendert slecht in social-previews)
+4–10. bewust niets bijgebouwd (technisch + content compleet; padding vermeden)
+
+**STAP C — uitgevoerd:**
+- **Topic-cluster:** `kennisbank/[slug].astro` krijgt een "Lees ook"-sectie die roterend 3
+  andere artikelen toont → diepere interne links tussen de 7 artikelen. Geverifieerd: build
+  86 pag., kruislinks renderen (mos → opsporen/coaten/hoe-vaak).
+- **BESLISSING-NODIG:** og.svg → og.png 1200×630 aanbevolen (rest van technisch SEO is af).
+- Commit naar `nacht-seo`.
+
+**Volgende ronde (8 — laatste):** OCHTENDRAPPORT.md + eindstand, dan stopt de loop.
+
 ### Ronde 6 — 2026-06-22 01:4x — QA + content
 
 **STAP A — analyse/QA i.p.v. externe research:** volledige site-scan + 1 WebSearch (mos).
