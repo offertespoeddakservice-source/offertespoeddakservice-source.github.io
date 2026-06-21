@@ -9,7 +9,7 @@ Money-diensten in volgorde: **daklekkage → goten reinigen → stormschade** (z
 - ✅ **Tier A (10)** — daklekkage + goten × {Oss, Den Bosch, Rosmalen, Vught, Berlicum}. *(gedaan, `src/data/matrix.ts` + route)*
 - ✅ **Tier B (14)** — daklekkage + goten × {Vlijmen, Drunen, Boxtel, Schijndel, Heusden, Sint-Michielsgestel, Oisterwijk}. *(ronde 1)*
 - ✅ **Tier C (12)** — stormschade × alle 12 kerndorpen. *(ronde 2 — matrix nu compleet: 36 pag.)*
-- ⬜ **Interne-link-pass** — plaatspagina's ↔ hun dienst-combo's, dienstpagina's ↔ hun plaats-combo's (silo) + matrix-ingang op home/diensten/werkgebied. *(pas ná Tier B/C)*
+- ✅ **Interne-link-pass** — plaatspagina's ↔ hun dienst-combo's, dienstpagina's ↔ hun plaats-combo's (silo). *(ronde 4)* Home-ingang nog optioneel.
 
 ## B. Kennisbank — artikelen voor hoge-intentie probleemtermen
 - ✅ "Wat kost daklekkage repareren?" (`daklekkage repareren` 880 · Laag · €5,46) *(ronde 2 — kosten-hoek, gelinkt aan bestaand opsporen-artikel)*
@@ -27,7 +27,7 @@ Money-diensten in volgorde: **daklekkage → goten reinigen → stormschade** (z
 - ✅ **voice/-map** — `toon.md`, `humor.md`, `woorden.md`, `overtuigingen.md`. *(ronde 1)*
 - ✅ **Keyword-clusters** op de 3 money-pagina's (8 FAQ's). *(gedaan)*
 - ✅ **PRIORITEIT.md** — data-gedreven bouwvolgorde. *(gedaan)*
-- ⬜ **CITATIES.md** — NL-vermeldingen (Bing Places, Apple Business Connect, De Telefoongids, Facebook, lokale gidsen) + exacte NAP om identiek te plakken.
+- ✅ **CITATIES.md** — NAP-blok + 3 tiers vermeldingen (GBP → Bing/Apple → NL-gidsen). *(ronde 4)*
 
 ## E. Afsluiting (laatste ronde)
 - ⬜ **Build-check** — `npm run build`, paginatelling noteren, errors oplossen.

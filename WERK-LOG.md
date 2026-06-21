@@ -23,6 +23,29 @@
 
 ## Rondes
 
+### Ronde 4 — 2026-06-22 01:3x
+
+**STAP A — research:** WebSearch NL-bedrijvengidsen/citaties → DTG, Bedrijvengids Nederland, Bedrijf op de kaart, Peyda; NAP-consistentie = sleutel voor local-pack. Bing Places + Apple Business Connect als onderbenutte kansen (concurrent doet ze niet).
+
+**STAP B — 10 tips:**
+1. CITATIES.md (NAP-blok + geprioriteerde vermeldingen) — **✅ gedaan**
+2. Interne-link-pass: dienst → matrix-combo's — **✅ gedaan**
+3. Interne-link-pass: plaats → matrix-combo's ("Veelgevraagd in [plaats]") — **✅ gedaan**
+4. Fallback voor diensten zonder matrix (plaatsen-chips) — **✅ gedaan**
+5. Research citaties wegschrijven — **✅**
+6. Matrix-ingang op home — ⬜ ronde 5 (optioneel)
+7. KANSEN doorlopen op onbenutte items — ⬜ ronde 5
+8. Extra artikel/inhoud uit KANSEN — ⬜ ronde 5
+9. Najaars-/voorjaars-GBP-timing (al in GBP-CONTENT) — ✅
+10. Build-check — ✅ (84 pag.)
+
+**STAP C — uitgevoerd:**
+- **Interne-link-pass (silo):** `[dienst].astro` + `[plaats].astro` aangepast — money-diensten linken nu naar hun 12 plaats-combo's en elke plaats naar zijn dienst-combo's. Diensten zonder matrix vallen terug op de algemene plaatsen-chips. Geverifieerd: build 84 pag., links aanwezig (oss/daklekkage, "Veelgevraagd in Oss", fallback "Heel mijn werkgebied").
+- **CITATIES.md:** kant-en-klaar NAP-blok + 3 tiers vermeldingen (GBP → Bing/Apple → NL-gidsen).
+- Commit naar `nacht-seo`.
+
+**Volgende ronde (5):** KANSEN doorlopen op onbenutte items + eventueel matrix-ingang op home + extra content.
+
 ### Ronde 3 — 2026-06-22 01:2x
 
 **STAP A — research:** WebSearch verstopte regenpijp (oorzaken/symptomen/gevolgen/voorkomen) → blad+mos via goot, najaar/winter, bevriezen; gevolg = vocht/schimmel/scheuren gevel; oplossing = goot leeg + pijp doorspoelen + bladroosters. Cannibalisatie-check op de 4 bestaande slugs → 2 nieuwe hoeken die niet overlappen.

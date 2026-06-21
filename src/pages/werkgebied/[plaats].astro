@@ -2,7 +2,8 @@
 import Base from "../../layouts/Base.astro";
 import { SITE, telHref, waHref } from "../../site.config.ts";
 import { PLAATSEN } from "../../data/plaatsen.ts";
-import { DIENSTEN } from "../../data/diensten.ts";
+import { DIENSTEN, getDienst } from "../../data/diensten.ts";
+import { MATRIX } from "../../data/matrix.ts";
 
 export function getStaticPaths() {
   return PLAATSEN.map((p) => ({ params: { plaats: p.slug }, props: { p } }));
@@ -11,6 +12,9 @@ export function getStaticPaths() {
 const { p } = Astro.props;
 const path = `/werkgebied/${p.slug}`;
 const titel = `Dakdekker in ${p.naam}`;
+const matrixVoorPlaats = MATRIX.filter((c) => c.plaats === p.slug)
+  .map((c) => getDienst(c.dienst))
+  .filter((d) => d);
 
 const faq = [
   { v: `Werk je in heel ${p.naam}?`, a: `Ja, ik werk in heel ${p.naam}${p.wijken.length ? ` — onder andere ${p.wijken.slice(0, 3).join(", ")}` : ""} en de directe omgeving. ${p.reistijd ? `Het is maar ${p.reistijd}.` : ""}` },
@@ -85,6 +89,18 @@ const schema = [
       </div>
     </div>
   </section>
+
+  {matrixVoorPlaats.length > 0 && (
+    <section class="section">
+      <div class="wrap">
+        <h2>Veelgevraagd in {p.naam}</h2>
+        <p class="lead">Direct naar de meestgevraagde klussen in {p.naam}:</p>
+        <div class="chips">
+          {matrixVoorPlaats.map((d) => <a class="chip" href={`/werkgebied/${p.slug}/${d.slug}`}>{d.titel} in {p.naam}</a>)}
+        </div>
+      </div>
+    </section>
+  )}
 
   <section class="section">
     <div class="wrap">

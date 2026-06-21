@@ -2,7 +2,8 @@
 import Base from "../../layouts/Base.astro";
 import { SITE, telHref, waHref } from "../../site.config.ts";
 import { DIENSTEN } from "../../data/diensten.ts";
-import { PLAATSEN } from "../../data/plaatsen.ts";
+import { PLAATSEN, getPlaats } from "../../data/plaatsen.ts";
+import { MATRIX } from "../../data/matrix.ts";
 
 export function getStaticPaths() {
   return DIENSTEN.map((d) => ({ params: { dienst: d.slug }, props: { d } }));
@@ -29,6 +30,9 @@ const faqSchema = d.faq.length
   : null;
 const schema = faqSchema ? [serviceSchema, faqSchema] : serviceSchema;
 const andere = DIENSTEN.filter((x) => x.slug !== d.slug);
+const matrixVoorDienst = MATRIX.filter((c) => c.dienst === d.slug)
+  .map((c) => getPlaats(c.plaats))
+  .filter((p) => p);
 ---
 
 <Base title={d.metaTitle} description={d.metaDescription} path={path} schema={schema}>
@@ -89,7 +93,15 @@ const andere = DIENSTEN.filter((x) => x.slug !== d.slug);
   <section class="section section--white">
     <div class="wrap">
       <h2>{d.titel} in de regio Den Bosch</h2>
-      <p class="lead">Ik werk in {SITE.regioOmschrijving}. Kies je plaats voor meer info:</p>
+      {matrixVoorDienst.length > 0 && (
+        <>
+          <p class="lead">Direct naar {d.titel.toLowerCase()} in jouw plaats:</p>
+          <div class="chips" style="margin-bottom:18px;">
+            {matrixVoorDienst.map((p) => <a class="chip" href={`/werkgebied/${p.slug}/${d.slug}`}>{d.titel} in {p.naam}</a>)}
+          </div>
+        </>
+      )}
+      <p class="lead">Heel mijn werkgebied — kies je plaats:</p>
       <div class="chips">
         {PLAATSEN.map((p) => <a class="chip" href={`/werkgebied/${p.slug}`}>{p.naam}</a>)}
       </div>
