@@ -23,6 +23,26 @@
 
 ## Rondes
 
+### Ronde 5 — 2026-06-22 01:3x
+
+**STAP A — research:** WebSearch dakonderhoud per seizoen → 2× per jaar visuele check (voorjaar + najaar), goten 2×/jaar, prof. inspectie elke 3–5 jaar (ouder dak vaker); per daktype (pannen: mos/nokvorst/lood; plat: stilstaand water). Technische check: `robots.txt` bestaat al en verwijst correct naar de sitemap; home linkt al naar diensten + plaatsen → silo voedt de matrix.
+
+**STAP B — 10 tips:**
+1. Seizoens-onderhoud-artikel (KANSEN #6, voorjaarshoek) — **✅ gedaan**
+2. robots.txt → sitemap verifiëren — **✅** (was al goed)
+3. Home matrix-ingang — ⏭️ overgeslagen (home linkt al naar diensten+plaatsen; silo dekt de matrix, extra ingang = lage marginale waarde + drukke home)
+4. Research seizoen wegschrijven — **✅**
+5. Build-check — ✅ (85 pag.)
+6–10. (geen losse extra's deze ronde; bewust niet bijbouwen om thin content te vermijden)
+
+**STAP C — uitgevoerd:**
+- **Artikel "Dakonderhoud per seizoen"** in Rens' stem: 2×/jaar-check, goten 2×, per-daktype-aandacht, prof. inspectie 3–5 jaar. Targets dakonderhoud/dakinspectie-termen, distinct van bestaande artikelen. Geverifieerd: build 85 pag., rendert + in kennisbank-index.
+- Commit naar `nacht-seo`.
+
+**Bewuste keuze:** niet blijven bijbouwen aan matrix/pagina's om thin content te vermijden — de waarde zit nu in afronden + het OCHTENDRAPPORT.
+
+**Volgende ronde (6):** KANSEN nalopen op écht onbenutte items; anders richting afronding.
+
 ### Ronde 4 — 2026-06-22 01:3x
 
 **STAP A — research:** WebSearch NL-bedrijvengidsen/citaties → DTG, Bedrijvengids Nederland, Bedrijf op de kaart, Peyda; NAP-consistentie = sleutel voor local-pack. Bing Places + Apple Business Connect als onderbenutte kansen (concurrent doet ze niet).

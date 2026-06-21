@@ -10,7 +10,7 @@
 | 3 | Organische SERP vol directories + landelijke lead-sites (slimster, trustoo, dakdekkersgids, dakdekker-info) | WebSearch concurrenten | Generiek = niet lokaal; local-pack + echte pagina's winbaar | Maps-focus + unieke plaatspagina's | ✅ bevestigt strategie |
 | 4 | Concurrent-reviews leven op Trustoo (9,5 / 18.950 over 14 bronnen), niet op Google | WebSearch | Google-kaart telt; daar zijn ze zwak | Google-review-motor (zie BESLISSING-NODIG) | 🔴 → Rens (GBP) |
 | 5 | Concurrenten tonen géén prijzen | WebFetch concurrent | Transparante prijs = vertrouwens-edge | Prijzen op pagina's zodra €25/€30 vaststaat | 🔴 → Rens (prijs) |
-| 6 | Tweede onderhoudsmoment = "april na winter" (voorjaarscheck) | WebSearch seizoen | Tweede seizoenspiek voor goten-content | Voorjaars-GBP-post + artikel-hoek | ⬜ open |
+| 6 | Tweede onderhoudsmoment = "april na winter" (voorjaarscheck) | WebSearch seizoen | Tweede seizoenspiek voor goten-content | Voorjaars-GBP-post + artikel-hoek | ✅ benut (R5: artikel "Dakonderhoud per seizoen" + GBP-post #3) |
 
 ---
 

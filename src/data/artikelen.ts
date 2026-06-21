@@ -187,6 +187,37 @@ export const ARTIKELEN: Artikel[] = [
       { v: "Vergoedt mijn verzekering stormschade?", a: "Vaak wel via de opstalverzekering. Ik lever foto's en een omschrijving aan zodat je het kunt indienen; check de voorwaarden bij je verzekeraar." },
     ],
   },
+  {
+    slug: "dakonderhoud-per-seizoen",
+    titel: "Dakonderhoud per seizoen",
+    h1: "Dakonderhoud per seizoen: wat je wanneer moet controleren",
+    metaTitle: "Dakonderhoud checklist per seizoen + hoe vaak | Spoed Dak Service",
+    metaDescription:
+      "Hoe vaak moet je je dak onderhouden? Twee keer per jaar een check (voorjaar + najaar) voorkomt dure schade. Lees de seizoenschecklist per daktype — uitleg van dakdekker Rens.",
+    intro:
+      "Een dak gaat tientallen jaren mee, maar alleen als je het een beetje bijhoudt. Twee korte checks per jaar — in het voorjaar en het najaar — voorkomen verreweg de meeste dure schade. Hieronder wat er per seizoen toe doet, en hoe vaak je een vakman nodig hebt.",
+    secties: [
+      { kop: "Twee keer per jaar: voorjaar en najaar", tekst: [
+        "De vuistregel is twee visuele controles per jaar. In het voorjaar herstel je winterschade (losse pannen, gescheurd lood, gootschade van vorst). In het najaar maak je het dak winterklaar: goten leeg vóór de bladval, pannen en lood na voor de eerste herfststorm.",
+        "Is je dak ouder dan zo'n vijftien jaar, dan is twee keer kijken echt geen luxe — oudere daken laten sneller los.",
+      ] },
+      { kop: "Goten: minimaal twee keer per jaar", tekst: [
+        "Goten zijn het vaakst de oorzaak van vochtschade. Maak ze minstens twee keer per jaar leeg, en bij bomen in de buurt vaker. Najaar is het belangrijkste moment, vlak na de bladval.",
+      ] },
+      { kop: "Let op per daktype", tekst: [
+        "Pannendak: controleer op losse, gebroken of poreuze pannen, verwijder mos op tijd (mos houdt vocht vast) en kijk jaarlijks de nokvorsten en het lood bij schoorsteen en dakramen na.",
+        "Plat dak: hier is stilstaand water de grootste vijand. Controleer na hevige regen of het water goed wegloopt, en houd naden en opstanden in de gaten.",
+      ] },
+      { kop: "En een professionele inspectie?", tekst: [
+        "Een grondige vakinspectie is elke 3 tot 5 jaar verstandig, en vaker bij een ouder dak. Ik doe zo'n check eerlijk: ik zeg wat nú aandacht vraagt en wat best nog even kan wachten. Geen onnodige paniek, geen onnodig werk.",
+      ] },
+    ],
+    dienst: { label: "Bekijk: dakgoot reinigen", href: "/diensten/goten-reinigen" },
+    faq: [
+      { v: "Hoe vaak moet ik mijn dak laten controleren?", a: "Twee keer per jaar zelf een visuele check (voorjaar + najaar), en elke 3 tot 5 jaar een grondige vakinspectie — vaker bij een dak ouder dan 15 jaar." },
+      { v: "Wat is het beste moment voor onderhoud?", a: "Najaar is het belangrijkst: goten leeg en pannen/lood nakijken vóór de herfststormen. Het voorjaar gebruik je om winterschade te herstellen." },
+    ],
+  },
 ];
 
 export const getArtikel = (slug: string) => ARTIKELEN.find((a) => a.slug === slug);
