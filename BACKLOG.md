@@ -30,5 +30,9 @@ Money-diensten in volgorde: **daklekkage → goten reinigen → stormschade** (z
 - ✅ **CITATIES.md** — NAP-blok + 3 tiers vermeldingen (GBP → Bing/Apple → NL-gidsen). *(ronde 4)*
 
 ## E. Afsluiting (laatste ronde)
-- ⬜ **Build-check** — `npm run build`, paginatelling noteren, errors oplossen.
-- ⬜ **OCHTENDRAPPORT.md** — samenvatting + `BESLISSING-NODIG.md` + top-3 kansen morgen.
+- ✅ **Build-check** — `npm run build` groen, 85 pag., 0 gebroken links. *(ronde 6+8)*
+- ✅ **OCHTENDRAPPORT.md** — samenvatting + BESLISSING-NODIG + top-3 kansen. *(ronde 8)*
+
+---
+**Loop afgerond na 8 rondes (2026-06-22).** Alle backlog-items ✅ of bewust ⏭️.
+Resterende ⬜'s zijn allemaal "alleen Rens" → `BESLISSING-NODIG.md`.

@@ -23,6 +23,16 @@
 
 ## Rondes
 
+### Ronde 8 — 2026-06-22 01:4x — afronding (laatste)
+
+- **Eind-build-check:** 85 pag., build groen, 0 gebroken links.
+- **OCHTENDRAPPORT.md** geschreven: wat gebouwd (per ronde), BESLISSING-NODIG-samenvatting, top-3 kansen morgen (1. live+prijs, 2. GBP+reviews, 3. foto's).
+- BACKLOG afgesloten — alle items ✅ of bewust ⏭️; resterende ⬜'s zijn "alleen Rens".
+- **Loop gestopt** (geen nieuwe ScheduleWakeup) — stopvoorwaarde "na 8 rondes" bereikt.
+
+**Eindstand:** branch `nacht-seo`, 13 commits vóór master · 36 matrix-pagina's · 8 artikelen ·
+voice-files · GBP-content · citaties · volledige interne silo · QA schoon. Niets live.
+
 ### Ronde 7 — 2026-06-22 01:4x — technische finishing
 
 **STAP A — analyse:** layout `Base.astro` gecontroleerd. Bevinding: technisch SEO/social is
