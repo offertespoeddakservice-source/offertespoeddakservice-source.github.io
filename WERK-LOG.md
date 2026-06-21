@@ -23,6 +23,29 @@
 
 ## Rondes
 
+### Ronde 3 — 2026-06-22 01:2x
+
+**STAP A — research:** WebSearch verstopte regenpijp (oorzaken/symptomen/gevolgen/voorkomen) → blad+mos via goot, najaar/winter, bevriezen; gevolg = vocht/schimmel/scheuren gevel; oplossing = goot leeg + pijp doorspoelen + bladroosters. Cannibalisatie-check op de 4 bestaande slugs → 2 nieuwe hoeken die niet overlappen.
+
+**STAP B — 10 tips:**
+1. Artikel "Verstopte regenpijp / lekkende dakgoot" — **✅ gedaan**
+2. Artikel "Stormschade: eerste hulp & verzekering" — **✅ gedaan**
+3. GBP-CONTENT.md starten (maand posts + Q&A-seed + foto-schema) — **✅ gedaan**
+4. Cannibalisatie-check artikelen — **✅ gedaan** ("wat kost goten" overgeslagen, dekt `hoe-vaak-dakgoot-reinigen` al)
+5. Research wegschrijven — **✅** (bronnen verwerkt in artikel)
+6. CITATIES.md (NL-vermeldingen + NAP) — ⬜ ronde 4
+7. Interne-link-pass (matrix ↔ plaats/dienst + matrix-ingang) — ⬜ ronde 4
+8. Najaars-GBP-timing in GBP-CONTENT verwerkt (post #2) — **✅**
+9. Extra probleem-artikel uit KANSEN — ⬜ later
+10. Build-check — ✅ (84 pag.)
+
+**STAP C — uitgevoerd:**
+- **2 kennisbank-artikelen** (regenpijp/goot + stormschade-eerste-hulp) in Rens' stem (voice-files), met research-onderbouwing, interne links naar dienst + verwante artikelen. Geverifieerd: build 84 pag., beide renderen + staan in kennisbank-index.
+- **GBP-CONTENT.md:** 7 roterende posts (aanbod/seizoen/storm/bewijs/vertrouwen) + 5 Q&A-seeds + foto-naamschema. Prijs gemarkeerd als €25/€30-afhankelijk.
+- Commit naar `nacht-seo`.
+
+**Volgende ronde (4):** CITATIES.md + interne-link-pass + matrix-ingang op overzichtspagina's.
+
 ### Ronde 2 — 2026-06-22 01:2x
 
 **STAP A — research:** WebSearch daklekkage-reparatiekosten 2026 → concrete cijfers (opsporen €75–150 visueel / €125–350 lekdetectie; reparatie €130–500 klein; pannendak €130–210/m², plat €250–300/m²; **uitstel kost €800–2.500 extra binnen 6 mnd**). Kannibalisatie-check: er bestaat al een `daklekkage-opsporen`-artikel → nieuw artikel bewust op de **kosten**-hoek gezet + onderling gelinkt.

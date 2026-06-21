@@ -128,6 +128,65 @@ export const ARTIKELEN: Artikel[] = [
       { v: "Vergoedt mijn verzekering de reparatie?", a: "Bij storm- of stormgerelateerde schade vaak wel (opstalverzekering). Ik lever foto's en een omschrijving aan zodat je het kunt indienen." },
     ],
   },
+  {
+    slug: "verstopte-regenpijp-lekkende-dakgoot",
+    titel: "Verstopte regenpijp?",
+    h1: "Verstopte regenpijp of lekkende dakgoot — oorzaken en oplossing",
+    metaTitle: "Verstopte regenpijp & lekkende dakgoot — oplossen | Spoed Dak Service",
+    metaDescription:
+      "Verstopte regenpijp of lekkende dakgoot? Loopt het water langs je gevel, dan zit de afvoer dicht. Lees de oorzaken, gevolgen en hoe ik het oplos — in de regio Den Bosch.",
+    intro:
+      "Loopt het water bij regen over de goot of langs je gevel naar beneden, dan is de kans groot dat de regenpijp verstopt zit. Vervelend, maar zelden ingewikkeld. Hieronder waar het vandaan komt, waarom je het niet moet laten zitten, en hoe ik het verhelp.",
+    secties: [
+      { kop: "Waar het door komt", tekst: [
+        "Blad, mos, takjes en zand spoelen vanaf het dak de goot in en zakken door naar de regenpijp, waar het zich ophoopt. Vooral in het najaar gaat dat hard, en in de winter kan een verstopping bevriezen en de afvoer helemaal dichtzetten.",
+        "Een lekkende dakgoot is vaak hetzelfde probleem: de goot loopt over omdat het water niet weg kan, niet omdat de goot zelf kapot is.",
+      ] },
+      { kop: "Hoe je het herkent", tekst: [
+        "Water dat bij regen over de gootrand klotst, een straaltje langs de gevel, of vochtige plekken op de muur onder de goot. Soms lekt het bij de verbindingen van de pijp.",
+      ] },
+      { kop: "Waarom je het niet moet laten zitten", tekst: [
+        "Blijft de afvoer dicht, dan trekt het overlopende water vocht in je gevel en fundering. Dat geeft vochtplekken, schimmel en op den duur zelfs scheuren — veel duurder dan een keer doorspoelen.",
+      ] },
+      { kop: "Hoe ik het oplos", tekst: [
+        "Ik maak eerst de goot leeg (blad, mos, modder), controleer of de instroom naar de regenpijp vrij is en spoel daarna de hele pijp door tot het water vrij wegloopt — niet alleen de goot zelf. Last van bomen in de buurt? Dan adviseer ik bladroosters zodat het minder snel terugkomt.",
+      ] },
+    ],
+    dienst: { label: "Bekijk: dakgoot reinigen", href: "/diensten/goten-reinigen" },
+    faq: [
+      { v: "Kan ik een verstopte regenpijp zelf ontstoppen?", a: "Soms, met een tuinslang van bovenaf. Maar op hoogte werken is niet zonder risico, en zit de verstopping diep, dan krijg je 'm er zo niet uit. Ik doe het veilig en grondig in één keer." },
+      { v: "Hoe voorkom ik dat het terugkomt?", a: "Eén keer per jaar de goot laten reinigen (najaar) en eventueel bladroosters plaatsen. Staan er bomen vlakbij, dan twee keer per jaar." },
+    ],
+  },
+  {
+    slug: "stormschade-eerste-hulp",
+    titel: "Stormschade: eerste hulp",
+    h1: "Stormschade aan je dak: eerste hulp en je verzekering",
+    metaTitle: "Stormschade dak — eerste hulp & verzekering | Spoed Dak Service",
+    metaDescription:
+      "Stormschade aan je dak? Weggewaaide pannen of een open dak laten regen binnen. Lees wat je direct moet doen, hoe je het bij je verzekering regelt en wanneer je moet bellen.",
+    intro:
+      "Na een storm telt elk uur: losse of weggewaaide pannen en open plekken laten meteen regen binnen. Het belangrijkste is rust houden, je veiligheid voorop zetten en snel de schade laten beperken. Hieronder de stappen.",
+    secties: [
+      { kop: "Eerst: je veiligheid", tekst: [
+        "Ga niet zelf het dak op tijdens of vlak na een storm — nat, winderig en met losse delen is dat te gevaarlijk. Blijf uit de buurt van loshangende pannen of delen die naar beneden kunnen komen, ook op de grond.",
+      ] },
+      { kop: "Maak foto's en beperk de schade", tekst: [
+        "Maak van een veilige plek foto's van de schade; die heb je straks nodig voor je verzekering. Vang binnen lekwater op en zet spullen droog. Het écht afdekken van het dak laat je aan een vakman over.",
+      ] },
+      { kop: "Je verzekering", tekst: [
+        "Storm- en hagelschade valt vaak onder je opstalverzekering. Meld de schade bij je verzekeraar en bewaar de foto's. Ik lever een duidelijke omschrijving en foto's aan van wat ik aantref en herstel, zodat jij het kunt indienen.",
+      ] },
+      { kop: "Wanneer je moet bellen", tekst: [
+        "Een open dak of actieve lekkage is spoed — daar kom ik snel voor langs om eerst de schade te stoppen (afdekken, dichten), en daarna netjes te herstellen. Bel of WhatsApp, dan hoor je meteen wanneer ik kan.",
+      ] },
+    ],
+    dienst: { label: "Bekijk: stormschade", href: "/diensten/stormschade" },
+    faq: [
+      { v: "Moet ik zelf het dak op om de schade af te dekken?", a: "Nee, doe dat niet — zeker niet vlak na een storm. Bel mij, ik dek het veilig af en herstel daarna." },
+      { v: "Vergoedt mijn verzekering stormschade?", a: "Vaak wel via de opstalverzekering. Ik lever foto's en een omschrijving aan zodat je het kunt indienen; check de voorwaarden bij je verzekeraar." },
+    ],
+  },
 ];
 
 export const getArtikel = (slug: string) => ARTIKELEN.find((a) => a.slug === slug);

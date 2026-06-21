@@ -13,15 +13,15 @@ Money-diensten in volgorde: **daklekkage → goten reinigen → stormschade** (z
 
 ## B. Kennisbank — artikelen voor hoge-intentie probleemtermen
 - ✅ "Wat kost daklekkage repareren?" (`daklekkage repareren` 880 · Laag · €5,46) *(ronde 2 — kosten-hoek, gelinkt aan bestaand opsporen-artikel)*
-- ⬜ "Verstopte regenpijp of lekkende dakgoot — oorzaken & oplossen" (`verstopte regenpijp` 720 · Laag)
-- ⬜ "Wat kost goten reinigen?" (`dakgoot schoonmaken` 2.400 — vang de info-zoeker → €-opener)
-- ⬜ "Stormschade aan je dak — eerste hulp & verzekering" (piek-/intentieterm)
+- ✅ "Verstopte regenpijp of lekkende dakgoot — oorzaken & oplossen" (`verstopte regenpijp` 720 · Laag) *(ronde 3)*
+- ⏭️ "Wat kost goten reinigen?" — overgeslagen: al gedekt door bestaand `hoe-vaak-dakgoot-reinigen` (kannibalisatie)
+- ✅ "Stormschade aan je dak — eerste hulp & verzekering" (piek-/intentieterm) *(ronde 3)*
 - ⬜ Extra artikelen uit `KANSEN.md` (research levert er meer aan)
 
 ## C. Google Bedrijfsprofiel-content (klaar om te plakken zodra GBP live is)
-- ⬜ **1 maand GBP-posts** — ~4–5 wekelijkse posts (aanbod / seizoen / storm / bewijs) → `GBP-CONTENT.md`
-- ⬜ **Q&A-seed** — de echte klantvragen met jouw beste antwoord → `GBP-CONTENT.md`
-- ⬜ **Foto-naamschema** (dienst-plaats.jpg) + categorieën → `GBP-CONTENT.md`
+- ✅ **1 maand GBP-posts** — 7 roterende posts in `GBP-CONTENT.md` *(ronde 3)*
+- ✅ **Q&A-seed** — 5 vraag+antwoord in `GBP-CONTENT.md` *(ronde 3)*
+- ✅ **Foto-naamschema** (dienst-plaats.jpg) + categorieën in `GBP-CONTENT.md` *(ronde 3)*
 
 ## D. Stem & fundament
 - ✅ **voice/-map** — `toon.md`, `humor.md`, `woorden.md`, `overtuigingen.md`. *(ronde 1)*
