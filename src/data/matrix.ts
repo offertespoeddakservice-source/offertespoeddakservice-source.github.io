@@ -143,4 +143,66 @@ export const MATRIX: MatrixCombo[] = [
     dienst: "goten-reinigen",
     hook: "Bosrijk Oisterwijk betekent veel blad en mos op het dak. Ik maak je goten grondig leeg, controleer de bladvangers en spoel de regenpijp door tot het water vrij loopt.",
   },
+
+  // ── Tier C · stormschade × alle 12 kerndorpen (klaar voor stormpieken) ──
+  {
+    plaats: "oss",
+    dienst: "stormschade",
+    hook: "Na een storm waaien in de ruime, open wijken van Oss makkelijk pannen los. Ik kom snel langs, dek de schade af en herstel de nokvorsten en pannen netjes — met foto's voor je verzekering.",
+  },
+  {
+    plaats: "den-bosch",
+    dienst: "stormschade",
+    hook: "Of het nu de monumentale binnenstad of een wijk als Maaspoort betreft: na een storm telt elk uur. Ik ben dagelijks in Den Bosch, dus bij weggewaaide pannen of een open dak sta ik snel voor je deur.",
+  },
+  {
+    plaats: "rosmalen",
+    dienst: "stormschade",
+    hook: "De schuine pannendaken in Rosmalen verliezen bij storm vaak nokvorsten of losse pannen. Ik beperk eerst de schade en herstel daarna, met duidelijke foto's voor je verzekeraar.",
+  },
+  {
+    plaats: "vught",
+    dienst: "stormschade",
+    hook: "Bij de oudere daken in Vught laat een storm zich voelen bij verouderd lood en losse pannen. Ik kom snel langs voor noodreparatie en zorg dat het weer dicht is.",
+  },
+  {
+    plaats: "berlicum",
+    dienst: "stormschade",
+    hook: "In het open buitengebied rond Berlicum heeft de wind vrij spel; pannen en nokvorsten waaien er makkelijk los. Snel afdekken, dan netjes herstellen.",
+  },
+  {
+    plaats: "vlijmen",
+    dienst: "stormschade",
+    hook: "Vanaf de Maaskant krijgt Vlijmen flink wind; na een storm zie ik hier vaak weggewaaide pannen en losgeraakt lood. Ik beperk de schade direct.",
+  },
+  {
+    plaats: "drunen",
+    dienst: "stormschade",
+    hook: "Open bij de Loonse en Drunense Duinen vangt Drunen veel wind. Losse of weggewaaide pannen laten regen binnen — ik kom snel langs voor noodreparatie.",
+  },
+  {
+    plaats: "boxtel",
+    dienst: "stormschade",
+    hook: "Onder de bomenrijke straten van Boxtel zorgt storm voor afgewaaide takken én losse pannen. Ik dek af, herstel en lever foto's voor je verzekering.",
+  },
+  {
+    plaats: "schijndel",
+    dienst: "stormschade",
+    hook: "Veel daken in Schijndel zijn ouder dan 1985 — bij storm waaien daar sneller pannen en vorsten los. Eerst de schade stoppen, dan blijvend herstellen.",
+  },
+  {
+    plaats: "heusden",
+    dienst: "stormschade",
+    hook: "Aan de open Maaskant bij Heusden grijpt de wind hard aan; oudere daken in de vesting zijn extra kwetsbaar. Ik kom snel langs en herstel met zorg voor het oude werk.",
+  },
+  {
+    plaats: "sint-michielsgestel",
+    dienst: "stormschade",
+    hook: "Langs de Dommel in Sint-Michielsgestel waaien bij storm vorsten en pannen los van de klassieke daken. Ik beperk de schade en maak het weer waterdicht.",
+  },
+  {
+    plaats: "oisterwijk",
+    dienst: "stormschade",
+    hook: "In bosrijk Oisterwijk komen bij storm takken én pannen naar beneden. Ik dek de schade snel af en herstel netjes, met foto's voor je verzekeraar.",
+  },
 ];

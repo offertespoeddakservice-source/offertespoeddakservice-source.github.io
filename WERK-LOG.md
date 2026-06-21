@@ -23,6 +23,29 @@
 
 ## Rondes
 
+### Ronde 2 — 2026-06-22 01:2x
+
+**STAP A — research:** WebSearch daklekkage-reparatiekosten 2026 → concrete cijfers (opsporen €75–150 visueel / €125–350 lekdetectie; reparatie €130–500 klein; pannendak €130–210/m², plat €250–300/m²; **uitstel kost €800–2.500 extra binnen 6 mnd**). Kannibalisatie-check: er bestaat al een `daklekkage-opsporen`-artikel → nieuw artikel bewust op de **kosten**-hoek gezet + onderling gelinkt.
+
+**STAP B — 10 tips:**
+1. Matrix Tier C (stormschade × 12 dorpen) — **✅ gedaan**
+2. Kennisbank-artikel "Wat kost daklekkage repareren?" — **✅ gedaan**
+3. Research kosten + cannibalisatie-check — **✅ gedaan**
+4. Tweede artikel "Verstopte regenpijp / lekkende dakgoot" — ⬜ ronde 3
+5. Derde artikel "Wat kost goten reinigen?" — ⬜ ronde 3
+6. GBP-CONTENT.md (maand posts + Q&A-seed + foto-schema) — ⬜ ronde 3/4
+7. CITATIES.md (NL-vermeldingen + NAP) — ⬜ ronde 4
+8. Interne-link-pass (matrix ↔ plaats/dienst, matrix-ingang op overzichten) — ⬜ na alle pagina's
+9. Najaars-GBP-campagne klaarzetten (KANSEN #2) — ⬜ ronde 4
+10. Build-check + paginatelling — ✅ doorlopend (82 pag.)
+
+**STAP C — uitgevoerd:**
+- **Tier C stormschade (12 pag.):** kans (stormpiek-term, concurrent traag) → gebouwd in `matrix.ts` met unieke wind/locatie-hooks per dorp → geverifieerd: build 82 pag., **36 matrix-pagina's totaal (matrix compleet)**, steekproef uniek (Heusden "vesting").
+- **Artikel "Wat kost daklekkage repareren?":** in Rens' stem (voice-files), met 2026-cijfers + uitstel-urgentie, gelinkt aan daklekkage-dienst + opsporen-artikel. Rendert.
+- Commit naar `nacht-seo`.
+
+**Volgende ronde (3):** STAP A opnieuw, dan tips 4–6 (2 artikelen + start GBP-content).
+
 ### Ronde 1 — 2026-06-22 01:1x
 
 **STAP A — research:** WebSearch (concurrenten regio + seizoenspiek) + WebFetch concurrent-plaatspagina. Chrome verbonden, maar KWP niet bereikbaar (geen Ads-account) → gelogd in BESLISSING-NODIG, door op CSV/openbare bronnen. 6 kansen → KANSEN.md. **Kerninzicht:** concurrent-plaatspagina's zijn generiek (geen wijken/prijzen/FAQ); piekvraag = najaar → nú bouwen.

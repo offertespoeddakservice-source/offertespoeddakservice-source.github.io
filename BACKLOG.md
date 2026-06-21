@@ -8,11 +8,11 @@ Money-diensten in volgorde: **daklekkage → goten reinigen → stormschade** (z
 
 - ✅ **Tier A (10)** — daklekkage + goten × {Oss, Den Bosch, Rosmalen, Vught, Berlicum}. *(gedaan, `src/data/matrix.ts` + route)*
 - ✅ **Tier B (14)** — daklekkage + goten × {Vlijmen, Drunen, Boxtel, Schijndel, Heusden, Sint-Michielsgestel, Oisterwijk}. *(ronde 1)*
-- ⬜ **Tier C (12)** — stormschade × alle 12 kerndorpen (klaarzetten voor stormpieken; koppelt aan `storm.py`).
+- ✅ **Tier C (12)** — stormschade × alle 12 kerndorpen. *(ronde 2 — matrix nu compleet: 36 pag.)*
 - ⬜ **Interne-link-pass** — plaatspagina's ↔ hun dienst-combo's, dienstpagina's ↔ hun plaats-combo's (silo) + matrix-ingang op home/diensten/werkgebied. *(pas ná Tier B/C)*
 
 ## B. Kennisbank — artikelen voor hoge-intentie probleemtermen
-- ⬜ "Daklekkage repareren — wat kost het & hoe wordt het opgespoord" (`daklekkage repareren` 880 · Laag · €5,46)
+- ✅ "Wat kost daklekkage repareren?" (`daklekkage repareren` 880 · Laag · €5,46) *(ronde 2 — kosten-hoek, gelinkt aan bestaand opsporen-artikel)*
 - ⬜ "Verstopte regenpijp of lekkende dakgoot — oorzaken & oplossen" (`verstopte regenpijp` 720 · Laag)
 - ⬜ "Wat kost goten reinigen?" (`dakgoot schoonmaken` 2.400 — vang de info-zoeker → €-opener)
 - ⬜ "Stormschade aan je dak — eerste hulp & verzekering" (piek-/intentieterm)
