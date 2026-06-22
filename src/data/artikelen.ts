@@ -49,7 +49,7 @@ export const ARTIKELEN: Artikel[] = [
     slug: "dakpannen-coaten-of-vervangen",
     titel: "Coaten of vervangen?",
     h1: "Dakpannen coaten of vervangen? Zo maak je de juiste keuze",
-    metaTitle: "Dakpannen coaten of vervangen? Wat is slim | Spoed Dak Service",
+    metaTitle: "Dakpannen coaten of vervangen? | Spoed Dak Service",
     metaDescription:
       "Dakpannen coaten of vervangen? Coaten is veel goedkoper en kan jaren schelen — mits je pannen nog goed zijn. Lees wanneer coaten loont en wanneer vervangen verstandiger is.",
     intro:
@@ -132,7 +132,7 @@ export const ARTIKELEN: Artikel[] = [
     slug: "verstopte-regenpijp-lekkende-dakgoot",
     titel: "Verstopte regenpijp?",
     h1: "Verstopte regenpijp of lekkende dakgoot — oorzaken en oplossing",
-    metaTitle: "Verstopte regenpijp & lekkende dakgoot — oplossen | Spoed Dak Service",
+    metaTitle: "Verstopte regenpijp & lekkende dakgoot | Spoed Dak Service",
     metaDescription:
       "Verstopte regenpijp of lekkende dakgoot? Loopt het water langs je gevel, dan zit de afvoer dicht. Lees de oorzaken, gevolgen en hoe ik het oplos — in de regio Den Bosch.",
     intro:
@@ -162,7 +162,7 @@ export const ARTIKELEN: Artikel[] = [
     slug: "stormschade-eerste-hulp",
     titel: "Stormschade: eerste hulp",
     h1: "Stormschade aan je dak: eerste hulp en je verzekering",
-    metaTitle: "Stormschade dak — eerste hulp & verzekering | Spoed Dak Service",
+    metaTitle: "Stormschade dak — eerste hulp | Spoed Dak Service",
     metaDescription:
       "Stormschade aan je dak? Weggewaaide pannen of een open dak laten regen binnen. Lees wat je direct moet doen, hoe je het bij je verzekering regelt en wanneer je moet bellen.",
     intro:
@@ -191,7 +191,7 @@ export const ARTIKELEN: Artikel[] = [
     slug: "dakonderhoud-per-seizoen",
     titel: "Dakonderhoud per seizoen",
     h1: "Dakonderhoud per seizoen: wat je wanneer moet controleren",
-    metaTitle: "Dakonderhoud checklist per seizoen + hoe vaak | Spoed Dak Service",
+    metaTitle: "Dakonderhoud checklist per seizoen | Spoed Dak Service",
     metaDescription:
       "Hoe vaak moet je je dak onderhouden? Twee keer per jaar een check (voorjaar + najaar) voorkomt dure schade. Lees de seizoenschecklist per daktype — uitleg van dakdekker Rens.",
     intro:
@@ -222,7 +222,7 @@ export const ARTIKELEN: Artikel[] = [
     slug: "mos-op-dak-verwijderen",
     titel: "Mos op je dak",
     h1: "Mos op je dak verwijderen: schadelijk of niet, en hoe wél?",
-    metaTitle: "Mos op dak verwijderen — schadelijk? + aanpak | Spoed Dak Service",
+    metaTitle: "Mos op dak verwijderen — schadelijk? | Spoed Dak Service",
     metaDescription:
       "Mos op je dak verwijderen? Mos houdt vocht vast en kan pannen laten scheuren bij vorst. Maar een hogedrukreiniger is riskant. Lees wanneer ontmossen loont en hoe het veilig moet.",
     intro:

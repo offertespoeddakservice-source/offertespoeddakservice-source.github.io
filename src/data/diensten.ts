@@ -23,7 +23,7 @@ export const DIENSTEN: Dienst[] = [
     titel: "Goten reinigen",
     h1: "Dakgoot reinigen vanaf €25 — snel, netjes en met eerlijk advies",
     kort: "Verstopte of volle goten leeg, plus een gratis blik of er meer speelt.",
-    metaTitle: "Dakgoot reinigen vanaf €25 | Spoed Dak Service regio Den Bosch",
+    metaTitle: "Dakgoot reinigen vanaf €25 | Spoed Dak Service",
     metaDescription:
       "Goten laten reinigen vanaf €25 in de regio Den Bosch. Snel langs, netjes werk en eerlijk advies over je dak. Bel of WhatsApp Rens.",
     icoon: "🪣",
@@ -64,7 +64,7 @@ export const DIENSTEN: Dienst[] = [
     titel: "Daklekkage & spoed",
     h1: "Daklekkage verhelpen — vaak dezelfde dag langs in de regio Den Bosch",
     kort: "Lek opsporen zonder sloopwerk en snel dichten, ook bij spoed.",
-    metaTitle: "Daklekkage repareren & spoed | Spoed Dak Service Den Bosch",
+    metaTitle: "Daklekkage repareren & spoed | Spoed Dak Service",
     metaDescription:
       "Daklekkage? Ik spoor het lek op zonder sloopwerk en repareer het snel — vaak nog dezelfde dag in de regio Den Bosch. Bel of WhatsApp direct.",
     icoon: "💧",
@@ -128,7 +128,7 @@ export const DIENSTEN: Dienst[] = [
     titel: "Platte daken (EPDM)",
     h1: "Plat dak repareren of vervangen — EPDM en bitumen",
     kort: "Lekkage in plat dak opsporen en herstellen, of de hele bedekking vernieuwen.",
-    metaTitle: "Plat dak repareren & EPDM | Spoed Dak Service regio Den Bosch",
+    metaTitle: "Plat dak repareren & EPDM | Spoed Dak Service",
     metaDescription:
       "Lekkage in een plat dak? EPDM- en bitumendaken repareren of vervangen in de regio Den Bosch. Eerlijke prijs en garantie op het werk.",
     icoon: "🏠",
@@ -153,7 +153,7 @@ export const DIENSTEN: Dienst[] = [
     titel: "Stormschade",
     h1: "Stormschade aan je dak — bel direct, ik beperk de schade",
     kort: "Weggewaaide pannen, losse delen of lekkage na storm? Snel actie.",
-    metaTitle: "Stormschade dak — noodreparatie | Spoed Dak Service Den Bosch",
+    metaTitle: "Stormschade dak — noodreparatie | Spoed Dak Service",
     metaDescription:
       "Stormschade aan je dak: weggewaaide pannen of lekkage? Ik kom snel langs voor noodreparatie in de regio Den Bosch en help met foto's voor de verzekering.",
     icoon: "🌬️",
@@ -185,7 +185,7 @@ export const DIENSTEN: Dienst[] = [
     titel: "Dakgoot vervangen",
     h1: "Dakgoot vervangen — bij roest, scheuren of een goot die blijft overlopen",
     kort: "Versleten of lekkende goot? Nieuwe zinken, kunststof of pvc goot, netjes gemonteerd.",
-    metaTitle: "Dakgoot vervangen | Spoed Dak Service regio Den Bosch",
+    metaTitle: "Dakgoot vervangen | Spoed Dak Service",
     metaDescription:
       "Lekkende of roestige dakgoot vervangen in de regio Den Bosch. Zink, kunststof of pvc, inclusief afvoer. Vaste prijs vooraf, geen voorrijkosten. Bel of WhatsApp Rens.",
     icoon: "🛠",
@@ -207,7 +207,7 @@ export const DIENSTEN: Dienst[] = [
     titel: "Dak coaten",
     h1: "Dak coaten — bescherm je pannen en goten, veel goedkoper dan vervangen",
     kort: "Coating beschermt pannen en goten die nog goed zijn tegen mos, vuil en slijtage.",
-    metaTitle: "Dak coaten & dakcoating | Spoed Dak Service regio Den Bosch",
+    metaTitle: "Dak coaten & dakcoating | Spoed Dak Service",
     metaDescription:
       "Dakpannen of dakgoot coaten in de regio Den Bosch — beschermt wat nog goed is en is veel goedkoper dan vervangen. Vaste prijs vooraf. Bel of WhatsApp Rens.",
     icoon: "🛡",
@@ -229,7 +229,7 @@ export const DIENSTEN: Dienst[] = [
     titel: "Dak reinigen",
     h1: "Dak reinigen — mos, vuil en groene aanslag eraf",
     kort: "Mos en aanslag verwijderen zodat je dak weer ademt en langer meegaat.",
-    metaTitle: "Dak reinigen & mos verwijderen | Spoed Dak Service Den Bosch",
+    metaTitle: "Dak reinigen & mos verwijderen | Spoed Dak Service",
     metaDescription:
       "Dak laten reinigen in de regio Den Bosch: mos, vuil en groene aanslag eraf. Voorkomt verstopping en schade. Vaste prijs vooraf. Bel of WhatsApp Rens.",
     icoon: "🧽",
@@ -250,7 +250,7 @@ export const DIENSTEN: Dienst[] = [
     titel: "Dakpannen vervangen",
     h1: "Dakpannen vervangen of recht leggen — voorkom lekkage",
     kort: "Gebroken, verschoven of versleten pannen vervangen of opnieuw recht leggen.",
-    metaTitle: "Dakpannen vervangen | Spoed Dak Service regio Den Bosch",
+    metaTitle: "Dakpannen vervangen | Spoed Dak Service",
     metaDescription:
       "Gebroken of verschoven dakpannen vervangen en recht leggen in de regio Den Bosch. Voorkomt lekkage en tocht. Vaste prijs vooraf. Bel of WhatsApp Rens.",
     icoon: "🧱",
@@ -271,7 +271,7 @@ export const DIENSTEN: Dienst[] = [
     titel: "Schoorsteen vegen",
     h1: "Schoorsteen vegen — veilig, netjes en zonder roetzooi",
     kort: "De hele schoorsteen geveegd, plus een blik op het lood en de aansluiting.",
-    metaTitle: "Schoorsteen vegen | Spoed Dak Service regio Den Bosch",
+    metaTitle: "Schoorsteen vegen | Spoed Dak Service",
     metaDescription:
       "Schoorsteen laten vegen in de regio Den Bosch — veilig, netjes en zonder roetzooi in huis. Meteen controle op lood en aansluiting. Bel of WhatsApp Rens.",
     icoon: "🧹",
@@ -292,7 +292,7 @@ export const DIENSTEN: Dienst[] = [
     titel: "Dakkapel poetsen",
     h1: "Dakkapel poetsen en onderhouden — weer fris en waterdicht",
     kort: "Dakkapel reinigen, kitwerk en aansluitingen nakijken zodat 'ie niet gaat lekken.",
-    metaTitle: "Dakkapel poetsen & onderhoud | Spoed Dak Service Den Bosch",
+    metaTitle: "Dakkapel poetsen & onderhoud | Spoed Dak Service",
     metaDescription:
       "Dakkapel laten poetsen en onderhouden in de regio Den Bosch. Reinigen plus controle van kit en aansluitingen tegen lekkage. Vaste prijs vooraf. Bel Rens.",
     icoon: "🏠",
@@ -313,7 +313,7 @@ export const DIENSTEN: Dienst[] = [
     titel: "Zonnepanelen reinigen",
     h1: "Zonnepanelen reinigen — meer opbrengst uit je panelen",
     kort: "Vuile panelen leveren minder op. Ik maak ze veilig en streepvrij schoon.",
-    metaTitle: "Zonnepanelen reinigen | Spoed Dak Service regio Den Bosch",
+    metaTitle: "Zonnepanelen reinigen | Spoed Dak Service",
     metaDescription:
       "Zonnepanelen laten reinigen in de regio Den Bosch voor maximale opbrengst. Veilig vanaf het dak, streepvrij schoon. Vaste prijs vooraf. Bel of WhatsApp Rens.",
     icoon: "🔆",
@@ -334,7 +334,7 @@ export const DIENSTEN: Dienst[] = [
     titel: "Vogelwering",
     h1: "Vogelwering — geen vogels meer onder je pannen of zonnepanelen",
     kort: "Nette vogelwering tegen schade aan panlatten, isolatie en kabels.",
-    metaTitle: "Vogelwering dak & zonnepanelen | Spoed Dak Service Den Bosch",
+    metaTitle: "Vogelwering dak & zonnepanelen | Spoed Dak Service",
     metaDescription:
       "Vogelwering plaatsen onder dakpannen en zonnepanelen in de regio Den Bosch. Voorkomt schade aan panlatten, isolatie en bekabeling. Vaste prijs vooraf. Bel Rens.",
     icoon: "🐦",
@@ -355,7 +355,7 @@ export const DIENSTEN: Dienst[] = [
     titel: "Dakrenovatie",
     h1: "Dakrenovatie — je dak weer jaren mee, zonder meteen een compleet nieuw dak",
     kort: "Versleten dak grondig opknappen: pannen, lood, nok en goten in één keer aangepakt.",
-    metaTitle: "Dakrenovatie | Spoed Dak Service regio Den Bosch",
+    metaTitle: "Dakrenovatie | Spoed Dak Service",
     metaDescription:
       "Dakrenovatie in de regio Den Bosch: pannen, lood, nok en goten in één keer aangepakt zodat je dak weer jaren meegaat. Eerlijk advies, vaste prijs vooraf. Bel Rens.",
     icoon: "🏚",

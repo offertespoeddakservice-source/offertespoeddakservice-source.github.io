@@ -558,5 +558,89 @@ Nieuw in beeld: Van den Bos Dakwerken scoort 10.0★ / 117 reviews op Trustoo De
 
 ---
 
-## RONDE 7 — [volgt]
+## RONDE 7 — Gratis & Goedkope Leadkanalen die Concurrenten Missen
+**Datum:** 2026-06-22 · **Focus:** B2B-instap (VvE's, JOOST), buurtapps, offertesites, flyertiming
+
+### Onderzoek uitgevoerd
+- **Woningcorporaties Den Bosch**: Zayaz (15.483 eenheden), Woonstichting JOOST (7.500 units kleine kernen), BrabantWonen, Mooiland
+- **VvE-markt**: structuur, contactweg, orderwaarde per complex
+- **Nextdoor Den Bosch**: actieve wijken (De Kruiskamp, De Hambaken) + nep-dakdekker-probleem
+- **Offertesites**: Klussendirect (gratis), Dakdekkersgids.nl (gratis), Werkspot (betaald), DakConnect (betaald, exclusief)
+- **Huis-aan-huis flyers**: kosten per 1.000 stuks + conversieratio + beste timing Rosmalen
+- **GBP foto-rotatie**: impact van regelmatige updates op lokale pack ranking
+
+### B2B-bevindingen
+
+| Kanaal | Potentie | Drempel | Actie |
+|---|---|---|---|
+| Zayaz (15.483 eenheden) | Zeer hoog | Hoog — vaste partners (BAM, Van de Klok) | Niet nu, te groot |
+| Woonstichting JOOST (7.500 eenheden, kleine kernen) | Hoog | Middel — werkt met kleinere aannemers | Email + bel 088 0081 400 |
+| VvE's in Den Bosch | Hoog | Laag — geen centraal systeem, direct benaderen | Maps + brief |
+| Klussendirect (gratis profiel) | Middel | Laag — €0 | Vandaag aanmaken |
+| Dakdekkersgids.nl (gratis listing) | Middel | Laag — €0 | Vandaag aanmaken |
+
+### Nextdoor-context
+Meerdere Den Bosch-wijken zijn actief op Nextdoor. Specifiek: **De Kruiskamp** en **De Hambaken** zijn bevestigde communities. In Zwolle en andere steden wordt op Nextdoor gewaarschuwd voor nep-dakdekkers ("Dakbeheer Benelux" — uit Den Bosch!) die €300-400 vroegen voor fictieve lekkages. Dit heeft het vertrouwen in dakdekkers in buurtapps beschadigd — maar het creëert tegelijk een enorme kans voor een authentieke lokale aanbieder.
+
+### Flyerkosten (Noord-Brabant)
+| Volume | Kosten (print+verspreiding) | Bereik |
+|---|---|---|
+| 1.000 stuks | €25–55 | 1 wijk |
+| 5.000 stuks | €100–200 | 1 dorp/stadsdeel |
+| 10.000 stuks | €180–350 | Rosmalen volledig |
+
+Gedocumenteerde conversie bij gerichte diensten-flyering: **>10%** bij juiste timing + doelgroep.
+
+---
+
+### 10 Tips Ronde 7
+
+**Tip 61 — Klussendirect gratis profiel: passieve leads zonder abonnement**
+*Bewijs:* Klussendirect adverteert expliciet met "dakdekker worden: €0 — gratis profiel, gratis reageren op aanvragen". Platform heeft actieve homeowners die klusopdrachten plaatsen in Noord-Brabant. Geen abonnement, geen verplichtingen. Concurrenten staan er al op — Rens niet.
+*Actie:* Ga naar klussendirect.nl/dakdekker-worden → maak profiel aan met servicenaam "Goten reinigen & daklekkage — Den Bosch regio" → vul in: €25/zijde, servicegebied Noord-Brabant, telefoonnummer, WhatsApp-link. Reageer actief op nieuwe aanvragen in Den Bosch + omgeving.
+
+**Tip 62 — Dakdekkersgids.nl gratis vermelding: SEO-autoriteit via backlink**
+*Bewijs:* Dakdekkersgids.nl rankt hoog op "dakdekker Noord-Brabant"-zoekopdrachten (top-5). Er staan 745 dakdekkers vermeld in NB — maar van Den Bosch zijn er slechts een handvol. Gratis vermelding = extra Google-autoriteit voor jouw naam + backlink naar jouw site zodra die live gaat.
+*Actie:* Meld je aan op dakdekkersgids.nl/aanmelden → gebruik "Spoed Dak Service" als bedrijfsnaam + alle plaatsnamen in jouw werkgebied → link naar 06-nummer en WhatsApp. Dit is een eenmalige 10-minuten-investering die permanent rankt.
+
+**Tip 63 — VvE's als B2B klant: één complex = €200+ per jaar structureel**
+*Bewijs:* Elke appartementencomplexen in Den Bosch heeft een VvE (Vereniging van Eigenaren) die verantwoordelijk is voor dakonderhoud. Een standaard flatgebouw met 20 appartementen heeft 6-8 "zijden" aan goten. Tegen €25/zijde = €150-200 voor één klus. VvE's plannen onderhoudscontracten vooruit en zijn loyaal als de samenwerking goed is.
+*Actie:* Open Google Maps → zoek "appartement 's-Hertogenbosch" → lijst 10 complexen op → bel de beheerder of stuur een brief: "Wij verzorgen jaarlijks dakgotenreiniging voor VvE's in Den Bosch. Flat-rate: €25 per zijde, inclusief foto-rapport. Bel mij direct: 06-10 18 53 57." Doel: 2 VvE-contracten voor oktober.
+
+**Tip 64 — Woonstichting JOOST: kleine kernen, kleinere klussen, lagere drempel**
+*Bewijs:* Woonstichting JOOST beheert 7.500 huurwoningen in de kleine kernen rondom 's-Hertogenbosch (Rosmalen, St. Oedenrode, Boxtel, Berlicum). In tegenstelling tot Zayaz (die werkt met BAM en Van de Klok voor grote projecten) doet JOOST relatief klein onderhoud in dorpen — precies Rens' werkgebied en type klus. JOOST is bereikbaar via 088 0081 400.
+*Actie:* Bel JOOST op 088 0081 400 → vraag naar de afdeling Onderhoud/Vastgoed → zeg: "Ik ben een lokale dakdekker actief in jullie werkgebied, gespecialiseerd in goten reinigen en kleine dakreparaties. Hoe kan ik mij aanmelden als onderhoudspartner voor kleine klussen?" Stuur daarna een e-mail als bevestiging. Dit kan leiden tot vaste seizoensklussen.
+
+**Tip 65 — Nextdoor Den Bosch: authentieke aanwezigheid als tegengif voor oplichters**
+*Bewijs:* Nextdoor-gebruikers in Den Bosch zijn actief gewaarschuwd voor nep-dakdekkers (o.a. "Dakbeheer Benelux" uit Den Bosch die fictieve lekkages van €300-400 verzonnen). Dit heeft buurtapps gevoelig gemaakt voor onbetrouwbare aanbieders — maar ook heeft het een vacuüm gecreëerd voor een eerlijk, transparant alternatief. Nextdoor heeft actieve communities in De Kruiskamp, De Hambaken en andere Den Bosch-wijken.
+*Actie:* Maak een Nextdoor-account aan als bewoner van jouw wijk → stel jezelf voor: "Hallo buren, ik ben Rens, dakdekker met vaste prijs €25/zijde — geen offertecircus, geen verborgen kosten." Reageer op vragen als "kent iemand een betrouwbare dakdekker?" Jouw 06-nummer + WhatsApp + echte naam = enorme geloofwaardigheid vs. anonieme bedrijven.
+
+**Tip 66 — Huis-aan-huis flyer Augustus Rosmalen: tijdstip + locatie = ROI piek**
+*Bewijs:* Goten-piekvraag = september/oktober. Maar vlak vóór het seizoen is het verstandigst: geen concurrentie in de brievenbus, huiseigenaar denkt er net aan. Flyers-verspreiding kost €25–55 per 1.000 stuks in NB. Rosmalen is exact Woonstichting JOOST-gebied én koopwoningen met rijtjeshuizen. Huis-aan-huis converteert >10% voor gerichte diensten bij juiste timing.
+*Actie:* Druk 2.000 A5-flyers (eenzijdig, simpel): "Goten schoon vóór de herfst? €25 per zijde · €40 voor beide kanten · Bel of WhatsApp Rens: 06-10 18 53 57" + QR-code naar WhatsApp. Verspreid 1 augustus in Rosmalen-Noord en Rosmalen-Zuid. Budget: ±€80. Verwacht: 20-30 reacties = €500-750 omzet direct + naamsbekendheid.
+
+**Tip 67 — GBP foto-rotatie: elke 90 dagen nieuwe klus-foto's = 22% meer engagement**
+*Bewijs:* Google Business Profiles die regelmatig nieuwe foto's uploaden krijgen aantoonbaar 22% meer betrokkenheid dan stagnerende profielen. Profielen MÉT foto's krijgen 42% meer routeverzoeken en 35% meer websiteklikken. Google ziet regelmatige updates als bewijs dat het bedrijf actief is — dit verhoogt direct de lokale pack-ranking.
+*Actie:* Na elke klus: maak één voor-foto (vuile goot) en één na-foto (schone goot) met je telefoon. Upload ze naar GBP onder "Foto's toevoegen" → tag als "Work" en schrijf als beschrijving: "Goten reinigen [wijknaam] Den Bosch — €25 per zijde". Doel: 6+ foto's uploaden in de eerste 90 dagen na GBP-activering.
+
+**Tip 68 — Werkspot actief reageren: snelste reageerder wint de klant**
+*Bewijs:* Werkspot is de grootste offertesite in NL voor dakdekkers. Marktgemiddelde voor goten reinigen staat op Werkspot vermeld als €100–€525 — Rens' €25/zijde is dramatisch lager. Bij Werkspot geldt: de eerste 3 reacties op een aanvraag krijgen de meeste aandacht. Te laat reageren = klant is al weg. Werkspot laat vakmannen gratis zoeken naar opdrachten (klant betaalt voor offerteaanvraag).
+*Actie:* Maak een Werkspot-profiel aan → zet notificaties aan voor nieuwe aanvragen "dakgoot reinigen + dakdekker" in Noord-Brabant → reageer altijd binnen 30 minuten → gebruik template: "Hallo [naam], voor goten reinigen bij jou thuis ben ik beschikbaar. Mijn vaste prijs: €25 per zijde of €40 voor beide kanten. Wanneer schikt het? WhatsApp werkt ook: 06-10 18 53 57."
+
+**Tip 69 — Facebook "BUURT | 's-Hertogenbosch": direct zichtbaar bij vragen**
+*Bewijs:* Facebook-pagina "BUURT | 's-Hertogenbosch" (facebook.com/buurtdenbosch) is een actieve community-pagina voor bewoners van Den Bosch. Daarnaast zijn er wijkgroepen in Rosmalen, Oss en omgeving. Serviceaanbevelingen worden gedeeld, vragen als "wie kent een goede dakdekker?" verschijnen regelmatig, en berichten met een duidelijk lokaal aanbod (prijs + persoon) presteren goed organisch.
+*Actie:* Like en volg de pagina "BUURT | 's-Hertogenbosch" + zoek wijkgroepen van Rosmalen, Nuenen, Berlicum. Wacht op een dakdekker/onderhoud-vraag → reageer persoonlijk: "Ik ben Rens, dakdekker in Den Bosch-regio. Goten reinigen doe ik voor €25 per zijde, vaste prijs. Stuur me een berichtje of WhatsApp 06-10 18 53 57." Reacties zijn zichtbaar voor alle leden = gratis bereik.
+
+**Tip 70 — Betaal-moment review-trigger: de gouden 60 seconden**
+*Bewijs:* Het moment dat een klant betaalt is psychologisch het hoogtepunt van tevredenheid — ze hebben net een schone goot, ze voelen zich goed, én ze staan oog in oog met Rens. Dit is het enige moment in de klantreis waarbij de drempel voor een review nul is. 87% van consumenten leest reviews vóór ze een lokale dienst kiezen; voor de lokale pack-ranking is dit het directe hefboom na reviews-volume.
+*Actie:* Zeg exact dit op het moment van betalen: "Super, bedankt. Ik stuur je nu direct een WhatsApp — daarin zit een link naar Google. Als je even 30 seconden hebt om te klikken en typen wat je van het werk vond, helpt dat me enorm." Stuur binnen 60 seconden na vertrek de WhatsApp met de GBP review-link. Doel: elke klus = één review, geen uitzonderingen.
+
+### Samenvatting Ronde 7
+**Grootste ontdekking:** Er zijn meerdere GRATIS platforms (Klussendirect, Dakdekkersgids.nl) waarop Rens nu al vermeld kan staan en die direct passieve leads opleveren — zero investering, permanent zichtbaar.
+**B2B-kans:** Woonstichting JOOST + VvE's zijn realistisch bereikbare B2B-klanten voor een solo dakdekker in deze regio — niet de grote corps, wél de kleine kernen.
+**Top-3 acties:** (61+62) Gratis profielen aanmaken op Klussendirect + Dakdekkersgids, (63) 10 VvE-complexen contacteren, (66) Flyer-run 1 augustus Rosmalen
+
+---
+
+## RONDE 8 — [volgt]
 

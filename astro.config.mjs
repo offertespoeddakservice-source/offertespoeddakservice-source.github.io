@@ -8,4 +8,5 @@ export default defineConfig({
   site: SITE.url,
   integrations: [sitemap({ serialize: (item) => ({ ...item, lastmod: new Date().toISOString() }) })],
   build: { inlineStylesheets: "auto" },
+  prefetch: { prefetchAll: true, defaultStrategy: "hover" },
 });
