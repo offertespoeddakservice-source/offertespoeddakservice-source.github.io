@@ -299,6 +299,87 @@ export const ARTIKELEN: Artikel[] = [
       { v: "Maken jullie er een rommel van binnen?", a: "Nee. Ik dek netjes af en werk schoon — geen roet in je woonkamer." },
     ],
   },
+  {
+    slug: "wat-kost-dak-coaten",
+    titel: "Wat kost dak coaten?",
+    h1: "Wat kost dak coaten — en is het de moeite waard?",
+    metaTitle: "Wat kost dak coaten? | Spoed Dak Service",
+    metaDescription:
+      "Wat kost dak of dakpannen coaten? Coating beschermt pannen die nog goed zijn en is veel goedkoper dan vervangen. Vaste prijs na gratis inspectie.",
+    intro:
+      "Coaten klinkt als een dure ingreep, maar het is juist een manier om vervangen uit te stellen. Wanneer is het slim, en wat kost het? Eerlijk uitgelegd.",
+    secties: [
+      { kop: "Wanneer is coaten zinvol?", tekst: [
+        "Coaten loont als je pannen nog stevig zijn maar verweerd: poreus, vol mos of dof. De coating beschermt tegen vocht, mos en uv en geeft je dak jaren extra.",
+        "Zijn de pannen al broos of gebarsten, dan is coaten zonde van het geld — dan adviseer ik vervangen. Ik kom kijken en zeg eerlijk wat in jouw geval loont.",
+      ] },
+      { kop: "Coaten versus vervangen", tekst: [
+        "Een dak vervangen is een flinke investering. Coaten kost daar een fractie van en kan, mits de pannen nog goed zijn, hetzelfde resultaat geven: een strak, beschermd dak. Daarom begin ik altijd met de vraag: kán het met coaten, of is vervangen echt nodig?",
+      ] },
+      { kop: "Wat kost het?", tekst: [
+        "De prijs hangt af van het oppervlak en de staat van het dak, dus die geef ik als vaste prijs na een gratis inspectie. Eerst reinigen, dan coaten — netjes en in één keer goed.",
+      ] },
+    ],
+    dienst: { label: "Bekijk: dak coaten", href: "/diensten/dakcoating" },
+    faq: [
+      { v: "Hoe lang gaat een coating mee?", a: "Bij goed uitgevoerd werk meerdere jaren. De exacte levensduur hangt af van het type pan en de ligging van je dak." },
+      { v: "Eerst reinigen?", a: "Ja, altijd. Een coating hecht alleen op een schoon dak, dus reinigen hoort er standaard bij." },
+    ],
+  },
+  {
+    slug: "zonnepanelen-reinigen-nodig",
+    titel: "Zonnepanelen reinigen nodig?",
+    h1: "Zonnepanelen reinigen: nodig, hoe vaak en wat levert het op?",
+    metaTitle: "Zonnepanelen reinigen nodig? | Spoed Dak Service",
+    metaDescription:
+      "Vuile zonnepanelen leveren minder op. Hoe vaak reinigen nodig is, wat het kost (vanaf €10/paneel) en hoeveel opbrengst je terugwint.",
+    intro:
+      "Stof, mos en vogelpoep op je panelen kosten opbrengst. Maar hoe vaak is reinigen echt nodig, en verdien je het terug? Kort en eerlijk.",
+    secties: [
+      { kop: "Levert reinigen echt iets op?", tekst: [
+        "Ja. Vuile panelen kunnen enkele procenten minder opbrengen — soms meer als er een dikke laag mos of vogelpoep op zit. Schone panelen vangen simpelweg meer licht.",
+        "Of het de moeite is, hangt af van hoe vies ze zijn. Liggen ze vlak of staan er bomen/vogels in de buurt, dan vervuilen ze sneller.",
+      ] },
+      { kop: "Hoe vaak?", tekst: [
+        "Voor de meeste daken is eens per 1 à 2 jaar genoeg. Veel bomen of vogels in de buurt? Dan vaker. Ik kijk meteen of de bevestiging en de pannen eronder nog goed zijn.",
+      ] },
+      { kop: "Wat kost het?", tekst: [
+        "Zonnepanelen reinigen begint bij €10 per paneel, veilig vanaf het dak en streepvrij. Omdat ik er toch ben, is het vaak handig te combineren met goten reinigen.",
+      ] },
+    ],
+    dienst: { label: "Bekijk: zonnepanelen reinigen", href: "/diensten/zonnepanelen-reinigen" },
+    faq: [
+      { v: "Krassen jullie de panelen niet?", a: "Nee, ik werk met de juiste materialen en zonder schurende middelen, zodat de toplaag heel blijft." },
+      { v: "Mag het met regenwater?", a: "Het beste resultaat is streepvrij met de juiste methode — daar let ik op, zodat er geen kringen achterblijven." },
+    ],
+  },
+  {
+    slug: "plat-dak-vervangen-of-repareren",
+    titel: "Plat dak: repareren of vervangen?",
+    h1: "Plat dak vervangen of repareren? EPDM, bitumen en de kosten",
+    metaTitle: "Plat dak repareren of vervangen? | Spoed Dak",
+    metaDescription:
+      "Plat dak dat lekt: repareren of de hele bedekking vervangen? Het verschil tussen EPDM en bitumen, wanneer wat loont, en hoe ik het lek opspoor.",
+    intro:
+      "Een plat dak lekt vaak bij naden en aansluitingen, en het water komt meestal verderop naar binnen dan waar het lek zit. Repareren of vervangen? Zo bepaal ik dat.",
+    secties: [
+      { kop: "Repareren of vervangen?", tekst: [
+        "Eén lek op een verder gezonde bedekking: repareren is prima en goedkoop. Is de bedekking op meerdere plekken versleten, blaast ze op of staat er water op, dan is vervangen op termijn voordeliger dan blijven lappen.",
+        "Ik spoor eerst het lek op (de natte plek binnen zegt weinig over de plek op het dak) en zeg dan eerlijk wat loont.",
+      ] },
+      { kop: "EPDM of bitumen?", tekst: [
+        "Bitumen (dakleer) is beproefd en wordt in lagen aangebracht. EPDM is een rubberen folie, vaak in één stuk, flexibel en lang houdbaar. Voor kleinere daken is EPDM vaak ideaal; welke het beste past hangt af van je dak en budget.",
+      ] },
+      { kop: "Wat kost het?", tekst: [
+        "Een gerichte reparatie is meestal het goedkoopst. Een hele bedekking vervangen krijg je als vaste prijs na inspectie. Je hoort altijd wat het wordt voordat ik begin.",
+      ] },
+    ],
+    dienst: { label: "Bekijk: platte daken (EPDM)", href: "/diensten/platte-daken" },
+    faq: [
+      { v: "Hoe lang gaat EPDM mee?", a: "EPDM kan, goed gelegd, tientallen jaren mee. Het is flexibel en bestand tegen weer en uv." },
+      { v: "Kun je het lek vinden zonder alles open te breken?", a: "Meestal wel. Ik spoor gericht op bij naden en opstanden, zodat er zo min mogelijk open hoeft." },
+    ],
+  },
 ];
 
 export const getArtikel = (slug: string) => ARTIKELEN.find((a) => a.slug === slug);
