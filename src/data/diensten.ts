@@ -187,7 +187,7 @@ export const DIENSTEN: Dienst[] = [
     kort: "Versleten of lekkende goot? Nieuwe zinken, kunststof of pvc goot, netjes gemonteerd.",
     metaTitle: "Dakgoot vervangen | Spoed Dak Service",
     metaDescription:
-      "Lekkende of roestige dakgoot vervangen in de regio Den Bosch. Zink, kunststof of pvc, inclusief afvoer. Vaste prijs vooraf, geen voorrijkosten. Bel of WhatsApp Rens.",
+      "Lekkende of roestige dakgoot vervangen in de regio Den Bosch. Zink, kunststof of pvc, inclusief afvoer. Vaste prijs vooraf, geen voorrijkosten.",
     icoon: "🛠",
     intro:
       "Een goot die roest, op de naden lekt of blijft overlopen krijg je met reinigen niet meer dicht. Dan vervang ik 'm — in zink, kunststof of pvc, passend bij je huis — zodat je gevel en fundering droog blijven.",
@@ -336,7 +336,7 @@ export const DIENSTEN: Dienst[] = [
     kort: "Nette vogelwering tegen schade aan panlatten, isolatie en kabels.",
     metaTitle: "Vogelwering dak & zonnepanelen | Spoed Dak Service",
     metaDescription:
-      "Vogelwering plaatsen onder dakpannen en zonnepanelen in de regio Den Bosch. Voorkomt schade aan panlatten, isolatie en bekabeling. Vaste prijs vooraf. Bel Rens.",
+      "Vogelwering plaatsen onder dakpannen en zonnepanelen in de regio Den Bosch. Voorkomt schade aan panlatten, isolatie en bekabeling. Vaste prijs vooraf.",
     icoon: "🐦",
     intro:
       "Vogels (en hun nesten) onder je pannen of zonnepanelen beschadigen panlatten, isolatie en bekabeling, en geven overlast. Ik plaats nette vogelwering die het netjes en blijvend afsluit — zonder dat het lelijk wordt.",
@@ -357,7 +357,7 @@ export const DIENSTEN: Dienst[] = [
     kort: "Versleten dak grondig opknappen: pannen, lood, nok en goten in één keer aangepakt.",
     metaTitle: "Dakrenovatie | Spoed Dak Service",
     metaDescription:
-      "Dakrenovatie in de regio Den Bosch: pannen, lood, nok en goten in één keer aangepakt zodat je dak weer jaren meegaat. Eerlijk advies, vaste prijs vooraf. Bel Rens.",
+      "Dakrenovatie in de regio Den Bosch: pannen, lood, nok en goten in één keer aangepakt zodat je dak weer jaren meegaat. Eerlijk advies, vaste prijs vooraf.",
     icoon: "🏚",
     intro:
       "Is onderhoud niet meer genoeg, maar een compleet nieuw dak overdreven? Dan knap ik je dak grondig op: versleten pannen vervangen, lood en nok herstellen, goten aanpakken — in één keer, zodat je dak er weer jaren tegen kan.",
