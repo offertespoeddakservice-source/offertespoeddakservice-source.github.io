@@ -36,6 +36,19 @@ const andere = DIENSTEN.filter((x) => x.slug !== d.slug);
 const matrixVoorDienst = MATRIX.filter((c) => c.dienst === d.slug)
   .map((c) => getPlaats(c.plaats))
   .filter((p) => p);
+const relArtikel = ({
+  "goten-reinigen": { label: "Hoe vaak moet je goten reinigen?", href: "/kennisbank/hoe-vaak-dakgoot-reinigen" },
+  "daklekkage": { label: "Daklekkage opsporen zonder sloopwerk", href: "/kennisbank/daklekkage-opsporen" },
+  "dakreparatie": { label: "Wat kost daklekkage repareren?", href: "/kennisbank/wat-kost-daklekkage-repareren" },
+  "platte-daken": { label: "Plat dak: repareren of vervangen?", href: "/kennisbank/plat-dak-vervangen-of-repareren" },
+  "stormschade": { label: "Stormschade: eerste hulp", href: "/kennisbank/stormschade-eerste-hulp" },
+  "dakcoating": { label: "Wat kost dak coaten?", href: "/kennisbank/wat-kost-dak-coaten" },
+  "dak-reinigen": { label: "Mos op je dak verwijderen", href: "/kennisbank/mos-op-dak-verwijderen" },
+  "dakpannen-vervangen": { label: "Dakpannen coaten of vervangen?", href: "/kennisbank/dakpannen-coaten-of-vervangen" },
+  "dakgoot-vervangen": { label: "Verstopte regenpijp of lekkende dakgoot", href: "/kennisbank/verstopte-regenpijp-lekkende-dakgoot" },
+  "schoorsteen-vegen": { label: "Hoe vaak schoorsteen vegen?", href: "/kennisbank/schoorsteen-vegen-hoe-vaak" },
+  "zonnepanelen-reinigen": { label: "Zonnepanelen reinigen: is het nodig?", href: "/kennisbank/zonnepanelen-reinigen-nodig" },
+} as Record<string, { label: string; href: string }>)[d.slug];
 ---
 
 <Base title={d.metaTitle} description={d.metaDescription} path={path} schema={schema}>
@@ -64,6 +77,9 @@ const matrixVoorDienst = MATRIX.filter((c) => c.dienst === d.slug)
           ik kom langs, leg uit wat ik zie, en je krijgt een vaste prijs vooraf. Geen callcenter,
           geen verrassingen.
         </p>
+        {relArtikel && (
+          <p style="margin-top:18px;"><strong>Meer weten?</strong> Lees: <a href={relArtikel.href}>{relArtikel.label}</a></p>
+        )}
       </div>
       <aside>
         <div class="card">
