@@ -104,7 +104,7 @@ export const DIENSTEN: Dienst[] = [
     titel: "Dakreparatie",
     h1: "Dakreparatie — pannen, lood en kitwerk vakkundig hersteld",
     kort: "Gebroken pannen, lood bij schoorsteen of dakraam, losse nokvorsten.",
-    metaTitle: "Dakreparatie: dakpannen, lood & nokvorst | Spoed Dak Service",
+    metaTitle: "Dakreparatie: pannen, lood & nokvorst | Spoed Dak Service",
     metaDescription:
       "Dakpannen vervangen, lood bij schoorsteen en dakraam herstellen, nokvorsten vastzetten. Vakkundige dakreparatie in de regio Den Bosch.",
     icoon: "🧰",

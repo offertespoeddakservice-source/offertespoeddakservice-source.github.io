@@ -21,7 +21,7 @@ export const ARTIKELEN: Artikel[] = [
     slug: "daklekkage-opsporen",
     titel: "Daklekkage opsporen",
     h1: "Daklekkage opsporen: zo vind je de oorzaak (zonder sloopwerk)",
-    metaTitle: "Daklekkage opsporen — oorzaken & aanpak | Spoed Dak Service",
+    metaTitle: "Daklekkage opsporen — oorzaken | Spoed Dak Service",
     metaDescription:
       "Daklekkage opsporen? De natte plek zit zelden onder het echte lek.",
     intro:
