@@ -7,6 +7,7 @@ import DienstIcon from "../components/DienstIcon.astro";
 import { ARTIKELEN } from "../data/artikelen.ts";
 
 const score = SITE.reviews.score.toString().replace(".", ",");
+const googleReviewLink = SITE.reviewLink && !SITE.reviewLink.includes("JOUW_PLACE_ID") ? SITE.reviewLink : null;
 
 const faq = [
   { v: "Wat kost het om iemand te laten komen?", a: "Geen voorrijkosten en een gratis, vrijblijvende inspectie. Goten reinigen begint vanaf €25 per kant (€40 beide), en bij elke klus hoor je vooraf de vaste prijs." },
@@ -117,6 +118,22 @@ const faqSchema = {
         </div>
         <p style="margin:0; color:var(--muted); font-size:.95rem;">Datum al geweest? Bel toch — vaak ben ik snel weer in de buurt.</p>
       </div>
+    </div>
+  </section>
+
+  <!-- SOCIAL PROOF / REVIEWS -->
+  <section class="section section--navy" style="text-align:center;">
+    <div class="wrap">
+      <p class="eyebrow" style="color:#ffb486;">Wat klanten zeggen</p>
+      <div class="stars" style="justify-content:center; margin-bottom:6px;">
+        <span class="ster" style="font-size:1.6rem;">★★★★★</span> <b style="font-size:1.9rem;">{score}</b>
+      </div>
+      <h2>Mensen kiezen voor een échte vakman uit de buurt</h2>
+      <p class="lead" style="margin:0 auto 22px; color:#c2d2e3;">
+        Geen callcenter, wél iemand die terugbelt en eerlijk zegt wat nodig is. Tevreden na de klus?
+        Een korte Google-review helpt mij enorm — én helpt je buren een betrouwbare dakdekker te vinden.
+      </p>
+      {googleReviewLink && <a class="btn btn--primary" href={googleReviewLink}>Bekijk &amp; plaats reviews op Google</a>}
     </div>
   </section>
 
