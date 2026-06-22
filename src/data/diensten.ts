@@ -269,6 +269,7 @@ export const DIENSTEN: Dienst[] = [
   {
     slug: "schoorsteen-vegen",
     titel: "Schoorsteen vegen",
+    vanafPrijs: "€70",
     h1: "Schoorsteen vegen — veilig, netjes en zonder roetzooi",
     kort: "De hele schoorsteen geveegd, plus een blik op het lood en de aansluiting.",
     metaTitle: "Schoorsteen vegen | Spoed Dak Service",
@@ -290,6 +291,7 @@ export const DIENSTEN: Dienst[] = [
   {
     slug: "dakkapel-reinigen",
     titel: "Dakkapel poetsen",
+    vanafPrijs: "vanaf €70",
     h1: "Dakkapel poetsen en onderhouden — weer fris en waterdicht",
     kort: "Dakkapel reinigen, kitwerk en aansluitingen nakijken zodat 'ie niet gaat lekken.",
     metaTitle: "Dakkapel poetsen & onderhoud | Spoed Dak Service",
@@ -311,6 +313,7 @@ export const DIENSTEN: Dienst[] = [
   {
     slug: "zonnepanelen-reinigen",
     titel: "Zonnepanelen reinigen",
+    vanafPrijs: "vanaf €10 p/paneel",
     h1: "Zonnepanelen reinigen — meer opbrengst uit je panelen",
     kort: "Vuile panelen leveren minder op. Ik maak ze veilig en streepvrij schoon.",
     metaTitle: "Zonnepanelen reinigen | Spoed Dak Service",

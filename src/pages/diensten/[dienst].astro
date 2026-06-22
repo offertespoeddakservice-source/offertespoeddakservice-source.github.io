@@ -13,7 +13,8 @@ export function getStaticPaths() {
 const { d } = Astro.props;
 const path = `/diensten/${d.slug}`;
 
-const serviceSchema = {
+const minPrice = d.vanafPrijs ? Number((d.vanafPrijs.match(/(\d+)/) || [])[1]) : null;
+const serviceSchema: Record<string, unknown> = {
   "@context": "https://schema.org",
   "@type": "Service",
   name: d.titel,
@@ -22,6 +23,7 @@ const serviceSchema = {
   provider: { "@type": "RoofingContractor", name: SITE.bedrijfsnaam, telephone: `+${SITE.telefoonE164}` },
   areaServed: PLAATSEN.map((p) => ({ "@type": "City", name: p.naam })),
 };
+if (minPrice) serviceSchema.offers = { "@type": "Offer", priceSpecification: { "@type": "UnitPriceSpecification", priceCurrency: "EUR", minPrice } };
 const faqSchema = d.faq.length
   ? {
       "@context": "https://schema.org",
