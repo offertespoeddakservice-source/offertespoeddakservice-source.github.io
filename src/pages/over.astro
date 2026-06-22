@@ -41,10 +41,14 @@ import { SITE, telHref, waHref } from "../site.config.ts";
         </div>
       </div>
       <aside>
-        <div class="photo-frame">
-          <strong>Foto van Rens komt hier</strong>
-          <span>Een gezicht op de site wekt vertrouwen — precies het verschil met de anonieme landelijke sites. Stuur een foto van jezelf + een paar vóór/na's, dan zet ik ze erin.</span>
-        </div>
+        {SITE.overFoto ? (
+          <img src={SITE.overFoto} alt="Rens, dakdekker in de regio Den Bosch" loading="lazy" width="600" height="750" style="width:100%;height:auto;border-radius:12px;border-top:5px solid var(--orange);box-shadow:var(--shadow);" />
+        ) : (
+          <div class="photo-frame">
+            <strong>Foto van Rens komt hier</strong>
+            <span>Een gezicht op de site wekt vertrouwen — precies het verschil met de anonieme landelijke sites. Stuur een foto van jezelf + een paar vóór/na's, dan zet ik ze erin.</span>
+          </div>
+        )}
       </aside>
     </div>
   </section>

@@ -39,6 +39,9 @@ export const SITE = {
 
   // Geo van de standplaats (Den Bosch). Voor LocalBusiness-schema.
   geo: { lat: 51.6904, lon: 5.2935 },
+
+  // Optioneel: foto van Rens op /over (bv. "/img/rens-aan-het-werk.jpg"). Leeg = nette placeholder.
+  overFoto: "",
 } as const;
 
 /** Kant-en-klare tel: link */

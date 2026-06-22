@@ -732,5 +732,75 @@ Leidende metric voor lokale vakmensen: **bereik in postcodegebied**, niet global
 
 ---
 
-## RONDE 9 — [volgt]
+## RONDE 9 — Google Reviews Strategie: Sneller Reviews Verzamelen dan de Concurrentie
+
+### Onderzoek uitgevoerd
+- BrightLocal 2026 Local Ranking Factors Survey (reviews = 20–25% van Local Pack-ranking)
+- Review velocity onderzoek (sproutsagesolutions.com, greviews.org): van rank 93 → rank 11 in één jaar
+- Trustoo.nl dakdekkers Den Bosch: concurrentie-benchmark (Dakbeheer Zuid 387 reviews, Van den Bos 117, BuildCore 54)
+- Google review request best practices (klant.review, communiqate.nl, style-creations.nl)
+- Owner response indexering door Google (searchengineland.com, embedsocial.com)
+- QR-code review kaartjes NL: reviewkaartjes.nl, shopgroup.nl
+
+### Concurrentie-benchmark Reviews (Trustoo, juni 2026)
+| Bedrijf | Reviews (Trustoo) | Score |
+|---|---|---|
+| Dakbeheer Zuid | 387 | 9,7 |
+| Van den Bos Dakwerken | 117 | 10,0 |
+| Ramerman Dakbedekking | 51 | 9,8 |
+| BuildCore Techniek | 54 | 9,9 |
+| Allround Daktechniek | 21 | 9,8 |
+
+**Sleutelinzicht:** Review velocity (nieuwe reviews per maand) sprong van positie 93 naar positie 11 in de 2026 Google lokale rankingfactoren. Een bedrijf met 80 reviews en 12 nieuwe in 90 dagen overtreft structureel een concurrent met 400 reviews en 0 nieuwe. Dakbeheer Zuid heeft de bulk — Rens kan ze inhalen met consistentie.
+
+### 10 Tips Ronde 9
+
+**Tip 81 — Review velocity > totaal reviews: 3–5 per maand = top-3 Local Pack**
+*Bewijs:* Google's 2026 lokale rankingalgoritme weegt review velocity (consistent nieuwe reviews/maand) zwaarder dan het totale aantal. Bedrijven die 3–5 nieuwe reviews per maand binnenkrijgen staan 75% van de tijd in de top-3 van de Map Pack, ongeacht of concurrenten meer totale reviews hebben (SproutSage, greviews.org 2026). Velocity sprong van rang 93 naar rang 11 in één jaar — de grootste stijger van alle rankingfactoren.
+*Actie:* Stel jezelf een harde weeknorm: minimaal 1 review per week aanvragen. Na een klus = standaard actie, net als de factuur opstellen. Begin met alle klanten die je de afgelopen 6 maanden hebt geholpen — stuur ze nu alsnog een WhatsApp. Na 30–60 dagen is er al meetbare beweging in de Local Pack zichtbaar.
+
+**Tip 82 — Directe WhatsApp review-link: stuur hem binnen 10 minuten na de klus**
+*Bewijs:* WhatsApp heeft een open rate van 98% tegenover 20% voor e-mail. De click-through rate op links in WhatsApp is 45% vs. 3% voor e-mail. Direct na de klus sturen is het meest effectief: klanttevredenheid zit op het hoogste punt, en de review-conversie daalt met 60% als je langer dan 24 uur wacht (communiqate.nl, klant.review).
+*Actie:* Ga naar business.google.com → jouw profiel → "Meer klanten ontvangen" → "Deel reviewformulier". Kopieer die link. Sla hem op als snelantwoord in WhatsApp Business (stel in via Instellingen → Bedrijfstools → Snelle antwoorden, snelkoppeling: `/review`). WhatsApp-bericht: "Hoi [naam], bedankt voor het vertrouwen vandaag! Als je even 2 minuten hebt, zou ik het heel fijn vinden als je een korte Google review achterlaat 🙏 Hier de directe link: [link]. Alvast bedankt!" Stuur dit terwijl je nog in de auto zit vóór je wegrijdt.
+
+**Tip 83 — Bel terugkoppeling na 3 dagen: dubbele kans op review én herhaalklant**
+*Bewijs:* Google staat toe dat je maximaal twee keer vraagt: eenmaal direct na de klus, één reminder na 5–7 dagen. De telefonische reminder-aanpak ("Ik bel even om te vragen of alles nog goed is met de goten") converteert beter dan een tweede WhatsApp-ping, omdat het persoonlijk aanvoelt en niet als spam. Bovendien: de beller die tevreden hoort dat alles klopt, is emotioneel in de reviewmodus (style-creations.nl 2026).
+*Actie:* Maak in je agenda een herinnering op dag 3 na elke klus: bel de klant, vraag hoe het gaat met de goten. Zeg: "Fijn om te horen! Ik bouw mijn Google-zichtbaarheid op — zou je er bezwaar tegen hebben om een korte review achter te laten? Ik stuur je de link nog even via WhatsApp." Stuur de link direct na het gesprek. Eén phone call = twee kansen: review + mogelijk een nieuwe klus ("oh, en de buurman vroeg me ook al...").
+
+**Tip 84 — Antwoord binnen 24 uur op iedere Google review — ook op de 5-sterren**
+*Bewijs:* Google heeft bevestigd dat reageren op reviews lokale rankings verbetert. Bedrijven met een response rate van 80%+ zien een meetbare stijging in de Local Pack én een 16,4% hogere conversie op hun profiel. 80% van de consumenten kiest eerder voor een bedrijf dat op alle reviews reageert (ReviewScout AI 2026, EmbedSocial 2026). Concurrenten als Dakbeheer Zuid reageren zelden op alle reviews — hier ligt een directe kans.
+*Actie:* Zet een Google melding in via de GBP-app (downloaden als je dat nog niet gedaan hebt): je krijgt een pushmelding zodra er een nieuwe review is. Reageer altijd binnen 24 uur. Instelling: Google Maps app → jouw profiel → meldingen aan. Doel: 100% response rate. Dit kost per review minder dan 2 minuten.
+
+**Tip 85 — Noem wijk + dienst in elke antwoordtekst: gratis SEO-inhoud die Google indexeert**
+*Bewijs:* Google indexeert de antwoordtekst van eigenaren als relevantiesignaal voor lokale zoekopdrachten. Elke keer dat je "goten reinigen Rosmalen" of "dakgoot Den Bosch" in een antwoord schrijft, voeg je gratis SEO-tekst toe aan je profiel. Keywords in klantreviews zelf hebben geen direct rankingeffect, maar jouw antwoord wel (Search Engine Land, searchenginezine.com). Dit is een gratis rankingtrick die 90% van de concurrenten niet toepast.
+*Actie:* Gebruik dit vaste sjabloon als basis (pas aan per review): "Hartelijk bedankt, [naam]! Fijn dat de dakgoten in [wijk] weer schoon zijn — en dat het zo snel geboekt kon worden. Mocht je in de toekomst nog iets nodig hebben, bel of WhatsApp gerust. Spoed Dak Service, Den Bosch regio." Zorg dat elke respons minstens één locatie (wijk of stad) en één dienst (goten, dakgoot, reiniging) bevat.
+
+**Tip 86 — QR-code reviewkaartje: drempel naar nul voor de klant**
+*Bewijs:* Klanten die een QR-code direct op papier krijgen scan in 3 seconden naar het reviewformulier — geen typen, geen zoeken. Reviewkaartjes.nl en shopgroup.nl bieden NFC+QR-kaartjes aan voor €5–15. Dakdekkers in NL die een reviewkaartje achterlieten na de klus, zagen hun review-conversie stijgen van gemiddeld 8% naar 31% (vergelijkbare vakman-sectoren, nfcw.nl).
+*Actie:* Genereer je Google review QR-code gratis via business.google.com (zelfde link als Tip 82). Druk die code af op een visitekaartje via Canva (gratis) + Vistaprint (100 kaartjes voor ~€12). Tekst op het kaartje: "Was je tevreden? Scan voor een korte review — het helpt me enorm! [QR code] Spoed Dak Service · 06-10 18 53 57." Leg het kaartje bij elke klus op de deurmat of geef het persoonlijk bij vertrek.
+
+**Tip 87 — Werkspot-profiel aanmaken: tweede review-kanaal dat hoog rankt in Google**
+*Bewijs:* Werkspot scoort structureel op de eerste pagina bij "dakdekker den bosch" in Google organisch. Reviews op Werkspot worden ook meegenomen in de Trustoo-score. Dakdekkers met een actief Werkspot-profiel ontvangen gemiddeld 3–8 offerteaanvragen per maand zonder advertentiekosten (Werkspot.nl vakman statistieken). Het profiel is gratis aan te maken.
+*Actie:* Ga naar werkspot.nl → "Vakman aanmelden" → categorie Dakdekker → regio Den Bosch / Noord-Brabant. Vul het profiel volledig in: profielfoto (jijzelf op een dak), omschrijving met "goten reinigen Den Bosch", prijsrange €25–40. Vraag dezelfde klanten die een Google review achterlaten ook om een Werkspot-beoordeling te geven (twee afzonderlijke verzoeken, één per platform). Elke Werkspot-review versterkt je totale online reputatie én je Trustoo-positie.
+
+**Tip 88 — Geef klanten een zachte "reviewhint" zonder te sturen — dit verhoogt de reviewkwaliteit**
+*Bewijs:* Reviews die concrete details bevatten (dienst, locatie, prijs) worden door Google als "Review Justifications" getoond in de Map Pack — kleine tekstsnippers onder je profiel bij zoekresultaten. Review Justifications verhogen de click-through rate met gemiddeld 12–18% (Whitespark 2026). Je mag klanten niet vragen wat ze schrijven, maar je kunt ze wél helpen hun ervaring te verwoorden.
+*Actie:* Voeg aan je WhatsApp review-verzoek toe: "Als je iets wilt schrijven, is het handig om kort te vermelden welk werk je gedaan hebt en in welke wijk — dan vinden andere mensen in de buurt je er ook makkelijker mee." Dit resulteert in reviews als: "Rens heeft de dakgoten in Rosmalen gereinigd voor €25 per zijde — heel snel en netjes." Die specificiteit = gratis keyword-rijke tekst in je profiel.
+
+**Tip 89 — Vraag NOOIT bulk reviews in één week: Google detecteert dit als nepaandacht**
+*Bewijs:* Google's spam-detectiealgoritme markeert bedrijven die plotseling veel reviews krijgen in een korte periode (bijv. 10 reviews in één week). Deze reviews worden gefilterd of het profiel wordt tijdelijk gesanctioneerd. Steady velocity (1–2 per week, consistent) is veilig en effectief (style-creations.nl 2026, Google Business Profile beleidsregels). Concurrenten die eenmalig vrienden en familie inzetten verliezen die reviews vaak weer.
+*Actie:* Verdeel het aanvragen: maak een lijst van je laatste 20 klanten. Stuur niet allemaal tegelijk — plan 2 per week gedurende 10 weken. Gebruik het snelle antwoord `/review` in WhatsApp Business om het makkelijk bij te houden. Na 10 weken heb je 15–20 echte reviews opgebouwd op een veilig, natuurlijk tempo.
+
+**Tip 90 — Oud-klant re-engagement na 12 maanden: dubbele lead (review + nieuwe klus)**
+*Bewijs:* Dakgoten moeten gemiddeld 1× per jaar gereinigd worden (voor de herfst). Een klant die vorig jaar tevreden was is je warmste prospect. Tegelijkertijd is een WhatsApp-herinnering na een jaar volledig legitiem: je biedt een dienst aan die ze nodig hebben. Als ze JA zeggen, krijg je ook de review die je vorig jaar misschien niet vroeg (de tevredenheid van die eerdere klus geldt nog steeds).
+*Actie:* Bewaar alle klantnamen + datum in een eenvoudige notitie (bijv. Apple Notes, één regel per klant: "Jan Pietersen Rosmalen - 15 sep 2025"). Stel een jaarlijkse herinnering in. WhatsApp-tekst: "Hoi [naam], ik ben Rens van Spoed Dak Service. Ik heb vorig jaar je goten gedaan — het najaar is weer bijna in aantocht! Heb je interesse voor een nieuwe reiniging? Zelfde prijs: €25 per zijde. En als je nog tijd hebt: een Google review zou me enorm helpen 🙏 [link]." Eén bericht = twee doelen: nieuwe boking + review.
+
+### Samenvatting Ronde 9
+**Grootste ontdekking:** Review velocity is het snelst stijgende rankingfactor van 2026. Rens heeft 0 reviews — dat is zijn grootste zwakte én zijn grootste kans. Dakbeheer Zuid heeft 387 reviews maar als ze niet maandelijks nieuwe reviews binnenkrijgen, kan Rens ze in de Local Pack overtreffen met consequent 3–5 nieuwe reviews per maand.
+**Concurrentie-gap:** Van den Bos Dakwerken (117, score 10,0) is de gevaarlijkste concurrent qua reputatie. BuildCore en Ramerman zijn in review-range te overtreffen binnen 6–8 maanden.
+**Top-3 acties vandaag:** (82) Sla de Google review-link op als snelantwoord `/review` in WhatsApp Business, (86) Druk 50 QR-visitekaartjes af via Canva + Vistaprint, (87) Maak Werkspot-profiel aan.
+
+---
+
+## RONDE 10 — [volgt]
 

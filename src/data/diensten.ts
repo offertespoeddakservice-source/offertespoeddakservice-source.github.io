@@ -12,6 +12,7 @@ export interface Dienst {
   metaDescription: string;
   icoon: string;          // emoji als simpel icoon (later vervangbaar door SVG)
   vanafPrijs?: string;    // optionele prijsindicatie
+  afbeelding?: string;    // optioneel: pad naar foto in /public/img (bv. "/img/dak-coaten.jpg")
   intro: string;          // openingsalinea op de dienstpagina
   punten: string[];       // bullets: wat je doet / waarom jij
   faq: { v: string; a: string }[];
