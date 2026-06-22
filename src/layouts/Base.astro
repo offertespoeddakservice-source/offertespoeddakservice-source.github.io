@@ -99,6 +99,16 @@ const schemas = [businessSchema, websiteSchema, ...(breadcrumbSchema ? [breadcru
           </div>
           <a class="btn btn--primary" href={telHref}>Bel {SITE.telefoonWeergave}</a>
         </nav>
+        <details class="m-menu">
+          <summary aria-label="Menu openen">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#0f2742" stroke-width="2.4" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+          </summary>
+          <div class="m-menu-panel">
+            {NAV.map((item) => <a href={item.href}>{item.label}</a>)}
+            <a class="btn btn--primary" href={telHref}>Bel {SITE.telefoonWeergave}</a>
+            <a class="btn btn--wa" href={waHref()}>WhatsApp Rens</a>
+          </div>
+        </details>
       </div>
     </header>
 

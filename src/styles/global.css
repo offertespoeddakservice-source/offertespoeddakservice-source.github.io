@@ -209,3 +209,12 @@ a:focus-visible, button:focus-visible, summary:focus-visible, input:focus-visibl
 .stap .n { font-family: var(--font-display); font-weight: 800; font-size: 2rem; color: var(--orange); line-height: 1; }
 .stap h3 { margin: 10px 0 6px; }
 .stap p { margin: 0; color: var(--muted); font-size: .96rem; }
+
+/* Mobiel menu (hamburger, pure CSS via <details>) */
+.m-menu { display: none; }
+.m-menu > summary { list-style: none; cursor: pointer; padding: 6px; display: flex; align-items: center; }
+.m-menu > summary::-webkit-details-marker { display: none; }
+.m-menu-panel { position: absolute; top: 100%; left: 0; right: 0; background: var(--cream); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); display: flex; flex-direction: column; padding: 10px 22px 18px; box-shadow: var(--shadow); z-index: 60; }
+.m-menu-panel a:not(.btn) { padding: 12px 0; font-weight: 700; color: var(--navy); text-decoration: none; border-bottom: 1px solid var(--line); font-family: var(--font-display); }
+.m-menu-panel .btn { margin-top: 10px; justify-content: center; }
+@media (max-width: 860px) { .m-menu { display: block; } }
