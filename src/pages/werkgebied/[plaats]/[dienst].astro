@@ -49,7 +49,7 @@ const schema = [
 ---
 
 <Base
-  title={`${titel}${d.vanafPrijs ? ` ${d.vanafPrijs}` : ""} | ${SITE.bedrijfsnaam}`}
+  title={`${titel} | ${SITE.bedrijfsnaam}`.length <= 62 ? `${titel} | ${SITE.bedrijfsnaam}` : titel}
   description={`${d.titel} in ${p.naam} nodig? ${d.kort} Eerlijke, vaste prijs vooraf.`}
   path={path}
   schema={schema}
