@@ -8,9 +8,10 @@ interface Props {
   description: string;
   path?: string;
   schema?: object | object[];
+  noindex?: boolean;
 }
 
-const { title, description, path = "/", schema } = Astro.props;
+const { title, description, path = "/", schema, noindex = false } = Astro.props;
 const canonical = new URL(path, SITE.url).href;
 
 const businessSchema: Record<string, unknown> = {
@@ -65,7 +66,7 @@ const schemas = [businessSchema, websiteSchema, ...(breadcrumbSchema ? [breadcru
     <title>{title}</title>
     <meta name="description" content={description} />
     <link rel="canonical" href={canonical} />
-    <meta name="robots" content="index, follow" />
+    <meta name="robots" content={noindex ? "noindex, follow" : "index, follow"} />
     <meta name="theme-color" content="#0f2742" />
     <meta property="og:type" content="website" />
     <meta property="og:locale" content="nl_NL" />
@@ -74,6 +75,9 @@ const schemas = [businessSchema, websiteSchema, ...(breadcrumbSchema ? [breadcru
     <meta property="og:url" content={canonical} />
     <meta property="og:site_name" content={SITE.bedrijfsnaam} />
     <meta property="og:image" content={`${SITE.url}/og.svg`} />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content={`${SITE.bedrijfsnaam} — dakdekker regio Den Bosch`} />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content={title} />
     <meta name="twitter:description" content={description} />
