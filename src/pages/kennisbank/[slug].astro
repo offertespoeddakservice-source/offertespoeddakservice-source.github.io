@@ -20,6 +20,9 @@ const articleSchema = {
   author: { "@type": "Person", name: "Rens" },
   publisher: { "@type": "Organization", name: SITE.bedrijfsnaam, logo: { "@type": "ImageObject", url: `${SITE.url}/favicon.svg` } },
   mainEntityOfPage: new URL(path, SITE.url).href,
+  image: `${SITE.url}/og.svg`,
+  datePublished: "2026-06-19",
+  dateModified: "2026-06-20",
 };
 const faqSchema = a.faq.length
   ? { "@context": "https://schema.org", "@type": "FAQPage", mainEntity: a.faq.map((f) => ({ "@type": "Question", name: f.v, acceptedAnswer: { "@type": "Answer", text: f.a } })) }

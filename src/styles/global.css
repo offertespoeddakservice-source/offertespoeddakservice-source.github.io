@@ -227,3 +227,13 @@ a:focus-visible, button:focus-visible, summary:focus-visible, input:focus-visibl
 @media (prefers-reduced-motion: reduce){ html{scroll-behavior:auto} *,*::before,*::after{animation-duration:.001ms!important;transition-duration:.001ms!important} }
 
 .dienst-icon { color: var(--orange); display: block; }
+
+/* Print: schone, leesbare uitdraai */
+@media print {
+  .site-header, .trust-strip, .breadcrumbs, .sticky-cta, .site-footer, .cta-band, .m-menu, .btn { display: none !important; }
+  body { background: #fff; color: #000; font-size: 12pt; }
+  .hero { background: #fff !important; color: #000 !important; padding: 12px 0 !important; }
+  .hero h1, .hero h2, .hero h3, .hero .lead, .hero .kicker, .hero .pricehook .per { color: #000 !important; }
+  a { color: #000; text-decoration: underline; }
+  .section { padding: 12px 0 !important; }
+}
