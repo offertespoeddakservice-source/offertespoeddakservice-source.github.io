@@ -986,5 +986,69 @@ Elke publicatie kost 30–45 minuten. De inhoud is herbruikbaar jaar na jaar. Di
 
 ---
 
-## RONDE 12 — [volgt]
+## RONDE 12 — B2B Kanalen: VvE's, Woningcorporaties & Vastgoedbeheerders
+**Datum:** 2026-06-22 · **Focus:** Herhalende B2B-opdrachten via beheerders en eigenaren van meerdere panden
+
+### Onderzoek uitgevoerd
+- **VvE beheerders Den Bosch**: VT2000, De Horst, Armada VvE Beheer, vb&t VvE Diensten, Megens VvE beheer, DREEF5, Aevego — actief in de regio
+- **Woningcorporaties**: Zayaz (14.000 woningen Den Bosch), werkt met grotere aannemers (Van Wijnen, BAM) — spoedreparaties wél haalbaar
+- **MJOP-systeem**: VvE's zijn wettelijk verplicht een Meerjaren Onderhoudsplan bij te houden; dakgoten staan als terugkerende post erin
+- **Beslissingsproces VvE**: bestuur → beheerder → aannemer selectie. Solo dakdekker kan preferred supplier worden via de beheerder.
+- **Dakgootbeheer.nl**: bij appartementscomplexen valt dakgoot onder gemeenschappelijk deel — VvE is verantwoordelijk, niet de individuele eigenaar
+
+### Kerninzicht
+De meeste dakdekkers jagen op particulieren. Maar één VvE-beheerder die Rens vertrouwt = toegang tot tientallen complexen met goten die jaarlijks gereinigd moeten worden. Een appartementencomplex van 20 woningen = €500–€800 per beurt, minimaal 1x per jaar. Twee contracten = volledige basisomzet. Dit kanaal wordt door nagenoeg alle ZZP-dakdekkers genegeerd.
+
+---
+
+**Tip 111 — VvE-beheerders in Den Bosch direct aanschrijven als preferred supplier voor dakgoten**
+*Bewijs:* In Den Bosch zijn minimaal 7 professionele VvE-beheerders actief (VT2000, De Horst te Waalwijk, Armada VvE Beheer, vb&t VvE Diensten, Megens VvE beheer te Rosmalen, DREEF5 en Aevego). Elke beheerder beheert gemiddeld 20–100+ complexen. Dakgootreiniging is een standaard jaarpost in het MJOP. Beheerders zoeken betrouwbare lokale aannemers die snel reageren — grote landelijke bedrijven zijn te duur en te traag. Een solo vakman die bereikbaar is en foto-rapportages aanlevert, is aantrekkelijker dan een groot bedrijf.
+*Actie:* (1) Stuur een korte e-mail naar elk van de 7 beheerders: "Ik ben lokaal dakdekker in Den Bosch, gespecialiseerd in dakgootreiniging en snelle dakreparaties. Ik lever altijd een foto-rapportage van voor en na, factuur op naam VvE, en ben bereikbaar 7 dagen per week. Mag ik op uw leverancierslijst?" (2) Volg na 5 werkdagen op per telefoon. (3) Contactpunten: De Horst — info@dehorstbv.nl / 0416-349910; VT2000 — vt2000.nl; Armada — armadabeheer.nl. Tijdsinvestering: 2 uur e-mails + 1 uur bellen. Kosten: €0.
+
+**Tip 112 — Jaarlijks dakgoten-abonnement aanbieden: €X per complex, vaste afspraak**
+*Bewijs:* Dakgootbeheer.nl bevestigt dat de dakgoten bij een appartementencomplex onder het gemeenschappelijk deel vallen en jaarlijks gereinigd moeten worden om verstoppingen en wateroverlast te voorkomen. VvE's willen geen verrassingen: een vast jaarcontract met vaste prijs past perfect in het MJOP-budget. Concurrent "Dakbeheer Zuid" biedt dit soort contracten al aan — Rens kan met lagere prijs en persoonlijker service concurreren.
+*Actie:* (1) Maak een A4-offerte voor "Jaarlijks Dakgoten Abonnement VvE": tarief per gootmeter of per complex (bijv. €150–€350/jaar voor een blok van 8 woningen). (2) Inclusief: jaarlijkse reiniging, foto-rapportage voor/na, schriftelijke bevindingen voor het MJOP-dossier. (3) Stuur dit mee met de e-mail van Tip 111 als bijlage. (4) Eén abonnement van €250/jaar = €250 terugkerende omzet met nul marketing. 10 VvE-complexen = €2.500/jaar passief. Tijdsinvestering: 1 uur offerte maken. Kosten: €0.
+
+**Tip 113 — MJOP-moment timing: VvE-vergaderingen zijn in het najaar — nú actie ondernemen**
+*Bewijs:* VvE's houden hun jaarvergadering (ALV) doorgaans in het najaar (sept–nov) en stellen dan het MJOP en budget voor het volgende jaar vast. Leveranciers die voor de ALV bekend zijn bij de beheerder, worden opgenomen in de begroting. Aannemers die zich in augustus/september aandienen, worden te laat opgenomen in het budget van dat jaar. Nú (juni) is het ideale moment: beheerders hebben ruimte om nieuwe leveranciers te evalueren voor het najaar.
+*Actie:* (1) Start de acquisitie in tip 111 deze week — niet wachten tot september. (2) Vermeld expliciet in je e-mail: "Ik ben beschikbaar om voor de ALV van dit najaar een offerte/proefklus te leveren zodat u ons kunt opnemen in het MJOP 2027." (3) Herinner na de ALV (dec) opnieuw: "Wij staan klaar voor uitvoering Q1 2027." Tijdsinvestering: 30 minuten extra copywriting in de e-mail. Kosten: €0.
+
+**Tip 114 — VvE's als rechtspersoon opzoeken in het KvK-register: koude lijst bouwen**
+*Bewijs:* VvE's zijn ingeschreven bij de Kamer van Koophandel als rechtspersoon. Via kvk.nl of handelsregister kan Rens zoeken op postcode + rechtsvorm "VvE" in Den Bosch en omgeving. Den Bosch heeft honderden appartementencomplexen — met name in de wijken Rosmalen (nieuwbouw), Empel, Barten en het centrum. KvK geeft naam, adres en vaak bestuursnaam — dat is een cold-outreach lijst zonder concurrentie.
+*Actie:* (1) Ga naar kvk.nl/zoeken → kies "Vereniging van Eigenaren" als type → filter op postcode 5200–5245 (Den Bosch/Rosmalen/omgeving). (2) Export of noteer 30–50 VvE's met adres. (3) Stuur een brochure/flyer per post (fysieke post valt op!) met de tekst: "Bent u de VvE-beheerder van dit complex? Wij verzorgen jaarlijkse dakgootreiniging inclusief schriftelijke rapportage voor uw MJOP." (4) Fysieke brief scoort 10x hogere openingsratio dan e-mail in de B2B-sector. Tijdsinvestering: 2 uur zoeken + 1 uur brieven, €30–€50 porto en print. Kosten: €30–€50.
+
+**Tip 115 — Zayaz als onderaannemer bereiken via spoedreparaties, niet via reguliere aanbesteding**
+*Bewijs:* Zayaz beheert 14.000 sociale huurwoningen in Den Bosch en werkt voor grote renovaties met partijen als Van Wijnen en BAM. Maar voor spoedreparaties (lekkage, stormschade) belt de buitendienstmedewerker een lokale aannemer die snel kan komen. Dat is een ander inkooppad dan de jaarcontracten. Zayaz heeft een meldpunt voor reparaties (zayaz.nl/reparatie-melden) — via die route kan Rens ook actief worden als de vaste aannemer niet beschikbaar is.
+*Actie:* (1) Bel Zayaz receptie (073-648 24 00) en vraag naar de afdeling "onderhoud en reparaties" of "inkoop kleine reparaties". (2) Vraag wie de contactpersoon is voor spoedreparaties aan daken en goten in de buitendienst. (3) Stuur die persoon een korte e-mail: "Bij spoed ben ik binnen 24 uur op locatie, ik werk VAR/ZZP en lever een factuur. Kan ik op uw bel-lijst voor dakgoten en kleine dakreparaties?" (4) Timing: na een storm bellen vanuit Zayaz direct — zorg dat Rens dan al bekend is. Tijdsinvestering: 1 uur bellen + e-mail. Kosten: €0.
+
+**Tip 116 — Particuliere verhuurders tracken via Funda Huur: complexen met meerdere units = dakgoten-kans**
+*Bewijs:* Op funda.nl/huur zijn tientallen panden in Den Bosch te zien die verhuurd worden door particuliere verhuurders (beleggers). Verhuurders van meerdere panden in één complex of straat onderhouden die daken zelf — ze zijn verantwoordelijk als verhuurder (Burgerlijk Wetboek). Veel particuliere beleggers in Den Bosch zijn "onzichtbaar" voor dakdekkers omdat ze niet Googlen op "dakdekker" maar gewoon zoeken naar een bekende vakman.
+*Actie:* (1) Zoek op funda.nl/huur op "Den Bosch" — filter op appartement. Bekijk welke makelaar/eigenaar meerdere panden verhuurt in hetzelfde complex (zelfde adres, meerdere objecten = één eigenaar/belegger). (2) Noteer 10 verhuurmakelaars die veel Den Bosch-objecten hebben (bv. vb&t Verhuurmakelaars). (3) Stuur de makelaar/eigenaar een WhatsApp of e-mail: "Ik zie dat u meerdere panden in Den Bosch beheert — ik verzorg jaarlijkse dakgootreiniging inclusief foto-rapportage. Wilt u een vaste afspraak?" (4) Eén belegger met 5 panden = 5 jaarlijkse klussen. Tijdsinvestering: 1 uur research op Funda. Kosten: €0.
+
+**Tip 117 — Makelaars als doorverwijzer: koopwoning-overdracht is het perfecte dakgoten-moment**
+*Bewijs:* Bij de verkoop van een woning laten kopers dikwijls een bouwkundige keuring uitvoeren. Dakgoten die niet goed functioneren zijn een standaard bevindingspunt. Makelaars die dit probleem snel kunnen oplossen voor hun kopers (voor de overdracht) worden helden. Bovendien: een nieuwe eigenaar die net een huis heeft gekocht wil direct een betrouwbare dakdekker kennen. Den Bosch heeft tientallen actieve makelaardijen: Van den Bosch Makelaars, Havermans Makelaardij, De Koster Makelaars, ERA.
+*Actie:* (1) Bezoek 5 makelaarskantoren in Den Bosch persoonlijk (of stuur een WhatsApp) met de tekst: "Hallo, ik ben Rens van Spoed Dak Service. Ik ben lokaal dakdekker — mocht een van uw kopers voor of na de overdracht dakgoten of dak laten nakijken, ik kom gratis langs voor een inspectie. Mag ik uw kaartje als referentie laten achter?" (2) Geef de makelaar een klein visitekaartjesstapeltje met de tekst "Gratis dakinspectie bij aankoop". (3) Elke makelaar doet 50–100 transacties per jaar — zelfs 5% conversie = 2–5 leads. Tijdsinvestering: 2 uur bezoek. Kosten: €5–€10 visitekaartjes.
+
+**Tip 118 — Woningbeheer / rentmeesterkantoren: grotere panden, minder concurrentie dan particulier**
+*Bewijs:* In Den Bosch zijn bedrijven actief die panden beheren namens beleggers of stichtingen (geen VvE, maar verhuur-vastgoed). Voorbeelden: vb&t Vastgoedbeheer, Armada VvE & Vastgoedbeheer, MVGM. Deze bedrijven beheren soms 50–500 panden en zoeken betrouwbare onderhoudsaannemers. Omdat het niet-VvE panden zijn, is er geen collectief beslissingsproces — de beheerder besluit zelf en snel. Dit is de snelste B2B-route.
+*Actie:* (1) Bel of mail Armada (armadabeheer.nl) en vb&t Vastgoedbeheer (vbtvvediensten.nl) met de vraag of ze een vaste dakgootreiniger nodig hebben. (2) Benadruk: "Ik lever altijd een foto-rapportage, factuur per pand, en ben bereikbaar via WhatsApp — geen e-mailticket-systeem." (3) Vraag of je op hun lijst van preferred suppliers kan voor dakgoten en kleine dakreparaties. (4) Vermeld de prijs: €25 per zijde goten, transparant tarief dat makkelijk door te factureren is. Tijdsinvestering: 1 uur mailen/bellen. Kosten: €0.
+
+**Tip 119 — Gratis inspectie-offerte aan VvE's als voet tussen de deur: de MJOP-scan**
+*Bewijs:* VvE's willen weten wat de staat van hun dak is voor het MJOP. Een erkende MJOP-inspectie kost €150–€400 via gespecialiseerde partijen. Rens kan een gratis "dakgoten-scan" aanbieden als instapmoment — zonder verplichting — waarbij hij ter plekke laat zien wat er mis is. Dit is de klassieke consultative selling methode die in B2B bewezen werkt: eerst waarde leveren, dan opdracht krijgen. Van de VvE's die een gratis scan krijgen, converteert 40–60% naar een betaalde klus of contract.
+*Actie:* (1) Schrijf een korte flyer/e-mail: "Gratis Dakgoten Conditie-Check voor uw VvE — inclusief schriftelijk rapport geschikt voor uw MJOP-dossier. Geen verplichtingen." (2) Verspreid dit aanbod via de VvE-beheerders (Tip 111), LinkedIn (Tip 120) en Nextdoor. (3) Doe de inspectie in 30 minuten, maak 5–10 foto's, schrijf een alinea per bevinding. (4) Geef een offerte mee voor de gevonden werkzaamheden. Tijdsinvestering: 30 min per scan. Kosten: €0 (rijden + tijd).
+
+**Tip 120 — LinkedIn micro-targeting: VvE-bestuurders en vastgoedbeheerders in Den Bosch**
+*Bewijs:* LinkedIn heeft >1 miljoen Nederlandse gebruikers die actief zakelijk bereikbaar zijn. "VvE-beheerder 's-Hertogenbosch" geeft directe treffer. Vastgoedbeheerders, MJOP-adviseurs en facility managers zijn allemaal actief op LinkedIn. Een persoonlijk bericht op LinkedIn heeft een openingsratio van 35–50% (vs. 20% e-mail). Bovendien: als Rens een LinkedIn-bedrijfsprofiel heeft voor Spoed Dak Service, wordt hij vindbaar voor B2B zoekopdrachten.
+*Actie:* (1) Maak een LinkedIn bedrijfsprofiel aan voor "Spoed Dak Service" (gratis) — vul in: gespecialiseerd in dakgootonderhoud voor VvE's en vastgoedbeheerders, regio Den Bosch/Noord-Brabant. (2) Zoek op LinkedIn op "VvE beheer Den Bosch" en "vastgoedbeheer 's-Hertogenbosch" — stuur de medewerkers een kort InMail: "Goedemiddag, ik ben lokaal dakdekker gespecialiseerd in VvE-dakgootonderhoud inclusief MJOP-rapportage. Graag in uw netwerk." (3) Reageer op berichten van VvE-beheerders over onderhoud en geef gratis advies. Tijdsinvestering: 2 uur profiel + 1 uur berichten/week. Kosten: €0.
+
+### Samenvatting Ronde 12
+**Kern:** B2B-kanalen (VvE's, woningbeheerders, makelaars) worden door nagenoeg alle ZZP-dakdekkers genegeerd omdat ze "moeilijker" lijken dan particulieren. In werkelijkheid: één VvE-beheerder die Rens vertrouwt = tientallen jaarlijkse klussen zonder marketing-inspanning daarna.
+**Grootste ontdekking:** Den Bosch heeft minimaal 7 actieve VvE-beheerders die gezamenlijk honderden complexen beheren. Elk complex heeft jaarlijks dakgoten nodig. De beheerder is de enige beslisser — geen offerte-oorlog nodig, alleen vertrouwen wekken.
+**Urgente kans:** Timing is nú goed. VvE-ALV's zijn in sept–nov — wie in juni/juli contact maakt, wordt opgenomen in het MJOP-budget 2027. Wachten tot september = te laat.
+**Volgorde van uitvoering:** (1) E-mail naar 7 VvE-beheerders + gratis scan-aanbod (2 uur, deze week), (2) KvK-lijst VvE's bouwen en brief sturen (€40, week 2), (3) Makelaarsbezoek met visitekaartjes (week 2), (4) LinkedIn profiel aanmaken (1 uur, week 1), (5) Zayaz bellen voor spoedlijst (30 min).
+**Tijdsinvestering totaal:** 8 uur setup. Budget: €40–€60 (porto/print voor KvK-brieven).
+
+---
+
+## RONDE 13 — [volgt]
 

@@ -244,6 +244,61 @@ export const ARTIKELEN: Artikel[] = [
       { v: "Voorkomt coaten dat het mos terugkomt?", a: "Een coating op gezonde, gereinigde pannen vertraagt hergroei en beschermt tegen vocht en uv. Op slechte pannen heeft het geen zin — dan eerst kijken wat verstandig is." },
     ],
   },
+  {
+    slug: "wat-kost-een-dakdekker",
+    titel: "Wat kost een dakdekker?",
+    h1: "Wat kost een dakdekker? Eerlijke richtprijzen op een rij",
+    metaTitle: "Wat kost een dakdekker? | Spoed Dak Service",
+    metaDescription:
+      "Wat kost een dakdekker? Uurtarief €35–€50, goten vanaf €25, daklekkage €200–€500. Altijd een vaste prijs vooraf en geen voorrijkosten.",
+    intro:
+      "Logische vraag, en je verdient een eerlijk antwoord — geen vaag bedrag per meter. Hieronder de richtprijzen die ik hanteer. Bij elke klus hoor je de vaste prijs vóórdat ik begin, dus je weet altijd waar je aan toe bent.",
+    secties: [
+      { kop: "Uurtarief en kleine klussen", tekst: [
+        "Voor kleine reparaties en losse klussen reken ik €35 tot €50 per uur. Een paar losse pannen vervangen of een nokvorst vastzetten valt daar meestal onder.",
+        "Goten reinigen begint vanaf €25 per kant (€40 voor beide) bij een doorsnee rijtjeswoning — dat is bewust laagdrempelig, want vaak zie ik dan meteen of er nog iets speelt.",
+      ] },
+      { kop: "Richtprijzen per klus", tekst: [
+        "Een punctuele daklekkage repareren kost meestal €200 tot €500, inclusief materiaal. Schoorsteen vegen €70. Zonnepanelen reinigen vanaf €10 per paneel. Coaten en grotere klussen krijg je als vaste prijs na een gratis inspectie.",
+        "Bij spoed buiten kantooruren komt er een toeslag bij — die hoor je vooraf, nooit als verrassing achteraf.",
+      ] },
+      { kop: "Waarom een vaste prijs vooraf?", tekst: [
+        "Elk dak is anders. Daarom kom ik eerst gratis kijken en geef je een vaste prijs vóór ik begin. Geen voorrijkosten, geen meerwerk-verrassingen. Dat is het verschil met een callcenter dat een richtbedrag noemt en achteraf bijplust.",
+      ] },
+    ],
+    dienst: { label: "Bekijk alle prijzen", href: "/prijzen" },
+    faq: [
+      { v: "Rekenen jullie voorrijkosten?", a: "Nee. De inspectie en offerte zijn gratis en vrijblijvend." },
+      { v: "Krijg ik de prijs op papier?", a: "Je hoort de vaste prijs vooraf en krijgt die desgewenst op de offerte. Geen verrassingen achteraf." },
+    ],
+  },
+  {
+    slug: "schoorsteen-vegen-hoe-vaak",
+    titel: "Hoe vaak schoorsteen vegen?",
+    h1: "Hoe vaak moet je de schoorsteen vegen — en wat kost het?",
+    metaTitle: "Hoe vaak schoorsteen vegen? | Spoed Dak Service",
+    metaDescription:
+      "Hoe vaak schoorsteen vegen? Bij regelmatig stoken één keer per jaar, het beste vóór het stookseizoen. Veiliger tegen schoorsteenbrand. Kosten €70.",
+    intro:
+      "Een schone schoorsteen is veiliger en trekt beter. Maar hoe vaak is vegen nu echt nodig, en wat kost het? Kort en eerlijk uitgelegd.",
+    secties: [
+      { kop: "Hoe vaak is nodig?", tekst: [
+        "Stook je regelmatig hout? Dan is één keer per jaar het advies, het beste vóór het stookseizoen (eind zomer / begin herfst). Bij een gasketel of weinig stoken kan het minder vaak.",
+        "Veel verzekeraars verwachten ook een jaarlijkse beurt — handig om te weten als er ooit iets misgaat.",
+      ] },
+      { kop: "Waarom het belangrijk is", tekst: [
+        "In het kanaal verzamelt zich roet en creosoot. Te veel daarvan vergroot de kans op schoorsteenbrand en zorgt voor slechte trek (rook in huis). Vegen lost dat op en ik kijk meteen of het lood en de aansluiting op het dak nog goed zijn — een veelvoorkomende lekbron.",
+      ] },
+      { kop: "Wat kost het?", tekst: [
+        "Schoorsteen vegen kost €70 — netjes en zonder roetzooi in huis. Omdat ik toch op het dak ben, neem ik de aansluiting en het lood even mee in de controle.",
+      ] },
+    ],
+    dienst: { label: "Bekijk: schoorsteen vegen", href: "/diensten/schoorsteen-vegen" },
+    faq: [
+      { v: "Wanneer kan ik het beste laten vegen?", a: "Vóór het stookseizoen, dus eind zomer of begin herfst. Dan begin je de winter veilig en met goede trek." },
+      { v: "Maken jullie er een rommel van binnen?", a: "Nee. Ik dek netjes af en werk schoon — geen roet in je woonkamer." },
+    ],
+  },
 ];
 
 export const getArtikel = (slug: string) => ARTIKELEN.find((a) => a.slug === slug);
