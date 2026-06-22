@@ -221,3 +221,4 @@ a:focus-visible, button:focus-visible, summary:focus-visible, input:focus-visibl
 
 /* Breadcrumb: nette hoofdletters op alle items */
 .breadcrumbs a, .breadcrumbs > .wrap > span:not(.sep) { text-transform: capitalize; }
+
