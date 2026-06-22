@@ -315,7 +315,7 @@ export const DIENSTEN: Dienst[] = [
     kort: "Vuile panelen leveren minder op. Ik maak ze veilig en streepvrij schoon.",
     metaTitle: "Zonnepanelen reinigen | Spoed Dak Service",
     metaDescription:
-      "Zonnepanelen laten reinigen in de regio Den Bosch voor maximale opbrengst. Veilig vanaf het dak, streepvrij schoon. Vaste prijs vooraf. Bel of WhatsApp Rens.",
+      "Zonnepanelen laten reinigen in de regio Den Bosch voor maximale opbrengst. Veilig vanaf het dak, streepvrij schoon. Vaste prijs vooraf.",
     icoon: "🔆",
     intro:
       "Stof, mos en vogelpoep op je panelen kosten zo enkele procenten opbrengst per jaar. Omdat ik toch op het dak sta, maak ik ze veilig en streepvrij schoon — en kijk meteen of de bevestiging en de pannen eronder nog goed zijn.",

@@ -23,7 +23,7 @@ export const ARTIKELEN: Artikel[] = [
     h1: "Daklekkage opsporen: zo vind je de oorzaak (zonder sloopwerk)",
     metaTitle: "Daklekkage opsporen — oorzaken & aanpak | Spoed Dak Service",
     metaDescription:
-      "Daklekkage opsporen? De natte plek zit zelden onder het echte lek. Lees de meest voorkomende oorzaken en hoe je een lek vindt zonder sloopwerk — uitleg van dakdekker Rens.",
+      "Daklekkage opsporen? De natte plek zit zelden onder het echte lek.",
     intro:
       "Een natte plek op je plafond betekent bijna nooit dat het lek daar precies boven zit. Water loopt via panlatten, isolatie en naden naar het laagste punt en komt daar pas naar binnen. Daarom is een lek opsporen vakwerk — hieronder hoe het werkt.",
     secties: [
@@ -51,7 +51,7 @@ export const ARTIKELEN: Artikel[] = [
     h1: "Dakpannen coaten of vervangen? Zo maak je de juiste keuze",
     metaTitle: "Dakpannen coaten of vervangen? | Spoed Dak Service",
     metaDescription:
-      "Dakpannen coaten of vervangen? Coaten is veel goedkoper en kan jaren schelen — mits je pannen nog goed zijn. Lees wanneer coaten loont en wanneer vervangen verstandiger is.",
+      "Dakpannen coaten of vervangen? Coaten is veel goedkoper en kan jaren schelen — mits je pannen nog goed zijn.",
     intro:
       "Een verweerd dak hoeft niet meteen vervangen te worden. Vaak kun je pannen die nog stevig zijn coaten — veel goedkoper, en je dak gaat er jaren mee verder. Maar coaten is niet altijd de juiste keuze. Hieronder het verschil.",
     secties: [
@@ -75,7 +75,7 @@ export const ARTIKELEN: Artikel[] = [
     h1: "Hoe vaak moet je je dakgoot reinigen — en wat kost het?",
     metaTitle: "Hoe vaak dakgoot reinigen + kosten | Spoed Dak Service",
     metaDescription:
-      "Hoe vaak moet je je dakgoot reinigen? Meestal 1× per jaar, vaker bij bomen in de buurt. Lees waarom het belangrijk is en wat goten reinigen kost (vanaf €25).",
+      "Hoe vaak moet je je dakgoot reinigen? Meestal 1× per jaar, vaker bij bomen in de buurt.",
     intro:
       "Volle goten lijken onschuldig, maar ze zijn de oorzaak van veel vochtschade: overlopend water, natte muren en op den duur lekkage. Hoe vaak moet je ze laten reinigen, en wat kost dat?",
     secties: [
@@ -101,7 +101,7 @@ export const ARTIKELEN: Artikel[] = [
     h1: "Wat kost het om een daklekkage te repareren? (eerlijke prijzen)",
     metaTitle: "Wat kost daklekkage repareren? Prijzen | Spoed Dak Service",
     metaDescription:
-      "Wat kost een daklekkage repareren? Een punctuele reparatie meestal €200–€500. Lees waar de prijs van afhangt, wat opsporen kost en waarom uitstel duur is — uitleg van dakdekker Rens.",
+      "Wat kost een daklekkage repareren? Een punctuele reparatie meestal €200–€500.",
     intro:
       "De eerste vraag bij een lek is bijna altijd: wat gaat me dit kosten? Eerlijk antwoord: dat hangt af van de oorzaak en hoe lang het al speelt. Hieronder zet ik de prijzen op een rij zoals ik ze ook aan de telefoon zou noemen — vaste prijs vooraf, geen verrassingen achteraf.",
     secties: [
@@ -134,7 +134,7 @@ export const ARTIKELEN: Artikel[] = [
     h1: "Verstopte regenpijp of lekkende dakgoot — oorzaken en oplossing",
     metaTitle: "Verstopte regenpijp & lekkende dakgoot | Spoed Dak Service",
     metaDescription:
-      "Verstopte regenpijp of lekkende dakgoot? Loopt het water langs je gevel, dan zit de afvoer dicht. Lees de oorzaken, gevolgen en hoe ik het oplos — in de regio Den Bosch.",
+      "Verstopte regenpijp of lekkende dakgoot? Loopt het water langs je gevel, dan zit de afvoer dicht.",
     intro:
       "Loopt het water bij regen over de goot of langs je gevel naar beneden, dan is de kans groot dat de regenpijp verstopt zit. Vervelend, maar zelden ingewikkeld. Hieronder waar het vandaan komt, waarom je het niet moet laten zitten, en hoe ik het verhelp.",
     secties: [
@@ -164,7 +164,7 @@ export const ARTIKELEN: Artikel[] = [
     h1: "Stormschade aan je dak: eerste hulp en je verzekering",
     metaTitle: "Stormschade dak — eerste hulp | Spoed Dak Service",
     metaDescription:
-      "Stormschade aan je dak? Weggewaaide pannen of een open dak laten regen binnen. Lees wat je direct moet doen, hoe je het bij je verzekering regelt en wanneer je moet bellen.",
+      "Stormschade aan je dak? Weggewaaide pannen of een open dak laten regen binnen.",
     intro:
       "Na een storm telt elk uur: losse of weggewaaide pannen en open plekken laten meteen regen binnen. Het belangrijkste is rust houden, je veiligheid voorop zetten en snel de schade laten beperken. Hieronder de stappen.",
     secties: [
@@ -193,7 +193,7 @@ export const ARTIKELEN: Artikel[] = [
     h1: "Dakonderhoud per seizoen: wat je wanneer moet controleren",
     metaTitle: "Dakonderhoud checklist per seizoen | Spoed Dak Service",
     metaDescription:
-      "Hoe vaak moet je je dak onderhouden? Twee keer per jaar een check (voorjaar + najaar) voorkomt dure schade. Lees de seizoenschecklist per daktype — uitleg van dakdekker Rens.",
+      "Hoe vaak moet je je dak onderhouden? Twee keer per jaar een check (voorjaar + najaar) voorkomt dure schade.",
     intro:
       "Een dak gaat tientallen jaren mee, maar alleen als je het een beetje bijhoudt. Twee korte checks per jaar — in het voorjaar en het najaar — voorkomen verreweg de meeste dure schade. Hieronder wat er per seizoen toe doet, en hoe vaak je een vakman nodig hebt.",
     secties: [
@@ -224,7 +224,7 @@ export const ARTIKELEN: Artikel[] = [
     h1: "Mos op je dak verwijderen: schadelijk of niet, en hoe wél?",
     metaTitle: "Mos op dak verwijderen — schadelijk? | Spoed Dak Service",
     metaDescription:
-      "Mos op je dak verwijderen? Mos houdt vocht vast en kan pannen laten scheuren bij vorst. Maar een hogedrukreiniger is riskant. Lees wanneer ontmossen loont en hoe het veilig moet.",
+      "Mos op je dak verwijderen? Mos houdt vocht vast en kan pannen laten scheuren bij vorst. Maar een hogedrukreiniger is riskant.",
     intro:
       "Een groen waas op je dak ziet er onschuldig uit, maar mos is niet alleen cosmetisch. Het houdt vocht vast en kan op den duur schade geven. Tegelijk kun je met de verkeerde aanpak (lees: een te harde hogedrukreiniger) méér kapotmaken dan je oplost. Hieronder hoe het zit.",
     secties: [
