@@ -17,19 +17,26 @@ import os, re, sys, json, time, base64, urllib.request, pathlib
 
 ENV = pathlib.Path.home() / "dak-flyer-tool" / ".env"
 OUT = pathlib.Path.home() / "spoeddakservice" / "public" / "img"
-MODELS = ["gemini-3-pro-image", "gemini-2.5-flash-image"]
+MODELS = ["gemini-3-pro-image", "gemini-2.5-flash-image"]  # 3pro eerst (meest realistisch)
 
 # Realisme-staart: maakt het een gewone telefoonfoto i.p.v. AI/stock/filmisch/drone.
-STIJL = (" Candid amateur snapshot taken on an iPhone at eye level (NOT a drone, not aerial, "
-         "not cinematic), handheld, slightly imperfect framing, natural overcast Dutch daylight, "
-         "true-to-life muted colors, mild smartphone HDR, realistic textures, a little sensor noise, "
-         "ordinary everyday moment, 4:3. Typical Dutch suburban brick house in Noord-Brabant.")
+STIJL = (" — a real ordinary photo taken on a phone by a roofer, casual unremarkable snapshot, "
+         "NOT staged, NOT a stock photo, NOT cinematic. "
+         "IMPORTANT camera position: shot from a place a person could really stand — on the roof, "
+         "on a ladder, or from the ground — a believable human eye-level vantage. NEVER an aerial, "
+         "top-down or drone angle, never a floating or impossible viewpoint. "
+         "NO phone, camera, selfie-arm or photographer anywhere in the frame. "
+         "Correct natural proportions and perspective, no wide-angle distortion. "
+         "Flat dull overcast light, slightly underexposed, everything in focus (deep focus, no bokeh, "
+         "no background blur), slight grain and jpeg compression, slightly crooked framing, mundane "
+         "real-world clutter, true muted desaturated colors, no glow, no HDR halos, no retouching. "
+         "Typical worn Dutch suburban house in Noord-Brabant under a grey sky. 4:3.")
 
 # bestandsnaam -> scène. Service-namen = dienst-slug (zodat ze 1-op-1 op de dienstpagina passen).
 SHOTS = {
-  "rens-aan-het-werk": "A roofer in dark work clothes seen from the side, kneeling on a pitched red-tile roof of a Dutch house, focused, holding a tool, face not clearly visible",
+  "rens-aan-het-werk": "A roofer in dark work clothes seen from behind from a distance, kneeling on a pitched red-tile roof of a Dutch house, working, face NOT visible, no close-up of hands",
   "goten-reinigen": "Close-up of a hand scooping wet leaves and moss out of a roof gutter on a Dutch house",
-  "goot-vol": "Close-up of a roof gutter completely full of wet brown leaves and green moss, slightly overflowing, on a Dutch brick house",
+  "goot-vol": "A roof gutter full of wet brown leaves and green moss on a Dutch brick house, photographed from a ladder right next to the gutter looking along it, natural close perspective",
   "goot-schoon": "Close-up of a clean empty roof gutter after cleaning, water draining freely, on a Dutch brick house",
   "daklekkage": "A damp brown water stain on a white interior ceiling near a corner, lived-in Dutch home",
   "dakreparatie": "Hands placing a new red roof tile into a pitched tile roof among intact tiles",
@@ -96,7 +103,7 @@ def main():
             print(f"  – {n} bestaat al, overslaan"); continue
         print(f"  → {n} ...", end=" ", flush=True)
         print(gen(api, n, SHOTS[n], ref))
-        time.sleep(2)  # vriendelijk voor rate-limits
+        time.sleep(8)  # vriendelijk voor rate-limits (gratis tier = lage RPM)
 
 if __name__ == "__main__":
     main()

@@ -61,7 +61,7 @@ const relArtikel = ({
         <a class="btn btn--primary" href={telHref}>Bel {SITE.telefoonWeergave}</a>
         <a class="btn btn--wa" href={waHref(`Hoi Rens, ik heb een vraag over ${d.titel.toLowerCase()}.`)}>WhatsApp Rens</a>
       </div>
-      {d.afbeelding && <img src={d.afbeelding} alt={`${d.titel} in de regio Den Bosch — Spoed Dak Service`} loading="lazy" width="900" height="600" style="margin-top:28px;border-radius:12px;width:100%;max-width:780px;height:auto;display:block;" />}
+      <img src={d.afbeelding ?? `/img/${d.slug}.jpg`} alt={`${d.titel} in de regio Den Bosch — Spoed Dak Service`} loading="lazy" width="900" height="600" style="margin-top:28px;border-radius:12px;width:100%;max-width:820px;height:auto;display:block;" />
     </div>
   </section>
 
