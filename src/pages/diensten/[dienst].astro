@@ -4,6 +4,7 @@ import { SITE, telHref, waHref } from "../../site.config.ts";
 import { DIENSTEN } from "../../data/diensten.ts";
 import { PLAATSEN, getPlaats } from "../../data/plaatsen.ts";
 import { MATRIX } from "../../data/matrix.ts";
+import DienstIcon from "../../components/DienstIcon.astro";
 
 export function getStaticPaths() {
   return DIENSTEN.map((d) => ({ params: { dienst: d.slug }, props: { d } }));
@@ -114,6 +115,7 @@ const matrixVoorDienst = MATRIX.filter((c) => c.dienst === d.slug)
       <div class="grid grid-3" style="margin-top:18px;">
         {andere.map((x) => (
           <a class="card" href={`/diensten/${x.slug}`}>
+            <DienstIcon slug={x.slug} />
             <h3>{x.titel}</h3>
             <p>{x.kort}</p>
           </a>
