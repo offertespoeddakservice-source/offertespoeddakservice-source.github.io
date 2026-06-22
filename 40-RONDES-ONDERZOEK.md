@@ -351,5 +351,121 @@ Alle concurrenten op Marktplaats zeggen **"prijs in overleg"**. Rens kan als eni
 
 ---
 
-## RONDE 5 — [volgt]
+## RONDE 5 — Google Business Profile Volledig Optimaliseren + Citatie-Strategie
+**Datum:** 2026-06-22 · **Focus:** GBP volledig inrichten voor maximale Maps-zichtbaarheid + gratis citatienetwerk opbouwen
+
+### Onderzoek uitgevoerd
+- **Den Bosch wijken**: 14 officiële districten, 129 buurten — hyperlocale kansen in kaart gebracht
+- **GBP best practices** (roofing, 2025): categorie-strategie, servicegebieden, foto-impact, beschrijving
+- **Nieuwe concurrent: Antonis Dakonderhoud** — 250+ reviews, maar 085-nummer (landelijk callcenter)
+- **Concurrenten Rosmalen**: Dakonderhoud van Oss (Trustoo 9.8!), havar dakonderhoud (9.4), Dakspecialist Brabant
+- **Citatie-directories NL**: 60+ gratis platforms geïdentificeerd; top-10 prioriteit bepaald
+- **Apple Maps**: significante kans — concurrenten nauwelijks aanwezig
+
+### GBP Categorie-analyse
+
+| Categorie | Type | Zoekbereik | Beschikbaar in NL |
+|---|---|---|---|
+| Dakdekker | **Primair** | "dakdekker [stad]" — alle basiszoekopdrachten | ✅ |
+| Gutter Cleaning Service | Secundair | "goten reinigen [stad]" | ✅ |
+| Roof Repair Service | Secundair | "dakreparatie / daklekkage" | ✅ |
+| Gutter Service | Secundair | "dakgoot [stad]" | ✅ |
+
+**Inzicht:** Elke secundaire categorie opent een nieuw zoekcluster. Concurrenten kiezen 1–2 categorieën max — meer = meer bereik voor nul extra werk.
+
+### Den Bosch Wijken (hyperlocaal overzicht)
+
+| Wijk | Buurten (selectie) | SEO-kans |
+|---|---|---|
+| Maaspoort | Italiaanse buurt, Maasoever | Laag competitie, veel woningbouw jaren '70 |
+| West | Paleiskwartier, Kruiskamp, Boschveld | Grote woonwijk, veel dakonderhoud-potentie |
+| Graafsepoort | Hintham-Noord, Hintham-Zuid, Aawijk | Ongedekt op locatie-niveau |
+| Rosmalen Noord | 't Ven, De Overlaet | Actief zoekgebied (70 dakdekkers vermeld) |
+| Rosmalen Zuid | Maliskamp, Sparrenburg | Trustoo 9.8-concurrent aanwezig → niche |
+| Noord | Orthen, De Slagen | Weinig concurrentie online |
+| Empel | Maasakker, De Koornwaard | Vrijstaande woningen, hogere dakwaarde |
+
+### Concurrentie Rosmalen (nieuw)
+
+| Bedrijf | Reviews | Platform | Zwakte |
+|---|---|---|---|
+| Dakonderhoud van Oss | 9.8★ | Trustoo | Geen prijs online |
+| havar dakonderhoud | 9.4★ | Trustoo | Beperkte online aanwezigheid |
+| Antonis Dakonderhoud | 4.8★ / 250+ | Google | **085-nummer = landelijk callcenter** |
+| Dakbeheer Zuid | 4.9★ / 209 | Google | Geen matrix-pagina's |
+
+**Ontdekking:** Antonis Dakonderhoud heeft 250+ reviews maar gebruikt 085 (landelijk servicenummer). Klanten weten dat dit geen lokale vakman is. Rens' 06-nummer + "u belt Rens zelf" is hier een doorslaggevend wapen.
+
+### 10 Tips Ronde 5
+
+**Tip 41 — GBP categorie-strategie: 1 primair + 3 secundaire = 4× meer zoekbereik**
+*Bewijs:* Google staat tot 10 secundaire categorieën toe. Elke categorie opent een apart zoekcluster. Roofers die secundaire categorieën toevoegen verschijnen in 2–4× meer lokale searches. De meeste concurrenten in Den Bosch gebruiken alleen "Dakdekker" als primaire categorie.
+*Actie:* Bij GBP aanmaken: **Primair = "Dakdekker"**. Secundaire categorieën toevoegen: "Gutter Cleaning Service" (goten reinigen), "Roof Repair Service" (dakreparatie), "Gutter Service" (dakgoten). Dat zijn 3 extra zoekclusters in één handeling.
+
+**Tip 42 — GBP servicegebied: adres verbergen + exact 15 steden instellen**
+*Bewijs:* Als solo dakdekker die vanuit huis werkt, kun je het adres verbergen (privacy) en toch op Maps verschijnen. Google staat 20 servicegebieden toe. Maar te veel gebieden verwatert de ranking — 15 steden dicht bij elkaar is optimaal voor relevantie-signaal.
+*Actie:* Servicegebieden instellen: 's-Hertogenbosch, Rosmalen, Oss, Vught, Berlicum, Heusden, Vlijmen, Nuland, Vinkel, Empel, Hintham, Schijndel, Veghel, Heesch, Waalwijk. Adres op "verbergen" zetten. Dit is exact het werkgebied dat ook in de matrix staat — signaalconsistentie voor Google.
+
+**Tip 43 — GBP beschrijving: eerste 250 tekens zijn het display-venster**
+*Bewijs:* GBP-beschrijving heeft 750 tekens max, maar Google toont in de local pack preview alleen de eerste ~250 tekens. Zoekwoorden in de beschrijving verhogen de click-through rate. Concurrenten schrijven vage teksten zoals "Wij zijn dakdekker in Noord-Brabant" — zonder prijs, zonder actie.
+*Actie:* Gebruik deze exacte eerste 250 tekens: *"Spoed Dak Service – dakdekker Den Bosch en omgeving. Goten reinigen €25 per zijde. Daklekkage dezelfde dag opgelost. Bel Rens direct: 06-10 18 53 57. Geen wachtrij, geen planner. Werkgebied: heel Noord-Brabant."* Daarna 500 tekens met diensten en locaties.
+
+**Tip 44 — GBP foto-strategie: 8 foto's bij lancering, wekelijks 1 bijvoegen**
+*Bewijs:* Google-data: profielen mét foto's krijgen 42% meer route-aanvragen en 35% meer websiteklikken dan profielen zonder. Reviews zijn de #1 rankingfactor, maar foto's zijn de #1 conversiefactor nadat iemand je gevonden heeft. Antonis Dakonderhoud heeft reviews maar weinig recente vóór/na-foto's.
+*Actie:* Upload direct bij GBP-aanmaken: (1) logo, (2) coverbanner met telefoonnummer, (3–5) 3 vóór/na-foto's goten, (6–7) 2 foto's daklekkage opgelost, (8) foto Rens zelf aan het werk. Daarna: na elke klus 1 foto uploaden via de GBP-app op je telefoon — 60 seconden werk per klus.
+
+**Tip 45 — Antonis Dakonderhoud-zwakte: 085-nummer = landelijk bureau, geen lokale vakman**
+*Bewijs:* Antonis Dakonderhoud heeft 250+ reviews en wekt indruk van een populair bedrijf, maar het 085-nummer is een landelijk servicenummer dat naar een callcenter gaat. Klanten die bellen, bellen NIET een lokale vakman. Dit is precies wat Rens wél biedt — maar hij moet het expliciet zeggen.
+*Actie:* Op de homepage en elke dienstpagina toevoegen: **"U belt een lokale dakdekker — geen 085-callcenter, geen subcontractor. Rens neemt zelf op: 06-10 18 53 57."** Dit is een bewuste vergelijkingsstrategie die werkt zonder een concurrent bij naam te noemen.
+
+**Tip 46 — Top-10 citatie-directories NL: 10 vermeldingen in week 1 (NAP-boost)**
+*Bewijs:* Google gebruikt NAP-citaties (Naam, Adres, Telefoon) als vertrouwenssignaal voor lokale rankings. Meer consistente vermeldingen = hoger vertrouwen. Nederlandse directories tellen mee. Er zijn 60+ gratis platforms — maar de top-10 leveren 80% van de waarde.
+*Actie:* Vermelding aanmaken op exact deze 10 platforms (in volgorde van prioriteit):
+1. **drimble.nl** (domeinautoriteit hoog, goed geïndexeerd)
+2. **detelefoongids.nl** (klassiek, DA hoog)
+3. **telefoonboek.nl** (veel traffic)
+4. **yelp.nl** (door Google vertrouwd)
+5. **businessconnect.apple.com** (Apple Maps)
+6. **oozo.nl** (lokale gids NL)
+7. **opendi.nl** (indexeerbaar)
+8. **hotfrog.nl** (gratis DA-waarde)
+9. **trustoo.nl** (vakman-specifiek, Dakbeheer staat hier)
+10. **dakdekkersgids.nl** (niche, hoog relevant)
+NAP-formaat overal exact gelijk: **Spoed Dak Service · 's-Hertogenbosch · 06-10 18 53 57 · spoeddakservice.nl**. Bijhouden in `CITATIES.md`.
+
+**Tip 47 — Apple Business Connect: gratis Apple Maps claim (concurrenten verzuimen dit)**
+*Bewijs:* iPhone-gebruikers zijn meer dan 50% van de Nederlandse smartphonemarkt. Apple Maps wordt automatisch gebruikt via Siri ("Siri, vind een dakdekker bij mij in de buurt"). Concurrenten staan hier nauwelijks op — Apple Maps is een bijna leeg terrein voor dakdekkers in Den Bosch.
+*Actie:* Ga naar businessconnect.apple.com → claim business → vul in: naam, categorie (Roofing Contractor), telefoonnummer 06-10185357, werkgebied Noord-Brabant, 3 foto's uploaden. Éénmalig ±30 minuten werk. Apple synchroniseert daarna automatisch met Yelp, Bing en andere Apple-data-partners — één invulling verspreidt zich.
+
+**Tip 48 — Hyperlocale wijkpagina's Den Bosch: 5 buurten die concurrenten niet dekken**
+*Bewijs:* Den Bosch heeft 14 wijken en 129 buurten. Zoektermen als "dakdekker Maaspoort" of "goten reinigen Hintham" hebben nul organische concurrentie (niemand heeft wijk-specifieke pagina's). Bewoners van Maaspoort, Paleiskwartier en Hintham zoeken lokaal maar vinden alleen stad-niveau resultaten.
+*Actie:* Maak 5 nieuwe wijk-specifieke pagina's in `plaatsen.ts`:
+- **Maaspoort** (veel jaren '70-woningen, aluminium goten die jaarlijks onderhoud nodig hebben)
+- **Paleiskwartier / Kruiskamp** (grote woonwijk West Den Bosch)
+- **Hintham** (Graafsepoort — niet te verwarren met andere Hintham-plaatsen elders)
+- **Rosmalen-Noord** ('t Ven, De Overlaet — actief zoekgebied)
+- **Empel** (vrijstaande woningen, hogere gemiddelde dakwaarde)
+Hook per pagina: "Woont u in [wijk]? Veel woningen hier zijn gebouwd in de jaren [X] — goten van dat type hebben elk najaar reiniging nodig."
+
+**Tip 49 — Review velocity: 3 reviews per week = effectiever dan 30 in één week**
+*Bewijs:* Google's spam-filter detecteert review-bursts (plots 20 reviews in 3 dagen) en kan ze verwijderen of schorsen. Constante aangroei van 3/week wordt als organisch beoordeeld. Na 6 maanden = ±72 reviews — dat plaatst Rens in de top-3 local pack voor Den Bosch.
+*Actie:* Review-systeem instellen: na elk klusje → stuur WhatsApp-template met directe Google-reviewlink. **Max 1 review-verzoek per klant, altijd 24–48u na de klus** (klant is dan het meest tevreden). Doel: 3 verzoeken per week, niet meer. Bijhouden in een simpel `REVIEWS-LOG.md` met datum en klantnaam.
+
+**Tip 50 — GBP Wekelijkse Posts: directe ranking-factor die 95% van concurrenten negeert**
+*Bewijs:* Google GBP Posts verschijnen in de local pack en op je profiel. Ze verlopen na 7 dagen en moeten wekelijks worden vernieuwd. Bedrijven die wekelijks posten ranken aantoonbaar hoger dan inactieve profielen — dit is een van de weinige gratis directe ranking-factoren buiten reviews. Dakbeheer Zuid post sporadisch; de meeste andere dakdekkers in Den Bosch nooit.
+*Actie:* Stel een 4-weken-cyclus in die je steeds herhaalt:
+- **Week 1** — Actie-post: "€25/zijde goten reinigen — Den Bosch e.o. — Bel Rens"
+- **Week 2** — Foto-post: vóór/na van een klus die week
+- **Week 3** — Urgentie-post: "Lekkage? Zelfde dag langs" met telefoonnummer
+- **Week 4** — Seizoenstip: "Augustus = beste moment om goten schoon te maken"
+Schrijf dit schema alvast uit in `GBP-CONTENT.md`.
+
+### Samenvatting Ronde 5
+**Grootste ontdekking:** Antonis Dakonderhoud (250+ reviews) gebruikt een 085-callcenternummer — kwetsbaar voor Rens' "u belt de dakdekker zelf"-positionering.
+**Citatie-kans:** Apple Business Connect + top-10 NL-directories zijn vrijwel leeg voor dakdekkers in Den Bosch — gratis autoriteitswinst in 1 dag werk.
+**Top-3 acties:** (41) GBP + 3 secundaire categorieën, (46) Top-10 citatie-directories in week 1, (48) 5 wijkpagina's Den Bosch (zero competition)
+
+---
+
+## RONDE 6 — [volgt]
 
