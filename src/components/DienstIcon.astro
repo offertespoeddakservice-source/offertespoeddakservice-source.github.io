@@ -1,0 +1,22 @@
+---
+interface Props { slug: string; }
+const { slug } = Astro.props;
+const icons: Record<string, string> = {
+  "goten-reinigen": '<path d="M4 8h16v4a3 3 0 0 1-3 3H7a3 3 0 0 1-3-3z"/><path d="M12 18v3"/>',
+  "dakgoot-vervangen": '<path d="M4 8h16v4a3 3 0 0 1-3 3H7a3 3 0 0 1-3-3z"/><path d="M9 21l3-3 3 3"/>',
+  "daklekkage": '<path d="M12 3c3 4 5 7 5 10a5 5 0 0 1-10 0c0-3 2-6 5-10z"/>',
+  "dakreparatie": '<path d="M4 20l6-6"/><path d="M14 4l6 6-3 1-1 3-6-6 1-3z"/>',
+  "platte-daken": '<path d="M4 8l8-3 8 3-8 3z"/><path d="M4 13l8 3 8-3"/><path d="M4 18l8 3 8-3"/>',
+  "stormschade": '<path d="M7 14a4 4 0 0 1 1-8 5 5 0 0 1 9 1 3 3 0 0 1 1 6"/><path d="M12 12l-2 4h3l-2 5"/>',
+  "dakcoating": '<rect x="3" y="5" width="12" height="5" rx="1"/><path d="M15 7h4v3h-5"/><path d="M12 10v4a2 2 0 0 1-2 2 2 2 0 0 0-2 2v2"/>',
+  "dak-reinigen": '<path d="M12 3l1.7 5L19 9.7 13.7 11.4 12 17l-1.7-5.6L5 9.7 10.3 8z"/><path d="M18 16l.7 2 2 .7-2 .7-.7 2-.7-2-2-.7 2-.7z"/>',
+  "dakpannen-vervangen": '<path d="M3 16a3 3 0 0 1 6 0"/><path d="M9 16a3 3 0 0 1 6 0"/><path d="M15 16a3 3 0 0 1 6 0"/><path d="M5 11a3 3 0 0 1 6 0"/><path d="M11 11a3 3 0 0 1 6 0"/>',
+  "schoorsteen-vegen": '<path d="M8 21V8h8v13"/><path d="M16 8V4h3v4"/><path d="M11 8V5"/>',
+  "dakkapel-reinigen": '<path d="M3 11l9-6 9 6"/><path d="M6 11v9h12v-9"/><rect x="10" y="14" width="4" height="6"/>',
+  "zonnepanelen-reinigen": '<circle cx="12" cy="12" r="3.5"/><path d="M12 3v2.5M12 18.5V21M3 12h2.5M18.5 12H21M5.6 5.6l1.8 1.8M16.6 16.6l1.8 1.8M18.4 5.6l-1.8 1.8M7.4 16.6l-1.8 1.8"/>',
+  "vogelwering": '<path d="M3 13c3-3 6-1 8 1 1.5-4 4.5-6 9-5-3 .5-4.5 3.5-9 5.5C8 16 5 15 3 13z"/>',
+  "dakrenovatie": '<path d="M3 11l9-6 9 6"/><path d="M6 11v9h12v-9"/><path d="M9.5 16.5a2.5 2.5 0 1 0 2.5-2.5M9.5 16.5v-2M9.5 16.5h2"/>',
+};
+const d = icons[slug] || icons["dakreparatie"];
+---
+<svg class="dienst-icon" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" set:html={d}></svg>

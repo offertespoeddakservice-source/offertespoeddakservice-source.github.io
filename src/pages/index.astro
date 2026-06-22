@@ -3,6 +3,7 @@ import Base from "../layouts/Base.astro";
 import { SITE, telHref, waHref } from "../site.config.ts";
 import { DIENSTEN } from "../data/diensten.ts";
 import { PLAATSEN } from "../data/plaatsen.ts";
+import DienstIcon from "../components/DienstIcon.astro";
 import { ARTIKELEN } from "../data/artikelen.ts";
 
 const score = SITE.reviews.score.toString().replace(".", ",");
@@ -65,7 +66,7 @@ const faqSchema = {
       <div class="grid grid-3" style="margin-top:26px;">
         {DIENSTEN.map((d, i) => (
           <a class="card" href={`/diensten/${d.slug}`}>
-            <span class="num">{(i + 1).toString().padStart(2, "0")}</span>
+            <DienstIcon slug={d.slug} />
             <h3 style="margin-top:6px;">{d.titel}</h3>
             <p>{d.kort}</p>
             {d.vanafPrijs && <span class="price">{d.vanafPrijs}</span>}

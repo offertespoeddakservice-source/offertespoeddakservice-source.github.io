@@ -4,6 +4,7 @@ import { SITE, telHref, waHref } from "../../site.config.ts";
 import { PLAATSEN } from "../../data/plaatsen.ts";
 import { DIENSTEN, getDienst } from "../../data/diensten.ts";
 import { MATRIX } from "../../data/matrix.ts";
+import DienstIcon from "../../components/DienstIcon.astro";
 
 export function getStaticPaths() {
   return PLAATSEN.map((p) => ({ params: { plaats: p.slug }, props: { p } }));
@@ -81,6 +82,7 @@ const schema = [
       <div class="grid grid-3" style="margin-top:18px;">
         {DIENSTEN.map((d) => (
           <a class="card" href={`/diensten/${d.slug}`}>
+            <DienstIcon slug={d.slug} />
             <h3>{d.titel}</h3>
             <p>{d.kort}</p>
             {d.vanafPrijs && <span class="price">{d.vanafPrijs}</span>}

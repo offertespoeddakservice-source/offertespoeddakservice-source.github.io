@@ -225,3 +225,5 @@ a:focus-visible, button:focus-visible, summary:focus-visible, input:focus-visibl
 
 /* Toegankelijkheid: respecteer reduced-motion */
 @media (prefers-reduced-motion: reduce){ html{scroll-behavior:auto} *,*::before,*::after{animation-duration:.001ms!important;transition-duration:.001ms!important} }
+
+.dienst-icon { color: var(--orange); display: block; }

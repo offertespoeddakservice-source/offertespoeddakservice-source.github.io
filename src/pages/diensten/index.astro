@@ -2,6 +2,7 @@
 import Base from "../../layouts/Base.astro";
 import { SITE } from "../../site.config.ts";
 import { DIENSTEN } from "../../data/diensten.ts";
+import DienstIcon from "../../components/DienstIcon.astro";
 ---
 
 <Base
@@ -21,6 +22,7 @@ import { DIENSTEN } from "../../data/diensten.ts";
       <div class="grid grid-3">
         {DIENSTEN.map((d) => (
           <a class="card" href={`/diensten/${d.slug}`}>
+            <DienstIcon slug={d.slug} />
             <h3>{d.titel}</h3>
             <p>{d.kort}</p>
             {d.vanafPrijs && <span class="price">{d.vanafPrijs}</span>}
