@@ -18,6 +18,7 @@ import { ARTIKELEN } from "../../data/artikelen.ts";
   </section>
   <section class="section">
     <div class="wrap">
+      <h2 class="sr-only">Alle artikelen</h2>
       <div class="grid grid-3">
         {ARTIKELEN.map((a) => (
           <a class="card" href={`/kennisbank/${a.slug}`}>

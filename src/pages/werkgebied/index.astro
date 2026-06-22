@@ -18,6 +18,7 @@ import { PLAATSEN } from "../../data/plaatsen.ts";
   </section>
   <section class="section">
     <div class="wrap">
+      <h2 class="sr-only">Plaatsen in mijn werkgebied</h2>
       <div class="grid grid-3">
         {PLAATSEN.map((p) => (
           <a class="card" href={`/werkgebied/${p.slug}`}>
