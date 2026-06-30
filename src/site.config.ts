@@ -8,7 +8,7 @@
 
 export const SITE = {
   // Definitieve domeinnaam (advies: spoeddakservice.nl). Gebruikt voor sitemap + canonical.
-  url: "https://spoeddakservice.nl", // TODO: bevestig domein
+  url: "https://offertespoeddakservice-source.github.io", // GitHub Pages (later: eigen domein spoeddakservice.nl)
 
   bedrijfsnaam: "Spoed Dak Service",
   eigenaar: "Rens",
