@@ -263,12 +263,12 @@ export const ARTIKELEN: Artikel[] = [
         "Bij spoed buiten kantooruren komt er een toeslag bij — die hoor je vooraf, nooit als verrassing achteraf.",
       ] },
       { kop: "Waarom een vaste prijs vooraf?", tekst: [
-        "Elk dak is anders. Wil je eerst weten hoe je dak ervoor staat, dan kan dat via de Dak-APK (vanaf €49): een compleet keuringsrapport met foto's, binnen een dagdeel. Weet je al wat er moet gebeuren, dan geef ik een vaste prijs vóór ik begin. Geen meerwerk-verrassingen — dat is het verschil met een callcenter dat een richtbedrag noemt en achteraf bijplust.",
+        "Elk dak is anders. Wil je eerst weten hoe je dak ervoor staat, dan kan dat via de Dak-APK (€49): een compleet keuringsrapport met foto's, binnen een dagdeel. Weet je al wat er moet gebeuren, dan geef ik een vaste prijs vóór ik begin. Geen meerwerk-verrassingen — dat is het verschil met een callcenter dat een richtbedrag noemt en achteraf bijplust.",
       ] },
     ],
     dienst: { label: "Bekijk alle prijzen", href: "/prijzen" },
     faq: [
-      { v: "Rekenen jullie voorrijkosten?", a: "Voor een keuring wel: dat is de Dak-APK (vanaf €49). Weet je al wat er moet gebeuren? Dan hoor je de vaste prijs vooraf, zonder verrassingen." },
+      { v: "Rekenen jullie voorrijkosten?", a: "Voor een keuring wel: dat is de Dak-APK (€49). Weet je al wat er moet gebeuren? Dan hoor je de vaste prijs vooraf, zonder verrassingen." },
       { v: "Krijg ik de prijs op papier?", a: "Je hoort de vaste prijs vooraf en krijgt die desgewenst op de offerte. Geen verrassingen achteraf." },
     ],
   },
@@ -317,7 +317,7 @@ export const ARTIKELEN: Artikel[] = [
         "Een dak vervangen is een flinke investering. Coaten kost daar een fractie van en kan, mits de pannen nog goed zijn, hetzelfde resultaat geven: een strak, beschermd dak. Daarom begin ik altijd met de vraag: kán het met coaten, of is vervangen echt nodig?",
       ] },
       { kop: "Wat kost het?", tekst: [
-        "De prijs hangt af van het oppervlak en de staat van het dak. Wil je eerst weten hoe je dak ervoor staat, dan kan dat via de Dak-APK (vanaf €49); daarna geef ik een vaste prijs. Eerst reinigen, dan coaten — netjes en in één keer goed.",
+        "De prijs hangt af van het oppervlak en de staat van het dak. Wil je eerst weten hoe je dak ervoor staat, dan kan dat via de Dak-APK (€49); daarna geef ik een vaste prijs. Eerst reinigen, dan coaten — netjes en in één keer goed.",
       ] },
     ],
     dienst: { label: "Bekijk: dak coaten", href: "/diensten/dakcoating" },

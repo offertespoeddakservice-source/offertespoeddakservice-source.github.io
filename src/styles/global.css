@@ -168,6 +168,9 @@ a.card:hover { transform: translateY(-3px); box-shadow: 0 16px 34px rgba(11,29,5
 .prose h2 { margin-top: 34px; }
 
 /* Form */
+.split { display: grid; grid-template-columns: 1fr .8fr; gap: 40px; align-items: start; }
+@media (max-width: 860px) { .split { grid-template-columns: 1fr; } }
+
 .form { display: grid; gap: 14px; max-width: 520px; }
 .form label { font-weight: 700; color: var(--navy); display: grid; gap: 6px; }
 .form input, .form textarea, .form select { font: inherit; padding: 13px 14px; border: 1px solid var(--line-cool); border-radius: 8px; width: 100%; background: #fff; }
