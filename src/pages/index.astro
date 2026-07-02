@@ -10,7 +10,7 @@ const score = SITE.reviews.score.toString().replace(".", ",");
 const googleReviewLink = SITE.reviewLink && !SITE.reviewLink.includes("JOUW_PLACE_ID") ? SITE.reviewLink : null;
 
 const faq = [
-  { v: "Wat kost het om iemand te laten komen?", a: "Geen voorrijkosten en een gratis, vrijblijvende inspectie. Goten reinigen begint vanaf €25 per kant (€40 beide), en bij elke klus hoor je vooraf de vaste prijs." },
+  { v: "Wat kost het om iemand te laten komen?", a: "Wil je weten hoe je dak ervoor staat? Dat doe ik via de Dak-APK: binnen een dagdeel een compleet keuringsrapport met foto's, voor €49. Weet je al wat er moet gebeuren — bijvoorbeeld goten reinigen vanaf €25? Dan hoor je gewoon de vaste prijs vooraf." },
   { v: "Hoe snel kun je komen?", a: "Bij spoed en lekkage vaak nog dezelfde dag in de regio Den Bosch. Bel of WhatsApp me, dan hoor je meteen wat kan." },
   { v: "Werk je ook bij mij in de buurt?", a: `Ik werk in ${SITE.regioOmschrijving}. Staat je plaats er niet bij? Bel gerust, vaak kan ik er toch bij.` },
   { v: "Krijg ik garantie?", a: "Ja, op het uitgevoerde werk krijg je garantie. Ik leg vooraf duidelijk uit wat ik doe en wat het kost." },
@@ -46,14 +46,15 @@ const faqSchema = {
         <span class="per">per kant<br />€40 beide</span>
       </div>
       <div class="hero-checks">
-        <span><span class="v">✓</span> Gratis dakinspectie</span>
-        <span><span class="v">✓</span> Geen voorrijkosten</span>
+        <span><span class="v">✓</span> Dak-APK vanaf €49</span>
+        <span><span class="v">✓</span> Vaste prijs, geen verrassingen</span>
         <span><span class="v">✓</span> Garantie op het werk</span>
         <span><span class="v">✓</span> Vaak dezelfde dag bij spoed</span>
       </div>
       <div class="btn-row">
         <a class="btn btn--primary" href={telHref}>Bel {SITE.telefoonWeergave}</a>
         <a class="btn btn--wa" href={waHref()}>WhatsApp Rens</a>
+        <a class="btn btn--ghost" href="/dak-apk">Bekijk de Dak-APK</a>
       </div>
     </div>
   </section>
@@ -89,7 +90,7 @@ const faqSchema = {
         </div>
         <div class="card">
           <h3>Eerlijke prijs vooraf</h3>
-          <p>Vaste prijs voordat ik begin. Geen voorrijkosten, geen verrassingen achteraf.</p>
+          <p>Vaste prijs voordat ik aan een klus begin, geen verrassingen achteraf. Wil je eerst weten hoe je dak ervoor staat? Dat kan via de Dak-APK, vanaf €49.</p>
         </div>
         <div class="card">
           <h3>Uit de regio</h3>
@@ -124,7 +125,7 @@ const faqSchema = {
       <div>
         <p class="eyebrow">Plan slim</p>
         <h2>Ik ben binnenkort bij jou in de wijk</h2>
-        <p class="lead">Plan je klus als ik tóch in de buurt ben en je betaalt <strong>geen voorrijkosten</strong>. Bel of app even — dan zeg ik wanneer ik in jouw straat zit.</p>
+        <p class="lead">Plan je klus als ik tóch in de buurt ben, dan is dat voor jou het handigst gepland. Bel of app even — dan zeg ik wanneer ik in jouw straat zit.</p>
         <div class="btn-row" style="margin-top:18px;">
           <a class="btn btn--primary" href={telHref}>Bel {SITE.telefoonWeergave}</a>
           <a class="btn btn--outline" href="/werkgebied">Bekijk werkgebied</a>
@@ -163,7 +164,7 @@ const faqSchema = {
       <h2>Van belletje tot klaar dak — in 4 stappen</h2>
       <div class="stappen">
         <div class="stap"><div class="n">1</div><h3>Bel of app</h3><p>Je krijgt mij direct aan de lijn. Vertel kort wat er speelt.</p></div>
-        <div class="stap"><div class="n">2</div><h3>Gratis inspectie</h3><p>Ik kom langs, kijk op het dak en zeg eerlijk wat nodig is.</p></div>
+        <div class="stap"><div class="n">2</div><h3>Dak-APK of meteen aan de slag</h3><p>Twijfel je? Ik kom langs met de Dak-APK (€49) en je krijgt een compleet rapport. Weet je het al? Dan spreken we gelijk de vaste prijs af.</p></div>
         <div class="stap"><div class="n">3</div><h3>Vaste prijs vooraf</h3><p>Je hoort de prijs vóór ik begin. Geen voorrijkosten, geen verrassingen.</p></div>
         <div class="stap"><div class="n">4</div><h3>Netjes gedaan</h3><p>Ik voer het werk uit, ruim op en geef garantie op wat ik doe.</p></div>
       </div>

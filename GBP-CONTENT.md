@@ -13,7 +13,7 @@ Goten reinigen vanaf €25 per kant. Ik maak ze leeg, spoel de afvoer door en ki
 Herfstblad in de goten zorgt voor overlopend water en vochtige muren. Laat ze leegmaken vóór de eerste herfststorm — dan voorkom je lekkage in de winter. Ik kom langs in de regio Den Bosch.
 
 **3 · Seizoen — voorjaar (plaatsen mrt–apr)**
-Winter gehad? Goed moment voor een gratis dakcheck: losse pannen, lood bij de schoorsteen en de goten na een seizoen blad. Eerlijk advies, geen verplichtingen.
+Winter gehad? Goed moment voor een Dak-APK: losse pannen, lood bij de schoorsteen en de goten na een seizoen blad, compleet in kaart binnen een dagdeel. Vanaf €49, eerlijk advies, geen verplichtingen achteraf.
 
 **4 · Storm (plaatsen direct ná een storm)**
 Stormschade? Weggewaaide pannen of een lek na de wind? Ik kom snel langs in de regio Den Bosch: eerst de schade beperken, dan netjes herstellen — met foto's voor je verzekering. Bel 06 10 18 53 57.

@@ -8,17 +8,17 @@ const rijen = [
   { dienst: "Dakkapel poetsen", prijs: "vanaf €70", uitleg: "Reinigen plus controle van kit en aansluitingen." },
   { dienst: "Zonnepanelen reinigen", prijs: "vanaf €10 p/paneel", uitleg: "Streepvrij schoon voor maximale opbrengst." },
   { dienst: "Dak reinigen / mos", prijs: "vaste prijs na inspectie", uitleg: "Afhankelijk van oppervlak en vervuiling." },
-  { dienst: "Dak / pannen coaten", prijs: "vaste prijs na inspectie", uitleg: "Veel goedkoper dan vervangen — prijs na een gratis blik." },
+  { dienst: "Dak / pannen coaten", prijs: "vaste prijs na inspectie", uitleg: "Veel goedkoper dan vervangen — prijs na een Dak-APK of bezoek." },
   { dienst: "Dakgoot / pannen vervangen", prijs: "vaste prijs na inspectie", uitleg: "Materiaal + werk, altijd vooraf afgesproken." },
   { dienst: "Uurtarief dakwerk", prijs: "€35 – €50 p/u", uitleg: "Voor kleine reparaties en losse klussen." },
   { dienst: "Daklekkage (punctueel)", prijs: "€200 – €500", uitleg: "Eén lek opsporen en dichten, incl. materiaal." },
   { dienst: "Spoed buiten kantooruren", prijs: "+20 – 30%", uitleg: "Toeslag voor 's avonds, weekend en feestdagen." },
-  { dienst: "Inspectie & offerte", prijs: "gratis", uitleg: "Vrijblijvend, en geen voorrijkosten." },
+  { dienst: "Dak-APK (keuring + fotorapport)", prijs: "vanaf €49", uitleg: "Compleet keuringsrapport binnen een dagdeel — zie de Dak-APK-pagina." },
 ];
 
 const faq = [
-  { v: "Waarom geen vaste prijslijst voor alles?", a: "Elk dak is anders. Daarom kom ik eerst kijken en geef je een vaste prijs vóórdat ik begin — dan weet je precies waar je aan toe bent." },
-  { v: "Reken je voorrijkosten?", a: "Nee. De inspectie en offerte zijn gratis en vrijblijvend." },
+  { v: "Waarom geen vaste prijslijst voor alles?", a: "Elk dak is anders. Daarom kom ik eerst kijken (bijvoorbeeld via de Dak-APK) en geef je een vaste prijs vóórdat ik aan een klus begin — dan weet je precies waar je aan toe bent." },
+  { v: "Reken je voorrijkosten?", a: "Voor een keuring wel: dat is de Dak-APK (vanaf €49), inclusief een volledig fotorapport. Weet je al wat er moet gebeuren? Dan hoor je de vaste prijs vooraf, zonder verrassingen." },
 ];
 const faqSchema = {
   "@context": "https://schema.org",
@@ -62,7 +62,7 @@ const faqSchema = {
         </tbody>
       </table>
       <p class="notice" style="margin-top:20px;">
-        Richtprijzen op basis van marktgemiddelden 2025/26. Jouw vaste prijs hoor je na een gratis inspectie.
+        Richtprijzen op basis van marktgemiddelden 2025/26. Jouw vaste prijs hoor je na een bezoek of een <a href="/dak-apk">Dak-APK</a>.
       </p>
       <div class="btn-row" style="margin-top:22px;">
         <a class="btn btn--primary" href={telHref}>Bel voor een prijs</a>

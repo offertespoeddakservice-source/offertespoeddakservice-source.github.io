@@ -54,6 +54,7 @@ export function waHref(bericht = "Hoi Rens, ik heb een vraag over mijn dak."): s
 
 /** Hoofd-navigatie */
 export const NAV = [
+  { label: "Dak-APK", href: "/dak-apk" },
   { label: "Diensten", href: "/diensten" },
   { label: "Werkgebied", href: "/werkgebied" },
   { label: "Prijzen", href: "/prijzen" },

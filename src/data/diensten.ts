@@ -23,7 +23,7 @@ export const DIENSTEN: Dienst[] = [
     slug: "goten-reinigen",
     titel: "Goten reinigen",
     h1: "Dakgoot reinigen vanaf €25 — snel, netjes en met eerlijk advies",
-    kort: "Verstopte of volle goten leeg, plus een gratis blik of er meer speelt.",
+    kort: "Verstopte of volle goten leeg — en ik meld het eerlijk als er meer speelt op je dak.",
     metaTitle: "Dakgoot reinigen vanaf €25 | Spoed Dak Service",
     metaDescription:
       "Goten laten reinigen vanaf €25 in de regio Den Bosch. Snel langs, netjes werk en eerlijk advies over je dak. Bel of WhatsApp Rens.",
