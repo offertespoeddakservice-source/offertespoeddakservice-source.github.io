@@ -46,7 +46,7 @@ const schema = faqSchema ? [articleSchema, faqSchema] : articleSchema;
         {a.secties.map((s) => (
           <>
             <h2>{s.kop}</h2>
-            {s.tekst.map((p) => <p>{p}</p>)}
+            {s.tekst.map((p) => <p set:html={p} />)}
           </>
         ))}
         <a class="btn btn--primary" href={a.dienst.href} style="margin-top:8px;">{a.dienst.label}</a>

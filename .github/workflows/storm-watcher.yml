@@ -1,0 +1,16 @@
+name: Storm Watcher
+
+on:
+  schedule:
+    - cron: '0 5,11,17,23 * * *'   # UTC = CET/CEST -1..-2 uur, ±elke 6 uur
+  workflow_dispatch:                 # ook handmatig te starten (Actions-tab → Run workflow)
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run storm watcher
+        env:
+          GMAIL_APP_PASSWORD: ${{ secrets.STORM_GMAIL_APP_PASSWORD }}
+        run: python3 scripts/storm_watcher.py

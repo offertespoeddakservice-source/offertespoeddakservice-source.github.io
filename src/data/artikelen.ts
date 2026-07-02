@@ -27,6 +27,10 @@ export const ARTIKELEN: Artikel[] = [
     intro:
       "Een natte plek op je plafond betekent bijna nooit dat het lek daar precies boven zit. Water loopt via panlatten, isolatie en naden naar het laagste punt en komt daar pas naar binnen. Daarom is een lek opsporen vakwerk — hieronder hoe het werkt.",
     secties: [
+      { kop: "Lekkage nu? Eerst dit doen", tekst: [
+        "Zie je een natte plek op het plafond? Zet eerst een emmer neer en maak een foto van de plek — dat helpt bij de beoordeling en later bij je verzekering. Haal spullen weg die vochtgevoelig zijn en ga niet zelf het dak op.",
+        'Kwam de lekkage tijdens of vlak na een storm, met losse pannen of zichtbare schade van buiten? Volg dan de aparte stappen in <a href="/kennisbank/stormschade-eerste-hulp">stormschade: eerste hulp en je verzekering</a> — daar staat ook wat je aan je verzekering moet doorgeven. Is er geen storm geweest en sijpelt het water al langer, dan lees je hieronder waar het vandaan komt.',
+      ] },
       { kop: "De meest voorkomende oorzaken", tekst: [
         "Een gebroken of verschoven dakpan is veruit de nummer één. Daarna: gescheurd of losgelaten lood bij de schoorsteen, dakkapel of het dakraam, een verstopte of overlopende goot, en versleten kitwerk of naden bij een plat dak.",
         "Bij platte daken zit het lek vaak bij een naad of opstand, terwijl het water verderop naar binnen komt — dat maakt opsporen lastiger.",
@@ -170,6 +174,7 @@ export const ARTIKELEN: Artikel[] = [
     secties: [
       { kop: "Eerst: je veiligheid", tekst: [
         "Ga niet zelf het dak op tijdens of vlak na een storm — nat, winderig en met losse delen is dat te gevaarlijk. Blijf uit de buurt van loshangende pannen of delen die naar beneden kunnen komen, ook op de grond.",
+        'Sijpelt er water naar binnen zonder dat er een storm is geweest, dan zit de oorzaak waarschijnlijk elders (losse pan, lood, verstopte goot). Kijk dan bij <a href="/kennisbank/daklekkage-opsporen">daklekkage opsporen</a> voor de eerste stappen en de meest voorkomende oorzaken.',
       ] },
       { kop: "Maak foto's en beperk de schade", tekst: [
         "Maak van een veilige plek foto's van de schade; die heb je straks nodig voor je verzekering. Vang binnen lekwater op en zet spullen droog. Het écht afdekken van het dak laat je aan een vakman over.",
@@ -245,6 +250,40 @@ export const ARTIKELEN: Artikel[] = [
     ],
   },
   {
+    slug: "hoe-herken-je-een-betrouwbare-dakdekker",
+    titel: "Betrouwbare dakdekker herkennen",
+    h1: "Hoe herken je een betrouwbare dakdekker (en voorkom je oplichting)?",
+    metaTitle: "Betrouwbare dakdekker herkennen | Spoed Dak Service",
+    metaDescription:
+      "Hoe herken je een betrouwbare dakdekker? KvK-inschrijving, schriftelijke offerte, verzekering en garantie, meerdere offertes vergelijken — de checklist.",
+    intro:
+      "KvK-inschrijving, een schriftelijke offerte, verzekering en garantie, meerdere offertes vergelijken — dit zijn de punten waar je op moet letten. Hieronder leg ik per punt uit waarom, en hoe ik dat zelf regel.",
+    secties: [
+      { kop: "Waarom dit een reëel risico is", tekst: [
+        "Branchevereniging Vebidak meldt zelf tientallen keren per jaar fraude in de dakendbranche en noemt dat \"het topje van de ijsberg\" — het gaat dus niet om een enkel incident. Eind 2025 deed de Hoge Raad uitspraak in een zaak met zeven gedupeerden; in een andere, aparte rechtszaak betaalde een klant €7.200 voor een offerte terwijl het werk €2.000 waard bleek, en kreeg hij achteraf €8.500 terug via de rechter.",
+        "Dat betekent niet dat de meeste dakdekkers oneerlijk zijn — verreweg de meeste doen gewoon hun werk. Maar de klachten die er wél zijn, volgen bijna altijd hetzelfde patroon: een mondelinge toezegging, een prijs die achteraf oploopt, en geen vast aanspreekpunt zodra er iets misgaat. Daar is met een paar checks vooraf veel van te voorkomen.",
+      ] },
+      { kop: "Checklist: waar je op let vóór je akkoord geeft", tekst: [
+        "<strong>KvK-inschrijving.</strong> Vraag gerust naar het KvK-nummer en zoek het zelf even op — dat kost een minuut en laat meteen zien hoe lang een bedrijf al bestaat.",
+        "<strong>Schriftelijke offerte met vaste prijs.</strong> Geen mondelinge toezegging \"dat wordt zo'n beetje...\", maar een bedrag op papier vóórdat het werk begint.",
+        "<strong>Verzekering en garantie.</strong> Vraag naar aansprakelijkheidsverzekering (bij schade tijdens het werk) en garantie op het geleverde werk zelf.",
+        "<strong>Meerdere offertes vergelijken</strong>, zeker bij grotere klussen (dakvervanging, renovatie) — een groot prijsverschil zonder duidelijke reden is een signaal om door te vragen.",
+        "<strong>Reviews</strong>, met een kanttekening: een net gestart bedrijf heeft er nog weinig. Dat maakt het niet automatisch onbetrouwbaar — vraag dan gewoon naar recent afgerond werk of foto's.",
+        "<strong>Pas op bij druk om nu te beslissen</strong> — aan de deur, of \"deze prijs geldt alleen vandaag\". Een serieus bedrijf geeft je bedenktijd.",
+        "<strong>Meerwerk alleen na jouw schriftelijke akkoord vooraf.</strong> Dat is niet alleen verstandig, het is sinds 2025 ook wettelijk verplicht (art. 6:230m BW) — een aannemer mag onvoorzien extra werk niet zomaar bij je in rekening brengen zonder dat jij daar vooraf mee instemde.",
+      ] },
+      { kop: "Zo doe ik het zelf", tekst: [
+        "Ik werk onder mijn eigen naam met mijn eigen 06-nummer — je krijgt mij aan de lijn, geen callcenter, en mijn KvK- en btw-gegevens deel ik gewoon op verzoek. Bij elke klus krijg je een vaste prijs vóórdat ik begin, en bij de Dak-APK (€49) krijg je er ook een fotorapport bij, zodat je niet op mijn woord alleen hoeft te vertrouwen.",
+        "Zie ik onderweg iets extra's dat nodig is, dan meld ik dat en bespreken we het vóórdat ik het uitvoer — nooit een verrassing op de rekening achteraf.",
+      ] },
+    ],
+    dienst: { label: "Lees over mij en hoe ik werk", href: "/over" },
+    faq: [
+      { v: "Is een opvallend lage prijs een waarschuwingssignaal?", a: "Niet per se — kijk vooral of de prijs op papier staat en of hij past bij wat er in de offerte beschreven staat. Een prijs die pas ná het werk duidelijk wordt, is het grotere risico." },
+      { v: "Wat als een dakdekker meerwerk wil doorberekenen zonder dat vooraf te zeggen?", a: "Dat mag sinds 2025 niet zomaar (art. 6:230m BW): extra werk moet eerst met jou worden afgestemd. Vraag altijd om een aangepaste, schriftelijke prijs vóórdat het meerwerk wordt uitgevoerd." },
+    ],
+  },
+  {
     slug: "wat-kost-een-dakdekker",
     titel: "Wat kost een dakdekker?",
     h1: "Wat kost een dakdekker? Eerlijke richtprijzen op een rij",
@@ -252,7 +291,7 @@ export const ARTIKELEN: Artikel[] = [
     metaDescription:
       "Wat kost een dakdekker? Uurtarief €35–€50, goten vanaf €25, daklekkage €200–€500. Altijd een vaste prijs vooraf en geen voorrijkosten.",
     intro:
-      "Logische vraag, en je verdient een eerlijk antwoord — geen vaag bedrag per meter. Hieronder de richtprijzen die ik hanteer. Bij elke klus hoor je de vaste prijs vóórdat ik begin, dus je weet altijd waar je aan toe bent.",
+      "Een dakinspectie kost normaal €100 tot €300. Bij mij is dat de Dak-APK: €49 voor een compleet keuringsrapport met foto's van elke risicoplek, binnen een dagdeel. Voor de rest: hieronder de eerlijke richtprijzen per klus — geen vaag bedrag per meter, en bij elke klus hoor je de vaste prijs vóórdat ik begin.",
     secties: [
       { kop: "Uurtarief en kleine klussen", tekst: [
         "Voor kleine reparaties en losse klussen reken ik €35 tot €50 per uur. Een paar losse pannen vervangen of een nokvorst vastzetten valt daar meestal onder.",
