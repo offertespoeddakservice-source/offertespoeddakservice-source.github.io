@@ -4,6 +4,23 @@ Doel: alles uit het Google Bedrijfsprofiel (GBP) halen, aantoonbaar beter dan de
 concurrentie, voor de regio Den Bosch (+ ~45 min). Solo, model = goten €25-opener →
 upsell dakwerk. Onderbouwd, getest en meerdere keren aangescherpt (zie §9).
 
+> ⚠️ **Correctie (2026-07-03, Fase 5 Bouw-ronde 2 van de Master-Builder-run
+> "klantwerving-v2", `ideeën/spoed-dak-service-klantwerving-v2/00 - Status.md`):**
+> het "goten €25-opener"-model hierboven en in §1/§2/§4E/§4F/§4H/§4I/§4J/§7 hieronder is
+> **achterhaald**. Eigen marktprijs-onderzoek (Fase 1 Ronde 4) en het aanbod-besluit
+> (Fase 3 Ronde 5) van die run leggen vast: de **Dak-APK (€49, keuring + fotorapport,
+> met een gestapelde reactietijd-/rapport-garantie) is de enige opener**; dakgoot
+> reinigen is een **upsell-klus op €75-225**, niet een €25-lokmiddel. De onderliggende
+> SEO-/concurrentie-analyse (§2, §3, §5, §6) blijft grotendeels bruikbaar (keywordvolumes,
+> concurrentiebeeld, buitenkansen), maar elke prijs/opener-bewering die dit blok
+> tegenspreekt is niet meer geldig. **Actuele, kant-en-klare tekst:**
+> `ideeën/spoed-dak-service-klantwerving-v2/build/1_google-bedrijfsprofiel.md` (profiel)
+> en `GBP-CONTENT.md` (posts + Q&A), beide in dezelfde bouw-ronde geactualiseerd. Dit
+> bestand is **niet** in die ronde volledig herschreven (dat zou een tweede bouwstap in
+> dezelfde sessie zijn) — alleen deze correctienotitie is toegevoegd, zodat niemand de
+> secties hieronder nog als actueel prijs-advies leest. Zie `Actielijst.md` in de idee-map
+> voor de volledige vindplaatsen-lijst (ook elders op de site, niet alleen dit bestand).
+
 ---
 
 ## 1. Wat het je oplevert (de opbrengst)
