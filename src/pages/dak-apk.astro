@@ -246,4 +246,17 @@ const keuringOnderdelen = [
       </aside>
     </div>
   </section>
+
+  <script>
+    // Trackingmechanisme voor betaalde kanalen (Fase 4 Ronde 6 DV5/DV6, harde bouwvereiste:
+    // elk betaald kanaal moet een eigen trackingmechanisme in de uiting zelf hebben).
+    // Komt een bezoeker binnen via ?utm_campaign=... (bv. Google Ads) of ?bron=..., dan overschrijft
+    // dat het standaard "dak-apk-pagina"-bron-veld, zodat de aanvraag in de mailbox herkenbaar blijft.
+    const params = new URLSearchParams(window.location.search);
+    const bron = params.get("utm_campaign") || params.get("bron");
+    if (bron) {
+      const bronVeld = document.querySelector<HTMLInputElement>('input[name="bron"]');
+      if (bronVeld) bronVeld.value = bron;
+    }
+  </script>
 </Base>
