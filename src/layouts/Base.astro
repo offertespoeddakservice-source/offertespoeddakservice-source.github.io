@@ -116,6 +116,14 @@ const schemas = [businessSchema, websiteSchema, ...(breadcrumbSchema ? [breadcru
       </div>
     </header>
 
+    {SITE.stormActief && (
+      <div class="storm-banner" role="status">
+        <div class="wrap">
+          Het stormt momenteel in de regio. Daardoor komen er nu meer aanvragen binnen dan normaal — reageren kan iets langer duren, maar je hoort in elk geval binnen 24 uur iets van me. Zie je al schade aan je dak? <a href="/dak-apk">Vraag hier een Dak-APK aan (€49)</a>, dan kijk ik zo snel mogelijk met je mee.
+        </div>
+      </div>
+    )}
+
     <div class="trust-strip">
       Échte dakdekker uit de buurt — géén callcenter · garantie op het werk
     </div>

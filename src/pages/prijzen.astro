@@ -3,7 +3,7 @@ import Base from "../layouts/Base.astro";
 import { SITE, telHref, waHref } from "../site.config.ts";
 
 const rijen = [
-  { dienst: "Dakgoot reinigen", prijs: "€25 p/kant · €40 beide", uitleg: "Doorsnee rijtjeswoning. Groter/hoger huis: vaste prijs vooraf." },
+  { dienst: "Dakgoot reinigen", prijs: "€75 – €225", uitleg: "Afhankelijk van lengte en hoogte. Je hoort altijd vooraf de vaste prijs." },
   { dienst: "Schoorsteen vegen", prijs: "€70", uitleg: "Hele schoorsteen, netjes en zonder roetzooi in huis." },
   { dienst: "Dakkapel poetsen", prijs: "vanaf €70", uitleg: "Reinigen plus controle van kit en aansluitingen." },
   { dienst: "Zonnepanelen reinigen", prijs: "vanaf €10 p/paneel", uitleg: "Streepvrij schoon voor maximale opbrengst." },
@@ -29,7 +29,7 @@ const faqSchema = {
 
 <Base
   title={`Prijzen dakdekker — eerlijk & vooraf | ${SITE.bedrijfsnaam}`}
-  description="Wat kost een dakdekker? Goten reinigen vanaf €25, uurtarief €35–€50, daklekkage €200–€500. Altijd een vaste prijs vooraf en geen voorrijkosten."
+  description="Wat kost een dakdekker? Goten reinigen €75–€225, uurtarief €35–€50, daklekkage €200–€500. Altijd een vaste prijs vooraf."
   path="/prijzen"
   schema={faqSchema}
 >

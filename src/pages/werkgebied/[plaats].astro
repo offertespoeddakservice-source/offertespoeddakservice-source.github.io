@@ -20,7 +20,7 @@ const matrixVoorPlaats = MATRIX.filter((c) => c.plaats === p.slug)
 const faq = [
   { v: `Werk je in heel ${p.naam}?`, a: `Ja, ik werk in heel ${p.naam}${p.wijken.length ? ` — onder andere ${p.wijken.slice(0, 3).join(", ")}` : ""} en de directe omgeving. ${p.reistijd ? `Het is maar ${p.reistijd}.` : ""}` },
   { v: `Kun je snel langskomen in ${p.naam}?`, a: `Bij spoed of lekkage vaak nog dezelfde dag, want ${p.naam} ligt in mijn vaste werkgebied rond Den Bosch.` },
-  { v: `Wat kost een dakdekker in ${p.naam}?`, a: `Goten reinigen vanaf €25, een punctuele daklekkage meestal €200–€500, en het uurtarief ligt rond €35–€50. Je hoort altijd vooraf de vaste prijs.` },
+  { v: `Wat kost een dakdekker in ${p.naam}?`, a: `Goten reinigen €75–€225, een punctuele daklekkage meestal €200–€500, en het uurtarief ligt rond €35–€50. Je hoort altijd vooraf de vaste prijs.` },
 ];
 
 const schema = [
@@ -42,7 +42,7 @@ const schema = [
 
 <Base
   title={`Dakdekker ${p.naam} | ${SITE.bedrijfsnaam}`}
-  description={`Dakdekker in ${p.naam} nodig? Goten reinigen vanaf €25, daklekkage vaak dezelfde dag verholpen, eerlijke prijs vooraf. Bel of WhatsApp Rens.`}
+  description={`Dakdekker in ${p.naam} nodig? Dak-APK voor €49, daklekkage vaak dezelfde dag verholpen, eerlijke prijs vooraf. Bel of WhatsApp Rens.`}
   path={path}
   schema={schema}
 >

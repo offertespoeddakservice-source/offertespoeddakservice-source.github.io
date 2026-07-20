@@ -1,6 +1,7 @@
 /**
  * Diensten — sturen de /diensten/[slug] pagina's én de homepage-grid.
- * Volgorde = volgorde op de site. "goten-reinigen" staat bewust voorop (de opener).
+ * Volgorde = volgorde op de site. De Dak-APK (eigen pagina /dak-apk) is de opener;
+ * goten-reinigen is een gewone upsell-klus (marktprijs €75-225, Fase 3-prijstabel).
  */
 
 export interface Dienst {
@@ -22,25 +23,25 @@ export const DIENSTEN: Dienst[] = [
   {
     slug: "goten-reinigen",
     titel: "Goten reinigen",
-    h1: "Dakgoot reinigen vanaf €25 — snel, netjes en met eerlijk advies",
+    h1: "Dakgoot reinigen — snel, netjes en met eerlijk advies",
     kort: "Verstopte of volle goten leeg — en ik meld het eerlijk als er meer speelt op je dak.",
-    metaTitle: "Dakgoot reinigen vanaf €25 | Spoed Dak Service",
+    metaTitle: "Dakgoot reinigen — vaste prijs vooraf | Spoed Dak Service",
     metaDescription:
-      "Goten laten reinigen vanaf €25 in de regio Den Bosch. Snel langs, netjes werk en eerlijk advies over je dak. Bel of WhatsApp Rens.",
+      "Goten laten reinigen in de regio Den Bosch: richtprijs €75–€225, vaste prijs vooraf. Snel langs, netjes werk en eerlijk advies over je dak. Bel of WhatsApp Rens.",
     icoon: "🪣",
-    vanafPrijs: "vanaf €25",
+    vanafPrijs: "€75 – €225",
     intro:
       "Volle of verstopte dakgoten zorgen voor overlopend water, vochtige muren en op den duur lekkage. Ik maak je goten leeg, controleer de afvoer en kijk meteen of er nog iets aan je dak speelt. Geen verrassingen: je weet vooraf wat het kost.",
     punten: [
       "Goten leeg, blad en mos eruit, afvoer doorgespoeld",
       "Meteen een eerlijke blik op pannen, lood en kitwerk",
-      "Vaste prijs vooraf, vanaf €25 — geen voorrijkosten",
+      "Vaste prijs vooraf — geen verrassingen achteraf",
       "Werk netjes achtergelaten, troep mee",
     ],
     faq: [
       {
         v: "Wat kost goten reinigen?",
-        a: "€25 per kant, €40 voor beide kanten bij een doorsnee rijtjeswoning. Bij een groter of hoger huis hoor je vooraf de vaste prijs — nooit achteraf verrassingen.",
+        a: "Richtprijs €75–€225, afhankelijk van de lengte van de goten en de hoogte van je huis. Je hoort altijd vooraf de vaste prijs — nooit achteraf verrassingen.",
       },
       {
         v: "Hoe vaak moet ik mijn goten laten reinigen?",

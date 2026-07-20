@@ -91,7 +91,7 @@ export const ARTIKELEN: Artikel[] = [
         "Een verstopte goot loopt over langs de gevel, trekt vocht in muren en fundering en kan binnen voor lekkage zorgen. Een kleine jaarlijkse onderhoudsbeurt voorkomt dure schade.",
       ] },
       { kop: "Wat kost goten reinigen?", tekst: [
-        "Voor een doorsnee rijtjeswoning begin ik vanaf €25 per kant (€40 voor beide kanten), zonder voorrijkosten als je tijdig plant. Bij een groter of hoger huis hoor je vooraf de vaste prijs.",
+        "De richtprijs ligt op €75–€225, afhankelijk van de lengte van de goten en de hoogte van je huis. Je hoort altijd vooraf de vaste prijs — nooit achteraf verrassingen.",
       ] },
     ],
     dienst: { label: "Bekijk: dakgoot reinigen", href: "/diensten/goten-reinigen" },
@@ -289,13 +289,13 @@ export const ARTIKELEN: Artikel[] = [
     h1: "Wat kost een dakdekker? Eerlijke richtprijzen op een rij",
     metaTitle: "Wat kost een dakdekker? | Spoed Dak Service",
     metaDescription:
-      "Wat kost een dakdekker? Uurtarief €35–€50, goten vanaf €25, daklekkage €200–€500. Altijd een vaste prijs vooraf en geen voorrijkosten.",
+      "Wat kost een dakdekker? Uurtarief €35–€50, goten reinigen €75–€225, daklekkage €200–€500. Altijd een vaste prijs vooraf.",
     intro:
       "Een dakinspectie kost normaal €100 tot €300. Bij mij is dat de Dak-APK: €49 voor een compleet keuringsrapport met foto's van elke risicoplek, binnen een dagdeel. Voor de rest: hieronder de eerlijke richtprijzen per klus — geen vaag bedrag per meter, en bij elke klus hoor je de vaste prijs vóórdat ik begin.",
     secties: [
       { kop: "Uurtarief en kleine klussen", tekst: [
         "Voor kleine reparaties en losse klussen reken ik €35 tot €50 per uur. Een paar losse pannen vervangen of een nokvorst vastzetten valt daar meestal onder.",
-        "Goten reinigen begint vanaf €25 per kant (€40 voor beide) bij een doorsnee rijtjeswoning — dat is bewust laagdrempelig, want vaak zie ik dan meteen of er nog iets speelt.",
+        "Goten reinigen heeft een richtprijs van €75–€225, afhankelijk van je huis — en terwijl ik bezig ben zie ik vaak meteen of er verder nog iets aan je dak speelt.",
       ] },
       { kop: "Richtprijzen per klus", tekst: [
         "Een punctuele daklekkage repareren kost meestal €200 tot €500, inclusief materiaal. Schoorsteen vegen €70. Zonnepanelen reinigen vanaf €10 per paneel. Coaten en grotere klussen krijg je als vaste prijs na een Dak-APK of bezoek.",

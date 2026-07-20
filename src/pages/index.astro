@@ -10,7 +10,7 @@ const score = SITE.reviews.score.toString().replace(".", ",");
 const googleReviewLink = SITE.reviewLink && !SITE.reviewLink.includes("JOUW_PLACE_ID") ? SITE.reviewLink : null;
 
 const faq = [
-  { v: "Wat kost het om iemand te laten komen?", a: "Wil je weten hoe je dak ervoor staat? Dat doe ik via de Dak-APK: binnen een dagdeel een compleet keuringsrapport met foto's, voor €49. Weet je al wat er moet gebeuren — bijvoorbeeld goten reinigen vanaf €25? Dan hoor je gewoon de vaste prijs vooraf." },
+  { v: "Wat kost het om iemand te laten komen?", a: "Wil je weten hoe je dak ervoor staat? Dat doe ik via de Dak-APK: binnen een dagdeel een compleet keuringsrapport met foto's, voor €49. Weet je al wat er moet gebeuren — bijvoorbeeld goten reinigen? Dan hoor je gewoon de vaste prijs vooraf." },
   { v: "Hoe snel kun je komen?", a: "Bij spoed en lekkage vaak nog dezelfde dag in de regio Den Bosch. Bel of WhatsApp me, dan hoor je meteen wat kan." },
   { v: "Werk je ook bij mij in de buurt?", a: `Ik werk in ${SITE.regioOmschrijving}. Staat je plaats er niet bij? Bel gerust, vaak kan ik er toch bij.` },
   { v: "Krijg ik garantie?", a: "Ja, op het uitgevoerde werk krijg je garantie. Ik leg vooraf duidelijk uit wat ik doe en wat het kost." },
@@ -24,7 +24,7 @@ const faqSchema = {
 
 <Base
   title={`Dakdekker regio Den Bosch | ${SITE.bedrijfsnaam}`}
-  description="Vakkundig dakwerk door één vaste man in de regio Den Bosch. Goten reinigen vanaf €25, daklekkage vaak dezelfde dag, eerlijke prijs vooraf."
+  description="Vakkundig dakwerk door één vaste man in de regio Den Bosch. Dak-APK voor €49, daklekkage vaak dezelfde dag, eerlijke prijs vooraf."
   path="/"
   schema={faqSchema}
 >
@@ -41,12 +41,12 @@ const faqSchema = {
         ik kom langs, en je hoort eerlijk wat er nodig is. Vaste prijs vooraf.
       </p>
       <div class="pricehook">
-        <span class="van">Dakgoot reinigen<br />vanaf</span>
-        <span class="big">€25</span>
-        <span class="per">per kant<br />€40 beide</span>
+        <span class="van">Dak-APK<br />keuring</span>
+        <span class="big">€49</span>
+        <span class="per">compleet fotorapport<br />binnen een dagdeel</span>
       </div>
       <div class="hero-checks">
-        <span><span class="v">✓</span> Dak-APK voor €49</span>
+        <span><span class="v">✓</span> Eerlijk advies, geen verkooppraatje</span>
         <span><span class="v">✓</span> Vaste prijs, geen verrassingen</span>
         <span><span class="v">✓</span> Garantie op het werk</span>
         <span><span class="v">✓</span> Vaak dezelfde dag bij spoed</span>
