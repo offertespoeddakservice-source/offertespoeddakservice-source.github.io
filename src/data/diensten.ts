@@ -121,7 +121,7 @@ export const DIENSTEN: Dienst[] = [
     faq: [
       {
         v: "Wat kost het vervangen van een dakpan?",
-        a: "Een paar losse pannen vervangen is vaak een kort klusje en valt onder het uurtarief (€35–€50). Je hoort vooraf een vaste prijs.",
+        a: "Een paar losse pannen vervangen is vaak een kort klusje: reken €100–€250. Je hoort vooraf de vaste prijs.",
       },
     ],
   },
@@ -233,8 +233,9 @@ export const DIENSTEN: Dienst[] = [
     kort: "Mos en aanslag verwijderen zodat je dak weer ademt en langer meegaat.",
     metaTitle: "Dak reinigen & mos verwijderen | Spoed Dak Service",
     metaDescription:
-      "Dak laten reinigen in de regio Den Bosch: mos, vuil en groene aanslag eraf. Voorkomt verstopping en schade. Vaste prijs vooraf. Bel of WhatsApp Rens.",
+      "Dak laten reinigen in de regio Den Bosch: mos, vuil en groene aanslag eraf voor €8–€15 per m². Voorkomt verstopping en schade. Vaste prijs vooraf. Bel of WhatsApp Rens.",
     icoon: "🧽",
+    vanafPrijs: "€8 – €15 p/m²",
     intro:
       "Mos en aanslag houden vocht vast, verstoppen je goten en tasten op den duur de pannen aan. Ik maak je dak weer schoon en kijk meteen of er pannen los of beschadigd zijn — vaak een mooi moment om er ook een coating overheen te doen.",
     punten: [

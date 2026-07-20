@@ -289,16 +289,16 @@ export const ARTIKELEN: Artikel[] = [
     h1: "Wat kost een dakdekker? Eerlijke richtprijzen op een rij",
     metaTitle: "Wat kost een dakdekker? | Spoed Dak Service",
     metaDescription:
-      "Wat kost een dakdekker? Uurtarief €35–€50, goten reinigen €99 all-in, daklekkage €200–€500. Offerte altijd gratis, vaste prijs vooraf.",
+      "Wat kost een dakdekker? Goten reinigen €99 all-in, kleine reparatie €100–€250, daklekkage €200–€500. Offerte altijd gratis, vaste prijs vooraf.",
     intro:
       "Een dakinspectie kost normaal €100 tot €300. Bij mij is dat de Dak-APK: €49 voor een compleet keuringsrapport met foto's van elke risicoplek, binnen een dagdeel. Voor de rest: hieronder de eerlijke richtprijzen per klus — geen vaag bedrag per meter, en bij elke klus hoor je de vaste prijs vóórdat ik begin.",
     secties: [
-      { kop: "Uurtarief en kleine klussen", tekst: [
-        "Voor kleine reparaties en losse klussen reken ik €35 tot €50 per uur. Een paar losse pannen vervangen of een nokvorst vastzetten valt daar meestal onder.",
+      { kop: "Kleine klussen en reparaties", tekst: [
+        "Een kleine reparatie — een paar losse pannen terugleggen of een nokvorst vastzetten — kost meestal €100 tot €250, vaste prijs vooraf.",
         "Goten reinigen is €99 all-in bij een rijtjeswoning — en terwijl ik bezig ben zie ik vaak meteen of er verder nog iets aan je dak speelt. Groter huis? Vaste prijs vooraf.",
       ] },
       { kop: "Richtprijzen per klus", tekst: [
-        "Een punctuele daklekkage repareren kost meestal €200 tot €500, inclusief materiaal. Schoorsteen vegen €70. Zonnepanelen reinigen vanaf €10 per paneel. Coaten en grotere klussen krijg je als vaste prijs na een Dak-APK of bezoek.",
+        "Een punctuele daklekkage repareren kost meestal €200 tot €500, inclusief materiaal. Dak ontmossen €8 tot €15 per m². Schoorsteen vegen €70. Zonnepanelen reinigen vanaf €10 per paneel. Een compleet nieuw dak: bitumen €50–€90, EPDM €95–€120, pannendak €60–€170 per m². Coaten en andere klussen krijg je als vaste prijs na een Dak-APK of bezoek.",
         "Bij spoed buiten kantooruren komt er een toeslag bij — die hoor je vooraf, nooit als verrassing achteraf.",
       ] },
       { kop: "Waarom een vaste prijs vooraf?", tekst: [
