@@ -27,9 +27,9 @@ export const DIENSTEN: Dienst[] = [
     kort: "Verstopte of volle goten leeg — en ik meld het eerlijk als er meer speelt op je dak.",
     metaTitle: "Dakgoot reinigen — vaste prijs vooraf | Spoed Dak Service",
     metaDescription:
-      "Goten laten reinigen in de regio Den Bosch: richtprijs €75–€225, vaste prijs vooraf. Snel langs, netjes werk en eerlijk advies over je dak. Bel of WhatsApp Rens.",
+      "Goten laten reinigen in de regio Den Bosch: €99 all-in voor een rijtjeswoning, vaste prijs vooraf. Snel langs, netjes werk en eerlijk advies over je dak. Bel of WhatsApp Rens.",
     icoon: "🪣",
-    vanafPrijs: "€75 – €225",
+    vanafPrijs: "€99 all-in",
     intro:
       "Volle of verstopte dakgoten zorgen voor overlopend water, vochtige muren en op den duur lekkage. Ik maak je goten leeg, controleer de afvoer en kijk meteen of er nog iets aan je dak speelt. Geen verrassingen: je weet vooraf wat het kost.",
     punten: [
@@ -41,7 +41,7 @@ export const DIENSTEN: Dienst[] = [
     faq: [
       {
         v: "Wat kost goten reinigen?",
-        a: "Richtprijs €75–€225, afhankelijk van de lengte van de goten en de hoogte van je huis. Je hoort altijd vooraf de vaste prijs — nooit achteraf verrassingen.",
+        a: "€99 all-in voor een rijtjeswoning: beide goten leeg, afvoer doorgespoeld, troep mee. Groter of hoger huis? Dan hoor je vooraf de vaste prijs — nooit achteraf verrassingen.",
       },
       {
         v: "Hoe vaak moet ik mijn goten laten reinigen?",

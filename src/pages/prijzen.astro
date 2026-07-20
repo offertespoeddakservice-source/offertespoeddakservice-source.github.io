@@ -3,7 +3,7 @@ import Base from "../layouts/Base.astro";
 import { SITE, telHref, waHref } from "../site.config.ts";
 
 const rijen = [
-  { dienst: "Dakgoot reinigen", prijs: "€75 – €225", uitleg: "Afhankelijk van lengte en hoogte. Je hoort altijd vooraf de vaste prijs." },
+  { dienst: "Dakgoot reinigen", prijs: "€99 all-in", uitleg: "Rijtjeswoning, beide goten, afvoer doorgespoeld. Groter/hoger huis: vaste prijs vooraf." },
   { dienst: "Schoorsteen vegen", prijs: "€70", uitleg: "Hele schoorsteen, netjes en zonder roetzooi in huis." },
   { dienst: "Dakkapel poetsen", prijs: "vanaf €70", uitleg: "Reinigen plus controle van kit en aansluitingen." },
   { dienst: "Zonnepanelen reinigen", prijs: "vanaf €10 p/paneel", uitleg: "Streepvrij schoon voor maximale opbrengst." },
@@ -18,7 +18,7 @@ const rijen = [
 
 const faq = [
   { v: "Waarom geen vaste prijslijst voor alles?", a: "Elk dak is anders. Daarom kom ik eerst kijken (bijvoorbeeld via de Dak-APK) en geef je een vaste prijs vóórdat ik aan een klus begin — dan weet je precies waar je aan toe bent." },
-  { v: "Reken je voorrijkosten?", a: "Voor een keuring wel: dat is de Dak-APK (€49), inclusief een volledig fotorapport. Weet je al wat er moet gebeuren? Dan hoor je de vaste prijs vooraf, zonder verrassingen." },
+  { v: "Reken je voorrijkosten?", a: "Nee — een offerte aanvragen is altijd gratis en vrijblijvend. Wil je een complete keuring van je dak mét fotorapport? Dat is de Dak-APK (€49). Weet je al wat er moet gebeuren? Dan hoor je gewoon gratis de vaste prijs vooraf." },
 ];
 const faqSchema = {
   "@context": "https://schema.org",
@@ -29,7 +29,7 @@ const faqSchema = {
 
 <Base
   title={`Prijzen dakdekker — eerlijk & vooraf | ${SITE.bedrijfsnaam}`}
-  description="Wat kost een dakdekker? Goten reinigen €75–€225, uurtarief €35–€50, daklekkage €200–€500. Altijd een vaste prijs vooraf."
+  description="Wat kost een dakdekker? Goten reinigen €99 all-in, uurtarief €35–€50, daklekkage €200–€500. Offerte altijd gratis, vaste prijs vooraf."
   path="/prijzen"
   schema={faqSchema}
 >
