@@ -37,7 +37,7 @@ export const SITE = {
   // Storm-banner (Master Builder "klantwerving-v2", Fase 3 R6 + Fase 4 R9 dv.2a — Grote Doorloop-fix 2026-07-03).
   // Zet op true zodra de storm-watcher-mail (scripts/storm_watcher.py) een actieve storm meldt, terug op false zodra het overwaait.
   // Handmatige toggle — geen extra build-stap of account nodig.
-  stormActief: true,
+  stormActief: false,
 
   // Openingstijden voor schema (24/7 voor spoed; pas aan naar wens).
   openingstijden: "Ma-Za 07:00-20:00, spoed 24/7",

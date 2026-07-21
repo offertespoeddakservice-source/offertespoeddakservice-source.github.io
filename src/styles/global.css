@@ -94,6 +94,10 @@ p { margin: 0 0 14px; }
 .storm-banner { background: var(--navy-deep); color: #fff; text-align: center; padding: 12px 14px; font-size: .95rem; line-height: 1.5; border-bottom: 3px solid var(--orange); }
 .storm-banner a { color: #fff; text-decoration: underline; font-weight: 700; }
 .storm-banner a:hover { color: var(--orange); }
+@media (max-width: 640px) {
+  .storm-banner { padding: 9px 14px; font-size: .82rem; line-height: 1.4; }
+  .trust-strip { padding: 8px 14px; font-size: .78rem; }
+}
 
 /* ── Hero (plat navy, géén gradient) ── */
 .hero { background: var(--navy); color: #fff; padding: 60px 0 56px; position: relative; }

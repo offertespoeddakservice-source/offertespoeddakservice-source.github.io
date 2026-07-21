@@ -2,7 +2,7 @@
   <rect width="1200" height="630" fill="#0f2742"/>
   <rect y="560" width="1200" height="70" fill="#f3711f"/>
   <path d="M120 250 L300 120 L480 250" fill="none" stroke="#f3711f" stroke-width="22" stroke-linecap="round" stroke-linejoin="round"/>
-  <rect x="170" y="250" width="260" height="150" rx="6" fill="#f3711f"/>
+  <rect x="170" y="250" width="260" height="28" rx="6" fill="#f3711f"/>
   <text x="120" y="330" font-family="Arial, sans-serif" font-weight="900" font-size="58" fill="#ffffff" letter-spacing="-1">SPOED <tspan fill="#f3711f">DAK</tspan> SERVICE</text>
   <text x="120" y="410" font-family="Arial, sans-serif" font-weight="800" font-size="64" fill="#ffffff">Vakkundig dakwerk —</text>
   <text x="120" y="485" font-family="Arial, sans-serif" font-weight="800" font-size="64" fill="#ffffff">door één vaste man</text>

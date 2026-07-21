@@ -205,7 +205,7 @@ const keuringOnderdelen = [
         <p class="eyebrow" style="color:#ffb486;">Aanvragen</p>
         <h2>Dak-APK aanvragen — €49</h2>
         <p class="lead" style="color:#c2d2e3;">Vul kort in wat er speelt, dan hoor je van me binnen de reactietijd hierboven.</p>
-        <form class="form" method="POST" action="mailto:offerte.spoeddakservice@gmail.com" enctype="text/plain" style="margin-top:20px; background:#fff; padding:22px; border-radius:12px;">
+        <form class="form" id="dakapk-form" method="POST" action={`mailto:${SITE.email}`} enctype="text/plain" style="margin-top:20px; background:#fff; padding:22px; border-radius:12px;">
           <input type="hidden" name="bron" value="dak-apk-pagina" />
           <label>Naam
             <input type="text" name="naam" required autocomplete="name" />
@@ -229,8 +229,32 @@ const keuringOnderdelen = [
             <textarea name="beschrijving" placeholder="Bijv. mos op het dak, of een vochtplek op zolder"></textarea>
           </label>
           <button class="btn btn--primary" type="submit">Vraag de Dak-APK aan</button>
-          <p class="notice">Je gegevens gebruik ik alleen om deze aanvraag op te pakken — nooit voor iets anders. Liever direct? Bel of WhatsApp, dan heb je meteen antwoord.</p>
+          <p class="notice" id="dakapk-form-notice">Je gegevens gebruik ik alleen om deze aanvraag op te pakken — nooit voor iets anders. Liever direct? Bel of WhatsApp, dan heb je meteen antwoord.</p>
         </form>
+        <script define:vars={{ telefoonE164: SITE.telefoonE164 }}>
+          const dakApkForm = document.getElementById("dakapk-form");
+          if (dakApkForm) {
+            dakApkForm.addEventListener("submit", (e) => {
+              e.preventDefault();
+              const data = new FormData(dakApkForm);
+              const aanleidingRaw = data.get("aanleiding");
+              const aanleidingTekst = aanleidingRaw === "incident"
+                ? "Er is nu al schade/een lek — ik wil snel iemand"
+                : "Geen acuut probleem — gewoon laten checken";
+              const regels = [
+                "Hoi Rens, ik wil de Dak-APK (€49) aanvragen.",
+                `Naam: ${data.get("naam") || ""}`,
+                `Telefoon: ${data.get("telefoon") || ""}`,
+                data.get("email") ? `E-mail: ${data.get("email")}` : null,
+                data.get("plaats") ? `Plaats: ${data.get("plaats")}` : null,
+                `Situatie: ${aanleidingTekst}`,
+                data.get("beschrijving") ? `Omschrijving: ${data.get("beschrijving")}` : null,
+              ].filter(Boolean).join("\n");
+              const url = `https://wa.me/${telefoonE164}?text=${encodeURIComponent(regels)}`;
+              window.open(url, "_blank", "noopener");
+            });
+          }
+        </script>
       </div>
       <aside>
         <div class="card" style="background:#fff;">
