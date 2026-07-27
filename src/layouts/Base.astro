@@ -63,6 +63,29 @@ const schemas = [businessSchema, websiteSchema, ...(breadcrumbSchema ? [breadcru
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Google Ads conversiemeting (AW-18338222053) — telt klik op bellen / WhatsApp / e-mail -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18338222053" is:inline></script>
+    <script is:inline>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-18338222053');
+
+      document.addEventListener('click', function(e){
+        var a = e.target && e.target.closest ? e.target.closest('a') : null;
+        if(!a) return;
+        var href = (a.getAttribute('href') || '').toLowerCase();
+        if(href.indexOf('tel:') === 0){
+          gtag('event','conversion',{'send_to':'AW-18338222053/RHeGCLLKt9ccEOWfrKhE','value':1.0,'currency':'EUR'});
+        } else if(href.indexOf('wa.me') !== -1 || href.indexOf('whatsapp') !== -1){
+          gtag('event','conversion',{'send_to':'AW-18338222053/9ZoXCLXKt9ccEOWfrKhE','value':1.0,'currency':'EUR'});
+        } else if(href.indexOf('mailto:') === 0){
+          gtag('event','conversion',{'send_to':'AW-18338222053/QcJRCLjKt9ccEOWfrKhE','value':1.0,'currency':'EUR'});
+        }
+      }, true);
+    </script>
+
     <title>{title}</title>
     <meta name="description" content={description} />
     <link rel="canonical" href={canonical} />
