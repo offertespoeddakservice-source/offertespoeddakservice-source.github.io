@@ -17,7 +17,7 @@ import { SITE, telHref, waHref } from "../site.config.ts";
   </section>
 
   <section class="section">
-    <div class="wrap" style="display:grid; grid-template-columns: 1.3fr .85fr; gap:40px; align-items:start;">
+    <div class="wrap" style="display:grid; grid-template-columns: 1.6fr .6fr; gap:40px; align-items:start;">
       <div class="prose">
         <p>
           Al meer dan 5 jaar sta ik op daken in de regio Den Bosch — van een verstopte goot
@@ -44,7 +44,7 @@ import { SITE, telHref, waHref } from "../site.config.ts";
       </div>
       <aside>
         {SITE.overFoto ? (
-          <img src={SITE.overFoto} alt="Rens, dakdekker in de regio Den Bosch" loading="lazy" width="720" height="925" style="width:100%;height:auto;border-radius:12px;border-top:5px solid var(--orange);box-shadow:var(--shadow);" />
+          <img src={SITE.overFoto} alt="Rens, dakdekker in de regio Den Bosch" loading="lazy" width="720" height="925" style="width:100%;max-width:220px;height:auto;border-radius:12px;border-top:5px solid var(--orange);box-shadow:var(--shadow);" />
         ) : (
           <div class="photo-frame">
             <strong>Foto van Rens komt hier</strong>
