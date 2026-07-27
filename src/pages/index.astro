@@ -45,6 +45,10 @@ const faqSchema = {
         <span class="big">€49</span>
         <span class="per">compleet fotorapport<br />binnen een dagdeel</span>
       </div>
+      <p style="margin:14px 0 0; color:#d3e0ec; font-size:1.02rem; max-width:660px;">
+        <strong style="color:#fff;">Een offerte is altijd gratis.</strong> Weet je al wat er speelt? Bel of stuur een foto via WhatsApp, dan krijg je gewoon een prijs — géén €49.
+        De <strong style="color:#fff;">Dak-APK (€49) is optioneel</strong>: een complete keuring mét fotorapport, handig als je wilt weten hoe je hele dak ervoor staat.
+      </p>
       <div class="hero-checks">
         <span><span class="v">✓</span> Eerlijk advies, geen verkooppraatje</span>
         <span><span class="v">✓</span> Vaste prijs, geen verrassingen</span>
@@ -100,43 +104,55 @@ const faqSchema = {
     </div>
   </section>
 
-  <!-- ZIE HET VERSCHIL (vóór/na) -->
-  <section class="section">
+  <!-- RICHTPRIJZEN (adverteer de prijzen, laat mensen snel kiezen) -->
+  <section class="section section--soft">
     <div class="wrap">
-      <p class="eyebrow">Zie het verschil</p>
-      <h2>Voor &amp; na — goten reinigen</h2>
-      <p class="lead">Volle, dichtgeslibde goten lopen over en geven vocht. Zo zien ze eruit vóór en ná.</p>
-      <div class="grid grid-2" style="margin-top:24px;">
-        <figure style="margin:0;position:relative;">
-          <img src="/img/goot-vol.jpg" alt="Volle dakgoot met blad en mos vóór reiniging" loading="lazy" width="900" height="700" style="width:100%;height:auto;border-radius:12px;display:block;" />
-          <figcaption style="position:absolute;top:12px;left:12px;background:var(--navy);color:#fff;font-family:var(--font-display);font-weight:800;padding:5px 12px;border-radius:6px;font-size:.85rem;">VOOR</figcaption>
-        </figure>
-        <figure style="margin:0;position:relative;">
-          <img src="/img/goot-schoon.jpg" alt="Schone, leeggemaakte dakgoot na reiniging" loading="lazy" width="900" height="700" style="width:100%;height:auto;border-radius:12px;display:block;" />
-          <figcaption style="position:absolute;top:12px;left:12px;background:var(--ok);color:#fff;font-family:var(--font-display);font-weight:800;padding:5px 12px;border-radius:6px;font-size:.85rem;">NA</figcaption>
-        </figure>
-      </div>
-    </div>
-  </section>
+      <p class="eyebrow">Wat kost het?</p>
+      <h2>Richtprijzen — je weet meteen waar je aan toe bent</h2>
+      <p class="lead">Geen offerte-gedoe of verrassingen achteraf. Kies wat je nodig hebt; de vaste prijs hoor je vóór ik begin.</p>
 
-  <!-- WIJK-PLANNER (urgentie, zoals flyer) -->
-  <section class="section">
-    <div class="wrap" style="display:grid; grid-template-columns: 1.1fr .9fr; gap:34px; align-items:center;">
-      <div>
-        <p class="eyebrow">Plan slim</p>
-        <h2>Ik ben binnenkort bij jou in de wijk</h2>
-        <p class="lead">Plan je klus als ik tóch in de buurt ben, dan is dat voor jou het handigst gepland. Bel of app even — dan zeg ik wanneer ik in jouw straat zit.</p>
-        <div class="btn-row" style="margin-top:18px;">
-          <a class="btn btn--primary" href={telHref}>Bel {SITE.telefoonWeergave}</a>
-          <a class="btn btn--outline" href="/werkgebied">Bekijk werkgebied</a>
-        </div>
+      <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:16px; margin-top:26px;">
+        <a href="/dak-apk" style="text-decoration:none; background:var(--navy); border-radius:14px; padding:22px; display:block;">
+          <span style="display:block; font-family:var(--font-display); font-weight:800; text-transform:uppercase; letter-spacing:.03em; color:#ffb486; font-size:.85rem;">Dak-APK keuring · optioneel</span>
+          <strong style="display:block; font-family:var(--font-display); color:#fff; font-size:2.4rem; line-height:1; margin:8px 0;">€49</strong>
+          <span style="display:block; color:#c2d2e3; font-size:.95rem;">Alleen als je een volledige keuring mét fotorapport wilt. Bekend probleem? Vraag gewoon een gratis offerte.</span>
+        </a>
+
+        <a href="/diensten/goten-reinigen" style="text-decoration:none; background:#fff; border:1px solid var(--line); border-radius:14px; padding:22px; display:block;">
+          <span style="display:block; font-family:var(--font-display); font-weight:800; text-transform:uppercase; letter-spacing:.03em; color:var(--navy); font-size:.85rem;">Dakgoot reinigen</span>
+          <strong style="display:block; font-family:var(--font-display); color:var(--orange); font-size:2.4rem; line-height:1; margin:8px 0;">€99 <span style="font-size:1rem;">all-in</span></strong>
+          <span style="display:block; color:var(--muted); font-size:.95rem;">Beide goten leeg, afvoer doorgespoeld. Rijtjeswoning.</span>
+        </a>
+
+        <a href="/diensten/schoorsteen-vegen" style="text-decoration:none; background:#fff; border:1px solid var(--line); border-radius:14px; padding:22px; display:block;">
+          <span style="display:block; font-family:var(--font-display); font-weight:800; text-transform:uppercase; letter-spacing:.03em; color:var(--navy); font-size:.85rem;">Schoorsteen vegen</span>
+          <strong style="display:block; font-family:var(--font-display); color:var(--orange); font-size:2.4rem; line-height:1; margin:8px 0;">€70</strong>
+          <span style="display:block; color:var(--muted); font-size:.95rem;">Hele schoorsteen, netjes, zonder roetzooi in huis.</span>
+        </a>
+
+        <a href="/diensten/dakreparatie" style="text-decoration:none; background:#fff; border:1px solid var(--line); border-radius:14px; padding:22px; display:block;">
+          <span style="display:block; font-family:var(--font-display); font-weight:800; text-transform:uppercase; letter-spacing:.03em; color:var(--navy); font-size:.85rem;">Kleine reparatie</span>
+          <strong style="display:block; font-family:var(--font-display); color:var(--orange); font-size:2.4rem; line-height:1; margin:8px 0;">€100<span style="font-size:1.3rem;">–€250</span></strong>
+          <span style="display:block; color:var(--muted); font-size:.95rem;">Losse pan of nokvorst — kort klusje, vaste prijs vooraf.</span>
+        </a>
+
+        <a href="/diensten/daklekkage" style="text-decoration:none; background:#fff; border:1px solid var(--line); border-radius:14px; padding:22px; display:block;">
+          <span style="display:block; font-family:var(--font-display); font-weight:800; text-transform:uppercase; letter-spacing:.03em; color:var(--navy); font-size:.85rem;">Daklekkage</span>
+          <strong style="display:block; font-family:var(--font-display); color:var(--orange); font-size:2.4rem; line-height:1; margin:8px 0;">€200<span style="font-size:1.3rem;">–€500</span></strong>
+          <span style="display:block; color:var(--muted); font-size:.95rem;">Eén lek opsporen en dichten, incl. materiaal. Ook bij spoed.</span>
+        </a>
+
+        <a href="/diensten/dak-reinigen" style="text-decoration:none; background:#fff; border:1px solid var(--line); border-radius:14px; padding:22px; display:block;">
+          <span style="display:block; font-family:var(--font-display); font-weight:800; text-transform:uppercase; letter-spacing:.03em; color:var(--navy); font-size:.85rem;">Dak reinigen / ontmossen</span>
+          <strong style="display:block; font-family:var(--font-display); color:var(--orange); font-size:2.4rem; line-height:1; margin:8px 0;">€8<span style="font-size:1.3rem;">–€15 p/m²</span></strong>
+          <span style="display:block; color:var(--muted); font-size:.95rem;">Mos en aanslag eraf, zodat je dak weer ademt.</span>
+        </a>
       </div>
-      <div class="planner">
-        <strong style="font-family:var(--font-display); color:var(--navy); text-transform:uppercase; letter-spacing:.03em; font-size:.92rem;">Wanneer ben ik in jouw wijk?</strong>
-        <div class="days">
-          <div class="day">MA</div><div class="day">DI</div><div class="day">WO</div><div class="day">DO</div><div class="day">VR</div><div class="day">ZA</div>
-        </div>
-        <p style="margin:0; color:var(--muted); font-size:.95rem;">Datum al geweest? Bel toch — vaak ben ik snel weer in de buurt.</p>
+
+      <div class="btn-row" style="margin-top:24px;">
+        <a class="btn btn--primary" href={telHref}>Bel {SITE.telefoonWeergave} voor jouw prijs</a>
+        <a class="btn btn--wa" href={waHref("Hoi Rens, kun je me een prijsindicatie geven?")}>WhatsApp Rens</a>
+        <a class="btn btn--outline" href="/prijzen">Alle richtprijzen</a>
       </div>
     </div>
   </section>
