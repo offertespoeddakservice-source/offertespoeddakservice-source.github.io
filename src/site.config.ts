@@ -46,7 +46,7 @@ export const SITE = {
   geo: { lat: 51.6904, lon: 5.2935 },
 
   // Optioneel: foto van Rens op /over (bv. "/img/rens-aan-het-werk.jpg"). Leeg = nette placeholder.
-  overFoto: "/img/rens-aan-het-werk.jpg",
+  overFoto: "/img/rens.jpg",
 } as const;
 
 /** Kant-en-klare tel: link */
