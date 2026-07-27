@@ -1,6 +1,6 @@
 ---
 import Base from "../../layouts/Base.astro";
-import { SITE } from "../../site.config.ts";
+import { SITE, telHref, waHref } from "../../site.config.ts";
 import { DIENSTEN } from "../../data/diensten.ts";
 import DienstIcon from "../../components/DienstIcon.astro";
 ---
@@ -29,6 +29,25 @@ import DienstIcon from "../../components/DienstIcon.astro";
             {d.vanafPrijs && <span class="price">{d.vanafPrijs}</span>}
           </a>
         ))}
+      </div>
+      <p class="notice" style="margin-top:22px;">
+        Richtprijzen voor een gemiddelde situatie — je hoort altijd de <strong>vaste prijs vooraf</strong>, en een offerte is <strong>gratis</strong>. Volledige tabel op de <a href="/prijzen">prijzen-pagina</a>.
+      </p>
+    </div>
+  </section>
+
+  <!-- ANDERE VRAAG? (vangnet voor klussen die er niet bij staan) -->
+  <section class="section section--navy" style="text-align:center;">
+    <div class="wrap" style="max-width:760px;">
+      <p class="eyebrow" style="color:#ffb486;">Andere vraag?</p>
+      <h2>Staat jouw klus er niet bij?</h2>
+      <p class="lead" style="margin:0 auto 22px; color:#c2d2e3;">
+        Geen probleem — ik doe zo goed als alles op en rond het dak. Bel of stuur een foto via WhatsApp,
+        dan zeg ik eerlijk of ik je kan helpen en wat het ongeveer kost. Een offerte is altijd gratis.
+      </p>
+      <div class="btn-row" style="justify-content:center;">
+        <a class="btn btn--primary" href={telHref}>Bel {SITE.telefoonWeergave}</a>
+        <a class="btn btn--wa" href={waHref("Hoi Rens, ik heb een vraag over mijn dak.")}>WhatsApp Rens</a>
       </div>
     </div>
   </section>

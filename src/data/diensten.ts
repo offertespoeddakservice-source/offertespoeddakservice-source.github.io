@@ -64,6 +64,7 @@ export const DIENSTEN: Dienst[] = [
   {
     slug: "daklekkage",
     titel: "Daklekkage & spoed",
+    vanafPrijs: "€200 – €500",
     h1: "Daklekkage verhelpen — vaak dezelfde dag langs in de regio Den Bosch",
     kort: "Lek opsporen zonder sloopwerk en snel dichten, ook bij spoed.",
     metaTitle: "Daklekkage repareren & spoed | Spoed Dak Service",
@@ -104,6 +105,7 @@ export const DIENSTEN: Dienst[] = [
   {
     slug: "dakreparatie",
     titel: "Dakreparatie",
+    vanafPrijs: "€100 – €250",
     h1: "Dakreparatie — pannen, lood en kitwerk vakkundig hersteld",
     kort: "Gebroken pannen, lood bij schoorsteen of dakraam, losse nokvorsten.",
     metaTitle: "Dakreparatie: pannen, lood & nokvorst | Spoed Dak Service",
@@ -128,6 +130,7 @@ export const DIENSTEN: Dienst[] = [
   {
     slug: "platte-daken",
     titel: "Platte daken (EPDM)",
+    vanafPrijs: "lek vanaf €200",
     h1: "Plat dak repareren of vervangen — EPDM en bitumen",
     kort: "Lekkage in plat dak opsporen en herstellen, of de hele bedekking vernieuwen.",
     metaTitle: "Plat dak repareren & EPDM | Spoed Dak Service",
@@ -153,6 +156,7 @@ export const DIENSTEN: Dienst[] = [
   {
     slug: "stormschade",
     titel: "Stormschade",
+    vanafPrijs: "spoed — prijs vooraf",
     h1: "Stormschade aan je dak — bel direct, ik beperk de schade",
     kort: "Weggewaaide pannen, losse delen of lekkage na storm? Snel actie.",
     metaTitle: "Stormschade dak — noodreparatie | Spoed Dak Service",
@@ -185,6 +189,7 @@ export const DIENSTEN: Dienst[] = [
   {
     slug: "dakgoot-vervangen",
     titel: "Dakgoot vervangen",
+    vanafPrijs: "vaste prijs vooraf",
     h1: "Dakgoot vervangen — bij roest, scheuren of een goot die blijft overlopen",
     kort: "Versleten of lekkende goot? Nieuwe zinken, kunststof of pvc goot, netjes gemonteerd.",
     metaTitle: "Dakgoot vervangen | Spoed Dak Service",
@@ -207,6 +212,7 @@ export const DIENSTEN: Dienst[] = [
   {
     slug: "dakcoating",
     titel: "Dak coaten",
+    vanafPrijs: "prijs na inspectie",
     h1: "Dak coaten — bescherm je pannen en goten, veel goedkoper dan vervangen",
     kort: "Coating beschermt pannen en goten die nog goed zijn tegen mos, vuil en slijtage.",
     metaTitle: "Dak coaten & dakcoating | Spoed Dak Service",
@@ -251,6 +257,7 @@ export const DIENSTEN: Dienst[] = [
   {
     slug: "dakpannen-vervangen",
     titel: "Dakpannen vervangen",
+    vanafPrijs: "€100 – €250",
     h1: "Dakpannen vervangen of recht leggen — voorkom lekkage",
     kort: "Gebroken, verschoven of versleten pannen vervangen of opnieuw recht leggen.",
     metaTitle: "Dakpannen vervangen | Spoed Dak Service",
@@ -338,6 +345,7 @@ export const DIENSTEN: Dienst[] = [
   {
     slug: "vogelwering",
     titel: "Vogelwering",
+    vanafPrijs: "vaste prijs vooraf",
     h1: "Vogelwering — geen vogels meer onder je pannen of zonnepanelen",
     kort: "Nette vogelwering tegen schade aan panlatten, isolatie en kabels.",
     metaTitle: "Vogelwering dak & zonnepanelen | Spoed Dak Service",
@@ -359,6 +367,7 @@ export const DIENSTEN: Dienst[] = [
   {
     slug: "dakrenovatie",
     titel: "Dakrenovatie",
+    vanafPrijs: "€50 – €170 p/m²",
     h1: "Dakrenovatie — je dak weer jaren mee, zonder meteen een compleet nieuw dak",
     kort: "Versleten dak grondig opknappen: pannen, lood, nok en goten in één keer aangepakt.",
     metaTitle: "Dakrenovatie | Spoed Dak Service",
