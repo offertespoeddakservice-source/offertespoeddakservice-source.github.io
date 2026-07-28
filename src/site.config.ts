@@ -23,8 +23,8 @@ export const SITE = {
   basisplaats: "'s-Hertogenbosch",
   regioOmschrijving: "regio Den Bosch en omstreken (± 45 minuten)",
 
-  // Google Bedrijfsprofiel review-link (uit je Business Profile → "Get more reviews").
-  reviewLink: "https://g.page/r/JOUW_PLACE_ID/review", // TODO
+  // Google Bedrijfsprofiel review-link (uit Business Profile → "Get more reviews", opgehaald 2026-07-28).
+  reviewLink: "https://g.page/r/CdIYfisQX73IEBM/review",
 
   // Echte reviewscore — pas aan zodra je reviews hebt (laat anders weg uit schema).
   reviews: {
