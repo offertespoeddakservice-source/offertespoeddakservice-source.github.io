@@ -25,7 +25,7 @@ export const DIENSTEN: Dienst[] = [
     titel: "Goten reinigen",
     h1: "Dakgoot reinigen — snel, netjes en met eerlijk advies",
     kort: "Verstopte of volle goten leeg — en ik meld het eerlijk als er meer speelt op je dak.",
-    metaTitle: "Dakgoot reinigen — vaste prijs vooraf | Spoed Dak Service",
+    metaTitle: "Dakgoot reinigen — €99 all-in, regio Den Bosch | Spoed Dak Service",
     metaDescription:
       "Goten laten reinigen in de regio Den Bosch: €99 all-in voor een rijtjeswoning, vaste prijs vooraf. Snel langs, netjes werk en eerlijk advies over je dak. Bel of WhatsApp Rens.",
     icoon: "🪣",
@@ -67,7 +67,7 @@ export const DIENSTEN: Dienst[] = [
     vanafPrijs: "€200 – €500",
     h1: "Daklekkage verhelpen — vaak dezelfde dag langs in de regio Den Bosch",
     kort: "Lek opsporen zonder sloopwerk en snel dichten, ook bij spoed.",
-    metaTitle: "Daklekkage repareren & spoed | Spoed Dak Service",
+    metaTitle: "Daklekkage repareren — spoed, regio Den Bosch | Spoed Dak Service",
     metaDescription:
       "Daklekkage? Ik spoor het lek op zonder sloopwerk en repareer het snel — vaak nog dezelfde dag in de regio Den Bosch. Bel of WhatsApp direct.",
     icoon: "💧",
@@ -108,7 +108,7 @@ export const DIENSTEN: Dienst[] = [
     vanafPrijs: "€100 – €250",
     h1: "Dakreparatie — pannen, lood en kitwerk vakkundig hersteld",
     kort: "Gebroken pannen, lood bij schoorsteen of dakraam, losse nokvorsten.",
-    metaTitle: "Dakreparatie: pannen, lood & nokvorst | Spoed Dak Service",
+    metaTitle: "Dakreparatie Den Bosch: pannen, lood & nokvorst | Spoed Dak Service",
     metaDescription:
       "Dakpannen vervangen, lood bij schoorsteen en dakraam herstellen, nokvorsten vastzetten. Vakkundige dakreparatie in de regio Den Bosch.",
     icoon: "🧰",
@@ -133,7 +133,7 @@ export const DIENSTEN: Dienst[] = [
     vanafPrijs: "lek vanaf €200",
     h1: "Plat dak repareren of vervangen — EPDM en bitumen",
     kort: "Lekkage in plat dak opsporen en herstellen, of de hele bedekking vernieuwen.",
-    metaTitle: "Plat dak repareren & EPDM | Spoed Dak Service",
+    metaTitle: "Plat dak repareren Den Bosch — EPDM & bitumen | Spoed Dak Service",
     metaDescription:
       "Lekkage in een plat dak? EPDM- en bitumendaken repareren of vervangen in de regio Den Bosch. Eerlijke prijs en garantie op het werk.",
     icoon: "🏠",
@@ -159,7 +159,7 @@ export const DIENSTEN: Dienst[] = [
     vanafPrijs: "spoed — prijs vooraf",
     h1: "Stormschade aan je dak — bel direct, ik beperk de schade",
     kort: "Weggewaaide pannen, losse delen of lekkage na storm? Snel actie.",
-    metaTitle: "Stormschade dak — noodreparatie | Spoed Dak Service",
+    metaTitle: "Stormschade dak — noodreparatie regio Den Bosch | Spoed Dak Service",
     metaDescription:
       "Stormschade aan je dak: weggewaaide pannen of lekkage? Ik kom snel langs voor noodreparatie in de regio Den Bosch en help met foto's voor de verzekering.",
     icoon: "🌬️",
@@ -192,7 +192,7 @@ export const DIENSTEN: Dienst[] = [
     vanafPrijs: "vaste prijs vooraf",
     h1: "Dakgoot vervangen — bij roest, scheuren of een goot die blijft overlopen",
     kort: "Versleten of lekkende goot? Nieuwe zinken, kunststof of pvc goot, netjes gemonteerd.",
-    metaTitle: "Dakgoot vervangen | Spoed Dak Service",
+    metaTitle: "Dakgoot vervangen Den Bosch | Spoed Dak Service",
     metaDescription:
       "Lekkende of roestige dakgoot vervangen in de regio Den Bosch. Zink, kunststof of pvc, inclusief afvoer. Vaste prijs vooraf, geen voorrijkosten.",
     icoon: "🛠",
@@ -215,7 +215,7 @@ export const DIENSTEN: Dienst[] = [
     vanafPrijs: "prijs na inspectie",
     h1: "Dak coaten — bescherm je pannen en goten, veel goedkoper dan vervangen",
     kort: "Coating beschermt pannen en goten die nog goed zijn tegen mos, vuil en slijtage.",
-    metaTitle: "Dak coaten & dakcoating | Spoed Dak Service",
+    metaTitle: "Dak coaten & dakcoating Den Bosch | Spoed Dak Service",
     metaDescription:
       "Dakpannen of dakgoot coaten in de regio Den Bosch — beschermt wat nog goed is en is veel goedkoper dan vervangen. Vaste prijs vooraf. Bel of WhatsApp Rens.",
     icoon: "🛡",
@@ -237,7 +237,7 @@ export const DIENSTEN: Dienst[] = [
     titel: "Dak reinigen",
     h1: "Dak reinigen — mos, vuil en groene aanslag eraf",
     kort: "Mos en aanslag verwijderen zodat je dak weer ademt en langer meegaat.",
-    metaTitle: "Dak reinigen & mos verwijderen | Spoed Dak Service",
+    metaTitle: "Dak reinigen & mos verwijderen Den Bosch | Spoed Dak Service",
     metaDescription:
       "Dak laten reinigen in de regio Den Bosch: mos, vuil en groene aanslag eraf voor €8–€15 per m². Voorkomt verstopping en schade. Vaste prijs vooraf. Bel of WhatsApp Rens.",
     icoon: "🧽",
@@ -260,7 +260,7 @@ export const DIENSTEN: Dienst[] = [
     vanafPrijs: "€100 – €250",
     h1: "Dakpannen vervangen of recht leggen — voorkom lekkage",
     kort: "Gebroken, verschoven of versleten pannen vervangen of opnieuw recht leggen.",
-    metaTitle: "Dakpannen vervangen | Spoed Dak Service",
+    metaTitle: "Dakpannen vervangen Den Bosch | Spoed Dak Service",
     metaDescription:
       "Gebroken of verschoven dakpannen vervangen en recht leggen in de regio Den Bosch. Voorkomt lekkage en tocht. Vaste prijs vooraf. Bel of WhatsApp Rens.",
     icoon: "🧱",
@@ -282,7 +282,7 @@ export const DIENSTEN: Dienst[] = [
     vanafPrijs: "€70",
     h1: "Schoorsteen vegen — veilig, netjes en zonder roetzooi",
     kort: "De hele schoorsteen geveegd, plus een blik op het lood en de aansluiting.",
-    metaTitle: "Schoorsteen vegen | Spoed Dak Service",
+    metaTitle: "Schoorsteen vegen Den Bosch — €70 | Spoed Dak Service",
     metaDescription:
       "Schoorsteen laten vegen in de regio Den Bosch — veilig, netjes en zonder roetzooi in huis. Meteen controle op lood en aansluiting. Bel of WhatsApp Rens.",
     icoon: "🧹",
@@ -304,7 +304,7 @@ export const DIENSTEN: Dienst[] = [
     vanafPrijs: "vanaf €70",
     h1: "Dakkapel poetsen en onderhouden — weer fris en waterdicht",
     kort: "Dakkapel reinigen, kitwerk en aansluitingen nakijken zodat 'ie niet gaat lekken.",
-    metaTitle: "Dakkapel poetsen & onderhoud | Spoed Dak Service",
+    metaTitle: "Dakkapel poetsen & onderhoud Den Bosch | Spoed Dak Service",
     metaDescription:
       "Dakkapel laten poetsen en onderhouden in de regio Den Bosch. Reinigen plus controle van kit en aansluitingen tegen lekkage. Vaste prijs vooraf. Bel Rens.",
     icoon: "🏠",
@@ -326,7 +326,7 @@ export const DIENSTEN: Dienst[] = [
     vanafPrijs: "vanaf €10 p/paneel",
     h1: "Zonnepanelen reinigen — meer opbrengst uit je panelen",
     kort: "Vuile panelen leveren minder op. Ik maak ze veilig en streepvrij schoon.",
-    metaTitle: "Zonnepanelen reinigen | Spoed Dak Service",
+    metaTitle: "Zonnepanelen reinigen Den Bosch | Spoed Dak Service",
     metaDescription:
       "Zonnepanelen laten reinigen in de regio Den Bosch voor maximale opbrengst. Veilig vanaf het dak, streepvrij schoon. Vaste prijs vooraf.",
     icoon: "🔆",
@@ -348,7 +348,7 @@ export const DIENSTEN: Dienst[] = [
     vanafPrijs: "vaste prijs vooraf",
     h1: "Vogelwering — geen vogels meer onder je pannen of zonnepanelen",
     kort: "Nette vogelwering tegen schade aan panlatten, isolatie en kabels.",
-    metaTitle: "Vogelwering dak & zonnepanelen | Spoed Dak Service",
+    metaTitle: "Vogelwering dak & zonnepanelen Den Bosch | Spoed Dak Service",
     metaDescription:
       "Vogelwering plaatsen onder dakpannen en zonnepanelen in de regio Den Bosch. Voorkomt schade aan panlatten, isolatie en bekabeling. Vaste prijs vooraf.",
     icoon: "🐦",
@@ -370,7 +370,7 @@ export const DIENSTEN: Dienst[] = [
     vanafPrijs: "€50 – €170 p/m²",
     h1: "Dakrenovatie — je dak weer jaren mee, zonder meteen een compleet nieuw dak",
     kort: "Versleten dak grondig opknappen: pannen, lood, nok en goten in één keer aangepakt.",
-    metaTitle: "Dakrenovatie | Spoed Dak Service",
+    metaTitle: "Dakrenovatie Den Bosch & regio | Spoed Dak Service",
     metaDescription:
       "Dakrenovatie in de regio Den Bosch: pannen, lood, nok en goten in één keer aangepakt zodat je dak weer jaren meegaat. Eerlijk advies, vaste prijs vooraf.",
     icoon: "🏚",

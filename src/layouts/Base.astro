@@ -12,7 +12,8 @@ interface Props {
 }
 
 const { title, description, path = "/", schema, noindex = false } = Astro.props;
-const canonical = new URL(path, SITE.url).href;
+// Canonical altijd mét slash op het eind — GitHub Pages stuurt /pad door naar /pad/, dus zo wijst de canonical direct naar de eind-URL (geen redirect-signaal voor Google).
+const canonical = new URL(path === "/" ? "/" : (path.endsWith("/") ? path : path + "/"), SITE.url).href;
 
 const businessSchema: Record<string, unknown> = {
   "@context": "https://schema.org",
@@ -130,6 +131,7 @@ const schemas = [businessSchema, websiteSchema, ...(breadcrumbSchema ? [breadcru
         <details class="m-menu">
           <summary aria-label="Menu openen">
             <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#0f2742" stroke-width="2.4" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+            <span style="font-family:var(--font-display);font-weight:800;color:var(--navy);font-size:.9rem;margin-left:4px;">Menu</span>
           </summary>
           <div class="m-menu-panel">
             {NAV.map((item) => <a href={item.href}>{item.label}</a>)}
@@ -183,7 +185,8 @@ const schemas = [businessSchema, websiteSchema, ...(breadcrumbSchema ? [breadcru
         </p>
         <div class="btn-row" style="justify-content:center;">
           <a class="btn btn--primary" href={telHref}>Bel {SITE.telefoonWeergave}</a>
-          <a class="btn btn--wa" href="/dak-apk">Bekijk de Dak-APK — €49</a>
+          <a class="btn btn--wa" href={waHref()}>WhatsApp Rens</a>
+          <a class="btn btn--ghost" href="/dak-apk">Bekijk de Dak-APK — €49</a>
         </div>
       </div>
     </section>
@@ -201,6 +204,7 @@ const schemas = [businessSchema, websiteSchema, ...(breadcrumbSchema ? [breadcru
           <div>
             <h3>Diensten</h3>
             <ul>
+              <li><a href="/spoed">Spoed / lekkage nu</a></li>
               <li><a href="/diensten/goten-reinigen">Goten reinigen</a></li>
               <li><a href="/diensten/daklekkage">Daklekkage &amp; spoed</a></li>
               <li><a href="/diensten/dakreparatie">Dakreparatie</a></li>
@@ -226,7 +230,7 @@ const schemas = [businessSchema, websiteSchema, ...(breadcrumbSchema ? [breadcru
           </div>
         </div>
         <div class="foot-bottom">
-          © {new Date().getFullYear()} {SITE.bedrijfsnaam}{SITE.kvk ? ` · KvK ${SITE.kvk}` : ""} · regio {SITE.basisplaats}
+          © {new Date().getFullYear()} {SITE.bedrijfsnaam}{SITE.kvk ? ` · KvK ${SITE.kvk}` : ""} · regio {SITE.basisplaats} · <a href="/privacy">Privacy</a>
         </div>
       </div>
     </footer>

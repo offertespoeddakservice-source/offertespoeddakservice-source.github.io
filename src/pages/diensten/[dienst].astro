@@ -54,19 +54,28 @@ const relArtikel = ({
 <Base title={d.metaTitle} description={d.metaDescription} path={path} schema={schema}>
   <section class="hero">
     <div class="wrap">
-      <p class="eyebrow" style="color:#ffb486;">{d.titel} · {SITE.regioOmschrijving}</p>
+      <div class="topline">
+        <span class="eyebrow" style="color:#ffb486; margin:0;">{d.titel} · {SITE.regioOmschrijving}</span>
+        <span class="stars"><span class="ster">★★★★★</span> <b>4,8</b> <span class="bron">op Werkspot</span></span>
+      </div>
       <h1>{d.h1}</h1>
       <p class="lead">{d.intro}</p>
+      {d.vanafPrijs && (
+        <p style="margin:16px 0 0; font-size:1.1rem; color:#fff;">
+          <strong style="font-family:var(--font-display);">Prijsindicatie: <span style="color:var(--orange);">{d.vanafPrijs}</span></strong>
+          <span style="color:#c2d2e3;"> — vaste prijs vooraf, je hoort het bedrag voordat ik begin. Offerte is gratis.</span>
+        </p>
+      )}
       <div class="btn-row" style="margin-top:22px;">
         <a class="btn btn--primary" href={telHref}>Bel {SITE.telefoonWeergave}</a>
         <a class="btn btn--wa" href={waHref(`Hoi Rens, ik heb een vraag over ${d.titel.toLowerCase()}.`)}>WhatsApp Rens</a>
       </div>
-      <img src={d.afbeelding ?? `/img/${d.slug}.jpg`} alt={`${d.titel} in de regio Den Bosch — Spoed Dak Service`} loading="lazy" width="900" height="600" style="margin-top:28px;border-radius:12px;width:100%;max-width:820px;height:auto;display:block;" />
+      <img src={d.afbeelding ?? `/img/${d.slug}.jpg`} alt={`${d.titel} — Spoed Dak Service`} loading="eager" fetchpriority="high" width="1200" height="896" style="margin-top:28px;border-radius:12px;width:100%;max-width:820px;height:auto;display:block;" />
     </div>
   </section>
 
   <section class="section">
-    <div class="wrap" style="display:grid; grid-template-columns: 1.3fr .9fr; gap:40px;">
+    <div class="wrap split">
       <div class="prose">
         <h2>Wat ik voor je doe</h2>
         <ul class="checks">

@@ -1,0 +1,52 @@
+---
+import Base from "../layouts/Base.astro";
+import { SITE, telHref } from "../site.config.ts";
+---
+
+<Base
+  title={`Privacy | ${SITE.bedrijfsnaam}`}
+  description="Hoe Spoed Dak Service met je gegevens omgaat: alleen om je aanvraag op te pakken, nooit voor iets anders."
+  path="/privacy"
+>
+  <section class="hero">
+    <div class="wrap">
+      <p class="eyebrow" style="color:#ffb486;">Privacy</p>
+      <h1>Hoe ik met je gegevens omga</h1>
+      <p class="lead">Kort en zonder juridisch wollig taalgebruik — zoals alles hier.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap prose" style="max-width:70ch;">
+      <h2>Welke gegevens ik krijg</h2>
+      <p>
+        Als je belt, WhatsAppt, mailt of het formulier gebruikt, krijg ik wat je zelf invult of stuurt:
+        je naam, telefoonnummer, eventueel je e-mailadres en plaats, en je omschrijving (met eventuele foto's van je dak).
+      </p>
+      <h2>Waarvoor ik ze gebruik</h2>
+      <p>
+        Alleen om je aanvraag op te pakken: contact met je opnemen, een prijs geven en de klus inplannen en uitvoeren.
+        Voor de administratie (offertes en facturen) bewaar ik gegevens zolang de Belastingdienst dat vraagt (7 jaar).
+        Ik verkoop of deel je gegevens niet met anderen voor reclame. Nieuwsbrieven of belletjes achteraf krijg je niet van mij.
+      </p>
+      <h2>Formulieren, WhatsApp en e-mail</h2>
+      <p>
+        Het formulier op deze site verstuurt je aanvraag via je éigen WhatsApp of e-mailprogramma — je ziet dus zelf
+        precies wat je verstuurt, en er wordt niets stiekem opgeslagen op deze website. Voor WhatsApp geldt het
+        privacybeleid van WhatsApp zelf.
+      </p>
+      <h2>Meten van advertenties</h2>
+      <p>
+        Deze site gebruikt Google-meting om te zien of advertenties werken (bijvoorbeeld: hoe vaak er op "bellen" wordt
+        gedrukt). Daarvoor kan Google cookies plaatsen. Wil je dat niet, dan kun je cookies blokkeren in je browser —
+        de site werkt dan gewoon.
+      </p>
+      <h2>Inzien of verwijderen</h2>
+      <p>
+        Wil je weten wat ik van je heb, of wil je dat ik het verwijder? Bel of app me op
+        <a href={telHref}>{SITE.telefoonWeergave}</a> of mail naar
+        <a href={`mailto:${SITE.email}`}>{SITE.email}</a> — dan regel ik het.
+      </p>
+    </div>
+  </section>
+</Base>

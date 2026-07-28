@@ -28,12 +28,21 @@ const faqSchema = {
   path="/"
   schema={faqSchema}
 >
+  <!-- SPOEDBALK: acute lekkage direct naar bellen -->
+  <div class="spoed-bar">
+    <div class="wrap">
+      <span>Lekkage of stormschade <strong>nú</strong>? Vaak dezelfde dag langs.</span>
+      <a class="tel" href={telHref}>Bel direct {SITE.telefoonWeergave}</a>
+      <a class="meer" href="/spoed">Wat te doen bij een lek →</a>
+    </div>
+  </div>
+
   <!-- HERO -->
   <section class="hero">
     <div class="wrap">
       <div class="topline">
         <span class="kicker">Dakdekker · {SITE.regioOmschrijving}</span>
-        <span class="stars"><span class="ster">★★★★★</span> <b>{score}</b></span>
+        <span class="stars"><span class="ster">★★★★★</span> <b>{score}</b> <span class="bron">op Werkspot</span></span>
       </div>
       <h1>Vakkundig dakwerk<br />door één vaste man</h1>
       <p class="lead">
@@ -162,12 +171,13 @@ const faqSchema = {
     <div class="wrap">
       <p class="eyebrow" style="color:#ffb486;">Wat klanten zeggen</p>
       <div class="stars" style="justify-content:center; margin-bottom:6px;">
-        <span class="ster" style="font-size:1.6rem;">★★★★★</span> <b style="font-size:1.9rem;">{score}</b>
+        <span class="ster" style="font-size:1.6rem;">★★★★★</span> <b style="font-size:1.9rem;">{score}</b> <span class="bron" style="font-size:1rem;">op Werkspot</span>
       </div>
       <h2>Mensen kiezen voor een échte vakman uit de buurt</h2>
       <p class="lead" style="margin:0 auto 22px; color:#c2d2e3;">
-        Geen callcenter, wél iemand die terugbelt en eerlijk zegt wat nodig is. Tevreden na de klus?
-        Een korte Google-review helpt mij enorm — én helpt je buren een betrouwbare dakdekker te vinden.
+        Klanten op Werkspot gaven mij gemiddeld een {score}. Geen callcenter, wél iemand die terugbelt en eerlijk
+        zegt wat nodig is. Ben je na de klus tevreden? Een korte review op Google helpt mij enorm — én helpt je
+        buren een betrouwbare dakdekker te vinden.
       </p>
       {googleReviewLink && <a class="btn btn--primary" href={googleReviewLink}>Bekijk &amp; plaats reviews op Google</a>}
     </div>

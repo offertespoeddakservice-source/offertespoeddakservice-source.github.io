@@ -1,0 +1,106 @@
+---
+import Base from "../layouts/Base.astro";
+import { SITE, telHref, waHref } from "../site.config.ts";
+
+const stappen = [
+  { n: "1", titel: "Beperk de schade binnen", tekst: "Zet een emmer onder het lek, leg handdoeken neer en schuif spullen en meubels opzij. Prik bij een bolstaand plafond met vocht erachter één klein gaatje boven de emmer — dan komt het water gecontroleerd naar beneden." },
+  { n: "2", titel: "Blijf zelf van het dak af", tekst: "Zeker bij storm of regen: klim niet zelf het dak op. Een natte pan of ladder is zo gebeurd — en de schade wordt er zelden beter van." },
+  { n: "3", titel: "Maak foto's", tekst: "Foto's van de natte plek binnen en (vanaf de grond) van het dak. Handig voor mij om alvast mee te kijken — en voor je verzekering bij stormschade." },
+  { n: "4", titel: "Bel of app mij direct", tekst: "Bel of stuur je foto's via WhatsApp. Ik zeg meteen wat je nu zelf kunt doen en wanneer ik er kan zijn — bij spoed in de regio vaak nog dezelfde dag." },
+];
+
+const faq = [
+  { v: "Hoe snel kun je er zijn bij een lekkage?", a: "Bij spoed in de regio Den Bosch vaak nog dezelfde dag. Bel of WhatsApp 06 10 18 53 57, dan hoor je meteen wanneer ik kan. Bij een officiële stormwaarschuwing kan het drukker zijn, maar je hoort altijd binnen 24 uur waar je aan toe bent." },
+  { v: "Wat kost een spoedreparatie?", a: "Een daklekkage opsporen en dichten kost meestal €200–€500, inclusief materiaal. Buiten kantooruren ('s avonds, weekend, feestdagen) geldt een toeslag van 20–30%. Je hoort altijd de vaste prijs vóórdat ik begin — ook bij spoed." },
+  { v: "Kom je ook 's avonds of in het weekend?", a: "Bij echte spoed — een actief lek of een open dak na storm — wel. Dat kan niet wachten. Bel 06 10 18 53 57, ook buiten kantooruren." },
+  { v: "Is de natte plek binnen ook de plek van het lek?", a: "Zelden. Water loopt langs balken en folie en komt vaak meters verderop naar binnen. Ik spoor het echte lek op zonder onnodig sloopwerk." },
+  { v: "Valt stormschade onder mijn verzekering?", a: "Storm- en hagelschade valt vaak onder je opstalverzekering. Ik maak duidelijke foto's en een omschrijving die je direct kunt indienen." },
+];
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: faq.map((f) => ({ "@type": "Question", name: f.v, acceptedAnswer: { "@type": "Answer", text: f.a } })),
+};
+---
+
+<Base
+  title={`Spoed dakdekker regio Den Bosch — vaak dezelfde dag | ${SITE.bedrijfsnaam}`}
+  description="Acute daklekkage of stormschade? Spoed dakdekker in de regio Den Bosch — vaak dezelfde dag langs, ook 's avonds en in het weekend. Bel 06 10 18 53 57."
+  path="/spoed"
+  schema={faqSchema}
+>
+  <section class="hero">
+    <div class="wrap">
+      <div class="topline">
+        <span class="kicker">Spoed · {SITE.regioOmschrijving}</span>
+        <span class="stars"><span class="ster">★★★★★</span> <b>4,8</b> <span class="bron">op Werkspot</span></span>
+      </div>
+      <h1>Lekkage of stormschade?<br />Vaak dezelfde dag langs</h1>
+      <p class="lead">
+        Een lek wacht niet, ik ook niet. Bel of stuur direct een foto via WhatsApp — je krijgt mij
+        (Rens) meteen aan de lijn, ik zeg wat je nú zelf kunt doen en wanneer ik er ben.
+      </p>
+      <p style="margin:16px 0 0; font-size:1.1rem; color:#fff;">
+        <strong style="font-family:var(--font-display);">Ma–za 07:00–20:00 · bij echte spoed 24/7</strong>
+        <span style="color:#c2d2e3;"> — lek dichten meestal €200–€500, vaste prijs vooraf, ook bij spoed.</span>
+      </p>
+      <div class="btn-row" style="margin-top:22px;">
+        <a class="btn btn--primary" href={telHref}>Bel direct {SITE.telefoonWeergave}</a>
+        <a class="btn btn--wa" href={waHref("Hoi Rens, ik heb NU een lekkage/schade aan mijn dak. Ik stuur zo een foto mee.")}>WhatsApp een foto</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--white">
+    <div class="wrap">
+      <p class="eyebrow">Terwijl je wacht</p>
+      <h2>Dit doe je nu eerst</h2>
+      <div class="stappen">
+        {stappen.map((s) => (
+          <div class="stap"><div class="n">{s.n}</div><h3>{s.titel}</h3><p>{s.tekst}</p></div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <p class="eyebrow">Waar ik direct bij help</p>
+      <h2>Spoedklussen</h2>
+      <div class="grid grid-3" style="margin-top:22px;">
+        <a class="card" href="/diensten/daklekkage">
+          <h3>Daklekkage</h3>
+          <p>Lek opsporen zonder sloopwerk en snel dichten — eerst de schade stoppen, dan netjes herstellen.</p>
+          <span class="price">€200 – €500</span>
+        </a>
+        <a class="card" href="/diensten/stormschade">
+          <h3>Stormschade</h3>
+          <p>Weggewaaide pannen of een open dak: afdekken, herstellen en foto's voor je verzekering.</p>
+          <span class="price">prijs vooraf</span>
+        </a>
+        <a class="card" href="/diensten/dakgoot-vervangen">
+          <h3>Overlopende of kapotte goot</h3>
+          <p>Water langs de gevel? Verstopping verhelpen of de goot herstellen voordat het een lek wordt.</p>
+          <span class="price">reinigen €99 all-in</span>
+        </a>
+      </div>
+      <p class="notice" style="margin-top:20px;">
+        Buiten kantooruren ('s avonds, weekend, feestdagen) geldt een spoedtoeslag van 20–30%. Ook dan hoor je de vaste prijs vóórdat ik begin. Alle richtprijzen staan op de <a href="/prijzen">prijzen-pagina</a>.
+      </p>
+    </div>
+  </section>
+
+  <section class="section section--soft">
+    <div class="wrap">
+      <h2>Veelgestelde spoedvragen</h2>
+      <div class="faq" style="margin-top:16px; max-width:760px;">
+        {faq.map((f) => (
+          <details>
+            <summary>{f.v}</summary>
+            <p>{f.a}</p>
+          </details>
+        ))}
+      </div>
+    </div>
+  </section>
+</Base>

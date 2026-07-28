@@ -260,7 +260,7 @@ export const ARTIKELEN: Artikel[] = [
       "KvK-inschrijving, een schriftelijke offerte, verzekering en garantie, meerdere offertes vergelijken — dit zijn de punten waar je op moet letten. Hieronder leg ik per punt uit waarom, en hoe ik dat zelf regel.",
     secties: [
       { kop: "Waarom dit een reëel risico is", tekst: [
-        "Branchevereniging Vebidak meldt zelf tientallen keren per jaar fraude in de dakendbranche en noemt dat \"het topje van de ijsberg\" — het gaat dus niet om een enkel incident. Eind 2025 deed de Hoge Raad uitspraak in een zaak met zeven gedupeerden; in een andere, aparte rechtszaak betaalde een klant €7.200 voor een offerte terwijl het werk €2.000 waard bleek, en kreeg hij achteraf €8.500 terug via de rechter.",
+        "Branchevereniging Vebidak meldt zelf tientallen keren per jaar fraude in de dakenbranche en noemt dat \"het topje van de ijsberg\" — het gaat dus niet om een enkel incident. Eind 2025 deed de Hoge Raad uitspraak in een zaak met zeven gedupeerden; in een andere, aparte rechtszaak betaalde een klant €7.200 voor een offerte terwijl het werk €2.000 waard bleek, en kreeg hij achteraf €8.500 terug via de rechter.",
         "Dat betekent niet dat de meeste dakdekkers oneerlijk zijn — verreweg de meeste doen gewoon hun werk. Maar de klachten die er wél zijn, volgen bijna altijd hetzelfde patroon: een mondelinge toezegging, een prijs die achteraf oploopt, en geen vast aanspreekpunt zodra er iets misgaat. Daar is met een paar checks vooraf veel van te voorkomen.",
       ] },
       { kop: "Checklist: waar je op let vóór je akkoord geeft", tekst: [
@@ -307,7 +307,7 @@ export const ARTIKELEN: Artikel[] = [
     ],
     dienst: { label: "Bekijk alle prijzen", href: "/prijzen" },
     faq: [
-      { v: "Rekenen jullie voorrijkosten?", a: "Voor een keuring wel: dat is de Dak-APK (€49). Weet je al wat er moet gebeuren? Dan hoor je de vaste prijs vooraf, zonder verrassingen." },
+      { v: "Reken je voorrijkosten?", a: "Nee — een offerte is altijd gratis: bel of stuur een foto via WhatsApp en je hoort de vaste prijs vooraf. Wil je een complete keuring van je hele dak mét fotorapport? Dat is de Dak-APK (€49), maar die is optioneel." },
       { v: "Krijg ik de prijs op papier?", a: "Je hoort de vaste prijs vooraf en krijgt die desgewenst op de offerte. Geen verrassingen achteraf." },
     ],
   },

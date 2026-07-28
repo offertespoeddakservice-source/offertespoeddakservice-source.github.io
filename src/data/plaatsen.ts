@@ -129,11 +129,11 @@ export const PLAATSEN: Plaats[] = [
   },
   {
     slug: "den-bosch",
-    naam: "'s-Hertogenbosch",
+    naam: "Den Bosch",
     lokaal:
-      "Mijn standplaats: van de oude binnenstad met monumentale daken tot naoorlogse wijken met schuine pannendaken. Hier ben ik dagelijks, dus bij spoed sta ik snel voor je deur.",
+      "Mijn thuisbasis: van de oude binnenstad met monumentale daken tot naoorlogse wijken met schuine pannendaken. Hier ben ik dagelijks, dus bij spoed sta ik snel voor je deur.",
     wijken: ["Muntel", "Boschveld", "De Slagen", "Maaspoort", "Zuid", "Empel", "Engelen"],
-    reistijd: "mijn standplaats",
+    reistijd: "een paar minuten vanaf mijn thuisbasis",
   },
   {
     slug: "veghel",
