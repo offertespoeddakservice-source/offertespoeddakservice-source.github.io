@@ -31,9 +31,10 @@ const faqSchema = {
   <!-- SPOEDBALK: acute lekkage direct naar bellen -->
   <div class="spoed-bar">
     <div class="wrap">
-      <span>Lekkage of stormschade <strong>nú</strong>? Vaak dezelfde dag langs.</span>
-      <a class="tel" href={telHref}>Bel direct {SITE.telefoonWeergave}</a>
-      <a class="meer" href="/spoed">Wat te doen bij een lek →</a>
+      <span>Lekkage of stormschade <strong>nú</strong>? Dag en nacht bereikbaar.</span>
+      <a class="tel" href={waHref("Hoi Rens, ik heb NU een lekkage/schade aan mijn dak. Ik stuur zo een foto mee.")}>App direct een foto</a>
+      <a class="meer" href={telHref}>of bel {SITE.telefoonWeergave}</a>
+      <a class="meer" href="/spoed">Eerste hulp bij een lek →</a>
     </div>
   </div>
 
@@ -65,8 +66,8 @@ const faqSchema = {
         <span><span class="v">✓</span> Vaak dezelfde dag bij spoed</span>
       </div>
       <div class="btn-row">
-        <a class="btn btn--primary" href={telHref}>Bel {SITE.telefoonWeergave}</a>
         <a class="btn btn--wa" href={waHref()}>WhatsApp Rens</a>
+        <a class="btn btn--primary" href={telHref}>Bel {SITE.telefoonWeergave}</a>
         <a class="btn btn--ghost" href="/dak-apk">Bekijk de Dak-APK</a>
       </div>
     </div>
@@ -159,8 +160,8 @@ const faqSchema = {
       </div>
 
       <div class="btn-row" style="margin-top:24px;">
-        <a class="btn btn--primary" href={telHref}>Bel {SITE.telefoonWeergave} voor jouw prijs</a>
-        <a class="btn btn--wa" href={waHref("Hoi Rens, kun je me een prijsindicatie geven?")}>WhatsApp Rens</a>
+        <a class="btn btn--wa" href={waHref("Hoi Rens, kun je me een prijsindicatie geven?")}>App voor jouw prijs</a>
+        <a class="btn btn--primary" href={telHref}>Bel {SITE.telefoonWeergave}</a>
         <a class="btn btn--outline" href="/prijzen">Alle richtprijzen</a>
       </div>
     </div>

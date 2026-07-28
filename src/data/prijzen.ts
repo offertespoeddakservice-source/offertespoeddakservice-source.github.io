@@ -23,7 +23,7 @@ export const PRIJZEN: PrijsRij[] = [
   { dienst: "Kleine reparatie (losse pan, nokvorst)", prijs: "€100 – €250", uitleg: "Kort klusje, vaste prijs vooraf.", opDakApk: true },
   { dienst: "Daklekkage (punctueel)", prijs: "€200 – €500", uitleg: "Eén lek opsporen en dichten, incl. materiaal.", opDakApk: true },
   { dienst: "Dakisolatie (schuin dak of zoldervloer)", prijs: "vaste prijs na bezoek", uitleg: "Gratis opname, prijs vooraf. Vaak ISDE-subsidie mogelijk." },
-  { dienst: "Spoed buiten kantooruren", prijs: "+20 – 30%", uitleg: "Toeslag voor 's avonds, weekend en feestdagen." },
+  { dienst: "Spoed 's avonds, 's nachts of in het weekend", prijs: "toeslag — prijs vooraf", uitleg: "Dag en nacht bereikbaar. Je hoort de vaste prijs vóórdat ik kom, ook midden in de nacht." },
   { dienst: "Dak-APK (keuring + fotorapport)", prijs: "€49", uitleg: "Compleet keuringsrapport binnen een dagdeel — zie de Dak-APK-pagina." },
 ];
 

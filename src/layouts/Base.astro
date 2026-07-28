@@ -28,9 +28,9 @@ const businessSchema: Record<string, unknown> = {
   priceRange: "€€",
   openingHoursSpecification: {
     "@type": "OpeningHoursSpecification",
-    dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
-    opens: "07:00",
-    closes: "20:00",
+    dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+    opens: "00:00",
+    closes: "23:59",
   },
   areaServed: PLAATSEN.map((p) => ({ "@type": "City", name: p.naam })),
   address: { "@type": "PostalAddress", addressLocality: SITE.basisplaats, addressRegion: "Noord-Brabant", addressCountry: "NL" },
@@ -184,8 +184,8 @@ const schemas = [businessSchema, websiteSchema, ...(breadcrumbSchema ? [breadcru
           Je krijgt mij — Rens — meteen aan de lijn. Twijfel je of je dak nog goed is? Vraag de <strong>Dak-APK</strong> aan: binnen een dagdeel een compleet keuringsrapport met foto's, voor €49.
         </p>
         <div class="btn-row" style="justify-content:center;">
-          <a class="btn btn--primary" href={telHref}>Bel {SITE.telefoonWeergave}</a>
           <a class="btn btn--wa" href={waHref()}>WhatsApp Rens</a>
+          <a class="btn btn--primary" href={telHref}>Bel {SITE.telefoonWeergave}</a>
           <a class="btn btn--ghost" href="/dak-apk">Bekijk de Dak-APK — €49</a>
         </div>
       </div>
@@ -198,8 +198,8 @@ const schemas = [businessSchema, websiteSchema, ...(breadcrumbSchema ? [breadcru
             <h3>{SITE.bedrijfsnaam}</h3>
             <p>{SITE.slogan}</p>
             <p>Werkgebied: {SITE.regioOmschrijving}.</p>
-            <p>Ma–za 07:00–20:00 · spoed 24/7</p>
-            <p>Bellen of appen: meestal dezelfde dag antwoord.</p>
+            <p>Dag en nacht bereikbaar (24/7) — ook bij spoed 's nachts.</p>
+            <p>Liefst via WhatsApp (foto erbij helpt), bellen kan ook.</p>
           </div>
           <div>
             <h3>Diensten</h3>
@@ -237,8 +237,8 @@ const schemas = [businessSchema, websiteSchema, ...(breadcrumbSchema ? [breadcru
     </footer>
 
     <div class="sticky-cta">
-      <a class="btn btn--primary" href={telHref} aria-label={`Bel ${SITE.telefoonWeergave}`}>Bellen</a>
       <a class="btn btn--wa" href={waHref()} aria-label="WhatsApp Rens">WhatsApp</a>
+      <a class="btn btn--primary" href={telHref} aria-label={`Bel ${SITE.telefoonWeergave}`}>Bellen</a>
     </div>
   </body>
 </html>

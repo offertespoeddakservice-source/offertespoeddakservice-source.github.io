@@ -42,8 +42,8 @@ export const SITE = {
   // Handmatige toggle — geen extra build-stap of account nodig.
   stormActief: false,
 
-  // Openingstijden voor schema (24/7 voor spoed; pas aan naar wens).
-  openingstijden: "Ma-Za 07:00-20:00, spoed 24/7",
+  // Dag en nacht bereikbaar — spoed 's nachts is een inkomstenbron (toeslag, maar geen vast percentage beloven).
+  openingstijden: "24/7 bereikbaar",
 
   // Geo van de standplaats (Den Bosch). Voor LocalBusiness-schema.
   geo: { lat: 51.6904, lon: 5.2935 },

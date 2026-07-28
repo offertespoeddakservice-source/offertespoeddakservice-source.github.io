@@ -67,8 +67,8 @@ const relArtikel = ({
         </p>
       )}
       <div class="btn-row" style="margin-top:22px;">
-        <a class="btn btn--primary" href={telHref}>Bel {SITE.telefoonWeergave}</a>
         <a class="btn btn--wa" href={waHref(`Hoi Rens, ik heb een vraag over ${d.titel.toLowerCase()}.`)}>WhatsApp Rens</a>
+        <a class="btn btn--primary" href={telHref}>Bel {SITE.telefoonWeergave}</a>
       </div>
       <img src={d.afbeelding ?? `/img/${d.slug}.jpg`} alt={`${d.titel} — Spoed Dak Service`} loading="eager" fetchpriority="high" width="1000" height="746" style="margin-top:28px;border-radius:12px;width:100%;max-width:820px;height:auto;display:block;" />
     </div>

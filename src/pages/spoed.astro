@@ -11,8 +11,8 @@ const stappen = [
 
 const faq = [
   { v: "Hoe snel kun je er zijn bij een lekkage?", a: "Bij spoed in de regio Den Bosch vaak nog dezelfde dag. Bel of WhatsApp 06 10 18 53 57, dan hoor je meteen wanneer ik kan. Bij een officiële stormwaarschuwing kan het drukker zijn, maar je hoort altijd binnen 24 uur waar je aan toe bent." },
-  { v: "Wat kost een spoedreparatie?", a: "Een daklekkage opsporen en dichten kost meestal €200–€500, inclusief materiaal. Buiten kantooruren ('s avonds, weekend, feestdagen) geldt een toeslag van 20–30%. Je hoort altijd de vaste prijs vóórdat ik begin — ook bij spoed." },
-  { v: "Kom je ook 's avonds of in het weekend?", a: "Bij echte spoed — een actief lek of een open dak na storm — wel. Dat kan niet wachten. Bel 06 10 18 53 57, ook buiten kantooruren." },
+  { v: "Wat kost een spoedreparatie?", a: "Een daklekkage opsporen en dichten kost meestal €200–€500, inclusief materiaal. Buiten kantooruren ('s avonds, 's nachts, weekend en feestdagen) geldt een spoedtoeslag. Je hoort altijd de vaste prijs vóórdat ik begin — ook midden in de nacht." },
+  { v: "Kom je ook 's avonds, 's nachts of in het weekend?", a: "Ja — ik ben dag en nacht bereikbaar (24/7). Een actief lek of een open dak na storm kan niet wachten. App een foto of bel 06 10 18 53 57, op elk moment." },
   { v: "Is de natte plek binnen ook de plek van het lek?", a: "Zelden. Water loopt langs balken en folie en komt vaak meters verderop naar binnen. Ik spoor het echte lek op zonder onnodig sloopwerk." },
   { v: "Valt stormschade onder mijn verzekering?", a: "Storm- en hagelschade valt vaak onder je opstalverzekering. Ik maak duidelijke foto's en een omschrijving die je direct kunt indienen." },
 ];
@@ -41,12 +41,12 @@ const faqSchema = {
         (Rens) meteen aan de lijn, ik zeg wat je nú zelf kunt doen en wanneer ik er ben.
       </p>
       <p style="margin:16px 0 0; font-size:1.1rem; color:#fff;">
-        <strong style="font-family:var(--font-display);">Ma–za 07:00–20:00 · bij echte spoed 24/7</strong>
+        <strong style="font-family:var(--font-display);">Dag en nacht bereikbaar — 24/7</strong>
         <span style="color:#c2d2e3;"> — lek dichten meestal €200–€500, vaste prijs vooraf, ook bij spoed.</span>
       </p>
       <div class="btn-row" style="margin-top:22px;">
-        <a class="btn btn--primary" href={telHref}>Bel direct {SITE.telefoonWeergave}</a>
         <a class="btn btn--wa" href={waHref("Hoi Rens, ik heb NU een lekkage/schade aan mijn dak. Ik stuur zo een foto mee.")}>WhatsApp een foto</a>
+        <a class="btn btn--primary" href={telHref}>Bel direct {SITE.telefoonWeergave}</a>
       </div>
     </div>
   </section>
@@ -85,7 +85,7 @@ const faqSchema = {
         </a>
       </div>
       <p class="notice" style="margin-top:20px;">
-        Buiten kantooruren ('s avonds, weekend, feestdagen) geldt een spoedtoeslag van 20–30%. Ook dan hoor je de vaste prijs vóórdat ik begin. Alle richtprijzen staan op de <a href="/prijzen">prijzen-pagina</a>.
+        Buiten kantooruren ('s avonds, 's nachts, weekend en feestdagen) geldt een spoedtoeslag. Ook dan hoor je de vaste prijs vóórdat ik begin. Alle richtprijzen staan op de <a href="/prijzen">prijzen-pagina</a>.
       </p>
     </div>
   </section>
