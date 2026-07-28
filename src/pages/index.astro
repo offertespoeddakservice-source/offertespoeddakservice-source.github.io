@@ -42,7 +42,7 @@ const faqSchema = {
     <div class="wrap">
       <div class="topline">
         <span class="kicker">Dakdekker · {SITE.regioOmschrijving}</span>
-        <span class="stars"><span class="ster">★★★★★</span> <b>{score}</b> <span class="bron">op Werkspot</span></span>
+        <span class="stars"><span class="ster">★★★★★</span> <b>{score}</b> <a class="bron" href={SITE.werkspotUrl} target="_blank" rel="noopener">op Werkspot</a></span>
       </div>
       <h1>Vakkundig dakwerk<br />door één vaste man</h1>
       <p class="lead">
@@ -171,15 +171,36 @@ const faqSchema = {
     <div class="wrap">
       <p class="eyebrow" style="color:#ffb486;">Wat klanten zeggen</p>
       <div class="stars" style="justify-content:center; margin-bottom:6px;">
-        <span class="ster" style="font-size:1.6rem;">★★★★★</span> <b style="font-size:1.9rem;">{score}</b> <span class="bron" style="font-size:1rem;">op Werkspot</span>
+        <span class="ster" style="font-size:1.6rem;">★★★★★</span> <b style="font-size:1.9rem;">{score}</b> <a class="bron" style="font-size:1rem;" href={SITE.werkspotUrl} target="_blank" rel="noopener">op Werkspot (13 reviews)</a>
       </div>
       <h2>Mensen kiezen voor een échte vakman uit de buurt</h2>
-      <p class="lead" style="margin:0 auto 22px; color:#c2d2e3;">
-        Klanten op Werkspot gaven mij gemiddeld een {score}. Geen callcenter, wél iemand die terugbelt en eerlijk
-        zegt wat nodig is. Ben je na de klus tevreden? Een korte review op Google helpt mij enorm — én helpt je
-        buren een betrouwbare dakdekker te vinden.
+      <p class="lead" style="margin:0 auto 8px; color:#c2d2e3;">
+        Geen callcenter, wél iemand die terugbelt en eerlijk zegt wat nodig is. Dit schreven klanten op Werkspot:
       </p>
-      {googleReviewLink && <a class="btn btn--primary" href={googleReviewLink}>Bekijk &amp; plaats reviews op Google</a>}
+      <div class="reviewgrid">
+        <figure class="reviewkaart" style="margin:0;">
+          <span class="rster" aria-label="5 van 5 sterren">★★★★★</span>
+          <blockquote>„Dakgoten keurig netjes schoongemaakt zonder de rommel uit de goten op het terras of in de tuin te morsen. Aanrader!"</blockquote>
+          <figcaption>Ard-Jan, Tiel · goten reinigen</figcaption>
+        </figure>
+        <figure class="reviewkaart" style="margin:0;">
+          <span class="rster" aria-label="5 van 5 sterren">★★★★★</span>
+          <blockquote>„Snel en mooi dak geplaatst voor een hele nette prijs. Blij mee!"</blockquote>
+          <figcaption>F. Spolders, Zoetermeer · dakreparatie</figcaption>
+        </figure>
+        <figure class="reviewkaart" style="margin:0;">
+          <span class="rster" aria-label="5 van 5 sterren">★★★★★</span>
+          <blockquote>„Prima werk geleverd. Was flexibel in het plannen, dacht mee en kwam met oplossingen."</blockquote>
+          <figcaption>Roos, Oosterbeek · regenpijp vervangen</figcaption>
+        </figure>
+      </div>
+      <div class="btn-row" style="justify-content:center;">
+        <a class="btn btn--ghost" href={SITE.werkspotUrl} target="_blank" rel="noopener">Lees alle 13 reviews op Werkspot</a>
+        {googleReviewLink && <a class="btn btn--primary" href={googleReviewLink}>Plaats een review op Google</a>}
+      </div>
+      <p style="margin:16px auto 0; color:#9fb4c9; font-size:.92rem; max-width:60ch;">
+        Ben je na de klus tevreden? Een korte review op Google helpt mij enorm — én helpt je buren een betrouwbare dakdekker te vinden.
+      </p>
     </div>
   </section>
 

@@ -59,6 +59,16 @@ p { margin: 0 0 14px; }
 .section--navy .stars b, .hero .stars b { color: #fff; }
 .stars .bron { font-size: .85rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
 .section--navy .stars .bron, .hero .stars .bron { color: #c2d2e3; }
+a.bron { text-decoration: underline; text-underline-offset: 2px; }
+a.bron:hover { color: var(--orange); }
+
+/* Review-citaten (letterlijke Werkspot-reviews) */
+.reviewgrid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin: 26px 0 22px; text-align: left; }
+@media (max-width: 760px) { .reviewgrid { grid-template-columns: 1fr; } }
+.reviewkaart { background: #fff; border-radius: var(--radius); border-top: 4px solid var(--orange); padding: 20px 22px; box-shadow: var(--shadow); }
+.reviewkaart .rster { color: var(--star); letter-spacing: 1px; font-size: .95rem; }
+.reviewkaart blockquote { margin: 10px 0 12px; color: var(--ink); font-size: .98rem; line-height: 1.55; }
+.reviewkaart figcaption { color: var(--muted); font-size: .88rem; font-weight: 700; font-family: var(--font-display); }
 
 /* ── Spoedbalk (homepage): acute lekkage direct naar bellen ── */
 .spoed-bar { background: #a63215; color: #fff; }

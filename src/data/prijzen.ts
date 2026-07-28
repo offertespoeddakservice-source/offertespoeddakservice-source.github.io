@@ -22,6 +22,7 @@ export const PRIJZEN: PrijsRij[] = [
   { dienst: "Nieuw dak / dakbedekking vervangen", prijs: "€50 – €170 p/m²", uitleg: "Bitumen €50–90 · EPDM €95–120 · pannendak €60–170 per m², materiaal + werk.", opDakApk: true },
   { dienst: "Kleine reparatie (losse pan, nokvorst)", prijs: "€100 – €250", uitleg: "Kort klusje, vaste prijs vooraf.", opDakApk: true },
   { dienst: "Daklekkage (punctueel)", prijs: "€200 – €500", uitleg: "Eén lek opsporen en dichten, incl. materiaal.", opDakApk: true },
+  { dienst: "Dakisolatie (schuin dak of zoldervloer)", prijs: "vaste prijs na bezoek", uitleg: "Gratis opname, prijs vooraf. Vaak ISDE-subsidie mogelijk." },
   { dienst: "Spoed buiten kantooruren", prijs: "+20 – 30%", uitleg: "Toeslag voor 's avonds, weekend en feestdagen." },
   { dienst: "Dak-APK (keuring + fotorapport)", prijs: "€49", uitleg: "Compleet keuringsrapport binnen een dagdeel — zie de Dak-APK-pagina." },
 ];
