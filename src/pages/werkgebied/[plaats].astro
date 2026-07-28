@@ -19,7 +19,7 @@ const matrixVoorPlaats = MATRIX.filter((c) => c.plaats === p.slug)
 
 const faq = [
   { v: `Werk je in heel ${p.naam}?`, a: `Ja, ik werk in heel ${p.naam}${p.wijken.length ? ` — onder andere ${p.wijken.slice(0, 3).join(", ")}` : ""} en de directe omgeving. ${p.reistijd ? `Het is maar ${p.reistijd}.` : ""}` },
-  { v: `Kun je snel langskomen in ${p.naam}?`, a: `Bij spoed of lekkage vaak nog dezelfde dag, want ${p.naam} ligt in mijn vaste werkgebied rond Den Bosch.` },
+  { v: `Kun je snel langskomen in ${p.naam}?`, a: p.slug === "den-bosch" ? `Bij spoed of lekkage vaak nog dezelfde dag — Den Bosch is mijn thuisbasis, dus ik ben er zo.` : `Bij spoed of lekkage vaak nog dezelfde dag, want ${p.naam} ligt in mijn vaste werkgebied rond Den Bosch.` },
   { v: `Wat kost een dakdekker in ${p.naam}?`, a: `Goten reinigen €99 all-in (rijtjeswoning), een kleine reparatie €100–€250, een daklekkage meestal €200–€500. Offerte is altijd gratis en je hoort vooraf de vaste prijs.` },
 ];
 

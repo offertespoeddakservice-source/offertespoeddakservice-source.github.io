@@ -89,9 +89,9 @@ p { margin: 0 0 14px; }
 .site-header .wrap { display: flex; align-items: center; justify-content: space-between; height: 66px; gap: 16px; }
 .brand { font-family: var(--font-display); font-weight: 800; color: var(--navy); text-decoration: none; font-size: 1.2rem; letter-spacing: -.01em; text-transform: uppercase; white-space: nowrap; }
 .brand span { color: var(--orange); }
-.nav { display: flex; gap: 24px; align-items: center; }
-.nav-links { display: flex; gap: 22px; align-items: center; }
-.nav a { color: var(--ink); text-decoration: none; font-weight: 600; font-size: .98rem; }
+.nav { display: flex; gap: 16px; align-items: center; }
+.nav-links { display: flex; gap: 14px; align-items: center; }
+.nav a { color: var(--ink); text-decoration: none; font-weight: 600; font-size: .95rem; white-space: nowrap; }
 .nav a:hover { color: var(--orange); }
 .nav .btn { padding: 10px 16px; font-size: .92rem; white-space: nowrap; }
 @media (max-width: 860px) { .nav-links { display: none; } .site-header .nav .btn { display: none; } }
@@ -196,7 +196,9 @@ a.card:hover { transform: translateY(-3px); box-shadow: 0 16px 34px rgba(11,29,5
 .form textarea { min-height: 120px; resize: vertical; }
 .notice { background: #fff4ea; border: 1px solid #ffd2af; border-radius: 8px; padding: 14px 16px; color: #8a4b16; font-size: .95rem; }
 
-/* Prijstabel */
+/* Prijstabel — .table-scroll voorkomt dat de tabel de hele pagina laat scrollen op mobiel */
+.table-scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+.table-scroll table { min-width: 560px; }
 .ptable { width: 100%; border-collapse: collapse; background: #fff; border: 1px solid var(--line-cool); border-radius: 10px; overflow: hidden; }
 .ptable th, .ptable td { text-align: left; padding: 14px 16px; border-bottom: 1px solid var(--line-cool); }
 .ptable thead th { font-family: var(--font-display); text-transform: uppercase; letter-spacing: .04em; font-size: .8rem; color: var(--muted); background: var(--cream); }

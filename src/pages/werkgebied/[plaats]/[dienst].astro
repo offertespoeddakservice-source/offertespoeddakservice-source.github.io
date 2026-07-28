@@ -21,7 +21,9 @@ const titel = `${d.titel} in ${p.naam}`;
 const faq = [
   {
     v: `Kun je snel langskomen voor ${d.titel.toLowerCase()} in ${p.naam}?`,
-    a: `Ja — ${p.naam} ligt in mijn vaste werkgebied rond Den Bosch${p.reistijd ? ` (${p.reistijd})` : ""}, dus vaak ben ik al in de buurt. Bij spoed kom ik regelmatig nog dezelfde dag.`,
+    a: p.slug === "den-bosch"
+      ? `Ja — Den Bosch is mijn thuisbasis, dus ik ben er zo. Bij spoed kom ik regelmatig nog dezelfde dag.`
+      : `Ja — ${p.naam} ligt in mijn vaste werkgebied rond Den Bosch${p.reistijd ? ` (${p.reistijd})` : ""}, dus vaak ben ik al in de buurt. Bij spoed kom ik regelmatig nog dezelfde dag.`,
   },
   ...d.faq.slice(0, 2),
   {

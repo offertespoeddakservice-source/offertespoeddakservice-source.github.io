@@ -143,7 +143,8 @@ const keuringOnderdelen = [
       <p class="eyebrow">Als er iets moet gebeuren</p>
       <h2>Vooraf al een eerlijke prijsindicatie</h2>
       <p class="lead">Blijkt er tijdens de Dak-APK iets nodig? Dan ken je de bandbreedte al, ruim vóórdat je iets besluit.</p>
-      <table class="ptable" style="margin-top:20px;">
+      <div class="table-scroll" style="margin-top:20px;">
+      <table class="ptable">
         <thead>
           <tr><th>Klus</th><th>Richtprijs</th><th>Toelichting</th></tr>
         </thead>
@@ -157,6 +158,7 @@ const keuringOnderdelen = [
           ))}
         </tbody>
       </table>
+      </div>
       <p class="notice" style="margin-top:18px;">
         Richtprijzen op basis van gangbare klussen in de regio. De uiteindelijke prijs hangt af van de situatie ter plaatse —
         bij een dreigende overschrijding van meer dan 10% laat ik dat vooraf weten, zoals de wet ook voorschrijft. Loopt het toch
@@ -217,8 +219,8 @@ const keuringOnderdelen = [
           </label>
           <label>Is er nu al een zichtbaar probleem, of wil je het laten checken?
             <select name="aanleiding">
-              <option value="incident">Er is nu al schade/een lek — ik wil snel iemand</option>
               <option value="preventie">Geen acuut probleem — ik wil het gewoon laten checken</option>
+              <option value="incident">Er is nu al schade/een lek — ik wil snel iemand</option>
             </select>
           </label>
           <p class="notice" id="spoed-hint" style="display:none;">
