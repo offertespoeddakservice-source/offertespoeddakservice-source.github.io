@@ -135,7 +135,7 @@ export const DIENSTEN: Dienst[] = [
     kort: "Lekkage in plat dak opsporen en herstellen, of de hele bedekking vernieuwen.",
     metaTitle: "Plat dak repareren Den Bosch — EPDM & bitumen | Spoed Dak Service",
     metaDescription:
-      "Lekkage in een plat dak? EPDM- en bitumendaken repareren of vervangen in de regio Den Bosch. Eerlijke prijs en garantie op het werk.",
+      "Lekkage in een plat dak? EPDM- en bitumendaken repareren of vervangen in de regio Den Bosch. Eerlijke prijs, 1 jaar garantie op reparatie en 2 jaar op vervangen.",
     icoon: "🏠",
     intro:
       "Platte daken lekken het vaakst bij naden en aansluitingen, en het water loopt vaak verderop naar binnen dan waar het lek zit. Ik spoor het op en herstel met EPDM of bitumen — of vervang de hele bedekking als dat verstandiger is.",
