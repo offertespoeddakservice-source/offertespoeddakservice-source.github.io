@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Betalen | Spoed Dak Service</title>
+<link rel="icon" href="/favicon.svg">
+<style>
+  :root { --oranje: #f26522; --marine: #162d54; --grijs: #5b6576; --lijn: #e3e7ee; }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: #f5f7fa; color: var(--marine); font: 16px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif; }
+  main { max-width: 440px; margin: 0 auto; padding: 24px 16px 40px; }
+  .kop { display: flex; align-items: center; gap: 12px; margin-bottom: 20px; }
+  .kop img { width: 48px; height: 48px; object-fit: contain; }
+  .kop b { font-size: 18px; }
+  .kaart { background: #fff; border: 1px solid var(--lijn); border-radius: 14px; padding: 20px; }
+  h1 { font-size: 20px; margin: 0 0 6px; }
+  p { margin: 0 0 14px; color: var(--grijs); }
+  .knop { display: block; width: 100%; text-align: center; background: var(--oranje); color: #fff; text-decoration: none; font-weight: 700; padding: 14px; border-radius: 10px; border: 0; font-size: 16px; }
+  .regel { display: flex; justify-content: space-between; align-items: center; gap: 10px; padding: 12px 0; border-top: 1px solid var(--lijn); }
+  .regel:first-of-type { border-top: 0; }
+  .regel span { color: var(--grijs); font-size: 14px; }
+  .regel strong { display: block; color: var(--marine); font-size: 16px; word-break: break-word; }
+  .kopieer { flex: none; background: #fff; color: var(--marine); border: 1px solid var(--lijn); border-radius: 8px; padding: 6px 10px; font-size: 14px; cursor: pointer; }
+  .voet { text-align: center; margin-top: 18px; font-size: 14px; color: var(--grijs); }
+  .voet a { color: var(--marine); }
+  [hidden] { display: none !important; }
+</style>
+</head>
+<body>
+<main>
+  <div class="kop"><img src="/img/logo.png" alt=""><b>Spoed Dak Service</b></div>
+
+  <div class="kaart" id="doorsturen" hidden>
+    <h1>Je gaat naar de betaalpagina</h1>
+    <p>Je wordt doorgestuurd naar de beveiligde betaalpagina. Gebeurt er niets? Tik dan op de knop.</p>
+    <a class="knop" id="betaalknop" href="#">Betalen</a>
+  </div>
+
+  <div class="kaart" id="overmaken" hidden>
+    <h1>Betalen per overschrijving</h1>
+    <p>Maak het bedrag over met je eigen bank-app. Tik op Kopieer om iets over te nemen.</p>
+    <div class="regel" id="r-bedrag"><div><span>Bedrag</span><strong id="bedrag"></strong></div></div>
+    <div class="regel"><div><span>Rekeningnummer</span><strong>NL39 INGB 0007 1579 18</strong></div><button class="kopieer" data-tekst="NL39INGB0007157918">Kopieer</button></div>
+    <div class="regel"><div><span>Op naam van</span><strong>Spoed Dak Service</strong></div></div>
+    <div class="regel" id="r-omschrijving"><div><span>Omschrijving</span><strong id="omschrijving"></strong></div><button class="kopieer" id="kopieer-omschrijving">Kopieer</button></div>
+  </div>
+
+  <div class="voet">Vragen? App of bel <a href="https://wa.me/31610185357">06 10 18 53 57</a></div>
+</main>
+<script>
+(function () {
+  // ?c= komt uit de betaalknop in het WhatsApp-bericht bij de factuur.
+  // Alleen vaste bestemmingen: nooit een vrije link doorsturen.
+  var c = (new URLSearchParams(location.search).get('c') || '').trim();
+  var doel = null;
+  if (/^[A-Za-z0-9]{16,64}$/.test(c)) doel = 'https://www.ing.nl/payreq/m/?trxid=' + c;
+  else if (/^tk-[A-Za-z0-9]{6,64}$/.test(c)) doel = 'https://tikkie.me/pay/' + c.slice(3);
+
+  if (doel) {
+    document.getElementById('doorsturen').hidden = false;
+    document.getElementById('betaalknop').href = doel;
+    location.replace(doel);
+    return;
+  }
+
+  // Geen betaalverzoek: rekeningnummer tonen. Vorm "2026-231_123450" = factuur + bedrag in centen.
+  document.getElementById('overmaken').hidden = false;
+  var m = c.match(/^(\d{4}-\d{1,4})(?:_(\d{1,9}))?$/);
+  var nr = m ? m[1] : '';
+  var centen = m && m[2] ? parseInt(m[2], 10) : 0;
+  if (centen > 0) {
+    document.getElementById('bedrag').textContent = '€ ' + (centen / 100).toLocaleString('nl-NL', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+  } else {
+    document.getElementById('r-bedrag').hidden = true;
+  }
+  if (nr) {
+    document.getElementById('omschrijving').textContent = 'Factuur ' + nr;
+    document.getElementById('kopieer-omschrijving').setAttribute('data-tekst', nr);
+  } else {
+    document.getElementById('omschrijving').textContent = 'Je factuurnummer';
+    document.getElementById('kopieer-omschrijving').hidden = true;
+  }
+
+  document.addEventListener('click', function (e) {
+    var knop = e.target.closest('.kopieer');
+    if (!knop) return;
+    var tekst = knop.getAttribute('data-tekst') || '';
+    var klaar = function () { knop.textContent = 'Gekopieerd'; setTimeout(function () { knop.textContent = 'Kopieer'; }, 1500); };
+    if (navigator.clipboard) navigator.clipboard.writeText(tekst).then(klaar, function () {});
+  });
+})();
+</script>
+</body>
+</html>
