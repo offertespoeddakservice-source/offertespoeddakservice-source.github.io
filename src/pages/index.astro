@@ -10,7 +10,7 @@ const score = SITE.reviews.score.toString().replace(".", ",");
 const googleReviewLink = SITE.reviewLink && !SITE.reviewLink.includes("JOUW_PLACE_ID") ? SITE.reviewLink : null;
 
 const faq = [
-  { v: "Wat kost het om iemand te laten komen?", a: "Wil je weten hoe je dak ervoor staat? Dat doe ik via de Dak-APK: binnen een dagdeel een compleet keuringsrapport met foto's, voor €49. Weet je al wat er moet gebeuren — bijvoorbeeld goten reinigen? Dan hoor je gewoon de vaste prijs vooraf." },
+  { v: "Wat kost het om iemand te laten komen?", a: "Wil je weten hoe je dak ervoor staat? Dat doe ik via de Dak-APK: binnen een dagdeel een compleet keuringsrapport met foto's, voor €49. Weet je al wat er moet gebeuren, bijvoorbeeld goten reinigen? Dan hoor je gewoon de vaste prijs vooraf." },
   { v: "Hoe snel kun je komen?", a: "Bij spoed en lekkage vaak nog dezelfde dag in de regio Den Bosch. Bel of WhatsApp me, dan hoor je meteen wat kan." },
   { v: "Werk je ook bij mij in de buurt?", a: `Ik werk in ${SITE.regioOmschrijving}. Staat je plaats er niet bij? Bel gerust, vaak kan ik er toch bij.` },
   { v: "Krijg ik garantie?", a: "Ja. Op een reparatie krijg je 1 jaar garantie en op vervangen 2 jaar, zonder kleine lettertjes. Is er iets mee, dan kom ik gratis terug om het te verhelpen." },
@@ -32,7 +32,7 @@ const faqSchema = {
   <div class="spoed-bar">
     <div class="wrap">
       <span>Lekkage of stormschade <strong>nú</strong>? Dag en nacht bereikbaar.</span>
-      <a class="tel" href={waHref("Hoi Rens, ik heb NU een lekkage/schade aan mijn dak. Ik stuur zo een foto mee.")}>App direct een foto</a>
+      <a class="tel" href={waHref("Hallo, ik heb NU een lekkage/schade aan mijn dak. Ik stuur zo een foto mee.")}>App direct een foto</a>
       <a class="meer" href={telHref}>of bel {SITE.telefoonWeergave}</a>
       <a class="meer" href="/spoed">Eerste hulp bij een lek →</a>
     </div>
@@ -47,7 +47,7 @@ const faqSchema = {
       </div>
       <h1>Vakkundig dakwerk<br />door één vaste man</h1>
       <p class="lead">
-        Geen callcenter, geen verrassingen achteraf. Je krijgt mij — Rens — aan de lijn,
+        Geen callcenter, geen verrassingen achteraf. Je krijgt mij, Rens, aan de lijn,
         ik kom langs, en je hoort eerlijk wat er nodig is. Vaste prijs vooraf.
       </p>
       <div class="pricehook">
@@ -56,7 +56,7 @@ const faqSchema = {
         <span class="per">compleet fotorapport<br />binnen een dagdeel</span>
       </div>
       <p style="margin:14px 0 0; color:#d3e0ec; font-size:1.02rem; max-width:660px;">
-        <strong style="color:#fff;">Een offerte is altijd gratis.</strong> Weet je al wat er speelt? Bel of stuur een foto via WhatsApp, dan krijg je gewoon een prijs — géén €49.
+        <strong style="color:#fff;">Een offerte is altijd gratis.</strong> Weet je al wat er speelt? Bel of stuur een foto via WhatsApp, dan krijg je gewoon een prijs, géén €49.
         De <strong style="color:#fff;">Dak-APK (€49) is optioneel</strong>: een complete keuring mét fotorapport, handig als je wilt weten hoe je hele dak ervoor staat.
       </p>
       <div class="hero-checks">
@@ -78,7 +78,7 @@ const faqSchema = {
     <div class="wrap">
       <p class="eyebrow">Wat ik doe</p>
       <h2>Voor je hele dak één aanspreekpunt</h2>
-      <p class="lead">Van een verstopte goot tot een lekkend dak — snel, netjes, en met een eerlijke prijs vooraf.</p>
+      <p class="lead">Van een verstopte goot tot een lekkend dak, snel, netjes, en met een eerlijke prijs vooraf.</p>
       <div class="grid grid-3" style="margin-top:26px;">
         {DIENSTEN.map((d, i) => (
           <a class="card" href={`/diensten/${d.slug}`}>
@@ -100,7 +100,7 @@ const faqSchema = {
       <div class="grid grid-3" style="margin-top:22px;">
         <div class="card">
           <h3>Je krijgt mij</h3>
-          <p>Eén vast gezicht van offerte tot oplevering. Korte lijnen — gewoon mijn nummer, geen callcenter.</p>
+          <p>Eén vast gezicht van offerte tot oplevering. Korte lijnen: gewoon mijn nummer, geen callcenter.</p>
         </div>
         <div class="card">
           <h3>Eerlijke prijs vooraf</h3>
@@ -108,7 +108,7 @@ const faqSchema = {
         </div>
         <div class="card">
           <h3>Uit de regio</h3>
-          <p>Ik werk in {SITE.regioOmschrijving} — vaak ben ik al bij jou in de buurt.</p>
+          <p>Ik werk in {SITE.regioOmschrijving}, vaak ben ik al bij jou in de buurt.</p>
         </div>
       </div>
     </div>
@@ -118,7 +118,7 @@ const faqSchema = {
   <section class="section section--soft">
     <div class="wrap">
       <p class="eyebrow">Wat kost het?</p>
-      <h2>Richtprijzen — je weet meteen waar je aan toe bent</h2>
+      <h2>Richtprijzen: je weet meteen waar je aan toe bent</h2>
       <p class="lead">Geen offerte-gedoe of verrassingen achteraf. Kies wat je nodig hebt; de vaste prijs hoor je vóór ik begin.</p>
 
       <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:16px; margin-top:26px;">
@@ -142,25 +142,25 @@ const faqSchema = {
 
         <a href="/diensten/dakreparatie" style="text-decoration:none; background:#fff; border:1px solid var(--line); border-radius:14px; padding:22px; display:block;">
           <span style="display:block; font-family:var(--font-display); font-weight:800; text-transform:uppercase; letter-spacing:.03em; color:var(--navy); font-size:.85rem;">Kleine reparatie</span>
-          <strong style="display:block; font-family:var(--font-display); color:var(--orange); font-size:2.4rem; line-height:1; margin:8px 0;">€100<span style="font-size:1.3rem;">–€250</span></strong>
-          <span style="display:block; color:var(--muted); font-size:.95rem;">Losse pan of nokvorst — kort klusje, vaste prijs vooraf.</span>
+          <strong style="display:block; font-family:var(--font-display); color:var(--orange); font-size:2.4rem; line-height:1; margin:8px 0;">€100<span style="font-size:1.3rem;">-€250</span></strong>
+          <span style="display:block; color:var(--muted); font-size:.95rem;">Losse pan of nokvorst: kort klusje, vaste prijs vooraf.</span>
         </a>
 
         <a href="/diensten/daklekkage" style="text-decoration:none; background:#fff; border:1px solid var(--line); border-radius:14px; padding:22px; display:block;">
           <span style="display:block; font-family:var(--font-display); font-weight:800; text-transform:uppercase; letter-spacing:.03em; color:var(--navy); font-size:.85rem;">Daklekkage</span>
-          <strong style="display:block; font-family:var(--font-display); color:var(--orange); font-size:2.4rem; line-height:1; margin:8px 0;">€200<span style="font-size:1.3rem;">–€500</span></strong>
+          <strong style="display:block; font-family:var(--font-display); color:var(--orange); font-size:2.4rem; line-height:1; margin:8px 0;">€200<span style="font-size:1.3rem;">-€500</span></strong>
           <span style="display:block; color:var(--muted); font-size:.95rem;">Eén lek opsporen en dichten, incl. materiaal. Ook bij spoed.</span>
         </a>
 
         <a href="/diensten/dak-reinigen" style="text-decoration:none; background:#fff; border:1px solid var(--line); border-radius:14px; padding:22px; display:block;">
           <span style="display:block; font-family:var(--font-display); font-weight:800; text-transform:uppercase; letter-spacing:.03em; color:var(--navy); font-size:.85rem;">Dak reinigen / ontmossen</span>
-          <strong style="display:block; font-family:var(--font-display); color:var(--orange); font-size:2.4rem; line-height:1; margin:8px 0;">€8<span style="font-size:1.3rem;">–€15 p/m²</span></strong>
+          <strong style="display:block; font-family:var(--font-display); color:var(--orange); font-size:2.4rem; line-height:1; margin:8px 0;">€8<span style="font-size:1.3rem;">-€15 p/m²</span></strong>
           <span style="display:block; color:var(--muted); font-size:.95rem;">Mos en aanslag eraf, zodat je dak weer ademt.</span>
         </a>
       </div>
 
       <div class="btn-row" style="margin-top:24px;">
-        <a class="btn btn--wa" href={waHref("Hoi Rens, kun je me een prijsindicatie geven?")}>App voor jouw prijs</a>
+        <a class="btn btn--wa" href={waHref("Hallo, kun je me een prijsindicatie geven?")}>App voor jouw prijs</a>
         <a class="btn btn--primary" href={telHref}>Bel {SITE.telefoonWeergave}</a>
         <a class="btn btn--outline" href="/prijzen">Alle richtprijzen</a>
       </div>
@@ -200,7 +200,7 @@ const faqSchema = {
         {googleReviewLink && <a class="btn btn--primary" href={googleReviewLink}>Plaats een review op Google</a>}
       </div>
       <p style="margin:16px auto 0; color:#9fb4c9; font-size:.92rem; max-width:60ch;">
-        Ben je na de klus tevreden? Een korte review op Google helpt mij enorm — én helpt je buren een betrouwbare dakdekker te vinden.
+        Ben je na de klus tevreden? Een korte review op Google helpt mij enorm, én helpt je buren een betrouwbare dakdekker te vinden.
       </p>
     </div>
   </section>
@@ -209,7 +209,7 @@ const faqSchema = {
   <section class="section section--white">
     <div class="wrap">
       <p class="eyebrow">Zo werkt het</p>
-      <h2>Van belletje tot klaar dak — in 4 stappen</h2>
+      <h2>Van belletje tot klaar dak in 4 stappen</h2>
       <div class="stappen">
         <div class="stap"><div class="n">1</div><h3>Bel of app</h3><p>Je krijgt mij direct aan de lijn. Vertel kort wat er speelt.</p></div>
         <div class="stap"><div class="n">2</div><h3>Dak-APK of meteen aan de slag</h3><p>Twijfel je? Ik kom langs met de Dak-APK (€49) en je krijgt een compleet rapport. Weet je het al? Dan spreken we gelijk de vaste prijs af.</p></div>
@@ -224,7 +224,7 @@ const faqSchema = {
     <div class="wrap">
       <p class="eyebrow">Werkgebied</p>
       <h2>In welke plaatsen ik kom</h2>
-      <p class="lead">Klik op je plaats voor meer info — of bel gerust als je plaats er niet bij staat.</p>
+      <p class="lead">Klik op je plaats voor meer info, of bel gerust als je plaats er niet bij staat.</p>
       <div class="chips">
         {PLAATSEN.map((p) => <a class="chip" href={`/werkgebied/${p.slug}`}>{p.naam}</a>)}
         <a class="chip" href="/werkgebied">Hele werkgebied →</a>
@@ -237,7 +237,7 @@ const faqSchema = {
     <div class="wrap">
       <p class="eyebrow">Kennisbank</p>
       <h2>Daktips & eerlijke uitleg</h2>
-      <p class="lead">Zo weet je wat er speelt voordat je belt — zonder verkooppraatje.</p>
+      <p class="lead">Zo weet je wat er speelt voordat je belt, zonder verkooppraatje.</p>
       <div class="grid grid-3" style="margin-top:22px;">
         {ARTIKELEN.map((a) => (
           <a class="card" href={`/kennisbank/${a.slug}`}>

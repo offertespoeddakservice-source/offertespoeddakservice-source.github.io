@@ -6,8 +6,8 @@ import { PRIJZEN } from "../data/prijzen.ts";
 const rijen = PRIJZEN;
 
 const faq = [
-  { v: "Waarom geen vaste prijslijst voor alles?", a: "Elk dak is anders. Daarom kom ik eerst kijken (bijvoorbeeld via de Dak-APK) en geef je een vaste prijs vóórdat ik aan een klus begin — dan weet je precies waar je aan toe bent." },
-  { v: "Reken je voorrijkosten?", a: "Nee — een offerte aanvragen is altijd gratis en vrijblijvend. Wil je een complete keuring van je dak mét fotorapport? Dat is de Dak-APK (€49). Weet je al wat er moet gebeuren? Dan hoor je gewoon gratis de vaste prijs vooraf." },
+  { v: "Waarom geen vaste prijslijst voor alles?", a: "Elk dak is anders. Daarom kom ik eerst kijken (bijvoorbeeld via de Dak-APK) en geef je een vaste prijs vóórdat ik aan een klus begin, dan weet je precies waar je aan toe bent." },
+  { v: "Reken je voorrijkosten?", a: "Nee, een offerte aanvragen is altijd gratis en vrijblijvend. Wil je een complete keuring van je dak mét fotorapport? Dat is de Dak-APK (€49). Weet je al wat er moet gebeuren? Dan hoor je gewoon gratis de vaste prijs vooraf." },
 ];
 const faqSchema = {
   "@context": "https://schema.org",
@@ -17,8 +17,8 @@ const faqSchema = {
 ---
 
 <Base
-  title={`Prijzen dakdekker — eerlijk & vooraf | ${SITE.bedrijfsnaam}`}
-  description="Wat kost een dakdekker? Goten reinigen €99 all-in, kleine reparatie €100–€250, daklekkage €200–€500. Offerte altijd gratis, vaste prijs vooraf."
+  title={`Prijzen dakdekker: eerlijk & vooraf | ${SITE.bedrijfsnaam}`}
+  description="Wat kost een dakdekker? Goten reinigen €99 all-in, kleine reparatie €100-€250, daklekkage €200-€500. Offerte altijd gratis, vaste prijs vooraf."
   path="/prijzen"
   schema={faqSchema}
 >
@@ -26,7 +26,7 @@ const faqSchema = {
     <div class="wrap">
       <p class="eyebrow" style="color:#ffb486;">Prijzen</p>
       <h1>Eerlijke prijzen, altijd vooraf</h1>
-      <p class="lead">Geen verrassingen achteraf. Hieronder een richtlijn — bij elke klus hoor je de vaste prijs voordat ik begin.</p>
+      <p class="lead">Geen verrassingen achteraf. Hieronder een richtlijn: bij elke klus hoor je de vaste prijs voordat ik begin.</p>
     </div>
   </section>
 
@@ -53,11 +53,11 @@ const faqSchema = {
       </table>
       </div>
       <p class="notice" style="margin-top:20px;">
-        Richtprijzen op basis van marktgemiddelden 2025/26. Jouw vaste prijs hoor je na een bezoek of een <a href="/dak-apk">Dak-APK</a>. Wijkt de einduitkomst meer dan 10% af van die richtprijs, dan laat ik dat vooraf weten — zoals de wet ook voorschrijft (art. 7:753 BW).
+        Richtprijzen op basis van marktgemiddelden 2025/26. Jouw vaste prijs hoor je na een bezoek of een <a href="/dak-apk">Dak-APK</a>. Wijkt de einduitkomst meer dan 10% af van die richtprijs, dan laat ik dat vooraf weten, zoals de wet ook voorschrijft (art. 7:753 BW).
       </p>
       <div class="btn-row" style="margin-top:22px;">
         <a class="btn btn--primary" href={telHref}>Bel voor een prijs</a>
-        <a class="btn btn--wa" href={waHref("Hoi Rens, kun je me een prijsindicatie geven?")}>WhatsApp Rens</a>
+        <a class="btn btn--wa" href={waHref("Hallo, kun je me een prijsindicatie geven?")}>WhatsApp Rens</a>
       </div>
     </div>
   </section>

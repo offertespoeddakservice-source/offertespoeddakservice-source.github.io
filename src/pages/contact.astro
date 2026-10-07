@@ -5,16 +5,16 @@ import { SITE, telHref, waHref } from "../site.config.ts";
 
 <Base
   title={`Contact & offerte | ${SITE.bedrijfsnaam}`}
-  description="Vraag een gratis, vrijblijvende offerte aan of bel direct. Spoed Dak Service — dakdekker in de regio Den Bosch. Bel, WhatsApp of vul het formulier in."
+  description="Vraag een gratis, vrijblijvende offerte aan of bel direct. Spoed Dak Service, dakdekker in de regio Den Bosch. Bel, WhatsApp of vul het formulier in."
   path="/contact"
 >
   <section class="hero">
     <div class="wrap">
       <p class="eyebrow" style="color:#ffb486;">Contact</p>
       <h1>Gratis offerte of direct contact</h1>
-      <p class="lead">Stuur het liefst een appje — met een foto van je dak erbij kan ik meteen meekijken en krijg je snel een prijs. Bellen kan natuurlijk ook, al zit ik vaak op het dak of onderweg.</p>
+      <p class="lead">Stuur het liefst een appje: met een foto van je dak erbij kan ik meteen meekijken en krijg je snel een prijs. Bellen kan natuurlijk ook, al zit ik vaak op het dak of onderweg.</p>
       <div class="btn-row" style="margin-top:22px;">
-        <a class="btn btn--wa" href={waHref("Hoi Rens, ik wil graag een offerte voor mijn dak.")}>WhatsApp Rens</a>
+        <a class="btn btn--wa" href={waHref("Hallo, ik wil graag een offerte voor mijn dak.")}>WhatsApp Rens</a>
         <a class="btn btn--primary" href={telHref}>Bel {SITE.telefoonWeergave}</a>
       </div>
     </div>
@@ -51,27 +51,53 @@ import { SITE, telHref, waHref } from "../site.config.ts";
           <label>Korte omschrijving
             <textarea name="beschrijving" placeholder="Bijv. goot loopt over aan de achterkant"></textarea>
           </label>
+          <div style="position:absolute; left:-9999px; top:auto;" aria-hidden="true">
+            <label>Website<input type="text" name="website" tabindex="-1" autocomplete="off" /></label>
+          </div>
           <div class="btn-row">
-            <button class="btn btn--wa" type="submit">Verstuur via WhatsApp</button>
-            <button class="btn btn--outline" type="button" id="contact-mail">Verstuur via e-mail</button>
+            <button class="btn btn--primary" type="submit" id="contact-verstuur">Verstuur aanvraag</button>
+            <a class="btn btn--wa" id="contact-wa-link" href={waHref("Hallo, ik wil graag een offerte voor mijn dak.")}>Liever appen? WhatsApp Rens</a>
           </div>
           <p class="notice" id="contact-bevestiging" style="display:none; background:#e8f7ee; border-color:#9fd8b4; color:#155c33;"></p>
-          <p class="notice">Je aanvraag gaat via je eigen WhatsApp of e-mail — zo zie je zelf precies wat je verstuurt. Liever direct? Bel, dan heb je meteen antwoord.</p>
+          <p class="notice">Je aanvraag komt direct bij mij binnen. Je hoeft verder niets te doen. Ik gebruik je gegevens alleen om je aanvraag op te pakken; maak je het formulier niet af, dan kan ik je nog even terugbellen. Zie de <a href="/privacy/">privacyverklaring</a>. Liever direct? Bel, dan heb je meteen antwoord.</p>
         </form>
-        <script define:vars={{ telefoonE164: SITE.telefoonE164, email: SITE.email }}>
+        <script define:vars={{ telefoonE164: SITE.telefoonE164 }}>
           const contactForm = document.getElementById("contact-form");
           if (contactForm) {
+            // Aanvraag gaat naar het eigen, beveiligde systeem (Cloudflare) — direct
+            // vastgelegd + pushmelding naar Rens. WhatsApp blijft de terugvaloptie.
+            const API = "https://spoeddak.pages.dev/api/aanvraag";
             const bevestiging = document.getElementById("contact-bevestiging");
+            const waLink = document.getElementById("contact-wa-link");
+            const verstuurKnop = document.getElementById("contact-verstuur");
+            const sid = Array.from(crypto.getRandomValues(new Uint8Array(12)), (b) => b.toString(16).padStart(2, "0")).join("");
+            let klaar = false;
+
+            const velden = () => {
+              const d = new FormData(contactForm);
+              return {
+                sid,
+                bron: "contact",
+                pagina: location.pathname,
+                naam: d.get("naam") || "",
+                telefoon: d.get("telefoon") || "",
+                email: d.get("email") || "",
+                plaats: d.get("plaats") || "",
+                service: d.get("service") || "",
+                beschrijving: d.get("beschrijving") || "",
+                website: d.get("website") || "",
+              };
+            };
             const maakBericht = () => {
-              const data = new FormData(contactForm);
+              const v = velden();
               return [
-                "Hoi Rens, ik wil graag een offerte aanvragen.",
-                `Naam: ${data.get("naam") || ""}`,
-                `Telefoon: ${data.get("telefoon") || ""}`,
-                data.get("email") ? `E-mail: ${data.get("email")}` : null,
-                data.get("plaats") ? `Plaats: ${data.get("plaats")}` : null,
-                `Dienst: ${data.get("service") || ""}`,
-                data.get("beschrijving") ? `Omschrijving: ${data.get("beschrijving")}` : null,
+                "Hallo, ik wil graag een offerte aanvragen.",
+                `Naam: ${v.naam}`,
+                `Tel: ${v.telefoon}`,
+                v.email ? `E-mail: ${v.email}` : null,
+                v.plaats ? `Plaats: ${v.plaats}` : null,
+                `Dienst: ${v.service}`,
+                v.beschrijving ? `Omschrijving: ${v.beschrijving}` : null,
               ].filter(Boolean).join("\n");
             };
             const meetConversie = (label) => {
@@ -79,30 +105,53 @@ import { SITE, telHref, waHref } from "../site.config.ts";
                 gtag('event','conversion',{'send_to':'AW-18338222053/' + label,'value':1.0,'currency':'EUR'});
               }
             };
-            contactForm.addEventListener("submit", (e) => {
+
+            contactForm.addEventListener("submit", async (e) => {
               e.preventDefault();
               if (!contactForm.reportValidity()) return;
+              verstuurKnop.disabled = true;
+              verstuurKnop.textContent = "Versturen…";
+              let gelukt = false;
+              try {
+                const res = await fetch(API, {
+                  method: "POST",
+                  keepalive: true,
+                  headers: { "Content-Type": "text/plain;charset=UTF-8" },
+                  body: JSON.stringify({ ...velden(), status: "compleet" }),
+                });
+                gelukt = res.ok;
+              } catch (fout) { gelukt = false; }
               meetConversie('9ZoXCLXKt9ccEOWfrKhE');
-              window.open(`https://wa.me/${telefoonE164}?text=${encodeURIComponent(maakBericht())}`, "_blank", "noopener");
-              if (bevestiging) {
-                bevestiging.textContent = "WhatsApp is geopend met je aanvraag — druk daar nog op verzenden, anders komt hij niet aan. Geen WhatsApp op dit apparaat? Gebruik dan de e-mailknop of bel me even.";
-                bevestiging.style.display = "block";
-                bevestiging.scrollIntoView({ block: "nearest" });
-              }
-            });
-            const mailKnop = document.getElementById("contact-mail");
-            if (mailKnop) {
-              mailKnop.addEventListener("click", () => {
-                if (!contactForm.reportValidity()) return;
-                meetConversie('QcJRCLjKt9ccEOWfrKhE');
-                window.location.href = `mailto:${email}?subject=${encodeURIComponent("Offerte-aanvraag via spoeddakservice.nl")}&body=${encodeURIComponent(maakBericht())}`;
-                if (bevestiging) {
-                  bevestiging.textContent = "Je e-mailprogramma is geopend met je aanvraag — druk daar nog op verzenden. Opent er niets? Mail dan naar " + email + " of bel me even.";
-                  bevestiging.style.display = "block";
-                  bevestiging.scrollIntoView({ block: "nearest" });
+              if (gelukt) {
+                klaar = true;
+                verstuurKnop.textContent = "Verstuurd ✓";
+                bevestiging.textContent = "Gelukt: je aanvraag is binnen! Ik reageer meestal dezelfde dag, vaak binnen een paar uur. Wil je alvast foto's van je dak sturen? Dat kan via WhatsApp, dan kan ik meteen meekijken voor een prijs.";
+                if (waLink) {
+                  waLink.textContent = "📷 Foto's nasturen via WhatsApp";
+                  waLink.href = `https://wa.me/${telefoonE164}?text=${encodeURIComponent(`Hallo, ik heb net het formulier ingevuld (${velden().naam}). Hierbij alvast wat foto's van mijn dak.`)}`;
                 }
-              });
-            }
+              } else {
+                verstuurKnop.disabled = false;
+                verstuurKnop.textContent = "Verstuur aanvraag";
+                window.open(`https://wa.me/${telefoonE164}?text=${encodeURIComponent(maakBericht())}`, "_blank", "noopener");
+                bevestiging.textContent = "Het formulier kon me net niet direct bereiken, daarom is WhatsApp geopend met je aanvraag, druk daar nog op verzenden. Of bel me even, dan heb je meteen antwoord.";
+              }
+              bevestiging.style.display = "block";
+              bevestiging.scrollIntoView({ block: "nearest" });
+            });
+
+            // Halverwege gestopt met een bereikbaar nummer of mailadres? Dan komt de
+            // aanvraag als "half ingevuld" binnen, zodat Rens kan terugbellen.
+            window.addEventListener("pagehide", () => {
+              if (klaar) return;
+              const v = velden();
+              const cijfers = String(v.telefoon).replace(/[^0-9]/g, "");
+              if (cijfers.length < 8 && !String(v.email).includes("@")) return;
+              try {
+                navigator.sendBeacon(API, new Blob([JSON.stringify({ ...v, status: "onafgemaakt" })], { type: "text/plain;charset=UTF-8" }));
+                klaar = true;
+              } catch (fout) {}
+            });
           }
         </script>
       </div>

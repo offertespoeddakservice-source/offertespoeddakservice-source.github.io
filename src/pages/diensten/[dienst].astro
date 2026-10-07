@@ -63,14 +63,14 @@ const relArtikel = ({
       {d.vanafPrijs && (
         <p style="margin:16px 0 0; font-size:1.1rem; color:#fff;">
           <strong style="font-family:var(--font-display);">Prijsindicatie: <span style="color:var(--orange);">{d.vanafPrijs}</span></strong>
-          <span style="color:#c2d2e3;"> — vaste prijs vooraf, je hoort het bedrag voordat ik begin. Offerte is gratis.</span>
+          <span style="color:#c2d2e3;">, vaste prijs vooraf, je hoort het bedrag voordat ik begin. Offerte is gratis.</span>
         </p>
       )}
       <div class="btn-row" style="margin-top:22px;">
-        <a class="btn btn--wa" href={waHref(`Hoi Rens, ik heb een vraag over ${d.titel.toLowerCase()}.`)}>WhatsApp Rens</a>
+        <a class="btn btn--wa" href={waHref(`Hallo, ik heb een vraag over ${d.titel.toLowerCase()}.`)}>WhatsApp Rens</a>
         <a class="btn btn--primary" href={telHref}>Bel {SITE.telefoonWeergave}</a>
       </div>
-      <img src={d.afbeelding ?? `/img/${d.slug}.jpg`} alt={`${d.titel} — Spoed Dak Service`} loading="eager" fetchpriority="high" width="1000" height="746" style="margin-top:28px;border-radius:12px;width:100%;max-width:820px;height:auto;display:block;" />
+      <img src={d.afbeelding ?? `/img/${d.slug}.jpg`} alt={`${d.titel}, Spoed Dak Service`} loading="eager" fetchpriority="high" width="1000" height="746" style="margin-top:28px;border-radius:12px;width:100%;max-width:820px;height:auto;display:block;" />
     </div>
   </section>
 
@@ -130,7 +130,7 @@ const relArtikel = ({
           </div>
         </>
       )}
-      <p class="lead">Heel mijn werkgebied — kies je plaats:</p>
+      <p class="lead">Heel mijn werkgebied. Kies je plaats:</p>
       <div class="chips">
         {PLAATSEN.map((p) => <a class="chip" href={`/werkgebied/${p.slug}`}>{p.naam}</a>)}
       </div>

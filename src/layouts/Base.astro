@@ -102,7 +102,7 @@ const schemas = [businessSchema, websiteSchema, ...(breadcrumbSchema ? [breadcru
     <meta property="og:image:type" content="image/png" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
-    <meta property="og:image:alt" content={`${SITE.bedrijfsnaam} — dakdekker regio Den Bosch`} />
+    <meta property="og:image:alt" content={`${SITE.bedrijfsnaam}, dakdekker regio Den Bosch`} />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content={title} />
     <meta name="twitter:description" content={description} />
@@ -145,7 +145,7 @@ const schemas = [businessSchema, websiteSchema, ...(breadcrumbSchema ? [breadcru
     {SITE.stormActief && (
       <div class="storm-banner" role="status">
         <div class="wrap">
-          Het stormt momenteel in de regio. Daardoor komen er nu meer aanvragen binnen dan normaal — reageren kan iets langer duren, maar je hoort in elk geval binnen 24 uur iets van me. Zie je al schade aan je dak? <a href="/dak-apk">Vraag hier een Dak-APK aan (€49)</a>, dan kijk ik zo snel mogelijk met je mee.
+          Het stormt momenteel in de regio. Daardoor komen er nu meer aanvragen binnen dan normaal. Reageren kan iets langer duren, maar je hoort in elk geval binnen 24 uur iets van me. Zie je al schade aan je dak? <a href="/dak-apk">Vraag hier een Dak-APK aan (€49)</a>, dan kijk ik zo snel mogelijk met je mee.
         </div>
       </div>
     )}
@@ -181,12 +181,12 @@ const schemas = [businessSchema, websiteSchema, ...(breadcrumbSchema ? [breadcru
         <p class="eyebrow" style="color:#ffb486;">Direct geholpen</p>
         <h2>Dak nakijken of een lek verhelpen?</h2>
         <p class="lead" style="margin: 0 auto 24px; color:#c2d2e3;">
-          Je krijgt mij — Rens — meteen aan de lijn. Twijfel je of je dak nog goed is? Vraag de <strong>Dak-APK</strong> aan: binnen een dagdeel een compleet keuringsrapport met foto's, voor €49.
+          Je krijgt mij, Rens, meteen aan de lijn. Twijfel je of je dak nog goed is? Vraag de <strong>Dak-APK</strong> aan: binnen een dagdeel een compleet keuringsrapport met foto's, voor €49.
         </p>
         <div class="btn-row" style="justify-content:center;">
           <a class="btn btn--wa" href={waHref()}>WhatsApp Rens</a>
           <a class="btn btn--primary" href={telHref}>Bel {SITE.telefoonWeergave}</a>
-          <a class="btn btn--ghost" href="/dak-apk">Bekijk de Dak-APK — €49</a>
+          <a class="btn btn--ghost" href="/dak-apk">Bekijk de Dak-APK: €49</a>
         </div>
       </div>
     </section>
@@ -198,7 +198,7 @@ const schemas = [businessSchema, websiteSchema, ...(breadcrumbSchema ? [breadcru
             <h3>{SITE.bedrijfsnaam}</h3>
             <p>{SITE.slogan}</p>
             <p>Werkgebied: {SITE.regioOmschrijving}.</p>
-            <p>Dag en nacht bereikbaar (24/7) — ook bij spoed 's nachts.</p>
+            <p>Dag en nacht bereikbaar (24/7), ook bij spoed 's nachts.</p>
             <p>Liefst via WhatsApp (foto erbij helpt), bellen kan ook.</p>
           </div>
           <div>
@@ -231,7 +231,7 @@ const schemas = [businessSchema, websiteSchema, ...(breadcrumbSchema ? [breadcru
           </div>
         </div>
         <div class="foot-bottom">
-          © {new Date().getFullYear()} {SITE.bedrijfsnaam}{SITE.kvk ? ` · KvK ${SITE.kvk}` : ""} · regio {SITE.basisplaats} · <a href="/privacy">Privacy</a>
+          © {new Date().getFullYear()} {SITE.bedrijfsnaam}{SITE.kvk ? ` · KvK ${SITE.kvk}` : ""} · regio {SITE.basisplaats} · <a href="/privacy">Privacy</a> · <a href="/bedenktijd">Bedenktijd</a>
         </div>
       </div>
     </footer>

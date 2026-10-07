@@ -3,16 +3,16 @@ import Base from "../layouts/Base.astro";
 import { SITE, telHref, waHref } from "../site.config.ts";
 
 const stappen = [
-  { n: "1", titel: "Beperk de schade binnen", tekst: "Zet een emmer onder het lek, leg handdoeken neer en schuif spullen en meubels opzij. Prik bij een bolstaand plafond met vocht erachter één klein gaatje boven de emmer — dan komt het water gecontroleerd naar beneden." },
-  { n: "2", titel: "Blijf zelf van het dak af", tekst: "Zeker bij storm of regen: klim niet zelf het dak op. Een natte pan of ladder is zo gebeurd — en de schade wordt er zelden beter van." },
-  { n: "3", titel: "Maak foto's", tekst: "Foto's van de natte plek binnen en (vanaf de grond) van het dak. Handig voor mij om alvast mee te kijken — en voor je verzekering bij stormschade." },
-  { n: "4", titel: "Bel of app mij direct", tekst: "Bel of stuur je foto's via WhatsApp. Ik zeg meteen wat je nu zelf kunt doen en wanneer ik er kan zijn — bij spoed in de regio vaak nog dezelfde dag." },
+  { n: "1", titel: "Beperk de schade binnen", tekst: "Zet een emmer onder het lek, leg handdoeken neer en schuif spullen en meubels opzij. Prik bij een bolstaand plafond met vocht erachter één klein gaatje boven de emmer, dan komt het water gecontroleerd naar beneden." },
+  { n: "2", titel: "Blijf zelf van het dak af", tekst: "Zeker bij storm of regen: klim niet zelf het dak op. Een natte pan of ladder is zo gebeurd, en de schade wordt er zelden beter van." },
+  { n: "3", titel: "Maak foto's", tekst: "Foto's van de natte plek binnen en (vanaf de grond) van het dak. Handig voor mij om alvast mee te kijken, en voor je verzekering bij stormschade." },
+  { n: "4", titel: "Bel of app mij direct", tekst: "Bel of stuur je foto's via WhatsApp. Ik zeg meteen wat je nu zelf kunt doen en wanneer ik er kan zijn, bij spoed in de regio vaak nog dezelfde dag." },
 ];
 
 const faq = [
   { v: "Hoe snel kun je er zijn bij een lekkage?", a: "Bij spoed in de regio Den Bosch vaak nog dezelfde dag. Bel of WhatsApp 06 10 18 53 57, dan hoor je meteen wanneer ik kan. Bij een officiële stormwaarschuwing kan het drukker zijn, maar je hoort altijd binnen 24 uur waar je aan toe bent." },
-  { v: "Wat kost een spoedreparatie?", a: "Een daklekkage opsporen en dichten kost meestal €200–€500, inclusief materiaal. Buiten kantooruren ('s avonds, 's nachts, weekend en feestdagen) geldt een spoedtoeslag. Je hoort altijd de vaste prijs vóórdat ik begin — ook midden in de nacht." },
-  { v: "Kom je ook 's avonds, 's nachts of in het weekend?", a: "Ja — ik ben dag en nacht bereikbaar (24/7). Een actief lek of een open dak na storm kan niet wachten. App een foto of bel 06 10 18 53 57, op elk moment." },
+  { v: "Wat kost een spoedreparatie?", a: "Een daklekkage opsporen en dichten kost meestal €200-€500, inclusief materiaal. Buiten kantooruren ('s avonds, 's nachts, weekend en feestdagen) geldt een spoedtoeslag. Je hoort altijd de vaste prijs vóórdat ik begin, ook midden in de nacht." },
+  { v: "Kom je ook 's avonds, 's nachts of in het weekend?", a: "Ja, ik ben dag en nacht bereikbaar (24/7). Een actief lek of een open dak na storm kan niet wachten. App een foto of bel 06 10 18 53 57, op elk moment." },
   { v: "Is de natte plek binnen ook de plek van het lek?", a: "Zelden. Water loopt langs balken en folie en komt vaak meters verderop naar binnen. Ik spoor het echte lek op zonder onnodig sloopwerk." },
   { v: "Valt stormschade onder mijn verzekering?", a: "Storm- en hagelschade valt vaak onder je opstalverzekering. Ik maak duidelijke foto's en een omschrijving die je direct kunt indienen." },
 ];
@@ -24,8 +24,8 @@ const faqSchema = {
 ---
 
 <Base
-  title={`Spoed dakdekker regio Den Bosch — vaak dezelfde dag | ${SITE.bedrijfsnaam}`}
-  description="Acute daklekkage of stormschade? Spoed dakdekker in de regio Den Bosch — vaak dezelfde dag langs, ook 's avonds en in het weekend. Bel 06 10 18 53 57."
+  title={`Spoed dakdekker regio Den Bosch: vaak dezelfde dag | ${SITE.bedrijfsnaam}`}
+  description="Acute daklekkage of stormschade? Spoed dakdekker in de regio Den Bosch, vaak dezelfde dag langs, ook 's avonds en in het weekend. Bel 06 10 18 53 57."
   path="/spoed"
   schema={faqSchema}
 >
@@ -37,15 +37,15 @@ const faqSchema = {
       </div>
       <h1>Lekkage of stormschade?<br />Vaak dezelfde dag langs</h1>
       <p class="lead">
-        Een lek wacht niet, ik ook niet. Bel of stuur direct een foto via WhatsApp — je krijgt mij
+        Een lek wacht niet, ik ook niet. Bel of stuur direct een foto via WhatsApp, je krijgt mij
         (Rens) meteen aan de lijn, ik zeg wat je nú zelf kunt doen en wanneer ik er ben.
       </p>
       <p style="margin:16px 0 0; font-size:1.1rem; color:#fff;">
-        <strong style="font-family:var(--font-display);">Dag en nacht bereikbaar — 24/7</strong>
-        <span style="color:#c2d2e3;"> — lek dichten meestal €200–€500, vaste prijs vooraf, ook bij spoed.</span>
+        <strong style="font-family:var(--font-display);">Dag en nacht bereikbaar: 24/7</strong>
+        <span style="color:#c2d2e3;">, lek dichten meestal €200-€500, vaste prijs vooraf, ook bij spoed.</span>
       </p>
       <div class="btn-row" style="margin-top:22px;">
-        <a class="btn btn--wa" href={waHref("Hoi Rens, ik heb NU een lekkage/schade aan mijn dak. Ik stuur zo een foto mee.")}>WhatsApp een foto</a>
+        <a class="btn btn--wa" href={waHref("Hallo, ik heb NU een lekkage/schade aan mijn dak. Ik stuur zo een foto mee.")}>WhatsApp een foto</a>
         <a class="btn btn--primary" href={telHref}>Bel direct {SITE.telefoonWeergave}</a>
       </div>
     </div>
@@ -70,8 +70,8 @@ const faqSchema = {
       <div class="grid grid-3" style="margin-top:22px;">
         <a class="card" href="/diensten/daklekkage">
           <h3>Daklekkage</h3>
-          <p>Lek opsporen zonder sloopwerk en snel dichten — eerst de schade stoppen, dan netjes herstellen.</p>
-          <span class="price">€200 – €500</span>
+          <p>Lek opsporen zonder sloopwerk en snel dichten: eerst de schade stoppen, dan netjes herstellen.</p>
+          <span class="price">€200 - €500</span>
         </a>
         <a class="card" href="/diensten/stormschade">
           <h3>Stormschade</h3>

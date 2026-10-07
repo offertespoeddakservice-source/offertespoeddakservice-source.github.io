@@ -22,13 +22,13 @@ const faq = [
   {
     v: `Kun je snel langskomen voor ${d.titel.toLowerCase()} in ${p.naam}?`,
     a: p.slug === "den-bosch"
-      ? `Ja — Den Bosch is mijn thuisbasis, dus ik ben er zo. Bij spoed kom ik regelmatig nog dezelfde dag.`
-      : `Ja — ${p.naam} ligt in mijn vaste werkgebied rond Den Bosch${p.reistijd ? ` (${p.reistijd})` : ""}, dus vaak ben ik al in de buurt. Bij spoed kom ik regelmatig nog dezelfde dag.`,
+      ? `Ja, Den Bosch is mijn thuisbasis, dus ik ben er zo. Bij spoed kom ik regelmatig nog dezelfde dag.`
+      : `Ja, ${p.naam} ligt in mijn vaste werkgebied rond Den Bosch${p.reistijd ? ` (${p.reistijd})` : ""}, dus vaak ben ik al in de buurt. Bij spoed kom ik regelmatig nog dezelfde dag.`,
   },
   ...d.faq.slice(0, 2),
   {
     v: `Werk je in heel ${p.naam}?`,
-    a: `Ja, door heel ${p.naam}${p.wijken.length ? ` — onder andere ${p.wijken.slice(0, 3).join(", ")}` : ""} en de directe omgeving.`,
+    a: `Ja, door heel ${p.naam}${p.wijken.length ? `, onder andere ${p.wijken.slice(0, 3).join(", ")}` : ""} en de directe omgeving.`,
   },
 ];
 
@@ -63,7 +63,7 @@ const schema = [
       <p class="lead">{hook}</p>
       <div class="btn-row" style="margin-top:22px;">
         <a class="btn btn--primary" href={telHref}>Bel {SITE.telefoonWeergave}</a>
-        <a class="btn btn--wa" href={waHref(`Hoi Rens, ik zoek ${d.titel.toLowerCase()} in ${p.naam}.`)}>WhatsApp Rens</a>
+        <a class="btn btn--wa" href={waHref(`Hallo, ik zoek ${d.titel.toLowerCase()} in ${p.naam}.`)}>WhatsApp Rens</a>
       </div>
     </div>
   </section>
@@ -81,7 +81,7 @@ const schema = [
 
   <section class="section section--soft">
     <div class="wrap">
-      <h2>Veelgestelde vragen — {d.titel.toLowerCase()} in {p.naam}</h2>
+      <h2>Veelgestelde vragen: {d.titel.toLowerCase()} in {p.naam}</h2>
       <div class="faq" style="margin-top:16px; max-width:760px;">
         {faq.map((f) => (
           <details>

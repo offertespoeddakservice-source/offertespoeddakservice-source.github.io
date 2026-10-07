@@ -8,32 +8,32 @@ const prijstabel = PRIJZEN_DAK_APK;
 
 const bezwaren = [
   {
-    v: "Ik ken dit bedrijf niet — hoe weet ik dat dit geen oplichterij is?",
-    a: "Terechte vraag in een branche waar dat voorkomt. Ik werk onder mijn eigen naam, met mijn eigen 06-nummer — je krijgt mij aan de lijn, geen callcenter. Wat ik beloof, staat hieronder zwart op wit, inclusief wat er gebeurt als ik het een keer niet waarmaak.",
+    v: "Ik ken dit bedrijf niet, hoe weet ik dat dit geen oplichterij is?",
+    a: "Terechte vraag in een branche waar dat voorkomt. Ik werk onder mijn eigen naam, met mijn eigen 06-nummer, je krijgt mij aan de lijn, geen callcenter. Wat ik beloof, staat hieronder zwart op wit, inclusief wat er gebeurt als ik het een keer niet waarmaak.",
   },
   {
-    v: "€49 is verdacht goedkoop — is dit een lokkertje voor dure meerwerk-druk?",
-    a: "De Dak-APK kost mij zelf meer dan €49 om uit te voeren — het is bewust een instapprijs, geen verdienmodel. Zie je aanleiding voor vervolgwerk, dan hoor je de prijs uit de tabel hieronder, die al openbaar staat vóórdat je ook maar aanvraagt. Geen verrassingsfactuur achteraf.",
+    v: "€49 is verdacht goedkoop, is dit een lokkertje voor dure meerwerk-druk?",
+    a: "De Dak-APK kost mij zelf meer dan €49 om uit te voeren, het is bewust een instapprijs, geen verdienmodel. Zie je aanleiding voor vervolgwerk, dan hoor je de prijs uit de tabel hieronder, die al openbaar staat vóórdat je ook maar aanvraagt. Geen verrassingsfactuur achteraf.",
   },
   {
     v: "Wat als jullie de reactietijd-garantie zelf een keer niet halen?",
-    a: "Bij normale drukte: dan is de Dak-APK gratis. Bij een officiële weerswaarschuwing (storm/code oranje-rood) kan de reactietijd oplopen — maar dan hoor je altijd binnen 24 uur waar je aan toe bent. Dat zeg ik liever vooraf dan dat je er als enige achter komt.",
+    a: "Bij normale drukte: dan is de Dak-APK gratis. Bij een officiële weerswaarschuwing (storm/code oranje-rood) kan de reactietijd oplopen, maar dan hoor je altijd binnen 24 uur waar je aan toe bent. Dat zeg ik liever vooraf dan dat je er als enige achter komt.",
   },
   {
-    v: "Ik heb weleens een dakdekker gebeld die niet reageerde of kwam opdagen — waarom zou dit anders zijn?",
-    a: "Vraag vóór 12:00 aan: je hoort dezelfde middag van me. Na 12:00: uiterlijk de volgende ochtend vóór 12:00. Geen vaag \"we bellen snel terug\" — een concreet moment, met een concrete consequentie als ik het mis.",
+    v: "Ik heb weleens een dakdekker gebeld die niet reageerde of kwam opdagen, waarom zou dit anders zijn?",
+    a: "Vraag vóór 12:00 aan: je hoort dezelfde middag van me. Na 12:00: uiterlijk de volgende ochtend vóór 12:00. Geen vaag \"we bellen snel terug\": een concreet moment, met een concrete consequentie als ik het mis.",
   },
   {
     v: "Waarom niet gewoon via een offerteplatform, dan vergelijk ik meteen meerdere aanbieders?",
-    a: "Mag natuurlijk. Het verschil: bij mij ligt de prijstabel al open vóórdat je iets aanvraagt — het vergelijken heb je dan eigenlijk al gehad. Geen wachten op meerdere offertes, geen gokken wat een eerlijke prijs is.",
+    a: "Mag natuurlijk. Het verschil: bij mij ligt de prijstabel al open vóórdat je iets aanvraagt, het vergelijken heb je dan eigenlijk al gehad. Geen wachten op meerdere offertes, geen gokken wat een eerlijke prijs is.",
   },
   {
     v: "Is een inspectie voor €49 wel grondig, of een truc om binnen te komen waarna toch aangedrongen wordt op een dure klus?",
-    a: "Na de Dak-APK krijg je een eerlijk rapport en, als er iets nodig is, een prijs uit de vaste tabel — geen verkooppraatje, geen druk. Niks nodig? Dan hoor je dat ook gewoon.",
+    a: "Na de Dak-APK krijg je een eerlijk rapport en, als er iets nodig is, een prijs uit de vaste tabel, geen verkooppraatje, geen druk. Niks nodig? Dan hoor je dat ook gewoon.",
   },
   {
     v: "Kan ik dit niet gewoon zelf checken, of via de buurman?",
-    a: "Voor een deel wel — maar een dak op hoogte goed beoordelen zonder er zelf op te klimmen, dát is precies waar de Dak-APK voor is. Wat je vanaf de grond ziet, is zelden het hele verhaal.",
+    a: "Voor een deel wel, maar een dak op hoogte goed beoordelen zonder er zelf op te klimmen, dát is precies waar de Dak-APK voor is. Wat je vanaf de grond ziet, is zelden het hele verhaal.",
   },
 ];
 
@@ -45,7 +45,7 @@ const faqSchema = {
 
 const keuringOnderdelen = [
   { titel: "Dakbedekking / pannen", uitleg: "Staat + foto van de hele bedekking." },
-  { titel: "Nokvorsten", uitleg: "Los of vast — vaak het eerste dat begeeft." },
+  { titel: "Nokvorsten", uitleg: "Los of vast, vaak het eerste dat begeeft." },
   { titel: "Dakgoot", uitleg: "Verstopping en staat, incl. afwatering." },
   { titel: "Mos & aanslag", uitleg: "Hoeveel, en of het risico geeft op vocht." },
   { titel: "Loodwerk & aansluitingen", uitleg: "Vaak de eerste plek waar het misgaat." },
@@ -55,7 +55,7 @@ const keuringOnderdelen = [
 ---
 
 <Base
-  title={`Dak-APK voor €49 — compleet keuringsrapport binnen een dagdeel | ${SITE.bedrijfsnaam}`}
+  title={`Dak-APK voor €49: compleet keuringsrapport binnen een dagdeel | ${SITE.bedrijfsnaam}`}
   description="De Dak-APK: binnen een dagdeel weet je zwart op wit of je dak nog goed is, met foto's van elke risicoplek. Voor €49, zonder verplichtingen achteraf."
   path="/dak-apk"
   schema={faqSchema}
@@ -68,7 +68,7 @@ const keuringOnderdelen = [
       </div>
       <h1>Binnen een dagdeel weet je<br />zwart op wit hoe je dak ervoor staat</h1>
       <p class="lead">
-        Met foto's van elke risicoplek, voor €49, zonder verplichtingen achteraf. Geen gok, geen vaag praatje —
+        Met foto's van elke risicoplek, voor €49, zonder verplichtingen achteraf. Geen gok, geen vaag praatje:
         een compleet keuringsrapport, net zo concreet als een APK voor je auto.
       </p>
       <div class="pricehook">
@@ -83,7 +83,7 @@ const keuringOnderdelen = [
       </div>
       <div class="btn-row">
         <a class="btn btn--primary" href="#aanvragen">Vraag de Dak-APK aan</a>
-        <a class="btn btn--wa" href={waHref("Hoi Rens, ik wil de Dak-APK aanvragen.")}>WhatsApp Rens</a>
+        <a class="btn btn--wa" href={waHref("Hallo, ik wil de Dak-APK aanvragen.")}>WhatsApp Rens</a>
       </div>
     </div>
   </section>
@@ -93,7 +93,7 @@ const keuringOnderdelen = [
     <div class="wrap">
       <p class="eyebrow">Wat je krijgt</p>
       <h2>Eén compleet keuringsrapport, geen half werk</h2>
-      <p class="lead">Ik loop elk onderdeel na, ook als het gewoon goed is — juist dan is dat zelf het bewijs.</p>
+      <p class="lead">Ik loop elk onderdeel na, ook als het gewoon goed is, juist dan is dat zelf het bewijs.</p>
       <div class="grid grid-3" style="margin-top:22px;">
         {keuringOnderdelen.map((k) => (
           <div class="card">
@@ -105,11 +105,11 @@ const keuringOnderdelen = [
       <div class="grid grid-2" style="margin-top:16px;">
         <div class="card">
           <h3>Toelichting per risicoplek</h3>
-          <p>Bij elke gevonden aandachtsplek een korte, geschreven uitleg in gewone taal — geen jargon, geen "professionele dakinspectie"-praat.</p>
+          <p>Bij elke gevonden aandachtsplek een korte, geschreven uitleg in gewone taal, geen jargon, geen "professionele dakinspectie"-praat.</p>
         </div>
         <div class="card">
           <h3>Eenvoudig onderhoudsadvies</h3>
-          <p>Een inschatting wat er de komende twee jaar aan zit te komen, met een globale kostenrichting — zodat je niet voor verrassingen komt te staan.</p>
+          <p>Een inschatting wat er de komende twee jaar aan zit te komen, met een globale kostenrichting, zodat je niet voor verrassingen komt te staan.</p>
         </div>
       </div>
     </div>
@@ -131,7 +131,7 @@ const keuringOnderdelen = [
         </div>
       </div>
       <p class="lead" style="margin-top:20px; color:#c2d2e3;">
-        Bij een officiële weerswaarschuwing (storm, code oranje/rood) kan de reactietijd oplopen — het is dan druk bij iedereen.
+        Bij een officiële weerswaarschuwing (storm, code oranje/rood) kan de reactietijd oplopen, het is dan druk bij iedereen.
         Maar ook dan hoor je altijd binnen 24 uur waar je aan toe bent. Dat zeg ik liever vooraf dan dat je er zelf achter komt.
       </p>
     </div>
@@ -160,9 +160,9 @@ const keuringOnderdelen = [
       </table>
       </div>
       <p class="notice" style="margin-top:18px;">
-        Richtprijzen op basis van gangbare klussen in de regio. De uiteindelijke prijs hangt af van de situatie ter plaatse —
+        Richtprijzen op basis van gangbare klussen in de regio. De uiteindelijke prijs hangt af van de situatie ter plaatse,
         bij een dreigende overschrijding van meer dan 10% laat ik dat vooraf weten, zoals de wet ook voorschrijft. Loopt het toch
-        anders, dan hoor je dat vooraf via een appje met het bedrag — nooit een verrassing achteraf.
+        anders, dan hoor je dat vooraf via een appje met het bedrag, nooit een verrassing achteraf.
       </p>
     </div>
   </section>
@@ -173,7 +173,7 @@ const keuringOnderdelen = [
       <p class="eyebrow">Even eerlijk</p>
       <h2>Ik werk alleen, dus mijn agenda is echt beperkt</h2>
       <p class="lead">
-        Geen kunstmatige aftelklok — gewoon de realiteit van een solo-vakman. Zit je midden in een storm of een acute lekkage?
+        Geen kunstmatige aftelklok, gewoon de realiteit van een solo-vakman. Zit je midden in een storm of een acute lekkage?
         Dan gaat de reactietijd-garantie hierboven voor: ik reageer, ook als het druk is. Wil je juist rustig laten checken
         of je dak nog goed is? Vraag gerust ruim vooraf aan, dan plannen we een moment dat past.
       </p>
@@ -201,7 +201,7 @@ const keuringOnderdelen = [
     <div class="wrap split">
       <div>
         <p class="eyebrow" style="color:#ffb486;">Aanvragen</p>
-        <h2>Dak-APK aanvragen — €49</h2>
+        <h2>Dak-APK aanvragen: €49</h2>
         <p class="lead" style="color:#c2d2e3;">Vul kort in wat er speelt, dan hoor je van me binnen de reactietijd hierboven.</p>
         <form class="form" id="dakapk-form" method="POST" action={`mailto:${SITE.email}`} enctype="text/plain" style="margin-top:20px; background:#fff; padding:22px; border-radius:12px;">
           <input type="hidden" name="bron" value="dak-apk-pagina" />
@@ -219,27 +219,35 @@ const keuringOnderdelen = [
           </label>
           <label>Is er nu al een zichtbaar probleem, of wil je het laten checken?
             <select name="aanleiding">
-              <option value="preventie">Geen acuut probleem — ik wil het gewoon laten checken</option>
-              <option value="incident">Er is nu al schade/een lek — ik wil snel iemand</option>
+              <option value="preventie">Geen acuut probleem, ik wil het gewoon laten checken</option>
+              <option value="incident">Er is nu al schade/een lek, ik wil snel iemand</option>
             </select>
           </label>
           <p class="notice" id="spoed-hint" style="display:none;">
-            Acute schade of lekkage? Dan is de Dak-APK niet nodig — <a href={telHref}><strong>bel direct {SITE.telefoonWeergave}</strong></a>, dan krijg je gewoon een gratis prijsopgave en ben ik er vaak dezelfde dag.
+            Acute schade of lekkage? Dan is de Dak-APK niet nodig: <a href={telHref}><strong>bel direct {SITE.telefoonWeergave}</strong></a>, dan krijg je gewoon een gratis prijsopgave en ben ik er vaak dezelfde dag.
           </p>
           <label>Korte omschrijving (optioneel)
             <textarea name="beschrijving" placeholder="Bijv. mos op het dak, of een vochtplek op zolder"></textarea>
           </label>
+          <div style="position:absolute; left:-9999px; top:auto;" aria-hidden="true">
+            <label>Website<input type="text" name="website" tabindex="-1" autocomplete="off" /></label>
+          </div>
           <div class="btn-row">
-            <button class="btn btn--wa" type="submit">Verstuur via WhatsApp</button>
-            <button class="btn btn--outline" type="button" id="dakapk-mail">Verstuur via e-mail</button>
+            <button class="btn btn--primary" type="submit" id="dakapk-verstuur">Verstuur aanvraag</button>
+            <a class="btn btn--wa" id="dakapk-wa-link" href={waHref("Hallo, ik wil de Dak-APK aanvragen.")}>Liever appen? WhatsApp Rens</a>
           </div>
           <p class="notice" id="dakapk-bevestiging" style="display:none; background:#e8f7ee; border-color:#9fd8b4; color:#155c33;"></p>
-          <p class="notice" id="dakapk-form-notice">Je aanvraag gaat via je eigen WhatsApp of e-mail — zo zie je zelf precies wat je verstuurt. Je gegevens gebruik ik alleen om deze aanvraag op te pakken. Liever direct? Bel, dan heb je meteen antwoord.</p>
+          <p class="notice" id="dakapk-form-notice">Je aanvraag komt direct bij mij binnen. Je hoeft verder niets te doen. Je gegevens gebruik ik alleen om deze aanvraag op te pakken; maak je het formulier niet af, dan kan ik je nog even terugbellen. Zie de <a href="/privacy/">privacyverklaring</a>. Liever direct? Bel, dan heb je meteen antwoord.</p>
         </form>
-        <script define:vars={{ telefoonE164: SITE.telefoonE164, email: SITE.email }}>
+        <script define:vars={{ telefoonE164: SITE.telefoonE164 }}>
           const dakApkForm = document.getElementById("dakapk-form");
           if (dakApkForm) {
+            // Aanvraag gaat naar het eigen, beveiligde systeem (Cloudflare) — direct
+            // vastgelegd + pushmelding naar Rens. WhatsApp blijft de terugvaloptie.
+            const API = "https://spoeddak.pages.dev/api/aanvraag";
             const bevestiging = document.getElementById("dakapk-bevestiging");
+            const waLink = document.getElementById("dakapk-wa-link");
+            const verstuurKnop = document.getElementById("dakapk-verstuur");
             const spoedHint = document.getElementById("spoed-hint");
             const selectAanleiding = dakApkForm.querySelector('select[name="aanleiding"]');
             if (selectAanleiding && spoedHint) {
@@ -248,20 +256,39 @@ const keuringOnderdelen = [
               });
               if (selectAanleiding.value === "incident") spoedHint.style.display = "block";
             }
+            const sid = Array.from(crypto.getRandomValues(new Uint8Array(12)), (b) => b.toString(16).padStart(2, "0")).join("");
+            let klaar = false;
+
+            const velden = () => {
+              const d = new FormData(dakApkForm);
+              return {
+                sid,
+                bron: d.get("bron") || "dak-apk",
+                pagina: location.pathname,
+                naam: d.get("naam") || "",
+                telefoon: d.get("telefoon") || "",
+                email: d.get("email") || "",
+                plaats: d.get("plaats") || "",
+                service: "Dak-APK (€49)",
+                aanleiding: d.get("aanleiding") || "",
+                beschrijving: d.get("beschrijving") || "",
+                website: d.get("website") || "",
+              };
+            };
             const maakBericht = () => {
-              const data = new FormData(dakApkForm);
-              const aanleidingTekst = data.get("aanleiding") === "incident"
-                ? "Er is nu al schade/een lek — ik wil snel iemand"
-                : "Geen acuut probleem — gewoon laten checken";
+              const v = velden();
+              const aanleidingTekst = v.aanleiding === "incident"
+                ? "Er is nu al schade/een lek, ik wil snel iemand"
+                : "Geen acuut probleem, gewoon laten checken";
               return [
-                "Hoi Rens, ik wil de Dak-APK (€49) aanvragen.",
-                `Naam: ${data.get("naam") || ""}`,
-                `Telefoon: ${data.get("telefoon") || ""}`,
-                data.get("email") ? `E-mail: ${data.get("email")}` : null,
-                data.get("plaats") ? `Plaats: ${data.get("plaats")}` : null,
+                "Hallo, ik wil de Dak-APK (€49) aanvragen.",
+                `Naam: ${v.naam}`,
+                `Tel: ${v.telefoon}`,
+                v.email ? `E-mail: ${v.email}` : null,
+                v.plaats ? `Plaats: ${v.plaats}` : null,
                 `Situatie: ${aanleidingTekst}`,
-                data.get("beschrijving") ? `Omschrijving: ${data.get("beschrijving")}` : null,
-                `Bron: ${data.get("bron") || "dak-apk-pagina"}`,
+                v.beschrijving ? `Omschrijving: ${v.beschrijving}` : null,
+                `Bron: ${v.bron}`,
               ].filter(Boolean).join("\n");
             };
             const meetConversie = (label) => {
@@ -269,30 +296,53 @@ const keuringOnderdelen = [
                 gtag('event','conversion',{'send_to':'AW-18338222053/' + label,'value':1.0,'currency':'EUR'});
               }
             };
-            dakApkForm.addEventListener("submit", (e) => {
+
+            dakApkForm.addEventListener("submit", async (e) => {
               e.preventDefault();
               if (!dakApkForm.reportValidity()) return;
+              verstuurKnop.disabled = true;
+              verstuurKnop.textContent = "Versturen…";
+              let gelukt = false;
+              try {
+                const res = await fetch(API, {
+                  method: "POST",
+                  keepalive: true,
+                  headers: { "Content-Type": "text/plain;charset=UTF-8" },
+                  body: JSON.stringify({ ...velden(), status: "compleet" }),
+                });
+                gelukt = res.ok;
+              } catch (fout) { gelukt = false; }
               meetConversie('9ZoXCLXKt9ccEOWfrKhE');
-              window.open(`https://wa.me/${telefoonE164}?text=${encodeURIComponent(maakBericht())}`, "_blank", "noopener");
-              if (bevestiging) {
-                bevestiging.textContent = "WhatsApp is geopend met je aanvraag — druk daar nog op verzenden, anders komt hij niet aan. Geen WhatsApp op dit apparaat? Gebruik dan de e-mailknop of bel me even.";
-                bevestiging.style.display = "block";
-                bevestiging.scrollIntoView({ block: "nearest" });
-              }
-            });
-            const mailKnop = document.getElementById("dakapk-mail");
-            if (mailKnop) {
-              mailKnop.addEventListener("click", () => {
-                if (!dakApkForm.reportValidity()) return;
-                meetConversie('QcJRCLjKt9ccEOWfrKhE');
-                window.location.href = `mailto:${email}?subject=${encodeURIComponent("Aanvraag Dak-APK (€49)")}&body=${encodeURIComponent(maakBericht())}`;
-                if (bevestiging) {
-                  bevestiging.textContent = "Je e-mailprogramma is geopend met je aanvraag — druk daar nog op verzenden. Opent er niets? Mail dan naar " + email + " of bel me even.";
-                  bevestiging.style.display = "block";
-                  bevestiging.scrollIntoView({ block: "nearest" });
+              if (gelukt) {
+                klaar = true;
+                verstuurKnop.textContent = "Verstuurd ✓";
+                bevestiging.textContent = "Gelukt: je aanvraag is binnen! Ik reageer meestal dezelfde dag, vaak binnen een paar uur. Wil je alvast foto's van je dak sturen? Dat kan via WhatsApp, dan kan ik meteen meekijken.";
+                if (waLink) {
+                  waLink.textContent = "📷 Foto's nasturen via WhatsApp";
+                  waLink.href = `https://wa.me/${telefoonE164}?text=${encodeURIComponent(`Hallo, ik heb net de Dak-APK aangevraagd (${velden().naam}). Hierbij alvast wat foto's van mijn dak.`)}`;
                 }
-              });
-            }
+              } else {
+                verstuurKnop.disabled = false;
+                verstuurKnop.textContent = "Verstuur aanvraag";
+                window.open(`https://wa.me/${telefoonE164}?text=${encodeURIComponent(maakBericht())}`, "_blank", "noopener");
+                bevestiging.textContent = "Het formulier kon me net niet direct bereiken, daarom is WhatsApp geopend met je aanvraag, druk daar nog op verzenden. Of bel me even, dan heb je meteen antwoord.";
+              }
+              bevestiging.style.display = "block";
+              bevestiging.scrollIntoView({ block: "nearest" });
+            });
+
+            // Halverwege gestopt met een bereikbaar nummer of mailadres? Dan komt de
+            // aanvraag als "half ingevuld" binnen, zodat Rens kan terugbellen.
+            window.addEventListener("pagehide", () => {
+              if (klaar) return;
+              const v = velden();
+              const cijfers = String(v.telefoon).replace(/[^0-9]/g, "");
+              if (cijfers.length < 8 && !String(v.email).includes("@")) return;
+              try {
+                navigator.sendBeacon(API, new Blob([JSON.stringify({ ...v, status: "onafgemaakt" })], { type: "text/plain;charset=UTF-8" }));
+                klaar = true;
+              } catch (fout) {}
+            });
           }
         </script>
       </div>
@@ -301,7 +351,7 @@ const keuringOnderdelen = [
           <h3>Direct contact</h3>
           <ul class="checks" style="margin-top:8px;">
             <li><a href={telHref}>{SITE.telefoonWeergave}</a></li>
-            <li><a href={waHref("Hoi Rens, ik wil de Dak-APK aanvragen.")}>WhatsApp Rens</a></li>
+            <li><a href={waHref("Hallo, ik wil de Dak-APK aanvragen.")}>WhatsApp Rens</a></li>
             <li><a href={`mailto:${SITE.email}`}>{SITE.email}</a></li>
           </ul>
           <p style="margin-top:10px; color:var(--muted);">Werkgebied: {SITE.regioOmschrijving}.</p>

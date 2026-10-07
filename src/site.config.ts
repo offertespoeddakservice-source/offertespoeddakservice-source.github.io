@@ -12,7 +12,7 @@ export const SITE = {
 
   bedrijfsnaam: "Spoed Dak Service",
   eigenaar: "Rens",
-  slogan: "Vakkundig dakwerk door één vaste man — uit de regio Den Bosch.",
+  slogan: "Vakkundig dakwerk door één vaste man, uit de regio Den Bosch.",
 
   // Contact — telefoon/WhatsApp is je primaire kanaal.
   telefoonWeergave: "06 10 18 53 57", // echt nummer (van je flyer)
@@ -56,7 +56,7 @@ export const SITE = {
 export const telHref = `tel:+${SITE.telefoonE164}`;
 
 /** WhatsApp-link met optioneel vooringevuld bericht */
-export function waHref(bericht = "Hoi Rens, ik heb een vraag over mijn dak."): string {
+export function waHref(bericht = "Hallo, ik heb een vraag over mijn dak."): string {
   return `https://wa.me/${SITE.telefoonE164}?text=${encodeURIComponent(bericht)}`;
 }
 

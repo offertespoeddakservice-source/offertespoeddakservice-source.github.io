@@ -1,0 +1,54 @@
+---
+import Base from "../layouts/Base.astro";
+import { SITE } from "../site.config.ts";
+// Bedrijfsadres zoals op de facturen (~/.claude/skills/factuur/factuur.py, BEDRIJF_ADRES).
+const adres = "Kruithoorn 7, 5216 PA 's-Hertogenbosch";
+---
+
+<Base
+  title={`Bedenktijd | ${SITE.bedrijfsnaam}`}
+  description="Bedenktijd van 14 dagen bij een klus van Spoed Dak Service, en het modelformulier om van de opdracht af te zien."
+  path="/bedenktijd"
+>
+  <section class="hero">
+    <div class="wrap">
+      <p class="eyebrow" style="color:#ffb486;">Bedenktijd</p>
+      <h1>Bedenktijd en afzien van de opdracht</h1>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap prose" style="max-width:70ch;">
+      <p>
+        Spreekt u met mij een klus af via de telefoon, WhatsApp, Werkspot of bij u thuis, dan heeft u als particulier
+        14 dagen bedenktijd vanaf de dag dat we het afspreken. Wilt u afzien? Stuur dan binnen die 14 dagen een duidelijk
+        bericht (WhatsApp of e-mail), bijvoorbeeld met het formulier hieronder. Dat hoeft niet, een gewoon bericht is ook goed.
+      </p>
+
+      <h2>Eerder beginnen</h2>
+      <p>
+        Wilt u dat ik binnen de 14 dagen al begin, dan vraag ik u dat zelf te bevestigen met 'Ja, begin maar'.
+        Uw bedenktijd stopt dan zodra het werk klaar is. Ziet u af terwijl ik al bezig ben, dan betaalt u alleen
+        het deel dat al gedaan is.
+      </p>
+
+      <h2>Spoedreparatie</h2>
+      <p>
+        Vraagt u mij zelf om met spoed langs te komen voor een dringende reparatie, dan geldt voor die reparatie geen bedenktijd.
+      </p>
+
+      <h2>Modelformulier voor herroeping</h2>
+      <p>(dit formulier alleen invullen en terugzenden als u de overeenkomst wilt herroepen)</p>
+      <ul>
+        <li>Aan: {SITE.bedrijfsnaam}, {adres}, e-mail <a href={`mailto:${SITE.email}`}>{SITE.email}</a>, telefoon {SITE.telefoonWeergave}</li>
+        <li>Ik/Wij* deel/delen* u hierbij mede dat ik/wij* onze overeenkomst betreffende de levering van de volgende dienst herroep/herroepen*:</li>
+        <li>Besteld op* [datum]</li>
+        <li>[Naam consument(en)]</li>
+        <li>[Adres consument(en)]</li>
+        <li>[Handtekening consument(en)] (alleen wanneer dit formulier op papier wordt ingediend)</li>
+        <li>Datum (DD-MM-JJJJ):</li>
+      </ul>
+      <p>* Doorhalen wat niet van toepassing is.</p>
+    </div>
+  </section>
+</Base>

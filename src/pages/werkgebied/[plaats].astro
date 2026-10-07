@@ -18,9 +18,9 @@ const matrixVoorPlaats = MATRIX.filter((c) => c.plaats === p.slug)
   .filter((d) => d);
 
 const faq = [
-  { v: `Werk je in heel ${p.naam}?`, a: `Ja, ik werk in heel ${p.naam}${p.wijken.length ? ` — onder andere ${p.wijken.slice(0, 3).join(", ")}` : ""} en de directe omgeving. ${p.reistijd ? `Het is maar ${p.reistijd}.` : ""}` },
-  { v: `Kun je snel langskomen in ${p.naam}?`, a: p.slug === "den-bosch" ? `Bij spoed of lekkage vaak nog dezelfde dag — Den Bosch is mijn thuisbasis, dus ik ben er zo.` : `Bij spoed of lekkage vaak nog dezelfde dag, want ${p.naam} ligt in mijn vaste werkgebied rond Den Bosch.` },
-  { v: `Wat kost een dakdekker in ${p.naam}?`, a: `Goten reinigen €99 all-in (rijtjeswoning), een kleine reparatie €100–€250, een daklekkage meestal €200–€500. Offerte is altijd gratis en je hoort vooraf de vaste prijs.` },
+  { v: `Werk je in heel ${p.naam}?`, a: `Ja, ik werk in heel ${p.naam}${p.wijken.length ? `, onder andere ${p.wijken.slice(0, 3).join(", ")}` : ""} en de directe omgeving. ${p.reistijd ? `Het is maar ${p.reistijd}.` : ""}` },
+  { v: `Kun je snel langskomen in ${p.naam}?`, a: p.slug === "den-bosch" ? `Bij spoed of lekkage vaak nog dezelfde dag. Den Bosch is mijn thuisbasis, dus ik ben er zo.` : `Bij spoed of lekkage vaak nog dezelfde dag, want ${p.naam} ligt in mijn vaste werkgebied rond Den Bosch.` },
+  { v: `Wat kost een dakdekker in ${p.naam}?`, a: `Goten reinigen €99 all-in (rijtjeswoning), een kleine reparatie €100-€250, een daklekkage meestal €200-€500. Offerte is altijd gratis en je hoort vooraf de vaste prijs.` },
 ];
 
 const schema = [
@@ -49,15 +49,15 @@ const schema = [
   <section class="hero">
     <div class="wrap">
       <p class="eyebrow" style="color:#ffb486;">Werkgebied · {p.reistijd ?? SITE.regioOmschrijving}</p>
-      <h1>{titel} — goten, lekkage &amp; reparatie</h1>
+      <h1>{titel}: goten, lekkage &amp; reparatie</h1>
       <p class="lead">
-        Zoek je een betrouwbare dakdekker in {p.naam}? Je krijgt mij — Rens — aan de lijn.
+        Zoek je een betrouwbare dakdekker in {p.naam}? Je krijgt mij, Rens, aan de lijn.
         Twijfel je over de staat van je dak? Vraag de <a href="/dak-apk">Dak-APK</a> aan (voor €49) voor een compleet fotorapport.
         Weet je al wat er moet gebeuren? Dan hoor je gelijk een eerlijke, vaste prijs.
       </p>
       <div class="btn-row" style="margin-top:22px;">
         <a class="btn btn--primary" href={telHref}>Bel {SITE.telefoonWeergave}</a>
-        <a class="btn btn--wa" href={waHref(`Hoi Rens, ik zoek een dakdekker in ${p.naam}.`)}>WhatsApp Rens</a>
+        <a class="btn btn--wa" href={waHref(`Hallo, ik zoek een dakdekker in ${p.naam}.`)}>WhatsApp Rens</a>
       </div>
     </div>
   </section>
@@ -67,7 +67,7 @@ const schema = [
       <h2>Dakdekker in {p.naam}</h2>
       <p>{p.lokaal}</p>
       <p>
-        Of het nu gaat om volle goten, een lek na de regen of losse pannen na een storm —
+        Of het nu gaat om volle goten, een lek na de regen of losse pannen na een storm,
         ik help je er snel en netjes vanaf. {p.reistijd ? `${p.naam} is ${p.reistijd}, ` : ""}
         dus ik ben vaak snel ter plaatse.
       </p>
@@ -107,7 +107,7 @@ const schema = [
 
   <section class="section">
     <div class="wrap">
-      <h2>Veelgestelde vragen — {p.naam}</h2>
+      <h2>Veelgestelde vragen: {p.naam}</h2>
       <div class="faq" style="margin-top:16px; max-width:760px;">
         {faq.map((f) => (
           <details>
