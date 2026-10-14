@@ -58,7 +58,7 @@
   if (/^[A-Za-z0-9]{16,64}$/.test(c)) doel = 'https://www.ing.nl/payreq/m/?trxid=' + c;
   else if (/^tk-[A-Za-z0-9]{6,64}$/.test(c)) doel = 'https://tikkie.me/pay/' + c.slice(3);
   else if (/^ing-[A-Za-z0-9]{16,64}$/.test(c)) doel = 'https://www.ing.nl/payreq/m/' + c.slice(4);
-  else if (/^ml-[A-Za-z0-9]{6,64}$/.test(c)) doel = 'https://paymentlink.mollie.com/payment/' + c.slice(3) + '/';
+  else if (/^ml-[A-Za-z0-9]{6,64}$/.test(c)) doel = 'https://payment-links.mollie.com/payment/' + c.slice(3) + '/';
   // Facturen waarvan de knop al met alleen een factuurnummer is verstuurd.
   var bekend = { '2026-231': 'https://www.ing.nl/payreq/m/fjoxo7X1O3uEWcR1sdWe6iRIZIDJYrFE' };
   var fnr = (c.match(/^(\d{4}-\d{1,4})/) || [])[1];
