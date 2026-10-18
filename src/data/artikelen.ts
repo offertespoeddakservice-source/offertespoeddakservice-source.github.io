@@ -6,6 +6,7 @@
 import { PRIJZEN } from "./prijzen";
 
 const GOTEN_PRIJS = PRIJZEN.find((r) => r.dienst === "Dakgoot reinigen")?.prijs ?? "";
+const lekPrijs = PRIJZEN.find((r) => r.dienst.startsWith("Daklekkage"))?.prijs ?? "";
 
 export interface Sectie { kop: string; tekst: string[] }
 export interface Artikel {
@@ -26,9 +27,9 @@ export const ARTIKELEN: Artikel[] = [
     slug: "daklekkage-opsporen",
     titel: "Daklekkage opsporen",
     h1: "Daklekkage opsporen: zo vind je de oorzaak (zonder sloopwerk)",
-    metaTitle: "Daklekkage opsporen — oorzaken | Spoed Dak Service",
+    metaTitle: "Daklekkage opsporen: oorzaken en aanpak | Spoed Dak Service",
     metaDescription:
-      "Daklekkage opsporen? De natte plek zit zelden onder het echte lek.",
+      "Daklekkage opsporen? De natte plek zit zelden onder het echte lek. Dit zijn de meest voorkomende oorzaken en zo vind ik het lek zonder onnodig sloopwerk.",
     intro:
       "Een natte plek op je plafond betekent bijna nooit dat het lek daar precies boven zit. Water loopt via panlatten, isolatie en naden naar het laagste punt en komt daar pas naar binnen. Daarom is een lek opsporen vakwerk — hieronder hoe het werkt.",
     secties: [
@@ -119,7 +120,7 @@ export const ARTIKELEN: Artikel[] = [
     h1: "Hoe vaak moet je je dakgoot reinigen — en wat kost het?",
     metaTitle: "Hoe vaak dakgoot reinigen + kosten | Spoed Dak Service",
     metaDescription:
-      "Hoe vaak moet je je dakgoot reinigen? Meestal 1× per jaar, vaker bij bomen in de buurt.",
+      "Hoe vaak moet je je dakgoot reinigen? Meestal één keer per jaar in het najaar, vaker bij bomen in de buurt. Waarom het belangrijk is en wat het kost.",
     intro:
       "Volle goten lijken onschuldig, maar ze zijn de oorzaak van veel vochtschade: overlopend water, natte muren en op den duur lekkage. Hoe vaak moet je ze laten reinigen, en wat kost dat?",
     secties: [
@@ -145,7 +146,7 @@ export const ARTIKELEN: Artikel[] = [
     h1: "Wat kost het om een daklekkage te repareren? (eerlijke prijzen)",
     metaTitle: "Wat kost daklekkage repareren? Prijzen | Spoed Dak Service",
     metaDescription:
-      "Wat kost een daklekkage repareren? Een punctuele reparatie meestal €200–€500.",
+      `Wat kost een daklekkage repareren? Een gerichte reparatie kost meestal ${lekPrijs}, inclusief materiaal. Waar de prijs van afhangt en waarom wachten duurder is.`,
     intro:
       "De eerste vraag bij een lek is bijna altijd: wat gaat me dit kosten? Eerlijk antwoord: dat hangt af van de oorzaak en hoe lang het al speelt. Hieronder zet ik de prijzen op een rij zoals ik ze ook aan de telefoon zou noemen — vaste prijs vooraf, geen verrassingen achteraf.",
     secties: [
@@ -178,7 +179,7 @@ export const ARTIKELEN: Artikel[] = [
     h1: "Verstopte regenpijp of lekkende dakgoot — oorzaken en oplossing",
     metaTitle: "Verstopte regenpijp & lekkende dakgoot | Spoed Dak Service",
     metaDescription:
-      "Verstopte regenpijp of lekkende dakgoot? Loopt het water langs je gevel, dan zit de afvoer dicht.",
+      "Verstopte regenpijp of lekkende dakgoot? Loopt het water langs je gevel, dan zit de afvoer meestal dicht. Zo herken je het en zo los ik het op.",
     intro:
       "Loopt het water bij regen over de goot of langs je gevel naar beneden, dan is de kans groot dat de regenpijp verstopt zit. Vervelend, maar zelden ingewikkeld. Hieronder waar het vandaan komt, waarom je het niet moet laten zitten, en hoe ik het verhelp.",
     secties: [
@@ -206,9 +207,9 @@ export const ARTIKELEN: Artikel[] = [
     slug: "stormschade-eerste-hulp",
     titel: "Stormschade: eerste hulp",
     h1: "Stormschade aan je dak: eerste hulp en je verzekering",
-    metaTitle: "Stormschade dak — eerste hulp | Spoed Dak Service",
+    metaTitle: "Stormschade dak: eerste hulp | Spoed Dak Service",
     metaDescription:
-      "Stormschade aan je dak? Weggewaaide pannen of een open dak laten regen binnen.",
+      "Stormschade aan je dak? Weggewaaide pannen of een open dak laten regen binnen. Wat je nu zelf doet, wat je beter laat en hoe het zit met je verzekering.",
     intro:
       "Na een storm telt elk uur: losse of weggewaaide pannen en open plekken laten meteen regen binnen. Het belangrijkste is rust houden, je veiligheid voorop zetten en snel de schade laten beperken. Hieronder de stappen.",
     secties: [
