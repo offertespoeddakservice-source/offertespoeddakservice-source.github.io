@@ -4,6 +4,10 @@
  * goten-reinigen is een gewone upsell-klus (marktprijs €75-225, Fase 3-prijstabel).
  */
 
+import { PRIJZEN } from "./prijzen";
+
+const GOTEN_PRIJS = PRIJZEN.find((r) => r.dienst === "Dakgoot reinigen")?.prijs ?? "";
+
 export interface Dienst {
   slug: string;
   titel: string;          // korte naam (nav / kaart)
@@ -33,7 +37,7 @@ export const DIENSTEN: Dienst[] = [
     intro:
       "Volle of verstopte dakgoten zorgen voor overlopend water, vochtige muren en op den duur lekkage. Ik maak je goten leeg, controleer de afvoer en kijk meteen of er nog iets aan je dak speelt. Geen verrassingen: je weet vooraf wat het kost.",
     punten: [
-      "Goten leeg, blad en mos eruit, afvoer doorgespoeld",
+      "Goten leeg, blad en mos eruit, uitloop naar de regenpijp vrijgemaakt",
       "Meteen een eerlijke blik op pannen, lood en kitwerk",
       "Vaste prijs vooraf — geen verrassingen achteraf",
       "Werk netjes achtergelaten, troep mee",
@@ -41,15 +45,15 @@ export const DIENSTEN: Dienst[] = [
     faq: [
       {
         v: "Wat kost goten reinigen?",
-        a: "€99 all-in voor een rijtjeswoning: beide goten leeg, afvoer doorgespoeld, troep mee. Groter of hoger huis? Dan hoor je vooraf de vaste prijs — nooit achteraf verrassingen.",
+        a: `${GOTEN_PRIJS} voor een rijtjeswoning: beide goten leeg, uitloop naar de regenpijp vrijgemaakt, troep mee. Groter of hoger huis? Dan hoor je vooraf de vaste prijs, nooit achteraf verrassingen.`,
       },
       {
         v: "Hoe vaak moet ik mijn goten laten reinigen?",
         a: "Eén keer per jaar is meestal genoeg, het beste in het najaar als het blad gevallen is. Staan er bomen vlakbij, dan soms twee keer.",
       },
       {
-        v: "Mijn regenpijp is verstopt — kun je die ook doorspoelen?",
-        a: "Ja, een verstopte regenpijp hoort erbij: ik spoel de hele afvoer door tot het water vrij wegloopt, niet alleen de goot zelf. Anders loopt de goot zo weer over.",
+        v: "Mijn regenpijp is verstopt, kijk je daar ook naar?",
+        a: "Ja. Ik haal blad en vuil weg bij de uitloop van de goot naar de regenpijp en kijk of het water weer wegloopt. Zit de verstopping dieper in de pijp, dan zeg ik eerlijk wat er nodig is.",
       },
       {
         v: "Mijn dakgoot lekt — komt dat door verstopping?",
@@ -57,7 +61,7 @@ export const DIENSTEN: Dienst[] = [
       },
       {
         v: "Maak je ook de afvoer en bladvangers schoon?",
-        a: "Bij dakgoot schoonmaken hoort de hele afvoer: goot leeg, blad en mos eruit, bladvangers gecontroleerd en de regenpijp doorgespoeld. Klaar is klaar.",
+        a: "Bij dakgoot schoonmaken hoort de hele goot: blad en mos eruit, bladvangers gecontroleerd en de uitloop naar de regenpijp vrijgemaakt. Klaar is klaar.",
       },
     ],
   },

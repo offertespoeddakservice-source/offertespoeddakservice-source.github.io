@@ -3,6 +3,10 @@
  * Elk artikel linkt intern naar een dienstpagina (interne links = SEO + conversie).
  */
 
+import { PRIJZEN } from "./prijzen";
+
+const GOTEN_PRIJS = PRIJZEN.find((r) => r.dienst === "Dakgoot reinigen")?.prijs ?? "";
+
 export interface Sectie { kop: string; tekst: string[] }
 export interface Artikel {
   slug: string;
@@ -91,7 +95,7 @@ export const ARTIKELEN: Artikel[] = [
         "Een verstopte goot loopt over langs de gevel, trekt vocht in muren en fundering en kan binnen voor lekkage zorgen. Een kleine jaarlijkse onderhoudsbeurt voorkomt dure schade.",
       ] },
       { kop: "Wat kost goten reinigen?", tekst: [
-        "Bij een rijtjeswoning is het €99 all-in: beide goten leeg, afvoer doorgespoeld, troep mee. Bij een groter of hoger huis hoor je vooraf de vaste prijs — nooit achteraf verrassingen.",
+        `Bij een rijtjeswoning is het ${GOTEN_PRIJS}: beide goten leeg, uitloop naar de regenpijp vrijgemaakt, troep mee. Bij een groter of hoger huis hoor je vooraf de vaste prijs, nooit achteraf verrassingen.`,
       ] },
     ],
     dienst: { label: "Bekijk: dakgoot reinigen", href: "/diensten/goten-reinigen/" },
@@ -143,17 +147,17 @@ export const ARTIKELEN: Artikel[] = [
       "Loopt het water bij regen over de goot of langs je gevel naar beneden, dan is de kans groot dat de regenpijp verstopt zit. Vervelend, maar zelden ingewikkeld. Hieronder waar het vandaan komt, waarom je het niet moet laten zitten, en hoe ik het verhelp.",
     secties: [
       { kop: "Waar het door komt", tekst: [
-        "Blad, mos, takjes en zand spoelen vanaf het dak de goot in en zakken door naar de regenpijp, waar het zich ophoopt. Vooral in het najaar gaat dat hard, en in de winter kan een verstopping bevriezen en de afvoer helemaal dichtzetten.",
+        "Blad, mos, takjes en zand komen vanaf het dak in de goot terecht en zakken door naar de regenpijp, waar het zich ophoopt. Vooral in het najaar gaat dat hard, en in de winter kan een verstopping bevriezen en de afvoer helemaal dichtzetten.",
         "Een lekkende dakgoot is vaak hetzelfde probleem: de goot loopt over omdat het water niet weg kan, niet omdat de goot zelf kapot is.",
       ] },
       { kop: "Hoe je het herkent", tekst: [
         "Water dat bij regen over de gootrand klotst, een straaltje langs de gevel, of vochtige plekken op de muur onder de goot. Soms lekt het bij de verbindingen van de pijp.",
       ] },
       { kop: "Waarom je het niet moet laten zitten", tekst: [
-        "Blijft de afvoer dicht, dan trekt het overlopende water vocht in je gevel en fundering. Dat geeft vochtplekken, schimmel en op den duur zelfs scheuren — veel duurder dan een keer doorspoelen.",
+        "Blijft de afvoer dicht, dan trekt het overlopende water vocht in je gevel en fundering. Dat geeft vochtplekken, schimmel en op den duur zelfs scheuren. Dat is veel duurder dan de afvoer op tijd vrij laten maken.",
       ] },
       { kop: "Hoe ik het oplos", tekst: [
-        "Ik maak eerst de goot leeg (blad, mos, modder), controleer of de instroom naar de regenpijp vrij is en spoel daarna de hele pijp door tot het water vrij wegloopt — niet alleen de goot zelf. Last van bomen in de buurt? Dan adviseer ik bladroosters zodat het minder snel terugkomt.",
+        "Ik maak eerst de goot leeg (blad, mos, modder), controleer of de instroom naar de regenpijp vrij is en kijk of het water weer vrij de regenpijp in loopt. Zit de verstopping diep in de pijp, dan zeg ik dat eerlijk. Last van bomen in de buurt? Dan adviseer ik bladroosters zodat het minder snel terugkomt.",
       ] },
     ],
     dienst: { label: "Bekijk: dakgoot reinigen", href: "/diensten/goten-reinigen/" },
@@ -234,7 +238,7 @@ export const ARTIKELEN: Artikel[] = [
       "Een groen waas op je dak ziet er onschuldig uit, maar mos is niet alleen cosmetisch. Het houdt vocht vast en kan op den duur schade geven. Tegelijk kun je met de verkeerde aanpak (lees: een te harde hogedrukreiniger) méér kapotmaken dan je oplost. Hieronder hoe het zit.",
     secties: [
       { kop: "Is mos echt schadelijk?", tekst: [
-        "Ja, op termijn wel. Mos houdt vocht vast op je pannen; vriest dat vocht 's winters, dan zet het uit en kunnen pannen scheuren of afbladderen. Bovendien spoelt los mos de goot en regenpijp in en verstopt daar de afvoer — een veelvoorkomende oorzaak van overlopende goten en lekkage.",
+        "Ja, op termijn wel. Mos houdt vocht vast op je pannen; vriest dat vocht 's winters, dan zet het uit en kunnen pannen scheuren of afbladderen. Bovendien komt los mos in de goot en regenpijp terecht en verstopt daar de afvoer: een veelvoorkomende oorzaak van overlopende goten en lekkage.",
       ] },
       { kop: "Pas op met de hogedrukreiniger", tekst: [
         "Een hogedrukreiniger lijkt snel, maar te veel druk haalt de beschermende toplaag van je pannen weg en beschadigt vooral oudere, poreuze pannen — dan groeit het mos juist sneller terug. Voor stevige, moderne pannen kan lage druk, maar bij twijfel is voorzichtig handwerk of een zachtere methode beter.",

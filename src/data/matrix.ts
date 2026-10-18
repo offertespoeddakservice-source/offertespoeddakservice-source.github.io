@@ -47,7 +47,7 @@ export const MATRIX: MatrixCombo[] = [
   {
     plaats: "oss",
     dienst: "goten-reinigen",
-    hook: "In de ruime wijken van Oss met veel schuine daken slibben goten snel dicht door blad en mos. Ik maak ze leeg, spoel de afvoer door en kijk meteen of er meer aan je dak speelt.",
+    hook: "In de ruime wijken van Oss met veel schuine daken slibben goten snel dicht door blad en mos. Ik maak ze leeg, maak de uitloop naar de regenpijp vrij en kijk meteen of er meer aan je dak speelt.",
   },
   {
     plaats: "den-bosch",
@@ -57,7 +57,7 @@ export const MATRIX: MatrixCombo[] = [
   {
     plaats: "rosmalen",
     dienst: "goten-reinigen",
-    hook: "De schuine pannendaken in Rosmalen — van Molenhoek tot De Groote Wielen — hebben goten die door bladval snel dichtslibben. Leeg, doorgespoeld en een eerlijke blik op de rest.",
+    hook: "De schuine pannendaken in Rosmalen, van Molenhoek tot De Groote Wielen, hebben goten die door bladval snel dichtslibben. Leeg, uitloop vrij en een eerlijke blik op de rest.",
   },
   {
     plaats: "vught",
@@ -67,7 +67,7 @@ export const MATRIX: MatrixCombo[] = [
   {
     plaats: "berlicum",
     dienst: "goten-reinigen",
-    hook: "Bij de dorpse, vaak vrijstaande woningen in Berlicum zijn de goten flink aan de lengte. Ik maak ze van begin tot eind leeg en spoel de afvoer goed door.",
+    hook: "Bij de dorpse, vaak vrijstaande woningen in Berlicum zijn de goten flink aan de lengte. Ik maak ze van begin tot eind leeg en maak de uitloop naar de regenpijp goed vrij.",
   },
 
   // ── Tier B · daklekkage ──────────────────────────────────────────────
@@ -111,22 +111,22 @@ export const MATRIX: MatrixCombo[] = [
   {
     plaats: "vlijmen",
     dienst: "goten-reinigen",
-    hook: "De goten in Vlijmen lopen na een storm vanaf de Maaskant snel vol blad en gruis. Ik maak ze leeg, spoel de afvoer door en kijk meteen of er pannen los zitten.",
+    hook: "De goten in Vlijmen lopen na een storm vanaf de Maaskant snel vol blad en gruis. Ik maak ze leeg, maak de uitloop naar de regenpijp vrij en kijk meteen of er pannen los zitten.",
   },
   {
     plaats: "drunen",
     dienst: "goten-reinigen",
-    hook: "Zo dicht bij de Loonse en Drunense Duinen krijgen de goten in Drunen flink wat zand en blad te verduren. Ik maak ze leeg en doorgespoeld, zodat het water weer vrij wegloopt.",
+    hook: "Zo dicht bij de Loonse en Drunense Duinen krijgen de goten in Drunen flink wat zand en blad te verduren. Ik maak ze leeg en maak de uitloop vrij, zodat het water weer weg kan.",
   },
   {
     plaats: "boxtel",
     dienst: "goten-reinigen",
-    hook: "Onder de bomenrijke straten van Boxtel slibben goten razendsnel dicht. Ik haal blad en mos eruit, spoel de regenpijp door en geef een eerlijke blik op de rest van je dak.",
+    hook: "Onder de bomenrijke straten van Boxtel slibben goten razendsnel dicht. Ik haal blad en mos eruit, maak de uitloop naar de regenpijp vrij en geef een eerlijke blik op de rest van je dak.",
   },
   {
     plaats: "schijndel",
     dienst: "goten-reinigen",
-    hook: "Bij de oudere rijtjes en vrijstaande woningen in Schijndel zijn volle goten een veelvoorkomende oorzaak van vochtige muren. Leeg, doorgespoeld en netjes achtergelaten.",
+    hook: "Bij de oudere rijtjes en vrijstaande woningen in Schijndel zijn volle goten een veelvoorkomende oorzaak van vochtige muren. Leeg, uitloop vrij en netjes achtergelaten.",
   },
   {
     plaats: "heusden",
@@ -136,12 +136,12 @@ export const MATRIX: MatrixCombo[] = [
   {
     plaats: "sint-michielsgestel",
     dienst: "goten-reinigen",
-    hook: "Langs de Dommel in Sint-Michielsgestel staan veel bomen — de goten lopen er snel vol blad. Ik maak ze leeg, spoel de afvoer door en kijk naar vorsten en lood.",
+    hook: "Langs de Dommel in Sint-Michielsgestel staan veel bomen, dus de goten lopen er snel vol blad. Ik maak ze leeg, maak de uitloop naar de regenpijp vrij en kijk naar vorsten en lood.",
   },
   {
     plaats: "oisterwijk",
     dienst: "goten-reinigen",
-    hook: "Bosrijk Oisterwijk betekent veel blad en mos op het dak. Ik maak je goten grondig leeg, controleer de bladvangers en spoel de regenpijp door tot het water vrij loopt.",
+    hook: "Bosrijk Oisterwijk betekent veel blad en mos op het dak. Ik maak je goten grondig leeg, controleer de bladvangers en maak de uitloop naar de regenpijp vrij.",
   },
 
   // ── Tier C · stormschade × alle 12 kerndorpen (klaar voor stormpieken) ──
