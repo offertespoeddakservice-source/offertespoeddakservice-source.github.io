@@ -14,6 +14,9 @@ interface Props {
 const { title, description, path = "/", schema, noindex = false } = Astro.props;
 // Canonical altijd mét slash op het eind — GitHub Pages stuurt /pad door naar /pad/, dus zo wijst de canonical direct naar de eind-URL (geen redirect-signaal voor Google).
 const canonical = new URL(path === "/" ? "/" : (path.endsWith("/") ? path : path + "/"), SITE.url).href;
+const huidigPad = path === "/" ? "/" : (path.endsWith("/") ? path : path + "/");
+// Menulinks met slash op het eind, zodat elke klik direct op de eind-URL landt (geen doorverwijzing).
+const navItems = NAV.map((item) => ({ label: item.label, href: item.href.endsWith("/") ? item.href : item.href + "/" }));
 
 const businessSchema: Record<string, unknown> = {
   "@context": "https://schema.org",
@@ -125,8 +128,8 @@ const schemas = [businessSchema, websiteSchema, ...(breadcrumbSchema ? [breadcru
         <a href="/" class="brand">Spoed <span>Dak</span> Service</a>
         <nav class="nav" aria-label="Hoofdmenu">
           <div class="nav-links">
-            {NAV.map((item) => (
-              <a href={item.href} aria-current={path === item.href || path.startsWith(item.href + "/") ? "page" : undefined}>{item.label}</a>
+            {navItems.map((item) => (
+              <a href={item.href} aria-current={huidigPad.startsWith(item.href) ? "page" : undefined}>{item.label}</a>
             ))}
           </div>
           <a class="btn btn--primary" href={telHref}>Bel {SITE.telefoonWeergave}</a>
@@ -137,7 +140,7 @@ const schemas = [businessSchema, websiteSchema, ...(breadcrumbSchema ? [breadcru
             <span style="font-family:var(--font-display);font-weight:800;color:var(--navy);font-size:.9rem;margin-left:4px;">Menu</span>
           </summary>
           <div class="m-menu-panel">
-            {NAV.map((item) => <a href={item.href}>{item.label}</a>)}
+            {navItems.map((item) => <a href={item.href}>{item.label}</a>)}
             <a class="btn btn--primary" href={telHref}>Bel {SITE.telefoonWeergave}</a>
             <a class="btn btn--wa" href={waHref()}>WhatsApp Rens</a>
           </div>
@@ -207,17 +210,17 @@ const schemas = [businessSchema, websiteSchema, ...(breadcrumbSchema ? [breadcru
           <div>
             <h3>Diensten</h3>
             <ul>
-              <li><a href="/spoed">Spoed / lekkage nu</a></li>
-              <li><a href="/diensten/goten-reinigen">Goten reinigen</a></li>
-              <li><a href="/diensten/daklekkage">Daklekkage &amp; spoed</a></li>
-              <li><a href="/diensten/dakreparatie">Dakreparatie</a></li>
-              <li><a href="/diensten/platte-daken">Platte daken (EPDM)</a></li>
-              <li><a href="/diensten/dakgoot-vervangen">Dakgoot vervangen</a></li>
+              <li><a href="/spoed/">Spoed / lekkage nu</a></li>
+              <li><a href="/diensten/goten-reinigen/">Goten reinigen</a></li>
+              <li><a href="/diensten/daklekkage/">Daklekkage &amp; spoed</a></li>
+              <li><a href="/diensten/dakreparatie/">Dakreparatie</a></li>
+              <li><a href="/diensten/platte-daken/">Platte daken (EPDM)</a></li>
+              <li><a href="/diensten/dakgoot-vervangen/">Dakgoot vervangen</a></li>
               <li><a href="/diensten/dakcoating">Dak coaten</a></li>
-              <li><a href="/diensten/schoorsteen-vegen">Schoorsteen vegen</a></li>
-              <li><a href="/diensten/stormschade">Stormschade</a></li>
-              <li><a href="/diensten/dakisolatie">Dakisolatie</a></li>
-              <li><a href="/diensten">Alle diensten →</a></li>
+              <li><a href="/diensten/schoorsteen-vegen/">Schoorsteen vegen</a></li>
+              <li><a href="/diensten/stormschade/">Stormschade</a></li>
+              <li><a href="/diensten/dakisolatie/">Dakisolatie</a></li>
+              <li><a href="/diensten/">Alle diensten →</a></li>
             </ul>
           </div>
           <div>
@@ -226,15 +229,15 @@ const schemas = [businessSchema, websiteSchema, ...(breadcrumbSchema ? [breadcru
               <li><a href={telHref}>{SITE.telefoonWeergave}</a></li>
               <li><a href={waHref()}>WhatsApp</a></li>
               <li><a href={`mailto:${SITE.email}`}>{SITE.email}</a></li>
-              <li><a href="/werkgebied">Werkgebied</a></li>
-              <li><a href="/prijzen">Prijzen</a></li>
-              <li><a href="/over">Over Rens</a></li>
-              <li><a href="/kennisbank">Kennisbank</a></li>
+              <li><a href="/werkgebied/">Werkgebied</a></li>
+              <li><a href="/prijzen/">Prijzen</a></li>
+              <li><a href="/over/">Over Rens</a></li>
+              <li><a href="/kennisbank/">Kennisbank</a></li>
             </ul>
           </div>
         </div>
         <div class="foot-bottom">
-          © {new Date().getFullYear()} {SITE.bedrijfsnaam}{SITE.kvk ? ` · KvK ${SITE.kvk}` : ""} · regio {SITE.basisplaats} · <a href="/privacy">Privacy</a> · <a href="/bedenktijd">Bedenktijd</a>
+          © {new Date().getFullYear()} {SITE.bedrijfsnaam}{SITE.kvk ? ` · KvK ${SITE.kvk}` : ""} · regio {SITE.basisplaats} · <a href="/privacy/">Privacy</a> · <a href="/bedenktijd/">Bedenktijd</a>
         </div>
       </div>
     </footer>
