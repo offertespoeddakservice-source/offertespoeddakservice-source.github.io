@@ -21,7 +21,7 @@ import { ARTIKELEN } from "../../data/artikelen.ts";
       <h2 class="sr-only">Alle artikelen</h2>
       <div class="grid grid-3">
         {ARTIKELEN.map((a) => (
-          <a class="card" href={`/kennisbank/${a.slug}`}>
+          <a class="card" href={`/kennisbank/${a.slug}/`}>
             <h3>{a.titel}</h3>
             <p>{a.metaDescription}</p>
           </a>

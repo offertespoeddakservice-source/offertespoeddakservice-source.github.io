@@ -21,7 +21,7 @@ import { PLAATSEN } from "../../data/plaatsen.ts";
       <h2 class="sr-only">Plaatsen in mijn werkgebied</h2>
       <div class="grid grid-3">
         {PLAATSEN.map((p) => (
-          <a class="card" href={`/werkgebied/${p.slug}`}>
+          <a class="card" href={`/werkgebied/${p.slug}/`}>
             <h3>{p.naam}</h3>
             <p>{p.reistijd ?? "In mijn werkgebied"}</p>
           </a>

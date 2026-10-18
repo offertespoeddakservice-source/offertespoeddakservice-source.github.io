@@ -82,7 +82,7 @@ const schema = [
       <h2>Wat ik in {p.naam} doe</h2>
       <div class="grid grid-3" style="margin-top:18px;">
         {DIENSTEN.map((d) => (
-          <a class="card" href={`/diensten/${d.slug}`}>
+          <a class="card" href={`/diensten/${d.slug}/`}>
             <DienstIcon slug={d.slug} />
             <h3>{d.titel}</h3>
             <p>{d.kort}</p>
@@ -99,7 +99,7 @@ const schema = [
         <h2>Veelgevraagd in {p.naam}</h2>
         <p class="lead">Direct naar de meestgevraagde klussen in {p.naam}:</p>
         <div class="chips">
-          {matrixVoorPlaats.map((d) => <a class="chip" href={`/werkgebied/${p.slug}/${d.slug}`}>{d.titel} in {p.naam}</a>)}
+          {matrixVoorPlaats.map((d) => <a class="chip" href={`/werkgebied/${p.slug}/${d.slug}/`}>{d.titel} in {p.naam}</a>)}
         </div>
       </div>
     </section>
@@ -123,8 +123,8 @@ const schema = [
     <div class="wrap">
       <h2>Ook dakdekker in de buurt</h2>
       <div class="chips">
-        {PLAATSEN.filter((x) => x.slug !== p.slug).map((x) => <a class="chip" href={`/werkgebied/${x.slug}`}>{x.naam}</a>)}
-        <a class="chip" href="/diensten">Alle diensten →</a>
+        {PLAATSEN.filter((x) => x.slug !== p.slug).map((x) => <a class="chip" href={`/werkgebied/${x.slug}/`}>{x.naam}</a>)}
+        <a class="chip" href="/diensten/">Alle diensten →</a>
       </div>
     </div>
   </section>

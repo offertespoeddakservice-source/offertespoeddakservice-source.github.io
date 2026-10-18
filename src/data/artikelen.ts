@@ -43,7 +43,7 @@ export const ARTIKELEN: Artikel[] = [
         "Een punctuele reparatie kost meestal €200 tot €500, inclusief materiaal. Bij spoed buiten kantooruren komt daar een toeslag bij. Je hoort altijd de prijs voordat ik begin.",
       ] },
     ],
-    dienst: { label: "Bekijk: daklekkage & spoed", href: "/diensten/daklekkage" },
+    dienst: { label: "Bekijk: daklekkage & spoed", href: "/diensten/daklekkage/" },
     faq: [
       { v: "Moet er voor het opsporen iets opengebroken worden?", a: "Meestal niet. In de meeste gevallen vind ik het lek met een gerichte controle van buiten en op zolder, zonder sloopwerk." },
       { v: "Kun je vandaag nog komen?", a: "Bij spoed in de regio Den Bosch vaak wel. Bel of WhatsApp, dan hoor je meteen wanneer ik kan." },
@@ -94,7 +94,7 @@ export const ARTIKELEN: Artikel[] = [
         "Bij een rijtjeswoning is het €99 all-in: beide goten leeg, afvoer doorgespoeld, troep mee. Bij een groter of hoger huis hoor je vooraf de vaste prijs — nooit achteraf verrassingen.",
       ] },
     ],
-    dienst: { label: "Bekijk: dakgoot reinigen", href: "/diensten/goten-reinigen" },
+    dienst: { label: "Bekijk: dakgoot reinigen", href: "/diensten/goten-reinigen/" },
     faq: [
       { v: "Wanneer kan ik het beste laten reinigen?", a: "In het najaar, als het meeste blad gevallen is — dan heb je er het hele jaar profijt van en voorkom je winterlekkage." },
     ],
@@ -125,7 +125,7 @@ export const ARTIKELEN: Artikel[] = [
         "Daarom kom ik bij een lek liever vandaag dan volgende week — eerst de schade stoppen, dan netjes herstellen.",
       ] },
     ],
-    dienst: { label: "Bekijk: daklekkage & spoed", href: "/diensten/daklekkage" },
+    dienst: { label: "Bekijk: daklekkage & spoed", href: "/diensten/daklekkage/" },
     faq: [
       { v: "Krijg ik de prijs vooraf te horen?", a: "Altijd. Ik kijk wat de oorzaak is en noem een vaste prijs voordat ik begin — geen meerwerk-verrassingen achteraf." },
       { v: "Hoe wordt het lek gevonden?", a: "Meestal met een gerichte controle van buiten en op zolder, zonder sloopwerk. Lees daarover in het artikel ‘Daklekkage opsporen’." },
@@ -156,7 +156,7 @@ export const ARTIKELEN: Artikel[] = [
         "Ik maak eerst de goot leeg (blad, mos, modder), controleer of de instroom naar de regenpijp vrij is en spoel daarna de hele pijp door tot het water vrij wegloopt — niet alleen de goot zelf. Last van bomen in de buurt? Dan adviseer ik bladroosters zodat het minder snel terugkomt.",
       ] },
     ],
-    dienst: { label: "Bekijk: dakgoot reinigen", href: "/diensten/goten-reinigen" },
+    dienst: { label: "Bekijk: dakgoot reinigen", href: "/diensten/goten-reinigen/" },
     faq: [
       { v: "Kan ik een verstopte regenpijp zelf ontstoppen?", a: "Soms, met een tuinslang van bovenaf. Maar op hoogte werken is niet zonder risico, en zit de verstopping diep, dan krijg je 'm er zo niet uit. Ik doe het veilig en grondig in één keer." },
       { v: "Hoe voorkom ik dat het terugkomt?", a: "Eén keer per jaar de goot laten reinigen (najaar) en eventueel bladroosters plaatsen. Staan er bomen vlakbij, dan twee keer per jaar." },
@@ -174,7 +174,7 @@ export const ARTIKELEN: Artikel[] = [
     secties: [
       { kop: "Eerst: je veiligheid", tekst: [
         "Ga niet zelf het dak op tijdens of vlak na een storm — nat, winderig en met losse delen is dat te gevaarlijk. Blijf uit de buurt van loshangende pannen of delen die naar beneden kunnen komen, ook op de grond.",
-        'Sijpelt er water naar binnen zonder dat er een storm is geweest, dan zit de oorzaak waarschijnlijk elders (losse pan, lood, verstopte goot). Kijk dan bij <a href="/kennisbank/daklekkage-opsporen">daklekkage opsporen</a> voor de eerste stappen en de meest voorkomende oorzaken.',
+        'Sijpelt er water naar binnen zonder dat er een storm is geweest, dan zit de oorzaak waarschijnlijk elders (losse pan, lood, verstopte goot). Kijk dan bij <a href="/kennisbank/daklekkage-opsporen/">daklekkage opsporen</a> voor de eerste stappen en de meest voorkomende oorzaken.',
       ] },
       { kop: "Maak foto's en beperk de schade", tekst: [
         "Maak van een veilige plek foto's van de schade; die heb je straks nodig voor je verzekering. Vang binnen lekwater op en zet spullen droog. Het écht afdekken van het dak laat je aan een vakman over.",
@@ -186,7 +186,7 @@ export const ARTIKELEN: Artikel[] = [
         "Een open dak of actieve lekkage is spoed — daar kom ik snel voor langs om eerst de schade te stoppen (afdekken, dichten), en daarna netjes te herstellen. Bel of WhatsApp, dan hoor je meteen wanneer ik kan.",
       ] },
     ],
-    dienst: { label: "Bekijk: stormschade", href: "/diensten/stormschade" },
+    dienst: { label: "Bekijk: stormschade", href: "/diensten/stormschade/" },
     faq: [
       { v: "Moet ik zelf het dak op om de schade af te dekken?", a: "Nee, doe dat niet — zeker niet vlak na een storm. Bel mij, ik dek het veilig af en herstel daarna." },
       { v: "Vergoedt mijn verzekering stormschade?", a: "Vaak wel via de opstalverzekering. Ik lever foto's en een omschrijving aan zodat je het kunt indienen; check de voorwaarden bij je verzekeraar." },
@@ -217,7 +217,7 @@ export const ARTIKELEN: Artikel[] = [
         "Een grondige vakinspectie is elke 3 tot 5 jaar verstandig, en vaker bij een ouder dak. Ik doe zo'n check eerlijk: ik zeg wat nú aandacht vraagt en wat best nog even kan wachten. Geen onnodige paniek, geen onnodig werk.",
       ] },
     ],
-    dienst: { label: "Bekijk: dakgoot reinigen", href: "/diensten/goten-reinigen" },
+    dienst: { label: "Bekijk: dakgoot reinigen", href: "/diensten/goten-reinigen/" },
     faq: [
       { v: "Hoe vaak moet ik mijn dak laten controleren?", a: "Twee keer per jaar zelf een visuele check (voorjaar + najaar), en elke 3 tot 5 jaar een grondige vakinspectie — vaker bij een dak ouder dan 15 jaar." },
       { v: "Wat is het beste moment voor onderhoud?", a: "Najaar is het belangrijkst: goten leeg en pannen/lood nakijken vóór de herfststormen. Het voorjaar gebruik je om winterschade te herstellen." },
@@ -243,7 +243,7 @@ export const ARTIKELEN: Artikel[] = [
         "Ik kijk eerst of je pannen het aankunnen. Daarna verwijder ik het mos voorzichtig, ruim de goot en afvoer meteen mee op, en bespreek of een coating zin heeft om hergroei te vertragen. Zijn de pannen al bros, dan zeg ik dat eerlijk — soms is gericht vervangen of coaten slimmer dan blijven reinigen.",
       ] },
     ],
-    dienst: { label: "Bekijk: dak reinigen & mos", href: "/diensten/dak-reinigen" },
+    dienst: { label: "Bekijk: dak reinigen & mos", href: "/diensten/dak-reinigen/" },
     faq: [
       { v: "Mag ik zelf met een hogedrukreiniger mijn dak schoonmaken?", a: "Liever niet op oudere of poreuze pannen — je haalt er de toplaag af en beschadigt ze. Op hoogte werken is bovendien niet zonder risico. Ik doe het veilig en op de juiste druk." },
       { v: "Voorkomt coaten dat het mos terugkomt?", a: "Een coating op gezonde, gereinigde pannen vertraagt hergroei en beschermt tegen vocht en uv. Op slechte pannen heeft het geen zin — dan eerst kijken wat verstandig is." },
@@ -277,7 +277,7 @@ export const ARTIKELEN: Artikel[] = [
         "Zie ik onderweg iets extra's dat nodig is, dan meld ik dat en bespreken we het vóórdat ik het uitvoer — nooit een verrassing op de rekening achteraf.",
       ] },
     ],
-    dienst: { label: "Lees over mij en hoe ik werk", href: "/over" },
+    dienst: { label: "Lees over mij en hoe ik werk", href: "/over/" },
     faq: [
       { v: "Is een opvallend lage prijs een waarschuwingssignaal?", a: "Niet per se — kijk vooral of de prijs op papier staat en of hij past bij wat er in de offerte beschreven staat. Een prijs die pas ná het werk duidelijk wordt, is het grotere risico." },
       { v: "Wat als een dakdekker meerwerk wil doorberekenen zonder dat vooraf te zeggen?", a: "Dat mag sinds 2025 niet zomaar (art. 6:230m BW): extra werk moet eerst met jou worden afgestemd. Vraag altijd om een aangepaste, schriftelijke prijs vóórdat het meerwerk wordt uitgevoerd." },
@@ -305,7 +305,7 @@ export const ARTIKELEN: Artikel[] = [
         "Elk dak is anders. Wil je eerst weten hoe je dak ervoor staat, dan kan dat via de Dak-APK (€49): een compleet keuringsrapport met foto's, binnen een dagdeel. Weet je al wat er moet gebeuren, dan geef ik een vaste prijs vóór ik begin. Geen meerwerk-verrassingen — dat is het verschil met een callcenter dat een richtbedrag noemt en achteraf bijplust.",
       ] },
     ],
-    dienst: { label: "Bekijk alle prijzen", href: "/prijzen" },
+    dienst: { label: "Bekijk alle prijzen", href: "/prijzen/" },
     faq: [
       { v: "Reken je voorrijkosten?", a: "Nee — een offerte is altijd gratis: bel of stuur een foto via WhatsApp en je hoort de vaste prijs vooraf. Wil je een complete keuring van je hele dak mét fotorapport? Dat is de Dak-APK (€49), maar die is optioneel." },
       { v: "Krijg ik de prijs op papier?", a: "Je hoort de vaste prijs vooraf en krijgt die desgewenst op de offerte. Geen verrassingen achteraf." },
@@ -332,7 +332,7 @@ export const ARTIKELEN: Artikel[] = [
         "Schoorsteen vegen kost €70 — netjes en zonder roetzooi in huis. Omdat ik toch op het dak ben, neem ik de aansluiting en het lood even mee in de controle.",
       ] },
     ],
-    dienst: { label: "Bekijk: schoorsteen vegen", href: "/diensten/schoorsteen-vegen" },
+    dienst: { label: "Bekijk: schoorsteen vegen", href: "/diensten/schoorsteen-vegen/" },
     faq: [
       { v: "Wanneer kan ik het beste laten vegen?", a: "Vóór het stookseizoen, dus eind zomer of begin herfst. Dan begin je de winter veilig en met goede trek." },
       { v: "Maken jullie er een rommel van binnen?", a: "Nee. Ik dek netjes af en werk schoon — geen roet in je woonkamer." },
@@ -386,7 +386,7 @@ export const ARTIKELEN: Artikel[] = [
         "Zonnepanelen reinigen begint bij €10 per paneel, veilig vanaf het dak en streepvrij. Omdat ik er toch ben, is het vaak handig te combineren met goten reinigen.",
       ] },
     ],
-    dienst: { label: "Bekijk: zonnepanelen reinigen", href: "/diensten/zonnepanelen-reinigen" },
+    dienst: { label: "Bekijk: zonnepanelen reinigen", href: "/diensten/zonnepanelen-reinigen/" },
     faq: [
       { v: "Krassen jullie de panelen niet?", a: "Nee, ik werk met de juiste materialen en zonder schurende middelen, zodat de toplaag heel blijft." },
       { v: "Mag het met regenwater?", a: "Het beste resultaat is streepvrij met de juiste methode — daar let ik op, zodat er geen kringen achterblijven." },
@@ -413,7 +413,7 @@ export const ARTIKELEN: Artikel[] = [
         "Een gerichte reparatie is meestal het goedkoopst. Een hele bedekking vervangen krijg je als vaste prijs na inspectie. Je hoort altijd wat het wordt voordat ik begin.",
       ] },
     ],
-    dienst: { label: "Bekijk: platte daken (EPDM)", href: "/diensten/platte-daken" },
+    dienst: { label: "Bekijk: platte daken (EPDM)", href: "/diensten/platte-daken/" },
     faq: [
       { v: "Hoe lang gaat EPDM mee?", a: "EPDM kan, goed gelegd, tientallen jaren mee. Het is flexibel en bestand tegen weer en uv." },
       { v: "Kun je het lek vinden zonder alles open te breken?", a: "Meestal wel. Ik spoor gericht op bij naden en opstanden, zodat er zo min mogelijk open hoeft." },

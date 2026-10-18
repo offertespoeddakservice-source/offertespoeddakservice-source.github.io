@@ -22,7 +22,7 @@ import DienstIcon from "../../components/DienstIcon.astro";
       <h2 class="sr-only">Alle dakdiensten</h2>
       <div class="grid grid-3">
         {DIENSTEN.map((d) => (
-          <a class="card" href={`/diensten/${d.slug}`}>
+          <a class="card" href={`/diensten/${d.slug}/`}>
             <DienstIcon slug={d.slug} />
             <h3>{d.titel}</h3>
             <p>{d.kort}</p>
@@ -31,7 +31,7 @@ import DienstIcon from "../../components/DienstIcon.astro";
         ))}
       </div>
       <p class="notice" style="margin-top:22px;">
-        Richtprijzen voor een gemiddelde situatie: je hoort altijd de <strong>vaste prijs vooraf</strong>, en een offerte is <strong>gratis</strong>. Volledige tabel op de <a href="/prijzen">prijzen-pagina</a>.
+        Richtprijzen voor een gemiddelde situatie: je hoort altijd de <strong>vaste prijs vooraf</strong>, en een offerte is <strong>gratis</strong>. Volledige tabel op de <a href="/prijzen/">prijzen-pagina</a>.
       </p>
     </div>
   </section>

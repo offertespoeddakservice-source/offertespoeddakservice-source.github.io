@@ -37,17 +37,17 @@ const matrixVoorDienst = MATRIX.filter((c) => c.dienst === d.slug)
   .map((c) => getPlaats(c.plaats))
   .filter((p) => p);
 const relArtikel = ({
-  "goten-reinigen": { label: "Hoe vaak moet je goten reinigen?", href: "/kennisbank/hoe-vaak-dakgoot-reinigen" },
-  "daklekkage": { label: "Daklekkage opsporen zonder sloopwerk", href: "/kennisbank/daklekkage-opsporen" },
-  "dakreparatie": { label: "Wat kost daklekkage repareren?", href: "/kennisbank/wat-kost-daklekkage-repareren" },
-  "platte-daken": { label: "Plat dak: repareren of vervangen?", href: "/kennisbank/plat-dak-vervangen-of-repareren" },
-  "stormschade": { label: "Stormschade: eerste hulp", href: "/kennisbank/stormschade-eerste-hulp" },
+  "goten-reinigen": { label: "Hoe vaak moet je goten reinigen?", href: "/kennisbank/hoe-vaak-dakgoot-reinigen/" },
+  "daklekkage": { label: "Daklekkage opsporen zonder sloopwerk", href: "/kennisbank/daklekkage-opsporen/" },
+  "dakreparatie": { label: "Wat kost daklekkage repareren?", href: "/kennisbank/wat-kost-daklekkage-repareren/" },
+  "platte-daken": { label: "Plat dak: repareren of vervangen?", href: "/kennisbank/plat-dak-vervangen-of-repareren/" },
+  "stormschade": { label: "Stormschade: eerste hulp", href: "/kennisbank/stormschade-eerste-hulp/" },
   "dakcoating": { label: "Wat kost dak coaten?", href: "/kennisbank/wat-kost-dak-coaten" },
-  "dak-reinigen": { label: "Mos op je dak verwijderen", href: "/kennisbank/mos-op-dak-verwijderen" },
+  "dak-reinigen": { label: "Mos op je dak verwijderen", href: "/kennisbank/mos-op-dak-verwijderen/" },
   "dakpannen-vervangen": { label: "Dakpannen coaten of vervangen?", href: "/kennisbank/dakpannen-coaten-of-vervangen" },
-  "dakgoot-vervangen": { label: "Verstopte regenpijp of lekkende dakgoot", href: "/kennisbank/verstopte-regenpijp-lekkende-dakgoot" },
-  "schoorsteen-vegen": { label: "Hoe vaak schoorsteen vegen?", href: "/kennisbank/schoorsteen-vegen-hoe-vaak" },
-  "zonnepanelen-reinigen": { label: "Zonnepanelen reinigen: is het nodig?", href: "/kennisbank/zonnepanelen-reinigen-nodig" },
+  "dakgoot-vervangen": { label: "Verstopte regenpijp of lekkende dakgoot", href: "/kennisbank/verstopte-regenpijp-lekkende-dakgoot/" },
+  "schoorsteen-vegen": { label: "Hoe vaak schoorsteen vegen?", href: "/kennisbank/schoorsteen-vegen-hoe-vaak/" },
+  "zonnepanelen-reinigen": { label: "Zonnepanelen reinigen: is het nodig?", href: "/kennisbank/zonnepanelen-reinigen-nodig/" },
 } as Record<string, { label: string; href: string }>)[d.slug];
 ---
 
@@ -87,7 +87,7 @@ const relArtikel = ({
           geen verrassingen.
         </p>
         {relArtikel && (
-          <p style="margin-top:18px;"><strong>Meer weten?</strong> Lees: <a href={relArtikel.href}>{relArtikel.label}</a></p>
+          <p style="margin-top:18px;"><strong>Meer weten?</strong> Lees: <a href={relArtikel.href.endsWith("/") ? relArtikel.href : relArtikel.href + "/"}>{relArtikel.label}</a></p>
         )}
       </div>
       <aside>
@@ -96,7 +96,7 @@ const relArtikel = ({
           <p>Bel of WhatsApp voor een vaste prijs, of vraag de <a href="/dak-apk">Dak-APK</a> aan (voor €49) voor een compleet keuringsrapport in {SITE.regioOmschrijving}.</p>
           <div class="btn-row" style="margin-top:14px; flex-direction:column;">
             <a class="btn btn--primary" href={telHref}>{SITE.telefoonWeergave}</a>
-            <a class="btn btn--outline" href="/contact">Offerte aanvragen</a>
+            <a class="btn btn--outline" href="/contact/">Offerte aanvragen</a>
           </div>
         </div>
       </aside>
@@ -126,13 +126,13 @@ const relArtikel = ({
         <>
           <p class="lead">Direct naar {d.titel.toLowerCase()} in jouw plaats:</p>
           <div class="chips" style="margin-bottom:18px;">
-            {matrixVoorDienst.map((p) => <a class="chip" href={`/werkgebied/${p.slug}/${d.slug}`}>{d.titel} in {p.naam}</a>)}
+            {matrixVoorDienst.map((p) => <a class="chip" href={`/werkgebied/${p.slug}/${d.slug}/`}>{d.titel} in {p.naam}</a>)}
           </div>
         </>
       )}
       <p class="lead">Heel mijn werkgebied. Kies je plaats:</p>
       <div class="chips">
-        {PLAATSEN.map((p) => <a class="chip" href={`/werkgebied/${p.slug}`}>{p.naam}</a>)}
+        {PLAATSEN.map((p) => <a class="chip" href={`/werkgebied/${p.slug}/`}>{p.naam}</a>)}
       </div>
     </div>
   </section>
@@ -142,7 +142,7 @@ const relArtikel = ({
       <h2>Andere diensten</h2>
       <div class="grid grid-3" style="margin-top:18px;">
         {andere.map((x) => (
-          <a class="card" href={`/diensten/${x.slug}`}>
+          <a class="card" href={`/diensten/${x.slug}/`}>
             <DienstIcon slug={x.slug} />
             <h3>{x.titel}</h3>
             <p>{x.kort}</p>
