@@ -352,13 +352,13 @@ export const ARTIKELEN: Artikel[] = [
         "Een hogedrukreiniger lijkt snel, maar te veel druk haalt de beschermende toplaag van je pannen weg en beschadigt vooral oudere, poreuze pannen — dan groeit het mos juist sneller terug. Voor stevige, moderne pannen kan lage druk, maar bij twijfel is voorzichtig handwerk of een zachtere methode beter.",
       ] },
       { kop: "Hoe ik het aanpak", tekst: [
-        "Ik kijk eerst of je pannen het aankunnen. Daarna verwijder ik het mos voorzichtig, ruim de goot en afvoer meteen mee op, en bespreek of een coating zin heeft om hergroei te vertragen. Zijn de pannen al bros, dan zeg ik dat eerlijk — soms is gericht vervangen of coaten slimmer dan blijven reinigen.",
+        "Ik kijk eerst of je pannen het aankunnen. Daarna verwijder ik het mos voorzichtig en ruim ik de goot en de uitloop naar de regenpijp meteen mee op. Zijn de pannen al bros, dan zeg ik dat eerlijk: soms is gericht vervangen slimmer dan blijven reinigen.",
       ] },
     ],
     dienst: { label: "Bekijk: dak reinigen & mos", href: "/diensten/dak-reinigen/" },
     faq: [
       { v: "Mag ik zelf met een hogedrukreiniger mijn dak schoonmaken?", a: "Liever niet op oudere of poreuze pannen — je haalt er de toplaag af en beschadigt ze. Op hoogte werken is bovendien niet zonder risico. Ik doe het veilig en op de juiste druk." },
-      { v: "Voorkomt coaten dat het mos terugkomt?", a: "Een coating op gezonde, gereinigde pannen vertraagt hergroei en beschermt tegen vocht en uv. Op slechte pannen heeft het geen zin — dan eerst kijken wat verstandig is." },
+      { v: "Komt het mos terug?", a: "Op den duur wel, zeker aan de noordkant en onder bomen. Laat het niet te dik worden: af en toe reinigen en elk najaar de goten leeg houdt het meestal goed in de hand." },
     ],
   },
   {

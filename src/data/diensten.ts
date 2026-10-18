@@ -247,12 +247,12 @@ export const DIENSTEN: Dienst[] = [
     icoon: "🧽",
     vanafPrijs: "€8 – €15 p/m²",
     intro:
-      "Mos en aanslag houden vocht vast, verstoppen je goten en tasten op den duur de pannen aan. Ik maak je dak weer schoon en kijk meteen of er pannen los of beschadigd zijn — vaak een mooi moment om er ook een coating overheen te doen.",
+      "Mos en aanslag houden vocht vast, verstoppen je goten en tasten op den duur de pannen aan. Ik maak je dak weer schoon en kijk meteen of er pannen los of beschadigd zijn.",
     punten: [
       "Mos, vuil en groene aanslag verwijderen",
       "Goten meteen mee schoon",
       "Controle op losse of kapotte pannen",
-      "Optioneel: coating erna voor langdurige bescherming",
+      "Netjes achtergelaten, troep mee",
     ],
     faq: [
       { v: "Gaat dat niet met een hogedrukspuit kapot?", a: "Op kwetsbare pannen werk ik voorzichtig en op de juiste druk, zodat de toplaag heel blijft. Daar zit 'm juist het vakwerk in." },
@@ -381,7 +381,7 @@ export const DIENSTEN: Dienst[] = [
     intro:
       "Is onderhoud niet meer genoeg, maar een compleet nieuw dak overdreven? Dan knap ik je dak grondig op: versleten pannen vervangen, lood en nok herstellen, goten aanpakken — in één keer, zodat je dak er weer jaren tegen kan.",
     punten: [
-      "Versleten pannen vervangen, goede pannen behouden of coaten",
+      "Versleten pannen vervangen, goede pannen laten liggen",
       "Lood, nokvorsten en aansluitingen vernieuwen",
       "Goten meteen mee aangepakt",
       "Eerlijk advies: renoveren of (deels) vervangen",
