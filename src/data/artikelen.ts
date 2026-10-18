@@ -91,6 +91,42 @@ export const ARTIKELEN: Artikel[] = [
     ],
   },
   {
+    slug: "condens-of-lekkage-op-zolder",
+    datum: "2026-10-20",
+    titel: "Condens of lekkage op zolder?",
+    h1: "Condens of lekkage op zolder? Zo zie je het verschil",
+    metaTitle: "Condens of lekkage op zolder? | Spoed Dak Service",
+    metaDescription:
+      "Druppels of natte plekken op zolder? Vaak is het condens en geen lek. Zo zie je het verschil, wat je zelf kunt doen en wanneer je me beter even belt.",
+    intro:
+      "Natte plekken of druppels op zolder, en je denkt meteen: mijn dak lekt. Soms klopt dat. Maar in de herfst en winter is het ook vaak condens: vocht uit je eigen huis dat tegen het koude dak neerslaat. Het verschil zien scheelt je een hoop zorgen, en soms een onnodige reparatie.",
+    secties: [
+      { kop: "Hoe condens op zolder ontstaat", tekst: [
+        "Warme lucht in huis neemt vocht mee: van douchen, koken, wasgoed en gewoon ademen. Komt die lucht op zolder tegen de koude binnenkant van het dak, dan slaat het vocht neer als druppels. Vooral na koude, heldere nachten en bij vriesweer zie je dat.",
+      ] },
+      { kop: "Zo herken je condens", tekst: [
+        "Druppels of een natte waas verspreid over een groot deel van het dakbeschot of de folie, niet op één plek. Het komt ook op droge dagen, vaak 's ochtends na een koude nacht. Soms zie je zwarte stipjes of schimmel op het hout, en het ruikt er muf.",
+      ] },
+      { kop: "Zo herken je een lek", tekst: [
+        "Een lek zit meestal op één plek en komt na regen, vaak bij wind uit een bepaalde richting. Je ziet een natte plek of een kring bij de schoorsteen, een dakraam, een doorvoer of vlak onder de nok.",
+        'Let wel: de natte plek zit zelden precies onder het echte lek. Hoe ik dat opspoor lees je in <a href="/kennisbank/daklekkage-opsporen/">daklekkage opsporen</a>.',
+      ] },
+      { kop: "Wat je zelf tegen condens doet", tekst: [
+        "Hang geen was te drogen op zolder. Kijk of de afzuiging van je badkamer echt naar buiten gaat en niet op zolder uitkomt, dat komt voor. Zet de zolder af en toe even open zodat het vocht weg kan, en houd het zolderluik dicht als je doucht of kookt.",
+      ] },
+      { kop: "Twijfel je? Stuur een foto", tekst: [
+        'Maak een foto van de natte plek en van het dakbeschot eromheen en stuur die via WhatsApp. Vaak kan ik dan al zeggen of het condens is of een lek. Druppelt het echt binnen na regen, kijk dan op de <a href="/spoed/">spoedpagina</a> wat je meteen kunt doen.',
+        'Komt de condens elk jaar terug, dan kan het aan de ventilatie of de isolatie liggen. Lees ook over <a href="/diensten/dakisolatie/">dakisolatie</a>, of vraag me gewoon om even mee te kijken.',
+      ] },
+    ],
+    dienst: { label: "Bekijk: daklekkage & spoed", href: "/diensten/daklekkage/" },
+    faq: [
+      { v: "Is condens op zolder erg?", a: "Een beetje condens op een koude ochtend is niet meteen erg. Blijft het hout lang nat of zie je schimmel, dan wil je er wel wat aan doen. Vocht dat lang blijft zitten is slecht voor het hout en de isolatie." },
+      { v: "Hoe weet ik zeker of mijn dak lekt?", a: "Kijk wanneer het nat wordt. Alleen na regen en op één plek wijst op een lek. Ook op droge, koude dagen en verspreid over het dak wijst op condens. Twijfel je, stuur dan een foto via WhatsApp." },
+      { v: "Kun je ook helpen bij condens?", a: "Ik kijk of het echt condens is en geen lek, en waar het vocht vandaan komt. Soms is beter ventileren genoeg, soms ligt het aan de isolatie. Je hoort eerlijk wat er nodig is, en wat niet." },
+    ],
+  },
+  {
     slug: "dakpannen-coaten-of-vervangen",
     titel: "Coaten of vervangen?",
     h1: "Dakpannen coaten of vervangen? Zo maak je de juiste keuze",
