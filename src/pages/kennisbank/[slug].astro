@@ -21,8 +21,8 @@ const articleSchema = {
   publisher: { "@type": "Organization", name: SITE.bedrijfsnaam, logo: { "@type": "ImageObject", url: `${SITE.url}/favicon.svg` } },
   mainEntityOfPage: new URL(path + "/", SITE.url).href,
   image: `${SITE.url}/og.svg`,
-  datePublished: "2026-06-19",
-  dateModified: "2026-06-20",
+  datePublished: a.datum ?? "2026-06-19",
+  dateModified: a.datum ?? "2026-06-20",
 };
 const faqSchema = a.faq.length
   ? { "@context": "https://schema.org", "@type": "FAQPage", mainEntity: a.faq.map((f) => ({ "@type": "Question", name: f.v, acceptedAnswer: { "@type": "Answer", text: f.a } })) }
@@ -36,7 +36,7 @@ const schema = faqSchema ? [articleSchema, faqSchema] : articleSchema;
       <p class="eyebrow" style="color:#ffb486;">Kennisbank</p>
       <h1>{a.h1}</h1>
       <p class="lead">{a.intro}</p>
-      <p style="color:#9fb4c9; font-size:.9rem; margin-top:10px;">Bijgewerkt: juni 2026 · door Rens, dakdekker regio Den Bosch</p>
+      <p style="color:#9fb4c9; font-size:.9rem; margin-top:10px;">Bijgewerkt: {a.datum?.startsWith("2026-10") ? "oktober 2026" : "juni 2026"} · door Rens, dakdekker regio Den Bosch</p>
     </div>
   </section>
 

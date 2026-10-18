@@ -18,6 +18,7 @@ export interface Artikel {
   secties: Sectie[];
   dienst: { label: string; href: string };
   faq: { v: string; a: string }[];
+  datum?: string;
 }
 
 export const ARTIKELEN: Artikel[] = [
@@ -36,7 +37,7 @@ export const ARTIKELEN: Artikel[] = [
         'Kwam de lekkage tijdens of vlak na een storm, met losse pannen of zichtbare schade van buiten? Volg dan de aparte stappen in <a href="/kennisbank/stormschade-eerste-hulp">stormschade: eerste hulp en je verzekering</a> — daar staat ook wat je aan je verzekering moet doorgeven. Is er geen storm geweest en sijpelt het water al langer, dan lees je hieronder waar het vandaan komt.',
       ] },
       { kop: "De meest voorkomende oorzaken", tekst: [
-        "Een gebroken of verschoven dakpan is veruit de nummer één. Daarna: gescheurd of losgelaten lood bij de schoorsteen, dakkapel of het dakraam, een verstopte of overlopende goot, en versleten kitwerk of naden bij een plat dak.",
+        'Een gebroken of verschoven dakpan zie ik verreweg het vaakst. Daarna: gescheurd of losgelaten lood bij de schoorsteen of het dakraam, een verstopte of overlopende goot, en versleten kitwerk of naden bij een plat dak. Lekt het bij de schoorsteen? Lees dan <a href="/kennisbank/lekkage-bij-schoorsteen/">lekkage bij de schoorsteen</a>.',
         "Bij platte daken zit het lek vaak bij een naad of opstand, terwijl het water verderop naar binnen komt — dat maakt opsporen lastiger.",
       ] },
       { kop: "Zo spoor je het op — zonder sloopwerk", tekst: [
@@ -51,6 +52,41 @@ export const ARTIKELEN: Artikel[] = [
     faq: [
       { v: "Moet er voor het opsporen iets opengebroken worden?", a: "Meestal niet. In de meeste gevallen vind ik het lek met een gerichte controle van buiten en op zolder, zonder sloopwerk." },
       { v: "Kun je vandaag nog komen?", a: "Bij spoed in de regio Den Bosch vaak wel. Bel of WhatsApp, dan hoor je meteen wanneer ik kan." },
+    ],
+  },
+  {
+    slug: "lekkage-bij-schoorsteen",
+    datum: "2026-10-19",
+    titel: "Lekkage bij de schoorsteen",
+    h1: "Lekkage bij de schoorsteen: waar het zit en wat eraan te doen is",
+    metaTitle: "Lekkage bij schoorsteen: oorzaken | Spoed Dak Service",
+    metaDescription:
+      "Lekkage bij de schoorsteen? Meestal zit het in het lood, de loodslabben of de kop van de schoorsteen. Zo herken je het en zo pak ik het aan, zonder onnodig sloopwerk.",
+    intro:
+      "Een natte plek naast het schoorsteenkanaal, of bruine kringen op zolder rond de schoorsteen: dat is een van de meest voorkomende lekkages die ik zie. Het goede nieuws: het zit meestal op een paar vaste plekken.",
+    secties: [
+      { kop: "Lekt het nu? Eerst dit", tekst: [
+        'Zet een emmer neer, leg handdoeken en maak een foto van de natte plek. Ga niet zelf het dak op. Stuur de foto via WhatsApp of bel me, of kijk bij <a href="/spoed/">spoed</a> wat je nu zelf kunt doen.',
+      ] },
+      { kop: "Waar het meestal zit", tekst: [
+        "Bijna altijd bij het lood: de loodslabben rond de schoorsteen drogen uit, scheuren of komen los uit de muur. Daar loopt het water dan langs naar binnen.",
+        "Andere plekken: de kop of afdekplaat bovenop de schoorsteen, pannen rond de schoorsteen die verschoven zijn, of scheuren in het metselwerk zelf. Zit het in het metselwerk, dan zeg ik dat eerlijk: daarvoor heb je een metselaar nodig.",
+      ] },
+      { kop: "Zo herken je het", tekst: [
+        "Het lekt vaak vooral bij regen met wind uit één richting. Je ziet vocht op de muur of het plafond naast het kanaal, soms pas een paar uur na de bui. Vanaf de grond zie je soms lood dat los staat of omhoog wijst.",
+      ] },
+      { kop: "Hoe ik het aanpak", tekst: [
+        'Ik kijk van buiten naar het lood, de pannen en de kop van de schoorsteen. Loszittend lood zet ik opnieuw goed vast of ik vervang de loodslabben, en verschoven pannen leg ik recht. Zie <a href="/diensten/dakreparatie/">dakreparatie</a>. Wordt de schoorsteen nog gebruikt, dan is het handig om het <a href="/diensten/schoorsteen-vegen/">vegen</a> in één keer mee te nemen.',
+      ] },
+      { kop: "Wat kost het?", tekst: [
+        'Dat hangt af van wat er mis is: een stuk lood vastzetten is iets anders dan nieuwe loodslabben. Je hoort de vaste prijs vooraf. Richtprijzen staan op de <a href="/prijzen/">prijzenpagina</a>.',
+      ] },
+    ],
+    dienst: { label: "Bekijk: dakreparatie (lood en pannen)", href: "/diensten/dakreparatie/" },
+    faq: [
+      { v: "Is lekkage bij de schoorsteen altijd het lood?", a: "Vaak wel, maar niet altijd. Het kan ook de kop van de schoorsteen zijn, een verschoven pan of het metselwerk. Daarom kijk ik eerst goed voordat ik iets doe." },
+      { v: "Kan ik het lood zelf dichtkitten?", a: "Een likje kit houdt het soms even droog, maar meestal niet lang. Lood dat los zit moet goed vast of vervangen worden, anders lekt het bij de volgende flinke bui weer." },
+      { v: "Kun je snel komen als het binnen druppelt?", a: "Bij spoed in de regio Den Bosch lukt dat vaak nog dezelfde dag. Bel of WhatsApp me met een foto." },
     ],
   },
   {
