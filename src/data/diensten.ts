@@ -69,11 +69,11 @@ export const DIENSTEN: Dienst[] = [
     slug: "daklekkage",
     titel: "Daklekkage & spoed",
     vanafPrijs: "€200 – €500",
-    h1: "Daklekkage verhelpen — vaak dezelfde dag langs in de regio Den Bosch",
+    h1: "Daklekkage verhelpen: vaak dezelfde dag langs in de regio Den Bosch",
     kort: "Lek opsporen zonder sloopwerk en snel dichten, ook bij spoed.",
-    metaTitle: "Daklekkage repareren — spoed, regio Den Bosch | Spoed Dak Service",
+    metaTitle: "Daklekkage repareren regio Den Bosch | Spoed Dak Service",
     metaDescription:
-      "Daklekkage? Ik spoor het lek op zonder sloopwerk en repareer het snel — vaak nog dezelfde dag in de regio Den Bosch. Bel of WhatsApp direct.",
+      "Daklekkage? Ik spoor het lek op zonder onnodig sloopwerk en dicht het, bij spoed vaak nog dezelfde dag in de regio Den Bosch. Bel of WhatsApp me.",
     icoon: "💧",
     intro:
       "Een lek wacht niet. Ik kom snel langs, spoor de oorzaak op (de natte plek zit zelden recht onder het echte lek) en dicht het vakkundig. Eerst de schade beperken, dan de oorzaak aanpakken — en je hoort eerlijk of het een reparatie is of dat er meer nodig is.",
@@ -161,9 +161,9 @@ export const DIENSTEN: Dienst[] = [
     slug: "stormschade",
     titel: "Stormschade",
     vanafPrijs: "spoed — prijs vooraf",
-    h1: "Stormschade aan je dak — bel direct, ik beperk de schade",
+    h1: "Stormschade aan je dak? Bel direct, ik beperk eerst de schade",
     kort: "Weggewaaide pannen, losse delen of lekkage na storm? Snel actie.",
-    metaTitle: "Stormschade dak — noodreparatie regio Den Bosch | Spoed Dak Service",
+    metaTitle: "Stormschade dak: noodreparatie Den Bosch | Spoed Dak Service",
     metaDescription:
       "Stormschade aan je dak: weggewaaide pannen of lekkage? Ik kom snel langs voor noodreparatie in de regio Den Bosch en help met foto's voor de verzekering.",
     icoon: "🌬️",
