@@ -127,6 +127,41 @@ export const ARTIKELEN: Artikel[] = [
     ],
   },
   {
+    slug: "dakraam-lekt",
+    datum: "2026-10-20",
+    titel: "Dakraam lekt?",
+    h1: "Dakraam lekt: waar het meestal zit en wat eraan te doen is",
+    metaTitle: "Dakraam lekt: oorzaken en oplossing | Spoed Dak Service",
+    metaDescription:
+      "Lekt je dakraam bij regen? Meestal zit het niet in het glas, maar in de aansluiting met het dak: gootstukken, lood of verschoven pannen. Zo herken je het.",
+    intro:
+      "Water langs je dakraam is vervelend, want het loopt vaak meteen langs de muur of het plafond naar beneden. Het goede nieuws: het zit meestal niet in het raam zelf, maar in hoe het raam op het dak aansluit. En dat is vaak goed te verhelpen.",
+    secties: [
+      { kop: "Lekt het nu? Eerst dit", tekst: [
+        'Zet een emmer neer, leg een handdoek op de vensterbank en maak een foto van de plek waar het water binnenkomt. Ga niet zelf het dak op. Bel of WhatsApp me, of kijk op de <a href="/spoed/">spoedpagina</a> wat je meteen kunt doen.',
+      ] },
+      { kop: "Waar het meestal zit", tekst: [
+        "Rond een dakraam zit een aansluiting die het water om het raam heen leidt: gootstukken, lood of loodvervanger, en de pannen eromheen. Raakt daar iets los, schuift een pan op of hoopt blad zich op boven het raam, dan loopt het water onder de aansluiting door naar binnen.",
+        "Soms zit het in de rubbers of de dichting van het raam zelf. Dan zeg ik eerlijk wat er nodig is en of ik dat voor je kan oplossen.",
+      ] },
+      { kop: "Lekkage of condens?", tekst: [
+        'Druppels aan de binnenkant van het glas op een koude ochtend zijn meestal condens, geen lek. Komt het water alleen na regen, en vooral bij wind, dan is het een lek. Meer over het verschil lees je in <a href="/kennisbank/condens-of-lekkage-op-zolder/">condens of lekkage op zolder</a>.',
+      ] },
+      { kop: "Hoe ik het aanpak", tekst: [
+        'Ik kijk van buiten naar de aansluiting, het lood en de pannen rond het raam, en haal blad en vuil weg dat zich boven het raam ophoopt. Losse delen zet ik weer goed vast, verschoven pannen leg ik recht en waar nodig vervang ik het lood. Zie <a href="/diensten/dakreparatie/">dakreparatie</a>.',
+      ] },
+      { kop: "Wat kost het?", tekst: [
+        'Dat hangt af van wat er los zit en hoeveel werk de aansluiting is. Je hoort de vaste prijs vooraf. Richtprijzen staan op de <a href="/prijzen/">prijzenpagina</a>.',
+      ] },
+    ],
+    dienst: { label: "Bekijk: dakreparatie (lood en pannen)", href: "/diensten/dakreparatie/" },
+    faq: [
+      { v: "Kan ik een lekkend dakraam zelf dichtkitten?", a: "Een likje kit houdt het soms even droog, maar het lost de oorzaak meestal niet op. Kit op de verkeerde plek kan het water zelfs de verkeerde kant op sturen. Laat liever kijken waar het echt binnenkomt." },
+      { v: "Moet het hele dakraam vervangen worden?", a: "Meestal niet. Vaak zit het in de aansluiting met het dak, en die is te herstellen. Is het raam zelf op, dan zeg ik dat eerlijk." },
+      { v: "Kun je snel komen als het binnen druppelt?", a: "Bij spoed in de regio Den Bosch lukt dat vaak nog dezelfde dag. Bel of WhatsApp me met een foto." },
+    ],
+  },
+  {
     slug: "dakpannen-coaten-of-vervangen",
     titel: "Coaten of vervangen?",
     h1: "Dakpannen coaten of vervangen? Zo maak je de juiste keuze",
