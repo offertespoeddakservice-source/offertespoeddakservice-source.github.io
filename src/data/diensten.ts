@@ -110,11 +110,11 @@ export const DIENSTEN: Dienst[] = [
     slug: "dakreparatie",
     titel: "Dakreparatie",
     vanafPrijs: "€100 – €250",
-    h1: "Dakreparatie — pannen, lood en kitwerk vakkundig hersteld",
+    h1: "Dakreparatie, ook met spoed: pannen, lood en nokvorsten hersteld",
     kort: "Gebroken pannen, lood bij schoorsteen of dakraam, losse nokvorsten.",
-    metaTitle: "Dakreparatie Den Bosch: pannen, lood & nokvorst | Spoed Dak Service",
+    metaTitle: "Spoed dakreparatie regio Den Bosch | Spoed Dak Service",
     metaDescription:
-      "Dakpannen vervangen, lood bij schoorsteen en dakraam herstellen, nokvorsten vastzetten. Vakkundige dakreparatie in de regio Den Bosch.",
+      "Losse pan, lood bij de schoorsteen of een nokvorst die los zit? Ik repareer het, bij spoed vaak nog dezelfde dag in de regio Den Bosch. Vaste prijs vooraf.",
     icoon: "🧰",
     intro:
       "Veel daklekkages beginnen klein: een gebroken pan, loslatend lood bij de schoorsteen of een losgewaaide nokvorst. Ik herstel het voordat het een groot probleem wordt — met materiaal dat bij je dak past.",
@@ -128,6 +128,22 @@ export const DIENSTEN: Dienst[] = [
       {
         v: "Wat kost het vervangen van een dakpan?",
         a: "Een paar losse pannen vervangen is vaak een kort klusje: reken €100–€250. Je hoort vooraf de vaste prijs.",
+      },
+      {
+        v: "Kun je met spoed een dakreparatie doen?",
+        a: "Ja. Lekt het of ligt er iets open, bijvoorbeeld na een storm, dan is het spoed. Bel of WhatsApp me met een foto, dan hoor je meteen wanneer ik kan. In de regio Den Bosch lukt dat vaak nog dezelfde dag. Eerst maak ik het dicht, daarna volgt de nette reparatie.",
+      },
+      {
+        v: "Wat doe je bij een losse nokvorst?",
+        a: "Ik kijk hoe de vorsten liggen en zet de losse weer goed vast. Kapotte vorsten vervang ik door passende. Is de specie over de hele nok op, dan zeg ik eerlijk dat het slimmer is om de hele nok in één keer te doen.",
+      },
+      {
+        v: "Kun je het lood bij de schoorsteen of het dakraam repareren?",
+        a: "Ja. Lood dat los zit zet ik weer goed vast, en gescheurd of versleten lood vervang ik. Dat is een van de plekken waar een dak het vaakst gaat lekken.",
+      },
+      {
+        v: "Wanneer is repareren niet meer genoeg?",
+        a: "Als er op veel plekken pannen kapot of poreus zijn, of als het dak op meerdere plekken lekt. Dan is blijven repareren duurder dan het dak in één keer goed aanpakken. Ik zeg eerlijk wat in jouw geval verstandig is.",
       },
     ],
   },
