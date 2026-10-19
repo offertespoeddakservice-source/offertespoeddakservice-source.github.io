@@ -582,18 +582,25 @@ export const ARTIKELEN: Artikel[] = [
     slug: "plat-dak-vervangen-of-repareren",
     titel: "Plat dak: repareren of vervangen?",
     h1: "Plat dak vervangen of repareren? EPDM, bitumen en de kosten",
-    metaTitle: "Plat dak repareren of vervangen? | Spoed Dak",
+    metaTitle: "Plat dak lekt: repareren of vervangen? | Spoed Dak Service",
     metaDescription:
       "Plat dak dat lekt: repareren of de hele bedekking vervangen? Het verschil tussen EPDM en bitumen, wanneer wat loont, en hoe ik het lek opspoor.",
     intro:
       "Een plat dak lekt vaak bij naden en aansluitingen, en het water komt meestal verderop naar binnen dan waar het lek zit. Repareren of vervangen? Zo bepaal ik dat.",
     secties: [
+      { kop: "Waar een plat dak meestal lekt", tekst: [
+        "Bijna altijd bij een naad of een aansluiting: langs de daktrim aan de rand, bij een opstaande muur, rond de afvoer, bij een doorvoer van een ventilatiepijp en op de naden tussen twee banen.",
+        "Let ook op plekken waar na een bui water blijft staan. Staand water zoekt elke kleine scheur op, en mos en vuil houden het vocht nog langer vast.",
+      ] },
       { kop: "Repareren of vervangen?", tekst: [
         "Eén lek op een verder gezonde bedekking: repareren is prima en goedkoop. Is de bedekking op meerdere plekken versleten, blaast ze op of staat er water op, dan is vervangen op termijn voordeliger dan blijven lappen.",
         "Ik spoor eerst het lek op (de natte plek binnen zegt weinig over de plek op het dak) en zeg dan eerlijk wat loont.",
       ] },
       { kop: "EPDM of bitumen?", tekst: [
         "Bitumen (dakleer) is beproefd en wordt in lagen aangebracht. EPDM is een rubberen folie, vaak in één stuk, flexibel en lang houdbaar. Voor kleinere daken is EPDM vaak ideaal; welke het beste past hangt af van je dak en budget.",
+      ] },
+      { kop: "Lekt je platte dak nu?", tekst: [
+        'Zet een emmer onder het lek en maak een foto van de natte plek. Ga niet zelf het dak op als het nat is of waait. Bij een plat dak komt het water vaak meters verderop binnen dan waar het lek zit, dus de plek binnen zegt weinig. Kijk op de <a href="/spoed/">spoedpagina</a> wat je meteen kunt doen, of lees hoe ik <a href="/kennisbank/daklekkage-opsporen/">een daklekkage opspoor</a>.',
       ] },
       { kop: "Wat kost het?", tekst: [
         "Een gerichte reparatie is meestal het goedkoopst. Een hele bedekking vervangen krijg je als vaste prijs na inspectie. Je hoort altijd wat het wordt voordat ik begin.",
@@ -603,6 +610,8 @@ export const ARTIKELEN: Artikel[] = [
     faq: [
       { v: "Hoe lang gaat EPDM mee?", a: "EPDM kan, goed gelegd, tientallen jaren mee. Het is flexibel en bestand tegen weer en uv." },
       { v: "Kun je het lek vinden zonder alles open te breken?", a: "Meestal wel. Ik spoor gericht op bij naden en opstanden, zodat er zo min mogelijk open hoeft." },
+      { v: "Is mos op een plat dak schadelijk?", a: "Een beetje mos is niet meteen erg, maar het houdt vocht en vuil vast en kan de afvoer verstoppen. Dan blijft er water op je dak staan, en dat zoekt elke zwakke plek op. Haal het daarom op tijd weg en houd de afvoer vrij." },
+      { v: "Hoe vaak moet een plat dak nagekeken worden?", a: "Minstens één keer per jaar, het liefst in het najaar: afvoer vrij, geen blad of mos in de hoeken en geen plekken waar water blijft staan. Een korte controle voorkomt de meeste lekkages." },
     ],
   },
 ];
