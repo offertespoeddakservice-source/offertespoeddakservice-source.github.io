@@ -162,6 +162,43 @@ export const ARTIKELEN: Artikel[] = [
     ],
   },
   {
+    slug: "nokvorsten-los",
+    datum: "2026-10-21",
+    titel: "Losse nokvorsten",
+    h1: "Losse nokvorsten: zo herken je het en dit doe je eraan",
+    metaTitle: "Losse nokvorsten op je dak: wat nu? | Spoed Dak Service",
+    metaDescription:
+      "Specie in de goot of een scheve nokvorst? Dan zit de nok los. Zo herken je het, waarom je beter niet op de volgende storm wacht en hoe ik het herstel.",
+    intro:
+      "De nokvorsten zijn de halfronde pannen bovenop je dak, op de nok. Ze liggen het hoogst en vangen de meeste wind. Zitten ze los, dan is de volgende storm vaak het moment dat er een wegwaait. Dan regent het precies op het hoogste punt van je dak naar binnen.",
+    secties: [
+      { kop: "Zo herken je losse nokvorsten", tekst: [
+        "Vanaf de straat zie je het vaak al: een vorst die scheef ligt, een kier tussen twee vorsten, of een rij die niet meer recht loopt.",
+        "Een tweede teken: brokjes specie in de goot of op de stoep onder je dak. Bij oudere daken liggen de vorsten in specie, en die brokkelt na jaren van vorst en regen af. Dan liggen de vorsten er eigenlijk alleen nog los op.",
+      ] },
+      { kop: "Waarom je niet op de storm wacht", tekst: [
+        "Een losse vorst houdt het soms nog jaren. Maar bij een flinke herfststorm kan hij eraf waaien. Dan heb je een open plek op de nok, en een vallende vorst kan pannen, een dakraam of iets op straat raken.",
+        'Ligt er al een vorst op straat of is je dak open? Dan is het spoed. Kijk op de <a href="/spoed/">spoedpagina</a> wat je nu zelf doet, en lees <a href="/kennisbank/stormschade-eerste-hulp/">stormschade: eerste hulp</a> als het na een storm gebeurde.',
+      ] },
+      { kop: "Wat je zelf beter niet doet", tekst: [
+        "Ga niet zelf de nok op. Het is het hoogste en steilste stuk van je dak, en losse vorsten kunnen onder je voeten wegschuiven. Kijk vanaf de grond, maak een foto en stuur die door via WhatsApp.",
+      ] },
+      { kop: "Hoe ik het herstel", tekst: [
+        'Ik kijk eerst hoe de vorsten liggen. Losse vorsten zet ik opnieuw goed vast, kapotte vervang ik door passende. Is de specie over de hele nok op, dan is het vaak slimmer om de hele nok in één keer opnieuw te doen dan elk jaar een paar vorsten. Je hoort eerlijk wat nodig is. Zie <a href="/diensten/dakreparatie/">dakreparatie</a>.',
+      ] },
+      { kop: "Wat kost het?", tekst: [
+        'Een paar losse vorsten vastzetten valt meestal onder een kleine reparatie. Een hele nok opnieuw doen is meer werk. Je hoort de vaste prijs vooraf. Richtprijzen staan op de <a href="/prijzen/">prijzenpagina</a>.',
+      ] },
+    ],
+    dienst: { label: "Bekijk: dakreparatie (pannen, lood en nok)", href: "/diensten/dakreparatie/" },
+    faq: [
+      { v: "Is een losse nokvorst gevaarlijk?", a: "Hij kan bij harde wind van het dak waaien. Dan ligt je nok open en kan de vorst schade doen aan pannen of iets op straat. Laat het daarom niet te lang liggen, zeker niet voor de herfststormen." },
+      { v: "Hoe vaak moet de nok nagekeken worden?", a: "Kijk zelf elk najaar even vanaf de straat. Zie je specie in de goot of een scheve vorst, laat het dan nakijken. Bij een ouder dak is elk jaar laten kijken geen overbodige luxe." },
+      { v: "Valt een weggewaaide nokvorst onder de verzekering?", a: "Stormschade valt vaak onder je opstalverzekering. Een vorst die al lang los lag en dan wegwaait, wordt soms gezien als achterstallig onderhoud. Check de voorwaarden bij je verzekeraar." },
+      { v: "Kun je snel komen als er een vorst los ligt?", a: "Ligt de nok open of is er een vorst afgewaaid, bel of WhatsApp me dan meteen met een foto. Bij spoed in de regio Den Bosch lukt het vaak nog dezelfde dag." },
+    ],
+  },
+  {
     slug: "dakpannen-coaten-of-vervangen",
     titel: "Coaten of vervangen?",
     h1: "Dakpannen coaten of vervangen? Zo maak je de juiste keuze",
