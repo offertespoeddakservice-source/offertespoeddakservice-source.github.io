@@ -210,11 +210,11 @@ export const DIENSTEN: Dienst[] = [
     slug: "dakgoot-vervangen",
     titel: "Dakgoot vervangen",
     vanafPrijs: "vaste prijs vooraf",
-    h1: "Dakgoot vervangen — bij roest, scheuren of een goot die blijft overlopen",
+    h1: "Dakgoot repareren of vervangen: bij lekkende naden, roest of een goot die blijft overlopen",
     kort: "Versleten of lekkende goot? Nieuwe zinken, kunststof of pvc goot, netjes gemonteerd.",
-    metaTitle: "Dakgoot vervangen Den Bosch | Spoed Dak Service",
+    metaTitle: "Dakgoot repareren of vervangen Den Bosch | Spoed Dak Service",
     metaDescription:
-      "Lekkende of roestige dakgoot vervangen in de regio Den Bosch. Zink, kunststof of pvc, inclusief afvoer. Vaste prijs vooraf, geen voorrijkosten.",
+      "Lekkende of roestige dakgoot repareren of vervangen in de regio Den Bosch. Zink, kunststof of pvc, inclusief afvoer. Vaste prijs vooraf, troep gaat mee.",
     icoon: "🛠",
     intro:
       "Een goot die roest, op de naden lekt of blijft overlopen krijg je met reinigen niet meer dicht. Dan vervang ik 'm — in zink, kunststof of pvc, passend bij je huis — zodat je gevel en fundering droog blijven.",
@@ -227,6 +227,9 @@ export const DIENSTEN: Dienst[] = [
     faq: [
       { v: "Reinigen of vervangen?", a: "Zit er alleen blad in, dan volstaat reinigen. Is de goot doorgeroest of lek op de naden, dan is vervangen op termijn goedkoper. Ik zeg eerlijk wat in jouw geval slim is." },
       { v: "Welk materiaal kies ik?", a: "Zink gaat het langst mee en oogt klassiek; kunststof/pvc is voordeliger en onderhoudsarm. Ik help je kiezen wat bij je huis past." },
+      { v: "Kun je een lekkende dakgoot ook repareren in plaats van vervangen?", a: "Vaak wel. Een lekkende naad, een losse hoek, een losse beugel of een lekkende uitloop naar de regenpijp is meestal goed te herstellen. Is de goot op meerdere plekken lek of doorgeroest, dan zeg ik eerlijk dat vervangen slimmer is." },
+      { v: "Mijn dakgoot lekt bij de regenpijp, wat is dat?", a: "Meestal zit de uitloop los, het stuk waar de goot overgaat in de regenpijp, of lekt de verbinding. Soms zit de uitloop gewoon vol blad. Ik kijk wat het is en maak het weer dicht." },
+      { v: "Mijn goot hangt door, moet hij dan vervangen worden?", a: "Niet altijd. Vaak zit er een beugel los of is er een gebroken. Dan zet ik de goot weer goed op afschot, zodat het water naar de regenpijp loopt in plaats van over de rand." },
     ],
   },
   {
