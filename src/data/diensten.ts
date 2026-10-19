@@ -7,6 +7,7 @@
 import { PRIJZEN } from "./prijzen";
 
 const GOTEN_PRIJS = PRIJZEN.find((r) => r.dienst === "Dakgoot reinigen")?.prijs ?? "";
+const VEEG_PRIJS = PRIJZEN.find((r) => r.dienst === "Schoorsteen vegen")?.prijs ?? "";
 
 export interface Dienst {
   slug: string;
@@ -306,11 +307,11 @@ export const DIENSTEN: Dienst[] = [
     slug: "schoorsteen-vegen",
     titel: "Schoorsteen vegen",
     vanafPrijs: "€70",
-    h1: "Schoorsteen vegen — veilig, netjes en zonder roetzooi",
+    h1: "Schoorsteen vegen: veilig, netjes en zonder roetzooi",
     kort: "De hele schoorsteen geveegd, plus een blik op het lood en de aansluiting.",
-    metaTitle: "Schoorsteen vegen Den Bosch — €70 | Spoed Dak Service",
+    metaTitle: "Schoorsteenveger Den Bosch en omgeving | Spoed Dak Service",
     metaDescription:
-      "Schoorsteen laten vegen in de regio Den Bosch — veilig, netjes en zonder roetzooi in huis. Meteen controle op lood en aansluiting. Bel of WhatsApp Rens.",
+      `Schoorsteen laten vegen in de regio Den Bosch voor ${VEEG_PRIJS}: veilig, netjes en zonder roet in huis. Meteen een blik op het lood en de aansluiting.`,
     icoon: "🧹",
     intro:
       "Een schone schoorsteen is veiliger (minder kans op schoorsteenbrand) en trekt beter. Ik veeg de hele schoorsteen, netjes en zonder roet in huis, en kijk meteen of het lood en de aansluiting nog goed zijn — dat is vaak een lekbron.",
@@ -322,6 +323,9 @@ export const DIENSTEN: Dienst[] = [
     ],
     faq: [
       { v: "Hoe vaak moet de schoorsteen geveegd?", a: "Bij regelmatig stoken één keer per jaar, het beste vóór het stookseizoen. Zo voorkom je schoorsteenbrand en houd je een goede trek." },
+      { v: "Kom je ook buiten Den Bosch schoorsteen vegen?", a: "Ja, in mijn hele werkgebied rond Den Bosch, zoals Rosmalen, Vught, Oss, Veghel, Boxtel en Schijndel. Op de werkgebied-pagina zie je of jouw plaats erbij staat." },
+      { v: "Het lekt bij mijn schoorsteen, kun je dat ook bekijken?", a: "Ja. Bij het vegen kijk ik meteen naar het lood en de aansluiting op het dak, want daar begint lekkage bij de schoorsteen meestal. Zie ik iets, dan hoor je dat eerlijk, en wat het kost om te herstellen." },
+      { v: "Wat moet ik doen voordat je komt?", a: "Stook de dag ervoor liever niet, zodat de kachel of haard koud is. Maak de ruimte rond de haard een beetje vrij. Het afdekken doe ik zelf." },
     ],
   },
   {
