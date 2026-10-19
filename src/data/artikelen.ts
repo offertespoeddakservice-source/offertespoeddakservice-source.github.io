@@ -7,6 +7,7 @@ import { PRIJZEN } from "./prijzen";
 
 const GOTEN_PRIJS = PRIJZEN.find((r) => r.dienst === "Dakgoot reinigen")?.prijs ?? "";
 const lekPrijs = PRIJZEN.find((r) => r.dienst.startsWith("Daklekkage"))?.prijs ?? "";
+const kleinPrijs = PRIJZEN.find((r) => r.dienst.startsWith("Kleine reparatie"))?.prijs ?? "";
 
 export interface Sectie { kop: string; tekst: string[] }
 export interface Artikel {
@@ -511,8 +512,8 @@ export const ARTIKELEN: Artikel[] = [
   {
     slug: "wat-kost-een-dakdekker",
     titel: "Wat kost een dakdekker?",
-    h1: "Wat kost een dakdekker? Eerlijke richtprijzen op een rij",
-    metaTitle: "Wat kost een dakdekker? | Spoed Dak Service",
+    h1: "Wat kost een dakdekker of een dakreparatie? Eerlijke richtprijzen",
+    metaTitle: "Wat kost een dakdekker of dakreparatie? | Spoed Dak Service",
     metaDescription:
       "Wat kost een dakdekker? Goten reinigen €99 all-in, kleine reparatie €100–€250, daklekkage €200–€500. Offerte altijd gratis, vaste prijs vooraf.",
     intro:
@@ -534,6 +535,8 @@ export const ARTIKELEN: Artikel[] = [
     faq: [
       { v: "Reken je voorrijkosten?", a: "Nee — een offerte is altijd gratis: bel of stuur een foto via WhatsApp en je hoort de vaste prijs vooraf. Wil je een complete keuring van je hele dak mét fotorapport? Dat is de Dak-APK (€49), maar die is optioneel." },
       { v: "Krijg ik de prijs op papier?", a: "Je hoort de vaste prijs vooraf en krijgt die desgewenst op de offerte. Geen verrassingen achteraf." },
+      { v: "Wat kost een dakreparatie?", a: `Een kleine reparatie, zoals een paar losse pannen terugleggen of een nokvorst vastzetten, kost meestal ${kleinPrijs}. Een lek opsporen en dichten kost meestal ${lekPrijs}, inclusief materiaal. Je hoort de vaste prijs voordat ik begin.` },
+      { v: "Waarom verschillen de prijzen van dakdekkers zo?", a: "Omdat elk dak anders is en niet iedereen op dezelfde manier rekent. De een noemt een prijs per meter of per uur, de ander rekent voorrijkosten of een minimumbedrag. Vraag daarom altijd wat er precies in de prijs zit en of het een vaste prijs is." },
     ],
   },
   {
