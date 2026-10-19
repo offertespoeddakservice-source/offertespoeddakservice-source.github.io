@@ -281,7 +281,7 @@ export const DIENSTEN: Dienst[] = [
     slug: "dakpannen-vervangen",
     titel: "Dakpannen vervangen",
     vanafPrijs: "€100 – €250",
-    h1: "Dakpannen vervangen of recht leggen — voorkom lekkage",
+    h1: "Dakpannen vervangen of recht leggen: voorkom lekkage",
     kort: "Gebroken, verschoven of versleten pannen vervangen of opnieuw recht leggen.",
     metaTitle: "Dakpannen vervangen Den Bosch | Spoed Dak Service",
     metaDescription:
@@ -297,6 +297,9 @@ export const DIENSTEN: Dienst[] = [
     ],
     faq: [
       { v: "Heb je mijn type pan nog?", a: "Voor de meeste daken vind ik passende pannen, ook bij oudere of bijzondere modellen. Lukt het echt niet, dan kijken we samen naar de beste oplossing." },
+      { v: "Er is een dakpan kapot of verschoven, is dat spoed?", a: "Lekt het al of zit er een gat in je dak, dan is het spoed: bel of WhatsApp me met een foto. Is het één verschoven pan en blijft het binnen droog, dan kan het meestal een paar dagen wachten. Wacht alleen niet tot de volgende storm, want dan waaien er vaak meer los." },
+      { v: "Waarom verschuiven dakpannen?", a: "Door harde wind, door een losse of rotte panlat eronder, of doordat er iemand op het dak heeft gelopen, bijvoorbeeld bij het plaatsen van zonnepanelen of een antenne. Ik leg ze recht en kijk meteen of de oorzaak eronder zit." },
+      { v: "Kan ik zelf een dakpan terugleggen?", a: "Liever niet. Op een schuin, nat dak ben je zo uitgegleden, en een pan die niet goed in de sluiting ligt, schuift bij de volgende bui weer. Stuur een foto, dan zeg ik wat er nodig is." },
     ],
   },
   {
