@@ -349,6 +349,45 @@ export const ARTIKELEN: Artikel[] = [
     ],
   },
   {
+    slug: "dakgoot-lekt",
+    datum: "2026-10-21",
+    titel: "Dakgoot lekt?",
+    h1: "Dakgoot lekt: bij de naad, de hoek of de regenpijp",
+    metaTitle: "Dakgoot lekt: oorzaken en oplossing | Spoed Dak Service",
+    metaDescription:
+      "Druppelt je dakgoot bij een naad, een hoek of bij de regenpijp? Zo zie je of de goot vol zit of echt lek is, en wanneer repareren of vervangen loont.",
+    intro:
+      "Water dat uit je dakgoot druppelt of langs de gevel loopt: vaak zit de goot gewoon vol. Maar soms is de goot zelf lek, en dat zie je meestal op een paar vaste plekken. Hieronder hoe je het verschil ziet en wat eraan te doen is.",
+    secties: [
+      { kop: "Vol of echt lek?", tekst: [
+        'Loopt het water over de voorkant van de goot, over een groot stuk of midden in de goot? Dan zit de goot of de uitloop meestal vol. Lees dan <a href="/kennisbank/verstopte-regenpijp-lekkende-dakgoot/">verstopte regenpijp of lekkende dakgoot</a>.',
+        "Druppelt het op één vaste plek, ook nog een tijdje na de bui? Dan is de goot daar waarschijnlijk echt lek.",
+      ] },
+      { kop: "Waar een goot meestal lekt", tekst: [
+        "Bij de naden, waar twee stukken goot aan elkaar zitten. Bij de hoeken van het huis. En bij de uitloop, het stuk waar de goot overgaat in de regenpijp.",
+        "Bij zinken goten zie je na jaren ook kleine gaatjes of plekken waar het zink dun is geworden. Bij kunststof goten zit het vaker in een verbinding of een rubber dat is uitgedroogd. En een goot die doorhangt door een losse beugel, houdt water vast op de verkeerde plek. Daar loopt het dan over de rand.",
+      ] },
+      { kop: "Lekt het bij de regenpijp?", tekst: [
+        "Druppelt het bij de aansluiting van goot en regenpijp, dan zit de uitloop vaak los of lekt de verbinding. Lekt het verderop uit de regenpijp zelf, bij een verbinding of een scheur, dan moet dat stuk pijp meestal opnieuw vast of vervangen worden.",
+      ] },
+      { kop: "Waarom je het niet laat zitten", tekst: [
+        "Een lekkende goot lijkt klein, maar het water loopt elke bui langs dezelfde plek van je gevel. Dat geeft natte muren, groene aanslag en op den duur schade aan het metselwerk of de houten boeidelen.",
+      ] },
+      { kop: "Repareren of vervangen?", tekst: [
+        'Een lekkende naad, een losse beugel of een lekkende uitloop is vaak goed te herstellen. Is de goot op meerdere plekken lek of zit er roest in, dan is vervangen op termijn meestal goedkoper dan blijven repareren. Ik zeg eerlijk wat in jouw geval slim is. Zie <a href="/diensten/dakgoot-vervangen/">dakgoot repareren of vervangen</a>.',
+      ] },
+      { kop: "Wat kost het?", tekst: [
+        'Dat hangt af van wat er lek is en hoe lang de goot is. Je hoort de vaste prijs vooraf. Zit de goot alleen vol, dan is het gewoon <a href="/diensten/goten-reinigen/">goten reinigen</a>. Richtprijzen staan op de <a href="/prijzen/">prijzenpagina</a>.',
+      ] },
+    ],
+    dienst: { label: "Bekijk: dakgoot repareren of vervangen", href: "/diensten/dakgoot-vervangen/" },
+    faq: [
+      { v: "Kan ik een lekkende dakgoot zelf dichtkitten?", a: "Een likje kit houdt het soms even droog, maar op een natte of vuile goot hecht het slecht en na een winter lekt het vaak weer. En op een ladder bij de goot werken is niet zonder risico. Laat liever kijken waar het echt lekt." },
+      { v: "Mijn goot lekt alleen bij harde regen, is hij dan lek?", a: "Niet altijd. Bij een stortbui kan een goot die een beetje vol zit gewoon overlopen. Druppelt het ook na een gewone bui op dezelfde plek, dan is er waarschijnlijk echt iets lek." },
+      { v: "Kun je snel komen als het water langs de muur loopt?", a: "Bel of WhatsApp me met een foto van de plek. Dan zie ik vaak al of de goot vol zit of lek is, en hoor je wanneer ik kan komen." },
+    ],
+  },
+  {
     slug: "stormschade-eerste-hulp",
     titel: "Stormschade: eerste hulp",
     h1: "Stormschade aan je dak: eerste hulp en je verzekering",
