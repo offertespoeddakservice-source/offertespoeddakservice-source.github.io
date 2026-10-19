@@ -249,6 +249,43 @@ export const ARTIKELEN: Artikel[] = [
     ],
   },
   {
+    slug: "wat-kost-dakgoot-schoonmaken",
+    datum: "2026-10-21",
+    titel: "Wat kost dakgoot schoonmaken?",
+    h1: "Wat kost dakgoot schoonmaken? Zo zit de prijs in elkaar",
+    metaTitle: "Wat kost dakgoot schoonmaken? | Spoed Dak Service",
+    metaDescription:
+      `Wat kost dakgoot schoonmaken of reinigen? Bij een rijtjeswoning ${GOTEN_PRIJS}. Waar de prijs van afhangt, wat erbij zit en hoe het zit met een prijs per meter.`,
+    intro:
+      "Goten laten schoonmaken is een klein klusje, maar de prijzen die je online ziet lopen flink uiteen. Hieronder leg ik uit wat ik reken, wat erbij zit en waar de prijs van afhangt. Zo weet je vooraf waar je aan toe bent.",
+    secties: [
+      { kop: "Wat ik reken", tekst: [
+        `Voor een rijtjeswoning is het ${GOTEN_PRIJS}: beide goten leeg, blad en mos eruit, de uitloop naar de regenpijp vrijgemaakt en de troep gaat mee.`,
+        "Heb je een hoekhuis, een twee-onder-een-kap of een vrijstaand huis, of zitten je goten hoog of lastig? Dan hoor je vooraf de vaste prijs. Stuur gerust een foto via WhatsApp, dan kan ik die meestal snel noemen.",
+      ] },
+      { kop: "Waar de prijs van afhangt", tekst: [
+        "Vooral van de lengte van de goten, de hoogte en hoe goed ik erbij kan. Ook telt mee hoe vol de goot zit: na jaren zonder onderhoud zit er soms een dikke laag modder en mos in, met plantjes erin.",
+        'Staan er veel bomen bij je huis, dan zitten goten sneller vol. Dan is twee keer per jaar schoonmaken soms slimmer. Zie <a href="/kennisbank/hoe-vaak-dakgoot-reinigen/">hoe vaak je je dakgoot moet reinigen</a>.',
+      ] },
+      { kop: "En een prijs per meter?", tekst: [
+        "Je ziet online vaak een prijs per meter goot. Dat klinkt precies, maar je weet meestal niet hoeveel meter goot je hebt, en soms komen er nog voorrijkosten of een minimumbedrag bij. Ik noem liever één vaste prijs voor de hele klus, voordat ik begin.",
+      ] },
+      { kop: "Wat erbij zit", tekst: [
+        "Blad, mos en vuil eruit, de bladvangers gecontroleerd en de uitloop naar de regenpijp vrijgemaakt. Omdat ik toch boven ben, kijk ik meteen naar de pannen, het lood en de goot zelf. Zie ik iets wat aandacht nodig heeft, dan hoor je dat eerlijk, en ook als er niks aan de hand is.",
+        'Zit de verstopping dieper in de regenpijp, of lekt de goot zelf? Lees dan <a href="/kennisbank/verstopte-regenpijp-lekkende-dakgoot/">verstopte regenpijp of lekkende dakgoot</a>.',
+      ] },
+      { kop: "Zelf doen of laten doen?", tekst: [
+        "De lage goot van een schuur of garage kun je prima zelf leeghalen. Bij een goot op hoogte is een ladder op een natte of schuine ondergrond het grootste risico. Dan laat je het liever doen.",
+      ] },
+    ],
+    dienst: { label: "Bekijk: dakgoot reinigen", href: "/diensten/goten-reinigen/" },
+    faq: [
+      { v: "Wat kost dakgoot reinigen bij een rijtjeswoning?", a: `${GOTEN_PRIJS}: beide goten leeg, uitloop naar de regenpijp vrijgemaakt en de troep gaat mee. Bij een groter of hoger huis hoor je de vaste prijs vooraf.` },
+      { v: "Wanneer laat ik mijn goten het beste schoonmaken?", a: "In het najaar, als het meeste blad gevallen is. Dan loopt het water in de winter goed weg en voorkom je overlopende goten en vocht in je muren." },
+      { v: "Kan het samen met andere klussen?", a: "Ja. Moet er ook iets aan je dak gebeuren of wil je je zonnepanelen laten reinigen, dan kan dat vaak in dezelfde keer. Je hoort vooraf wat het samen kost." },
+    ],
+  },
+  {
     slug: "wat-kost-daklekkage-repareren",
     titel: "Wat kost daklekkage repareren?",
     h1: "Wat kost het om een daklekkage te repareren? (eerlijke prijzen)",
