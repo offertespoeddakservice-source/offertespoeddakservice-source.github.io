@@ -13,6 +13,7 @@ export function getStaticPaths() {
 const { p } = Astro.props;
 const path = `/werkgebied/${p.slug}`;
 const titel = `Dakdekker in ${p.naam}`;
+const metaTitel = `Dakdekker ${p.naam}: lekkage en dakwerk | ${SITE.bedrijfsnaam}`;
 const matrixVoorPlaats = MATRIX.filter((c) => c.plaats === p.slug)
   .map((c) => getDienst(c.dienst))
   .filter((d) => d);
@@ -42,7 +43,7 @@ const schema = [
 ---
 
 <Base
-  title={`Dakdekker ${p.naam} | ${SITE.bedrijfsnaam}`}
+  title={metaTitel.length <= 60 ? metaTitel : `Dakdekker ${p.naam} | ${SITE.bedrijfsnaam}`}
   description={`Dakdekker in ${p.naam} nodig? Dak-APK voor €49, daklekkage vaak dezelfde dag verholpen, eerlijke prijs vooraf. Bel of WhatsApp Rens.`}
   path={path}
   schema={schema}
