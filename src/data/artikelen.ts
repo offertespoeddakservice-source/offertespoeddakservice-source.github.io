@@ -654,7 +654,7 @@ export const ARTIKELEN: Artikel[] = [
   {
     slug: "schoorsteen-vegen-hoe-vaak",
     titel: "Hoe vaak schoorsteen vegen?",
-    h1: "Hoe vaak moet je de schoorsteen vegen — en wat kost het?",
+    h1: "Hoe vaak moet je de schoorsteen vegen, en wat kost het?",
     metaTitle: "Hoe vaak schoorsteen vegen? | Spoed Dak Service",
     metaDescription:
       "Hoe vaak schoorsteen vegen? Bij regelmatig stoken één keer per jaar, het beste vóór het stookseizoen. Veiliger tegen schoorsteenbrand. Kosten €70.",
@@ -668,6 +668,9 @@ export const ARTIKELEN: Artikel[] = [
       { kop: "Waarom het belangrijk is", tekst: [
         "In het kanaal verzamelt zich roet en creosoot. Te veel daarvan vergroot de kans op schoorsteenbrand en zorgt voor slechte trek (rook in huis). Vegen lost dat op en ik kijk meteen of het lood en de aansluiting op het dak nog goed zijn — een veelvoorkomende lekbron.",
       ] },
+      { kop: "Zo zie je dat vegen nodig is", tekst: [
+        "Rook die bij het aansteken de kamer in slaat, een kachel die slecht trekt, een sterke roetlucht als je niet stookt, of zwarte schilfers onder in de haard. Merk je zoiets, wacht dan niet tot volgend jaar.",
+      ] },
       { kop: "Wat kost het?", tekst: [
         "Schoorsteen vegen kost €70 — netjes en zonder roetzooi in huis. Omdat ik toch op het dak ben, neem ik de aansluiting en het lood even mee in de controle.",
       ] },
@@ -676,6 +679,8 @@ export const ARTIKELEN: Artikel[] = [
     faq: [
       { v: "Wanneer kan ik het beste laten vegen?", a: "Vóór het stookseizoen, dus eind zomer of begin herfst. Dan begin je de winter veilig en met goede trek." },
       { v: "Maken jullie er een rommel van binnen?", a: "Nee. Ik dek netjes af en werk schoon — geen roet in je woonkamer." },
+      { v: "Is schoorsteen vegen verplicht?", a: "Voor een gewoon woonhuis staat het niet in de wet. Wel vragen veel verzekeraars in hun voorwaarden om een jaarlijkse veegbeurt als je hout stookt. Gaat het mis en is er niet geveegd, dan kan dat gevolgen hebben voor je uitkering. Kijk het even na in je polis." },
+      { v: "Moet de schoorsteen ook geveegd worden als ik weinig stook?", a: "Stook je maar een paar keer per jaar, dan kan het vaak minder vaak. Heb je lang niet gestookt of zaten er vogels op de schoorsteen, laat dan voordat je weer begint toch even kijken of het kanaal vrij is." },
     ],
   },
   {
