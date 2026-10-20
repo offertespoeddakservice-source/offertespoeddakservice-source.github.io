@@ -355,6 +355,41 @@ export const ARTIKELEN: Artikel[] = [
     ],
   },
   {
+    slug: "daklekkage-verzekering",
+    datum: "2026-10-21",
+    titel: "Daklekkage en je verzekering",
+    h1: "Daklekkage en je verzekering: wat wordt meestal vergoed?",
+    metaTitle: "Vergoedt de verzekering daklekkage? | Spoed Dak Service",
+    metaDescription:
+      "Lekt je dak? De verzekering vergoedt vaak de schade binnen, maar niet altijd de reparatie van het dak zelf. Zo zit het meestal, en dit leg je vast.",
+    intro:
+      "Bij een lek is de tweede vraag meestal: betaalt de verzekering dit? Ik ben geen verzekeraar en elke polis is anders, maar in de praktijk zie ik steeds hetzelfde terugkomen. Hieronder lees je hoe het meestal zit en wat je zelf vastlegt voordat je de schade meldt.",
+    secties: [
+      { kop: "Opstal en inboedel: twee verzekeringen", tekst: [
+        "Je opstalverzekering gaat over het huis zelf: het dak, de muren, het plafond. Je inboedelverzekering gaat over je spullen: een nat tapijt, een kast, een bed. Bij daklekkage heb je vaak met allebei te maken. Huur je, dan is het dak de zaak van je verhuurder en meld je het lek eerst daar.",
+      ] },
+      { kop: "Wat meestal wel wordt vergoed", tekst: [
+        'Plotselinge schade door storm, hagel of een omgewaaide boom valt bij de meeste opstalverzekeringen onder de dekking. Waaien er pannen van je dak en regent het daardoor binnen, dan wordt de schade binnen vaak vergoed. Lees ook <a href="/kennisbank/stormschade-eerste-hulp/">stormschade: eerste hulp</a>.',
+      ] },
+      { kop: "Wat meestal niet wordt vergoed", tekst: [
+        "Lekkage door slijtage of achterstallig onderhoud: een goot die al jaren vol zit, pannen die al lang poreus zijn, lood dat langzaam is losgekomen. De reparatie van het dak zelf valt dan meestal buiten de dekking. Soms wordt de schade binnen nog wel vergoed. Dat verschilt per polis, dus lees de voorwaarden of bel je verzekeraar.",
+      ] },
+      { kop: "Dit leg je vast voordat je de schade meldt", tekst: [
+        "Maak foto's van de natte plek binnen en van de schade aan je spullen. Maak vanaf een veilige plek foto's van het dak, zonder zelf het dak op te gaan. Schrijf de datum op en wat voor weer het was. Gooi beschadigde spullen niet meteen weg.",
+        "Beperk ondertussen de schade: water opvangen, spullen droog zetten. Verzekeraars verwachten dat je dat doet. Laat het lek ook snel dichtmaken, want schade die erger wordt doordat je lang wacht, wordt niet altijd vergoed.",
+      ] },
+      { kop: "Lekt het nu?", tekst: [
+        'Wacht met het dichtmaken van een lek niet op de verzekeraar. Kijk op de <a href="/spoed/">spoedpagina</a> wat je meteen doet en bel of WhatsApp me met een foto. Wat een reparatie meestal kost, lees je in <a href="/kennisbank/wat-kost-daklekkage-repareren/">wat kost daklekkage repareren</a>.',
+      ] },
+    ],
+    dienst: { label: "Bekijk: daklekkage & spoed", href: "/diensten/daklekkage/" },
+    faq: [
+      { v: "Vergoedt de opstalverzekering daklekkage?", a: "Vaak wel als het lek plotseling ontstond, bijvoorbeeld door storm of hagel. Komt het door slijtage of achterstallig onderhoud, dan meestal niet, of alleen de schade binnen. Kijk altijd in je eigen polisvoorwaarden." },
+      { v: "Moet ik met repareren wachten tot de verzekeraar is geweest?", a: "Een noodreparatie om erger te voorkomen mag meestal gewoon, en verzekeraars verwachten dat ook. Maak eerst goede foto's en bewaar de factuur. Over de definitieve reparatie kun je het beste even met je verzekeraar overleggen." },
+      { v: "Ik huur mijn huis, wie betaalt de reparatie?", a: "Het dak is de zaak van je verhuurder. Meld het lek daar zo snel mogelijk. Schade aan je eigen spullen valt onder je eigen inboedelverzekering." },
+    ],
+  },
+  {
     slug: "verstopte-regenpijp-lekkende-dakgoot",
     titel: "Verstopte regenpijp?",
     h1: "Verstopte regenpijp of lekkende dakgoot — oorzaken en oplossing",
