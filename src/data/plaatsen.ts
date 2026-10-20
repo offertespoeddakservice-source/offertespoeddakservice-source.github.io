@@ -12,6 +12,7 @@ export interface Plaats {
   lokaal: string;      // 1-2 zinnen echt lokaal (wijken/woningtype) — uniek per plaats
   wijken: string[];    // herkenbare buurten/kernen voor lokale relevantie
   reistijd?: string;   // gevoel van nabijheid vanuit Den Bosch
+  verweg?: boolean;    // rand van het werkgebied: geen spoedbelofte, klussen worden vooraf ingepland
 }
 
 export const PLAATSEN: Plaats[] = [
@@ -158,6 +159,7 @@ export const PLAATSEN: Plaats[] = [
       "Voor grotere klussen kom ik ook in Breda en omstreken. Mix van vooroorlogse en naoorlogse daken die onderhoud aan pannen, lood en goten vragen.",
     wijken: ["Prinsenbeek", "Teteringen", "Ginneken", "Haagse Beemden"],
     reistijd: "± 40 min vanaf Den Bosch",
+    verweg: true,
   },
   {
     slug: "helmond",
@@ -166,6 +168,7 @@ export const PLAATSEN: Plaats[] = [
       "Ruime naoorlogse wijken met schuine daken; voor dakwerk en lekkage kom ik in Helmond en de omliggende kernen.",
     wijken: ["Brouwhuis", "Dierdonk", "Mierlo-Hout", "Stiphout"],
     reistijd: "± 40 min vanaf Den Bosch",
+    verweg: true,
   },
   {
     slug: "eindhoven",
@@ -174,6 +177,7 @@ export const PLAATSEN: Plaats[] = [
       "Voor grotere dakklussen kom ik ook in de regio Eindhoven. Veel naoorlogse woningen met schuine pannendaken en platte uitbouwen.",
     wijken: ["Tongelre", "Woensel", "Gestel", "Stratum"],
     reistijd: "± 40 min vanaf Den Bosch",
+    verweg: true,
   },
 ];
 

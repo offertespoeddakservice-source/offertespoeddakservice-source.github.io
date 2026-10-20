@@ -20,7 +20,7 @@ const heeftLekPagina = MATRIX.some((c) => c.plaats === p.slug && c.dienst === "d
 
 const faq = [
   { v: `Werk je in heel ${p.naam}?`, a: `Ja, ik werk in heel ${p.naam}${p.wijken.length ? `, onder andere ${p.wijken.slice(0, 3).join(", ")}` : ""} en de directe omgeving. ${p.reistijd ? `Het is maar ${p.reistijd}.` : ""}` },
-  { v: `Kun je snel langskomen in ${p.naam}?`, a: p.slug === "den-bosch" ? `Bij spoed of lekkage vaak nog dezelfde dag. Den Bosch is mijn thuisbasis, dus ik ben er zo.` : `Bij spoed of lekkage vaak nog dezelfde dag, want ${p.naam} ligt in mijn vaste werkgebied rond Den Bosch.` },
+  { v: `Kun je snel langskomen in ${p.naam}?`, a: p.verweg ? `${p.naam} ligt aan de rand van mijn werkgebied (${p.reistijd}). Geplande klussen doe ik hier graag. Bij spoed of lekkage kun je het beste even bellen of WhatsAppen, dan hoor je eerlijk of ik op tijd kan komen.` : p.slug === "den-bosch" ? `Bij spoed of lekkage vaak nog dezelfde dag. Den Bosch is mijn thuisbasis, dus ik ben er zo.` : `Bij spoed of lekkage vaak nog dezelfde dag, want ${p.naam} ligt in mijn vaste werkgebied rond Den Bosch.` },
   { v: `Wat kost een dakdekker in ${p.naam}?`, a: `Goten reinigen €99 all-in (rijtjeswoning), een kleine reparatie €100-€250, een daklekkage meestal €200-€500. Offerte is altijd gratis en je hoort vooraf de vaste prijs.` },
 ];
 
@@ -67,11 +67,17 @@ const schema = [
     <div class="wrap prose">
       <h2>Dakdekker in {p.naam}</h2>
       <p>{p.lokaal}</p>
+      {p.verweg ? (
+        <p>
+          Volle goten, losse pannen of een dak dat aan onderhoud toe is: ik help je er netjes vanaf. {`${p.naam} is ${p.reistijd}, dus hier plan ik de klus vooraf met je in.`}
+        </p>
+      ) : (
       <p>
         Of het nu gaat om volle goten, een lek na de regen of losse pannen na een storm,
         ik help je er snel en netjes vanaf. {p.reistijd ? `${p.naam} is ${p.reistijd}, ` : ""}
         dus ik ben vaak snel ter plaatse.
       </p>
+      )}
       {p.wijken.length > 0 && (
         <p>Ik kom door heel {p.naam}, waaronder {p.wijken.join(", ")}.</p>
       )}
