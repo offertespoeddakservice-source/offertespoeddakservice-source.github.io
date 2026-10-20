@@ -17,6 +17,13 @@ const { p, d, hook } = Astro.props;
 const path = `/werkgebied/${p.slug}/${d.slug}`;
 const titel = `${d.titel} in ${p.naam}`;
 
+// Verder lezen bij lekkage en storm: gewone zinnen met links naar de spoedpagina en de kennisbank.
+const verderLezen: Record<string, string> = {
+  daklekkage: 'Lekt het nu? Op de <a href="/spoed/">spoedpagina</a> lees je wat je meteen zelf kunt doen. Hoe ik een lek vind zonder onnodig sloopwerk, staat in <a href="/kennisbank/daklekkage-opsporen/">daklekkage opsporen</a>. Druppelt het bij de schoorsteen, lees dan <a href="/kennisbank/lekkage-bij-schoorsteen/">lekkage bij de schoorsteen</a>. Twijfel je of het wel een lek is, kijk dan eerst bij <a href="/kennisbank/condens-of-lekkage-op-zolder/">condens of lekkage op zolder</a>.',
+  stormschade: 'Ligt je dak open na de storm? Op de <a href="/spoed/">spoedpagina</a> lees je wat je meteen zelf kunt doen. Wat je beter laat en hoe het zit met je verzekering, staat in <a href="/kennisbank/stormschade-eerste-hulp/">stormschade: eerste hulp</a>. Ligt er specie in de goot of staat de nok scheef, lees dan <a href="/kennisbank/nokvorsten-los/">losse nokvorsten</a>.',
+};
+const verder = verderLezen[d.slug];
+
 // FAQ: combineer plaats-specifiek + dienst-specifiek → uniek én rijk per pagina.
 const faq = [
   {
@@ -76,6 +83,12 @@ const schema = [
       <ul>
         {d.punten.map((punt) => <li>{punt}</li>)}
       </ul>
+      {verder && (
+        <>
+          <h3>Handig om te weten</h3>
+          <p set:html={verder} />
+        </>
+      )}
     </div>
   </section>
 
