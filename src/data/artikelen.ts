@@ -419,6 +419,43 @@ export const ARTIKELEN: Artikel[] = [
     ],
   },
   {
+    slug: "dak-lekt-bij-harde-wind",
+    datum: "2026-10-21",
+    titel: "Dak lekt alleen bij storm?",
+    h1: "Dak lekt alleen bij harde wind en regen: hoe kan dat?",
+    metaTitle: "Dak lekt bij harde wind of storm? | Spoed Dak Service",
+    metaDescription:
+      "Blijft je dak droog bij gewone regen, maar lekt het bij harde wind? Dan waait de regen onder de pannen door. Dit zijn de plekken waar het meestal zit.",
+    intro:
+      "Bij een gewone bui blijft alles droog, maar bij regen met harde wind zie je ineens een natte plek. Dat komt veel voor in de herfst. Het water valt dan niet van boven, maar wordt schuin onder de pannen en langs de nok naar binnen geblazen. Hieronder lees je waar dat meestal gebeurt en wat je eraan doet.",
+    secties: [
+      { kop: "Waarom het alleen bij wind lekt", tekst: [
+        "Een pannendak is niet waterdicht zoals een plat dak. Het water loopt over de pannen naar beneden, en waar de pannen elkaar overlappen is dat genoeg. Blaast de wind de regen van opzij of van onderen tegen het dak, dan kan het onder een pan door die net niet goed in de sluiting ligt. Bij gewone regen merk je daar niets van.",
+      ] },
+      { kop: "Waar het meestal zit", tekst: [
+        'Bij de nok. Is de specie onder de nokvorsten verweerd of ligt een vorst los, dan waait de regen daar zo onderdoor. Lees ook <a href="/kennisbank/nokvorsten-los/">losse nokvorsten</a>.',
+        "Bij een verschoven of gebroken pan, vaak overgebleven van een eerdere storm.",
+        'Bij de schoorsteen of het dakraam, waar het lood niet meer goed aansluit. Zie <a href="/kennisbank/lekkage-bij-schoorsteen/">lekkage bij de schoorsteen</a> en <a href="/kennisbank/dakraam-lekt/">dakraam lekt</a>.',
+        "Langs de randen van het dak, bij de gevelpannen en de windveren. Daar vangt het dak de meeste wind.",
+      ] },
+      { kop: "Oudere daken", tekst: [
+        "Bij sommige oudere daken ligt onder de pannen geen goede waterkerende laag meer, of is die op plekken vergaan. Waait er dan water onder een pan door, dan komt het meteen op zolder terecht. Ligt er wel een goede laag onder, dan loopt het water meestal eerst daarover naar de goot.",
+      ] },
+      { kop: "Wat je nu doet", tekst: [
+        'Vang het water op en maak een foto van de natte plek, ook als het later weer droog is. Schrijf op bij wat voor weer het lekte: uit welke hoek de wind kwam en hoe hard het regende. Dat helpt mij om de plek op het dak te vinden. Ga niet zelf het dak op bij harde wind. Lekt het nu flink, kijk dan op de <a href="/spoed/">spoedpagina</a>.',
+      ] },
+      { kop: "Hoe ik het opspoor", tekst: [
+        'Omdat het alleen bij wind lekt, zie je het vaak niet als het droog is. Ik kijk daarom eerst naar de plekken hierboven, aan de kant waar de wind op stond, en op zolder naar oude waterkringen. Meestal vind ik het zo zonder iets open te breken. Meer hierover in <a href="/kennisbank/daklekkage-opsporen/">daklekkage opsporen</a>.',
+      ] },
+    ],
+    dienst: { label: "Bekijk: dakreparatie (pannen, lood en nok)", href: "/diensten/dakreparatie/" },
+    faq: [
+      { v: "Waarom lekt mijn dak alleen bij storm?", a: "Omdat de wind de regen dan schuin onder de pannen of de nokvorsten door blaast. Bij gewone regen loopt het water er gewoon overheen. Vaak zit het bij de nok, een verschoven pan of het lood bij de schoorsteen." },
+      { v: "Is het erg als het maar af en toe lekt?", a: "Laat het liever niet zitten. Elke keer worden het hout en de isolatie nat, en een plek die nu alleen bij storm lekt, wordt bij de volgende storm vaak groter." },
+      { v: "Kan ik het zelf zien vanaf de straat?", a: "Soms wel. Een scheve nokvorst, een pan die anders ligt dan de rest of stukjes specie in de goot zie je vaak met een verrekijker. Stuur gerust een foto via WhatsApp, dan kijk ik mee." },
+    ],
+  },
+  {
     slug: "dakonderhoud-per-seizoen",
     titel: "Dakonderhoud per seizoen",
     h1: "Dakonderhoud per seizoen: wat je wanneer moet controleren",
