@@ -619,6 +619,8 @@ export const ARTIKELEN: Artikel[] = [
     faq: [
       { v: "Is een opvallend lage prijs een waarschuwingssignaal?", a: "Niet per se — kijk vooral of de prijs op papier staat en of hij past bij wat er in de offerte beschreven staat. Een prijs die pas ná het werk duidelijk wordt, is het grotere risico." },
       { v: "Wat als een dakdekker meerwerk wil doorberekenen zonder dat vooraf te zeggen?", a: "Dat mag sinds 2025 niet zomaar (art. 6:230m BW): extra werk moet eerst met jou worden afgestemd. Vraag altijd om een aangepaste, schriftelijke prijs vóórdat het meerwerk wordt uitgevoerd." },
+      { v: "Ik denk dat ik ben opgelicht door een dakdekker, wat nu?", a: "Bewaar alles: de offerte, betaalbewijzen, berichten en foto's. Doe aangifte bij de politie en meld het bij de Fraudehelpdesk. Heb je aan de deur iets getekend, dan heb je vaak 14 dagen bedenktijd. Laat het werk door een andere vakman bekijken voordat je nog iets betaalt." },
+      { v: "Welke keurmerken zijn er voor dakdekkers?", a: "Bekende namen in de dakenbranche zijn het keurmerk Dakmerk en de branchevereniging Vebidak. Zo'n keurmerk betekent dat een bedrijf aan bepaalde eisen voldoet. Maar het zegt niet alles: let ook op een vaste prijs op papier, een KvK-inschrijving en één vast aanspreekpunt." },
     ],
   },
   {
