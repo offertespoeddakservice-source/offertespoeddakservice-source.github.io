@@ -16,6 +16,7 @@ const titel = `Dakdekker in ${p.naam}`;
 const matrixVoorPlaats = MATRIX.filter((c) => c.plaats === p.slug)
   .map((c) => getDienst(c.dienst))
   .filter((d) => d);
+const heeftLekPagina = MATRIX.some((c) => c.plaats === p.slug && c.dienst === "daklekkage");
 
 const faq = [
   { v: `Werk je in heel ${p.naam}?`, a: `Ja, ik werk in heel ${p.naam}${p.wijken.length ? `, onder andere ${p.wijken.slice(0, 3).join(", ")}` : ""} en de directe omgeving. ${p.reistijd ? `Het is maar ${p.reistijd}.` : ""}` },
@@ -74,6 +75,15 @@ const schema = [
       {p.wijken.length > 0 && (
         <p>Ik kom door heel {p.naam}, waaronder {p.wijken.join(", ")}.</p>
       )}
+      <h3>Lekt het nu?</h3>
+      <p>
+        Zet een emmer onder de druppel, maak een foto van de natte plek en ga niet zelf het dak op.
+        Op de <a href="/spoed/">spoedpagina</a> staat wat je verder meteen kunt doen.
+        {heeftLekPagina
+          ? <>Hoe ik een lek in {p.naam} opspoor, lees je bij <a href={`/werkgebied/${p.slug}/daklekkage/`}>daklekkage in {p.naam}</a>.</>
+          : <>Hoe ik een lek opspoor zonder onnodig sloopwerk, lees je bij <a href="/diensten/daklekkage/">daklekkage</a>.</>}
+        Stuur me de foto via WhatsApp, dan hoor je eerlijk wat ik zie en wat de beste volgende stap is.
+      </p>
     </div>
   </section>
 
