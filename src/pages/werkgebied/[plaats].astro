@@ -50,7 +50,10 @@ const schema = [
 >
   <section class="hero">
     <div class="wrap">
-      <p class="eyebrow" style="color:#ffb486;">Werkgebied · {p.reistijd ?? SITE.regioOmschrijving}</p>
+      <div class="topline">
+        <span class="eyebrow" style="color:#ffb486; margin:0;">Werkgebied · {p.reistijd ?? SITE.regioOmschrijving}</span>
+        <span class="stars"><span class="ster">★★★★★</span> <b>{SITE.reviews.score.toString().replace(".", ",")}</b> <a class="bron" href={SITE.werkspotUrl} target="_blank" rel="noopener">op Werkspot</a></span>
+      </div>
       <h1>{titel}: goten, lekkage &amp; reparatie</h1>
       <p class="lead">
         Zoek je een betrouwbare dakdekker in {p.naam}? Je krijgt mij, Rens, aan de lijn.
