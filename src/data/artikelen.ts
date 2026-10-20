@@ -8,6 +8,7 @@ import { PRIJZEN } from "./prijzen";
 const GOTEN_PRIJS = PRIJZEN.find((r) => r.dienst === "Dakgoot reinigen")?.prijs ?? "";
 const lekPrijs = PRIJZEN.find((r) => r.dienst.startsWith("Daklekkage"))?.prijs ?? "";
 const kleinPrijs = PRIJZEN.find((r) => r.dienst.startsWith("Kleine reparatie"))?.prijs ?? "";
+const apkPrijs = PRIJZEN.find((r) => r.dienst.startsWith("Dak-APK"))?.prijs ?? "";
 
 export interface Sectie { kop: string; tekst: string[] }
 export interface Artikel {
@@ -529,9 +530,9 @@ export const ARTIKELEN: Artikel[] = [
     slug: "dakonderhoud-per-seizoen",
     titel: "Dakonderhoud per seizoen",
     h1: "Dakonderhoud per seizoen: wat je wanneer moet controleren",
-    metaTitle: "Dakonderhoud checklist per seizoen | Spoed Dak Service",
+    metaTitle: "Hoe vaak dak onderhouden? Checklist | Spoed Dak Service",
     metaDescription:
-      "Hoe vaak moet je je dak onderhouden? Twee keer per jaar een check (voorjaar + najaar) voorkomt dure schade.",
+      "Hoe vaak moet je je dak onderhouden? Twee keer per jaar kijken, in het voorjaar en het najaar. Wat je per seizoen controleert, bij een pannendak en een plat dak.",
     intro:
       "Een dak gaat tientallen jaren mee, maar alleen als je het een beetje bijhoudt. Twee korte checks per jaar — in het voorjaar en het najaar — voorkomen verreweg de meeste dure schade. Hieronder wat er per seizoen toe doet, en hoe vaak je een vakman nodig hebt.",
     secties: [
@@ -548,12 +549,16 @@ export const ARTIKELEN: Artikel[] = [
       ] },
       { kop: "En een professionele inspectie?", tekst: [
         "Een grondige vakinspectie is elke 3 tot 5 jaar verstandig, en vaker bij een ouder dak. Ik doe zo'n check eerlijk: ik zeg wat nú aandacht vraagt en wat best nog even kan wachten. Geen onnodige paniek, geen onnodig werk.",
+        'Wil je weten hoe je dak er nu voor staat, dan kan dat met de <a href="/dak-apk/">Dak-APK</a>: een keuring van je hele dak met een fotorapport.',
       ] },
     ],
     dienst: { label: "Bekijk: dakgoot reinigen", href: "/diensten/goten-reinigen/" },
     faq: [
       { v: "Hoe vaak moet ik mijn dak laten controleren?", a: "Twee keer per jaar zelf een visuele check (voorjaar + najaar), en elke 3 tot 5 jaar een grondige vakinspectie — vaker bij een dak ouder dan 15 jaar." },
       { v: "Wat is het beste moment voor onderhoud?", a: "Najaar is het belangrijkst: goten leeg en pannen/lood nakijken vóór de herfststormen. Het voorjaar gebruik je om winterschade te herstellen." },
+      { v: "Wat kost een dakinspectie?", a: `Bij mij heet dat de Dak-APK: ${apkPrijs} voor een keuring van je hele dak met een fotorapport. Daarna weet je wat nu nodig is en wat nog kan wachten.` },
+      { v: "Hoe onderhoud je een plat dak?", a: "Kijk minstens één keer per jaar, het liefst in het najaar. Haal blad en mos weg bij de afvoer en in de hoeken, kijk of er na een bui water blijft staan en let op naden en randen die loslaten. Ga alleen het dak op als dat veilig kan." },
+      { v: "Wat moet ik in het najaar aan mijn dak doen?", a: "De goten leeg na de bladval, kijken of er pannen of nokvorsten los liggen en het lood bij de schoorsteen en dakramen nakijken. Dan is je dak klaar voor de herfststormen." },
     ],
   },
   {
