@@ -200,6 +200,41 @@ export const ARTIKELEN: Artikel[] = [
     ],
   },
   {
+    slug: "lekkage-bij-zonnepanelen",
+    datum: "2026-10-21",
+    titel: "Lekkage bij zonnepanelen?",
+    h1: "Lekkage sinds er zonnepanelen op je dak liggen: waar het zit en wat je doet",
+    metaTitle: "Lekkage door zonnepanelen op je dak? | Spoed Dak Service",
+    metaDescription:
+      "Lekt je dak sinds er zonnepanelen op liggen? Vaak zit het in een verschoven of gebroken pan bij een dakhaak. Zo herken je het en zo pak ik het aan.",
+    intro:
+      "Een natte plek op zolder sinds de zonnepanelen erop liggen? Dat zie ik vaker. Meestal ligt het niet aan de panelen zelf, maar aan wat er bij het plaatsen met de pannen is gebeurd. Hieronder lees je waar het meestal zit en wat je eraan doet.",
+    secties: [
+      { kop: "Waar het meestal zit", tekst: [
+        "Panelen worden vastgezet met dakhaken die onder de pannen door aan het dak worden geschroefd. Ligt zo'n haak net te hoog, dan ligt de pan erboven niet meer goed in de sluiting. Of de pan is gescheurd toen er ruimte voor de haak werd gemaakt. Daar loopt bij een flinke bui water onderdoor.",
+        "Andere bekende plekken: pannen die gebroken zijn doordat er op gelopen is, een kabeldoorvoer door het dak die niet goed is afgewerkt, en blad en vuil dat onder de panelen blijft liggen en het water de verkeerde kant op stuurt.",
+      ] },
+      { kop: "Zo herken je het", tekst: [
+        "De natte plek zit vaak op zolder onder het deel van het dak waar de panelen liggen, of een stukje lager, want water loopt eerst een eind naar beneden voordat het binnenkomt. Lekt het pas sinds de panelen erop liggen, en vooral bij harde regen of regen met wind, dan is dat een sterke aanwijzing.",
+      ] },
+      { kop: "Wat je nu doet", tekst: [
+        'Vang het water op, maak een foto van de natte plek en ga niet zelf het dak op. Tussen de panelen is het glad en je stapt zo een pan kapot. Kijk op de <a href="/spoed/">spoedpagina</a> wat je verder meteen kunt doen.',
+      ] },
+      { kop: "Wie lost het op?", tekst: [
+        "Zijn de panelen pas gelegd, neem dan eerst contact op met je installateur. Lekkage die door het plaatsen komt, hoort de installateur in de regel zelf op te lossen. Komt de installateur niet, of liggen de panelen er al jaren, dan kijk ik waar het lek zit. Moet er voor de reparatie een paneel even los, dan bespreken we eerst samen hoe dat het beste kan.",
+      ] },
+      { kop: "Lekt het niet, maar wil je het voorkomen?", tekst: [
+        'Bij het <a href="/diensten/zonnepanelen-reinigen/">reinigen van zonnepanelen</a> kijk ik ook naar de bevestiging en de pannen eronder. Zo zie je een verschoven pan vaak al voordat het binnen nat wordt.',
+      ] },
+    ],
+    dienst: { label: "Bekijk: daklekkage & spoed", href: "/diensten/daklekkage/" },
+    faq: [
+      { v: "Kan een dak gaan lekken door zonnepanelen?", a: "Ja, maar meestal niet door de panelen zelf. Het zit vaak in een pan die bij een dakhaak niet meer goed ligt of gebroken is, of in een kabeldoorvoer die niet goed is afgewerkt." },
+      { v: "Moeten alle panelen eraf om het lek te vinden?", a: "Meestal niet. Vaak is van buiten en op zolder al te zien waar het zit. Zit het lek precies onder een paneel, dan moet dat ene paneel soms even los. Dat bespreken we vooraf." },
+      { v: "Is lekkage bij zonnepanelen spoed?", a: "Loopt er water naar binnen, dan wel: hoe langer het lekt, hoe meer schade aan hout en isolatie. Bel of WhatsApp me met een foto van de natte plek." },
+    ],
+  },
+  {
     slug: "dakpannen-coaten-of-vervangen",
     titel: "Coaten of vervangen?",
     h1: "Dakpannen coaten of vervangen? Zo maak je de juiste keuze",
@@ -646,6 +681,7 @@ export const ARTIKELEN: Artikel[] = [
       ] },
       { kop: "Hoe vaak?", tekst: [
         "Voor de meeste daken is eens per 1 à 2 jaar genoeg. Veel bomen of vogels in de buurt? Dan vaker. Ik kijk meteen of de bevestiging en de pannen eronder nog goed zijn.",
+        'Lekt het op zolder sinds de panelen erop liggen? Lees dan <a href="/kennisbank/lekkage-bij-zonnepanelen/">lekkage bij zonnepanelen</a>.',
       ] },
       { kop: "Wat kost het?", tekst: [
         "Zonnepanelen reinigen begint bij €10 per paneel, veilig vanaf het dak en streepvrij. Omdat ik er toch ben, is het vaak handig te combineren met goten reinigen.",
