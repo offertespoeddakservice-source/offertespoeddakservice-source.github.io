@@ -32,7 +32,7 @@ const faqSchema = d.faq.length
     }
   : null;
 const schema = faqSchema ? [serviceSchema, faqSchema] : serviceSchema;
-const andere = DIENSTEN.filter((x) => x.slug !== d.slug);
+const andere = DIENSTEN.filter((x) => x.slug !== d.slug && !x.verborgen);
 const matrixVoorDienst = MATRIX.filter((c) => c.dienst === d.slug)
   .map((c) => getPlaats(c.plaats))
   .filter((p) => p);
@@ -51,7 +51,7 @@ const relArtikel = ({
 } as Record<string, { label: string; href: string }>)[d.slug];
 ---
 
-<Base title={d.metaTitle} description={d.metaDescription} path={path} schema={schema}>
+<Base title={d.metaTitle} description={d.metaDescription} path={path} schema={schema} noindex={d.verborgen === true}>
   <section class="hero">
     <div class="wrap">
       <div class="topline">

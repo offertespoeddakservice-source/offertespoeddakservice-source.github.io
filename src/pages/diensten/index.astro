@@ -21,7 +21,7 @@ import DienstIcon from "../../components/DienstIcon.astro";
     <div class="wrap">
       <h2 class="sr-only">Alle dakdiensten</h2>
       <div class="grid grid-3">
-        {DIENSTEN.map((d) => (
+        {DIENSTEN.filter((d) => !d.verborgen).map((d) => (
           <a class="card" href={`/diensten/${d.slug}/`}>
             <DienstIcon slug={d.slug} />
             <h3>{d.titel}</h3>

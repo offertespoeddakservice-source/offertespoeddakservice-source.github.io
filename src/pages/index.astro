@@ -80,7 +80,7 @@ const faqSchema = {
       <h2>Voor je hele dak één aanspreekpunt</h2>
       <p class="lead">Van een verstopte goot tot een lekkend dak, snel, netjes, en met een eerlijke prijs vooraf.</p>
       <div class="grid grid-3" style="margin-top:26px;">
-        {DIENSTEN.map((d, i) => (
+        {DIENSTEN.filter((d) => !d.verborgen).map((d, i) => (
           <a class="card" href={`/diensten/${d.slug}/`}>
             <DienstIcon slug={d.slug} />
             <h3 style="margin-top:6px;">{d.titel}</h3>

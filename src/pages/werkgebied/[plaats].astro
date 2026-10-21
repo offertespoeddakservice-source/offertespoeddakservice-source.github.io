@@ -107,7 +107,7 @@ const schema = [
     <div class="wrap">
       <h2>Wat ik in {p.naam} doe</h2>
       <div class="grid grid-3" style="margin-top:18px;">
-        {DIENSTEN.map((d) => (
+        {DIENSTEN.filter((d) => !d.verborgen).map((d) => (
           <a class="card" href={`/diensten/${d.slug}/`}>
             <DienstIcon slug={d.slug} />
             <h3>{d.titel}</h3>

@@ -19,6 +19,7 @@ export interface Dienst {
   icoon: string;          // emoji als simpel icoon (later vervangbaar door SVG)
   vanafPrijs?: string;    // optionele prijsindicatie
   afbeelding?: string;    // optioneel: pad naar foto in /public/img (bv. "/img/dak-coaten.jpg")
+  verborgen?: boolean;    // true = dienst die ik niet doe: geen kaart, geen links, niet in Google
   intro: string;          // openingsalinea op de dienstpagina
   punten: string[];       // bullets: wat je doet / waarom jij
   faq: { v: string; a: string }[];
@@ -238,6 +239,7 @@ export const DIENSTEN: Dienst[] = [
   },
   {
     slug: "dakcoating",
+    verborgen: true,
     titel: "Dak coaten",
     vanafPrijs: "prijs na inspectie",
     h1: "Dak coaten — bescherm je pannen en goten, veel goedkoper dan vervangen",
