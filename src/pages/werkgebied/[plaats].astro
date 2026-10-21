@@ -4,6 +4,7 @@ import { SITE, telHref, waHref } from "../../site.config.ts";
 import { PLAATSEN } from "../../data/plaatsen.ts";
 import { DIENSTEN, getDienst } from "../../data/diensten.ts";
 import { MATRIX } from "../../data/matrix.ts";
+import { PRIJZEN } from "../../data/prijzen.ts";
 import DienstIcon from "../../components/DienstIcon.astro";
 
 export function getStaticPaths() {
@@ -14,6 +15,11 @@ const { p } = Astro.props;
 const path = `/werkgebied/${p.slug}`;
 const titel = `Dakdekker in ${p.naam}`;
 const metaTitel = `Dakdekker ${p.naam}: lekkage en dakwerk | ${SITE.bedrijfsnaam}`;
+const apkPrijs = PRIJZEN.find((r) => r.dienst.startsWith("Dak-APK"))?.prijs ?? "";
+// Plaatsen aan de rand van het werkgebied (verweg) krijgen geen spoedbelofte in de omschrijving.
+const omschrijving = p.verweg
+  ? `Dakdekker in ${p.naam} nodig? Dak-APK voor ${apkPrijs}, geplande klussen aan goten, pannen en lood, eerlijke prijs vooraf. Bel of WhatsApp Rens.`
+  : `Dakdekker in ${p.naam} nodig? Dak-APK voor ${apkPrijs}, daklekkage vaak dezelfde dag verholpen, eerlijke prijs vooraf. Bel of WhatsApp Rens.`;
 const matrixVoorPlaats = MATRIX.filter((c) => c.plaats === p.slug)
   .map((c) => getDienst(c.dienst))
   .filter((d) => d);
@@ -44,7 +50,7 @@ const schema = [
 
 <Base
   title={metaTitel.length <= 60 ? metaTitel : `Dakdekker ${p.naam} | ${SITE.bedrijfsnaam}`}
-  description={`Dakdekker in ${p.naam} nodig? Dak-APK voor €49, daklekkage vaak dezelfde dag verholpen, eerlijke prijs vooraf. Bel of WhatsApp Rens.`}
+  description={omschrijving}
   path={path}
   schema={schema}
 >
