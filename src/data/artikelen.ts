@@ -129,6 +129,45 @@ export const ARTIKELEN: Artikel[] = [
     ],
   },
   {
+    slug: "vochtplek-plafond",
+    datum: "2026-10-22",
+    titel: "Vochtplek in het plafond?",
+    h1: "Vochtplek of lekkage in je plafond: komt het van het dak?",
+    metaTitle: "Vochtplek in plafond: dak of leiding? | Spoed Dak Service",
+    metaDescription:
+      "Een natte plek of bruine kring in je plafond? Zo zie je of het van het dak komt, van een leiding of van condens, en wat je meteen doet als het druppelt.",
+    intro:
+      "Een bruine kring of een natte plek in je plafond: dan denk je al snel aan het dak. Soms klopt dat. Maar het kan ook een leiding zijn, de badkamer erboven of condens. Hieronder lees je hoe je het verschil ziet, zodat je meteen de goede vakman belt.",
+    secties: [
+      { kop: "Druppelt het nu? Eerst dit", tekst: [
+        'Zet een emmer onder de druppel en leg er een doek in, dan hoor je het getik niet de hele nacht. Haal spullen weg die nat kunnen worden. Bolt het plafond op en zit er duidelijk water achter, blijf er dan niet onder staan. Maak een foto van de plek. Denk je dat het van het dak komt, kijk dan op de <a href="/spoed/">spoedpagina</a> wat je verder meteen doet.',
+      ] },
+      { kop: "Zo zie je dat het van het dak komt", tekst: [
+        'De plek zit op de bovenste verdieping of op zolder. Hij wordt groter of natter na regen en droogt op als het een paar dagen droog is. Vaak zit hij bij een buitenmuur, onder de schoorsteen, bij een dakraam of onder de nok. Lekt het vooral bij regen met harde wind, lees dan <a href="/kennisbank/dak-lekt-bij-harde-wind/">dak lekt bij harde wind</a>.',
+        'De natte plek zit zelden precies onder het echte lek. Het water loopt eerst over de folie, de panlatten of een balk voordat het naar binnen komt. Hoe ik het lek vind zonder onnodig sloopwerk, lees je in <a href="/kennisbank/daklekkage-opsporen/">daklekkage opsporen</a>.',
+      ] },
+      { kop: "Zo zie je dat het een leiding is", tekst: [
+        "De plek wordt ook groter als het al dagen droog is. Hij zit onder een badkamer, toilet of keuken, of op een verdieping met nog een verdieping erboven. Draait je watermeter terwijl alle kranen dicht zijn, dan lekt er waarschijnlijk een leiding. Dan heb je een loodgieter nodig en geen dakdekker. Lekt het flink, draai dan de hoofdkraan dicht.",
+      ] },
+      { kop: "Of is het condens?", tekst: [
+        'Een vochtige waas of zwarte puntjes in de hoeken van het badkamerplafond zijn meestal condens van het douchen. Op zolder zie je condens als druppels verspreid over het hele dakbeschot, vaak na een koude nacht. Het verschil met een lek lees je in <a href="/kennisbank/condens-of-lekkage-op-zolder/">condens of lekkage op zolder</a>.',
+      ] },
+      { kop: "Woon je in een rijtjeshuis?", tekst: [
+        "Dan kan het water ook via de buren komen: een goot, schoorsteen of plat dak dat over meerdere huizen doorloopt. Vraag de buren of zij ook iets zien. Zit het lek aan hun kant van het dak, dan moet het daar gemaakt worden, en dat is goed om vooraf te weten. Huur je je huis, meld het lek dan eerst bij je verhuurder.",
+      ] },
+      { kop: "Wat kost het?", tekst: [
+        'Dat hangt af van waar het lek zit en hoeveel werk het is. Je hoort de vaste prijs vooraf, voordat ik begin. Wat een reparatie meestal kost, lees je in <a href="/kennisbank/wat-kost-daklekkage-repareren/">wat kost daklekkage repareren</a>. Of je verzekering meebetaalt, staat in <a href="/kennisbank/daklekkage-verzekering/">daklekkage en je verzekering</a>.',
+      ] },
+    ],
+    dienst: { label: "Bekijk: daklekkage & spoed", href: "/diensten/daklekkage/" },
+    faq: [
+      { v: "Hoe weet ik of een vochtplek in het plafond van het dak komt?", a: "Kijk wanneer de plek groter wordt. Alleen na regen, en op de bovenste verdieping of bij de schoorsteen of een dakraam: dan wijst het op het dak. Groeit hij ook bij droog weer, dan is het eerder een leiding." },
+      { v: "Moet het plafond open om het lek te vinden?", a: "Meestal niet. Bij een daklek kijk ik eerst van buiten en op zolder. Vaak vind ik het zo, zonder iets open te breken." },
+      { v: "Is een natte plek in het plafond spoed?", a: "Druppelt het of wordt de plek snel groter, dan wel. Hoe langer het lekt, hoe meer schade aan het plafond, de isolatie en het hout. Bel of WhatsApp me met een foto. Is het een oude, droge kring, dan kan het meestal even wachten, maar laat het wel nakijken." },
+      { v: "Kun je ook helpen als het een leiding is?", a: "Nee, daarvoor heb je een loodgieter nodig. Twijfel je, stuur dan een foto via WhatsApp. Dan zeg ik eerlijk of het van het dak komt of niet." },
+    ],
+  },
+  {
     slug: "dakraam-lekt",
     datum: "2026-10-20",
     titel: "Dakraam lekt?",
