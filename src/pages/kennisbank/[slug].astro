@@ -9,7 +9,22 @@ export function getStaticPaths() {
 const { a } = Astro.props;
 const path = `/kennisbank/${a.slug}`;
 const idx = ARTIKELEN.findIndex((x) => x.slug === a.slug);
-const gerelateerd = [1, 2, 3].map((n) => ARTIKELEN[(idx + n) % ARTIKELEN.length]).filter((x) => x.slug !== a.slug);
+// Lees ook: eerst artikelen over hetzelfde onderwerp, daarna aanvullen met de volgende uit de lijst.
+const ONDERWERPEN: string[][] = [
+  ["daklekkage-opsporen", "vochtplek-plafond", "lekkage-bij-schoorsteen", "condens-of-lekkage-op-zolder", "dakraam-lekt", "dak-lekt-bij-harde-wind", "lekkage-bij-zonnepanelen", "wat-kost-daklekkage-repareren", "daklekkage-verzekering"],
+  ["hoe-vaak-dakgoot-reinigen", "wat-kost-dakgoot-schoonmaken", "verstopte-regenpijp-lekkende-dakgoot", "dakgoot-lekt"],
+  ["stormschade-eerste-hulp", "nokvorsten-los", "dak-lekt-bij-harde-wind", "daklekkage-verzekering"],
+  ["plat-dak-vervangen-of-repareren", "water-blijft-staan-op-plat-dak", "dakonderhoud-per-seizoen", "mos-op-dak-verwijderen"],
+];
+const groep = ONDERWERPEN.find((g) => g.includes(a.slug)) ?? [];
+const plek = groep.indexOf(a.slug);
+const uitGroep = [...groep.slice(plek + 1), ...groep.slice(0, Math.max(plek, 0))]
+  .map((s) => ARTIKELEN.find((x) => x.slug === s))
+  .filter(Boolean) as typeof ARTIKELEN;
+const volgende = [1, 2, 3, 4].map((n) => ARTIKELEN[(idx + n) % ARTIKELEN.length]);
+const gerelateerd = [...uitGroep, ...volgende]
+  .filter((x, i, lijst) => x.slug !== a.slug && lijst.findIndex((y) => y.slug === x.slug) === i)
+  .slice(0, 3);
 
 const articleSchema = {
   "@context": "https://schema.org",
