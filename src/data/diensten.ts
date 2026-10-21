@@ -154,7 +154,7 @@ export const DIENSTEN: Dienst[] = [
     vanafPrijs: "lek vanaf €200",
     h1: "Plat dak repareren of vervangen — EPDM en bitumen",
     kort: "Lekkage in plat dak opsporen en herstellen, of de hele bedekking vernieuwen.",
-    metaTitle: "Plat dak repareren Den Bosch — EPDM & bitumen | Spoed Dak Service",
+    metaTitle: "Lekkend plat dak repareren Den Bosch | Spoed Dak Service",
     metaDescription:
       "Lekkage in een plat dak? EPDM- en bitumendaken repareren of vervangen in de regio Den Bosch. Eerlijke prijs, 1 jaar garantie op reparatie en 2 jaar op vervangen.",
     icoon: "🏠",
@@ -172,6 +172,9 @@ export const DIENSTEN: Dienst[] = [
         a: "Bij een enkel lek op een verder gezond dak is repareren prima. Is de bedekking op meerdere plekken versleten, dan is vervangen op termijn goedkoper. Ik vertel je eerlijk wat in jouw geval slim is.",
       },
       { v: "EPDM of bitumen — wat is beter?", a: "Beide zijn prima. EPDM is één flexibel, naadloos vel; bitumen is vertrouwd en sterk. Ik adviseer wat bij jouw dak en budget past." },
+      { v: "Mijn platte dak lekt, hoe snel kun je komen?", a: "Druppelt het binnen, dan is het spoed. Bel of WhatsApp me met een foto van de natte plek. In de regio Den Bosch lukt het vaak nog dezelfde dag." },
+      { v: "Het lekt bij mijn uitbouw of garage, doe je dat ook?", a: "Ja. De meeste uitbouwen, garages en bergingen hebben een plat dak, en daar zie ik veel lekkage. Vaak zit het bij de aansluiting met de gevel, bij de daktrim aan de rand of bij de afvoer. Die plekken kijk ik als eerste na." },
+      { v: "Wat kost het om een lek in een plat dak te repareren?", a: "Dat hangt af van waar het lek zit en hoeveel er beschadigd is. Een gerichte reparatie is meestal het goedkoopst. Je hoort de vaste prijs vooraf, voordat ik begin. Richtprijzen staan op de prijzenpagina." },
     ],
   },
   {
