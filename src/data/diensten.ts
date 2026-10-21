@@ -359,7 +359,7 @@ export const DIENSTEN: Dienst[] = [
     slug: "zonnepanelen-reinigen",
     titel: "Zonnepanelen reinigen",
     vanafPrijs: "vanaf €10 p/paneel",
-    h1: "Zonnepanelen reinigen — meer opbrengst uit je panelen",
+    h1: "Zonnepanelen reinigen: meer opbrengst uit je panelen",
     kort: "Vuile panelen leveren minder op. Ik maak ze veilig en streepvrij schoon.",
     metaTitle: "Zonnepanelen reinigen Den Bosch | Spoed Dak Service",
     metaDescription:
@@ -375,6 +375,9 @@ export const DIENSTEN: Dienst[] = [
     ],
     faq: [
       { v: "Hoe vaak is reinigen nodig?", a: "Eens per 1–2 jaar is meestal genoeg, vaker als er veel bomen of vogels in de buurt zijn. Dan haal je het meeste uit je panelen." },
+      { v: "Kijk je bij het reinigen ook naar lekkage onder de panelen?", a: "Ja. Omdat ik toch op het dak sta, kijk ik naar de bevestiging en de pannen eronder. Een pan die bij een dakhaak niet meer goed ligt, zie je zo vaak al voordat het binnen nat wordt." },
+      { v: "Kan ik het combineren met goten reinigen?", a: "Ja, dat kan prima in één keer. Dan sta ik maar één keer op je dak en zijn de panelen en de goten allebei weer schoon." },
+      { v: "Wat kost zonnepanelen reinigen?", a: "Dat hangt af van het aantal panelen en hoe goed ze bereikbaar zijn. Bovenaan deze pagina staat de prijsindicatie, en je hoort de vaste prijs vooraf." },
     ],
   },
   {
