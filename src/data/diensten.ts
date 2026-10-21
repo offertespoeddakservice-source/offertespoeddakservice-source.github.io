@@ -384,7 +384,7 @@ export const DIENSTEN: Dienst[] = [
     slug: "vogelwering",
     titel: "Vogelwering",
     vanafPrijs: "vaste prijs vooraf",
-    h1: "Vogelwering — geen vogels meer onder je pannen of zonnepanelen",
+    h1: "Vogelwering onder je pannen en zonnepanelen",
     kort: "Nette vogelwering tegen schade aan panlatten, isolatie en kabels.",
     metaTitle: "Vogelwering dak & zonnepanelen Den Bosch | Spoed Dak Service",
     metaDescription:
@@ -428,9 +428,9 @@ export const DIENSTEN: Dienst[] = [
     slug: "dakisolatie",
     titel: "Dakisolatie",
     vanafPrijs: "vaste prijs na bezoek",
-    h1: "Dakisolatie — minder stoken, meer comfort",
+    h1: "Dakisolatie: minder stoken, meer comfort",
     kort: "Zolder of schuin dak isoleren: direct minder stookkosten, vaak met subsidie.",
-    metaTitle: "Dakisolatie Den Bosch — incl. subsidie-advies | Spoed Dak Service",
+    metaTitle: "Dakisolatie Den Bosch en subsidie-advies | Spoed Dak Service",
     metaDescription:
       "Dak of zolder laten isoleren in de regio Den Bosch? Direct minder stookkosten en meer comfort, vaak met ISDE-subsidie. Vaste prijs vooraf. Bel of WhatsApp Rens.",
     icoon: "🧊",
