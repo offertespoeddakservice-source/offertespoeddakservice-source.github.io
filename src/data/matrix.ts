@@ -205,4 +205,11 @@ export const MATRIX: MatrixCombo[] = [
     dienst: "stormschade",
     hook: "In bosrijk Oisterwijk komen bij storm takken én pannen naar beneden. Ik dek de schade snel af en herstel netjes, met foto's voor je verzekeraar.",
   },
+
+  // Dakgoot repareren of vervangen: eerst Den Bosch (Search Console: plek 26 tot 45 zonder eigen pagina)
+  {
+    plaats: "den-bosch",
+    dienst: "dakgoot-vervangen",
+    hook: "In de Muntel en de Vliert hebben de huizen uit de jaren '20 en '30 vaak nog zinken goten, soms als bakgoot achter een houten lijst. Na veel jaren gaan die lekken bij de naden, de hoeken en de uitloop naar de regenpijp. In nieuwere wijken als Maaspoort en Empel hangen vaker kunststof goten, en daar zit het meestal in een verbinding of een losse beugel. Ik kijk eerst of repareren kan, en vervang alleen wat echt op is.",
+  },
 ];
