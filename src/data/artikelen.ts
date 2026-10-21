@@ -815,6 +815,46 @@ export const ARTIKELEN: Artikel[] = [
       { v: "Hoe vaak moet een plat dak nagekeken worden?", a: "Minstens één keer per jaar, het liefst in het najaar: afvoer vrij, geen blad of mos in de hoeken en geen plekken waar water blijft staan. Een korte controle voorkomt de meeste lekkages." },
     ],
   },
+  {
+    slug: "water-blijft-staan-op-plat-dak",
+    datum: "2026-10-22",
+    titel: "Water op je platte dak?",
+    h1: "Water blijft staan op je platte dak: erg of niet?",
+    metaTitle: "Water blijft staan op plat dak: erg? | Spoed Dak Service",
+    metaDescription:
+      "Blijft er na een bui een plas staan op je platte dak? Een paar ondiepe plasjes zijn normaal. Wanneer het wel een probleem is en wat je eraan doet.",
+    intro:
+      "Na een flinke bui zie je een plas op het platte dak van je uitbouw, garage of berging. Moet je je zorgen maken? Meestal niet meteen. Maar water dat dagen blijft staan, zoekt vroeg of laat een zwakke plek. Hieronder lees je wanneer het kan en wanneer je beter even laat kijken.",
+    secties: [
+      { kop: "Een beetje water is normaal", tekst: [
+        "Een plat dak is nooit helemaal vlak. Na een bui blijven er vaak een paar ondiepe plasjes liggen die binnen een dag of twee opdrogen. Dat is geen probleem.",
+      ] },
+      { kop: "Wanneer het wel een probleem is", tekst: [
+        "Staat er na een paar droge dagen nog steeds water? Is de plas groot, of wordt hij elk jaar groter? Dan loopt het water niet goed weg. Staand water zoekt elke kleine scheur en naad op. Er groeien mos en vuil in, en in de winter kan het bevriezen. Dat is extra belasting voor de dakbedekking.",
+      ] },
+      { kop: "Waar het meestal door komt", tekst: [
+        "Een afvoer die vol blad, mos of zand zit. Dat zie ik het vaakst, en het is meestal het makkelijkst op te lossen.",
+        "Een dak dat in de loop der jaren is gaan doorhangen, bijvoorbeeld doordat het dakbeschot vocht heeft opgenomen. Dan ontstaat er een kuil waar het water niet uit kan.",
+        "Te weinig afschot: het dak loopt niet genoeg af naar de afvoer. Dat zit er soms al in vanaf de bouw.",
+      ] },
+      { kop: "Wat je zelf kunt doen", tekst: [
+        "Kun je er veilig bij, haal dan blad en vuil weg rond de afvoer. Ga niet op een nat of glad dak staan en gebruik geen wankele ladder. Lukt het niet veilig, maak dan een foto van de plas en de afvoer en stuur die via WhatsApp. Dan zeg ik wat ik zie.",
+      ] },
+      { kop: "Lekt het al binnen?", tekst: [
+        'Zie je een natte plek in het plafond van de uitbouw of garage? Bij een plat dak komt het water vaak een eind verderop binnen dan waar het lek zit. Kijk op de <a href="/spoed/">spoedpagina</a> wat je meteen doet. Of repareren genoeg is of dat de bedekking aan vervanging toe is, lees je in <a href="/kennisbank/plat-dak-vervangen-of-repareren/">plat dak: repareren of vervangen</a>.',
+      ] },
+      { kop: "Hoe ik het aanpak", tekst: [
+        'Ik kijk eerst waarom het water blijft staan: een dichte afvoer, een kuil in het dak of te weinig afschot. Een dichte afvoer maak ik weer vrij. Ligt het aan een kuil of het afschot, dan zeg ik eerlijk wat er nodig is en of een gerichte reparatie genoeg is. Je hoort de vaste prijs vooraf. Zie <a href="/diensten/platte-daken/">platte daken</a>.',
+      ] },
+    ],
+    dienst: { label: "Bekijk: platte daken (EPDM)", href: "/diensten/platte-daken/" },
+    faq: [
+      { v: "Hoe lang mag water op een plat dak blijven staan?", a: "Een paar ondiepe plasjes die binnen een dag of twee opdrogen zijn normaal. Staat er na een paar droge dagen nog steeds een plas, dan loopt het water niet goed weg en is het slim om te laten kijken." },
+      { v: "Kan een plas op het dak lekkage geven?", a: "Niet meteen, maar staand water zoekt elke kleine scheur en naad op. Hoe langer het blijft staan, hoe groter de kans dat het ergens doorheen komt." },
+      { v: "Wat is een noodoverloop?", a: "Een extra opening in de dakrand, iets hoger dan de afvoer. Raakt de afvoer verstopt, dan kan het water daar weg in plaats van op het dak te blijven staan. Niet elk plat dak heeft er een." },
+      { v: "Moet het hele dak opnieuw als er water blijft staan?", a: "Meestal niet. Vaak is het een dichte afvoer. Ligt het aan een kuil of te weinig afschot, dan kijk ik eerst of een gerichte reparatie genoeg is. Je hoort eerlijk wat nodig is." },
+    ],
+  },
 ];
 
 export const getArtikel = (slug: string) => ARTIKELEN.find((a) => a.slug === slug);
