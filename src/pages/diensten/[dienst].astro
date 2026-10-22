@@ -4,6 +4,7 @@ import { SITE, telHref, waHref } from "../../site.config.ts";
 import { DIENSTEN } from "../../data/diensten.ts";
 import { PLAATSEN, getPlaats } from "../../data/plaatsen.ts";
 import { MATRIX } from "../../data/matrix.ts";
+import { ARTIKELEN } from "../../data/artikelen.ts";
 import DienstIcon from "../../components/DienstIcon.astro";
 
 export function getStaticPaths() {
@@ -49,6 +50,24 @@ const relArtikel = ({
   "schoorsteen-vegen": { label: "Hoe vaak schoorsteen vegen?", href: "/kennisbank/schoorsteen-vegen-hoe-vaak/" },
   "zonnepanelen-reinigen": { label: "Zonnepanelen reinigen: is het nodig?", href: "/kennisbank/zonnepanelen-reinigen-nodig/" },
 } as Record<string, { label: string; href: string }>)[d.slug];
+// Meer weten: twee of drie kennisartikelen per dienst. Bestaat een artikel niet, dan valt het weg.
+const leesVerder: Record<string, string[]> = {
+  "goten-reinigen": ["wat-kost-dakgoot-schoonmaken", "hoe-vaak-dakgoot-reinigen", "verstopte-regenpijp-lekkende-dakgoot"],
+  daklekkage: ["daklekkage-opsporen", "vochtplek-plafond", "lekkage-bij-schoorsteen"],
+  dakreparatie: ["wat-kost-daklekkage-repareren", "nokvorsten-los", "dakraam-lekt"],
+  "platte-daken": ["plat-dak-vervangen-of-repareren", "water-blijft-staan-op-plat-dak"],
+  stormschade: ["stormschade-eerste-hulp", "dak-lekt-bij-harde-wind", "daklekkage-verzekering"],
+  "dakgoot-vervangen": ["dakgoot-lekt", "bakgoot-lekt", "verstopte-regenpijp-lekkende-dakgoot"],
+  "dakpannen-vervangen": ["stormschade-eerste-hulp", "nokvorsten-los"],
+  "schoorsteen-vegen": ["schoorsteen-vegen-hoe-vaak", "lekkage-bij-schoorsteen"],
+  "zonnepanelen-reinigen": ["zonnepanelen-reinigen-nodig", "lekkage-bij-zonnepanelen"],
+  "dak-reinigen": ["mos-op-dak-verwijderen", "dakonderhoud-per-seizoen"],
+  dakrenovatie: ["dakinspectie", "plat-dak-vervangen-of-repareren"],
+  dakisolatie: ["condens-of-lekkage-op-zolder"],
+};
+const leesArtikelen = (leesVerder[d.slug] ?? [])
+  .map((s) => ARTIKELEN.find((x) => x.slug === s))
+  .filter((x) => x) as typeof ARTIKELEN;
 ---
 
 <Base title={d.metaTitle} description={d.metaDescription} path={path} schema={schema} noindex={d.verborgen === true}>
@@ -86,7 +105,14 @@ const relArtikel = ({
           ik kom langs, leg uit wat ik zie, en je krijgt een vaste prijs vooraf. Geen callcenter,
           geen verrassingen.
         </p>
-        {relArtikel && (
+        {leesArtikelen.length > 0 ? (
+          <>
+            <p style="margin-top:18px;"><strong>Meer weten?</strong> Lees ook:</p>
+            <ul>
+              {leesArtikelen.map((x) => <li><a href={`/kennisbank/${x.slug}/`}>{x.titel}</a></li>)}
+            </ul>
+          </>
+        ) : relArtikel && (
           <p style="margin-top:18px;"><strong>Meer weten?</strong> Lees: <a href={relArtikel.href.endsWith("/") ? relArtikel.href : relArtikel.href + "/"}>{relArtikel.label}</a></p>
         )}
       </div>
