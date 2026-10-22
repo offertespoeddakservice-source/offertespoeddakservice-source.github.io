@@ -644,6 +644,43 @@ export const ARTIKELEN: Artikel[] = [
     ],
   },
   {
+    slug: "dakinspectie",
+    datum: "2026-10-23",
+    titel: "Dakinspectie: wat kijk ik na?",
+    h1: "Dakinspectie: wat een dakdekker nakijkt en wanneer het zinvol is",
+    metaTitle: "Dakinspectie: kosten en wat ik nakijk | Spoed Dak Service",
+    metaDescription:
+      `Wat kijkt een dakdekker na bij een dakinspectie, wanneer is het zinvol en wat kost het? Bij mij heet het de Dak-APK: ${apkPrijs} voor je hele dak met fotorapport.`,
+    intro:
+      "Een dakinspectie is gewoon een vakman die rustig je hele dak nakijkt, voordat er iets misgaat. Hieronder lees je wat ik dan bekijk, wanneer het zinvol is en wat het kost. Zo weet je wat je kunt verwachten voordat je iemand belt.",
+    secties: [
+      { kop: "Wanneer is een dakinspectie zinvol?", tekst: [
+        "Als je een huis gaat kopen of net gekocht hebt. Als je dak wat ouder is en er al een tijd niemand naar heeft gekeken. Na een flinke storm, ook als je binnen nog niets merkt. En als je een offerte van een ander hebt gekregen en eerst zelf wilt weten hoe je dak ervoor staat.",
+        'Hoe vaak je zelf even kunt kijken en wanneer je een vakman nodig hebt, lees je in <a href="/kennisbank/dakonderhoud-per-seizoen/">dakonderhoud per seizoen</a>.',
+      ] },
+      { kop: "Wat ik nakijk", tekst: [
+        "De pannen of de dakbedekking: liggen ze goed, en zijn er gebroken, verschoven of poreuze bij. De nokvorsten, want die laten vaak als eerste los. De goten en de afvoer naar de regenpijp. Het lood en de aansluitingen bij de schoorsteen en de dakramen, want daar gaat het vaak als eerste mis.",
+        "Verder mos en aanslag, en of dat vocht vasthoudt. Vochtplekken en andere sporen van lekkage, ook als er nog geen lek is. En liggen er zonnepanelen, dan kijk ik ook hoe die vastzitten.",
+      ] },
+      { kop: "Wat je daarna krijgt", tekst: [
+        `Bij mij heet een dakinspectie de <a href="/dak-apk/">Dak-APK</a>. Je krijgt een rapport met foto's van de plekken die aandacht vragen, met uitleg in gewone taal. Ik zeg erbij wat nu nodig is en wat best nog even kan wachten. Niks aan de hand? Dan hoor je dat ook gewoon.`,
+      ] },
+      { kop: "Wat kost een dakinspectie?", tekst: [
+        `De Dak-APK kost ${apkPrijs} voor een keuring van je hele dak met een fotorapport. Moet er daarna iets gebeuren, dan hoor je vooraf de vaste prijs, en jij beslist of je dat door mij laat doen. Richtprijzen voor de meeste klussen staan op de <a href="/prijzen/">prijzenpagina</a>.`,
+      ] },
+      { kop: "Zelf eerst kijken?", tekst: [
+        'Vanaf de straat zie je met een verrekijker al veel: een pan die anders ligt dan de rest, een scheve nokvorst of stukjes specie in de goot. Ga niet zelf het dak op. Zie je iets, stuur me dan een foto via WhatsApp. Lekt het al, dan is het geen inspectie meer maar spoed. Kijk dan op de <a href="/spoed/">spoedpagina</a>.',
+      ] },
+    ],
+    dienst: { label: "Bekijk: de Dak-APK", href: "/dak-apk/" },
+    faq: [
+      { v: "Wat kost een dakinspectie?", a: `De Dak-APK kost ${apkPrijs}. Daarvoor kijk ik je hele dak na en krijg je een rapport met foto's van de plekken die aandacht vragen.` },
+      { v: "Is een dakinspectie nodig als ik een huis koop?", a: "Verplicht is het niet, maar het is wel slim, zeker bij een ouder huis. Dan weet je vooraf of er binnenkort iets aan het dak moet, en kun je daar rekening mee houden." },
+      { v: "Hoe vaak moet je je dak laten inspecteren?", a: "Zelf kun je in het voorjaar en in het najaar even kijken. Een vakman laten kijken is verstandig als er al een tijd niemand naar je dak heeft gekeken, en eerder bij een ouder dak of na een zware storm." },
+      { v: "Kom je ook voor een dakinspectie in mijn plaats?", a: "Ik werk in de regio Den Bosch, onder andere in Vught, Rosmalen, Vlijmen, Oss en Waalwijk. Bel of WhatsApp me, dan hoor je wanneer ik bij je langs kan komen." },
+    ],
+  },
+  {
     slug: "mos-op-dak-verwijderen",
     titel: "Mos op je dak",
     h1: "Mos op je dak verwijderen: schadelijk of niet, en hoe wél?",
