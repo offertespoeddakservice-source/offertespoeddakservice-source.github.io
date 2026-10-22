@@ -228,7 +228,7 @@ a.card:hover { transform: translateY(-3px); box-shadow: 0 16px 34px rgba(11,29,5
 .breadcrumbs a { color: var(--muted); text-decoration: none; }
 .breadcrumbs a:hover { color: var(--orange); }
 .breadcrumbs .sep { color: #c7bfb0; }
-.breadcrumbs [aria-current="page"] { color: var(--navy); font-weight: 700; text-transform: capitalize; }
+.breadcrumbs [aria-current="page"] { color: var(--navy); font-weight: 700; }
 
 /* Actief menu-item */
 .nav a[aria-current="page"] { color: var(--orange); }
@@ -253,8 +253,6 @@ a:focus-visible, button:focus-visible, summary:focus-visible, input:focus-visibl
 .m-menu-panel .btn { margin-top: 10px; justify-content: center; }
 @media (max-width: 860px) { .m-menu { display: block; } }
 
-/* Breadcrumb: nette hoofdletters op alle items */
-.breadcrumbs a, .breadcrumbs > .wrap > span:not(.sep) { text-transform: capitalize; }
 
 
 /* Toegankelijkheid: respecteer reduced-motion */

@@ -43,7 +43,17 @@ const businessSchema: Record<string, unknown> = {
 if (SITE.reviews.aantal > 0) {
   businessSchema.aggregateRating = { "@type": "AggregateRating", ratingValue: SITE.reviews.score, reviewCount: SITE.reviews.aantal };
 }
-const crumbs = path !== "/" ? path.split("/").filter(Boolean) : [];
+// Nette namen in het kruimelpad: plaatsnamen zoals ze heten, de rest met één hoofdletter vooraan.
+const KRUIMEL_NAMEN: Record<string, string> = { "dak-apk": "Dak-APK", over: "Over Rens" };
+const kruimelNaam = (seg: string) => {
+  const s = decodeURIComponent(seg);
+  if (KRUIMEL_NAMEN[s]) return KRUIMEL_NAMEN[s];
+  const plaats = PLAATSEN.find((p) => p.slug === s);
+  if (plaats) return plaats.naam;
+  const tekst = s.replace(/-/g, " ");
+  return tekst.charAt(0).toUpperCase() + tekst.slice(1);
+};
+const crumbs =path !== "/" ? path.split("/").filter(Boolean) : [];
 const breadcrumbSchema = crumbs.length
   ? {
       "@context": "https://schema.org",
@@ -53,7 +63,7 @@ const breadcrumbSchema = crumbs.length
         ...crumbs.map((seg, i) => ({
           "@type": "ListItem",
           position: i + 2,
-          name: decodeURIComponent(seg).replace(/-/g, " "),
+          name: kruimelNaam(seg),
           item: new URL("/" + crumbs.slice(0, i + 1).join("/") + "/", SITE.url).href,
         })),
       ],
@@ -169,9 +179,9 @@ const schemas = [businessSchema, websiteSchema, ...(breadcrumbSchema ? [breadcru
             <Fragment>
               <span class="sep" aria-hidden="true">›</span>
               {i === crumbs.length - 1 ? (
-                <span aria-current="page">{decodeURIComponent(seg).replace(/-/g, " ")}</span>
+                <span aria-current="page">{kruimelNaam(seg)}</span>
               ) : (
-                <a href={"/" + crumbs.slice(0, i + 1).join("/") + "/"}>{decodeURIComponent(seg).replace(/-/g, " ")}</a>
+                <a href={"/" + crumbs.slice(0, i + 1).join("/") + "/"}>{kruimelNaam(seg)}</a>
               )}
             </Fragment>
           ))}
