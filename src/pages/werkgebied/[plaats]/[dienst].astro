@@ -24,6 +24,13 @@ const verderLezen: Record<string, string> = {
   "dakgoot-vervangen": 'Druppelt je goot op één plek? In <a href="/kennisbank/dakgoot-lekt/">dakgoot lekt</a> lees je hoe je ziet of hij vol zit of echt lek is. Loopt het water over de rand of langs de gevel, kijk dan eerst bij <a href="/kennisbank/verstopte-regenpijp-lekkende-dakgoot/">verstopte regenpijp of lekkende dakgoot</a>. Zit de goot alleen vol, dan is <a href="/diensten/goten-reinigen/">goten reinigen</a> genoeg.',
 };
 const verder = verderLezen[d.slug];
+// Interne links: de andere klussen in deze plaats, en dezelfde klus in de andere plaatsen.
+const zelfdePlaats = MATRIX.filter((c) => c.plaats === p.slug && c.dienst !== d.slug)
+  .map((c) => getDienst(c.dienst))
+  .filter((x) => x);
+const zelfdeDienst = MATRIX.filter((c) => c.dienst === d.slug && c.plaats !== p.slug)
+  .map((c) => getPlaats(c.plaats))
+  .filter((x) => x);
 
 // FAQ: combineer plaats-specifiek + dienst-specifiek → uniek én rijk per pagina.
 const faq = [
@@ -115,6 +122,22 @@ const schema = [
         <a class="chip" href={`/diensten/${d.slug}/`}>Over {d.titel.toLowerCase()} →</a>
         <a class="chip" href="/werkgebied/">Heel mijn werkgebied →</a>
       </div>
+      {zelfdePlaats.length > 0 && (
+        <>
+          <h3 style="margin-top:22px;">Ook in {p.naam}</h3>
+          <div class="chips">
+            {zelfdePlaats.map((x) => <a class="chip" href={`/werkgebied/${p.slug}/${x.slug}/`}>{x.titel}</a>)}
+          </div>
+        </>
+      )}
+      {zelfdeDienst.length > 0 && (
+        <>
+          <h3 style="margin-top:22px;">{d.titel} in de buurt</h3>
+          <div class="chips">
+            {zelfdeDienst.map((x) => <a class="chip" href={`/werkgebied/${x.slug}/${d.slug}/`}>{x.naam}</a>)}
+          </div>
+        </>
+      )}
     </div>
   </section>
 </Base>
