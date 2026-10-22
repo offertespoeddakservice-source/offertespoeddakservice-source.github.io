@@ -21,6 +21,7 @@ const navItems = NAV.map((item) => ({ label: item.label, href: item.href.endsWit
 const businessSchema: Record<string, unknown> = {
   "@context": "https://schema.org",
   "@type": "RoofingContractor",
+  "@id": `${SITE.url}/#bedrijf`,
   name: SITE.bedrijfsnaam,
   description: SITE.slogan,
   url: SITE.url,
