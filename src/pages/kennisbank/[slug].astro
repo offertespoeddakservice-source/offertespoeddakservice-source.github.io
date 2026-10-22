@@ -17,6 +17,9 @@ const ONDERWERPEN: string[][] = [
   ["plat-dak-vervangen-of-repareren", "water-blijft-staan-op-plat-dak", "dakonderhoud-per-seizoen", "mos-op-dak-verwijderen"],
 ];
 const groep = ONDERWERPEN.find((g) => g.includes(a.slug)) ?? [];
+// Spoedregel na het eerste stuk tekst: alleen bij artikelen over lekkage en storm, en alleen als daar nog geen link naar /spoed/ staat.
+const LEK_ARTIKELEN = new Set([...ONDERWERPEN[0], ...ONDERWERPEN[2], "bakgoot-lekt"]);
+const toonSpoedregel = LEK_ARTIKELEN.has(a.slug) && !(a.secties[0]?.tekst ?? []).some((t) => t.includes('href="/spoed/"'));
 const plek = groep.indexOf(a.slug);
 const uitGroep = [...groep.slice(plek + 1), ...groep.slice(0, Math.max(plek, 0))]
   .map((s) => ARTIKELEN.find((x) => x.slug === s))
@@ -58,10 +61,13 @@ const schema = faqSchema ? [articleSchema, faqSchema] : articleSchema;
   <section class="section">
     <div class="wrap split">
       <article class="prose">
-        {a.secties.map((s) => (
+        {a.secties.map((s, i) => (
           <>
             <h2>{s.kop}</h2>
             {s.tekst.map((p) => <p set:html={p} />)}
+            {i === 0 && toonSpoedregel && (
+              <p><strong>Lekt het nu?</strong> Ga niet zelf het dak op. Wat je meteen kunt doen, staat op de <a href="/spoed/">spoedpagina</a>. Of stuur me een foto van de natte plek via <a href={waHref("Hallo, mijn dak lekt. Ik stuur je een foto.")}>WhatsApp</a>, dan kijk ik mee.</p>
+            )}
           </>
         ))}
         <a class="btn btn--primary" href={a.dienst.href.endsWith("/") ? a.dienst.href : a.dienst.href + "/"} style="margin-top:8px;">{a.dienst.label}</a>
