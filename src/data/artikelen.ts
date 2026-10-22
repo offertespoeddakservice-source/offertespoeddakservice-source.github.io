@@ -499,6 +499,49 @@ export const ARTIKELEN: Artikel[] = [
     ],
   },
   {
+    slug: "bakgoot-lekt",
+    datum: "2026-10-23",
+    titel: "Bakgoot lekt?",
+    h1: "Bakgoot lekt: water binnen langs de gevel of het plafond",
+    metaTitle: "Bakgoot lekt: water binnen bij de gevel | Spoed Dak Service",
+    metaDescription:
+      "Een bakgoot ligt in de rand van het dak. Lekt hij, dan komt het water vaak binnen: bovenin de buitenmuur of langs het plafond. Zo herken je het en dit doe je eraan.",
+    intro:
+      "Bij veel oudere huizen hangt de goot niet aan de voorkant van het dak, maar ligt hij als een bak in de dakrand, achter een houten lijst. Dat heet een bakgoot. Lekt een gewone goot, dan druppelt het buiten. Lekt een bakgoot, dan loopt het water vaak naar binnen. Hieronder lees je hoe je dat herkent en wat eraan te doen is.",
+    secties: [
+      { kop: "Lekt het nu? Eerst dit", tekst: [
+        'Zet een emmer neer, haal spullen weg bij de natte muur en maak een foto van de plek. Ga niet zelf het dak op en ga niet met een ladder bij de goot staan als het nat is. Wat je verder meteen kunt doen, staat op de <a href="/spoed/">spoedpagina</a>.',
+      ] },
+      { kop: "Zo herken je een lekkende bakgoot", tekst: [
+        "Een natte plek bovenin de buitenmuur, vlak onder het plafond, of een vochtrand langs het plafond aan de straatkant of de tuinkant. Bladderende verf of zacht hout aan de gootlijst buiten. Water dat na een bui achter de goot langs de gevel naar beneden loopt, terwijl de voorkant van de goot droog blijft.",
+        "Meestal zie je het voor het eerst na een flinke bui, of als de goot een tijd vol blad heeft gelegen.",
+      ] },
+      { kop: "Waar een bakgoot meestal lekt", tekst: [
+        "Bij de naden in het zink, en in de hoeken waar twee stukken samenkomen. Bij de uitloop naar de regenpijp, die bij een bakgoot vaak door de bodem van de goot gaat. En op plekken waar het zink na veel jaren dun is geworden, vaak daar waar blad en water lang bleven liggen.",
+        "Zink zet uit als het warm is en krimpt als het koud is. Kan het dat niet goed, dan trekken de naden na verloop van tijd open.",
+      ] },
+      { kop: "Vol of echt lek?", tekst: [
+        'Soms is er niets lek en zitten de bakgoot of de uitloop gewoon vol blad. Dan komt het water hoger te staan dan de rand van het zink en loopt het zo naar binnen. Dan is de goot leegmaken genoeg, zie <a href="/diensten/goten-reinigen/">goten reinigen</a>. Druppelt je goot buiten op één plek, lees dan <a href="/kennisbank/dakgoot-lekt/">dakgoot lekt</a>.',
+      ] },
+      { kop: "Waarom je er niet mee wacht", tekst: [
+        "Een bakgoot ligt op hout: de gootbak en de balken eronder. Loopt daar bij elke bui water langs, dan gaat dat hout rotten, en dat zie je pas als het al ver is. Ook de muur en het plafond eronder worden nat. Hoe eerder het lek dicht is, hoe kleiner de klus meestal blijft.",
+      ] },
+      { kop: "Repareren of opnieuw bekleden?", tekst: [
+        'Een lekke naad, een losse hoek of een lekkende uitloop is vaak goed te herstellen. Is het zink op veel plekken dun of zit het hout eronder al zacht, dan is het slimmer om de bakgoot in één keer opnieuw te bekleden. Ik kijk eerst wat er echt aan de hand is en zeg eerlijk wat in jouw geval verstandig is. Zie <a href="/diensten/dakgoot-vervangen/">dakgoot repareren of vervangen</a>.',
+      ] },
+      { kop: "Wat kost het?", tekst: [
+        'Dat hangt af van wat er lek is, hoe lang de goot is en of het hout eronder nog goed is. Je hoort de vaste prijs vooraf, voordat ik begin. Richtprijzen staan op de <a href="/prijzen/">prijzenpagina</a>.',
+      ] },
+    ],
+    dienst: { label: "Bekijk: dakgoot repareren of vervangen", href: "/diensten/dakgoot-vervangen/" },
+    faq: [
+      { v: "Wat is een bakgoot?", a: "Een goot die niet aan de voorkant van het dak hangt, maar in de rand van het dak ligt. Meestal is het een houten bak met zink erin en een houten lijst aan de voorkant. Je ziet ze vaak bij huizen van voor de oorlog en bij oudere rijtjes." },
+      { v: "Waarom lekt een bakgoot naar binnen?", a: "Omdat hij op en in het dak ligt. Komt er water door het zink, dan loopt het niet naar buiten, maar in het hout en de muur eronder. Daarom zie je een lekkende bakgoot vaak het eerst binnen." },
+      { v: "Kan ik een lekkende bakgoot zelf dichtkitten?", a: "Een likje kit houdt het soms even droog, maar op nat of vuil zink hecht het slecht en na een winter lekt het vaak weer. En aan de dakrand werken is niet zonder risico. Laat liever kijken waar het echt lekt." },
+      { v: "Kun je snel komen als het binnen nat wordt?", a: "Bel of WhatsApp me met een foto van de natte plek binnen en van de goot buiten. Dan hoor je wanneer ik kan komen." },
+    ],
+  },
+  {
     slug: "stormschade-eerste-hulp",
     titel: "Stormschade: eerste hulp",
     h1: "Stormschade aan je dak: eerste hulp en je verzekering",
