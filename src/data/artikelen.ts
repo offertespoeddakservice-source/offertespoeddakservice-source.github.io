@@ -22,6 +22,7 @@ export interface Artikel {
   dienst: { label: string; href: string };
   faq: { v: string; a: string }[];
   datum?: string;
+  verborgen?: boolean; // true = artikel over iets wat ik niet doe: niet in Google en niet in de kennisbanklijst
 }
 
 export const ARTIKELEN: Artikel[] = [
@@ -276,6 +277,7 @@ export const ARTIKELEN: Artikel[] = [
   },
   {
     slug: "dakpannen-coaten-of-vervangen",
+    verborgen: true,
     titel: "Coaten of vervangen?",
     h1: "Dakpannen coaten of vervangen? Zo maak je de juiste keuze",
     metaTitle: "Dakpannen coaten of vervangen? | Spoed Dak Service",
@@ -806,6 +808,7 @@ export const ARTIKELEN: Artikel[] = [
   },
   {
     slug: "wat-kost-dak-coaten",
+    verborgen: true,
     titel: "Wat kost dak coaten?",
     h1: "Wat kost dak coaten — en is het de moeite waard?",
     metaTitle: "Wat kost dak coaten? | Spoed Dak Service",

@@ -5,7 +5,7 @@ import { ARTIKELEN } from "../../data/artikelen.ts";
 ---
 
 <Base
-  title={`Kennisbank — daktips & uitleg | ${SITE.bedrijfsnaam}`}
+  title={`Daktips: lekkage, goten en storm | ${SITE.bedrijfsnaam}`}
   description="Eerlijke daktips van dakdekker Rens: daklekkage opsporen, dakpannen coaten of vervangen, hoe vaak je goten moet reinigen en meer."
   path="/kennisbank"
 >
@@ -20,7 +20,7 @@ import { ARTIKELEN } from "../../data/artikelen.ts";
     <div class="wrap">
       <h2 class="sr-only">Alle artikelen</h2>
       <div class="grid grid-3">
-        {ARTIKELEN.map((a) => (
+        {ARTIKELEN.filter((a) => !a.verborgen).map((a) => (
           <a class="card" href={`/kennisbank/${a.slug}/`}>
             <h3>{a.titel}</h3>
             <p>{a.metaDescription}</p>
