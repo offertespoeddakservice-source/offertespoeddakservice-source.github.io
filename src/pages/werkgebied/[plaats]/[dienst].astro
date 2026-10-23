@@ -4,6 +4,7 @@ import { SITE, telHref, waHref } from "../../../site.config.ts";
 import { MATRIX } from "../../../data/matrix.ts";
 import { getPlaats } from "../../../data/plaatsen.ts";
 import { getDienst } from "../../../data/diensten.ts";
+import { PRIJZEN } from "../../../data/prijzen.ts";
 
 export function getStaticPaths() {
   return MATRIX.map((c) => {
@@ -16,6 +17,16 @@ export function getStaticPaths() {
 const { p, d, hook } = Astro.props;
 const path = `/werkgebied/${p.slug}/${d.slug}`;
 const titel = `${d.titel} in ${p.naam}`;
+// Titel en omschrijving per dienst waar de standaardzin niet goed loopt; de andere diensten houden de standaard.
+const gotenPrijs = PRIJZEN.find((r) => r.dienst === "Dakgoot reinigen")?.prijs ?? "";
+const metaTitelPerDienst: Record<string, string> = {
+  "goten-reinigen": `Dakgoot schoonmaken in ${p.naam}`,
+};
+const omschrijvingPerDienst: Record<string, string> = {
+  "goten-reinigen": `Dakgoot schoonmaken in ${p.naam}: ${gotenPrijs} voor een rijtjeswoning, uitloop naar de regenpijp vrij en eerlijk advies over je dak. Bel of WhatsApp Rens.`,
+  stormschade: `Stormschade aan je dak in ${p.naam}? Weggewaaide pannen of een losse nok: ik dek het eerst af en herstel het daarna netjes. Bel of WhatsApp Rens.`,
+};
+const metaTitel = metaTitelPerDienst[d.slug] ?? titel;
 
 // Verder lezen bij lekkage en storm: gewone zinnen met links naar de spoedpagina en de kennisbank.
 const verderLezen: Record<string, string> = {
@@ -66,8 +77,8 @@ const schema = [
 ---
 
 <Base
-  title={`${titel} | ${SITE.bedrijfsnaam}`.length <= 60 ? `${titel} | ${SITE.bedrijfsnaam}` : titel}
-  description={`${d.titel} in ${p.naam} nodig? ${d.kort} Eerlijke, vaste prijs vooraf.`}
+  title={`${metaTitel} | ${SITE.bedrijfsnaam}`.length <= 60 ? `${metaTitel} | ${SITE.bedrijfsnaam}` : metaTitel}
+  description={omschrijvingPerDienst[d.slug] ?? `${d.titel} in ${p.naam} nodig? ${d.kort} Eerlijke, vaste prijs vooraf.`}
   path={path}
   schema={schema}
 >
