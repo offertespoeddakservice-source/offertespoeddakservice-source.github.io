@@ -218,4 +218,10 @@ export const MATRIX: MatrixCombo[] = [
     dienst: "dakgoot-vervangen",
     hook: "Langs de Taalstraat en in de villawijken richting de Loonsebaan liggen veel lange zinken goten, vaak als bakgoot achter een houten lijst. Onder de hoge bomen daar blijft blad lang in de goot liggen, en juist op die plekken wordt het zink na jaren dun en gaan de naden lekken. In de rijtjes van Vught-Noord hangen vaker kunststof goten. Daar zit een lek meestal in een verbinding, een uitgedroogd rubber of een losse beugel. Ik kijk eerst of een reparatie genoeg is, en vervang alleen het stuk dat echt op is.",
   },
+  // Daklekkage in Tilburg, met Udenhout en Berkel-Enschot (Rens 23-10: ook bij spoed; Search Console: daklekkage udenhout, daklekkage berkel-enschot)
+  {
+    plaats: "tilburg",
+    dienst: "daklekkage",
+    hook: "Udenhout en Berkel-Enschot liggen aan de kant van Tilburg die het dichtst bij Den Bosch ligt. In de oude dorpskernen staan veel vrijstaande huizen en twee-onder-een-kappers met een pannendak. Daar begint een lek vaak bij het lood rond de schoorsteen of bij een pan die verschoven is. In de Reeshof staan veel rijtjeshuizen uit de jaren '80 en '90. Heeft je huis daar een platte aanbouw of berging, dan komt het water nogal eens binnen bij een naad of bij de rand van dat platte dak. Ik zoek eerst waar het water echt binnenkomt en repareer dan alleen wat nodig is.",
+  },
 ];
