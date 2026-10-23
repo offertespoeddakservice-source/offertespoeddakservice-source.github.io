@@ -611,6 +611,46 @@ export const ARTIKELEN: Artikel[] = [
     ],
   },
   {
+    slug: "kilgoot-lekt",
+    datum: "2026-10-24",
+    titel: "Kilgoot lekt?",
+    h1: "Kilgoot lekt: lekkage waar twee daken samenkomen",
+    metaTitle: "Kilgoot lekt: oorzaken en oplossing | Spoed Dak Service",
+    metaDescription:
+      "Een natte plek in de hoek waar twee dakvlakken samenkomen? Dan lekt vaak de kilgoot. Zo herken je het, waar het meestal zit en wat eraan te doen is.",
+    intro:
+      "Heeft je huis een hoek, een aanbouw met een schuin dak of een schuur ertegenaan? Dan komen daar twee dakvlakken samen in een soort goot: de kilgoot, of kortweg de kil. Al het water van die twee dakvlakken loopt daardoorheen. Lekt hij, dan zie je dat meestal binnen, in de hoek. Hieronder lees je hoe je dat herkent en wat eraan te doen is.",
+    secties: [
+      { kop: "Lekt het nu? Eerst dit", tekst: [
+        'Zet een emmer neer, haal spullen weg en maak een foto van de natte plek. Ga niet zelf het dak op: een kil ligt midden op een schuin dak en is glad als het nat is. Wat je verder meteen kunt doen, staat op de <a href="/spoed/">spoedpagina</a>.',
+      ] },
+      { kop: "Wat is een kilgoot?", tekst: [
+        "Een kilgoot ligt in de hoek waar twee schuine dakvlakken tegen elkaar aan komen, bijvoorbeeld bij een L-vormig huis, een aanbouw of een schuur. Meestal is het een strook lood of zink onder de pannen. Bij nieuwere daken ligt er soms een kunststof kil of zijn er speciale kilpannen gebruikt. Omdat het water van twee kanten komt, krijgt een kil bij een flinke bui veel water te verwerken.",
+      ] },
+      { kop: "Zo herken je een lekkende kil", tekst: [
+        "Een natte plek of bruine kring op het plafond of op zolder, in de hoek waar de daken samenkomen. Het lekt vaak vooral bij een stortbui, of in de herfst als er veel blad valt. Vanaf de straat zie je soms blad of mos in de kil liggen, of pannen langs de kil die scheef liggen.",
+      ] },
+      { kop: "Waar het meestal zit", tekst: [
+        "Blad en mos die in de kil blijven liggen. Dan kan het water niet weg, komt het hoger te staan dan de rand van het lood of zink en loopt het opzij onder de pannen door.",
+        "Lood of zink dat na veel jaren gescheurd of dun geworden is, vooral op plekken waar lang vuil en water bleven liggen.",
+        'Pannen langs de kil die verschoven zijn, bijvoorbeeld na een storm. Dan waait de regen er bij harde wind onderdoor. Lees ook <a href="/kennisbank/dak-lekt-bij-harde-wind/">dak lekt bij harde wind</a>.',
+      ] },
+      { kop: "Repareren of vervangen?", tekst: [
+        'Ligt de kil alleen vol, dan is leegmaken vaak genoeg. Zit er een scheur of een gat in het lood of zink, dan is dat vaak goed te herstellen. Is de kil over een groot stuk op, dan vervang ik dat stuk. Ik kijk eerst wat er echt aan de hand is en zeg eerlijk wat in jouw geval nodig is. Zie <a href="/diensten/dakreparatie/">dakreparatie</a>. Weet je niet zeker of het de kil is, lees dan <a href="/kennisbank/daklekkage-opsporen/">daklekkage opsporen</a>.',
+      ] },
+      { kop: "Wat kost het?", tekst: [
+        'Dat hangt af van wat er mis is, hoe lang de kil is en hoe goed je erbij kunt. Je hoort de vaste prijs vooraf, voordat ik begin. Richtprijzen staan op de <a href="/prijzen/">prijzenpagina</a>.',
+      ] },
+    ],
+    dienst: { label: "Bekijk: dakreparatie (pannen, lood en nok)", href: "/diensten/dakreparatie/" },
+    faq: [
+      { v: "Wat is een kilgoot?", a: "De goot in de hoek waar twee schuine dakvlakken samenkomen. Meestal is het een strook lood of zink onder de pannen. Al het water van die twee dakvlakken loopt erdoorheen." },
+      { v: "Waarom lekt mijn kilgoot alleen bij een stortbui?", a: "Bij een gewone bui kan het water weg. Bij een stortbui, of als er blad in de kil ligt, komt het water hoger te staan dan de rand van het lood of zink en loopt het opzij onder de pannen door. Dat zie je dan pas binnen." },
+      { v: "Kan ik de kil zelf schoonmaken?", a: "Liever niet. Een kil ligt midden op een schuin dak en dat is glad, zeker in de herfst. Laat het doen door iemand die veilig op een dak kan werken." },
+      { v: "Kun je snel komen als het in de hoek binnenkomt?", a: "Bel of WhatsApp me met een foto van de natte plek binnen en, als dat veilig kan, een foto van het dak vanaf de straat. Dan hoor je wanneer ik kan komen." },
+    ],
+  },
+  {
     slug: "dakonderhoud-per-seizoen",
     titel: "Dakonderhoud per seizoen",
     h1: "Dakonderhoud per seizoen: wat je wanneer moet controleren",
