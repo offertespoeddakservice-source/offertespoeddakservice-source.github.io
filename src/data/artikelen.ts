@@ -9,6 +9,10 @@ const GOTEN_PRIJS = PRIJZEN.find((r) => r.dienst === "Dakgoot reinigen")?.prijs 
 const lekPrijs = PRIJZEN.find((r) => r.dienst.startsWith("Daklekkage"))?.prijs ?? "";
 const kleinPrijs = PRIJZEN.find((r) => r.dienst.startsWith("Kleine reparatie"))?.prijs ?? "";
 const apkPrijs = PRIJZEN.find((r) => r.dienst.startsWith("Dak-APK"))?.prijs ?? "";
+const ontmosPrijs = PRIJZEN.find((r) => r.dienst.startsWith("Dak reinigen"))?.prijs ?? "";
+const veegPrijs = PRIJZEN.find((r) => r.dienst === "Schoorsteen vegen")?.prijs ?? "";
+const zonPrijs = PRIJZEN.find((r) => r.dienst === "Zonnepanelen reinigen")?.prijs ?? "";
+const nieuwDakUitleg = PRIJZEN.find((r) => r.dienst.startsWith("Nieuw dak"))?.uitleg ?? "";
 
 export interface Sectie { kop: string; tekst: string[] }
 export interface Artikel {
@@ -799,7 +803,7 @@ export const ARTIKELEN: Artikel[] = [
         "Goten reinigen is €99 all-in bij een rijtjeswoning — en terwijl ik bezig ben zie ik vaak meteen of er verder nog iets aan je dak speelt. Groter huis? Vaste prijs vooraf.",
       ] },
       { kop: "Richtprijzen per klus", tekst: [
-        "Een punctuele daklekkage repareren kost meestal €200 tot €500, inclusief materiaal. Dak ontmossen €8 tot €15 per m². Schoorsteen vegen €70. Zonnepanelen reinigen vanaf €10 per paneel. Een compleet nieuw dak: bitumen €50–€90, EPDM €95–€120, pannendak €60–€170 per m². Coaten en andere klussen krijg je als vaste prijs na een Dak-APK of bezoek.",
+        `Een punctuele daklekkage repareren kost meestal ${lekPrijs}, inclusief materiaal. Dak ontmossen ${ontmosPrijs}. Schoorsteen vegen ${veegPrijs}. Zonnepanelen reinigen ${zonPrijs}. Een compleet nieuw dak: ${nieuwDakUitleg} Andere klussen krijg je als vaste prijs na een Dak-APK of bezoek.`,
         "Bij spoed buiten kantooruren komt er een toeslag bij — die hoor je vooraf, nooit als verrassing achteraf.",
       ] },
       { kop: "Waarom een vaste prijs vooraf?", tekst: [
