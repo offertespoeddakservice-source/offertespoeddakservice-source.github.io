@@ -156,10 +156,9 @@ export const PLAATSEN: Plaats[] = [
     slug: "breda",
     naam: "Breda",
     lokaal:
-      "Voor grotere klussen kom ik ook in Breda en omstreken. Mix van vooroorlogse en naoorlogse daken die onderhoud aan pannen, lood en goten vragen.",
+      "Ook in Breda en omstreken kom ik voor lekkage en ander dakwerk. Je vindt hier een mix van vooroorlogse en naoorlogse daken die onderhoud aan pannen, lood en goten vragen.",
     wijken: ["Prinsenbeek", "Teteringen", "Ginneken", "Haagse Beemden"],
     reistijd: "± 40 min vanaf Den Bosch",
-    verweg: true,
   },
   {
     slug: "helmond",
@@ -168,16 +167,14 @@ export const PLAATSEN: Plaats[] = [
       "Ruime naoorlogse wijken met schuine daken; voor dakwerk en lekkage kom ik in Helmond en de omliggende kernen.",
     wijken: ["Brouwhuis", "Dierdonk", "Mierlo-Hout", "Stiphout"],
     reistijd: "± 40 min vanaf Den Bosch",
-    verweg: true,
   },
   {
     slug: "eindhoven",
     naam: "Eindhoven",
     lokaal:
-      "Voor grotere dakklussen kom ik ook in de regio Eindhoven. Veel naoorlogse woningen met schuine pannendaken en platte uitbouwen.",
+      "Ook in de regio Eindhoven kom ik voor lekkage en ander dakwerk. Veel naoorlogse woningen met schuine pannendaken en platte uitbouwen.",
     wijken: ["Tongelre", "Woensel", "Gestel", "Stratum"],
     reistijd: "± 40 min vanaf Den Bosch",
-    verweg: true,
   },
 ];
 
