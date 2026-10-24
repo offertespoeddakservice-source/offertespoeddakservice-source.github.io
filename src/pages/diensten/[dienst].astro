@@ -21,7 +21,7 @@ const serviceSchema: Record<string, unknown> = {
   name: d.titel,
   serviceType: d.titel,
   description: d.metaDescription,
-  provider: { "@type": "RoofingContractor", name: SITE.bedrijfsnaam, telephone: `+${SITE.telefoonE164}` },
+  provider: { "@type": "RoofingContractor", "@id": `${SITE.url}/#bedrijf`, name: SITE.bedrijfsnaam, telephone: `+${SITE.telefoonE164}` },
   areaServed: PLAATSEN.map((p) => ({ "@type": "City", name: p.naam })),
 };
 if (minPrice) serviceSchema.offers = { "@type": "Offer", priceSpecification: { "@type": "UnitPriceSpecification", priceCurrency: "EUR", minPrice } };

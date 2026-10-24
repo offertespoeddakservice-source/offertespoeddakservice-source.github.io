@@ -67,7 +67,7 @@ const schema = [
     name: `${d.titel} ${p.naam}`,
     serviceType: d.titel,
     description: `${d.titel} in ${p.naam}: ${d.kort}`,
-    provider: { "@type": "RoofingContractor", name: SITE.bedrijfsnaam, telephone: `+${SITE.telefoonE164}` },
+    provider: { "@type": "RoofingContractor", "@id": `${SITE.url}/#bedrijf`, name: SITE.bedrijfsnaam, telephone: `+${SITE.telefoonE164}` },
     areaServed: { "@type": "City", name: p.naam },
   },
   {
