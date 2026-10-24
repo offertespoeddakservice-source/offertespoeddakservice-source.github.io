@@ -20,17 +20,19 @@ const BIJGEWERKT: Record<string, string> = {
   "schoorsteen-vegen-hoe-vaak": "2026-10-21",
   "hoe-herken-je-een-betrouwbare-dakdekker": "2026-10-21",
   "zonnepanelen-reinigen-nodig": "2026-10-21",
+  "wat-kost-een-dakdekker": "2026-10-24",
 };
 const bijgewerkt = BIJGEWERKT[a.slug] ?? a.datum;
 const path = `/kennisbank/${a.slug}`;
 const idx = ARTIKELEN.findIndex((x) => x.slug === a.slug);
 // Lees ook: eerst artikelen over hetzelfde onderwerp, daarna aanvullen met de volgende uit de lijst.
 const ONDERWERPEN: string[][] = [
-  ["daklekkage-opsporen", "vochtplek-plafond", "lekkage-bij-schoorsteen", "condens-of-lekkage-op-zolder", "dakraam-lekt", "dak-lekt-bij-harde-wind", "lekkage-bij-zonnepanelen", "wat-kost-daklekkage-repareren", "daklekkage-verzekering"],
-  ["hoe-vaak-dakgoot-reinigen", "wat-kost-dakgoot-schoonmaken", "verstopte-regenpijp-lekkende-dakgoot", "dakgoot-lekt", "bakgoot-lekt"],
+  ["daklekkage-opsporen", "vochtplek-plafond", "lekkage-bij-schoorsteen", "condens-of-lekkage-op-zolder", "dakraam-lekt", "dak-lekt-bij-harde-wind", "kilgoot-lekt", "lekkage-bij-zonnepanelen", "wat-kost-daklekkage-repareren", "daklekkage-verzekering"],
+  ["hoe-vaak-dakgoot-reinigen", "wat-kost-dakgoot-schoonmaken", "verstopte-regenpijp-lekkende-dakgoot", "dakgoot-lekt", "bakgoot-lekt", "kilgoot-lekt"],
   ["stormschade-eerste-hulp", "nokvorsten-los", "dak-lekt-bij-harde-wind", "daklekkage-verzekering"],
   ["plat-dak-vervangen-of-repareren", "water-blijft-staan-op-plat-dak", "dakonderhoud-per-seizoen", "mos-op-dak-verwijderen"],
   ["dakinspectie", "dakonderhoud-per-seizoen", "hoe-herken-je-een-betrouwbare-dakdekker", "wat-kost-een-dakdekker"],
+  ["schoorsteen-vegen-hoe-vaak", "lekkage-bij-schoorsteen", "dakinspectie"],
 ];
 const groep = ONDERWERPEN.find((g) => g.includes(a.slug)) ?? [];
 // Spoedregel na het eerste stuk tekst: alleen bij artikelen over lekkage en storm, en alleen als daar nog geen link naar /spoed/ staat.
