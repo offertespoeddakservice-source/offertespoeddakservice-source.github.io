@@ -49,7 +49,9 @@ const faq = [
     v: `Kun je snel langskomen voor ${d.titel.toLowerCase()} in ${p.naam}?`,
     a: p.slug === "den-bosch"
       ? `Ja, Den Bosch is mijn thuisbasis, dus ik ben er zo. Bij spoed kom ik regelmatig nog dezelfde dag.`
-      : `Ja, ${p.naam} ligt in mijn vaste werkgebied rond Den Bosch${p.reistijd ? ` (${p.reistijd})` : ""}, dus vaak ben ik al in de buurt. Bij spoed kom ik regelmatig nog dezelfde dag.`,
+      : p.reistijd?.startsWith("±")
+        ? `${p.naam} ligt aan de rand van mijn werkgebied (${p.reistijd}). Ook hier kom ik voor lekkage en ander dakwerk. Stuur eerst een foto via WhatsApp of bel even, dan hoor je eerlijk wanneer ik kan komen.`
+        : `Ja, ${p.naam} ligt in mijn vaste werkgebied rond Den Bosch${p.reistijd ? ` (${p.reistijd})` : ""}, dus vaak ben ik al in de buurt. Bij spoed kom ik regelmatig nog dezelfde dag.`,
   },
   ...d.faq.slice(0, 2),
   {
