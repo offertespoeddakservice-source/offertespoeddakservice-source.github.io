@@ -54,16 +54,16 @@ const relArtikel = ({
 const leesVerder: Record<string, string[]> = {
   "goten-reinigen": ["wat-kost-dakgoot-schoonmaken", "hoe-vaak-dakgoot-reinigen", "verstopte-regenpijp-lekkende-dakgoot"],
   daklekkage: ["daklekkage-opsporen", "vochtplek-plafond", "lekkage-bij-schoorsteen", "wat-kost-daklekkage-repareren"],
-  dakreparatie: ["wat-kost-daklekkage-repareren", "nokvorsten-los", "dakraam-lekt"],
+  dakreparatie: ["wat-kost-daklekkage-repareren", "nokvorsten-los", "dakraam-lekt", "kilgoot-lekt"],
   "platte-daken": ["plat-dak-vervangen-of-repareren", "water-blijft-staan-op-plat-dak"],
   stormschade: ["stormschade-eerste-hulp", "dak-lekt-bij-harde-wind", "daklekkage-verzekering"],
-  "dakgoot-vervangen": ["dakgoot-lekt", "bakgoot-lekt", "verstopte-regenpijp-lekkende-dakgoot"],
-  "dakpannen-vervangen": ["stormschade-eerste-hulp", "nokvorsten-los"],
+  "dakgoot-vervangen": ["dakgoot-lekt", "bakgoot-lekt", "kilgoot-lekt", "verstopte-regenpijp-lekkende-dakgoot"],
+  "dakpannen-vervangen": ["stormschade-eerste-hulp", "nokvorsten-los", "dak-lekt-bij-harde-wind"],
   "schoorsteen-vegen": ["schoorsteen-vegen-hoe-vaak", "lekkage-bij-schoorsteen"],
   "zonnepanelen-reinigen": ["zonnepanelen-reinigen-nodig", "lekkage-bij-zonnepanelen"],
   "dak-reinigen": ["mos-op-dak-verwijderen", "dakonderhoud-per-seizoen"],
-  dakrenovatie: ["dakinspectie", "plat-dak-vervangen-of-repareren"],
-  dakisolatie: ["condens-of-lekkage-op-zolder"],
+  dakrenovatie: ["dakinspectie", "plat-dak-vervangen-of-repareren", "hoe-herken-je-een-betrouwbare-dakdekker"],
+  dakisolatie: ["condens-of-lekkage-op-zolder", "vochtplek-plafond"],
 };
 const leesArtikelen = (leesVerder[d.slug] ?? [])
   .map((s) => ARTIKELEN.find((x) => x.slug === s))
