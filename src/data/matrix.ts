@@ -236,4 +236,10 @@ export const MATRIX: MatrixCombo[] = [
     dienst: "daklekkage",
     hook: "In Philipsdorp en andere wijken van rond 1910 tot 1930 staan veel huizen met een steil pannendak, een schoorsteen en oude zinken goten. Daar begint een lek vaak bij het lood rond de schoorsteen of bij een goot die bij een naad is gaan lekken. In nieuwere wijken zoals Meerhoven liggen op veel daken zonnepanelen. Daar zie ik lekkage nogal eens bij een pan die bij het plaatsen van de beugels is gebroken of verschoven. Eindhoven is voor mij zo'n 40 minuten rijden. Stuur daarom eerst een foto via WhatsApp, dan weet ik wat ik mee moet nemen en hoor je eerlijk wanneer ik kan komen.",
   },
+  // Daklekkage in Waalwijk (Search Console: daklekkage waalwijk 24 vertoningen, lekkage waalwijk en dakgoot lekkage waalwijk), met andere lokale inhoud dan plaatsen.ts
+  {
+    plaats: "waalwijk",
+    dienst: "daklekkage",
+    hook: "Langs de Grotestraat en in de oude straten eromheen staan nog veel huizen uit de tijd van de schoenindustrie, soms met een oude werkplaats of schuur erachter. Zo'n achterbouw heeft vaak een plat of flauw dak, en daar komt het water nogal eens binnen waar de achterbouw tegen het huis aan zit. In Waspik staan meer vrijstaande huizen en twee-onder-een-kappers met een groot pannendak. Daar begint een lek meestal bij het lood rond de schoorsteen of bij een pan die na een storm is gaan schuiven. Ik zoek eerst waar het water echt binnenkomt en repareer dan alleen wat nodig is.",
+  },
 ];
