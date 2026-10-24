@@ -88,6 +88,9 @@ const schema = faqSchema ? [articleSchema, faqSchema] : articleSchema;
             )}
           </>
         ))}
+        {LEK_ARTIKELEN.has(a.slug) && (
+          <p>Woon je in de regio Den Bosch? Hoe ik een lek bij jou in de buurt aanpak, lees je bij daklekkage in <a href="/werkgebied/den-bosch/daklekkage/">Den Bosch</a>, <a href="/werkgebied/vught/daklekkage/">Vught</a>, <a href="/werkgebied/rosmalen/daklekkage/">Rosmalen</a>, <a href="/werkgebied/oss/daklekkage/">Oss</a> en <a href="/werkgebied/veghel/daklekkage/">Veghel</a>. Andere plaatsen vind je bij <a href="/werkgebied/">mijn werkgebied</a>.</p>
+        )}
         <a class="btn btn--primary" href={a.dienst.href.endsWith("/") ? a.dienst.href : a.dienst.href + "/"} style="margin-top:8px;">{a.dienst.label}</a>
       </article>
       <aside>
