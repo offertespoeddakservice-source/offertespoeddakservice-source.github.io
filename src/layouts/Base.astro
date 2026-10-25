@@ -206,6 +206,9 @@ const schemas = [businessSchema, websiteSchema, ...(breadcrumbSchema ? [breadcru
         <p class="lead" style="margin: 0 auto 24px; color:#c2d2e3;">
           Je krijgt mij, Rens, meteen aan de lijn. Twijfel je of je dak nog goed is? Vraag de <strong>Dak-APK</strong> aan: binnen een dagdeel een compleet keuringsrapport met foto's, voor {apkPrijs}.
         </p>
+        {huidigPad !== "/spoed/" && (
+          <p class="lead" style="margin: 0 auto 24px; color:#c2d2e3;"><strong>Lekt het nu?</strong> Op de <a href="/spoed/" style="color:#ffb486;">spoedpagina</a> lees je wat je meteen zelf kunt doen.</p>
+        )}
         <div class="btn-row" style="justify-content:center;">
           <a class="btn btn--wa" href={waHref()}>WhatsApp Rens</a>
           <a class="btn btn--primary" href={telHref}>Bel {SITE.telefoonWeergave}</a>
