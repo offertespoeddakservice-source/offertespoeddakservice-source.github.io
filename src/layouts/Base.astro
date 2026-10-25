@@ -3,6 +3,7 @@ import "../styles/global.css";
 import { SITE, NAV, telHref, waHref } from "../site.config.ts";
 import { PLAATSEN } from "../data/plaatsen.ts";
 import { PRIJZEN } from "../data/prijzen.ts";
+import { DIENSTEN } from "../data/diensten.ts";
 
 interface Props {
   title: string;
@@ -32,6 +33,14 @@ const businessSchema: Record<string, unknown> = {
   image: `${SITE.url}/og.png`,
   logo: `${SITE.url}/favicon.svg`,
   sameAs: [SITE.werkspotUrl],
+  hasOfferCatalog: {
+    "@type": "OfferCatalog",
+    name: "Dakwerk",
+    itemListElement: DIENSTEN.filter((d) => !d.verborgen).map((d) => ({
+      "@type": "Offer",
+      itemOffered: { "@type": "Service", name: d.titel, url: `${SITE.url}/diensten/${d.slug}/` },
+    })),
+  },
   priceRange: "€€",
   openingHoursSpecification: {
     "@type": "OpeningHoursSpecification",
@@ -72,7 +81,7 @@ const breadcrumbSchema = crumbs.length
       ],
     }
   : null;
-const websiteSchema = { "@context": "https://schema.org", "@type": "WebSite", name: SITE.bedrijfsnaam, url: SITE.url, inLanguage: "nl-NL" };
+const websiteSchema = { "@context": "https://schema.org", "@type": "WebSite", "@id": `${SITE.url}/#website`, name: SITE.bedrijfsnaam, url: SITE.url, inLanguage: "nl-NL", publisher: { "@id": `${SITE.url}/#bedrijf` } };
 const schemas = [businessSchema, websiteSchema, ...(breadcrumbSchema ? [breadcrumbSchema] : []), ...(Array.isArray(schema) ? schema : schema ? [schema] : [])];
 ---
 
