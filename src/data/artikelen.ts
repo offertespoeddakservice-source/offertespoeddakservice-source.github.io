@@ -98,6 +98,50 @@ export const ARTIKELEN: Artikel[] = [
     ],
   },
   {
+    slug: "schoorsteen-lekt-open-haard",
+    datum: "2026-10-27",
+    titel: "Water in je open haard bij regen?",
+    h1: "Schoorsteen lekt bij regen: water in je open haard of kachel",
+    metaTitle: "Schoorsteen lekt: water in de open haard | Spoed Dak Service",
+    metaDescription: "Water in je open haard of kachel bij regen, of bruine vlekken op de schoorsteen binnen? Zo zie je of het via de kop, het kanaal of het lood komt, en wat je doet.",
+    intro: "Druppelt het bij een flinke bui in je open haard of kachel, of komen er natte, bruine plekken op de schoorsteen in de kamer? Dan komt het water meestal niet door het dak naast de schoorsteen, maar door de schoorsteen zelf. Hieronder lees je waar het vandaan komt en wat eraan te doen is.",
+    secties: [
+      { kop: "Lekt het nu? Eerst dit", tekst: [
+        'Zet een bak of emmer in de haard, haal hout en spullen weg en maak een foto van de natte plek. Ga niet zelf het dak op. Wat je verder meteen kunt doen, staat op de <a href="/spoed/">spoedpagina</a>.',
+      ] },
+      { kop: "In de haard, of naast de schoorsteen?", tekst: [
+        "Komt het water in de haard of de kachel zelf naar beneden, dan komt het meestal van bovenaf door het kanaal of door de kop van de schoorsteen.",
+        'Zie je een natte plek op de muur of het plafond naast de schoorsteen, of op zolder rond het kanaal? Dan zit het vaker in het lood of de pannen eromheen. Lees dan <a href="/kennisbank/lekkage-bij-schoorsteen/">lekkage bij de schoorsteen</a>.',
+      ] },
+      { kop: "Waar het water meestal binnenkomt", tekst: [
+        "Een open kanaal zonder kap: bij harde regen met wind waait er dan water recht naar beneden. Een afdekplaat of kop bovenop de schoorsteen die gescheurd of los is: het water trekt dan in de stenen en loopt binnen langs het kanaal naar beneden. En stenen die na veel jaren poreus zijn geworden, vooral aan de kant waar de regen meestal vandaan komt.",
+        "Zit het in de stenen zelf, dan zeg ik dat eerlijk: daarvoor heb je een metselaar nodig.",
+      ] },
+      { kop: "Bruine vlekken op de schoorsteen binnen", tekst: [
+        "Water dat door de schoorsteen naar beneden trekt, neemt onderweg roet en teer mee. Daardoor zie je binnen vaak bruine of gele vlekken op de schoorsteenborst, soms met een vieze lucht. Overschilderen helpt niet zolang er nog water bij komt: de vlekken komen dan terug.",
+      ] },
+      { kop: "Druppelt het ook als het droog is?", tekst: [
+        "Dan is het waarschijnlijk geen lek, maar condens. Dat zie ik vooral als er een ketel of kachel op een oud kanaal is aangesloten. Warme, vochtige lucht koelt in het kanaal af en het vocht druppelt naar beneden. Dat los je niet op het dak op. Laat dat nakijken door de installateur van je ketel of kachel.",
+      ] },
+      { kop: "Een schoorsteen die je deelt met de buren", tekst: [
+        "Bij veel rijtjeshuizen en twee-onder-een-kappers staat de schoorsteen op de scheidingsmuur. Dan kan het lek ook aan de kant van de buren zitten, terwijl het bij jou binnenkomt. Overleg dan even met je buren, zodat de hele schoorsteen in één keer bekeken kan worden. Dat scheelt dubbel werk.",
+      ] },
+      { kop: "Hoe ik het aanpak", tekst: [
+        'Ik kijk van buiten naar de kop, de afdekplaat, het lood en de pannen rond de schoorsteen, en ik zeg eerlijk wat ik zie. Lood en pannen herstel ik zelf, zie <a href="/diensten/dakreparatie/">dakreparatie</a>. Gebruik je de schoorsteen nog, dan is het handig om het <a href="/diensten/schoorsteen-vegen/">vegen</a> in één keer mee te nemen.',
+      ] },
+      { kop: "Wat kost het?", tekst: [
+        'Dat hangt af van wat er mis is. Je hoort de vaste prijs vooraf, voordat ik begin. Richtprijzen staan op de <a href="/prijzen/">prijzenpagina</a>.',
+      ] },
+    ],
+    dienst: { label: "Bekijk: dakreparatie (lood en pannen)", href: "/diensten/dakreparatie/" },
+    faq: [
+      { v: "Is een beetje water in de open haard normaal?", a: "Bij een open kanaal zonder kap kan er bij harde regen met wind wat water naar beneden komen. Druppelt het bij elke bui, staan er plasjes in de haard of komen er bruine vlekken op de schoorsteen, dan is er meer aan de hand en laat je het beter nakijken." },
+      { v: "Waar komen bruine vlekken op mijn schoorsteenborst vandaan?", a: "Meestal van water dat door de kop of de stenen naar binnen trekt en onderweg roet en teer meeneemt. Zolang er nog water bij komt, komen de vlekken na het schilderen terug." },
+      { v: "Ik deel de schoorsteen met de buren, wat nu?", a: "Dan kan het lek ook aan hun kant van het dak zitten. Overleg even met je buren en laat de hele schoorsteen in één keer bekijken. Dat scheelt dubbel werk." },
+      { v: "Kun je snel komen als het in de haard druppelt?", a: "Stuur me via WhatsApp een foto van de natte plek binnen en, als het lukt, van de schoorsteen buiten. Dan zie ik vaak al waar ik moet zoeken en hoor je wanneer ik kan komen." },
+    ],
+  },
+  {
     slug: "condens-of-lekkage-op-zolder",
     datum: "2026-10-20",
     titel: "Condens of lekkage op zolder?",
