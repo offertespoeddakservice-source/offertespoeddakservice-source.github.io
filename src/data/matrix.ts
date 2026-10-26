@@ -20,7 +20,7 @@ export const MATRIX: MatrixCombo[] = [
   {
     plaats: "oss",
     dienst: "daklekkage",
-    hook: "In de ruime naoorlogse wijken van Oss zie ik daklekkage vaak ontstaan bij versleten pannen en oud lood rond de schoorsteen. Ik spoor het lek op zonder je dak open te breken.",
+    hook: "In Schadewijk en de andere oudere wijken rond het centrum van Oss staan veel rijtjeshuizen met een pannendak en een schoorsteen. Daar begint een lek meestal bij uitgedroogd lood rond de schoorsteen of bij een pan die gebroken is. In de Ruwaard, een grote wijk uit de jaren '70 en '80, hebben veel huizen een dakraam of een platte aanbouw aan de achterkant. Daar vind ik het lek vaak aan de onderkant van het dakraam of bij de rand van dat platte dak. In Berghem staan meer vrijstaande huizen met een groot dak, waar ik na een storm vaker een losse nokvorst tegenkom. Ik spoor het lek op en zeg je eerlijk wat er nodig is.",
   },
   {
     plaats: "den-bosch",
