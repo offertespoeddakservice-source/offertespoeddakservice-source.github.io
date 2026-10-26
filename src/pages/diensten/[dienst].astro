@@ -7,6 +7,7 @@ import { MATRIX } from "../../data/matrix.ts";
 import { ARTIKELEN } from "../../data/artikelen.ts";
 import { PRIJZEN } from "../../data/prijzen.ts";
 import DienstIcon from "../../components/DienstIcon.astro";
+import EchteFotos from "../../components/EchteFotos.astro";
 
 export function getStaticPaths() {
   return DIENSTEN.map((d) => ({ params: { dienst: d.slug }, props: { d } }));
@@ -130,6 +131,8 @@ const leesArtikelen = (leesVerder[d.slug] ?? [])
       </aside>
     </div>
   </section>
+
+  <EchteFotos dienst={d.slug} />
 
   {d.faq.length > 0 && (
     <section class="section section--soft">

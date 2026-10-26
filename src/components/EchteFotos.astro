@@ -1,0 +1,58 @@
+---
+/**
+ * Echte foto's van Rens' eigen werk (fotobron, 26-10-2026). Alleen foto's uit src/data/fotos.ts, en daar staan alleen
+ * foto's in die Rens zelf met Ja heeft goedgekeurd. Geen foto's voor deze pagina: dan toont dit blok niets.
+ * Gebruik: <EchteFotos dienst={d.slug} /> op dienstpagina's, of <EchteFotos soort="goot" /> (inline: <EchteFotos soort="goot" inline />).
+ * Niet aanpassen door de SEO-routine.
+ */
+import { FOTOS } from "../data/fotos.ts";
+
+interface Props { dienst?: string; soort?: string; max?: number; inline?: boolean; titel?: string }
+const { dienst, soort, max = 3, inline = false, titel = "Foto's uit mijn werk" } = Astro.props;
+
+// welke soorten foto's bij welke dienstpagina passen (eerste soort gaat voor)
+const PER_DIENST: Record<string, string[]> = {
+  "daklekkage": ["lekkage"],
+  "dakreparatie": ["pannen", "lood-zink", "lekkage"],
+  "platte-daken": ["plat-dak"],
+  "stormschade": ["stormschade", "pannen"],
+  "dakgoot-vervangen": ["goot"],
+  "goten-reinigen": ["goot"],
+  "dak-reinigen": ["mos"],
+  "dakpannen-vervangen": ["pannen"],
+  "schoorsteen-vegen": ["schoorsteen"],
+  "dakkapel-reinigen": ["dakkapel"],
+  "vogelwering": ["vogelwering"],
+};
+const soorten = soort ? [soort] : (dienst ? PER_DIENST[dienst] ?? [] : []);
+const lijst = FOTOS
+  .filter((f) => f.soorten.some((s) => soorten.includes(s)))
+  .sort((a, b) => Math.min(...a.soorten.map((s) => soorten.indexOf(s)).filter((i) => i >= 0)) - Math.min(...b.soorten.map((s) => soorten.indexOf(s)).filter((i) => i >= 0)))
+  .slice(0, max);
+---
+{lijst.length > 0 && (inline ? (
+  <div class="ef-grid">
+    {lijst.map((f) => (
+      <figure><img src={f.bestand} alt={f.alt} width={f.breedte} height={f.hoogte} loading="lazy" decoding="async" /><figcaption>{f.bijschrift}</figcaption></figure>
+    ))}
+  </div>
+) : (
+  <section class="section section--soft">
+    <div class="wrap">
+      <h2>{titel}</h2>
+      <p class="lead">Foto's die ik zelf maakte bij klussen.</p>
+      <div class="ef-grid">
+        {lijst.map((f) => (
+          <figure><img src={f.bestand} alt={f.alt} width={f.breedte} height={f.hoogte} loading="lazy" decoding="async" /><figcaption>{f.bijschrift}</figcaption></figure>
+        ))}
+      </div>
+    </div>
+  </section>
+))}
+
+<style>
+  .ef-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 18px; margin-top: 18px; }
+  figure { margin: 0; }
+  img { width: 100%; height: auto; border-radius: var(--radius, 12px); display: block; }
+  figcaption { margin-top: 8px; color: var(--muted); font-size: .95rem; line-height: 1.45; }
+</style>

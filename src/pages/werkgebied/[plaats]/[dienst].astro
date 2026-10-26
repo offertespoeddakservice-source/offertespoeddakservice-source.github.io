@@ -5,6 +5,7 @@ import { MATRIX } from "../../../data/matrix.ts";
 import { getPlaats } from "../../../data/plaatsen.ts";
 import { getDienst } from "../../../data/diensten.ts";
 import { PRIJZEN } from "../../../data/prijzen.ts";
+import EchteFotos from "../../../components/EchteFotos.astro";
 
 export function getStaticPaths() {
   return MATRIX.map((c) => {
@@ -112,6 +113,8 @@ const schema = [
       )}
     </div>
   </section>
+
+  <EchteFotos dienst={d.slug} />
 
   <section class="section section--soft">
     <div class="wrap">
