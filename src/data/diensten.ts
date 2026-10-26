@@ -325,6 +325,7 @@ export const DIENSTEN: Dienst[] = [
       "Hele schoorsteen geveegd, netjes afgedekt binnen",
       "Veiliger: minder kans op schoorsteenbrand",
       "Controle op lood en aansluiting (lekbron)",
+      "Kap of afdekplaat op de schoorsteen als er regen in het kanaal komt",
       "Vaste prijs vooraf",
     ],
     faq: [
