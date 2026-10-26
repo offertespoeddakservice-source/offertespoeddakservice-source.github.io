@@ -8,6 +8,7 @@ import { PRIJZEN } from "./prijzen";
 
 const GOTEN_PRIJS = PRIJZEN.find((r) => r.dienst === "Dakgoot reinigen")?.prijs ?? "";
 const VEEG_PRIJS = PRIJZEN.find((r) => r.dienst === "Schoorsteen vegen")?.prijs ?? "";
+const DAKKAPEL_PRIJS = PRIJZEN.find((r) => r.dienst === "Dakkapel poetsen")?.prijs ?? "";
 
 export interface Dienst {
   slug: string;
@@ -335,24 +336,28 @@ export const DIENSTEN: Dienst[] = [
   },
   {
     slug: "dakkapel-reinigen",
-    titel: "Dakkapel poetsen",
+    titel: "Dakkapel reinigen",
     vanafPrijs: "vanaf €70",
-    h1: "Dakkapel poetsen en onderhouden — weer fris en waterdicht",
-    kort: "Dakkapel reinigen, kitwerk en aansluitingen nakijken zodat 'ie niet gaat lekken.",
-    metaTitle: "Dakkapel poetsen & onderhoud Den Bosch | Spoed Dak Service",
+    h1: "Dakkapel reinigen en onderhouden: weer schoon en waterdicht",
+    kort: "Dakkapel schoonmaken, kitwerk en aansluitingen nakijken zodat hij niet gaat lekken.",
+    metaTitle: "Dakkapel reinigen en onderhoud Den Bosch | Spoed Dak Service",
     metaDescription:
-      "Dakkapel laten poetsen en onderhouden in de regio Den Bosch. Reinigen plus controle van kit en aansluitingen tegen lekkage. Vaste prijs vooraf. Bel Rens.",
+      "Dakkapel laten schoonmaken in de regio Den Bosch en Oss: groene aanslag eraf en meteen de kit, het lood en de aansluitingen nagekeken tegen lekkage.",
     icoon: "🏠",
     intro:
-      "Een dakkapel wordt snel groen en grauw, en juist bij de aansluitingen en het kitwerk begint lekkage. Ik poets 'm weer fris en controleer meteen de naden en het lood zodat 'ie waterdicht blijft.",
+      "Een dakkapel wordt snel groen en grauw, en juist bij de kitnaden en de aansluiting op het dak begint lekkage. Ik maak hem weer schoon en kijk meteen of de naden, het lood en de zijkanten nog dicht zijn.",
     punten: [
-      "Dakkapel reinigen — weer fris",
+      "Dakkapel schoonmaken: groene aanslag en vuil eraf",
       "Kitwerk en aansluitingen nakijken",
       "Lood en zijwangen controleren",
       "Klein onderhoud voorkomt dure lekkage",
     ],
     faq: [
       { v: "Doe je ook dakkapellen plaatsen?", a: "Ik richt me op poetsen, onderhoud en lekkage van bestaande dakkapellen. Wil je een nieuwe laten plaatsen, dan denk ik mee over wie je daarvoor het beste kunt hebben." },
+      { v: "Wat kost een dakkapel laten reinigen?", a: `Een dakkapel reinigen kost ${DAKKAPEL_PRIJS}, inclusief een controle van de kit en de aansluitingen. Is hij groot of lastig te bereiken, dan hoor je vooraf de vaste prijs.` },
+      { v: "Mijn dakkapel lekt bij de kitnaden, wat doe je dan?", a: "Oude kit die hard is of loslaat, haal ik eruit, en ik zet er nieuwe kit in. Ik kijk ook naar het lood onder de voorkant en langs de zijkanten, want daar komt het water vaak binnen. Druppelt het nu al binnen, kijk dan op de spoedpagina wat je meteen kunt doen, of stuur me een foto." },
+      { v: "Hoe vaak moet een dakkapel schoongemaakt worden?", a: "Meestal is eens per jaar of om het jaar genoeg. Staat hij op het noorden of onder bomen, dan wordt hij sneller groen. Na de herfst is een goed moment: dan kijk ik meteen of de naden de winter aankunnen." },
+      { v: "Kom je ook in Oss en omgeving een dakkapel schoonmaken?", a: "Ja, in mijn hele werkgebied rond Den Bosch, zoals Oss, Rosmalen, Vught en Veghel. Op de werkgebiedpagina zie je of jouw plaats erbij staat." },
     ],
   },
   {
