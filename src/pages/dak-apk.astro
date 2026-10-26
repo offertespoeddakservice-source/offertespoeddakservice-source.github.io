@@ -1,10 +1,11 @@
 ---
 import Base from "../layouts/Base.astro";
 import { SITE, telHref, waHref } from "../site.config.ts";
-import { PRIJZEN_DAK_APK } from "../data/prijzen.ts";
+import { PRIJZEN, PRIJZEN_DAK_APK } from "../data/prijzen.ts";
 
 // Zelfde prijzen als op /prijzen en de homepage — één centrale bron (src/data/prijzen.ts).
 const prijstabel = PRIJZEN_DAK_APK;
+const apkPrijs = PRIJZEN.find((r) => r.dienst.startsWith("Dak-APK"))?.prijs ?? "";
 
 const bezwaren = [
   {
@@ -55,7 +56,7 @@ const keuringOnderdelen = [
 ---
 
 <Base
-  title={`Dak-APK voor €49: compleet keuringsrapport binnen een dagdeel | ${SITE.bedrijfsnaam}`}
+  title={`Dak-APK ${apkPrijs}: dakinspectie met foto's | ${SITE.bedrijfsnaam}`}
   description="De Dak-APK: binnen een dagdeel weet je zwart op wit of je dak nog goed is, met foto's van elke risicoplek. Voor €49, zonder verplichtingen achteraf."
   path="/dak-apk"
   schema={faqSchema}
