@@ -107,6 +107,18 @@ export const DIENSTEN: Dienst[] = [
         v: "Mijn dak lekt — wat moet ik nu eerst doen?",
         a: "Vang het water op, zet spullen droog en bel of WhatsApp me. Ik kan vaak snel langskomen om de lekkage eerst te stoppen; de nette reparatie volgt daarna.",
       },
+      {
+        v: "Mijn dak lekt alleen bij harde wind of een flinke bui, hoe kan dat?",
+        a: "Dan komt het water binnen op een plek die bij gewone regen droog blijft. Harde wind blaast de regen onder een verschoven pan, langs de nok of achter het lood bij de schoorsteen of het dakraam. Ik kijk gericht op die plekken, ook als het op dat moment droog is.",
+      },
+      {
+        v: "Betaalt de verzekering de reparatie van mijn dak?",
+        a: "Dat hangt af van je polis en van de oorzaak. De schade binnen, zoals aan een plafond of een vloer, wordt vaak vergoed. De reparatie van het dak zelf niet altijd, zeker niet als het lek door slijtage komt. Maak foto's van de schade voordat je iets opruimt en bel je verzekeraar.",
+      },
+      {
+        v: "Kun je het lek eerst tijdelijk dichtmaken?",
+        a: "Ja. Lukt een nette reparatie niet meteen, bijvoorbeeld omdat het hard regent of omdat er materiaal besteld moet worden, dan dek ik het eerst tijdelijk af, zodat het binnen droog blijft. De echte reparatie volgt daarna, en ook daarvan hoor je vooraf de prijs.",
+      },
     ],
   },
   {
