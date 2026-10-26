@@ -25,7 +25,7 @@ export const MATRIX: MatrixCombo[] = [
   {
     plaats: "den-bosch",
     dienst: "daklekkage",
-    hook: "Van de monumentale daken in de Bossche binnenstad tot de platte uitbouwen in Maaspoort: een lek opsporen vraagt hier ervaring met heel verschillende daktypes. Ik ben dagelijks in de stad, dus bij een lek sta ik snel voor je deur.",
+    hook: "In de binnenstad liggen veel goten verstopt tussen twee panden of achter een topgevel, waar je ze vanaf de straat niet ziet. Raakt zo'n goot vol of gaat het zink lekken, dan komt het water binnen op de bovenste verdieping, soms zelfs bij de buren, en vaak een eind van de plek waar het echte lek zit. In de Kruiskamp en de andere wijken uit de jaren '50 en '60 staan veel rijtjes met een pannendak en een schoorsteen per huis. Daar begint een lek meestal bij het lood rond die schoorsteen of bij een pan die is gaan schuiven. In Maaspoort en Empel liggen veel platte daken op aanbouwen en bergingen, en daar zie ik lekkage vaak bij de dakrand of bij een afvoer die vol blad zit. Den Bosch is mijn thuisbasis, dus meestal kan ik snel even komen kijken.",
   },
   {
     plaats: "rosmalen",
@@ -35,7 +35,7 @@ export const MATRIX: MatrixCombo[] = [
   {
     plaats: "vught",
     dienst: "daklekkage",
-    hook: "Veel oudere daken in Vught met klassiek lood en keramische pannen — precies de plekken waar daklekkage sluipend begint. Ik spoor het op en repareer gericht, zonder onnodig sloopwerk.",
+    hook: "In de villawijken van Vught, bijvoorbeeld langs de Helvoirtseweg, staan veel vooroorlogse villa's en herenhuizen met een steil dak van keramische pannen. Op zulke daken ligt veel lood: rond de schoorsteen, in de kilgoten en langs de muur waar een lager dak tegen het huis aansluit. Dat lood is vaak tientallen jaren oud. Het wordt hard, scheurt bij de vouwen of komt los van de muur, en dan loopt het water aan de binnenkant naar beneden. In Cromvoirt staan meer boerderijen en vrijstaande huizen met een breed pannendak, waar ik na een storm vaker een verschoven pan of een losse nokvorst vind. Ik werk van buiten naar binnen en breek alleen iets open als het echt niet anders kan.",
   },
   {
     plaats: "berlicum",
