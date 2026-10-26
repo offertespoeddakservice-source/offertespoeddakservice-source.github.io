@@ -80,6 +80,7 @@ const schema = [
     <div class="wrap prose">
       <h2>Dakdekker in {p.naam}</h2>
       <p>{p.lokaal}</p>
+      {p.extra && <p>{p.extra}</p>}
       {p.verweg ? (
         <p>
           Volle goten, losse pannen of een dak dat aan onderhoud toe is: ik help je er netjes vanaf. {`${p.naam} is ${p.reistijd}, dus hier plan ik de klus vooraf met je in.`}

@@ -13,6 +13,7 @@ export interface Plaats {
   wijken: string[];    // herkenbare buurten/kernen voor lokale relevantie
   reistijd?: string;   // gevoel van nabijheid vanuit Den Bosch
   verweg?: boolean;    // rand van het werkgebied: geen spoedbelofte, klussen worden vooraf ingepland
+  extra?: string;      // optioneel: een tweede, echt lokale alinea op de plaatspagina
 }
 
 export const PLAATSEN: Plaats[] = [
@@ -23,6 +24,8 @@ export const PLAATSEN: Plaats[] = [
       "Veel jaren-'60 en '70 woningen met schuine pannendaken — precies het soort dak waar nokvorsten loslaten en goten dichtslibben.",
     wijken: ["Molenhoek", "De Groote Wielen", "Sparrenburg", "Hondsberg", "Maliskamp"],
     reistijd: "10 min vanaf Den Bosch",
+    extra:
+      "In De Groote Wielen zijn de huizen nog jong, maar daar liggen veel platte daken en daken vol zonnepanelen. Lekkage zie ik daar eerder bij een dakdoorvoer, een afvoer of de rand van een plat dak dan bij oude pannen. In de Maliskamp en rond het oude centrum staan meer vrijstaande huizen en twee-onder-een-kappers met een schoorsteen, en daar kijk ik bij een lek eerst naar het lood.",
   },
   {
     slug: "vught",
@@ -119,6 +122,8 @@ export const PLAATSEN: Plaats[] = [
       "Mix van naoorlogse wijken met schuine daken; goten reinigen en losse pannen na storm vanaf de Langstraat zijn veelgevraagd.",
     wijken: ["Besoyen", "Baardwijk", "Laageinde", "Sprang-Capelle"],
     reistijd: "25 min vanaf Den Bosch",
+    extra:
+      "Met Sprang-Capelle en Waspik erbij heeft Waalwijk heel verschillende daken. Sprang-Capelle is een lang dorp langs de oude weg, met veel vrijstaande huizen en oude boerderijen met een breed dak en lange goten. Daar valt in de herfst veel blad in de goot van de bomen langs de straat, en een nokvorst die los zit merk je vaak pas als er specie in de goot ligt. In Besoyen en Baardwijk, de oude kernen die aan Waalwijk vastgegroeid zijn, staan nog veel huizen met een schoorsteen en oud lood. Twijfel je wat er met je dak aan de hand is, stuur dan een foto via WhatsApp.",
   },
   {
     slug: "uden",
