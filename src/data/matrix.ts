@@ -248,4 +248,10 @@ export const MATRIX: MatrixCombo[] = [
     dienst: "daklekkage",
     hook: "In Ginneken en Boeimeer staan veel huizen van rond 1930 met een steil pannendak en een goot die in de dakrand is weggewerkt. Wordt het zink van zo'n goot dun, dan komt het water niet op zolder binnen, maar bovenin de gevel of langs het plafond van de slaapkamer. In de Haagse Beemden staan vooral rijtjes en twee-onder-een-kappers uit de jaren '80 en '90, vaak met een dakraam in het pannendak. Daar zie ik lekkage nogal eens langs het gootstuk onder dat dakraam, of bij een pan ernaast die niet meer goed in de sluiting ligt. Omdat ik vanuit Den Bosch zo'n 40 minuten onderweg ben, vraag ik je eerst een foto van de natte plek te appen. Dan neem ik meteen het goede materiaal mee, en ik zeg je eerlijk op welk moment ik er kan zijn.",
   },
+  // Dakgoot repareren of vervangen in Veghel, met Erp en Boerdonk (Search Console: dakgoot lekkage veghel plek 23, dakgoot reparatie veghel plek 34), met andere lokale inhoud dan plaatsen.ts en de lekkagepagina van Veghel
+  {
+    plaats: "veghel",
+    dienst: "dakgoot-vervangen",
+    hook: "In Erp en Boerdonk staan veel langgevelboerderijen en oude woonboerderijen. Die hebben een lange, lage goot over de hele voorgevel, en aan de schuur of stal ernaast hangt vaak nog een tweede goot. Na veel jaren zakt zo'n goot tussen de haken door. Dan blijft er na een bui water in het midden staan, en juist daar gaat hij als eerste roesten of lekken. Aan de nieuwere huizen in Veghel zelf hangen vooral kunststof goten. Die zetten uit als het warm is en krimpen bij vorst, en na een paar jaar schiet er dan een hoekstuk of eindstuk los. Vaak is het genoeg om de goot weer op afschot te hangen of één hoekstuk te vervangen. Een nieuwe goot raad ik pas aan als het materiaal zelf op is.",
+  },
 ];
