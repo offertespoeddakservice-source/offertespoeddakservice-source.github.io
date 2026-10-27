@@ -218,6 +218,47 @@ export const ARTIKELEN: Artikel[] = [
     ],
   },
   {
+    slug: "dak-lekt-bij-hevige-regen",
+    datum: "2026-10-28",
+    titel: "Dak lekt alleen bij een stortbui?",
+    h1: "Dak lekt alleen bij hevige regen of een stortbui: waar zit het?",
+    metaTitle: "Dak lekt bij hevige regen of stortbui? | Spoed Dak Service",
+    metaDescription:
+      "Blijft je dak droog bij een gewone bui, maar lekt het bij een stortbui? Dan kan het water ergens niet snel genoeg weg. Dit zijn de plekken waar het meestal zit.",
+    intro:
+      "Bij een gewone bui is er niets aan de hand, maar na een flinke stortbui zie je ineens een natte plek. Dan zit er meestal geen gat in je dak. Er valt in korte tijd zoveel water dat het ergens niet snel genoeg weg kan. Het komt dan hoger te staan dan waar dat stuk dak voor gemaakt is, en zoekt een weg naar binnen. Hieronder lees je waar dat meestal gebeurt en wat je eraan doet.",
+    secties: [
+      { kop: "Lekt het nu? Eerst dit", tekst: [
+        'Zet een emmer neer, haal spullen weg en maak een foto van de natte plek. Ga niet het dak op en zet geen ladder tegen de goot zolang het zo hard regent. Wat je verder meteen kunt doen, staat op de <a href="/spoed/">spoedpagina</a>.',
+      ] },
+      { kop: "Stortbui of harde wind?", tekst: [
+        'Kijk eerst wat voor bui het was. Viel de regen vooral recht naar beneden, heel veel in korte tijd, lees dan hieronder verder. Lekt het vooral als het hard waait, dan blaast de wind de regen onder de pannen door. Dat is een ander verhaal, en dat lees je in <a href="/kennisbank/dak-lekt-bij-harde-wind/">dak lekt bij harde wind</a>.',
+      ] },
+      { kop: "Waar het meestal zit", tekst: [
+        'Een goot die het niet bijhoudt. Ligt er wat blad in de goot of bij de uitloop naar de regenpijp, dan gaat het bij een gewone bui nog net goed. Bij een stortbui loopt hij over. Bij een gewone goot zie je dat buiten langs de gevel. Bij een bakgoot, die in de rand van het dak ligt, loopt het water naar binnen. Lees ook <a href="/kennisbank/bakgoot-lekt/">bakgoot lekt</a> en <a href="/kennisbank/dakgoot-lekt/">dakgoot lekt</a>.',
+        'De kilgoot, in de hoek waar twee dakvlakken samenkomen. Daar komt het water van twee kanten tegelijk. Ligt er blad of mos in, dan komt het bij een stortbui hoger dan de rand van het lood of zink en loopt het opzij onder de pannen door. Zie <a href="/kennisbank/kilgoot-lekt/">kilgoot lekt</a>.',
+        'Een plat dak met een afvoer die vol blad of vuil zit. Het water blijft dan staan en komt bij een flinke bui tot over de opstaande rand of bij een naad. Zie <a href="/kennisbank/water-blijft-staan-op-plat-dak/">water blijft staan op je platte dak</a>.',
+        'Een dakraam. Boven het raam blijft soms blad liggen, en dan stroomt het water bij een stortbui over de aansluiting heen naar binnen. Zie <a href="/kennisbank/dakraam-lekt/">dakraam lekt</a>.',
+      ] },
+      { kop: "Waarom het alleen bij een stortbui lekt", tekst: [
+        "Een dak is gemaakt om water snel af te voeren. Pannen, lood en goten doen hun werk zolang het water weg kan. Zit er ergens een kleine belemmering, zoals wat blad, mos of een goot die een beetje doorhangt, dan merk je daar bij een gewone bui niets van. Valt er in korte tijd heel veel regen, dan is zo'n kleine belemmering net genoeg.",
+      ] },
+      { kop: "Wat je zelf kunt doen", tekst: [
+        "Schrijf op wanneer het lekte en hoe hard het regende. Kijk bij de volgende flinke bui vanuit huis of vanaf de stoep naar je goot: gutst het water over de voorkant, dan zit hij vol of kan de uitloop het niet aan. Ga niet zelf het dak op of op een ladder staan, zeker niet als alles nat is.",
+      ] },
+      { kop: "Hoe ik het oplos", tekst: [
+        'Vaak is het geen grote klus. Ik maak de goot, de kil of de afvoer leeg en kijk of het water weer vrij weg kan. Daarna kijk ik of er toch iets lek is, zoals een naad in de goot, een scheur in het lood of een pan die net niet goed ligt. Zit de goot alleen vol, dan is <a href="/diensten/goten-reinigen/">goten reinigen</a> genoeg. Is er wel iets kapot, zie dan <a href="/diensten/daklekkage/">daklekkage</a>. Je hoort vooraf de vaste prijs.',
+      ] },
+    ],
+    dienst: { label: "Bekijk: daklekkage & spoed", href: "/diensten/daklekkage/" },
+    faq: [
+      { v: "Waarom lekt mijn dak alleen bij een stortbui?", a: "Omdat het water dan niet snel genoeg weg kan. Een goot, kilgoot of afvoer die een beetje vol zit, gaat bij een gewone bui nog goed, maar loopt bij een stortbui over. Het water zoekt dan een weg naar binnen." },
+      { v: "Is er iets kapot als het alleen bij een stortbui lekt?", a: "Niet altijd. Vaak zit er iets vol en is leegmaken genoeg. Maar soms zit er ook een kleine scheur of een losse naad die je bij gewone regen niet merkt. Daarom kijk ik allebei na." },
+      { v: "Hoe zie ik of mijn goot overloopt of lek is?", a: "Gutst het water bij een flinke bui over de voorkant van de goot, dan zit hij meestal vol. Druppelt het op één vaste plek, ook nog als de bui voorbij is, dan is hij daar waarschijnlijk lek." },
+      { v: "Kun je snel komen als het binnen nat wordt?", a: "Bel of WhatsApp me met een foto van de natte plek binnen en, als dat veilig kan, een foto van de goot of het dak vanaf de straat. Dan hoor je wanneer ik kan komen." },
+    ],
+  },
+  {
     slug: "dakraam-lekt",
     datum: "2026-10-20",
     titel: "Dakraam lekt?",
