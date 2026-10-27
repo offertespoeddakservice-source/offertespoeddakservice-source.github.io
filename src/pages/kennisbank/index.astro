@@ -2,6 +2,21 @@
 import Base from "../../layouts/Base.astro";
 import { SITE } from "../../site.config.ts";
 import { ARTIKELEN } from "../../data/artikelen.ts";
+// Kennisbank in groepjes per onderwerp, lekkage eerst. Artikelen die nergens in staan komen in de laatste groep.
+const GROEPEN: { kop: string; slugs: string[] }[] = [
+  { kop: "Lekt je dak?", slugs: ["daklekkage-opsporen", "vochtplek-plafond", "dak-lekt-bij-hevige-regen", "dak-lekt-bij-harde-wind", "dakraam-lekt", "lekkage-bij-schoorsteen", "schoorsteen-lekt-open-haard", "kilgoot-lekt", "lekkage-bij-zonnepanelen", "condens-of-lekkage-op-zolder", "daklekkage-verzekering", "wat-kost-daklekkage-repareren"] },
+  { kop: "Dakgoten: vol, lek of kapot", slugs: ["dakgoot-lekt", "bakgoot-lekt", "verstopte-regenpijp-lekkende-dakgoot", "hoe-vaak-dakgoot-reinigen", "wat-kost-dakgoot-schoonmaken"] },
+  { kop: "Na een storm", slugs: ["stormschade-eerste-hulp", "nokvorsten-los"] },
+  { kop: "Platte daken", slugs: ["plat-dak-vervangen-of-repareren", "water-blijft-staan-op-plat-dak"] },
+  { kop: "Onderhoud, kosten en een goede dakdekker", slugs: ["dakinspectie", "dakonderhoud-per-seizoen", "mos-op-dak-verwijderen", "schoorsteen-vegen-hoe-vaak", "zonnepanelen-reinigen-nodig", "wat-kost-een-dakdekker", "hoe-herken-je-een-betrouwbare-dakdekker"] },
+];
+const zichtbaar = ARTIKELEN.filter((a) => !a.verborgen);
+const ingedeeld = new Set(GROEPEN.flatMap((g) => g.slugs));
+const overig = zichtbaar.filter((a) => !ingedeeld.has(a.slug));
+const groepen = GROEPEN.map((g, i) => ({
+  kop: g.kop,
+  artikelen: [...g.slugs.map((s) => zichtbaar.find((a) => a.slug === s)).filter((a) => a), ...(i === GROEPEN.length - 1 ? overig : [])] as typeof ARTIKELEN,
+}));
 ---
 
 <Base
@@ -13,20 +28,24 @@ import { ARTIKELEN } from "../../data/artikelen.ts";
     <div class="wrap">
       <p class="eyebrow" style="color:#ffb486;">Kennisbank</p>
       <h1>Daktips & eerlijke uitleg</h1>
-      <p class="lead">Praktische uitleg over je dak — zonder verkooppraatje. Zo weet je wat er speelt voordat je belt.</p>
+      <p class="lead">Praktische uitleg over je dak, zonder verkooppraatje. Zo weet je wat er speelt voordat je belt.</p>
     </div>
   </section>
   <section class="section">
     <div class="wrap">
-      <h2 class="sr-only">Alle artikelen</h2>
-      <div class="grid grid-3">
-        {ARTIKELEN.filter((a) => !a.verborgen).map((a) => (
-          <a class="card" href={`/kennisbank/${a.slug}/`}>
-            <h3>{a.titel}</h3>
-            <p>{a.metaDescription}</p>
-          </a>
-        ))}
-      </div>
+      {groepen.map((g, i) => (
+        <>
+          <h2 style={i === 0 ? "" : "margin-top:40px;"}>{g.kop}</h2>
+          <div class="grid grid-3" style="margin-top:16px;">
+            {g.artikelen.map((a) => (
+              <a class="card" href={`/kennisbank/${a.slug}/`}>
+                <h3>{a.titel}</h3>
+                <p>{a.metaDescription}</p>
+              </a>
+            ))}
+          </div>
+        </>
+      ))}
     </div>
   </section>
 </Base>
