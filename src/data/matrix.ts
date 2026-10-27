@@ -84,7 +84,7 @@ export const MATRIX: MatrixCombo[] = [
   {
     plaats: "boxtel",
     dienst: "daklekkage",
-    hook: "In het oudere centrum van Boxtel en de wijken eromheen zie ik daklekkage vaak ontstaan onder de bomenrijke straten: blad in de goot, water langs de muur. Opsporen zonder onnodig sloopwerk.",
+    hook: "Bij de oudere huizen rond het centrum van Boxtel zie ik vaak een erker of een luifel boven de voordeur met een klein plat dakje erop. Waar dat dakje tegen de gevel komt, zit een strook lood. Laat die los of is hij gescheurd, dan loopt het water achter het lood langs en komt het binnen boven het raam. In Liempde en Esch, die ook bij Boxtel horen, staan meer boerderijen en vrijstaande huizen met een groot pannendak. Daar begint een lek vaker bij de schoorsteen of bij een pan die door de wind is gaan schuiven. Ik spoor het lek op zonder onnodig sloopwerk en vertel je eerlijk wat het kost voordat ik begin.",
   },
   {
     plaats: "schijndel",
