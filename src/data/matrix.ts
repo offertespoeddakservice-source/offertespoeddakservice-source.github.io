@@ -148,7 +148,7 @@ export const MATRIX: MatrixCombo[] = [
   {
     plaats: "oss",
     dienst: "stormschade",
-    hook: "Na een storm waaien in de ruime, open wijken van Oss makkelijk pannen los. Ik kom snel langs, dek de schade af en herstel de nokvorsten en pannen netjes — met foto's voor je verzekering.",
+    hook: "Na een storm waaien in de ruime, open wijken van Oss makkelijk pannen los. Ik kom snel langs, dek de schade af en herstel de nokvorsten en pannen netjes, met foto's voor je verzekering.",
   },
   {
     plaats: "den-bosch",
@@ -178,7 +178,7 @@ export const MATRIX: MatrixCombo[] = [
   {
     plaats: "drunen",
     dienst: "stormschade",
-    hook: "Open bij de Loonse en Drunense Duinen vangt Drunen veel wind. Losse of weggewaaide pannen laten regen binnen — ik kom snel langs voor noodreparatie.",
+    hook: "Open bij de Loonse en Drunense Duinen vangt Drunen veel wind. Losse of weggewaaide pannen laten regen binnen. Ik kom snel langs voor noodreparatie.",
   },
   {
     plaats: "boxtel",
@@ -188,7 +188,7 @@ export const MATRIX: MatrixCombo[] = [
   {
     plaats: "schijndel",
     dienst: "stormschade",
-    hook: "Veel daken in Schijndel zijn ouder dan 1985 — bij storm waaien daar sneller pannen en vorsten los. Eerst de schade stoppen, dan blijvend herstellen.",
+    hook: "Veel daken in Schijndel zijn ouder dan 1985, en bij storm waaien daar sneller pannen en vorsten los. Eerst de schade stoppen, dan blijvend herstellen.",
   },
   {
     plaats: "heusden",
