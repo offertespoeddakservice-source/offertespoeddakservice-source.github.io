@@ -21,7 +21,7 @@ export const PLAATSEN: Plaats[] = [
     slug: "rosmalen",
     naam: "Rosmalen",
     lokaal:
-      "Veel jaren-'60 en '70 woningen met schuine pannendaken — precies het soort dak waar nokvorsten loslaten en goten dichtslibben.",
+      "Veel jaren-'60 en '70 woningen met schuine pannendaken: precies het soort dak waar nokvorsten loslaten en goten dichtslibben.",
     wijken: ["Molenhoek", "De Groote Wielen", "Sparrenburg", "Hondsberg", "Maliskamp"],
     reistijd: "10 min vanaf Den Bosch",
     extra:
@@ -31,7 +31,7 @@ export const PLAATSEN: Plaats[] = [
     slug: "vught",
     naam: "Vught",
     lokaal:
-      "Van vooroorlogse villa's tot naoorlogse rijtjes — vaak oudere daken met klassiek lood en keramische pannen die onderhoud vragen.",
+      "Van vooroorlogse villa's tot naoorlogse rijtjes, vaak oudere daken met klassiek lood en keramische pannen die onderhoud vragen.",
     wijken: ["Vught-Noord", "Vught-Zuid", "Cromvoirt"],
     reistijd: "10 min vanaf Den Bosch",
     extra:
@@ -109,7 +109,7 @@ export const PLAATSEN: Plaats[] = [
     slug: "oisterwijk",
     naam: "Oisterwijk",
     lokaal:
-      "Bosrijke omgeving betekent veel bladval en mos op daken — goten en pannen vragen hier extra aandacht.",
+      "Bosrijke omgeving betekent veel bladval en mos op daken, dus goten en pannen vragen hier extra aandacht.",
     wijken: ["Pannenschuur", "Westend", "Moergestel"],
     reistijd: "25 min vanaf Den Bosch",
     extra:
