@@ -39,7 +39,7 @@ export const DIENSTEN: Dienst[] = [
     kort: "Verstopte of volle goten leeg — en ik meld het eerlijk als er meer speelt op je dak.",
     metaTitle: `Dakgoot schoonmaken: ${GOTEN_PRIJS} | Spoed Dak Service`,
     metaDescription:
-      "Goten laten reinigen in de regio Den Bosch: €99 all-in voor een rijtjeswoning, vaste prijs vooraf. Snel langs, netjes werk en eerlijk advies over je dak. Bel of WhatsApp Rens.",
+      "Goten laten reinigen in de regio Den Bosch: vanaf €99 voor een rijtjeswoning, vaste prijs vooraf. Snel langs, netjes werk en eerlijk advies over je dak. Bel of WhatsApp Rens.",
     icoon: "🪣",
     vanafPrijs: GOTEN_PRIJS,
     intro:
@@ -53,7 +53,7 @@ export const DIENSTEN: Dienst[] = [
     faq: [
       {
         v: "Wat kost goten reinigen?",
-        a: `${GOTEN_PRIJS} voor een rijtjeswoning: beide goten leeg, uitloop naar de regenpijp vrijgemaakt, troep mee. Groter of hoger huis? Dan hoor je vooraf de vaste prijs, nooit achteraf verrassingen.`,
+        a: `Voor een rijtjeswoning ${GOTEN_PRIJS}: beide goten leeg, uitloop naar de regenpijp vrijgemaakt, troep mee. Groter of hoger huis? Dan hoor je vooraf de vaste prijs, nooit achteraf verrassingen.`,
       },
       {
         v: "Hoe vaak moet ik mijn goten laten reinigen?",
@@ -336,7 +336,7 @@ export const DIENSTEN: Dienst[] = [
     kort: "De hele schoorsteen geveegd, plus een blik op het lood en de aansluiting.",
     metaTitle: "Schoorsteenveger Den Bosch en omgeving | Spoed Dak Service",
     metaDescription:
-      `Schoorsteen laten vegen in de regio Den Bosch voor ${VEEG_PRIJS}: veilig, netjes en zonder roet in huis. Meteen een blik op het lood en de aansluiting.`,
+      `Schoorsteen laten vegen in de regio Den Bosch, ${VEEG_PRIJS}: veilig, netjes en zonder roet in huis. Meteen een blik op het lood en de aansluiting.`,
     icoon: "🧹",
     intro:
       "Een schone schoorsteen is veiliger (minder kans op schoorsteenbrand) en trekt beter. Ik veeg de hele schoorsteen, netjes en zonder roet in huis, en kijk meteen of het lood en de aansluiting nog goed zijn — dat is vaak een lekbron.",
