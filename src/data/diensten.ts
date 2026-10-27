@@ -30,9 +30,9 @@ export const DIENSTEN: Dienst[] = [
   {
     slug: "goten-reinigen",
     titel: "Goten reinigen",
-    h1: "Dakgoot reinigen — snel, netjes en met eerlijk advies",
+    h1: "Dakgoot schoonmaken: snel, netjes en met eerlijk advies",
     kort: "Verstopte of volle goten leeg — en ik meld het eerlijk als er meer speelt op je dak.",
-    metaTitle: "Dakgoot reinigen — €99 all-in, regio Den Bosch | Spoed Dak Service",
+    metaTitle: `Dakgoot schoonmaken: ${GOTEN_PRIJS} | Spoed Dak Service`,
     metaDescription:
       "Goten laten reinigen in de regio Den Bosch: €99 all-in voor een rijtjeswoning, vaste prijs vooraf. Snel langs, netjes werk en eerlijk advies over je dak. Bel of WhatsApp Rens.",
     icoon: "🪣",
