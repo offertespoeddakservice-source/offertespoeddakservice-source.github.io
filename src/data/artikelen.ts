@@ -838,7 +838,7 @@ export const ARTIKELEN: Artikel[] = [
     slug: "mos-op-dak-verwijderen",
     titel: "Mos op je dak",
     h1: "Mos op je dak verwijderen: schadelijk of niet, en hoe wél?",
-    metaTitle: "Mos op dak verwijderen — schadelijk? | Spoed Dak Service",
+    metaTitle: "Mos op dak: verwijderen of laten zitten? | Spoed Dak Service",
     metaDescription:
       "Mos op je dak verwijderen? Mos houdt vocht vast en kan pannen laten scheuren bij vorst. Maar een hogedrukreiniger is riskant.",
     intro:
@@ -858,6 +858,7 @@ export const ARTIKELEN: Artikel[] = [
     faq: [
       { v: "Mag ik zelf met een hogedrukreiniger mijn dak schoonmaken?", a: "Liever niet op oudere of poreuze pannen — je haalt er de toplaag af en beschadigt ze. Op hoogte werken is bovendien niet zonder risico. Ik doe het veilig en op de juiste druk." },
       { v: "Komt het mos terug?", a: "Op den duur wel, zeker aan de noordkant en onder bomen. Laat het niet te dik worden: af en toe reinigen en elk najaar de goten leeg houdt het meestal goed in de hand." },
+      { v: "Wanneer laat je mos het beste weghalen?", a: "Het liefst op een droge dag in het voorjaar of in het begin van de herfst. Op een nat of bevroren dak is het glad en werk je niet veilig. Laat het weghalen voordat je goten worden leeggemaakt, want het losse mos komt toch in de goot terecht." },
     ],
   },
   {
