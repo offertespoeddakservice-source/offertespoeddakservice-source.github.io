@@ -328,6 +328,8 @@ export const ARTIKELEN: Artikel[] = [
       { v: "Hoe vaak moet de nok nagekeken worden?", a: "Kijk zelf elk najaar even vanaf de straat. Zie je specie in de goot of een scheve vorst, laat het dan nakijken. Bij een ouder dak is elk jaar laten kijken geen overbodige luxe." },
       { v: "Valt een weggewaaide nokvorst onder de verzekering?", a: "Stormschade valt vaak onder je opstalverzekering. Een vorst die al lang los lag en dan wegwaait, wordt soms gezien als achterstallig onderhoud. Check de voorwaarden bij je verzekeraar." },
       { v: "Kun je snel komen als er een vorst los ligt?", a: "Ligt de nok open of is er een vorst afgewaaid, bel of WhatsApp me dan meteen met een foto. Bij spoed in de regio Den Bosch lukt het vaak nog dezelfde dag." },
+      { v: "Wat houdt het in als de nok gerenoveerd wordt?", a: "Dan haal ik de vorsten eraf, haal de oude, brokkelige specie weg en leg de vorsten er opnieuw goed vast op, recht en dicht. Kapotte vorsten vervang ik door passende. Daarna liggen ze weer stevig op de nok. Je hoort vooraf de vaste prijs." },
+      { v: "Kan ik met losse nokvorsten wachten tot het voorjaar?", a: "Liever niet. In de herfst en winter waait het het hardst, en dan is de kans het grootst dat een losse vorst eraf waait. Laat het daarom nakijken voordat de stormen komen." },
     ],
   },
   {
