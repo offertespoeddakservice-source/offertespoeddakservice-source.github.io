@@ -923,7 +923,7 @@ export const ARTIKELEN: Artikel[] = [
     h1: "Hoe vaak moet je de schoorsteen vegen, en wat kost het?",
     metaTitle: "Hoe vaak schoorsteen vegen? | Spoed Dak Service",
     metaDescription:
-      "Hoe vaak schoorsteen vegen? Bij regelmatig stoken één keer per jaar, het beste vóór het stookseizoen. Veiliger tegen schoorsteenbrand. Kosten €70.",
+      `Hoe vaak schoorsteen vegen? Bij regelmatig stoken één keer per jaar, het beste vóór het stookseizoen. Veiliger tegen schoorsteenbrand. Kosten ${veegPrijs}.`,
     intro:
       "Een schone schoorsteen is veiliger en trekt beter. Maar hoe vaak is vegen nu echt nodig, en wat kost het? Kort en eerlijk uitgelegd.",
     secties: [
@@ -938,7 +938,7 @@ export const ARTIKELEN: Artikel[] = [
         "Rook die bij het aansteken de kamer in slaat, een kachel die slecht trekt, een sterke roetlucht als je niet stookt, of zwarte schilfers onder in de haard. Merk je zoiets, wacht dan niet tot volgend jaar.",
       ] },
       { kop: "Wat kost het?", tekst: [
-        "Schoorsteen vegen kost €70 — netjes en zonder roetzooi in huis. Omdat ik toch op het dak ben, neem ik de aansluiting en het lood even mee in de controle.",
+        `Schoorsteen vegen kost ${veegPrijs}: netjes en zonder roetzooi in huis. Omdat ik toch op het dak ben, neem ik de aansluiting en het lood even mee in de controle.`,
       ] },
     ],
     dienst: { label: "Bekijk: schoorsteen vegen", href: "/diensten/schoorsteen-vegen/" },
@@ -983,7 +983,7 @@ export const ARTIKELEN: Artikel[] = [
     h1: "Zonnepanelen reinigen: nodig, hoe vaak en wat levert het op?",
     metaTitle: "Zonnepanelen reinigen nodig? | Spoed Dak Service",
     metaDescription:
-      "Vuile zonnepanelen leveren minder op. Hoe vaak reinigen nodig is, wat het kost (vanaf €10/paneel) en hoeveel opbrengst je terugwint.",
+      `Vuile zonnepanelen leveren minder op. Hoe vaak reinigen nodig is, wat het kost (${zonPrijs}) en hoeveel opbrengst je terugwint.`,
     intro:
       "Stof, mos en vogelpoep op je panelen kosten opbrengst. Maar hoe vaak is reinigen echt nodig, en verdien je het terug? Kort en eerlijk.",
     secties: [
@@ -996,7 +996,7 @@ export const ARTIKELEN: Artikel[] = [
         'Lekt het op zolder sinds de panelen erop liggen? Lees dan <a href="/kennisbank/lekkage-bij-zonnepanelen/">lekkage bij zonnepanelen</a>.',
       ] },
       { kop: "Wat kost het?", tekst: [
-        "Zonnepanelen reinigen begint bij €10 per paneel, veilig vanaf het dak en streepvrij. Omdat ik er toch ben, is het vaak handig te combineren met goten reinigen.",
+        `Zonnepanelen reinigen kost ${zonPrijs}, veilig vanaf het dak en streepvrij. Omdat ik er toch ben, is het vaak handig te combineren met goten reinigen.`,
       ] },
     ],
     dienst: { label: "Bekijk: zonnepanelen reinigen", href: "/diensten/zonnepanelen-reinigen/" },
