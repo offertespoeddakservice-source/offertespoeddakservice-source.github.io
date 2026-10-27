@@ -94,7 +94,7 @@ export const MATRIX: MatrixCombo[] = [
   {
     plaats: "heusden",
     dienst: "daklekkage",
-    hook: "Van de monumentale daken in vesting Heusden tot de naoorlogse woningen eromheen: een lek opsporen vraagt hier zorg voor het oude werk. Ik repareer gericht, met respect voor het dak.",
+    hook: "In vesting Heusden staan veel monumenten en oude panden, en de hele vesting is beschermd stadsgezicht. Daar zit een lek vaak in oud lood rond een schoorsteen, in een oude zinken goot of bij een pan die niet meer goed ligt. Bij zo'n dak kijk ik extra goed welk materiaal erbij past, want op een monument mag je niet zomaar iets anders gebruiken. In Oudheusden en Herpt staan meer vrijstaande huizen en boerderijen met een groot pannendak. Daar komt een lek vaker van een nokvorst waarvan de specie is losgeraakt, of van pannen aan de onderkant van het dak die door de wind zijn opgetild. Twijfel je of jouw huis onder het beschermd stadsgezicht valt, dan kun je dat bij de gemeente Heusden navragen.",
   },
   {
     plaats: "sint-michielsgestel",
@@ -104,7 +104,7 @@ export const MATRIX: MatrixCombo[] = [
   {
     plaats: "oisterwijk",
     dienst: "daklekkage",
-    hook: "In het bosrijke Oisterwijk zorgen bladval en mos voor verstopte goten die overlopen — vaak de oorzaak van wat op daklekkage lijkt. Ik spoor het op en pak het bij de bron aan.",
+    hook: "Oisterwijk ligt tussen de bossen en vennen, en ook in het dorp zelf staan veel oude bomen, zoals de lindes op De Lind. In de herfst ligt er dan veel blad en soms een dikke laag mos in de goot en in de kilgoot. Loopt die over, dan komt het water binnen langs de muur of in een hoek. Dat lijkt op een daklek, terwijl het dak zelf nog dicht is. In de villawijken aan de rand van de bossen staan veel huizen met een groot, steil dak en meer dan één kilgoot, en daar kijk ik bij een natte plek eerst naar de kil. In Moergestel, dat ook bij Oisterwijk hoort, staan veel gewone dorpswoningen met een schoorsteen, en daar vind ik een lek vaker bij het lood eromheen. Zit de goot alleen vol, dan zeg ik dat ook: dan is leegmaken genoeg.",
   },
 
   // ── Tier B · goten reinigen ──────────────────────────────────────────
