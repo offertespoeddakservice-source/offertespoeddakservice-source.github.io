@@ -10,20 +10,24 @@ export function getStaticPaths() {
 }
 const { a } = Astro.props;
 const apkPrijs = PRIJZEN.find((r) => r.dienst.startsWith("Dak-APK"))?.prijs ?? "";
-// Laatst bijgewerkt: artikelen zonder eigen datum die in oktober 2026 zijn aangepast (zie geschiedenis).
+// Laatst bijgewerkt: datum van de laatste inhoudelijke wijziging per artikel (zie geschiedenis). Gaat voor de eigen datum van het artikel.
 const BIJGEWERKT: Record<string, string> = {
   "daklekkage-opsporen": "2026-10-18",
-  "wat-kost-daklekkage-repareren": "2026-10-18",
-  "stormschade-eerste-hulp": "2026-10-18",
+  "wat-kost-daklekkage-repareren": "2026-10-27",
+  "stormschade-eerste-hulp": "2026-10-27",
   "hoe-vaak-dakgoot-reinigen": "2026-10-18",
-  "verstopte-regenpijp-lekkende-dakgoot": "2026-10-18",
-  "mos-op-dak-verwijderen": "2026-10-19",
+  "verstopte-regenpijp-lekkende-dakgoot": "2026-10-27",
+  "mos-op-dak-verwijderen": "2026-10-27",
   "plat-dak-vervangen-of-repareren": "2026-10-20",
   "dakonderhoud-per-seizoen": "2026-10-21",
-  "schoorsteen-vegen-hoe-vaak": "2026-10-21",
+  "schoorsteen-vegen-hoe-vaak": "2026-10-27",
   "hoe-herken-je-een-betrouwbare-dakdekker": "2026-10-21",
-  "zonnepanelen-reinigen-nodig": "2026-10-21",
-  "wat-kost-een-dakdekker": "2026-10-24",
+  "zonnepanelen-reinigen-nodig": "2026-10-27",
+  "wat-kost-een-dakdekker": "2026-10-27",
+  "dakgoot-lekt": "2026-10-27",
+  "lekkage-bij-zonnepanelen": "2026-10-27",
+  "nokvorsten-los": "2026-10-27",
+  "bakgoot-lekt": "2026-10-27",
 };
 const bijgewerkt = BIJGEWERKT[a.slug] ?? a.datum;
 const path = `/kennisbank/${a.slug}`;
