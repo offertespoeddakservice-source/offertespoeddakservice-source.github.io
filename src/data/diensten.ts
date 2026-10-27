@@ -9,6 +9,7 @@ import { PRIJZEN } from "./prijzen";
 const GOTEN_PRIJS = PRIJZEN.find((r) => r.dienst === "Dakgoot reinigen")?.prijs ?? "";
 const VEEG_PRIJS = PRIJZEN.find((r) => r.dienst === "Schoorsteen vegen")?.prijs ?? "";
 const DAKKAPEL_PRIJS = PRIJZEN.find((r) => r.dienst === "Dakkapel poetsen")?.prijs ?? "";
+const ONTMOS_PRIJS = PRIJZEN.find((r) => r.dienst.startsWith("Dak reinigen"))?.prijs ?? "";
 
 export interface Dienst {
   slug: string;
@@ -279,11 +280,11 @@ export const DIENSTEN: Dienst[] = [
   {
     slug: "dak-reinigen",
     titel: "Dak reinigen",
-    h1: "Dak reinigen — mos, vuil en groene aanslag eraf",
+    h1: "Dak reinigen: mos, vuil en groene aanslag eraf",
     kort: "Mos en aanslag verwijderen zodat je dak weer ademt en langer meegaat.",
     metaTitle: "Dak reinigen & mos verwijderen Den Bosch | Spoed Dak Service",
     metaDescription:
-      "Dak laten reinigen in de regio Den Bosch: mos, vuil en groene aanslag eraf voor €8–€15 per m². Voorkomt verstopping en schade. Vaste prijs vooraf. Bel of WhatsApp Rens.",
+      `Dak laten reinigen in de regio Den Bosch: mos, vuil en groene aanslag eraf voor ${ONTMOS_PRIJS}. Zo lopen je goten minder snel vol. Vaste prijs vooraf. Bel of WhatsApp Rens.`,
     icoon: "🧽",
     vanafPrijs: "€8 – €15 p/m²",
     intro:
