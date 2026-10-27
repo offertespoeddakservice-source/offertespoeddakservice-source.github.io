@@ -314,7 +314,7 @@ export const DIENSTEN: Dienst[] = [
       "Gebroken of verschoven dakpannen vervangen en recht leggen in de regio Den Bosch. Voorkomt lekkage en tocht. Vaste prijs vooraf. Bel of WhatsApp Rens.",
     icoon: "🧱",
     intro:
-      "Losse of kapotte pannen zijn de meest voorkomende oorzaak van lekkage. Ik vervang gebroken pannen, leg verschoven pannen recht en zorg dat alles weer waterdicht ligt — voordat het een groot probleem wordt.",
+      "Losse of kapotte pannen zijn de meest voorkomende oorzaak van lekkage. Ik vervang gebroken pannen, leg verschoven pannen recht en zorg dat alles weer waterdicht ligt, voordat het een groot probleem wordt.",
     punten: [
       "Gebroken of poreuze pannen vervangen",
       "Verschoven pannen recht leggen",
@@ -465,25 +465,25 @@ export const DIENSTEN: Dienst[] = [
     icoon: "🧊",
     afbeelding: "/img/dakrenovatie.jpg",
     intro:
-      "Via een slecht geïsoleerd dak verdwijnt een flink deel van je stookwarmte — zo'n beetje de duurste warmte die je hebt. Isoleren merk je meteen: minder stoken in de winter, een koelere zolder in de zomer. Ik kom kijken wat bij jouw dak past — het schuine dak aan de binnenkant of de zoldervloer — en je krijgt een vaste prijs vooraf. Als huiseigenaar krijg je er vaak ISDE-subsidie op.",
+      "Via een slecht geïsoleerd dak verdwijnt een flink deel van je stookwarmte, en dat is zo'n beetje de duurste warmte die je hebt. Isoleren merk je meteen: minder stoken in de winter, een koelere zolder in de zomer. Ik kom kijken wat bij jouw dak past, het schuine dak aan de binnenkant of de zoldervloer, en je krijgt een vaste prijs vooraf. Als huiseigenaar krijg je er vaak ISDE-subsidie op.",
     punten: [
       "Schuin dak aan de binnenkant of zoldervloer isoleren",
       "Direct merkbaar: lagere stookkosten, meer comfort",
-      "Eerst check of je dak droog en gezond is — isoleren op een lek dak maakt het erger",
+      "Eerst check of je dak droog en gezond is: isoleren op een lek dak maakt het erger",
       "Eerlijk advies over ISDE-subsidie: wat kan er in jouw geval",
     ],
     faq: [
       {
         v: "Krijg ik subsidie op dakisolatie?",
-        a: "Vaak wel: via de ISDE-regeling krijg je als huiseigenaar een deel van de kosten terug, en bij twee isolatiemaatregelen tegelijk is het bedrag hoger. De voorwaarden veranderen regelmatig — ik kijk met je mee wat er in jouw geval mogelijk is en welke papieren je daarvoor nodig hebt.",
+        a: "Vaak wel: via de ISDE-regeling krijg je als huiseigenaar een deel van de kosten terug, en bij twee isolatiemaatregelen tegelijk is het bedrag hoger. De voorwaarden veranderen regelmatig. Ik kijk met je mee wat er in jouw geval mogelijk is en welke papieren je daarvoor nodig hebt.",
       },
       {
         v: "Wat kost dakisolatie?",
-        a: "Dat hangt af van de oppervlakte en wat we isoleren (schuin dak of zoldervloer). Ik kom gratis kijken en je krijgt een vaste prijs vooraf — met een eerlijk advies of isoleren in jouw situatie uit kan.",
+        a: "Dat hangt af van de oppervlakte en wat we isoleren (schuin dak of zoldervloer). Ik kom gratis kijken en je krijgt een vaste prijs vooraf, met een eerlijk advies of isoleren in jouw situatie uit kan.",
       },
       {
         v: "Is mijn dak geschikt om te isoleren?",
-        a: "Meestal wel, maar het dak moet éérst droog en gezond zijn: isoleren over een lek of vochtprobleem heen maakt de schade alleen maar groter. Dat controleer ik vooraf — bijvoorbeeld met de Dak-APK — en daarna isoleer ik.",
+        a: "Meestal wel, maar het dak moet éérst droog en gezond zijn: isoleren over een lek of vochtprobleem heen maakt de schade alleen maar groter. Dat controleer ik vooraf, bijvoorbeeld met de Dak-APK, en daarna isoleer ik.",
       },
     ],
   },
