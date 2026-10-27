@@ -34,6 +34,8 @@ export const PLAATSEN: Plaats[] = [
       "Van vooroorlogse villa's tot naoorlogse rijtjes — vaak oudere daken met klassiek lood en keramische pannen die onderhoud vragen.",
     wijken: ["Vught-Noord", "Vught-Zuid", "Cromvoirt"],
     reistijd: "10 min vanaf Den Bosch",
+    extra:
+      "Sinds 2021 hoort ook Helvoirt bij de gemeente Vught. Daar staan veel vrijstaande huizen en oude boerderijen met een breed pannendak, vaak met hoge bomen eromheen. Ook aan de bosrand bij de IJzeren Man en de Vughtse Heide staan veel huizen tussen dennen en eiken. Dennennaalden zijn fijn: ze glijden door een bladvanger heen en zetten de uitloop naar de regenpijp na een tijd dicht. Loopt je goot over terwijl er weinig blad in ligt, dan zit het vaak daar.",
   },
   {
     slug: "vlijmen",
@@ -66,6 +68,8 @@ export const PLAATSEN: Plaats[] = [
       "Veel oudere, karakteristieke woningen langs de Dommel met klassieke pannendaken die regelmatig onderhoud aan vorsten en lood vragen.",
     wijken: ["Gestel", "Den Dungen", "Gemonde"],
     reistijd: "15 min vanaf Den Bosch",
+    extra:
+      "Rond Sint-Michielsgestel liggen oude landgoederen, zoals Zegenwerp en Ruwenberg, en ook in de straten eromheen staan hoge eiken en beuken. In de herfst komen daar naast blad ook eikels en takjes in de goot, en die blijven bij de uitloop naar de regenpijp hangen. In Den Dungen en Gemonde staan meer vrijstaande huizen en boerderijen met een groot pannendak, vaak met veel open land eromheen. Daar heeft de wind meer grip op het dak, en waait een nokvorst met losse specie er eerder af dan in een straat vol huizen.",
   },
   {
     slug: "schijndel",
