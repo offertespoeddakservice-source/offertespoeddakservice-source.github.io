@@ -3,6 +3,7 @@ import Base from "../../layouts/Base.astro";
 import { SITE, telHref, waHref } from "../../site.config.ts";
 import { ARTIKELEN } from "../../data/artikelen.ts";
 import { PRIJZEN } from "../../data/prijzen.ts";
+import EchteFotos from "../../components/EchteFotos.astro";
 
 export function getStaticPaths() {
   return ARTIKELEN.map((a) => ({ params: { slug: a.slug }, props: { a } }));
@@ -40,6 +41,13 @@ const groep = ONDERWERPEN.find((g) => g.includes(a.slug)) ?? [];
 // Spoedregel na het eerste stuk tekst: alleen bij artikelen over lekkage en storm, en alleen als daar nog geen link naar /spoed/ staat.
 const LEK_ARTIKELEN = new Set([...ONDERWERPEN[0], ...ONDERWERPEN[2], "bakgoot-lekt"]);
 const toonSpoedregel = LEK_ARTIKELEN.has(a.slug) && !(a.secties[0]?.tekst ?? []).some((t) => t.includes('href="/spoed/"'));
+// Echte foto's van Rens (uit fotos.ts) bij artikelen waar ze echt bij passen. Alleen artikelen die na publicatie niet zijn aangepast.
+const FOTOS_BIJ: Record<string, { soort: string; max: number }> = {
+  "dak-lekt-bij-harde-wind": { soort: "pannen", max: 2 },
+  "dakinspectie": { soort: "pannen", max: 3 },
+  "water-blijft-staan-op-plat-dak": { soort: "plat-dak", max: 1 },
+};
+const fotoBij = FOTOS_BIJ[a.slug];
 const plek = groep.indexOf(a.slug);
 const uitGroep = [...groep.slice(plek + 1), ...groep.slice(0, Math.max(plek, 0))]
   .map((s) => ARTIKELEN.find((x) => x.slug === s))
@@ -90,6 +98,7 @@ const schema = faqSchema ? [articleSchema, faqSchema] : articleSchema;
             )}
           </>
         ))}
+        {fotoBij && <EchteFotos soort={fotoBij.soort} max={fotoBij.max} inline />}
         {LEK_ARTIKELEN.has(a.slug) && (
           <p>Woon je in de regio Den Bosch? Hoe ik een lek bij jou in de buurt aanpak, lees je bij daklekkage in <a href="/werkgebied/den-bosch/daklekkage/">Den Bosch</a>, <a href="/werkgebied/vught/daklekkage/">Vught</a>, <a href="/werkgebied/rosmalen/daklekkage/">Rosmalen</a>, <a href="/werkgebied/oss/daklekkage/">Oss</a> en <a href="/werkgebied/veghel/daklekkage/">Veghel</a>. Andere plaatsen vind je bij <a href="/werkgebied/">mijn werkgebied</a>.</p>
         )}
