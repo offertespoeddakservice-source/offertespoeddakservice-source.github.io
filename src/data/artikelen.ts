@@ -531,7 +531,7 @@ export const ARTIKELEN: Artikel[] = [
   {
     slug: "verstopte-regenpijp-lekkende-dakgoot",
     titel: "Verstopte regenpijp?",
-    h1: "Verstopte regenpijp of lekkende dakgoot — oorzaken en oplossing",
+    h1: "Verstopte regenpijp of lekkende dakgoot: oorzaken en oplossing",
     metaTitle: "Verstopte regenpijp & lekkende dakgoot | Spoed Dak Service",
     metaDescription:
       "Verstopte regenpijp of lekkende dakgoot? Loopt het water langs je gevel, dan zit de afvoer meestal dicht. Zo herken je het en zo los ik het op.",
@@ -554,7 +554,7 @@ export const ARTIKELEN: Artikel[] = [
     ],
     dienst: { label: "Bekijk: dakgoot reinigen", href: "/diensten/goten-reinigen/" },
     faq: [
-      { v: "Kan ik een verstopte regenpijp zelf ontstoppen?", a: "Soms, met een tuinslang van bovenaf. Maar op hoogte werken is niet zonder risico, en zit de verstopping diep, dan krijg je 'm er zo niet uit. Ik doe het veilig en grondig in één keer." },
+      { v: "Kan ik een verstopte regenpijp zelf ontstoppen?", a: "Soms. Zit er alleen wat blad bovenin de uitloop van een lage goot, dan kun je dat zelf weghalen. Maar op hoogte werken is niet zonder risico, en zit de verstopping dieper in de pijp, dan krijg je hem er zo meestal niet uit. Ik maak de goot en de uitloop naar de regenpijp veilig leeg en kijk of het water weer wegloopt. Zit het dieper, dan zeg ik eerlijk wat er nodig is." },
       { v: "Hoe voorkom ik dat het terugkomt?", a: "Eén keer per jaar de goot laten reinigen (najaar) en eventueel bladroosters plaatsen. Staan er bomen vlakbij, dan twee keer per jaar." },
     ],
   },
