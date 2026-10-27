@@ -573,11 +573,17 @@ export const ARTIKELEN: Artikel[] = [
       { kop: "Lekt het bij de regenpijp?", tekst: [
         "Druppelt het bij de aansluiting van goot en regenpijp, dan zit de uitloop vaak los of lekt de verbinding. Lekt het verderop uit de regenpijp zelf, bij een verbinding of een scheur, dan moet dat stuk pijp meestal opnieuw vast of vervangen worden.",
       ] },
+      { kop: "In de winter: ijs in de goot", tekst: [
+        "Blijft er water in de goot staan en gaat het vriezen, dan zet het ijs uit. Dat drukt naden en hoeken open, vooral bij zinken goten en bij een goot die een beetje doorhangt. Je merkt het pas als het dooit: dan druppelt het ineens op een plek die eerst droog bleef. Een goot die voor de winter leeg is en goed op afschot hangt, heeft daar veel minder last van.",
+      ] },
       { kop: "Waarom je het niet laat zitten", tekst: [
         "Een lekkende goot lijkt klein, maar het water loopt elke bui langs dezelfde plek van je gevel. Dat geeft natte muren, groene aanslag en op den duur schade aan het metselwerk of de houten boeidelen.",
       ] },
       { kop: "Repareren of vervangen?", tekst: [
         'Een lekkende naad, een losse beugel of een lekkende uitloop is vaak goed te herstellen. Is de goot op meerdere plekken lek of zit er roest in, dan is vervangen op termijn meestal goedkoper dan blijven repareren. Ik zeg eerlijk wat in jouw geval slim is. Zie <a href="/diensten/dakgoot-vervangen/">dakgoot repareren of vervangen</a>.',
+      ] },
+      { kop: "Lekkende dakgoot en je verzekering", tekst: [
+        'Een goot die door ouderdom lek is geraakt, valt bij de meeste verzekeringen niet onder de dekking. Voor de schade aan je gevel of binnen ligt dat soms anders, maar dat verschilt per polis. Waait de goot los bij een storm, dan is het vaak wel plotselinge schade. Meer hierover lees je in <a href="/kennisbank/daklekkage-verzekering/">daklekkage en je verzekering</a>.',
       ] },
       { kop: "Wat kost het?", tekst: [
         'Dat hangt af van wat er lek is en hoe lang de goot is. Je hoort de vaste prijs vooraf. Zit de goot alleen vol, dan is het gewoon <a href="/diensten/goten-reinigen/">goten reinigen</a>. Richtprijzen staan op de <a href="/prijzen/">prijzenpagina</a>.',
@@ -588,6 +594,8 @@ export const ARTIKELEN: Artikel[] = [
       { v: "Kan ik een lekkende dakgoot zelf dichtkitten?", a: "Een likje kit houdt het soms even droog, maar op een natte of vuile goot hecht het slecht en na een winter lekt het vaak weer. En op een ladder bij de goot werken is niet zonder risico. Laat liever kijken waar het echt lekt." },
       { v: "Mijn goot lekt alleen bij harde regen, is hij dan lek?", a: "Niet altijd. Bij een stortbui kan een goot die een beetje vol zit gewoon overlopen. Druppelt het ook na een gewone bui op dezelfde plek, dan is er waarschijnlijk echt iets lek." },
       { v: "Kun je snel komen als het water langs de muur loopt?", a: "Bel of WhatsApp me met een foto van de plek. Dan zie ik vaak al of de goot vol zit of lek is, en hoor je wanneer ik kan komen." },
+      { v: "Wat kost het om een lekkende dakgoot te repareren?", a: "Dat hangt af van wat er lek is: een naad, een hoek, de uitloop of een losse beugel. Ik kijk eerst wat er echt mis is en je hoort de vaste prijs vooraf, voordat ik begin." },
+      { v: "Kan een dakgoot kapotvriezen?", a: "Een goot waar water in blijft staan, kan bij vorst schade krijgen. Het ijs zet uit en drukt naden en hoeken open. Daarom is het slim om je goot voor de winter leeg te laten maken." },
     ],
   },
   {
