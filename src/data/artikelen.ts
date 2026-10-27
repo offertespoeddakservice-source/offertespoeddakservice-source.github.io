@@ -872,7 +872,7 @@ export const ARTIKELEN: Artikel[] = [
       "KvK-inschrijving, een schriftelijke offerte, verzekering en garantie, meerdere offertes vergelijken — dit zijn de punten waar je op moet letten. Hieronder leg ik per punt uit waarom, en hoe ik dat zelf regel.",
     secties: [
       { kop: "Waarom dit een reëel risico is", tekst: [
-        "Branchevereniging Vebidak meldt zelf tientallen keren per jaar fraude in de dakenbranche en noemt dat \"het topje van de ijsberg\" — het gaat dus niet om een enkel incident. Eind 2025 deed de Hoge Raad uitspraak in een zaak met zeven gedupeerden; in een andere, aparte rechtszaak betaalde een klant €7.200 voor een offerte terwijl het werk €2.000 waard bleek, en kreeg hij achteraf €8.500 terug via de rechter.",
+        "Je leest geregeld over mensen die aan de deur een dakklus kregen aangesmeerd die niet nodig was, of die achteraf veel meer moesten betalen dan was afgesproken. Zulke verhalen komen regelmatig voorbij in het nieuws en bij consumentenprogramma's.",
         "Dat betekent niet dat de meeste dakdekkers oneerlijk zijn — verreweg de meeste doen gewoon hun werk. Maar de klachten die er wél zijn, volgen bijna altijd hetzelfde patroon: een mondelinge toezegging, een prijs die achteraf oploopt, en geen vast aanspreekpunt zodra er iets misgaat. Daar is met een paar checks vooraf veel van te voorkomen.",
       ] },
       { kop: "Checklist: waar je op let vóór je akkoord geeft", tekst: [
@@ -882,17 +882,17 @@ export const ARTIKELEN: Artikel[] = [
         "<strong>Meerdere offertes vergelijken</strong>, zeker bij grotere klussen (dakvervanging, renovatie) — een groot prijsverschil zonder duidelijke reden is een signaal om door te vragen.",
         "<strong>Reviews</strong>, met een kanttekening: een net gestart bedrijf heeft er nog weinig. Dat maakt het niet automatisch onbetrouwbaar — vraag dan gewoon naar recent afgerond werk of foto's.",
         "<strong>Pas op bij druk om nu te beslissen</strong> — aan de deur, of \"deze prijs geldt alleen vandaag\". Een serieus bedrijf geeft je bedenktijd.",
-        "<strong>Meerwerk alleen na jouw schriftelijke akkoord vooraf.</strong> Dat is niet alleen verstandig, het is sinds 2025 ook wettelijk verplicht (art. 6:230m BW) — een aannemer mag onvoorzien extra werk niet zomaar bij je in rekening brengen zonder dat jij daar vooraf mee instemde.",
+        "<strong>Meerwerk alleen na jouw akkoord vooraf.</strong> Komt er tijdens het werk iets extra's bij, vraag dan eerst om een prijs op papier of in een appje en geef pas daarna akkoord. Dan weet je precies waar je aan toe bent.",
       ] },
       { kop: "Zo doe ik het zelf", tekst: [
-        "Ik werk onder mijn eigen naam met mijn eigen 06-nummer — je krijgt mij aan de lijn, geen callcenter, en mijn KvK- en btw-gegevens deel ik gewoon op verzoek. Bij elke klus krijg je een vaste prijs vóórdat ik begin, en bij de Dak-APK (€49) krijg je er ook een fotorapport bij, zodat je niet op mijn woord alleen hoeft te vertrouwen.",
+        `Ik werk onder mijn eigen naam met mijn eigen 06-nummer: je krijgt mij aan de lijn, geen callcenter, en mijn KvK- en btw-gegevens deel ik gewoon op verzoek. Bij elke klus krijg je een vaste prijs vóórdat ik begin, en bij de Dak-APK (${apkPrijs}) krijg je er ook een fotorapport bij, zodat je niet op mijn woord alleen hoeft te vertrouwen.`,
         "Zie ik onderweg iets extra's dat nodig is, dan meld ik dat en bespreken we het vóórdat ik het uitvoer — nooit een verrassing op de rekening achteraf.",
       ] },
     ],
     dienst: { label: "Lees over mij en hoe ik werk", href: "/over/" },
     faq: [
       { v: "Is een opvallend lage prijs een waarschuwingssignaal?", a: "Niet per se — kijk vooral of de prijs op papier staat en of hij past bij wat er in de offerte beschreven staat. Een prijs die pas ná het werk duidelijk wordt, is het grotere risico." },
-      { v: "Wat als een dakdekker meerwerk wil doorberekenen zonder dat vooraf te zeggen?", a: "Dat mag sinds 2025 niet zomaar (art. 6:230m BW): extra werk moet eerst met jou worden afgestemd. Vraag altijd om een aangepaste, schriftelijke prijs vóórdat het meerwerk wordt uitgevoerd." },
+      { v: "Wat als een dakdekker meerwerk wil doorberekenen zonder dat vooraf te zeggen?", a: "Spreek vooraf af dat extra werk eerst met jou wordt overlegd, met een prijs op papier of in een appje. Gebeurt het toch zonder overleg, vraag dan om uitleg en betaal niet zomaar. Twijfel je over je rechten, dan kun je gratis advies vragen bij het Juridisch Loket." },
       { v: "Ik denk dat ik ben opgelicht door een dakdekker, wat nu?", a: "Bewaar alles: de offerte, betaalbewijzen, berichten en foto's. Doe aangifte bij de politie en meld het bij de Fraudehelpdesk. Heb je aan de deur iets getekend, dan heb je vaak 14 dagen bedenktijd. Laat het werk door een andere vakman bekijken voordat je nog iets betaalt." },
       { v: "Welke keurmerken zijn er voor dakdekkers?", a: "Bekende namen in de dakenbranche zijn het keurmerk Dakmerk en de branchevereniging Vebidak. Zo'n keurmerk betekent dat een bedrijf aan bepaalde eisen voldoet. Maar het zegt niet alles: let ook op een vaste prijs op papier, een KvK-inschrijving en één vast aanspreekpunt." },
     ],
