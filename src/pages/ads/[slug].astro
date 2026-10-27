@@ -111,7 +111,7 @@ const stappen = [
     <div class="wrap">
       <p class="eyebrow" style="color:#ffb486;">Wat klanten zeggen</p>
       <div class="stars" style="justify-content:center; margin-bottom:6px;">
-        <span class="ster" style="font-size:1.4rem;">★★★★★</span> <b style="font-size:1.6rem;">{score}</b> <a class="bron" style="font-size:1rem;" href={SITE.werkspotUrl} target="_blank" rel="noopener">op Werkspot (13 reviews)</a>
+        <span class="ster" style="font-size:1.4rem;">★★★★★</span> <b style="font-size:1.6rem;">{score}</b> <a class="bron" style="font-size:1rem;" href={SITE.werkspotUrl} target="_blank" rel="noopener">op Werkspot ({SITE.reviews.werkspotAantal} reviews)</a>
       </div>
       <div class="reviewgrid">
         {AD_REVIEWS.map((r) => (
