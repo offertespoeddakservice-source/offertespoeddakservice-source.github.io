@@ -28,13 +28,14 @@ export const SITE = {
 
   // Echte reviewscore — pas aan zodra je reviews hebt (laat anders weg uit schema).
   reviews: {
-    score: 4.8,   // Werkspot-score (13 reviews) — zie werkspotUrl
+    score: 4.5,   // Werkspot-score, zie werkspotUrl (bijgewerkt 27-10-2026)
+    werkspotAantal: 18, // aantal Werkspot-reviews (bijgewerkt 27-10-2026)
     aantal: 0,    // echt aantal GOOGLE-reviews — bij 0 geen sterren-schema (vul in zodra je Google-reviews hebt)
   },
 
   kvk: "64779890",
 
-  // Werkspot-profiel — bron van de 4,8-score (13 reviews).
+  // Werkspot-profiel, bron van de score hierboven.
   werkspotUrl: "https://www.werkspot.nl/profiel/spoed-dak-service",
 
   // Storm-banner (Master Builder "klantwerving-v2", Fase 3 R6 + Fase 4 R9 dv.2a — Grote Doorloop-fix 2026-07-03).

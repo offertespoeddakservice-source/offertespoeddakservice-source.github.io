@@ -36,7 +36,7 @@ export const DIENSTEN: Dienst[] = [
     slug: "goten-reinigen",
     titel: "Goten reinigen",
     h1: "Dakgoot schoonmaken: snel, netjes en met eerlijk advies",
-    kort: "Verstopte of volle goten leeg — en ik meld het eerlijk als er meer speelt op je dak.",
+    kort: "Verstopte of volle goten leeg, en ik meld het eerlijk als er meer speelt op je dak.",
     metaTitle: `Dakgoot schoonmaken: ${GOTEN_PRIJS} | Spoed Dak Service`,
     metaDescription:
       "Goten laten reinigen in de regio Den Bosch: vanaf €99 voor een rijtjeswoning, vaste prijs vooraf. Snel langs, netjes werk en eerlijk advies over je dak. Bel of WhatsApp Rens.",
@@ -47,7 +47,7 @@ export const DIENSTEN: Dienst[] = [
     punten: [
       "Goten leeg, blad en mos eruit, uitloop naar de regenpijp vrijgemaakt",
       "Meteen een eerlijke blik op pannen, lood en kitwerk",
-      "Vaste prijs vooraf — geen verrassingen achteraf",
+      "Vaste prijs vooraf, geen verrassingen achteraf",
       "Werk netjes achtergelaten, troep mee",
     ],
     faq: [
@@ -64,7 +64,7 @@ export const DIENSTEN: Dienst[] = [
         a: "Ja. Ik haal blad en vuil weg bij de uitloop van de goot naar de regenpijp en kijk of het water weer wegloopt. Zit de verstopping dieper in de pijp, dan zeg ik eerlijk wat er nodig is.",
       },
       {
-        v: "Mijn dakgoot lekt — komt dat door verstopping?",
+        v: "Mijn dakgoot lekt, komt dat door verstopping?",
         a: "Vaak wel: een volle of verstopte goot loopt over langs de muur, wat op lekkage lijkt. Soms zit het in een naad of het zinkwerk. Bij het schoonmaken kijk ik meteen waar het 'm in zit en zeg ik eerlijk of er meer nodig is.",
       },
       {
@@ -84,7 +84,7 @@ export const DIENSTEN: Dienst[] = [
       "Daklekkage? Ik spoor het lek op zonder onnodig sloopwerk en dicht het, bij spoed vaak nog dezelfde dag in de regio Den Bosch. Bel of WhatsApp me.",
     icoon: "💧",
     intro:
-      "Een lek wacht niet. Ik kom snel langs, spoor de oorzaak op (de natte plek zit zelden recht onder het echte lek) en dicht het vakkundig. Eerst de schade beperken, dan de oorzaak aanpakken — en je hoort eerlijk of het een reparatie is of dat er meer nodig is.",
+      "Een lek wacht niet. Ik kom snel langs, spoor de oorzaak op (de natte plek zit zelden recht onder het echte lek) en dicht het vakkundig. Eerst de schade beperken, dan de oorzaak aanpakken, en je hoort eerlijk of het een reparatie is of dat er meer nodig is.",
     punten: [
       "Vaak dezelfde dag langs bij spoed in de regio",
       "Lek opsporen zonder onnodig sloopwerk",
@@ -105,11 +105,11 @@ export const DIENSTEN: Dienst[] = [
         a: "Daklekkage opsporen doe ik van buiten naar binnen: ik volg de waterweg terug naar de échte oorzaak (vaak lood, een scheur of een verschoven pan), want de natte plek binnen ligt zelden recht onder het lek. Zo voorkom ik onnodig sloopwerk.",
       },
       {
-        v: "Mijn platte dak lekt — kun je dat ook repareren?",
-        a: "Ja, lekkage in een plat dak (bitumen of EPDM) spoor ik op en repareer ik gericht. Soms volstaat een gerichte reparatie, soms is een nieuwe baan of de hele bedekking beter — je hoort eerlijk wat verstandig is.",
+        v: "Mijn platte dak lekt, kun je dat ook repareren?",
+        a: "Ja, lekkage in een plat dak (bitumen of EPDM) spoor ik op en repareer ik gericht. Soms volstaat een gerichte reparatie, soms is een nieuwe baan of de hele bedekking beter, je hoort eerlijk wat verstandig is.",
       },
       {
-        v: "Mijn dak lekt — wat moet ik nu eerst doen?",
+        v: "Mijn dak lekt, wat moet ik nu eerst doen?",
         a: "Vang het water op, zet spullen droog en bel of WhatsApp me. Ik kan vaak snel langskomen om de lekkage eerst te stoppen; de nette reparatie volgt daarna.",
       },
       {
@@ -137,7 +137,7 @@ export const DIENSTEN: Dienst[] = [
       "Losse pan, lood bij de schoorsteen of een nokvorst die los zit? Ik repareer het, bij spoed vaak nog dezelfde dag in de regio Den Bosch. Vaste prijs vooraf.",
     icoon: "🧰",
     intro:
-      "Veel daklekkages beginnen klein: een gebroken pan, loslatend lood bij de schoorsteen of een losgewaaide nokvorst. Ik herstel het voordat het een groot probleem wordt — met materiaal dat bij je dak past.",
+      "Veel daklekkages beginnen klein: een gebroken pan, loslatend lood bij de schoorsteen of een losgewaaide nokvorst. Ik herstel het voordat het een groot probleem wordt, met materiaal dat bij je dak past.",
     punten: [
       "Gebroken of verschoven dakpannen vervangen",
       "Lood/loodslabben bij schoorsteen, dakkapel en dakraam",
@@ -147,7 +147,7 @@ export const DIENSTEN: Dienst[] = [
     faq: [
       {
         v: "Wat kost het vervangen van een dakpan?",
-        a: "Een paar losse pannen vervangen is vaak een kort klusje: reken €100–€250. Je hoort vooraf de vaste prijs.",
+        a: "Een paar losse pannen vervangen is vaak een kort klusje: reken €100 tot €250. Je hoort vooraf de vaste prijs.",
       },
       {
         v: "Kun je met spoed een dakreparatie doen?",
@@ -171,14 +171,14 @@ export const DIENSTEN: Dienst[] = [
     slug: "platte-daken",
     titel: "Platte daken (EPDM)",
     vanafPrijs: `lek vanaf ${LEK_PRIJS.split(" - ")[0]}`,
-    h1: "Plat dak repareren of vervangen — EPDM en bitumen",
+    h1: "Plat dak repareren of vervangen: EPDM en bitumen",
     kort: "Lekkage in plat dak opsporen en herstellen, of de hele bedekking vernieuwen.",
     metaTitle: "Lekkend plat dak repareren Den Bosch | Spoed Dak Service",
     metaDescription:
       "Lekkage in een plat dak? EPDM- en bitumendaken repareren of vervangen in de regio Den Bosch. Eerlijke prijs, 1 jaar garantie op reparatie en 2 jaar op vervangen.",
     icoon: "🏠",
     intro:
-      "Platte daken lekken het vaakst bij naden en aansluitingen, en het water loopt vaak verderop naar binnen dan waar het lek zit. Ik spoor het op en herstel met EPDM of bitumen — of vervang de hele bedekking als dat verstandiger is.",
+      "Platte daken lekken het vaakst bij naden en aansluitingen, en het water loopt vaak verderop naar binnen dan waar het lek zit. Ik spoor het op en herstel met EPDM of bitumen, of vervang de hele bedekking als dat verstandiger is.",
     punten: [
       "Lekkage in plat dak gericht opsporen",
       "EPDM- en bitumenreparaties",
@@ -190,7 +190,7 @@ export const DIENSTEN: Dienst[] = [
         v: "Repareren of het hele dak vervangen?",
         a: "Bij een enkel lek op een verder gezond dak is repareren prima. Is de bedekking op meerdere plekken versleten, dan is vervangen op termijn goedkoper. Ik vertel je eerlijk wat in jouw geval slim is.",
       },
-      { v: "EPDM of bitumen — wat is beter?", a: "Beide zijn prima. EPDM is één flexibel, naadloos vel; bitumen is vertrouwd en sterk. Ik adviseer wat bij jouw dak en budget past." },
+      { v: "EPDM of bitumen, wat is beter?", a: "Beide zijn prima. EPDM is één flexibel, naadloos vel; bitumen is vertrouwd en sterk. Ik adviseer wat bij jouw dak en budget past." },
       { v: "Mijn platte dak lekt, hoe snel kun je komen?", a: "Druppelt het binnen, dan is het spoed. Bel of WhatsApp me met een foto van de natte plek. In de regio Den Bosch lukt het vaak nog dezelfde dag." },
       { v: "Het lekt bij mijn uitbouw of garage, doe je dat ook?", a: "Ja. De meeste uitbouwen, garages en bergingen hebben een plat dak, en daar zie ik veel lekkage. Vaak zit het bij de aansluiting met de gevel, bij de daktrim aan de rand of bij de afvoer. Die plekken kijk ik als eerste na." },
       { v: "Wat kost het om een lek in een plat dak te repareren?", a: "Dat hangt af van waar het lek zit en hoeveel er beschadigd is. Een gerichte reparatie is meestal het goedkoopst. Je hoort de vaste prijs vooraf, voordat ik begin. Richtprijzen staan op de prijzenpagina." },
@@ -207,7 +207,7 @@ export const DIENSTEN: Dienst[] = [
       "Stormschade aan je dak: weggewaaide pannen of lekkage? Ik kom snel langs voor noodreparatie in de regio Den Bosch en help met foto's voor de verzekering.",
     icoon: "🌬️",
     intro:
-      "Na een storm telt elk uur. Losse of weggewaaide pannen en open plekken laten regen binnen. Ik beperk eerst de schade (afdekken/dichten) en herstel daarna netjes — en maak duidelijke foto's die je kunt gebruiken voor je verzekering.",
+      "Na een storm telt elk uur. Losse of weggewaaide pannen en open plekken laten regen binnen. Ik beperk eerst de schade (afdekken/dichten) en herstel daarna netjes, en maak duidelijke foto's die je kunt gebruiken voor je verzekering.",
     punten: [
       "Snelle noodreparatie: eerst de schade stoppen",
       "Weggewaaide pannen en nokvorsten herstellen",
@@ -220,12 +220,12 @@ export const DIENSTEN: Dienst[] = [
         a: "Storm- en hagelschade valt vaak onder je opstalverzekering. Ik lever duidelijke foto's en een omschrijving aan zodat je het kunt indienen.",
       },
       {
-        v: "Er zijn dakpannen weggewaaid — kun je met spoed komen?",
+        v: "Er zijn dakpannen weggewaaid, kun je met spoed komen?",
         a: "Ja. Weggewaaide of verschoven dakpannen laten regen binnen, dus dat is spoed. Ik kom snel langs voor een noodreparatie: eerst dichten en afdekken, daarna netjes herstellen.",
       },
       {
         v: "Doe je ook noodreparatie 's avonds of in het weekend?",
-        a: "Bij echte stormschade wel — open plekken kunnen niet wachten. Bel of WhatsApp 06 10 18 53 57, dan hoor je meteen wanneer ik kan.",
+        a: "Bij echte stormschade wel, open plekken kunnen niet wachten. Bel of WhatsApp 06 10 18 53 57, dan hoor je meteen wanneer ik kan.",
       },
       { v: "Wat kost een noodreparatie na een storm?", a: "Dat hangt af van de schade. Een paar pannen terugleggen is iets anders dan een open stuk dak afdekken. Je hoort vooraf wat het kost, voordat ik begin. Is het 's avonds, 's nachts of in het weekend, dan komt er een toeslag bij, en ook die hoor je vooraf." },
       { v: "Er ligt na de storm een stuk dakpan of specie in mijn tuin, is dat erg?", a: "Het betekent dat er iets los zit op je dak, vaak een pan of een nokvorst. Ook als het binnen nog droog is, kan de volgende bui of windstoot water binnenlaten of meer pannen lostrekken. Blijf uit de buurt van de plek waar het naar beneden kwam, maak vanaf de straat een foto van je dak en stuur die via WhatsApp." },
@@ -242,10 +242,10 @@ export const DIENSTEN: Dienst[] = [
       "Lekkende of roestige dakgoot repareren of vervangen in de regio Den Bosch. Zink, kunststof of pvc, inclusief afvoer. Vaste prijs vooraf, troep gaat mee.",
     icoon: "🛠",
     intro:
-      "Een goot die roest, op de naden lekt of blijft overlopen krijg je met reinigen niet meer dicht. Dan vervang ik 'm — in zink, kunststof of pvc, passend bij je huis — zodat je gevel en fundering droog blijven.",
+      "Een goot die roest, op de naden lekt of blijft overlopen krijg je met reinigen niet meer dicht. Dan vervang ik 'm, in zink, kunststof of pvc, passend bij je huis, zodat je gevel en fundering droog blijven.",
     punten: [
       "Oude, roestige of lekkende goten vervangen",
-      "Zink, kunststof of pvc — wat bij je dak past",
+      "Zink, kunststof of pvc, wat bij je dak past",
       "Inclusief beugels en hemelwaterafvoer",
       "Vaste prijs vooraf, troep gaat mee",
     ],
@@ -262,23 +262,23 @@ export const DIENSTEN: Dienst[] = [
     verborgen: true,
     titel: "Dak coaten",
     vanafPrijs: "prijs na inspectie",
-    h1: "Dak coaten — bescherm je pannen en goten, veel goedkoper dan vervangen",
+    h1: "Dak coaten: bescherm je pannen en goten, veel goedkoper dan vervangen",
     kort: "Coating beschermt pannen en goten die nog goed zijn tegen mos, vuil en slijtage.",
     metaTitle: "Dak coaten & dakcoating Den Bosch | Spoed Dak Service",
     metaDescription:
-      "Dakpannen of dakgoot coaten in de regio Den Bosch — beschermt wat nog goed is en is veel goedkoper dan vervangen. Vaste prijs vooraf. Bel of WhatsApp Rens.",
+      "Dakpannen of dakgoot coaten in de regio Den Bosch: beschermt wat nog goed is en is veel goedkoper dan vervangen. Vaste prijs vooraf. Bel of WhatsApp Rens.",
     icoon: "🛡",
     intro:
-      "Zijn je pannen of goot nog goed maar verweerd? Dan hoef je ze niet te vervangen. Een coating beschermt tegen mos, vuil en slijtage en geeft je dak jaren extra — voor een fractie van de prijs van vervangen.",
+      "Zijn je pannen of goot nog goed maar verweerd? Dan hoef je ze niet te vervangen. Een coating beschermt tegen mos, vuil en slijtage en geeft je dak jaren extra, voor een fractie van de prijs van vervangen.",
     punten: [
-      "Eerst reinigen, dan coaten — netjes en grondig",
+      "Eerst reinigen, dan coaten, netjes en grondig",
       "Voor pannen die nog goed zijn (geen poreuze/versleten)",
       "Veel goedkoper dan vervangen",
       "Eerlijk advies: coaten of toch vervangen?",
     ],
     faq: [
-      { v: "Wanneer is coaten zinvol?", a: "Als je pannen of goot nog stevig zijn maar verweerd. Zijn ze poreus of versleten, dan is coaten zonde — dan adviseer ik vervangen. Ik kom kijken en zeg het eerlijk." },
-      { v: "Kun je ook de dakgoot coaten?", a: "Ja. Een goot die nog goed is maar verweerd kun je coaten tegen roest en slijtage — veel goedkoper dan vervangen." },
+      { v: "Wanneer is coaten zinvol?", a: "Als je pannen of goot nog stevig zijn maar verweerd. Zijn ze poreus of versleten, dan is coaten zonde. Dan adviseer ik vervangen. Ik kom kijken en zeg het eerlijk." },
+      { v: "Kun je ook de dakgoot coaten?", a: "Ja. Een goot die nog goed is maar verweerd kun je coaten tegen roest en slijtage, veel goedkoper dan vervangen." },
     ],
   },
   {
@@ -339,7 +339,7 @@ export const DIENSTEN: Dienst[] = [
       `Schoorsteen laten vegen in de regio Den Bosch, ${VEEG_PRIJS}: veilig, netjes en zonder roet in huis. Meteen een blik op het lood en de aansluiting.`,
     icoon: "🧹",
     intro:
-      "Een schone schoorsteen is veiliger (minder kans op schoorsteenbrand) en trekt beter. Ik veeg de hele schoorsteen, netjes en zonder roet in huis, en kijk meteen of het lood en de aansluiting nog goed zijn — dat is vaak een lekbron.",
+      "Een schone schoorsteen is veiliger (minder kans op schoorsteenbrand) en trekt beter. Ik veeg de hele schoorsteen, netjes en zonder roet in huis, en kijk meteen of het lood en de aansluiting nog goed zijn, dat is vaak een lekbron.",
     punten: [
       "Hele schoorsteen geveegd, netjes afgedekt binnen",
       "Veiliger: minder kans op schoorsteenbrand",
@@ -391,7 +391,7 @@ export const DIENSTEN: Dienst[] = [
       "Zonnepanelen laten schoonmaken in de regio Den Bosch: vuil en vogelpoep eraf, en ik kijk meteen even naar de pannen onder de panelen. Vaste prijs vooraf.",
     icoon: "🔆",
     intro:
-      "Stof, mos en vogelpoep op je panelen kosten zo enkele procenten opbrengst per jaar. Omdat ik toch op het dak sta, maak ik ze veilig en streepvrij schoon — en kijk meteen of de bevestiging en de pannen eronder nog goed zijn.",
+      "Stof, mos en vogelpoep op je panelen kosten zo enkele procenten opbrengst per jaar. Omdat ik toch op het dak sta, maak ik ze veilig en streepvrij schoon, en kijk meteen of de bevestiging en de pannen eronder nog goed zijn.",
     punten: [
       "Veilig vanaf het dak, geen krassen",
       "Streepvrij schoon = meer opbrengst",
@@ -399,7 +399,7 @@ export const DIENSTEN: Dienst[] = [
       "Vaak te combineren met goten reinigen",
     ],
     faq: [
-      { v: "Hoe vaak is reinigen nodig?", a: "Eens per 1–2 jaar is meestal genoeg, vaker als er veel bomen of vogels in de buurt zijn. Dan haal je het meeste uit je panelen." },
+      { v: "Hoe vaak is reinigen nodig?", a: "Eens per 1 tot 2 jaar is meestal genoeg, vaker als er veel bomen of vogels in de buurt zijn. Dan haal je het meeste uit je panelen." },
       { v: "Kijk je bij het reinigen ook naar lekkage onder de panelen?", a: "Ja. Omdat ik toch op het dak sta, kijk ik naar de bevestiging en de pannen eronder. Een pan die bij een dakhaak niet meer goed ligt, zie je zo vaak al voordat het binnen nat wordt." },
       { v: "Kan ik het combineren met goten reinigen?", a: "Ja, dat kan prima in één keer. Dan sta ik maar één keer op je dak en zijn de panelen en de goten allebei weer schoon." },
       { v: "Wat kost zonnepanelen reinigen?", a: "Dat hangt af van het aantal panelen en hoe goed ze bereikbaar zijn. Bovenaan deze pagina staat de prijsindicatie, en je hoort de vaste prijs vooraf." },
@@ -416,7 +416,7 @@ export const DIENSTEN: Dienst[] = [
       "Vogelwering plaatsen onder dakpannen en zonnepanelen in de regio Den Bosch. Voorkomt schade aan panlatten, isolatie en bekabeling. Vaste prijs vooraf.",
     icoon: "🐦",
     intro:
-      "Vogels (en hun nesten) onder je pannen of zonnepanelen beschadigen panlatten, isolatie en bekabeling, en geven overlast. Ik plaats nette vogelwering die het netjes en blijvend afsluit — zonder dat het lelijk wordt.",
+      "Vogels (en hun nesten) onder je pannen of zonnepanelen beschadigen panlatten, isolatie en bekabeling, en geven overlast. Ik plaats nette vogelwering die het netjes afsluit, zonder dat het lelijk wordt.",
     punten: [
       "Vogelwering onder dakpannen en zonnepanelen",
       "Voorkomt schade aan latten, isolatie en kabels",
@@ -440,7 +440,7 @@ export const DIENSTEN: Dienst[] = [
       "Dakrenovatie in de regio Den Bosch: versleten pannen vervangen, lood en nok vernieuwen en de goten meteen mee. Eerlijk advies of renoveren genoeg is, vaste prijs vooraf.",
     icoon: "🏚",
     intro:
-      "Is onderhoud niet meer genoeg, maar een compleet nieuw dak overdreven? Dan knap ik je dak grondig op: versleten pannen vervangen, lood en nok herstellen, goten aanpakken — in één keer, zodat je dak er weer jaren tegen kan.",
+      "Is onderhoud niet meer genoeg, maar een compleet nieuw dak overdreven? Dan knap ik je dak grondig op: versleten pannen vervangen, lood en nok herstellen, goten aanpakken, in één keer, zodat je dak er weer jaren tegen kan.",
     punten: [
       "Versleten pannen vervangen, goede pannen laten liggen",
       "Lood, nokvorsten en aansluitingen vernieuwen",
