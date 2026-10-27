@@ -172,7 +172,7 @@ const faqSchema = {
     <div class="wrap">
       <p class="eyebrow" style="color:#ffb486;">Wat klanten zeggen</p>
       <div class="stars" style="justify-content:center; margin-bottom:6px;">
-        <span class="ster" style="font-size:1.6rem;">★★★★★</span> <b style="font-size:1.9rem;">{score}</b> <a class="bron" style="font-size:1rem;" href={SITE.werkspotUrl} target="_blank" rel="noopener">op Werkspot (13 reviews)</a>
+        <span class="ster" style="font-size:1.6rem;">★★★★★</span> <b style="font-size:1.9rem;">{score}</b> <a class="bron" style="font-size:1rem;" href={SITE.werkspotUrl} target="_blank" rel="noopener">op Werkspot ({SITE.reviews.werkspotAantal} reviews)</a>
       </div>
       <h2>Mensen kiezen voor een échte vakman uit de buurt</h2>
       <p class="lead" style="margin:0 auto 8px; color:#c2d2e3;">
@@ -196,7 +196,7 @@ const faqSchema = {
         </figure>
       </div>
       <div class="btn-row" style="justify-content:center;">
-        <a class="btn btn--ghost" href={SITE.werkspotUrl} target="_blank" rel="noopener">Lees alle 13 reviews op Werkspot</a>
+        <a class="btn btn--ghost" href={SITE.werkspotUrl} target="_blank" rel="noopener">Lees alle {SITE.reviews.werkspotAantal} reviews op Werkspot</a>
         {googleReviewLink && <a class="btn btn--primary" href={googleReviewLink}>Plaats een review op Google</a>}
       </div>
       <p style="margin:16px auto 0; color:#9fb4c9; font-size:.92rem; max-width:60ch;">

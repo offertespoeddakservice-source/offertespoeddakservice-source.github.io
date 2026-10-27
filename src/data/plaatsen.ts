@@ -9,7 +9,7 @@
 export interface Plaats {
   slug: string;
   naam: string;        // "Rosmalen"
-  lokaal: string;      // 1-2 zinnen echt lokaal (wijken/woningtype) — uniek per plaats
+  lokaal: string;      // 1-2 zinnen echt lokaal (wijken/woningtype), uniek per plaats
   wijken: string[];    // herkenbare buurten/kernen voor lokale relevantie
   reistijd?: string;   // gevoel van nabijheid vanuit Den Bosch
   verweg?: boolean;    // rand van het werkgebied: geen spoedbelofte, klussen worden vooraf ingepland
@@ -49,7 +49,7 @@ export const PLAATSEN: Plaats[] = [
     slug: "drunen",
     naam: "Drunen",
     lokaal:
-      "Ruim opgezette wijken met schuine daken vlak bij de Loonse en Drunense Duinen — zand en bladval zorgen voor snel volle goten.",
+      "Ruim opgezette wijken met schuine daken vlak bij de Loonse en Drunense Duinen, zand en bladval zorgen voor snel volle goten.",
     wijken: ["Venne", "Heidijk", "Centrum"],
     reistijd: "20 min vanaf Den Bosch",
   },
@@ -57,7 +57,7 @@ export const PLAATSEN: Plaats[] = [
     slug: "berlicum",
     naam: "Berlicum",
     lokaal:
-      "Dorpse bebouwing met veel vrijstaande en twee-onder-een-kap woningen — vaak oudere daken waar lood bij de schoorsteen aandacht vraagt.",
+      "Dorpse bebouwing met veel vrijstaande en twee-onder-een-kap woningen, vaak oudere daken waar lood bij de schoorsteen aandacht vraagt.",
     wijken: ["Kerkwijk", "Beekveld", "Middelrode"],
     reistijd: "15 min vanaf Den Bosch",
   },
@@ -75,7 +75,7 @@ export const PLAATSEN: Plaats[] = [
     slug: "schijndel",
     naam: "Schijndel",
     lokaal:
-      "Mix van jaren-'60/'70 rijtjes en vrijstaande woningen — veel daken van vóór 1985, gevoelig voor losse pannen en gootlekkage.",
+      "Mix van jaren-'60/'70 rijtjes en vrijstaande woningen, veel daken van vóór 1985, gevoelig voor losse pannen en gootlekkage.",
     wijken: ["Hoevenbraak", "Boschweg", "Centrum"],
     reistijd: "20 min vanaf Den Bosch",
   },

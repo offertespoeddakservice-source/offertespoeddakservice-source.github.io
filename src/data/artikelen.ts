@@ -38,17 +38,17 @@ export const ARTIKELEN: Artikel[] = [
     metaDescription:
       "Daklekkage opsporen? De natte plek zit zelden onder het echte lek. Dit zijn de meest voorkomende oorzaken en zo vind ik het lek zonder onnodig sloopwerk.",
     intro:
-      "Een natte plek op je plafond betekent bijna nooit dat het lek daar precies boven zit. Water loopt via panlatten, isolatie en naden naar het laagste punt en komt daar pas naar binnen. Daarom is een lek opsporen vakwerk — hieronder hoe het werkt.",
+      "Een natte plek op je plafond betekent bijna nooit dat het lek daar precies boven zit. Water loopt via panlatten, isolatie en naden naar het laagste punt en komt daar pas naar binnen. Daarom is een lek opsporen vakwerk, hieronder hoe het werkt.",
     secties: [
       { kop: "Lekkage nu? Eerst dit doen", tekst: [
-        "Zie je een natte plek op het plafond? Zet eerst een emmer neer en maak een foto van de plek — dat helpt bij de beoordeling en later bij je verzekering. Haal spullen weg die vochtgevoelig zijn en ga niet zelf het dak op.",
-        'Kwam de lekkage tijdens of vlak na een storm, met losse pannen of zichtbare schade van buiten? Volg dan de aparte stappen in <a href="/kennisbank/stormschade-eerste-hulp">stormschade: eerste hulp en je verzekering</a> — daar staat ook wat je aan je verzekering moet doorgeven. Is er geen storm geweest en sijpelt het water al langer, dan lees je hieronder waar het vandaan komt.',
+        "Zie je een natte plek op het plafond? Zet eerst een emmer neer en maak een foto van de plek, dat helpt bij de beoordeling en later bij je verzekering. Haal spullen weg die vochtgevoelig zijn en ga niet zelf het dak op.",
+        'Kwam de lekkage tijdens of vlak na een storm, met losse pannen of zichtbare schade van buiten? Volg dan de aparte stappen in <a href="/kennisbank/stormschade-eerste-hulp">stormschade: eerste hulp en je verzekering</a>, daar staat ook wat je aan je verzekering moet doorgeven. Is er geen storm geweest en sijpelt het water al langer, dan lees je hieronder waar het vandaan komt.',
       ] },
       { kop: "De meest voorkomende oorzaken", tekst: [
         'Een gebroken of verschoven dakpan zie ik verreweg het vaakst. Daarna: gescheurd of losgelaten lood bij de schoorsteen of het dakraam, een verstopte of overlopende goot, en versleten kitwerk of naden bij een plat dak. Lekt het bij de schoorsteen? Lees dan <a href="/kennisbank/lekkage-bij-schoorsteen/">lekkage bij de schoorsteen</a>.',
-        "Bij platte daken zit het lek vaak bij een naad of opstand, terwijl het water verderop naar binnen komt — dat maakt opsporen lastiger.",
+        "Bij platte daken zit het lek vaak bij een naad of opstand, terwijl het water verderop naar binnen komt, dat maakt opsporen lastiger.",
       ] },
-      { kop: "Zo spoor je het op — zonder sloopwerk", tekst: [
+      { kop: "Zo spoor je het op, zonder sloopwerk", tekst: [
         "Ik werk van buiten naar binnen: eerst het dak na op losse pannen, lood en naden, dan de zolder op natte sporen. Vaak is een gerichte controle genoeg en hoeft er niks opengebroken te worden.",
         "Lukt het visueel niet, dan zijn er technieken (water gericht aanbrengen, rook- of vochtmeting) om de exacte plek te vinden. Eerst de schade beperken, dan de oorzaak aanpakken.",
       ] },
@@ -379,16 +379,16 @@ export const ARTIKELEN: Artikel[] = [
     h1: "Dakpannen coaten of vervangen? Zo maak je de juiste keuze",
     metaTitle: "Dakpannen coaten of vervangen? | Spoed Dak Service",
     metaDescription:
-      "Dakpannen coaten of vervangen? Coaten is veel goedkoper en kan jaren schelen — mits je pannen nog goed zijn.",
+      "Dakpannen coaten of vervangen? Coaten is veel goedkoper en kan jaren schelen, mits je pannen nog goed zijn.",
     intro:
-      "Een verweerd dak hoeft niet meteen vervangen te worden. Vaak kun je pannen die nog stevig zijn coaten — veel goedkoper, en je dak gaat er jaren mee verder. Maar coaten is niet altijd de juiste keuze. Hieronder het verschil.",
+      "Een verweerd dak hoeft niet meteen vervangen te worden. Vaak kun je pannen die nog stevig zijn coaten, veel goedkoper, en je dak gaat er jaren mee verder. Maar coaten is niet altijd de juiste keuze. Hieronder het verschil.",
     secties: [
       { kop: "Wanneer coaten loont", tekst: [
         "Als je pannen nog stevig en heel zijn maar dof, vuil of vol mos, dan is reinigen + coaten ideaal. De coating beschermt tegen vocht, mos en uv, en kost een fractie van vervangen.",
         "Het is ook een mooi moment voor een gootcheck en het nakijken van lood en nokvorsten.",
       ] },
       { kop: "Wanneer vervangen verstandiger is", tekst: [
-        "Zijn de pannen poreus, bros of op meerdere plekken kapot, dan houdt coaten geen stand — dan ben je beter af met (gedeeltelijk) vervangen. Coaten op slechte pannen is zonde van het geld.",
+        "Zijn de pannen poreus, bros of op meerdere plekken kapot, dan houdt coaten geen stand. Dan ben je beter af met (gedeeltelijk) vervangen. Coaten op slechte pannen is zonde van het geld.",
         "Ik kom kijken en zeg eerlijk wat in jouw geval loont; soms is een combinatie (slechte pannen vervangen, de rest coaten) de slimste route.",
       ] },
     ],
@@ -400,16 +400,16 @@ export const ARTIKELEN: Artikel[] = [
   {
     slug: "hoe-vaak-dakgoot-reinigen",
     titel: "Hoe vaak goten reinigen?",
-    h1: "Hoe vaak moet je je dakgoot reinigen — en wat kost het?",
+    h1: "Hoe vaak moet je je dakgoot reinigen, en wat kost het?",
     metaTitle: "Hoe vaak dakgoot reinigen + kosten | Spoed Dak Service",
     metaDescription:
       "Hoe vaak moet je je dakgoot reinigen? Meestal één keer per jaar in het najaar, vaker bij bomen in de buurt. Waarom het belangrijk is en wat het kost.",
     intro:
       "Volle goten lijken onschuldig, maar ze zijn de oorzaak van veel vochtschade: overlopend water, natte muren en op den duur lekkage. Hoe vaak moet je ze laten reinigen, en wat kost dat?",
     secties: [
-      { kop: "Eén keer per jaar — vaker bij bomen", tekst: [
+      { kop: "Eén keer per jaar, vaker bij bomen", tekst: [
         "Voor de meeste huizen is één keer per jaar genoeg, het beste in het najaar als het blad gevallen is. Staan er bomen vlak bij je huis, dan is twee keer per jaar slimmer.",
-        "Het najaar (augustus–oktober) is de drukste én belangrijkste periode: blad én herfststormen zorgen dan voor de meeste verstoppingen.",
+        "Het najaar (augustus tot oktober) is de drukste én belangrijkste periode: blad én herfststormen zorgen dan voor de meeste verstoppingen.",
       ] },
       { kop: "Waarom het belangrijk is", tekst: [
         "Een verstopte goot loopt over langs de gevel, trekt vocht in muren en fundering en kan binnen voor lekkage zorgen. Een kleine jaarlijkse onderhoudsbeurt voorkomt dure schade.",
@@ -420,7 +420,7 @@ export const ARTIKELEN: Artikel[] = [
     ],
     dienst: { label: "Bekijk: dakgoot reinigen", href: "/diensten/goten-reinigen/" },
     faq: [
-      { v: "Wanneer kan ik het beste laten reinigen?", a: "In het najaar, als het meeste blad gevallen is — dan heb je er het hele jaar profijt van en voorkom je winterlekkage." },
+      { v: "Wanneer kan ik het beste laten reinigen?", a: "In het najaar, als het meeste blad gevallen is, dan heb je er het hele jaar profijt van en voorkom je winterlekkage." },
     ],
   },
   {
@@ -661,7 +661,7 @@ export const ARTIKELEN: Artikel[] = [
       "Na een storm telt elk uur: losse of weggewaaide pannen en open plekken laten meteen regen binnen. Het belangrijkste is rust houden, je veiligheid voorop zetten en snel de schade laten beperken. Hieronder de stappen.",
     secties: [
       { kop: "Eerst: je veiligheid", tekst: [
-        "Ga niet zelf het dak op tijdens of vlak na een storm — nat, winderig en met losse delen is dat te gevaarlijk. Blijf uit de buurt van loshangende pannen of delen die naar beneden kunnen komen, ook op de grond.",
+        "Ga niet zelf het dak op tijdens of vlak na een storm: nat, winderig en met losse delen is dat te gevaarlijk. Blijf uit de buurt van loshangende pannen of delen die naar beneden kunnen komen, ook op de grond.",
         'Sijpelt er water naar binnen zonder dat er een storm is geweest, dan zit de oorzaak waarschijnlijk elders (losse pan, lood, verstopte goot). Kijk dan bij <a href="/kennisbank/daklekkage-opsporen/">daklekkage opsporen</a> voor de eerste stappen en de meest voorkomende oorzaken.',
       ] },
       { kop: "Maak foto's en beperk de schade", tekst: [
@@ -675,12 +675,12 @@ export const ARTIKELEN: Artikel[] = [
         'Ga daarna met een zaklamp op zolder kijken. Zie je ergens daglicht, of een natte plek op het hout of de folie, maak er dan een foto van. Zit de nok los, lees dan <a href="/kennisbank/nokvorsten-los/">losse nokvorsten</a>. Lekt het sinds de storm alleen als het hard waait, lees dan <a href="/kennisbank/dak-lekt-bij-harde-wind/">dak lekt bij harde wind</a>.',
       ] },
       { kop: "Wanneer je moet bellen", tekst: [
-        "Een open dak of actieve lekkage is spoed — daar kom ik snel voor langs om eerst de schade te stoppen (afdekken, dichten), en daarna netjes te herstellen. Bel of WhatsApp, dan hoor je meteen wanneer ik kan.",
+        "Een open dak of actieve lekkage is spoed, daar kom ik snel voor langs om eerst de schade te stoppen (afdekken, dichten), en daarna netjes te herstellen. Bel of WhatsApp, dan hoor je meteen wanneer ik kan.",
       ] },
     ],
     dienst: { label: "Bekijk: stormschade", href: "/diensten/stormschade/" },
     faq: [
-      { v: "Moet ik zelf het dak op om de schade af te dekken?", a: "Nee, doe dat niet — zeker niet vlak na een storm. Bel mij, ik dek het veilig af en herstel daarna." },
+      { v: "Moet ik zelf het dak op om de schade af te dekken?", a: "Nee, doe dat niet, zeker niet vlak na een storm. Bel mij, ik dek het veilig af en herstel daarna." },
       { v: "Vergoedt mijn verzekering stormschade?", a: "Vaak wel via de opstalverzekering. Ik lever foto's en een omschrijving aan zodat je het kunt indienen; check de voorwaarden bij je verzekeraar." },
       { v: "Hoe snel moet ik stormschade melden bij mijn verzekering?", a: "Zo snel als je kunt. Hoe snel precies, staat in je polisvoorwaarden. Maak meteen foto's van de schade, binnen en vanaf de straat van je dak, en bewaar die." },
     ],
@@ -770,11 +770,11 @@ export const ARTIKELEN: Artikel[] = [
     metaDescription:
       "Hoe vaak moet je je dak onderhouden? Twee keer per jaar kijken, in het voorjaar en het najaar. Wat je per seizoen controleert, bij een pannendak en een plat dak.",
     intro:
-      "Een dak gaat tientallen jaren mee, maar alleen als je het een beetje bijhoudt. Twee korte checks per jaar — in het voorjaar en het najaar — voorkomen verreweg de meeste dure schade. Hieronder wat er per seizoen toe doet, en hoe vaak je een vakman nodig hebt.",
+      "Een dak gaat tientallen jaren mee, maar alleen als je het een beetje bijhoudt. Twee korte checks per jaar, in het voorjaar en het najaar, voorkomen verreweg de meeste dure schade. Hieronder wat er per seizoen toe doet, en hoe vaak je een vakman nodig hebt.",
     secties: [
       { kop: "Twee keer per jaar: voorjaar en najaar", tekst: [
         "De vuistregel is twee visuele controles per jaar. In het voorjaar herstel je winterschade (losse pannen, gescheurd lood, gootschade van vorst). In het najaar maak je het dak winterklaar: goten leeg vóór de bladval, pannen en lood na voor de eerste herfststorm.",
-        "Is je dak ouder dan zo'n vijftien jaar, dan is twee keer kijken echt geen luxe — oudere daken laten sneller los.",
+        "Is je dak ouder dan zo'n vijftien jaar, dan is twee keer kijken echt geen luxe, oudere daken laten sneller los.",
       ] },
       { kop: "Goten: minimaal twee keer per jaar", tekst: [
         "Goten zijn het vaakst de oorzaak van vochtschade. Maak ze minstens twee keer per jaar leeg, en bij bomen in de buurt vaker. Najaar is het belangrijkste moment, vlak na de bladval.",
@@ -790,7 +790,7 @@ export const ARTIKELEN: Artikel[] = [
     ],
     dienst: { label: "Bekijk: dakgoot reinigen", href: "/diensten/goten-reinigen/" },
     faq: [
-      { v: "Hoe vaak moet ik mijn dak laten controleren?", a: "Twee keer per jaar zelf een visuele check (voorjaar + najaar), en elke 3 tot 5 jaar een grondige vakinspectie — vaker bij een dak ouder dan 15 jaar." },
+      { v: "Hoe vaak moet ik mijn dak laten controleren?", a: "Twee keer per jaar zelf een visuele check (voorjaar + najaar), en elke 3 tot 5 jaar een grondige vakinspectie, vaker bij een dak ouder dan 15 jaar." },
       { v: "Wat is het beste moment voor onderhoud?", a: "Najaar is het belangrijkst: goten leeg en pannen/lood nakijken vóór de herfststormen. Het voorjaar gebruik je om winterschade te herstellen." },
       { v: "Wat kost een dakinspectie?", a: `Bij mij heet dat de Dak-APK: ${apkPrijs} voor een keuring van je hele dak met een fotorapport. Daarna weet je wat nu nodig is en wat nog kan wachten.` },
       { v: "Hoe onderhoud je een plat dak?", a: "Kijk minstens één keer per jaar, het liefst in het najaar. Haal blad en mos weg bij de afvoer en in de hoeken, kijk of er na een bui water blijft staan en let op naden en randen die loslaten. Ga alleen het dak op als dat veilig kan." },
@@ -848,7 +848,7 @@ export const ARTIKELEN: Artikel[] = [
         "Ja, op termijn wel. Mos houdt vocht vast op je pannen; vriest dat vocht 's winters, dan zet het uit en kunnen pannen scheuren of afbladderen. Bovendien komt los mos in de goot en regenpijp terecht en verstopt daar de afvoer: een veelvoorkomende oorzaak van overlopende goten en lekkage.",
       ] },
       { kop: "Pas op met de hogedrukreiniger", tekst: [
-        "Een hogedrukreiniger lijkt snel, maar te veel druk haalt de beschermende toplaag van je pannen weg en beschadigt vooral oudere, poreuze pannen — dan groeit het mos juist sneller terug. Voor stevige, moderne pannen kan lage druk, maar bij twijfel is voorzichtig handwerk of een zachtere methode beter.",
+        "Een hogedrukreiniger lijkt snel, maar te veel druk haalt de beschermende toplaag van je pannen weg en beschadigt vooral oudere, poreuze pannen, dan groeit het mos juist sneller terug. Voor stevige, moderne pannen kan lage druk, maar bij twijfel is voorzichtig handwerk of een zachtere methode beter.",
       ] },
       { kop: "Hoe ik het aanpak", tekst: [
         "Ik kijk eerst of je pannen het aankunnen. Daarna verwijder ik het mos voorzichtig en ruim ik de goot en de uitloop naar de regenpijp meteen mee op. Zijn de pannen al bros, dan zeg ik dat eerlijk: soms is gericht vervangen slimmer dan blijven reinigen.",
@@ -856,7 +856,7 @@ export const ARTIKELEN: Artikel[] = [
     ],
     dienst: { label: "Bekijk: dak reinigen & mos", href: "/diensten/dak-reinigen/" },
     faq: [
-      { v: "Mag ik zelf met een hogedrukreiniger mijn dak schoonmaken?", a: "Liever niet op oudere of poreuze pannen — je haalt er de toplaag af en beschadigt ze. Op hoogte werken is bovendien niet zonder risico. Ik doe het veilig en op de juiste druk." },
+      { v: "Mag ik zelf met een hogedrukreiniger mijn dak schoonmaken?", a: "Liever niet op oudere of poreuze pannen, je haalt er de toplaag af en beschadigt ze. Op hoogte werken is bovendien niet zonder risico. Ik doe het veilig en op de juiste druk." },
       { v: "Komt het mos terug?", a: "Op den duur wel, zeker aan de noordkant en onder bomen. Laat het niet te dik worden: af en toe reinigen en elk najaar de goten leeg houdt het meestal goed in de hand." },
       { v: "Wanneer laat je mos het beste weghalen?", a: "Het liefst op een droge dag in het voorjaar of in het begin van de herfst. Op een nat of bevroren dak is het glad en werk je niet veilig. Laat het weghalen voordat je goten worden leeggemaakt, want het losse mos komt toch in de goot terecht." },
     ],
@@ -867,31 +867,31 @@ export const ARTIKELEN: Artikel[] = [
     h1: "Hoe herken je een betrouwbare dakdekker (en voorkom je oplichting)?",
     metaTitle: "Betrouwbare dakdekker herkennen | Spoed Dak Service",
     metaDescription:
-      "Hoe herken je een betrouwbare dakdekker? KvK-inschrijving, schriftelijke offerte, verzekering en garantie, meerdere offertes vergelijken — de checklist.",
+      "Hoe herken je een betrouwbare dakdekker? KvK-inschrijving, schriftelijke offerte, verzekering en garantie, meerdere offertes vergelijken: de checklist.",
     intro:
-      "KvK-inschrijving, een schriftelijke offerte, verzekering en garantie, meerdere offertes vergelijken — dit zijn de punten waar je op moet letten. Hieronder leg ik per punt uit waarom, en hoe ik dat zelf regel.",
+      "KvK-inschrijving, een schriftelijke offerte, verzekering en garantie, meerdere offertes vergelijken: dit zijn de punten waar je op moet letten. Hieronder leg ik per punt uit waarom, en hoe ik dat zelf regel.",
     secties: [
       { kop: "Waarom dit een reëel risico is", tekst: [
         "Je leest geregeld over mensen die aan de deur een dakklus kregen aangesmeerd die niet nodig was, of die achteraf veel meer moesten betalen dan was afgesproken. Zulke verhalen komen regelmatig voorbij in het nieuws en bij consumentenprogramma's.",
-        "Dat betekent niet dat de meeste dakdekkers oneerlijk zijn — verreweg de meeste doen gewoon hun werk. Maar de klachten die er wél zijn, volgen bijna altijd hetzelfde patroon: een mondelinge toezegging, een prijs die achteraf oploopt, en geen vast aanspreekpunt zodra er iets misgaat. Daar is met een paar checks vooraf veel van te voorkomen.",
+        "Dat betekent niet dat de meeste dakdekkers oneerlijk zijn, verreweg de meeste doen gewoon hun werk. Maar de klachten die er wél zijn, volgen bijna altijd hetzelfde patroon: een mondelinge toezegging, een prijs die achteraf oploopt, en geen vast aanspreekpunt zodra er iets misgaat. Daar is met een paar checks vooraf veel van te voorkomen.",
       ] },
       { kop: "Checklist: waar je op let vóór je akkoord geeft", tekst: [
-        "<strong>KvK-inschrijving.</strong> Vraag gerust naar het KvK-nummer en zoek het zelf even op — dat kost een minuut en laat meteen zien hoe lang een bedrijf al bestaat.",
+        "<strong>KvK-inschrijving.</strong> Vraag gerust naar het KvK-nummer en zoek het zelf even op, dat kost een minuut en laat meteen zien hoe lang een bedrijf al bestaat.",
         "<strong>Schriftelijke offerte met vaste prijs.</strong> Geen mondelinge toezegging \"dat wordt zo'n beetje...\", maar een bedrag op papier vóórdat het werk begint.",
         "<strong>Verzekering en garantie.</strong> Vraag naar aansprakelijkheidsverzekering (bij schade tijdens het werk) en garantie op het geleverde werk zelf.",
-        "<strong>Meerdere offertes vergelijken</strong>, zeker bij grotere klussen (dakvervanging, renovatie) — een groot prijsverschil zonder duidelijke reden is een signaal om door te vragen.",
-        "<strong>Reviews</strong>, met een kanttekening: een net gestart bedrijf heeft er nog weinig. Dat maakt het niet automatisch onbetrouwbaar — vraag dan gewoon naar recent afgerond werk of foto's.",
-        "<strong>Pas op bij druk om nu te beslissen</strong> — aan de deur, of \"deze prijs geldt alleen vandaag\". Een serieus bedrijf geeft je bedenktijd.",
+        "<strong>Meerdere offertes vergelijken</strong>, zeker bij grotere klussen (dakvervanging, renovatie), een groot prijsverschil zonder duidelijke reden is een signaal om door te vragen.",
+        "<strong>Reviews</strong>, met een kanttekening: een net gestart bedrijf heeft er nog weinig. Dat maakt het niet automatisch onbetrouwbaar, vraag dan gewoon naar recent afgerond werk of foto's.",
+        "<strong>Pas op bij druk om nu te beslissen</strong>: aan de deur, of \"deze prijs geldt alleen vandaag\". Een serieus bedrijf geeft je bedenktijd.",
         "<strong>Meerwerk alleen na jouw akkoord vooraf.</strong> Komt er tijdens het werk iets extra's bij, vraag dan eerst om een prijs op papier of in een appje en geef pas daarna akkoord. Dan weet je precies waar je aan toe bent.",
       ] },
       { kop: "Zo doe ik het zelf", tekst: [
         `Ik werk onder mijn eigen naam met mijn eigen 06-nummer: je krijgt mij aan de lijn, geen callcenter, en mijn KvK- en btw-gegevens deel ik gewoon op verzoek. Bij elke klus krijg je een vaste prijs vóórdat ik begin, en bij de Dak-APK (${apkPrijs}) krijg je er ook een fotorapport bij, zodat je niet op mijn woord alleen hoeft te vertrouwen.`,
-        "Zie ik onderweg iets extra's dat nodig is, dan meld ik dat en bespreken we het vóórdat ik het uitvoer — nooit een verrassing op de rekening achteraf.",
+        "Zie ik onderweg iets extra's dat nodig is, dan meld ik dat en bespreken we het vóórdat ik het uitvoer, nooit een verrassing op de rekening achteraf.",
       ] },
     ],
     dienst: { label: "Lees over mij en hoe ik werk", href: "/over/" },
     faq: [
-      { v: "Is een opvallend lage prijs een waarschuwingssignaal?", a: "Niet per se — kijk vooral of de prijs op papier staat en of hij past bij wat er in de offerte beschreven staat. Een prijs die pas ná het werk duidelijk wordt, is het grotere risico." },
+      { v: "Is een opvallend lage prijs een waarschuwingssignaal?", a: "Niet per se, kijk vooral of de prijs op papier staat en of hij past bij wat er in de offerte beschreven staat. Een prijs die pas ná het werk duidelijk wordt, is het grotere risico." },
       { v: "Wat als een dakdekker meerwerk wil doorberekenen zonder dat vooraf te zeggen?", a: "Spreek vooraf af dat extra werk eerst met jou wordt overlegd, met een prijs op papier of in een appje. Gebeurt het toch zonder overleg, vraag dan om uitleg en betaal niet zomaar. Twijfel je over je rechten, dan kun je gratis advies vragen bij het Juridisch Loket." },
       { v: "Ik denk dat ik ben opgelicht door een dakdekker, wat nu?", a: "Bewaar alles: de offerte, betaalbewijzen, berichten en foto's. Doe aangifte bij de politie en meld het bij de Fraudehelpdesk. Heb je aan de deur iets getekend, dan heb je vaak 14 dagen bedenktijd. Laat het werk door een andere vakman bekijken voordat je nog iets betaalt." },
       { v: "Welke keurmerken zijn er voor dakdekkers?", a: "Bekende namen in de dakenbranche zijn het keurmerk Dakmerk en de branchevereniging Vebidak. Zo'n keurmerk betekent dat een bedrijf aan bepaalde eisen voldoet. Maar het zegt niet alles: let ook op een vaste prijs op papier, een KvK-inschrijving en één vast aanspreekpunt." },
@@ -913,7 +913,7 @@ export const ARTIKELEN: Artikel[] = [
       ] },
       { kop: "Richtprijzen per klus", tekst: [
         `Een punctuele daklekkage repareren kost meestal ${lekPrijs}, inclusief materiaal. Dak ontmossen ${ontmosPrijs}. Schoorsteen vegen ${veegPrijs}. Zonnepanelen reinigen ${zonPrijs}. Een compleet nieuw dak: ${nieuwDakUitleg} Andere klussen krijg je als vaste prijs na een Dak-APK of bezoek.`,
-        "Bij spoed buiten kantooruren komt er een toeslag bij — die hoor je vooraf, nooit als verrassing achteraf.",
+        "Bij spoed buiten kantooruren komt er een toeslag bij, die hoor je vooraf, nooit als verrassing achteraf.",
       ] },
       { kop: "Waarom een vaste prijs vooraf?", tekst: [
         `Elk dak is anders. Wil je eerst weten hoe je dak ervoor staat, dan kan dat via de Dak-APK (${apkPrijs}): een compleet keuringsrapport met foto's, binnen een dagdeel. Weet je al wat er moet gebeuren, dan geef ik een vaste prijs vóór ik begin. Geen meerwerk-verrassingen: dat is het verschil met een callcenter dat een richtbedrag noemt en achteraf bijplust.`,
@@ -939,10 +939,10 @@ export const ARTIKELEN: Artikel[] = [
     secties: [
       { kop: "Hoe vaak is nodig?", tekst: [
         "Stook je regelmatig hout? Dan is één keer per jaar het advies, het beste vóór het stookseizoen (eind zomer / begin herfst). Bij een gasketel of weinig stoken kan het minder vaak.",
-        "Veel verzekeraars verwachten ook een jaarlijkse beurt — handig om te weten als er ooit iets misgaat.",
+        "Veel verzekeraars verwachten ook een jaarlijkse beurt, handig om te weten als er ooit iets misgaat.",
       ] },
       { kop: "Waarom het belangrijk is", tekst: [
-        "In het kanaal verzamelt zich roet en creosoot. Te veel daarvan vergroot de kans op schoorsteenbrand en zorgt voor slechte trek (rook in huis). Vegen lost dat op en ik kijk meteen of het lood en de aansluiting op het dak nog goed zijn — een veelvoorkomende lekbron.",
+        "In het kanaal verzamelt zich roet en creosoot. Te veel daarvan vergroot de kans op schoorsteenbrand en zorgt voor slechte trek (rook in huis). Vegen lost dat op en ik kijk meteen of het lood en de aansluiting op het dak nog goed zijn, een veelvoorkomende lekbron.",
       ] },
       { kop: "Zo zie je dat vegen nodig is", tekst: [
         "Rook die bij het aansteken de kamer in slaat, een kachel die slecht trekt, een sterke roetlucht als je niet stookt, of zwarte schilfers onder in de haard. Merk je zoiets, wacht dan niet tot volgend jaar.",
@@ -954,7 +954,7 @@ export const ARTIKELEN: Artikel[] = [
     dienst: { label: "Bekijk: schoorsteen vegen", href: "/diensten/schoorsteen-vegen/" },
     faq: [
       { v: "Wanneer kan ik het beste laten vegen?", a: "Vóór het stookseizoen, dus eind zomer of begin herfst. Dan begin je de winter veilig en met goede trek." },
-      { v: "Maken jullie er een rommel van binnen?", a: "Nee. Ik dek netjes af en werk schoon — geen roet in je woonkamer." },
+      { v: "Maken jullie er een rommel van binnen?", a: "Nee. Ik dek netjes af en werk schoon, geen roet in je woonkamer." },
       { v: "Is schoorsteen vegen verplicht?", a: "Voor een gewoon woonhuis staat het niet in de wet. Wel vragen veel verzekeraars in hun voorwaarden om een jaarlijkse veegbeurt als je hout stookt. Gaat het mis en is er niet geveegd, dan kan dat gevolgen hebben voor je uitkering. Kijk het even na in je polis." },
       { v: "Moet de schoorsteen ook geveegd worden als ik weinig stook?", a: "Stook je maar een paar keer per jaar, dan kan het vaak minder vaak. Heb je lang niet gestookt of zaten er vogels op de schoorsteen, laat dan voordat je weer begint toch even kijken of het kanaal vrij is." },
     ],
@@ -963,7 +963,7 @@ export const ARTIKELEN: Artikel[] = [
     slug: "wat-kost-dak-coaten",
     verborgen: true,
     titel: "Wat kost dak coaten?",
-    h1: "Wat kost dak coaten — en is het de moeite waard?",
+    h1: "Wat kost dak coaten, en is het de moeite waard?",
     metaTitle: "Wat kost dak coaten? | Spoed Dak Service",
     metaDescription:
       "Wat kost dak of dakpannen coaten? Coating beschermt pannen die nog goed zijn en is veel goedkoper dan vervangen. Vaste prijs na een Dak-APK of bezoek.",
@@ -972,13 +972,13 @@ export const ARTIKELEN: Artikel[] = [
     secties: [
       { kop: "Wanneer is coaten zinvol?", tekst: [
         "Coaten loont als je pannen nog stevig zijn maar verweerd: poreus, vol mos of dof. De coating beschermt tegen vocht, mos en uv en geeft je dak jaren extra.",
-        "Zijn de pannen al broos of gebarsten, dan is coaten zonde van het geld — dan adviseer ik vervangen. Ik kom kijken en zeg eerlijk wat in jouw geval loont.",
+        "Zijn de pannen al broos of gebarsten, dan is coaten zonde van het geld. Dan adviseer ik vervangen. Ik kom kijken en zeg eerlijk wat in jouw geval loont.",
       ] },
       { kop: "Coaten versus vervangen", tekst: [
         "Een dak vervangen is een flinke investering. Coaten kost daar een fractie van en kan, mits de pannen nog goed zijn, hetzelfde resultaat geven: een strak, beschermd dak. Daarom begin ik altijd met de vraag: kán het met coaten, of is vervangen echt nodig?",
       ] },
       { kop: "Wat kost het?", tekst: [
-        "De prijs hangt af van het oppervlak en de staat van het dak. Wil je eerst weten hoe je dak ervoor staat, dan kan dat via de Dak-APK (€49); daarna geef ik een vaste prijs. Eerst reinigen, dan coaten — netjes en in één keer goed.",
+        "De prijs hangt af van het oppervlak en de staat van het dak. Wil je eerst weten hoe je dak ervoor staat, dan kan dat via de Dak-APK (€49); daarna geef ik een vaste prijs. Eerst reinigen, dan coaten, netjes en in één keer goed.",
       ] },
     ],
     dienst: { label: "Bekijk: dak coaten", href: "/diensten/dakcoating" },
@@ -998,7 +998,7 @@ export const ARTIKELEN: Artikel[] = [
       "Stof, mos en vogelpoep op je panelen kosten opbrengst. Maar hoe vaak is reinigen echt nodig, en verdien je het terug? Kort en eerlijk.",
     secties: [
       { kop: "Levert reinigen echt iets op?", tekst: [
-        "Ja. Vuile panelen kunnen enkele procenten minder opbrengen — soms meer als er een dikke laag mos of vogelpoep op zit. Schone panelen vangen simpelweg meer licht.",
+        "Ja. Vuile panelen kunnen enkele procenten minder opbrengen, soms meer als er een dikke laag mos of vogelpoep op zit. Schone panelen vangen simpelweg meer licht.",
         "Of het de moeite is, hangt af van hoe vies ze zijn. Liggen ze vlak of staan er bomen/vogels in de buurt, dan vervuilen ze sneller.",
       ] },
       { kop: "Hoe vaak?", tekst: [
@@ -1012,7 +1012,7 @@ export const ARTIKELEN: Artikel[] = [
     dienst: { label: "Bekijk: zonnepanelen reinigen", href: "/diensten/zonnepanelen-reinigen/" },
     faq: [
       { v: "Krassen jullie de panelen niet?", a: "Nee, ik werk met de juiste materialen en zonder schurende middelen, zodat de toplaag heel blijft." },
-      { v: "Mag het met regenwater?", a: "Het beste resultaat is streepvrij met de juiste methode — daar let ik op, zodat er geen kringen achterblijven." },
+      { v: "Mag het met regenwater?", a: "Het beste resultaat is streepvrij met de juiste methode, daar let ik op, zodat er geen kringen achterblijven." },
     ],
   },
   {
