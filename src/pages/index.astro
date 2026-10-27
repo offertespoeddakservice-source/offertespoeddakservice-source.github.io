@@ -239,7 +239,7 @@ const faqSchema = {
       <h2>Daktips & eerlijke uitleg</h2>
       <p class="lead">Zo weet je wat er speelt voordat je belt, zonder verkooppraatje.</p>
       <div class="grid grid-3" style="margin-top:22px;">
-        {ARTIKELEN.map((a) => (
+        {ARTIKELEN.filter((a) => !a.verborgen).map((a) => (
           <a class="card" href={`/kennisbank/${a.slug}/`}>
             <h3>{a.titel}</h3>
             <p>{a.metaDescription}</p>
