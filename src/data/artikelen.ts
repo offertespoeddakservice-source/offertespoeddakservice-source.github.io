@@ -646,6 +646,8 @@ export const ARTIKELEN: Artikel[] = [
       { v: "Waarom lekt een bakgoot naar binnen?", a: "Omdat hij op en in het dak ligt. Komt er water door het zink, dan loopt het niet naar buiten, maar in het hout en de muur eronder. Daarom zie je een lekkende bakgoot vaak het eerst binnen." },
       { v: "Kan ik een lekkende bakgoot zelf dichtkitten?", a: "Een likje kit houdt het soms even droog, maar op nat of vuil zink hecht het slecht en na een winter lekt het vaak weer. En aan de dakrand werken is niet zonder risico. Laat liever kijken waar het echt lekt." },
       { v: "Kun je snel komen als het binnen nat wordt?", a: "Bel of WhatsApp me met een foto van de natte plek binnen en van de goot buiten. Dan hoor je wanneer ik kan komen." },
+      { v: "Kan een bakgoot vervangen worden door een gewone hangende goot?", a: "Soms wel, maar het verandert de voorkant van je huis. Bij een monument of in een beschermd stadsgezicht, zoals in de binnenstad van Den Bosch of in vesting Heusden, mag dat vaak niet zomaar. Meestal is het slimmer om de bakgoot te herstellen of opnieuw te bekleden. Ik zeg eerlijk wat bij jouw huis kan." },
+      { v: "Hoe vaak moet een bakgoot leeg?", a: "Minstens één keer per jaar, het liefst in het najaar als het blad gevallen is. Staan er bomen vlak bij je huis, dan vaker. Bij een bakgoot is dat extra belangrijk, want loopt hij over, dan komt het water vaak binnen." },
     ],
   },
   {
