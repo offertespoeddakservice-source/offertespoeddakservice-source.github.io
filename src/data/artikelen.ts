@@ -348,6 +348,9 @@ export const ARTIKELEN: Artikel[] = [
       { kop: "Zo herken je het", tekst: [
         "De natte plek zit vaak op zolder onder het deel van het dak waar de panelen liggen, of een stukje lager, want water loopt eerst een eind naar beneden voordat het binnenkomt. Lekt het pas sinds de panelen erop liggen, en vooral bij harde regen of regen met wind, dan is dat een sterke aanwijzing.",
       ] },
+      { kop: "Zonnepanelen op een plat dak", tekst: [
+        'Op een plat dak staan panelen meestal op een frame dat met gewicht op zijn plek blijft, zonder dat er door het dak geschroefd wordt. Lekt het toch, dan zit het vaak op een plek waar het frame of het gewicht de dakbedekking heeft beschadigd, of bij de doorvoer van de kabel naar binnen. Ook blijft er tussen de panelen sneller blad liggen bij de afvoer, en dan blijft het water staan. Lees ook <a href="/kennisbank/water-blijft-staan-op-plat-dak/">water blijft staan op je platte dak</a>.',
+      ] },
       { kop: "Wat je nu doet", tekst: [
         'Vang het water op, maak een foto van de natte plek en ga niet zelf het dak op. Tussen de panelen is het glad en je stapt zo een pan kapot. Kijk op de <a href="/spoed/">spoedpagina</a> wat je verder meteen kunt doen.',
       ] },
@@ -363,6 +366,8 @@ export const ARTIKELEN: Artikel[] = [
       { v: "Kan een dak gaan lekken door zonnepanelen?", a: "Ja, maar meestal niet door de panelen zelf. Het zit vaak in een pan die bij een dakhaak niet meer goed ligt of gebroken is, of in een kabeldoorvoer die niet goed is afgewerkt." },
       { v: "Moeten alle panelen eraf om het lek te vinden?", a: "Meestal niet. Vaak is van buiten en op zolder al te zien waar het zit. Zit het lek precies onder een paneel, dan moet dat ene paneel soms even los. Dat bespreken we vooraf." },
       { v: "Is lekkage bij zonnepanelen spoed?", a: "Loopt er water naar binnen, dan wel: hoe langer het lekt, hoe meer schade aan hout en isolatie. Bel of WhatsApp me met een foto van de natte plek." },
+      { v: "Wie betaalt de reparatie als het lek door de installatie komt?", a: "Komt het lek door het plaatsen van de panelen, dan is dat in de regel iets voor de installateur. Neem daarom eerst contact met hen op. Liggen de panelen er al jaren of komt de installateur niet, dan kijk ik waar het lek zit en hoor je vooraf de vaste prijs." },
+      { v: "Lekt een plat dak met zonnepanelen sneller?", a: "Niet vanzelf. Maar onder en tussen de panelen zie je de dakbedekking slecht, en daar blijft sneller blad liggen. Laat daarom af en toe kijken of de afvoer vrij is en de dakbedekking onder de panelen nog goed is." },
     ],
   },
   {
