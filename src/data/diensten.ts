@@ -427,11 +427,11 @@ export const DIENSTEN: Dienst[] = [
     slug: "dakrenovatie",
     titel: "Dakrenovatie",
     vanafPrijs: "€50 – €170 p/m²",
-    h1: "Dakrenovatie — je dak weer jaren mee, zonder meteen een compleet nieuw dak",
+    h1: "Dakrenovatie: versleten pannen, lood, nok en goten in één keer aangepakt",
     kort: "Versleten dak grondig opknappen: pannen, lood, nok en goten in één keer aangepakt.",
     metaTitle: "Dakrenovatie Den Bosch & regio | Spoed Dak Service",
     metaDescription:
-      "Dakrenovatie in de regio Den Bosch: pannen, lood, nok en goten in één keer aangepakt zodat je dak weer jaren meegaat. Eerlijk advies, vaste prijs vooraf.",
+      "Dakrenovatie in de regio Den Bosch: versleten pannen vervangen, lood en nok vernieuwen en de goten meteen mee. Eerlijk advies of renoveren genoeg is, vaste prijs vooraf.",
     icoon: "🏚",
     intro:
       "Is onderhoud niet meer genoeg, maar een compleet nieuw dak overdreven? Dan knap ik je dak grondig op: versleten pannen vervangen, lood en nok herstellen, goten aanpakken — in één keer, zodat je dak er weer jaren tegen kan.",
@@ -443,6 +443,8 @@ export const DIENSTEN: Dienst[] = [
     ],
     faq: [
       { v: "Renoveren of een heel nieuw dak?", a: "Vaak stelt een grondige renovatie een nieuw dak jaren uit tegen veel lagere kosten. Is de onderconstructie slecht, dan is vervangen verstandiger. Ik kom kijken en zeg eerlijk wat loont." },
+      { v: "Hoe weet ik of mijn dak aan renovatie toe is?", a: "Let op scheve of gebroken pannen, mos dat tussen de pannen groeit, specie uit de nok die in de goot ligt en lood dat los zit of scheurt. Zie je dat op meer plekken tegelijk, dan is steeds een losse reparatie vaak duurder dan alles in één keer aanpakken. Met de Dak-APK krijg je een fotorapport van je hele dak, dan zie je zelf hoe het ervoor staat." },
+      { v: "Heb ik voor een dakrenovatie een vergunning nodig?", a: "Voor het vervangen van pannen, lood en goten in dezelfde soort en kleur is meestal geen vergunning nodig. Woon je in een monument of in een beschermd stadsgezicht, zoals de binnenstad van Den Bosch of vesting Heusden, vraag het dan eerst na bij de gemeente. Ik denk daar graag in mee." },
     ],
   },
   {
