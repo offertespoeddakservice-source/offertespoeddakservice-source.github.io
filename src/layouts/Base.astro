@@ -32,7 +32,7 @@ const businessSchema: Record<string, unknown> = {
   email: SITE.email,
   image: `${SITE.url}/og.png`,
   logo: `${SITE.url}/favicon.svg`,
-  sameAs: [SITE.werkspotUrl],
+  sameAs: [SITE.werkspotUrl, SITE.reviewLink.replace(/\/review$/, "")],
   hasOfferCatalog: {
     "@type": "OfferCatalog",
     name: "Dakwerk",
