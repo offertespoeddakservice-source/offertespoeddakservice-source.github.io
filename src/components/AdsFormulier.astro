@@ -1,0 +1,139 @@
+---
+/**
+ * Kort aanvraagformulier voor de advertentiepagina's (/ads/...), 27-10-2026.
+ * Zelfde mechanisme als het contactformulier (src/pages/contact.astro): de aanvraag gaat naar het eigen, beveiligde
+ * systeem op Cloudflare (POST https://spoeddak.pages.dev/api/aanvraag), wordt daar vastgelegd en Rens krijgt meteen een
+ * push met Bel-knop. Lukt dat niet, dan opent WhatsApp met de aanvraag als terugvaloptie. Half ingevuld met een
+ * bereikbaar nummer: komt binnen als "onafgemaakt", zodat Rens kan terugbellen.
+ * Foto's meesturen kan het systeem niet; na het versturen staat er een WhatsApp-knop om foto's na te sturen.
+ * Velden: naam, telefoon, adres of postcode (gaat mee in het veld "plaats"), wat is er aan de hand.
+ * Bron in het klantenboek: "ads-<utm_source>" (bijvoorbeeld ads-meta of ads-google), pagina: het pad plus campagne.
+ */
+import { SITE } from "../site.config.ts";
+
+interface Props {
+  service: string;
+  voorbeeld: string;
+  kop?: string;
+}
+const { service, voorbeeld, kop = "Vertel kort wat er is" } = Astro.props;
+---
+
+<form class="form ads-form" id="ads-form" method="POST" action={`mailto:${SITE.email}`} enctype="text/plain">
+  <h2 id="aanvragen">{kop}</h2>
+  <p class="lead" style="font-size:1.02rem; margin-bottom:4px;">Kost je ongeveer een minuut. Ik neem contact met je op en je hoort vooraf wat het kost.</p>
+  <label>Naam
+    <input type="text" name="naam" required autocomplete="name" />
+  </label>
+  <label>Telefoon
+    <input type="tel" name="telefoon" required autocomplete="tel" inputmode="tel" />
+  </label>
+  <label>Adres of postcode
+    <input type="text" name="plaats" autocomplete="postal-code" placeholder="Bijvoorbeeld 5211 AB of Kerkstraat 12, Vught" />
+  </label>
+  <label>Wat is er aan de hand?
+    <textarea name="beschrijving" placeholder={voorbeeld}></textarea>
+  </label>
+  <input type="hidden" name="service" value={service} />
+  <div style="position:absolute; left:-9999px; top:auto;" aria-hidden="true">
+    <label>Website<input type="text" name="website" tabindex="-1" autocomplete="off" /></label>
+  </div>
+  <div class="btn-row">
+    <button class="btn btn--primary" type="submit" id="ads-verstuur" style="width:100%; justify-content:center; font-size:1.12rem;">Verstuur, ik hoor wat het kost</button>
+  </div>
+  <p class="notice" id="ads-bevestiging" style="display:none; background:#e8f7ee; border-color:#9fd8b4; color:#155c33;"></p>
+  <p id="ads-foto-regel" style="margin:0; color:var(--muted); font-size:.95rem;">Heb je een foto? Die stuur je na het versturen via WhatsApp, dan kan ik meteen meekijken.</p>
+  <a class="btn btn--wa" id="ads-foto-wa" href="#" style="display:none; justify-content:center;">Foto's nasturen via WhatsApp</a>
+  <p class="notice">Je aanvraag komt direct bij mij binnen. Ik gebruik je gegevens alleen om je aanvraag op te pakken; maak je het formulier niet af, dan kan ik je nog even terugbellen. Zie de <a href="/privacy/">privacyverklaring</a>.</p>
+</form>
+
+<script define:vars={{ telefoonE164: SITE.telefoonE164, service }}>
+  const adsForm = document.getElementById("ads-form");
+  if (adsForm) {
+    const API = "https://spoeddak.pages.dev/api/aanvraag";
+    const bevestiging = document.getElementById("ads-bevestiging");
+    const fotoRegel = document.getElementById("ads-foto-regel");
+    const fotoWa = document.getElementById("ads-foto-wa");
+    const verstuurKnop = document.getElementById("ads-verstuur");
+    const sid = Array.from(crypto.getRandomValues(new Uint8Array(12)), (b) => b.toString(16).padStart(2, "0")).join("");
+    const q = new URLSearchParams(location.search);
+    const schoon = (s, n) => String(s || "").replace(/[^\w .:\/-]/g, "").slice(0, n);
+    const utmBron = schoon(q.get("utm_source"), 20);
+    const utmCampagne = [schoon(q.get("utm_campaign"), 40), schoon(q.get("utm_content"), 40)].filter(Boolean).join(" / ");
+    let klaar = false;
+
+    const velden = () => {
+      const d = new FormData(adsForm);
+      return {
+        sid,
+        bron: "ads" + (utmBron ? "-" + utmBron : ""),
+        pagina: (location.pathname + (utmCampagne ? " " + utmCampagne : "")).slice(0, 120),
+        naam: d.get("naam") || "",
+        telefoon: d.get("telefoon") || "",
+        email: "",
+        plaats: d.get("plaats") || "",
+        service,
+        beschrijving: d.get("beschrijving") || "",
+        website: d.get("website") || "",
+      };
+    };
+    const maakBericht = () => {
+      const v = velden();
+      return [
+        "Hallo Rens, ik wil graag weten wat het kost.",
+        `Naam: ${v.naam}`,
+        `Tel: ${v.telefoon}`,
+        v.plaats ? `Adres: ${v.plaats}` : null,
+        `Klus: ${v.service}`,
+        v.beschrijving ? `Wat er is: ${v.beschrijving}` : null,
+      ].filter(Boolean).join("\n");
+    };
+
+    adsForm.addEventListener("submit", async (e) => {
+      e.preventDefault();
+      if (!adsForm.reportValidity()) return;
+      verstuurKnop.disabled = true;
+      verstuurKnop.textContent = "Versturen…";
+      // Meting: formulier verstuurd (eigen teller, met de utm-gegevens van de advertentie)
+      if (typeof window.spoeddakTel === "function") window.spoeddakTel("formulier");
+      // Meta-pixel, alleen als die ooit aan staat (zie Ads.astro): if (typeof fbq === "function") fbq("track", "Lead");
+      let gelukt = false;
+      try {
+        const res = await fetch(API, {
+          method: "POST",
+          keepalive: true,
+          headers: { "Content-Type": "text/plain;charset=UTF-8" },
+          body: JSON.stringify({ ...velden(), status: "compleet" }),
+        });
+        gelukt = res.ok;
+      } catch (fout) { gelukt = false; }
+      if (gelukt) {
+        klaar = true;
+        verstuurKnop.textContent = "Verstuurd ✓";
+        bevestiging.textContent = "Gelukt, je aanvraag is binnen. Ik neem contact met je op, meestal dezelfde dag. Heb je foto's? Stuur ze via de knop hieronder, dan kan ik alvast meekijken.";
+        fotoRegel.style.display = "none";
+        fotoWa.href = `https://wa.me/${telefoonE164}?text=${encodeURIComponent(`Hallo Rens, ik heb net het formulier ingevuld (${velden().naam}). Hierbij alvast een foto.`)}`;
+        fotoWa.style.display = "inline-flex";
+      } else {
+        verstuurKnop.disabled = false;
+        verstuurKnop.textContent = "Verstuur, ik hoor wat het kost";
+        window.open(`https://wa.me/${telefoonE164}?text=${encodeURIComponent(maakBericht())}`, "_blank", "noopener");
+        bevestiging.textContent = "Het formulier kon me net niet direct bereiken, daarom is WhatsApp geopend met je aanvraag, druk daar nog op verzenden. Of bel me even, dan heb je meteen antwoord.";
+      }
+      bevestiging.style.display = "block";
+      bevestiging.scrollIntoView({ block: "nearest" });
+    });
+
+    // Halverwege gestopt met een bereikbaar nummer? Dan komt de aanvraag als "onafgemaakt" binnen, zodat Rens kan terugbellen.
+    window.addEventListener("pagehide", () => {
+      if (klaar) return;
+      const v = velden();
+      const cijfers = String(v.telefoon).replace(/[^0-9]/g, "");
+      if (cijfers.length < 8) return;
+      try {
+        navigator.sendBeacon(API, new Blob([JSON.stringify({ ...v, status: "onafgemaakt" })], { type: "text/plain;charset=UTF-8" }));
+        klaar = true;
+      } catch (fout) {}
+    });
+  }
+</script>

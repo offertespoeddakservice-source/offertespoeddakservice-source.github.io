@@ -1,0 +1,191 @@
+---
+/**
+ * Layout voor de landingspagina's van betaalde advertenties (/ads/...), 27-10-2026.
+ * Verschil met Base.astro: geen menu (de bezoeker komt voor één ding), noindex op elke pagina, kleine voet,
+ * knoppen bovenaan én onderaan in beeld op mobiel. Meting van klikken via de eigen teller (geen cookies, geen IP).
+ * Google Ads-conversietag en Meta-pixel staan hier bewust NIET aan: zie de uitgecommentarieerde blokken onderaan de <head>.
+ */
+import "../styles/global.css";
+import { SITE, telHref, waHref } from "../site.config.ts";
+
+interface Props {
+  title: string;
+  description: string;
+  path: string;
+  waBericht?: string;
+}
+
+const { title, description, path, waBericht } = Astro.props;
+const canonical = new URL(path.endsWith("/") ? path : path + "/", SITE.url).href;
+const wa = waHref(waBericht);
+---
+
+<!doctype html>
+<html lang="nl">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Bezoekersteller (eigen, zonder cookies en zonder IP-adres): zelfde aanroep als op de rest van de site -->
+    <script is:inline>try{navigator.sendBeacon("https://spoeddak-teller.heugten-ecommerce.workers.dev/t",JSON.stringify({p:location.pathname,r:document.referrer}))}catch(e){}</script>
+    <!--
+      Meting voor advertenties (eigen teller, geen cookies, geen IP-adres, niets in de browser bewaard).
+      Telt per pagina: bezoek, klik op WhatsApp, klik op bellen, formulier verstuurd. Met de utm_source, utm_campaign
+      en utm_content uit de advertentielink erbij, zodat je ziet welke advertentie wat oplevert.
+      Gaat naar /e op de teller. Die route staat klaar in ~/spoeddak-teller (branch klaar-voor-ads) en moet nog
+      uitgerold worden; zolang dat niet is gebeurd, gooit de teller de meting gewoon weg en merkt de bezoeker niets.
+    -->
+    <script is:inline>
+      (function () {
+        var TELLER = "https://spoeddak-teller.heugten-ecommerce.workers.dev/e";
+        var q = new URLSearchParams(location.search);
+        var knip = function (s, n) { return String(s || "").replace(/[^\w .:\/-]/g, "").slice(0, n); };
+        var utm = { s: knip(q.get("utm_source"), 40), c: knip(q.get("utm_campaign"), 60), n: knip(q.get("utm_content"), 60) };
+        function tel(soort) {
+          try { navigator.sendBeacon(TELLER, JSON.stringify({ p: location.pathname, e: soort, s: utm.s, c: utm.c, n: utm.n })); } catch (e) {}
+        }
+        window.spoeddakTel = tel;
+        tel("bezoek");
+        document.addEventListener("click", function (ev) {
+          var a = ev.target && ev.target.closest ? ev.target.closest("a") : null;
+          if (!a) return;
+          var h = (a.getAttribute("href") || "").toLowerCase();
+          if (h.indexOf("tel:") === 0) tel("bellen");
+          else if (h.indexOf("wa.me") !== -1 || h.indexOf("whatsapp") !== -1) tel("whatsapp");
+        }, true);
+      })();
+    </script>
+
+    <!--
+      PLEK VOOR DE GOOGLE ADS-CONVERSIETAG (staat uit, pas na ja van Rens).
+      Let op: Base.astro (de rest van de site) laadt gtag.js met AW-18338222053 al op elke pagina. Op deze advertentiepagina's
+      staat hij bewust uit tot Rens beslist over cookies en privacy (Google zet met gtag cookies, dus dan hoort er een
+      cookiemelding bij en een regel in de privacyverklaring). Aanzetten: de regels hieronder uit het commentaar halen.
+      De conversielabels zijn dezelfde als in Base.astro: bellen RHeGCLLKt9ccEOWfrKhE, WhatsApp 9ZoXCLXKt9ccEOWfrKhE, e-mail QcJRCLjKt9ccEOWfrKhE.
+
+      <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18338222053" is:inline></script>
+      <script is:inline>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'AW-18338222053');
+        document.addEventListener('click', function(e){
+          var a = e.target && e.target.closest ? e.target.closest('a') : null;
+          if(!a) return;
+          var href = (a.getAttribute('href') || '').toLowerCase();
+          if(href.indexOf('tel:') === 0){ gtag('event','conversion',{'send_to':'AW-18338222053/RHeGCLLKt9ccEOWfrKhE','value':1.0,'currency':'EUR'}); }
+          else if(href.indexOf('wa.me') !== -1){ gtag('event','conversion',{'send_to':'AW-18338222053/9ZoXCLXKt9ccEOWfrKhE','value':1.0,'currency':'EUR'}); }
+        }, true);
+      </script>
+    -->
+
+    <!--
+      PLEK VOOR DE META-PIXEL (staat uit, pas na ja van Rens).
+      De pixel laat Meta zien wie de pagina bezocht en wie het formulier verstuurde, zodat Meta de advertentie beter kan richten.
+      Daarvoor zet Meta een cookie en stuurt het bezoekgegevens naar Meta: dat vraagt een cookiemelding met toestemming
+      en een regel in de privacyverklaring. Zonder pixel werkt de meting via de eigen teller hierboven gewoon.
+      Aanzetten: PIXEL_ID vervangen door het nummer uit Meta Events Manager en het blok uit het commentaar halen.
+
+      <script is:inline>
+        !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+        if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;
+        s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', 'PIXEL_ID');
+        fbq('track', 'PageView');
+        // Bij een verstuurd formulier: fbq('track', 'Lead');  (staat klaar in AdsFormulier.astro, zoekt zelf of fbq bestaat)
+      </script>
+    -->
+
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    <!-- Alleen voor advertenties: niet in Google, niet in de sitemap, niet in het menu -->
+    <meta name="robots" content="noindex, nofollow" />
+    <meta name="theme-color" content="#0f2742" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="nl_NL" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:site_name" content={SITE.bedrijfsnaam} />
+    <meta property="og:image" content={`${SITE.url}/og.png`} />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800;900&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800;900&display=swap" media="print" onload="this.media='all'" />
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800;900&display=swap" /></noscript>
+  </head>
+  <body class="ads-body">
+    <a href="#hoofd" class="skip">Naar inhoud</a>
+    <header class="ads-header">
+      <div class="wrap">
+        <span class="brand">Spoed <span>Dak</span> Service</span>
+        <a class="btn btn--primary ads-header-bel" href={telHref}>Bel {SITE.telefoonWeergave}</a>
+      </div>
+    </header>
+
+    <div class="trust-strip">
+      Echte dakdekker, geen callcenter · 1 jaar garantie op reparatie, 2 jaar op vervangen
+      <span> · <a href={SITE.werkspotUrl} target="_blank" rel="noopener" style="color:inherit; text-decoration:underline;">{String(SITE.reviews.score).replace(".", ",")} op Werkspot</a></span>
+    </div>
+
+    <main id="hoofd">
+      <slot />
+    </main>
+
+    <footer class="ads-footer">
+      <div class="wrap">
+        <p><strong>{SITE.bedrijfsnaam}</strong> · KvK {SITE.kvk} · <a href={telHref}>{SITE.telefoonWeergave}</a> · <a href={`mailto:${SITE.email}`}>{SITE.email}</a></p>
+        <p>Werkgebied: {SITE.regioOmschrijving}. Dag en nacht bereikbaar, ook bij spoed.</p>
+        <p><a href="/privacy/">Privacy</a> · <a href="/bedenktijd/">Bedenktijd</a> · <a href="/">Naar de website</a></p>
+      </div>
+    </footer>
+
+    <div class="sticky-cta">
+      <a class="btn btn--wa" href={wa} aria-label="WhatsApp Rens">WhatsApp</a>
+      <a class="btn btn--primary" href={telHref} aria-label={`Bel ${SITE.telefoonWeergave}`}>Bellen</a>
+    </div>
+  </body>
+</html>
+
+<style is:global>
+  /* Kop zonder menu: naam links, belknop rechts, ook op mobiel */
+  .ads-header { position: sticky; top: 0; z-index: 50; background: var(--cream); border-bottom: 1px solid var(--line); }
+  .ads-header .wrap { display: flex; align-items: center; justify-content: space-between; height: 60px; gap: 12px; }
+  .ads-header .brand { font-size: 1.05rem; }
+  .ads-header-bel { padding: 10px 16px; font-size: .92rem; white-space: nowrap; }
+  @media (max-width: 400px) { .ads-header-bel { padding: 9px 12px; font-size: .85rem; } }
+
+  /* Hero: compact, knoppen in beeld zonder scrollen op een telefoon */
+  .ads-hero { background: var(--navy); color: #fff; padding: 34px 0 30px; }
+  .ads-hero .kicker { margin-bottom: 14px; }
+  .ads-hero h1 { color: #fff; font-size: clamp(1.9rem, 5.6vw, 3.4rem); margin-bottom: 10px; }
+  .ads-hero .lead { color: #c2d2e3; font-size: 1.08rem; margin-bottom: 18px; }
+  .ads-knoppen { display: grid; gap: 10px; max-width: 520px; }
+  .ads-knoppen .btn { justify-content: center; font-size: 1.12rem; padding: 17px 22px; }
+  @media (min-width: 560px) { .ads-knoppen { grid-template-columns: 1fr 1fr; } }
+  .ads-hero .hero-checks { margin: 20px 0 0; display: grid; gap: 8px; }
+  .ads-hero .hero-checks span { align-items: flex-start; }
+  .ads-hero .hero-checks .v { flex: 0 0 auto; }
+  @media (max-width: 400px) { .ads-hero { padding: 24px 0 24px; } .ads-hero h1 { font-size: 1.85rem; } .ads-hero .lead { font-size: 1rem; } }
+
+  /* Stappen in 3 kolommen (de site-standaard heeft er 4) */
+  .ads-stappen { grid-template-columns: repeat(3, 1fr); }
+  @media (max-width: 760px) { .ads-stappen { grid-template-columns: 1fr; } }
+
+  .ads-garantie { background: #fff; border: 1px solid var(--line-cool); border-left: 6px solid var(--ok); border-radius: var(--radius); padding: 22px 24px; box-shadow: var(--shadow); }
+  .ads-garantie h2 { font-size: 1.4rem; margin-bottom: 6px; }
+  .ads-garantie p { margin: 0; color: var(--muted); }
+
+  .ads-rens { display: grid; grid-template-columns: 120px 1fr; gap: 20px; align-items: center; background: #fff; border: 1px solid var(--line-cool); border-radius: var(--radius); padding: 20px; box-shadow: var(--shadow); }
+  .ads-rens img { width: 120px; height: auto; border-radius: 10px; border-top: 5px solid var(--orange); }
+  .ads-rens p { margin: 0; color: var(--muted); }
+  .ads-rens h2 { font-size: 1.3rem; margin-bottom: 6px; }
+  @media (max-width: 480px) { .ads-rens { grid-template-columns: 90px 1fr; gap: 14px; } .ads-rens img { width: 90px; } }
+
+  .ads-footer { background: var(--navy-deep); color: #b9cadb; padding: 30px 0 100px; font-size: .9rem; text-align: center; }
+  .ads-footer a { color: #d7e4f1; }
+  .ads-footer p { margin: 0 0 8px; }
+  @media (min-width: 861px) { .ads-footer { padding-bottom: 36px; } }
+</style>
