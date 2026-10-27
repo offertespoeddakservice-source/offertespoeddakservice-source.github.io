@@ -902,25 +902,25 @@ export const ARTIKELEN: Artikel[] = [
     h1: "Wat kost een dakdekker of een dakreparatie? Eerlijke richtprijzen",
     metaTitle: "Wat kost een dakdekker of dakreparatie? | Spoed Dak Service",
     metaDescription:
-      "Wat kost een dakdekker? Goten reinigen €99 all-in, kleine reparatie €100–€250, daklekkage €200–€500. Offerte altijd gratis, vaste prijs vooraf.",
+      `Wat kost een dakdekker? Goten reinigen ${GOTEN_PRIJS}, kleine reparatie ${kleinPrijs}, daklekkage ${lekPrijs}. Offerte altijd gratis, vaste prijs vooraf.`,
     intro:
-      "Een dakinspectie kost normaal €100 tot €300. Bij mij is dat de Dak-APK: €49 voor een compleet keuringsrapport met foto's van elke risicoplek, binnen een dagdeel. Voor de rest: hieronder de eerlijke richtprijzen per klus — geen vaag bedrag per meter, en bij elke klus hoor je de vaste prijs vóórdat ik begin.",
+      `Wil je eerst weten hoe je dak ervoor staat? Dat is bij mij de Dak-APK: ${apkPrijs} voor een compleet keuringsrapport met foto's van elke risicoplek, binnen een dagdeel. Voor de rest staan hieronder de eerlijke richtprijzen per klus. Geen vaag bedrag per meter, en bij elke klus hoor je de vaste prijs voordat ik begin.`,
     secties: [
       { kop: "Kleine klussen en reparaties", tekst: [
-        "Een kleine reparatie — een paar losse pannen terugleggen of een nokvorst vastzetten — kost meestal €100 tot €250, vaste prijs vooraf.",
-        "Goten reinigen is €99 all-in bij een rijtjeswoning — en terwijl ik bezig ben zie ik vaak meteen of er verder nog iets aan je dak speelt. Groter huis? Vaste prijs vooraf.",
+        `Een kleine reparatie, zoals een paar losse pannen terugleggen of een nokvorst vastzetten, kost meestal ${kleinPrijs}, vaste prijs vooraf.`,
+        `Goten reinigen is ${GOTEN_PRIJS} bij een rijtjeswoning, en terwijl ik bezig ben zie ik vaak meteen of er verder nog iets aan je dak speelt. Groter huis? Vaste prijs vooraf.`,
       ] },
       { kop: "Richtprijzen per klus", tekst: [
         `Een punctuele daklekkage repareren kost meestal ${lekPrijs}, inclusief materiaal. Dak ontmossen ${ontmosPrijs}. Schoorsteen vegen ${veegPrijs}. Zonnepanelen reinigen ${zonPrijs}. Een compleet nieuw dak: ${nieuwDakUitleg} Andere klussen krijg je als vaste prijs na een Dak-APK of bezoek.`,
         "Bij spoed buiten kantooruren komt er een toeslag bij — die hoor je vooraf, nooit als verrassing achteraf.",
       ] },
       { kop: "Waarom een vaste prijs vooraf?", tekst: [
-        "Elk dak is anders. Wil je eerst weten hoe je dak ervoor staat, dan kan dat via de Dak-APK (€49): een compleet keuringsrapport met foto's, binnen een dagdeel. Weet je al wat er moet gebeuren, dan geef ik een vaste prijs vóór ik begin. Geen meerwerk-verrassingen — dat is het verschil met een callcenter dat een richtbedrag noemt en achteraf bijplust.",
+        `Elk dak is anders. Wil je eerst weten hoe je dak ervoor staat, dan kan dat via de Dak-APK (${apkPrijs}): een compleet keuringsrapport met foto's, binnen een dagdeel. Weet je al wat er moet gebeuren, dan geef ik een vaste prijs vóór ik begin. Geen meerwerk-verrassingen: dat is het verschil met een callcenter dat een richtbedrag noemt en achteraf bijplust.`,
       ] },
     ],
     dienst: { label: "Bekijk alle prijzen", href: "/prijzen/" },
     faq: [
-      { v: "Reken je voorrijkosten?", a: "Nee — een offerte is altijd gratis: bel of stuur een foto via WhatsApp en je hoort de vaste prijs vooraf. Wil je een complete keuring van je hele dak mét fotorapport? Dat is de Dak-APK (€49), maar die is optioneel." },
+      { v: "Reken je voorrijkosten?", a: `Nee, een offerte is altijd gratis: bel of stuur een foto via WhatsApp en je hoort de vaste prijs vooraf. Wil je een complete keuring van je hele dak met fotorapport? Dat is de Dak-APK (${apkPrijs}), maar die is optioneel.` },
       { v: "Krijg ik de prijs op papier?", a: "Je hoort de vaste prijs vooraf en krijgt die desgewenst op de offerte. Geen verrassingen achteraf." },
       { v: "Wat kost een dakreparatie?", a: `Een kleine reparatie, zoals een paar losse pannen terugleggen of een nokvorst vastzetten, kost meestal ${kleinPrijs}. Een lek opsporen en dichten kost meestal ${lekPrijs}, inclusief materiaal. Je hoort de vaste prijs voordat ik begin.` },
       { v: "Waarom verschillen de prijzen van dakdekkers zo?", a: "Omdat elk dak anders is en niet iedereen op dezelfde manier rekent. De een noemt een prijs per meter of per uur, de ander rekent voorrijkosten of een minimumbedrag. Vraag daarom altijd wat er precies in de prijs zit en of het een vaste prijs is." },
