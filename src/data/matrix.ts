@@ -74,7 +74,7 @@ export const MATRIX: MatrixCombo[] = [
   {
     plaats: "vlijmen",
     dienst: "daklekkage",
-    hook: "In de naoorlogse en jaren-'70 wijken van Vlijmen — Vliedberg, Het Vromart — begint lekkage vaak bij verouderde pannen of losgeraakt lood na een storm vanaf de Maaskant. Ik spoor het op en repareer gericht.",
+    hook: "In Vliedberg en de andere naoorlogse wijken van Vlijmen hebben veel rijtjeshuizen achter een berging of aanbouw met een plat dak, vaak met een lichtkoepel erin. Bij zo'n koepel lekt het nogal eens langs de rand, waar de koepel op de opstand staat, en dan druppelt het precies onder de koepel naar binnen. In Nieuwkuijk en Haarsteeg, vlak bij Vlijmen, staan meer vrijstaande huizen met grote tuinen. Daar loopt de goot in de herfst snel over door het blad uit de bomen, en binnen lijkt dat soms op een daklek. App me een foto van de natte plek, dan zie ik vaak al waar ik moet zoeken.",
   },
   {
     plaats: "drunen",
