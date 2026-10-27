@@ -89,7 +89,7 @@ export const MATRIX: MatrixCombo[] = [
   {
     plaats: "schijndel",
     dienst: "daklekkage",
-    hook: "Veel daken in Schijndel zijn van vóór 1985 — daar lekt het vaak bij losse pannen, nokvorsten of uitgedroogd lood. Ik spoor het lek gericht op en dicht het vakkundig.",
+    hook: "Veel daken in Schijndel zijn van voor 1985, en op een deel daarvan liggen nog de eerste pannen. Zo'n oude pan neemt na veertig jaar meer water op. Vriest het daarna, dan kan er een haarscheur in komen die je van beneden niet ziet, en bij de volgende flinke bui druppelt het op zolder. In Wijbosch staan meer vrijstaande huizen met een schoorsteen, en daar zit een lek vaker in het lood rond die schoorsteen. Ik vervang alleen de pannen die echt kapot zijn, en zeg je eerlijk als er meer aan de hand is.",
   },
   {
     plaats: "heusden",
