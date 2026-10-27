@@ -140,6 +140,8 @@ export const PLAATSEN: Plaats[] = [
       "Ruim opgezette wijken met schuine pannendaken; bladval en mos zorgen voor snel volle goten en losse pannen.",
     wijken: ["Melle", "Bitswijk", "Hoenderbos", "Centrum"],
     reistijd: "25 min vanaf Den Bosch",
+    extra:
+      "Rond de Markt in het centrum van Uden zitten veel winkels met een woning erboven. Achter zo'n pand ligt vaak een plat dak op de winkel of het magazijn, en daar komt het water nogal eens binnen bij de afvoer of langs de rand. Volkel en Odiliapeel, de dorpen die bij Uden horen, hebben meer vrijstaande huizen en boerderijen met een groot pannendak en een lange goot. Daar blijft in de herfst veel blad in de goot liggen, en bij een stevige bui loopt hij dan over langs de gevel. Stuur me een foto, dan zeg ik je eerlijk of leegmaken genoeg is.",
   },
   {
     slug: "den-bosch",
