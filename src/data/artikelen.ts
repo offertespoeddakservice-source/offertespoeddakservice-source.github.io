@@ -670,6 +670,10 @@ export const ARTIKELEN: Artikel[] = [
       { kop: "Je verzekering", tekst: [
         "Storm- en hagelschade valt vaak onder je opstalverzekering. Meld de schade bij je verzekeraar en bewaar de foto's. Ik lever een duidelijke omschrijving en foto's aan van wat ik aantref en herstel, zodat jij het kunt indienen.",
       ] },
+      { kop: "Na de storm: kijk eerst vanaf de grond", tekst: [
+        "Is de storm voorbij en is het binnen droog? Kijk dan vanaf de straat of de tuin even goed naar je dak. Let op pannen die scheef liggen of missen, een nok die niet meer recht loopt, lood bij de schoorsteen of het dakraam dat omhoog staat, en een goot die los hangt. Ligt er specie of een stuk pan in de goot of op de grond, dan zit er iets los.",
+        'Ga daarna met een zaklamp op zolder kijken. Zie je ergens daglicht, of een natte plek op het hout of de folie, maak er dan een foto van. Zit de nok los, lees dan <a href="/kennisbank/nokvorsten-los/">losse nokvorsten</a>. Lekt het sinds de storm alleen als het hard waait, lees dan <a href="/kennisbank/dak-lekt-bij-harde-wind/">dak lekt bij harde wind</a>.',
+      ] },
       { kop: "Wanneer je moet bellen", tekst: [
         "Een open dak of actieve lekkage is spoed — daar kom ik snel voor langs om eerst de schade te stoppen (afdekken, dichten), en daarna netjes te herstellen. Bel of WhatsApp, dan hoor je meteen wanneer ik kan.",
       ] },
@@ -678,6 +682,7 @@ export const ARTIKELEN: Artikel[] = [
     faq: [
       { v: "Moet ik zelf het dak op om de schade af te dekken?", a: "Nee, doe dat niet — zeker niet vlak na een storm. Bel mij, ik dek het veilig af en herstel daarna." },
       { v: "Vergoedt mijn verzekering stormschade?", a: "Vaak wel via de opstalverzekering. Ik lever foto's en een omschrijving aan zodat je het kunt indienen; check de voorwaarden bij je verzekeraar." },
+      { v: "Hoe snel moet ik stormschade melden bij mijn verzekering?", a: "Zo snel als je kunt. Hoe snel precies, staat in je polisvoorwaarden. Maak meteen foto's van de schade, binnen en vanaf de straat van je dak, en bewaar die." },
     ],
   },
   {
