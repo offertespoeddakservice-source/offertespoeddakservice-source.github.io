@@ -112,6 +112,8 @@ export const PLAATSEN: Plaats[] = [
       "Bosrijke omgeving betekent veel bladval en mos op daken — goten en pannen vragen hier extra aandacht.",
     wijken: ["Pannenschuur", "Westend", "Moergestel"],
     reistijd: "25 min vanaf Den Bosch",
+    extra:
+      "Haaren is sinds de herindeling van 2021 een dorp van de gemeente Oisterwijk. Daar en in het buitengebied staan veel vrijstaande huizen en oude boerderijen met een groot pannendak. Onder de vele bomen in en rond Oisterwijk krijgt een dak weinig zon, en op de noordkant groeit dan snel mos. Mos houdt water vast, en als het daarna vriest kan een pan scheuren. Ligt er een dikke laag mos op je dak, dan haal ik die eraf en kijk ik meteen of de pannen eronder nog heel zijn.",
   },
   {
     slug: "wijchen",
