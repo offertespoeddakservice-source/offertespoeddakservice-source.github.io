@@ -420,7 +420,9 @@ export const DIENSTEN: Dienst[] = [
       "Bestaande nesten eerst veilig verwijderd",
     ],
     faq: [
-      { v: "Werkt vogelwering blijvend?", a: "Ja — mits goed geplaatst sluit het de hele rij af zodat vogels er niet meer onder kunnen. Ik controleer de hele dakvoet, niet alleen de plek waar je ze ziet." },
+      { v: "Werkt vogelwering blijvend?", a: "Als de vogelwering goed geplaatst is en de hele rij onder de pannen afsluit, komen vogels er in de regel niet meer onder. Daarom kijk ik naar de hele dakvoet, niet alleen naar de plek waar je ze ziet." },
+      { v: "Van welk materiaal is de vogelwering?", a: "Ik gebruik standaard kunststof vogelwering. Die komt onder de onderste rij pannen, zodat vogels er niet meer tussen kunnen, terwijl er nog wel lucht onder je pannen blijft. Vanaf de straat zie je er weinig van." },
+      { v: "Kan er ook vogelwering onder mijn zonnepanelen?", a: "Ja, dat kan. Onder zonnepanelen nestelen vaak duiven, en die laten veel troep achter op je dak en in de goot. Ik sluit de rand rond de panelen af, zodat ze er niet meer onder komen." },
     ],
   },
   {
