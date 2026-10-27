@@ -461,27 +461,27 @@ export const ARTIKELEN: Artikel[] = [
     metaDescription:
       `Wat kost een daklekkage repareren? Een gerichte reparatie kost meestal ${lekPrijs}, inclusief materiaal. Waar de prijs van afhangt en waarom wachten duurder is.`,
     intro:
-      "De eerste vraag bij een lek is bijna altijd: wat gaat me dit kosten? Eerlijk antwoord: dat hangt af van de oorzaak en hoe lang het al speelt. Hieronder zet ik de prijzen op een rij zoals ik ze ook aan de telefoon zou noemen — vaste prijs vooraf, geen verrassingen achteraf.",
+      "De eerste vraag bij een lek is bijna altijd: wat gaat me dit kosten? Eerlijk antwoord: dat hangt af van de oorzaak en hoe lang het al speelt. Hieronder zet ik de prijzen op een rij zoals ik ze ook aan de telefoon zou noemen: vaste prijs vooraf, geen verrassingen achteraf.",
     secties: [
-      { kop: "Een punctuele reparatie: €200 tot €500", tekst: [
-        "De meeste lekkages zijn één duidelijke oorzaak: een gebroken pan, losgelaten lood of een versleten naad. Zo'n gerichte reparatie kost meestal €200 tot €500, inclusief materiaal. Je hoort het bedrag voordat ik begin.",
-        "Bij spoed buiten kantooruren komt daar een toeslag bij — maar ik zeg eerlijk of het écht niet tot de volgende dag kan wachten.",
+      { kop: `Een gerichte reparatie: ${lekPrijs}`, tekst: [
+        `De meeste lekkages hebben één duidelijke oorzaak: een gebroken pan, losgelaten lood of een versleten naad. Zo'n gerichte reparatie kost meestal ${lekPrijs}, inclusief materiaal. Je hoort het bedrag voordat ik begin.`,
+        "Bij spoed buiten kantooruren komt daar een toeslag bij. Ik zeg je eerlijk of het echt niet tot de volgende dag kan wachten.",
       ] },
       { kop: "Waar de prijs van afhangt", tekst: [
         "Drie dingen bepalen de prijs: de oorzaak (een losse pan is zo gepiept, een rotte dakvoet is meer werk), de bereikbaarheid (hoogte, steiger of ladder) en het daktype. Een pannendak repareer je anders dan een plat dak met bitumen of EPDM.",
-        "Marktbreed lopen reparaties per vierkante meter uiteen van zo'n €130–€210 voor een pannendak tot €250–€300 voor een plat dak. Voor een gericht klusje reken ik liever een eerlijke vaste prijs dan een vaag bedrag per meter.",
+        "Je ziet online soms prijzen per vierkante meter. Voor een gericht klusje reken ik liever een eerlijke vaste prijs voor de hele reparatie dan een bedrag per meter.",
       ] },
       { kop: "En het opsporen zelf?", tekst: [
-        "De natte plek zit zelden onder het echte lek, dus opsporen hoort erbij. Een visuele controle van buiten en op zolder zit vaak gewoon bij de reparatie in. Is er gerichte lekdetectie nodig (vocht- of rookmeting), dan reken je marktbreed €125–€350 apart — maar in de meeste gevallen vind ik het zonder dat extra gereedschap.",
+        "De natte plek zit zelden onder het echte lek, dus opsporen hoort erbij. Een controle van buiten en op zolder zit vaak gewoon bij de reparatie in. Is er toch gericht meetwerk nodig, zoals een vocht- of rookmeting, dan hoor je vooraf wat dat kost. Meestal vind ik het lek zonder dat extra gereedschap.",
       ] },
       { kop: "Waarom uitstellen juist duur is", tekst: [
-        "Dit is de belangrijkste: een kleine lekkage van een paar honderd euro kan binnen een half jaar uitgroeien tot €800–€2.500 aan vocht-, hout- en isolatieschade. Snel een klein bedrag uitgeven is bijna altijd goedkoper dan wachten.",
-        "Daarom kom ik bij een lek liever vandaag dan volgende week — eerst de schade stoppen, dan netjes herstellen.",
+        "Dit is de belangrijkste: een klein lek wordt groter als je wacht. Na een paar maanden zijn vaak ook het hout, de isolatie en je plafond nat, en dat herstellen kost veel meer dan het lek zelf. Een klein lek snel laten maken is bijna altijd goedkoper dan wachten.",
+        "Daarom pak ik een lek het liefst snel aan: eerst de schade stoppen, dan netjes herstellen.",
       ] },
     ],
     dienst: { label: "Bekijk: daklekkage & spoed", href: "/diensten/daklekkage/" },
     faq: [
-      { v: "Krijg ik de prijs vooraf te horen?", a: "Altijd. Ik kijk wat de oorzaak is en noem een vaste prijs voordat ik begin — geen meerwerk-verrassingen achteraf." },
+      { v: "Krijg ik de prijs vooraf te horen?", a: "Altijd. Ik kijk wat de oorzaak is en noem een vaste prijs voordat ik begin, zonder verrassingen achteraf." },
       { v: "Hoe wordt het lek gevonden?", a: "Meestal met een gerichte controle van buiten en op zolder, zonder sloopwerk. Lees daarover in het artikel ‘Daklekkage opsporen’." },
       { v: "Vergoedt mijn verzekering de reparatie?", a: "Bij storm- of stormgerelateerde schade vaak wel (opstalverzekering). Ik lever foto's en een omschrijving aan zodat je het kunt indienen." },
     ],
