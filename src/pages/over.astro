@@ -1,6 +1,7 @@
 ---
 import Base from "../layouts/Base.astro";
 import { SITE, telHref, waHref } from "../site.config.ts";
+import EchteFotos from "../components/EchteFotos.astro";
 ---
 
 <Base
@@ -39,6 +40,8 @@ import { SITE, telHref, waHref } from "../site.config.ts";
           <a href="/diensten/goten-reinigen/">goten leeg maken</a> en <a href="/diensten/dakreparatie/">losse pannen, lood en nokvorsten</a>.
           Lekt het nu? Op de <a href="/spoed/">spoedpagina</a> zie je wat je meteen zelf kunt doen. In welke plaatsen ik kom, staat bij het <a href="/werkgebied/">werkgebied</a>.
         </p>
+        <h2>Foto's van mijn eigen klussen</h2>
+        <EchteFotos soort="pannen" max={3} inline />
         <p>
           Werk je liever met iemand die gewoon zegt wat er nodig is — en wat níet? Dan zit je bij mij goed.
         </p>
