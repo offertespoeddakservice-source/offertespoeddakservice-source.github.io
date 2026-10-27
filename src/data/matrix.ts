@@ -30,7 +30,7 @@ export const MATRIX: MatrixCombo[] = [
   {
     plaats: "rosmalen",
     dienst: "daklekkage",
-    hook: "De jaren-'60 en '70 daken in Rosmalen lekken vaak waar nokvorsten loslaten of het lood bij de schoorsteen is uitgedroogd. Ik vind de échte oorzaak, niet alleen het natte plekje binnen.",
+    hook: "In de rijtjeshuizen uit de jaren '60 en '70 in Rosmalen liggen de nokvorsten vaak nog in specie. Na zoveel jaren wordt die specie bros en brokkelt hij af, en dan waait de regen onder de nok door naar binnen. Dat zie je eerst als een natte plek op zolder, net onder de nok. In dezelfde huizen vind ik een lek ook vaak bij de ontluchtingspijp die door het dak steekt. De loden of rubberen kraag eromheen droogt uit en scheurt, en bij een flinke bui loopt het water dan langs de pijp naar beneden. Bel of app me, dan kom ik kijken waar het bij jou zit.",
   },
   {
     plaats: "vught",
