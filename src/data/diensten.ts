@@ -10,6 +10,10 @@ const GOTEN_PRIJS = PRIJZEN.find((r) => r.dienst === "Dakgoot reinigen")?.prijs 
 const VEEG_PRIJS = PRIJZEN.find((r) => r.dienst === "Schoorsteen vegen")?.prijs ?? "";
 const DAKKAPEL_PRIJS = PRIJZEN.find((r) => r.dienst === "Dakkapel poetsen")?.prijs ?? "";
 const ONTMOS_PRIJS = PRIJZEN.find((r) => r.dienst.startsWith("Dak reinigen"))?.prijs ?? "";
+const LEK_PRIJS = PRIJZEN.find((r) => r.dienst.startsWith("Daklekkage"))?.prijs ?? "";
+const KLEIN_PRIJS = PRIJZEN.find((r) => r.dienst.startsWith("Kleine reparatie"))?.prijs ?? "";
+const ZON_PRIJS = PRIJZEN.find((r) => r.dienst === "Zonnepanelen reinigen")?.prijs ?? "";
+const NIEUWDAK_PRIJS = PRIJZEN.find((r) => r.dienst.startsWith("Nieuw dak"))?.prijs ?? "";
 
 export interface Dienst {
   slug: string;
@@ -37,7 +41,7 @@ export const DIENSTEN: Dienst[] = [
     metaDescription:
       "Goten laten reinigen in de regio Den Bosch: €99 all-in voor een rijtjeswoning, vaste prijs vooraf. Snel langs, netjes werk en eerlijk advies over je dak. Bel of WhatsApp Rens.",
     icoon: "🪣",
-    vanafPrijs: "€99 all-in",
+    vanafPrijs: GOTEN_PRIJS,
     intro:
       "Volle of verstopte dakgoten zorgen voor overlopend water, vochtige muren en op den duur lekkage. Ik maak je goten leeg, controleer de afvoer en kijk meteen of er nog iets aan je dak speelt. Geen verrassingen: je weet vooraf wat het kost.",
     punten: [
@@ -72,7 +76,7 @@ export const DIENSTEN: Dienst[] = [
   {
     slug: "daklekkage",
     titel: "Daklekkage & spoed",
-    vanafPrijs: "€200 – €500",
+    vanafPrijs: LEK_PRIJS,
     h1: "Daklekkage verhelpen: vaak dezelfde dag langs in de regio Den Bosch",
     kort: "Lek opsporen zonder sloopwerk en snel dichten, ook bij spoed.",
     metaTitle: "Daklekkage repareren regio Den Bosch | Spoed Dak Service",
@@ -125,7 +129,7 @@ export const DIENSTEN: Dienst[] = [
   {
     slug: "dakreparatie",
     titel: "Dakreparatie",
-    vanafPrijs: "€100 – €250",
+    vanafPrijs: KLEIN_PRIJS,
     h1: "Dakreparatie, ook met spoed: pannen, lood en nokvorsten hersteld",
     kort: "Gebroken pannen, lood bij schoorsteen of dakraam, losse nokvorsten.",
     metaTitle: "Spoed dakreparatie regio Den Bosch | Spoed Dak Service",
@@ -166,7 +170,7 @@ export const DIENSTEN: Dienst[] = [
   {
     slug: "platte-daken",
     titel: "Platte daken (EPDM)",
-    vanafPrijs: "lek vanaf €200",
+    vanafPrijs: `lek vanaf ${LEK_PRIJS.split(" - ")[0]}`,
     h1: "Plat dak repareren of vervangen — EPDM en bitumen",
     kort: "Lekkage in plat dak opsporen en herstellen, of de hele bedekking vernieuwen.",
     metaTitle: "Lekkend plat dak repareren Den Bosch | Spoed Dak Service",
@@ -195,7 +199,7 @@ export const DIENSTEN: Dienst[] = [
   {
     slug: "stormschade",
     titel: "Stormschade",
-    vanafPrijs: "spoed — prijs vooraf",
+    vanafPrijs: "spoed, prijs vooraf",
     h1: "Stormschade aan je dak? Bel direct, ik beperk eerst de schade",
     kort: "Weggewaaide pannen, losse delen of lekkage na storm? Snel actie.",
     metaTitle: "Stormschade dak: noodreparatie Den Bosch | Spoed Dak Service",
@@ -286,7 +290,7 @@ export const DIENSTEN: Dienst[] = [
     metaDescription:
       `Dak laten reinigen in de regio Den Bosch: mos, vuil en groene aanslag eraf voor ${ONTMOS_PRIJS}. Zo lopen je goten minder snel vol. Vaste prijs vooraf. Bel of WhatsApp Rens.`,
     icoon: "🧽",
-    vanafPrijs: "€8 – €15 p/m²",
+    vanafPrijs: ONTMOS_PRIJS,
     intro:
       "Mos en aanslag houden vocht vast, verstoppen je goten en tasten op den duur de pannen aan. Ik maak je dak weer schoon en kijk meteen of er pannen los of beschadigd zijn.",
     punten: [
@@ -302,7 +306,7 @@ export const DIENSTEN: Dienst[] = [
   {
     slug: "dakpannen-vervangen",
     titel: "Dakpannen vervangen",
-    vanafPrijs: "€100 – €250",
+    vanafPrijs: KLEIN_PRIJS,
     h1: "Dakpannen vervangen of recht leggen: voorkom lekkage",
     kort: "Gebroken, verschoven of versleten pannen vervangen of opnieuw recht leggen.",
     metaTitle: "Dakpannen vervangen Den Bosch | Spoed Dak Service",
@@ -327,7 +331,7 @@ export const DIENSTEN: Dienst[] = [
   {
     slug: "schoorsteen-vegen",
     titel: "Schoorsteen vegen",
-    vanafPrijs: "€70",
+    vanafPrijs: VEEG_PRIJS,
     h1: "Schoorsteen vegen: veilig, netjes en zonder roetzooi",
     kort: "De hele schoorsteen geveegd, plus een blik op het lood en de aansluiting.",
     metaTitle: "Schoorsteenveger Den Bosch en omgeving | Spoed Dak Service",
@@ -353,7 +357,7 @@ export const DIENSTEN: Dienst[] = [
   {
     slug: "dakkapel-reinigen",
     titel: "Dakkapel reinigen",
-    vanafPrijs: "vanaf €70",
+    vanafPrijs: DAKKAPEL_PRIJS,
     h1: "Dakkapel reinigen en onderhouden: weer schoon en waterdicht",
     kort: "Dakkapel schoonmaken, kitwerk en aansluitingen nakijken zodat hij niet gaat lekken.",
     metaTitle: "Dakkapel reinigen en onderhoud Den Bosch | Spoed Dak Service",
@@ -379,7 +383,7 @@ export const DIENSTEN: Dienst[] = [
   {
     slug: "zonnepanelen-reinigen",
     titel: "Zonnepanelen reinigen",
-    vanafPrijs: "vanaf €10 p/paneel",
+    vanafPrijs: ZON_PRIJS,
     h1: "Zonnepanelen reinigen: meer opbrengst uit je panelen",
     kort: "Vuile panelen leveren minder op. Ik maak ze veilig en streepvrij schoon.",
     metaTitle: "Zonnepanelen reinigen Den Bosch | Spoed Dak Service",
@@ -428,7 +432,7 @@ export const DIENSTEN: Dienst[] = [
   {
     slug: "dakrenovatie",
     titel: "Dakrenovatie",
-    vanafPrijs: "€50 – €170 p/m²",
+    vanafPrijs: NIEUWDAK_PRIJS,
     h1: "Dakrenovatie: versleten pannen, lood, nok en goten in één keer aangepakt",
     kort: "Versleten dak grondig opknappen: pannen, lood, nok en goten in één keer aangepakt.",
     metaTitle: "Dakrenovatie Den Bosch & regio | Spoed Dak Service",
