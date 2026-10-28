@@ -294,6 +294,45 @@ export const ARTIKELEN: Artikel[] = [
     ],
   },
   {
+    slug: "lichtkoepel-lekt",
+    datum: "2026-10-29",
+    titel: "Lichtkoepel lekt?",
+    h1: "Lichtkoepel lekt: langs de rand, door de koepel of is het condens?",
+    metaTitle: "Lichtkoepel lekt: oorzaken en oplossing | Spoed Dak Service",
+    metaDescription:
+      "Druppelt het onder je lichtkoepel? Meestal zit het lek in de aansluiting met het platte dak, niet in de koepel zelf. Zo zie je waar het zit en wat je doet.",
+    intro:
+      "Een lichtkoepel staat op een opstand, een rand die boven het platte dak uitsteekt. Rond die opstand moet de dakbedekking netjes aansluiten. Druppelt het onder de koepel, dan denk je al snel dat de koepel zelf kapot is. Meestal zit het lek ernaast, in die aansluiting. Hieronder lees je hoe je ziet waar het zit en wat eraan te doen is.",
+    secties: [
+      { kop: "Lekt het nu? Eerst dit", tekst: [
+        'Zet een emmer onder de koepel, leg er een doek in en haal spullen weg die nat kunnen worden. Ga niet zelf het platte dak op als het nat of glad is, en stap nooit op de koepel: die is niet gemaakt om op te staan. Wat je verder meteen kunt doen, staat op de <a href="/spoed/">spoedpagina</a>.',
+      ] },
+      { kop: "Waar het meestal zit", tekst: [
+        "In de aansluiting tussen de dakbedekking en de opstand. Daar zit een hoek of naad die na jaren van zon, regen en vorst loslaat of scheurt. Het water loopt dan achter de dakbedekking langs de opstand naar beneden en druppelt precies onder de koepel naar binnen.",
+        "In de koepel zelf. De afdichting tussen koepel en opstand droogt uit, een schroef of klem zit los, of er komt een scheur in de koepel. Een oude koepel van kunststof wordt na veel jaren in de zon bros en dof, en een scheur begint dan vaak bij een schroefgat.",
+        'Of in het water eromheen. Blijft er na een bui water op het dak staan rond de koepel, dan staat de aansluiting steeds onder water en vindt het makkelijker een weg naar binnen. Zie <a href="/kennisbank/water-blijft-staan-op-plat-dak/">water blijft staan op je platte dak</a>.',
+      ] },
+      { kop: "Lek of condens?", tekst: [
+        'Druppels aan de binnenkant van de koepel op een koude ochtend zijn vaak condens. Warme, vochtige lucht uit een badkamer of keuken slaat neer tegen de koude koepel, vooral bij een oude koepel met maar één laag. Dan druppelt het ook als het droog is. Komt het water alleen bij of na regen, dan is het een lek. Meer over het verschil lees je in <a href="/kennisbank/condens-of-lekkage-op-zolder/">condens of lekkage op zolder</a>.',
+      ] },
+      { kop: "Wat je zelf beter niet doet", tekst: [
+        "Smeer niet zelf een rand kit rond de koepel. Op een natte of vuile ondergrond hecht kit slecht, en kit op de verkeerde plek kan het water juist achter de dakbedekking vasthouden. Maak liever een foto van de natte plek binnen en, als je er veilig bij kunt, van de koepel vanuit een raam, en stuur die via WhatsApp.",
+      ] },
+      { kop: "Hoe ik het aanpak", tekst: [
+        'Ik kijk eerst waar het water echt binnenkomt: in de aansluiting, bij de koepel of op een plek verderop op het platte dak. Een losse of gescheurde aansluiting maak ik weer dicht. Is de koepel zelf gescheurd of bros, dan zeg ik eerlijk of herstellen nog zin heeft of dat er een nieuwe koepel op moet. Zie <a href="/diensten/platte-daken/">platte daken</a>.',
+      ] },
+      { kop: "Wat kost het?", tekst: [
+        'Een losse aansluiting dichtmaken is meestal een overzichtelijke klus. Moet er een nieuwe koepel op, dan is het meer werk. In beide gevallen hoor je vooraf wat het kost, voordat ik begin. Lekt het al langer en is het plafond eronder nat geworden, lees dan ook <a href="/kennisbank/daklekkage-verzekering/">daklekkage en je verzekering</a>.',
+      ] },
+    ],
+    dienst: { label: "Bekijk: platte daken", href: "/diensten/platte-daken/" },
+    faq: [
+      { v: "Waarom lekt mijn lichtkoepel alleen bij harde regen?", a: "Bij een flinke bui komt het water op het platte dak hoger te staan, zeker als de afvoer een beetje vol zit. Dan bereikt het een naad of scheur in de aansluiting die bij gewone regen droog blijft. Kijk dus ook of de afvoer van je platte dak vrij is." },
+      { v: "Kan ik op een lichtkoepel staan?", a: "Nee. Een lichtkoepel is niet gemaakt om op te staan of op te leunen, ook al voelt hij stevig. Blijf er altijd naast." },
+      { v: "Moet een lekkende lichtkoepel er helemaal af?", a: "Dat hangt af van waar het lek zit. Is alleen de aansluiting met de dakbedekking los, dan kan de koepel blijven zitten. Zit er een scheur in de koepel zelf, of is hij zo bros dat hij kraakt als je hem aanraakt, dan heeft plakken weinig zin." },
+    ],
+  },
+  {
     slug: "nokvorsten-los",
     datum: "2026-10-21",
     titel: "Losse nokvorsten",
