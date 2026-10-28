@@ -496,6 +496,15 @@ export const ARTIKELEN: Artikel[] = [
       { kop: "Waarom het belangrijk is", tekst: [
         "Een verstopte goot loopt over langs de gevel, trekt vocht in muren en fundering en kan binnen voor lekkage zorgen. Een kleine jaarlijkse onderhoudsbeurt voorkomt dure schade.",
       ] },
+      { kop: "Wanneer vaker dan één keer per jaar", tekst: [
+        "Staan er naaldbomen bij je huis, zoals dennen of sparren, dan valt er het hele jaar door iets in de goot. Naalden zijn klein en zakken door de meeste bladvangers heen, en na een tijd zitten ze in de regenpijp zelf. Dan is in het voorjaar nog een keer leegmaken slim.",
+        'Heeft je huis een kilgoot of een bakgoot, dan komt daar meer water samen, en een volle goot loopt dan naar binnen in plaats van langs de gevel. Die wil je zeker voor de winter leeg hebben. Zie <a href="/kennisbank/kilgoot-lekt/">kilgoot lekt</a> en <a href="/kennisbank/bakgoot-lekt/">bakgoot lekt</a>.',
+        'Groeit er veel mos op je pannen, dan spoelt dat bij elke bui in brokjes de goot in. Dan zit de goot sneller vol, ook zonder bomen in de buurt. Lees ook <a href="/kennisbank/mos-op-dak-verwijderen/">mos op je dak</a>.',
+      ] },
+      { kop: "Zo controleer je het zelf vanaf de grond", tekst: [
+        "Kijk na een droge week vanaf de overkant van de straat naar je goot. Steken er sprietjes gras of plantjes boven de rand uit, dan ligt er al een laag aarde in. Luister bij een flinke bui bij de regenpijp: hoor je nauwelijks water stromen terwijl het hard regent, dan komt het water er niet in. En zitten er steeds vogels op dezelfde plek in de goot, dan staat daar vaak een plas water.",
+        "Ga voor een kijkje niet zelf op een ladder tegen de goot staan, zeker niet als het nat is. Een foto met de zoom van je telefoon is vaak al genoeg om te zien hoe vol hij zit.",
+      ] },
       { kop: "Wat kost goten reinigen?", tekst: [
         `Bij een rijtjeswoning is het ${GOTEN_PRIJS}: beide goten leeg, uitloop naar de regenpijp vrijgemaakt, troep mee. Bij een groter of hoger huis hoor je vooraf de vaste prijs, nooit achteraf verrassingen.`,
       ] },
@@ -503,6 +512,8 @@ export const ARTIKELEN: Artikel[] = [
     dienst: { label: "Bekijk: dakgoot reinigen", href: "/diensten/goten-reinigen/" },
     faq: [
       { v: "Wanneer kan ik het beste laten reinigen?", a: "In het najaar, als het meeste blad gevallen is, dan heb je er het hele jaar profijt van en voorkom je winterlekkage." },
+      { v: "Helpt een bladvanger of een gootrooster?", a: "Het scheelt. Een bladvanger op de uitloop houdt grof blad uit de regenpijp, en een rooster over de goot houdt het meeste blad tegen. Maar naalden, zaadjes en mos komen er nog steeds langs, en blad dat op het rooster blijft liggen moet er ook af. Eén keer per jaar laten nakijken blijft nodig." },
+      { v: "Waarom loopt mijn goot over terwijl er weinig blad in ligt?", a: "Dan zit het vaak bij de uitloop naar de regenpijp: een prop naalden, mos of zelfs een tennisbal is genoeg om die dicht te zetten. Het kan ook zijn dat de goot niet meer goed naar de regenpijp afloopt, zodat het water in het midden blijft staan. Stuur een foto, dan kijk ik mee." },
     ],
   },
   {
