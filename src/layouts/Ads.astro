@@ -48,6 +48,8 @@ const wa = waHref(waBericht);
         document.addEventListener("click", function (ev) {
           var a = ev.target && ev.target.closest ? ev.target.closest("a") : null;
           if (!a) return;
+          // knoppen met data-niet-tellen tellen niet mee (bijvoorbeeld "Foto's nasturen" na een verstuurd formulier)
+          if (a.hasAttribute("data-niet-tellen")) return;
           var h = (a.getAttribute("href") || "").toLowerCase();
           if (h.indexOf("tel:") === 0) tel("bellen");
           else if (h.indexOf("wa.me") !== -1 || h.indexOf("whatsapp") !== -1) tel("whatsapp");
@@ -125,9 +127,8 @@ const wa = waHref(waBericht);
       </div>
     </header>
 
-    <div class="trust-strip">
-      Echte dakdekker, geen callcenter · 1 jaar garantie op reparatie, 2 jaar op vervangen
-      <span> · <a href={SITE.werkspotUrl} target="_blank" rel="noopener" style="color:inherit; text-decoration:underline;">{String(SITE.reviews.score).replace(".", ",")} op Werkspot</a></span>
+    <div class="trust-strip ads-strip">
+      Echte dakdekker, geen callcenter · <a href={SITE.werkspotUrl} target="_blank" rel="noopener" style="color:inherit; text-decoration:underline;">{String(SITE.reviews.score).replace(".", ",")} op Werkspot</a>
     </div>
 
     <main id="hoofd">
@@ -155,6 +156,12 @@ const wa = waHref(waBericht);
   .ads-header .wrap { display: flex; align-items: center; justify-content: space-between; height: 60px; gap: 12px; }
   .ads-header .brand { font-size: 1.05rem; }
   .ads-header-bel { padding: 10px 16px; font-size: .92rem; white-space: nowrap; }
+
+  /* Korte regel onder de kop: gewone letters, op een telefoon op één regel */
+  .ads-strip { text-transform: none; letter-spacing: 0; }
+
+  /* Sprong naar het formulier: kop niet achter de vaste balk bovenaan */
+  #aanvragen { scroll-margin-top: 76px; }
   @media (max-width: 400px) { .ads-header-bel { padding: 9px 12px; font-size: .85rem; } }
 
   /* Hero: compact, knoppen in beeld zonder scrollen op een telefoon */

@@ -40,6 +40,10 @@ export type AdPagina = {
   /** welke echte foto's (soort uit src/data/fotos.ts) */
   fotoSoort: string;
   fotoTitel: string;
+  /** hoeveel foto's hooguit (standaard 3) */
+  fotoMax?: number;
+  /** extra zin in het garantieblok, alleen waar onderhoud (schoonmaken, vegen) een rol speelt */
+  garantieNoot?: string;
   /** korte vragen onderaan */
   vragen: { v: string; a: string }[];
 };
@@ -67,6 +71,7 @@ export const AD_PAGINAS: AdPagina[] = [
     nietDoe: "Een plat dak met de brander, voegwerk, coaten of een hele dakkapel doe ik niet. Dat zeg ik meteen, dan weet je waar je aan toe bent.",
     fotoSoort: "pannen",
     fotoTitel: "Zo klein kan de oorzaak zijn",
+    fotoMax: 2,
     vragen: [
       { v: "Lekt het nu? Wat kan ik zelf doen?", a: "Zet een emmer onder de druppel, leg een handdoek neer en schuif meubels opzij. Ga niet zelf het dak op, zeker niet als het nat is. Bel of app, dan hoor je meteen wat je nog meer kunt doen." },
       { v: "Is de natte plek binnen ook de plek van het lek?", a: "Zelden. Water loopt langs balken en folie en komt vaak een stuk verderop naar binnen. Daarom kijk ik op het dak zelf waar het vandaan komt." },
@@ -92,8 +97,10 @@ export const AD_PAGINAS: AdPagina[] = [
       "Lekke naad, losse beugel of een kapot stuk goot: repareren waar dat kan, vervangen als het moet.",
       "Vogelwering of bladvanger erbij als je dat wilt, dan blijft hij langer schoon.",
     ],
-    fotoSoort: "goot",
+    // Fotoblok uit tot er een echte voor/na-foto van een schoongemaakte goot is (deze soort bestaat nog niet, dus geen blok).
+    fotoSoort: "goot-voor-na",
     fotoTitel: "Goten uit mijn werk",
+    garantieNoot: "Dit geldt voor reparaties en nieuw werk. Goot schoonmaken is onderhoud: het blad valt elk jaar opnieuw.",
     vragen: [
       { v: "Hoe vaak moet een goot schoon?", a: "Meestal één keer per jaar, na de bladval in het najaar. Staan er veel bomen bij je huis, dan vaker." },
       { v: "Kan de goot nog gerepareerd worden of moet hij nieuw?", a: "Dat zie ik pas goed als ik erbij ben. Een lekke naad of losse beugel is vaak zo gemaakt. Is het zink of kunststof op, dan hoor je dat eerlijk, met een vaste prijs voor beide opties." },
@@ -121,6 +128,7 @@ export const AD_PAGINAS: AdPagina[] = [
     ],
     fotoSoort: "pannen",
     fotoTitel: "Pannen uit mijn werk",
+    fotoMax: 2,
     vragen: [
       { v: "Is één kapotte pan echt erg?", a: "Ja, want daar komt het water onder de pannen en op het dakbeschot. Je merkt dat pas als er binnen een vlek zit. Eén pan vervangen is een kleine klus, de schade erachter niet." },
       { v: "Heb je dezelfde pan wel?", a: "Meestal wel. Stuur een foto van je dak, dan zie ik welk type het is. Oude of zeldzame pannen zoek ik na, dat kan soms wat langer duren." },
@@ -146,8 +154,10 @@ export const AD_PAGINAS: AdPagina[] = [
       "Oude, brokkelige specie weghalen en de nok netjes afwerken.",
       "Ik kijk meteen de bovenste rijen pannen na, daar zit vaak ook iets los.",
     ],
+    // Nog geen foto van een nok in de fotobron: tot die er is een algemene titel.
     fotoSoort: "pannen",
-    fotoTitel: "Zo zie je het vanaf de straat",
+    fotoTitel: "Zo klein kan het zijn",
+    fotoMax: 2,
     vragen: [
       { v: "Hoe zie ik of mijn nokvorsten los zitten?", a: "Kijk vanaf de straat naar de bovenste rand van je dak. Een vorst die scheef ligt, een kier tussen twee vorsten of specie die eruit valt: dan is het tijd. Stuur een foto, dan kijk ik mee." },
       { v: "Kan het wachten tot het voorjaar?", a: "Liever niet. Bij harde wind gaat een losse vorst het dak af en komt er water onder de pannen. Vastzetten is een kleine klus, de schade erna niet." },
@@ -174,8 +184,10 @@ export const AD_PAGINAS: AdPagina[] = [
       "Zie ik dat de schoorsteen zelf (de stenen of de voegen) slecht is, dan zeg ik dat eerlijk.",
     ],
     nietDoe: "Voegwerk opnieuw doen of de schoorsteen metselen doe ik niet. Ik herstel het lood en de aansluiting op het dak.",
-    fotoSoort: "schoorsteen",
+    // Fotoblok uit: de enige schoorsteenfoto staat op zijn kant. Terug naar "schoorsteen" zodra hij in de fotobron rechtop staat.
+    fotoSoort: "schoorsteen-recht",
     fotoTitel: "Uit mijn werk",
+    garantieNoot: "Dit geldt voor het lood en ander herstelwerk. Vegen is onderhoud, dat hoort elk jaar.",
     vragen: [
       { v: "Hoe weet ik of het het lood is?", a: "Een natte plek op zolder vlak naast de schoorsteen, of streepjes op de stenen onder het lood, wijzen meestal naar het lood. Stuur een foto van de schoorsteen vanaf de straat, dan kijk ik mee." },
       { v: "Gaat het lood er helemaal af?", a: "Niet per se. Een losse strook kan vaak opnieuw worden vastgezet. Is het lood op of gescheurd, dan komt er nieuw lood. Je hoort vooraf welke van de twee het wordt en wat het kost." },
@@ -188,26 +200,28 @@ export const AD_PAGINAS: AdPagina[] = [
     titel: "Binnen 24 uur weten wat het kost",
     kicker: "Iets aan je dak? Of gewoon weten hoe het ervoor staat",
     kop: "Binnen 24 uur weten wat het kost",
-    sub: "Iets aan je dak, je goot of je schoorsteen? Vertel kort wat er is. Je krijgt binnen 24 uur een vrijblijvende prijsindicatie, vaak dezelfde dag nog. Twijfel je wat er precies speelt? Dan loop ik met de Dak-APK je hele dak na, met foto's van elke risicoplek.",
+    sub: "Iets aan je dak, je goot of je schoorsteen? Vertel kort wat er is. Je krijgt binnen 24 uur een vrijblijvende prijsindicatie, vaak dezelfde dag nog.",
     vinkjes: ["Vrijblijvende prijsindicatie binnen 24 uur, vaak dezelfde dag", "Vooraf een vaste prijs, geen verrassing achteraf", "1 jaar garantie op reparatie, 2 jaar op vervangen"],
     waKnop: "WhatsApp Rens",
     waBericht: "Hallo Rens, ik wil graag weten wat het kost om iets aan mijn dak te laten doen. Ik stuur zo een foto mee.",
     service: "Dak-APK / prijsindicatie",
     voorbeeld: "Bijvoorbeeld: ik wil weten of mijn dak nog goed is, het huis is van 1975",
-    doeKop: "Wat de Dak-APK is",
+    doeKop: "Zo werkt het bij mij",
     doe: [
-      "Ik loop je hele dak na: pannen, nokvorsten, goot, lood, mos en plekken waar vocht kan komen.",
-      "Je krijgt een rapport met foto's van elke risicoplek, in gewone taal. Ook als iets gewoon goed is.",
+      "Vertel kort wat er is, of stuur een foto. Een foto vanaf de straat is vaak genoeg.",
+      "Binnen 24 uur krijg je een vrijblijvende prijsindicatie, vaak dezelfde dag nog.",
       "Moet er iets gebeuren? Dan hoor je vooraf een vaste prijs. Niks nodig? Dan hoor je dat ook.",
-      "Weet je al wat er is? Dan hoef je geen keuring: stuur een foto en je krijgt een prijsindicatie.",
+      "Ben je akkoord, dan spreken we een dag af en wordt het gemaakt.",
+      "Wil je je hele dak laten nakijken? Dat is de Dak-APK, een betaalde keuring met rapport en foto's. Wat die kost hoor je vooraf, dan beslis je zelf.",
     ],
     nietDoe: "Branderwerk op platte daken, voegwerk, coaten en hele dakkapellen doe ik niet. Dat hoor je meteen, dan verlies je geen tijd.",
     fotoSoort: "pannen",
     fotoTitel: "Wat ik op een dak tegenkom",
+    fotoMax: 2,
     vragen: [
       { v: "Wat gebeurt er nadat ik het formulier heb ingevuld?", a: "Ik neem contact met je op, meestal dezelfde dag. Je hoort binnen 24 uur een vrijblijvende prijsindicatie. Wil je daarna verder, dan plannen we een dag." },
       { v: "Zit ik ergens aan vast?", a: "Nee. De prijsindicatie is vrijblijvend. Je beslist zelf of ik kom." },
-      { v: "Wie komt er?", a: "Ik, Rens. Geen callcenter en geen doorverkopen. Ik kom kijken, doe het werk zelf en je hebt één aanspreekpunt." },
+      { v: "Wie komt er?", a: "Ik, Rens, of mijn vaste collega. Geen callcenter. Je hebt bij mij één aanspreekpunt en de prijs staat vooraf vast." },
     ],
   },
 ];

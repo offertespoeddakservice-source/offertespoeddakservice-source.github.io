@@ -3,10 +3,13 @@
  * Kort aanvraagformulier voor de advertentiepagina's (/ads/...), 27-10-2026.
  * Zelfde mechanisme als het contactformulier (src/pages/contact.astro): de aanvraag gaat naar het eigen, beveiligde
  * systeem op Cloudflare (POST https://spoeddak.pages.dev/api/aanvraag), wordt daar vastgelegd en Rens krijgt meteen een
- * push met Bel-knop. Lukt dat niet, dan opent WhatsApp met de aanvraag als terugvaloptie. Half ingevuld met een
- * bereikbaar nummer: komt binnen als "onafgemaakt", zodat Rens kan terugbellen.
+ * push met Bel-knop. Lukt dat niet (storing, geen antwoord binnen 8 seconden), dan verschijnt een knop om de aanvraag
+ * via WhatsApp te sturen (de klant tikt zelf, dan blokkeert de telefoon niets). Half ingevuld met een bereikbaar
+ * nummer of mailadres: komt binnen als "onafgemaakt", zodat Rens kan terugbellen.
  * Foto's meesturen kan het systeem niet; na het versturen staat er een WhatsApp-knop om foto's na te sturen.
- * Velden: naam, telefoon, adres of postcode (gaat mee in het veld "plaats"), wat is er aan de hand.
+ * Velden: naam, telefoon (minstens 8 cijfers), e-mail (mag leeg, voor de offerte), adres of postcode (gaat mee in het
+ * veld "plaats"), wat is er aan de hand.
+ * Meting: "formulier" telt pas als de aanvraag echt binnen is; de knop "Foto's nasturen" telt niet als WhatsApp-klik.
  * Bron in het klantenboek: "ads-<utm_source>" (bijvoorbeeld ads-meta of ads-google), pagina: het pad plus campagne.
  */
 import { SITE } from "../site.config.ts";
@@ -26,10 +29,13 @@ const { service, voorbeeld, kop = "Vertel kort wat er is" } = Astro.props;
     <input type="text" name="naam" required autocomplete="name" />
   </label>
   <label>Telefoon
-    <input type="tel" name="telefoon" required autocomplete="tel" inputmode="tel" />
+    <input type="tel" name="telefoon" required minlength="8" autocomplete="tel" inputmode="tel" />
+  </label>
+  <label>E-mail (voor de offerte, mag leeg)
+    <input type="email" name="email" autocomplete="email" />
   </label>
   <label>Adres of postcode
-    <input type="text" name="plaats" autocomplete="postal-code" placeholder="Bijvoorbeeld 5211 AB of Kerkstraat 12, Vught" />
+    <input type="text" name="plaats" autocomplete="postal-code" placeholder="5211 AB is genoeg" />
   </label>
   <label>Wat is er aan de hand?
     <textarea name="beschrijving" placeholder={voorbeeld}></textarea>
@@ -43,8 +49,8 @@ const { service, voorbeeld, kop = "Vertel kort wat er is" } = Astro.props;
   </div>
   <p class="notice" id="ads-bevestiging" style="display:none; background:#e8f7ee; border-color:#9fd8b4; color:#155c33;"></p>
   <p id="ads-foto-regel" style="margin:0; color:var(--muted); font-size:.95rem;">Heb je een foto? Die stuur je na het versturen via WhatsApp, dan kan ik meteen meekijken.</p>
-  <a class="btn btn--wa" id="ads-foto-wa" href="#" style="display:none; justify-content:center;">Foto's nasturen via WhatsApp</a>
-  <p class="notice">Je aanvraag komt direct bij mij binnen. Ik gebruik je gegevens alleen om je aanvraag op te pakken; maak je het formulier niet af, dan kan ik je nog even terugbellen. Zie de <a href="/privacy/">privacyverklaring</a>.</p>
+  <a class="btn btn--wa" id="ads-foto-wa" href="#" data-niet-tellen style="display:none; justify-content:center;">Foto's nasturen via WhatsApp</a>
+  <p class="notice">Je aanvraag komt direct bij mij binnen en ik gebruik je gegevens alleen daarvoor. Staat je nummer er al in maar lukt versturen niet? Dan bel ik je even terug. Zie de <a href="/privacy/">privacyverklaring</a>.</p>
 </form>
 
 <script define:vars={{ telefoonE164: SITE.telefoonE164, service }}>
@@ -55,6 +61,14 @@ const { service, voorbeeld, kop = "Vertel kort wat er is" } = Astro.props;
     const fotoRegel = document.getElementById("ads-foto-regel");
     const fotoWa = document.getElementById("ads-foto-wa");
     const verstuurKnop = document.getElementById("ads-verstuur");
+    const telVeld = adsForm.elements.namedItem("telefoon");
+    // groen kader bij gelukt, oranje kader bij een melding
+    const kleur = (goed) => {
+      bevestiging.style.background = goed ? "#e8f7ee" : "#fff4e5";
+      bevestiging.style.borderColor = goed ? "#9fd8b4" : "#f3c58a";
+      bevestiging.style.color = goed ? "#155c33" : "#7a4100";
+    };
+    telVeld.addEventListener("input", () => telVeld.setCustomValidity(""));
     const sid = Array.from(crypto.getRandomValues(new Uint8Array(12)), (b) => b.toString(16).padStart(2, "0")).join("");
     const q = new URLSearchParams(location.search);
     const schoon = (s, n) => String(s || "").replace(/[^\w .:\/-]/g, "").slice(0, n);
@@ -70,7 +84,7 @@ const { service, voorbeeld, kop = "Vertel kort wat er is" } = Astro.props;
         pagina: (location.pathname + (utmCampagne ? " " + utmCampagne : "")).slice(0, 120),
         naam: d.get("naam") || "",
         telefoon: d.get("telefoon") || "",
-        email: "",
+        email: d.get("email") || "",
         plaats: d.get("plaats") || "",
         service,
         beschrijving: d.get("beschrijving") || "",
@@ -83,6 +97,7 @@ const { service, voorbeeld, kop = "Vertel kort wat er is" } = Astro.props;
         "Hallo Rens, ik wil graag weten wat het kost.",
         `Naam: ${v.naam}`,
         `Tel: ${v.telefoon}`,
+        v.email ? `E-mail: ${v.email}` : null,
         v.plaats ? `Adres: ${v.plaats}` : null,
         `Klus: ${v.service}`,
         v.beschrijving ? `Wat er is: ${v.beschrijving}` : null,
@@ -91,45 +106,70 @@ const { service, voorbeeld, kop = "Vertel kort wat er is" } = Astro.props;
 
     adsForm.addEventListener("submit", async (e) => {
       e.preventDefault();
+      // Telefoonnummer: minstens 8 cijfers (zelfde eis als het systeem), anders meteen een melding bij het veld
+      const cijfersTel = String(telVeld.value).replace(/\D/g, "");
+      telVeld.setCustomValidity(cijfersTel.length >= 8 ? "" : "Vul een telefoonnummer in met minstens 8 cijfers");
       if (!adsForm.reportValidity()) return;
       verstuurKnop.disabled = true;
       verstuurKnop.textContent = "Versturen…";
-      // Meting: formulier verstuurd (eigen teller, met de utm-gegevens van de advertentie)
-      if (typeof window.spoeddakTel === "function") window.spoeddakTel("formulier");
-      // Meta-pixel, alleen als die ooit aan staat (zie Ads.astro): if (typeof fbq === "function") fbq("track", "Lead");
       let gelukt = false;
+      let foutTekst = "";
+      // Hooguit 8 seconden wachten, dan de WhatsApp-knop tonen
+      const stop = new AbortController();
+      const wekker = setTimeout(() => stop.abort(), 8000);
       try {
         const res = await fetch(API, {
           method: "POST",
           keepalive: true,
           headers: { "Content-Type": "text/plain;charset=UTF-8" },
           body: JSON.stringify({ ...velden(), status: "compleet" }),
+          signal: stop.signal,
         });
         gelukt = res.ok;
+        if (res.status === 400) {
+          try { foutTekst = String((await res.json()).error || ""); } catch (fout) {}
+        }
       } catch (fout) { gelukt = false; }
+      finally { clearTimeout(wekker); }
       if (gelukt) {
         klaar = true;
+        // Meting: formulier pas tellen als de aanvraag echt binnen is (eigen teller, met de utm-gegevens van de advertentie)
+        if (typeof window.spoeddakTel === "function") window.spoeddakTel("formulier");
+        // Meta-pixel, alleen als die ooit aan staat (zie Ads.astro): if (typeof fbq === "function") fbq("track", "Lead");
         verstuurKnop.textContent = "Verstuurd ✓";
         bevestiging.textContent = "Gelukt, je aanvraag is binnen. Ik neem contact met je op, meestal dezelfde dag. Heb je foto's? Stuur ze via de knop hieronder, dan kan ik alvast meekijken.";
         fotoRegel.style.display = "none";
+        fotoWa.textContent = "Foto's nasturen via WhatsApp";
+        fotoWa.setAttribute("data-niet-tellen", "");
         fotoWa.href = `https://wa.me/${telefoonE164}?text=${encodeURIComponent(`Hallo Rens, ik heb net het formulier ingevuld (${velden().naam}). Hierbij alvast een foto.`)}`;
         fotoWa.style.display = "inline-flex";
-      } else {
+      } else if (foutTekst) {
+        // Het systeem keurde iets af (bijvoorbeeld het nummer): zeg wat, laat de klant het verbeteren
         verstuurKnop.disabled = false;
         verstuurKnop.textContent = "Verstuur, ik hoor wat het kost";
-        window.open(`https://wa.me/${telefoonE164}?text=${encodeURIComponent(maakBericht())}`, "_blank", "noopener");
-        bevestiging.textContent = "Het formulier kon me net niet direct bereiken, daarom is WhatsApp geopend met je aanvraag, druk daar nog op verzenden. Of bel me even, dan heb je meteen antwoord.";
+        bevestiging.textContent = "Dat lukte nog niet: " + foutTekst + ". Kijk het even na en druk nog een keer op versturen. Of bel me, dan heb je meteen antwoord.";
+      } else {
+        // Storing of geen antwoord: de klant stuurt zelf via WhatsApp (een knop waar de klant zelf op tikt werkt, een pop-up wordt vaak geblokkeerd)
+        verstuurKnop.disabled = false;
+        verstuurKnop.textContent = "Verstuur, ik hoor wat het kost";
+        bevestiging.textContent = "Het formulier kon me net niet bereiken. Tik op de groene knop hieronder, dan gaat je aanvraag via WhatsApp. Of bel me even, dan heb je meteen antwoord.";
+        fotoRegel.style.display = "none";
+        fotoWa.textContent = "Stuur je aanvraag via WhatsApp";
+        fotoWa.removeAttribute("data-niet-tellen");
+        fotoWa.href = `https://wa.me/${telefoonE164}?text=${encodeURIComponent(maakBericht())}`;
+        fotoWa.style.display = "inline-flex";
       }
+      kleur(gelukt);
       bevestiging.style.display = "block";
       bevestiging.scrollIntoView({ block: "nearest" });
     });
 
-    // Halverwege gestopt met een bereikbaar nummer? Dan komt de aanvraag als "onafgemaakt" binnen, zodat Rens kan terugbellen.
+    // Halverwege gestopt met een bereikbaar nummer of mailadres? Dan komt de aanvraag als "onafgemaakt" binnen, zodat Rens kan terugbellen.
     window.addEventListener("pagehide", () => {
       if (klaar) return;
       const v = velden();
       const cijfers = String(v.telefoon).replace(/[^0-9]/g, "");
-      if (cijfers.length < 8) return;
+      if (cijfers.length < 8 && !String(v.email).includes("@")) return;
       try {
         navigator.sendBeacon(API, new Blob([JSON.stringify({ ...v, status: "onafgemaakt" })], { type: "text/plain;charset=UTF-8" }));
         klaar = true;
