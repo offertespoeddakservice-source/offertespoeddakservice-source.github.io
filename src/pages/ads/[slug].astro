@@ -19,7 +19,7 @@ const score = String(SITE.reviews.score).replace(".", ",");
 const stappen = [
   { n: "1", titel: "Vertel kort wat er is", tekst: "Vul het formulier in of stuur een foto via WhatsApp. Een foto vanaf de straat is genoeg." },
   { n: "2", titel: "Je hoort wat het kost", tekst: "Ik neem contact met je op. Binnen 24 uur heb je een vrijblijvende prijsindicatie, vaak dezelfde dag nog. Je zit nergens aan vast." },
-  { n: "3", titel: "We komen het maken", tekst: "We spreken een dag af. Ik of mijn vaste collega doet het werk, ik blijf je aanspreekpunt. Kleine klus? Dan betaal je als het klaar is, via iDEAL." },
+  { n: "3", titel: "We komen het maken", tekst: "We spreken een dag af. Ik of een collega doet het werk, ik blijf je aanspreekpunt. Kleine klus? Dan betaal je als het klaar is, via iDEAL." },
 ];
 ---
 
@@ -64,7 +64,7 @@ const stappen = [
           {SITE.overFoto ? <img src={SITE.overFoto} alt="Rens van Spoed Dak Service" width="720" height="925" loading="lazy" /> : null}
           <div>
             <h2>Dit is Rens. Eén aanspreekpunt.</h2>
-            <p>Geen callcenter. Ik kom kijken, de prijs staat vast en je hebt één aanspreekpunt, ook als mijn vaste collega het werk doet. <a href={SITE.werkspotUrl} target="_blank" rel="noopener">{score} op Werkspot</a>.</p>
+            <p>Geen callcenter. Ik plan je klus, de prijs staat vooraf vast en je houdt één aanspreekpunt, ook als een collega het werk doet. <a href={SITE.werkspotUrl} target="_blank" rel="noopener">{score} op Werkspot</a>.</p>
           </div>
         </div>
       </aside>
@@ -98,14 +98,14 @@ const stappen = [
       <div class="ads-garantie">
         <p class="eyebrow" style="margin-bottom:6px;">Garantie</p>
         <h2>1 jaar garantie op reparatie, 2 jaar op vervangen</h2>
-        <p>Geen kleine lettertjes. Komt het probleem binnen die tijd terug, dan kom ik het kosteloos opnieuw maken. Verzekerd en ingeschreven bij de KvK ({SITE.kvk}).</p>
+        <p>Geen kleine lettertjes. Komt het probleem binnen die tijd terug, dan maken we het kosteloos opnieuw. Verzekerd en ingeschreven bij de KvK ({SITE.kvk}).</p>
         {p.garantieNoot && <p style="margin-top:8px;">{p.garantieNoot}</p>}
       </div>
     </div>
   </section>
 
-  <!-- ECHTE FOTO'S (alleen foto's die Rens zelf goedkeurde; niets = blok verborgen) -->
-  <EchteFotos soort={p.fotoSoort} titel={p.fotoTitel} max={p.fotoMax ?? 3} />
+  <!-- ECHTE FOTO'S (alleen foto's die Rens zelf goedkeurde; geen fotoSoort of geen passende foto = geen blok) -->
+  {p.fotoSoort && <EchteFotos soort={p.fotoSoort} titel={p.fotoTitel} max={p.fotoMax ?? 3} />}
 
   <!-- REVIEWS (letterlijk van de homepage) -->
   <section class="section section--navy" style="text-align:center;">
