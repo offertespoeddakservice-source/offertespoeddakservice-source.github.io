@@ -254,4 +254,10 @@ export const MATRIX: MatrixCombo[] = [
     dienst: "dakgoot-vervangen",
     hook: "In Erp en Boerdonk staan veel langgevelboerderijen en oude woonboerderijen. Die hebben een lange, lage goot over de hele voorgevel, en aan de schuur of stal ernaast hangt vaak nog een tweede goot. Na veel jaren zakt zo'n goot tussen de haken door. Dan blijft er na een bui water in het midden staan, en juist daar gaat hij als eerste roesten of lekken. Aan de nieuwere huizen in Veghel zelf hangen vooral kunststof goten. Die zetten uit als het warm is en krimpen bij vorst, en na een paar jaar schiet er dan een hoekstuk of eindstuk los. Vaak is het genoeg om de goot weer op afschot te hangen of één hoekstuk te vervangen. Een nieuwe goot raad ik pas aan als het materiaal zelf op is.",
   },
+  // Dakgoot repareren of vervangen in Oisterwijk, met Moergestel en Haaren (Search Console: dakgoot reparatie oisterwijk plek 20, dakgoot vernieuwen oisterwijk plek 59), met andere lokale inhoud dan plaatsen.ts en de lekkagepagina van Oisterwijk
+  {
+    plaats: "oisterwijk",
+    dienst: "dakgoot-vervangen",
+    hook: "Oisterwijk is al meer dan honderd jaar geliefd om te wonen tussen de bossen en vennen, en in de lanen staan nog veel oude villa's met een overstekend dak. Bij zulke huizen ligt de zinken goot vaak in een houten gootlijst. Lekt het zink, dan zie je dat niet aan een druppel langs de gevel, maar aan de lijst zelf: de verf bladdert, het hout wordt zacht en er komen donkere plekken onder de goot. Daarom kijk ik bij zo'n goot ook of het hout eronder nog stevig is, want een nieuw stuk zink in een rotte lijst houdt het niet lang. In Moergestel en Haaren hangt aan veel vrijstaande huizen en boerderijen een lange goot, soms met maar één regenpijp aan het eind. Bij een stortbui kan die het water niet bijhouden en loopt de goot over aan de kant waar geen pijp zit, terwijl hij nergens lek is. Dan helpt een extra uitloop met een tweede regenpijp soms beter dan een nieuwe goot.",
+  },
 ];
