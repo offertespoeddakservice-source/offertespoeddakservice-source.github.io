@@ -39,7 +39,7 @@ export const DIENSTEN: Dienst[] = [
     kort: "Verstopte of volle goten leeg, en ik meld het eerlijk als er meer speelt op je dak.",
     metaTitle: `Dakgoot schoonmaken: ${GOTEN_PRIJS} | Spoed Dak Service`,
     metaDescription:
-      "Goten laten reinigen in de regio Den Bosch: vanaf €99 voor een rijtjeswoning, vaste prijs vooraf. Snel langs, netjes werk en eerlijk advies over je dak. Bel of WhatsApp Rens.",
+      `Goten laten reinigen in de regio Den Bosch: ${GOTEN_PRIJS} voor een rijtjeswoning, vaste prijs vooraf. Snel langs, netjes werk en eerlijk advies over je dak. Bel of WhatsApp Rens.`,
     icoon: "🪣",
     vanafPrijs: GOTEN_PRIJS,
     intro:
@@ -94,7 +94,7 @@ export const DIENSTEN: Dienst[] = [
     faq: [
       {
         v: "Wat kost een daklekkage repareren?",
-        a: "Een punctuele reparatie kost meestal €200 tot €500, inclusief materiaal. Bij spoed buiten kantooruren komt daar een toeslag bij. Je hoort het bedrag voordat ik begin.",
+        a: `Een punctuele reparatie kost meestal ${LEK_PRIJS}, inclusief materiaal. Bij spoed buiten kantooruren komt daar een toeslag bij. Je hoort het bedrag voordat ik begin.`,
       },
       {
         v: "Kun je vandaag nog komen?",
@@ -147,7 +147,7 @@ export const DIENSTEN: Dienst[] = [
     faq: [
       {
         v: "Wat kost het vervangen van een dakpan?",
-        a: "Een paar losse pannen vervangen is vaak een kort klusje: reken €100 tot €250. Je hoort vooraf de vaste prijs.",
+        a: `Een paar losse pannen vervangen is vaak een kort klusje: reken ${KLEIN_PRIJS}. Je hoort vooraf de vaste prijs.`,
       },
       {
         v: "Kun je met spoed een dakreparatie doen?",
