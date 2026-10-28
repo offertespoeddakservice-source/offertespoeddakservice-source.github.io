@@ -20,9 +20,9 @@ const gotenPrijs = PRIJZEN.find((r) => r.dienst === "Dakgoot reinigen")?.prijs ?
 const kleinPrijs = PRIJZEN.find((r) => r.dienst.startsWith("Kleine reparatie"))?.prijs ?? "";
 const lekPrijs = PRIJZEN.find((r) => r.dienst.startsWith("Daklekkage"))?.prijs ?? "";
 // Plaatsen aan de rand van het werkgebied (verweg) krijgen geen spoedbelofte in de omschrijving.
-const omschrijving = p.verweg
+const omschrijving = p.omschrijving ?? (p.verweg
   ? `Dakdekker in ${p.naam} nodig? Dak-APK voor ${apkPrijs}, geplande klussen aan goten, pannen en lood, eerlijke prijs vooraf. Bel of WhatsApp Rens.`
-  : `Dakdekker in ${p.naam} nodig? Dak-APK voor ${apkPrijs}, daklekkage vaak dezelfde dag verholpen, eerlijke prijs vooraf. Bel of WhatsApp Rens.`;
+  : `Dakdekker in ${p.naam} nodig? Dak-APK voor ${apkPrijs}, daklekkage vaak dezelfde dag verholpen, eerlijke prijs vooraf. Bel of WhatsApp Rens.`);
 const matrixVoorPlaats = MATRIX.filter((c) => c.plaats === p.slug)
   .map((c) => getDienst(c.dienst))
   .filter((d) => d);

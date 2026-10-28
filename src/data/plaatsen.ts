@@ -14,6 +14,7 @@ export interface Plaats {
   reistijd?: string;   // gevoel van nabijheid vanuit Den Bosch
   verweg?: boolean;    // rand van het werkgebied: geen spoedbelofte, klussen worden vooraf ingepland
   extra?: string;      // optioneel: een tweede, echt lokale alinea op de plaatspagina
+  omschrijving?: string; // optioneel: eigen meta-omschrijving voor Google
 }
 
 export const PLAATSEN: Plaats[] = [
@@ -44,6 +45,7 @@ export const PLAATSEN: Plaats[] = [
       "Veel naoorlogse en jaren-'70 woningen; populaire klussen zijn goten reinigen en losse pannen na een storm vanaf de Maaskant.",
     wijken: ["Vliedberg", "Het Vromart", "Centrum"],
     reistijd: "15 min vanaf Den Bosch",
+    omschrijving: "Dakdekker in Vlijmen, Nieuwkuijk en Haarsteeg: lekkage bij een lichtkoepel, een volle goot of losse pannen na storm. Vaste prijs vooraf. Bel of app Rens.",
   },
   {
     slug: "drunen",
@@ -78,6 +80,7 @@ export const PLAATSEN: Plaats[] = [
       "Mix van jaren-'60/'70 rijtjes en vrijstaande woningen, veel daken van vóór 1985, gevoelig voor losse pannen en gootlekkage.",
     wijken: ["Hoevenbraak", "Boschweg", "Centrum"],
     reistijd: "20 min vanaf Den Bosch",
+    omschrijving: "Dakdekker in Schijndel en Wijbosch: lekkage bij oude pannen of de schoorsteen, volle goten en stormschade. Vaste prijs vooraf. Bel of app Rens.",
   },
   {
     slug: "boxtel",
@@ -86,6 +89,7 @@ export const PLAATSEN: Plaats[] = [
       "Oudere centrumwoningen en naoorlogse wijken; populaire klussen zijn daklekkage opsporen en goten reinigen onder bomenrijke straten.",
     wijken: ["Selissen", "Munsel", "Lennisheuvel"],
     reistijd: "25 min vanaf Den Bosch",
+    omschrijving: "Dakdekker in Boxtel, Liempde en Esch: een lek opsporen, goten onder de bomen leegmaken en losse pannen terugleggen. Vaste prijs vooraf. Bel of app Rens.",
   },
   {
     slug: "heusden",
@@ -94,6 +98,7 @@ export const PLAATSEN: Plaats[] = [
       "Het vestingstadje heeft veel monumentale en oudere daken; daarbuiten naoorlogse woningen met schuine pannendaken.",
     wijken: ["Vesting Heusden", "Oudheusden", "Herpt"],
     reistijd: "20 min vanaf Den Bosch",
+    omschrijving: "Dakdekker in vesting Heusden, Oudheusden en Herpt: lekkage bij oud lood of zink, volle goten en losse nokvorsten. Vaste prijs vooraf. Bel of app Rens.",
   },
   {
     slug: "oss",
