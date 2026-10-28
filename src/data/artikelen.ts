@@ -372,6 +372,49 @@ export const ARTIKELEN: Artikel[] = [
     ],
   },
   {
+    slug: "dakpan-kapot-of-verschoven",
+    datum: "2026-10-29",
+    titel: "Dakpan kapot of verschoven?",
+    h1: "Dakpan kapot of verschoven: zo zie je het en dit doe je eraan",
+    metaTitle: "Dakpan kapot of verschoven: wat nu? | Spoed Dak Service",
+    metaDescription:
+      "Een gebroken of scheve dakpan zie je vaak al vanaf de straat. Zo herken je het, waarom één pan genoeg is voor een lek en wat vervangen kost.",
+    intro:
+      "Eén kapotte of verschoven dakpan lijkt weinig. Maar op die plek heeft de regen vrij spel, en het water zoekt daar langzaam een weg naar binnen. Vaak merk je het pas weken later, aan een natte plek op zolder. Hieronder lees je hoe je het ziet, wat je zelf doet en hoe ik het herstel.",
+    secties: [
+      { kop: "Zo zie je het vanaf de straat", tekst: [
+        "Ga aan de overkant van de straat staan en kijk rustig over elk dakvlak. Een pan die scheef ligt of een stukje uitsteekt, breekt de rechte lijn van de rij. Een donkere streep of een gat in de rij betekent vaak dat een pan is gaan schuiven en je de panlat eronder ziet. En ligt er een stuk pan in de goot of in de tuin, dan is er boven iets gebroken.",
+        "Met de zoom van je telefoon zie je meer dan je denkt. Maak een paar foto's van elk dakvlak, dan heb je meteen iets om door te sturen.",
+      ] },
+      { kop: "Of op zolder", tekst: [
+        "Op zolder zie je soms een streepje daglicht tussen de pannen, of na regen een natte plek op het hout of de folie. Liggen de pannen bij jou zonder folie of beschot eronder, zoals bij veel oudere huizen, dan zie je een verschoven pan van binnen het snelst.",
+      ] },
+      { kop: "Waarom één pan al genoeg is", tekst: [
+        'Onder de pannen ligt vaak folie of een houten beschot, en dat houdt even wat water tegen. Maar het is niet gemaakt om lang in de regen te liggen. Na een tijd loopt het water langs de panlatten naar beneden en komt het verderop binnen, meestal niet recht onder de kapotte pan. Hoe dat werkt, lees je in <a href="/kennisbank/daklekkage-opsporen/">daklekkage opsporen</a>.',
+        'Een losse pan vangt ook wind. Bij de volgende storm kan hij wegwaaien en de pannen eromheen meetrekken. Ligt er na een storm meer los, lees dan <a href="/kennisbank/stormschade-eerste-hulp/">stormschade: eerste hulp</a>.',
+      ] },
+      { kop: "Hoe het komt", tekst: [
+        "Een pan breekt door vorst in een oude pan die water opneemt, door hagel of een vallende tak, of doordat er iemand op het dak heeft gestaan. Verschuiven gebeurt meestal door harde wind of door een panlat eronder die rot of los is.",
+      ] },
+      { kop: "Wat je zelf beter niet doet", tekst: [
+        "Ga niet zelf het dak op om de pan terug te duwen. Een dakpan moet precies in de pannen ernaast en in de pan erboven haken. Ligt hij net niet goed, dan ligt hij na een paar dagen weer scheef. Plak een gebroken pan ook niet met kit of tape: dat laat na een winter weer los.",
+      ] },
+      { kop: "Een passende pan vinden", tekst: [
+        "Een nieuwe pan moet in vorm en maat passen bij de pannen die er al liggen, anders sluit hij niet. Van veel modellen zijn nog passende pannen te krijgen. Is een oud model echt niet meer te vinden, dan is er vaak nog een oplossing: een pan van een plek die je niet ziet, zoals de achterkant van het dak, naar voren halen en daar een pan leggen die er het meest op lijkt. Dat bespreek ik dan eerst met je.",
+      ] },
+      { kop: "Wat kost het?", tekst: [
+        `Een paar losse of kapotte pannen vervangen valt meestal onder een kleine reparatie: ${kleinPrijs}. Is het water al een tijd naar binnen gelopen en zijn de panlatten of de folie eronder ook nat of rot, dan is het meer werk. Je hoort de vaste prijs vooraf.`,
+      ] },
+    ],
+    dienst: { label: "Bekijk: dakpannen vervangen", href: "/diensten/dakpannen-vervangen/" },
+    faq: [
+      { v: "Hoe lang kan ik wachten met een kapotte dakpan?", a: "Lekt het al binnen of ligt er een stuk dak open, wacht dan niet en bel of app me. Is het binnen nog droog, dan heb je vaak een paar dagen. Maar elke bui maakt het hout en de folie eronder natter, en bij harde wind kan de pan helemaal loskomen." },
+      { v: "Kan ik een gebroken dakpan lijmen of kitten?", a: "Dat houdt zelden lang. Kit en tape laten na een paar maanden zon en vorst los, en een gelijmde pan breekt vaak naast de naad opnieuw. Een nieuwe pan blijft wel liggen." },
+      { v: "Betaalt de verzekering een kapotte dakpan?", a: "Breekt of verschuift een pan door storm of hagel, dan valt de schade vaak onder je opstalverzekering. Is de pan door ouderdom of vorst gescheurd, dan meestal niet. Maak foto's en kijk in je polis. Meer lees je in het artikel over daklekkage en je verzekering." },
+      { v: "Moet het hele dak vervangen worden als er een paar pannen kapot zijn?", a: "Nee. Een paar kapotte pannen vervang ik los. Pas als er op veel plekken pannen gebroken, poreus of afgebrokkeld zijn, is het slimmer om naar een groter stuk dak te kijken. Met de Dak-APK krijg je een fotorapport van je hele dak." },
+    ],
+  },
+  {
     slug: "lekkage-bij-zonnepanelen",
     datum: "2026-10-21",
     titel: "Lekkage bij zonnepanelen?",
