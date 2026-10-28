@@ -1,7 +1,15 @@
 ---
 import Base from "../../layouts/Base.astro";
 import { SITE, telHref } from "../../site.config.ts";
-import { PLAATSEN } from "../../data/plaatsen.ts";
+import { PLAATSEN, getPlaats } from "../../data/plaatsen.ts";
+import { MATRIX } from "../../data/matrix.ts";
+import { getDienst } from "../../data/diensten.ts";
+import type { Dienst } from "../../data/diensten.ts";
+import type { Plaats } from "../../data/plaatsen.ts";
+// Per klus de plaatsen die een eigen pagina hebben (uit MATRIX), zodat die pagina's vanaf het overzicht te vinden zijn.
+const perDienst = [...new Set(MATRIX.map((c) => c.dienst))]
+  .map((slug) => ({ d: getDienst(slug), plaatsen: MATRIX.filter((c) => c.dienst === slug).map((c) => getPlaats(c.plaats)).filter((p): p is Plaats => !!p) }))
+  .filter((x): x is { d: Dienst; plaatsen: Plaats[] } => !!x.d && !x.d.verborgen && x.plaatsen.length > 0);
 ---
 
 <Base
@@ -27,6 +35,11 @@ import { PLAATSEN } from "../../data/plaatsen.ts";
           </a>
         ))}
       </div>
+      <h2 style="margin-top:36px;">Per klus en plaats</h2>
+      <p>Voor de klussen waar het meest naar gevraagd wordt, heb ik per plaats een eigen pagina. Daar lees je wat ik in die plaats vaak tegenkom.</p>
+      {perDienst.map((x) => (
+        <p><strong>{x.d.titel}:</strong> {x.plaatsen.map((p, i) => (<>{i > 0 && ", "}<a href={`/werkgebied/${p.slug}/${x.d.slug}/`}>{p.naam}</a></>))}</p>
+      ))}
       <p style="margin-top:24px;">
         Staat je plaats er niet tussen? <a href={telHref}>Bel {SITE.telefoonWeergave}</a>, dan kijk ik graag of ik kan komen.
       </p>
