@@ -73,6 +73,10 @@ export const PLAATSEN: Plaats[] = [
       "Dorpse bebouwing met veel vrijstaande en twee-onder-een-kap woningen, vaak oudere daken waar lood bij de schoorsteen aandacht vraagt.",
     wijken: ["Kerkwijk", "Beekveld", "Middelrode"],
     reistijd: "15 min vanaf Den Bosch",
+    omschrijving: "Dakdekker in Berlicum en Middelrode: lood bij de schoorsteen, lange goten en losse pannen na storm. Vaste prijs vooraf. Bel of app Rens.",
+    faq: [
+      { v: "Kom je ook in Middelrode?", a: "Ja. Middelrode ligt vlak bij Berlicum, en allebei horen ze bij de gemeente Sint-Michielsgestel. Het is zo'n kwartier rijden vanaf Den Bosch, dus ik kom er voor dezelfde klussen als in Berlicum zelf." },
+    ],
   },
   {
     slug: "sint-michielsgestel",
