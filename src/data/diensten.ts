@@ -301,6 +301,8 @@ export const DIENSTEN: Dienst[] = [
     ],
     faq: [
       { v: "Gaat dat niet met een hogedrukspuit kapot?", a: "Op kwetsbare pannen werk ik voorzichtig en op de juiste druk, zodat de toplaag heel blijft. Daar zit 'm juist het vakwerk in." },
+      { v: "Wat kost dak reinigen?", a: `Dak reinigen kost ${ONTMOS_PRIJS}, afhankelijk van hoe groot je dak is en hoe dik het mos erop zit. Je hoort vooraf de vaste prijs voor de hele klus. Stuur gerust een foto van je dak via WhatsApp, dan kan ik je vaak snel een prijs noemen.` },
+      { v: "Neem je de goten meteen mee?", a: "Ja. Het mos dat loskomt, valt voor een groot deel in de goot. Daarom maak ik na het reinigen de goten en de uitloop naar de regenpijp meteen leeg, anders zit je goot bij de eerste flinke bui vol. Wat het samen kost, hoor je vooraf." },
     ],
   },
   {
