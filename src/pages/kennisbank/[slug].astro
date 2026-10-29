@@ -49,11 +49,11 @@ const ONDERWERPEN: string[][] = [
   ["stormschade-eerste-hulp", "nokvorsten-los", "dakpan-kapot-of-verschoven", "dak-lekt-bij-harde-wind", "daklekkage-verzekering"],
   ["plat-dak-vervangen-of-repareren", "lichtkoepel-lekt", "water-blijft-staan-op-plat-dak", "dakonderhoud-per-seizoen", "mos-op-dak-verwijderen", "lekkage-bij-aanbouw"],
   ["dakinspectie", "dakonderhoud-per-seizoen", "hoe-herken-je-een-betrouwbare-dakdekker", "wat-kost-een-dakdekker"],
-  ["schoorsteen-vegen-hoe-vaak", "lekkage-bij-schoorsteen", "schoorsteen-lekt-open-haard", "dakinspectie", "lekkage-bij-dakdoorvoer"],
+  ["schoorsteen-vegen-hoe-vaak", "lekkage-bij-schoorsteen", "lood-op-dak", "schoorsteen-lekt-open-haard", "dakinspectie", "lekkage-bij-dakdoorvoer"],
 ];
 const groep = ONDERWERPEN.find((g) => g.includes(a.slug)) ?? [];
 // Spoedregel na het eerste stuk tekst: alleen bij artikelen over lekkage en storm, en alleen als daar nog geen link naar /spoed/ staat.
-const LEK_ARTIKELEN = new Set([...ONDERWERPEN[0], ...ONDERWERPEN[2], "bakgoot-lekt", "lekkage-bij-dakdoorvoer"]);
+const LEK_ARTIKELEN = new Set([...ONDERWERPEN[0], ...ONDERWERPEN[2], "bakgoot-lekt", "lekkage-bij-dakdoorvoer", "lood-op-dak"]);
 const toonSpoedregel = LEK_ARTIKELEN.has(a.slug) && !(a.secties[0]?.tekst ?? []).some((t) => t.includes('href="/spoed/"'));
 // Gootartikelen: een gewone zin met links naar dakgoot repareren of vervangen per plaats. Niet bij bakgoot-lekt, die heeft de lekkagezin al.
 const GOOT_ARTIKELEN = new Set(["dakgoot-lekt", "verstopte-regenpijp-lekkende-dakgoot"]);
@@ -69,6 +69,7 @@ const FOTOS_BIJ: Record<string, { soort: string; max: number }> = {
   "schoorsteen-lekt-open-haard": { soort: "schoorsteen", max: 4 },
   "water-blijft-staan-op-plat-dak": { soort: "plat-dak", max: 1 },
   "mos-op-dak-verwijderen": { soort: "mos", max: 2 },
+  "lood-op-dak": { soort: "lood-zink", max: 1 },
 };
 const fotoBij = FOTOS_BIJ[a.slug];
 const plek = groep.indexOf(a.slug);

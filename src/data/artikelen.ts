@@ -555,6 +555,52 @@ export const ARTIKELEN: Artikel[] = [
     ],
   },
   {
+    slug: "lood-op-dak",
+    datum: "2026-10-30",
+    titel: "Lood op je dak: lekt het?",
+    h1: "Lood op je dak: zo zie je dat het lekt of op is",
+    metaTitle: "Lood op je dak lekt: zo zie je het | Spoed Dak Service",
+    metaDescription:
+      "Lood zit rond je schoorsteen, onder het dakraam en langs de muur. Zo zie je dat het gescheurd, los of op is, en wanneer repareren genoeg is.",
+    intro:
+      "Op bijna elk pannendak ligt lood: rond de schoorsteen, onder een dakraam, langs een muur waar het dak tegenaan komt en soms in de kilgoot. Lood gaat vaak tientallen jaren mee. Maar als het gaat lekken, zie je dat binnen meestal pas laat, en vaak een eind van de plek waar het lood zit. Hieronder lees je waar het lood zit, hoe je ziet dat het op is en wat eraan te doen is.",
+    secties: [
+      { kop: "Lekt het nu? Eerst dit", tekst: [
+        `Zet een emmer neer, haal spullen weg bij de natte plek en maak er een foto van. Ga niet zelf het dak op om naar het lood te kijken. Wat je verder meteen kunt doen, staat op de <a href="/spoed/">spoedpagina</a>.`,
+      ] },
+      { kop: "Waar het lood op je dak zit", tekst: [
+        `Lood ligt overal waar de pannen ophouden en er iets anders begint. Rond de schoorsteen liggen loodslabben die over de pannen heen vallen en met de bovenrand in de schoorsteen vastzitten. Onder een dakraam ligt een gootstuk dat het water om het raam heen leidt. Langs een muur of een hoger dak ligt een strook die het water over de pannen houdt. En in een kilgoot, waar twee dakvlakken samenkomen, ligt vaak een baan lood of zink waar al het water overheen loopt.`,
+        `Per plek lees je meer in <a href="/kennisbank/lekkage-bij-schoorsteen/">lekkage bij de schoorsteen</a>, <a href="/kennisbank/dakraam-lekt/">dakraam lekt</a>, <a href="/kennisbank/kilgoot-lekt/">kilgoot lekt</a> en <a href="/kennisbank/lekkage-bij-aanbouw/">lekkage bij de aanbouw</a>.`,
+      ] },
+      { kop: "Zo zie je dat het lood op is", tekst: [
+        `Kleine scheurtjes in de vouwen, vooral bij de hoeken van een schoorsteen of een dakraam. Daar wordt het lood bij warmte en kou steeds een beetje heen en weer gebogen, en na veel jaren breekt het.`,
+        `Een strook die los van de muur of de schoorsteen staat, zodat je een kier ziet tussen het lood en de steen. Lood dat omhoog krult en niet meer plat op de pannen ligt. En bij heel oud lood kleine gaatjes of plekken waar het dun is geworden.`,
+        `Met de zoom van je telefoon zie je vanaf de straat vaak al of het lood rond de schoorsteen nog strak tegen de steen zit.`,
+      ] },
+      { kop: "Lood of loodvervanger?", tekst: [
+        `Op nieuwere daken ligt soms geen lood maar loodvervanger: een grijze strook van kunststof, vaak met een gaasje erin. Van beneden lijkt het op lood. Het is lichter, maar het kan na jaren in de zon hard worden en scheuren, vooral op de plekken waar het gevouwen is. Laat een strook loodvervanger los, dan krijg je dezelfde lekkage als bij oud lood.`,
+      ] },
+      { kop: "Waarom je het pas laat merkt", tekst: [
+        `Water dat achter een losse loodslab komt, loopt eerst langs de schoorsteen of de muur naar beneden, onder de pannen door. Binnen zie je het vaak pas een eind verderop, als een vochtplek op de muur naast de schoorsteen of op het plafond eronder. Daarom kijk ik bij zo'n natte plek eerst naar het lood erboven. Zie ook <a href="/kennisbank/vochtplek-plafond/">vochtplek in het plafond</a>.`,
+      ] },
+      { kop: "Wat je zelf beter niet doet", tekst: [
+        `Smeer geen kit op een scheur in het lood of in de kier tussen het lood en de muur. Kit hecht slecht op oud lood en laat na een winter weer los. Ga ook niet zelf op het dak het lood terugduwen: oud lood scheurt dan nog verder. Maak liever een foto en stuur die via WhatsApp.`,
+      ] },
+      { kop: "Repareren of vervangen?", tekst: [
+        `Staat het lood op één plek los, dan is het vaak genoeg om de strook weer goed vast te zetten. Zit er een scheur in een hoek, dan vervang ik meestal alleen dat stuk. Is het lood rond de hele schoorsteen of langs de hele muur dun, gescheurd of los, dan is nieuw lood de betere keus, anders blijf je lappen. Ik zeg je eerlijk wat bij jouw dak past.`,
+      ] },
+      { kop: "Wat kost het?", tekst: [
+        `Een strook die alleen los zit, is meestal snel weer vast. Moet er nieuw lood rond een hele schoorsteen of langs een hele muur, dan is het meer werk. In beide gevallen hoor je de vaste prijs vooraf, voordat ik begin. Is er al water binnengekomen en moet ik het lek eerst opsporen, dan is het meestal ${lekPrijs}, inclusief materiaal.`,
+      ] },
+    ],
+    dienst: { label: "Bekijk: dakreparatie", href: "/diensten/dakreparatie/" },
+    faq: [
+      { v: "Hoe lang gaat lood op een dak mee?", a: "Vaak tientallen jaren. Hoe lang precies hangt af van hoe goed het destijds is aangebracht en hoeveel het bij warmte en kou moet werken. Bij een ouder huis is het slim om het lood rond de schoorsteen en het dakraam eens te laten nakijken, bijvoorbeeld met de Dak-APK." },
+      { v: "Kun je gescheurd lood plakken?", a: "Plakken met tape of kit houdt het hooguit even droog. Op oud lood hecht het slecht, en na een winter zit er weer een kier. Een scheur in een hoek los ik liever op met een nieuw stuk lood." },
+      { v: "Lekt het bij de schoorsteen altijd door het lood?", a: "Niet altijd. Het water kan ook door de stenen van de schoorsteen zelf komen, of van boven in de schoorsteen vallen als er geen kap op zit. Meer lees je in de artikelen over lekkage bij de schoorsteen en water in je open haard." },
+    ],
+  },
+  {
     slug: "dakpannen-coaten-of-vervangen",
     verborgen: true,
     titel: "Coaten of vervangen?",
