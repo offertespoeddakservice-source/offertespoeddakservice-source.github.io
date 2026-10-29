@@ -1241,6 +1241,10 @@ export const ARTIKELEN: Artikel[] = [
         "Een dak dat in de loop der jaren is gaan doorhangen, bijvoorbeeld doordat het dakbeschot vocht heeft opgenomen. Dan ontstaat er een kuil waar het water niet uit kan.",
         "Te weinig afschot: het dak loopt niet genoeg af naar de afvoer. Dat zit er soms al in vanaf de bouw.",
       ] },
+      { kop: "Staat het water bij een lichtkoepel of tegen de muur?", tekst: [
+        'Blijft het water vooral rond een lichtkoepel staan, dan staat het tegen de rand waar de koepel op de opstand zit. Juist daar lekt een plat dak vaak als eerste. Lees daarover <a href="/kennisbank/lichtkoepel-lekt/">lichtkoepel lekt</a>.',
+        'Staat de plas tegen de muur van het huis, waar het platte dak van je aanbouw op de gevel aansluit, dan krijgt die naad het zwaar te verduren. Zie je binnen een natte streep langs die muur, lees dan <a href="/kennisbank/lekkage-bij-aanbouw/">lekkage bij de aanbouw</a>.',
+      ] },
       { kop: "Wat je zelf kunt doen", tekst: [
         "Kun je er veilig bij, haal dan blad en vuil weg rond de afvoer. Ga niet op een nat of glad dak staan en gebruik geen wankele ladder. Lukt het niet veilig, maak dan een foto van de plas en de afvoer en stuur die via WhatsApp. Dan zeg ik wat ik zie.",
       ] },
