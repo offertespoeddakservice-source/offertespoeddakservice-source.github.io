@@ -1,0 +1,31 @@
+---
+/**
+ * /quiz/: de quiz zonder vooraf ingevulde klus (29-10-2026). Eerst "Waar gaat het om?", ?klus=<sleutel> vult hem in
+ * (sleutels in src/data/quiz.ts, bijvoorbeeld /quiz/?klus=nokvorsten). Wel in Google en in de sitemap.
+ * Hier geen vaste quiz-knop onderaan (Base.astro regelt dat), wel meting van bezoek en kliks.
+ */
+import Base from "../layouts/Base.astro";
+import Quiz from "../components/Quiz.astro";
+import { SITE, telHref, waHref } from "../site.config.ts";
+---
+
+<Base
+  title={`Gratis prijs voor je dak, meestal binnen 10 minuten | ${SITE.bedrijfsnaam}`}
+  description="Beantwoord een paar korte vragen over je dak, goot of nokvorsten en krijg meestal binnen 10 minuten een gratis prijsindicatie op WhatsApp. Foto erbij mag."
+  path="/quiz"
+>
+  <section class="hero" style="padding-top:34px; padding-bottom:40px;">
+    <div class="wrap">
+      <p class="eyebrow" style="color:#ffb486;">Gratis prijsindicatie</p>
+      <h1 style="font-size:clamp(1.8rem, 5vw, 3rem);">Wat kost het? Beantwoord een paar korte vragen</h1>
+      <p class="lead" style="margin-bottom:18px;">Meestal staat je prijsindicatie binnen 10 minuten op WhatsApp. Is het wat lastiger, dan kijken we er persoonlijk naar en hoor je binnen 24 uur van ons.</p>
+      <Quiz />
+      <p style="margin:16px 0 0; color:#c2d2e3; font-size:.98rem;">Liever zelf een foto sturen of bellen? <a href={waHref("Hallo, ik wil graag weten wat het kost. Ik stuur een foto mee.")} style="color:#ffb486; font-weight:700;">Stuur een foto via WhatsApp</a> of bel <a href={telHref} style="color:#ffb486; font-weight:700;">{SITE.telefoonWeergave}</a>.</p>
+      <div class="hero-checks" style="margin-top:18px;">
+        <span><span class="v">✓</span> Gratis en vrijblijvend</span>
+        <span><span class="v">✓</span> De vaste prijs hoor je voordat ik begin</span>
+        <span><span class="v">✓</span> 1 jaar garantie op reparatie, 2 jaar op vervangen</span>
+      </div>
+    </div>
+  </section>
+</Base>

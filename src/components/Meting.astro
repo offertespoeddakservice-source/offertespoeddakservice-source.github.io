@@ -1,0 +1,48 @@
+---
+/**
+ * Meting voor advertenties en de quiz (eigen teller, geen cookies, geen IP-adres), 29-10-2026.
+ * Verhuisd uit Ads.astro zodat window.spoeddakTel(soort) op de hele site bestaat (ook op /quiz/).
+ * - utm_source, utm_campaign en utm_content uit de advertentielink worden bij binnenkomst in sessionStorage bewaard,
+ *   zodat ze er nog zijn als iemand doorklikt naar /quiz/. Een nieuwe link met utm overschrijft ze.
+ * - window.spoeddakUtm = { s, c, n } is te lezen door de quiz en het formulier.
+ * - bezoek = true: telt meteen een bezoek. kliks = true: telt kliks op bellen en WhatsApp.
+ * De teller (~/spoeddak-teller) neemt /e alleen aan voor paden onder /ads/ en /quiz/.
+ */
+interface Props { bezoek?: boolean; kliks?: boolean }
+const { bezoek = false, kliks = false } = Astro.props;
+---
+<script is:inline define:vars={{ bezoek, kliks }}>
+  (function () {
+    var TELLER = "https://spoeddak-teller.heugten-ecommerce.workers.dev/e";
+    var SLEUTEL = "spoeddak_utm";
+    var knip = function (s, n) { return String(s || "").replace(/[^\w .:\/-]/g, "").slice(0, n); };
+    var utm = { s: "", c: "", n: "" };
+    try {
+      var q = new URLSearchParams(location.search);
+      var nieuw = { s: knip(q.get("utm_source"), 40), c: knip(q.get("utm_campaign"), 60), n: knip(q.get("utm_content"), 60) };
+      if (nieuw.s || nieuw.c || nieuw.n) {
+        utm = nieuw;
+        try { sessionStorage.setItem(SLEUTEL, JSON.stringify(utm)); } catch (e) {}
+      } else {
+        try { var oud = JSON.parse(sessionStorage.getItem(SLEUTEL) || "null"); if (oud && typeof oud === "object") utm = { s: knip(oud.s, 40), c: knip(oud.c, 60), n: knip(oud.n, 60) }; } catch (e) {}
+      }
+    } catch (e) {}
+    window.spoeddakUtm = utm;
+    function tel(soort) {
+      try { navigator.sendBeacon(TELLER, JSON.stringify({ p: location.pathname, e: soort, s: utm.s, c: utm.c, n: utm.n })); } catch (e) {}
+    }
+    window.spoeddakTel = tel;
+    if (bezoek) tel("bezoek");
+    if (kliks) {
+      document.addEventListener("click", function (ev) {
+        var a = ev.target && ev.target.closest ? ev.target.closest("a") : null;
+        if (!a) return;
+        // knoppen met data-niet-tellen tellen niet mee (bijvoorbeeld "Nog een foto sturen" na een verstuurde quiz)
+        if (a.hasAttribute("data-niet-tellen")) return;
+        var h = (a.getAttribute("href") || "").toLowerCase();
+        if (h.indexOf("tel:") === 0) tel("bellen");
+        else if (h.indexOf("wa.me") !== -1 || h.indexOf("whatsapp") !== -1) tel("whatsapp");
+      }, true);
+    }
+  })();
+</script>

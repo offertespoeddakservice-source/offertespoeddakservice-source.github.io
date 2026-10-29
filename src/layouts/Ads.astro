@@ -7,6 +7,7 @@
  */
 import "../styles/global.css";
 import { SITE, telHref, waHref } from "../site.config.ts";
+import Meting from "../components/Meting.astro";
 
 interface Props {
   title: string;
@@ -27,35 +28,8 @@ const wa = waHref(waBericht);
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!-- Bezoekersteller (eigen, zonder cookies en zonder IP-adres): zelfde aanroep als op de rest van de site -->
     <script is:inline>try{navigator.sendBeacon("https://spoeddak-teller.heugten-ecommerce.workers.dev/t",JSON.stringify({p:location.pathname,r:document.referrer}))}catch(e){}</script>
-    <!--
-      Meting voor advertenties (eigen teller, geen cookies, geen IP-adres, niets in de browser bewaard).
-      Telt per pagina: bezoek, klik op WhatsApp, klik op bellen, formulier verstuurd. Met de utm_source, utm_campaign
-      en utm_content uit de advertentielink erbij, zodat je ziet welke advertentie wat oplevert.
-      Gaat naar /e op de teller. Die route staat klaar in ~/spoeddak-teller (branch klaar-voor-ads) en moet nog
-      uitgerold worden; zolang dat niet is gebeurd, gooit de teller de meting gewoon weg en merkt de bezoeker niets.
-    -->
-    <script is:inline>
-      (function () {
-        var TELLER = "https://spoeddak-teller.heugten-ecommerce.workers.dev/e";
-        var q = new URLSearchParams(location.search);
-        var knip = function (s, n) { return String(s || "").replace(/[^\w .:\/-]/g, "").slice(0, n); };
-        var utm = { s: knip(q.get("utm_source"), 40), c: knip(q.get("utm_campaign"), 60), n: knip(q.get("utm_content"), 60) };
-        function tel(soort) {
-          try { navigator.sendBeacon(TELLER, JSON.stringify({ p: location.pathname, e: soort, s: utm.s, c: utm.c, n: utm.n })); } catch (e) {}
-        }
-        window.spoeddakTel = tel;
-        tel("bezoek");
-        document.addEventListener("click", function (ev) {
-          var a = ev.target && ev.target.closest ? ev.target.closest("a") : null;
-          if (!a) return;
-          // knoppen met data-niet-tellen tellen niet mee (bijvoorbeeld "Foto's nasturen" na een verstuurd formulier)
-          if (a.hasAttribute("data-niet-tellen")) return;
-          var h = (a.getAttribute("href") || "").toLowerCase();
-          if (h.indexOf("tel:") === 0) tel("bellen");
-          else if (h.indexOf("wa.me") !== -1 || h.indexOf("whatsapp") !== -1) tel("whatsapp");
-        }, true);
-      })();
-    </script>
+    <!-- Meting voor advertenties (eigen teller, geen cookies, geen IP-adres): bezoek, WhatsApp, bellen, formulier, quiz. Zie src/components/Meting.astro -->
+    <Meting bezoek kliks />
 
     <!--
       PLEK VOOR DE GOOGLE ADS-CONVERSIETAG (staat uit, pas na ja van Rens).
@@ -161,8 +135,8 @@ const wa = waHref(waBericht);
   .ads-strip { text-transform: none; letter-spacing: 0; }
 
   /* Sprong naar het formulier: kop niet achter de vaste balk bovenaan */
-  #aanvragen { scroll-margin-top: 76px; }
-  @media (max-width: 400px) { .ads-header-bel { padding: 9px 12px; font-size: .85rem; } }
+  #aanvragen, #quiz { scroll-margin-top: 76px; }
+  @media (max-width: 400px) { .ads-header .wrap { padding: 0 14px; gap: 8px; } .ads-header .brand { font-size: .95rem; } .ads-header-bel { padding: 8px 10px; font-size: .82rem; } }
 
   /* Hero: compact, knoppen in beeld zonder scrollen op een telefoon */
   .ads-hero { background: var(--navy); color: #fff; padding: 34px 0 30px; }
@@ -176,6 +150,12 @@ const wa = waHref(waBericht);
   .ads-hero .hero-checks span { align-items: flex-start; }
   .ads-hero .hero-checks .v { flex: 0 0 auto; }
   @media (max-width: 400px) { .ads-hero { padding: 24px 0 24px; } .ads-hero h1 { font-size: 1.85rem; } .ads-hero .lead { font-size: 1rem; } }
+
+  /* Wat ik doe + Rens naast elkaar (29-10-2026: het formulier is vervangen door de quiz bovenaan) */
+  .ads-doe { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; align-items: start; margin-top: 18px; }
+  .ads-doe .ads-rens { margin-top: 0 !important; }
+  @media (max-width: 860px) { .ads-doe { grid-template-columns: 1fr; } }
+  .ads-hero .qz { margin-top: 4px; }
 
   /* Stappen in 3 kolommen (de site-standaard heeft er 4) */
   .ads-stappen { grid-template-columns: repeat(3, 1fr); }

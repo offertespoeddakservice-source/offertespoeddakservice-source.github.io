@@ -8,8 +8,8 @@
  */
 import { FOTOS } from "../data/fotos.ts";
 
-interface Props { dienst?: string; soort?: string; max?: number; inline?: boolean; titel?: string }
-const { dienst, soort, max = 3, inline = false, titel = "Foto's uit mijn werk" } = Astro.props;
+interface Props { dienst?: string; soort?: string; max?: number; inline?: boolean; titel?: string; bestanden?: string[] }
+const { dienst, soort, max = 3, inline = false, titel = "Foto's uit mijn werk", bestanden } = Astro.props;
 
 // welke soorten foto's bij welke dienstpagina passen (eerste soort gaat voor)
 const PER_DIENST: Record<string, string[]> = {
@@ -26,7 +26,8 @@ const PER_DIENST: Record<string, string[]> = {
   "vogelwering": ["vogelwering"],
 };
 const soorten = soort ? [soort] : (dienst ? PER_DIENST[dienst] ?? [] : []);
-const lijst = FOTOS
+// bestanden = precies deze foto's (alleen als ze in fotos.ts staan, dus door Rens goedgekeurd), in deze volgorde
+const lijst = bestanden && bestanden.length ? bestanden.map((b) => FOTOS.find((f) => f.bestand === b)).filter((f): f is (typeof FOTOS)[number] => !!f).slice(0, max) : FOTOS
   .filter((f) => f.soorten.some((s) => soorten.includes(s)))
   .sort((a, b) => Math.min(...a.soorten.map((s) => soorten.indexOf(s)).filter((i) => i >= 0)) - Math.min(...b.soorten.map((s) => soorten.indexOf(s)).filter((i) => i >= 0)))
   .slice(0, max);

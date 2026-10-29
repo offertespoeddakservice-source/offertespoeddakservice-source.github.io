@@ -53,7 +53,7 @@ p { margin: 0 0 14px; }
 .or { color: var(--orange); }
 
 /* ── Sterren-badge (4,8) ── */
-.stars { display: inline-flex; align-items: center; gap: 8px; }
+.stars { display: inline-flex; align-items: center; gap: 4px 8px; flex-wrap: wrap; }
 .stars .ster { color: var(--star); letter-spacing: 1px; font-size: 1rem; }
 .stars b { font-family: var(--font-display); font-weight: 800; font-size: 1.15rem; color: var(--navy); }
 .section--navy .stars b, .hero .stars b { color: #fff; }
@@ -104,7 +104,10 @@ a.bron:hover { color: var(--orange); }
 .nav a { color: var(--ink); text-decoration: none; font-weight: 600; font-size: .95rem; white-space: nowrap; }
 .nav a:hover { color: var(--orange); }
 .nav .btn { padding: 10px 16px; font-size: .92rem; white-space: nowrap; }
-@media (max-width: 860px) { .nav-links { display: none; } .site-header .nav .btn { display: none; } }
+/* Quiz-knop in de kop (29-10-2026): op twee regels zodat het menu ernaast past */
+.nav .nav-quiz { white-space: normal; text-align: center; line-height: 1.15; max-width: 215px; padding: 8px 14px; font-size: .88rem; box-shadow: 0 0 0 3px rgba(243,113,31,.18); }
+@media (max-width: 1060px) { .nav-links { display: none; } }
+@media (max-width: 640px) { .site-header .nav .btn { display: none; } }
 
 /* ── Vertrouwensbalk (oranje, zoals flyer) ── */
 .trust-strip { background: var(--orange); color: var(--navy); text-align: center; padding: 11px 14px; font-family: var(--font-display); font-weight: 700; text-transform: uppercase; letter-spacing: .02em; font-size: .92rem; }
@@ -180,6 +183,10 @@ a.card:hover { transform: translateY(-3px); box-shadow: 0 16px 34px rgba(11,29,5
 .sticky-cta { position: fixed; bottom: 0; left: 0; right: 0; z-index: 60; display: none; gap: 10px; padding: 10px 12px calc(10px + env(safe-area-inset-bottom)); background: var(--navy); border-top: 3px solid var(--orange); }
 .sticky-cta .btn { flex: 1; justify-content: center; padding: 14px; }
 @media (max-width: 860px) { .sticky-cta { display: flex; } body { padding-bottom: 80px; } }
+/* Vaste knop onderaan met de quiz voorop (29-10-2026): quiz groot, WhatsApp kleiner ernaast */
+.sticky-cta--quiz .sticky-quiz { flex: 2.2; padding: 10px 12px; line-height: 1.15; text-align: center; font-size: .98rem; }
+.sticky-cta--quiz .sticky-wa { flex: 1; padding: 10px 8px; font-size: .95rem; }
+@media (max-width: 380px) { .sticky-cta--quiz { gap: 8px; padding-left: 8px; padding-right: 8px; } .sticky-cta--quiz .sticky-quiz { font-size: .92rem; } .sticky-cta--quiz .sticky-wa { font-size: .88rem; } }
 
 /* Footer */
 .site-footer { background: var(--navy-deep); color: #b9cadb; padding: 44px 0 96px; font-size: .95rem; }
@@ -251,9 +258,17 @@ a:focus-visible, button:focus-visible, summary:focus-visible, input:focus-visibl
 .m-menu-panel { position: absolute; top: 100%; left: 0; right: 0; background: var(--cream); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); display: flex; flex-direction: column; padding: 10px 22px 18px; box-shadow: var(--shadow); z-index: 60; }
 .m-menu-panel a:not(.btn) { padding: 12px 0; font-weight: 700; color: var(--navy); text-decoration: none; border-bottom: 1px solid var(--line); font-family: var(--font-display); }
 .m-menu-panel .btn { margin-top: 10px; justify-content: center; }
-@media (max-width: 860px) { .m-menu { display: block; } }
+@media (max-width: 1060px) { .m-menu { display: block; } }
 
 
+
+/* "Stuur een foto" voorop, boven de prijzen (29-10-2026) */
+.foto-eerst { display: flex; flex-wrap: wrap; gap: 14px 22px; align-items: center; justify-content: space-between; background: #fff; border: 2px solid var(--orange); border-radius: 14px; padding: 18px 20px; box-shadow: var(--shadow); }
+.foto-eerst > div:first-child { flex: 1 1 280px; }
+.foto-eerst strong { display: block; font-family: var(--font-display); font-weight: 800; color: var(--navy); font-size: 1.2rem; margin-bottom: 4px; }
+.foto-eerst span { color: var(--muted); }
+.foto-eerst .btn-row { flex: 1 1 280px; }
+.foto-eerst .btn { flex: 1 1 220px; justify-content: center; text-align: center; }
 
 /* Toegankelijkheid: respecteer reduced-motion */
 @media (prefers-reduced-motion: reduce){ html{scroll-behavior:auto} *,*::before,*::after{animation-duration:.001ms!important;transition-duration:.001ms!important} }

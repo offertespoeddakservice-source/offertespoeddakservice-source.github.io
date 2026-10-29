@@ -9,6 +9,8 @@
  * - geen absolute beloftes (geen woorden die alles beloven, geen "binnen 30 minuten"); wel: "vrijblijvende prijsindicatie binnen 24 uur, vaak dezelfde dag"
  * - Rens doet geen branderwerk, geen voegwerk, geen coaten en geen hele dakkapellen
  * - geen lange streepjes in de tekst
+ * 29-10-2026: bovenaan elke pagina staat de quiz (src/components/Quiz.astro) met de klus al ingevuld (quizKlus).
+ *   Zonder quizKlus begint de quiz met "Waar gaat het om?". Het veld sub blijft de omschrijving voor Google en Meta.
  */
 
 export type AdPagina = {
@@ -30,6 +32,8 @@ export type AdPagina = {
   waBericht: string;
   /** waarde van het veld "service" in de aanvraag (komt zo in het klantenboek) */
   service: string;
+  /** klus die in de quiz al is ingevuld (sleutel uit src/data/quiz.ts); leeg = de quiz vraagt eerst waar het om gaat */
+  quizKlus?: string;
   /** voorbeeldtekst in het vak "Wat is er aan de hand?" */
   voorbeeld: string;
   /** blok "Wat ik doe" */
@@ -60,6 +64,7 @@ export const AD_PAGINAS: AdPagina[] = [
     waKnop: "WhatsApp een foto",
     waBericht: "Hallo Rens, ik heb een vochtplek binnen. Ik stuur zo een foto mee.",
     service: "Daklekkage / spoed",
+    quizKlus: "daklekkage",
     voorbeeld: "Bijvoorbeeld: vlek op het plafond van de slaapkamer, alleen bij harde regen",
     doeKop: "Wat ik doe bij een lekkage",
     doe: [
@@ -89,6 +94,7 @@ export const AD_PAGINAS: AdPagina[] = [
     waKnop: "WhatsApp Rens",
     waBericht: "Hallo Rens, mijn dakgoot loopt over. Ik stuur zo een foto mee.",
     service: "Dakgoot",
+    quizKlus: "goot_reinigen",
     voorbeeld: "Bijvoorbeeld: goot aan de achterkant loopt over, er groeit gras in",
     doeKop: "Wat ik doe aan je goot",
     doe: [
@@ -117,6 +123,7 @@ export const AD_PAGINAS: AdPagina[] = [
     waKnop: "WhatsApp een foto",
     waBericht: "Hallo Rens, er ligt een kapotte of losse pan op mijn dak. Ik stuur zo een foto mee.",
     service: "Dakpannen",
+    quizKlus: "dakpannen",
     voorbeeld: "Bijvoorbeeld: één pan ligt scheef, rechts naast het dakraam",
     doeKop: "Wat ik doe aan je pannen",
     doe: [
@@ -145,6 +152,7 @@ export const AD_PAGINAS: AdPagina[] = [
     waKnop: "WhatsApp een foto",
     waBericht: "Hallo Rens, de nokvorsten van mijn dak zitten los of scheef. Ik stuur zo een foto mee.",
     service: "Nokvorsten",
+    quizKlus: "nokvorsten",
     voorbeeld: "Bijvoorbeeld: twee vorsten liggen scheef, er valt specie naar beneden",
     doeKop: "Wat ik doe aan je nok",
     doe: [
@@ -164,6 +172,33 @@ export const AD_PAGINAS: AdPagina[] = [
     ],
   },
   {
+    slug: "goot-solderen",
+    advertenties: [],
+    titel: "Lekt je zinken goot bij een naad?",
+    kicker: "Zinken dakgoot",
+    kop: "Lekt je zinken goot bij een naad?",
+    sub: "Druppelt het onder je zinken goot, op dezelfde plek, bij elke bui? Dan is vaak een naad gaan lekken. Die kan opnieuw gesoldeerd worden, dan hoeft de goot er meestal niet uit.",
+    vinkjes: ["Vooraf een vaste prijs", "1 jaar garantie op reparatie, 2 jaar op vervangen", "Verzekerd en ingeschreven bij de KvK"],
+    waKnop: "WhatsApp een foto",
+    waBericht: "Hallo, mijn zinken dakgoot lekt bij een naad. Ik stuur zo een foto mee.",
+    service: "Dakgoot solderen",
+    quizKlus: "goot_lek",
+    voorbeeld: "Bijvoorbeeld: het druppelt onder de goot aan de voorkant, op de hoek",
+    doeKop: "Wat ik doe aan je goot",
+    doe: [
+      "Ik zoek waar de goot precies lekt. Vaak is het een naad of een hoek.",
+      "De lekke naad maak ik schoon en soldeer ik opnieuw dicht.",
+      "Is het zink op meer plekken dun of kapot, dan hoor je dat eerlijk, met een prijs voor repareren en voor vervangen.",
+      "Ik kijk meteen of de goot goed afloopt en of de uitloop naar de regenpijp vrij is.",
+    ],
+    nietDoe: "Een plat dak met de brander, voegwerk en hele dakkapellen doe ik niet. Dat zeg ik meteen, dan weet je waar je aan toe bent.",
+    vragen: [
+      { v: "Moet mijn goot dan helemaal vervangen worden?", a: "Meestal niet. Een lekke naad is vaak opnieuw te solderen. Is het zink op veel plekken dun of doorgeroest, dan is vervangen slimmer. Je hoort vooraf welke van de twee het wordt." },
+      { v: "Hoe zie ik waar mijn goot lekt?", a: "Kijk bij een bui waar het water onder de goot vandaan druppelt. Vaak is dat bij een naad of een hoek. Maak er een foto van, dat helpt." },
+      { v: "Mijn goot is van kunststof, kun je die ook maken?", a: "Ja. Een kunststof goot wordt niet gesoldeerd, die lekt meestal bij een verbinding. Die zet ik weer dicht. Kies bij de vragen gewoon wat je ziet." },
+    ],
+  },
+  {
     slug: "schoorsteen",
     advertenties: ["S2", "S1"],
     titel: "Los lood bij de schoorsteen?",
@@ -174,22 +209,22 @@ export const AD_PAGINAS: AdPagina[] = [
     waKnop: "WhatsApp een foto",
     waBericht: "Hallo Rens, het lood bij mijn schoorsteen zit los of is gescheurd. Ik stuur zo een foto mee.",
     service: "Schoorsteen / lood",
+    quizKlus: "lood",
     voorbeeld: "Bijvoorbeeld: natte plek op zolder naast de schoorsteen, lood krult omhoog",
     doeKop: "Wat ik doe bij je schoorsteen",
     doe: [
       "Los, gescheurd of opgekruld lood opnieuw vastzetten of vervangen, zodat het water weer over de pannen loopt.",
       "Ik kijk meteen naar de pannen rondom en de kap bovenop, daar zit vaak ook iets.",
-      "Schoorsteen vegen kan ik in dezelfde afspraak meenemen.",
+      "Ook lood langs een muur of rond een dakraam zet ik vast of vervang ik.",
       "Zie ik dat de schoorsteen zelf (de stenen of de voegen) slecht is, dan zeg ik dat eerlijk.",
     ],
     nietDoe: "Voegwerk opnieuw doen of de schoorsteen metselen doe ik niet. Ik herstel het lood en de aansluiting op het dak.",
     // Geen fotoblok: de enige schoorsteenfoto staat op zijn kant (niet met CSS draaien).
     // Terug met fotoSoort: "schoorsteen" zodra hij in de fotobron rechtop staat.
-    garantieNoot: "De garantie zit op het lood en ander herstelwerk. Op vegen zit geen garantie: dat is onderhoud en hoort elk jaar.",
     vragen: [
       { v: "Hoe weet ik of het het lood is?", a: "Een natte plek op zolder vlak naast de schoorsteen, of streepjes op de stenen onder het lood, wijzen meestal naar het lood. Stuur een foto van de schoorsteen vanaf de straat, dan kijk ik mee." },
       { v: "Gaat het lood er helemaal af?", a: "Niet per se. Een losse strook kan vaak opnieuw worden vastgezet. Is het lood op of gescheurd, dan komt er nieuw lood. Je hoort vooraf welke van de twee het wordt en wat het kost." },
-      { v: "Kun je de schoorsteen ook vegen?", a: "Ja, dat neem ik in dezelfde afspraak mee als je dat wilt. Zeg het erbij in het formulier." },
+      { v: "Doe je ook het voegwerk van de schoorsteen?", a: "Nee, voegwerk en metselen doe ik niet. Ik herstel het lood en de aansluiting op het dak. Zie ik dat de voegen slecht zijn, dan zeg ik dat eerlijk." },
     ],
   },
   {
@@ -217,7 +252,7 @@ export const AD_PAGINAS: AdPagina[] = [
     fotoTitel: "Wat ik op een dak tegenkom",
     fotoMax: 2,
     vragen: [
-      { v: "Wat gebeurt er nadat ik het formulier heb ingevuld?", a: "Ik neem contact met je op, meestal dezelfde dag. Je hoort binnen 24 uur een vrijblijvende prijsindicatie. Wil je daarna verder, dan plannen we een dag." },
+      { v: "Wat gebeurt er nadat ik de vragen heb ingevuld?", a: "Meestal staat je prijsindicatie binnen 10 minuten op WhatsApp. Is het wat lastiger, dan kijken we er persoonlijk naar en hoor je binnen 24 uur van ons. Wil je daarna verder, dan plannen we een dag." },
       { v: "Zit ik ergens aan vast?", a: "Nee. De prijsindicatie is vrijblijvend. Je beslist zelf of je verder wilt." },
       { v: "Wie komt er?", a: "Ik, Rens, of een collega van mij. Geen callcenter. Ik plan het werk, je hebt één aanspreekpunt en de prijs staat vooraf vast." },
     ],

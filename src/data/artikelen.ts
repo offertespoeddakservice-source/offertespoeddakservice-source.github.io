@@ -3,16 +3,14 @@
  * Elk artikel linkt intern naar een dienstpagina (interne links = SEO + conversie).
  */
 
-import { PRIJZEN } from "./prijzen";
+import { prijsVan, inclBtw } from "./prijzen";
 
-const GOTEN_PRIJS = PRIJZEN.find((r) => r.dienst === "Dakgoot reinigen")?.prijs ?? "";
-const lekPrijs = PRIJZEN.find((r) => r.dienst.startsWith("Daklekkage"))?.prijs ?? "";
-const kleinPrijs = PRIJZEN.find((r) => r.dienst.startsWith("Kleine reparatie"))?.prijs ?? "";
-const apkPrijs = PRIJZEN.find((r) => r.dienst.startsWith("Dak-APK"))?.prijs ?? "";
-const ontmosPrijs = PRIJZEN.find((r) => r.dienst.startsWith("Dak reinigen"))?.prijs ?? "";
-const veegPrijs = PRIJZEN.find((r) => r.dienst === "Schoorsteen vegen")?.prijs ?? "";
-const zonPrijs = PRIJZEN.find((r) => r.dienst === "Zonnepanelen reinigen")?.prijs ?? "";
-const nieuwDakUitleg = PRIJZEN.find((r) => r.dienst.startsWith("Nieuw dak"))?.uitleg ?? "";
+// Alle bedragen incl. btw (src/data/prijzen.ts, stand 29-10-2026)
+const GOTEN_PRIJS = inclBtw("goot_reinigen");
+const lekPrijs = inclBtw("daklekkage");
+const panPrijs = inclBtw("dakpan");
+const nokPrijs = inclBtw("nok_repareren");
+const apkPrijs = prijsVan("apk");
 
 export interface Sectie { kop: string; tekst: string[] }
 export interface Artikel {
@@ -53,14 +51,14 @@ export const ARTIKELEN: Artikel[] = [
         "Lukt het visueel niet, dan zijn er technieken (water gericht aanbrengen, rook- of vochtmeting) om de exacte plek te vinden. Eerst de schade beperken, dan de oorzaak aanpakken.",
       ] },
       { kop: "Wat kost het?", tekst: [
-        `Een punctuele reparatie kost meestal ${lekPrijs}, inclusief materiaal. Bij spoed buiten kantooruren komt daar een toeslag bij. Je hoort altijd de prijs voordat ik begin.`,
+        `Een punctuele reparatie kost ${lekPrijs}, inclusief materiaal. Bij spoed buiten kantooruren komt daar een toeslag bij. Je hoort altijd de prijs voordat ik begin.`,
       ] },
     ],
     dienst: { label: "Bekijk: daklekkage & spoed", href: "/diensten/daklekkage/" },
     faq: [
       { v: "Moet er voor het opsporen iets opengebroken worden?", a: "Meestal niet. In de meeste gevallen vind ik het lek met een gerichte controle van buiten en op zolder, zonder sloopwerk." },
       { v: "Kun je vandaag nog komen?", a: "Bij spoed in de regio Den Bosch vaak wel. Bel of WhatsApp, dan hoor je meteen wanneer ik kan." },
-      { v: "Wat kost het om een daklekkage te laten opsporen?", a: `Bij mij hoort het zoeken bij de reparatie. Ik kijk van buiten en op zolder waar het water binnenkomt, en je hoort één vaste prijs voor opsporen en dichten samen, meestal ${lekPrijs} inclusief materiaal. Is er toch extra meetwerk nodig, dan hoor je dat vooraf.` },
+      { v: "Wat kost het om een daklekkage te laten opsporen?", a: `Bij mij hoort het zoeken bij de reparatie. Ik kijk van buiten en op zolder waar het water binnenkomt, en je hoort één vaste prijs voor opsporen en dichten samen, ${lekPrijs}, inclusief materiaal. Is er toch extra meetwerk nodig, dan hoor je dat vooraf.` },
       { v: "Kan ik zelf zien waar mijn dak lekt?", a: "Een eind wel. Ga bij regen met een zaklamp op zolder kijken en volg vanaf de natte plek het hout en de folie omhoog. Vaak zie je een natte streep op een balk die naar de echte plek wijst. Van buiten kun je vanaf de straat kijken naar scheve pannen, lood dat los staat bij de schoorsteen of een goot die overloopt. Ga zelf niet het dak op." },
     ],
   },
@@ -86,13 +84,13 @@ export const ARTIKELEN: Artikel[] = [
         "Het lekt vaak vooral bij regen met wind uit één richting. Je ziet vocht op de muur of het plafond naast het kanaal, soms pas een paar uur na de bui. Vanaf de grond zie je soms lood dat los staat of omhoog wijst.",
       ] },
       { kop: "Hoe ik het aanpak", tekst: [
-        'Ik kijk van buiten naar het lood, de pannen en de kop van de schoorsteen. Loszittend lood zet ik opnieuw goed vast of ik vervang de loodslabben, en verschoven pannen leg ik recht. Zie <a href="/diensten/dakreparatie/">dakreparatie</a>. Wordt de schoorsteen nog gebruikt, dan is het handig om het <a href="/diensten/schoorsteen-vegen/">vegen</a> in één keer mee te nemen.',
+        'Ik kijk van buiten naar het lood, de pannen en de kop van de schoorsteen. Loszittend lood zet ik opnieuw goed vast of ik vervang de loodslabben, en verschoven pannen leg ik recht. Zie <a href="/diensten/lood-vervangen/">lood vervangen</a> en <a href="/diensten/dakreparatie/">dakreparatie</a>.',
       ] },
       { kop: "Wat kost het?", tekst: [
         'Dat hangt af van wat er mis is: een stuk lood vastzetten is iets anders dan nieuwe loodslabben. Je hoort de vaste prijs vooraf. Richtprijzen staan op de <a href="/prijzen/">prijzenpagina</a>.',
       ] },
     ],
-    dienst: { label: "Bekijk: dakreparatie (lood en pannen)", href: "/diensten/dakreparatie/" },
+    dienst: { label: "Bekijk: lood vervangen bij schoorsteen, muur of dakraam", href: "/diensten/lood-vervangen/" },
     faq: [
       { v: "Is lekkage bij de schoorsteen altijd het lood?", a: "Vaak wel, maar niet altijd. Het kan ook de kop van de schoorsteen zijn, een verschoven pan of het metselwerk. Daarom kijk ik eerst goed voordat ik iets doe." },
       { v: "Kan ik het lood zelf dichtkitten?", a: "Een likje kit houdt het soms even droog, maar meestal niet lang. Lood dat los zit moet goed vast of vervangen worden, anders lekt het bij de volgende flinke bui weer." },
@@ -129,13 +127,13 @@ export const ARTIKELEN: Artikel[] = [
         "Bij veel rijtjeshuizen en twee-onder-een-kappers staat de schoorsteen op de scheidingsmuur. Dan kan het lek ook aan de kant van de buren zitten, terwijl het bij jou binnenkomt. Overleg dan even met je buren, zodat de hele schoorsteen in één keer bekeken kan worden. Dat scheelt dubbel werk.",
       ] },
       { kop: "Hoe ik het aanpak", tekst: [
-        'Ik kijk van buiten naar de kop, de afdekplaat, het lood en de pannen rond de schoorsteen, en ik zeg eerlijk wat ik zie. Lood en pannen herstel ik zelf, zie <a href="/diensten/dakreparatie/">dakreparatie</a>. Gebruik je de schoorsteen nog, dan is het handig om het <a href="/diensten/schoorsteen-vegen/">vegen</a> in één keer mee te nemen.',
+        'Ik kijk van buiten naar de kop, de afdekplaat, het lood en de pannen rond de schoorsteen, en ik zeg eerlijk wat ik zie. Lood en pannen herstel ik zelf, zie <a href="/diensten/lood-vervangen/">lood vervangen</a> en <a href="/diensten/dakreparatie/">dakreparatie</a>.',
       ] },
       { kop: "Wat kost het?", tekst: [
         'Dat hangt af van wat er mis is. Je hoort de vaste prijs vooraf, voordat ik begin. Richtprijzen staan op de <a href="/prijzen/">prijzenpagina</a>.',
       ] },
     ],
-    dienst: { label: "Bekijk: dakreparatie (lood en pannen)", href: "/diensten/dakreparatie/" },
+    dienst: { label: "Bekijk: lood vervangen bij schoorsteen, muur of dakraam", href: "/diensten/lood-vervangen/" },
     faq: [
       { v: "Is een beetje water in de open haard normaal?", a: "Bij een open kanaal zonder kap kan er bij harde regen met wind wat water naar beneden komen. Druppelt het bij elke bui, staan er plasjes in de haard of komen er bruine vlekken op de schoorsteen, dan is er meer aan de hand en laat je het beter nakijken." },
       { v: "Waar komen bruine vlekken op mijn schoorsteenborst vandaan?", a: "Meestal van water dat door de kop of de stenen naar binnen trekt en onderweg roet en teer meeneemt. Zolang er nog water bij komt, komen de vlekken na het schilderen terug." },
@@ -174,7 +172,7 @@ export const ARTIKELEN: Artikel[] = [
       ] },
       { kop: "Twijfel je? Stuur een foto", tekst: [
         'Maak een foto van de natte plek en van het dakbeschot eromheen en stuur die via WhatsApp. Vaak kan ik dan al zeggen of het condens is of een lek. Druppelt het echt binnen na regen, kijk dan op de <a href="/spoed/">spoedpagina</a> wat je meteen kunt doen.',
-        'Komt de condens elk jaar terug, dan kan het aan de ventilatie of de isolatie liggen. Lees ook over <a href="/diensten/dakisolatie/">dakisolatie</a>, of vraag me gewoon om even mee te kijken.',
+        'Komt de condens elk jaar terug, dan kan het aan de ventilatie of de isolatie liggen. Vraag me gerust om even mee te kijken, dan zoeken we samen waar het vocht vandaan komt.',
       ] },
     ],
     dienst: { label: "Bekijk: daklekkage & spoed", href: "/diensten/daklekkage/" },
@@ -374,10 +372,10 @@ export const ARTIKELEN: Artikel[] = [
         'Ik kijk eerst hoe de vorsten liggen. Losse vorsten zet ik opnieuw goed vast, kapotte vervang ik door passende. Is de specie over de hele nok op, dan is het vaak slimmer om de hele nok in één keer opnieuw te doen dan elk jaar een paar vorsten. Je hoort eerlijk wat nodig is. Zie <a href="/diensten/dakreparatie/">dakreparatie</a>.',
       ] },
       { kop: "Wat kost het?", tekst: [
-        'Een paar losse vorsten vastzetten valt meestal onder een kleine reparatie. Een hele nok opnieuw doen is meer werk. Je hoort de vaste prijs vooraf. Richtprijzen staan op de <a href="/prijzen/">prijzenpagina</a>.',
+        `Een of twee losse vorsten weer vastzetten kost ${panPrijs}. De nokvorsten opnieuw aansmeren met dakmortel kost ${nokPrijs}. Moeten de vorsten vervangen worden, stuur dan een foto. Meer daarover lees je bij <a href="/diensten/nokvorsten-vervangen/">nokvorsten repareren of vervangen</a>. Alle bedragen staan op de <a href="/prijzen/">prijzenpagina</a>.`,
       ] },
     ],
-    dienst: { label: "Bekijk: dakreparatie (pannen, lood en nok)", href: "/diensten/dakreparatie/" },
+    dienst: { label: "Bekijk: nokvorsten repareren of vervangen", href: "/diensten/nokvorsten-vervangen/" },
     faq: [
       { v: "Is een losse nokvorst gevaarlijk?", a: "Hij kan bij harde wind van het dak waaien. Dan ligt je nok open en kan de vorst schade doen aan pannen of iets op straat. Laat het daarom niet te lang liggen, zeker niet voor de herfststormen." },
       { v: "Hoe vaak moet de nok nagekeken worden?", a: "Kijk zelf elk najaar even vanaf de straat. Zie je specie in de goot of een scheve vorst, laat het dan nakijken. Bij een ouder dak is elk jaar laten kijken geen overbodige luxe." },
@@ -385,7 +383,7 @@ export const ARTIKELEN: Artikel[] = [
       { v: "Kun je snel komen als er een vorst los ligt?", a: "Ligt de nok open of is er een vorst afgewaaid, bel of WhatsApp me dan meteen met een foto. Bij spoed in de regio Den Bosch lukt het vaak nog dezelfde dag." },
       { v: "Wat houdt het in als de nok gerenoveerd wordt?", a: "Dan haal ik de vorsten eraf, haal de oude, brokkelige specie weg en leg de vorsten er opnieuw goed vast op, recht en dicht. Kapotte vorsten vervang ik door passende. Daarna liggen ze weer stevig op de nok. Je hoort vooraf de vaste prijs." },
       { v: "Kan ik met losse nokvorsten wachten tot het voorjaar?", a: "Liever niet. In de herfst en winter waait het het hardst, en dan is de kans het grootst dat een losse vorst eraf waait. Laat het daarom nakijken voordat de stormen komen." },
-      { v: "Wat kost het om losse nokvorsten vast te laten zetten?", a: `Een paar losse vorsten vastzetten valt meestal onder een kleine reparatie: ${kleinPrijs}. Moet de hele nok opnieuw, dan is het meer werk. Je hoort altijd vooraf de vaste prijs.` },
+      { v: "Wat kost het om losse nokvorsten vast te laten zetten?", a: `Een of twee losse vorsten weer vastzetten kost ${panPrijs}. De nokvorsten opnieuw aansmeren met dakmortel kost ${nokPrijs}. Moeten de vorsten vervangen worden, stuur dan een foto, dan hoor je wat het kost. Je hoort de vaste prijs vooraf.` },
       { v: "Wat is een ondervorst?", a: "Een strook onder de nokvorsten die de nok afsluit tegen regen en wind, maar wel lucht onder de pannen laat. Wordt een nok opnieuw gelegd, dan komt zo'n ondervorst vaak in de plaats van de oude specie." },
     ],
   },
@@ -421,7 +419,7 @@ export const ARTIKELEN: Artikel[] = [
         "Een nieuwe pan moet in vorm en maat passen bij de pannen die er al liggen, anders sluit hij niet. Van veel modellen zijn nog passende pannen te krijgen. Is een oud model echt niet meer te vinden, dan is er vaak nog een oplossing: een pan van een plek die je niet ziet, zoals de achterkant van het dak, naar voren halen en daar een pan leggen die er het meest op lijkt. Dat bespreek ik dan eerst met je.",
       ] },
       { kop: "Wat kost het?", tekst: [
-        `Een paar losse of kapotte pannen vervangen valt meestal onder een kleine reparatie: ${kleinPrijs}. Is het water al een tijd naar binnen gelopen en zijn de panlatten of de folie eronder ook nat of rot, dan is het meer werk. Je hoort de vaste prijs vooraf.`,
+        `Een paar losse of kapotte pannen vervangen kost ${panPrijs}. Meer pannen of verder rijden, dan wordt het meer. Is het water al een tijd naar binnen gelopen en zijn de panlatten of de folie eronder ook nat of rot, dan is het meer werk. Je hoort de vaste prijs vooraf.`,
       ] },
     ],
     dienst: { label: "Bekijk: dakpannen vervangen", href: "/diensten/dakpannen-vervangen/" },
@@ -460,7 +458,7 @@ export const ARTIKELEN: Artikel[] = [
         "Zijn de panelen pas gelegd, neem dan eerst contact op met je installateur. Lekkage die door het plaatsen komt, hoort de installateur in de regel zelf op te lossen. Komt de installateur niet, of liggen de panelen er al jaren, dan kijk ik waar het lek zit. Moet er voor de reparatie een paneel even los, dan bespreken we eerst samen hoe dat het beste kan.",
       ] },
       { kop: "Lekt het niet, maar wil je het voorkomen?", tekst: [
-        'Bij het <a href="/diensten/zonnepanelen-reinigen/">reinigen van zonnepanelen</a> kijk ik ook naar de bevestiging en de pannen eronder. Zo zie je een verschoven pan vaak al voordat het binnen nat wordt.',
+        'Kijk ik bij je dak, dan neem ik de bevestiging en de pannen onder de panelen mee. Zo zie je een verschoven pan vaak al voordat het binnen nat wordt.',
       ] },
     ],
     dienst: { label: "Bekijk: daklekkage & spoed", href: "/diensten/daklekkage/" },
@@ -498,7 +496,7 @@ export const ARTIKELEN: Artikel[] = [
       { kop: "Hoe ik het aanpak", tekst: ['Ik kijk eerst of het water van buiten komt of van binnen. Is de kraag uitgedroogd of de doorvoerpan gebarsten, dan vervang ik die door een passende. Zit er lood rond de pijp, dan zet ik dat weer goed om de pijp en over de pannen. Op een plat dak maak ik de aansluiting rond de pijp opnieuw dicht. Alleen een rand kit erom vind ik geen goede oplossing, want die laat na een paar jaar weer los. Zie <a href="/diensten/dakreparatie/">dakreparatie</a>.'] },
       { kop: "Wat kost het?", tekst: ['Een nieuwe kraag of doorvoerpan is meestal een overzichtelijke klus. Is het water al een tijd langs de pijp naar binnen gelopen en zijn het hout of de isolatie eromheen nat, dan is het meer werk. Je hoort vooraf de vaste prijs, voordat ik begin. Richtprijzen staan op de <a href="/prijzen/">prijzenpagina</a>.'] },
     ],
-    dienst: { label: "Bekijk: dakreparatie (pannen, lood en nok)", href: "/diensten/dakreparatie/" },
+    dienst: { label: "Bekijk: dakdoorvoer plaatsen of herstellen", href: "/diensten/dakdoorvoer/" },
     faq: [
       { v: "Waarom lekt het langs mijn ontluchtingspijp?", a: "Meestal zit het in de kraag rond de pijp. Rubber droogt na jaren in de zon uit en scheurt, of de kraag zakt omlaag. Ook een gebarsten doorvoerpan of oude kit kan de oorzaak zijn. En soms is het condens in de pijp en geen lek." },
       { v: "Hoe weet ik of het condens is of een lek?", a: "Kijk wanneer het nat wordt. Ook op droge, koude dagen en verspreid over de pijp wijst op condens. Alleen bij of na regen, en vooral bovenaan bij het dak, wijst op een lek. Twijfel je, stuur dan een foto via WhatsApp." },
@@ -551,14 +549,14 @@ export const ARTIKELEN: Artikel[] = [
       { kop: "Wanneer vaker dan één keer per jaar", tekst: [
         "Staan er naaldbomen bij je huis, zoals dennen of sparren, dan valt er het hele jaar door iets in de goot. Naalden zijn klein en zakken door de meeste bladvangers heen, en na een tijd zitten ze in de regenpijp zelf. Dan is in het voorjaar nog een keer leegmaken slim.",
         'Heeft je huis een kilgoot of een bakgoot, dan komt daar meer water samen, en een volle goot loopt dan naar binnen in plaats van langs de gevel. Die wil je zeker voor de winter leeg hebben. Zie <a href="/kennisbank/kilgoot-lekt/">kilgoot lekt</a> en <a href="/kennisbank/bakgoot-lekt/">bakgoot lekt</a>.',
-        'Groeit er veel mos op je pannen, dan spoelt dat bij elke bui in brokjes de goot in. Dan zit de goot sneller vol, ook zonder bomen in de buurt. Lees ook <a href="/kennisbank/mos-op-dak-verwijderen/">mos op je dak</a>.',
+        'Groeit er veel mos op je pannen, dan spoelt dat bij elke bui in brokjes de goot in. Dan zit de goot sneller vol, ook zonder bomen in de buurt.',
       ] },
       { kop: "Zo controleer je het zelf vanaf de grond", tekst: [
         "Kijk na een droge week vanaf de overkant van de straat naar je goot. Steken er sprietjes gras of plantjes boven de rand uit, dan ligt er al een laag aarde in. Luister bij een flinke bui bij de regenpijp: hoor je nauwelijks water stromen terwijl het hard regent, dan komt het water er niet in. En zitten er steeds vogels op dezelfde plek in de goot, dan staat daar vaak een plas water.",
         "Ga voor een kijkje niet zelf op een ladder tegen de goot staan, zeker niet als het nat is. Een foto met de zoom van je telefoon is vaak al genoeg om te zien hoe vol hij zit.",
       ] },
       { kop: "Wat kost goten reinigen?", tekst: [
-        `Bij een rijtjeswoning is het ${GOTEN_PRIJS}: beide goten leeg, uitloop naar de regenpijp vrijgemaakt, troep mee. Bij een groter of hoger huis hoor je vooraf de vaste prijs, nooit achteraf verrassingen.`,
+        `Eén goot, bijvoorbeeld alleen de voorgoot, kost ${GOTEN_PRIJS}: goot leeg, uitloop naar de regenpijp vrijgemaakt, troep mee. Beide goten of een groter of hoger huis: dan hoor je vooraf de vaste prijs.`,
       ] },
     ],
     dienst: { label: "Bekijk: dakgoot reinigen", href: "/diensten/goten-reinigen/" },
@@ -575,13 +573,13 @@ export const ARTIKELEN: Artikel[] = [
     h1: "Wat kost dakgoot schoonmaken? Zo zit de prijs in elkaar",
     metaTitle: "Wat kost dakgoot schoonmaken? | Spoed Dak Service",
     metaDescription:
-      `Wat kost dakgoot schoonmaken of reinigen? Bij een rijtjeswoning ${GOTEN_PRIJS}. Waar de prijs van afhangt, wat erbij zit en hoe het zit met een prijs per meter.`,
+      `Wat kost dakgoot schoonmaken of reinigen? Eén goot ${GOTEN_PRIJS}. Waar de prijs van afhangt, wat erbij zit en hoe het zit met een prijs per meter.`,
     intro:
       "Goten laten schoonmaken is een klein klusje, maar de prijzen die je online ziet lopen flink uiteen. Hieronder leg ik uit wat ik reken, wat erbij zit en waar de prijs van afhangt. Zo weet je vooraf waar je aan toe bent.",
     secties: [
       { kop: "Wat ik reken", tekst: [
-        `Voor een rijtjeswoning is het ${GOTEN_PRIJS}: beide goten leeg, blad en mos eruit, de uitloop naar de regenpijp vrijgemaakt en de troep gaat mee.`,
-        "Heb je een hoekhuis, een twee-onder-een-kap of een vrijstaand huis, of zitten je goten hoog of lastig? Dan hoor je vooraf de vaste prijs. Stuur gerust een foto via WhatsApp, dan kan ik die meestal snel noemen.",
+        `Eén goot, bijvoorbeeld alleen de voorgoot, kost ${GOTEN_PRIJS}: blad en mos eruit, de uitloop naar de regenpijp vrijgemaakt en de troep gaat mee.`,
+        "Moeten beide goten schoon, heb je een hoekhuis, een twee-onder-een-kap of een vrijstaand huis, of zitten je goten hoog of lastig? Dan hoor je vooraf de vaste prijs. Stuur gerust een foto via WhatsApp, dan kan ik die meestal snel noemen.",
       ] },
       { kop: "Waar de prijs van afhangt", tekst: [
         "Vooral van de lengte van de goten, de hoogte en hoe goed ik erbij kan. Ook telt mee hoe vol de goot zit: na jaren zonder onderhoud zit er soms een dikke laag modder en mos in, met plantjes erin.",
@@ -603,9 +601,9 @@ export const ARTIKELEN: Artikel[] = [
     ],
     dienst: { label: "Bekijk: dakgoot reinigen", href: "/diensten/goten-reinigen/" },
     faq: [
-      { v: "Wat kost dakgoot reinigen bij een rijtjeswoning?", a: `Bij een rijtjeswoning ${GOTEN_PRIJS}: beide goten leeg, uitloop naar de regenpijp vrijgemaakt en de troep gaat mee. Bij een groter of hoger huis hoor je de vaste prijs vooraf.` },
+      { v: "Wat kost dakgoot reinigen bij een rijtjeswoning?", a: `Eén goot, bijvoorbeeld alleen de voorgoot, kost ${GOTEN_PRIJS}: goot leeg, uitloop naar de regenpijp vrijgemaakt en de troep gaat mee. Beide goten of een groter of hoger huis: dan hoor je de vaste prijs vooraf.` },
       { v: "Wanneer laat ik mijn goten het beste schoonmaken?", a: "In het najaar, als het meeste blad gevallen is. Dan loopt het water in de winter goed weg en voorkom je overlopende goten en vocht in je muren." },
-      { v: "Kan het samen met andere klussen?", a: "Ja. Moet er ook iets aan je dak gebeuren of wil je je zonnepanelen laten reinigen, dan kan dat vaak in dezelfde keer. Je hoort vooraf wat het samen kost." },
+      { v: "Kan het samen met andere klussen?", a: "Ja. Moet er ook iets aan je dak of je goot gebeuren, dan kan dat vaak in dezelfde keer. Je hoort vooraf wat het samen kost." },
     ],
   },
   {
@@ -614,12 +612,12 @@ export const ARTIKELEN: Artikel[] = [
     h1: "Wat kost het om een daklekkage te repareren? (eerlijke prijzen)",
     metaTitle: "Wat kost daklekkage repareren? Prijzen | Spoed Dak Service",
     metaDescription:
-      `Wat kost een daklekkage repareren? Een gerichte reparatie kost meestal ${lekPrijs}, inclusief materiaal. Waar de prijs van afhangt en waarom wachten duurder is.`,
+      `Wat kost een daklekkage repareren? Een gerichte reparatie kost ${lekPrijs}, inclusief materiaal. Waar de prijs van afhangt en waarom wachten duurder is.`,
     intro:
       "De eerste vraag bij een lek is bijna altijd: wat gaat me dit kosten? Eerlijk antwoord: dat hangt af van de oorzaak en hoe lang het al speelt. Hieronder zet ik de prijzen op een rij zoals ik ze ook aan de telefoon zou noemen: vaste prijs vooraf, geen verrassingen achteraf.",
     secties: [
       { kop: `Een gerichte reparatie: ${lekPrijs}`, tekst: [
-        `De meeste lekkages hebben één duidelijke oorzaak: een gebroken pan, losgelaten lood of een versleten naad. Zo'n gerichte reparatie kost meestal ${lekPrijs}, inclusief materiaal. Je hoort het bedrag voordat ik begin.`,
+        `De meeste lekkages hebben één duidelijke oorzaak: een gebroken pan, losgelaten lood of een versleten naad. Zo'n gerichte reparatie kost ${lekPrijs}, inclusief materiaal. Je hoort het bedrag voordat ik begin.`,
         "Bij spoed buiten kantooruren komt daar een toeslag bij. Ik zeg je eerlijk of het echt niet tot de volgende dag kan wachten.",
       ] },
       { kop: "Waar de prijs van afhangt", tekst: [
@@ -695,6 +693,7 @@ export const ARTIKELEN: Artikel[] = [
       ] },
       { kop: "Hoe je het herkent", tekst: [
         "Water dat bij regen over de gootrand klotst, een straaltje langs de gevel, of vochtige plekken op de muur onder de goot. Soms lekt het bij de verbindingen van de pijp.",
+        'Is de regenpijp zelf gescheurd of zit hij los van de muur? Lees dan <a href="/diensten/regenpijp-vervangen/">regenpijp vervangen</a>.',
       ] },
       { kop: "Waarom je het niet moet laten zitten", tekst: [
         "Blijft de afvoer dicht, dan trekt het overlopende water vocht in je gevel en fundering. Dat geeft vochtplekken, schimmel en op den duur zelfs scheuren. Dat is veel duurder dan de afvoer op tijd vrij laten maken.",
@@ -744,7 +743,7 @@ export const ARTIKELEN: Artikel[] = [
         'Een goot die door ouderdom lek is geraakt, valt bij de meeste verzekeringen niet onder de dekking. Voor de schade aan je gevel of binnen ligt dat soms anders, maar dat verschilt per polis. Waait de goot los bij een storm, dan is het vaak wel plotselinge schade. Meer hierover lees je in <a href="/kennisbank/daklekkage-verzekering/">daklekkage en je verzekering</a>.',
       ] },
       { kop: "Wat kost het?", tekst: [
-        'Dat hangt af van wat er lek is en hoe lang de goot is. Je hoort de vaste prijs vooraf. Zit de goot alleen vol, dan is het gewoon <a href="/diensten/goten-reinigen/">goten reinigen</a>. Richtprijzen staan op de <a href="/prijzen/">prijzenpagina</a>.',
+        `Een lek dichtzetten (plakken) kost ${inclBtw("goot_plakken")}, een zinken naad solderen ${inclBtw("goot_solderen")}. Moet de goot helemaal vervangen worden, stuur dan een foto. Je hoort de vaste prijs vooraf. Zit de goot alleen vol, dan is het gewoon <a href="/diensten/goten-reinigen/">goten reinigen</a>. Alle bedragen staan op de <a href="/prijzen/">prijzenpagina</a>.`,
       ] },
     ],
     dienst: { label: "Bekijk: dakgoot repareren of vervangen", href: "/diensten/dakgoot-vervangen/" },
@@ -948,8 +947,8 @@ export const ARTIKELEN: Artikel[] = [
       ] },
       { kop: "Voor de winter: vier dingen om na te lopen", tekst: [
         'De nok. Liggen er brokjes specie in de goot of op de stoep, dan zitten er vaak vorsten los. Lees <a href="/kennisbank/nokvorsten-los/">losse nokvorsten</a>.',
-        'Mos op de noordkant. Een dikke laag houdt vocht vast, en als dat bevriest kan een pan scheuren. Zie <a href="/kennisbank/mos-op-dak-verwijderen/">mos op je dak</a>. Hoe vaak je goot leeg moet, lees je in <a href="/kennisbank/hoe-vaak-dakgoot-reinigen/">hoe vaak dakgoot reinigen</a>.',
-        'De schoorsteen. Stook je hout, laat hem dan vegen voordat je de kachel echt gaat gebruiken. Zie <a href="/kennisbank/schoorsteen-vegen-hoe-vaak/">hoe vaak schoorsteen vegen</a>.',
+        'Mos op de noordkant. Een dikke laag houdt vocht vast, en als dat bevriest kan een pan scheuren. Hoe vaak je goot leeg moet, lees je in <a href="/kennisbank/hoe-vaak-dakgoot-reinigen/">hoe vaak dakgoot reinigen</a>.',
+        'De schoorsteen. Kijk vanaf de straat of het lood rond de schoorsteen nog strak tegen de stenen zit. Krult het omhoog, lees dan <a href="/kennisbank/lekkage-bij-schoorsteen/">lekkage bij de schoorsteen</a>.',
         'Het platte dak. Kijk na een flinke bui of er geen plas blijft staan. Wanneer dat een probleem is, lees je in <a href="/kennisbank/water-blijft-staan-op-plat-dak/">water op je platte dak</a>.',
       ] },
       { kop: "En een professionele inspectie?", tekst: [
@@ -1007,6 +1006,7 @@ export const ARTIKELEN: Artikel[] = [
   },
   {
     slug: "mos-op-dak-verwijderen",
+    verborgen: true,
     titel: "Mos op je dak",
     h1: "Mos op je dak verwijderen: schadelijk of niet, en hoe wél?",
     metaTitle: "Mos op dak: verwijderen of laten zitten? | Spoed Dak Service",
@@ -1030,7 +1030,6 @@ export const ARTIKELEN: Artikel[] = [
       { v: "Mag ik zelf met een hogedrukreiniger mijn dak schoonmaken?", a: "Liever niet op oudere of poreuze pannen, je haalt er de toplaag af en beschadigt ze. Op hoogte werken is bovendien niet zonder risico. Ik doe het veilig en op de juiste druk." },
       { v: "Komt het mos terug?", a: "Op den duur wel, zeker aan de noordkant en onder bomen. Laat het niet te dik worden: af en toe reinigen en elk najaar de goten leeg houdt het meestal goed in de hand." },
       { v: "Wanneer laat je mos het beste weghalen?", a: "Het liefst op een droge dag in het voorjaar of in het begin van de herfst. Op een nat of bevroren dak is het glad en werk je niet veilig. Laat het weghalen voordat je goten worden leeggemaakt, want het losse mos komt toch in de goot terecht." },
-      { v: "Wat kost het om mos van je dak te laten halen?", a: `Dak reinigen en ontmossen kost ${ontmosPrijs}. Het hangt af van hoe groot je dak is en hoeveel mos erop zit. Je hoort de vaste prijs vooraf, en het losse mos haal ik meteen uit de goot.` },
     ],
   },
   {
@@ -1075,13 +1074,13 @@ export const ARTIKELEN: Artikel[] = [
     h1: "Wat kost een dakdekker of een dakreparatie? Eerlijke richtprijzen",
     metaTitle: "Wat kost een dakdekker of dakreparatie? | Spoed Dak Service",
     metaDescription:
-      `Wat kost een dakdekker? Goten reinigen ${GOTEN_PRIJS}, kleine reparatie ${kleinPrijs}, daklekkage ${lekPrijs}. Offerte altijd gratis, vaste prijs vooraf.`,
+      `Wat kost een dakdekker? Dakgoot reinigen ${prijsVan("goot_reinigen")}, dakpan vervangen ${prijsVan("dakpan")}, daklekkage ${prijsVan("daklekkage")}, incl. btw. Offerte gratis, vaste prijs vooraf.`,
     intro:
-      `Wil je eerst weten hoe je dak ervoor staat? Dat is bij mij de Dak-APK: ${apkPrijs} voor een compleet keuringsrapport met foto's van elke risicoplek, binnen een dagdeel. Voor de rest staan hieronder de eerlijke richtprijzen per klus. Geen vaag bedrag per meter, en bij elke klus hoor je de vaste prijs voordat ik begin.`,
+      `Wil je eerst weten hoe je dak ervoor staat? Dat is bij mij de Dak-APK: ${apkPrijs} voor een compleet keuringsrapport met foto's van elke risicoplek, binnen een dagdeel. Voor de rest staan hieronder de vanaf-prijzen per klus, inclusief btw. Geen vaag bedrag per meter, en bij elke klus hoor je de vaste prijs voordat ik begin.`,
     secties: [
       { kop: "Kleine klussen en reparaties", tekst: [
-        `Een kleine reparatie, zoals een paar losse pannen terugleggen of een nokvorst vastzetten, kost meestal ${kleinPrijs}, vaste prijs vooraf.`,
-        `Goten reinigen is ${GOTEN_PRIJS} bij een rijtjeswoning, en terwijl ik bezig ben zie ik vaak meteen of er verder nog iets aan je dak speelt. Groter huis? Vaste prijs vooraf.`,
+        `Een paar losse pannen vervangen of een nokvorst weer vastzetten kost ${panPrijs}. Meer pannen of verder rijden, dan wordt het meer.`,
+        `Een dakgoot reinigen is ${GOTEN_PRIJS} voor één goot, en terwijl ik bezig ben zie ik vaak meteen of er verder nog iets aan je dak speelt. Beide goten of een groter huis? Vaste prijs vooraf.`,
       ] },
       { kop: "Waar de prijs van een dakreparatie van afhangt", tekst: [
         "Twee reparaties die op papier hetzelfde lijken, kunnen toch verschillen. Dat komt vooral door drie dingen.",
@@ -1090,7 +1089,8 @@ export const ARTIKELEN: Artikel[] = [
         "<strong>Hoeveel er aan de hand is.</strong> Zie ik naast die ene pan ook een losse nokvorst of lood dat loslaat, dan hoor je dat vooraf, met wat het samen kost. Jij beslist wat ik meeneem.",
       ] },
       { kop: "Richtprijzen per klus", tekst: [
-        `Een punctuele daklekkage repareren kost meestal ${lekPrijs}, inclusief materiaal. Dak ontmossen ${ontmosPrijs}. Schoorsteen vegen ${veegPrijs}. Zonnepanelen reinigen ${zonPrijs}. Een compleet nieuw dak: ${nieuwDakUitleg} Andere klussen krijg je als vaste prijs na een Dak-APK of bezoek.`,
+        `Een daklekkage opsporen en repareren kost ${lekPrijs}, inclusief materiaal. Een klein plat dak repareren ${inclBtw("platdak")}. Een dakgoot plakken ${inclBtw("goot_plakken")}, solderen ${inclBtw("goot_solderen")} en coaten ${inclBtw("goot_coaten")}. Een regenpijp vervangen ${inclBtw("regenpijp")}. Nokvorsten opnieuw aansmeren ${nokPrijs}.`,
+        'Een goot of nok vervangen, loodwerk of groter werk zoals een hele dakbedekking: stuur een foto, dan hoor je wat het kost. Voor grotere klussen plannen we een paar weken vooruit. Alle bedragen staan op de <a href="/prijzen/">prijzenpagina</a>.',
         "Bij spoed buiten kantooruren komt er een toeslag bij, die hoor je vooraf, nooit als verrassing achteraf.",
       ] },
       { kop: "Waarom een vaste prijs vooraf?", tekst: [
@@ -1101,17 +1101,18 @@ export const ARTIKELEN: Artikel[] = [
     faq: [
       { v: "Reken je voorrijkosten?", a: `Nee, een offerte is altijd gratis: bel of stuur een foto via WhatsApp en je hoort de vaste prijs vooraf. Wil je een complete keuring van je hele dak met fotorapport? Dat is de Dak-APK (${apkPrijs}), maar die is optioneel.` },
       { v: "Krijg ik de prijs op papier?", a: "Je hoort de vaste prijs vooraf en krijgt die desgewenst op de offerte. Geen verrassingen achteraf." },
-      { v: "Wat kost een dakreparatie?", a: `Een kleine reparatie, zoals een paar losse pannen terugleggen of een nokvorst vastzetten, kost meestal ${kleinPrijs}. Een lek opsporen en dichten kost meestal ${lekPrijs}, inclusief materiaal. Je hoort de vaste prijs voordat ik begin.` },
+      { v: "Wat kost een dakreparatie?", a: `Een paar losse pannen vervangen of een nokvorst weer vastzetten kost ${panPrijs}. Een lek opsporen en dichten kost ${lekPrijs}, inclusief materiaal. Je hoort de vaste prijs voordat ik begin.` },
       { v: "Waarom verschillen de prijzen van dakdekkers zo?", a: "Omdat elk dak anders is en niet iedereen op dezelfde manier rekent. De een noemt een prijs per meter of per uur, de ander rekent voorrijkosten of een minimumbedrag. Vraag daarom altijd wat er precies in de prijs zit en of het een vaste prijs is." },
     ],
   },
   {
     slug: "schoorsteen-vegen-hoe-vaak",
+    verborgen: true,
     titel: "Hoe vaak schoorsteen vegen?",
     h1: "Hoe vaak moet je de schoorsteen vegen, en wat kost het?",
     metaTitle: "Hoe vaak schoorsteen vegen? | Spoed Dak Service",
     metaDescription:
-      `Hoe vaak schoorsteen vegen? Bij regelmatig stoken één keer per jaar, het beste vóór het stookseizoen. Veiliger tegen schoorsteenbrand. Kosten ${veegPrijs}.`,
+      "Hoe vaak schoorsteen vegen? Bij regelmatig stoken één keer per jaar, het beste vóór het stookseizoen. Veiliger tegen schoorsteenbrand.",
     intro:
       "Een schone schoorsteen is veiliger en trekt beter. Maar hoe vaak is vegen nu echt nodig, en wat kost het? Kort en eerlijk uitgelegd.",
     secties: [
@@ -1126,7 +1127,7 @@ export const ARTIKELEN: Artikel[] = [
         "Rook die bij het aansteken de kamer in slaat, een kachel die slecht trekt, een sterke roetlucht als je niet stookt, of zwarte schilfers onder in de haard. Merk je zoiets, wacht dan niet tot volgend jaar.",
       ] },
       { kop: "Wat kost het?", tekst: [
-        `Schoorsteen vegen kost ${veegPrijs}: netjes en zonder roetzooi in huis. Omdat ik toch op het dak ben, neem ik de aansluiting en het lood even mee in de controle.`,
+        "Laat het vegen doen door een erkende schoorsteenveger. Lekt het bij je schoorsteen, dan kijk ik naar het lood en de aansluiting op het dak.",
       ] },
     ],
     dienst: { label: "Bekijk: schoorsteen vegen", href: "/diensten/schoorsteen-vegen/" },
@@ -1168,11 +1169,12 @@ export const ARTIKELEN: Artikel[] = [
   },
   {
     slug: "zonnepanelen-reinigen-nodig",
+    verborgen: true,
     titel: "Zonnepanelen reinigen nodig?",
     h1: "Zonnepanelen reinigen: nodig, hoe vaak en wat levert het op?",
     metaTitle: "Zonnepanelen reinigen nodig? | Spoed Dak Service",
     metaDescription:
-      `Vuile zonnepanelen leveren minder op. Hoe vaak reinigen nodig is, wat het kost (${zonPrijs}) en hoeveel opbrengst je terugwint.`,
+      "Vuile zonnepanelen leveren minder op. Hoe vaak reinigen nodig is en hoeveel opbrengst je terugwint.",
     intro:
       "Stof, mos en vogelpoep op je panelen kosten opbrengst. Maar hoe vaak is reinigen echt nodig, en verdien je het terug? Kort en eerlijk.",
     secties: [
@@ -1185,7 +1187,7 @@ export const ARTIKELEN: Artikel[] = [
         'Lekt het op zolder sinds de panelen erop liggen? Lees dan <a href="/kennisbank/lekkage-bij-zonnepanelen/">lekkage bij zonnepanelen</a>.',
       ] },
       { kop: "Wat kost het?", tekst: [
-        `Zonnepanelen reinigen kost ${zonPrijs}, veilig vanaf het dak en streepvrij. Omdat ik er toch ben, is het vaak handig te combineren met goten reinigen.`,
+        "Zonnepanelen reinigen doe ik zelf niet. Lekt het onder je panelen, dan kijk ik wel naar de pannen eronder.",
       ] },
     ],
     dienst: { label: "Bekijk: zonnepanelen reinigen", href: "/diensten/zonnepanelen-reinigen/" },

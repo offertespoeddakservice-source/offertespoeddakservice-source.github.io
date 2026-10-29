@@ -1,19 +1,16 @@
 /**
  * Diensten — sturen de /diensten/[slug] pagina's én de homepage-grid.
- * Volgorde = volgorde op de site. De Dak-APK (eigen pagina /dak-apk) is de opener;
- * goten-reinigen is een gewone upsell-klus (marktprijs €75-225, Fase 3-prijstabel).
+ * Volgorde = volgorde op de site. De Dak-APK (eigen pagina /dak-apk) is de opener.
+ * Prijzen komen uit src/data/prijzen.ts (alles incl. btw). Diensten die Rens niet doet staan op verborgen: true
+ * (schoorsteen vegen, dak reinigen, dakkapel reinigen, zonnepanelen, dakisolatie, dakcoating).
  */
 
-import { PRIJZEN } from "./prijzen";
+import { prijsVan, inclBtw } from "./prijzen";
 
-const GOTEN_PRIJS = PRIJZEN.find((r) => r.dienst === "Dakgoot reinigen")?.prijs ?? "";
-const VEEG_PRIJS = PRIJZEN.find((r) => r.dienst === "Schoorsteen vegen")?.prijs ?? "";
-const DAKKAPEL_PRIJS = PRIJZEN.find((r) => r.dienst === "Dakkapel poetsen")?.prijs ?? "";
-const ONTMOS_PRIJS = PRIJZEN.find((r) => r.dienst.startsWith("Dak reinigen"))?.prijs ?? "";
-const LEK_PRIJS = PRIJZEN.find((r) => r.dienst.startsWith("Daklekkage"))?.prijs ?? "";
-const KLEIN_PRIJS = PRIJZEN.find((r) => r.dienst.startsWith("Kleine reparatie"))?.prijs ?? "";
-const ZON_PRIJS = PRIJZEN.find((r) => r.dienst === "Zonnepanelen reinigen")?.prijs ?? "";
-const NIEUWDAK_PRIJS = PRIJZEN.find((r) => r.dienst.startsWith("Nieuw dak"))?.prijs ?? "";
+const GOTEN_PRIJS = prijsVan("goot_reinigen");
+const LEK_PRIJS = prijsVan("daklekkage");
+const PAN_PRIJS = prijsVan("dakpan");
+const PLATDAK_PRIJS = prijsVan("platdak");
 
 export interface Dienst {
   slug: string;
@@ -25,6 +22,9 @@ export interface Dienst {
   icoon: string;          // emoji als simpel icoon (later vervangbaar door SVG)
   vanafPrijs?: string;    // optionele prijsindicatie
   afbeelding?: string;    // optioneel: pad naar foto in /public/img (bv. "/img/dak-coaten.jpg")
+  geenAfbeelding?: boolean; // true = geen grote foto bovenaan (er is nog geen passende foto)
+  zieOok?: { label: string; href: string }[]; // optioneel: links naar verwante dienstpagina's
+  fotos?: string[];       // optioneel: precies deze echte foto's (bestandsnaam uit src/data/fotos.ts) in plaats van de standaardkeuze
   verborgen?: boolean;    // true = dienst die ik niet doe: geen kaart, geen links, niet in Google
   intro: string;          // openingsalinea op de dienstpagina
   punten: string[];       // bullets: wat je doet / waarom jij
@@ -39,7 +39,7 @@ export const DIENSTEN: Dienst[] = [
     kort: "Verstopte of volle goten leeg, en ik meld het eerlijk als er meer speelt op je dak.",
     metaTitle: `Dakgoot schoonmaken: ${GOTEN_PRIJS} | Spoed Dak Service`,
     metaDescription:
-      `Goten laten reinigen in de regio Den Bosch: ${GOTEN_PRIJS} voor een rijtjeswoning, vaste prijs vooraf. Snel langs, netjes werk en eerlijk advies over je dak. Bel of WhatsApp Rens.`,
+      `Goten laten reinigen in de regio Den Bosch: ${inclBtw("goot_reinigen")} voor één goot, vaste prijs vooraf. Netjes werk en eerlijk advies over je dak. Stuur een foto of app Rens.`,
     icoon: "🪣",
     vanafPrijs: GOTEN_PRIJS,
     intro:
@@ -53,7 +53,7 @@ export const DIENSTEN: Dienst[] = [
     faq: [
       {
         v: "Wat kost goten reinigen?",
-        a: `Voor een rijtjeswoning ${GOTEN_PRIJS}: beide goten leeg, uitloop naar de regenpijp vrijgemaakt, troep mee. Groter of hoger huis? Dan hoor je vooraf de vaste prijs, nooit achteraf verrassingen.`,
+        a: `Eén goot, bijvoorbeeld alleen de voorgoot, kost ${inclBtw("goot_reinigen")}: goot leeg, uitloop naar de regenpijp vrijgemaakt, troep mee. Beide goten of een groter huis? Dan hoor je vooraf de vaste prijs.`,
       },
       {
         v: "Hoe vaak moet ik mijn goten laten reinigen?",
@@ -94,7 +94,7 @@ export const DIENSTEN: Dienst[] = [
     faq: [
       {
         v: "Wat kost een daklekkage repareren?",
-        a: `Een punctuele reparatie kost meestal ${LEK_PRIJS}, inclusief materiaal. Bij spoed buiten kantooruren komt daar een toeslag bij. Je hoort het bedrag voordat ik begin.`,
+        a: `Een lek opsporen en repareren kost ${inclBtw("daklekkage")}, inclusief materiaal. Bij spoed buiten kantooruren komt daar een toeslag bij. Je hoort het bedrag voordat ik begin. Stuur gerust eerst een foto.`,
       },
       {
         v: "Kun je vandaag nog komen?",
@@ -129,7 +129,12 @@ export const DIENSTEN: Dienst[] = [
   {
     slug: "dakreparatie",
     titel: "Dakreparatie",
-    vanafPrijs: KLEIN_PRIJS,
+    vanafPrijs: PAN_PRIJS,
+    zieOok: [
+      { label: "Nokvorsten repareren of vervangen", href: "/diensten/nokvorsten-vervangen/" },
+      { label: "Lood bij schoorsteen, muur of dakraam vervangen", href: "/diensten/lood-vervangen/" },
+      { label: "Dakdoorvoer plaatsen", href: "/diensten/dakdoorvoer/" },
+    ],
     h1: "Dakreparatie, ook met spoed: pannen, lood en nokvorsten hersteld",
     kort: "Gebroken pannen, lood bij schoorsteen of dakraam, losse nokvorsten.",
     metaTitle: "Spoed dakreparatie regio Den Bosch | Spoed Dak Service",
@@ -147,7 +152,7 @@ export const DIENSTEN: Dienst[] = [
     faq: [
       {
         v: "Wat kost het vervangen van een dakpan?",
-        a: `Een paar losse pannen vervangen is vaak een kort klusje: reken ${KLEIN_PRIJS}. Je hoort vooraf de vaste prijs.`,
+        a: `Een paar losse pannen vervangen is vaak een kort klusje: ${inclBtw("dakpan")}. Meer pannen of verder rijden, dan wordt het meer. Je hoort vooraf de vaste prijs.`,
       },
       {
         v: "Kun je met spoed een dakreparatie doen?",
@@ -170,7 +175,7 @@ export const DIENSTEN: Dienst[] = [
   {
     slug: "platte-daken",
     titel: "Platte daken (EPDM)",
-    vanafPrijs: `lek vanaf ${LEK_PRIJS.split(" - ")[0]}`,
+    vanafPrijs: PLATDAK_PRIJS,
     h1: "Plat dak repareren of vervangen: EPDM en bitumen",
     kort: "Lekkage in plat dak opsporen en herstellen, of de hele bedekking vernieuwen.",
     metaTitle: "Lekkend plat dak repareren Den Bosch | Spoed Dak Service",
@@ -193,7 +198,7 @@ export const DIENSTEN: Dienst[] = [
       { v: "EPDM of bitumen, wat is beter?", a: "Beide zijn prima. EPDM is één flexibel, naadloos vel; bitumen is vertrouwd en sterk. Ik adviseer wat bij jouw dak en budget past." },
       { v: "Mijn platte dak lekt, hoe snel kun je komen?", a: "Druppelt het binnen, dan is het spoed. Bel of WhatsApp me met een foto van de natte plek. In de regio Den Bosch lukt het vaak nog dezelfde dag." },
       { v: "Het lekt bij mijn uitbouw of garage, doe je dat ook?", a: "Ja. De meeste uitbouwen, garages en bergingen hebben een plat dak, en daar zie ik veel lekkage. Vaak zit het bij de aansluiting met de gevel, bij de daktrim aan de rand of bij de afvoer. Die plekken kijk ik als eerste na." },
-      { v: "Wat kost het om een lek in een plat dak te repareren?", a: "Dat hangt af van waar het lek zit en hoeveel er beschadigd is. Een gerichte reparatie is meestal het goedkoopst. Je hoort de vaste prijs vooraf, voordat ik begin. Richtprijzen staan op de prijzenpagina." },
+      { v: "Wat kost het om een lek in een plat dak te repareren?", a: `Een klein plat dak repareren kost ${inclBtw("platdak")}. Het hangt af van waar het lek zit en hoeveel er beschadigd is. Moet de hele dakbedekking eraf, stuur dan een foto, dan hoor je wat het ongeveer kost. Je hoort de vaste prijs voordat ik begin.` },
       { v: "Kun je dakleer op een schuur of tuinhuis repareren?", a: "Ja. Op veel schuren en tuinhuizen ligt dakleer, een dunne laag bitumen. Zit er één scheur of een losse naad in, dan is een gerichte reparatie vaak genoeg. Is het dakleer overal bros, staan er blazen in of lekt het op meer plekken, dan is een nieuwe laag slimmer. Stuur een foto, dan zeg ik eerlijk wat het wordt." },
     ],
   },
@@ -235,7 +240,11 @@ export const DIENSTEN: Dienst[] = [
   {
     slug: "dakgoot-vervangen",
     titel: "Dakgoot vervangen",
-    vanafPrijs: "vaste prijs vooraf",
+    vanafPrijs: `repareren ${prijsVan("goot_plakken")}`,
+    zieOok: [
+      { label: "Regenpijp vervangen", href: "/diensten/regenpijp-vervangen/" },
+      { label: "Goten reinigen", href: "/diensten/goten-reinigen/" },
+    ],
     h1: "Dakgoot repareren of vervangen: bij lekkende naden, roest of een goot die blijft overlopen",
     kort: "Versleten of lekkende goot? Nieuwe zinken, kunststof of pvc goot, netjes gemonteerd.",
     metaTitle: "Dakgoot repareren of vervangen Den Bosch | Spoed Dak Service",
@@ -251,6 +260,7 @@ export const DIENSTEN: Dienst[] = [
       "Vaste prijs vooraf, troep gaat mee",
     ],
     faq: [
+      { v: "Wat kost een dakgoot repareren of vervangen?", a: `Een lek dichtzetten (plakken) kost ${inclBtw("goot_plakken")}, een zinken naad solderen ${inclBtw("goot_solderen")} en een goot die nog goed is van binnen coaten ${inclBtw("goot_coaten")}. Moet de goot helemaal vervangen worden, stuur dan een foto, dan hoor je wat het kost.` },
       { v: "Reinigen of vervangen?", a: "Zit er alleen blad in, dan volstaat reinigen. Is de goot doorgeroest of lek op de naden, dan is vervangen op termijn goedkoper. Ik zeg eerlijk wat in jouw geval slim is." },
       { v: "Welk materiaal kies ik?", a: "Zink gaat het langst mee en oogt klassiek; kunststof/pvc is voordeliger en onderhoudsarm. Ik help je kiezen wat bij je huis past." },
       { v: "Kun je een lekkende dakgoot ook repareren in plaats van vervangen?", a: "Vaak wel. Een lekkende naad, een losse hoek, een losse beugel of een lekkende uitloop naar de regenpijp is meestal goed te herstellen. Is de goot op meerdere plekken lek of doorgeroest, dan zeg ik eerlijk dat vervangen slimmer is." },
@@ -284,14 +294,14 @@ export const DIENSTEN: Dienst[] = [
   },
   {
     slug: "dak-reinigen",
+    verborgen: true,
     titel: "Dak reinigen",
     h1: "Dak reinigen: mos, vuil en groene aanslag eraf",
     kort: "Mos en aanslag verwijderen zodat je dak weer ademt en langer meegaat.",
     metaTitle: "Dak reinigen & mos verwijderen Den Bosch | Spoed Dak Service",
     metaDescription:
-      `Dak laten reinigen in de regio Den Bosch: mos, vuil en groene aanslag eraf voor ${ONTMOS_PRIJS}. Zo lopen je goten minder snel vol. Vaste prijs vooraf. Bel of WhatsApp Rens.`,
+      "Mos, vuil en groene aanslag op je dak. Zo lopen je goten minder snel vol.",
     icoon: "🧽",
-    vanafPrijs: ONTMOS_PRIJS,
     intro:
       "Mos en aanslag houden vocht vast, verstoppen je goten en tasten op den duur de pannen aan. Ik maak je dak weer schoon en kijk meteen of er pannen los of beschadigd zijn.",
     punten: [
@@ -302,14 +312,16 @@ export const DIENSTEN: Dienst[] = [
     ],
     faq: [
       { v: "Gaat dat niet met een hogedrukspuit kapot?", a: "Op kwetsbare pannen werk ik voorzichtig en op de juiste druk, zodat de toplaag heel blijft. Daar zit 'm juist het vakwerk in." },
-      { v: "Wat kost dak reinigen?", a: `Dak reinigen kost ${ONTMOS_PRIJS}, afhankelijk van hoe groot je dak is en hoe dik het mos erop zit. Je hoort vooraf de vaste prijs voor de hele klus. Stuur gerust een foto van je dak via WhatsApp, dan kan ik je vaak snel een prijs noemen.` },
       { v: "Neem je de goten meteen mee?", a: "Ja. Het mos dat loskomt, valt voor een groot deel in de goot. Daarom maak ik na het reinigen de goten en de uitloop naar de regenpijp meteen leeg, anders zit je goot bij de eerste flinke bui vol. Wat het samen kost, hoor je vooraf." },
     ],
   },
   {
     slug: "dakpannen-vervangen",
     titel: "Dakpannen vervangen",
-    vanafPrijs: KLEIN_PRIJS,
+    vanafPrijs: PAN_PRIJS,
+    zieOok: [
+      { label: "Nokvorsten repareren of vervangen", href: "/diensten/nokvorsten-vervangen/" },
+    ],
     h1: "Dakpannen vervangen of recht leggen: voorkom lekkage",
     kort: "Gebroken, verschoven of versleten pannen vervangen of opnieuw recht leggen.",
     metaTitle: "Dakpannen vervangen Den Bosch | Spoed Dak Service",
@@ -325,6 +337,7 @@ export const DIENSTEN: Dienst[] = [
       "Meteen een blik op nok, lood en goten",
     ],
     faq: [
+      { v: "Wat kost een dakpan vervangen?", a: `Een paar losse pannen vervangen, of een nokvorst weer vastzetten, kost ${inclBtw("dakpan")}. Meer pannen of verder rijden, dan wordt het meer. Stuur een foto, dan hoor je de prijs vooraf.` },
       { v: "Heb je mijn type pan nog?", a: "Voor de meeste daken vind ik passende pannen, ook bij oudere of bijzondere modellen. Lukt het echt niet, dan kijken we samen naar de beste oplossing." },
       { v: "Er is een dakpan kapot of verschoven, is dat spoed?", a: "Lekt het al of zit er een gat in je dak, dan is het spoed: bel of WhatsApp me met een foto. Is het één verschoven pan en blijft het binnen droog, dan kan het meestal een paar dagen wachten. Wacht alleen niet tot de volgende storm, want dan waaien er vaak meer los." },
       { v: "Waarom verschuiven dakpannen?", a: "Door harde wind, door een losse of rotte panlat eronder, of doordat er iemand op het dak heeft gelopen, bijvoorbeeld bij het plaatsen van zonnepanelen of een antenne. Ik leg ze recht en kijk meteen of de oorzaak eronder zit." },
@@ -332,14 +345,138 @@ export const DIENSTEN: Dienst[] = [
     ],
   },
   {
+    slug: "nokvorsten-vervangen",
+    titel: "Nokvorsten repareren of vervangen",
+    vanafPrijs: `repareren ${prijsVan("nok_repareren")}`,
+    h1: "Nokvorsten repareren of vervangen: weer een dichte nok",
+    kort: "Losse of kapotte nokvorsten opnieuw aansmeren met dakmortel, of de hele nok vernieuwen.",
+    metaTitle: "Nokvorsten vervangen of repareren | Spoed Dak Service",
+    metaDescription:
+      `Nokvorsten los of kapot? Opnieuw aansmeren met dakmortel ${inclBtw("nok_repareren")}, of de hele nok vernieuwen. Stuur een foto, dan hoor je vooraf wat het kost.`,
+    icoon: "🏠",
+    geenAfbeelding: true,
+    fotos: ["/fotos/nette-nok-met-nokvorsten-a56a3a.webp", "/fotos/nokvorsten-bij-schoorsteen-bef73b.webp"],
+    zieOok: [
+      { label: "Dakpannen vervangen", href: "/diensten/dakpannen-vervangen/" },
+      { label: "Dakreparatie", href: "/diensten/dakreparatie/" },
+    ],
+    intro:
+      "De nok is het hoogste stuk van je dak, en daar trekt de wind het hardst aan. Is de specie onder de vorsten oud, dan brokkelt hij af en gaan de vorsten los liggen. Dan komt er regen onder de nok. Ik zet ze weer vast met dakmortel, of ik vervang de nok als dat beter is. Je hoort vooraf wat het wordt.",
+    punten: [
+      "Losse nokvorsten opnieuw aansmeren met dakmortel",
+      "Kapotte vorsten vervangen door passende",
+      "Is de hele nok op, dan in één keer goed vernieuwd",
+      "Meteen een blik op de bovenste rijen pannen",
+    ],
+    faq: [
+      { v: "Wat kost nokvorsten repareren?", a: `Opnieuw aansmeren met dakmortel kost ${inclBtw("nok_repareren")}. Zitten er maar een of twee los, dan valt het vaak onder een dakpan vervangen (${inclBtw("dakpan")}). Moet de hele nok vervangen worden, stuur dan een foto, dan hoor je wat het kost.` },
+      { v: "Hoe zie ik of mijn nokvorsten los zitten?", a: "Kijk vanaf de straat naar de bovenste rand van je dak. Een vorst die scheef ligt, een kier tussen twee vorsten of stukjes specie in de goot of de tuin: dan is het tijd. Maak een foto en stuur hem op, dan kijk ik mee." },
+      { v: "Repareren of de hele nok vervangen?", a: "Zitten er een paar los, dan is opnieuw aansmeren prima. Is de specie overal op of zijn veel vorsten kapot, dan is de hele nok in één keer slimmer. Ik zeg eerlijk wat bij jouw dak past." },
+      { v: "Kan het wachten tot het voorjaar?", a: "Liever niet. Bij een storm kan een losse vorst van het dak waaien, en dan komt er water onder de pannen. Vastzetten is een kleine klus, de schade erna vaak niet." },
+    ],
+  },
+  {
+    slug: "lood-vervangen",
+    titel: "Lood vervangen",
+    vanafPrijs: "stuur een foto",
+    h1: "Lood vervangen bij je schoorsteen, muur of dakraam",
+    kort: "Los, gescheurd of opgekruld lood vastzetten of vervangen, zodat het water weer over de pannen loopt.",
+    metaTitle: "Lood vervangen bij schoorsteen, muur of dakraam | Spoed Dak Service",
+    metaDescription:
+      "Lekt het bij je schoorsteen, langs de muur of bij een dakraam? Vaak zit het lood los of is het gescheurd. Ik zet het vast of vervang het. Stuur een foto, dan hoor je wat het kost.",
+    icoon: "🧰",
+    geenAfbeelding: true,
+    fotos: ["/fotos/open-dak-gescheurd-zink-5927e8.webp", "/fotos/schoorsteen-met-loodslabben-173c1a.webp"],
+    zieOok: [
+      { label: "Daklekkage opsporen en repareren", href: "/diensten/daklekkage/" },
+      { label: "Dakreparatie", href: "/diensten/dakreparatie/" },
+    ],
+    intro:
+      "Waar je dak tegen iets aan komt, een schoorsteen, een muur of een dakraam, ligt lood. Dat lood zorgt dat het water over de pannen wegloopt. Na jaren gaat het scheuren, krult het omhoog of komt het los. Dan loopt het water erachter en zie je binnen een natte plek. Ik zet het lood weer vast of vervang het.",
+    punten: [
+      "Lood rond de schoorsteen vastzetten of vervangen",
+      "Lood langs de muur waar een lager dak tegen het huis zit",
+      "Lood rond een dakraam of dakkapel",
+      "Meteen een blik op de pannen eromheen",
+    ],
+    faq: [
+      { v: "Wat kost lood vervangen?", a: "Dat hangt af van hoeveel lood het is en hoe goed ik erbij kan. Stuur een foto van de schoorsteen, de muur of het dakraam, dan hoor je wat het kost. Je weet de prijs voordat ik begin." },
+      { v: "Hoe weet ik of het het lood is?", a: "Een natte plek op zolder vlak naast de schoorsteen of het dakraam, of strepen op de muur onder het lood, wijzen vaak naar het lood. Kijk ook vanaf de straat: krult het omhoog of zit er een kier, dan is het meestal raak." },
+      { v: "Moet al het lood eraf?", a: "Niet altijd. Een losse strook kan vaak opnieuw vastgezet worden. Is het lood gescheurd of op, dan komt er nieuw lood. Je hoort vooraf welke van de twee het wordt." },
+      { v: "Doe je ook het voegwerk van de schoorsteen?", a: "Nee, voegwerk en metselen doe ik niet. Ik herstel het lood en de aansluiting op het dak. Zie ik dat de stenen of de voegen slecht zijn, dan zeg ik dat eerlijk, zodat je daar iemand anders voor kunt vragen." },
+    ],
+  },
+  {
+    slug: "regenpijp-vervangen",
+    titel: "Regenpijp vervangen",
+    vanafPrijs: prijsVan("regenpijp"),
+    h1: "Regenpijp vervangen of repareren",
+    kort: "Gescheurde, losse of lekkende regenpijp vervangen, in kunststof of zink.",
+    metaTitle: "Regenpijp vervangen of repareren | Spoed Dak Service",
+    metaDescription:
+      `Regenpijp gescheurd, los of lek? Ik vervang hem, kunststof ${inclBtw("regenpijp")} en zink vanaf €525 incl. btw. Vaste prijs vooraf, stuur gerust een foto.`,
+    icoon: "🛠",
+    geenAfbeelding: true,
+    fotos: ["/fotos/regenpijp-met-aftakking-72b9bb.webp", "/fotos/regenpijp-aansluiten-bestrating-open-6d4a97.webp", "/fotos/regenpijp-aftakking-plat-dak-98b289.webp"],
+    zieOok: [
+      { label: "Dakgoot repareren of vervangen", href: "/diensten/dakgoot-vervangen/" },
+      { label: "Goten reinigen", href: "/diensten/goten-reinigen/" },
+    ],
+    intro:
+      "Een regenpijp die gescheurd is, los van de muur hangt of bij de verbindingen lekt, laat het water langs je gevel lopen. Dan wordt de muur nat en groen. Ik vervang de regenpijp, in kunststof of zink, en kijk meteen of de goot erboven het water goed kwijt kan.",
+    punten: [
+      "Gescheurde of kapotte regenpijp vervangen",
+      "Kunststof of zink, passend bij je goot",
+      "Beugels weer stevig aan de muur",
+      "Aansluiting op de goot meteen nagekeken",
+    ],
+    faq: [
+      { v: "Wat kost een regenpijp vervangen?", a: `Een kunststof regenpijp vervangen kost ${inclBtw("regenpijp")}. Zink kost vanaf €525 incl. btw. Is hij heel lang of lastig te bereiken, dan hoor je de prijs vooraf.` },
+      { v: "Kunststof of zink?", a: "Kunststof is voordeliger en je hoeft er weinig aan te doen. Zink gaat lang mee en past mooi bij een zinken goot. Ik kijk wat bij je huis past." },
+      { v: "Mijn regenpijp lekt alleen bij een verbinding, moet hij dan helemaal nieuw?", a: "Niet altijd. Soms is alleen een stuk of een bocht kapot. Ik kijk wat er nodig is en zeg eerlijk of een stuk vervangen genoeg is." },
+      { v: "Kijk je ook naar de goot?", a: "Ja. Loopt de goot over of lekt hij bij de uitloop naar de regenpijp, dan zie ik dat meteen. Dan hoor je wat dat erbij kost, voordat ik iets doe." },
+    ],
+  },
+  {
+    slug: "dakdoorvoer",
+    titel: "Dakdoorvoer plaatsen",
+    vanafPrijs: "stuur een foto",
+    h1: "Dakdoorvoer plaatsen voor ventilatie, afzuiging of WTW",
+    kort: "Een nieuwe doorvoer door je pannendak, netjes en waterdicht aangesloten op de pannen.",
+    metaTitle: "Dakdoorvoer plaatsen of vervangen | Spoed Dak Service",
+    metaDescription:
+      "Een dakdoorvoer nodig voor ventilatie, een afzuigkap, een WTW-unit of een rookgasafvoer? Ik plaats hem door je pannendak en sluit hem waterdicht aan. Stuur een foto voor de prijs.",
+    icoon: "🧰",
+    geenAfbeelding: true,
+    fotos: ["/fotos/rookgasafvoer-door-pannendak-653b84.webp"],
+    zieOok: [
+      { label: "Lood vervangen", href: "/diensten/lood-vervangen/" },
+      { label: "Daklekkage opsporen en repareren", href: "/diensten/daklekkage/" },
+    ],
+    intro:
+      "Voor ventilatie, een afzuigkap, een WTW-unit of een rookgasafvoer moet er een pijp door het dak. Ik plaats een doorvoerpan tussen je pannen, zodat de pijp er netjes doorheen kan en het regenwater er gewoon omheen loopt. Lekt een bestaande doorvoer, dan kijk ik of de kraag of de pan vervangen moet worden.",
+    punten: [
+      "Nieuwe doorvoerpan, passend bij je dakpannen",
+      "Voor ventilatie, afzuiging, WTW of rookgasafvoer",
+      "Waterdicht aangesloten op de pannen eromheen",
+      "Lekkende doorvoer nagekeken en hersteld",
+    ],
+    faq: [
+      { v: "Wat kost een dakdoorvoer plaatsen?", a: "Dat hangt af van je pannen, de dikte van de pijp en waar hij door het dak moet. Stuur een foto van je dak en vertel waar de doorvoer voor is, dan hoor je wat het kost. Je weet de prijs voordat ik begin." },
+      { v: "Sluit je de pijp ook aan op de ketel of de WTW-unit?", a: "Nee, ik doe het stuk door het dak: de doorvoerpan en de aansluiting op de pannen. De aansluiting op je ketel, afzuigkap of WTW-unit doet je installateur. We kunnen samen afspreken wie wat doet." },
+      { v: "Mijn doorvoer lekt, wat kan het zijn?", a: "Vaak is de kraag rond de pijp uitgedroogd of gescheurd, of ligt de doorvoerpan niet meer goed tussen de andere pannen. Dan loopt het water langs de pijp naar binnen. Ik kijk wat het is en maak het dicht." },
+      { v: "Kan dat ook op een plat dak?", a: "Stuur een foto van het dak en de plek, dan kijk ik mee. Op een pannendak doe ik het het vaakst." },
+    ],
+  },
+  {
     slug: "schoorsteen-vegen",
+    verborgen: true,
     titel: "Schoorsteen vegen",
-    vanafPrijs: VEEG_PRIJS,
     h1: "Schoorsteen vegen: veilig, netjes en zonder roetzooi",
     kort: "De hele schoorsteen geveegd, plus een blik op het lood en de aansluiting.",
     metaTitle: "Schoorsteenveger Den Bosch en omgeving | Spoed Dak Service",
     metaDescription:
-      `Schoorsteen laten vegen in de regio Den Bosch, ${VEEG_PRIJS}: veilig, netjes en zonder roet in huis. Meteen een blik op het lood en de aansluiting.`,
+      "Schoorsteen laten vegen: veilig, netjes en zonder roet in huis.",
     icoon: "🧹",
     intro:
       "Een schone schoorsteen is veiliger (minder kans op schoorsteenbrand) en trekt beter. Ik veeg de hele schoorsteen, netjes en zonder roet in huis, en kijk meteen of het lood en de aansluiting nog goed zijn, dat is vaak een lekbron.",
@@ -348,7 +485,6 @@ export const DIENSTEN: Dienst[] = [
       "Veiliger: minder kans op schoorsteenbrand",
       "Controle op lood en aansluiting (lekbron)",
       "Kap of afdekplaat op de schoorsteen als er regen in het kanaal komt",
-      "Vaste prijs vooraf",
     ],
     faq: [
       { v: "Hoe vaak moet de schoorsteen geveegd?", a: "Bij regelmatig stoken één keer per jaar, het beste vóór het stookseizoen. Zo voorkom je schoorsteenbrand en houd je een goede trek." },
@@ -360,8 +496,8 @@ export const DIENSTEN: Dienst[] = [
   },
   {
     slug: "dakkapel-reinigen",
+    verborgen: true,
     titel: "Dakkapel reinigen",
-    vanafPrijs: DAKKAPEL_PRIJS,
     h1: "Dakkapel reinigen en onderhouden: weer schoon en waterdicht",
     kort: "Dakkapel schoonmaken, kitwerk en aansluitingen nakijken zodat hij niet gaat lekken.",
     metaTitle: "Dakkapel reinigen en onderhoud Den Bosch | Spoed Dak Service",
@@ -378,7 +514,6 @@ export const DIENSTEN: Dienst[] = [
     ],
     faq: [
       { v: "Doe je ook dakkapellen plaatsen?", a: "Ik richt me op poetsen, onderhoud en lekkage van bestaande dakkapellen. Wil je een nieuwe laten plaatsen, dan denk ik mee over wie je daarvoor het beste kunt hebben." },
-      { v: "Wat kost een dakkapel laten reinigen?", a: `Een dakkapel reinigen kost ${DAKKAPEL_PRIJS}, inclusief een controle van de kit en de aansluitingen. Is hij groot of lastig te bereiken, dan hoor je vooraf de vaste prijs.` },
       { v: "Mijn dakkapel lekt bij de kitnaden, wat doe je dan?", a: "Oude kit die hard is of loslaat, haal ik eruit, en ik zet er nieuwe kit in. Ik kijk ook naar het lood onder de voorkant en langs de zijkanten, want daar komt het water vaak binnen. Druppelt het nu al binnen, kijk dan op de spoedpagina wat je meteen kunt doen, of stuur me een foto." },
       { v: "Hoe vaak moet een dakkapel schoongemaakt worden?", a: "Meestal is eens per jaar of om het jaar genoeg. Staat hij op het noorden of onder bomen, dan wordt hij sneller groen. Na de herfst is een goed moment: dan kijk ik meteen of de naden de winter aankunnen." },
       { v: "Kom je ook in Oss en omgeving een dakkapel schoonmaken?", a: "Ja, in mijn hele werkgebied rond Den Bosch, zoals Oss, Rosmalen, Vught en Veghel. Op de werkgebiedpagina zie je of jouw plaats erbij staat." },
@@ -386,8 +521,8 @@ export const DIENSTEN: Dienst[] = [
   },
   {
     slug: "zonnepanelen-reinigen",
+    verborgen: true,
     titel: "Zonnepanelen reinigen",
-    vanafPrijs: ZON_PRIJS,
     h1: "Zonnepanelen reinigen: meer opbrengst uit je panelen",
     kort: "Vuile panelen leveren minder op. Ik maak ze veilig en streepvrij schoon.",
     metaTitle: "Zonnepanelen reinigen Den Bosch | Spoed Dak Service",
@@ -406,7 +541,6 @@ export const DIENSTEN: Dienst[] = [
       { v: "Hoe vaak is reinigen nodig?", a: "Eens per 1 tot 2 jaar is meestal genoeg, vaker als er veel bomen of vogels in de buurt zijn. Dan haal je het meeste uit je panelen." },
       { v: "Kijk je bij het reinigen ook naar lekkage onder de panelen?", a: "Ja. Omdat ik toch op het dak sta, kijk ik naar de bevestiging en de pannen eronder. Een pan die bij een dakhaak niet meer goed ligt, zie je zo vaak al voordat het binnen nat wordt." },
       { v: "Kan ik het combineren met goten reinigen?", a: "Ja, dat kan prima in één keer. Dan sta ik maar één keer op je dak en zijn de panelen en de goten allebei weer schoon." },
-      { v: "Wat kost zonnepanelen reinigen?", a: "Dat hangt af van het aantal panelen en hoe goed ze bereikbaar zijn. Bovenaan deze pagina staat de prijsindicatie, en je hoort de vaste prijs vooraf." },
     ],
   },
   {
@@ -437,7 +571,7 @@ export const DIENSTEN: Dienst[] = [
   {
     slug: "dakrenovatie",
     titel: "Dakrenovatie",
-    vanafPrijs: NIEUWDAK_PRIJS,
+    vanafPrijs: "stuur een foto",
     h1: "Dakrenovatie: versleten pannen, lood, nok en goten in één keer aangepakt",
     kort: "Versleten dak grondig opknappen: pannen, lood, nok en goten in één keer aangepakt.",
     metaTitle: "Dakrenovatie Den Bosch & regio | Spoed Dak Service",
@@ -453,6 +587,7 @@ export const DIENSTEN: Dienst[] = [
       "Eerlijk advies: renoveren of (deels) vervangen",
     ],
     faq: [
+      { v: "Wat kost een dakrenovatie?", a: "Dat hangt af van hoe groot je dak is en wat er moet gebeuren. Stuur een paar foto's, dan hoor je wat het ongeveer kost. Daarna kom ik kijken en krijg je een vaste prijs voordat ik begin. Voor grotere klussen plannen we een paar weken vooruit." },
       { v: "Renoveren of een heel nieuw dak?", a: "Vaak stelt een grondige renovatie een nieuw dak jaren uit tegen veel lagere kosten. Is de onderconstructie slecht, dan is vervangen verstandiger. Ik kom kijken en zeg eerlijk wat loont." },
       { v: "Hoe weet ik of mijn dak aan renovatie toe is?", a: "Let op scheve of gebroken pannen, mos dat tussen de pannen groeit, specie uit de nok die in de goot ligt en lood dat los zit of scheurt. Zie je dat op meer plekken tegelijk, dan is steeds een losse reparatie vaak duurder dan alles in één keer aanpakken. Met de Dak-APK krijg je een fotorapport van je hele dak, dan zie je zelf hoe het ervoor staat." },
       { v: "Heb ik voor een dakrenovatie een vergunning nodig?", a: "Voor het vervangen van pannen, lood en goten in dezelfde soort en kleur is meestal geen vergunning nodig. Woon je in een monument of in een beschermd stadsgezicht, zoals de binnenstad van Den Bosch of vesting Heusden, vraag het dan eerst na bij de gemeente. Ik denk daar graag in mee." },
@@ -461,8 +596,8 @@ export const DIENSTEN: Dienst[] = [
   },
   {
     slug: "dakisolatie",
+    verborgen: true,
     titel: "Dakisolatie",
-    vanafPrijs: "vaste prijs na bezoek",
     h1: "Dakisolatie: minder stoken, meer comfort",
     kort: "Zolder of schuin dak isoleren: direct minder stookkosten, vaak met subsidie.",
     metaTitle: "Dakisolatie Den Bosch en subsidie-advies | Spoed Dak Service",

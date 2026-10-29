@@ -1,0 +1,507 @@
+---
+/**
+ * De quiz (29-10-2026, ~/Downloads/claude new/klaar-voor-ads/quiz-plan.md). Eén vraag per scherm, grote knoppen,
+ * voortgangsbalk, terug-knop, werkt op 360 px breed. Vanilla JS, geen libraries.
+ *
+ * Gebruik: <Quiz /> (op /quiz/, eerst "Waar gaat het om?", ?klus=... vult hem in) of <Quiz klus="nokvorsten" />
+ * (advertentiepagina's, klus al ingevuld). Sleutels en knoppen: src/data/quiz.ts.
+ *
+ * Verzenden (contract met de server op de VPS):
+ *  1. POST text/plain JSON naar https://46-62-199-55.sslip.io/quiz-.../aanvraag (12 s). Antwoord {ok:true,id} of
+ *     {ok:false,fout} (400 = fout bij een veld, dat tonen we bij het veld).
+ *  2. Lukt dat niet: POST naar https://spoeddak.pages.dev/api/aanvraag zoals het oude advertentieformulier
+ *     (zonder foto's, samenvatting in "beschrijving", bron "quiz-<bron>").
+ *  3. Lukt ook dat niet: een WhatsApp-knop met alle antwoorden in het bericht.
+ *  Half ingevuld met een bruikbaar nummer: sendBeacon naar /api/aanvraag met status "onafgemaakt".
+ * Meting: quiz_start bij het eerste antwoord, quiz_af en formulier na gelukt verzenden (window.spoeddakTel uit Meting.astro).
+ */
+import { SITE } from "../site.config.ts";
+import { QUIZ_KLUSSEN, QUIZ_KEUZE, QUIZ_HUIS, QUIZ_HOOGTE } from "../data/quiz.ts";
+
+interface Props {
+  /** sleutel uit QUIZ_KLUSSEN; leeg = eerst "Waar gaat het om?" */
+  klus?: string;
+}
+const { klus = "" } = Astro.props;
+if (klus && !QUIZ_KLUSSEN[klus]) throw new Error(`Quiz: onbekende klus "${klus}"`);
+
+const cfg = {
+  klus,
+  klussen: QUIZ_KLUSSEN,
+  keuze: QUIZ_KEUZE,
+  huis: QUIZ_HUIS,
+  hoogte: QUIZ_HOOGTE,
+  tel: SITE.telefoonE164,
+  api: "https://46-62-199-55.sslip.io/quiz-08de2a648fa9e8734d9ff6802518817d/aanvraag",
+  reserve: "https://spoeddak.pages.dev/api/aanvraag",
+};
+---
+
+<div class="qz" id="quiz" data-quiz>
+  <div class="qz-kop">
+    <button type="button" class="qz-terug" data-terug hidden aria-label="Vorige vraag">&larr; Terug</button>
+    <span class="qz-teller" data-teller aria-live="polite"></span>
+  </div>
+  <div class="qz-balk" aria-hidden="true"><span data-balk></span></div>
+
+  <form class="qz-form" data-form novalidate>
+    <!-- 0. Waar gaat het om? (alleen zonder vooraf ingevulde klus) -->
+    <section class="qz-stap" data-stap="kies" hidden>
+      <h2 class="qz-vraag">Waar gaat het om?</h2>
+      <div class="qz-knoppen" data-kies-knoppen></div>
+    </section>
+
+    <!-- 1. Wat speelt er? -->
+    <section class="qz-stap" data-stap="wat" hidden>
+      <h2 class="qz-vraag" data-wat-vraag>Wat speelt er?</h2>
+      <div class="qz-knoppen" data-wat-knoppen></div>
+      <label class="qz-veld">
+        <span data-wat-label>Iets anders of toelichting (mag leeg)</span>
+        <textarea name="wat_vrij" rows="3" maxlength="600" placeholder="Bijvoorbeeld: aan de achterkant, alleen bij harde regen"></textarea>
+      </label>
+      <p class="qz-fout" data-fout="wat" hidden></p>
+      <button type="button" class="btn btn--primary qz-verder" data-verder="wat">Verder</button>
+    </section>
+
+    <!-- 2. Wat voor huis? -->
+    <section class="qz-stap" data-stap="huis" hidden>
+      <h2 class="qz-vraag">Wat voor huis is het?</h2>
+      <div class="qz-knoppen qz-knoppen--2" data-huis-knoppen></div>
+    </section>
+
+    <!-- 3. Hoe hoog? -->
+    <section class="qz-stap" data-stap="hoogte" hidden>
+      <h2 class="qz-vraag">Hoe hoog zit het?</h2>
+      <div class="qz-knoppen" data-hoogte-knoppen></div>
+    </section>
+
+    <!-- 4. Foto (mag overslaan) -->
+    <section class="qz-stap" data-stap="foto" hidden>
+      <h2 class="qz-vraag">Heb je een foto?</h2>
+      <p class="qz-uitleg">Een foto vanaf de straat is vaak genoeg. Hooguit 3 foto's. Geen foto? Druk op overslaan.</p>
+      <div class="qz-fotoknoppen">
+        <label class="btn btn--outline qz-fotoknop">Maak een foto
+          <input type="file" accept="image/*" capture="environment" data-foto-input hidden />
+        </label>
+        <label class="btn btn--outline qz-fotoknop">Kies uit je foto's
+          <input type="file" accept="image/*" multiple data-foto-input hidden />
+        </label>
+      </div>
+      <div class="qz-fotos" data-fotos></div>
+      <p class="qz-fout" data-fout="foto" hidden></p>
+      <button type="button" class="btn btn--primary qz-verder" data-verder="foto">Verder</button>
+      <button type="button" class="qz-overslaan" data-overslaan>Overslaan</button>
+    </section>
+
+    <!-- 5. Postcode + huisnummer -->
+    <section class="qz-stap" data-stap="adres" hidden>
+      <h2 class="qz-vraag">Wat is je postcode en huisnummer?</h2>
+      <p class="qz-uitleg">Dan kijk ik alvast naar je dak op de kaart.</p>
+      <div class="qz-rij">
+        <label class="qz-veld">Postcode
+          <input type="text" name="postcode" autocomplete="postal-code" inputmode="text" maxlength="7" placeholder="5211 AB" />
+        </label>
+        <label class="qz-veld qz-veld--smal">Huisnummer
+          <input type="text" name="huisnummer" autocomplete="off" maxlength="12" placeholder="12a" />
+        </label>
+      </div>
+      <p class="qz-fout" data-fout="adres" hidden></p>
+      <button type="button" class="btn btn--primary qz-verder" data-verder="adres">Verder</button>
+    </section>
+
+    <!-- 6. Naam + 06-nummer -->
+    <section class="qz-stap" data-stap="contact" hidden>
+      <h2 class="qz-vraag">Waar mogen we je prijs naartoe sturen?</h2>
+      <label class="qz-veld">Voornaam
+        <input type="text" name="naam" autocomplete="given-name" maxlength="60" />
+      </label>
+      <label class="qz-veld">06-nummer (voor WhatsApp)
+        <input type="tel" name="telefoon" autocomplete="tel" inputmode="tel" maxlength="20" placeholder="06 12345678" />
+      </label>
+      <label class="qz-veld">E-mail (mag leeg)
+        <input type="email" name="email" autocomplete="email" maxlength="120" />
+      </label>
+      <label class="qz-vink">
+        <input type="checkbox" name="herinnering" />
+        <span>Stuur me een herinnering als mijn goten weer schoon moeten</span>
+      </label>
+      <div style="position:absolute; left:-9999px; top:auto;" aria-hidden="true">
+        <label>Website<input type="text" name="website" tabindex="-1" autocomplete="off" /></label>
+      </div>
+      <p class="qz-fout" data-fout="contact" hidden></p>
+      <button type="submit" class="btn btn--primary qz-verder qz-verstuur" data-verstuur>Verstuur, ik hoor wat het kost</button>
+      <a class="btn btn--wa qz-verder" data-wa-reserve href="#" hidden>Stuur je aanvraag via WhatsApp</a>
+      <p class="qz-privacy">Ik gebruik je gegevens alleen voor deze aanvraag. Stop je halverwege terwijl je nummer er al staat, dan kan ik je even terugbellen. Zie de <a href="/privacy/">privacyverklaring</a>.</p>
+    </section>
+
+    <!-- Klaar -->
+    <section class="qz-stap qz-klaar" data-stap="klaar" hidden>
+      <h2 class="qz-vraag">Dank je! Meestal staat je prijs binnen 10 minuten op WhatsApp. Is het wat lastiger, dan kijken we er persoonlijk naar en hoor je binnen 24 uur van ons.</h2>
+      <p class="qz-uitleg">Het is een indicatie, de vaste prijs hoor je na kijken.</p>
+      <a class="btn btn--wa qz-verder" data-wa-na href="#" data-niet-tellen>Nog een foto sturen via WhatsApp</a>
+    </section>
+  </form>
+</div>
+
+<script is:inline define:vars={{ cfg }}>
+(function () {
+  var root = document.querySelector("[data-quiz]");
+  if (!root) return;
+  var form = root.querySelector("[data-form]");
+  var $ = function (sel) { return root.querySelector(sel); };
+  var $$ = function (sel) { return Array.prototype.slice.call(root.querySelectorAll(sel)); };
+
+  // ---------- begintoestand ----------
+  var q = new URLSearchParams(location.search);
+  var vooraf = cfg.klus || "";
+  var urlKlus = (q.get("klus") || "").toLowerCase().replace(/[^a-z_]/g, "");
+  if (!vooraf && urlKlus && cfg.klussen[urlKlus]) vooraf = urlKlus;
+
+  var st = {
+    groep: vooraf || "",          // welke knoppen bij "wat speelt er" (kan "goot" zijn)
+    klus: vooraf && vooraf !== "goot" ? vooraf : (vooraf === "goot" ? "goot_lek" : ""),
+    klusTekst: vooraf ? cfg.klussen[vooraf].tekst : "",
+    wat: "", huis: "", hoogte: "", fotos: [],
+  };
+  var stappen = vooraf ? ["wat", "huis", "hoogte", "foto", "adres", "contact"] : ["kies", "wat", "huis", "hoogte", "foto", "adres", "contact"];
+  var huidig = 0;
+  var gestart = false;
+  var klaar = false;
+  var sid = Array.from(crypto.getRandomValues(new Uint8Array(12)), function (b) { return b.toString(16).padStart(2, "0"); }).join("");
+
+  // ---------- herkomst (bron en advertentie) ----------
+  var schoon = function (s, n) { return String(s || "").replace(/[^\w .:\/-]/g, "").slice(0, n); };
+  function utm() {
+    var u = window.spoeddakUtm || {};
+    var s = schoon(q.get("utm_source") || u.s, 40), c = schoon(q.get("utm_campaign") || u.c, 60), n = schoon(q.get("utm_content") || u.n, 60);
+    return { s: s, c: c, n: n };
+  }
+  function bron() {
+    var host = location.hostname.replace(/^www\./, "");
+    if (host !== "spoeddakservice.nl") return "test";
+    var s = utm().s.toLowerCase();
+    if (!s) return "site";
+    if (/meta|facebook|fb|instagram|ig/.test(s)) return "meta";
+    if (/google|adwords|gads/.test(s)) return "google";
+    return "site";
+  }
+  function ad() { var u = utm(); return [u.c, u.n].filter(Boolean).join(" / ").slice(0, 120); }
+  function tel(soort) { if (typeof window.spoeddakTel === "function") window.spoeddakTel(soort); }
+  function start() { if (!gestart) { gestart = true; tel("quiz_start"); } }
+
+  // ---------- knoppen opbouwen ----------
+  function knop(label, bij) {
+    var b = document.createElement("button");
+    b.type = "button"; b.className = "qz-keuze"; b.textContent = label;
+    b.addEventListener("click", function () { start(); bij(b); });
+    return b;
+  }
+  function kies(lijst, gekozen) { lijst.forEach(function (x) { x.classList.toggle("is-gekozen", x === gekozen); x.setAttribute("aria-pressed", x === gekozen ? "true" : "false"); }); }
+
+  var kiesBox = $("[data-kies-knoppen]");
+  var kiesKnoppen = cfg.keuze.map(function (k) {
+    return knop(k.label, function (b) {
+      kies(kiesKnoppen, b);
+      st.groep = k.klus;
+      st.klus = k.klus === "goot" ? "goot_lek" : k.klus;
+      st.klusTekst = cfg.klussen[k.klus].tekst;
+      st.wat = "";
+      bouwWat();
+      setTimeout(volgende, 120);
+    });
+  });
+  kiesKnoppen.forEach(function (b) { kiesBox.appendChild(b); });
+
+  var watBox = $("[data-wat-knoppen]");
+  var watVrij = form.elements.namedItem("wat_vrij");
+  function bouwWat() {
+    var k = cfg.klussen[st.groep] || cfg.klussen.anders;
+    $("[data-wat-vraag]").textContent = k.vraag;
+    $("[data-wat-label]").textContent = k.opties.length ? "Iets anders of toelichting (mag leeg)" : "Wat is er aan de hand?";
+    watBox.innerHTML = "";
+    watBox.hidden = !k.opties.length;
+    var lijst = k.opties.map(function (o) {
+      return knop(o.label, function (b) {
+        kies(lijst, b);
+        st.wat = o.label;
+        if (o.klus) { st.klus = o.klus; st.klusTekst = o.tekst || cfg.klussen[o.klus].tekst; }
+        else if (st.groep !== "goot") { st.klus = st.groep; st.klusTekst = k.tekst; }
+        else { st.klus = "goot_lek"; st.klusTekst = "Dakgoot (weet nog niet wat)"; }
+        setTimeout(volgende, 120);
+      });
+    });
+    lijst.forEach(function (b) { watBox.appendChild(b); });
+  }
+  if (st.groep) bouwWat();
+
+  function enkel(box, opties, veld) {
+    var lijst = opties.map(function (o) {
+      return knop(o, function (b) { kies(lijst, b); st[veld] = o; setTimeout(volgende, 120); });
+    });
+    lijst.forEach(function (b) { box.appendChild(b); });
+  }
+  enkel($("[data-huis-knoppen]"), cfg.huis, "huis");
+  enkel($("[data-hoogte-knoppen]"), cfg.hoogte, "hoogte");
+
+  // ---------- schermen wisselen ----------
+  function toon(i, eerste) {
+    huidig = i;
+    var naam = i >= stappen.length ? "klaar" : stappen[i];
+    $$("[data-stap]").forEach(function (s) { s.hidden = s.getAttribute("data-stap") !== naam; });
+    $("[data-teller]").textContent = naam === "klaar" ? "Klaar" : "Vraag " + (i + 1) + " van " + stappen.length;
+    $("[data-balk]").style.width = (naam === "klaar" ? 100 : Math.round((i / stappen.length) * 100)) + "%";
+    $("[data-terug]").hidden = i === 0 || naam === "klaar";
+    if (eerste) return; // bij het openen van de pagina niet naar de quiz springen
+    var kop = root.querySelector('[data-stap="' + naam + '"] .qz-vraag');
+    // Op een telefoon de vraag in beeld houden, zonder te springen als hij al zichtbaar is
+    var r = root.getBoundingClientRect();
+    if (r.top < 0 || r.top > window.innerHeight * 0.5) root.scrollIntoView({ block: "start", behavior: "smooth" });
+    if (kop) { kop.setAttribute("tabindex", "-1"); try { kop.focus({ preventScroll: true }); } catch (e) {} }
+  }
+  function volgende() { if (huidig < stappen.length - 1) toon(huidig + 1); }
+  $("[data-terug]").addEventListener("click", function () { if (huidig > 0) toon(huidig - 1); });
+
+  function fout(stap, tekst) {
+    var p = root.querySelector('[data-fout="' + stap + '"]');
+    if (!p) return;
+    p.textContent = tekst || ""; p.hidden = !tekst;
+  }
+
+  // ---------- 1. wat ----------
+  $('[data-verder="wat"]').addEventListener("click", function () {
+    start();
+    var k = cfg.klussen[st.groep] || cfg.klussen.anders;
+    var vrij = String(watVrij.value || "").trim();
+    if (!st.wat && !vrij) { fout("wat", k.opties.length ? "Kies een knop of vertel kort wat er is." : "Vertel kort wat er is."); return; }
+    if (!st.wat && st.groep !== "goot") { st.klus = st.groep; st.klusTekst = k.tekst; }
+    fout("wat", ""); volgende();
+  });
+
+  // ---------- 4. foto's ----------
+  var MAX_FOTOS = 3, MAX_TOTAAL = 4 * 1024 * 1024, MAX_PX = 1600;
+  var fotoBox = $("[data-fotos]");
+  function totaal() { return st.fotos.reduce(function (t, f) { return t + f.b64.length; }, 0); }
+  function tekenFotos() {
+    fotoBox.innerHTML = "";
+    st.fotos.forEach(function (f, i) {
+      var d = document.createElement("div"); d.className = "qz-foto";
+      var img = document.createElement("img"); img.src = "data:" + f.type + ";base64," + f.b64; img.alt = "Foto " + (i + 1);
+      var x = document.createElement("button"); x.type = "button"; x.className = "qz-foto-weg"; x.textContent = "Weg"; x.setAttribute("aria-label", "Foto " + (i + 1) + " weghalen");
+      x.addEventListener("click", function () { st.fotos.splice(i, 1); tekenFotos(); });
+      d.appendChild(img); d.appendChild(x); fotoBox.appendChild(d);
+    });
+    $('[data-verder="foto"]').textContent = st.fotos.length ? "Verder" : "Verder zonder foto";
+  }
+  function verklein(file) {
+    return new Promise(function (ok, nee) {
+      var url = URL.createObjectURL(file);
+      var img = new Image();
+      img.onload = function () {
+        var w = img.naturalWidth, h = img.naturalHeight, f = Math.min(1, MAX_PX / Math.max(w, h));
+        var c = document.createElement("canvas"); c.width = Math.round(w * f); c.height = Math.round(h * f);
+        c.getContext("2d").drawImage(img, 0, 0, c.width, c.height);
+        URL.revokeObjectURL(url);
+        var data = c.toDataURL("image/jpeg", 0.8);
+        ok({ naam: (file.name || "foto").replace(/\.[^.]+$/, "").slice(0, 60) + ".jpg", type: "image/jpeg", b64: data.split(",")[1] || "" });
+      };
+      img.onerror = function () { URL.revokeObjectURL(url); nee(new Error("lezen")); };
+      img.src = url;
+    });
+  }
+  $$("[data-foto-input]").forEach(function (inp) {
+    inp.addEventListener("change", async function () {
+      start();
+      fout("foto", "");
+      var files = Array.prototype.slice.call(inp.files || []);
+      for (var i = 0; i < files.length; i++) {
+        if (st.fotos.length >= MAX_FOTOS) { fout("foto", "Hooguit 3 foto's. Meer foto's kun je later via WhatsApp sturen."); break; }
+        try {
+          var f = await verklein(files[i]);
+          if (totaal() + f.b64.length > MAX_TOTAAL) { fout("foto", "Deze foto is te groot, stuur hem later via WhatsApp."); continue; }
+          st.fotos.push(f);
+        } catch (e) { fout("foto", "Deze foto kan ik niet lezen, stuur hem later via WhatsApp."); }
+      }
+      inp.value = "";
+      tekenFotos();
+    });
+  });
+  $('[data-verder="foto"]').addEventListener("click", function () { fout("foto", ""); volgende(); });
+  $("[data-overslaan]").addEventListener("click", function () { st.fotos = []; tekenFotos(); fout("foto", ""); volgende(); });
+  tekenFotos();
+
+  // ---------- 5. adres ----------
+  var pcVeld = form.elements.namedItem("postcode"), hnVeld = form.elements.namedItem("huisnummer");
+  function postcode() { var v = String(pcVeld.value || "").toUpperCase().replace(/\s+/g, ""); return /^[1-9][0-9]{3}[A-Z]{2}$/.test(v) ? v.slice(0, 4) + " " + v.slice(4) : ""; }
+  $('[data-verder="adres"]').addEventListener("click", function () {
+    var pc = postcode(), hn = String(hnVeld.value || "").trim();
+    if (!pc) { fout("adres", "Vul een postcode in zoals 5211 AB."); pcVeld.focus(); return; }
+    if (!hn || !/\d/.test(hn)) { fout("adres", "Vul je huisnummer in."); hnVeld.focus(); return; }
+    pcVeld.value = pc; fout("adres", ""); volgende();
+  });
+  [pcVeld, hnVeld].forEach(function (v) { v.addEventListener("keydown", function (e) { if (e.key === "Enter") { e.preventDefault(); $('[data-verder="adres"]').click(); } }); });
+
+  // ---------- 6. versturen ----------
+  var naamVeld = form.elements.namedItem("naam"), telVeld = form.elements.namedItem("telefoon"), mailVeld = form.elements.namedItem("email");
+  var herVeld = form.elements.namedItem("herinnering"), honing = form.elements.namedItem("website");
+  var knopVerstuur = $("[data-verstuur]"), waReserve = $("[data-wa-reserve]");
+
+  function velden() {
+    return {
+      v: 1, sid: sid, klus: st.klus || "anders", klus_tekst: st.klusTekst || "Iets anders",
+      wat: [st.wat, String(watVrij.value || "").trim()].filter(Boolean).join(". ").slice(0, 700),
+      huis: st.huis, hoogte: st.hoogte,
+      postcode: postcode() || String(pcVeld.value || "").trim().slice(0, 8), huisnummer: String(hnVeld.value || "").trim().slice(0, 12),
+      naam: String(naamVeld.value || "").trim().slice(0, 60), telefoon: String(telVeld.value || "").trim().slice(0, 20),
+      email: String(mailVeld.value || "").trim().slice(0, 120), herinnering: !!herVeld.checked,
+      fotos: st.fotos.map(function (f) { return { naam: f.naam, type: f.type, b64: f.b64 }; }),
+      bron: bron(), ad: ad(), pagina: location.pathname, website: String(honing.value || ""), status: "compleet",
+    };
+  }
+  function samenvatting(v) {
+    return [
+      "Via de quiz op de website.",
+      "Klus: " + v.klus_tekst,
+      v.wat ? "Wat speelt er: " + v.wat : null,
+      v.huis ? "Huis: " + v.huis : null,
+      v.hoogte ? "Hoogte: " + v.hoogte : null,
+      (v.postcode || v.huisnummer) ? "Adres: " + (v.postcode + " " + v.huisnummer).trim() : null,
+      v.fotos.length ? "Foto's: " + v.fotos.length + " gekozen (niet meegestuurd, vraag ze via WhatsApp)" : "Foto's: geen",
+      "Herinneringsmail: " + (v.herinnering ? "ja" : "nee"),
+    ].filter(Boolean).join("\n");
+  }
+  function reserveVelden(v, status) {
+    return {
+      sid: v.sid, bron: "quiz-" + v.bron, pagina: (v.pagina + (v.ad ? " " + v.ad : "")).slice(0, 120),
+      naam: v.naam, telefoon: v.telefoon, email: v.email, plaats: (v.postcode + " " + v.huisnummer).trim(),
+      service: v.klus_tekst, beschrijving: samenvatting(v), website: v.website, status: status,
+    };
+  }
+  function waBericht(v) {
+    return [
+      "Hallo, ik wil graag weten wat het kost.",
+      "Naam: " + v.naam,
+      "Nummer: " + v.telefoon,
+      v.email ? "E-mail: " + v.email : null,
+      samenvatting(v).replace("Via de quiz op de website.\n", ""),
+    ].filter(Boolean).join("\n");
+  }
+  function veldFout(tekst) {
+    var t = String(tekst || "");
+    if (/postcode|adres|huisnummer/i.test(t)) { toon(stappen.indexOf("adres")); fout("adres", t); return; }
+    fout("contact", t);
+    var veld = /naam/i.test(t) && !/nummer/i.test(t) ? naamVeld : /mail/i.test(t) ? mailVeld : telVeld;
+    try { veld.focus(); } catch (e) {}
+  }
+  async function post(url, body, ms) {
+    var stop = new AbortController();
+    var wekker = setTimeout(function () { stop.abort(); }, ms);
+    try {
+      var res = await fetch(url, { method: "POST", keepalive: body.length < 60000, headers: { "Content-Type": "text/plain;charset=UTF-8" }, body: body, signal: stop.signal });
+      var j = null; try { j = await res.json(); } catch (e) {}
+      return { status: res.status, ok: res.ok, j: j };
+    } catch (e) { return { status: 0, ok: false, j: null }; }
+    finally { clearTimeout(wekker); }
+  }
+  function gelukt(v) {
+    klaar = true;
+    tel("quiz_af"); tel("formulier");
+    var na = $("[data-wa-na]");
+    na.href = "https://wa.me/" + cfg.tel + "?text=" + encodeURIComponent("Hallo, ik heb net de prijsvraag op de website ingevuld (" + v.naam + ", " + (v.postcode + " " + v.huisnummer).trim() + "). Hierbij nog een foto.");
+    toon(stappen.length); // klaar-scherm (telt niet mee in "Vraag x van y")
+  }
+
+  form.addEventListener("submit", async function (e) {
+    e.preventDefault();
+    if (klaar) return;
+    var naam = String(naamVeld.value || "").trim(), cijfers = String(telVeld.value || "").replace(/\D/g, "");
+    var mail = String(mailVeld.value || "").trim();
+    if (!naam) { fout("contact", "Vul je voornaam in."); naamVeld.focus(); return; }
+    if (cijfers.length < 8) { fout("contact", "Vul je 06-nummer in (minstens 8 cijfers)."); telVeld.focus(); return; }
+    if (mail && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(mail)) { fout("contact", "Dit e-mailadres klopt niet helemaal. Laat het leeg of verbeter het."); mailVeld.focus(); return; }
+    fout("contact", "");
+    knopVerstuur.disabled = true; knopVerstuur.textContent = "Versturen…";
+    var v = velden();
+
+    // 1. eigen server (met foto's)
+    var r = await post(cfg.api, JSON.stringify(v), 12000);
+    if (r.ok && r.j && r.j.ok === true) { gelukt(v); return; }
+    if (r.status === 400) {
+      knopVerstuur.disabled = false; knopVerstuur.textContent = "Verstuur, ik hoor wat het kost";
+      veldFout((r.j && (r.j.fout || r.j.error)) || "Er klopt iets niet. Kijk je gegevens even na.");
+      return;
+    }
+    // 2. reserve: het oude aanvraagsysteem (zonder foto's)
+    var r2 = await post(cfg.reserve, JSON.stringify(reserveVelden(v, "compleet")), 10000);
+    if (r2.ok) { gelukt(v); return; }
+    if (r2.status === 400 && r2.j && r2.j.error) {
+      knopVerstuur.disabled = false; knopVerstuur.textContent = "Verstuur, ik hoor wat het kost";
+      veldFout(String(r2.j.error));
+      return;
+    }
+    // 3. laatste redmiddel: de klant stuurt het zelf via WhatsApp
+    knopVerstuur.disabled = false; knopVerstuur.textContent = "Nog een keer proberen";
+    fout("contact", "Het versturen lukte net niet. Tik op de groene knop, dan gaat je aanvraag via WhatsApp. Foto's kun je daar meteen bijdoen.");
+    waReserve.href = "https://wa.me/" + cfg.tel + "?text=" + encodeURIComponent(waBericht(v));
+    waReserve.hidden = false;
+  });
+
+  // Halverwege gestopt met een bruikbaar nummer: binnen als "onafgemaakt", zodat er teruggebeld kan worden.
+  window.addEventListener("pagehide", function () {
+    if (klaar) return;
+    var v = velden();
+    if (String(v.telefoon).replace(/\D/g, "").length < 8 && v.email.indexOf("@") === -1) return;
+    try {
+      navigator.sendBeacon(cfg.reserve, new Blob([JSON.stringify(reserveVelden(v, "onafgemaakt"))], { type: "text/plain;charset=UTF-8" }));
+      klaar = true;
+    } catch (e) {}
+  });
+
+  toon(0, true);
+})();
+</script>
+
+<style is:global>
+  .qz { background: #fff; color: var(--ink); border: 1px solid var(--line-cool); border-top: 5px solid var(--orange); border-radius: var(--radius); box-shadow: var(--shadow); padding: 18px 18px 20px; max-width: 560px; scroll-margin-top: 80px; }
+  .qz-kop { display: flex; justify-content: space-between; align-items: center; min-height: 30px; gap: 10px; }
+  .qz-teller { font-family: var(--font-display); font-weight: 800; color: var(--navy); font-size: .92rem; margin-left: auto; }
+  .qz-terug { background: none; border: 0; color: var(--navy-700); font: inherit; font-weight: 700; padding: 6px 4px; cursor: pointer; }
+  .qz-balk { height: 8px; background: #edf1f5; border-radius: 99px; overflow: hidden; margin: 6px 0 16px; }
+  .qz-balk span { display: block; height: 100%; width: 0; background: var(--orange); border-radius: 99px; transition: width .25s ease; }
+  .qz-vraag { font-size: 1.45rem; margin: 0 0 14px; color: var(--navy); outline: none; }
+  .qz-klaar .qz-vraag { font-size: 1.25rem; line-height: 1.3; }
+  .qz-uitleg { color: var(--muted); margin: -6px 0 14px; font-size: 1rem; }
+  .qz-knoppen { display: grid; gap: 10px; }
+  .qz-knoppen[hidden] { display: none; }
+  .qz-knoppen--2 { grid-template-columns: 1fr 1fr; }
+  .qz-keuze { font: inherit; font-family: var(--font-display); font-weight: 700; font-size: 1.05rem; text-align: left; color: var(--navy); background: #f7f9fb; border: 2px solid var(--line-cool); border-radius: 10px; padding: 15px 16px; min-height: 56px; cursor: pointer; line-height: 1.25; }
+  .qz-keuze:hover { border-color: var(--orange); }
+  .qz-keuze.is-gekozen { border-color: var(--orange); background: #fff4ea; }
+  .qz-veld { display: grid; gap: 6px; font-weight: 700; color: var(--navy); margin-top: 14px; }
+  .qz-veld input, .qz-veld textarea { font: inherit; font-weight: 400; padding: 13px 14px; border: 1px solid var(--line-cool); border-radius: 8px; width: 100%; background: #fff; font-size: 1.05rem; }
+  .qz-veld textarea { resize: vertical; min-height: 84px; }
+  .qz-rij { display: grid; grid-template-columns: 1.4fr 1fr; gap: 12px; }
+  .qz-rij .qz-veld { margin-top: 0; }
+  .qz-vink { display: flex; gap: 10px; align-items: flex-start; margin-top: 14px; font-size: .98rem; color: var(--ink); cursor: pointer; }
+  .qz-vink input { width: 22px; height: 22px; margin-top: 1px; flex: 0 0 auto; accent-color: var(--orange); }
+  .qz-verder { width: 100%; justify-content: center; margin-top: 16px; font-size: 1.12rem; text-align: center; }
+  .qz-verder[hidden] { display: none; }
+  .qz-verstuur:disabled { opacity: .7; cursor: wait; }
+  .qz-overslaan { display: block; width: 100%; margin-top: 10px; background: none; border: 0; font: inherit; font-weight: 700; color: var(--navy-700); text-decoration: underline; padding: 10px; cursor: pointer; }
+  .qz-fotoknoppen { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+  .qz-fotoknop { justify-content: center; text-align: center; padding: 14px 10px; font-size: 1rem; cursor: pointer; }
+  .qz-fotos { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 12px; }
+  .qz-foto { position: relative; width: 92px; height: 92px; border-radius: 8px; overflow: hidden; border: 1px solid var(--line-cool); }
+  .qz-foto img { width: 100%; height: 100%; object-fit: cover; }
+  .qz-foto-weg { position: absolute; right: 4px; top: 4px; background: rgba(15,39,66,.85); color: #fff; border: 0; border-radius: 6px; font: inherit; font-size: .78rem; font-weight: 700; padding: 3px 7px; cursor: pointer; }
+  .qz-fout { background: #fff4e5; border: 1px solid #f3c58a; color: #7a4100; border-radius: 8px; padding: 10px 12px; margin: 12px 0 0; font-size: .97rem; }
+  .qz-fout[hidden] { display: none; }
+  .qz-privacy { font-size: .88rem; color: var(--muted); margin: 14px 0 0; }
+  .qz-stap[hidden] { display: none; }
+  @media (max-width: 400px) {
+    .qz { padding: 14px 12px 16px; }
+    .qz-vraag { font-size: 1.3rem; }
+    .qz-keuze { font-size: 1rem; padding: 13px 12px; }
+    .qz-knoppen--2 { grid-template-columns: 1fr 1fr; gap: 8px; }
+    .qz-rij { grid-template-columns: 1fr 1fr; }
+  }
+</style>

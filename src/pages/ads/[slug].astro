@@ -1,11 +1,13 @@
 ---
 /**
  * Landingspagina's voor betaalde advertenties: /ads/daklekkage/, /ads/dakgoot/, /ads/dakpannen/, /ads/nokvorsten/,
- * /ads/schoorsteen/, /ads/dak-apk/. Teksten en volgorde staan in src/data/ads.ts (één klus per pagina).
+ * /ads/goot-solderen/, /ads/schoorsteen/, /ads/dak-apk/. Teksten en volgorde staan in src/data/ads.ts (één klus per pagina).
+ * 29-10-2026: bovenaan staat de quiz (src/components/Quiz.astro) met de klus al ingevuld, in plaats van het oude formulier.
  * Noindex, niet in de sitemap (astro.config.mjs), niet in het menu. Meting in src/layouts/Ads.astro.
  */
 import Ads from "../../layouts/Ads.astro";
-import AdsFormulier from "../../components/AdsFormulier.astro";
+import Quiz from "../../components/Quiz.astro";
+import { QUIZ_ZIN } from "../../data/quiz.ts";
 import EchteFotos from "../../components/EchteFotos.astro";
 import { SITE, telHref, waHref } from "../../site.config.ts";
 import { AD_PAGINAS, AD_REVIEWS } from "../../data/ads.ts";
@@ -17,8 +19,8 @@ export function getStaticPaths() {
 const { p } = Astro.props;
 const score = String(SITE.reviews.score).replace(".", ",");
 const stappen = [
-  { n: "1", titel: "Vertel kort wat er is", tekst: "Vul het formulier in of stuur een foto via WhatsApp. Een foto vanaf de straat is genoeg." },
-  { n: "2", titel: "Je hoort wat het kost", tekst: "Ik neem contact met je op. Binnen 24 uur heb je een vrijblijvende prijsindicatie, vaak dezelfde dag nog. Je zit nergens aan vast." },
+  { n: "1", titel: "Beantwoord 5 korte vragen", tekst: "Bovenaan deze pagina. Met een foto erbij, als je wilt. Een foto vanaf de straat is genoeg." },
+  { n: "2", titel: "Je hoort wat het kost", tekst: "Meestal staat je prijsindicatie binnen 10 minuten op WhatsApp. Is het wat lastiger, dan kijken we er persoonlijk naar en hoor je binnen 24 uur van ons. Je zit nergens aan vast." },
   { n: "3", titel: "We komen het maken", tekst: "We spreken een dag af. Ik of een collega doet het werk, ik blijf je aanspreekpunt. Kleine klus? Dan betaal je als het klaar is, via iDEAL." },
 ];
 ---
@@ -34,25 +36,20 @@ const stappen = [
     <div class="wrap">
       <span class="kicker">{p.kicker}</span>
       <h1>{p.kop}</h1>
-      <p class="lead">{p.sub}</p>
-      <div class="ads-knoppen">
-        <a class="btn btn--wa" href={waHref(p.waBericht)}>{p.waKnop}</a>
-        <a class="btn btn--primary" href={telHref}>Bel {SITE.telefoonWeergave}</a>
-      </div>
+      <p class="lead">{QUIZ_ZIN}</p>
+      <Quiz klus={p.quizKlus} />
+      <p style="margin:16px 0 0; color:#c2d2e3; font-size:.98rem;">Liever zelf een foto sturen of bellen? <a href={waHref(p.waBericht)} style="color:#ffb486; font-weight:700;">{p.waKnop}</a> of bel <a href={telHref} style="color:#ffb486; font-weight:700;">{SITE.telefoonWeergave}</a>.</p>
       <div class="hero-checks">
         {p.vinkjes.map((v) => <span><span class="v">✓</span> {v}</span>)}
       </div>
-      <p style="margin:18px 0 0; color:#c2d2e3; font-size:.98rem;">Liever niet bellen? <a href="#aanvragen" style="color:#ffb486; font-weight:700;">Vul het korte formulier in</a>, dan neem ik contact met je op.</p>
     </div>
   </section>
 
-  <!-- FORMULIER -->
+  <!-- WAT IK DOE -->
   <section class="section section--white" style="padding-top:44px; padding-bottom:44px;">
-    <div class="wrap split">
-      <div>
-        <AdsFormulier service={p.service} voorbeeld={p.voorbeeld} />
-      </div>
-      <aside>
+    <div class="wrap">
+      <p class="lead" style="max-width:760px;">{p.sub}</p>
+      <div class="ads-doe">
         <div class="card">
           <h3>{p.doeKop}</h3>
           <ul class="checks" style="margin-top:10px; margin-bottom:0;">
@@ -67,7 +64,7 @@ const stappen = [
             <p>Geen callcenter. Ik plan je klus, de prijs staat vooraf vast en je houdt één aanspreekpunt, ook als een collega het werk doet. <a href={SITE.werkspotUrl} target="_blank" rel="noopener">{score} op Werkspot</a>.</p>
           </div>
         </div>
-      </aside>
+      </div>
     </div>
   </section>
 
@@ -86,8 +83,8 @@ const stappen = [
         ))}
       </div>
       <div class="ads-knoppen" style="margin-top:26px;">
+        <a class="btn btn--primary" href="#quiz">Naar de 5 vragen</a>
         <a class="btn btn--wa" href={waHref(p.waBericht)}>{p.waKnop}</a>
-        <a class="btn btn--primary" href={telHref}>Bel {SITE.telefoonWeergave}</a>
       </div>
     </div>
   </section>
@@ -139,8 +136,8 @@ const stappen = [
         ))}
       </div>
       <div class="ads-knoppen" style="margin-top:26px;">
+        <a class="btn btn--primary" href="#quiz">Naar de 5 vragen</a>
         <a class="btn btn--wa" href={waHref(p.waBericht)}>{p.waKnop}</a>
-        <a class="btn btn--primary" href={telHref}>Bel {SITE.telefoonWeergave}</a>
       </div>
     </div>
   </section>

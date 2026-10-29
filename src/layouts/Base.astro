@@ -4,6 +4,7 @@ import { SITE, NAV, telHref, waHref } from "../site.config.ts";
 import { PLAATSEN } from "../data/plaatsen.ts";
 import { PRIJZEN } from "../data/prijzen.ts";
 import { DIENSTEN } from "../data/diensten.ts";
+import Meting from "../components/Meting.astro";
 
 interface Props {
   title: string;
@@ -19,7 +20,10 @@ const canonical = new URL(path === "/" ? "/" : (path.endsWith("/") ? path : path
 const huidigPad = path === "/" ? "/" : (path.endsWith("/") ? path : path + "/");
 // Menulinks met slash op het eind, zodat elke klik direct op de eind-URL landt (geen doorverwijzing).
 const navItems = NAV.map((item) => ({ label: item.label, href: item.href.endsWith("/") ? item.href : item.href + "/" }));
-const apkPrijs = PRIJZEN.find((r) => r.dienst.startsWith("Dak-APK"))?.prijs ?? "";
+const apkPrijs = PRIJZEN.find((r) => r.sleutel === "apk")?.prijs ?? "";
+// De quiz (/quiz/): daar geen vaste quiz-knop onderaan (je staat er al), wel meting van bezoek en kliks.
+const opQuiz = huidigPad.startsWith("/quiz/");
+const QUIZ_KNOP = "Gratis prijs, meestal binnen 10 minuten";
 
 const businessSchema: Record<string, unknown> = {
   "@context": "https://schema.org",
@@ -93,6 +97,8 @@ const schemas = [businessSchema, websiteSchema, ...(breadcrumbSchema ? [breadcru
     <meta name="google-site-verification" content="LC_t_SS_7UWDG15xt4AnSV3-0q_Duk3zyV3tbov5j-8" />
     <!-- Bezoekersteller (eigen, zonder cookies en zonder IP-adres): spoeddak-teller op Cloudflare, gelezen door de SEO-routine -->
     <script is:inline>try{navigator.sendBeacon("https://spoeddak-teller.heugten-ecommerce.workers.dev/t",JSON.stringify({p:location.pathname,r:document.referrer}))}catch(e){}</script>
+    <!-- Meting voor advertenties en de quiz (zelfde teller, route /e). Op de hele site bestaat window.spoeddakTel; tellen gebeurt alleen op /quiz/. -->
+    <Meting bezoek={opQuiz} kliks={opQuiz} />
 
     <!-- Google Ads conversiemeting (AW-18338222053) — telt klik op bellen / WhatsApp / e-mail -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18338222053" is:inline></script>
@@ -157,7 +163,7 @@ const schemas = [businessSchema, websiteSchema, ...(breadcrumbSchema ? [breadcru
               <a href={item.href} aria-current={huidigPad.startsWith(item.href) ? "page" : undefined}>{item.label}</a>
             ))}
           </div>
-          <a class="btn btn--primary" href={telHref}>Bel {SITE.telefoonWeergave}</a>
+          <a class="btn btn--primary nav-quiz" href="/quiz/">{QUIZ_KNOP}</a>
         </nav>
         <details class="m-menu">
           <summary aria-label="Menu openen">
@@ -165,6 +171,7 @@ const schemas = [businessSchema, websiteSchema, ...(breadcrumbSchema ? [breadcru
             <span style="font-family:var(--font-display);font-weight:800;color:var(--navy);font-size:.9rem;margin-left:4px;">Menu</span>
           </summary>
           <div class="m-menu-panel">
+            <a class="btn btn--primary" href="/quiz/" style="margin-top:4px;">{QUIZ_KNOP}</a>
             {navItems.map((item) => <a href={item.href}>{item.label}</a>)}
             <a class="btn btn--primary" href={telHref}>Bel {SITE.telefoonWeergave}</a>
             <a class="btn btn--wa" href={waHref()}>WhatsApp Rens</a>
@@ -219,6 +226,7 @@ const schemas = [businessSchema, websiteSchema, ...(breadcrumbSchema ? [breadcru
           <p class="lead" style="margin: 0 auto 24px; color:#c2d2e3;"><strong>Lekt het nu?</strong> Op de <a href="/spoed/" style="color:#ffb486;">spoedpagina</a> lees je wat je meteen zelf kunt doen.</p>
         )}
         <div class="btn-row" style="justify-content:center;">
+          {!opQuiz && <a class="btn btn--primary" href="/quiz/">{QUIZ_KNOP}</a>}
           <a class="btn btn--wa" href={waHref()}>WhatsApp Rens</a>
           <a class="btn btn--primary" href={telHref}>Bel {SITE.telefoonWeergave}</a>
           <a class="btn btn--ghost" href="/dak-apk/">Bekijk de Dak-APK: {apkPrijs}</a>
@@ -246,9 +254,10 @@ const schemas = [businessSchema, websiteSchema, ...(breadcrumbSchema ? [breadcru
               <li><a href="/diensten/dakpannen-vervangen/">Dakpannen vervangen</a></li>
               <li><a href="/diensten/platte-daken/">Platte daken (EPDM)</a></li>
               <li><a href="/diensten/dakgoot-vervangen/">Dakgoot repareren of vervangen</a></li>
-              <li><a href="/diensten/schoorsteen-vegen/">Schoorsteen vegen</a></li>
+              <li><a href="/diensten/regenpijp-vervangen/">Regenpijp vervangen</a></li>
+              <li><a href="/diensten/nokvorsten-vervangen/">Nokvorsten repareren of vervangen</a></li>
+              <li><a href="/diensten/lood-vervangen/">Lood vervangen</a></li>
               <li><a href="/diensten/stormschade/">Stormschade</a></li>
-              <li><a href="/diensten/dakisolatie/">Dakisolatie</a></li>
               <li><a href="/diensten/">Alle diensten →</a></li>
             </ul>
           </div>
@@ -277,6 +286,7 @@ const schemas = [businessSchema, websiteSchema, ...(breadcrumbSchema ? [breadcru
               <li><a href={waHref()}>WhatsApp</a></li>
               <li><a href={`mailto:${SITE.email}`}>{SITE.email}</a></li>
               <li><a href="/werkgebied/">Werkgebied</a></li>
+              <li><a href="/quiz/">Gratis prijs aanvragen</a></li>
               <li><a href="/prijzen/">Prijzen</a></li>
               <li><a href="/kennisbank/wat-kost-dakgoot-schoonmaken/">Wat kost dakgoot schoonmaken?</a></li>
               <li><a href="/kennisbank/wat-kost-een-dakdekker/">Wat kost een dakreparatie?</a></li>
@@ -293,9 +303,16 @@ const schemas = [businessSchema, websiteSchema, ...(breadcrumbSchema ? [breadcru
       </div>
     </footer>
 
-    <div class="sticky-cta">
-      <a class="btn btn--wa" href={waHref()} aria-label="WhatsApp Rens">WhatsApp</a>
-      <a class="btn btn--primary" href={telHref} aria-label={`Bel ${SITE.telefoonWeergave}`}>Bellen</a>
-    </div>
+    {opQuiz ? (
+      <div class="sticky-cta">
+        <a class="btn btn--wa" href={waHref()} aria-label="WhatsApp Rens">WhatsApp</a>
+        <a class="btn btn--primary" href={telHref} aria-label={`Bel ${SITE.telefoonWeergave}`}>Bellen</a>
+      </div>
+    ) : (
+      <div class="sticky-cta sticky-cta--quiz">
+        <a class="btn btn--primary sticky-quiz" href="/quiz/">{QUIZ_KNOP}</a>
+        <a class="btn btn--wa sticky-wa" href={waHref()} aria-label="WhatsApp Rens">WhatsApp</a>
+      </div>
+    )}
   </body>
 </html>
