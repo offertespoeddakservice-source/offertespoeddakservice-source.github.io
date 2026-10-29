@@ -457,6 +457,40 @@ export const ARTIKELEN: Artikel[] = [
     ],
   },
   {
+    slug: "lekkage-bij-dakdoorvoer",
+    datum: "2026-10-29",
+    titel: "Lekt het langs een pijp door je dak?",
+    h1: "Lekkage bij een ontluchtingspijp of dakdoorvoer: waar het zit en wat je doet",
+    metaTitle: "Lekkage bij ontluchtingspijp of doorvoer | Spoed Dak Service",
+    metaDescription:
+      "Druppelt het langs een pijp die door je dak gaat? Vaak zit het lek in de kraag of de doorvoerpan rond de pijp, of is het condens. Zo zie je het verschil.",
+    intro:
+      "Op bijna elk dak steekt wel een pijp naar buiten: de ontluchting van het riool, de afvoer van de cv-ketel of de afzuiging van de badkamer. Rond zo'n pijp moet het dak netjes dicht aansluiten. Druppelt het op zolder langs de pijp, dan zit het lek meestal in die aansluiting en niet in de pijp zelf. Soms is het helemaal geen lek, maar condens. Hieronder lees je hoe je het verschil ziet en wat eraan te doen is.",
+    secties: [
+      { kop: "Lekt het nu? Eerst dit", tekst: ['Zet een emmer onder de druppel en maak een foto van de pijp en de natte plek eromheen. Ga niet zelf het dak op. Wat je verder meteen kunt doen, staat op de <a href="/spoed/">spoedpagina</a>.'] },
+      { kop: "Welke pijpen gaan er door je dak?", tekst: ["De ontluchtingspijp van het riool zie je op bijna elk huis: een grijze of zwarte pijp die een stukje boven de pannen uitsteekt. Daarnaast heb je vaak de afvoer van de cv-ketel, meestal een dikkere pijp met een kap erop, en soms de afzuiging van de badkamer of de ventilatie. Liggen er zonnepanelen op je dak, dan gaat ook de kabel ergens door het dak naar binnen."] },
+      { kop: "Waar het meestal lekt", tekst: [
+        "Op een pannendak gaat de pijp door een speciale pan: de doorvoerpan. Rond de pijp zit een rubberen of kunststof kraag, of een stuk lood. Na jaren in de zon droogt dat rubber uit en scheurt het, of het zakt een stukje omlaag langs de pijp. Dan loopt het water bij een bui langs de pijp naar binnen.",
+        "Ook de doorvoerpan zelf kan gebarsten of verschoven zijn, bijvoorbeeld na een storm of als er iemand op het dak heeft gestaan. En soms heeft iemand de kier rond de pijp ooit met kit dichtgesmeerd. Dat houdt een paar jaar, en daarna laat de kit los.",
+        'Op een plat dak zit rond de pijp een manchet die in de dakbedekking is opgenomen. Laat die aansluiting los of scheurt de dakbedekking rond de pijp, dan komt het water erachter. Blijft er water rond de pijp staan, lees dan ook <a href="/kennisbank/water-blijft-staan-op-plat-dak/">water blijft staan op je platte dak</a>.',
+      ] },
+      { kop: "Lek of condens in de pijp?", tekst: [
+        "Een ontluchtingspijp of afzuigpijp die door een koude zolder loopt, wordt zelf ook koud. Warme, vochtige lucht slaat daar tegen neer, en die druppels lopen langs de pijp naar beneden. Dat lijkt op een lek, maar het komt van binnen.",
+        'Het verschil: condens zie je ook op droge, koude dagen, vaak verspreid over de hele pijp. Een lek komt bij of vlak na regen, en de natte plek begint bovenaan, waar de pijp door het dak gaat. Meer over het verschil lees je in <a href="/kennisbank/condens-of-lekkage-op-zolder/">condens of lekkage op zolder</a>.',
+      ] },
+      { kop: "Bij de afvoer van je cv-ketel", tekst: ["Druppelt het bij de afvoer van je cv-ketel, dan kan het ook uit de pijp zelf komen. Een ketel maakt bij het stoken waterdamp, en dat water hoort via de ketel weg te lopen. Lekt het binnen uit een verbinding van de pijp, dan is dat werk voor je installateur. De aansluiting van die pijp op het dak, de doorvoerpan en de kraag eromheen, maak ik wel weer dicht."] },
+      { kop: "Hoe ik het aanpak", tekst: ['Ik kijk eerst of het water van buiten komt of van binnen. Is de kraag uitgedroogd of de doorvoerpan gebarsten, dan vervang ik die door een passende. Zit er lood rond de pijp, dan zet ik dat weer goed om de pijp en over de pannen. Op een plat dak maak ik de aansluiting rond de pijp opnieuw dicht. Alleen een rand kit erom vind ik geen goede oplossing, want die laat na een paar jaar weer los. Zie <a href="/diensten/dakreparatie/">dakreparatie</a>.'] },
+      { kop: "Wat kost het?", tekst: ['Een nieuwe kraag of doorvoerpan is meestal een overzichtelijke klus. Is het water al een tijd langs de pijp naar binnen gelopen en zijn het hout of de isolatie eromheen nat, dan is het meer werk. Je hoort vooraf de vaste prijs, voordat ik begin. Richtprijzen staan op de <a href="/prijzen/">prijzenpagina</a>.'] },
+    ],
+    dienst: { label: "Bekijk: dakreparatie (pannen, lood en nok)", href: "/diensten/dakreparatie/" },
+    faq: [
+      { v: "Waarom lekt het langs mijn ontluchtingspijp?", a: "Meestal zit het in de kraag rond de pijp. Rubber droogt na jaren in de zon uit en scheurt, of de kraag zakt omlaag. Ook een gebarsten doorvoerpan of oude kit kan de oorzaak zijn. En soms is het condens in de pijp en geen lek." },
+      { v: "Hoe weet ik of het condens is of een lek?", a: "Kijk wanneer het nat wordt. Ook op droge, koude dagen en verspreid over de pijp wijst op condens. Alleen bij of na regen, en vooral bovenaan bij het dak, wijst op een lek. Twijfel je, stuur dan een foto via WhatsApp." },
+      { v: "Kan ik de kier rond de pijp zelf dichtmaken?", a: "Met kit houd je het vaak maar kort droog. Zon en vorst laten het na een paar jaar loslaten, en dan lekt het op dezelfde plek. En op het dak werken is niet zonder risico. Laat liever kijken of de kraag of de doorvoerpan vervangen moet worden." },
+      { v: "De afvoer van mijn cv-ketel lekt, bel ik jou of de installateur?", a: "Lekt het binnen uit een verbinding van de pijp, dan is dat werk voor de installateur. Komt het water van buiten langs de pijp naar binnen, waar die door het dak gaat, dan kijk ik ernaar. Stuur een foto, dan zeg ik eerlijk wie je het beste kunt bellen." },
+    ],
+  },
+  {
     slug: "dakpannen-coaten-of-vervangen",
     verborgen: true,
     titel: "Coaten of vervangen?",
