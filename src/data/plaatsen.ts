@@ -165,6 +165,10 @@ export const PLAATSEN: Plaats[] = [
     reistijd: "een paar minuten vanaf mijn thuisbasis",
     extra:
       "Bij Den Bosch horen ook Engelen en Bokhoven, de oude dorpjes aan de Maas, en sinds 2015 ook Nuland en Vinkel. In Engelen en Bokhoven staan veel lage dijkhuizen en oude boerderijen. De goot hangt daar laag en vaak onder de bomen langs de dijk, dus die zit in de herfst snel vol. In Nuland en Vinkel staan veel gezinswoningen en twee-onder-een-kappers, en op steeds meer daken liggen zonnepanelen. Lekt het bij jou sinds de panelen erop liggen, dan kijk ik eerst bij de plek waar de kabel door het dak naar binnen gaat.",
+    faq: [
+      { v: "Werk je ook aan daken in de binnenstad van Den Bosch?", a: "Ja. In de binnenstad staan veel monumenten, en de binnenstad is beschermd stadsgezicht. Daar kun je niet zomaar een andere pan of ander materiaal gebruiken. Ik kijk eerst wat er nu ligt en herstel met materiaal dat erbij past. Twijfel je of je pand een monument is, vraag het dan na bij de gemeente." },
+      { v: "Kom je ook in Engelen, Bokhoven, Nuland en Vinkel?", a: "Ja. Engelen en Bokhoven liggen aan de Maas, Nuland en Vinkel aan de oostkant, en ze horen allemaal bij de gemeente Den Bosch. Ik kom er voor dezelfde klussen als in de stad zelf, en bij lekkage vaak nog dezelfde dag." },
+    ],
   },
   {
     slug: "veghel",
