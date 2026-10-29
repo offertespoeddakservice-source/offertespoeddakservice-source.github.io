@@ -466,14 +466,14 @@ export const DIENSTEN: Dienst[] = [
     kort: "Zolder of schuin dak isoleren: direct minder stookkosten, vaak met subsidie.",
     metaTitle: "Dakisolatie Den Bosch en subsidie-advies | Spoed Dak Service",
     metaDescription:
-      "Dak of zolder laten isoleren in de regio Den Bosch? Direct minder stookkosten en meer comfort, vaak met ISDE-subsidie. Vaste prijs vooraf. Bel of WhatsApp Rens.",
+      "Dak of zolder laten isoleren in de regio Den Bosch? Vaak minder stookkosten en meer comfort, en soms ISDE-subsidie. Vaste prijs vooraf. Bel of WhatsApp Rens.",
     icoon: "🧊",
     afbeelding: "/img/dakrenovatie.jpg",
     intro:
-      "Via een slecht geïsoleerd dak verdwijnt een flink deel van je stookwarmte, en dat is zo'n beetje de duurste warmte die je hebt. Isoleren merk je meteen: minder stoken in de winter, een koelere zolder in de zomer. Ik kom kijken wat bij jouw dak past, het schuine dak aan de binnenkant of de zoldervloer, en je krijgt een vaste prijs vooraf. Als huiseigenaar krijg je er vaak ISDE-subsidie op.",
+      "Via een slecht geïsoleerd dak verdwijnt een flink deel van je stookwarmte, en dat is zo'n beetje de duurste warmte die je hebt. Isoleren merk je meestal snel: minder stoken in de winter, een koelere zolder in de zomer. Ik kom kijken wat bij jouw dak past, het schuine dak aan de binnenkant of de zoldervloer, en je krijgt een vaste prijs vooraf. Als huiseigenaar krijg je er vaak ISDE-subsidie op.",
     punten: [
       "Schuin dak aan de binnenkant of zoldervloer isoleren",
-      "Direct merkbaar: lagere stookkosten, meer comfort",
+      "Vaak goed merkbaar: lagere stookkosten, meer comfort",
       "Eerst check of je dak droog en gezond is: isoleren op een lek dak maakt het erger",
       "Eerlijk advies over ISDE-subsidie: wat kan er in jouw geval",
     ],
