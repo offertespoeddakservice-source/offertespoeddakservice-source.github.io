@@ -1232,6 +1232,48 @@ export const ARTIKELEN: Artikel[] = [
       { v: "Moet het hele dak opnieuw als er water blijft staan?", a: "Meestal niet. Vaak is het een dichte afvoer. Ligt het aan een kuil of te weinig afschot, dan kijk ik eerst of een gerichte reparatie genoeg is. Je hoort eerlijk wat nodig is." },
     ],
   },
+  {
+    slug: "lekkage-bij-aanbouw",
+    datum: "2026-10-29",
+    titel: "Lekt je aanbouw bij de muur?",
+    h1: "Lekkage bij de aanbouw: waar het platte dak tegen je huis zit",
+    metaTitle: "Aanbouw lekt bij de muur: oorzaken | Spoed Dak Service",
+    metaDescription:
+      "Een natte plek in je aanbouw, vlak langs de muur van het huis? Vaak zit het in de aansluiting van het dak op de gevel, of komt het water door de muur erboven.",
+    intro:
+      "Een aanbouw of uitbouw achter het huis heeft meestal een plat dak dat tegen de gevel van het huis aan ligt. Precies op die naad gaat het vaak mis. Je ziet het als een natte streep of vlekken op het plafond van de aanbouw, vlak langs de muur van het huis. Hieronder lees je waar het water meestal binnenkomt en wat eraan te doen is.",
+    secties: [
+      { kop: "Lekt het nu? Eerst dit", tekst: [
+        'Zet een emmer neer, haal spullen weg bij de natte muur en maak een foto van de plek. Ga niet zelf het platte dak op als het nat of glad is. Wat je verder meteen kunt doen, staat op de <a href="/spoed/">spoedpagina</a>.',
+      ] },
+      { kop: "Hoe de aansluiting op de muur in elkaar zit", tekst: [
+        "Langs de muur loopt de dakbedekking van de aanbouw een stukje omhoog, tegen de gevel aan. Daaroverheen zit meestal een strook lood of zink die met de bovenrand in de muur vastzit. Die strook zorgt dat het water dat langs de gevel naar beneden loopt, over de dakbedekking heen het dak op gaat en niet erachter.",
+      ] },
+      { kop: "Waar het meestal lekt", tekst: [
+        "Het lood of zink is losgekomen uit de muur. Dan staat er een kier tussen de strook en de gevel, en loopt het water bij elke bui achter de strook langs naar binnen.",
+        "De dakbedekking onder het lood is losgeraakt of gescheurd, vaak in een hoek. Juist op die plek werkt het dak bij warmte en kou het meest.",
+        'Er blijft water staan tegen de gevel, omdat het dak niet goed afloopt of de afvoer vol zit. Dan staat de aansluiting steeds onder water. Zie <a href="/kennisbank/water-blijft-staan-op-plat-dak/">water blijft staan op je platte dak</a>.',
+      ] },
+      { kop: "Of komt het door de muur erboven?", tekst: [
+        "Soms is het dak helemaal dicht en komt het water door de gevel van het huis. Een buitenmuur neemt bij een flinke bui met wind water op. Dat zakt binnen in de muur naar beneden en komt eruit op de plek waar het dak van de aanbouw tegen de muur zit. Je herkent het doordat het vooral lekt als de regen tegen die gevel aan slaat, en soms pas een dag later. Zit het in de muur zelf, in de voegen of de stenen, dan zeg ik dat eerlijk: daarvoor heb je een metselaar nodig.",
+      ] },
+      { kop: "Wat je zelf beter niet doet", tekst: [
+        "Kit tussen het lood en de muur lijkt een snelle oplossing, maar lost het zelden op. Zit het lek in de dakbedekking onder het lood of in de muur erboven, dan kit je de verkeerde plek dicht. Maak liever een foto van de natte plek binnen en van de muur boven de aanbouw, en stuur die via WhatsApp.",
+      ] },
+      { kop: "Hoe ik het aanpak", tekst: [
+        'Ik kijk eerst of het water door het dak komt of door de muur. Is het lood of zink losgekomen, dan zet ik het weer goed vast, of ik vervang de strook. Is de dakbedekking langs de muur los of gescheurd, dan maak ik die aansluiting opnieuw dicht. Zie <a href="/diensten/platte-daken/">platte daken</a>.',
+      ] },
+      { kop: "Wat kost het?", tekst: [
+        'Een losse strook lood weer vastzetten is meestal een overzichtelijke klus. Moet de aansluiting over de hele breedte opnieuw, dan is het meer werk. Je hoort vooraf de vaste prijs, voordat ik begin. Of je verzekering meebetaalt, lees je in <a href="/kennisbank/daklekkage-verzekering/">daklekkage en je verzekering</a>.',
+      ] },
+    ],
+    dienst: { label: "Bekijk: platte daken (EPDM)", href: "/diensten/platte-daken/" },
+    faq: [
+      { v: "Waarom lekt mijn aanbouw alleen langs de muur?", a: "Omdat daar de naad zit tussen het platte dak en de gevel van het huis. Laat het lood of de dakbedekking daar los, dan komt het water precies langs de muur naar binnen. Het kan ook water zijn dat door de gevel erboven naar beneden zakt." },
+      { v: "Hoe zie ik of het van het dak of van de muur komt?", a: "Lekt het bij elke flinke bui, ook zonder veel wind, dan zit het meestal in het dak of de aansluiting. Lekt het vooral als de regen tegen die gevel aan slaat, en soms pas een dag later, dan komt het water vaker door de muur. Stuur een foto, dan kijk ik mee." },
+      { v: "Is het erg als het maar een klein beetje lekt?", a: "Een beetje water langs de muur lijkt weinig, maar het trekt in het plafond en het hout van de aanbouw. Na een tijd zie je schimmel of loslatende verf. Laat het daarom nakijken, ook als het maar af en toe druppelt." },
+    ],
+  },
 ];
 
 export const getArtikel = (slug: string) => ARTIKELEN.find((a) => a.slug === slug);
