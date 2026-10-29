@@ -1022,6 +1022,7 @@ export const ARTIKELEN: Artikel[] = [
       { v: "Mag ik zelf met een hogedrukreiniger mijn dak schoonmaken?", a: "Liever niet op oudere of poreuze pannen, je haalt er de toplaag af en beschadigt ze. Op hoogte werken is bovendien niet zonder risico. Ik doe het veilig en op de juiste druk." },
       { v: "Komt het mos terug?", a: "Op den duur wel, zeker aan de noordkant en onder bomen. Laat het niet te dik worden: af en toe reinigen en elk najaar de goten leeg houdt het meestal goed in de hand." },
       { v: "Wanneer laat je mos het beste weghalen?", a: "Het liefst op een droge dag in het voorjaar of in het begin van de herfst. Op een nat of bevroren dak is het glad en werk je niet veilig. Laat het weghalen voordat je goten worden leeggemaakt, want het losse mos komt toch in de goot terecht." },
+      { v: "Wat kost het om mos van je dak te laten halen?", a: `Dak reinigen en ontmossen kost ${ontmosPrijs}. Het hangt af van hoe groot je dak is en hoeveel mos erop zit. Je hoort de vaste prijs vooraf, en het losse mos haal ik meteen uit de goot.` },
     ],
   },
   {
