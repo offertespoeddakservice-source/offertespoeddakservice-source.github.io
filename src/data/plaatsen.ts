@@ -142,6 +142,9 @@ export const PLAATSEN: Plaats[] = [
       "Ruime jaren-'70 en '80 woningen net over de Maas; veel schuine pannendaken waar nokvorsten en lood onderhoud vragen.",
     wijken: ["Wijchen-Zuid", "Alverna", "Niftrik", "Centrum"],
     reistijd: "25 min vanaf Den Bosch",
+    extra:
+      "Wijchen ligt net over de Maas, aan de kant van Nijmegen. Bij de gemeente horen ook dorpen als Batenburg, Bergharen, Hernen en Balgoij, met veel boerderijen en vrijstaande huizen in het open land tussen de Maas en de Waal. In Wijchen zelf zijn grote delen in de jaren '70 en '80 gebouwd, met veel rijtjeshuizen en twee-onder-een-kappers. Bij die huizen liggen de nokvorsten vaak nog in specie, en die brokkelt na zoveel jaren af. Zie je brokjes in de goot of op de stoep, laat de nok dan nakijken voordat de winterstormen komen.",
+    omschrijving: "Dakdekker in Wijchen, Alverna en Niftrik: lekkage bij lood of de nok, volle goten en losse pannen na storm. Vaste prijs vooraf. Bel of app Rens.",
   },
   {
     slug: "waalwijk",
