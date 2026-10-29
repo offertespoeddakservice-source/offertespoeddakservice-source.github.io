@@ -1177,8 +1177,8 @@ export const ARTIKELEN: Artikel[] = [
     ],
     dienst: { label: "Bekijk: zonnepanelen reinigen", href: "/diensten/zonnepanelen-reinigen/" },
     faq: [
-      { v: "Krassen jullie de panelen niet?", a: "Nee, ik werk met de juiste materialen en zonder schurende middelen, zodat de toplaag heel blijft." },
-      { v: "Mag het met regenwater?", a: "Het beste resultaat is streepvrij met de juiste methode, daar let ik op, zodat er geen kringen achterblijven." },
+      { v: "Kras je de panelen niet?", a: "Ik werk voorzichtig en zonder schurende middelen, want krassen in het glas wil je niet." },
+      { v: "Kan ik mijn panelen zelf met water afspoelen?", a: "Kun je er veilig bij, dan kan afspoelen met gewoon water geen kwaad. Kalkrijk kraanwater laat soms kringen achter. Ga niet zelf op het dak staan: tussen de panelen is het glad en je stapt zo een pan kapot." },
     ],
   },
   {

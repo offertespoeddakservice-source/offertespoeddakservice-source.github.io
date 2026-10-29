@@ -395,10 +395,10 @@ export const DIENSTEN: Dienst[] = [
       "Zonnepanelen laten schoonmaken in de regio Den Bosch: vuil en vogelpoep eraf, en ik kijk meteen even naar de pannen onder de panelen. Vaste prijs vooraf.",
     icoon: "🔆",
     intro:
-      "Stof, mos en vogelpoep op je panelen kosten zo enkele procenten opbrengst per jaar. Omdat ik toch op het dak sta, maak ik ze veilig en streepvrij schoon, en kijk meteen of de bevestiging en de pannen eronder nog goed zijn.",
+      "Stof, mos en vogelpoep op je panelen houden zonlicht tegen. Omdat ik toch op het dak sta, maak ik ze voorzichtig schoon en kijk ik meteen of de bevestiging en de pannen eronder nog goed zijn.",
     punten: [
-      "Veilig vanaf het dak, geen krassen",
-      "Streepvrij schoon = meer opbrengst",
+      "Veilig vanaf het dak, voorzichtig met het glas",
+      "Stof, mos en vogelpoep eraf",
       "Controle op bevestiging en vogelnesten eronder",
       "Vaak te combineren met goten reinigen",
     ],
