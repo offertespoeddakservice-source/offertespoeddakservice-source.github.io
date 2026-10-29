@@ -14,12 +14,12 @@ const apkPrijs = PRIJZEN.find((r) => r.dienst.startsWith("Dak-APK"))?.prijs ?? "
 const BIJGEWERKT: Record<string, string> = {
   "daklekkage-opsporen": "2026-10-29",
   "wat-kost-daklekkage-repareren": "2026-10-29",
-  "stormschade-eerste-hulp": "2026-10-27",
+  "stormschade-eerste-hulp": "2026-10-29",
   "hoe-vaak-dakgoot-reinigen": "2026-10-29",
   "verstopte-regenpijp-lekkende-dakgoot": "2026-10-29",
-  "mos-op-dak-verwijderen": "2026-10-27",
+  "mos-op-dak-verwijderen": "2026-10-29",
   "plat-dak-vervangen-of-repareren": "2026-10-20",
-  "dakonderhoud-per-seizoen": "2026-10-21",
+  "dakonderhoud-per-seizoen": "2026-10-29",
   "schoorsteen-vegen-hoe-vaak": "2026-10-29",
   "hoe-herken-je-een-betrouwbare-dakdekker": "2026-10-29",
   "zonnepanelen-reinigen-nodig": "2026-10-29",
@@ -36,6 +36,8 @@ const BIJGEWERKT: Record<string, string> = {
   "vochtplek-plafond": "2026-10-29",
   "wat-kost-dakgoot-schoonmaken": "2026-10-29",
   "lekkage-bij-schoorsteen": "2026-10-29",
+  "water-blijft-staan-op-plat-dak": "2026-10-29",
+  "dakinspectie": "2026-10-29",
 };
 const bijgewerkt = BIJGEWERKT[a.slug] ?? a.datum;
 const path = `/kennisbank/${a.slug}`;
