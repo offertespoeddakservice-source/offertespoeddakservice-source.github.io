@@ -1064,6 +1064,12 @@ export const ARTIKELEN: Artikel[] = [
         `Een kleine reparatie, zoals een paar losse pannen terugleggen of een nokvorst vastzetten, kost meestal ${kleinPrijs}, vaste prijs vooraf.`,
         `Goten reinigen is ${GOTEN_PRIJS} bij een rijtjeswoning, en terwijl ik bezig ben zie ik vaak meteen of er verder nog iets aan je dak speelt. Groter huis? Vaste prijs vooraf.`,
       ] },
+      { kop: "Waar de prijs van een dakreparatie van afhangt", tekst: [
+        "Twee reparaties die op papier hetzelfde lijken, kunnen toch verschillen. Dat komt vooral door drie dingen.",
+        "<strong>Hoe goed ik erbij kan.</strong> Een pan vlak boven de goot van een rijtjeshuis is zo gedaan. Zit de schade hoog bij de nok, op een steil dak of boven een serre of aanbouw, dan kost het meer tijd.",
+        "<strong>Welk materiaal erbij nodig is.</strong> Een gangbare pan is snel te krijgen. Een oude of bijzondere pan zoeken kost meer moeite, en nieuw lood bij de schoorsteen is duurder dan een pan terugleggen.",
+        "<strong>Hoeveel er aan de hand is.</strong> Zie ik naast die ene pan ook een losse nokvorst of lood dat loslaat, dan hoor je dat vooraf, met wat het samen kost. Jij beslist wat ik meeneem.",
+      ] },
       { kop: "Richtprijzen per klus", tekst: [
         `Een punctuele daklekkage repareren kost meestal ${lekPrijs}, inclusief materiaal. Dak ontmossen ${ontmosPrijs}. Schoorsteen vegen ${veegPrijs}. Zonnepanelen reinigen ${zonPrijs}. Een compleet nieuw dak: ${nieuwDakUitleg} Andere klussen krijg je als vaste prijs na een Dak-APK of bezoek.`,
         "Bij spoed buiten kantooruren komt er een toeslag bij, die hoor je vooraf, nooit als verrassing achteraf.",
