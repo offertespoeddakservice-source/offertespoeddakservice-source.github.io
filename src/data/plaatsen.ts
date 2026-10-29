@@ -15,6 +15,7 @@ export interface Plaats {
   verweg?: boolean;    // rand van het werkgebied: geen spoedbelofte, klussen worden vooraf ingepland
   extra?: string;      // optioneel: een tweede, echt lokale alinea op de plaatspagina
   omschrijving?: string; // optioneel: eigen meta-omschrijving voor Google
+  faq?: { v: string; a: string }[]; // optioneel: eigen vragen voor deze plaats, onder de vaste vragen op de plaatspagina
 }
 
 export const PLAATSEN: Plaats[] = [
@@ -27,6 +28,9 @@ export const PLAATSEN: Plaats[] = [
     reistijd: "10 min vanaf Den Bosch",
     extra:
       "In De Groote Wielen zijn de huizen nog jong, maar daar liggen veel platte daken en daken vol zonnepanelen. Lekkage zie ik daar eerder bij een dakdoorvoer, een afvoer of de rand van een plat dak dan bij oude pannen. In de Maliskamp en rond het oude centrum staan meer vrijstaande huizen en twee-onder-een-kappers met een schoorsteen, en daar kijk ik bij een lek eerst naar het lood.",
+    faq: [
+      { v: "Mijn huis in De Groote Wielen is nog maar een paar jaar oud. Kan het dak dan al lekken?", a: "Dat kan, ook bij een jong huis. Is je huis pas een paar jaar oud, kijk dan eerst of de bouwer het lek nog moet oplossen. Valt het daar niet meer onder, stuur me dan een foto van de natte plek. Dan zeg ik eerlijk wat ik zie." },
+    ],
   },
   {
     slug: "vught",
@@ -37,6 +41,10 @@ export const PLAATSEN: Plaats[] = [
     reistijd: "10 min vanaf Den Bosch",
     extra:
       "Sinds 2021 hoort ook Helvoirt bij de gemeente Vught. Daar staan veel vrijstaande huizen en oude boerderijen met een breed pannendak, vaak met hoge bomen eromheen. Ook aan de bosrand bij de IJzeren Man en de Vughtse Heide staan veel huizen tussen dennen en eiken. Dennennaalden zijn fijn: ze glijden door een bladvanger heen en zetten de uitloop naar de regenpijp na een tijd dicht. Loopt je goot over terwijl er weinig blad in ligt, dan zit het vaak daar.",
+    faq: [
+      { v: "Kom je ook in Helvoirt en Cromvoirt?", a: "Ja. Cromvoirt hoort bij Vught, en Helvoirt sinds 2021 ook. Allebei liggen ze op zo'n kwartier rijden van Den Bosch." },
+      { v: "Moet het oude lood op mijn villa helemaal vervangen worden?", a: "Niet altijd. Oud lood kan nog jaren mee als het goed aansluit op de muur of de schoorsteen. Is het op een paar plekken gescheurd of los, dan vervang ik alleen die stukken. Je hoort vooraf wat het kost." },
+    ],
   },
   {
     slug: "vlijmen",
