@@ -168,6 +168,10 @@ export const ARTIKELEN: Artikel[] = [
       { kop: "Wat je zelf tegen condens doet", tekst: [
         "Hang geen was te drogen op zolder. Kijk of de afzuiging van je badkamer echt naar buiten gaat en niet op zolder uitkomt, dat komt voor. Zet de zolder af en toe even open zodat het vocht weg kan, en houd het zolderluik dicht als je doucht of kookt.",
       ] },
+      { kop: "Condens na het isoleren van je dak", tekst: [
+        "Heb je je dak of zolder laten isoleren en zie je daarna ineens druppels of natte plekken? Dat komt vaker voor dan je denkt. Aan de warme kant van de isolatie hoort een folie die de vochtige lucht uit huis tegenhoudt. Zit daar een naad open, of zit de folie aan de verkeerde kant, dan komt de warme lucht achter de isolatie tegen het koude dakbeschot. Daar slaat het vocht neer, en dat zie je pas als het al een tijd speelt.",
+        "Een huis met goede isolatie en nieuwe kozijnen is ook luchtdichter dan vroeger. Het vocht van douchen en koken blijft dan langer binnen hangen. Daarom is goed ventileren na het isoleren extra belangrijk. Zie je het kort na het isoleren, neem dan eerst contact op met wie het werk heeft gedaan.",
+      ] },
       { kop: "Twijfel je? Stuur een foto", tekst: [
         'Maak een foto van de natte plek en van het dakbeschot eromheen en stuur die via WhatsApp. Vaak kan ik dan al zeggen of het condens is of een lek. Druppelt het echt binnen na regen, kijk dan op de <a href="/spoed/">spoedpagina</a> wat je meteen kunt doen.',
         'Komt de condens elk jaar terug, dan kan het aan de ventilatie of de isolatie liggen. Lees ook over <a href="/diensten/dakisolatie/">dakisolatie</a>, of vraag me gewoon om even mee te kijken.',
@@ -178,6 +182,7 @@ export const ARTIKELEN: Artikel[] = [
       { v: "Is condens op zolder erg?", a: "Een beetje condens op een koude ochtend is niet meteen erg. Blijft het hout lang nat of zie je schimmel, dan wil je er wel wat aan doen. Vocht dat lang blijft zitten is slecht voor het hout en de isolatie." },
       { v: "Hoe weet ik zeker of mijn dak lekt?", a: "Kijk wanneer het nat wordt. Alleen na regen en op één plek wijst op een lek. Ook op droge, koude dagen en verspreid over het dak wijst op condens. Twijfel je, stuur dan een foto via WhatsApp." },
       { v: "Kun je ook helpen bij condens?", a: "Ik kijk of het echt condens is en geen lek, en waar het vocht vandaan komt. Soms is beter ventileren genoeg, soms ligt het aan de isolatie. Je hoort eerlijk wat er nodig is, en wat niet." },
+      { v: "Kan mijn zolder vochtiger worden nadat het dak is geïsoleerd?", a: "Dat kan. Na het isoleren blijft de warmte beter binnen, maar ook het vocht. Zit de folie aan de warme kant niet goed dicht, dan slaat dat vocht neer tegen het koude dak achter de isolatie. Ventileer goed en laat het nakijken als je kort na het isoleren druppels of schimmel ziet." },
     ],
   },
   {
