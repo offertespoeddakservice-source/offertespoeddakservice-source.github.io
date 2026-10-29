@@ -785,6 +785,9 @@ export const ARTIKELEN: Artikel[] = [
       { kop: "Repareren of opnieuw bekleden?", tekst: [
         'Een lekke naad, een losse hoek of een lekkende uitloop is vaak goed te herstellen. Is het zink op veel plekken dun of zit het hout eronder al zacht, dan is het slimmer om de bakgoot in één keer opnieuw te bekleden. Ik kijk eerst wat er echt aan de hand is en zeg eerlijk wat in jouw geval verstandig is. Zie <a href="/diensten/dakgoot-vervangen/">dakgoot repareren of vervangen</a>.',
       ] },
+      { kop: "Bakgoten in de regio Den Bosch", tekst: [
+        `Bakgoten kom je in de regio Den Bosch vooral tegen bij huizen van voor de oorlog, zoals in de Muntel en de Vliert in Den Bosch, en bij de oudere villa's en herenhuizen in Vught. In Oisterwijk ligt de goot bij oude villa's vaak in een houten gootlijst. Wat ik daar tegenkom en hoe ik het aanpak, lees je bij dakgoot repareren in <a href="/werkgebied/den-bosch/dakgoot-vervangen/">Den Bosch</a>, <a href="/werkgebied/vught/dakgoot-vervangen/">Vught</a> en <a href="/werkgebied/oisterwijk/dakgoot-vervangen/">Oisterwijk</a>.`,
+      ] },
       { kop: "Wat kost het?", tekst: [
         'Dat hangt af van wat er lek is, hoe lang de goot is en of het hout eronder nog goed is. Je hoort de vaste prijs vooraf, voordat ik begin. Richtprijzen staan op de <a href="/prijzen/">prijzenpagina</a>.',
       ] },
