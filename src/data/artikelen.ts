@@ -894,6 +894,8 @@ export const ARTIKELEN: Artikel[] = [
       { v: "Waarom lekt mijn kilgoot alleen bij een stortbui?", a: "Bij een gewone bui kan het water weg. Bij een stortbui, of als er blad in de kil ligt, komt het water hoger te staan dan de rand van het lood of zink en loopt het opzij onder de pannen door. Dat zie je dan pas binnen." },
       { v: "Kan ik de kil zelf schoonmaken?", a: "Liever niet. Een kil ligt midden op een schuin dak en dat is glad, zeker in de herfst. Laat het doen door iemand die veilig op een dak kan werken." },
       { v: "Kun je snel komen als het in de hoek binnenkomt?", a: "Bel of WhatsApp me met een foto van de natte plek binnen en, als dat veilig kan, een foto van het dak vanaf de straat. Dan hoor je wanneer ik kan komen." },
+      { v: "Hoe vaak moet een kilgoot schoongemaakt worden?", a: "Kijk elk najaar even vanaf de straat of er blad of mos in de kil ligt. Staan er bomen vlak bij je huis, dan is het slim om de kil elk jaar na de bladval leeg te laten maken, tegelijk met je goten. Dan kan het water in de winter vrij weglopen." },
+      { v: "Valt een lekkende kilgoot onder de verzekering?", a: "Lekt de kil doordat het lood of zink oud is of doordat er lang blad in lag, dan zien verzekeraars dat meestal als onderhoud. Is er bij een storm een pan langs de kil verschoven of is er een tak op gevallen, dan is het eerder plotselinge schade. Maak foto's van de natte plek en kijk in je polisvoorwaarden." },
     ],
   },
   {
