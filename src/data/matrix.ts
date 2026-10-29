@@ -272,4 +272,10 @@ export const MATRIX: MatrixCombo[] = [
     dienst: "dakreparatie",
     hook: "Sinds 2015 hoort ook Geffen bij de gemeente Oss. Daar staan veel twee-onder-een-kappers en vrijstaande huizen met een flink pannendak. Op oudere daken liggen de pannen langs de zijkant en vlak boven de goot vaak nog zonder stormhaak, en juist die gaan bij een harde windstoot als eerste omhoog. Ik leg ze terug en kijk meteen of er een haak bij moet. Bij de oudere rijtjes in Oss liggen soms nog pannen die niet meer gemaakt worden. Is er een kapot, dan zoek ik eerst een pan die past. Lukt dat niet, dan kan ik een oude pan van de achterkant naar voren halen en achter een nieuwe neerleggen, zodat je aan de straatkant niets ziet. Je hoort vooraf wat het kost.",
   },
+  // Dakreparatie in Waalwijk (Search Console: dakreparatie waalwijk 30 vertoningen op plek 77, dakpannen waalwijk 27), met andere lokale inhoud dan plaatsen.ts en de lekkagepagina van Waalwijk
+  {
+    plaats: "waalwijk",
+    dienst: "dakreparatie",
+    hook: "Op een deel van de oude huizen in Besoyen, Baardwijk en Capelle liggen nog oud-Hollandse pannen. Die hebben geen sluiting zoals een moderne pan, ze liggen alleen een stukje over elkaar heen. Waait er één scheef of breekt er één, dan loopt het water er makkelijk onder door. Een nieuwe pan in dezelfde vorm is meestal wel te krijgen, maar de kleur wijkt vaak af van je oude pannen. Dat zeg ik je vooraf eerlijk, zodat je niet voor een verrassing staat. In de nieuwere wijken van Waalwijk zijn de daken nog jong. Moet daar al iets gerepareerd worden, kijk dan eerst of de bouwer het nog moet oplossen. Is dat niet zo, dan kom ik kijken en hoor je vooraf de vaste prijs.",
+  },
 ];
