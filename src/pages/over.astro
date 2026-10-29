@@ -8,6 +8,19 @@ import EchteFotos from "../components/EchteFotos.astro";
   title={`Over Rens: dakdekker uit Den Bosch | ${SITE.bedrijfsnaam}`}
   description="Achter Spoed Dak Service zit Rens: één vaste dakdekker met ruim 5 jaar ervaring in de regio Den Bosch. Persoonlijk, eerlijk over prijs, met 1 jaar garantie op reparatie en 2 jaar op vervangen."
   path="/over"
+  schema={{
+    "@context": "https://schema.org",
+    "@type": "AboutPage",
+    url: `${SITE.url}/over/`,
+    mainEntity: {
+      "@type": "Person",
+      "@id": `${SITE.url}/over/#rens`,
+      name: SITE.eigenaar,
+      jobTitle: "Dakdekker",
+      url: `${SITE.url}/over/`,
+      worksFor: { "@id": `${SITE.url}/#bedrijf` },
+    },
+  }}
 >
   <section class="hero">
     <div class="wrap">
