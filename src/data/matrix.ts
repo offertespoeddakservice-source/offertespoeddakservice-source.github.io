@@ -299,4 +299,14 @@ export const MATRIX: MatrixCombo[] = [
     dienst: "dakgoot-vervangen",
     hook: "In Den Dungen en in de nieuwere straten van Sint-Michielsgestel liggen op steeds meer daken zonnepanelen tot vlak boven de goot. Van glad glas loopt de regen veel sneller af dan van pannen. Bij een stortbui schiet het water dan over de goot heen en klettert het langs de gevel naar beneden, terwijl de goot zelf nergens lek is. Vaak helpt het dan om de goot iets anders te hangen, zodat het water er weer in valt. In het oude centrum en bij de villa's langs de Dommel hangen nog veel zinken goten. Daar zie ik na veel jaren donkere of groene strepen op de gevel, onder een naad of een hoek van de goot: daar druppelt het dan al een tijd. Is het zink op meer plekken dun, dan zeg ik dat eerlijk voordat je ergens aan begint.",
   },
+  // Dakgoot repareren of vervangen in Oss (Search Console: dakgoot reparatie oss 19 vertoningen op plek 81, dakgoot lekkage oss 11, dakgoot vervangen oss 9, nog geen eigen pagina), met andere lokale inhoud dan plaatsen.ts en de lekkage-, goot- en dakreparatiepagina van Oss
+  {
+    plaats: "oss",
+    dienst: "dakgoot-vervangen",
+    hook: "In Ussen en andere naoorlogse wijken van Oss heeft een deel van de rijtjeshuizen een regenpijp die niet buiten langs de gevel loopt, maar binnen in de muur of door een kast naar beneden gaat. Lekt bij zo'n huis de uitloop, het stuk waar de goot overgaat in die pijp, dan zie je buiten niets. Je merkt het binnen: een natte plek bovenin de muur, in de kast op de overloop of op het plafond eronder, en dat lijkt op een daklek. Meestal zit het in de aansluiting van de uitloop op de pijp, of zit de uitloop vol blad, zodat het water bij een bui terugloopt en langs de aansluiting naar binnen gaat. Dat los ik boven bij de goot op. Lekt de pijp zelf verderop in de muur, dan zeg ik dat eerlijk, want dan heb je eerder een loodgieter nodig. Stuur me een foto van de natte plek binnen, dan weet ik waar ik boven moet beginnen.",
+    faq: [
+      { v: "Hoe weet ik of mijn regenpijp binnen in de muur zit?", a: "Kijk vanaf de straat en vanuit de tuin naar je goot. Loopt er aan de voor- of achtergevel geen regenpijp naar beneden, dan zit hij meestal binnen. Soms zie je hem in een kast op de overloop of in de berging als een dikke grijze buis. Twijfel je, stuur dan een foto van je gevel." },
+      { v: "Waarom lekt het bij mij vooral bij een stortbui?", a: "Bij een gewone bui kan een uitloop met wat blad erin het water nog net aan. Bij een stortbui komt er in korte tijd veel meer water. Dan loopt de goot bij de uitloop vol en zoekt het water een weg langs de aansluiting naar binnen. Bij een huis met een regenpijp binnen is het daarom extra slim om de uitloop voor de winter leeg te laten maken." },
+    ],
+  },
 ];
