@@ -1213,6 +1213,10 @@ export const ARTIKELEN: Artikel[] = [
       { kop: "EPDM of bitumen?", tekst: [
         "Bitumen (dakleer) is beproefd en wordt in lagen aangebracht. EPDM is een rubberen folie, vaak in één stuk, flexibel en lang houdbaar. Voor kleinere daken is EPDM vaak ideaal; welke het beste past hangt af van je dak en budget.",
       ] },
+      { kop: "Dakleer: zo zie je dat het slijt", tekst: [
+        "Op veel garages, schuren en oudere aanbouwen ligt dakleer, de gewone naam voor bitumen in banen. Vaak ligt er bovenop een laag leislag: fijne steentjes die het bitumen tegen de zon beschermen. Zie je die steentjes in de goot of bij de afvoer liggen, dan slijt de bovenlaag.",
+        "Daarna droogt het bitumen in de zon uit. Je ziet dan fijne scheurtjes, een beetje zoals een opgedroogde modderplas. Op de overlap van twee banen kan een naad gaan openstaan, en op een schuur komt soms een spijkerkop door het dakleer omhoog. Kun je het dak vanuit een raam boven zien, maak dan een foto en stuur die via WhatsApp. Dan zeg ik eerlijk wat ik zie.",
+      ] },
       { kop: "Lekt je platte dak nu?", tekst: [
         'Zet een emmer onder het lek en maak een foto van de natte plek. Ga niet zelf het dak op als het nat is of waait. Bij een plat dak komt het water vaak meters verderop binnen dan waar het lek zit, dus de plek binnen zegt weinig. Kijk op de <a href="/spoed/">spoedpagina</a> wat je meteen kunt doen, of lees hoe ik <a href="/kennisbank/daklekkage-opsporen/">een daklekkage opspoor</a>.',
       ] },
@@ -1226,6 +1230,7 @@ export const ARTIKELEN: Artikel[] = [
       { v: "Kun je het lek vinden zonder alles open te breken?", a: "Meestal wel. Ik spoor gericht op bij naden en opstanden, zodat er zo min mogelijk open hoeft." },
       { v: "Is mos op een plat dak schadelijk?", a: "Een beetje mos is niet meteen erg, maar het houdt vocht en vuil vast en kan de afvoer verstoppen. Dan blijft er water op je dak staan, en dat zoekt elke zwakke plek op. Haal het daarom op tijd weg en houd de afvoer vrij." },
       { v: "Hoe vaak moet een plat dak nagekeken worden?", a: "Minstens één keer per jaar, het liefst in het najaar: afvoer vrij, geen blad of mos in de hoeken en geen plekken waar water blijft staan. Een korte controle voorkomt de meeste lekkages." },
+      { v: "Kan een plat dak in de herfst of winter gerepareerd worden?", a: "Vaak wel, maar het weer telt mee. Voor een nette reparatie moet het dak droog zijn, en bij vorst of in een natte week hecht niet elk materiaal goed. Lekt het nu, dan maak ik het lek vaak eerst tijdelijk dicht, zodat het binnen droog blijft. De nette reparatie doe ik dan op een droge dag. Je hoort vooraf wat het kost." },
     ],
   },
   {
