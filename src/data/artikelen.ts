@@ -385,6 +385,8 @@ export const ARTIKELEN: Artikel[] = [
       { v: "Kun je snel komen als er een vorst los ligt?", a: "Ligt de nok open of is er een vorst afgewaaid, bel of WhatsApp me dan meteen met een foto. Bij spoed in de regio Den Bosch lukt het vaak nog dezelfde dag." },
       { v: "Wat houdt het in als de nok gerenoveerd wordt?", a: "Dan haal ik de vorsten eraf, haal de oude, brokkelige specie weg en leg de vorsten er opnieuw goed vast op, recht en dicht. Kapotte vorsten vervang ik door passende. Daarna liggen ze weer stevig op de nok. Je hoort vooraf de vaste prijs." },
       { v: "Kan ik met losse nokvorsten wachten tot het voorjaar?", a: "Liever niet. In de herfst en winter waait het het hardst, en dan is de kans het grootst dat een losse vorst eraf waait. Laat het daarom nakijken voordat de stormen komen." },
+      { v: "Wat kost het om losse nokvorsten vast te laten zetten?", a: `Een paar losse vorsten vastzetten valt meestal onder een kleine reparatie: ${kleinPrijs}. Moet de hele nok opnieuw, dan is het meer werk. Je hoort altijd vooraf de vaste prijs.` },
+      { v: "Wat is een ondervorst?", a: "Een strook onder de nokvorsten die de nok afsluit tegen regen en wind, maar wel lucht onder de pannen laat. Wordt een nok opnieuw gelegd, dan komt zo'n ondervorst vaak in de plaats van de oude specie." },
     ],
   },
   {
