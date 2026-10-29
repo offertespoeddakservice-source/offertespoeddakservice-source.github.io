@@ -260,4 +260,10 @@ export const MATRIX: MatrixCombo[] = [
     dienst: "dakgoot-vervangen",
     hook: "Oisterwijk is al meer dan honderd jaar geliefd om te wonen tussen de bossen en vennen, en in de lanen staan nog veel oude villa's met een overstekend dak. Bij zulke huizen ligt de zinken goot vaak in een houten gootlijst. Lekt het zink, dan zie je dat niet aan een druppel langs de gevel, maar aan de lijst zelf: de verf bladdert, het hout wordt zacht en er komen donkere plekken onder de goot. Daarom kijk ik bij zo'n goot ook of het hout eronder nog stevig is, want een nieuw stuk zink in een rotte lijst houdt het niet lang. In Moergestel en Haaren hangt aan veel vrijstaande huizen en boerderijen een lange goot, soms met maar één regenpijp aan het eind. Bij een stortbui kan die het water niet bijhouden en loopt de goot over aan de kant waar geen pijp zit, terwijl hij nergens lek is. Dan helpt een extra uitloop met een tweede regenpijp soms beter dan een nieuwe goot.",
   },
+  // Dakgoot repareren of vervangen in Boxtel (Search Console: dakgoot lekkage boxtel plek 31, dakgoot reparatie boxtel, dakgoot vernieuwen boxtel), met andere lokale inhoud dan plaatsen.ts en de lekkage- en gootpagina van Boxtel
+  {
+    plaats: "boxtel",
+    dienst: "dakgoot-vervangen",
+    hook: "In de naoorlogse wijken van Boxtel, zoals Selissen, staan veel rijtjeshuizen waar de goot van het ene huis gewoon doorloopt in die van de buren. Op de grens tussen twee huizen zit dan een naad, en daar gaat zo'n goot na veel jaren als eerste lekken. Het lastige is dat het water vaak een stukje verderop naar beneden komt. Soms druppelt het bij de buren terwijl het lek aan jouw kant zit, of andersom. Heeft de buurman zijn goot al laten vervangen door kunststof en hangt er bij jou nog zink, dan zit er op de grens een overgangsstuk. Kunststof zet bij warmte en kou veel meer uit dan zink, en juist die overgang laat na een paar jaar los. Ik kijk daarom over de hele lengte van de goot. Zit het lek op het stuk van je buren, dan zeg ik dat eerlijk, zodat jullie het samen kunnen regelen. Stuur me een foto vanaf de straat, dan zie ik vaak al of het om één naad gaat of om meer.",
+  },
 ];
