@@ -835,6 +835,8 @@ export const ARTIKELEN: Artikel[] = [
       { v: "Moet ik zelf het dak op om de schade af te dekken?", a: "Nee, doe dat niet, zeker niet vlak na een storm. Bel mij, ik dek het veilig af en herstel daarna." },
       { v: "Vergoedt mijn verzekering stormschade?", a: "Vaak wel via de opstalverzekering. Ik lever foto's en een omschrijving aan zodat je het kunt indienen; check de voorwaarden bij je verzekeraar." },
       { v: "Hoe snel moet ik stormschade melden bij mijn verzekering?", a: "Zo snel als je kunt. Hoe snel precies, staat in je polisvoorwaarden. Maak meteen foto's van de schade, binnen en vanaf de straat van je dak, en bewaar die." },
+      { v: "Wat doe je bij een noodreparatie na een storm?", a: "Eerst zorg ik dat er geen water meer binnenkomt. Liggen er pannen of nokvorsten los, dan leg ik ze terug of vervang ik ze. Is een stuk dak open en kan het niet meteen goed, dan dek ik het eerst af en kom ik daarna terug voor de nette reparatie. Je hoort vooraf wat het kost." },
+      { v: "Wie betaalt als er een pan van mijn dak op de auto of het dak van de buren valt?", a: "Bij een echte storm geldt dat vaak als overmacht. Dan loopt de schade meestal via de verzekering van de buren of van de auto. Lag de pan al lang zichtbaar los, dan kan het anders liggen. Maak foto's van je dak en van de schade, en meld het bij je eigen verzekeraar. Die zoekt verder uit wie wat betaalt." },
     ],
   },
   {
