@@ -26,6 +26,7 @@ export const PLAATSEN: Plaats[] = [
       "Veel jaren-'60 en '70 woningen met schuine pannendaken: precies het soort dak waar nokvorsten loslaten en goten dichtslibben.",
     wijken: ["Molenhoek", "De Groote Wielen", "Sparrenburg", "Hondsberg", "Maliskamp"],
     reistijd: "10 min vanaf Den Bosch",
+    omschrijving: "Dakdekker in Rosmalen en De Groote Wielen: lekkage bij de nok of een dakdoorvoer, volle goten en losse pannen. Vaste prijs vooraf. Bel of app Rens.",
     extra:
       "In De Groote Wielen zijn de huizen nog jong, maar daar liggen veel platte daken en daken vol zonnepanelen. Lekkage zie ik daar eerder bij een dakdoorvoer, een afvoer of de rand van een plat dak dan bij oude pannen. In de Maliskamp en rond het oude centrum staan meer vrijstaande huizen en twee-onder-een-kappers met een schoorsteen, en daar kijk ik bij een lek eerst naar het lood.",
     faq: [
@@ -39,6 +40,7 @@ export const PLAATSEN: Plaats[] = [
       "Van vooroorlogse villa's tot naoorlogse rijtjes, vaak oudere daken met klassiek lood en keramische pannen die onderhoud vragen.",
     wijken: ["Vught-Noord", "Vught-Zuid", "Cromvoirt"],
     reistijd: "10 min vanaf Den Bosch",
+    omschrijving: "Dakdekker in Vught, Helvoirt en Cromvoirt: oud lood op villa's, goten vol blad en naalden, losse pannen na storm. Vaste prijs vooraf. Bel of app Rens.",
     extra:
       "Sinds 2021 hoort ook Helvoirt bij de gemeente Vught. Daar staan veel vrijstaande huizen en oude boerderijen met een breed pannendak, vaak met hoge bomen eromheen. Ook aan de bosrand bij de IJzeren Man en de Vughtse Heide staan veel huizen tussen dennen en eiken. Dennennaalden zijn fijn: ze glijden door een bladvanger heen en zetten de uitloop naar de regenpijp na een tijd dicht. Loopt je goot over terwijl er weinig blad in ligt, dan zit het vaak daar.",
     faq: [
@@ -132,6 +134,7 @@ export const PLAATSEN: Plaats[] = [
       "Bosrijke omgeving betekent veel bladval en mos op daken, dus goten en pannen vragen hier extra aandacht.",
     wijken: ["Pannenschuur", "Westend", "Moergestel"],
     reistijd: "25 min vanaf Den Bosch",
+    omschrijving: "Dakdekker in Oisterwijk, Moergestel en Haaren: goten vol blad, mos op het dak en lekkage bij de schoorsteen. Vaste prijs vooraf. Bel of app Rens.",
     extra:
       "Haaren is sinds de herindeling van 2021 een dorp van de gemeente Oisterwijk. Daar en in het buitengebied staan veel vrijstaande huizen en oude boerderijen met een groot pannendak. Onder de vele bomen in en rond Oisterwijk krijgt een dak weinig zon, en op de noordkant groeit dan snel mos. Mos houdt water vast, en als het daarna vriest kan een pan scheuren. Ligt er een dikke laag mos op je dak, dan haal ik die eraf en kijk ik meteen of de pannen eronder nog heel zijn.",
     faq: [
@@ -157,6 +160,7 @@ export const PLAATSEN: Plaats[] = [
       "Mix van naoorlogse wijken met schuine daken; goten reinigen en losse pannen na storm vanaf de Langstraat zijn veelgevraagd.",
     wijken: ["Besoyen", "Baardwijk", "Laageinde", "Sprang-Capelle"],
     reistijd: "25 min vanaf Den Bosch",
+    omschrijving: "Dakdekker in Waalwijk, Sprang-Capelle en Waspik: lekkage bij oud lood of een plat dak, volle goten en losse pannen. Vaste prijs vooraf. Bel of app Rens.",
     extra:
       "Met Sprang-Capelle en Waspik erbij heeft Waalwijk heel verschillende daken. Sprang-Capelle is een lang dorp langs de oude weg, met veel vrijstaande huizen en oude boerderijen met een breed dak en lange goten. Daar valt in de herfst veel blad in de goot van de bomen langs de straat, en een nokvorst die los zit merk je vaak pas als er specie in de goot ligt. In Besoyen en Baardwijk, de oude kernen die aan Waalwijk vastgegroeid zijn, staan nog veel huizen met een schoorsteen en oud lood. Twijfel je wat er met je dak aan de hand is, stuur dan een foto via WhatsApp.",
     faq: [
