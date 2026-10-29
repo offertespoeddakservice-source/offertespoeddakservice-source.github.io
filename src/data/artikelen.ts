@@ -270,6 +270,54 @@ export const ARTIKELEN: Artikel[] = [
     ],
   },
   {
+    slug: "dak-lekt-bij-sneeuw-of-vorst",
+    datum: "2026-10-30",
+    titel: "Lekt je dak bij sneeuw of vorst?",
+    h1: "Dak lekt bij sneeuw of vorst: stuifsneeuw, dooi en ijs",
+    metaTitle: "Dak lekt bij sneeuw of dooi: oorzaken | Spoed Dak Service",
+    metaDescription:
+      "Natte plek op zolder na sneeuw of bij dooi? Vaak is het stuifsneeuw onder de pannen of smeltwater dat niet weg kan. Zo zie je het en dit doe je eraan.",
+    intro:
+      "In de winter lekt een dak soms op een moment dat je niet verwacht: niet tijdens een bui, maar een dag na het sneeuwen of als het gaat dooien. Dat ligt dan meestal niet aan een kapotte pan, maar aan sneeuw of ijs dat ergens komt waar het niet hoort. Hieronder lees je hoe dat komt en wat je zelf kunt doen.",
+    secties: [
+      { kop: "Lekt het nu? Eerst dit", tekst: [
+        `Zet een emmer of een bak onder de druppels, leg een handdoek neer en maak een foto van de natte plek. Ga bij sneeuw of ijs niet zelf het dak of de ladder op: een besneeuwde pan of een bevroren sport is spiegelglad. Wat je verder meteen kunt doen, staat op de <a href="/spoed/">spoedpagina</a>.`,
+      ] },
+      { kop: "Stuifsneeuw: sneeuw die onder de pannen door waait", tekst: [
+        `Bij fijne, droge sneeuw en harde wind waait de sneeuw door de kleine kieren tussen de pannen en onder de nok door naar binnen. Op zolder ligt dan een laagje sneeuw op de folie, de isolatie of de vloer. Zolang het vriest, merk je daar niets van. Gaat het dooien, dan smelt die sneeuw en lijkt het of je dak op veel plekken tegelijk lekt.`,
+        `Je herkent het doordat het nat is op plekken waar het bij regen droog blijft, vaak onder de nok of aan de kant waar de wind op stond. Bij oudere daken zonder folie of houten beschot onder de pannen komt er meer sneeuw binnen dan bij een nieuwer dak.`,
+        `Ga na een sneeuwbui met harde wind even op zolder kijken. Ligt er sneeuw, schep of veeg die dan weg voordat het gaat dooien. Dat scheelt een hoop water op je plafond.`,
+      ] },
+      { kop: "Smeltwater dat niet weg kan", tekst: [
+        `Ligt er een dikke laag sneeuw op het dak en zit de goot vol of is hij bevroren, dan kan het smeltwater nergens heen. Het blijft onderaan het dak staan, achter een rand van ijs in of boven de goot, en loopt dan terug onder de onderste pannen door naar binnen. Binnen zie je dat als een natte plek bovenin de muur, net onder de dakrand, of op het plafond langs die muur.`,
+        `Een goot die voor de winter leeg is en goed afloopt naar de regenpijp, scheelt hier veel. Wat ijs met de goot zelf doet, lees je in <a href="/kennisbank/dakgoot-lekt/">dakgoot lekt</a>.`,
+      ] },
+      { kop: "Sneeuw op een plat dak", tekst: [
+        `Op een plat dak blijft sneeuw lang liggen. Zit de afvoer vol blad of is hij bevroren, dan staat het smeltwater als een plas op het dak. Ligt die plas tegen een naad, de rand van een lichtkoepel of de aansluiting op de muur, dan zoekt het water daar een weg naar binnen. Zie ook <a href="/kennisbank/water-blijft-staan-op-plat-dak/">water blijft staan op je platte dak</a> en <a href="/kennisbank/lichtkoepel-lekt/">lichtkoepel lekt</a>.`,
+      ] },
+      { kop: "Of is het condens?", tekst: [
+        `Is het buiten koud en droog, en zie je druppels aan de folie of aan de punten van spijkers onder het dak? Dan is het vaak condens: warme, vochtige lucht uit het huis die tegen het koude dak afkoelt. Dat lijkt op een lek, maar de oplossing is anders. Lees <a href="/kennisbank/condens-of-lekkage-op-zolder/">condens of lekkage op zolder</a>.`,
+      ] },
+      { kop: "Wat je zelf beter niet doet", tekst: [
+        `Klim niet op het dak om sneeuw weg te scheppen, en hak geen ijs uit de goot. Daarmee breek je zo een pan of trek je de goot uit de beugels. Giet ook geen heet water in een bevroren goot of regenpijp: verderop bevriest het meteen weer.`,
+      ] },
+      { kop: "Hoe ik het aanpak", tekst: [
+        `Ik kijk eerst of het water van stuifsneeuw komt, van smeltwater dat niet weg kan, of van een echt lek. Bij stuifsneeuw kijk ik vooral naar de nok. Liggen de nokvorsten los of sluiten ze niet meer goed aan, dan zet ik ze weer goed vast. Een ondervorst onder de nokvorsten houdt regen, wind en fijne sneeuw beter buiten. Meer daarover lees je bij <a href="/kennisbank/nokvorsten-los/">losse nokvorsten</a>.`,
+        `Lekt het aan de onderkant van het dak, dan maak ik de goot leeg en kijk ik of hij goed afloopt. Zit er toch een kapotte pan tussen, dan vervang ik die, zie <a href="/kennisbank/dakpan-kapot-of-verschoven/">dakpan kapot of verschoven</a>. Bij een oud dak zonder folie onder de pannen kun je stuifsneeuw niet helemaal tegenhouden. Dat zeg ik je dan eerlijk.`,
+      ] },
+      { kop: "Wat kost het?", tekst: [
+        `Een losse nokvorst of een paar pannen weer vastzetten valt meestal onder een kleine reparatie: ${kleinPrijs}. Moet ik een lek eerst opsporen en dan dichten, dan is het meestal ${lekPrijs}, inclusief materiaal. Je hoort de vaste prijs vooraf, voordat ik begin.`,
+      ] },
+    ],
+    dienst: { label: "Bekijk: daklekkage & spoed", href: "/diensten/daklekkage/" },
+    faq: [
+      { v: "Kan sneeuw door een dak heen komen?", a: "Ja. Fijne stuifsneeuw kan bij harde wind tussen de pannen en onder de nok door waaien. Op zolder ligt dan een laagje sneeuw, en als dat smelt, lijkt het of je dak lekt. Veeg of schep het weg voordat het gaat dooien." },
+      { v: "Moet ik de sneeuw van mijn dak laten halen?", a: "Van een gewoon pannendak meestal niet, dat kan een laag sneeuw in de regel prima hebben. Op een plat dak met een verstopte afvoer, of op een licht dak van een veranda of schuur, kan veel natte sneeuw wel zwaar worden. Ga er zelf niet op staan. Twijfel je, stuur dan een foto via WhatsApp." },
+      { v: "Valt lekkage door sneeuw onder mijn verzekering?", a: `Dat verschilt per polis. Schade door een plotselinge gebeurtenis valt soms onder je opstalverzekering, maar water dat binnenkomt door achterstallig onderhoud meestal niet. Maak foto's van de schade en kijk in je polis. Meer lees je in het artikel over daklekkage en je verzekering.` },
+      { v: "Is een lek bij dooi spoed?", a: "Druppelt het binnen of wordt een plafond nat en bol, bel of app me dan meteen. Is het een beetje smeltwater van stuifsneeuw op zolder, dan kun je dat vaak zelf opruimen. Stuur een foto, dan zeg ik eerlijk wat het is." },
+    ],
+  },
+  {
     slug: "dakraam-lekt",
     datum: "2026-10-20",
     titel: "Dakraam lekt?",
