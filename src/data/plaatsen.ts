@@ -222,6 +222,8 @@ export const PLAATSEN: Plaats[] = [
       "Ruime naoorlogse wijken met schuine daken; voor dakwerk en lekkage kom ik in Helmond en de omliggende kernen.",
     wijken: ["Brouwhuis", "Dierdonk", "Mierlo-Hout", "Stiphout"],
     reistijd: "± 40 min vanaf Den Bosch",
+    extra:
+      "Stiphout en Mierlo-Hout zijn oude dorpen die aan Helmond zijn vastgegroeid. Daar staan nog veel oudere huizen met een schoorsteen, en een lek zit daar vaak in het lood rond die schoorsteen. In Brandevoort lijken veel huizen oud, maar ze zijn vrij nieuw, gebouwd in een ouderwetse stijl met steile pannendaken en veel hoeken en kilgoten tussen de daken. Juist in die hoeken blijft in de herfst blad liggen. Helmond is voor mij een flink stuk rijden. Stuur daarom eerst een foto via WhatsApp, dan hoor je eerlijk wanneer ik kan komen.",
   },
   {
     slug: "eindhoven",
