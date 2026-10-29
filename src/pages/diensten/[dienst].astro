@@ -72,6 +72,11 @@ const leesVerder: Record<string, string[]> = {
 const leesArtikelen = (leesVerder[d.slug] ?? [])
   .map((s) => ARTIKELEN.find((x) => x.slug === s))
   .filter((x) => x) as typeof ARTIKELEN;
+// Echte Werkspot-review bij de klus waar hij over gaat (Rens 25-10: ja, letterlijk met voornaam en plaats zoals op Werkspot). Geen review-schema.
+const reviewBij: Record<string, { tekst: string; naam: string; klus: string }> = {
+  "dakgoot-vervangen": { tekst: "Prima werk geleverd. Was flexibel in het plannen, dacht mee en kwam met oplossingen.", naam: "Roos, Oosterbeek", klus: "regenpijp vervangen" },
+};
+const review = reviewBij[d.slug];
 ---
 
 <Base title={d.metaTitle} description={d.metaDescription} path={path} schema={schema} noindex={d.verborgen === true}>
@@ -118,6 +123,13 @@ const leesArtikelen = (leesVerder[d.slug] ?? [])
           </>
         ) : relArtikel && (
           <p style="margin-top:18px;"><strong>Meer weten?</strong> Lees: <a href={relArtikel.href.endsWith("/") ? relArtikel.href : relArtikel.href + "/"}>{relArtikel.label}</a></p>
+        )}
+        {review && (
+          <figure class="reviewkaart" style="margin:20px 0 0;">
+            <span class="rster" aria-label="5 van 5 sterren">★★★★★</span>
+            <blockquote>„{review.tekst}"</blockquote>
+            <figcaption>{review.naam} · {review.klus} · <a href={SITE.werkspotUrl} target="_blank" rel="noopener">op Werkspot</a></figcaption>
+          </figure>
         )}
       </div>
       <aside>
