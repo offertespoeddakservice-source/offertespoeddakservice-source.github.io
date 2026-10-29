@@ -211,6 +211,8 @@ export const PLAATSEN: Plaats[] = [
       "Ook in de regio Eindhoven kom ik voor lekkage en ander dakwerk. Veel naoorlogse woningen met schuine pannendaken en platte uitbouwen.",
     wijken: ["Tongelre", "Woensel", "Gestel", "Stratum"],
     reistijd: "± 40 min vanaf Den Bosch",
+    extra:
+      "In Stratum ligt het Villapark, met veel villa's en herenhuizen van voor de oorlog. Die hebben vaak een steil pannendak, lood rond de schoorsteen en zinken goten die al tientallen jaren meegaan. Lekt het daar, dan zit het meestal in dat oude lood of in een naad van de goot. In Woensel-Noord, het grootste stadsdeel van Eindhoven, staan vooral rijtjes uit de jaren '60, '70 en '80. Daar gaat het vaker om nokvorsten die nog in specie liggen en losraken, of om een goot die is gaan doorhangen en bij een flinke bui overloopt.",
   },
 ];
 
