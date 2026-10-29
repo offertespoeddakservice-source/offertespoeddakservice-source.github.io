@@ -62,6 +62,9 @@ export const PLAATSEN: Plaats[] = [
       "Ruim opgezette wijken met schuine daken vlak bij de Loonse en Drunense Duinen, zand en bladval zorgen voor snel volle goten.",
     wijken: ["Venne", "Heidijk", "Centrum"],
     reistijd: "20 min vanaf Den Bosch",
+    extra:
+      "Drunen hoort samen met Vlijmen en Heusden bij de gemeente Heusden, en Elshout ligt er vlak naast. Aan de zuidkant van Drunen, richting de Loonse en Drunense Duinen, staan veel huizen tussen de bomen. Daar komt in de herfst naast blad ook zand in de goot. Dat spoelt naar de uitloop naar de regenpijp en wordt daar met het blad een zware, natte prop, en dan loopt de goot bij een bui over aan de voorkant. In het oude centrum en in Elshout staan nog veel oudere huizen met een schoorsteen, en daar kijk ik bij een lek eerst naar het lood. Stuur me gerust eerst een foto via WhatsApp.",
+    omschrijving: "Dakdekker in Drunen en Elshout: goten vol zand en blad, lekkage bij oud lood en losse pannen na een storm. Vaste prijs vooraf. Bel of app Rens.",
   },
   {
     slug: "berlicum",
