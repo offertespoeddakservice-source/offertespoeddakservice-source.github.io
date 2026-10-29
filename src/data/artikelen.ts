@@ -803,6 +803,9 @@ export const ARTIKELEN: Artikel[] = [
       { kop: "Oudere daken", tekst: [
         "Bij sommige oudere daken ligt onder de pannen geen goede waterkerende laag meer, of is die op plekken vergaan. Waait er dan water onder een pan door, dan komt het meteen op zolder terecht. Ligt er wel een goede laag onder, dan loopt het water meestal eerst daarover naar de goot.",
       ] },
+      { kop: "Aan welke kant van het dak lekt het?", tekst: [
+        "In Nederland komt harde wind meestal uit het zuidwesten of het westen. Daarom zie ik lekkage bij storm het vaakst aan die kant van het huis: bij de pannen langs de rand van het dak, bij de nok en bij het lood rond de schoorsteen of het dakraam aan de windkant. Lekt het bij jou aan de andere kant, dan kan dat ook. Het water kan over de nok heen waaien, of eerst een stuk opzij onder de pannen lopen voordat het binnenkomt.",
+      ] },
       { kop: "Wat je nu doet", tekst: [
         'Vang het water op en maak een foto van de natte plek, ook als het later weer droog is. Schrijf op bij wat voor weer het lekte: uit welke hoek de wind kwam en hoe hard het regende. Dat helpt mij om de plek op het dak te vinden. Ga niet zelf het dak op bij harde wind. Lekt het nu flink, kijk dan op de <a href="/spoed/">spoedpagina</a>.',
       ] },
@@ -815,6 +818,8 @@ export const ARTIKELEN: Artikel[] = [
       { v: "Waarom lekt mijn dak alleen bij storm?", a: "Omdat de wind de regen dan schuin onder de pannen of de nokvorsten door blaast. Bij gewone regen loopt het water er gewoon overheen. Vaak zit het bij de nok, een verschoven pan of het lood bij de schoorsteen." },
       { v: "Is het erg als het maar af en toe lekt?", a: "Laat het liever niet zitten. Elke keer worden het hout en de isolatie nat, en een plek die nu alleen bij storm lekt, wordt bij de volgende storm vaak groter." },
       { v: "Kan ik het zelf zien vanaf de straat?", a: "Soms wel. Een scheve nokvorst, een pan die anders ligt dan de rest of stukjes specie in de goot zie je vaak met een verrekijker. Stuur gerust een foto via WhatsApp, dan kijk ik mee." },
+      { v: "Valt lekkage door harde wind onder mijn verzekering?", a: "Dat hangt af van je polis. Veel verzekeraars spreken pas van storm bij windkracht 7 of meer. Lekt het door zo'n storm, dan wordt de schade binnen vaak vergoed. Lekt het bij elke flinke windvlaag door een pan die al lang scheef lag, dan zien ze dat eerder als onderhoud. Maak foto's van de natte plek en van je dak vanaf de straat, en kijk in je polisvoorwaarden." },
+      { v: "Is lekkage bij harde wind spoed?", a: "Druppelt het nu binnen, of ligt er een pan of nokvorst op straat, dan wel: bel of app me met een foto. Waren het een paar druppels en is het weer droog, dan kan het meestal een paar dagen wachten. Twijfel je, stuur dan een foto via WhatsApp, dan zeg ik eerlijk of het vandaag moet." },
     ],
   },
   {
