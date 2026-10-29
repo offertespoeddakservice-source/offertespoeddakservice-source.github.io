@@ -993,6 +993,8 @@ export const ARTIKELEN: Artikel[] = [
       { v: "Is een dakinspectie nodig als ik een huis koop?", a: "Verplicht is het niet, maar het is wel slim, zeker bij een ouder huis. Dan weet je vooraf of er binnenkort iets aan het dak moet, en kun je daar rekening mee houden." },
       { v: "Hoe vaak moet je je dak laten inspecteren?", a: "Zelf kun je in het voorjaar en in het najaar even kijken. Een vakman laten kijken is verstandig als er al een tijd niemand naar je dak heeft gekeken, en eerder bij een ouder dak of na een zware storm." },
       { v: "Kom je ook voor een dakinspectie in mijn plaats?", a: "Ik werk in de regio Den Bosch, onder andere in Vught, Rosmalen, Vlijmen, Oss en Waalwijk. Bel of WhatsApp me, dan hoor je wanneer ik bij je langs kan komen." },
+      { v: "Is een dakinspectie hetzelfde als een gratis offerte?", a: `Nee. Weet je al wat er moet gebeuren, bijvoorbeeld een lek, een losse pan of een volle goot, dan is een offerte bij mij gratis: stuur een foto of bel, en je hoort de vaste prijs. De Dak-APK (${apkPrijs}) is voor als je wilt weten hoe je hele dak ervoor staat, met een rapport met foto's.` },
+      { v: "Hoe snel krijg ik het rapport van de dakinspectie?", a: `Binnen een dagdeel. Dan weet je zwart op wit hoe je dak ervoor staat, met foto's van de plekken die aandacht vragen en wat nu nodig is of nog kan wachten.` },
     ],
   },
   {
