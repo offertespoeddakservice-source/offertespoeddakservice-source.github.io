@@ -197,6 +197,11 @@ export const PLAATSEN: Plaats[] = [
     reistijd: "20 min vanaf Den Bosch",
     extra:
       "Veghel hoort sinds 2017 bij de gemeente Meierijstad, samen met onder meer Schijndel en Erp. In de woonwijken die in de jaren '70 en '80 zijn gebouwd, staan veel rijtjeshuizen en twee-onder-een-kappers met een dakraam in het schuine dak aan de achterkant. Na zo'n veertig jaar is het gootstuk of het lood onder zo'n raam vaak op. Dan zie je na een flinke bui een natte plek op de muur of het plafond onder het raam, terwijl het glas zelf nog prima is. Vaak is een nieuw gootstuk genoeg en hoeft het raam er niet uit. Stuur me een foto van de natte plek, dan zeg ik eerlijk wat ik zie.",
+    omschrijving: "Dakdekker in Veghel en Erp: lekkage onder een dakraam of bij de schoorsteen, volle goten en losse nokvorsten. Vaste prijs vooraf. Bel of app Rens.",
+    faq: [
+      { v: "Kom je ook in Erp, Zijtaart, Eerde en Mariaheide?", a: "Ja. Die dorpen horen net als Veghel bij de gemeente Meierijstad. Ik kom er voor dezelfde klussen als in Veghel zelf: lekkage, goten, pannen en lood. Veghel is zo'n 20 minuten rijden vanaf Den Bosch." },
+      { v: "Mijn rijtjeshuis in Veghel is zo'n veertig jaar oud. Waar laat ik voor de winter naar kijken?", a: "Bij huizen van die leeftijd kijk ik vooral naar de nokvorsten, die vaak nog in specie liggen die na jaren bros wordt, naar het lood rond de schoorsteen en naar de goot. Zit die vol blad of hangt hij niet meer goed op afschot, dan loopt hij in de winter over. Stuur gerust een paar foto's vanaf de straat, dan zeg ik eerlijk wat ik zie." },
+    ],
   },
   {
     slug: "tilburg",
