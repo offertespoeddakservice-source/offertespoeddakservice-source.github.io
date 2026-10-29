@@ -145,6 +145,10 @@ export const PLAATSEN: Plaats[] = [
     reistijd: "25 min vanaf Den Bosch",
     extra:
       "Met Sprang-Capelle en Waspik erbij heeft Waalwijk heel verschillende daken. Sprang-Capelle is een lang dorp langs de oude weg, met veel vrijstaande huizen en oude boerderijen met een breed dak en lange goten. Daar valt in de herfst veel blad in de goot van de bomen langs de straat, en een nokvorst die los zit merk je vaak pas als er specie in de goot ligt. In Besoyen en Baardwijk, de oude kernen die aan Waalwijk vastgegroeid zijn, staan nog veel huizen met een schoorsteen en oud lood. Twijfel je wat er met je dak aan de hand is, stuur dan een foto via WhatsApp.",
+    faq: [
+      { v: "Kom je ook in Sprang-Capelle en Waspik?", a: "Ja. Sprang-Capelle en Waspik horen bij de gemeente Waalwijk, en ik kom er voor dezelfde klussen als in Waalwijk zelf: lekkage, goten, pannen en lood. Het is zo'n 25 minuten rijden vanaf Den Bosch." },
+      { v: "Vervang je in Waalwijk ook de dakbedekking van een plat dak?", a: "Ja. Achter veel oudere huizen in Waalwijk staat een aanbouw, schuur of oude werkplaats met een plat dak. Lekt dat dak op één plek, dan is een gerichte reparatie vaak genoeg. Is de bedekking op meer plekken versleten, dan zeg ik eerlijk dat vervangen slimmer is. Je hoort vooraf de vaste prijs." },
+    ],
   },
   {
     slug: "uden",
