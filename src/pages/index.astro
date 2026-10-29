@@ -5,9 +5,11 @@ import { DIENSTEN } from "../data/diensten.ts";
 import { PLAATSEN } from "../data/plaatsen.ts";
 import DienstIcon from "../components/DienstIcon.astro";
 import { ARTIKELEN } from "../data/artikelen.ts";
+import { PRIJZEN } from "../data/prijzen.ts";
 
 const score = SITE.reviews.score.toString().replace(".", ",");
 const googleReviewLink = SITE.reviewLink && !SITE.reviewLink.includes("JOUW_PLACE_ID") ? SITE.reviewLink : null;
+const apkPrijs = PRIJZEN.find((r) => r.dienst.startsWith("Dak-APK"))?.prijs ?? "";
 
 const faq = [
   { v: "Wat kost het om iemand te laten komen?", a: "Wil je weten hoe je dak ervoor staat? Dat doe ik via de Dak-APK: binnen een dagdeel een compleet keuringsrapport met foto's, voor €49. Weet je al wat er moet gebeuren, bijvoorbeeld goten reinigen? Dan hoor je gewoon de vaste prijs vooraf." },
@@ -23,8 +25,8 @@ const faqSchema = {
 ---
 
 <Base
-  title={`Dakdekker regio Den Bosch | ${SITE.bedrijfsnaam}`}
-  description="Vakkundig dakwerk door één vaste man in de regio Den Bosch. Dak-APK voor €49, daklekkage vaak dezelfde dag, eerlijke prijs vooraf."
+  title={`Dakdekker Den Bosch: spoed en lekkage | ${SITE.bedrijfsnaam}`}
+  description={`Dakdekker in de regio Den Bosch: één vaste man voor lekkage, spoed, goten en pannen. Dag en nacht bereikbaar, bij lekkage vaak dezelfde dag. Dak-APK ${apkPrijs}.`}
   path="/"
   schema={faqSchema}
 >

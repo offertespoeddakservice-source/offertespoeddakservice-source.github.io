@@ -39,7 +39,7 @@ export const DIENSTEN: Dienst[] = [
     kort: "Verstopte of volle goten leeg, en ik meld het eerlijk als er meer speelt op je dak.",
     metaTitle: `Dakgoot schoonmaken: ${GOTEN_PRIJS} | Spoed Dak Service`,
     metaDescription:
-      "Goten laten reinigen in de regio Den Bosch: vanaf €99 voor een rijtjeswoning, vaste prijs vooraf. Snel langs, netjes werk en eerlijk advies over je dak. Bel of WhatsApp Rens.",
+      `Goten laten reinigen in de regio Den Bosch: ${GOTEN_PRIJS} voor een rijtjeswoning, vaste prijs vooraf. Snel langs, netjes werk en eerlijk advies over je dak. Bel of WhatsApp Rens.`,
     icoon: "🪣",
     vanafPrijs: GOTEN_PRIJS,
     intro:
@@ -94,7 +94,7 @@ export const DIENSTEN: Dienst[] = [
     faq: [
       {
         v: "Wat kost een daklekkage repareren?",
-        a: "Een punctuele reparatie kost meestal €200 tot €500, inclusief materiaal. Bij spoed buiten kantooruren komt daar een toeslag bij. Je hoort het bedrag voordat ik begin.",
+        a: `Een punctuele reparatie kost meestal ${LEK_PRIJS}, inclusief materiaal. Bij spoed buiten kantooruren komt daar een toeslag bij. Je hoort het bedrag voordat ik begin.`,
       },
       {
         v: "Kun je vandaag nog komen?",
@@ -147,7 +147,7 @@ export const DIENSTEN: Dienst[] = [
     faq: [
       {
         v: "Wat kost het vervangen van een dakpan?",
-        a: "Een paar losse pannen vervangen is vaak een kort klusje: reken €100 tot €250. Je hoort vooraf de vaste prijs.",
+        a: `Een paar losse pannen vervangen is vaak een kort klusje: reken ${KLEIN_PRIJS}. Je hoort vooraf de vaste prijs.`,
       },
       {
         v: "Kun je met spoed een dakreparatie doen?",
@@ -194,6 +194,7 @@ export const DIENSTEN: Dienst[] = [
       { v: "Mijn platte dak lekt, hoe snel kun je komen?", a: "Druppelt het binnen, dan is het spoed. Bel of WhatsApp me met een foto van de natte plek. In de regio Den Bosch lukt het vaak nog dezelfde dag." },
       { v: "Het lekt bij mijn uitbouw of garage, doe je dat ook?", a: "Ja. De meeste uitbouwen, garages en bergingen hebben een plat dak, en daar zie ik veel lekkage. Vaak zit het bij de aansluiting met de gevel, bij de daktrim aan de rand of bij de afvoer. Die plekken kijk ik als eerste na." },
       { v: "Wat kost het om een lek in een plat dak te repareren?", a: "Dat hangt af van waar het lek zit en hoeveel er beschadigd is. Een gerichte reparatie is meestal het goedkoopst. Je hoort de vaste prijs vooraf, voordat ik begin. Richtprijzen staan op de prijzenpagina." },
+      { v: "Kun je dakleer op een schuur of tuinhuis repareren?", a: "Ja. Op veel schuren en tuinhuizen ligt dakleer, een dunne laag bitumen. Zit er één scheur of een losse naad in, dan is een gerichte reparatie vaak genoeg. Is het dakleer overal bros, staan er blazen in of lekt het op meer plekken, dan is een nieuwe laag slimmer. Stuur een foto, dan zeg ik eerlijk wat het wordt." },
     ],
   },
   {
@@ -301,6 +302,8 @@ export const DIENSTEN: Dienst[] = [
     ],
     faq: [
       { v: "Gaat dat niet met een hogedrukspuit kapot?", a: "Op kwetsbare pannen werk ik voorzichtig en op de juiste druk, zodat de toplaag heel blijft. Daar zit 'm juist het vakwerk in." },
+      { v: "Wat kost dak reinigen?", a: `Dak reinigen kost ${ONTMOS_PRIJS}, afhankelijk van hoe groot je dak is en hoe dik het mos erop zit. Je hoort vooraf de vaste prijs voor de hele klus. Stuur gerust een foto van je dak via WhatsApp, dan kan ik je vaak snel een prijs noemen.` },
+      { v: "Neem je de goten meteen mee?", a: "Ja. Het mos dat loskomt, valt voor een groot deel in de goot. Daarom maak ik na het reinigen de goten en de uitloop naar de regenpijp meteen leeg, anders zit je goot bij de eerste flinke bui vol. Wat het samen kost, hoor je vooraf." },
     ],
   },
   {
@@ -352,6 +355,7 @@ export const DIENSTEN: Dienst[] = [
       { v: "Kom je ook buiten Den Bosch schoorsteen vegen?", a: "Ja, in mijn hele werkgebied rond Den Bosch, zoals Rosmalen, Vught, Oss, Veghel, Boxtel en Schijndel. Op de werkgebied-pagina zie je of jouw plaats erbij staat." },
       { v: "Het lekt bij mijn schoorsteen, kun je dat ook bekijken?", a: "Ja. Bij het vegen kijk ik meteen naar het lood en de aansluiting op het dak, want daar begint lekkage bij de schoorsteen meestal. Zie ik iets, dan hoor je dat eerlijk, en wat het kost om te herstellen." },
       { v: "Wat moet ik doen voordat je komt?", a: "Stook de dag ervoor liever niet, zodat de kachel of haard koud is. Maak de ruimte rond de haard een beetje vrij. Het afdekken doe ik zelf." },
+      { v: "Er zit een vogelnest in mijn schoorsteen, wat nu?", a: "Stook dan niet, want met een nest in het kanaal kan de rook, en daarmee koolmonoxide, je huis in komen. Vooral kauwen bouwen in het voorjaar graag een nest in een schoorsteen. Buiten het broedseizoen haal ik het nest eruit als ik kom vegen. Daarna kan er een kap op de schoorsteen, zodat ze er niet meer in kunnen. Twijfel je of er iets in zit, stuur dan een foto van de schoorsteen via WhatsApp." },
     ],
   },
   {
@@ -391,10 +395,10 @@ export const DIENSTEN: Dienst[] = [
       "Zonnepanelen laten schoonmaken in de regio Den Bosch: vuil en vogelpoep eraf, en ik kijk meteen even naar de pannen onder de panelen. Vaste prijs vooraf.",
     icoon: "🔆",
     intro:
-      "Stof, mos en vogelpoep op je panelen kosten zo enkele procenten opbrengst per jaar. Omdat ik toch op het dak sta, maak ik ze veilig en streepvrij schoon, en kijk meteen of de bevestiging en de pannen eronder nog goed zijn.",
+      "Stof, mos en vogelpoep op je panelen houden zonlicht tegen. Omdat ik toch op het dak sta, maak ik ze voorzichtig schoon en kijk ik meteen of de bevestiging en de pannen eronder nog goed zijn.",
     punten: [
-      "Veilig vanaf het dak, geen krassen",
-      "Streepvrij schoon = meer opbrengst",
+      "Veilig vanaf het dak, voorzichtig met het glas",
+      "Stof, mos en vogelpoep eraf",
       "Controle op bevestiging en vogelnesten eronder",
       "Vaak te combineren met goten reinigen",
     ],
@@ -427,6 +431,7 @@ export const DIENSTEN: Dienst[] = [
       { v: "Werkt vogelwering blijvend?", a: "Als de vogelwering goed geplaatst is en de hele rij onder de pannen afsluit, komen vogels er in de regel niet meer onder. Daarom kijk ik naar de hele dakvoet, niet alleen naar de plek waar je ze ziet." },
       { v: "Van welk materiaal is de vogelwering?", a: "Ik gebruik standaard kunststof vogelwering. Die komt onder de onderste rij pannen, zodat vogels er niet meer tussen kunnen, terwijl er nog wel lucht onder je pannen blijft. Vanaf de straat zie je er weinig van." },
       { v: "Kan er ook vogelwering onder mijn zonnepanelen?", a: "Ja, dat kan. Onder zonnepanelen nestelen vaak duiven, en die laten veel troep achter op je dak en in de goot. Ik sluit de rand rond de panelen af, zodat ze er niet meer onder komen." },
+      { v: "Wanneer kun je vogelwering het beste laten plaatsen?", a: "Het liefst in de herfst of de winter. In het voorjaar en de zomer broeden er vaak vogels onder de pannen, en een nest waarin vogels broeden mag je niet zomaar weghalen. Hoor of zie je in die tijd vogels onder je dak, dan is het beter te wachten tot de jongen uitgevlogen zijn. Daarna sluit ik de rij onder de pannen af. Vogelwering is bij mij standaard van kunststof." },
     ],
   },
   {
@@ -451,6 +456,7 @@ export const DIENSTEN: Dienst[] = [
       { v: "Renoveren of een heel nieuw dak?", a: "Vaak stelt een grondige renovatie een nieuw dak jaren uit tegen veel lagere kosten. Is de onderconstructie slecht, dan is vervangen verstandiger. Ik kom kijken en zeg eerlijk wat loont." },
       { v: "Hoe weet ik of mijn dak aan renovatie toe is?", a: "Let op scheve of gebroken pannen, mos dat tussen de pannen groeit, specie uit de nok die in de goot ligt en lood dat los zit of scheurt. Zie je dat op meer plekken tegelijk, dan is steeds een losse reparatie vaak duurder dan alles in één keer aanpakken. Met de Dak-APK krijg je een fotorapport van je hele dak, dan zie je zelf hoe het ervoor staat." },
       { v: "Heb ik voor een dakrenovatie een vergunning nodig?", a: "Voor het vervangen van pannen, lood en goten in dezelfde soort en kleur is meestal geen vergunning nodig. Woon je in een monument of in een beschermd stadsgezicht, zoals de binnenstad van Den Bosch of vesting Heusden, vraag het dan eerst na bij de gemeente. Ik denk daar graag in mee." },
+      { v: "Doe je ook dakrenovatie buiten Den Bosch?", a: "Ja, in mijn hele werkgebied rond Den Bosch, onder andere in Vught, Rosmalen, Oisterwijk, Veghel en Waalwijk. Een renovatie plan ik vooraf met je in. Ik kom eerst kijken, en je hoort de vaste prijs voordat ik begin." },
     ],
   },
   {
@@ -461,14 +467,14 @@ export const DIENSTEN: Dienst[] = [
     kort: "Zolder of schuin dak isoleren: direct minder stookkosten, vaak met subsidie.",
     metaTitle: "Dakisolatie Den Bosch en subsidie-advies | Spoed Dak Service",
     metaDescription:
-      "Dak of zolder laten isoleren in de regio Den Bosch? Direct minder stookkosten en meer comfort, vaak met ISDE-subsidie. Vaste prijs vooraf. Bel of WhatsApp Rens.",
+      "Dak of zolder laten isoleren in de regio Den Bosch? Vaak minder stookkosten en meer comfort, en soms ISDE-subsidie. Vaste prijs vooraf. Bel of WhatsApp Rens.",
     icoon: "🧊",
     afbeelding: "/img/dakrenovatie.jpg",
     intro:
-      "Via een slecht geïsoleerd dak verdwijnt een flink deel van je stookwarmte, en dat is zo'n beetje de duurste warmte die je hebt. Isoleren merk je meteen: minder stoken in de winter, een koelere zolder in de zomer. Ik kom kijken wat bij jouw dak past, het schuine dak aan de binnenkant of de zoldervloer, en je krijgt een vaste prijs vooraf. Als huiseigenaar krijg je er vaak ISDE-subsidie op.",
+      "Via een slecht geïsoleerd dak verdwijnt een flink deel van je stookwarmte, en dat is zo'n beetje de duurste warmte die je hebt. Isoleren merk je meestal snel: minder stoken in de winter, een koelere zolder in de zomer. Ik kom kijken wat bij jouw dak past, het schuine dak aan de binnenkant of de zoldervloer, en je krijgt een vaste prijs vooraf. Als huiseigenaar krijg je er vaak ISDE-subsidie op.",
     punten: [
       "Schuin dak aan de binnenkant of zoldervloer isoleren",
-      "Direct merkbaar: lagere stookkosten, meer comfort",
+      "Vaak goed merkbaar: lagere stookkosten, meer comfort",
       "Eerst check of je dak droog en gezond is: isoleren op een lek dak maakt het erger",
       "Eerlijk advies over ISDE-subsidie: wat kan er in jouw geval",
     ],

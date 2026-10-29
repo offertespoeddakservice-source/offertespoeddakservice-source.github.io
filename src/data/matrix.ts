@@ -13,6 +13,7 @@ export interface MatrixCombo {
   plaats: string; // slug uit PLAATSEN
   dienst: string; // slug uit DIENSTEN
   hook: string;   // unieke lokale invalshoek voor deze dienst in deze plaats
+  faq?: { v: string; a: string }[]; // optioneel: eigen vragen voor deze klus in deze plaats, onder de vaste vragen
 }
 
 export const MATRIX: MatrixCombo[] = [
@@ -153,7 +154,7 @@ export const MATRIX: MatrixCombo[] = [
   {
     plaats: "den-bosch",
     dienst: "stormschade",
-    hook: "Of het nu de monumentale binnenstad of een wijk als Maaspoort betreft: na een storm telt elk uur. Ik ben dagelijks in Den Bosch, dus bij weggewaaide pannen of een open dak sta ik snel voor je deur.",
+    hook: "In de binnenstad staan veel smalle, hoge panden met een steil dak en de topgevel aan de straat. Bij een harde windstoot gaan daar vaak de pannen langs de rand bij de gevel en vlak onder de nok als eerste omhoog, en dan valt er zo een stuk pan of specie op de stoep. In Maaspoort en Empel, aan de kant van de Maas, waait het over het open land flink. Daar vind ik na een storm vaker een losse nokvorst of een pan naast een dakraam die is opgetild. Ligt er iets op straat of is je dak open, ga dan niet zelf naar boven, maar maak vanaf de grond een foto en stuur die via WhatsApp. Ik dek het eerst af, zodat het binnen droog blijft, en herstel het daarna netjes. Den Bosch is mijn thuisbasis, dus meestal ben ik er snel.",
   },
   {
     plaats: "rosmalen",
@@ -163,7 +164,7 @@ export const MATRIX: MatrixCombo[] = [
   {
     plaats: "vught",
     dienst: "stormschade",
-    hook: "Bij de oudere daken in Vught laat een storm zich voelen bij verouderd lood en losse pannen. Ik kom snel langs voor noodreparatie en zorg dat het weer dicht is.",
+    hook: "In Vught staan veel huizen tussen hoge bomen, in de villawijken en aan de rand van de bossen. Bij een storm breken daar takken af die op het dak terechtkomen. Zo'n tak kan een pan breken of een goot uit de haken trekken, en vanaf de straat zie je dat niet altijd meteen. Kijk na een storm daarom even goed: ligt er een pan scheef, hangt de goot schuin of ligt er een tak in de goot? In Vught-Noord en de andere naoorlogse wijken staan meer rijtjes met een pannendak, en daar zie ik na harde wind vooral pannen aan de onderkant of langs de zijkant van het dak die zijn gaan schuiven. Is je dak open, dan dek ik het eerst af en herstel ik het daarna netjes. Ga zelf niet het dak of de ladder op, en stuur me een foto vanaf de grond.",
   },
   {
     plaats: "berlicum",
@@ -211,12 +212,20 @@ export const MATRIX: MatrixCombo[] = [
     plaats: "den-bosch",
     dienst: "dakgoot-vervangen",
     hook: "In de Muntel en de Vliert hebben de huizen uit de jaren '20 en '30 vaak nog zinken goten, soms als bakgoot achter een houten lijst. Na veel jaren gaan die lekken bij de naden, de hoeken en de uitloop naar de regenpijp. In nieuwere wijken als Maaspoort en Empel hangen vaker kunststof goten, en daar zit het meestal in een verbinding of een losse beugel. Ik kijk eerst of repareren kan, en vervang alleen wat echt op is.",
+    faq: [
+      { v: "Kun je een oude zinken goot in Den Bosch repareren in plaats van vervangen?", a: "Vaak wel. Bij de oudere huizen in de Muntel en de Vliert lekt een zinken goot meestal eerst bij een naad, een hoek of de uitloop naar de regenpijp. Is de rest van het zink nog goed, dan herstel ik alleen dat stuk. Is het zink over een groot stuk dun of zitten er gaatjes in, dan zeg ik eerlijk dat een nieuw stuk beter is. Je hoort vooraf wat het kost." },
+      { v: "Mag ik in de binnenstad een kunststof goot ophangen?", a: "Dat kan niet altijd. De binnenstad van Den Bosch is beschermd stadsgezicht, en bij een monument mag je niet zomaar ander materiaal gebruiken. Twijfel je, vraag het dan na bij de gemeente. Ik kijk wat er nu hangt en herstel de goot het liefst met materiaal dat bij het pand past." },
+    ],
   },
   // Dakgoot repareren of vervangen in Vught (Search Console: dakgoot vervangen vught plek 26, dakgoot reparatie vught plek 37)
   {
     plaats: "vught",
     dienst: "dakgoot-vervangen",
     hook: "Langs de Taalstraat en in de villawijken richting de Loonsebaan liggen veel lange zinken goten, vaak als bakgoot achter een houten lijst. Onder de hoge bomen daar blijft blad lang in de goot liggen, en juist op die plekken wordt het zink na jaren dun en gaan de naden lekken. In de rijtjes van Vught-Noord hangen vaker kunststof goten. Daar zit een lek meestal in een verbinding, een uitgedroogd rubber of een losse beugel. Ik kijk eerst of een reparatie genoeg is, en vervang alleen het stuk dat echt op is.",
+    faq: [
+      { v: "Mijn zinken bakgoot achter een houten lijst lekt. Moet de hele goot eruit?", a: "Niet altijd. Lekt hij op één naad of hoek, dan is dat stuk vaak te herstellen. Is het zink over een groot stuk dun geworden, vaak op de plek waar het blad altijd blijft liggen, dan heeft plakken weinig zin en is een nieuw stuk zink beter. Je hoort vooraf wat het kost." },
+      { v: "Hoe zie ik of mijn goot lek is?", a: "Kijk vanaf de straat of vanuit een raam boven naar de goot. Druppels die na een bui op één plek blijven vallen, een goot die in het midden doorhangt, of kleine gaatjes en witte vlekken op het zink zijn tekenen dat er iets lek is. Ga zelf niet de ladder op, maar stuur me een foto. Dan zeg ik wat ik zie." },
+    ],
   },
   // Daklekkage in Tilburg, met Udenhout en Berkel-Enschot (Rens 23-10: ook bij spoed; Search Console: daklekkage udenhout, daklekkage berkel-enschot)
   {
@@ -253,5 +262,41 @@ export const MATRIX: MatrixCombo[] = [
     plaats: "veghel",
     dienst: "dakgoot-vervangen",
     hook: "In Erp en Boerdonk staan veel langgevelboerderijen en oude woonboerderijen. Die hebben een lange, lage goot over de hele voorgevel, en aan de schuur of stal ernaast hangt vaak nog een tweede goot. Na veel jaren zakt zo'n goot tussen de haken door. Dan blijft er na een bui water in het midden staan, en juist daar gaat hij als eerste roesten of lekken. Aan de nieuwere huizen in Veghel zelf hangen vooral kunststof goten. Die zetten uit als het warm is en krimpen bij vorst, en na een paar jaar schiet er dan een hoekstuk of eindstuk los. Vaak is het genoeg om de goot weer op afschot te hangen of één hoekstuk te vervangen. Een nieuwe goot raad ik pas aan als het materiaal zelf op is.",
+  },
+  // Dakgoot repareren of vervangen in Oisterwijk, met Moergestel en Haaren (Search Console: dakgoot reparatie oisterwijk plek 20, dakgoot vernieuwen oisterwijk plek 59), met andere lokale inhoud dan plaatsen.ts en de lekkagepagina van Oisterwijk
+  {
+    plaats: "oisterwijk",
+    dienst: "dakgoot-vervangen",
+    hook: "Oisterwijk is al meer dan honderd jaar geliefd om te wonen tussen de bossen en vennen, en in de lanen staan nog veel oude villa's met een overstekend dak. Bij zulke huizen ligt de zinken goot vaak in een houten gootlijst. Lekt het zink, dan zie je dat niet aan een druppel langs de gevel, maar aan de lijst zelf: de verf bladdert, het hout wordt zacht en er komen donkere plekken onder de goot. Daarom kijk ik bij zo'n goot ook of het hout eronder nog stevig is, want een nieuw stuk zink in een rotte lijst houdt het niet lang. In Moergestel en Haaren hangt aan veel vrijstaande huizen en boerderijen een lange goot, soms met maar één regenpijp aan het eind. Bij een stortbui kan die het water niet bijhouden en loopt de goot over aan de kant waar geen pijp zit, terwijl hij nergens lek is. Dan helpt een extra uitloop met een tweede regenpijp soms beter dan een nieuwe goot.",
+  },
+  // Dakgoot repareren of vervangen in Boxtel (Search Console: dakgoot lekkage boxtel plek 31, dakgoot reparatie boxtel, dakgoot vernieuwen boxtel), met andere lokale inhoud dan plaatsen.ts en de lekkage- en gootpagina van Boxtel
+  {
+    plaats: "boxtel",
+    dienst: "dakgoot-vervangen",
+    hook: "In de naoorlogse wijken van Boxtel, zoals Selissen, staan veel rijtjeshuizen waar de goot van het ene huis gewoon doorloopt in die van de buren. Op de grens tussen twee huizen zit dan een naad, en daar gaat zo'n goot na veel jaren als eerste lekken. Het lastige is dat het water vaak een stukje verderop naar beneden komt. Soms druppelt het bij de buren terwijl het lek aan jouw kant zit, of andersom. Heeft de buurman zijn goot al laten vervangen door kunststof en hangt er bij jou nog zink, dan zit er op de grens een overgangsstuk. Kunststof zet bij warmte en kou veel meer uit dan zink, en juist die overgang laat na een paar jaar los. Ik kijk daarom over de hele lengte van de goot. Zit het lek op het stuk van je buren, dan zeg ik dat eerlijk, zodat jullie het samen kunnen regelen. Stuur me een foto vanaf de straat, dan zie ik vaak al of het om één naad gaat of om meer.",
+  },
+  // Dakreparatie in Oss (Search Console: dakreparatie oss 46 vertoningen op plek 80, nog geen eigen pagina), met andere lokale inhoud dan plaatsen.ts en de lekkage- en gootpagina van Oss
+  {
+    plaats: "oss",
+    dienst: "dakreparatie",
+    hook: "Sinds 2015 hoort ook Geffen bij de gemeente Oss. Daar staan veel twee-onder-een-kappers en vrijstaande huizen met een flink pannendak. Op oudere daken liggen de pannen langs de zijkant en vlak boven de goot vaak nog zonder stormhaak, en juist die gaan bij een harde windstoot als eerste omhoog. Ik leg ze terug en kijk meteen of er een haak bij moet. Bij de oudere rijtjes in Oss liggen soms nog pannen die niet meer gemaakt worden. Is er een kapot, dan zoek ik eerst een pan die past. Lukt dat niet, dan kan ik een oude pan van de achterkant naar voren halen en achter een nieuwe neerleggen, zodat je aan de straatkant niets ziet. Je hoort vooraf wat het kost.",
+  },
+  // Dakreparatie in Waalwijk (Search Console: dakreparatie waalwijk 30 vertoningen op plek 77, dakpannen waalwijk 27), met andere lokale inhoud dan plaatsen.ts en de lekkagepagina van Waalwijk
+  {
+    plaats: "waalwijk",
+    dienst: "dakreparatie",
+    hook: "Op een deel van de oude huizen in Besoyen, Baardwijk en Capelle liggen nog oud-Hollandse pannen. Die hebben geen sluiting zoals een moderne pan, ze liggen alleen een stukje over elkaar heen. Waait er één scheef of breekt er één, dan loopt het water er makkelijk onder door. Een nieuwe pan in dezelfde vorm is meestal wel te krijgen, maar de kleur wijkt vaak af van je oude pannen. Dat zeg ik je vooraf eerlijk, zodat je niet voor een verrassing staat. In de nieuwere wijken van Waalwijk zijn de daken nog jong. Moet daar al iets gerepareerd worden, kijk dan eerst of de bouwer het nog moet oplossen. Is dat niet zo, dan kom ik kijken en hoor je vooraf de vaste prijs.",
+  },
+  // Daklekkage in Uden (Search Console: daklekkage uden 25 vertoningen op plek 67, dakgoot lekkage uden plek 33), met andere lokale inhoud dan plaatsen.ts en de andere lekkagepagina's
+  {
+    plaats: "uden",
+    dienst: "daklekkage",
+    hook: "In wijken als Bitswijk en Hoenderbos staan veel rijtjeshuizen en twee-onder-een-kappers van zo'n veertig, vijftig jaar oud. Bij een deel daarvan is de goot in de loop der jaren wat gezakt. Dan steken de onderste pannen niet ver genoeg meer in de goot, en bij een flinke bui loopt het water achter de goot langs de muur in. Binnen zie je dat als een natte plek op de muur onder de goot of naast het kozijn, en dat lijkt op een daklek. Bij oudere huizen rond het centrum is de schoorsteen soms weggehaald toen er een cv-ketel kwam, en is het gat met pannen dichtgelegd. Is dat destijds niet goed aangesloten, dan lekt het jaren later precies op die plek. Sinds 2022 hoort Uden bij de gemeente Maashorst, maar voor mij is het gewoon 25 minuten rijden vanaf Den Bosch. Stuur me een foto van de natte plek en van die kant van je dak, dan zoek ik gericht.",
+  },
+  // Dakgoot repareren of vervangen in Sint-Michielsgestel (Search Console: dakgoot reparatie sint michielsgestel plek 40), met andere lokale inhoud dan plaatsen.ts en de lekkage- en gootpagina van Sint-Michielsgestel
+  {
+    plaats: "sint-michielsgestel",
+    dienst: "dakgoot-vervangen",
+    hook: "In Den Dungen en in de nieuwere straten van Sint-Michielsgestel liggen op steeds meer daken zonnepanelen tot vlak boven de goot. Van glad glas loopt de regen veel sneller af dan van pannen. Bij een stortbui schiet het water dan over de goot heen en klettert het langs de gevel naar beneden, terwijl de goot zelf nergens lek is. Vaak helpt het dan om de goot iets anders te hangen, zodat het water er weer in valt. In het oude centrum en bij de villa's langs de Dommel hangen nog veel zinken goten. Daar zie ik na veel jaren donkere of groene strepen op de gevel, onder een naad of een hoek van de goot: daar druppelt het dan al een tijd. Is het zink op meer plekken dun, dan zeg ik dat eerlijk voordat je ergens aan begint.",
   },
 ];

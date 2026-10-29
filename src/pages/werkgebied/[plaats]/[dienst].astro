@@ -11,11 +11,11 @@ export function getStaticPaths() {
   return MATRIX.map((c) => {
     const p = getPlaats(c.plaats);
     const d = getDienst(c.dienst);
-    return { params: { plaats: c.plaats, dienst: c.dienst }, props: { p, d, hook: c.hook } };
+    return { params: { plaats: c.plaats, dienst: c.dienst }, props: { p, d, hook: c.hook, faqExtra: c.faq ?? [] } };
   }).filter((x) => x.props.p && x.props.d);
 }
 
-const { p, d, hook } = Astro.props;
+const { p, d, hook, faqExtra } = Astro.props;
 const path = `/werkgebied/${p.slug}/${d.slug}`;
 const titel = `${d.titel} in ${p.naam}`;
 // Titel en omschrijving per dienst waar de standaardzin niet goed loopt; de andere diensten houden de standaard.
@@ -27,13 +27,20 @@ const omschrijvingPerDienst: Record<string, string> = {
   "goten-reinigen": `Dakgoot schoonmaken in ${p.naam}: ${gotenPrijs} voor een rijtjeswoning, uitloop naar de regenpijp vrij en eerlijk advies over je dak. Bel of WhatsApp Rens.`,
   stormschade: `Stormschade aan je dak in ${p.naam}? Weggewaaide pannen of een losse nok: ik dek het eerst af en herstel het daarna netjes. Bel of WhatsApp Rens.`,
 };
-const metaTitel = metaTitelPerDienst[d.slug] ?? titel;
+// Daklekkage per plaats: titel en omschrijving met het zoekwoord vooraan. Niet voor de lekkagepagina's die na 20-10 zijn gemaakt, die meten we eerst.
+const nieuweLekPaginas = ["tilburg", "veghel", "eindhoven", "waalwijk", "breda"];
+if (d.slug === "daklekkage" && !nieuweLekPaginas.includes(p.slug)) {
+  metaTitelPerDienst.daklekkage = `Daklekkage ${p.naam}: lek opsporen en repareren`;
+  omschrijvingPerDienst.daklekkage = `Daklekkage in ${p.naam}? Ik zoek waar het water echt binnenkomt en repareer het zonder onnodig sloopwerk. Vaste prijs vooraf. Bel of app Rens.`;
+}
+const metaTitel =metaTitelPerDienst[d.slug] ?? titel;
 
 // Verder lezen bij lekkage en storm: gewone zinnen met links naar de spoedpagina en de kennisbank.
 const verderLezen: Record<string, string> = {
   daklekkage: 'Lekt het nu? Op de <a href="/spoed/">spoedpagina</a> lees je wat je meteen zelf kunt doen. Hoe ik een lek vind zonder onnodig sloopwerk, staat in <a href="/kennisbank/daklekkage-opsporen/">daklekkage opsporen</a>. Druppelt het bij de schoorsteen, lees dan <a href="/kennisbank/lekkage-bij-schoorsteen/">lekkage bij de schoorsteen</a>. Twijfel je of het wel een lek is, kijk dan eerst bij <a href="/kennisbank/condens-of-lekkage-op-zolder/">condens of lekkage op zolder</a>. Meld je de schade bij je verzekering? Ik maak foto\'s van wat ik aantref en van de reparatie, met een korte omschrijving erbij. Die kun je meesturen. Of de verzekering iets vergoedt, hangt af van je polis: lees <a href="/kennisbank/daklekkage-verzekering/">daklekkage en je verzekering</a>.',
   stormschade: 'Ligt je dak open na de storm? Op de <a href="/spoed/">spoedpagina</a> lees je wat je meteen zelf kunt doen. Wat je beter laat en hoe het zit met je verzekering, staat in <a href="/kennisbank/stormschade-eerste-hulp/">stormschade: eerste hulp</a>. Ligt er specie in de goot of staat de nok scheef, lees dan <a href="/kennisbank/nokvorsten-los/">losse nokvorsten</a>.',
   "dakgoot-vervangen": 'Druppelt je goot op één plek? In <a href="/kennisbank/dakgoot-lekt/">dakgoot lekt</a> lees je hoe je ziet of hij vol zit of echt lek is. Loopt het water over de rand of langs de gevel, kijk dan eerst bij <a href="/kennisbank/verstopte-regenpijp-lekkende-dakgoot/">verstopte regenpijp of lekkende dakgoot</a>. Zit de goot alleen vol, dan is <a href="/diensten/goten-reinigen/">goten reinigen</a> genoeg.',
+  "goten-reinigen": 'Wat het kost en wat erbij zit, lees je in <a href="/kennisbank/wat-kost-dakgoot-schoonmaken/">wat kost dakgoot schoonmaken</a>. Hoe vaak je goot leeg moet, hangt vooral af van de bomen om je huis: zie <a href="/kennisbank/hoe-vaak-dakgoot-reinigen/">hoe vaak dakgoot reinigen</a>. Druppelt je goot op één vaste plek, ook als hij leeg is, lees dan <a href="/kennisbank/dakgoot-lekt/">dakgoot lekt</a>.',
 };
 const verder = verderLezen[d.slug];
 // Interne links: de andere klussen in deze plaats, en dezelfde klus in de andere plaatsen.
@@ -55,6 +62,7 @@ const faq = [
         : `Ja, ${p.naam} ligt in mijn vaste werkgebied rond Den Bosch${p.reistijd ? ` (${p.reistijd})` : ""}, dus vaak ben ik al in de buurt. Bij spoed kom ik regelmatig nog dezelfde dag.`,
   },
   ...d.faq.slice(0, 2),
+  ...faqExtra,
   {
     v: `Werk je in heel ${p.naam}?`,
     a: `Ja, door heel ${p.naam}${p.wijken.length ? `, onder andere ${p.wijken.slice(0, 3).join(", ")}` : ""} en de directe omgeving.`,

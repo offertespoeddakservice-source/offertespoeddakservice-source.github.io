@@ -42,7 +42,7 @@ export const ARTIKELEN: Artikel[] = [
     secties: [
       { kop: "Lekkage nu? Eerst dit doen", tekst: [
         "Zie je een natte plek op het plafond? Zet eerst een emmer neer en maak een foto van de plek, dat helpt bij de beoordeling en later bij je verzekering. Haal spullen weg die vochtgevoelig zijn en ga niet zelf het dak op.",
-        'Kwam de lekkage tijdens of vlak na een storm, met losse pannen of zichtbare schade van buiten? Volg dan de aparte stappen in <a href="/kennisbank/stormschade-eerste-hulp">stormschade: eerste hulp en je verzekering</a>, daar staat ook wat je aan je verzekering moet doorgeven. Is er geen storm geweest en sijpelt het water al langer, dan lees je hieronder waar het vandaan komt.',
+        'Kwam de lekkage tijdens of vlak na een storm, met losse pannen of zichtbare schade van buiten? Volg dan de aparte stappen in <a href="/kennisbank/stormschade-eerste-hulp/">stormschade: eerste hulp en je verzekering</a>, daar staat ook wat je aan je verzekering moet doorgeven. Is er geen storm geweest en sijpelt het water al langer, dan lees je hieronder waar het vandaan komt.',
       ] },
       { kop: "De meest voorkomende oorzaken", tekst: [
         'Een gebroken of verschoven dakpan zie ik verreweg het vaakst. Daarna: gescheurd of losgelaten lood bij de schoorsteen of het dakraam, een verstopte of overlopende goot, en versleten kitwerk of naden bij een plat dak. Lekt het bij de schoorsteen? Lees dan <a href="/kennisbank/lekkage-bij-schoorsteen/">lekkage bij de schoorsteen</a>.',
@@ -53,13 +53,15 @@ export const ARTIKELEN: Artikel[] = [
         "Lukt het visueel niet, dan zijn er technieken (water gericht aanbrengen, rook- of vochtmeting) om de exacte plek te vinden. Eerst de schade beperken, dan de oorzaak aanpakken.",
       ] },
       { kop: "Wat kost het?", tekst: [
-        "Een punctuele reparatie kost meestal €200 tot €500, inclusief materiaal. Bij spoed buiten kantooruren komt daar een toeslag bij. Je hoort altijd de prijs voordat ik begin.",
+        `Een punctuele reparatie kost meestal ${lekPrijs}, inclusief materiaal. Bij spoed buiten kantooruren komt daar een toeslag bij. Je hoort altijd de prijs voordat ik begin.`,
       ] },
     ],
     dienst: { label: "Bekijk: daklekkage & spoed", href: "/diensten/daklekkage/" },
     faq: [
       { v: "Moet er voor het opsporen iets opengebroken worden?", a: "Meestal niet. In de meeste gevallen vind ik het lek met een gerichte controle van buiten en op zolder, zonder sloopwerk." },
       { v: "Kun je vandaag nog komen?", a: "Bij spoed in de regio Den Bosch vaak wel. Bel of WhatsApp, dan hoor je meteen wanneer ik kan." },
+      { v: "Wat kost het om een daklekkage te laten opsporen?", a: `Bij mij hoort het zoeken bij de reparatie. Ik kijk van buiten en op zolder waar het water binnenkomt, en je hoort één vaste prijs voor opsporen en dichten samen, meestal ${lekPrijs} inclusief materiaal. Is er toch extra meetwerk nodig, dan hoor je dat vooraf.` },
+      { v: "Kan ik zelf zien waar mijn dak lekt?", a: "Een eind wel. Ga bij regen met een zaklamp op zolder kijken en volg vanaf de natte plek het hout en de folie omhoog. Vaak zie je een natte streep op een balk die naar de echte plek wijst. Van buiten kun je vanaf de straat kijken naar scheve pannen, lood dat los staat bij de schoorsteen of een goot die overloopt. Ga zelf niet het dak op." },
     ],
   },
   {
@@ -166,6 +168,10 @@ export const ARTIKELEN: Artikel[] = [
       { kop: "Wat je zelf tegen condens doet", tekst: [
         "Hang geen was te drogen op zolder. Kijk of de afzuiging van je badkamer echt naar buiten gaat en niet op zolder uitkomt, dat komt voor. Zet de zolder af en toe even open zodat het vocht weg kan, en houd het zolderluik dicht als je doucht of kookt.",
       ] },
+      { kop: "Condens na het isoleren van je dak", tekst: [
+        "Heb je je dak of zolder laten isoleren en zie je daarna ineens druppels of natte plekken? Dat komt vaker voor dan je denkt. Aan de warme kant van de isolatie hoort een folie die de vochtige lucht uit huis tegenhoudt. Zit daar een naad open, of zit de folie aan de verkeerde kant, dan komt de warme lucht achter de isolatie tegen het koude dakbeschot. Daar slaat het vocht neer, en dat zie je pas als het al een tijd speelt.",
+        "Een huis met goede isolatie en nieuwe kozijnen is ook luchtdichter dan vroeger. Het vocht van douchen en koken blijft dan langer binnen hangen. Daarom is goed ventileren na het isoleren extra belangrijk. Zie je het kort na het isoleren, neem dan eerst contact op met wie het werk heeft gedaan.",
+      ] },
       { kop: "Twijfel je? Stuur een foto", tekst: [
         'Maak een foto van de natte plek en van het dakbeschot eromheen en stuur die via WhatsApp. Vaak kan ik dan al zeggen of het condens is of een lek. Druppelt het echt binnen na regen, kijk dan op de <a href="/spoed/">spoedpagina</a> wat je meteen kunt doen.',
         'Komt de condens elk jaar terug, dan kan het aan de ventilatie of de isolatie liggen. Lees ook over <a href="/diensten/dakisolatie/">dakisolatie</a>, of vraag me gewoon om even mee te kijken.',
@@ -176,6 +182,7 @@ export const ARTIKELEN: Artikel[] = [
       { v: "Is condens op zolder erg?", a: "Een beetje condens op een koude ochtend is niet meteen erg. Blijft het hout lang nat of zie je schimmel, dan wil je er wel wat aan doen. Vocht dat lang blijft zitten is slecht voor het hout en de isolatie." },
       { v: "Hoe weet ik zeker of mijn dak lekt?", a: "Kijk wanneer het nat wordt. Alleen na regen en op één plek wijst op een lek. Ook op droge, koude dagen en verspreid over het dak wijst op condens. Twijfel je, stuur dan een foto via WhatsApp." },
       { v: "Kun je ook helpen bij condens?", a: "Ik kijk of het echt condens is en geen lek, en waar het vocht vandaan komt. Soms is beter ventileren genoeg, soms ligt het aan de isolatie. Je hoort eerlijk wat er nodig is, en wat niet." },
+      { v: "Kan mijn zolder vochtiger worden nadat het dak is geïsoleerd?", a: "Dat kan. Na het isoleren blijft de warmte beter binnen, maar ook het vocht. Zit de folie aan de warme kant niet goed dicht, dan slaat dat vocht neer tegen het koude dak achter de isolatie. Ventileer goed en laat het nakijken als je kort na het isoleren druppels of schimmel ziet." },
     ],
   },
   {
@@ -205,6 +212,9 @@ export const ARTIKELEN: Artikel[] = [
       { kop: "Woon je in een rijtjeshuis?", tekst: [
         "Dan kan het water ook via de buren komen: een goot, schoorsteen of plat dak dat over meerdere huizen doorloopt. Vraag de buren of zij ook iets zien. Zit het lek aan hun kant van het dak, dan moet het daar gemaakt worden, en dat is goed om vooraf te weten. Huur je je huis, meld het lek dan eerst bij je verhuurder.",
       ] },
+      { kop: "Zit de plek in je aanbouw of onder een lichtkoepel?", tekst: [
+        'Een natte plek in het plafond van een aanbouw komt vaak niet door het platte dak zelf, maar door de plek waar dat dak tegen de muur van je huis zit. Hoe je dat herkent, lees je in <a href="/kennisbank/lekkage-bij-aanbouw/">lekkage bij de aanbouw</a>. Druppelt het rond of onder een lichtkoepel, dan zit het vaak langs de rand van de koepel, of is het condens aan de binnenkant. Het verschil lees je in <a href="/kennisbank/lichtkoepel-lekt/">lichtkoepel lekt</a>.',
+      ] },
       { kop: "Wat kost het?", tekst: [
         'Dat hangt af van waar het lek zit en hoeveel werk het is. Je hoort de vaste prijs vooraf, voordat ik begin. Wat een reparatie meestal kost, lees je in <a href="/kennisbank/wat-kost-daklekkage-repareren/">wat kost daklekkage repareren</a>. Of je verzekering meebetaalt, staat in <a href="/kennisbank/daklekkage-verzekering/">daklekkage en je verzekering</a>.',
       ] },
@@ -215,6 +225,7 @@ export const ARTIKELEN: Artikel[] = [
       { v: "Moet het plafond open om het lek te vinden?", a: "Meestal niet. Bij een daklek kijk ik eerst van buiten en op zolder. Vaak vind ik het zo, zonder iets open te breken." },
       { v: "Is een natte plek in het plafond spoed?", a: "Druppelt het of wordt de plek snel groter, dan wel. Hoe langer het lekt, hoe meer schade aan het plafond, de isolatie en het hout. Bel of WhatsApp me met een foto. Is het een oude, droge kring, dan kan het meestal even wachten, maar laat het wel nakijken." },
       { v: "Kun je ook helpen als het een leiding is?", a: "Nee, daarvoor heb je een loodgieter nodig. Twijfel je, stuur dan een foto via WhatsApp. Dan zeg ik eerlijk of het van het dak komt of niet." },
+      { v: "Kan ik over een vochtplek in het plafond heen schilderen?", a: "Pas als de oorzaak is opgelost en het plafond helemaal droog is. Dat duurt na een lek vaak een paar weken. Schilder je eerder, dan komt de kring meestal terug. Gebruik een verf die vlekken afdekt, want door gewone muurverf schemert een bruine kring vaak weer heen." },
     ],
   },
   {
@@ -276,6 +287,10 @@ export const ARTIKELEN: Artikel[] = [
         "Rond een dakraam zit een aansluiting die het water om het raam heen leidt: gootstukken, lood of loodvervanger, en de pannen eromheen. Raakt daar iets los, schuift een pan op of hoopt blad zich op boven het raam, dan loopt het water onder de aansluiting door naar binnen.",
         "Soms zit het in de rubbers of de dichting van het raam zelf. Dan zeg ik eerlijk wat er nodig is en of ik dat voor je kan oplossen.",
       ] },
+      { kop: "Lekt het alleen bij een stortbui of bij harde wind?", tekst: [
+        'Lekt je dakraam alleen bij een flinke stortbui, dan kan het water boven het raam vaak niet snel genoeg weg. Ligt er blad of mos tegen de bovenkant, dan stroomt het over het gootstuk heen naar binnen. Meer daarover lees je in <a href="/kennisbank/dak-lekt-bij-hevige-regen/">dak lekt bij een stortbui</a>.',
+        'Lekt het vooral als het hard waait, dan blaast de wind de regen langs de zijkant van het raam onder het gootstuk of een pan door. Dan kijk ik vooral naar de zijkanten van het raam. Zie ook <a href="/kennisbank/dak-lekt-bij-harde-wind/">dak lekt bij harde wind</a>.',
+      ] },
       { kop: "Lekkage of condens?", tekst: [
         'Druppels aan de binnenkant van het glas op een koude ochtend zijn meestal condens, geen lek. Komt het water alleen na regen, en vooral bij wind, dan is het een lek. Meer over het verschil lees je in <a href="/kennisbank/condens-of-lekkage-op-zolder/">condens of lekkage op zolder</a>.',
       ] },
@@ -291,6 +306,46 @@ export const ARTIKELEN: Artikel[] = [
       { v: "Kan ik een lekkend dakraam zelf dichtkitten?", a: "Een likje kit houdt het soms even droog, maar het lost de oorzaak meestal niet op. Kit op de verkeerde plek kan het water zelfs de verkeerde kant op sturen. Laat liever kijken waar het echt binnenkomt." },
       { v: "Moet het hele dakraam vervangen worden?", a: "Meestal niet. Vaak zit het in de aansluiting met het dak, en die is te herstellen. Is het raam zelf op, dan zeg ik dat eerlijk." },
       { v: "Kun je snel komen als het binnen druppelt?", a: "Bij spoed in de regio Den Bosch lukt dat vaak nog dezelfde dag. Bel of WhatsApp me met een foto." },
+      { v: "Er ligt blad boven mijn dakraam, is dat erg?", a: "Een beetje blad is niet meteen erg. Maar blad en mos boven het raam houden het water tegen, en bij een flinke bui loopt het dan over de aansluiting heen naar binnen. Laat het weghalen als je het ziet liggen. Hang niet zelf uit het open raam om erbij te komen, op een schuin dak is dat gevaarlijk." },
+    ],
+  },
+  {
+    slug: "lichtkoepel-lekt",
+    datum: "2026-10-29",
+    titel: "Lichtkoepel lekt?",
+    h1: "Lichtkoepel lekt: langs de rand, door de koepel of is het condens?",
+    metaTitle: "Lichtkoepel lekt: oorzaken en oplossing | Spoed Dak Service",
+    metaDescription:
+      "Druppelt het onder je lichtkoepel? Meestal zit het lek in de aansluiting met het platte dak, niet in de koepel zelf. Zo zie je waar het zit en wat je doet.",
+    intro:
+      "Een lichtkoepel staat op een opstand, een rand die boven het platte dak uitsteekt. Rond die opstand moet de dakbedekking netjes aansluiten. Druppelt het onder de koepel, dan denk je al snel dat de koepel zelf kapot is. Meestal zit het lek ernaast, in die aansluiting. Hieronder lees je hoe je ziet waar het zit en wat eraan te doen is.",
+    secties: [
+      { kop: "Lekt het nu? Eerst dit", tekst: [
+        'Zet een emmer onder de koepel, leg er een doek in en haal spullen weg die nat kunnen worden. Ga niet zelf het platte dak op als het nat of glad is, en stap nooit op de koepel: die is niet gemaakt om op te staan. Wat je verder meteen kunt doen, staat op de <a href="/spoed/">spoedpagina</a>.',
+      ] },
+      { kop: "Waar het meestal zit", tekst: [
+        "In de aansluiting tussen de dakbedekking en de opstand. Daar zit een hoek of naad die na jaren van zon, regen en vorst loslaat of scheurt. Het water loopt dan achter de dakbedekking langs de opstand naar beneden en druppelt precies onder de koepel naar binnen.",
+        "In de koepel zelf. De afdichting tussen koepel en opstand droogt uit, een schroef of klem zit los, of er komt een scheur in de koepel. Een oude koepel van kunststof wordt na veel jaren in de zon bros en dof, en een scheur begint dan vaak bij een schroefgat.",
+        'Of in het water eromheen. Blijft er na een bui water op het dak staan rond de koepel, dan staat de aansluiting steeds onder water en vindt het makkelijker een weg naar binnen. Zie <a href="/kennisbank/water-blijft-staan-op-plat-dak/">water blijft staan op je platte dak</a>.',
+      ] },
+      { kop: "Lek of condens?", tekst: [
+        'Druppels aan de binnenkant van de koepel op een koude ochtend zijn vaak condens. Warme, vochtige lucht uit een badkamer of keuken slaat neer tegen de koude koepel, vooral bij een oude koepel met maar één laag. Dan druppelt het ook als het droog is. Komt het water alleen bij of na regen, dan is het een lek. Meer over het verschil lees je in <a href="/kennisbank/condens-of-lekkage-op-zolder/">condens of lekkage op zolder</a>.',
+      ] },
+      { kop: "Wat je zelf beter niet doet", tekst: [
+        "Smeer niet zelf een rand kit rond de koepel. Op een natte of vuile ondergrond hecht kit slecht, en kit op de verkeerde plek kan het water juist achter de dakbedekking vasthouden. Maak liever een foto van de natte plek binnen en, als je er veilig bij kunt, van de koepel vanuit een raam, en stuur die via WhatsApp.",
+      ] },
+      { kop: "Hoe ik het aanpak", tekst: [
+        'Ik kijk eerst waar het water echt binnenkomt: in de aansluiting, bij de koepel of op een plek verderop op het platte dak. Een losse of gescheurde aansluiting maak ik weer dicht. Is de koepel zelf gescheurd of bros, dan zeg ik eerlijk of herstellen nog zin heeft of dat er een nieuwe koepel op moet. Zie <a href="/diensten/platte-daken/">platte daken</a>.',
+      ] },
+      { kop: "Wat kost het?", tekst: [
+        'Een losse aansluiting dichtmaken is meestal een overzichtelijke klus. Moet er een nieuwe koepel op, dan is het meer werk. In beide gevallen hoor je vooraf wat het kost, voordat ik begin. Lekt het al langer en is het plafond eronder nat geworden, lees dan ook <a href="/kennisbank/daklekkage-verzekering/">daklekkage en je verzekering</a>.',
+      ] },
+    ],
+    dienst: { label: "Bekijk: platte daken", href: "/diensten/platte-daken/" },
+    faq: [
+      { v: "Waarom lekt mijn lichtkoepel alleen bij harde regen?", a: "Bij een flinke bui komt het water op het platte dak hoger te staan, zeker als de afvoer een beetje vol zit. Dan bereikt het een naad of scheur in de aansluiting die bij gewone regen droog blijft. Kijk dus ook of de afvoer van je platte dak vrij is." },
+      { v: "Kan ik op een lichtkoepel staan?", a: "Nee. Een lichtkoepel is niet gemaakt om op te staan of op te leunen, ook al voelt hij stevig. Blijf er altijd naast." },
+      { v: "Moet een lekkende lichtkoepel er helemaal af?", a: "Dat hangt af van waar het lek zit. Is alleen de aansluiting met de dakbedekking los, dan kan de koepel blijven zitten. Zit er een scheur in de koepel zelf, of is hij zo bros dat hij kraakt als je hem aanraakt, dan heeft plakken weinig zin." },
     ],
   },
   {
@@ -330,6 +385,51 @@ export const ARTIKELEN: Artikel[] = [
       { v: "Kun je snel komen als er een vorst los ligt?", a: "Ligt de nok open of is er een vorst afgewaaid, bel of WhatsApp me dan meteen met een foto. Bij spoed in de regio Den Bosch lukt het vaak nog dezelfde dag." },
       { v: "Wat houdt het in als de nok gerenoveerd wordt?", a: "Dan haal ik de vorsten eraf, haal de oude, brokkelige specie weg en leg de vorsten er opnieuw goed vast op, recht en dicht. Kapotte vorsten vervang ik door passende. Daarna liggen ze weer stevig op de nok. Je hoort vooraf de vaste prijs." },
       { v: "Kan ik met losse nokvorsten wachten tot het voorjaar?", a: "Liever niet. In de herfst en winter waait het het hardst, en dan is de kans het grootst dat een losse vorst eraf waait. Laat het daarom nakijken voordat de stormen komen." },
+      { v: "Wat kost het om losse nokvorsten vast te laten zetten?", a: `Een paar losse vorsten vastzetten valt meestal onder een kleine reparatie: ${kleinPrijs}. Moet de hele nok opnieuw, dan is het meer werk. Je hoort altijd vooraf de vaste prijs.` },
+      { v: "Wat is een ondervorst?", a: "Een strook onder de nokvorsten die de nok afsluit tegen regen en wind, maar wel lucht onder de pannen laat. Wordt een nok opnieuw gelegd, dan komt zo'n ondervorst vaak in de plaats van de oude specie." },
+    ],
+  },
+  {
+    slug: "dakpan-kapot-of-verschoven",
+    datum: "2026-10-29",
+    titel: "Dakpan kapot of verschoven?",
+    h1: "Dakpan kapot of verschoven: zo zie je het en dit doe je eraan",
+    metaTitle: "Dakpan kapot of verschoven: wat nu? | Spoed Dak Service",
+    metaDescription:
+      "Een gebroken of scheve dakpan zie je vaak al vanaf de straat. Zo herken je het, waarom één pan genoeg is voor een lek en wat vervangen kost.",
+    intro:
+      "Eén kapotte of verschoven dakpan lijkt weinig. Maar op die plek heeft de regen vrij spel, en het water zoekt daar langzaam een weg naar binnen. Vaak merk je het pas weken later, aan een natte plek op zolder. Hieronder lees je hoe je het ziet, wat je zelf doet en hoe ik het herstel.",
+    secties: [
+      { kop: "Zo zie je het vanaf de straat", tekst: [
+        "Ga aan de overkant van de straat staan en kijk rustig over elk dakvlak. Een pan die scheef ligt of een stukje uitsteekt, breekt de rechte lijn van de rij. Een donkere streep of een gat in de rij betekent vaak dat een pan is gaan schuiven en je de panlat eronder ziet. En ligt er een stuk pan in de goot of in de tuin, dan is er boven iets gebroken.",
+        "Met de zoom van je telefoon zie je meer dan je denkt. Maak een paar foto's van elk dakvlak, dan heb je meteen iets om door te sturen.",
+      ] },
+      { kop: "Of op zolder", tekst: [
+        "Op zolder zie je soms een streepje daglicht tussen de pannen, of na regen een natte plek op het hout of de folie. Liggen de pannen bij jou zonder folie of beschot eronder, zoals bij veel oudere huizen, dan zie je een verschoven pan van binnen het snelst.",
+      ] },
+      { kop: "Waarom één pan al genoeg is", tekst: [
+        'Onder de pannen ligt vaak folie of een houten beschot, en dat houdt even wat water tegen. Maar het is niet gemaakt om lang in de regen te liggen. Na een tijd loopt het water langs de panlatten naar beneden en komt het verderop binnen, meestal niet recht onder de kapotte pan. Hoe dat werkt, lees je in <a href="/kennisbank/daklekkage-opsporen/">daklekkage opsporen</a>.',
+        'Een losse pan vangt ook wind. Bij de volgende storm kan hij wegwaaien en de pannen eromheen meetrekken. Ligt er na een storm meer los, lees dan <a href="/kennisbank/stormschade-eerste-hulp/">stormschade: eerste hulp</a>.',
+      ] },
+      { kop: "Hoe het komt", tekst: [
+        "Een pan breekt door vorst in een oude pan die water opneemt, door hagel of een vallende tak, of doordat er iemand op het dak heeft gestaan. Verschuiven gebeurt meestal door harde wind of door een panlat eronder die rot of los is.",
+      ] },
+      { kop: "Wat je zelf beter niet doet", tekst: [
+        "Ga niet zelf het dak op om de pan terug te duwen. Een dakpan moet precies in de pannen ernaast en in de pan erboven haken. Ligt hij net niet goed, dan ligt hij na een paar dagen weer scheef. Plak een gebroken pan ook niet met kit of tape: dat laat na een winter weer los.",
+      ] },
+      { kop: "Een passende pan vinden", tekst: [
+        "Een nieuwe pan moet in vorm en maat passen bij de pannen die er al liggen, anders sluit hij niet. Van veel modellen zijn nog passende pannen te krijgen. Is een oud model echt niet meer te vinden, dan is er vaak nog een oplossing: een pan van een plek die je niet ziet, zoals de achterkant van het dak, naar voren halen en daar een pan leggen die er het meest op lijkt. Dat bespreek ik dan eerst met je.",
+      ] },
+      { kop: "Wat kost het?", tekst: [
+        `Een paar losse of kapotte pannen vervangen valt meestal onder een kleine reparatie: ${kleinPrijs}. Is het water al een tijd naar binnen gelopen en zijn de panlatten of de folie eronder ook nat of rot, dan is het meer werk. Je hoort de vaste prijs vooraf.`,
+      ] },
+    ],
+    dienst: { label: "Bekijk: dakpannen vervangen", href: "/diensten/dakpannen-vervangen/" },
+    faq: [
+      { v: "Hoe lang kan ik wachten met een kapotte dakpan?", a: "Lekt het al binnen of ligt er een stuk dak open, wacht dan niet en bel of app me. Is het binnen nog droog, dan heb je vaak een paar dagen. Maar elke bui maakt het hout en de folie eronder natter, en bij harde wind kan de pan helemaal loskomen." },
+      { v: "Kan ik een gebroken dakpan lijmen of kitten?", a: "Dat houdt zelden lang. Kit en tape laten na een paar maanden zon en vorst los, en een gelijmde pan breekt vaak naast de naad opnieuw. Een nieuwe pan blijft wel liggen." },
+      { v: "Betaalt de verzekering een kapotte dakpan?", a: "Breekt of verschuift een pan door storm of hagel, dan valt de schade vaak onder je opstalverzekering. Is de pan door ouderdom of vorst gescheurd, dan meestal niet. Maak foto's en kijk in je polis. Meer lees je in het artikel over daklekkage en je verzekering." },
+      { v: "Moet het hele dak vervangen worden als er een paar pannen kapot zijn?", a: "Nee. Een paar kapotte pannen vervang ik los. Pas als er op veel plekken pannen gebroken, poreus of afgebrokkeld zijn, is het slimmer om naar een groter stuk dak te kijken. Met de Dak-APK krijg je een fotorapport van je hele dak." },
     ],
   },
   {
@@ -370,6 +470,40 @@ export const ARTIKELEN: Artikel[] = [
       { v: "Is lekkage bij zonnepanelen spoed?", a: "Loopt er water naar binnen, dan wel: hoe langer het lekt, hoe meer schade aan hout en isolatie. Bel of WhatsApp me met een foto van de natte plek." },
       { v: "Wie betaalt de reparatie als het lek door de installatie komt?", a: "Komt het lek door het plaatsen van de panelen, dan is dat in de regel iets voor de installateur. Neem daarom eerst contact met hen op. Liggen de panelen er al jaren of komt de installateur niet, dan kijk ik waar het lek zit en hoor je vooraf de vaste prijs." },
       { v: "Lekt een plat dak met zonnepanelen sneller?", a: "Niet vanzelf. Maar onder en tussen de panelen zie je de dakbedekking slecht, en daar blijft sneller blad liggen. Laat daarom af en toe kijken of de afvoer vrij is en de dakbedekking onder de panelen nog goed is." },
+    ],
+  },
+  {
+    slug: "lekkage-bij-dakdoorvoer",
+    datum: "2026-10-29",
+    titel: "Lekt het langs een pijp door je dak?",
+    h1: "Lekkage bij een ontluchtingspijp of dakdoorvoer: waar het zit en wat je doet",
+    metaTitle: "Lekkage bij ontluchtingspijp of doorvoer | Spoed Dak Service",
+    metaDescription:
+      "Druppelt het langs een pijp die door je dak gaat? Vaak zit het lek in de kraag of de doorvoerpan rond de pijp, of is het condens. Zo zie je het verschil.",
+    intro:
+      "Op bijna elk dak steekt wel een pijp naar buiten: de ontluchting van het riool, de afvoer van de cv-ketel of de afzuiging van de badkamer. Rond zo'n pijp moet het dak netjes dicht aansluiten. Druppelt het op zolder langs de pijp, dan zit het lek meestal in die aansluiting en niet in de pijp zelf. Soms is het helemaal geen lek, maar condens. Hieronder lees je hoe je het verschil ziet en wat eraan te doen is.",
+    secties: [
+      { kop: "Lekt het nu? Eerst dit", tekst: ['Zet een emmer onder de druppel en maak een foto van de pijp en de natte plek eromheen. Ga niet zelf het dak op. Wat je verder meteen kunt doen, staat op de <a href="/spoed/">spoedpagina</a>.'] },
+      { kop: "Welke pijpen gaan er door je dak?", tekst: ["De ontluchtingspijp van het riool zie je op bijna elk huis: een grijze of zwarte pijp die een stukje boven de pannen uitsteekt. Daarnaast heb je vaak de afvoer van de cv-ketel, meestal een dikkere pijp met een kap erop, en soms de afzuiging van de badkamer of de ventilatie. Liggen er zonnepanelen op je dak, dan gaat ook de kabel ergens door het dak naar binnen."] },
+      { kop: "Waar het meestal lekt", tekst: [
+        "Op een pannendak gaat de pijp door een speciale pan: de doorvoerpan. Rond de pijp zit een rubberen of kunststof kraag, of een stuk lood. Na jaren in de zon droogt dat rubber uit en scheurt het, of het zakt een stukje omlaag langs de pijp. Dan loopt het water bij een bui langs de pijp naar binnen.",
+        "Ook de doorvoerpan zelf kan gebarsten of verschoven zijn, bijvoorbeeld na een storm of als er iemand op het dak heeft gestaan. En soms heeft iemand de kier rond de pijp ooit met kit dichtgesmeerd. Dat houdt een paar jaar, en daarna laat de kit los.",
+        'Op een plat dak zit rond de pijp een manchet die in de dakbedekking is opgenomen. Laat die aansluiting los of scheurt de dakbedekking rond de pijp, dan komt het water erachter. Blijft er water rond de pijp staan, lees dan ook <a href="/kennisbank/water-blijft-staan-op-plat-dak/">water blijft staan op je platte dak</a>.',
+      ] },
+      { kop: "Lek of condens in de pijp?", tekst: [
+        "Een ontluchtingspijp of afzuigpijp die door een koude zolder loopt, wordt zelf ook koud. Warme, vochtige lucht slaat daar tegen neer, en die druppels lopen langs de pijp naar beneden. Dat lijkt op een lek, maar het komt van binnen.",
+        'Het verschil: condens zie je ook op droge, koude dagen, vaak verspreid over de hele pijp. Een lek komt bij of vlak na regen, en de natte plek begint bovenaan, waar de pijp door het dak gaat. Meer over het verschil lees je in <a href="/kennisbank/condens-of-lekkage-op-zolder/">condens of lekkage op zolder</a>.',
+      ] },
+      { kop: "Bij de afvoer van je cv-ketel", tekst: ["Druppelt het bij de afvoer van je cv-ketel, dan kan het ook uit de pijp zelf komen. Een ketel maakt bij het stoken waterdamp, en dat water hoort via de ketel weg te lopen. Lekt het binnen uit een verbinding van de pijp, dan is dat werk voor je installateur. De aansluiting van die pijp op het dak, de doorvoerpan en de kraag eromheen, maak ik wel weer dicht."] },
+      { kop: "Hoe ik het aanpak", tekst: ['Ik kijk eerst of het water van buiten komt of van binnen. Is de kraag uitgedroogd of de doorvoerpan gebarsten, dan vervang ik die door een passende. Zit er lood rond de pijp, dan zet ik dat weer goed om de pijp en over de pannen. Op een plat dak maak ik de aansluiting rond de pijp opnieuw dicht. Alleen een rand kit erom vind ik geen goede oplossing, want die laat na een paar jaar weer los. Zie <a href="/diensten/dakreparatie/">dakreparatie</a>.'] },
+      { kop: "Wat kost het?", tekst: ['Een nieuwe kraag of doorvoerpan is meestal een overzichtelijke klus. Is het water al een tijd langs de pijp naar binnen gelopen en zijn het hout of de isolatie eromheen nat, dan is het meer werk. Je hoort vooraf de vaste prijs, voordat ik begin. Richtprijzen staan op de <a href="/prijzen/">prijzenpagina</a>.'] },
+    ],
+    dienst: { label: "Bekijk: dakreparatie (pannen, lood en nok)", href: "/diensten/dakreparatie/" },
+    faq: [
+      { v: "Waarom lekt het langs mijn ontluchtingspijp?", a: "Meestal zit het in de kraag rond de pijp. Rubber droogt na jaren in de zon uit en scheurt, of de kraag zakt omlaag. Ook een gebarsten doorvoerpan of oude kit kan de oorzaak zijn. En soms is het condens in de pijp en geen lek." },
+      { v: "Hoe weet ik of het condens is of een lek?", a: "Kijk wanneer het nat wordt. Ook op droge, koude dagen en verspreid over de pijp wijst op condens. Alleen bij of na regen, en vooral bovenaan bij het dak, wijst op een lek. Twijfel je, stuur dan een foto via WhatsApp." },
+      { v: "Kan ik de kier rond de pijp zelf dichtmaken?", a: "Met kit houd je het vaak maar kort droog. Zon en vorst laten het na een paar jaar loslaten, en dan lekt het op dezelfde plek. En op het dak werken is niet zonder risico. Laat liever kijken of de kraag of de doorvoerpan vervangen moet worden." },
+      { v: "De afvoer van mijn cv-ketel lekt, bel ik jou of de installateur?", a: "Lekt het binnen uit een verbinding van de pijp, dan is dat werk voor de installateur. Komt het water van buiten langs de pijp naar binnen, waar die door het dak gaat, dan kijk ik ernaar. Stuur een foto, dan zeg ik eerlijk wie je het beste kunt bellen." },
     ],
   },
   {
@@ -414,6 +548,15 @@ export const ARTIKELEN: Artikel[] = [
       { kop: "Waarom het belangrijk is", tekst: [
         "Een verstopte goot loopt over langs de gevel, trekt vocht in muren en fundering en kan binnen voor lekkage zorgen. Een kleine jaarlijkse onderhoudsbeurt voorkomt dure schade.",
       ] },
+      { kop: "Wanneer vaker dan één keer per jaar", tekst: [
+        "Staan er naaldbomen bij je huis, zoals dennen of sparren, dan valt er het hele jaar door iets in de goot. Naalden zijn klein en zakken door de meeste bladvangers heen, en na een tijd zitten ze in de regenpijp zelf. Dan is in het voorjaar nog een keer leegmaken slim.",
+        'Heeft je huis een kilgoot of een bakgoot, dan komt daar meer water samen, en een volle goot loopt dan naar binnen in plaats van langs de gevel. Die wil je zeker voor de winter leeg hebben. Zie <a href="/kennisbank/kilgoot-lekt/">kilgoot lekt</a> en <a href="/kennisbank/bakgoot-lekt/">bakgoot lekt</a>.',
+        'Groeit er veel mos op je pannen, dan spoelt dat bij elke bui in brokjes de goot in. Dan zit de goot sneller vol, ook zonder bomen in de buurt. Lees ook <a href="/kennisbank/mos-op-dak-verwijderen/">mos op je dak</a>.',
+      ] },
+      { kop: "Zo controleer je het zelf vanaf de grond", tekst: [
+        "Kijk na een droge week vanaf de overkant van de straat naar je goot. Steken er sprietjes gras of plantjes boven de rand uit, dan ligt er al een laag aarde in. Luister bij een flinke bui bij de regenpijp: hoor je nauwelijks water stromen terwijl het hard regent, dan komt het water er niet in. En zitten er steeds vogels op dezelfde plek in de goot, dan staat daar vaak een plas water.",
+        "Ga voor een kijkje niet zelf op een ladder tegen de goot staan, zeker niet als het nat is. Een foto met de zoom van je telefoon is vaak al genoeg om te zien hoe vol hij zit.",
+      ] },
       { kop: "Wat kost goten reinigen?", tekst: [
         `Bij een rijtjeswoning is het ${GOTEN_PRIJS}: beide goten leeg, uitloop naar de regenpijp vrijgemaakt, troep mee. Bij een groter of hoger huis hoor je vooraf de vaste prijs, nooit achteraf verrassingen.`,
       ] },
@@ -421,6 +564,8 @@ export const ARTIKELEN: Artikel[] = [
     dienst: { label: "Bekijk: dakgoot reinigen", href: "/diensten/goten-reinigen/" },
     faq: [
       { v: "Wanneer kan ik het beste laten reinigen?", a: "In het najaar, als het meeste blad gevallen is, dan heb je er het hele jaar profijt van en voorkom je winterlekkage." },
+      { v: "Helpt een bladvanger of een gootrooster?", a: "Het scheelt. Een bladvanger op de uitloop houdt grof blad uit de regenpijp, en een rooster over de goot houdt het meeste blad tegen. Maar naalden, zaadjes en mos komen er nog steeds langs, en blad dat op het rooster blijft liggen moet er ook af. Eén keer per jaar laten nakijken blijft nodig." },
+      { v: "Waarom loopt mijn goot over terwijl er weinig blad in ligt?", a: "Dan zit het vaak bij de uitloop naar de regenpijp: een prop naalden, mos of zelfs een tennisbal is genoeg om die dicht te zetten. Het kan ook zijn dat de goot niet meer goed naar de regenpijp afloopt, zodat het water in het midden blijft staan. Stuur een foto, dan kijk ik mee." },
     ],
   },
   {
@@ -448,6 +593,9 @@ export const ARTIKELEN: Artikel[] = [
       { kop: "Wat erbij zit", tekst: [
         "Blad, mos en vuil eruit, de bladvangers gecontroleerd en de uitloop naar de regenpijp vrijgemaakt. Omdat ik toch boven ben, kijk ik meteen naar de pannen, het lood en de goot zelf. Zie ik iets wat aandacht nodig heeft, dan hoor je dat eerlijk, en ook als er niks aan de hand is.",
         'Zit de verstopping dieper in de regenpijp, of lekt de goot zelf? Lees dan <a href="/kennisbank/verstopte-regenpijp-lekkende-dakgoot/">verstopte regenpijp of lekkende dakgoot</a>.',
+      ] },
+      { kop: "Goten schoonmaken bij jou in de buurt", tekst: [
+        'Woon je in de regio Den Bosch? Per plaats lees je wat ik daar vaak in de goot tegenkom, van blad onder de bomen tot zand uit de duinen: in <a href="/werkgebied/den-bosch/goten-reinigen/">Den Bosch</a>, <a href="/werkgebied/oss/goten-reinigen/">Oss</a>, <a href="/werkgebied/vught/goten-reinigen/">Vught</a>, <a href="/werkgebied/oisterwijk/goten-reinigen/">Oisterwijk</a>, <a href="/werkgebied/boxtel/goten-reinigen/">Boxtel</a> en <a href="/werkgebied/drunen/goten-reinigen/">Drunen</a>. Andere plaatsen vind je bij <a href="/werkgebied/">mijn werkgebied</a>.',
       ] },
       { kop: "Zelf doen of laten doen?", tekst: [
         "De lage goot van een schuur of garage kun je prima zelf leeghalen. Bij een goot op hoogte is een ladder op een natte of schuine ondergrond het grootste risico. Dan laat je het liever doen.",
@@ -491,6 +639,7 @@ export const ARTIKELEN: Artikel[] = [
       { v: "Krijg ik de prijs vooraf te horen?", a: "Altijd. Ik kijk wat de oorzaak is en noem een vaste prijs voordat ik begin, zonder verrassingen achteraf." },
       { v: "Hoe wordt het lek gevonden?", a: "Meestal met een gerichte controle van buiten en op zolder, zonder sloopwerk. Lees daarover in het artikel ‘Daklekkage opsporen’." },
       { v: "Vergoedt mijn verzekering de reparatie?", a: "Bij storm- of stormgerelateerde schade vaak wel (opstalverzekering). Ik lever foto's en een omschrijving aan zodat je het kunt indienen." },
+      { v: "Wat kost een lek in een plat dak repareren?", a: `Een gericht lek in een plat dak, bijvoorbeeld bij een naad, de rand of de afvoer, kost meestal net zoveel als een ander lek: ${lekPrijs}, inclusief materiaal. Is de dakbedekking op meer plekken versleten en moet er een groter stuk opnieuw, dan hoor je vooraf een vaste prijs. Meer daarover lees je in het artikel over plat dak repareren of vervangen.` },
     ],
   },
   {
@@ -526,6 +675,8 @@ export const ARTIKELEN: Artikel[] = [
       { v: "Vergoedt de opstalverzekering daklekkage?", a: "Vaak wel als het lek plotseling ontstond, bijvoorbeeld door storm of hagel. Komt het door slijtage of achterstallig onderhoud, dan meestal niet, of alleen de schade binnen. Kijk altijd in je eigen polisvoorwaarden." },
       { v: "Moet ik met repareren wachten tot de verzekeraar is geweest?", a: "Een noodreparatie om erger te voorkomen mag meestal gewoon, en verzekeraars verwachten dat ook. Maak eerst goede foto's en bewaar de factuur. Over de definitieve reparatie kun je het beste even met je verzekeraar overleggen." },
       { v: "Ik huur mijn huis, wie betaalt de reparatie?", a: "Het dak is de zaak van je verhuurder. Meld het lek daar zo snel mogelijk. Schade aan je eigen spullen valt onder je eigen inboedelverzekering." },
+      { v: "Valt daklekkage onder mijn brandverzekering?", a: "Wat veel mensen de brandverzekering noemen, is meestal de opstalverzekering van je huis. Die dekt niet alleen brand, maar vaak ook schade door storm of een plotseling lek. Of jouw lek eronder valt, hangt af van de oorzaak en van je polis. Lekkage door slijtage of achterstallig onderhoud valt er meestal niet onder." },
+      { v: "Wordt schade aan mijn muur door een lekkende dakgoot vergoed?", a: "Loopt een goot over of lekt hij omdat hij al lang vol zit of oud is, dan zien veel verzekeraars dat als onderhoud, en dan wordt de schade vaak niet vergoed. Scheurt de goot bij een storm los of raakt hij plotseling lek, dan ligt dat anders. Maak foto's van de goot en van de natte muur, en kijk in je polisvoorwaarden." },
     ],
   },
   {
@@ -636,6 +787,9 @@ export const ARTIKELEN: Artikel[] = [
       { kop: "Repareren of opnieuw bekleden?", tekst: [
         'Een lekke naad, een losse hoek of een lekkende uitloop is vaak goed te herstellen. Is het zink op veel plekken dun of zit het hout eronder al zacht, dan is het slimmer om de bakgoot in één keer opnieuw te bekleden. Ik kijk eerst wat er echt aan de hand is en zeg eerlijk wat in jouw geval verstandig is. Zie <a href="/diensten/dakgoot-vervangen/">dakgoot repareren of vervangen</a>.',
       ] },
+      { kop: "Bakgoten in de regio Den Bosch", tekst: [
+        `Bakgoten kom je in de regio Den Bosch vooral tegen bij huizen van voor de oorlog, zoals in de Muntel en de Vliert in Den Bosch, en bij de oudere villa's en herenhuizen in Vught. In Oisterwijk ligt de goot bij oude villa's vaak in een houten gootlijst. Wat ik daar tegenkom en hoe ik het aanpak, lees je bij dakgoot repareren in <a href="/werkgebied/den-bosch/dakgoot-vervangen/">Den Bosch</a>, <a href="/werkgebied/vught/dakgoot-vervangen/">Vught</a> en <a href="/werkgebied/oisterwijk/dakgoot-vervangen/">Oisterwijk</a>.`,
+      ] },
       { kop: "Wat kost het?", tekst: [
         'Dat hangt af van wat er lek is, hoe lang de goot is en of het hout eronder nog goed is. Je hoort de vaste prijs vooraf, voordat ik begin. Richtprijzen staan op de <a href="/prijzen/">prijzenpagina</a>.',
       ] },
@@ -683,6 +837,8 @@ export const ARTIKELEN: Artikel[] = [
       { v: "Moet ik zelf het dak op om de schade af te dekken?", a: "Nee, doe dat niet, zeker niet vlak na een storm. Bel mij, ik dek het veilig af en herstel daarna." },
       { v: "Vergoedt mijn verzekering stormschade?", a: "Vaak wel via de opstalverzekering. Ik lever foto's en een omschrijving aan zodat je het kunt indienen; check de voorwaarden bij je verzekeraar." },
       { v: "Hoe snel moet ik stormschade melden bij mijn verzekering?", a: "Zo snel als je kunt. Hoe snel precies, staat in je polisvoorwaarden. Maak meteen foto's van de schade, binnen en vanaf de straat van je dak, en bewaar die." },
+      { v: "Wat doe je bij een noodreparatie na een storm?", a: "Eerst zorg ik dat er geen water meer binnenkomt. Liggen er pannen of nokvorsten los, dan leg ik ze terug of vervang ik ze. Is een stuk dak open en kan het niet meteen goed, dan dek ik het eerst af en kom ik daarna terug voor de nette reparatie. Je hoort vooraf wat het kost." },
+      { v: "Wie betaalt als er een pan van mijn dak op de auto of het dak van de buren valt?", a: "Bij een echte storm geldt dat vaak als overmacht. Dan loopt de schade meestal via de verzekering van de buren of van de auto. Lag de pan al lang zichtbaar los, dan kan het anders liggen. Maak foto's van je dak en van de schade, en meld het bij je eigen verzekeraar. Die zoekt verder uit wie wat betaalt." },
     ],
   },
   {
@@ -708,6 +864,9 @@ export const ARTIKELEN: Artikel[] = [
       { kop: "Oudere daken", tekst: [
         "Bij sommige oudere daken ligt onder de pannen geen goede waterkerende laag meer, of is die op plekken vergaan. Waait er dan water onder een pan door, dan komt het meteen op zolder terecht. Ligt er wel een goede laag onder, dan loopt het water meestal eerst daarover naar de goot.",
       ] },
+      { kop: "Aan welke kant van het dak lekt het?", tekst: [
+        "In Nederland komt harde wind meestal uit het zuidwesten of het westen. Daarom zie ik lekkage bij storm het vaakst aan die kant van het huis: bij de pannen langs de rand van het dak, bij de nok en bij het lood rond de schoorsteen of het dakraam aan de windkant. Lekt het bij jou aan de andere kant, dan kan dat ook. Het water kan over de nok heen waaien, of eerst een stuk opzij onder de pannen lopen voordat het binnenkomt.",
+      ] },
       { kop: "Wat je nu doet", tekst: [
         'Vang het water op en maak een foto van de natte plek, ook als het later weer droog is. Schrijf op bij wat voor weer het lekte: uit welke hoek de wind kwam en hoe hard het regende. Dat helpt mij om de plek op het dak te vinden. Ga niet zelf het dak op bij harde wind. Lekt het nu flink, kijk dan op de <a href="/spoed/">spoedpagina</a>.',
       ] },
@@ -720,6 +879,8 @@ export const ARTIKELEN: Artikel[] = [
       { v: "Waarom lekt mijn dak alleen bij storm?", a: "Omdat de wind de regen dan schuin onder de pannen of de nokvorsten door blaast. Bij gewone regen loopt het water er gewoon overheen. Vaak zit het bij de nok, een verschoven pan of het lood bij de schoorsteen." },
       { v: "Is het erg als het maar af en toe lekt?", a: "Laat het liever niet zitten. Elke keer worden het hout en de isolatie nat, en een plek die nu alleen bij storm lekt, wordt bij de volgende storm vaak groter." },
       { v: "Kan ik het zelf zien vanaf de straat?", a: "Soms wel. Een scheve nokvorst, een pan die anders ligt dan de rest of stukjes specie in de goot zie je vaak met een verrekijker. Stuur gerust een foto via WhatsApp, dan kijk ik mee." },
+      { v: "Valt lekkage door harde wind onder mijn verzekering?", a: "Dat hangt af van je polis. Veel verzekeraars spreken pas van storm bij windkracht 7 of meer. Lekt het door zo'n storm, dan wordt de schade binnen vaak vergoed. Lekt het bij elke flinke windvlaag door een pan die al lang scheef lag, dan zien ze dat eerder als onderhoud. Maak foto's van de natte plek en van je dak vanaf de straat, en kijk in je polisvoorwaarden." },
+      { v: "Is lekkage bij harde wind spoed?", a: "Druppelt het nu binnen, of ligt er een pan of nokvorst op straat, dan wel: bel of app me met een foto. Waren het een paar druppels en is het weer droog, dan kan het meestal een paar dagen wachten. Twijfel je, stuur dan een foto via WhatsApp, dan zeg ik eerlijk of het vandaag moet." },
     ],
   },
   {
@@ -760,6 +921,8 @@ export const ARTIKELEN: Artikel[] = [
       { v: "Waarom lekt mijn kilgoot alleen bij een stortbui?", a: "Bij een gewone bui kan het water weg. Bij een stortbui, of als er blad in de kil ligt, komt het water hoger te staan dan de rand van het lood of zink en loopt het opzij onder de pannen door. Dat zie je dan pas binnen." },
       { v: "Kan ik de kil zelf schoonmaken?", a: "Liever niet. Een kil ligt midden op een schuin dak en dat is glad, zeker in de herfst. Laat het doen door iemand die veilig op een dak kan werken." },
       { v: "Kun je snel komen als het in de hoek binnenkomt?", a: "Bel of WhatsApp me met een foto van de natte plek binnen en, als dat veilig kan, een foto van het dak vanaf de straat. Dan hoor je wanneer ik kan komen." },
+      { v: "Hoe vaak moet een kilgoot schoongemaakt worden?", a: "Kijk elk najaar even vanaf de straat of er blad of mos in de kil ligt. Staan er bomen vlak bij je huis, dan is het slim om de kil elk jaar na de bladval leeg te laten maken, tegelijk met je goten. Dan kan het water in de winter vrij weglopen." },
+      { v: "Valt een lekkende kilgoot onder de verzekering?", a: "Lekt de kil doordat het lood of zink oud is of doordat er lang blad in lag, dan zien verzekeraars dat meestal als onderhoud. Is er bij een storm een pan langs de kil verschoven of is er een tak op gevallen, dan is het eerder plotselinge schade. Maak foto's van de natte plek en kijk in je polisvoorwaarden." },
     ],
   },
   {
@@ -782,6 +945,12 @@ export const ARTIKELEN: Artikel[] = [
       { kop: "Let op per daktype", tekst: [
         "Pannendak: controleer op losse, gebroken of poreuze pannen, verwijder mos op tijd (mos houdt vocht vast) en kijk jaarlijks de nokvorsten en het lood bij schoorsteen en dakramen na.",
         "Plat dak: hier is stilstaand water de grootste vijand. Controleer na hevige regen of het water goed wegloopt, en houd naden en opstanden in de gaten.",
+      ] },
+      { kop: "Voor de winter: vier dingen om na te lopen", tekst: [
+        'De nok. Liggen er brokjes specie in de goot of op de stoep, dan zitten er vaak vorsten los. Lees <a href="/kennisbank/nokvorsten-los/">losse nokvorsten</a>.',
+        'Mos op de noordkant. Een dikke laag houdt vocht vast, en als dat bevriest kan een pan scheuren. Zie <a href="/kennisbank/mos-op-dak-verwijderen/">mos op je dak</a>. Hoe vaak je goot leeg moet, lees je in <a href="/kennisbank/hoe-vaak-dakgoot-reinigen/">hoe vaak dakgoot reinigen</a>.',
+        'De schoorsteen. Stook je hout, laat hem dan vegen voordat je de kachel echt gaat gebruiken. Zie <a href="/kennisbank/schoorsteen-vegen-hoe-vaak/">hoe vaak schoorsteen vegen</a>.',
+        'Het platte dak. Kijk na een flinke bui of er geen plas blijft staan. Wanneer dat een probleem is, lees je in <a href="/kennisbank/water-blijft-staan-op-plat-dak/">water op je platte dak</a>.',
       ] },
       { kop: "En een professionele inspectie?", tekst: [
         "Een grondige vakinspectie is elke 3 tot 5 jaar verstandig, en vaker bij een ouder dak. Ik doe zo'n check eerlijk: ik zeg wat nú aandacht vraagt en wat best nog even kan wachten. Geen onnodige paniek, geen onnodig werk.",
@@ -832,6 +1001,8 @@ export const ARTIKELEN: Artikel[] = [
       { v: "Is een dakinspectie nodig als ik een huis koop?", a: "Verplicht is het niet, maar het is wel slim, zeker bij een ouder huis. Dan weet je vooraf of er binnenkort iets aan het dak moet, en kun je daar rekening mee houden." },
       { v: "Hoe vaak moet je je dak laten inspecteren?", a: "Zelf kun je in het voorjaar en in het najaar even kijken. Een vakman laten kijken is verstandig als er al een tijd niemand naar je dak heeft gekeken, en eerder bij een ouder dak of na een zware storm." },
       { v: "Kom je ook voor een dakinspectie in mijn plaats?", a: "Ik werk in de regio Den Bosch, onder andere in Vught, Rosmalen, Vlijmen, Oss en Waalwijk. Bel of WhatsApp me, dan hoor je wanneer ik bij je langs kan komen." },
+      { v: "Is een dakinspectie hetzelfde als een gratis offerte?", a: `Nee. Weet je al wat er moet gebeuren, bijvoorbeeld een lek, een losse pan of een volle goot, dan is een offerte bij mij gratis: stuur een foto of bel, en je hoort de vaste prijs. De Dak-APK (${apkPrijs}) is voor als je wilt weten hoe je hele dak ervoor staat, met een rapport met foto's.` },
+      { v: "Hoe snel krijg ik het rapport van de dakinspectie?", a: `Binnen een dagdeel. Dan weet je zwart op wit hoe je dak ervoor staat, met foto's van de plekken die aandacht vragen en wat nu nodig is of nog kan wachten.` },
     ],
   },
   {
@@ -859,6 +1030,7 @@ export const ARTIKELEN: Artikel[] = [
       { v: "Mag ik zelf met een hogedrukreiniger mijn dak schoonmaken?", a: "Liever niet op oudere of poreuze pannen, je haalt er de toplaag af en beschadigt ze. Op hoogte werken is bovendien niet zonder risico. Ik doe het veilig en op de juiste druk." },
       { v: "Komt het mos terug?", a: "Op den duur wel, zeker aan de noordkant en onder bomen. Laat het niet te dik worden: af en toe reinigen en elk najaar de goten leeg houdt het meestal goed in de hand." },
       { v: "Wanneer laat je mos het beste weghalen?", a: "Het liefst op een droge dag in het voorjaar of in het begin van de herfst. Op een nat of bevroren dak is het glad en werk je niet veilig. Laat het weghalen voordat je goten worden leeggemaakt, want het losse mos komt toch in de goot terecht." },
+      { v: "Wat kost het om mos van je dak te laten halen?", a: `Dak reinigen en ontmossen kost ${ontmosPrijs}. Het hangt af van hoe groot je dak is en hoeveel mos erop zit. Je hoort de vaste prijs vooraf, en het losse mos haal ik meteen uit de goot.` },
     ],
   },
   {
@@ -911,6 +1083,12 @@ export const ARTIKELEN: Artikel[] = [
         `Een kleine reparatie, zoals een paar losse pannen terugleggen of een nokvorst vastzetten, kost meestal ${kleinPrijs}, vaste prijs vooraf.`,
         `Goten reinigen is ${GOTEN_PRIJS} bij een rijtjeswoning, en terwijl ik bezig ben zie ik vaak meteen of er verder nog iets aan je dak speelt. Groter huis? Vaste prijs vooraf.`,
       ] },
+      { kop: "Waar de prijs van een dakreparatie van afhangt", tekst: [
+        "Twee reparaties die op papier hetzelfde lijken, kunnen toch verschillen. Dat komt vooral door drie dingen.",
+        "<strong>Hoe goed ik erbij kan.</strong> Een pan vlak boven de goot van een rijtjeshuis is zo gedaan. Zit de schade hoog bij de nok, op een steil dak of boven een serre of aanbouw, dan kost het meer tijd.",
+        "<strong>Welk materiaal erbij nodig is.</strong> Een gangbare pan is snel te krijgen. Een oude of bijzondere pan zoeken kost meer moeite, en nieuw lood bij de schoorsteen is duurder dan een pan terugleggen.",
+        "<strong>Hoeveel er aan de hand is.</strong> Zie ik naast die ene pan ook een losse nokvorst of lood dat loslaat, dan hoor je dat vooraf, met wat het samen kost. Jij beslist wat ik meeneem.",
+      ] },
       { kop: "Richtprijzen per klus", tekst: [
         `Een punctuele daklekkage repareren kost meestal ${lekPrijs}, inclusief materiaal. Dak ontmossen ${ontmosPrijs}. Schoorsteen vegen ${veegPrijs}. Zonnepanelen reinigen ${zonPrijs}. Een compleet nieuw dak: ${nieuwDakUitleg} Andere klussen krijg je als vaste prijs na een Dak-APK of bezoek.`,
         "Bij spoed buiten kantooruren komt er een toeslag bij, die hoor je vooraf, nooit als verrassing achteraf.",
@@ -957,6 +1135,7 @@ export const ARTIKELEN: Artikel[] = [
       { v: "Maken jullie er een rommel van binnen?", a: "Nee. Ik dek netjes af en werk schoon, geen roet in je woonkamer." },
       { v: "Is schoorsteen vegen verplicht?", a: "Voor een gewoon woonhuis staat het niet in de wet. Wel vragen veel verzekeraars in hun voorwaarden om een jaarlijkse veegbeurt als je hout stookt. Gaat het mis en is er niet geveegd, dan kan dat gevolgen hebben voor je uitkering. Kijk het even na in je polis." },
       { v: "Moet de schoorsteen ook geveegd worden als ik weinig stook?", a: "Stook je maar een paar keer per jaar, dan kan het vaak minder vaak. Heb je lang niet gestookt of zaten er vogels op de schoorsteen, laat dan voordat je weer begint toch even kijken of het kanaal vrij is." },
+      { v: "Waarom ruikt mijn open haard naar roet als het regent?", a: "Komt er vocht in het kanaal, dan wordt het roet aan de binnenkant nat, en dat ruik je in huis. Vooral bij regen en wind, of als de haard een tijd niet aan is geweest. Vaak zit er dan veel roet in het kanaal en is vegen nodig. Komt er ook water in de haard naar beneden, dan zit er vaak geen kap op de schoorsteen." },
     ],
   },
   {
@@ -1011,8 +1190,8 @@ export const ARTIKELEN: Artikel[] = [
     ],
     dienst: { label: "Bekijk: zonnepanelen reinigen", href: "/diensten/zonnepanelen-reinigen/" },
     faq: [
-      { v: "Krassen jullie de panelen niet?", a: "Nee, ik werk met de juiste materialen en zonder schurende middelen, zodat de toplaag heel blijft." },
-      { v: "Mag het met regenwater?", a: "Het beste resultaat is streepvrij met de juiste methode, daar let ik op, zodat er geen kringen achterblijven." },
+      { v: "Kras je de panelen niet?", a: "Ik werk voorzichtig en zonder schurende middelen, want krassen in het glas wil je niet." },
+      { v: "Kan ik mijn panelen zelf met water afspoelen?", a: "Kun je er veilig bij, dan kan afspoelen met gewoon water geen kwaad. Kalkrijk kraanwater laat soms kringen achter. Ga niet zelf op het dak staan: tussen de panelen is het glad en je stapt zo een pan kapot." },
     ],
   },
   {
@@ -1036,6 +1215,10 @@ export const ARTIKELEN: Artikel[] = [
       { kop: "EPDM of bitumen?", tekst: [
         "Bitumen (dakleer) is beproefd en wordt in lagen aangebracht. EPDM is een rubberen folie, vaak in één stuk, flexibel en lang houdbaar. Voor kleinere daken is EPDM vaak ideaal; welke het beste past hangt af van je dak en budget.",
       ] },
+      { kop: "Dakleer: zo zie je dat het slijt", tekst: [
+        "Op veel garages, schuren en oudere aanbouwen ligt dakleer, de gewone naam voor bitumen in banen. Vaak ligt er bovenop een laag leislag: fijne steentjes die het bitumen tegen de zon beschermen. Zie je die steentjes in de goot of bij de afvoer liggen, dan slijt de bovenlaag.",
+        "Daarna droogt het bitumen in de zon uit. Je ziet dan fijne scheurtjes, een beetje zoals een opgedroogde modderplas. Op de overlap van twee banen kan een naad gaan openstaan, en op een schuur komt soms een spijkerkop door het dakleer omhoog. Kun je het dak vanuit een raam boven zien, maak dan een foto en stuur die via WhatsApp. Dan zeg ik eerlijk wat ik zie.",
+      ] },
       { kop: "Lekt je platte dak nu?", tekst: [
         'Zet een emmer onder het lek en maak een foto van de natte plek. Ga niet zelf het dak op als het nat is of waait. Bij een plat dak komt het water vaak meters verderop binnen dan waar het lek zit, dus de plek binnen zegt weinig. Kijk op de <a href="/spoed/">spoedpagina</a> wat je meteen kunt doen, of lees hoe ik <a href="/kennisbank/daklekkage-opsporen/">een daklekkage opspoor</a>.',
       ] },
@@ -1049,6 +1232,7 @@ export const ARTIKELEN: Artikel[] = [
       { v: "Kun je het lek vinden zonder alles open te breken?", a: "Meestal wel. Ik spoor gericht op bij naden en opstanden, zodat er zo min mogelijk open hoeft." },
       { v: "Is mos op een plat dak schadelijk?", a: "Een beetje mos is niet meteen erg, maar het houdt vocht en vuil vast en kan de afvoer verstoppen. Dan blijft er water op je dak staan, en dat zoekt elke zwakke plek op. Haal het daarom op tijd weg en houd de afvoer vrij." },
       { v: "Hoe vaak moet een plat dak nagekeken worden?", a: "Minstens één keer per jaar, het liefst in het najaar: afvoer vrij, geen blad of mos in de hoeken en geen plekken waar water blijft staan. Een korte controle voorkomt de meeste lekkages." },
+      { v: "Kan een plat dak in de herfst of winter gerepareerd worden?", a: "Vaak wel, maar het weer telt mee. Voor een nette reparatie moet het dak droog zijn, en bij vorst of in een natte week hecht niet elk materiaal goed. Lekt het nu, dan maak ik het lek vaak eerst tijdelijk dicht, zodat het binnen droog blijft. De nette reparatie doe ik dan op een droge dag. Je hoort vooraf wat het kost." },
     ],
   },
   {
@@ -1073,6 +1257,10 @@ export const ARTIKELEN: Artikel[] = [
         "Een dak dat in de loop der jaren is gaan doorhangen, bijvoorbeeld doordat het dakbeschot vocht heeft opgenomen. Dan ontstaat er een kuil waar het water niet uit kan.",
         "Te weinig afschot: het dak loopt niet genoeg af naar de afvoer. Dat zit er soms al in vanaf de bouw.",
       ] },
+      { kop: "Staat het water bij een lichtkoepel of tegen de muur?", tekst: [
+        'Blijft het water vooral rond een lichtkoepel staan, dan staat het tegen de rand waar de koepel op de opstand zit. Juist daar lekt een plat dak vaak als eerste. Lees daarover <a href="/kennisbank/lichtkoepel-lekt/">lichtkoepel lekt</a>.',
+        'Staat de plas tegen de muur van het huis, waar het platte dak van je aanbouw op de gevel aansluit, dan krijgt die naad het zwaar te verduren. Zie je binnen een natte streep langs die muur, lees dan <a href="/kennisbank/lekkage-bij-aanbouw/">lekkage bij de aanbouw</a>.',
+      ] },
       { kop: "Wat je zelf kunt doen", tekst: [
         "Kun je er veilig bij, haal dan blad en vuil weg rond de afvoer. Ga niet op een nat of glad dak staan en gebruik geen wankele ladder. Lukt het niet veilig, maak dan een foto van de plas en de afvoer en stuur die via WhatsApp. Dan zeg ik wat ik zie.",
       ] },
@@ -1089,6 +1277,48 @@ export const ARTIKELEN: Artikel[] = [
       { v: "Kan een plas op het dak lekkage geven?", a: "Niet meteen, maar staand water zoekt elke kleine scheur en naad op. Hoe langer het blijft staan, hoe groter de kans dat het ergens doorheen komt." },
       { v: "Wat is een noodoverloop?", a: "Een extra opening in de dakrand, iets hoger dan de afvoer. Raakt de afvoer verstopt, dan kan het water daar weg in plaats van op het dak te blijven staan. Niet elk plat dak heeft er een." },
       { v: "Moet het hele dak opnieuw als er water blijft staan?", a: "Meestal niet. Vaak is het een dichte afvoer. Ligt het aan een kuil of te weinig afschot, dan kijk ik eerst of een gerichte reparatie genoeg is. Je hoort eerlijk wat nodig is." },
+    ],
+  },
+  {
+    slug: "lekkage-bij-aanbouw",
+    datum: "2026-10-29",
+    titel: "Lekt je aanbouw bij de muur?",
+    h1: "Lekkage bij de aanbouw: waar het platte dak tegen je huis zit",
+    metaTitle: "Aanbouw lekt bij de muur: oorzaken | Spoed Dak Service",
+    metaDescription:
+      "Een natte plek in je aanbouw, vlak langs de muur van het huis? Vaak zit het in de aansluiting van het dak op de gevel, of komt het water door de muur erboven.",
+    intro:
+      "Een aanbouw of uitbouw achter het huis heeft meestal een plat dak dat tegen de gevel van het huis aan ligt. Precies op die naad gaat het vaak mis. Je ziet het als een natte streep of vlekken op het plafond van de aanbouw, vlak langs de muur van het huis. Hieronder lees je waar het water meestal binnenkomt en wat eraan te doen is.",
+    secties: [
+      { kop: "Lekt het nu? Eerst dit", tekst: [
+        'Zet een emmer neer, haal spullen weg bij de natte muur en maak een foto van de plek. Ga niet zelf het platte dak op als het nat of glad is. Wat je verder meteen kunt doen, staat op de <a href="/spoed/">spoedpagina</a>.',
+      ] },
+      { kop: "Hoe de aansluiting op de muur in elkaar zit", tekst: [
+        "Langs de muur loopt de dakbedekking van de aanbouw een stukje omhoog, tegen de gevel aan. Daaroverheen zit meestal een strook lood of zink die met de bovenrand in de muur vastzit. Die strook zorgt dat het water dat langs de gevel naar beneden loopt, over de dakbedekking heen het dak op gaat en niet erachter.",
+      ] },
+      { kop: "Waar het meestal lekt", tekst: [
+        "Het lood of zink is losgekomen uit de muur. Dan staat er een kier tussen de strook en de gevel, en loopt het water bij elke bui achter de strook langs naar binnen.",
+        "De dakbedekking onder het lood is losgeraakt of gescheurd, vaak in een hoek. Juist op die plek werkt het dak bij warmte en kou het meest.",
+        'Er blijft water staan tegen de gevel, omdat het dak niet goed afloopt of de afvoer vol zit. Dan staat de aansluiting steeds onder water. Zie <a href="/kennisbank/water-blijft-staan-op-plat-dak/">water blijft staan op je platte dak</a>.',
+      ] },
+      { kop: "Of komt het door de muur erboven?", tekst: [
+        "Soms is het dak helemaal dicht en komt het water door de gevel van het huis. Een buitenmuur neemt bij een flinke bui met wind water op. Dat zakt binnen in de muur naar beneden en komt eruit op de plek waar het dak van de aanbouw tegen de muur zit. Je herkent het doordat het vooral lekt als de regen tegen die gevel aan slaat, en soms pas een dag later. Zit het in de muur zelf, in de voegen of de stenen, dan zeg ik dat eerlijk: daarvoor heb je een metselaar nodig.",
+      ] },
+      { kop: "Wat je zelf beter niet doet", tekst: [
+        "Kit tussen het lood en de muur lijkt een snelle oplossing, maar lost het zelden op. Zit het lek in de dakbedekking onder het lood of in de muur erboven, dan kit je de verkeerde plek dicht. Maak liever een foto van de natte plek binnen en van de muur boven de aanbouw, en stuur die via WhatsApp.",
+      ] },
+      { kop: "Hoe ik het aanpak", tekst: [
+        'Ik kijk eerst of het water door het dak komt of door de muur. Is het lood of zink losgekomen, dan zet ik het weer goed vast, of ik vervang de strook. Is de dakbedekking langs de muur los of gescheurd, dan maak ik die aansluiting opnieuw dicht. Zie <a href="/diensten/platte-daken/">platte daken</a>.',
+      ] },
+      { kop: "Wat kost het?", tekst: [
+        'Een losse strook lood weer vastzetten is meestal een overzichtelijke klus. Moet de aansluiting over de hele breedte opnieuw, dan is het meer werk. Je hoort vooraf de vaste prijs, voordat ik begin. Of je verzekering meebetaalt, lees je in <a href="/kennisbank/daklekkage-verzekering/">daklekkage en je verzekering</a>.',
+      ] },
+    ],
+    dienst: { label: "Bekijk: platte daken (EPDM)", href: "/diensten/platte-daken/" },
+    faq: [
+      { v: "Waarom lekt mijn aanbouw alleen langs de muur?", a: "Omdat daar de naad zit tussen het platte dak en de gevel van het huis. Laat het lood of de dakbedekking daar los, dan komt het water precies langs de muur naar binnen. Het kan ook water zijn dat door de gevel erboven naar beneden zakt." },
+      { v: "Hoe zie ik of het van het dak of van de muur komt?", a: "Lekt het bij elke flinke bui, ook zonder veel wind, dan zit het meestal in het dak of de aansluiting. Lekt het vooral als de regen tegen die gevel aan slaat, en soms pas een dag later, dan komt het water vaker door de muur. Stuur een foto, dan kijk ik mee." },
+      { v: "Is het erg als het maar een klein beetje lekt?", a: "Een beetje water langs de muur lijkt weinig, maar het trekt in het plafond en het hout van de aanbouw. Na een tijd zie je schimmel of loslatende verf. Laat het daarom nakijken, ook als het maar af en toe druppelt." },
     ],
   },
 ];
