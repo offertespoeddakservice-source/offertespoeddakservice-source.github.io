@@ -592,6 +592,9 @@ export const ARTIKELEN: Artikel[] = [
         "Blad, mos en vuil eruit, de bladvangers gecontroleerd en de uitloop naar de regenpijp vrijgemaakt. Omdat ik toch boven ben, kijk ik meteen naar de pannen, het lood en de goot zelf. Zie ik iets wat aandacht nodig heeft, dan hoor je dat eerlijk, en ook als er niks aan de hand is.",
         'Zit de verstopping dieper in de regenpijp, of lekt de goot zelf? Lees dan <a href="/kennisbank/verstopte-regenpijp-lekkende-dakgoot/">verstopte regenpijp of lekkende dakgoot</a>.',
       ] },
+      { kop: "Goten schoonmaken bij jou in de buurt", tekst: [
+        'Woon je in de regio Den Bosch? Per plaats lees je wat ik daar vaak in de goot tegenkom, van blad onder de bomen tot zand uit de duinen: in <a href="/werkgebied/den-bosch/goten-reinigen/">Den Bosch</a>, <a href="/werkgebied/oss/goten-reinigen/">Oss</a>, <a href="/werkgebied/vught/goten-reinigen/">Vught</a>, <a href="/werkgebied/oisterwijk/goten-reinigen/">Oisterwijk</a>, <a href="/werkgebied/boxtel/goten-reinigen/">Boxtel</a> en <a href="/werkgebied/drunen/goten-reinigen/">Drunen</a>. Andere plaatsen vind je bij <a href="/werkgebied/">mijn werkgebied</a>.',
+      ] },
       { kop: "Zelf doen of laten doen?", tekst: [
         "De lage goot van een schuur of garage kun je prima zelf leeghalen. Bij een goot op hoogte is een ladder op een natte of schuine ondergrond het grootste risico. Dan laat je het liever doen.",
       ] },
