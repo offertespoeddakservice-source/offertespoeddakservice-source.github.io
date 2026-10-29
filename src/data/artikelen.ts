@@ -278,6 +278,10 @@ export const ARTIKELEN: Artikel[] = [
         "Rond een dakraam zit een aansluiting die het water om het raam heen leidt: gootstukken, lood of loodvervanger, en de pannen eromheen. Raakt daar iets los, schuift een pan op of hoopt blad zich op boven het raam, dan loopt het water onder de aansluiting door naar binnen.",
         "Soms zit het in de rubbers of de dichting van het raam zelf. Dan zeg ik eerlijk wat er nodig is en of ik dat voor je kan oplossen.",
       ] },
+      { kop: "Lekt het alleen bij een stortbui of bij harde wind?", tekst: [
+        'Lekt je dakraam alleen bij een flinke stortbui, dan kan het water boven het raam vaak niet snel genoeg weg. Ligt er blad of mos tegen de bovenkant, dan stroomt het over het gootstuk heen naar binnen. Meer daarover lees je in <a href="/kennisbank/dak-lekt-bij-hevige-regen/">dak lekt bij een stortbui</a>.',
+        'Lekt het vooral als het hard waait, dan blaast de wind de regen langs de zijkant van het raam onder het gootstuk of een pan door. Dan kijk ik vooral naar de zijkanten van het raam. Zie ook <a href="/kennisbank/dak-lekt-bij-harde-wind/">dak lekt bij harde wind</a>.',
+      ] },
       { kop: "Lekkage of condens?", tekst: [
         'Druppels aan de binnenkant van het glas op een koude ochtend zijn meestal condens, geen lek. Komt het water alleen na regen, en vooral bij wind, dan is het een lek. Meer over het verschil lees je in <a href="/kennisbank/condens-of-lekkage-op-zolder/">condens of lekkage op zolder</a>.',
       ] },
@@ -293,6 +297,7 @@ export const ARTIKELEN: Artikel[] = [
       { v: "Kan ik een lekkend dakraam zelf dichtkitten?", a: "Een likje kit houdt het soms even droog, maar het lost de oorzaak meestal niet op. Kit op de verkeerde plek kan het water zelfs de verkeerde kant op sturen. Laat liever kijken waar het echt binnenkomt." },
       { v: "Moet het hele dakraam vervangen worden?", a: "Meestal niet. Vaak zit het in de aansluiting met het dak, en die is te herstellen. Is het raam zelf op, dan zeg ik dat eerlijk." },
       { v: "Kun je snel komen als het binnen druppelt?", a: "Bij spoed in de regio Den Bosch lukt dat vaak nog dezelfde dag. Bel of WhatsApp me met een foto." },
+      { v: "Er ligt blad boven mijn dakraam, is dat erg?", a: "Een beetje blad is niet meteen erg. Maar blad en mos boven het raam houden het water tegen, en bij een flinke bui loopt het dan over de aansluiting heen naar binnen. Laat het weghalen als je het ziet liggen. Hang niet zelf uit het open raam om erbij te komen, op een schuin dak is dat gevaarlijk." },
     ],
   },
   {
