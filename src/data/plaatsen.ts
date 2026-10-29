@@ -203,6 +203,8 @@ export const PLAATSEN: Plaats[] = [
       "Ook in Breda en omstreken kom ik voor lekkage en ander dakwerk. Je vindt hier een mix van vooroorlogse en naoorlogse daken die onderhoud aan pannen, lood en goten vragen.",
     wijken: ["Prinsenbeek", "Teteringen", "Ginneken", "Haagse Beemden"],
     reistijd: "± 40 min vanaf Den Bosch",
+    extra:
+      "Sinds 1997 horen ook Prinsenbeek, Teteringen, Bavel en Ulvenhout bij de gemeente Breda. In die dorpen staan veel vrijstaande huizen en twee-onder-een-kappers met een groot pannendak, vaak met een aanbouw of garage ertegen. Waar zo'n aanbouw tegen het huis zit, ligt een strook lood of zink, en die laat na veel jaren los. In de Heuvel en het Brabantpark, wijken uit de jaren '50 en '60, staan veel rijtjeshuizen en portiekwoningen. Bij de rijtjes zit een lek vaak in het lood rond de schoorsteen, bij de portiekwoningen eerder bij de afvoer of de rand van het platte dak.",
   },
   {
     slug: "helmond",
