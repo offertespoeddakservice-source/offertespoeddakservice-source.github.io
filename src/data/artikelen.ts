@@ -660,6 +660,8 @@ export const ARTIKELEN: Artikel[] = [
       { v: "Vergoedt de opstalverzekering daklekkage?", a: "Vaak wel als het lek plotseling ontstond, bijvoorbeeld door storm of hagel. Komt het door slijtage of achterstallig onderhoud, dan meestal niet, of alleen de schade binnen. Kijk altijd in je eigen polisvoorwaarden." },
       { v: "Moet ik met repareren wachten tot de verzekeraar is geweest?", a: "Een noodreparatie om erger te voorkomen mag meestal gewoon, en verzekeraars verwachten dat ook. Maak eerst goede foto's en bewaar de factuur. Over de definitieve reparatie kun je het beste even met je verzekeraar overleggen." },
       { v: "Ik huur mijn huis, wie betaalt de reparatie?", a: "Het dak is de zaak van je verhuurder. Meld het lek daar zo snel mogelijk. Schade aan je eigen spullen valt onder je eigen inboedelverzekering." },
+      { v: "Valt daklekkage onder mijn brandverzekering?", a: "Wat veel mensen de brandverzekering noemen, is meestal de opstalverzekering van je huis. Die dekt niet alleen brand, maar vaak ook schade door storm of een plotseling lek. Of jouw lek eronder valt, hangt af van de oorzaak en van je polis. Lekkage door slijtage of achterstallig onderhoud valt er meestal niet onder." },
+      { v: "Wordt schade aan mijn muur door een lekkende dakgoot vergoed?", a: "Loopt een goot over of lekt hij omdat hij al lang vol zit of oud is, dan zien veel verzekeraars dat als onderhoud, en dan wordt de schade vaak niet vergoed. Scheurt de goot bij een storm los of raakt hij plotseling lek, dan ligt dat anders. Maak foto's van de goot en van de natte muur, en kijk in je polisvoorwaarden." },
     ],
   },
   {
