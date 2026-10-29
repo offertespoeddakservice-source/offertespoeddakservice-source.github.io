@@ -165,6 +165,8 @@ export const PLAATSEN: Plaats[] = [
       "Veel jaren-'70/'80 woningen met schuine daken; goten reinigen, pannen vervangen en lekkage opsporen zijn hier veelgevraagd.",
     wijken: ["De Bunders", "Bolken", "Veghel-Zuid", "Mariaheide"],
     reistijd: "20 min vanaf Den Bosch",
+    extra:
+      "Veghel hoort sinds 2017 bij de gemeente Meierijstad, samen met onder meer Schijndel en Erp. In de woonwijken die in de jaren '70 en '80 zijn gebouwd, staan veel rijtjeshuizen en twee-onder-een-kappers met een dakraam in het schuine dak aan de achterkant. Na zo'n veertig jaar is het gootstuk of het lood onder zo'n raam vaak op. Dan zie je na een flinke bui een natte plek op de muur of het plafond onder het raam, terwijl het glas zelf nog prima is. Vaak is een nieuw gootstuk genoeg en hoeft het raam er niet uit. Stuur me een foto van de natte plek, dan zeg ik eerlijk wat ik zie.",
   },
   {
     slug: "tilburg",
