@@ -212,6 +212,9 @@ export const ARTIKELEN: Artikel[] = [
       { kop: "Woon je in een rijtjeshuis?", tekst: [
         "Dan kan het water ook via de buren komen: een goot, schoorsteen of plat dak dat over meerdere huizen doorloopt. Vraag de buren of zij ook iets zien. Zit het lek aan hun kant van het dak, dan moet het daar gemaakt worden, en dat is goed om vooraf te weten. Huur je je huis, meld het lek dan eerst bij je verhuurder.",
       ] },
+      { kop: "Zit de plek in je aanbouw of onder een lichtkoepel?", tekst: [
+        'Een natte plek in het plafond van een aanbouw komt vaak niet door het platte dak zelf, maar door de plek waar dat dak tegen de muur van je huis zit. Hoe je dat herkent, lees je in <a href="/kennisbank/lekkage-bij-aanbouw/">lekkage bij de aanbouw</a>. Druppelt het rond of onder een lichtkoepel, dan zit het vaak langs de rand van de koepel, of is het condens aan de binnenkant. Het verschil lees je in <a href="/kennisbank/lichtkoepel-lekt/">lichtkoepel lekt</a>.',
+      ] },
       { kop: "Wat kost het?", tekst: [
         'Dat hangt af van waar het lek zit en hoeveel werk het is. Je hoort de vaste prijs vooraf, voordat ik begin. Wat een reparatie meestal kost, lees je in <a href="/kennisbank/wat-kost-daklekkage-repareren/">wat kost daklekkage repareren</a>. Of je verzekering meebetaalt, staat in <a href="/kennisbank/daklekkage-verzekering/">daklekkage en je verzekering</a>.',
       ] },
@@ -222,6 +225,7 @@ export const ARTIKELEN: Artikel[] = [
       { v: "Moet het plafond open om het lek te vinden?", a: "Meestal niet. Bij een daklek kijk ik eerst van buiten en op zolder. Vaak vind ik het zo, zonder iets open te breken." },
       { v: "Is een natte plek in het plafond spoed?", a: "Druppelt het of wordt de plek snel groter, dan wel. Hoe langer het lekt, hoe meer schade aan het plafond, de isolatie en het hout. Bel of WhatsApp me met een foto. Is het een oude, droge kring, dan kan het meestal even wachten, maar laat het wel nakijken." },
       { v: "Kun je ook helpen als het een leiding is?", a: "Nee, daarvoor heb je een loodgieter nodig. Twijfel je, stuur dan een foto via WhatsApp. Dan zeg ik eerlijk of het van het dak komt of niet." },
+      { v: "Kan ik over een vochtplek in het plafond heen schilderen?", a: "Pas als de oorzaak is opgelost en het plafond helemaal droog is. Dat duurt na een lek vaak een paar weken. Schilder je eerder, dan komt de kring meestal terug. Gebruik een verf die vlekken afdekt, want door gewone muurverf schemert een bruine kring vaak weer heen." },
     ],
   },
   {
