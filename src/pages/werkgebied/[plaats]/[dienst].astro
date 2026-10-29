@@ -11,11 +11,11 @@ export function getStaticPaths() {
   return MATRIX.map((c) => {
     const p = getPlaats(c.plaats);
     const d = getDienst(c.dienst);
-    return { params: { plaats: c.plaats, dienst: c.dienst }, props: { p, d, hook: c.hook } };
+    return { params: { plaats: c.plaats, dienst: c.dienst }, props: { p, d, hook: c.hook, faqExtra: c.faq ?? [] } };
   }).filter((x) => x.props.p && x.props.d);
 }
 
-const { p, d, hook } = Astro.props;
+const { p, d, hook, faqExtra } = Astro.props;
 const path = `/werkgebied/${p.slug}/${d.slug}`;
 const titel = `${d.titel} in ${p.naam}`;
 // Titel en omschrijving per dienst waar de standaardzin niet goed loopt; de andere diensten houden de standaard.
@@ -62,6 +62,7 @@ const faq = [
         : `Ja, ${p.naam} ligt in mijn vaste werkgebied rond Den Bosch${p.reistijd ? ` (${p.reistijd})` : ""}, dus vaak ben ik al in de buurt. Bij spoed kom ik regelmatig nog dezelfde dag.`,
   },
   ...d.faq.slice(0, 2),
+  ...faqExtra,
   {
     v: `Werk je in heel ${p.naam}?`,
     a: `Ja, door heel ${p.naam}${p.wijken.length ? `, onder andere ${p.wijken.slice(0, 3).join(", ")}` : ""} en de directe omgeving.`,

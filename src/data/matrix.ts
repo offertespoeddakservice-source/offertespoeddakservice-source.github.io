@@ -13,6 +13,7 @@ export interface MatrixCombo {
   plaats: string; // slug uit PLAATSEN
   dienst: string; // slug uit DIENSTEN
   hook: string;   // unieke lokale invalshoek voor deze dienst in deze plaats
+  faq?: { v: string; a: string }[]; // optioneel: eigen vragen voor deze klus in deze plaats, onder de vaste vragen
 }
 
 export const MATRIX: MatrixCombo[] = [
@@ -211,12 +212,20 @@ export const MATRIX: MatrixCombo[] = [
     plaats: "den-bosch",
     dienst: "dakgoot-vervangen",
     hook: "In de Muntel en de Vliert hebben de huizen uit de jaren '20 en '30 vaak nog zinken goten, soms als bakgoot achter een houten lijst. Na veel jaren gaan die lekken bij de naden, de hoeken en de uitloop naar de regenpijp. In nieuwere wijken als Maaspoort en Empel hangen vaker kunststof goten, en daar zit het meestal in een verbinding of een losse beugel. Ik kijk eerst of repareren kan, en vervang alleen wat echt op is.",
+    faq: [
+      { v: "Kun je een oude zinken goot in Den Bosch repareren in plaats van vervangen?", a: "Vaak wel. Bij de oudere huizen in de Muntel en de Vliert lekt een zinken goot meestal eerst bij een naad, een hoek of de uitloop naar de regenpijp. Is de rest van het zink nog goed, dan herstel ik alleen dat stuk. Is het zink over een groot stuk dun of zitten er gaatjes in, dan zeg ik eerlijk dat een nieuw stuk beter is. Je hoort vooraf wat het kost." },
+      { v: "Mag ik in de binnenstad een kunststof goot ophangen?", a: "Dat kan niet altijd. De binnenstad van Den Bosch is beschermd stadsgezicht, en bij een monument mag je niet zomaar ander materiaal gebruiken. Twijfel je, vraag het dan na bij de gemeente. Ik kijk wat er nu hangt en herstel de goot het liefst met materiaal dat bij het pand past." },
+    ],
   },
   // Dakgoot repareren of vervangen in Vught (Search Console: dakgoot vervangen vught plek 26, dakgoot reparatie vught plek 37)
   {
     plaats: "vught",
     dienst: "dakgoot-vervangen",
     hook: "Langs de Taalstraat en in de villawijken richting de Loonsebaan liggen veel lange zinken goten, vaak als bakgoot achter een houten lijst. Onder de hoge bomen daar blijft blad lang in de goot liggen, en juist op die plekken wordt het zink na jaren dun en gaan de naden lekken. In de rijtjes van Vught-Noord hangen vaker kunststof goten. Daar zit een lek meestal in een verbinding, een uitgedroogd rubber of een losse beugel. Ik kijk eerst of een reparatie genoeg is, en vervang alleen het stuk dat echt op is.",
+    faq: [
+      { v: "Mijn zinken bakgoot achter een houten lijst lekt. Moet de hele goot eruit?", a: "Niet altijd. Lekt hij op één naad of hoek, dan is dat stuk vaak te herstellen. Is het zink over een groot stuk dun geworden, vaak op de plek waar het blad altijd blijft liggen, dan heeft plakken weinig zin en is een nieuw stuk zink beter. Je hoort vooraf wat het kost." },
+      { v: "Hoe zie ik of mijn goot lek is?", a: "Kijk vanaf de straat of vanuit een raam boven naar de goot. Druppels die na een bui op één plek blijven vallen, een goot die in het midden doorhangt, of kleine gaatjes en witte vlekken op het zink zijn tekenen dat er iets lek is. Ga zelf niet de ladder op, maar stuur me een foto. Dan zeg ik wat ik zie." },
+    ],
   },
   // Daklekkage in Tilburg, met Udenhout en Berkel-Enschot (Rens 23-10: ook bij spoed; Search Console: daklekkage udenhout, daklekkage berkel-enschot)
   {
