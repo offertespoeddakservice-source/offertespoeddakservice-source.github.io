@@ -5,6 +5,7 @@ import { PRIJZEN } from "../data/prijzen.ts";
 
 const lekPrijs = PRIJZEN.find((r) => r.dienst.startsWith("Daklekkage"))?.prijs ?? "";
 const gotenPrijs = PRIJZEN.find((r) => r.dienst === "Dakgoot reinigen")?.prijs ?? "";
+const kleinPrijs = PRIJZEN.find((r) => r.dienst.startsWith("Kleine reparatie"))?.prijs ?? "";
 const score = SITE.reviews.score.toString().replace(".", ",");
 
 const stappen = [
@@ -77,7 +78,7 @@ const faqSchema = {
     <div class="wrap">
       <p class="eyebrow">Waar ik direct bij help</p>
       <h2>Spoedklussen</h2>
-      <div class="grid grid-3" style="margin-top:22px;">
+      <div class="grid grid-2" style="margin-top:22px;">
         <a class="card" href="/diensten/daklekkage/">
           <h3>Daklekkage</h3>
           <p>Lek opsporen zonder sloopwerk en snel dichten: eerst de schade stoppen, dan netjes herstellen.</p>
@@ -93,10 +94,16 @@ const faqSchema = {
           <p>Water langs de gevel? Verstopping verhelpen of de goot herstellen voordat het een lek wordt.</p>
           <span class="price">reinigen {gotenPrijs}</span>
         </a>
+        <a class="card" href="/diensten/dakreparatie/">
+          <h3>Spoed dakreparatie</h3>
+          <p>Een losse pan, een nokvorst die eraf ligt of lood dat loslaat: eerst dicht, dan netjes herstellen.</p>
+          <span class="price">{kleinPrijs}</span>
+        </a>
       </div>
       <p class="notice" style="margin-top:20px;">
         Buiten kantooruren ('s avonds, 's nachts, weekend en feestdagen) geldt een spoedtoeslag. Ook dan hoor je de vaste prijs vóórdat ik begin. Alle richtprijzen staan op de <a href="/prijzen/">prijzen-pagina</a>.
       </p>
+      <p style="margin-top:16px;">Hoe ik een lek bij jou in de buurt aanpak, lees je per plaats: daklekkage in <a href="/werkgebied/den-bosch/daklekkage/">Den Bosch</a>, <a href="/werkgebied/rosmalen/daklekkage/">Rosmalen</a>, <a href="/werkgebied/vught/daklekkage/">Vught</a>, <a href="/werkgebied/oisterwijk/daklekkage/">Oisterwijk</a>, <a href="/werkgebied/heusden/daklekkage/">Heusden</a>, <a href="/werkgebied/schijndel/daklekkage/">Schijndel</a>, <a href="/werkgebied/veghel/daklekkage/">Veghel</a> en <a href="/werkgebied/oss/daklekkage/">Oss</a>. Andere plaatsen vind je bij <a href="/werkgebied/">mijn werkgebied</a>.</p>
     </div>
   </section>
 
