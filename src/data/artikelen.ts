@@ -944,6 +944,12 @@ export const ARTIKELEN: Artikel[] = [
         "Pannendak: controleer op losse, gebroken of poreuze pannen, verwijder mos op tijd (mos houdt vocht vast) en kijk jaarlijks de nokvorsten en het lood bij schoorsteen en dakramen na.",
         "Plat dak: hier is stilstaand water de grootste vijand. Controleer na hevige regen of het water goed wegloopt, en houd naden en opstanden in de gaten.",
       ] },
+      { kop: "Voor de winter: vier dingen om na te lopen", tekst: [
+        'De nok. Liggen er brokjes specie in de goot of op de stoep, dan zitten er vaak vorsten los. Lees <a href="/kennisbank/nokvorsten-los/">losse nokvorsten</a>.',
+        'Mos op de noordkant. Een dikke laag houdt vocht vast, en als dat bevriest kan een pan scheuren. Zie <a href="/kennisbank/mos-op-dak-verwijderen/">mos op je dak</a>. Hoe vaak je goot leeg moet, lees je in <a href="/kennisbank/hoe-vaak-dakgoot-reinigen/">hoe vaak dakgoot reinigen</a>.',
+        'De schoorsteen. Stook je hout, laat hem dan vegen voordat je de kachel echt gaat gebruiken. Zie <a href="/kennisbank/schoorsteen-vegen-hoe-vaak/">hoe vaak schoorsteen vegen</a>.',
+        'Het platte dak. Kijk na een flinke bui of er geen plas blijft staan. Wanneer dat een probleem is, lees je in <a href="/kennisbank/water-blijft-staan-op-plat-dak/">water op je platte dak</a>.',
+      ] },
       { kop: "En een professionele inspectie?", tekst: [
         "Een grondige vakinspectie is elke 3 tot 5 jaar verstandig, en vaker bij een ouder dak. Ik doe zo'n check eerlijk: ik zeg wat nú aandacht vraagt en wat best nog even kan wachten. Geen onnodige paniek, geen onnodig werk.",
         'Wil je weten hoe je dak er nu voor staat, dan kan dat met de <a href="/dak-apk/">Dak-APK</a>: een keuring van je hele dak met een fotorapport.',
