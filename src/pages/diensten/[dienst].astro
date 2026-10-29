@@ -75,6 +75,8 @@ const leesArtikelen = (leesVerder[d.slug] ?? [])
 // Echte Werkspot-review bij de klus waar hij over gaat (Rens 25-10: ja, letterlijk met voornaam en plaats zoals op Werkspot). Geen review-schema.
 const reviewBij: Record<string, { tekst: string; naam: string; klus: string }> = {
   "dakgoot-vervangen": { tekst: "Prima werk geleverd. Was flexibel in het plannen, dacht mee en kwam met oplossingen.", naam: "Roos, Oosterbeek", klus: "regenpijp vervangen" },
+  "goten-reinigen": { tekst: "Dakgoten keurig netjes schoongemaakt zonder de rommel uit de goten op het terras of in de tuin te morsen. Aanrader!", naam: "Ard-Jan, Tiel", klus: "goten reinigen" },
+  dakreparatie: { tekst: "Snel en mooi dak geplaatst voor een hele nette prijs. Blij mee!", naam: "F. Spolders, Zoetermeer", klus: "dakreparatie" },
 };
 const review = reviewBij[d.slug];
 ---
