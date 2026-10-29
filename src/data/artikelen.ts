@@ -629,7 +629,7 @@ export const ARTIKELEN: Artikel[] = [
     slug: "hoe-vaak-dakgoot-reinigen",
     titel: "Hoe vaak goten reinigen?",
     h1: "Hoe vaak moet je je dakgoot reinigen, en wat kost het?",
-    metaTitle: "Hoe vaak dakgoot reinigen + kosten | Spoed Dak Service",
+    metaTitle: "Hoe vaak moet je je dakgoot schoonmaken? | Spoed Dak Service",
     metaDescription:
       "Hoe vaak moet je je dakgoot reinigen? Meestal één keer per jaar in het najaar, vaker bij bomen in de buurt. Waarom het belangrijk is en wat het kost.",
     intro:
@@ -653,6 +653,7 @@ export const ARTIKELEN: Artikel[] = [
       ] },
       { kop: "Wat kost goten reinigen?", tekst: [
         `Bij een rijtjeswoning is het ${GOTEN_PRIJS}: beide goten leeg, uitloop naar de regenpijp vrijgemaakt, troep mee. Bij een groter of hoger huis hoor je vooraf de vaste prijs, nooit achteraf verrassingen.`,
+        'Wil je precies weten wat erbij zit, waar de prijs van afhangt en hoe het zit met een prijs per meter? Lees dan <a href="/kennisbank/wat-kost-dakgoot-schoonmaken/">wat kost dakgoot schoonmaken</a>.',
       ] },
     ],
     dienst: { label: "Bekijk: dakgoot reinigen", href: "/diensten/goten-reinigen/" },
