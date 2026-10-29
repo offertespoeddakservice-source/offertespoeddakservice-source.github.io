@@ -153,7 +153,7 @@ export const MATRIX: MatrixCombo[] = [
   {
     plaats: "den-bosch",
     dienst: "stormschade",
-    hook: "Of het nu de monumentale binnenstad of een wijk als Maaspoort betreft: na een storm telt elk uur. Ik ben dagelijks in Den Bosch, dus bij weggewaaide pannen of een open dak sta ik snel voor je deur.",
+    hook: "In de binnenstad staan veel smalle, hoge panden met een steil dak en de topgevel aan de straat. Bij een harde windstoot gaan daar vaak de pannen langs de rand bij de gevel en vlak onder de nok als eerste omhoog, en dan valt er zo een stuk pan of specie op de stoep. In Maaspoort en Empel, aan de kant van de Maas, waait het over het open land flink. Daar vind ik na een storm vaker een losse nokvorst of een pan naast een dakraam die is opgetild. Ligt er iets op straat of is je dak open, ga dan niet zelf naar boven, maar maak vanaf de grond een foto en stuur die via WhatsApp. Ik dek het eerst af, zodat het binnen droog blijft, en herstel het daarna netjes. Den Bosch is mijn thuisbasis, dus meestal ben ik er snel.",
   },
   {
     plaats: "rosmalen",
@@ -163,7 +163,7 @@ export const MATRIX: MatrixCombo[] = [
   {
     plaats: "vught",
     dienst: "stormschade",
-    hook: "Bij de oudere daken in Vught laat een storm zich voelen bij verouderd lood en losse pannen. Ik kom snel langs voor noodreparatie en zorg dat het weer dicht is.",
+    hook: "In Vught staan veel huizen tussen hoge bomen, in de villawijken en aan de rand van de bossen. Bij een storm breken daar takken af die op het dak terechtkomen. Zo'n tak kan een pan breken of een goot uit de haken trekken, en vanaf de straat zie je dat niet altijd meteen. Kijk na een storm daarom even goed: ligt er een pan scheef, hangt de goot schuin of ligt er een tak in de goot? In Vught-Noord en de andere naoorlogse wijken staan meer rijtjes met een pannendak, en daar zie ik na harde wind vooral pannen aan de onderkant of langs de zijkant van het dak die zijn gaan schuiven. Is je dak open, dan dek ik het eerst af en herstel ik het daarna netjes. Ga zelf niet het dak of de ladder op, en stuur me een foto vanaf de grond.",
   },
   {
     plaats: "berlicum",
