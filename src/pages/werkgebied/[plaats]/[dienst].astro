@@ -41,6 +41,7 @@ const verderLezen: Record<string, string> = {
   stormschade: 'Ligt je dak open na de storm? Op de <a href="/spoed/">spoedpagina</a> lees je wat je meteen zelf kunt doen. Wat je beter laat en hoe het zit met je verzekering, staat in <a href="/kennisbank/stormschade-eerste-hulp/">stormschade: eerste hulp</a>. Ligt er specie in de goot of staat de nok scheef, lees dan <a href="/kennisbank/nokvorsten-los/">losse nokvorsten</a>.',
   "dakgoot-vervangen": 'Druppelt je goot op één plek? In <a href="/kennisbank/dakgoot-lekt/">dakgoot lekt</a> lees je hoe je ziet of hij vol zit of echt lek is. Loopt het water over de rand of langs de gevel, kijk dan eerst bij <a href="/kennisbank/verstopte-regenpijp-lekkende-dakgoot/">verstopte regenpijp of lekkende dakgoot</a>. Zit de goot alleen vol, dan is <a href="/diensten/goten-reinigen/">goten reinigen</a> genoeg.',
   "goten-reinigen": 'Wat het kost en wat erbij zit, lees je in <a href="/kennisbank/wat-kost-dakgoot-schoonmaken/">wat kost dakgoot schoonmaken</a>. Hoe vaak je goot leeg moet, hangt vooral af van de bomen om je huis: zie <a href="/kennisbank/hoe-vaak-dakgoot-reinigen/">hoe vaak dakgoot reinigen</a>. Druppelt je goot op één vaste plek, ook als hij leeg is, lees dan <a href="/kennisbank/dakgoot-lekt/">dakgoot lekt</a>.',
+  dakreparatie: 'Ligt er na een storm een pan scheef of een stuk pan in de goot? In <a href="/kennisbank/dakpan-kapot-of-verschoven/">dakpan kapot of verschoven</a> lees je hoe je dat vanaf de straat ziet. Waait er bij harde wind steeds iets los bij de nok, kijk dan bij <a href="/kennisbank/nokvorsten-los/">losse nokvorsten</a>. Wat een reparatie kost en waar de prijs van afhangt, staat in <a href="/kennisbank/wat-kost-een-dakdekker/">wat kost een dakreparatie</a>. Lekt het nu? Op de <a href="/spoed/">spoedpagina</a> lees je wat je meteen zelf kunt doen.',
 };
 const verder = verderLezen[d.slug];
 // Interne links: de andere klussen in deze plaats, en dezelfde klus in de andere plaatsen.
@@ -142,7 +143,7 @@ const schema = [
     <div class="wrap">
       <h2>Meer in {p.naam} en omgeving</h2>
       <div class="chips">
-        <a class="chip" href={`/werkgebied/${p.slug}/`}>Alles in {p.naam} →</a>
+        <a class="chip" href={`/werkgebied/${p.slug}/`}>Dakdekker in {p.naam} →</a>
         <a class="chip" href={`/diensten/${d.slug}/`}>Over {d.titel.toLowerCase()} →</a>
         <a class="chip" href="/werkgebied/">Heel mijn werkgebied →</a>
       </div>
