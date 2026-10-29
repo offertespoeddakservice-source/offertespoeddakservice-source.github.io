@@ -12,7 +12,7 @@ const googleReviewLink = SITE.reviewLink && !SITE.reviewLink.includes("JOUW_PLAC
 const apkPrijs = PRIJZEN.find((r) => r.dienst.startsWith("Dak-APK"))?.prijs ?? "";
 
 const faq = [
-  { v: "Wat kost het om iemand te laten komen?", a: "Wil je weten hoe je dak ervoor staat? Dat doe ik via de Dak-APK: binnen een dagdeel een compleet keuringsrapport met foto's, voor €49. Weet je al wat er moet gebeuren, bijvoorbeeld goten reinigen? Dan hoor je gewoon de vaste prijs vooraf." },
+  { v: "Wat kost het om iemand te laten komen?", a: `Wil je weten hoe je dak ervoor staat? Dat doe ik via de Dak-APK: binnen een dagdeel een compleet keuringsrapport met foto's, voor ${apkPrijs}. Weet je al wat er moet gebeuren, bijvoorbeeld goten reinigen? Dan hoor je gewoon de vaste prijs vooraf.` },
   { v: "Hoe snel kun je komen?", a: "Bij spoed en lekkage vaak nog dezelfde dag in de regio Den Bosch. Bel of WhatsApp me, dan hoor je meteen wat kan." },
   { v: "Werk je ook bij mij in de buurt?", a: `Ik werk in ${SITE.regioOmschrijving}. Staat je plaats er niet bij? Bel of app gerust, dan zeg ik eerlijk of ik er kan komen.` },
   { v: "Krijg ik garantie?", a: "Ja. Op een reparatie krijg je 1 jaar garantie en op vervangen 2 jaar, zonder kleine lettertjes. Is er iets mee, dan kom ik gratis terug om het te verhelpen." },
@@ -214,7 +214,7 @@ const faqSchema = {
       <h2>Van belletje tot klaar dak in 4 stappen</h2>
       <div class="stappen">
         <div class="stap"><div class="n">1</div><h3>Bel of app</h3><p>Je krijgt mij direct aan de lijn. Vertel kort wat er speelt.</p></div>
-        <div class="stap"><div class="n">2</div><h3>Dak-APK of meteen aan de slag</h3><p>Twijfel je? Ik kom langs met de Dak-APK (€49) en je krijgt een compleet rapport. Weet je het al? Dan spreken we gelijk de vaste prijs af.</p></div>
+        <div class="stap"><div class="n">2</div><h3>Dak-APK of meteen aan de slag</h3><p>Twijfel je? Ik kom langs met de Dak-APK ({apkPrijs}) en je krijgt een compleet rapport. Weet je het al? Dan spreken we gelijk de vaste prijs af.</p></div>
         <div class="stap"><div class="n">3</div><h3>Vaste prijs vooraf</h3><p>Je hoort de prijs vóór ik begin. Geen voorrijkosten, geen verrassingen.</p></div>
         <div class="stap"><div class="n">4</div><h3>Netjes gedaan</h3><p>Ik voer het werk uit en ruim op. Je krijgt 1 jaar garantie op reparatie en 2 jaar op vervangen.</p></div>
       </div>
@@ -231,6 +231,7 @@ const faqSchema = {
         {PLAATSEN.map((p) => <a class="chip" href={`/werkgebied/${p.slug}/`}>{p.naam}</a>)}
         <a class="chip" href="/werkgebied/">Hele werkgebied →</a>
       </div>
+      <p style="margin-top:18px;">Lekt het bij jou? Hoe ik een lek in jouw plaats aanpak, lees je bij daklekkage in <a href="/werkgebied/berlicum/daklekkage/">Berlicum</a>, <a href="/werkgebied/vlijmen/daklekkage/">Vlijmen</a>, <a href="/werkgebied/drunen/daklekkage/">Drunen</a>, <a href="/werkgebied/boxtel/daklekkage/">Boxtel</a>, <a href="/werkgebied/sint-michielsgestel/daklekkage/">Sint-Michielsgestel</a>, <a href="/werkgebied/uden/daklekkage/">Uden</a>, <a href="/werkgebied/waalwijk/daklekkage/">Waalwijk</a> en <a href="/werkgebied/tilburg/daklekkage/">Tilburg</a>.</p>
     </div>
   </section>
 
