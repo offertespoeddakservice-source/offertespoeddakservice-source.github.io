@@ -127,6 +127,10 @@ export const PLAATSEN: Plaats[] = [
     reistijd: "25 min vanaf Den Bosch",
     extra:
       "Haaren is sinds de herindeling van 2021 een dorp van de gemeente Oisterwijk. Daar en in het buitengebied staan veel vrijstaande huizen en oude boerderijen met een groot pannendak. Onder de vele bomen in en rond Oisterwijk krijgt een dak weinig zon, en op de noordkant groeit dan snel mos. Mos houdt water vast, en als het daarna vriest kan een pan scheuren. Ligt er een dikke laag mos op je dak, dan haal ik die eraf en kijk ik meteen of de pannen eronder nog heel zijn.",
+    faq: [
+      { v: "Kom je ook in Moergestel en Haaren?", a: "Ja. Moergestel hoort bij de gemeente Oisterwijk, en Haaren sinds 2021 ook. Ik kom er voor dezelfde klussen als in Oisterwijk zelf, zoals een volle goot, mos op het dak of een lek bij de schoorsteen. Het is zo'n 25 minuten rijden vanaf Den Bosch." },
+      { v: "Hoe vaak moeten de goten leeg onder al die bomen?", a: "Onder veel bomen is één keer per jaar vaak te weinig. Een goed moment is laat in de herfst, als het meeste blad eraf is, en daarna nog eens in het voorjaar. Zie je bij een bui water over de rand van de goot komen, wacht dan niet tot die tijd." },
+    ],
   },
   {
     slug: "wijchen",
