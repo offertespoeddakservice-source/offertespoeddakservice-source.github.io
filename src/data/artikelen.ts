@@ -625,6 +625,7 @@ export const ARTIKELEN: Artikel[] = [
       { v: "Krijg ik de prijs vooraf te horen?", a: "Altijd. Ik kijk wat de oorzaak is en noem een vaste prijs voordat ik begin, zonder verrassingen achteraf." },
       { v: "Hoe wordt het lek gevonden?", a: "Meestal met een gerichte controle van buiten en op zolder, zonder sloopwerk. Lees daarover in het artikel ‘Daklekkage opsporen’." },
       { v: "Vergoedt mijn verzekering de reparatie?", a: "Bij storm- of stormgerelateerde schade vaak wel (opstalverzekering). Ik lever foto's en een omschrijving aan zodat je het kunt indienen." },
+      { v: "Wat kost een lek in een plat dak repareren?", a: `Een gericht lek in een plat dak, bijvoorbeeld bij een naad, de rand of de afvoer, kost meestal net zoveel als een ander lek: ${lekPrijs}, inclusief materiaal. Is de dakbedekking op meer plekken versleten en moet er een groter stuk opnieuw, dan hoor je vooraf een vaste prijs. Meer daarover lees je in het artikel over plat dak repareren of vervangen.` },
     ],
   },
   {
