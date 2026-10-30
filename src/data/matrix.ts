@@ -67,7 +67,7 @@ export const MATRIX: MatrixCombo[] = [
   {
     plaats: "rosmalen",
     dienst: "goten-reinigen",
-    hook: "De schuine pannendaken in Rosmalen, van Molenhoek tot De Groote Wielen, hebben goten die door bladval snel dichtslibben. Leeg, uitloop vrij en een eerlijke blik op de rest.",
+    hook: "In Molenhoek, Sparrenburg en de andere wijken van Rosmalen uit de jaren '60 en '70 liggen de nokvorsten vaak nog in specie. Brokkelt die af, dan spoelen de brokjes bij elke bui naar de goot. Daar blijven ze samen met het blad hangen bij de uitloop naar de regenpijp, en dan loopt de goot bij een flinke bui over. Vind ik bij het leegmaken stukjes specie in de goot, dan kijk ik meteen naar de nok en hoor je wat ik zie. In De Groote Wielen hebben veel huizen een plat dak of een aanbouw met een plat dak. Daar loopt het water via een afvoer naar de regenpijp, en zit die vol blad, dan blijft het water op het dak staan. Heb je zo'n dak, zeg het dan als je belt, dan kijk ik ook naar die afvoer.",
   },
   {
     plaats: "vught",
@@ -163,7 +163,7 @@ export const MATRIX: MatrixCombo[] = [
   {
     plaats: "oisterwijk",
     dienst: "goten-reinigen",
-    hook: "Bosrijk Oisterwijk betekent veel blad en mos op het dak. Ik maak je goten grondig leeg, controleer de bladvangers en maak de uitloop naar de regenpijp vrij.",
+    hook: "Aan de rand van de bossen staan in Oisterwijk veel eiken en berken. Een berk laat in de nazomer en de herfst duizenden kleine zaadjes vallen, en die vormen samen met het blad een fijne, natte laag onderin de goot. Op veel goten zit een bolrooster op de uitloop naar de regenpijp. Dat houdt grof blad tegen, maar onder veel bomen raakt het rooster zelf dicht. Dan loopt de goot over, terwijl hij verder nog half leeg is. Ik maak de goot van begin tot eind leeg, haal het rooster schoon en zet het weer goed op de uitloop. Zie ik iets aan je pannen of het lood, dan hoor je dat meteen.",
   },
 
   // ── Tier C · stormschade × alle 12 kerndorpen (klaar voor stormpieken) ──
