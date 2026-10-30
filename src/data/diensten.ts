@@ -124,6 +124,14 @@ export const DIENSTEN: Dienst[] = [
         v: "Kun je het lek eerst tijdelijk dichtmaken?",
         a: "Ja. Lukt een nette reparatie niet meteen, bijvoorbeeld omdat het hard regent of omdat er materiaal besteld moet worden, dan dek ik het eerst tijdelijk af, zodat het binnen droog blijft. De echte reparatie volgt daarna, en ook daarvan hoor je vooraf de prijs.",
       },
+      {
+        v: "Het lekt ook als het droog is. Kan dat van het dak komen?",
+        a: "Meestal niet. Druppelt het na een paar droge dagen nog steeds, dan komt het vaker van een leiding, de cv-ketel of de badkamer erboven. Zie je op zolder na een koude nacht druppels verspreid over de folie of het hout, dan is het vaak condens. En na een sneeuwbui kan er sneeuw op zolder liggen die later smelt, en dat lijkt ook op een lek. Stuur een foto van de plek en vertel wanneer het nat wordt, dan zeg ik eerlijk of het bij het dak hoort of bij een loodgieter.",
+      },
+      {
+        v: "Ik woon in een rijtjeshuis. Kan het lek ook bij de buren zitten?",
+        a: "Dat kan. Bij een rij huizen lopen het pannendak, de goot of een plat dak vaak gewoon door van het ene huis naar het andere, en een schoorsteen staat soms op de scheidingsmuur. Het water zoekt zijn eigen weg en komt dan bij jou binnen, terwijl het lek aan de kant van de buren zit. Daarom kijk ik ook naar het stuk dak naast het jouwe. Zit het aan hun kant, dan hoor je dat van me, en dan is het slim om het samen op te lossen.",
+      },
     ],
   },
   {
