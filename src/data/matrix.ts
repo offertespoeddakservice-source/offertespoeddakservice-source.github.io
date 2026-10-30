@@ -232,6 +232,9 @@ export const MATRIX: MatrixCombo[] = [
     plaats: "tilburg",
     dienst: "daklekkage",
     hook: "Udenhout en Berkel-Enschot liggen aan de kant van Tilburg die het dichtst bij Den Bosch ligt. In de oude dorpskernen staan veel vrijstaande huizen en twee-onder-een-kappers met een pannendak. Daar begint een lek vaak bij het lood rond de schoorsteen of bij een pan die verschoven is. In de Reeshof staan veel rijtjeshuizen uit de jaren '80 en '90. Heeft je huis daar een platte aanbouw of berging, dan komt het water nogal eens binnen bij een naad of bij de rand van dat platte dak. Ik zoek eerst waar het water echt binnenkomt en repareer dan alleen wat nodig is.",
+    faq: [
+      { v: "Kom je bij een lek ook in Udenhout en Berkel-Enschot?", a: "Ja. Udenhout en Berkel-Enschot horen sinds 1997 bij de gemeente Tilburg, en ook daar kom ik bij een lekkend dak. Bel of app me met een foto van de natte plek en, als het lukt, van die kant van je dak. Dan zie ik vaak al waar ik moet zoeken en hoor je wanneer ik kan komen." },
+    ],
   },
   // Daklekkage in Veghel (Search Console: daklekkage veghel plek 25, dakgoot lekkage veghel plek 24), met andere lokale inhoud dan plaatsen.ts
   {
