@@ -46,6 +46,9 @@ export const MATRIX: MatrixCombo[] = [
     plaats: "vught",
     dienst: "daklekkage",
     hook: "In de villawijken van Vught, bijvoorbeeld langs de Helvoirtseweg, staan veel vooroorlogse villa's en herenhuizen met een steil dak van keramische pannen. Op zulke daken ligt veel lood: rond de schoorsteen, in de kilgoten en langs de muur waar een lager dak tegen het huis aansluit. Dat lood is vaak tientallen jaren oud. Het wordt hard, scheurt bij de vouwen of komt los van de muur, en dan loopt het water aan de binnenkant naar beneden. In Cromvoirt staan meer boerderijen en vrijstaande huizen met een breed pannendak, waar ik na een storm vaker een verschoven pan of een losse nokvorst vind. Ik werk van buiten naar binnen en breek alleen iets open als het echt niet anders kan.",
+    faq: [
+      { v: "Mijn slaapkamer zit onder het schuine dak, achter een betimmering. Hoe vind je dan het lek?", a: "Dan begin ik buiten. Bij de villa's in Vught kijk ik naar de pannen, het lood en de kilgoot boven de natte plek en een flink stuk hoger, want het water loopt vaak eerst een eind over de latten voordat het binnenkomt. Meestal vind ik het lek zo. Lukt dat niet, dan maak ik in overleg een klein stukje van de betimmering of het knieschot open, alleen als het echt niet anders kan. Stuur me eerst een foto van de natte plek en van die kant van het dak via WhatsApp." },
+    ],
   },
   {
     plaats: "berlicum",
@@ -114,6 +117,9 @@ export const MATRIX: MatrixCombo[] = [
     plaats: "heusden",
     dienst: "daklekkage",
     hook: "In vesting Heusden staan veel monumenten en oude panden, en de hele vesting is beschermd stadsgezicht. Daar zit een lek vaak in oud lood rond een schoorsteen, in een oude zinken goot of bij een pan die niet meer goed ligt. Bij zo'n dak kijk ik extra goed welk materiaal erbij past, want op een monument mag je niet zomaar iets anders gebruiken. In Oudheusden en Herpt staan meer vrijstaande huizen en boerderijen met een groot pannendak. Daar komt een lek vaker van een nokvorst waarvan de specie is losgeraakt, of van pannen aan de onderkant van het dak die door de wind zijn opgetild. Twijfel je of jouw huis onder het beschermd stadsgezicht valt, dan kun je dat bij de gemeente Heusden navragen.",
+    faq: [
+      { v: "In de vesting komt het water binnen bovenin de muur, tegen het huis van de buren aan. Komt dat van het dak?", a: "Dat kan goed. In de vesting staan de huizen tegen elkaar, en vaak is het ene dak hoger dan het andere. Waar het lagere dak tegen de muur van het hogere huis komt, zit een strook lood die het water van die muur op de pannen moet leiden. Zit die strook los of is hij gescheurd, dan loopt het water erachter langs naar binnen, ook als de pannen zelf goed liggen. Zit het in de muur zelf, dan zeg ik dat eerlijk, want daarvoor heb je een metselaar nodig. Stuur me een foto van de natte plek en, als het lukt, van de daken vanaf de straat." },
+    ],
   },
   {
     plaats: "sint-michielsgestel",
