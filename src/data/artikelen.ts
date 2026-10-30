@@ -852,6 +852,47 @@ export const ARTIKELEN: Artikel[] = [
     ],
   },
   {
+    slug: "water-achter-dakgoot",
+    datum: "2026-10-30",
+    titel: "Water achter je dakgoot?",
+    h1: "Water loopt achter de dakgoot langs de muur: hoe kan dat?",
+    metaTitle: "Water achter de dakgoot langs de muur | Spoed Dak Service",
+    metaDescription:
+      "Loopt het water achter je dakgoot langs de gevel, terwijl de voorkant droog blijft? Vaak hangt de goot te laag of loopt het water onder de pannen mis.",
+    intro:
+      "Een goot die overloopt, zie je aan de voorkant. Maar soms blijft de voorkant droog en loopt het water achter de goot langs de muur naar beneden. Dan zit het meestal niet in de goot zelf, maar in hoe het water van het dak in de goot komt. Hieronder lees je hoe je dat herkent en wat eraan te doen is.",
+    secties: [
+      { kop: "Zo herken je het", tekst: [
+        "Na een bui zie je een natte of groene streep op de gevel, direct onder de goot, terwijl de voorkant van de goot droog is. Soms druppelt het tussen de goot en de muur door op de vensterbank of de stoep. Binnen zie je het soms als een natte plek bovenin de muur of boven een kozijn op de bovenverdieping.",
+        'Komt het water over de voorkant van de goot, dan zit de goot of de uitloop meestal vol. Lees dan <a href="/kennisbank/verstopte-regenpijp-lekkende-dakgoot/">verstopte regenpijp of lekkende dakgoot</a>. Druppelt het op één vaste plek uit de goot zelf, kijk dan bij <a href="/kennisbank/dakgoot-lekt/">dakgoot lekt</a>.',
+      ] },
+      { kop: "Waar het meestal door komt", tekst: [
+        "De goot hangt te laag. Na veel jaren zakt een goot een stukje, of hij is ooit te laag opgehangen. De onderste pannen steken dan niet ver genoeg boven de goot uit, en het water druipt van de pan achter de goot langs in plaats van erin.",
+        "Het water van onder de pannen komt niet in de goot. Onder de pannen ligt vaak een folie die regen en stuifwater opvangt, en die hoort onderaan in de goot uit te komen. Stopt de folie te vroeg of is hij aan de onderkant vergaan, dan loopt dat water achter de goot langs de muur. Je merkt het vooral bij harde wind en regen.",
+        "De goot hangt scheef. Hangt hij naar achteren of staan de beugels krom, dan loopt een volle goot over de achterrand naar de muur, in plaats van over de voorkant.",
+      ] },
+      { kop: "Bij een bakgoot is het anders", tekst: [
+        'Ligt je goot niet aan de voorkant van het dak, maar als een bak in de dakrand achter een houten lijst? Dan komt het water bij een lek vaak binnen en niet langs de buitenmuur. Lees dan <a href="/kennisbank/bakgoot-lekt/">bakgoot lekt</a>.',
+      ] },
+      { kop: "Waarom je het niet laat zitten", tekst: [
+        "Water dat bij elke bui achter de goot langs loopt, maakt de bovenkant van je gevel steeds nat. Daar komt groene aanslag op, en bij vorst kan de buitenkant van de stenen gaan afbrokkelen. Ook het hout aan de dakrand, zoals het boeiboord en de gootklossen, wordt steeds nat en gaat op den duur rotten.",
+      ] },
+      { kop: "Hoe ik het oplos", tekst: [
+        'Ik kijk eerst hoe de goot hangt en waar het water precies achter de goot komt. Hangt hij te laag of scheef, dan zet ik hem weer op de goede hoogte en op afschot naar de regenpijp. Komt het water van onder de pannen, dan zorg ik dat het van de folie weer in de goot loopt, bijvoorbeeld met een strook die het water de goot in leidt. Is het hout achter de goot al zacht, dan zeg ik dat eerlijk voordat ik verder ga. Zie <a href="/diensten/dakgoot-vervangen/">dakgoot repareren of vervangen</a>.',
+      ] },
+      { kop: "Wat kost het?", tekst: [
+        'Dat hangt af van wat er nodig is: een goot die alleen wat hoger moet, is minder werk dan een stuk goot dat vervangen moet. Je hoort de vaste prijs vooraf, voordat ik begin. Richtprijzen staan op de <a href="/prijzen/">prijzenpagina</a>.',
+      ] },
+    ],
+    dienst: { label: "Bekijk: dakgoot repareren of vervangen", href: "/diensten/dakgoot-vervangen/" },
+    faq: [
+      { v: "Waarom loopt er water achter mijn dakgoot langs de muur?", a: "Meestal omdat de goot te laag of scheef hangt, zodat het water van de onderste pannen achter de goot langs druipt. Het kan ook water zijn dat over de folie onder de pannen naar beneden loopt en niet in de goot uitkomt. Een lek in de goot zelf zie je meestal als een druppel op één vaste plek." },
+      { v: "Hoe zie ik of mijn goot te laag hangt?", a: "Kijk vanaf de overkant van de straat of vanuit een raam naar de onderste rij pannen. Die hoort een stukje boven de goot uit te steken, zodat het water er vanzelf in valt. Eindigt de pan al voor de goot, of zit er een kier tussen pan en goot, dan hangt de goot waarschijnlijk te laag. Maak liever een foto vanaf de grond dan dat je zelf de ladder op gaat." },
+      { v: "Is water achter de goot een daklek?", a: "Niet echt, maar het kan er wel op lijken. Komt het binnen bovenin de muur of boven een kozijn, dan denken veel mensen aan een lek in het dak. Vaak is het water dat achter de goot langs de gevel loopt en zo de muur in trekt. Stuur een foto van de natte plek binnen en van de goot buiten, dan zie ik vaak al waar het zit." },
+      { v: "Kan ik het zelf oplossen met een stukje kit?", a: "Meestal niet. Het water loopt niet door een gat, maar langs de verkeerde kant van de goot. Kit tussen goot en muur houdt het water dan vaak juist vast. De goot moet goed hangen, en het water van het dak moet er weer in komen." },
+    ],
+  },
+  {
     slug: "bakgoot-lekt",
     datum: "2026-10-23",
     titel: "Bakgoot lekt?",
