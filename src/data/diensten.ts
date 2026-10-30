@@ -339,6 +339,8 @@ export const DIENSTEN: Dienst[] = [
       { v: "Er is een dakpan kapot of verschoven, is dat spoed?", a: "Lekt het al of zit er een gat in je dak, dan is het spoed: bel of WhatsApp me met een foto. Is het één verschoven pan en blijft het binnen droog, dan kan het meestal een paar dagen wachten. Wacht alleen niet tot de volgende storm, want dan waaien er vaak meer los." },
       { v: "Waarom verschuiven dakpannen?", a: "Door harde wind, door een losse of rotte panlat eronder, of doordat er iemand op het dak heeft gelopen, bijvoorbeeld bij het plaatsen van zonnepanelen of een antenne. Ik leg ze recht en kijk meteen of de oorzaak eronder zit." },
       { v: "Kan ik zelf een dakpan terugleggen?", a: "Liever niet. Op een schuin, nat dak ben je zo uitgegleden, en een pan die niet goed in de sluiting ligt, schuift bij de volgende bui weer. Stuur een foto, dan zeg ik wat er nodig is." },
+      { v: "Wat kost het om een paar dakpannen te laten vervangen?", a: `Eén of een paar pannen vervangen valt bij mij onder een kleine reparatie: ${KLEIN_PRIJS}. Gaat het om een hele rij, een groter stuk dak of een pan die lastig te krijgen is, dan hoor je vooraf de vaste prijs.` },
+      { v: "Vervang je ook dakpannen buiten Den Bosch?", a: "Ja, in mijn hele werkgebied rond Den Bosch, onder andere in Rosmalen, Vught, Oss, Veghel en Waalwijk. Stuur een foto van je dak vanaf de straat via WhatsApp, dan zie ik vaak al wat voor pan het is en hoor je wanneer ik kan komen." },
     ],
   },
   {
