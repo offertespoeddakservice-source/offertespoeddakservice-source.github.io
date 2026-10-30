@@ -1371,7 +1371,7 @@ export const ARTIKELEN: Artikel[] = [
         'Lekt het op zolder sinds de panelen erop liggen? Lees dan <a href="/kennisbank/lekkage-bij-zonnepanelen/">lekkage bij zonnepanelen</a>.',
       ] },
       { kop: "Wat kost het?", tekst: [
-        `Zonnepanelen reinigen kost ${zonPrijs}, veilig vanaf het dak en streepvrij. Omdat ik er toch ben, is het vaak handig te combineren met goten reinigen.`,
+        `Zonnepanelen reinigen kost ${zonPrijs}. Ik werk veilig vanaf het dak en voorzichtig met het glas, zonder schurende middelen. Omdat ik er toch ben, is het vaak handig te combineren met goten reinigen.`,
       ] },
     ],
     dienst: { label: "Bekijk: zonnepanelen reinigen", href: "/diensten/zonnepanelen-reinigen/" },
