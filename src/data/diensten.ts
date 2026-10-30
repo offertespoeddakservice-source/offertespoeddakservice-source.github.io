@@ -265,6 +265,7 @@ export const DIENSTEN: Dienst[] = [
       { v: "Kun je een lekkende dakgoot ook repareren in plaats van vervangen?", a: "Vaak wel. Een lekkende naad, een losse hoek, een losse beugel of een lekkende uitloop naar de regenpijp is meestal goed te herstellen. Is de goot op meerdere plekken lek of doorgeroest, dan zeg ik eerlijk dat vervangen slimmer is." },
       { v: "Mijn dakgoot lekt bij de regenpijp, wat is dat?", a: "Meestal zit de uitloop los, het stuk waar de goot overgaat in de regenpijp, of lekt de verbinding. Soms zit de uitloop gewoon vol blad. Ik kijk wat het is en maak het weer dicht." },
       { v: "Mijn goot hangt door, moet hij dan vervangen worden?", a: "Niet altijd. Vaak zit er een beugel los of is er een gebroken. Dan zet ik de goot weer goed op afschot, zodat het water naar de regenpijp loopt in plaats van over de rand." },
+      { v: "Het water loopt achter mijn dakgoot langs de muur. Moet de goot dan vervangen worden?", a: "Meestal niet. Vaak hangt de goot te laag of scheef, of komt het water van onder de pannen niet in de goot terecht. Dan hang ik de goot weer op de goede hoogte en op afschot naar de regenpijp, of zorg ik dat het water van de folie onder de pannen weer in de goot loopt. Vervangen is pas nodig als de goot zelf op is. Je hoort vooraf wat het kost." },
     ],
   },
   {
