@@ -363,4 +363,13 @@ export const MATRIX: MatrixCombo[] = [
     dienst: "schoorsteen-vegen",
     hook: "In de langgevelboerderijen en vrijstaande huizen in Erp, Eerde en Zijtaart staat nogal eens een houtkachel in de oude deel of in de woonkamer. Stook je daar vaak op, dan zet zich elk stookseizoen een laag roet in het kanaal af. Stook je met hout dat nog niet goed droog is, dan wordt dat een glimmende, teerachtige laag, en die kan vlam vatten. Daarom veeg ik het hele kanaal en kijk ik meteen of er iets in zit, zoals een nest van kauwen. Bovenop kijk ik naar de kap en het lood rond de schoorsteen, want die zie je vanaf de grond slecht. Heb je in Veghel alleen een cv-ketel met een eigen afvoerpijp door het dak, dan hoeft er niets geveegd te worden: die laat je nakijken door je installateur. Twijfel je wat je hebt, stuur dan een foto van je kachel of haard en van de schoorsteen buiten.",
   },
+  // Daklekkage in Helmond (Rens 19-10: ja, ook bij spoed en lekkage in Helmond; Search Console: lekdetectie helmond 15, lekkage helmond 12, dakreparatie helmond 12 en daklekkage helmond 9 vertoningen, nog geen eigen pagina), met andere lokale inhoud dan plaatsen.ts
+  {
+    plaats: "helmond",
+    dienst: "daklekkage",
+    hook: "In Dierdonk, Brouwhuis en Rijpelberg, wijken die tussen de jaren '70 en '90 zijn gebouwd, gaat bij veel huizen een afvoerpijp van de ventilatie of de cv-ketel door het pannendak. Rond zo'n pijp zit een rubberen of loden kraag op een speciale pan. Na dertig, veertig jaar droogt die kraag uit of scheurt hij, en dan loopt het water bij een flinke bui langs de pijp naar binnen. Druppelt het rond de pijp ook als het droog en koud is, dan is het vaak condens in de pijp zelf, en dan valt er aan het dak niets te repareren. In de oudere straten rond het centrum, uit de tijd dat Helmond een stad van textielfabrieken was, kijk ik bij een lek eerst naar het lood rond de schoorsteen en naar de goot. Tussen Den Bosch en Helmond zit zo'n 40 minuten rijden. Met een foto van de natte plek en van die kant van je dak zie ik vaak al waar ik moet zoeken, en dan hoor je eerlijk wanneer ik kan komen.",
+    faq: [
+      { v: "Wat doe ik met het lek tot je er bent?", a: "Zet een emmer met een doek erin onder de druppel, haal spullen weg en leg handdoeken neer. Bolt het plafond op of zit er een lamp in de natte plek, ga er dan niet onder staan en laat die lamp uit. Ga zelf niet het dak op, zeker niet bij regen of wind. Maak foto's van de natte plek, want die heb je ook nodig voor je verzekering. Op de spoedpagina lees je wat je verder meteen kunt doen." },
+    ],
+  },
 ];
