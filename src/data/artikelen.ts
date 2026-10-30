@@ -748,6 +748,7 @@ export const ARTIKELEN: Artikel[] = [
       { v: "Wat kost dakgoot reinigen bij een rijtjeswoning?", a: `Bij een rijtjeswoning ${GOTEN_PRIJS}: beide goten leeg, uitloop naar de regenpijp vrijgemaakt en de troep gaat mee. Bij een groter of hoger huis hoor je de vaste prijs vooraf.` },
       { v: "Wanneer laat ik mijn goten het beste schoonmaken?", a: "In het najaar, als het meeste blad gevallen is. Dan loopt het water in de winter goed weg en voorkom je overlopende goten en vocht in je muren." },
       { v: "Kan het samen met andere klussen?", a: "Ja. Moet er ook iets aan je dak gebeuren of wil je je zonnepanelen laten reinigen, dan kan dat vaak in dezelfde keer. Je hoort vooraf wat het samen kost." },
+      { v: "Mijn goot loopt door naar die van de buren. Kunnen we het samen laten doen?", a: "Ja, dat is vaak handig. Bij een rij huizen loopt de goot meestal gewoon door, en het water van een paar huizen gaat dan naar dezelfde uitloop. Zit die bij de buren dicht, dan loopt de goot bij jou over. Doen jullie het samen, dan maak ik het hele stuk goot in één keer leeg en kijk ik of het water overal weer naar de regenpijp kan. Ieder hoort vooraf wat het kost." },
     ],
   },
   {
