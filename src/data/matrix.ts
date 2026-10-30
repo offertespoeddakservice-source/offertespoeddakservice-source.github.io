@@ -342,4 +342,10 @@ export const MATRIX: MatrixCombo[] = [
       { v: "Ik hoor vogels onder mijn dakpannen. Is dat erg?", a: "Niet meteen, maar laat het niet jaren zitten. Met hun nesten duwen vogels de onderste pannen omhoog, en dan kan de regen eronder waaien. Zitten er in het voorjaar of de zomer jongen in het nest, dan wacht ik tot ze uitgevlogen zijn. Daarna leg ik de pannen recht en sluit ik de rij onder de pannen af met kunststof vogelwering. Je hoort vooraf wat het kost." },
     ],
   },
+  // Schoorsteen vegen in Veghel (Search Console: schoorsteenveger veghel 21 vertoningen op plek 53, nog geen eigen pagina), met andere lokale inhoud dan plaatsen.ts en de andere Veghel-pagina's
+  {
+    plaats: "veghel",
+    dienst: "schoorsteen-vegen",
+    hook: "In de langgevelboerderijen en vrijstaande huizen in Erp, Eerde en Zijtaart staat nogal eens een houtkachel in de oude deel of in de woonkamer. Stook je daar vaak op, dan zet zich elk stookseizoen een laag roet in het kanaal af. Stook je met hout dat nog niet goed droog is, dan wordt dat een glimmende, teerachtige laag, en die kan vlam vatten. Daarom veeg ik het hele kanaal en kijk ik meteen of er iets in zit, zoals een nest van kauwen. Bovenop kijk ik naar de kap en het lood rond de schoorsteen, want die zie je vanaf de grond slecht. Heb je in Veghel alleen een cv-ketel met een eigen afvoerpijp door het dak, dan hoeft er niets geveegd te worden: die laat je nakijken door je installateur. Twijfel je wat je hebt, stuur dan een foto van je kachel of haard en van de schoorsteen buiten.",
+  },
 ];
