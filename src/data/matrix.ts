@@ -268,6 +268,9 @@ export const MATRIX: MatrixCombo[] = [
     plaats: "veghel",
     dienst: "daklekkage",
     hook: "In het centrum van Veghel, langs de Zuid-Willemsvaart, staan nog oudere panden. Daar zit een lek vaak in oud lood rond de schoorsteen of in een zinken goot die bij een naad is gaan lekken. In de kerkdorpen eromheen, zoals Eerde, Zijtaart en Keldonk, staan veel vrijstaande huizen en oude boerderijen met een groot pannendak. Staat er een schuur of aanbouw tegenaan, dan ligt er een kilgoot waar de daken samenkomen. Daar blijft blad liggen en daar lekt het na verloop van tijd vaak. Ik zoek eerst waar het water echt binnenkomt en repareer dan gericht, zonder onnodig sloopwerk.",
+    faq: [
+      { v: "De kilgoot tussen mijn huis en de schuur lekt elk najaar. Moet hij vervangen worden?", a: "Niet altijd. Lekt het vooral in de herfst, dan zit de kil vaak vol blad en loopt hij bij een bui over de rand onder de pannen. Dan is leegmaken genoeg. Zitten er scheurtjes of gaatjes in het lood of zink van de kil, dan herstel ik die plek. Pas als de kil over de hele lengte dun of lek is, vervang ik hem. Je hoort vooraf wat het kost." },
+    ],
   },
   // Daklekkage in Eindhoven (Search Console: lekkage dak eindhoven plek 36, daklekkage eindhoven en dak lekkage eindhoven samen 29 vertoningen), met andere lokale inhoud dan plaatsen.ts
   {
@@ -349,6 +352,9 @@ export const MATRIX: MatrixCombo[] = [
     plaats: "uden",
     dienst: "daklekkage",
     hook: "In wijken als Bitswijk en Hoenderbos staan veel rijtjeshuizen en twee-onder-een-kappers van zo'n veertig, vijftig jaar oud. Bij een deel daarvan is de goot in de loop der jaren wat gezakt. Dan steken de onderste pannen niet ver genoeg meer in de goot, en bij een flinke bui loopt het water achter de goot langs de muur in. Binnen zie je dat als een natte plek op de muur onder de goot of naast het kozijn, en dat lijkt op een daklek. Bij oudere huizen rond het centrum is de schoorsteen soms weggehaald toen er een cv-ketel kwam, en is het gat met pannen dichtgelegd. Is dat destijds niet goed aangesloten, dan lekt het jaren later precies op die plek. Sinds 2022 hoort Uden bij de gemeente Maashorst, maar voor mij is het gewoon 25 minuten rijden vanaf Den Bosch. Stuur me een foto van de natte plek en van die kant van je dak, dan zoek ik gericht.",
+    faq: [
+      { v: "Hoe weet ik of het water van de goot komt of van het dak?", a: "Kijk tijdens een flinke bui buiten naar de goot boven de natte plek. Loopt er water over de voorkant, of druppelt het achter de goot langs de muur, dan zit het meestal bij de goot. Zit de natte plek binnen hoger, op het schuine plafond of op zolder, of wordt hij ook bij een gewone bui nat, dan komt het water vaker van het dak zelf. Ga er niet voor op een ladder staan. Maak vanaf de grond een foto van de goot en binnen van de natte plek, en stuur die via WhatsApp." },
+    ],
   },
   // Dakgoot repareren of vervangen in Sint-Michielsgestel (Search Console: dakgoot reparatie sint michielsgestel plek 40), met andere lokale inhoud dan plaatsen.ts en de lekkage- en gootpagina van Sint-Michielsgestel
   {
