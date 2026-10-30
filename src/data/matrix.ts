@@ -159,7 +159,7 @@ export const MATRIX: MatrixCombo[] = [
   {
     plaats: "rosmalen",
     dienst: "stormschade",
-    hook: "De schuine pannendaken in Rosmalen verliezen bij storm vaak nokvorsten of losse pannen. Ik beperk eerst de schade en herstel daarna, met duidelijke foto's voor je verzekeraar.",
+    hook: "Rond de Maliskamp en Kruisstraat, aan de rand van Rosmalen, ligt veel open land. Daar heeft de wind vrij spel op de vrijstaande huizen en boerderijen, en na een storm vind ik daar vaker pannen langs de rand van het dak die zijn opgetild of verschoven. In De Groote Wielen liggen op veel daken zonnepanelen. Waait de wind eronder, dan kan een pan bij een dakhaak breken, en dat zie je vanaf de straat bijna niet. Zit er een paneel los, dan zeg ik dat eerlijk, want daarvoor heb je je installateur nodig. Ga zelf niet het dak op en stuur me een foto vanaf de grond. Is er een open plek, dan maak ik die eerst dicht, en daarna volgt de nette reparatie.",
   },
   {
     plaats: "vught",
@@ -184,7 +184,7 @@ export const MATRIX: MatrixCombo[] = [
   {
     plaats: "boxtel",
     dienst: "stormschade",
-    hook: "Onder de bomenrijke straten van Boxtel zorgt storm voor afgewaaide takken én losse pannen. Ik dek af, herstel en lever foto's voor je verzekering.",
+    hook: "Sinds 2021 hoort ook Esch bij de gemeente Boxtel. Rond Liempde en Esch ligt veel open land met verspreide boerderijen, en daar pakt de wind een groot, steil dak flink aan. Na een storm zie ik daar vaker dat de laatste vorst van de nok, vlak bij de gevel, is losgeraakt. In de rijtjes in Boxtel zelf zitten losse pannen na harde wind vooral aan het eind van de rij, bij het hoekhuis, waar de wind het hardst langs de kopgevel trekt. Ga na een storm niet onder de dakrand staan waar iets naar beneden kwam, en app me een foto vanaf de straat.",
   },
   {
     plaats: "schijndel",
