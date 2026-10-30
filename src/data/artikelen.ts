@@ -1407,7 +1407,7 @@ export const ARTIKELEN: Artikel[] = [
         'Zet een emmer onder het lek en maak een foto van de natte plek. Ga niet zelf het dak op als het nat is of waait. Bij een plat dak komt het water vaak meters verderop binnen dan waar het lek zit, dus de plek binnen zegt weinig. Kijk op de <a href="/spoed/">spoedpagina</a> wat je meteen kunt doen, of lees hoe ik <a href="/kennisbank/daklekkage-opsporen/">een daklekkage opspoor</a>.',
       ] },
       { kop: "Wat kost het?", tekst: [
-        "Een gerichte reparatie is meestal het goedkoopst. Een hele bedekking vervangen krijg je als vaste prijs na inspectie. Je hoort altijd wat het wordt voordat ik begin.",
+        `Een gericht lek in een plat dak, bijvoorbeeld bij een naad, de rand of de afvoer, kost meestal ${lekPrijs}, inclusief materiaal. Is de bedekking op meer plekken versleten en moet er een groter stuk of de hele bedekking opnieuw, dan krijg je een vaste prijs na inspectie. Je hoort altijd wat het wordt voordat ik begin. Alle richtprijzen staan op de <a href="/prijzen/">prijzenpagina</a>.`,
       ] },
     ],
     dienst: { label: "Bekijk: platte daken (EPDM)", href: "/diensten/platte-daken/" },
