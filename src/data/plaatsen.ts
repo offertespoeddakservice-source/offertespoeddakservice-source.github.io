@@ -87,6 +87,7 @@ export const PLAATSEN: Plaats[] = [
       "Veel oudere, karakteristieke woningen langs de Dommel met klassieke pannendaken die regelmatig onderhoud aan vorsten en lood vragen.",
     wijken: ["Gestel", "Den Dungen", "Gemonde"],
     reistijd: "15 min vanaf Den Bosch",
+    omschrijving: "Dakdekker in Sint-Michielsgestel, Den Dungen en Gemonde: lood en nokvorsten op oude daken, goten vol blad en lekkage. Vaste prijs vooraf. Bel of app Rens.",
     extra:
       "Rond Sint-Michielsgestel liggen oude landgoederen, zoals Zegenwerp en Ruwenberg, en ook in de straten eromheen staan hoge eiken en beuken. In de herfst komen daar naast blad ook eikels en takjes in de goot, en die blijven bij de uitloop naar de regenpijp hangen. In Den Dungen en Gemonde staan meer vrijstaande huizen en boerderijen met een groot pannendak, vaak met veel open land eromheen. Daar heeft de wind meer grip op het dak, en waait een nokvorst met losse specie er eerder af dan in een straat vol huizen.",
   },
@@ -124,6 +125,7 @@ export const PLAATSEN: Plaats[] = [
       "Veel ruime naoorlogse wijken met schuine daken; goten reinigen en pannen vervangen zijn hier veelgevraagd.",
     wijken: ["Ruwaard", "Ussen", "Schadewijk", "Berghem"],
     reistijd: "25 min vanaf Den Bosch",
+    omschrijving: "Dakdekker in Oss, Berghem en Geffen: lekkage bij lood of een dakraam, goten vol blad en losse pannen na storm. Vaste prijs vooraf. Bel of app Rens.",
     extra:
       "Bij Oss horen ook de dorpen langs de Maas, zoals Lith, Megen en Ravenstein. Daar staan veel dijkhuizen en oude boerderijen met een groot pannendak, en over de rivier en het open land heeft de wind vrij spel. Na een storm zie ik daar vaak dat de houten windveer loszit of dat de pannen langs de zijkant van het dak zijn gaan schuiven. Rond het centrum van Oss staan nog veel oude arbeiderswoningen met een schoorsteen die al jaren niet meer gebruikt wordt. Zit daar geen kap op, dan regent het in het kanaal, en na een tijd zie je een vochtplek op de muur binnen. Vaak is een kap of afdekplaat op de schoorsteen dan genoeg, en die zet ik er zelf op.",
   },
@@ -175,6 +177,7 @@ export const PLAATSEN: Plaats[] = [
       "Ruim opgezette wijken met schuine pannendaken; bladval en mos zorgen voor snel volle goten en losse pannen.",
     wijken: ["Melle", "Bitswijk", "Hoenderbos", "Centrum"],
     reistijd: "25 min vanaf Den Bosch",
+    omschrijving: "Dakdekker in Uden, Volkel en Odiliapeel: lekkage bij een gezakte goot of een plat dak, volle goten en losse pannen. Vaste prijs vooraf. Bel of app Rens.",
     extra:
       "Rond de Markt in het centrum van Uden zitten veel winkels met een woning erboven. Achter zo'n pand ligt vaak een plat dak op de winkel of het magazijn, en daar komt het water nogal eens binnen bij de afvoer of langs de rand. Volkel en Odiliapeel, de dorpen die bij Uden horen, hebben meer vrijstaande huizen en boerderijen met een groot pannendak en een lange goot. Daar blijft in de herfst veel blad in de goot liggen, en bij een stevige bui loopt hij dan over langs de gevel. Stuur me een foto, dan zeg ik je eerlijk of leegmaken genoeg is.",
   },
@@ -185,6 +188,7 @@ export const PLAATSEN: Plaats[] = [
       "Mijn thuisbasis: van de oude binnenstad met monumentale daken tot naoorlogse wijken met schuine pannendaken. Hier ben ik dagelijks, dus bij spoed sta ik snel voor je deur.",
     wijken: ["Muntel", "Boschveld", "De Slagen", "Maaspoort", "Zuid", "Empel", "Engelen"],
     reistijd: "een paar minuten vanaf mijn thuisbasis",
+    omschrijving: "Dakdekker in Den Bosch, Empel, Engelen en Nuland: lekkage opsporen, oude goten en lood, losse pannen na storm. Vaste prijs vooraf. Bel of app Rens.",
     extra:
       "Bij Den Bosch horen ook Engelen en Bokhoven, de oude dorpjes aan de Maas, en sinds 2015 ook Nuland en Vinkel. In Engelen en Bokhoven staan veel lage dijkhuizen en oude boerderijen. De goot hangt daar laag en vaak onder de bomen langs de dijk, dus die zit in de herfst snel vol. In Nuland en Vinkel staan veel gezinswoningen en twee-onder-een-kappers, en op steeds meer daken liggen zonnepanelen. Lekt het bij jou sinds de panelen erop liggen, dan kijk ik eerst bij de plek waar de kabel door het dak naar binnen gaat.",
     faq: [
