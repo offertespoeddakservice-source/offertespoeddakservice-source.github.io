@@ -1247,6 +1247,10 @@ export const ARTIKELEN: Artikel[] = [
         "<strong>Pas op bij druk om nu te beslissen</strong>: aan de deur, of \"deze prijs geldt alleen vandaag\". Een serieus bedrijf geeft je bedenktijd.",
         "<strong>Meerwerk alleen na jouw akkoord vooraf.</strong> Komt er tijdens het werk iets extra's bij, vraag dan eerst om een prijs op papier of in een appje en geef pas daarna akkoord. Dan weet je precies waar je aan toe bent.",
       ] },
+      { kop: "Na een storm: let op wie er aanbelt", tekst: [
+        "Na een zware storm gaan er soms mensen langs de deuren die zeggen dat ze schade aan je dak hebben gezien. Ze kunnen het meteen maken, het liefst vandaag nog en contant. Soms is er echt iets aan de hand, maar soms ook niet, en dan betaal je voor werk dat niet nodig was.",
+        `Laat niemand op je dak die je niet zelf hebt gebeld. Vraag om een foto van de schade en kijk zelf vanaf de straat of je het ook ziet. Twijfel je, bel dan eerst je eigen dakdekker of je verzekeraar voordat je iets afspreekt. Wat je na een storm zelf kunt nakijken, lees je in <a href="/kennisbank/stormschade-eerste-hulp/">stormschade: eerste hulp</a>.`,
+      ] },
       { kop: "Zo doe ik het zelf", tekst: [
         `Ik werk onder mijn eigen naam met mijn eigen 06-nummer: je krijgt mij aan de lijn, geen callcenter, en mijn KvK- en btw-gegevens deel ik gewoon op verzoek. Bij elke klus krijg je een vaste prijs vóórdat ik begin, en bij de Dak-APK (${apkPrijs}) krijg je er ook een fotorapport bij, zodat je niet op mijn woord alleen hoeft te vertrouwen.`,
         "Zie ik onderweg iets extra's dat nodig is, dan meld ik dat en bespreken we het vóórdat ik het uitvoer, nooit een verrassing op de rekening achteraf.",
