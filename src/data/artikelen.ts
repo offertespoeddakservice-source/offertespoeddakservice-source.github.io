@@ -735,6 +735,7 @@ export const ARTIKELEN: Artikel[] = [
       { v: "Hoe wordt het lek gevonden?", a: "Meestal met een gerichte controle van buiten en op zolder, zonder sloopwerk. Lees daarover in het artikel ‘Daklekkage opsporen’." },
       { v: "Vergoedt mijn verzekering de reparatie?", a: "Bij storm- of stormgerelateerde schade vaak wel (opstalverzekering). Ik lever foto's en een omschrijving aan zodat je het kunt indienen." },
       { v: "Wat kost een lek in een plat dak repareren?", a: `Een gericht lek in een plat dak, bijvoorbeeld bij een naad, de rand of de afvoer, kost meestal net zoveel als een ander lek: ${lekPrijs}, inclusief materiaal. Is de dakbedekking op meer plekken versleten en moet er een groter stuk opnieuw, dan hoor je vooraf een vaste prijs. Meer daarover lees je in het artikel over plat dak repareren of vervangen.` },
+      { v: "Hoe lang duurt het om een daklekkage te repareren?", a: "Een gerichte reparatie, zoals een pan vervangen, een stuk lood vastzetten of een naad in een plat dak dichtmaken, is vaak binnen een paar uur klaar. Moet er materiaal besteld worden, of regent het te hard om netjes te werken, dan maak ik het lek eerst tijdelijk dicht en kom ik later terug voor de nette reparatie. Voordat ik begin, zeg ik je hoe lang ik denk bezig te zijn en wat het kost." },
     ],
   },
   {
