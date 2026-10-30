@@ -820,6 +820,7 @@ export const ARTIKELEN: Artikel[] = [
       { v: "Ik huur mijn huis, wie betaalt de reparatie?", a: "Het dak is de zaak van je verhuurder. Meld het lek daar zo snel mogelijk. Schade aan je eigen spullen valt onder je eigen inboedelverzekering." },
       { v: "Valt daklekkage onder mijn brandverzekering?", a: "Wat veel mensen de brandverzekering noemen, is meestal de opstalverzekering van je huis. Die dekt niet alleen brand, maar vaak ook schade door storm of een plotseling lek. Of jouw lek eronder valt, hangt af van de oorzaak en van je polis. Lekkage door slijtage of achterstallig onderhoud valt er meestal niet onder." },
       { v: "Wordt schade aan mijn muur door een lekkende dakgoot vergoed?", a: "Loopt een goot over of lekt hij omdat hij al lang vol zit of oud is, dan zien veel verzekeraars dat als onderhoud, en dan wordt de schade vaak niet vergoed. Scheurt de goot bij een storm los of raakt hij plotseling lek, dan ligt dat anders. Maak foto's van de goot en van de natte muur, en kijk in je polisvoorwaarden." },
+      { v: "Het lek zit bij de buren, maar de schade is bij mij. Wie betaalt?", a: `Dat hangt af van de oorzaak en van de polissen, maar meestal gaat het zo. De reparatie van het dak is de zaak van wie dat stuk dak bezit, dus van je buren. De schade bij jou binnen meld je bij je eigen verzekeraar, en die zoekt verder uit wie wat betaalt. Maak foto's van de schade bij jou en, als het kan, van het dak vanaf de straat. En praat even met je buren, zodat het lek snel gemaakt wordt.` },
     ],
   },
   {
