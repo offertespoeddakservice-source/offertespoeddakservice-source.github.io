@@ -3,6 +3,10 @@ import Base from "../../layouts/Base.astro";
 import { SITE, telHref, waHref } from "../../site.config.ts";
 import { DIENSTEN } from "../../data/diensten.ts";
 import DienstIcon from "../../components/DienstIcon.astro";
+import { MATRIX } from "../../data/matrix.ts";
+import { getPlaats } from "../../data/plaatsen.ts";
+// Dakreparatie per plaats: alle plaatsen met een eigen pagina, zodat nieuwe pagina's vanzelf meekomen.
+const dakrepPlaatsen = MATRIX.filter((c) => c.dienst === "dakreparatie").map((c) => getPlaats(c.plaats)).filter((p) => p) as NonNullable<ReturnType<typeof getPlaats>>[];
 ---
 
 <Base
@@ -36,6 +40,9 @@ import DienstIcon from "../../components/DienstIcon.astro";
       </p>
       <p style="margin-top:16px;">Lekt het bij jou thuis? Hoe ik een lek aanpak in jouw buurt, lees je bij daklekkage in <a href="/werkgebied/vlijmen/daklekkage/">Vlijmen</a>, <a href="/werkgebied/heusden/daklekkage/">Heusden</a>, <a href="/werkgebied/oisterwijk/daklekkage/">Oisterwijk</a>, <a href="/werkgebied/schijndel/daklekkage/">Schijndel</a>, <a href="/werkgebied/boxtel/daklekkage/">Boxtel</a> en <a href="/werkgebied/sint-michielsgestel/daklekkage/">Sint-Michielsgestel</a>. Andere plaatsen vind je bij <a href="/werkgebied/">mijn werkgebied</a>.</p>
       <p style="margin-top:12px;">Stormschade aan je dak? Hoe ik dat aanpak, lees je bij stormschade in <a href="/werkgebied/den-bosch/stormschade/">Den Bosch</a>, <a href="/werkgebied/rosmalen/stormschade/">Rosmalen</a>, <a href="/werkgebied/vught/stormschade/">Vught</a>, <a href="/werkgebied/oss/stormschade/">Oss</a>, <a href="/werkgebied/schijndel/stormschade/">Schijndel</a> en <a href="/werkgebied/boxtel/stormschade/">Boxtel</a>. Lekt je dakgoot, lees dan hoe ik een goot repareer in <a href="/werkgebied/den-bosch/dakgoot-vervangen/">Den Bosch</a>, <a href="/werkgebied/vught/dakgoot-vervangen/">Vught</a> en <a href="/werkgebied/veghel/dakgoot-vervangen/">Veghel</a>.</p>
+      {dakrepPlaatsen.length > 0 && (
+        <p style="margin-top:12px;">Ligt er een pan scheef of zit de nok los? Wat ik bij een dakreparatie per plaats tegenkom, lees je bij dakreparatie in {dakrepPlaatsen.map((p, i) => (<>{i > 0 && (i === dakrepPlaatsen.length - 1 ? " en " : ", ")}<a href={`/werkgebied/${p.slug}/dakreparatie/`}>{p.naam}</a></>))}.</p>
+      )}
     </div>
   </section>
 
