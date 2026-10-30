@@ -402,4 +402,13 @@ export const MATRIX: MatrixCombo[] = [
     dienst: "goten-reinigen",
     hook: "Op een deel van de goten in Veghel ligt een kunststof rooster of een borstel over de hele lengte, bedoeld om het blad tegen te houden. Grof blad blijft er dan bovenop liggen, maar zaadjes, gruis van de pannen en losgekomen mos zakken er gewoon doorheen. Daaronder slibt de goot langzaam dicht, en omdat je van beneden alleen het rooster ziet, lijkt hij schoon. Ik haal het rooster of de borstel eruit, maak de goot eronder leeg, maak de uitloop naar de regenpijp vrij en leg alles daarna weer terug. Bij veel twee-onder-een-kappers en vrijstaande huizen in Mariaheide en de andere kerkdorpen staat naast het huis een garage of berging met een eigen, lage goot. Nogal eens komt de regenpijp van het grote dak daarop uit. Bij een flinke bui krijgt die kleine goot dan het water van twee daken, en zit hij een beetje vol, dan loopt hij over tegen de muur. Die lage goot neem ik dus ook mee. Zie ik iets aan je pannen of het lood, dan hoor je dat meteen.",
   },
+  // Dakreparatie in Oisterwijk (Search Console: dakreparatie oisterwijk 17 vertoningen op plek 33, dakdekker oisterwijk 65 op plek 27, nog geen eigen pagina), met andere lokale inhoud dan plaatsen.ts en de lekkage-, goot-, dakgoot- en stormpagina van Oisterwijk
+  {
+    plaats: "oisterwijk",
+    dienst: "dakreparatie",
+    hook: "In de lanen van Oisterwijk staan veel huizen met hoge bomen vlak naast het dak. Hangt er een tak over de pannen, dan schuurt die bij elke windvlaag heen en weer. Na een paar stormen is de toplaag van de pannen eronder weggesleten, of zijn ze een stukje uit de sluiting geduwd, en dan waait de regen eronder. Bij een deel van de oude villa's groeit klimop of wilde wingerd tegen de gevel omhoog. Komt die over de dakrand, dan kruipen de ranken onder de onderste pannen en tillen ze die langzaam op. Ik haal de ranken onder de pannen vandaan, leg de pannen weer goed in de sluiting en vervang wat gebroken is. De boom of de klimop zelf laat je snoeien door een hovenier of boomverzorger, anders zit je over een paar jaar weer met hetzelfde. Vanaf de straat zie je vaak al waar een pan hoger ligt dan de rest. Stuur me een foto via WhatsApp, dan zeg ik wat het wordt.",
+    faq: [
+      { v: "Hoe zie ik of er klimop onder mijn dakpannen zit?", a: "Kijk vanaf de straat naar de onderste rij pannen boven de goot en naar de rand van het dak bij de gevel. Steken er ranken of blaadjes onder de pannen uit, of ligt een pan daar net hoger dan de rest, dan zit de klimop eronder. Op zolder zie je soms groene ranken tussen de pannen door komen. Trek ze er niet zelf vanaf de ladder uit, want dan trek je de pannen mee. Stuur me liever een foto." },
+    ],
+  },
 ];
