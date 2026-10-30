@@ -70,6 +70,9 @@ export const PLAATSEN: Plaats[] = [
     extra:
       "Drunen hoort samen met Vlijmen en Heusden bij de gemeente Heusden, en Elshout ligt er vlak naast. Aan de zuidkant van Drunen, richting de Loonse en Drunense Duinen, staan veel huizen tussen de bomen. Daar komt in de herfst naast blad ook zand in de goot. Dat spoelt naar de uitloop naar de regenpijp en wordt daar met het blad een zware, natte prop, en dan loopt de goot bij een bui over aan de voorkant. In het oude centrum en in Elshout staan nog veel oudere huizen met een schoorsteen, en daar kijk ik bij een lek eerst naar het lood. Stuur me gerust eerst een foto via WhatsApp.",
     omschrijving: "Dakdekker in Drunen en Elshout: goten vol zand en blad, lekkage bij oud lood en losse pannen na een storm. Vaste prijs vooraf. Bel of app Rens.",
+    faq: [
+      { v: "Kom je ook in Elshout?", a: "Ja. Elshout ligt vlak bij Drunen en hoort net als Drunen bij de gemeente Heusden. Ik kom er voor dezelfde klussen als in Drunen zelf, zoals goten vol zand en blad, lekkage bij oud lood en losse pannen na een storm. Het is zo'n 20 minuten rijden vanaf Den Bosch." },
+    ],
   },
   {
     slug: "berlicum",
@@ -102,6 +105,9 @@ export const PLAATSEN: Plaats[] = [
     wijken: ["Hoevenbraak", "Boschweg", "Centrum"],
     reistijd: "20 min vanaf Den Bosch",
     omschrijving: "Dakdekker in Schijndel en Wijbosch: lekkage bij oude pannen of de schoorsteen, volle goten en stormschade. Vaste prijs vooraf. Bel of app Rens.",
+    faq: [
+      { v: "Kom je ook in Wijbosch en het buitengebied van Schijndel?", a: "Ja. Wijbosch hoort bij Schijndel, en Schijndel hoort sinds 2017 bij de gemeente Meierijstad. Ik kom er voor dezelfde klussen als in Schijndel zelf: lekkage, goten, pannen en lood. Het is zo'n 20 minuten rijden vanaf Den Bosch." },
+    ],
   },
   {
     slug: "boxtel",
@@ -111,6 +117,9 @@ export const PLAATSEN: Plaats[] = [
     wijken: ["Selissen", "Munsel", "Lennisheuvel"],
     reistijd: "25 min vanaf Den Bosch",
     omschrijving: "Dakdekker in Boxtel, Liempde en Esch: een lek opsporen, goten onder de bomen leegmaken en losse pannen terugleggen. Vaste prijs vooraf. Bel of app Rens.",
+    faq: [
+      { v: "Kom je ook in Liempde en Esch?", a: "Ja. Liempde hoort sinds 1996 bij de gemeente Boxtel, en Esch sinds 2021. Ik kom er voor dezelfde klussen als in Boxtel zelf, zoals een lek opsporen, goten leegmaken of losse pannen terugleggen. Boxtel is zo'n 25 minuten rijden vanaf Den Bosch." },
+    ],
   },
   {
     slug: "heusden",
