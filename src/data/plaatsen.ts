@@ -56,6 +56,9 @@ export const PLAATSEN: Plaats[] = [
     wijken: ["Vliedberg", "Het Vromart", "Centrum"],
     reistijd: "15 min vanaf Den Bosch",
     omschrijving: "Dakdekker in Vlijmen, Nieuwkuijk en Haarsteeg: lekkage bij een lichtkoepel, een volle goot of losse pannen na storm. Vaste prijs vooraf. Bel of app Rens.",
+    faq: [
+      { v: "Kom je ook in Nieuwkuijk en Haarsteeg?", a: "Ja. Nieuwkuijk en Haarsteeg liggen vlak bij Vlijmen en horen net als Vlijmen bij de gemeente Heusden. Ik kom er voor dezelfde klussen als in Vlijmen zelf, zoals een lek bij een lichtkoepel, een volle goot of losse pannen na een storm. Het is zo'n kwartier rijden vanaf Den Bosch." },
+    ],
   },
   {
     slug: "drunen",
@@ -117,6 +120,9 @@ export const PLAATSEN: Plaats[] = [
     wijken: ["Vesting Heusden", "Oudheusden", "Herpt"],
     reistijd: "20 min vanaf Den Bosch",
     omschrijving: "Dakdekker in vesting Heusden, Oudheusden en Herpt: lekkage bij oud lood of zink, volle goten en losse nokvorsten. Vaste prijs vooraf. Bel of app Rens.",
+    faq: [
+      { v: "Kom je ook in Doeveren, Heesbeen en Hedikhuizen?", a: "Ja. Die dorpjes horen net als de vesting, Oudheusden en Herpt bij de gemeente Heusden. Ik kom er voor dezelfde klussen als in Heusden zelf: lekkage, goten, pannen en lood. Het is zo'n 20 minuten rijden vanaf Den Bosch." },
+    ],
   },
   {
     slug: "oss",
