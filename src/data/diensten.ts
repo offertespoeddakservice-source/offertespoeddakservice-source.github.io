@@ -397,7 +397,7 @@ export const DIENSTEN: Dienst[] = [
     titel: "Zonnepanelen reinigen",
     vanafPrijs: ZON_PRIJS,
     h1: "Zonnepanelen reinigen: meer opbrengst uit je panelen",
-    kort: "Vuile panelen leveren minder op. Ik maak ze veilig en streepvrij schoon.",
+    kort: "Vuile panelen leveren minder op. Ik maak ze voorzichtig schoon en kijk meteen naar de pannen eronder.",
     metaTitle: "Zonnepanelen reinigen Den Bosch | Spoed Dak Service",
     metaDescription:
       "Zonnepanelen laten schoonmaken in de regio Den Bosch: vuil en vogelpoep eraf, en ik kijk meteen even naar de pannen onder de panelen. Vaste prijs vooraf.",
@@ -472,7 +472,7 @@ export const DIENSTEN: Dienst[] = [
     titel: "Dakisolatie",
     vanafPrijs: "vaste prijs na bezoek",
     h1: "Dakisolatie: minder stoken, meer comfort",
-    kort: "Zolder of schuin dak isoleren: direct minder stookkosten, vaak met subsidie.",
+    kort: "Zolder of schuin dak isoleren: meestal minder stookkosten, vaak met subsidie.",
     metaTitle: "Dakisolatie Den Bosch en subsidie-advies | Spoed Dak Service",
     metaDescription:
       "Dak of zolder laten isoleren in de regio Den Bosch? Vaak minder stookkosten en meer comfort, en soms ISDE-subsidie. Vaste prijs vooraf. Bel of WhatsApp Rens.",
