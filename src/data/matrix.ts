@@ -22,11 +22,17 @@ export const MATRIX: MatrixCombo[] = [
     plaats: "oss",
     dienst: "daklekkage",
     hook: "In Schadewijk en de andere oudere wijken rond het centrum van Oss staan veel rijtjeshuizen met een pannendak en een schoorsteen. Daar begint een lek meestal bij uitgedroogd lood rond de schoorsteen of bij een pan die gebroken is. In de Ruwaard, een grote wijk uit de jaren '70 en '80, hebben veel huizen een dakraam of een platte aanbouw aan de achterkant. Daar vind ik het lek vaak aan de onderkant van het dakraam of bij de rand van dat platte dak. In Berghem staan meer vrijstaande huizen met een groot dak, waar ik na een storm vaker een losse nokvorst tegenkom. Ik spoor het lek op en zeg je eerlijk wat er nodig is.",
+    faq: [
+      { v: "Kom je bij een lek ook in Berghem, Geffen en de dorpen langs de Maas?", a: "Ja. Berghem, Geffen, Lith, Megen en Ravenstein horen bij de gemeente Oss, en ook daar kom ik bij een lekkend dak. Oss is zo'n 25 minuten rijden vanaf Den Bosch, de dorpen langs de Maas liggen een stukje verder. Stuur me een foto van de natte plek via WhatsApp, dan hoor je wanneer ik kan komen." },
+    ],
   },
   {
     plaats: "den-bosch",
     dienst: "daklekkage",
     hook: "In de binnenstad liggen veel goten verstopt tussen twee panden of achter een topgevel, waar je ze vanaf de straat niet ziet. Raakt zo'n goot vol of gaat het zink lekken, dan komt het water binnen op de bovenste verdieping, soms zelfs bij de buren, en vaak een eind van de plek waar het echte lek zit. In de Kruiskamp en de andere wijken uit de jaren '50 en '60 staan veel rijtjes met een pannendak en een schoorsteen per huis. Daar begint een lek meestal bij het lood rond die schoorsteen of bij een pan die is gaan schuiven. In Maaspoort en Empel liggen veel platte daken op aanbouwen en bergingen, en daar zie ik lekkage vaak bij de dakrand of bij een afvoer die vol blad zit. Den Bosch is mijn thuisbasis, dus meestal kan ik snel even komen kijken.",
+    faq: [
+      { v: "Ik woon boven een winkel of in een appartement in de binnenstad. Kun je bij een lek ook komen?", a: "Ja. Bij een bovenwoning of appartement is het dak vaak van de eigenaar van het pand of van de VvE. Meld het lek daar ook meteen, want zij moeten meestal akkoord geven voor de reparatie. Huur je, meld het dan eerst bij je verhuurder. Ik kijk waar het water binnenkomt en leg uit wat ik zie, zodat iedereen weet wat er nodig is. Stuur me gerust eerst een foto van de natte plek via WhatsApp." },
+    ],
   },
   {
     plaats: "rosmalen",
@@ -86,11 +92,17 @@ export const MATRIX: MatrixCombo[] = [
     plaats: "boxtel",
     dienst: "daklekkage",
     hook: "Bij de oudere huizen rond het centrum van Boxtel zie ik vaak een erker of een luifel boven de voordeur met een klein plat dakje erop. Waar dat dakje tegen de gevel komt, zit een strook lood. Laat die los of is hij gescheurd, dan loopt het water achter het lood langs en komt het binnen boven het raam. In Liempde en Esch, die ook bij Boxtel horen, staan meer boerderijen en vrijstaande huizen met een groot pannendak. Daar begint een lek vaker bij de schoorsteen of bij een pan die door de wind is gaan schuiven. Ik spoor het lek op zonder onnodig sloopwerk en vertel je eerlijk wat het kost voordat ik begin.",
+    faq: [
+      { v: "Hoe zie ik of het lood boven mijn erker of voordeur los zit?", a: "Kijk vanaf de straat naar de strook lood waar het dakje van de erker of de luifel tegen de gevel zit. Staat die strook een stukje van de muur af, zit er een kier of scheur in, of zie je een donkere streep op de muur erboven, dan kan het water erachter lopen. Binnen zie je dat vaak als een natte plek of bladderende verf boven het raam. Ga niet zelf op het dakje staan, maar stuur me een foto via WhatsApp." },
+    ],
   },
   {
     plaats: "schijndel",
     dienst: "daklekkage",
     hook: "Veel daken in Schijndel zijn van voor 1985, en op een deel daarvan liggen nog de eerste pannen. Zo'n oude pan neemt na veertig jaar meer water op. Vriest het daarna, dan kan er een haarscheur in komen die je van beneden niet ziet, en bij de volgende flinke bui druppelt het op zolder. In Wijbosch staan meer vrijstaande huizen met een schoorsteen, en daar zit een lek vaker in het lood rond die schoorsteen. Ik vervang alleen de pannen die echt kapot zijn, en zeg je eerlijk als er meer aan de hand is.",
+    faq: [
+      { v: "Op mijn dak liggen nog de eerste pannen. Kun je er dan nog één vervangen?", a: "Meestal wel. Ik zoek eerst een pan die past bij wat er nu op je dak ligt. Wordt jouw pan niet meer gemaakt, dan kijk ik of ik ergens op je dak een pan kan missen op een plek die je vanaf de straat niet ziet. Zijn er op veel plekken pannen gescheurd, dan zeg ik eerlijk dat een groter stuk vervangen slimmer is. Je hoort vooraf wat het kost." },
+    ],
   },
   {
     plaats: "heusden",
@@ -106,6 +118,9 @@ export const MATRIX: MatrixCombo[] = [
     plaats: "oisterwijk",
     dienst: "daklekkage",
     hook: "Oisterwijk ligt tussen de bossen en vennen, en ook in het dorp zelf staan veel oude bomen, zoals de lindes op De Lind. In de herfst ligt er dan veel blad en soms een dikke laag mos in de goot en in de kilgoot. Loopt die over, dan komt het water binnen langs de muur of in een hoek. Dat lijkt op een daklek, terwijl het dak zelf nog dicht is. In de villawijken aan de rand van de bossen staan veel huizen met een groot, steil dak en meer dan één kilgoot, en daar kijk ik bij een natte plek eerst naar de kil. In Moergestel, dat ook bij Oisterwijk hoort, staan veel gewone dorpswoningen met een schoorsteen, en daar vind ik een lek vaker bij het lood eromheen. Zit de goot alleen vol, dan zeg ik dat ook: dan is leegmaken genoeg.",
+    faq: [
+      { v: "Kan mos op mijn dak een lek geven?", a: "Mos maakt zelf geen gat, maar het houdt water vast. Groeit het dik tussen de pannen, dan kan het water via het mos onder een pan door trekken. En mos dat loskomt, spoelt naar de goot of de kilgoot en zet die dicht, zodat hij bij een flinke bui overloopt. Onder de vele bomen in Oisterwijk zie ik dat vaak. Stuur me een foto van je dak vanaf de straat, dan zeg ik eerlijk of het mos eraf moet." },
+    ],
   },
 
   // ── Tier B · goten reinigen ──────────────────────────────────────────
