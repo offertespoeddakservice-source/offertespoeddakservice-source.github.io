@@ -88,7 +88,7 @@ const schema = [
         </p>
       ) : (
       <p>
-        Of het nu gaat om volle goten, een lek na de regen of losse pannen na een storm,
+        Volle goten, een lek na de regen of losse pannen na een storm:
         ik help je er snel en netjes vanaf. {p.reistijd ? `${p.naam} is ${p.reistijd}, ` : ""}
         dus ik ben vaak snel ter plaatse.
       </p>
@@ -103,7 +103,7 @@ const schema = [
         {heeftLekPagina
           ? <>Hoe ik een lek in {p.naam} opspoor, lees je bij <a href={`/werkgebied/${p.slug}/daklekkage/`}>daklekkage in {p.naam}</a>.</>
           : <>Hoe ik een lek opspoor zonder onnodig sloopwerk, lees je bij <a href="/diensten/daklekkage/">daklekkage</a>.</>}
-        Stuur me de foto via WhatsApp, dan hoor je eerlijk wat ik zie en wat de beste volgende stap is.
+        Stuur me de foto via <a href={waHref(`Hallo, mijn dak lekt in ${p.naam}. Ik stuur je een foto.`)}>WhatsApp</a>, dan hoor je eerlijk wat ik zie en wat de beste volgende stap is.
       </p>
     </div>
   </section>
