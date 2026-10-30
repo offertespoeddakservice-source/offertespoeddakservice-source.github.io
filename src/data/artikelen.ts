@@ -897,6 +897,7 @@ export const ARTIKELEN: Artikel[] = [
       { v: "Kun je snel komen als het water langs de muur loopt?", a: "Bel of WhatsApp me met een foto van de plek. Dan zie ik vaak al of de goot vol zit of lek is, en hoor je wanneer ik kan komen." },
       { v: "Wat kost het om een lekkende dakgoot te repareren?", a: "Dat hangt af van wat er lek is: een naad, een hoek, de uitloop of een losse beugel. Ik kijk eerst wat er echt mis is en je hoort de vaste prijs vooraf, voordat ik begin." },
       { v: "Kan een dakgoot kapotvriezen?", a: "Een goot waar water in blijft staan, kan bij vorst schade krijgen. Het ijs zet uit en drukt naden en hoeken open. Daarom is het slim om je goot voor de winter leeg te laten maken." },
+      { v: "Is lekkage aan je dakgoot spoed?", a: "Meestal niet, maar laat het niet de hele winter zitten. Druppelt de goot buiten op één plek, dan kan het vaak een paar dagen wachten. Komt het water binnen, bovenin de muur of langs een kozijn, of hangt de goot los na een storm, dan wel: bel of app me met een foto. Twijfel je, stuur dan een foto via WhatsApp, dan zeg ik eerlijk of het vandaag moet." },
     ],
   },
   {
