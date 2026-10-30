@@ -46,7 +46,7 @@ const idx = ARTIKELEN.findIndex((x) => x.slug === a.slug);
 const ONDERWERPEN: string[][] = [
   ["daklekkage-opsporen", "vochtplek-plafond", "dak-lekt-bij-hevige-regen", "dak-lekt-bij-sneeuw-of-vorst", "schoorsteen-lekt-open-haard", "lekkage-bij-schoorsteen", "condens-of-lekkage-op-zolder", "dakraam-lekt", "lichtkoepel-lekt", "dak-lekt-bij-harde-wind", "kilgoot-lekt", "lekkage-bij-zonnepanelen", "wat-kost-daklekkage-repareren", "daklekkage-verzekering"],
   ["hoe-vaak-dakgoot-reinigen", "wat-kost-dakgoot-schoonmaken", "verstopte-regenpijp-lekkende-dakgoot", "dakgoot-lekt", "water-achter-dakgoot", "bakgoot-lekt", "kilgoot-lekt"],
-  ["stormschade-eerste-hulp", "nokvorsten-los", "dakpan-kapot-of-verschoven", "tak-of-boom-op-dak", "dak-lekt-bij-harde-wind", "daklekkage-verzekering"],
+  ["stormschade-eerste-hulp", "nokvorsten-los", "dakpan-kapot-of-verschoven", "tak-of-boom-op-dak", "dakpannen-vastzetten-tegen-storm", "dak-lekt-bij-harde-wind", "daklekkage-verzekering"],
   ["plat-dak-vervangen-of-repareren", "lichtkoepel-lekt", "water-blijft-staan-op-plat-dak", "dakonderhoud-per-seizoen", "mos-op-dak-verwijderen", "lekkage-bij-aanbouw"],
   ["dakinspectie", "dakonderhoud-per-seizoen", "hoe-herken-je-een-betrouwbare-dakdekker", "wat-kost-een-dakdekker"],
   ["schoorsteen-vegen-hoe-vaak", "lekkage-bij-schoorsteen", "lood-op-dak", "schoorsteen-lekt-open-haard", "dakinspectie", "lekkage-bij-dakdoorvoer"],
@@ -62,6 +62,7 @@ const FOTOS_BIJ: Record<string, { soort: string; max: number }> = {
   "dak-lekt-bij-harde-wind": { soort: "pannen", max: 2 },
   "dakinspectie": { soort: "pannen", max: 3 },
   "dakpan-kapot-of-verschoven": { soort: "pannen", max: 2 },
+  "dakpannen-vastzetten-tegen-storm": { soort: "pannen", max: 2 },
   "hoe-herken-je-een-betrouwbare-dakdekker": { soort: "pannen", max: 3 },
   "lekkage-bij-zonnepanelen": { soort: "pannen", max: 2 },
   "lekkage-bij-schoorsteen": { soort: "schoorsteen", max: 4 },

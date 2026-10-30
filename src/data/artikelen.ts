@@ -528,6 +528,46 @@ export const ARTIKELEN: Artikel[] = [
     ],
   },
   {
+    slug: "dakpannen-vastzetten-tegen-storm",
+    datum: "2026-10-31",
+    titel: "Dakpannen vastzetten tegen storm",
+    h1: "Dakpannen vastzetten tegen storm: zo blijven ze liggen",
+    metaTitle: "Dakpannen vastzetten tegen storm | Spoed Dak Service",
+    metaDescription:
+      "Waaien er bij harde wind pannen van je dak? Welke pannen het eerst loskomen, wat een stormhaak doet en wanneer vastzetten zin heeft.",
+    intro:
+      "Bij een flinke storm waaien er vaak pannen van daken in de buurt. Meestal zijn het dezelfde pannen op dezelfde plekken, en vaak liggen ze alleen met hun eigen gewicht op het dak. Hieronder lees je welke pannen het eerst loskomen, wat een stormhaak doet en wanneer het zin heeft om je pannen vast te laten zetten.",
+    secties: [
+      { kop: "Zo ligt een dakpan op je dak", tekst: [
+        "Een dakpan hangt met twee nokjes aan de achterkant over een houten lat, de panlat. Aan de zijkant haken de pannen in elkaar, en de pan erboven ligt er een stukje overheen. Bij gewone regen en wind is dat genoeg. Maar bij een harde windstoot trekt de wind aan de pannen, en een pan die nergens aan vastzit, kan dan omhoog wippen of wegwaaien.",
+        "Bij nieuwere daken worden de pannen meestal met haken of klemmen vastgezet. Op veel oudere daken liggen ze nog los op de latten.",
+      ] },
+      { kop: "Welke pannen het eerst loskomen", tekst: [
+        "Langs de zijkant van het dak, bij de gevel, waar de wind om de hoek trekt. De onderste rij boven de goot, omdat de wind daar onder de pannen kan komen. De rij vlak onder de nok. En de pannen rond een dakraam, een schoorsteen of zonnepanelen, waar de rij wordt onderbroken.",
+        'Ligt er na een storm een pan scheef of mist er een, dan is het vaak op een van die plekken. Hoe je dat vanaf de straat ziet, lees je in <a href="/kennisbank/dakpan-kapot-of-verschoven/">dakpan kapot of verschoven</a>.',
+      ] },
+      { kop: "Wat een stormhaak doet", tekst: [
+        'Een stormhaak, ook wel panhaak genoemd, is een metalen haak die de pan aan de panlat vastzet. Hij zit grotendeels onder de pan erboven, dus vanaf de straat zie je er weinig van. De pan blijft liggen zoals hij lag, maar kan bij een windstoot niet meer omhoog wippen. Voor de nokvorsten bovenop het dak gaat dat anders. Lees daarover <a href="/kennisbank/nokvorsten-los/">losse nokvorsten</a>.',
+      ] },
+      { kop: "Wanneer vastzetten zin heeft", tekst: [
+        "Waait er bij elke storm wel ergens een pan los, of hoor je bij harde wind getik en geratel boven je zolder, dan liggen er pannen los. Op een ouder dak zonder haken is het dan slim om in elk geval de zijkanten, de onderste rij en de pannen rond een dakraam vast te laten zetten. Daarvoor hoeft meestal niet het hele dak opnieuw gelegd te worden.",
+        "Leg ik na een storm losse pannen terug, dan kijk ik meteen of er een haak bij moet. Gaat het om een groter stuk dak, dan bespreek ik eerst met je wat zin heeft, en je hoort vooraf wat het kost.",
+      ] },
+      { kop: "Wat je zelf beter niet doet", tekst: [
+        "Ga niet zelf het dak op om pannen vast te zetten, en zeker niet als het waait. Plak een losse pan ook niet vast met kit of schuim. Dan zit hij muurvast, en bij een volgende reparatie breken de pannen eromheen als hij eruit moet. Een foto vanaf de straat zegt mij vaak al genoeg.",
+      ] },
+      { kop: "Wat kost het?", tekst: [
+        `Een paar losse pannen terugleggen en vastzetten valt meestal onder een kleine reparatie: ${kleinPrijs}. Moeten er langs alle randen of over een groot stuk dak haken bij, dan is het meer werk. Je hoort de vaste prijs vooraf. Zie ook <a href="/diensten/dakpannen-vervangen/">dakpannen vervangen</a>.`,
+      ] },
+    ],
+    dienst: { label: "Bekijk: dakreparatie (pannen, lood en nok)", href: "/diensten/dakreparatie/" },
+    faq: [
+      { v: "Zitten er bij mijn dak al stormhaken?", a: "Dat zie je vanaf de straat bijna niet. Bij een vrij nieuw dak meestal wel, bij een ouder dak vaak niet of alleen op een paar plekken. Als ik voor een reparatie of inspectie op je dak sta, kijk ik het voor je na." },
+      { v: "Kan een pan met een stormhaak toch wegwaaien?", a: "Bij een zware storm kan er toch iets loskomen, bijvoorbeeld als een pan al gescheurd was of de panlat eronder rot is. Maar pannen die vastzitten, blijven in de regel veel beter liggen dan losse." },
+      { v: "Wanneer laat ik mijn pannen het beste vastzetten?", a: "Het liefst in de herfst, voordat de winterstormen komen. Ligt er nu al een pan scheef of mist er een, wacht dan niet en stuur me een foto via WhatsApp." },
+    ],
+  },
+  {
     slug: "lekkage-bij-zonnepanelen",
     datum: "2026-10-21",
     titel: "Lekkage bij zonnepanelen?",
