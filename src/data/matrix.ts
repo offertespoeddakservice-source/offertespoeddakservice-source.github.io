@@ -327,4 +327,13 @@ export const MATRIX: MatrixCombo[] = [
       { v: "Waarom lekt het bij mij vooral bij een stortbui?", a: "Bij een gewone bui kan een uitloop met wat blad erin het water nog net aan. Bij een stortbui komt er in korte tijd veel meer water. Dan loopt de goot bij de uitloop vol en zoekt het water een weg langs de aansluiting naar binnen. Bij een huis met een regenpijp binnen is het daarom extra slim om de uitloop voor de winter leeg te laten maken." },
     ],
   },
+  // Dakreparatie in Veghel (Search Console: dakreparatie veghel 22 vertoningen op plek 74, dakpannen veghel 8, nog geen eigen pagina), met andere lokale inhoud dan plaatsen.ts en de lekkage- en gootpagina van Veghel
+  {
+    plaats: "veghel",
+    dienst: "dakreparatie",
+    hook: "In Bolken en de andere woonwijken van Veghel staan veel rijtjeshuizen met een pannendak. Zit daar onder de onderste rij pannen geen vogelwering, dan kruipen mussen en spreeuwen er in het voorjaar onder, en met hun nesten duwen ze die pannen een stukje omhoog. Na een paar jaar liggen ze niet meer goed in de sluiting, en bij harde wind waait de regen eronder. Je merkt het eerst aan gekrabbel boven je slaapkamer en later aan een natte plek laag op zolder. Buiten het broedseizoen leg ik de pannen weer goed, vervang ik wat gebroken is en zet ik er kunststof vogelwering onder. In een rij waar de buren hun dak al hebben laten vernieuwen, liggen op de grens twee soorten pannen naast elkaar. Daar zit een overgang die het water moet tegenhouden, en juist die gaat na een paar jaar nogal eens open. Ik kijk dan aan beide kanten, en zit het aan de kant van de buren, dan zeg ik dat eerlijk. Je hoort vooraf wat het kost.",
+    faq: [
+      { v: "Ik hoor vogels onder mijn dakpannen. Is dat erg?", a: "Niet meteen, maar laat het niet jaren zitten. Met hun nesten duwen vogels de onderste pannen omhoog, en dan kan de regen eronder waaien. Zitten er in het voorjaar of de zomer jongen in het nest, dan wacht ik tot ze uitgevlogen zijn. Daarna leg ik de pannen recht en sluit ik de rij onder de pannen af met kunststof vogelwering. Je hoort vooraf wat het kost." },
+    ],
+  },
 ];
