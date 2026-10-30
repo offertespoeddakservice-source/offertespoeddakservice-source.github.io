@@ -149,7 +149,7 @@ export const MATRIX: MatrixCombo[] = [
   {
     plaats: "oss",
     dienst: "stormschade",
-    hook: "Na een storm waaien in de ruime, open wijken van Oss makkelijk pannen los. Ik kom snel langs, dek de schade af en herstel de nokvorsten en pannen netjes, met foto's voor je verzekering.",
+    hook: "Staat er op je schoorsteen een kap of een afdekplaat, kijk daar na een storm dan ook even naar. Zit hij niet meer goed vast, dan gaat hij bij harde wind rammelen of waait hij eraf, en daarna regent het in het kanaal. In de Ruwaard en Ussen liggen op veel daken loodslabben langs de schoorsteen of onder een dakraam. Zit zo'n slab al wat los, dan pakt de wind hem bij een storm en zet hem rechtop. Vanaf de straat zie je dat als een grijze strook die van het dak af steekt. Ga niet zelf het dak op, maar maak een foto vanaf de straat en stuur die via WhatsApp. Is je dak open, dan dek ik het eerst af en herstel ik het daarna netjes, met foto's van wat ik aantref voor je verzekering.",
   },
   {
     plaats: "den-bosch",
@@ -189,7 +189,7 @@ export const MATRIX: MatrixCombo[] = [
   {
     plaats: "schijndel",
     dienst: "stormschade",
-    hook: "Veel daken in Schijndel zijn ouder dan 1985, en bij storm waaien daar sneller pannen en vorsten los. Eerst de schade stoppen, dan blijvend herstellen.",
+    hook: "Op een deel van de oudere daken in Schijndel staat nog een antenne of een schotel die niemand meer gebruikt. Bij een storm gaat die heen en weer, en de mast of de beugel schuurt of breekt de pannen eromheen. Waait hij om, dan valt hij vaak over de nok en neemt hij een paar nokvorsten mee. Gebruik je zo'n antenne niet meer, laat hem dan weghalen voordat de winterstormen komen. Rond Wijbosch en in het buitengebied staan boerderijen met een groot dak en vaak een schuur ernaast, en over het open land waait het daar flink. Kijk na een storm dus ook naar het dak van de schuur, want dat vergeet je snel. Ga zelf niet het dak op, maar stuur me een foto vanaf de grond. Is er een open plek, dan maak ik die eerst dicht, en daarna volgt de nette reparatie.",
   },
   {
     plaats: "heusden",
