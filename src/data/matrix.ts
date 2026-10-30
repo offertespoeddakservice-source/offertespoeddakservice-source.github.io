@@ -195,12 +195,12 @@ export const MATRIX: MatrixCombo[] = [
   {
     plaats: "vlijmen",
     dienst: "stormschade",
-    hook: "Vanaf de Maaskant krijgt Vlijmen flink wind; na een storm zie ik hier vaak weggewaaide pannen en losgeraakt lood. Ik beperk de schade direct.",
+    hook: "Vanaf de Maaskant krijgt Vlijmen flink wind; na een storm zie ik hier vaak weggewaaide pannen en losgeraakt lood. Is je dak open, dan maak ik dat eerst dicht, zodat het binnen droog blijft.",
   },
   {
     plaats: "drunen",
     dienst: "stormschade",
-    hook: "Open bij de Loonse en Drunense Duinen vangt Drunen veel wind. Losse of weggewaaide pannen laten regen binnen. Ik kom snel langs voor noodreparatie.",
+    hook: "Open bij de Loonse en Drunense Duinen vangt Drunen veel wind. Losse of weggewaaide pannen laten regen binnen. Ligt er een open plek, dan dek ik die eerst af, en daarna volgt de nette reparatie.",
   },
   {
     plaats: "boxtel",
@@ -215,7 +215,7 @@ export const MATRIX: MatrixCombo[] = [
   {
     plaats: "heusden",
     dienst: "stormschade",
-    hook: "Aan de open Maaskant bij Heusden grijpt de wind hard aan; oudere daken in de vesting zijn extra kwetsbaar. Ik kom snel langs en herstel met zorg voor het oude werk.",
+    hook: "Aan de open Maaskant bij Heusden grijpt de wind hard aan; oudere daken in de vesting zijn extra kwetsbaar. Ik dek het eerst af en herstel het daarna, zoveel mogelijk met materiaal dat bij het oude werk past.",
   },
   {
     plaats: "sint-michielsgestel",
@@ -225,7 +225,7 @@ export const MATRIX: MatrixCombo[] = [
   {
     plaats: "oisterwijk",
     dienst: "stormschade",
-    hook: "In bosrijk Oisterwijk komen bij storm takken én pannen naar beneden. Ik dek de schade snel af en herstel netjes, met foto's voor je verzekeraar.",
+    hook: "In bosrijk Oisterwijk komen bij storm takken én pannen naar beneden. Ik dek de schade eerst af en herstel het daarna netjes, met foto's voor je verzekeraar.",
   },
 
   // Dakgoot repareren of vervangen: eerst Den Bosch (Search Console: plek 26 tot 45 zonder eigen pagina)
