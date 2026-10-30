@@ -1017,6 +1017,11 @@ export const ARTIKELEN: Artikel[] = [
       { kop: "Wanneer je moet bellen", tekst: [
         "Een open dak of actieve lekkage is spoed, daar kom ik snel voor langs om eerst de schade te stoppen (afdekken, dichten), en daarna netjes te herstellen. Bel of WhatsApp, dan hoor je meteen wanneer ik kan.",
       ] },
+      { kop: "Storm voorspeld? Dit kun je vooraf doen", tekst: [
+        "Wordt er een zware storm voorspeld, loop dan een paar dagen vooraf een rondje om je huis en kijk vanaf de straat en de tuin naar je dak. Ligt er een pan scheef, staat het lood bij de schoorsteen omhoog of liggen er brokjes specie in de goot, stuur me dan een foto via WhatsApp. Een losse pan of nokvorst is voor de storm vaak met een kleine reparatie vast te zetten, en anders neemt de wind hem mee.",
+        "Zet tuinmeubels, een parasol of een trampoline vast of zet ze binnen, en haal losse spullen van je balkon of platte dak. Zulke spullen waaien bij een storm zo tegen een raam of tegen het dak van de buren.",
+        `Zit je goot vol blad, laat hem dan voor de storm <a href="/diensten/goten-reinigen/">leegmaken</a>. Een storm komt vaak met veel regen, en een volle goot loopt dan over. Maak ook alvast een paar foto's van je dak vanaf de straat. Heb je na de storm schade, dan kun je je verzekeraar laten zien hoe je dak er daarvoor bij lag.`,
+      ] },
     ],
     dienst: { label: "Bekijk: stormschade", href: "/diensten/stormschade/" },
     faq: [
