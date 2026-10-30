@@ -55,6 +55,24 @@ import EchteFotos from "../components/EchteFotos.astro";
         </p>
         <h2>Foto's van mijn eigen klussen</h2>
         <EchteFotos soort="pannen" max={3} inline />
+        <h2>Wat klanten op Werkspot zeggen</h2>
+        <p>Op Werkspot heb ik gemiddeld een {SITE.reviews.score.toString().replace(".", ",")}, uit {SITE.reviews.werkspotAantal} reviews. Drie daarvan, letterlijk zoals ze er staan:</p>
+        <figure class="reviewkaart" style="margin:16px 0 0;">
+          <span class="rster" aria-label="5 van 5 sterren">★★★★★</span>
+          <blockquote>„Dakgoten keurig netjes schoongemaakt zonder de rommel uit de goten op het terras of in de tuin te morsen. Aanrader!"</blockquote>
+          <figcaption>Ard-Jan, Tiel · goten reinigen</figcaption>
+        </figure>
+        <figure class="reviewkaart" style="margin:16px 0 0;">
+          <span class="rster" aria-label="5 van 5 sterren">★★★★★</span>
+          <blockquote>„Snel en mooi dak geplaatst voor een hele nette prijs. Blij mee!"</blockquote>
+          <figcaption>F. Spolders, Zoetermeer · dakreparatie</figcaption>
+        </figure>
+        <figure class="reviewkaart" style="margin:16px 0 0;">
+          <span class="rster" aria-label="5 van 5 sterren">★★★★★</span>
+          <blockquote>„Prima werk geleverd. Was flexibel in het plannen, dacht mee en kwam met oplossingen."</blockquote>
+          <figcaption>Roos, Oosterbeek · regenpijp vervangen</figcaption>
+        </figure>
+        <p style="margin-top:16px;"><a href={SITE.werkspotUrl} target="_blank" rel="noopener">Lees alle reviews op Werkspot</a></p>
         <p>
           Werk je liever met iemand die gewoon zegt wat er nodig is, en wat níet? Dan zit je bij mij goed.
         </p>
