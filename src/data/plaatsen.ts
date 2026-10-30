@@ -169,6 +169,9 @@ export const PLAATSEN: Plaats[] = [
     extra:
       "Wijchen ligt net over de Maas, aan de kant van Nijmegen. Bij de gemeente horen ook dorpen als Batenburg, Bergharen, Hernen en Balgoij, met veel boerderijen en vrijstaande huizen in het open land tussen de Maas en de Waal. In Wijchen zelf zijn grote delen in de jaren '70 en '80 gebouwd, met veel rijtjeshuizen en twee-onder-een-kappers. Bij die huizen liggen de nokvorsten vaak nog in specie, en die brokkelt na zoveel jaren af. Zie je brokjes in de goot of op de stoep, laat de nok dan nakijken voordat de winterstormen komen.",
     omschrijving: "Dakdekker in Wijchen, Alverna en Niftrik: lekkage bij lood of de nok, volle goten en losse pannen na storm. Vaste prijs vooraf. Bel of app Rens.",
+    faq: [
+      { v: "Kom je ook in Batenburg, Bergharen, Hernen en Balgoij?", a: "Ja. Die dorpen horen bij de gemeente Wijchen. Wijchen zelf is zo'n 25 minuten rijden vanaf Den Bosch, en de dorpen in het Land van Maas en Waal liggen een stukje verder. Stuur gerust eerst een foto via WhatsApp, dan hoor je eerlijk wanneer ik kan komen." },
+    ],
   },
   {
     slug: "waalwijk",
@@ -256,6 +259,9 @@ export const PLAATSEN: Plaats[] = [
     reistijd: "± 40 min vanaf Den Bosch",
     extra:
       "Stiphout en Mierlo-Hout zijn oude dorpen die aan Helmond zijn vastgegroeid. Daar staan nog veel oudere huizen met een schoorsteen, en een lek zit daar vaak in het lood rond die schoorsteen. In Brandevoort lijken veel huizen oud, maar ze zijn vrij nieuw, gebouwd in een ouderwetse stijl met steile pannendaken en veel hoeken en kilgoten tussen de daken. Juist in die hoeken blijft in de herfst blad liggen. Helmond is voor mij een flink stuk rijden. Stuur daarom eerst een foto via WhatsApp, dan hoor je eerlijk wanneer ik kan komen.",
+    faq: [
+      { v: "Kom je ook in Stiphout, Mierlo-Hout en Brandevoort?", a: "Ja. Stiphout, Mierlo-Hout en Brandevoort horen bij Helmond, en ik kom er voor dezelfde klussen als in de rest van Helmond, zoals lekkage bij het lood rond de schoorsteen of blad in een kilgoot. Helmond is zo'n 40 minuten rijden vanaf Den Bosch. Bel of app me met een foto, dan hoor je wanneer ik kan komen." },
+    ],
   },
   {
     slug: "eindhoven",
