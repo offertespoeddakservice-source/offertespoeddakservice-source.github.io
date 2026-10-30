@@ -85,6 +85,13 @@ export const ARTIKELEN: Artikel[] = [
       { kop: "Zo herken je het", tekst: [
         "Het lekt vaak vooral bij regen met wind uit één richting. Je ziet vocht op de muur of het plafond naast het kanaal, soms pas een paar uur na de bui. Vanaf de grond zie je soms lood dat los staat of omhoog wijst.",
       ] },
+      { kop: "Aan welke kant van de schoorsteen zit het?", tekst: [
+        `Kijk na een bui op zolder waar het hout of de muur rond de schoorsteen nat is. Dat zegt vaak al welk stuk lood het is.`,
+        `Nat aan de onderkant, de kant van de goot: daar ligt een brede strook lood over de pannen, die het water van de schoorsteen af over het dak leidt. Krult die strook omhoog of zit er een scheur in een hoek, dan loopt het water eronder door.`,
+        `Nat langs een zijkant: langs de zijkanten liggen kleine stukken lood die trapsgewijs in de schoorsteen zijn vastgezet. Zit er een stuk los, of is de bovenrand uit de schoorsteen gekomen, dan loopt het water langs de schoorsteen naar beneden.`,
+        `Nat aan de bovenkant, de kant van de nok: achter de schoorsteen komt al het water van het dak erboven samen, en daar blijven ook blad en mos liggen. Ligt daar geen goed stuk lood dat het water om de schoorsteen heen leidt, of zit het vol vuil, dan staat het water er na een flinke bui tegen de schoorsteen aan en zoekt het een weg naar binnen.`,
+        `Hoe je ziet dat lood op is, lees je in <a href="/kennisbank/lood-op-dak/">lood op je dak</a>. Komt het water in de haard zelf naar beneden, kijk dan bij <a href="/kennisbank/schoorsteen-lekt-open-haard/">water in je open haard</a>.`,
+      ] },
       { kop: "Hoe ik het aanpak", tekst: [
         'Ik kijk van buiten naar het lood, de pannen en de kop van de schoorsteen. Loszittend lood zet ik opnieuw goed vast of ik vervang de loodslabben, en verschoven pannen leg ik recht. Zie <a href="/diensten/dakreparatie/">dakreparatie</a>. Wordt de schoorsteen nog gebruikt, dan is het handig om het <a href="/diensten/schoorsteen-vegen/">vegen</a> in één keer mee te nemen.',
       ] },
