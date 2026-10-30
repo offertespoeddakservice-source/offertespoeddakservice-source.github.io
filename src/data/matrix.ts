@@ -41,7 +41,7 @@ export const MATRIX: MatrixCombo[] = [
   {
     plaats: "berlicum",
     dienst: "daklekkage",
-    hook: "Bij de vrijstaande en twee-onder-een-kap woningen in Berlicum begint lekkage vaak bij het lood rond schoorsteen of dakkapel. Ik vind het lek en maak het weer waterdicht.",
+    hook: "Berlicum is een dorp met veel vrijstaande huizen en twee-onder-een-kappers, vaak met een garage of berging naast het huis. Waar het dak van zo'n garage tegen de zijmuur van het huis komt, zit een strook lood die het water van de muur op het garagedak moet leiden. Zakt die strook af of is hij gescheurd, dan loopt het water erachter langs naar binnen. Je ziet het als een natte plek in de garage of op de muur van de kamer ernaast. Bij de oudere huizen in het dorp en in Middelrode staat vaak nog een schoorsteen, en daar begint een lek meestal bij het lood rondom. Je hoort vooraf wat het kost, voordat ik iets openmaak.",
   },
 
   // ── Tier A · goten reinigen ──────────────────────────────────────────
@@ -80,7 +80,7 @@ export const MATRIX: MatrixCombo[] = [
   {
     plaats: "drunen",
     dienst: "daklekkage",
-    hook: "Bij de schuine daken in Drunen, vlak bij de Loonse en Drunense Duinen, kruipt regenwater vaak binnen via volgewaaide goten en versleten kitnaden. Ik vind de échte oorzaak, niet alleen de natte plek.",
+    hook: "In de woonwijken van Drunen die in de jaren '70 en '80 zijn gebouwd, staan veel rijtjeshuizen en twee-onder-een-kappers met een schuin pannendak. Op die daken, die nu een jaar of veertig liggen, zie ik een lek vaak bij de dakvoet: de onderste rij pannen, vlak boven de goot. Bij harde wind en regen waait het water daar onder de pannen door, zeker als de folie eronder niet goed tot in de goot doorloopt. Op zolder zie je dat als een natte plek achter het knieschot, vlak boven de vloer. Ik kijk eerst op zolder waar het hout nat is en volg dat spoor naar boven, zodat ik niets openmaak wat niet nodig is.",
   },
   {
     plaats: "boxtel",
@@ -100,7 +100,7 @@ export const MATRIX: MatrixCombo[] = [
   {
     plaats: "sint-michielsgestel",
     dienst: "daklekkage",
-    hook: "Bij de karakteristieke woningen langs de Dommel in Sint-Michielsgestel begint lekkage vaak bij vorsten en lood van klassieke pannendaken. Ik vind het lek en maak het weer waterdicht.",
+    hook: "In het oude centrum van Gestel en langs de Dommel staan veel huizen van voor de oorlog, vaak met een steil pannendak en een schoorsteen. Daar zit een lek meestal in het lood rond die schoorsteen, of in een kilgoot waar een lager dak of een serre tegen het huis aansluit. Onder de oude bomen langs de Dommel blijft in de herfst veel blad in zo'n kil liggen, en dan loopt hij bij een flinke bui over naar binnen. In de nieuwere straten van Den Dungen en Gemonde staan meer rijtjes en twee-onder-een-kappers met een platte aanbouw achter het huis. Lekt het daar, dan zit het meestal in de strook waar dat platte dak tegen de achtergevel omhoog loopt. Weet je niet waar het vandaan komt, kijk dan na een bui op zolder waar het hout nat is en stuur me daar een foto van.",
   },
   {
     plaats: "oisterwijk",
