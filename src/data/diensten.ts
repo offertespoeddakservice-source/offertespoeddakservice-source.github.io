@@ -71,6 +71,14 @@ export const DIENSTEN: Dienst[] = [
         v: "Maak je ook de afvoer en bladvangers schoon?",
         a: "Bij dakgoot schoonmaken hoort de hele goot: blad en mos eruit, bladvangers gecontroleerd en de uitloop naar de regenpijp vrijgemaakt. Klaar is klaar.",
       },
+      {
+        v: "Maak je ook goten schoon buiten Den Bosch?",
+        a: "Ja, in mijn hele werkgebied rond Den Bosch, onder andere in Rosmalen, Vught, Oss, Oisterwijk, Boxtel, Drunen en Veghel. Op de werkgebiedpagina zie je of jouw plaats erbij staat. Stuur gerust een foto van je huis via WhatsApp, dan hoor je vooraf de vaste prijs.",
+      },
+      {
+        v: "Er liggen zonnepanelen tot vlak boven mijn goot. Kun je die goot dan nog leegmaken?",
+        a: "Meestal wel. Ik werk dan vanaf de ladder langs de goot en ga niet op de panelen staan. Onder panelen die tot aan de goot liggen, blijft vaak blad of nestmateriaal hangen, en dat haal ik er meteen uit voor zover ik erbij kan. Nestelen er duiven onder, dan kan ik de rand rond de panelen afsluiten met vogelwering.",
+      },
     ],
   },
   {
