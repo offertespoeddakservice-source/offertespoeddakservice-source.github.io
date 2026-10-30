@@ -173,6 +173,14 @@ export const DIENSTEN: Dienst[] = [
         v: "Wanneer is repareren niet meer genoeg?",
         a: "Als er op veel plekken pannen kapot of poreus zijn, of als het dak op meerdere plekken lekt. Dan is blijven repareren duurder dan het dak in één keer goed aanpakken. Ik zeg eerlijk wat in jouw geval verstandig is.",
       },
+      {
+        v: "Kun je ook een dakreparatie doen als het regent of hard waait?",
+        a: "Bij een stortbui of harde wind ga ik niet op een nat, glad dak staan, dat is te gevaarlijk. Lekt het, dan dek ik af wat veilig kan, zodat het binnen droog blijft. De nette reparatie volgt als het droog is. Wanneer ik kan komen, hoor je als je belt of appt.",
+      },
+      {
+        v: "Er heeft eerder een andere dakdekker aan mijn dak gewerkt. Kun je het dan nog repareren?",
+        a: "Ja. Ik kijk wat er toen gedaan is en waar het nu lekt of loszit, en ik zeg je eerlijk wat ik zie. Is het werk pas gedaan, neem dan eerst contact op met die dakdekker, want dan hoort hij het in de regel zelf op te lossen. Je hoort vooraf wat mijn reparatie kost.",
+      },
     ],
   },
   {
