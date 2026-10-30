@@ -63,7 +63,7 @@ export const MATRIX: MatrixCombo[] = [
   {
     plaats: "vught",
     dienst: "goten-reinigen",
-    hook: "Onder de vele bomen in Vught lopen goten snel vol blad. Ik maak ze leeg en controleer meteen het lood en de pannen die hier door ouderdom aandacht vragen.",
+    hook: "In Vught staan veel eiken en beuken, langs de lanen en in de tuinen. Die houden hun blad lang vast, vaak tot in december. Laat je je goot in oktober leegmaken, dan ligt hij in januari vaak alweer vol. Onder zulke bomen plan ik het daarom liever laat in het najaar. Een goot vol nat blad is ook zwaar. Bij een kunststof goot trekt dat na een tijd een beugel scheef, en dan blijft er water staan op de plek waar de goot doorhangt. Bij het leegmaken kijk ik daarom ook of je goot nog goed op afschot hangt. Zie ik iets aan je pannen of het lood, dan hoor je dat meteen.",
   },
   {
     plaats: "berlicum",
@@ -122,7 +122,7 @@ export const MATRIX: MatrixCombo[] = [
   {
     plaats: "boxtel",
     dienst: "goten-reinigen",
-    hook: "Onder de bomenrijke straten van Boxtel slibben goten razendsnel dicht. Ik haal blad en mos eruit, maak de uitloop naar de regenpijp vrij en geef een eerlijke blik op de rest van je dak.",
+    hook: "In wijken als Selissen en Munsel liggen op steeds meer daken zonnepanelen. Daaronder zoeken duiven graag een plek, en hun nestmateriaal en poep spoelen bij een bui de goot in. Dat blijft bij de uitloop naar de regenpijp hangen, samen met het blad van de straatbomen, en bij de volgende flinke bui loopt de goot dan over. Ik maak de goot leeg en de uitloop vrij. Zie ik dat er duiven onder je panelen zitten, dan hoor je wat je daartegen kunt doen. Ook kijk ik naar de naden en de hoeken van de goot, want die zie je pas goed als hij leeg is.",
   },
   {
     plaats: "schijndel",
