@@ -488,6 +488,46 @@ export const ARTIKELEN: Artikel[] = [
     ],
   },
   {
+    slug: "tak-of-boom-op-dak",
+    datum: "2026-10-30",
+    titel: "Tak of boom op je dak?",
+    h1: "Tak of boom op je dak na een storm: wat doe je nu?",
+    metaTitle: "Tak of boom op je dak na storm: wat nu? | Spoed Dak Service",
+    metaDescription:
+      "Viel er bij de storm een tak of boom op je dak? Wat je eerst doet, wie hem weghaalt, hoe het zit met je verzekering en wat ik daarna aan je dak herstel.",
+    intro:
+      "Bij een flinke storm breken er takken af, en soms waait er een hele boom om. Komt die op je dak terecht, dan is de schade vaak groter dan je vanaf de straat ziet. Een tak die op het dak valt, breekt pannen, kan de goot uit de haken trekken en schuift soms nog een stuk naar beneden. Hieronder lees je wat je eerst doet, wie wat weghaalt en hoe ik je dak daarna herstel.",
+    secties: [
+      { kop: "Eerst: je veiligheid", tekst: [
+        `Blijf uit de kamer onder de plek waar de tak of boom ligt, zeker als het plafond doorbuigt of er water doorkomt. Ga niet zelf het dak of de ladder op, en trek niet aan een grote tak: die staat vaak onder spanning en kan wegschieten of meer pannen meetrekken.`,
+        `Ligt de boom op een stroomkabel of op de weg, of kan hij elk moment verder zakken, bel dan 112. Lekt het nu al binnen, kijk dan op de <a href="/spoed/">spoedpagina</a> wat je meteen zelf kunt doen.`,
+      ] },
+      { kop: "Maak foto's voordat er iets weg gaat", tekst: [
+        `Maak foto's van de tak of boom op je dak, van de plek waar hij is afgebroken of omgewaaid, en van de schade binnen. Doe dat voordat er iets wordt weggehaald. Zo laat je je verzekering zien dat de schade door de storm kwam.`,
+      ] },
+      { kop: "Wie haalt de boom weg?", tekst: [
+        `Een grote tak of een hele boom moet eerst van je dak af voordat er iets hersteld kan worden. Dat is werk voor een boomverzorger, en als het gevaarlijk is soms voor de brandweer. Een losse tak in de goot of op de pannen haal ik weg als ik toch op het dak sta.`,
+        `Is het de boom van de buren of van de gemeente, meld het dan ook bij hen. Bij een echte storm geldt het vaak als overmacht, en dan meld je de schade aan je dak bij je eigen opstalverzekering. Was de boom al dood of ziek, dan kan dat anders liggen. Meer lees je in <a href="/kennisbank/daklekkage-verzekering/">daklekkage en je verzekering</a>.`,
+      ] },
+      { kop: "Wat ik daarna nakijk", tekst: [
+        `Een tak raakt vaak meer dan alleen de plek waar hij blijft liggen. Daarom kijk ik over het hele dakvlak: gebroken of gescheurde pannen, de panlatten eronder, de nok, het lood bij de schoorsteen en de goot met de beugels. Een gescheurde pan zie je vanaf de straat vaak niet. Hoe je zelf een kapotte pan herkent, lees je in <a href="/kennisbank/dakpan-kapot-of-verschoven/">dakpan kapot of verschoven</a>.`,
+        `Liggen er zonnepanelen op je dak en is daar iets mee gebeurd, dan zeg ik dat eerlijk: daarvoor heb je je installateur nodig.`,
+      ] },
+      { kop: "Eerst dicht, daarna netjes", tekst: [
+        `Is er een gat in je dak, dan dek ik het eerst af, zodat het binnen droog blijft. Daarna vervang ik de kapotte pannen en herstel ik wat er verder stuk is. Moet er iets besteld worden, dan kom ik daarvoor terug. Je hoort vooraf wat het kost. Wat je na een storm verder zelf kunt nakijken, lees je in <a href="/kennisbank/stormschade-eerste-hulp/">stormschade: eerste hulp</a>.`,
+      ] },
+      { kop: "Hangt er een grote tak boven je dak?", tekst: [
+        `Hangt er een zware tak over je dak, laat hem dan in de herfst of winter door een boomverzorger terugsnoeien, voordat de stormen komen. Dat scheelt ook veel blad in je goot. Hoe vaak je goot onder bomen leeg moet, lees je in <a href="/kennisbank/hoe-vaak-dakgoot-reinigen/">hoe vaak dakgoot reinigen</a>.`,
+      ] },
+    ],
+    dienst: { label: "Bekijk: stormschade", href: "/diensten/stormschade/" },
+    faq: [
+      { v: "Mag ik zelf een tak van mijn dak halen?", a: "Een kleine tak die je vanuit een raam makkelijk kunt pakken, kan. Ga er niet voor op het dak of op een ladder staan. Trek ook niet aan een grote tak: die kan wegschieten of meer pannen meetrekken. Maak liever een foto en stuur die via WhatsApp." },
+      { v: "Wie betaalt de schade als de boom van de buren op mijn dak valt?", a: "Bij een echte storm geldt dat vaak als overmacht. Dan meld je de schade aan je dak meestal bij je eigen opstalverzekering. Was de boom al dood of ziek en wisten de buren dat, dan kan het anders liggen. Maak foto's en meld het bij je verzekeraar, die zoekt verder uit wie wat betaalt." },
+      { v: "Is een tak op mijn dak spoed?", a: "Is er een gat in je dak of komt er water binnen, dan wel: bel of app me met een foto. Ligt er alleen een kleine tak op de pannen en is het binnen droog, dan kan het vaak een dag wachten. Wacht niet tot de volgende bui." },
+    ],
+  },
+  {
     slug: "lekkage-bij-zonnepanelen",
     datum: "2026-10-21",
     titel: "Lekkage bij zonnepanelen?",
