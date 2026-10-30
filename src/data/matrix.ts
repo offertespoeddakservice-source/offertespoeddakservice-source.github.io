@@ -48,12 +48,12 @@ export const MATRIX: MatrixCombo[] = [
   {
     plaats: "oss",
     dienst: "goten-reinigen",
-    hook: "In de ruime wijken van Oss met veel schuine daken slibben goten snel dicht door blad en mos. Ik maak ze leeg, maak de uitloop naar de regenpijp vrij en kijk meteen of er meer aan je dak speelt.",
+    hook: "Bij veel rijtjeshuizen in Oss, zoals in de Ruwaard en Schadewijk, hangt er ook een goot aan de achterkant, boven de tuin. Die zie je vanaf de straat niet, en daardoor wordt hij vaak vergeten, terwijl hij door de bomen in de tuinen juist het volst zit. In Berghem en Herpen staan meer vrijstaande huizen met grote tuinen, en daar komt naast blad ook zaad en bloesem van de bomen in de goot. Ik maak de goten aan beide kanten leeg en maak de uitloop naar de regenpijp vrij. Zie ik iets aan je dak, dan hoor je dat meteen.",
   },
   {
     plaats: "den-bosch",
     dienst: "goten-reinigen",
-    hook: "Of je nu in de binnenstad of in De Slagen woont: volle goten zorgen voor vochtige muren en lekkage. Ik ben dagelijks in Den Bosch, dus ik plan je goten zo tussendoor in.",
+    hook: "In de oudere wijken met veel straatbomen, zoals de Muntel en de Vliert, valt in oktober en november veel blad in de goot. Blijft dat liggen, dan wordt het in de winter een natte, zware laag waar mos en soms zelfs plantjes in gaan groeien. In nieuwere wijken zoals Maaspoort en Empel staan minder grote bomen, maar daar komt het vuil vooral van het dak zelf: mos en gruis dat bij de uitloop naar de regenpijp blijft hangen. Den Bosch is mijn thuisbasis, dus je goten leegmaken plan ik makkelijk tussendoor.",
   },
   {
     plaats: "rosmalen",
