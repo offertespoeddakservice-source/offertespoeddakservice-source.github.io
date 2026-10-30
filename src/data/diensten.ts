@@ -238,6 +238,7 @@ export const DIENSTEN: Dienst[] = [
       },
       { v: "Wat kost een noodreparatie na een storm?", a: "Dat hangt af van de schade. Een paar pannen terugleggen is iets anders dan een open stuk dak afdekken. Je hoort vooraf wat het kost, voordat ik begin. Is het 's avonds, 's nachts of in het weekend, dan komt er een toeslag bij, en ook die hoor je vooraf." },
       { v: "Er ligt na de storm een stuk dakpan of specie in mijn tuin, is dat erg?", a: "Het betekent dat er iets los zit op je dak, vaak een pan of een nokvorst. Ook als het binnen nog droog is, kan de volgende bui of windstoot water binnenlaten of meer pannen lostrekken. Blijf uit de buurt van de plek waar het naar beneden kwam, maak vanaf de straat een foto van je dak en stuur die via WhatsApp." },
+      { v: "Mijn dakgoot is bij de storm losgeraakt, wat nu?", a: "Ga er niet onder staan en trek er niet aan. Een goot die half los hangt, kan verder afscheuren, en een zinken goot is zwaar. Maak vanaf de grond een foto en stuur die via WhatsApp. Vaak zijn er een paar beugels losgetrokken, en dan hang ik de goot weer vast en op afschot. Is de goot zelf geknikt of gescheurd, dan vervang ik dat stuk. Je hoort vooraf wat het kost." },
     ],
   },
   {
