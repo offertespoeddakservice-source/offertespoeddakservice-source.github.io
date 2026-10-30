@@ -281,6 +281,15 @@ export const MATRIX: MatrixCombo[] = [
     dienst: "dakreparatie",
     hook: "Sinds 2015 hoort ook Geffen bij de gemeente Oss. Daar staan veel twee-onder-een-kappers en vrijstaande huizen met een flink pannendak. Op oudere daken liggen de pannen langs de zijkant en vlak boven de goot vaak nog zonder stormhaak, en juist die gaan bij een harde windstoot als eerste omhoog. Ik leg ze terug en kijk meteen of er een haak bij moet. Bij de oudere rijtjes in Oss liggen soms nog pannen die niet meer gemaakt worden. Is er een kapot, dan zoek ik eerst een pan die past. Lukt dat niet, dan kan ik een oude pan van de achterkant naar voren halen en achter een nieuwe neerleggen, zodat je aan de straatkant niets ziet. Je hoort vooraf wat het kost.",
   },
+  // Dakreparatie in Vlijmen (Search Console: dakreparatie vlijmen 25 vertoningen op plek 67, nog geen eigen pagina), met andere lokale inhoud dan plaatsen.ts en de lekkage-, storm- en gootpagina van Vlijmen
+  {
+    plaats: "vlijmen",
+    dienst: "dakreparatie",
+    hook: "In de rijtjes uit de jaren '70 in Vlijmen liggen op veel daken nog de betonnen pannen van toen. Na zoveel jaren is de toplaag eraf: de pan wordt ruw en groen, en er groeit mos op dat in de goot terechtkomt. Breekt er een, dan vervang ik alleen die pan. Zijn er op veel plekken pannen gescheurd, dan zeg ik eerlijk dat een groter stuk vervangen slimmer is. In Geerpark, de nieuwe wijk van Vlijmen, ligt de nok niet meer in specie maar droog, met een rol eronder en een klem per vorst. Daar zie ik na een storm eerder een vorst die is gaan schuiven omdat een klem los zit, dan een nok die afbrokkelt. Vanaf de straat zie je vaak al welke pan of vorst scheef ligt. Maak er een foto van en stuur hem via WhatsApp, dan zeg ik je wat het wordt.",
+    faq: [
+      { v: "Kun je mijn verweerde betonpannen ook schoonmaken?", a: "Dat kan. Schoonmaken maakt een oude pan niet nieuw, maar het mos is eraf, je goot loopt minder snel vol en ik zie meteen of er pannen gescheurd zijn. Bij betonpannen werk ik voorzichtig, zodat de toplaag niet nog verder slijt. Je hoort vooraf wat het kost." },
+    ],
+  },
   // Dakreparatie in Waalwijk (Search Console: dakreparatie waalwijk 30 vertoningen op plek 77, dakpannen waalwijk 27), met andere lokale inhoud dan plaatsen.ts en de lekkagepagina van Waalwijk
   {
     plaats: "waalwijk",
