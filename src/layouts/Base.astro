@@ -119,7 +119,7 @@ const schemas = [businessSchema, websiteSchema, ...(breadcrumbSchema ? [breadcru
     <title>{title}</title>
     <meta name="description" content={description} />
     <link rel="canonical" href={canonical} />
-    <meta name="robots" content={noindex ? "noindex, follow" : "index, follow"} />
+    <meta name="robots" content={noindex ? "noindex, follow" : "index, follow, max-snippet:-1, max-image-preview:large"} />
     <meta name="theme-color" content="#0f2742" />
     <meta property="og:type" content="website" />
     <meta property="og:locale" content="nl_NL" />
