@@ -96,6 +96,9 @@ export const PLAATSEN: Plaats[] = [
     omschrijving: "Dakdekker in Sint-Michielsgestel, Den Dungen en Gemonde: lood en nokvorsten op oude daken, goten vol blad en lekkage. Vaste prijs vooraf. Bel of app Rens.",
     extra:
       "Rond Sint-Michielsgestel liggen oude landgoederen, zoals Zegenwerp en Ruwenberg, en ook in de straten eromheen staan hoge eiken en beuken. In de herfst komen daar naast blad ook eikels en takjes in de goot, en die blijven bij de uitloop naar de regenpijp hangen. In Den Dungen en Gemonde staan meer vrijstaande huizen en boerderijen met een groot pannendak, vaak met veel open land eromheen. Daar heeft de wind meer grip op het dak, en waait een nokvorst met losse specie er eerder af dan in een straat vol huizen.",
+    faq: [
+      { v: "Kom je ook in Den Dungen, Gemonde en Maaskantje?", a: "Ja. Den Dungen, Maaskantje en Gemonde horen bij de gemeente Sint-Michielsgestel, net als Berlicum en Middelrode. Ik kom er voor dezelfde klussen als in Gestel zelf: lekkage, goten, pannen en lood. Het is zo'n kwartier tot twintig minuten rijden vanaf Den Bosch." },
+    ],
   },
   {
     slug: "schijndel",
@@ -198,6 +201,9 @@ export const PLAATSEN: Plaats[] = [
     omschrijving: "Dakdekker in Uden, Volkel en Odiliapeel: lekkage bij een gezakte goot of een plat dak, volle goten en losse pannen. Vaste prijs vooraf. Bel of app Rens.",
     extra:
       "Rond de Markt in het centrum van Uden zitten veel winkels met een woning erboven. Achter zo'n pand ligt vaak een plat dak op de winkel of het magazijn, en daar komt het water nogal eens binnen bij de afvoer of langs de rand. Volkel en Odiliapeel, de dorpen die bij Uden horen, hebben meer vrijstaande huizen en boerderijen met een groot pannendak en een lange goot. Daar blijft in de herfst veel blad in de goot liggen, en bij een stevige bui loopt hij dan over langs de gevel. Stuur me een foto, dan zeg ik je eerlijk of leegmaken genoeg is.",
+    faq: [
+      { v: "Kom je ook in Volkel en Odiliapeel?", a: "Ja. Volkel en Odiliapeel horen bij Uden, en ook daar kom ik voor lekkage, goten, pannen en lood. Uden is zo'n 25 minuten rijden vanaf Den Bosch, de dorpen liggen een stukje verder. Stuur gerust eerst een foto via WhatsApp, dan hoor je eerlijk wanneer ik kan komen." },
+    ],
   },
   {
     slug: "den-bosch",
