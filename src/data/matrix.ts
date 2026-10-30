@@ -396,4 +396,10 @@ export const MATRIX: MatrixCombo[] = [
       { v: "Wat doe ik met het lek tot je er bent?", a: "Zet een emmer met een doek erin onder de druppel, haal spullen weg en leg handdoeken neer. Bolt het plafond op of zit er een lamp in de natte plek, ga er dan niet onder staan en laat die lamp uit. Ga zelf niet het dak op, zeker niet bij regen of wind. Maak foto's van de natte plek, want die heb je ook nodig voor je verzekering. Op de spoedpagina lees je wat je verder meteen kunt doen." },
     ],
   },
+  // Goten reinigen in Veghel (Search Console: dakgoot schoonmaken veghel 21 vertoningen op plek 68, nog geen eigen pagina; gootpiek in november), met andere lokale inhoud dan plaatsen.ts en de andere Veghel-pagina's
+  {
+    plaats: "veghel",
+    dienst: "goten-reinigen",
+    hook: "Op een deel van de goten in Veghel ligt een kunststof rooster of een borstel over de hele lengte, bedoeld om het blad tegen te houden. Grof blad blijft er dan bovenop liggen, maar zaadjes, gruis van de pannen en losgekomen mos zakken er gewoon doorheen. Daaronder slibt de goot langzaam dicht, en omdat je van beneden alleen het rooster ziet, lijkt hij schoon. Ik haal het rooster of de borstel eruit, maak de goot eronder leeg, maak de uitloop naar de regenpijp vrij en leg alles daarna weer terug. Bij veel twee-onder-een-kappers en vrijstaande huizen in Mariaheide en de andere kerkdorpen staat naast het huis een garage of berging met een eigen, lage goot. Nogal eens komt de regenpijp van het grote dak daarop uit. Bij een flinke bui krijgt die kleine goot dan het water van twee daken, en zit hij een beetje vol, dan loopt hij over tegen de muur. Die lage goot neem ik dus ook mee. Zie ik iets aan je pannen of het lood, dan hoor je dat meteen.",
+  },
 ];
