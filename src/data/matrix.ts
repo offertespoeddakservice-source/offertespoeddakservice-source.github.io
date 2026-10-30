@@ -182,6 +182,9 @@ export const MATRIX: MatrixCombo[] = [
     plaats: "den-bosch",
     dienst: "stormschade",
     hook: "In de binnenstad staan veel smalle, hoge panden met een steil dak en de topgevel aan de straat. Bij een harde windstoot gaan daar vaak de pannen langs de rand bij de gevel en vlak onder de nok als eerste omhoog, en dan valt er zo een stuk pan of specie op de stoep. In Maaspoort en Empel, aan de kant van de Maas, waait het over het open land flink. Daar vind ik na een storm vaker een losse nokvorst of een pan naast een dakraam die is opgetild. Ligt er iets op straat of is je dak open, ga dan niet zelf naar boven, maar maak vanaf de grond een foto en stuur die via WhatsApp. Ik dek het eerst af, zodat het binnen droog blijft, en herstel het daarna netjes. Den Bosch is mijn thuisbasis, dus meestal ben ik er snel.",
+    faq: [
+      { v: "Er is bij de storm een stuk dakpan op de stoep gevallen. Wat doe ik nu?", a: "Houd eerst mensen weg bij de plek onder je dakrand, bijvoorbeeld met een paar stoelen of een kliko, want waar één stuk afkwam, kan meer volgen. In de smalle straten van de binnenstad lopen mensen vlak langs de gevel, dus doe dat meteen. Hangt er iets los dat elk moment naar beneden kan vallen, bel dan 112. Ga zelf niet naar boven. Maak vanaf de overkant een foto van je dak en stuur die via WhatsApp, dan hoor je wanneer ik kan komen." },
+    ],
   },
   {
     plaats: "rosmalen",
