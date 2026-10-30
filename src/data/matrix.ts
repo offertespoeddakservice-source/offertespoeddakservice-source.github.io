@@ -38,6 +38,9 @@ export const MATRIX: MatrixCombo[] = [
     plaats: "rosmalen",
     dienst: "daklekkage",
     hook: "In de rijtjeshuizen uit de jaren '60 en '70 in Rosmalen liggen de nokvorsten vaak nog in specie. Na zoveel jaren wordt die specie bros en brokkelt hij af, en dan waait de regen onder de nok door naar binnen. Dat zie je eerst als een natte plek op zolder, net onder de nok. In dezelfde huizen vind ik een lek ook vaak bij de ontluchtingspijp die door het dak steekt. De loden of rubberen kraag eromheen droogt uit en scheurt, en bij een flinke bui loopt het water dan langs de pijp naar beneden. Bel of app me, dan kom ik kijken waar het bij jou zit.",
+    faq: [
+      { v: "Hoe zie ik of het lek bij de nok of bij de ontluchtingspijp zit?", a: "Kijk na een flinke bui op zolder. Zit de natte plek bovenin, vlak onder de nok, en loopt er een streep over de balk naar beneden, dan komt het meestal van de nok. Zit het rond de pijp, op de plek waar die door het dakbeschot gaat, dan zit het vaak in de kraag eromheen. Is de pijp ook nat op koude, droge dagen, dan kan het condens zijn. Maak een foto van de plek en stuur die via WhatsApp, dan zeg ik wat ik zie." },
+    ],
   },
   {
     plaats: "vught",
@@ -82,6 +85,9 @@ export const MATRIX: MatrixCombo[] = [
     plaats: "vlijmen",
     dienst: "daklekkage",
     hook: "In Vliedberg en de andere naoorlogse wijken van Vlijmen hebben veel rijtjeshuizen achter een berging of aanbouw met een plat dak, vaak met een lichtkoepel erin. Bij zo'n koepel lekt het nogal eens langs de rand, waar de koepel op de opstand staat, en dan druppelt het precies onder de koepel naar binnen. In Nieuwkuijk en Haarsteeg, vlak bij Vlijmen, staan meer vrijstaande huizen met grote tuinen. Daar loopt de goot in de herfst snel over door het blad uit de bomen, en binnen lijkt dat soms op een daklek. App me een foto van de natte plek, dan zie ik vaak al waar ik moet zoeken.",
+    faq: [
+      { v: "Mijn lichtkoepel druppelt ook als het niet regent. Lekt hij dan?", a: "Vaak niet. Druppelt het vooral op koude ochtenden, ook na een droge nacht, dan is het meestal condens aan de binnenkant van de koepel. Bij oudere koepels met maar één laag zie ik dat veel. Druppelt het alleen na een bui, en vooral langs de rand, dan zit het meestal in de aansluiting van de koepel op het platte dak. Stuur een foto van de koepel van binnen en vertel wanneer het druppelt, dan zeg ik eerlijk wat het is." },
+    ],
   },
   {
     plaats: "drunen",
