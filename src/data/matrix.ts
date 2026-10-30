@@ -287,6 +287,15 @@ export const MATRIX: MatrixCombo[] = [
     dienst: "dakreparatie",
     hook: "Op een deel van de oude huizen in Besoyen, Baardwijk en Capelle liggen nog oud-Hollandse pannen. Die hebben geen sluiting zoals een moderne pan, ze liggen alleen een stukje over elkaar heen. Waait er één scheef of breekt er één, dan loopt het water er makkelijk onder door. Een nieuwe pan in dezelfde vorm is meestal wel te krijgen, maar de kleur wijkt vaak af van je oude pannen. Dat zeg ik je vooraf eerlijk, zodat je niet voor een verrassing staat. In de nieuwere wijken van Waalwijk zijn de daken nog jong. Moet daar al iets gerepareerd worden, kijk dan eerst of de bouwer het nog moet oplossen. Is dat niet zo, dan kom ik kijken en hoor je vooraf de vaste prijs.",
   },
+  // Dakreparatie in Vught (Search Console: dakreparatie vught 24 vertoningen op plek 65, nog geen eigen pagina), met andere lokale inhoud dan plaatsen.ts en de lekkage-, storm- en gootpagina van Vught
+  {
+    plaats: "vught",
+    dienst: "dakreparatie",
+    hook: "Veel vooroorlogse villa's in Vught hebben een schilddak: een dak dat aan alle vier de kanten schuin afloopt. Op de hoeken waar twee dakvlakken samenkomen, liggen hoekvorsten, net als bovenop de nok. Op oudere daken liggen die nog in specie, en als die bros wordt, gaat er bij harde wind een vorst schuiven en loopt de regen langs de hoek naar binnen. Op een deel van de oudere daken in Vught liggen de pannen ook nog direct op de latten, zonder folie of beschot eronder. Gaat zo'n lat na veel jaren rotten, dan zakt een rij pannen een stukje en zie je vanaf de straat een golf in het dak. Dan vervang ik de lat en leg ik de pannen weer recht. Ik herstel wat los of kapot is, en zeg je eerlijk als een groter stuk van je dak aandacht nodig heeft.",
+    faq: [
+      { v: "Mijn huis in Vught is een monument. Mag je daar pannen vervangen?", a: "Ja, maar bij een monument moet een nieuwe pan meestal in vorm en kleur passen bij de oude. Ik zoek eerst een pan die erbij past voordat ik iets vervang. Twijfel je of je huis een monument is, vraag het dan na bij de gemeente Vught." },
+    ],
+  },
   // Daklekkage in Uden (Search Console: daklekkage uden 25 vertoningen op plek 67, dakgoot lekkage uden plek 33), met andere lokale inhoud dan plaatsen.ts en de andere lekkagepagina's
   {
     plaats: "uden",
