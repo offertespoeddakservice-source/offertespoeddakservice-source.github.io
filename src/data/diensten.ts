@@ -419,7 +419,7 @@ export const DIENSTEN: Dienst[] = [
     vanafPrijs: ZON_PRIJS,
     h1: "Zonnepanelen reinigen: meer opbrengst uit je panelen",
     kort: "Vuile panelen leveren minder op. Ik maak ze voorzichtig schoon en kijk meteen naar de pannen eronder.",
-    metaTitle: "Zonnepanelen reinigen Den Bosch | Spoed Dak Service",
+    metaTitle: "Zonnepanelen schoonmaken Den Bosch | Spoed Dak Service",
     metaDescription:
       "Zonnepanelen laten schoonmaken in de regio Den Bosch: vuil en vogelpoep eraf, en ik kijk meteen even naar de pannen onder de panelen. Vaste prijs vooraf.",
     icoon: "🔆",
