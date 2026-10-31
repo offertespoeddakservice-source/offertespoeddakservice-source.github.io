@@ -1180,6 +1180,10 @@ export const ARTIKELEN: Artikel[] = [
       { kop: "Wat is een kilgoot?", tekst: [
         "Een kilgoot ligt in de hoek waar twee schuine dakvlakken tegen elkaar aan komen, bijvoorbeeld bij een L-vormig huis, een aanbouw of een schuur. Meestal is het een strook lood of zink onder de pannen. Bij nieuwere daken ligt er soms een kunststof kil of zijn er speciale kilpannen gebruikt. Omdat het water van twee kanten komt, krijgt een kil bij een flinke bui veel water te verwerken.",
       ] },
+      { kop: "Open of gesloten kil", tekst: [
+        "Bij een open kil zie je vanaf de straat een strook lood of zink tussen de pannen van de twee dakvlakken. Blad en mos blijven daar minder snel hangen, en je ziet meteen als er iets in ligt.",
+        "Bij een gesloten kil liggen de pannen van beide kanten bijna tegen elkaar en zit het lood of zink eronder. Dat ziet er strakker uit, maar de opening is smal. Blad, mos en losgekomen specie blijven daar sneller steken, en omdat je de kil zelf niet ziet, merk je dat pas als het binnen nat wordt. Bij zo'n kil is het extra slim om hem na de bladval te laten nakijken.",
+      ] },
       { kop: "Zo herken je een lekkende kil", tekst: [
         "Een natte plek of bruine kring op het plafond of op zolder, in de hoek waar de daken samenkomen. Het lekt vaak vooral bij een stortbui, of in de herfst als er veel blad valt. Vanaf de straat zie je soms blad of mos in de kil liggen, of pannen langs de kil die scheef liggen.",
       ] },
