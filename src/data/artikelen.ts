@@ -1530,7 +1530,7 @@ export const ARTIKELEN: Artikel[] = [
     dienst: { label: "Bekijk: schoorsteen vegen", href: "/diensten/schoorsteen-vegen/" },
     faq: [
       { v: "Wanneer kan ik het beste laten vegen?", a: "Vóór het stookseizoen, dus eind zomer of begin herfst. Dan begin je de winter veilig en met goede trek." },
-      { v: "Maken jullie er een rommel van binnen?", a: "Nee. Ik dek netjes af en werk schoon, geen roet in je woonkamer." },
+      { v: "Maak je er binnen een rommel van?", a: "Nee. Ik dek netjes af en werk schoon, geen roet in je woonkamer." },
       { v: "Is schoorsteen vegen verplicht?", a: "Voor een gewoon woonhuis staat het niet in de wet. Wel vragen veel verzekeraars in hun voorwaarden om een jaarlijkse veegbeurt als je hout stookt. Gaat het mis en is er niet geveegd, dan kan dat gevolgen hebben voor je uitkering. Kijk het even na in je polis." },
       { v: "Moet de schoorsteen ook geveegd worden als ik weinig stook?", a: "Stook je maar een paar keer per jaar, dan kan het vaak minder vaak. Heb je lang niet gestookt of zaten er vogels op de schoorsteen, laat dan voordat je weer begint toch even kijken of het kanaal vrij is." },
       { v: "Waarom ruikt mijn open haard naar roet als het regent?", a: "Komt er vocht in het kanaal, dan wordt het roet aan de binnenkant nat, en dat ruik je in huis. Vooral bij regen en wind, of als de haard een tijd niet aan is geweest. Vaak zit er dan veel roet in het kanaal en is vegen nodig. Komt er ook water in de haard naar beneden, dan zit er vaak geen kap op de schoorsteen." },
