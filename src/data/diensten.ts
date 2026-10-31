@@ -269,8 +269,9 @@ export const DIENSTEN: Dienst[] = [
       "Lekkende of roestige dakgoot repareren of vervangen in de regio Den Bosch. Zink, kunststof of pvc, inclusief afvoer. Vaste prijs vooraf, troep gaat mee.",
     icoon: "🛠",
     intro:
-      "Een goot die roest, op de naden lekt of blijft overlopen krijg je met reinigen niet meer dicht. Dan vervang ik 'm, in zink, kunststof of pvc, passend bij je huis, zodat je gevel en fundering droog blijven.",
+      "Lekt je dakgoot bij een naad, een hoek of de uitloop naar de regenpijp, of hangt hij door? Vaak is dat nog te repareren: ik herstel dat ene stuk of hang de goot weer op afschot naar de regenpijp. Is de goot doorgeroest, bros of op veel plekken lek, dan vervang ik hem in zink, kunststof of pvc, passend bij je huis, zodat je gevel en fundering droog blijven. Je hoort eerlijk wat het wordt, en vooraf wat het kost.",
     punten: [
+      "Lekkende naad, hoek of uitloop herstellen waar dat kan",
       "Oude, roestige of lekkende goten vervangen",
       "Zink, kunststof of pvc, wat bij je dak past",
       "Inclusief beugels en hemelwaterafvoer",
