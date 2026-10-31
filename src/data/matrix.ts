@@ -292,6 +292,9 @@ export const MATRIX: MatrixCombo[] = [
     plaats: "eindhoven",
     dienst: "daklekkage",
     hook: "In Philipsdorp en andere wijken van rond 1910 tot 1930 staan veel huizen met een steil pannendak, een schoorsteen en oude zinken goten. Daar begint een lek vaak bij het lood rond de schoorsteen of bij een goot die bij een naad is gaan lekken. In nieuwere wijken zoals Meerhoven liggen op veel daken zonnepanelen. Daar zie ik lekkage nogal eens bij een pan die bij het plaatsen van de beugels is gebroken of verschoven. Eindhoven is voor mij zo'n 40 minuten rijden. Stuur daarom eerst een foto via WhatsApp, dan weet ik wat ik mee moet nemen en hoor je eerlijk wanneer ik kan komen.",
+    faq: [
+      { v: "Mijn huis in Meerhoven lekt sinds de zonnepanelen erop liggen. Wie lost dat op?", a: "Zijn de panelen pas gelegd, neem dan eerst contact op met je installateur, want lekkage door het plaatsen hoort die in de regel zelf op te lossen. Liggen de panelen er al langer of komt de installateur niet, dan kijk ik waar het water binnenkomt. Eindhoven is voor mij zo'n 40 minuten rijden. Stuur daarom eerst een foto van de natte plek en van je dak vanaf de straat via WhatsApp, dan hoor je eerlijk wanneer ik kan komen." },
+    ],
   },
   // Daklekkage in Waalwijk (Search Console: daklekkage waalwijk 24 vertoningen, lekkage waalwijk en dakgoot lekkage waalwijk), met andere lokale inhoud dan plaatsen.ts
   {
