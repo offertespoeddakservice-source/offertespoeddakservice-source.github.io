@@ -839,6 +839,7 @@ export const ARTIKELEN: Artikel[] = [
       { v: "Wanneer kan ik het beste laten reinigen?", a: "In het najaar, als het meeste blad gevallen is, dan heb je er het hele jaar profijt van en voorkom je winterlekkage." },
       { v: "Helpt een bladvanger of een gootrooster?", a: "Het scheelt. Een bladvanger op de uitloop houdt grof blad uit de regenpijp, en een rooster over de goot houdt het meeste blad tegen. Maar naalden, zaadjes en mos komen er nog steeds langs, en blad dat op het rooster blijft liggen moet er ook af. Eén keer per jaar laten nakijken blijft nodig." },
       { v: "Waarom loopt mijn goot over terwijl er weinig blad in ligt?", a: "Dan zit het vaak bij de uitloop naar de regenpijp: een prop naalden, mos of zelfs een tennisbal is genoeg om die dicht te zetten. Het kan ook zijn dat de goot niet meer goed naar de regenpijp afloopt, zodat het water in het midden blijft staan. Stuur een foto, dan kijk ik mee." },
+      { v: "Kun je mijn goot ook in de winter nog leegmaken?", a: "Ja. Staan er bij jou bomen die hun blad laat verliezen, dan is december soms zelfs een beter moment dan oktober, want dan ligt alles erin. Alleen als het vriest of het dak glad is van ijs of sneeuw, wacht ik tot het weer veilig kan. Loopt je goot nu al over bij een bui, wacht dan niet tot het voorjaar." },
     ],
   },
   {
