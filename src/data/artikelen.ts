@@ -52,6 +52,10 @@ export const ARTIKELEN: Artikel[] = [
         "Ik werk van buiten naar binnen: eerst het dak na op losse pannen, lood en naden, dan de zolder op natte sporen. Vaak is een gerichte controle genoeg en hoeft er niks opengebroken te worden.",
         "Lukt het visueel niet, dan zijn er technieken (water gericht aanbrengen, rook- of vochtmeting) om de exacte plek te vinden. Eerst de schade beperken, dan de oorzaak aanpakken.",
       ] },
+      { kop: "Opsporen bij een plat dak", tekst: [
+        `Op een plat dak ligt de dakbedekking op een houten of betonnen ondergrond, vaak met isolatie ertussen. Komt er water door een naad, dan loopt het daar onder de bedekking of over het dakbeschot verder tot het een plek vindt om naar binnen te gaan. Daarom begin ik niet boven de natte plek, maar bij de plekken waar een plat dak het vaakst lekt: de naden, de randen en de daktrim, de opstanden tegen de muur, de afvoer en de rand van een lichtkoepel.`,
+        `Blijft er na een bui water staan, dan kijk ik extra goed naar de naden in en rond die plas. Lekt het langs de muur van je huis, lees dan <a href="/kennisbank/lekkage-bij-aanbouw/">lekkage bij de aanbouw</a>. Druppelt het bij een koepel, kijk dan bij <a href="/kennisbank/lichtkoepel-lekt/">lichtkoepel lekt</a>. Of repareren genoeg is, lees je in <a href="/kennisbank/plat-dak-vervangen-of-repareren/">plat dak: repareren of vervangen</a>.`,
+      ] },
       { kop: "Wat kost het?", tekst: [
         `Een punctuele reparatie kost meestal ${lekPrijs}, inclusief materiaal. Bij spoed buiten kantooruren komt daar een toeslag bij. Je hoort altijd de prijs voordat ik begin.`,
       ] },
