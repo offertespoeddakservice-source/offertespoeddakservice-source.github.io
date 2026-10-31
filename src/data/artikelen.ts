@@ -1375,6 +1375,11 @@ export const ARTIKELEN: Artikel[] = [
         "De pannen of de dakbedekking: liggen ze goed, en zijn er gebroken, verschoven of poreuze bij. De nokvorsten, want die laten vaak als eerste los. De goten en de afvoer naar de regenpijp. Het lood en de aansluitingen bij de schoorsteen en de dakramen, want daar gaat het vaak als eerste mis.",
         "Verder mos en aanslag, en of dat vocht vasthoudt. Vochtplekken en andere sporen van lekkage, ook als er nog geen lek is. En liggen er zonnepanelen, dan kijk ik ook hoe die vastzitten.",
       ] },
+      { kop: "Waar ik per soort huis extra op let", tekst: [
+        `Bij een vooroorlogse villa of een oud herenhuis kijk ik vooral naar het lood rond de schoorsteen en in de kilgoten, en naar de zinken goten. Dat is daar vaak tientallen jaren oud. Zulke huizen zie ik veel in <a href="/werkgebied/vught/">Vught</a> en in de oudere wijken van <a href="/werkgebied/den-bosch/">Den Bosch</a>.`,
+        `Bij een rijtjeshuis uit de jaren '60 of '70 gaat het vaker om nokvorsten die nog in specie liggen, pannen die water zijn gaan opnemen en een goot die is gaan doorhangen. Die huizen staan in bijna elke plaats rond Den Bosch, zoals <a href="/werkgebied/rosmalen/">Rosmalen</a> en <a href="/werkgebied/vlijmen/">Vlijmen</a>.`,
+        `Bij een boerderij of een groot vrijstaand huis kijk ik extra naar de lange goten, de nok en de pannen langs de randen, want daar heeft de wind veel grip. En bij een huis van na 2000 vooral naar de aansluitingen rond dakdoorvoeren, dakramen en zonnepanelen.`,
+      ] },
       { kop: "Wat je daarna krijgt", tekst: [
         `Bij mij heet een dakinspectie de <a href="/dak-apk/">Dak-APK</a>. Je krijgt een rapport met foto's van de plekken die aandacht vragen, met uitleg in gewone taal. Ik zeg erbij wat nu nodig is en wat best nog even kan wachten. Niks aan de hand? Dan hoor je dat ook gewoon.`,
       ] },
