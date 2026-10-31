@@ -342,6 +342,9 @@ export const MATRIX: MatrixCombo[] = [
     plaats: "boxtel",
     dienst: "dakgoot-vervangen",
     hook: "In de naoorlogse wijken van Boxtel, zoals Selissen, staan veel rijtjeshuizen waar de goot van het ene huis gewoon doorloopt in die van de buren. Op de grens tussen twee huizen zit dan een naad, en daar gaat zo'n goot na veel jaren als eerste lekken. Het lastige is dat het water vaak een stukje verderop naar beneden komt. Soms druppelt het bij de buren terwijl het lek aan jouw kant zit, of andersom. Heeft de buurman zijn goot al laten vervangen door kunststof en hangt er bij jou nog zink, dan zit er op de grens een overgangsstuk. Kunststof zet bij warmte en kou veel meer uit dan zink, en juist die overgang laat na een paar jaar los. Ik kijk daarom over de hele lengte van de goot. Zit het lek op het stuk van je buren, dan zeg ik dat eerlijk, zodat jullie het samen kunnen regelen. Stuur me een foto vanaf de straat, dan zie ik vaak al of het om één naad gaat of om meer.",
+    faq: [
+      { v: "Mijn buren laten hun goot vervangen. Moet de mijne dan ook?", a: "Niet per se. Is jouw goot nog goed, dan maak ik op de grens een nette overgang, zodat het water er niet tussen kan lopen. Is jouw goot net zo oud als die van de buren, of lekt hij ook al op een paar plekken, dan is het vaak slimmer om het in één keer te doen. Dan hangt er één goot op dezelfde hoogte en heb je geen overgang die later los kan gaan. Ieder hoort vooraf wat het kost." },
+    ],
   },
   // Dakreparatie in Oss (Search Console: dakreparatie oss 46 vertoningen op plek 80, nog geen eigen pagina), met andere lokale inhoud dan plaatsen.ts en de lekkage- en gootpagina van Oss
   {
