@@ -205,7 +205,7 @@ export const MATRIX: MatrixCombo[] = [
   {
     plaats: "berlicum",
     dienst: "stormschade",
-    hook: "In het open buitengebied rond Berlicum heeft de wind vrij spel; pannen en nokvorsten waaien er makkelijk los. Snel afdekken, dan netjes herstellen.",
+    hook: "Rond Berlicum en Middelrode ligt veel open land, en bij de vrijstaande huizen aan de rand van het dorp en de boerderijen in het buitengebied heeft de wind vrij spel. Na een storm zit de schade daar meestal aan de kant van het huis die naar het open land kijkt: pannen langs de rand van het dak die zijn opgetild, of een nokvorst die is gaan schuiven. Kijk na een storm dus eerst aan die kant, vanaf de grond. Staat er een garage, schuur of carport naast het huis, kijk dan ook naar dat dak, want een licht dak van platen waait eerder op dan een pannendak. Ga zelf niet het dak of de ladder op, maar stuur me een foto via WhatsApp. Is je dak open, dan dek ik het eerst af, zodat het binnen droog blijft, en daarna herstel ik het netjes.",
   },
   {
     plaats: "vlijmen",
