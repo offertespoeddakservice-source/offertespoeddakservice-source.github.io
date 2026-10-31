@@ -60,6 +60,7 @@ export const PLAATSEN: Plaats[] = [
     omschrijving: "Dakdekker in Vlijmen, Nieuwkuijk en Haarsteeg: lekkage bij een lichtkoepel, een volle goot of losse pannen na storm. Vaste prijs vooraf. Bel of app Rens.",
     faq: [
       { v: "Kom je ook in Nieuwkuijk en Haarsteeg?", a: "Ja. Nieuwkuijk en Haarsteeg liggen vlak bij Vlijmen en horen net als Vlijmen bij de gemeente Heusden. Ik kom er voor dezelfde klussen als in Vlijmen zelf, zoals een lek bij een lichtkoepel, een volle goot of losse pannen na een storm. Het is zo'n kwartier rijden vanaf Den Bosch." },
+      { v: "Kun je mijn dak in Vlijmen een keer helemaal nakijken voor de winter?", a: "Ja, dat doe ik met de Dak-APK: ik loop je hele dak na en je krijgt een rapport met foto's. Bij de rijtjes in Vliedberg kijk ik ook naar het platte dak van de berging en de rand van de lichtkoepel, bij de daken uit de jaren '70 naar verweerde betonpannen, en in Geerpark naar de klemmen van de nokvorsten. Op de foto's zie je zelf hoe je dak erbij ligt, en je hoort eerlijk wat voor de winter moet en wat kan wachten." },
     ],
   },
   {
@@ -124,6 +125,7 @@ export const PLAATSEN: Plaats[] = [
     omschrijving: "Dakdekker in Boxtel, Liempde en Esch: een lek opsporen, goten onder de bomen leegmaken en losse pannen terugleggen. Vaste prijs vooraf. Bel of app Rens.",
     faq: [
       { v: "Kom je ook in Liempde en Esch?", a: "Ja. Liempde hoort sinds 1996 bij de gemeente Boxtel, en Esch sinds 2021. Ik kom er voor dezelfde klussen als in Boxtel zelf, zoals een lek opsporen, goten leegmaken of losse pannen terugleggen. Boxtel is zo'n 25 minuten rijden vanaf Den Bosch." },
+      { v: "Kun je mijn dak in Boxtel nakijken voordat de winter begint?", a: "Ja, met de Dak-APK loop ik je hele dak na en krijg je een rapport met foto's. Bij de oudere huizen rond het centrum kijk ik vooral naar het lood boven een erker of luifel, bij de rijtjes in Selissen naar de naad in de goot op de grens met de buren en naar duiven onder de zonnepanelen, en bij de boerderijen in Liempde en Esch naar de nok en de schoorsteen. Daarna weet je wat er voor de winter moet gebeuren en wat nog een jaar kan wachten." },
     ],
   },
   {
