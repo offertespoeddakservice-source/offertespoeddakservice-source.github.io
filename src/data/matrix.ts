@@ -373,6 +373,9 @@ export const MATRIX: MatrixCombo[] = [
     plaats: "waalwijk",
     dienst: "dakreparatie",
     hook: "Op een deel van de oude huizen in Besoyen, Baardwijk en Capelle liggen nog oud-Hollandse pannen. Die hebben geen sluiting zoals een moderne pan, ze liggen alleen een stukje over elkaar heen. Waait er één scheef of breekt er één, dan loopt het water er makkelijk onder door. Een nieuwe pan in dezelfde vorm is meestal wel te krijgen, maar de kleur wijkt vaak af van je oude pannen. Dat zeg ik je vooraf eerlijk, zodat je niet voor een verrassing staat. In de nieuwere wijken van Waalwijk zijn de daken nog jong. Moet daar al iets gerepareerd worden, kijk dan eerst of de bouwer het nog moet oplossen. Is dat niet zo, dan kom ik kijken en hoor je vooraf de vaste prijs.",
+    faq: [
+      { v: "Kan er tussen mijn oud-Hollandse pannen ook een moderne pan?", a: "Op één plek meestal niet. Een moderne pan heeft een andere vorm en overlap, en past daardoor niet goed tussen oud-Hollandse pannen. Dan loopt het water er juist onder door. Ik zoek daarom een pan in dezelfde vorm. Wil je een heel dakvlak vervangen door pannen met een sluiting, dan kan dat, maar dan gaat het om een groter stuk dak, en bij een monument mag dat vaak niet zomaar. Ik zeg eerlijk wat bij jouw dak past, en je hoort vooraf wat het kost." },
+    ],
   },
   // Dakreparatie in Vught (Search Console: dakreparatie vught 24 vertoningen op plek 65, nog geen eigen pagina), met andere lokale inhoud dan plaatsen.ts en de lekkage-, storm- en gootpagina van Vught
   {
