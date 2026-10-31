@@ -983,6 +983,7 @@ export const ARTIKELEN: Artikel[] = [
     faq: [
       { v: "Kan ik een verstopte regenpijp zelf ontstoppen?", a: "Soms. Zit er alleen wat blad bovenin de uitloop van een lage goot, dan kun je dat zelf weghalen. Maar op hoogte werken is niet zonder risico, en zit de verstopping dieper in de pijp, dan krijg je hem er zo meestal niet uit. Ik maak de goot en de uitloop naar de regenpijp veilig leeg en kijk of het water weer wegloopt. Zit het dieper, dan zeg ik eerlijk wat er nodig is." },
       { v: "Hoe voorkom ik dat het terugkomt?", a: "Eén keer per jaar de goot laten reinigen (najaar) en eventueel bladroosters plaatsen. Staan er bomen vlakbij, dan twee keer per jaar." },
+      { v: "Mijn regenpijp lekt bij de verbindingen. Hoe kan dat?", a: "Vaak zit de pijp verderop dicht, bijvoorbeeld in een bocht, bij een bladvanger of op de plek waar hij de grond in gaat. Het water staat dan in de pijp en komt bij elke verbinding naar buiten. Soms zit een stuk pijp verkeerd om, met het wijde eind naar beneden in plaats van naar boven, en dan loopt het water bij elke bui bij die naad naar buiten. Kijk tijdens een bui of het water ook onderaan uit de pijp komt, en stuur me een foto van de plek waar het lekt." },
     ],
   },
   {
