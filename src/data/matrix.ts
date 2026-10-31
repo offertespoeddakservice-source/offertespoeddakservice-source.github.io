@@ -114,6 +114,7 @@ export const MATRIX: MatrixCombo[] = [
     hook: "Veel daken in Schijndel zijn van voor 1985, en op een deel daarvan liggen nog de eerste pannen. Zo'n oude pan neemt na veertig jaar meer water op. Vriest het daarna, dan kan er een haarscheur in komen die je van beneden niet ziet, en bij de volgende flinke bui druppelt het op zolder. In Wijbosch staan meer vrijstaande huizen met een schoorsteen, en daar zit een lek vaker in het lood rond die schoorsteen. Ik vervang alleen de pannen die echt kapot zijn, en zeg je eerlijk als er meer aan de hand is.",
     faq: [
       { v: "Op mijn dak liggen nog de eerste pannen. Kun je er dan nog één vervangen?", a: "Meestal wel. Ik zoek eerst een pan die past bij wat er nu op je dak ligt. Wordt jouw pan niet meer gemaakt, dan kijk ik of ik ergens op je dak een pan kan missen op een plek die je vanaf de straat niet ziet. Zijn er op veel plekken pannen gescheurd, dan zeg ik eerlijk dat een groter stuk vervangen slimmer is. Je hoort vooraf wat het kost." },
+      { v: "Hoe zie ik of de oude pannen op mijn dak water opnemen?", a: "Kijk na een bui vanaf de straat naar je dak. Blijven een paar pannen veel langer donker en nat dan de rest, dan nemen die meer water op. Ook pannen met veel mos of korstmos zijn vaak verweerd. Op zolder zie je het soms als donkere, vochtige plekken op de panlatten na een natte week. Ga zelf niet het dak op, maar stuur me een foto vanaf de straat. Dan zeg ik eerlijk of het om een paar pannen gaat of om meer." },
     ],
   },
   {
