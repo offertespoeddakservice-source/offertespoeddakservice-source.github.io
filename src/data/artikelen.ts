@@ -1681,6 +1681,7 @@ export const ARTIKELEN: Artikel[] = [
       { v: "Kan een plas op het dak lekkage geven?", a: "Niet meteen, maar staand water zoekt elke kleine scheur en naad op. Hoe langer het blijft staan, hoe groter de kans dat het ergens doorheen komt." },
       { v: "Wat is een noodoverloop?", a: "Een extra opening in de dakrand, iets hoger dan de afvoer. Raakt de afvoer verstopt, dan kan het water daar weg in plaats van op het dak te blijven staan. Niet elk plat dak heeft er een." },
       { v: "Moet het hele dak opnieuw als er water blijft staan?", a: "Meestal niet. Vaak is het een dichte afvoer. Ligt het aan een kuil of te weinig afschot, dan kijk ik eerst of een gerichte reparatie genoeg is. Je hoort eerlijk wat nodig is." },
+      { v: "Mag ik de plas op mijn platte dak zelf wegvegen?", a: "Dat mag, met een zachte bezem of een trekker, als je veilig op het dak kunt staan en het niet glad is. Gebruik geen schep of ander scherp gereedschap, want daarmee beschadig je de dakbedekking zo. Het lost alleen niets op. Komt de plas na elke bui terug, dan loopt het water niet goed weg. Kijk dan eerst of de afvoer vrij is, en stuur me een foto als het daarna niet beter wordt." },
     ],
   },
   {
