@@ -700,6 +700,7 @@ export const ARTIKELEN: Artikel[] = [
       { v: "Is lekkage bij zonnepanelen spoed?", a: "Loopt er water naar binnen, dan wel: hoe langer het lekt, hoe meer schade aan hout en isolatie. Bel of WhatsApp me met een foto van de natte plek." },
       { v: "Wie betaalt de reparatie als het lek door de installatie komt?", a: "Komt het lek door het plaatsen van de panelen, dan is dat in de regel iets voor de installateur. Neem daarom eerst contact met hen op. Liggen de panelen er al jaren of komt de installateur niet, dan kijk ik waar het lek zit en hoor je vooraf de vaste prijs." },
       { v: "Lekt een plat dak met zonnepanelen sneller?", a: "Niet vanzelf. Maar onder en tussen de panelen zie je de dakbedekking slecht, en daar blijft sneller blad liggen. Laat daarom af en toe kijken of de afvoer vrij is en de dakbedekking onder de panelen nog goed is." },
+      { v: "Er komen binnenkort zonnepanelen op mijn dak. Moet ik het dak eerst laten nakijken?", a: `Dat is slim, zeker bij een dak dat al wat ouder is. Liggen de panelen er eenmaal, dan kom je lastig bij de pannen eronder, en voor een reparatie moet er dan soms een paneel los. Laat daarom vooraf kijken of er pannen gescheurd of poreus zijn, of de nok goed vastzit en of het lood rond de schoorsteen nog goed is. Dat kan met de Dak-APK (${apkPrijs}): je krijgt een rapport met foto's en weet wat er eerst moet gebeuren. Is je dak in orde, dan hoor je dat ook.` },
     ],
   },
   {
