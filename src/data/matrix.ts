@@ -479,4 +479,13 @@ export const MATRIX: MatrixCombo[] = [
       { v: "Mijn kunststof goot lekt bij een naad. Moet de hele goot eruit?", a: "Meestal niet. Lekt hij op één naad of hoek en is het kunststof verder nog goed, dan vervang ik alleen dat verbindingsstuk of dat stuk goot. Is het kunststof over de hele lengte bros geworden, dan houdt een nieuwe naad het vaak niet lang, en dan zeg ik eerlijk dat een nieuwe goot slimmer is. Uden is zo'n 25 minuten rijden vanaf Den Bosch. Je hoort vooraf wat het kost." },
     ],
   },
+  // Goten reinigen in Waalwijk (Search Console: dakgoot schoonmaken waalwijk 10 vertoningen op plek 85, plaatspagina Waalwijk 443 vertoningen, nog geen eigen pagina; gootpiek in november), met andere lokale inhoud dan plaatsen.ts en de andere Waalwijk-pagina's
+  {
+    plaats: "waalwijk",
+    dienst: "goten-reinigen",
+    hook: "Achter veel oudere huizen in Besoyen en Baardwijk staat een aanbouw, schuur of oude werkplaats met een plat dak. Het water van dat dak loopt via een afvoer in de rand naar een regenpijp of naar de goot van het huis. Ligt er grind op dat platte dak, dan spoelen er bij elke flinke bui steentjes mee. Die blijven samen met het blad hangen in de afvoer en bij de uitloop naar de regenpijp, en dan blijft het water op het platte dak staan of loopt de goot over, terwijl je van beneden niets ziet. Wacht met leegmaken niet tot het gaat vriezen: nat blad met grind bevriest in de afvoer tot een harde prop, en dan kan het smeltwater nergens heen. Ik maak de goten van begin tot eind leeg, haal de afvoer van het platte dak vrij en maak de uitloop naar de regenpijp schoon. Loopt je goot over terwijl hij leeg is, dan zit het vaak lager, in de regenpijp of in de aansluiting in de grond, en dat zeg ik je dan eerlijk.",
+    faq: [
+      { v: "Er ligt grind op het platte dak van mijn schuur. Moet dat eraf?", a: "Meestal niet. Het grind ligt er vaak juist om de dakbedekking te beschermen en op zijn plek te houden. Wel moet de afvoer vrij blijven. Vaak zit er een korf of rooster op de afvoer die het grind tegenhoudt. Ontbreekt die of zit hij vol, dan spoelen er steentjes de afvoer in. Bij het leegmaken van je goten kijk ik daar ook naar. Je hoort vooraf wat het kost." },
+    ],
+  },
 ];
