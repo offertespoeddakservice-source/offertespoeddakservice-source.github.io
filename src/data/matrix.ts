@@ -241,7 +241,7 @@ export const MATRIX: MatrixCombo[] = [
   {
     plaats: "sint-michielsgestel",
     dienst: "stormschade",
-    hook: "Langs de Dommel in Sint-Michielsgestel waaien bij storm vorsten en pannen los van de klassieke daken. Ik beperk de schade en maak het weer waterdicht.",
+    hook: "In het oude centrum van Gestel en langs de Dommel staan veel huizen van voor de oorlog met een steil pannendak. Bij een deel daarvan liggen de pannen nog direct op de latten, zonder folie eronder. Waait er bij een storm één pan weg of scheef, dan regent het daar meteen op zolder, want er zit niets onder dat het water opvangt. Kijk na een storm daarom ook even op zolder met een zaklamp: zie je ergens daglicht tussen de pannen door, dan ligt daar een pan niet goed. In Den Dungen, Gemonde en Maaskantje staan meer boerderijen en vrijstaande huizen in het open land, en daar kijk ik na een storm vooral naar de nok en de pannen langs de rand van het dak. Ga zelf niet het dak op, maar stuur me een foto vanaf de grond. Is je dak open, dan dek ik het eerst af en herstel ik het daarna netjes.",
   },
   {
     plaats: "oisterwijk",
