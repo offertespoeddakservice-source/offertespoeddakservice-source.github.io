@@ -1149,6 +1149,10 @@ export const ARTIKELEN: Artikel[] = [
       { kop: "Hoe ik het opspoor", tekst: [
         'Omdat het alleen bij wind lekt, zie je het vaak niet als het droog is. Ik kijk daarom eerst naar de plekken hierboven, aan de kant waar de wind op stond, en op zolder naar oude waterkringen. Meestal vind ik het zo zonder iets open te breken. Meer hierover in <a href="/kennisbank/daklekkage-opsporen/">daklekkage opsporen</a>.',
       ] },
+      { kop: "Zo voorkom je het bij de volgende storm", tekst: [
+        'Is het lek gevonden en hersteld, kijk dan ook naar de rest van de kant waar de wind op staat. Liggen de pannen langs de rand en de onderste rij nog los op de latten, dan kun je ze laten vastzetten met stormhaken. Wat dat doet en wanneer het zin heeft, lees je in <a href="/kennisbank/dakpannen-vastzetten-tegen-storm/">dakpannen vastzetten tegen storm</a>.',
+        "Ligt de nok nog in oude specie die bros wordt, dan wordt bij het opnieuw leggen vaak een ondervorst gebruikt in plaats van specie. Het liefst laat je dat in de herfst doen, voordat de winterstormen komen.",
+      ] },
     ],
     dienst: { label: "Bekijk: dakreparatie (pannen, lood en nok)", href: "/diensten/dakreparatie/" },
     faq: [
