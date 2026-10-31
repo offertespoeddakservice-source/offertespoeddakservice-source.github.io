@@ -31,6 +31,7 @@ export const PLAATSEN: Plaats[] = [
       "In De Groote Wielen zijn de huizen nog jong, maar daar liggen veel platte daken en daken vol zonnepanelen. Lekkage zie ik daar eerder bij een dakdoorvoer, een afvoer of de rand van een plat dak dan bij oude pannen. In de Maliskamp en rond het oude centrum staan meer vrijstaande huizen en twee-onder-een-kappers met een schoorsteen, en daar kijk ik bij een lek eerst naar het lood.",
     faq: [
       { v: "Mijn huis in De Groote Wielen is nog maar een paar jaar oud. Kan het dak dan al lekken?", a: "Dat kan, ook bij een jong huis. Is je huis pas een paar jaar oud, kijk dan eerst of de bouwer het lek nog moet oplossen. Valt het daar niet meer onder, stuur me dan een foto van de natte plek. Dan zeg ik eerlijk wat ik zie." },
+      { v: "Kom je ook in Kruisstraat, Maliskamp en Hintham?", a: "Ja. Kruisstraat en de Maliskamp horen bij Rosmalen, en Hintham ligt tussen Rosmalen en de stad. Rosmalen hoort sinds 1996 bij de gemeente Den Bosch, en vanaf mijn thuisbasis ben ik er in zo'n tien minuten. Ik kom er voor dezelfde klussen als in de rest van Rosmalen: lekkage, goten, pannen en lood." },
     ],
   },
   {
@@ -147,6 +148,9 @@ export const PLAATSEN: Plaats[] = [
     omschrijving: "Dakdekker in Oss, Berghem en Geffen: lekkage bij lood of een dakraam, goten vol blad en losse pannen na storm. Vaste prijs vooraf. Bel of app Rens.",
     extra:
       "Bij Oss horen ook de dorpen langs de Maas, zoals Lith, Megen en Ravenstein. Daar staan veel dijkhuizen en oude boerderijen met een groot pannendak, en over de rivier en het open land heeft de wind vrij spel. Na een storm zie ik daar vaak dat de houten windveer loszit of dat de pannen langs de zijkant van het dak zijn gaan schuiven. Rond het centrum van Oss staan nog veel oude arbeiderswoningen met een schoorsteen die al jaren niet meer gebruikt wordt. Zit daar geen kap op, dan regent het in het kanaal, en na een tijd zie je een vochtplek op de muur binnen. Vaak is een kap of afdekplaat op de schoorsteen dan genoeg, en die zet ik er zelf op.",
+    faq: [
+      { v: "Kom je bij een lek in Oss ook 's avonds of in het weekend?", a: "Je kunt me dag en nacht bellen of appen, ook in het weekend. Oss is zo'n 25 minuten rijden vanaf Den Bosch. Buiten kantooruren geldt een spoedtoeslag, en ook dan hoor je de vaste prijs voordat ik begin. Twijfel je of het spoed is, stuur dan een foto van de natte plek via WhatsApp. Dan zeg ik eerlijk of het vandaag moet of kan wachten tot een werkdag." },
+    ],
   },
   {
     slug: "oisterwijk",
@@ -190,6 +194,7 @@ export const PLAATSEN: Plaats[] = [
     faq: [
       { v: "Kom je ook in Sprang-Capelle en Waspik?", a: "Ja. Sprang-Capelle en Waspik horen bij de gemeente Waalwijk, en ik kom er voor dezelfde klussen als in Waalwijk zelf: lekkage, goten, pannen en lood. Het is zo'n 25 minuten rijden vanaf Den Bosch." },
       { v: "Vervang je in Waalwijk ook de dakbedekking van een plat dak?", a: "Ja. Achter veel oudere huizen in Waalwijk staat een aanbouw, schuur of oude werkplaats met een plat dak. Lekt dat dak op één plek, dan is een gerichte reparatie vaak genoeg. Is de bedekking op meer plekken versleten, dan zeg ik eerlijk dat vervangen slimmer is. Je hoort vooraf de vaste prijs." },
+      { v: "Kun je mijn hele dak in Waalwijk een keer nakijken voor de winter?", a: "Ja, dat doe ik met de Dak-APK: ik loop je hele dak na en je krijgt een rapport met foto's. Bij de oudere huizen in Besoyen en Baardwijk kijk ik vooral naar het lood rond de schoorsteen, bij de boerderijen en vrijstaande huizen in Sprang-Capelle naar de lange goten en de nok. Heb je een plat dak op een aanbouw of oude werkplaats, dan neem ik dat ook mee. Zo weet je wat nu moet gebeuren en wat nog even kan wachten." },
     ],
   },
   {
