@@ -1007,6 +1007,11 @@ export const ARTIKELEN: Artikel[] = [
       { kop: "Lekt het bij de regenpijp?", tekst: [
         "Druppelt het bij de aansluiting van goot en regenpijp, dan zit de uitloop vaak los of lekt de verbinding. Lekt het verderop uit de regenpijp zelf, bij een verbinding of een scheur, dan moet dat stuk pijp meestal opnieuw vast of vervangen worden.",
       ] },
+      { kop: "Tot het gemaakt is: wat je zelf kunt doen", tekst: [
+        `Druppelt de goot buiten op één plek, dan is het meestal geen ramp als het een paar dagen duurt. Valt de druppel boven je stoep, je terras of je voordeur, zet er dan een emmer of een bak onder. Zo loopt er niemand door een plas, en bij vorst ligt daar anders zo een plek ijs.`,
+        `Maak tijdens een bui een foto of een filmpje van de plek waar het druppelt, het liefst vanaf de straat of uit een raam. Dan zie ik of het bij een naad, een hoek of de uitloop zit, en neem ik meteen het goede materiaal mee.`,
+        `Ga niet met een ladder bij de goot staan om het zelf dicht te maken, zeker niet als het nat of koud is, en trek niet aan een goot die los hangt. Komt het water binnen, bovenin de muur of langs een kozijn, dan is het wel spoed. Kijk dan op de <a href="/spoed/">spoedpagina</a> wat je meteen doet.`,
+      ] },
       { kop: "In de winter: ijs in de goot", tekst: [
         "Blijft er water in de goot staan en gaat het vriezen, dan zet het ijs uit. Dat drukt naden en hoeken open, vooral bij zinken goten en bij een goot die een beetje doorhangt. Je merkt het pas als het dooit: dan druppelt het ineens op een plek die eerst droog bleef. Een goot die voor de winter leeg is en goed op afschot hangt, heeft daar veel minder last van.",
       ] },
