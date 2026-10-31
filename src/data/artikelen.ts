@@ -287,6 +287,48 @@ export const ARTIKELEN: Artikel[] = [
     ],
   },
   {
+    slug: "water-uit-lamp-plafond",
+    datum: "2026-11-01",
+    titel: "Water uit je lamp of spotjes?",
+    h1: "Water uit de lamp of spotjes in je plafond: wat doe je nu?",
+    metaTitle: "Water uit lamp of spotjes in plafond | Spoed Dak Service",
+    metaDescription:
+      `Water uit een lamp of spotje in je plafond? Eerst de stroom eraf, dan uitzoeken of het van het dak of een leiding komt. Zo pak je het veilig aan.`,
+    intro:
+      `Druppelt er water uit een lamp, een spotje of een rookmelder in je plafond? Dan heb je twee problemen tegelijk: water en stroom. Eerst maak je het veilig, daarna zoek je uit waar het water vandaan komt. Hieronder lees je hoe je dat doet, en wanneer je mij belt en wanneer een loodgieter.`,
+    secties: [
+      { kop: "Eerst dit: de stroom eraf", tekst: [
+        `Raak de lamp, het spotje en de schakelaar niet aan. Zet in de meterkast de groep uit waar die lamp op zit. Weet je niet welke groep het is, zet dan de hoofdschakelaar om. Zet daarna een emmer onder de druppels, uit de buurt van stekkers en snoeren, en haal spullen weg die nat kunnen worden. Maak een foto van de plek.`,
+        `Laat die groep uit staan, ook als het niet meer druppelt. Er kan nog water in de lampdoos of in de trafo van een spotje zitten. Laat een installateur kijken of alles droog en heel is voordat de stroom weer aangaat.`,
+      ] },
+      { kop: "Waarom het water juist uit de lamp komt", tekst: [
+        `Water dat boven je plafond komt, blijft op de plaat of het stucwerk liggen en zoekt een uitweg. Het gat van een lamp of spotje is zo'n uitweg. Daarom komt het daar naar buiten, terwijl het echte lek vaak een eind verderop zit. Hoe ik het lek vind zonder onnodig sloopwerk, lees je in <a href="/kennisbank/daklekkage-opsporen/">daklekkage opsporen</a>.`,
+        `Bolt het plafond rond de lamp op, ga er dan niet onder staan. Wat je dan doet, lees je in <a href="/kennisbank/plafond-bolt-op-door-lekkage/">plafond bolt op door lekkage</a>.`,
+      ] },
+      { kop: "Komt het van het dak of van een leiding?", tekst: [
+        `Kijk wat er boven die lamp zit. Is het de bovenste verdieping, met de zolder of het dak erboven, en druppelt het alleen tijdens of vlak na een bui? Dan komt het water meestal van het dak, de goot of een doorvoer door het dak.`,
+        `Zit er een badkamer, toilet of keuken boven, en druppelt het ook als het al dagen droog is? Dan is het vaker een leiding of een lekkende douche. Daarvoor heb je een loodgieter nodig en geen dakdekker. Lekt het flink, draai dan ook de hoofdkraan dicht. Meer over het verschil lees je in <a href="/kennisbank/vochtplek-plafond/">vochtplek in het plafond</a>.`,
+        `Zitten de spotjes in het plafond van een aanbouw met een plat dak, dan komt het water vaak binnen bij een naad, langs de rand of waar het platte dak tegen de muur van je huis zit. Zie <a href="/kennisbank/lekkage-bij-aanbouw/">lekkage bij de aanbouw</a>.`,
+      ] },
+      { kop: "Spotjes in de badkamer: soms is het condens", tekst: [
+        `Zitten er spotjes in het plafond van je badkamer, met een koude zolder erboven, dan kan de warme, vochtige lucht van het douchen door de gaten van de spotjes omhoog trekken. Tegen het koude dak slaat die neer, en dat water druppelt later terug langs de spotjes. Je ziet het vooral na het douchen op koude dagen, ook als het droog weer is. Dat los je niet op het dak op. Hoe je condens van een lek onderscheidt, lees je in <a href="/kennisbank/condens-of-lekkage-op-zolder/">condens of lekkage op zolder</a>.`,
+      ] },
+      { kop: "Hoe ik het aanpak", tekst: [
+        `Komt het water van het dak, dan zoek ik buiten en op zolder waar het binnenkomt en maak ik dat dicht. Lukt een nette reparatie niet meteen, dan dek ik het eerst af, zodat het binnen droog blijft. Aan de elektra kom ik niet: de lamp of het spotje laat je nakijken door een installateur. Zie ook <a href="/diensten/daklekkage/">daklekkage</a>.`,
+      ] },
+      { kop: "Wat kost het?", tekst: [
+        `Een lek opsporen en dichten kost meestal ${lekPrijs}, inclusief materiaal. Is het 's avonds, 's nachts of in het weekend, dan komt er een toeslag bij. Je hoort de vaste prijs vooraf, voordat ik begin.`,
+      ] },
+    ],
+    dienst: { label: "Bekijk: daklekkage & spoed", href: "/diensten/daklekkage/" },
+    faq: [
+      { v: "Mag ik de lamp weer aanzetten als het niet meer druppelt?", a: `Liever niet zelf. Ook als het droog lijkt, kan er nog water in de lampdoos of in de trafo van een spotje zitten. Laat een installateur kijken voordat je de groep weer aanzet.` },
+      { v: "Is water uit een lamp spoed?", a: `Ja. Zet de groep uit en bel of app me met een foto van de plek, zeker als het nog regent. Ik zeg eerlijk of het van het dak lijkt te komen en wanneer ik kan komen. Lijkt het een leiding, bel dan een loodgieter.` },
+      { v: "Kan het ook condens zijn?", a: `Soms, vooral bij spotjes in een badkamerplafond met een koude zolder erboven. Druppelt het vooral na het douchen op koude dagen, ook als het droog is, dan is het vaker condens dan een lek. Druppelt het alleen bij regen, dan wijst het op het dak.` },
+      { v: "Betaalt de verzekering de schade?", a: `Dat hangt af van je polis en van de oorzaak. Schade binnen, aan je plafond of je spullen, wordt vaak vergoed. De reparatie van het dak zelf niet altijd, zeker niet bij slijtage. Maak foto's van de plek en de lamp voordat je iets opruimt. Meer lees je in het artikel over daklekkage en je verzekering.` },
+    ],
+  },
+  {
     slug: "dak-lekt-bij-hevige-regen",
     datum: "2026-10-28",
     titel: "Dak lekt alleen bij een stortbui?",
