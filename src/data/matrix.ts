@@ -147,7 +147,7 @@ export const MATRIX: MatrixCombo[] = [
   {
     plaats: "drunen",
     dienst: "goten-reinigen",
-    hook: "Zo dicht bij de Loonse en Drunense Duinen krijgen de goten in Drunen flink wat zand en blad te verduren. Ik maak ze leeg en maak de uitloop vrij, zodat het water weer weg kan.",
+    hook: "Aan de zuidkant van Drunen, tegen de Loonse en Drunense Duinen aan, staan veel dennen. Dennennaalden zijn dun en glad. Ze glijden zo door een bolrooster of bladvanger heen en vormen onderin de goot een viltige mat die het water vasthoudt. Binnen een jaar groeit daar mos in, en dan loopt de goot bij een flinke bui over, terwijl je van beneden bijna niets ziet liggen. Een den laat het hele jaar door naalden vallen, en in de herfst het meest, dus onder dennen raakt een goot ook buiten de herfst vol. Ik haal de mat er van begin tot eind uit, ook onder een rooster, en maak de uitloop naar de regenpijp vrij. Zie ik iets aan je pannen of het lood, dan hoor je dat meteen.",
   },
   {
     plaats: "boxtel",
@@ -167,7 +167,7 @@ export const MATRIX: MatrixCombo[] = [
   {
     plaats: "sint-michielsgestel",
     dienst: "goten-reinigen",
-    hook: "Langs de Dommel in Sint-Michielsgestel staan veel bomen, dus de goten lopen er snel vol blad. Ik maak ze leeg, maak de uitloop naar de regenpijp vrij en kijk naar vorsten en lood.",
+    hook: "Bij een deel van de huizen in Gestel en Den Dungen zit halverwege de regenpijp een bladvanger: een stuk pijp met een rooster erin en een klepje aan de voorkant. Onder de eiken en beuken langs de Dommel raakt dat rooster in de herfst snel vol. Dan staat de regenpijp bij een bui tot bovenin vol water en loopt de goot over bij de uitloop, terwijl hij zelf bijna leeg is. Daarom maak ik niet alleen de goot leeg en de uitloop vrij, maar open ik ook de bladvanger en maak ik het rooster schoon. Dat klepje kun je daarna zelf af en toe vanaf de grond openen, dan zie je meteen of er weer blad in zit. Zie ik iets aan je pannen, de vorsten of het lood, dan hoor je dat meteen.",
   },
   {
     plaats: "oisterwijk",
