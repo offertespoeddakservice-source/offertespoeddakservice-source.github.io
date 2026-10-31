@@ -84,6 +84,9 @@ export const MATRIX: MatrixCombo[] = [
     plaats: "vught",
     dienst: "goten-reinigen",
     hook: "In Vught staan veel eiken en beuken, langs de lanen en in de tuinen. Die houden hun blad lang vast, vaak tot in december. Laat je je goot in oktober leegmaken, dan ligt hij in januari vaak alweer vol. Onder zulke bomen plan ik het daarom liever laat in het najaar. Een goot vol nat blad is ook zwaar. Bij een kunststof goot trekt dat na een tijd een beugel scheef, en dan blijft er water staan op de plek waar de goot doorhangt. Bij het leegmaken kijk ik daarom ook of je goot nog goed op afschot hangt. Zie ik iets aan je pannen of het lood, dan hoor je dat meteen.",
+    faq: [
+      { v: "Er groeit een boompje in mijn goot. Is dat erg?", a: "Ja, haal het eruit voordat het groter wordt. Onder de eiken en esdoorns in Vught komen eikels en zaadjes in de goot terecht, en in de natte laag blad op de bodem schieten ze in een paar maanden wortel. De wortels houden water en vuil vast, en in een zinken goot kunnen ze op den duur een naad openduwen. Trek het niet zelf vanaf de ladder los, want dan trek je makkelijk de goot uit de beugels. Bij het leegmaken haal ik het plantje met wortel en al weg en kijk ik of de goot op die plek nog dicht is. Je hoort vooraf wat het kost." },
+    ],
   },
   {
     plaats: "berlicum",
