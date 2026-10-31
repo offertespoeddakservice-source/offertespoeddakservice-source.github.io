@@ -184,6 +184,9 @@ export const MATRIX: MatrixCombo[] = [
     plaats: "oss",
     dienst: "stormschade",
     hook: "Staat er op je schoorsteen een kap of een afdekplaat, kijk daar na een storm dan ook even naar. Zit hij niet meer goed vast, dan gaat hij bij harde wind rammelen of waait hij eraf, en daarna regent het in het kanaal. In de Ruwaard en Ussen liggen op veel daken loodslabben langs de schoorsteen of onder een dakraam. Zit zo'n slab al wat los, dan pakt de wind hem bij een storm en zet hem rechtop. Vanaf de straat zie je dat als een grijze strook die van het dak af steekt. Ga niet zelf het dak op, maar maak een foto vanaf de straat en stuur die via WhatsApp. Is je dak open, dan dek ik het eerst af en herstel ik het daarna netjes, met foto's van wat ik aantref voor je verzekering.",
+    faq: [
+      { v: "Ik hoor bij harde wind getik of geklapper op mijn dak. Wat is dat?", a: "Vaak zit er iets los dat in de wind heen en weer gaat: een loodslab langs de schoorsteen of onder een dakraam, een kap op de schoorsteen, of een pan die niet meer goed in de sluiting ligt. Ook een oude antennekabel of een tak die tegen de goot slaat, kan zo klinken. Kijk overdag vanaf de straat of je iets ziet afsteken of scheef ziet liggen, en ga niet zelf het dak op. Stuur me een foto, en zeg erbij aan welke kant van het huis je het hoort." },
+    ],
   },
   {
     plaats: "den-bosch",
