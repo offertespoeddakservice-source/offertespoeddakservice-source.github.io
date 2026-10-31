@@ -492,4 +492,13 @@ export const MATRIX: MatrixCombo[] = [
       { v: "Er ligt grind op het platte dak van mijn schuur. Moet dat eraf?", a: "Meestal niet. Het grind ligt er vaak juist om de dakbedekking te beschermen en op zijn plek te houden. Wel moet de afvoer vrij blijven. Vaak zit er een korf of rooster op de afvoer die het grind tegenhoudt. Ontbreekt die of zit hij vol, dan spoelen er steentjes de afvoer in. Bij het leegmaken van je goten kijk ik daar ook naar. Je hoort vooraf wat het kost." },
     ],
   },
+  // Dakrenovatie in Waalwijk (Search Console: dakrenovatie waalwijk 35 vertoningen op plek 77, dakbedekking waalwijk 34, dakonderhoud waalwijk 21, nog geen eigen pagina), met andere lokale inhoud dan plaatsen.ts en de andere Waalwijk-pagina's
+  {
+    plaats: "waalwijk",
+    dienst: "dakrenovatie",
+    hook: "Waalwijk is na de oorlog flink gegroeid, en rond het oude centrum staan veel rijtjeshuizen en twee-onder-een-kappers uit de jaren '50 en '60. Op een deel van die daken liggen nog de eerste betonpannen. Na zoveel jaren zon, regen en vorst is de toplaag versleten, nemen ze water op en groeit er mos tussen, en de nok ligt er vaak nog in specie die afbrokkelt. Is er één pan kapot, dan is een reparatie genoeg. Zie je op veel plekken tegelijk gescheurde pannen, mos en brokjes specie in de goot, dan is het vaak slimmer om het dak in één keer aan te pakken dan elk jaar een stukje te laten repareren. Bij een renovatie vervang ik de pannen die op zijn en laat ik de goede liggen, leg ik de nok opnieuw en vernieuw ik het lood waar dat nodig is. De goten neem ik meteen mee. Ik kom eerst kijken, en je hoort vooraf de vaste prijs.",
+    faq: [
+      { v: "Kan ik mijn dak in delen laten renoveren?", a: "Ja, dat kan. Vaak is één dakvlak er slechter aan toe dan de rest, bijvoorbeeld de kant op het noorden, waar het mos het langst nat blijft, of de achterkant onder de bomen. Dan kun je eerst dat dakvlak laten doen en de rest later. Bij een rijtjeshuis kijk ik ook naar de overgang naar het dak van de buren, zodat die dicht blijft. Je hoort vooraf wat elk deel kost." },
+    ],
+  },
 ];
