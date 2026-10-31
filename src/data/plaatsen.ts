@@ -46,6 +46,7 @@ export const PLAATSEN: Plaats[] = [
     faq: [
       { v: "Kom je ook in Helvoirt en Cromvoirt?", a: "Ja. Cromvoirt hoort bij Vught, en Helvoirt sinds 2021 ook. Allebei liggen ze op zo'n kwartier rijden van Den Bosch." },
       { v: "Moet het oude lood op mijn villa helemaal vervangen worden?", a: "Niet altijd. Oud lood kan nog jaren mee als het goed aansluit op de muur of de schoorsteen. Is het op een paar plekken gescheurd of los, dan vervang ik alleen die stukken. Je hoort vooraf wat het kost." },
+      { v: "Kun je het dak van mijn oude villa in Vught een keer helemaal nakijken?", a: "Ja, dat doe ik met de Dak-APK: ik loop je hele dak na en je krijgt een rapport met foto's. Bij de vooroorlogse villa's in Vught kijk ik vooral naar het lood rond de schoorsteen en langs de muren, naar de kilgoten en naar de hoekvorsten op een schilddak, want daar begint een lek op zulke daken meestal. Zo weet je wat nu moet gebeuren en wat nog even kan wachten." },
     ],
   },
   {
