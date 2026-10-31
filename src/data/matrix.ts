@@ -61,6 +61,9 @@ export const MATRIX: MatrixCombo[] = [
     plaats: "oss",
     dienst: "goten-reinigen",
     hook: "Bij veel rijtjeshuizen in Oss, zoals in de Ruwaard en Schadewijk, hangt er ook een goot aan de achterkant, boven de tuin. Die zie je vanaf de straat niet, en daardoor wordt hij vaak vergeten, terwijl hij door de bomen in de tuinen juist het volst zit. In Berghem en Herpen staan meer vrijstaande huizen met grote tuinen, en daar komt naast blad ook zaad en bloesem van de bomen in de goot. Ik maak de goten aan beide kanten leeg en maak de uitloop naar de regenpijp vrij. Zie ik iets aan je dak, dan hoor je dat meteen.",
+    faq: [
+      { v: "Hoe zie ik of de goot aan de achterkant van mijn huis vol zit?", a: "Kijk tijdens een flinke bui vanuit de tuin of vanuit een raam boven naar de goot. Loopt er water over de voorkant, of komt er bijna niets uit de regenpijp terwijl het hard regent, dan zit hij meestal vol. Zie je groene strepen of aanslag op de achtergevel onder de goot, dan loopt hij al langer over. Ga er niet zelf voor op een ladder staan. Maak een foto vanuit de tuin en stuur die via WhatsApp, dan zeg ik eerlijk of leegmaken genoeg is." },
+    ],
   },
   {
     plaats: "den-bosch",
