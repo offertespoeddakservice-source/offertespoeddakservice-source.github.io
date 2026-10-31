@@ -12,20 +12,20 @@ const { a } = Astro.props;
 const apkPrijs = PRIJZEN.find((r) => r.dienst.startsWith("Dak-APK"))?.prijs ?? "";
 // Laatst bijgewerkt: datum van de laatste inhoudelijke wijziging per artikel (zie geschiedenis). Gaat voor de eigen datum van het artikel.
 const BIJGEWERKT: Record<string, string> = {
-  "daklekkage-opsporen": "2026-10-29",
+  "daklekkage-opsporen": "2026-10-31",
   "wat-kost-daklekkage-repareren": "2026-10-31",
   "stormschade-eerste-hulp": "2026-10-30",
-  "hoe-vaak-dakgoot-reinigen": "2026-10-30",
-  "verstopte-regenpijp-lekkende-dakgoot": "2026-10-29",
+  "hoe-vaak-dakgoot-reinigen": "2026-10-31",
+  "verstopte-regenpijp-lekkende-dakgoot": "2026-10-31",
   "mos-op-dak-verwijderen": "2026-10-30",
   "plat-dak-vervangen-of-repareren": "2026-10-30",
-  "dakonderhoud-per-seizoen": "2026-10-29",
+  "dakonderhoud-per-seizoen": "2026-10-31",
   "schoorsteen-vegen-hoe-vaak": "2026-10-29",
   "hoe-herken-je-een-betrouwbare-dakdekker": "2026-10-30",
   "zonnepanelen-reinigen-nodig": "2026-10-30",
   "wat-kost-een-dakdekker": "2026-10-29",
-  "dakgoot-lekt": "2026-10-30",
-  "lekkage-bij-zonnepanelen": "2026-10-29",
+  "dakgoot-lekt": "2026-10-31",
+  "lekkage-bij-zonnepanelen": "2026-10-31",
   "nokvorsten-los": "2026-10-27",
   "bakgoot-lekt": "2026-10-29",
   "dak-lekt-bij-harde-wind": "2026-10-31",
@@ -36,8 +36,8 @@ const BIJGEWERKT: Record<string, string> = {
   "vochtplek-plafond": "2026-10-29",
   "wat-kost-dakgoot-schoonmaken": "2026-10-30",
   "lekkage-bij-schoorsteen": "2026-10-30",
-  "water-blijft-staan-op-plat-dak": "2026-10-29",
-  "dakinspectie": "2026-10-29",
+  "water-blijft-staan-op-plat-dak": "2026-10-31",
+  "dakinspectie": "2026-10-31",
 };
 const bijgewerkt = BIJGEWERKT[a.slug] ?? a.datum;
 const path = `/kennisbank/${a.slug}`;
