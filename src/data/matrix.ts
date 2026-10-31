@@ -414,4 +414,13 @@ export const MATRIX: MatrixCombo[] = [
       { v: "Hoe zie ik of er klimop onder mijn dakpannen zit?", a: "Kijk vanaf de straat naar de onderste rij pannen boven de goot en naar de rand van het dak bij de gevel. Steken er ranken of blaadjes onder de pannen uit, of ligt een pan daar net hoger dan de rest, dan zit de klimop eronder. Op zolder zie je soms groene ranken tussen de pannen door komen. Trek ze er niet zelf vanaf de ladder uit, want dan trek je de pannen mee. Stuur me liever een foto." },
     ],
   },
+  // Dakreparatie in Rosmalen (Search Console: dakdekker rosmalen 144 vertoningen op plek 59, dakwerken rosmalen 20, dakreparatie rosmalen 9, nog geen eigen pagina), met andere lokale inhoud dan plaatsen.ts en de lekkage-, goot- en stormpagina van Rosmalen
+  {
+    plaats: "rosmalen",
+    dienst: "dakreparatie",
+    hook: "In Rosmalen laten steeds meer mensen met een ouder huis een warmtepomp of airco plaatsen. Soms gaan de leidingen van de buitenunit dan door het dak naar binnen, door een pan waar een gat in is gemaakt. Is die doorvoer niet goed afgewerkt, dan loopt de regen langs de leiding naar binnen, en dat merk je vaak pas weken later aan een natte plek op zolder. Ik vervang zo'n pan dan door een passende doorvoerpan, zodat het water er weer overheen loopt. Bij de hoekhuizen aan het eind van een rij, zoals je ze in Sparrenburg en Molenhoek veel ziet, ligt langs de zijkant van het dak een houten windveer. Na zoveel jaren laat die los of wordt het hout zacht, en dan liggen de pannen erboven niet meer stevig en gaan ze bij harde wind schuiven. Die pannen leg ik terug en zet ik vast. Is het hout eronder rot, dan zeg ik dat eerlijk, want dat moet eerst hersteld worden. Je hoort vooraf wat het kost.",
+    faq: [
+      { v: "Er is net een warmtepomp of airco geplaatst en nu lekt het op zolder. Wie lost dat op?", a: "Is de leiding pas door het dak gegaan, neem dan eerst contact op met de installateur, want dan hoort hij het in de regel zelf op te lossen. Komt de installateur niet, of zit de doorvoer er al langer, dan kijk ik waar het water binnenkomt en maak ik de doorvoer weer dicht. Stuur me een foto van de leiding op zolder en, als het lukt, van die plek op het dak vanaf de straat. Je hoort vooraf wat het kost." },
+    ],
+  },
 ];
