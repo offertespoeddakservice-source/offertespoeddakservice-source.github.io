@@ -30,7 +30,7 @@ const heeftLekPagina = MATRIX.some((c) => c.plaats === p.slug && c.dienst === "d
 
 const faq = [
   { v: `Werk je in heel ${p.naam}?`, a: `Ja, ik werk in heel ${p.naam}${p.wijken.length ? `, onder andere ${p.wijken.slice(0, 3).join(", ")}` : ""} en de directe omgeving. ${p.reistijd ? `Het is maar ${p.reistijd}.` : ""}` },
-  { v: `Kun je snel langskomen in ${p.naam}?`, a: p.verweg ? `${p.naam} ligt aan de rand van mijn werkgebied (${p.reistijd}). Geplande klussen doe ik hier graag. Bij spoed of lekkage kun je het beste even bellen of WhatsAppen, dan hoor je eerlijk of ik op tijd kan komen.` : p.slug === "den-bosch" ? `Bij spoed of lekkage vaak nog dezelfde dag. Den Bosch is mijn thuisbasis, dus ik ben er zo.` : `Bij spoed of lekkage vaak nog dezelfde dag, want ${p.naam} ligt in mijn vaste werkgebied rond Den Bosch.` },
+  { v: `Kun je snel langskomen in ${p.naam}?`, a: p.verweg ? `${p.naam} ligt aan de rand van mijn werkgebied (${p.reistijd}). Geplande klussen doe ik hier graag. Bij spoed of lekkage kun je het beste even bellen of WhatsAppen, dan hoor je eerlijk of ik op tijd kan komen.` : p.reistijd?.startsWith("±") ? `${p.naam} ligt aan de rand van mijn werkgebied (${p.reistijd}). Ook hier kom ik voor lekkage en ander dakwerk. Stuur eerst een foto via WhatsApp of bel even, dan hoor je eerlijk wanneer ik kan komen.` : p.slug === "den-bosch" ? `Bij spoed of lekkage vaak nog dezelfde dag. Den Bosch is mijn thuisbasis, dus ik ben er zo.` : `Bij spoed of lekkage vaak nog dezelfde dag, want ${p.naam} ligt in mijn vaste werkgebied rond Den Bosch.` },
   { v: `Wat kost een dakdekker in ${p.naam}?`, a: `Goten reinigen ${gotenPrijs} (rijtjeswoning), een kleine reparatie ${kleinPrijs}, een daklekkage meestal ${lekPrijs}. Offerte is altijd gratis en je hoort vooraf de vaste prijs.` },
   ...(p.faq ?? []),
 ];
@@ -85,6 +85,10 @@ const schema = [
       {p.verweg ? (
         <p>
           Volle goten, losse pannen of een dak dat aan onderhoud toe is: ik help je er netjes vanaf. {`${p.naam} is ${p.reistijd}, dus hier plan ik de klus vooraf met je in.`}
+        </p>
+      ) : p.reistijd?.startsWith("±") ? (
+        <p>
+          Volle goten, een lek na de regen of losse pannen na een storm: ik help je er netjes vanaf. {`${p.naam} is ${p.reistijd}. Stuur me eerst een foto, dan hoor je eerlijk wanneer ik kan komen.`}
         </p>
       ) : (
       <p>
