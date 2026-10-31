@@ -246,6 +246,9 @@ export const PLAATSEN: Plaats[] = [
     extra:
       "Tilburg is een oude textielstad. In wijken als het Goirke, Korvel en de Hasselt staan nog veel arbeiderswoningen van rond 1900 tot 1930, vaak in lange rijen met een laag pannendak en een schoorsteen per huis. De pannen liggen daar soms al tientallen jaren. Lekt het bij zo'n huis, dan zit het meestal bij het lood rond de schoorsteen of bij een pan die is gaan schuiven. Tilburg is voor mij zo'n half uur rijden vanaf Den Bosch, en Udenhout en Berkel-Enschot liggen het dichtstbij.",
     omschrijving: "Dakdekker in Tilburg, Udenhout en Berkel-Enschot: lekkage bij lood of een plat dak, volle goten en losse pannen. Vaste prijs vooraf. Bel of app Rens.",
+    faq: [
+      { v: "Ik woon in een oud arbeidershuis in het Goirke of Korvel. Moet bij een lek het hele dak eraf?", a: "Meestal niet. Bij die oude rijtjes zit een lek vaak in het lood rond de schoorsteen of bij één pan die is gaan schuiven, en dat repareer ik gericht. Zijn de pannen op veel plekken gescheurd of poreus, dan zeg ik eerlijk dat een groter stuk vervangen slimmer is. Tilburg is voor mij zo'n half uur rijden. Stuur daarom eerst een foto van de natte plek en van je dak vanaf de straat via WhatsApp, dan hoor je wanneer ik kan komen." },
+    ],
   },
   {
     slug: "breda",
