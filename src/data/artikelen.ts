@@ -1123,6 +1123,53 @@ export const ARTIKELEN: Artikel[] = [
     ],
   },
   {
+    slug: "hoe-lang-gaat-een-dakgoot-mee",
+    datum: "2026-10-31",
+    titel: "Hoe lang gaat een dakgoot mee?",
+    h1: "Hoe lang gaat een dakgoot mee, en wanneer is vervangen slimmer?",
+    metaTitle: "Hoe lang gaat een dakgoot mee? | Spoed Dak Service",
+    metaDescription: `Hoe lang gaat een zinken of kunststof dakgoot mee? Zo zie je dat je goot op raakt, wanneer repareren nog loont en wanneer vervangen slimmer is.`,
+    intro: `Lekt je goot voor de tweede of derde keer, dan vraag je je af of hij er niet gewoon uit moet. Dat hangt af van het materiaal, hoe oud hij is en hoe hij erbij hangt. Hieronder lees je hoe lang een goot meestal meegaat, hoe je ziet dat hij op raakt en wanneer repareren nog loont.`,
+    secties: [
+      { kop: "Zink, kunststof of een bakgoot", tekst: [
+        `De meeste goten in de regio Den Bosch zijn van zink of van kunststof. Zink zie je vooral bij oudere huizen en villa's, vaak ook als bakgoot in de rand van het dak. Kunststof hangt vooral aan huizen vanaf de jaren '70, en bij veel oudere huizen is de zinken goot ooit vervangen door kunststof.`,
+      ] },
+      { kop: "Hoe lang gaat een goot mee?", tekst: [
+        `Een vaste leeftijd is er niet. Een zinken goot die goed op afschot hangt en niet steeds vol blad ligt, gaat vaak tientallen jaren mee. Kunststof gaat in de regel minder lang mee: door zon en vorst wordt het na veel jaren hard en bros. Bij kunststof goten van een jaar of veertig oud zie ik dat vaak.`,
+        `Hoe lang het bij jou duurt, hangt vooral af van het onderhoud. Een goot waar elk jaar weken water en blad in blijft staan, slijt op die plek veel sneller dan de rest.`,
+      ] },
+      { kop: "Zo zie je dat een zinken goot op raakt", tekst: [
+        `Witte of grijze vlekken en kleine putjes in de bodem, vaak op de plek waar het blad altijd blijft liggen. Naden die steeds opnieuw gaan lekken, ook als ze net hersteld zijn. En groene of donkere strepen op de gevel onder de goot, omdat er al een tijd water doorheen druppelt.`,
+      ] },
+      { kop: "Zo zie je dat een kunststof goot op raakt", tekst: [
+        `Het kunststof is verkleurd en dof en voelt hard aan. Er komen haarscheurtjes bij de hoeken en de verbindingen. Hoekstukken of eindstukken schieten los, vaak na een vorstperiode. En de goot gaat tussen de beugels doorhangen, zodat er na een bui water in blijft staan.`,
+      ] },
+      { kop: "Wanneer repareren nog loont", tekst: [
+        `Lekt de goot op één naad, één hoek of bij de uitloop naar de regenpijp, en is de rest van het materiaal nog goed? Dan is repareren meestal de slimste keus. Hangt hij door omdat een beugel los of krom is, dan hang ik hem weer op afschot. Dat is minder werk dan een nieuwe goot, en je kunt er vaak nog jaren mee vooruit.`,
+      ] },
+      { kop: "Wanneer vervangen slimmer is", tekst: [
+        `Lekt de goot op meer plekken tegelijk, is het zink over een groot stuk dun, of breekt het kunststof als je erop drukt? Dan houdt een reparatie het meestal niet lang, en betaal je over een jaar weer. Dan zeg ik eerlijk dat een nieuwe goot slimmer is.`,
+        `Is het hout achter of onder de goot zacht geworden, dan moet dat eerst hersteld worden. Anders houdt ook een nieuwe goot het niet lang.`,
+      ] },
+      { kop: "Zink of kunststof als hij toch vervangen moet?", tekst: [
+        `Zink gaat langer mee en past bij een ouder huis. Kunststof is voordeliger en vraagt weinig onderhoud. Bij een monument of in een beschermd stadsgezicht, zoals de binnenstad van Den Bosch of vesting Heusden, mag je niet zomaar een ander materiaal kiezen. Vraag dat eerst na bij de gemeente.`,
+      ] },
+      { kop: "Dakgoot repareren of vervangen bij jou in de buurt", tekst: [
+        `Woon je in de regio Den Bosch? Wat ik per plaats aan goten tegenkom, lees je bij dakgoot repareren in <a href="/werkgebied/den-bosch/dakgoot-vervangen/">Den Bosch</a>, <a href="/werkgebied/vught/dakgoot-vervangen/">Vught</a>, <a href="/werkgebied/oss/dakgoot-vervangen/">Oss</a>, <a href="/werkgebied/veghel/dakgoot-vervangen/">Veghel</a>, <a href="/werkgebied/uden/dakgoot-vervangen/">Uden</a>, <a href="/werkgebied/boxtel/dakgoot-vervangen/">Boxtel</a>, <a href="/werkgebied/sint-michielsgestel/dakgoot-vervangen/">Sint-Michielsgestel</a>, <a href="/werkgebied/oisterwijk/dakgoot-vervangen/">Oisterwijk</a> en <a href="/werkgebied/waalwijk/dakgoot-vervangen/">Waalwijk</a>. Andere plaatsen vind je bij <a href="/werkgebied/">mijn werkgebied</a>.`,
+      ] },
+      { kop: "Wat kost het?", tekst: [
+        `Dat hangt af van de lengte van de goot, het materiaal en hoe goed ik erbij kan. Eén naad of hoek herstellen is iets heel anders dan een nieuwe goot over de hele gevel. Je hoort de vaste prijs vooraf, voordat ik begin. Richtprijzen staan op de <a href="/prijzen/">prijzenpagina</a>.`,
+      ] },
+    ],
+    dienst: { label: "Bekijk: dakgoot repareren of vervangen", href: "/diensten/dakgoot-vervangen/" },
+    faq: [
+      { v: "Hoe lang gaat een zinken dakgoot mee?", a: `Bij goed onderhoud vaak tientallen jaren. Hoe lang precies, hangt vooral af van of er water en blad in blijft staan. Op die plekken wordt het zink het eerst dun.` },
+      { v: "Kan een oude zinken goot nog gerepareerd worden?", a: `Vaak wel, als het lek op één naad, één hoek of bij de uitloop zit en de rest van het zink nog stevig is. Is het zink over een groot stuk dun of zitten er op veel plekken gaatjes in, dan zeg ik eerlijk dat vervangen slimmer is.` },
+      { v: "Waarom wordt mijn kunststof goot bros?", a: `Door jaren zon en vorst wordt kunststof hard. Het zet ook uit als het warm is en krimpt bij kou, en daardoor gaan verbindingen en hoekstukken na een tijd los. Breekt het als je erop drukt, dan is de goot op.` },
+      { v: "Moet de regenpijp mee als de goot vervangen wordt?", a: `Niet altijd. Is de regenpijp nog heel en loopt het water goed weg, dan kan hij vaak blijven. Ik kijk wel naar de uitloop en de bovenkant van de pijp, want die vervang je makkelijk in één keer mee. Je hoort vooraf wat het kost.` },
+    ],
+  },
+  {
     slug: "stormschade-eerste-hulp",
     titel: "Stormschade: eerste hulp",
     h1: "Stormschade aan je dak: eerste hulp en je verzekering",
