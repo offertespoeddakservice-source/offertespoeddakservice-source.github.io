@@ -257,6 +257,7 @@ export const MATRIX: MatrixCombo[] = [
     faq: [
       { v: "Kun je een oude zinken goot in Den Bosch repareren in plaats van vervangen?", a: "Vaak wel. Bij de oudere huizen in de Muntel en de Vliert lekt een zinken goot meestal eerst bij een naad, een hoek of de uitloop naar de regenpijp. Is de rest van het zink nog goed, dan herstel ik alleen dat stuk. Is het zink over een groot stuk dun of zitten er gaatjes in, dan zeg ik eerlijk dat een nieuw stuk beter is. Je hoort vooraf wat het kost." },
       { v: "Mag ik in de binnenstad een kunststof goot ophangen?", a: "Dat kan niet altijd. De binnenstad van Den Bosch is beschermd stadsgezicht, en bij een monument mag je niet zomaar ander materiaal gebruiken. Twijfel je, vraag het dan na bij de gemeente. Ik kijk wat er nu hangt en herstel de goot het liefst met materiaal dat bij het pand past." },
+      { v: "Mijn goot ligt tussen mijn pand en dat van de buren. Wie laat hem repareren?", a: "In de binnenstad staan veel panden tegen elkaar, en soms ligt er één goot tussen twee daken waar het water van allebei in komt. Zo'n goot is vaak van jullie samen, en dan regel je de reparatie het makkelijkst samen. Weet je het niet zeker, kijk dan in je koopakte, of vraag het na bij je VvE of verhuurder. Ik kijk naar de hele goot, ook aan de kant van de buren, en zeg eerlijk waar het lek zit. Zo weet ieder waar hij aan toe is voordat ik begin. Je hoort vooraf wat het kost." },
     ],
   },
   // Dakgoot repareren of vervangen in Vught (Search Console: dakgoot vervangen vught plek 26, dakgoot reparatie vught plek 37)
