@@ -383,6 +383,9 @@ export const MATRIX: MatrixCombo[] = [
     plaats: "sint-michielsgestel",
     dienst: "dakgoot-vervangen",
     hook: "In Den Dungen en in de nieuwere straten van Sint-Michielsgestel liggen op steeds meer daken zonnepanelen tot vlak boven de goot. Van glad glas loopt de regen veel sneller af dan van pannen. Bij een stortbui schiet het water dan over de goot heen en klettert het langs de gevel naar beneden, terwijl de goot zelf nergens lek is. Vaak helpt het dan om de goot iets anders te hangen, zodat het water er weer in valt. In het oude centrum en bij de villa's langs de Dommel hangen nog veel zinken goten. Daar zie ik na veel jaren donkere of groene strepen op de gevel, onder een naad of een hoek van de goot: daar druppelt het dan al een tijd. Is het zink op meer plekken dun, dan zeg ik dat eerlijk voordat je ergens aan begint.",
+    faq: [
+      { v: "Er komen zonnepanelen op mijn dak, tot vlak boven de goot. Moet ik de goot eerst laten nakijken?", a: "Dat is slim, zeker bij een oudere goot. Liggen de panelen er eenmaal, dan zit er weinig ruimte tussen de panelen en de goot, en kom ik lastiger bij de onderste rij pannen en de achterkant van de goot. Is het zink al dun of lekt de goot op meer plekken, dan regel je dat het handigst voordat de panelen erop gaan. Is de goot nog goed, dan kijk ik of hij zo hangt dat het water van de panelen er straks ook echt in valt. Stuur me een foto van de goot vanaf de straat. Je hoort vooraf wat het kost." },
+    ],
   },
   // Dakgoot repareren of vervangen in Oss (Search Console: dakgoot reparatie oss 19 vertoningen op plek 81, dakgoot lekkage oss 11, dakgoot vervangen oss 9, nog geen eigen pagina), met andere lokale inhoud dan plaatsen.ts en de lekkage-, goot- en dakreparatiepagina van Oss
   {
