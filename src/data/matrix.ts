@@ -125,6 +125,9 @@ export const MATRIX: MatrixCombo[] = [
     plaats: "sint-michielsgestel",
     dienst: "daklekkage",
     hook: "In het oude centrum van Gestel en langs de Dommel staan veel huizen van voor de oorlog, vaak met een steil pannendak en een schoorsteen. Daar zit een lek meestal in het lood rond die schoorsteen, of in een kilgoot waar een lager dak of een serre tegen het huis aansluit. Onder de oude bomen langs de Dommel blijft in de herfst veel blad in zo'n kil liggen, en dan loopt hij bij een flinke bui over naar binnen. In de nieuwere straten van Den Dungen en Gemonde staan meer rijtjes en twee-onder-een-kappers met een platte aanbouw achter het huis. Lekt het daar, dan zit het meestal in de strook waar dat platte dak tegen de achtergevel omhoog loopt. Weet je niet waar het vandaan komt, kijk dan na een bui op zolder waar het hout nat is en stuur me daar een foto van.",
+    faq: [
+      { v: "Op mijn oude huis liggen de pannen zonder folie eronder. Lekt dat sneller?", a: "Niet vanzelf. Bij een deel van de huizen van voor de oorlog in het oude centrum van Gestel liggen de pannen direct op de latten, zonder folie of beschot eronder. Dat kan prima, zolang de pannen goed liggen. Maar waait er regen of stuifsneeuw onder een pan die een stukje scheef ligt, dan vangt niets het op en zie je het meteen op zolder. Bij zo'n dak kijk ik daarom extra goed naar pannen die niet meer goed in de sluiting liggen. Zie je op zolder een natte plek op de vloer of op een balk, maak er dan een foto van en stuur die via WhatsApp." },
+    ],
   },
   {
     plaats: "oisterwijk",
@@ -286,6 +289,9 @@ export const MATRIX: MatrixCombo[] = [
     plaats: "waalwijk",
     dienst: "daklekkage",
     hook: "Langs de Grotestraat en in de oude straten eromheen staan nog veel huizen uit de tijd van de schoenindustrie, soms met een oude werkplaats of schuur erachter. Zo'n achterbouw heeft vaak een plat of flauw dak, en daar komt het water nogal eens binnen waar de achterbouw tegen het huis aan zit. In Waspik staan meer vrijstaande huizen en twee-onder-een-kappers met een groot pannendak. Daar begint een lek meestal bij het lood rond de schoorsteen of bij een pan die na een storm is gaan schuiven. Ik zoek eerst waar het water echt binnenkomt en repareer dan alleen wat nodig is.",
+    faq: [
+      { v: "Op de oude werkplaats achter mijn huis liggen golfplaten, en daar lekt het. Kun je dat repareren?", a: "Dat hangt ervan af hoe oud de platen zijn. In golfplaten van voor 1994 kan asbest zitten. Daar boor of zaag ik niet in, en weghalen mag alleen een gecertificeerd asbestbedrijf. Laat zo'n dak dus eerst onderzoeken. Zijn de platen jonger, dan kijk ik of het lek bij een overlap, een schroef of de aansluiting op de muur zit, en repareer ik dat. Stuur me een foto van het dak en van de natte plek binnen via WhatsApp." },
+    ],
   },
   // Daklekkage in Breda (Rens 26-10: ja, ook bij een lekkend dak in Breda; Search Console: daklekkage breda 48 vertoningen), met andere lokale inhoud dan plaatsen.ts
   {
