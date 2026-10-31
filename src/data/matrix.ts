@@ -407,6 +407,9 @@ export const MATRIX: MatrixCombo[] = [
     plaats: "veghel",
     dienst: "schoorsteen-vegen",
     hook: "In de langgevelboerderijen en vrijstaande huizen in Erp, Eerde en Zijtaart staat nogal eens een houtkachel in de oude deel of in de woonkamer. Stook je daar vaak op, dan zet zich elk stookseizoen een laag roet in het kanaal af. Stook je met hout dat nog niet goed droog is, dan wordt dat een glimmende, teerachtige laag, en die kan vlam vatten. Daarom veeg ik het hele kanaal en kijk ik meteen of er iets in zit, zoals een nest van kauwen. Bovenop kijk ik naar de kap en het lood rond de schoorsteen, want die zie je vanaf de grond slecht. Heb je in Veghel alleen een cv-ketel met een eigen afvoerpijp door het dak, dan hoeft er niets geveegd te worden: die laat je nakijken door je installateur. Twijfel je wat je hebt, stuur dan een foto van je kachel of haard en van de schoorsteen buiten.",
+    faq: [
+      { v: "Mijn kachel in de oude boerderij is jaren niet gebruikt. Mag ik hem zomaar weer aansteken?", a: "Laat het kanaal eerst vegen en nakijken voordat je hem weer aansteekt. In een kanaal dat jaren stil heeft gestaan, zit vaak een nest van kauwen, losgekomen roet of een stuk steen, en dan trekt de kachel slecht of komt de rook binnen. Ik veeg het kanaal, kijk of het helemaal vrij is en zeg eerlijk als er aan de schoorsteen zelf iets moet gebeuren. Stuur gerust eerst een foto van je kachel en van de schoorsteen buiten." },
+    ],
   },
   // Daklekkage in Helmond (Rens 19-10: ja, ook bij spoed en lekkage in Helmond; Search Console: lekdetectie helmond 15, lekkage helmond 12, dakreparatie helmond 12 en daklekkage helmond 9 vertoningen, nog geen eigen pagina), met andere lokale inhoud dan plaatsen.ts
   {
