@@ -325,6 +325,50 @@ export const ARTIKELEN: Artikel[] = [
     ],
   },
   {
+    slug: "nat-achter-knieschot",
+    datum: "2026-10-31",
+    titel: "Nat achter het knieschot?",
+    h1: "Nat achter het knieschot op zolder: komt het van het dak?",
+    metaTitle: "Nat achter knieschot op zolder: oorzaken | Spoed Dak Service",
+    metaDescription:
+      "Vocht, een natte vloer of schimmel achter het knieschot op zolder? Vaak komt het van de onderkant van het dak, soms van de goot of van condens. Zo zie je het.",
+    intro:
+      "Het knieschot is het lage wandje op zolder, op de plek waar het schuine dak bijna op de vloer komt. Daarachter zit een donkere hoek waar je zelden kijkt. Juist daar komt water van de onderkant van het dak het eerst binnen. Ruikt het er muf, is de vloer nat of zit er schimmel op het luikje, dan wil je weten waar het vandaan komt. Hieronder lees je waar het meestal zit en wat je eraan doet.",
+    secties: [
+      { kop: "Lekt het nu? Eerst dit", tekst: [
+        `Haal spullen achter het knieschot weg, leg een handdoek neer of zet er een bak onder, en maak foto's van de natte plek, het hout erboven en de vloer. Ga niet zelf het dak op. Wat je verder meteen kunt doen, staat op de <a href="/spoed/">spoedpagina</a>.`,
+      ] },
+      { kop: "Waarom het juist daar nat wordt", tekst: [
+        `Achter het knieschot ligt de onderkant van je dak: de onderste rijen pannen, vlak boven de goot. Water dat ergens hoger onder de pannen komt, loopt over de folie of het dakbeschot naar beneden en komt helemaal onderaan naar buiten. Daarom zit de natte plek achter het knieschot vaak een flink stuk lager dan het echte lek.`,
+      ] },
+      { kop: "Waar het meestal vandaan komt", tekst: [
+        `De onderste rij pannen. Bij harde wind en regen waait het water daar onder de pannen door, zeker als een pan een stukje scheef ligt of als vogels er een nest onder hebben gemaakt.`,
+        `De folie onder de pannen loopt niet tot in de goot. Bij oudere daken is die folie onderaan soms ingescheurd of te kort. Het water dat over de folie naar beneden loopt, druppelt dan vlak voor de goot naar binnen in plaats van erin.`,
+        `De goot. Zit hij vol of hangt hij te laag, dan kan het water bij een flinke bui terug onder de pannen lopen of achter de goot langs. Lees ook <a href="/kennisbank/water-achter-dakgoot/">water loopt achter de dakgoot langs</a>.`,
+        `Iets hoger op het dak: een dakraam, de schoorsteen of een kilgoot. Daar komt het water binnen, en het loopt naar beneden tot achter het knieschot. Zie <a href="/kennisbank/dakraam-lekt/">dakraam lekt</a> en <a href="/kennisbank/kilgoot-lekt/">kilgoot lekt</a>.`,
+      ] },
+      { kop: "Of is het condens?", tekst: [
+        `Achter het knieschot is het koud en komt weinig lucht. Vocht uit huis slaat daar makkelijk neer, vooral in de winter. Dan zie je geen druppel op één plek, maar een vochtige waas of zwarte stipjes schimmel op een groter stuk hout, ook als het dagen droog is geweest. Hoe je het verschil ziet, lees je in <a href="/kennisbank/condens-of-lekkage-op-zolder/">condens of lekkage op zolder</a>.`,
+      ] },
+      { kop: "Zelf een beetje uitzoeken", tekst: [
+        `Kijk na een flinke bui met een zaklamp achter het knieschot. Is het hout of de vloer alleen nat na regen, en vooral bij wind uit één richting, dan komt het meestal van buiten. Volg met de lamp het natte spoor over het hout naar boven, dan zie je vaak al uit welke richting het water komt. Maak er foto's van, daarmee kan ik gericht zoeken.`,
+      ] },
+      { kop: "Hoe ik het aanpak", tekst: [
+        `Ik begin binnen, bij het natte spoor, en kijk daarna buiten naar de onderste rijen pannen, de goot en wat er hoger op het dak zit. Ligt een pan scheef, dan leg ik hem terug. Is de folie onderaan kapot of te kort, dan zorg ik dat het water weer in de goot loopt. Ik maak alleen open wat nodig is. Zie <a href="/diensten/daklekkage/">daklekkage</a>.`,
+      ] },
+      { kop: "Wat kost het?", tekst: [
+        `Een scheve pan terugleggen of een paar pannen vastzetten valt meestal onder een kleine reparatie: ${kleinPrijs}. Moet de onderkant van het dak over een groter stuk open om de folie te herstellen, dan is het meer werk. Je hoort de vaste prijs vooraf. Zie ook <a href="/kennisbank/wat-kost-daklekkage-repareren/">wat kost daklekkage repareren</a>.`,
+      ] },
+    ],
+    dienst: { label: "Bekijk: daklekkage & spoed", href: "/diensten/daklekkage/" },
+    faq: [
+      { v: "Wat is een knieschot?", a: "Het lage wandje op zolder, op de plek waar het schuine dak bijna op de vloer komt. Erachter zit een smalle, lage ruimte langs de onderkant van het dak. Vaak zit er een luikje in, zodat je erachter kunt kijken." },
+      { v: "Waarom ruikt het muf achter mijn knieschot?", a: "Daar komt weinig lucht en is het koud. Is het hout of de vloer er vaak vochtig, door een lek of door condens, dan gaat het muf ruiken en kan er schimmel komen. Kijk na een bui met een zaklamp of er een nat spoor is. Is alles een beetje vochtig, ook op droge dagen, dan is het vaker condens." },
+      { v: "Is een natte plek achter het knieschot spoed?", a: "Druppelt het, of staat er water op de vloer na een bui, bel of app me dan met een foto. Een oude, droge kring kan meestal wachten tot overdag op een werkdag. Twijfel je, stuur dan een foto via WhatsApp, dan zeg ik eerlijk of het vandaag moet." },
+      { v: "Moet het knieschot eruit om het lek te vinden?", a: "Meestal niet. Via het luikje zie ik vaak al genoeg, en daarna kijk ik buiten op het dak. Zit er geen luikje in, dan maak ik in overleg een klein stukje open, alleen als het echt niet anders kan." },
+    ],
+  },
+  {
     slug: "dakraam-lekt",
     datum: "2026-10-20",
     titel: "Dakraam lekt?",
