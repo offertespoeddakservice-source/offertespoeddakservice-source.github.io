@@ -1354,6 +1354,7 @@ export const ARTIKELEN: Artikel[] = [
       { v: "Wat kost een dakinspectie?", a: `Bij mij heet dat de Dak-APK: ${apkPrijs} voor een keuring van je hele dak met een fotorapport. Daarna weet je wat nu nodig is en wat nog kan wachten.` },
       { v: "Hoe onderhoud je een plat dak?", a: "Kijk minstens één keer per jaar, het liefst in het najaar. Haal blad en mos weg bij de afvoer en in de hoeken, kijk of er na een bui water blijft staan en let op naden en randen die loslaten. Ga alleen het dak op als dat veilig kan." },
       { v: "Wat moet ik in het najaar aan mijn dak doen?", a: "De goten leeg na de bladval, kijken of er pannen of nokvorsten los liggen en het lood bij de schoorsteen en dakramen nakijken. Dan is je dak klaar voor de herfststormen." },
+      { v: "Kun je mijn dak in het najaar in één keer winterklaar maken?", a: "Ja. Ik maak de goten en de uitloop naar de regenpijp leeg, en kijk meteen naar de nok, de pannen en het lood rond de schoorsteen en het dakraam. Zit er iets los, dan hoor je eerst wat het kost om het vast te zetten, en dan beslis jij. Dat doe ik in de hele regio Den Bosch, onder andere in Rosmalen, Oss, Veghel en Waalwijk. Wil je een compleet rapport met foto's van je hele dak, dan is de Dak-APK handiger." },
     ],
   },
   {
