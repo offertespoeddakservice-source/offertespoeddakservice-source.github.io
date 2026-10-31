@@ -87,7 +87,7 @@ export const DIENSTEN: Dienst[] = [
     vanafPrijs: LEK_PRIJS,
     h1: "Daklekkage verhelpen: vaak dezelfde dag langs in de regio Den Bosch",
     kort: "Lek opsporen zonder sloopwerk en snel dichten, ook bij spoed.",
-    metaTitle: "Daklekkage repareren regio Den Bosch | Spoed Dak Service",
+    metaTitle: "Daklekkage spoed: lek dichten Den Bosch | Spoed Dak Service",
     metaDescription:
       "Daklekkage? Ik spoor het lek op zonder onnodig sloopwerk en dicht het, bij spoed vaak nog dezelfde dag in de regio Den Bosch. Bel of WhatsApp me.",
     icoon: "💧",
