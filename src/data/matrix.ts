@@ -441,4 +441,13 @@ export const MATRIX: MatrixCombo[] = [
       { v: "Mijn goot loopt over bij een bui, maar hij is leeg. Hoe kan dat?", a: "Dan kan het water vaak niet goed weg via de regenpijp. Kijk tijdens een bui onderaan de pijp: komt er bijna niets uit terwijl de goot overloopt, dan zit de pijp ergens dicht of loopt de aansluiting in de grond niet goed door. Stuur me een foto van de goot en van de onderkant van de pijp via WhatsApp, dan zeg ik wat ik denk dat het is." },
     ],
   },
+  // Dakgoot repareren of vervangen in Uden (Search Console: dakgoot lekkage uden 14 vertoningen op plek 32, dakgoot vernieuwen uden 8, nog geen eigen pagina), met andere lokale inhoud dan plaatsen.ts en de lekkagepagina van Uden
+  {
+    plaats: "uden",
+    dienst: "dakgoot-vervangen",
+    hook: "In Bitswijk, Hoenderbos en de andere wijken van Uden uit de jaren '70 en '80 hangt aan veel huizen nog de eerste kunststof goot. Bij een deel van die goten zijn de stukken destijds aan elkaar gelijmd. Na zo'n veertig jaar zon en vorst wordt zo'n lijmnaad bros, en dan gaat de goot lekken bij een naad of een hoek. Vaak is het genoeg om dat ene stuk te vervangen. Is het kunststof zelf hard en verkleurd en breekt het als je erop drukt, dan zeg ik eerlijk dat een nieuwe goot slimmer is. Hangt de goot door omdat een beugel verbogen of doorgeroest is, dan hang ik hem op nieuwe beugels weer op afschot naar de regenpijp. Rond de Markt hangen aan oudere panden nog zinken goten, en daar kijk ik eerst of een naad of de uitloop te herstellen is. Stuur me via WhatsApp een foto van de goot vanaf de straat, het liefst tijdens of vlak na een bui.",
+    faq: [
+      { v: "Mijn kunststof goot lekt bij een naad. Moet de hele goot eruit?", a: "Meestal niet. Lekt hij op één naad of hoek en is het kunststof verder nog goed, dan vervang ik alleen dat verbindingsstuk of dat stuk goot. Is het kunststof over de hele lengte bros geworden, dan houdt een nieuwe naad het vaak niet lang, en dan zeg ik eerlijk dat een nieuwe goot slimmer is. Uden is zo'n 25 minuten rijden vanaf Den Bosch. Je hoort vooraf wat het kost." },
+    ],
+  },
 ];
