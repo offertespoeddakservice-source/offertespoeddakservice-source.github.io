@@ -69,6 +69,9 @@ export const MATRIX: MatrixCombo[] = [
     plaats: "den-bosch",
     dienst: "goten-reinigen",
     hook: "In de oudere wijken met veel straatbomen, zoals de Muntel en de Vliert, valt in oktober en november veel blad in de goot. Blijft dat liggen, dan wordt het in de winter een natte, zware laag waar mos en soms zelfs plantjes in gaan groeien. In nieuwere wijken zoals Maaspoort en Empel staan minder grote bomen, maar daar komt het vuil vooral van het dak zelf: mos en gruis dat bij de uitloop naar de regenpijp blijft hangen. Den Bosch is mijn thuisbasis, dus je goten leegmaken plan ik makkelijk tussendoor.",
+    faq: [
+      { v: "Wanneer laat ik mijn goot het beste leegmaken als er straatbomen voor mijn huis staan?", a: "Het liefst als de meeste bomen in je straat kaal zijn. Onder oude straatbomen is dat vaak eind november of begin december. Laat je hem eerder doen, dan kan hij een paar weken later alweer vol liggen. Loopt je goot nu al over bij een bui, wacht dan niet: dan maak ik hem nu leeg, en kun je hem na de bladval nog een keer laten doen. Twijfel je, stuur dan een foto van je goot vanaf de straat via WhatsApp." },
+    ],
   },
   {
     plaats: "rosmalen",
