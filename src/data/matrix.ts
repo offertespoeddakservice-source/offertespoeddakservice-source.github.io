@@ -83,7 +83,7 @@ export const MATRIX: MatrixCombo[] = [
   {
     plaats: "berlicum",
     dienst: "goten-reinigen",
-    hook: "Bij de dorpse, vaak vrijstaande woningen in Berlicum zijn de goten flink aan de lengte. Ik maak ze van begin tot eind leeg en maak de uitloop naar de regenpijp goed vrij.",
+    hook: "Bij veel vrijstaande huizen en twee-onder-een-kappers in Berlicum en Middelrode staat aan de achterkant een veranda of overkapping tegen het huis. Die heeft een eigen, smal gootje, en daar komt het blad uit de tuin en van het grote dak in terecht. Van beneden zie je dat gootje slecht, en zit het vol, dan loopt het water over de rand van de overkapping of langs de muur. De goten van de huizen zelf zijn in Berlicum vaak flink aan de lengte, zeker bij de vrijstaande huizen en boerderijen aan de rand van het dorp. Ik maak ze van begin tot eind leeg en maak de uitloop naar de regenpijp vrij. Heb je een veranda of overkapping met een eigen goot, zeg het dan als je belt, dan neem ik die mee.",
   },
 
   // ── Tier B · daklekkage ──────────────────────────────────────────────
@@ -160,7 +160,7 @@ export const MATRIX: MatrixCombo[] = [
   {
     plaats: "schijndel",
     dienst: "goten-reinigen",
-    hook: "Bij de oudere rijtjes en vrijstaande woningen in Schijndel zijn volle goten een veelvoorkomende oorzaak van vochtige muren. Leeg, uitloop vrij en netjes achtergelaten.",
+    hook: "Op veel daken in Schijndel liggen nog de eerste pannen, vaak van voor 1985. Van zulke oude pannen spoelt bij elke bui wat gruis en mos af. Dat zakt naar de laagste plek van de goot, bij de uitloop naar de regenpijp, en wordt daar samen met blad een vaste laag slib die je van beneden niet ziet. In het buitengebied rond Schijndel en Wijbosch staan langs veel wegen en weilanden populieren. In het voorjaar laten die pluis vallen, en dat plakt vast op een bladvanger of een rooster op de uitloop. Dan kan een goot in juni al overlopen, terwijl je dat pas in de herfst verwacht. Ik maak de goot van begin tot eind leeg, ook het slib onderin, en maak de uitloop naar de regenpijp vrij.",
   },
   {
     plaats: "heusden",
