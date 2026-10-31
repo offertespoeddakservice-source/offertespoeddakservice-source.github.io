@@ -236,6 +236,53 @@ export const ARTIKELEN: Artikel[] = [
     ],
   },
   {
+    slug: "plafond-bolt-op-door-lekkage",
+    datum: "2026-10-31",
+    titel: "Plafond bolt op door lekkage?",
+    h1: "Plafond bolt op of hangt door na een lekkage: wat doe je nu?",
+    metaTitle: "Plafond bolt op door lekkage: wat nu? | Spoed Dak Service",
+    metaDescription:
+      `Bolt je plafond op of hangt het door na een lek? Zo houd je het veilig, zo zie je of het water van het dak komt en dit doe je tot de reparatie.`,
+    intro:
+      `Een natte plek in je plafond is vervelend. Bolt het plafond op of gaat het doorhangen, dan zit er water achter dat ergens heen moet, en dan wil je snel weten wat je moet doen. Hieronder lees je hoe je het veilig houdt, waar het water vandaan komt en wat er daarna gebeurt.`,
+    secties: [
+      { kop: "Eerst veilig", tekst: [
+        `Ga niet onder de bolling staan en haal mensen, huisdieren en spullen eronder weg. Zit er een lamp of een rookmelder in of vlak bij de natte plek, zet dan in de meterkast de groep van die kamer uit. Water en stroom gaan niet samen.`,
+        `Zet een emmer of een bak onder de plek en leg er handdoeken omheen. Maak foto's van het plafond en van je spullen, die heb je later nodig voor je verzekering.`,
+      ] },
+      { kop: "Een gaatje prikken of niet?", tekst: [
+        `Je leest vaak dat je een klein gaatje in de bolling kunt prikken, zodat het water in een emmer loopt in plaats van het plafond mee te trekken. Bij een kleine bolling in een gestuct plafond kan dat helpen. Doe het alleen als je er veilig bij kunt, met de stroom van die kamer eraf, en sta er niet recht onder.`,
+        `Hangt het plafond al ver door, zie je scheuren of hoor je het kraken, blijf er dan weg en prik niet. Dan kan er zo een stuk naar beneden komen.`,
+      ] },
+      { kop: "Komt het van het dak?", tekst: [
+        `Zit de bolling op de bovenste verdieping of onder de zolder, en kwam hij na regen? Dan komt het water meestal van het dak, de goot of de aansluiting bij de schoorsteen of een dakraam. Zit er nog een verdieping boven, of is het al dagen droog, dan is het eerder een leiding of de badkamer erboven. Hoe je dat verschil ziet, lees je in <a href="/kennisbank/vochtplek-plafond/">vochtplek in het plafond</a>.`,
+        `Zit de bolling in het plafond van een aanbouw met een plat dak, dan komt het water vaak een eind verderop binnen dan waar het lek zit. Zie <a href="/kennisbank/lekkage-bij-aanbouw/">lekkage bij de aanbouw</a>.`,
+      ] },
+      { kop: "Waarom het water zich daar ophoopt", tekst: [
+        `Water van een lek loopt over de folie, de isolatie of een balk tot het een laag punt vindt. Boven een gestuct plafond of gipsplaten blijft het dan liggen, en het plafond zuigt zich vol. Zo kan een klein lek in een paar uur een flinke bolling geven, terwijl het echte lek een eind verderop zit.`,
+      ] },
+      { kop: "Is het spoed?", tekst: [
+        `Ja. Een plafond dat opbolt, betekent dat er al flink wat water binnen is, en bij de volgende bui komt er meer bij. Bel of WhatsApp me met een foto van het plafond en, als dat veilig kan, van het dak vanaf de straat. Ik kijk eerst waar het water binnenkomt en maak dat dicht, zodat het niet erger wordt. Wat je verder meteen kunt doen, staat op de <a href="/spoed/">spoedpagina</a>.`,
+      ] },
+      { kop: "En daarna: het plafond zelf", tekst: [
+        `Als het lek dicht is, moet het plafond eerst goed drogen. Dat duurt vaak een paar weken. Is het stucwerk losgekomen of zijn de gipsplaten zacht geworden, dan moet dat stuk vervangen worden. Dat is werk voor een stukadoor of een klusbedrijf. Ik maak het dak dicht en zeg je eerlijk wat ik aan de binnenkant zie.`,
+      ] },
+      { kop: "Je verzekering", tekst: [
+        `Schade aan je plafond en je spullen valt vaak onder je opstal- of inboedelverzekering, zeker als het lek plotseling ontstond, bijvoorbeeld door een storm. Komt het door slijtage, dan wordt de reparatie van het dak meestal niet vergoed, maar de schade binnen soms wel. Ik maak foto's van wat ik aantref en van de reparatie, met een korte omschrijving erbij. Meer lees je in <a href="/kennisbank/daklekkage-verzekering/">daklekkage en je verzekering</a>.`,
+      ] },
+      { kop: "Wat kost het?", tekst: [
+        `Moet ik het lek eerst opsporen en dan dichten, dan kost dat meestal ${lekPrijs}, inclusief materiaal. Is het 's avonds, 's nachts of in het weekend, dan komt er een toeslag bij. Je hoort de vaste prijs vooraf, voordat ik begin.`,
+      ] },
+    ],
+    dienst: { label: "Bekijk: daklekkage & spoed", href: "/diensten/daklekkage/" },
+    faq: [
+      { v: "Moet ik in een opbollend plafond prikken?", a: `Alleen bij een kleine bolling in een gestuct plafond, als je er veilig bij kunt, met de stroom van die kamer uit en een emmer eronder. Hangt het plafond ver door, zie je scheuren of hoor je het kraken, blijf er dan weg. Dan kan er een stuk naar beneden komen.` },
+      { v: "Kan een plafond naar beneden komen door lekkage?", a: `Ja, als er lang genoeg water op blijft staan. Gipsplaten en stucwerk worden zwaar en zacht van water. Ga daarom niet onder een bolling staan en laat het lek zo snel mogelijk dichtmaken.` },
+      { v: "Is een opbollend plafond spoed?", a: `Ja. Er zit dan al flink wat water achter, en bij de volgende bui komt er meer bij. Bel of WhatsApp me met een foto, dan hoor je wanneer ik kan komen.` },
+      { v: "Wie maakt het plafond weer netjes?", a: `Eerst moet het lek dicht en het plafond droog zijn. Daarna herstelt een stukadoor of klusbedrijf het plafond. Ik maak het dak dicht en zeg eerlijk wat ik aan de binnenkant zie.` },
+    ],
+  },
+  {
     slug: "dak-lekt-bij-hevige-regen",
     datum: "2026-10-28",
     titel: "Dak lekt alleen bij een stortbui?",
