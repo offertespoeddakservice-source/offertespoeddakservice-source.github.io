@@ -196,6 +196,9 @@ export const MATRIX: MatrixCombo[] = [
     plaats: "rosmalen",
     dienst: "stormschade",
     hook: "Rond de Maliskamp en Kruisstraat, aan de rand van Rosmalen, ligt veel open land. Daar heeft de wind vrij spel op de vrijstaande huizen en boerderijen, en na een storm vind ik daar vaker pannen langs de rand van het dak die zijn opgetild of verschoven. In De Groote Wielen liggen op veel daken zonnepanelen. Waait de wind eronder, dan kan een pan bij een dakhaak breken, en dat zie je vanaf de straat bijna niet. Zit er een paneel los, dan zeg ik dat eerlijk, want daarvoor heb je je installateur nodig. Ga zelf niet het dak op en stuur me een foto vanaf de grond. Is er een open plek, dan maak ik die eerst dicht, en daarna volgt de nette reparatie.",
+    faq: [
+      { v: "Hoe zie ik na een storm of er een pan onder mijn zonnepanelen is gebroken?", a: "Vanaf de straat zie je dat bijna niet, want de pan ligt voor een deel onder het paneel. Let daarom binnen op. Zie je na de storm bij een flinke bui een natte plek op zolder, onder het deel van het dak met de panelen of een stukje lager, dan kan er een pan bij een dakhaak zijn gebroken. Ga zelf niet het dak op, tussen de panelen is het glad. Stuur me een foto van de natte plek via WhatsApp. Zit er een paneel los, dan heb je daarvoor je installateur nodig." },
+    ],
   },
   {
     plaats: "vught",
@@ -221,6 +224,9 @@ export const MATRIX: MatrixCombo[] = [
     plaats: "boxtel",
     dienst: "stormschade",
     hook: "Sinds 2021 hoort ook Esch bij de gemeente Boxtel. Rond Liempde en Esch ligt veel open land met verspreide boerderijen, en daar pakt de wind een groot, steil dak flink aan. Na een storm zie ik daar vaker dat de laatste vorst van de nok, vlak bij de gevel, is losgeraakt. In de rijtjes in Boxtel zelf zitten losse pannen na harde wind vooral aan het eind van de rij, bij het hoekhuis, waar de wind het hardst langs de kopgevel trekt. Ga na een storm niet onder de dakrand staan waar iets naar beneden kwam, en app me een foto vanaf de straat.",
+    faq: [
+      { v: "Ik woon in een hoekhuis. Kan ik voor de winter iets doen tegen pannen die langs de zijkant loswaaien?", a: "Ja. Langs de kopgevel van een hoekhuis trekt de wind het hardst, en op oudere daken liggen de pannen daar vaak zonder haak. Ik kan die pannen vastzetten met stormhaken, zodat ze bij een windstoot niet meer omhoog wippen. Meestal hoeft daarvoor niet het hele dak open. Liggen er nu al pannen scheef, stuur me dan een foto vanaf de straat via WhatsApp. Je hoort vooraf wat het kost." },
+    ],
   },
   {
     plaats: "schijndel",
