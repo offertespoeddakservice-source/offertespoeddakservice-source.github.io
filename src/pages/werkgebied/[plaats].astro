@@ -112,22 +112,6 @@ const schema = [
     </div>
   </section>
 
-  <section class="section section--soft">
-    <div class="wrap">
-      <h2>Wat ik in {p.naam} doe</h2>
-      <div class="grid grid-3" style="margin-top:18px;">
-        {DIENSTEN.filter((d) => !d.verborgen).map((d) => (
-          <a class="card" href={`/diensten/${d.slug}/`}>
-            <DienstIcon slug={d.slug} />
-            <h3>{d.titel}</h3>
-            <p>{d.kort}</p>
-            {d.vanafPrijs && <span class="price">{d.vanafPrijs}</span>}
-          </a>
-        ))}
-      </div>
-    </div>
-  </section>
-
   {matrixVoorPlaats.length > 0 && (
     <section class="section">
       <div class="wrap">
@@ -139,6 +123,22 @@ const schema = [
       </div>
     </section>
   )}
+
+  <section class="section section--soft">
+    <div class="wrap">
+      <h2>Wat ik in {p.naam} doe</h2>
+      <div class="grid grid-3" style="margin-top:18px;">
+        {DIENSTEN.filter((d) => !d.verborgen).map((d) => (
+          <a class="card" href={MATRIX.some((c) => c.plaats === p.slug && c.dienst === d.slug) ? `/werkgebied/${p.slug}/${d.slug}/` : `/diensten/${d.slug}/`}>
+            <DienstIcon slug={d.slug} />
+            <h3>{d.titel}</h3>
+            <p>{d.kort}</p>
+            {d.vanafPrijs && <span class="price">{d.vanafPrijs}</span>}
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
 
   <section class="section">
     <div class="wrap">
