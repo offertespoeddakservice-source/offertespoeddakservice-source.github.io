@@ -429,4 +429,13 @@ export const MATRIX: MatrixCombo[] = [
       { v: "Er is net een warmtepomp of airco geplaatst en nu lekt het op zolder. Wie lost dat op?", a: "Is de leiding pas door het dak gegaan, neem dan eerst contact op met de installateur, want dan hoort hij het in de regel zelf op te lossen. Komt de installateur niet, of zit de doorvoer er al langer, dan kijk ik waar het water binnenkomt en maak ik de doorvoer weer dicht. Stuur me een foto van de leiding op zolder en, als het lukt, van die plek op het dak vanaf de straat. Je hoort vooraf wat het kost." },
     ],
   },
+  // Dakgoot repareren of vervangen in Waalwijk (Search Console: dakgoot reparatie waalwijk 11, dakgoot lekkage waalwijk 11 en dakgoot vernieuwen waalwijk 10 vertoningen op plek 73 tot 78, nog geen eigen pagina), met andere lokale inhoud dan plaatsen.ts en de lekkage- en dakreparatiepagina van Waalwijk
+  {
+    plaats: "waalwijk",
+    dienst: "dakgoot-vervangen",
+    hook: "Bij veel oudere huizen in Waalwijk, zoals in Besoyen en Baardwijk, loopt de regenpijp onderaan de gevel de grond in en gaat het water onder de bestrating door naar het riool. Zakt die aansluiting na veel jaren, of zitten er wortels of zand in, dan kan het water bij een bui niet snel genoeg weg. De pijp staat dan vol, en de goot loopt over bij de uitloop, terwijl de goot zelf nergens lek is. Dat kijk ik eerst na, voordat ik over een nieuwe goot begin. Zit het in de aansluiting op je eigen terrein, vlak onder de tegels, dan kan ik die vaak opnieuw aansluiten. Zit het dieper in het riool, dan zeg ik eerlijk dat je een rioolbedrijf nodig hebt. Druppelt je goot na een vorstperiode op één plek, dan heeft er vaak water in gestaan dat is bevroren. IJs zet uit en duwt een naad of hoekstuk open, en dat zie je pas als het dooit. Dan herstel ik die plek en hang ik de goot weer op afschot, zodat er geen water meer in blijft staan.",
+    faq: [
+      { v: "Mijn goot loopt over bij een bui, maar hij is leeg. Hoe kan dat?", a: "Dan kan het water vaak niet goed weg via de regenpijp. Kijk tijdens een bui onderaan de pijp: komt er bijna niets uit terwijl de goot overloopt, dan zit de pijp ergens dicht of loopt de aansluiting in de grond niet goed door. Stuur me een foto van de goot en van de onderkant van de pijp via WhatsApp, dan zeg ik wat ik denk dat het is." },
+    ],
+  },
 ];
