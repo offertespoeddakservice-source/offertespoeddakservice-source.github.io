@@ -219,6 +219,7 @@ export const DIENSTEN: Dienst[] = [
       { v: "Het lekt bij mijn uitbouw of garage, doe je dat ook?", a: "Ja. De meeste uitbouwen, garages en bergingen hebben een plat dak, en daar zie ik veel lekkage. Vaak zit het bij de aansluiting met de gevel, bij de daktrim aan de rand of bij de afvoer. Die plekken kijk ik als eerste na." },
       { v: "Wat kost het om een lek in een plat dak te repareren?", a: "Dat hangt af van waar het lek zit en hoeveel er beschadigd is. Een gerichte reparatie is meestal het goedkoopst. Je hoort de vaste prijs vooraf, voordat ik begin. Richtprijzen staan op de prijzenpagina." },
       { v: "Kun je dakleer op een schuur of tuinhuis repareren?", a: "Ja. Op veel schuren en tuinhuizen ligt dakleer, een dunne laag bitumen. Zit er één scheur of een losse naad in, dan is een gerichte reparatie vaak genoeg. Is het dakleer overal bros, staan er blazen in of lekt het op meer plekken, dan is een nieuwe laag slimmer. Stuur een foto, dan zeg ik eerlijk wat het wordt." },
+      { v: "Hoe vaak moet een plat dak worden nagekeken?", a: "Eén keer per jaar is meestal genoeg, het liefst in het najaar. Ik haal dan blad en mos weg bij de afvoer en in de hoeken, en kijk naar de naden, de randen, de aansluiting tegen de muur en de rand van een lichtkoepel. Zit er een naad los, dan hoor je wat het kost om die dicht te maken voordat er in de winter een lek ontstaat. Na een zware storm, of als er na een bui dagen water blijft staan, laat je het beter eerder bekijken." },
     ],
   },
   {
