@@ -277,6 +277,7 @@ export const MATRIX: MatrixCombo[] = [
     faq: [
       { v: "Mijn zinken bakgoot achter een houten lijst lekt. Moet de hele goot eruit?", a: "Niet altijd. Lekt hij op één naad of hoek, dan is dat stuk vaak te herstellen. Is het zink over een groot stuk dun geworden, vaak op de plek waar het blad altijd blijft liggen, dan heeft plakken weinig zin en is een nieuw stuk zink beter. Je hoort vooraf wat het kost." },
       { v: "Hoe zie ik of mijn goot lek is?", a: "Kijk vanaf de straat of vanuit een raam boven naar de goot. Druppels die na een bui op één plek blijven vallen, een goot die in het midden doorhangt, of kleine gaatjes en witte vlekken op het zink zijn tekenen dat er iets lek is. Ga zelf niet de ladder op, maar stuur me een foto. Dan zeg ik wat ik zie." },
+      { v: "Ik laat mijn gootlijst en kozijnen schilderen. Moet de goot eerst nagekeken worden?", a: "Dat is slim, zeker bij een zinken bakgoot achter een houten lijst. Lekt de goot ergens bij een naad of hoek, dan trekt het water in het hout van de lijst, en dan bladdert de nieuwe verf er binnen een jaar weer af. Laat de goot daarom eerst nakijken en zo nodig herstellen, en laat daarna de schilder komen. Zie je nu al bladderende verf of donkere plekken op de lijst, onder een naad of hoek van de goot, stuur me dan een foto. Je hoort vooraf wat het kost." },
     ],
   },
   // Daklekkage in Tilburg, met Udenhout en Berkel-Enschot (Rens 23-10: ook bij spoed; Search Console: daklekkage udenhout, daklekkage berkel-enschot)
