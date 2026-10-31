@@ -2,6 +2,7 @@
 import Base from "../layouts/Base.astro";
 import { SITE, telHref, waHref } from "../site.config.ts";
 import { PRIJZEN } from "../data/prijzen.ts";
+import EchteFotos from "../components/EchteFotos.astro";
 
 const lekPrijs = PRIJZEN.find((r) => r.dienst.startsWith("Daklekkage"))?.prijs ?? "";
 const gotenPrijs = PRIJZEN.find((r) => r.dienst === "Dakgoot reinigen")?.prijs ?? "";
@@ -71,6 +72,9 @@ const faqSchema = {
       <p style="margin-top:20px;">
         Wil je alvast weten waar het lek kan zitten? Lees hoe ik <a href="/kennisbank/daklekkage-opsporen/">een daklekkage opspoor</a>, of kijk bij <a href="/kennisbank/lekkage-bij-schoorsteen/">lekkage bij de schoorsteen</a> en <a href="/kennisbank/dakraam-lekt/">een lekkend dakraam</a>. Druppels op zolder terwijl het niet heeft geregend? Dan is het vaak <a href="/kennisbank/condens-of-lekkage-op-zolder/">condens en geen lek</a>. Is het na een storm gebeurd, lees dan <a href="/kennisbank/stormschade-eerste-hulp/">stormschade: eerste hulp</a>.
       </p>
+      <p style="margin-top:16px;">Komt het water vooral bij harde wind binnen? Lees dan <a href="/kennisbank/dak-lekt-bij-harde-wind/">dak lekt bij harde wind</a>. Ligt er specie in de goot of staat de nok scheef, kijk dan bij <a href="/kennisbank/nokvorsten-los/">losse nokvorsten</a>. Is er een tak op je dak gevallen, lees <a href="/kennisbank/tak-of-boom-op-dak/">tak of boom op je dak</a>. En wil je voorkomen dat er bij de volgende storm weer pannen loskomen, lees dan <a href="/kennisbank/dakpannen-vastzetten-tegen-storm/">dakpannen vastzetten tegen storm</a>.</p>
+      <p style="margin-top:22px;">Een scheve of kapotte pan zie je van beneden bijna niet. Twee foto's die ik zelf op het dak maakte:</p>
+      <EchteFotos soort="pannen" max={2} inline />
     </div>
   </section>
 
