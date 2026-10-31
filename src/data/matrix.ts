@@ -172,7 +172,7 @@ export const MATRIX: MatrixCombo[] = [
   {
     plaats: "heusden",
     dienst: "goten-reinigen",
-    hook: "De goten in en rond vesting Heusden vragen om voorzichtig werk bij oudere daken. Ik maak ze van begin tot eind leeg en controleer meteen het lood en de pannen.",
+    hook: "In vesting Heusden hangt aan veel oude panden nog een zinken goot, en bij een deel zit de goot aan de straatkant achter de gevel, waar je hem van beneden niet ziet. Loopt zo'n goot vol, dan merk je dat vaak pas binnen, aan een natte plek bovenin de muur. Nat blad dat lang in een zinken goot blijft liggen, tast het zink aan, en daar komt na jaren het eerste gaatje. Op een monument kun je zo'n goot niet zomaar door een kunststof goot vervangen, dus het loont om hem schoon te houden. In Oudheusden en Herpt hangen vaker gewone goten aan rijtjeshuizen en vrijstaande huizen, en daar blijft het blad vooral bij de uitloop naar de regenpijp hangen. Ik maak de goten van begin tot eind leeg, maak de uitloop vrij en kijk meteen naar het lood en de pannen.",
   },
   {
     plaats: "sint-michielsgestel",
