@@ -56,6 +56,9 @@ export const MATRIX: MatrixCombo[] = [
     plaats: "berlicum",
     dienst: "daklekkage",
     hook: "Berlicum is een dorp met veel vrijstaande huizen en twee-onder-een-kappers, vaak met een garage of berging naast het huis. Waar het dak van zo'n garage tegen de zijmuur van het huis komt, zit een strook lood die het water van de muur op het garagedak moet leiden. Zakt die strook af of is hij gescheurd, dan loopt het water erachter langs naar binnen. Je ziet het als een natte plek in de garage of op de muur van de kamer ernaast. Bij de oudere huizen in het dorp en in Middelrode staat vaak nog een schoorsteen, en daar begint een lek meestal bij het lood rondom. Je hoort vooraf wat het kost, voordat ik iets openmaak.",
+    faq: [
+      { v: "Het lekt in mijn garage, maar alleen als het hard waait. Hoe kan dat?", a: "Dan komt het water vaak binnen bij de strook lood of zink waar het dak van de garage tegen de zijmuur van het huis zit. Bij gewone regen loopt het water er netjes overheen, maar bij harde wind waait de regen achter een strook die een stukje van de muur af staat. Kijk vanaf de oprit of de bovenrand van die strook nog strak tegen de muur zit. Ga er niet zelf voor op een ladder staan, maar stuur me een foto via WhatsApp. Vaak is het genoeg om de strook weer goed vast te zetten of te vervangen." },
+    ],
   },
 
   // ── Tier A · goten reinigen ──────────────────────────────────────────
@@ -108,6 +111,9 @@ export const MATRIX: MatrixCombo[] = [
     plaats: "drunen",
     dienst: "daklekkage",
     hook: "In de woonwijken van Drunen die in de jaren '70 en '80 zijn gebouwd, staan veel rijtjeshuizen en twee-onder-een-kappers met een schuin pannendak. Op die daken, die nu een jaar of veertig liggen, zie ik een lek vaak bij de dakvoet: de onderste rij pannen, vlak boven de goot. Bij harde wind en regen waait het water daar onder de pannen door, zeker als de folie eronder niet goed tot in de goot doorloopt. Op zolder zie je dat als een natte plek achter het knieschot, vlak boven de vloer. Ik kijk eerst op zolder waar het hout nat is en volg dat spoor naar boven, zodat ik niets openmaak wat niet nodig is.",
+    faq: [
+      { v: "Het lekt bij mij aan de onderkant van het dak. Moet het hele dak eraf?", a: "Meestal niet. Bij de rijtjes en twee-onder-een-kappers in Drunen zit zo'n lek vaak alleen in de onderste rijen pannen, vlak boven de goot. Dan haal ik die rijen eraf, zorg ik dat de folie eronder weer tot in de goot loopt en leg ik de pannen terug, met een nieuwe pan waar er een gebroken is. Zijn de pannen of de folie over het hele dak op, dan zeg ik dat eerlijk. Je hoort vooraf wat het kost." },
+    ],
   },
   {
     plaats: "boxtel",
