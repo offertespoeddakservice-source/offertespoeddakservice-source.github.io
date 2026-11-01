@@ -527,4 +527,14 @@ export const MATRIX: MatrixCombo[] = [
       { v: "Mijn huis staat aan de dijk bij Niftrik of Batenburg. Waar kijk ik naar na een storm?", a: "Kijk eerst naar de kant van je dak die naar de rivier ligt. Daar pakt de wind het hardst, en daar gaan pannen langs de rand en nokvorsten het eerst schuiven. Ga niet zelf het dak op, maar kijk vanaf de dijk of de straat of er iets scheef ligt of mist. Zie je iets, of is het binnen nat, stuur me dan een foto via WhatsApp. Dan hoor je wanneer ik kan komen." },
     ],
   },
+  // Dakreparatie in Den Bosch (Search Console: spoed dakreparatie 112 vertoningen op plek 22, dak repareren 52, nog geen eigen pagina voor de thuisbasis), met andere lokale inhoud dan plaatsen.ts en de lekkage-, goot-, dakgoot- en stormpagina van Den Bosch
+  {
+    plaats: "den-bosch",
+    dienst: "dakreparatie",
+    hook: "In de Graafsewijk en in Den Bosch-Zuid staan veel huizen uit de jaren '20 en '30 met een steil pannendak. Op een deel daarvan liggen nog blauwgrijze, gesmoorde pannen, of oude rode pannen die niet meer gemaakt worden. Breekt er een, dan zoek ik eerst een pan die in vorm en kleur past, want op zo'n dak valt een afwijkende pan meteen op. In Maaspoort en Empel, die in de jaren '80 en '90 zijn gebouwd, liggen langs de zijkant van het dak vaak gevelpannen: pannen met een omgezette rand die over de houten windveer valt. Die zitten met een schroef of een haak vast. Is die na zoveel jaren losgeroest of afgebroken, dan wipt de pan bij harde wind omhoog en ligt hij na de storm scheef of in de tuin. Ik zet hem weer vast en vervang wat gebroken is. Den Bosch is mijn thuisbasis, dus vaak ben ik al in de buurt. Stuur me een foto vanaf de straat via WhatsApp, dan zie ik vaak al wat ik mee moet nemen.",
+    faq: [
+      { v: "Hoe zie ik of de pannen langs de zijkant van mijn dak los zitten?", a: "Kijk vanaf de straat of de stoep aan de overkant naar de rand van je dak, boven de zijgevel. Ligt een gevelpan hoger dan de rest, staat hij een stukje open of zie je een gat in de rij, dan zit hij los. Hoor je bij harde wind getik of geklapper aan die kant van het huis, dan kan dat ook een losse gevelpan zijn. Ga niet zelf op een ladder staan, maar stuur me een foto via WhatsApp. Je hoort vooraf wat het kost." },
+      { v: "Ik huur mijn huis, bijvoorbeeld in de Kruiskamp of Boschveld. Kun je dan een pan bij mij vervangen?", a: "Huur je, dan is het dak in de regel de zaak van je verhuurder. Meld een kapotte pan of een lek daar eerst, want die regelt de reparatie en betaalt hem meestal ook. Zet tot die tijd een emmer onder een druppel en maak foto's van de natte plek. Is het huis van jezelf, stuur me dan een foto van je dak vanaf de straat via WhatsApp, dan hoor je wanneer ik kan komen." },
+    ],
+  },
 ];
