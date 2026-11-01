@@ -184,6 +184,9 @@ export const ARTIKELEN: Artikel[] = [
         "Heb je je dak of zolder laten isoleren en zie je daarna ineens druppels of natte plekken? Dat komt vaker voor dan je denkt. Aan de warme kant van de isolatie hoort een folie die de vochtige lucht uit huis tegenhoudt. Zit daar een naad open, of zit de folie aan de verkeerde kant, dan komt de warme lucht achter de isolatie tegen het koude dakbeschot. Daar slaat het vocht neer, en dat zie je pas als het al een tijd speelt.",
         "Een huis met goede isolatie en nieuwe kozijnen is ook luchtdichter dan vroeger. Het vocht van douchen en koken blijft dan langer binnen hangen. Daarom is goed ventileren na het isoleren extra belangrijk. Zie je het kort na het isoleren, neem dan eerst contact op met wie het werk heeft gedaan.",
       ] },
+      { kop: `Na een lek: is de isolatie nat geworden?`, tekst: [
+        `Was het wel een lek, en ligt er isolatie in je schuine dak of op de zoldervloer? Dan kan die isolatie nat zijn geworden. Natte isolatie is een koude plek, en daar slaat in de winter sneller vocht op neer. Dan zie je soms weer druppels op dezelfde plek, ook als het dak allang dicht is. Of drogen genoeg is of dat het eruit moet, lees je in <a href="/kennisbank/isolatie-nat-na-lekkage/">isolatie nat na een lekkage</a>.`,
+      ] },
       { kop: "Twijfel je? Stuur een foto", tekst: [
         'Maak een foto van de natte plek en van het dakbeschot eromheen en stuur die via WhatsApp. Vaak kan ik dan al zeggen of het condens is of een lek. Druppelt het echt binnen na regen, kijk dan op de <a href="/spoed/">spoedpagina</a> wat je meteen kunt doen.',
         'Komt de condens elk jaar terug, dan kan het aan de ventilatie of de isolatie liggen. Lees ook over <a href="/diensten/dakisolatie/">dakisolatie</a>, of vraag me gewoon om even mee te kijken.',
@@ -1797,6 +1800,9 @@ export const ARTIKELEN: Artikel[] = [
       ] },
       { kop: "Of komt het door de muur erboven?", tekst: [
         "Soms is het dak helemaal dicht en komt het water door de gevel van het huis. Een buitenmuur neemt bij een flinke bui met wind water op. Dat zakt binnen in de muur naar beneden en komt eruit op de plek waar het dak van de aanbouw tegen de muur zit. Je herkent het doordat het vooral lekt als de regen tegen die gevel aan slaat, en soms pas een dag later. Zit het in de muur zelf, in de voegen of de stenen, dan zeg ik dat eerlijk: daarvoor heb je een metselaar nodig.",
+      ] },
+      { kop: `Is het een veranda of overkapping?`, tekst: [
+        `Heb je geen stenen aanbouw, maar een veranda of overkapping met platen tegen je huis? Daar werkt de aansluiting op de muur net iets anders, en lekt het ook vaak bij een naad tussen de platen of bij het smalle gootje aan de voorkant. Hoe je ziet waar het bij jou zit, lees je in <a href="/kennisbank/veranda-of-overkapping-lekt/">veranda of overkapping lekt</a>.`,
       ] },
       { kop: "Wat je zelf beter niet doet", tekst: [
         "Kit tussen het lood en de muur lijkt een snelle oplossing, maar lost het zelden op. Zit het lek in de dakbedekking onder het lood of in de muur erboven, dan kit je de verkeerde plek dicht. Maak liever een foto van de natte plek binnen en van de muur boven de aanbouw, en stuur die via WhatsApp.",
