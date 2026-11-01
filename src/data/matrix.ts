@@ -167,7 +167,7 @@ export const MATRIX: MatrixCombo[] = [
   {
     plaats: "vlijmen",
     dienst: "goten-reinigen",
-    hook: "De goten in Vlijmen lopen na een storm vanaf de Maaskant snel vol blad en gruis. Ik maak ze leeg, maak de uitloop naar de regenpijp vrij en kijk meteen of er pannen los zitten.",
+    hook: "In Vliedberg en de andere wijken uit de jaren '60 en '70 staat achter veel rijtjeshuizen een berging met een plat dak. Het water van het grote dak komt daar nogal eens via een korte regenpijp op uit, en dan spoelt al het blad van je grote dak naar de afvoer van dat kleine dak. Zit die afvoer dicht, dan blijft het water op de berging staan of loopt het over de rand langs je achtergevel, terwijl je dat vanaf de straat niet ziet. In Geerpark, de nieuwste wijk, zijn de huizen en de bomen nog jong. Daar ligt minder blad in de goot, maar wel zand en fijn gruis dat van het dak en uit de omgeving aanwaait. Onderin de goot wordt dat een laagje slib dat de uitloop naar de regenpijp langzaam dichtzet. In Nieuwkuijk en Haarsteeg staan meer vrijstaande huizen met grote tuinen en oude bomen, en daar zit de goot na de bladval vaak tot de rand vol. Ik maak de goten van begin tot eind leeg, maak de uitloop naar de regenpijp vrij en neem de afvoer van een platte berging mee als je dat vraagt. Zie ik iets aan je pannen of het lood, dan hoor je dat meteen.",
   },
   {
     plaats: "drunen",
