@@ -412,6 +412,7 @@ export const ARTIKELEN: Artikel[] = [
       { v: "Is er iets kapot als het alleen bij een stortbui lekt?", a: "Niet altijd. Vaak zit er iets vol en is leegmaken genoeg. Maar soms zit er ook een kleine scheur of een losse naad die je bij gewone regen niet merkt. Daarom kijk ik allebei na." },
       { v: "Hoe zie ik of mijn goot overloopt of lek is?", a: "Gutst het water bij een flinke bui over de voorkant van de goot, dan zit hij meestal vol. Druppelt het op één vaste plek, ook nog als de bui voorbij is, dan is hij daar waarschijnlijk lek." },
       { v: "Kun je snel komen als het binnen nat wordt?", a: "Bel of WhatsApp me met een foto van de natte plek binnen en, als dat veilig kan, een foto van de goot of het dak vanaf de straat. Dan hoor je wanneer ik kan komen." },
+      { v: "Bij een stortbui wordt de muur bovenin nat, langs het kozijn van een raam. Komt dat van het dak?", a: "Vaak niet van de pannen, maar van de goot erboven. Loopt de goot bij een stortbui over, of druipt het water achter de goot langs, dan trekt het in de muur en komt het binnen bovenin, vaak net boven of naast een kozijn. Bij een bakgoot, die in de rand van het dak ligt, gebeurt dat nog sneller. Kijk bij de volgende flinke bui vanaf de straat naar de goot boven dat raam. Stuur me een foto van de natte plek binnen en van de goot buiten, dan zie ik vaak al waar het zit." },
     ],
   },
   {
