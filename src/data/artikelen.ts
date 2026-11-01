@@ -155,6 +155,7 @@ export const ARTIKELEN: Artikel[] = [
       { v: "Ik deel de schoorsteen met de buren, wat nu?", a: "Dan kan het lek ook aan hun kant van het dak zitten. Overleg even met je buren en laat de hele schoorsteen in één keer bekijken. Dat scheelt dubbel werk." },
       { v: "Kun je snel komen als het in de haard druppelt?", a: "Stuur me via WhatsApp een foto van de natte plek binnen en, als het lukt, van de schoorsteen buiten. Dan zie ik vaak al waar ik moet zoeken en hoor je wanneer ik kan komen." },
       { v: "Kun je een kap op mijn schoorsteen zetten?", a: "Ja, dat doe ik. Een kap of afdekplaat bovenop de schoorsteen houdt de regen uit het kanaal. Stook je nog op de haard of kachel, dan kies ik een kap die past bij een schoorsteen die nog in gebruik is. Je hoort vooraf de vaste prijs." },
+      { v: "Kan ik de haard of kachel gewoon gebruiken als er bij regen water in komt?", a: "Liever niet, tot het is nagekeken. Water in het kanaal kan betekenen dat de kop van de schoorsteen of de binnenkant van het kanaal beschadigd is, en dat zie je van onderen niet. Laat eerst uitzoeken waar het water vandaan komt. Wil je daarna weer stoken, laat de schoorsteen dan ook vegen, zodat het kanaal weer schoon en vrij is. Stuur me gerust eerst een foto van de natte plek via WhatsApp." },
     ],
   },
   {
