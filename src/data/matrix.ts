@@ -542,4 +542,13 @@ export const MATRIX: MatrixCombo[] = [
       { v: "Ik huur mijn huis, bijvoorbeeld in de Kruiskamp of Boschveld. Kun je dan een pan bij mij vervangen?", a: "Huur je, dan is het dak in de regel de zaak van je verhuurder. Meld een kapotte pan of een lek daar eerst, want die regelt de reparatie en betaalt hem meestal ook. Zet tot die tijd een emmer onder een druppel en maak foto's van de natte plek. Is het huis van jezelf, stuur me dan een foto van je dak vanaf de straat via WhatsApp, dan hoor je wanneer ik kan komen." },
     ],
   },
+  // Stormschade in Waalwijk (plaatspagina Waalwijk 450 vertoningen, de meeste van alle plaatsen; winterstormen), met andere lokale inhoud dan plaatsen.ts en de andere Waalwijk-pagina's
+  {
+    plaats: "waalwijk",
+    dienst: "stormschade",
+    hook: "Waalwijk ligt aan de rand van de Langstraat, met naar het noorden het open land richting de Bergsche Maas. Bij een storm uit het westen of noordwesten heeft de wind daar vrij spel. Achter veel oudere huizen in Besoyen en Baardwijk staat een aanbouw, schuur of oude werkplaats met een plat dak. Zo'n dak pakt de wind bij een storm aan de rand: de daktrim laat los en de dakbedekking klapt een stukje omhoog, en daarna loopt de regen er zo onder. Kijk na een storm daarom ook vanuit een raam boven naar dat platte dak. Zie je een rand die omhoog staat of grind dat van het dak is geblazen, maak er dan een foto van. In Sprang-Capelle en Waspik staan veel vrijstaande huizen en boerderijen met een breed pannendak, en daar zitten losse pannen na een storm meestal langs de rand van het dak en bij de nok. Ga zelf niet het dak op. Is er een open plek, dan dek ik die eerst af, zodat het binnen droog blijft, en daarna volgt de nette reparatie.",
+    faq: [
+      { v: "De rand van het platte dak op mijn schuur staat na de storm omhoog. Is dat erg?", a: "Laat het niet te lang zitten. Staat de daktrim of de dakbedekking aan de rand een stukje omhoog, dan kan de wind er bij de volgende windstoot verder onder en scheurt er een groter stuk los. En de regen loopt er nu al onder. Ga er niet zelf op, zeker niet als het nog waait. Maak vanuit een raam of vanaf de grond een foto en stuur die via WhatsApp. Dan zeg ik wat er nodig is, en je hoort vooraf wat het kost." },
+    ],
+  },
 ];
