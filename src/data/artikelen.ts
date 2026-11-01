@@ -197,6 +197,45 @@ export const ARTIKELEN: Artikel[] = [
     ],
   },
   {
+    slug: "isolatie-nat-na-lekkage",
+    datum: "2026-11-01",
+    titel: "Isolatie nat na een lekkage?",
+    h1: "Isolatie nat geworden door een daklek: drogen of vervangen?",
+    metaTitle: "Natte isolatie na daklekkage: wat nu? | Spoed Dak Service",
+    metaDescription: `Isolatie nat geworden door een daklek? Zo zie je of drogen genoeg is of dat het eruit moet, en waarom het lek eerst dicht moet.`,
+    intro: `Na een lek kijk je eerst naar het plafond of de vloer. Maar vaak is ook de isolatie in het schuine dak of op de zoldervloer nat geworden, en die zie je niet zomaar. Natte isolatie houdt minder warmte binnen, droogt slecht en kan gaan schimmelen. Hieronder lees je hoe je ziet hoe erg het is, en wanneer drogen genoeg is.`,
+    secties: [
+      { kop: "Eerst het lek dicht", tekst: [
+        `Drogen heeft pas zin als er geen nieuw water meer bij komt. Lekt het nog, zet dan een emmer neer, haal spullen weg en ga niet zelf het dak op. Wat je meteen kunt doen, staat op de <a href="/spoed/">spoedpagina</a>. Hoe ik het lek vind zonder onnodig sloopwerk, lees je in <a href="/kennisbank/daklekkage-opsporen/">daklekkage opsporen</a>.`,
+      ] },
+      { kop: "Zo zie je dat de isolatie nat is", tekst: [
+        `Zie je op zolder een natte plek op het dakbeschot of de folie, dan is de isolatie daarachter vaak ook nat. Andere tekenen zijn een plek die kouder aanvoelt dan de rest, een muffe lucht, dekens of platen die zijn ingezakt of donker verkleurd, en een bruine kring op het plafond onder de zoldervloer. Zit de isolatie achter een betimmering of gipsplaat, dan zie je vaak alleen een vlek of bladderende verf aan de voorkant.`,
+      ] },
+      { kop: "Glaswol en steenwol", tekst: [
+        `Dekens en platen van glaswol of steenwol zuigen water op. Zolang ze nat zijn, isoleren ze slecht, en ze worden zwaar en zakken in. Is maar een klein stuk kort nat geweest, dan droogt het vaak weer als er lucht bij kan. Is het door en door nat, ingezakt of gaat het muf ruiken, dan is vervangen meestal beter. Ingezakte wol komt zelden terug in zijn oude vorm, en dan zit er een kier waar de kou doorheen komt.`,
+      ] },
+      { kop: "Harde isolatieplaten", tekst: [
+        `Harde platen van pir of pur nemen zelf weinig water op. Het water loopt er eerder langs of blijft erachter staan, tegen het dakbeschot of op de folie. Daar zie je het niet, en daar kan het hout gaan schimmelen of rotten. Bij zulke platen kijk ik dus vooral wat er achter en onder de plaat gebeurt.`,
+      ] },
+      { kop: "Waarom laten zitten geen goed idee is", tekst: [
+        `Natte isolatie houdt het vocht lang vast tegen het hout van je dak. Dat hout droogt dan niet, en na een tijd zie je schimmel of zacht hout. Een natte plek in de isolatie is ook een koude plek, en daar slaat in de winter weer condens op neer. Dan lijkt het alsof het blijft lekken, terwijl het lek allang dicht is. Hoe je condens van een lek onderscheidt, lees je in <a href="/kennisbank/condens-of-lekkage-op-zolder/">condens of lekkage op zolder</a>.`,
+      ] },
+      { kop: "Hoe ik het aanpak", tekst: [
+        `Eerst zoek ik waar het water binnenkomt en maak ik dat dicht. Daarna kijk ik op zolder hoe ver de isolatie nat is. Een klein stuk laat ik liever drogen dan dat ik het vervang. Is een groter stuk door en door nat of ingezakt, dan haal ik dat eruit en zet ik er nieuwe isolatie terug, aan de warme kant netjes dicht met folie. Zie <a href="/diensten/dakisolatie/">dakisolatie</a>.`,
+      ] },
+      { kop: "Wat kost het?", tekst: [
+        `Een lek opsporen en dichten kost meestal ${lekPrijs}, inclusief materiaal. Moet er ook isolatie vervangen worden, dan hangt de prijs af van hoe groot dat stuk is. Je hoort vooraf de vaste prijs, voordat ik begin. Kwam het lek plotseling, bijvoorbeeld door een storm, dan valt schade aan de isolatie soms onder je opstalverzekering. Maak foto's voordat je iets weghaalt. Meer lees je in <a href="/kennisbank/daklekkage-verzekering/">daklekkage en je verzekering</a>.`,
+      ] },
+    ],
+    dienst: { label: "Bekijk: daklekkage & spoed", href: "/diensten/daklekkage/" },
+    faq: [
+      { v: "Droogt natte isolatie vanzelf?", a: `Een klein stuk dat maar kort nat is geweest wel, als er lucht bij kan. Zet de zolder een paar dagen open en haal spullen weg die tegen de natte plek staan. Is het door en door nat, ingezakt of gaat het ruiken, dan droogt het slecht en kun je het beter laten vervangen.` },
+      { v: "Kan ik natte glaswol op zolder zelf weghalen?", a: `Een klein stuk op de zoldervloer kan, met handschoenen, een stofmasker en lange mouwen, want glaswol prikt. Doe het pas als het lek dicht is. Zit de isolatie in het schuine dak achter folie of platen, laat het dan liever zien. Dan zit alles daarna weer goed dicht en komt er geen vochtige lucht achter de isolatie.` },
+      { v: "Moet na een lek mijn hele dak opnieuw geïsoleerd worden?", a: `Meestal niet. Vaak is maar een klein stuk nat geworden, rond de plek waar het water binnenkwam. Dat stuk kijk ik na. Is de rest droog en zit het goed, dan blijft het gewoon liggen.` },
+      { v: "Kan natte isolatie gaan schimmelen?", a: `Ja, als het lang nat blijft, en dan vooral het hout en de folie eromheen. Je ruikt het vaak eerder dan je het ziet. Laat het daarom niet maanden zitten.` },
+    ],
+  },
+  {
     slug: "vochtplek-plafond",
     datum: "2026-10-22",
     titel: "Vochtplek in het plafond?",
