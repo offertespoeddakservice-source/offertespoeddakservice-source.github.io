@@ -78,6 +78,7 @@ export const MATRIX: MatrixCombo[] = [
     hook: "In de oudere wijken met veel straatbomen, zoals de Muntel en de Vliert, valt in oktober en november veel blad in de goot. Blijft dat liggen, dan wordt het in de winter een natte, zware laag waar mos en soms zelfs plantjes in gaan groeien. In nieuwere wijken zoals Maaspoort en Empel staan minder grote bomen, maar daar komt het vuil vooral van het dak zelf: mos en gruis dat bij de uitloop naar de regenpijp blijft hangen. Den Bosch is mijn thuisbasis, dus je goten leegmaken plan ik makkelijk tussendoor.",
     faq: [
       { v: "Wanneer laat ik mijn goot het beste leegmaken als er straatbomen voor mijn huis staan?", a: "Het liefst als de meeste bomen in je straat kaal zijn. Onder oude straatbomen is dat vaak eind november of begin december. Laat je hem eerder doen, dan kan hij een paar weken later alweer vol liggen. Loopt je goot nu al over bij een bui, wacht dan niet: dan maak ik hem nu leeg, en kun je hem na de bladval nog een keer laten doen. Twijfel je, stuur dan een foto van je goot vanaf de straat via WhatsApp." },
+      { v: "In Maaspoort of Empel vind ik vooral gruis en mos in mijn goot. Komt dat van het dak?", a: "Meestal wel. In Maaspoort en Empel liggen op veel daken betonpannen. Na zoveel jaren slijt de bovenlaag, en bij elke bui spoelt er wat korrelig gruis en mos van de pannen naar de goot. Een laagje is normaal. Vind ik bij het leegmaken veel gruis, stukjes pan of dikke plakken mos, dan kijk ik meteen naar de pannen erboven en hoor je wat ik zie. Mos dat blijft groeien kan eraf, maar dat is een aparte klus, en dan hoor je vooraf wat het kost." },
     ],
   },
   {
@@ -97,6 +98,9 @@ export const MATRIX: MatrixCombo[] = [
     plaats: "berlicum",
     dienst: "goten-reinigen",
     hook: "Bij veel vrijstaande huizen en twee-onder-een-kappers in Berlicum en Middelrode staat aan de achterkant een veranda of overkapping tegen het huis. Die heeft een eigen, smal gootje, en daar komt het blad uit de tuin en van het grote dak in terecht. Van beneden zie je dat gootje slecht, en zit het vol, dan loopt het water over de rand van de overkapping of langs de muur. De goten van de huizen zelf zijn in Berlicum vaak flink aan de lengte, zeker bij de vrijstaande huizen en boerderijen aan de rand van het dorp. Ik maak ze van begin tot eind leeg en maak de uitloop naar de regenpijp vrij. Heb je een veranda of overkapping met een eigen goot, zeg het dan als je belt, dan neem ik die mee.",
+    faq: [
+      { v: "Mijn vrijstaande huis heeft lange goten, en er staat ook een schuur. Hoe zit het met de prijs?", a: "De vanaf-prijs op de prijzenpagina geldt voor een rijtjeswoning. Bij een vrijstaand huis met lange goten, een schuur, een garage of een veranda met een eigen gootje is het meer werk. Dan hoor je vooraf de vaste prijs voor de hele klus, met alles wat je wilt laten meenemen. Stuur een paar foto's van je huis vanaf de straat en de tuin via WhatsApp, dan kan ik je vaak meteen een prijs noemen." },
+    ],
   },
 
   // ── Tier B · daklekkage ──────────────────────────────────────────────
@@ -502,6 +506,9 @@ export const MATRIX: MatrixCombo[] = [
     plaats: "veghel",
     dienst: "goten-reinigen",
     hook: "Op een deel van de goten in Veghel ligt een kunststof rooster of een borstel over de hele lengte, bedoeld om het blad tegen te houden. Grof blad blijft er dan bovenop liggen, maar zaadjes, gruis van de pannen en losgekomen mos zakken er gewoon doorheen. Daaronder slibt de goot langzaam dicht, en omdat je van beneden alleen het rooster ziet, lijkt hij schoon. Ik haal het rooster of de borstel eruit, maak de goot eronder leeg, maak de uitloop naar de regenpijp vrij en leg alles daarna weer terug. Bij veel twee-onder-een-kappers en vrijstaande huizen in Mariaheide en de andere kerkdorpen staat naast het huis een garage of berging met een eigen, lage goot. Nogal eens komt de regenpijp van het grote dak daarop uit. Bij een flinke bui krijgt die kleine goot dan het water van twee daken, en zit hij een beetje vol, dan loopt hij over tegen de muur. Die lage goot neem ik dus ook mee. Zie ik iets aan je pannen of het lood, dan hoor je dat meteen.",
+    faq: [
+      { v: "Bij mij komt de regenpijp van het grote dak uit op de goot van de garage. Is dat erg?", a: "Niet meteen, maar die kleine goot krijgt bij een bui dan het water van twee daken. Zit hij een beetje vol, dan loopt hij over tegen de muur van je garage of je huis. Houd hem dus goed leeg, zeker na de bladval. Loopt hij toch steeds over, dan kan de regenpijp van het grote dak vaak een stuk langer worden gemaakt, langs de garage naar beneden. Waar het water dan heen gaat, naar het riool of de tuin, bekijken we samen ter plekke. Stuur me een foto van de garage met de regenpijp, dan hoor je vooraf wat het kost." },
+    ],
   },
   // Dakreparatie in Oisterwijk (Search Console: dakreparatie oisterwijk 17 vertoningen op plek 33, dakdekker oisterwijk 65 op plek 27, nog geen eigen pagina), met andere lokale inhoud dan plaatsen.ts en de lekkage-, goot-, dakgoot- en stormpagina van Oisterwijk
   {
