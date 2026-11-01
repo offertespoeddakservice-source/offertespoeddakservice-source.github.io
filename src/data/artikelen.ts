@@ -66,6 +66,7 @@ export const ARTIKELEN: Artikel[] = [
       { v: "Kun je vandaag nog komen?", a: "Bij spoed in de regio Den Bosch vaak wel. Bel of WhatsApp, dan hoor je meteen wanneer ik kan." },
       { v: "Wat kost het om een daklekkage te laten opsporen?", a: `Bij mij hoort het zoeken bij de reparatie. Ik kijk van buiten en op zolder waar het water binnenkomt, en je hoort één vaste prijs voor opsporen en dichten samen, meestal ${lekPrijs} inclusief materiaal. Is er toch extra meetwerk nodig, dan hoor je dat vooraf.` },
       { v: "Kan ik zelf zien waar mijn dak lekt?", a: "Een eind wel. Ga bij regen met een zaklamp op zolder kijken en volg vanaf de natte plek het hout en de folie omhoog. Vaak zie je een natte streep op een balk die naar de echte plek wijst. Van buiten kun je vanaf de straat kijken naar scheve pannen, lood dat los staat bij de schoorsteen of een goot die overloopt. Ga zelf niet het dak op." },
+      { v: `Is lekdetectie met een warmtecamera nodig om een daklek te vinden?`, a: `Meestal niet. Een warmtecamera laat zien waar iets kouder of natter is, maar die plek zit vaak een eind van het echte lek, net als de natte plek op je plafond. Bij een pannendak vind ik het lek meestal door van buiten naar de pannen, het lood en de naden te kijken en op zolder het spoor van het water te volgen. Lukt dat niet, bijvoorbeeld bij een plat dak met isolatie eronder, dan kan gericht meetwerk helpen. Dan hoor je vooraf wat dat kost.` },
     ],
   },
   {
