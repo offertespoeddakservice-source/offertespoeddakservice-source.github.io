@@ -1564,6 +1564,7 @@ export const ARTIKELEN: Artikel[] = [
       { v: "Wat als een dakdekker meerwerk wil doorberekenen zonder dat vooraf te zeggen?", a: "Spreek vooraf af dat extra werk eerst met jou wordt overlegd, met een prijs op papier of in een appje. Gebeurt het toch zonder overleg, vraag dan om uitleg en betaal niet zomaar. Twijfel je over je rechten, dan kun je gratis advies vragen bij het Juridisch Loket." },
       { v: "Ik denk dat ik ben opgelicht door een dakdekker, wat nu?", a: "Bewaar alles: de offerte, betaalbewijzen, berichten en foto's. Doe aangifte bij de politie en meld het bij de Fraudehelpdesk. Heb je aan de deur iets getekend, dan heb je vaak 14 dagen bedenktijd. Laat het werk door een andere vakman bekijken voordat je nog iets betaalt." },
       { v: "Welke keurmerken zijn er voor dakdekkers?", a: "Bekende namen in de dakenbranche zijn het keurmerk Dakmerk en de branchevereniging Vebidak. Zo'n keurmerk betekent dat een bedrijf aan bepaalde eisen voldoet. Maar het zegt niet alles: let ook op een vaste prijs op papier, een KvK-inschrijving en één vast aanspreekpunt." },
+      { v: `Hoe weet ik of de reviews van een dakdekker echt zijn?`, a: `Kijk waar ze staan. Reviews op een platform waar de vakman ze niet zelf kan schrijven of aanpassen, zoals Werkspot of Google, zeggen meer dan losse citaten op zijn eigen site. Lees ook de korte en de minder goede reviews, en kijk of ze gaan over het soort klus dat jij nodig hebt. Mijn reviews staan op Werkspot, en via mijn over-pagina kun je ze daar allemaal nalezen.` },
     ],
   },
   {
