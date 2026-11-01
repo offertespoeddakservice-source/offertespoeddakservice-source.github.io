@@ -249,6 +249,9 @@ export const MATRIX: MatrixCombo[] = [
     plaats: "berlicum",
     dienst: "stormschade",
     hook: "Rond Berlicum en Middelrode ligt veel open land, en bij de vrijstaande huizen aan de rand van het dorp en de boerderijen in het buitengebied heeft de wind vrij spel. Na een storm zit de schade daar meestal aan de kant van het huis die naar het open land kijkt: pannen langs de rand van het dak die zijn opgetild, of een nokvorst die is gaan schuiven. Kijk na een storm dus eerst aan die kant, vanaf de grond. Staat er een garage, schuur of carport naast het huis, kijk dan ook naar dat dak, want een licht dak van platen waait eerder op dan een pannendak. Ga zelf niet het dak of de ladder op, maar stuur me een foto via WhatsApp. Is je dak open, dan dek ik het eerst af, zodat het binnen droog blijft, en daarna herstel ik het netjes.",
+    faq: [
+      { v: "Het dak van mijn carport of garage is bij de storm beschadigd. Wat doe ik?", a: "Blijf er weg zolang het waait, want een losse plaat kan bij de volgende windstoot verder scheuren of wegwaaien. Ga er niet zelf op staan. Maak vanaf de grond een foto en stuur die via WhatsApp. Zijn het oude golfplaten van voor 1994, dan kan er asbest in zitten. Daar boor of zaag ik niet in, en dan heb je een gecertificeerd asbestbedrijf nodig. Is het een gewone plaat of dakbedekking, dan zet ik die weer vast of vervang ik het kapotte stuk. Je hoort vooraf wat het kost." },
+    ],
   },
   {
     plaats: "vlijmen",
@@ -278,6 +281,9 @@ export const MATRIX: MatrixCombo[] = [
     plaats: "schijndel",
     dienst: "stormschade",
     hook: "Op een deel van de oudere daken in Schijndel staat nog een antenne of een schotel die niemand meer gebruikt. Bij een storm gaat die heen en weer, en de mast of de beugel schuurt of breekt de pannen eromheen. Waait hij om, dan valt hij vaak over de nok en neemt hij een paar nokvorsten mee. Gebruik je zo'n antenne niet meer, laat hem dan weghalen voordat de winterstormen komen. Rond Wijbosch en in het buitengebied staan boerderijen met een groot dak en vaak een schuur ernaast, en over het open land waait het daar flink. Kijk na een storm dus ook naar het dak van de schuur, want dat vergeet je snel. Ga zelf niet het dak op, maar stuur me een foto vanaf de grond. Is er een open plek, dan maak ik die eerst dicht, en daarna volgt de nette reparatie.",
+    faq: [
+      { v: "Na de storm ligt er een stuk van een nokvorst in mijn tuin. Moet de hele nok opnieuw?", a: "Niet per se. Kijk eerst vanaf de straat of er een gat in de nok zit en of de andere vorsten nog recht liggen. Op veel oudere daken in Schijndel liggen de vorsten nog in specie, en als die bros is, gaat er bij een storm vaak eerst één vorst schuiven. Zit er een gat, dan regent het daar op het hoogste punt van je dak naar binnen, en dan dek ik die plek eerst af. Daarna kijk ik of alleen die vorst terug kan of dat de specie over de hele nok op is. Dat zeg ik je eerlijk, en je hoort vooraf wat het kost." },
+    ],
   },
   {
     plaats: "heusden",
@@ -291,6 +297,9 @@ export const MATRIX: MatrixCombo[] = [
     plaats: "sint-michielsgestel",
     dienst: "stormschade",
     hook: "In het oude centrum van Gestel en langs de Dommel staan veel huizen van voor de oorlog met een steil pannendak. Bij een deel daarvan liggen de pannen nog direct op de latten, zonder folie eronder. Waait er bij een storm één pan weg of scheef, dan regent het daar meteen op zolder, want er zit niets onder dat het water opvangt. Kijk na een storm daarom ook even op zolder met een zaklamp: zie je ergens daglicht tussen de pannen door, dan ligt daar een pan niet goed. In Den Dungen, Gemonde en Maaskantje staan meer boerderijen en vrijstaande huizen in het open land, en daar kijk ik na een storm vooral naar de nok en de pannen langs de rand van het dak. Ga zelf niet het dak op, maar stuur me een foto vanaf de grond. Is je dak open, dan dek ik het eerst af en herstel ik het daarna netjes.",
+    faq: [
+      { v: "Ik zie na de storm op zolder daglicht tussen de pannen. Wat doe ik nu?", a: "Dan ligt daar een pan scheef of mist er een. Bij de oude huizen in Gestel zonder folie onder de pannen komt de regen op die plek meteen binnen. Leg op zolder een zeil of een paar handdoeken onder die plek en zet er een emmer neer. Duw de pan niet zelf van binnenuit terug, want dan schuift hij vaak verder weg of breekt hij. Maak een foto van binnen en, als het lukt, van die kant van het dak vanaf de straat, en stuur die via WhatsApp. Een open plek dek ik eerst af, en daarna leg ik de pannen weer goed." },
+    ],
   },
   {
     plaats: "oisterwijk",
