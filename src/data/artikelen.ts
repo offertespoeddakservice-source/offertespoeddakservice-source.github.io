@@ -1516,6 +1516,7 @@ export const ARTIKELEN: Artikel[] = [
       { v: "Komt het mos terug?", a: "Op den duur wel, zeker aan de noordkant en onder bomen. Laat het niet te dik worden: af en toe reinigen en elk najaar de goten leeg houdt het meestal goed in de hand." },
       { v: "Wanneer laat je mos het beste weghalen?", a: "Het liefst op een droge dag in het voorjaar of in het begin van de herfst. Op een nat of bevroren dak is het glad en werk je niet veilig. Laat het weghalen voordat je goten worden leeggemaakt, want het losse mos komt toch in de goot terecht." },
       { v: "Wat kost het om mos van je dak te laten halen?", a: `Dak reinigen en ontmossen kost ${ontmosPrijs}. Het hangt af van hoe groot je dak is en hoeveel mos erop zit. Je hoort de vaste prijs vooraf, en het losse mos haal ik meteen uit de goot.` },
+      { v: "Hoe haal je mos van een plat dak met bitumen?", a: "Niet met een harde schraper of een hogedrukreiniger, want dan haal je de toplaag met de steentjes van het bitumen af en wordt de dakbedekking sneller oud. Kun je veilig op het dak komen, veeg dan op een droge dag los mos en blad met een zachte bezem bij elkaar en haal het op, en houd vooral de afvoer vrij. Ga er niet op bij regen, wind of vorst. Zit het mos vast in de naden of groeit er gras op het dak, stuur me dan een foto. Dan kijk ik of de dakbedekking eronder nog goed is." },
     ],
   },
   {
