@@ -158,6 +158,46 @@ export const ARTIKELEN: Artikel[] = [
     ],
   },
   {
+    slug: "lekkage-gedeelde-schoorsteen",
+    datum: "2026-11-02",
+    titel: "Lekt de schoorsteen die je deelt met de buren?",
+    h1: "Lekkage bij een gedeelde schoorsteen: waar het zit en hoe je het met de buren regelt",
+    metaTitle: "Gedeelde schoorsteen lekt: wat nu? | Spoed Dak Service",
+    metaDescription: "Lekt het bij de schoorsteen op de muur tussen jou en de buren? Zo zie je aan welke kant het lek zit, hoe je de kosten samen regelt en wat ik eraan doe.",
+    intro: "Bij veel rijtjeshuizen en twee-onder-een-kappers staat de schoorsteen precies op de muur tussen jou en de buren. Er zitten dan vaak twee kanalen in, één voor elk huis. Druppelt het bij jou naast de schoorsteen, dan kan het lek net zo goed aan de kant van de buren zitten. Hieronder lees je hoe je dat uitzoekt, wat er bij een gedeelde schoorsteen vaak misgaat en hoe je het samen regelt.",
+    secties: [
+      { kop: "Lekt het nu? Eerst dit", tekst: ['Zet een emmer onder de druppel, haal spullen weg en maak een foto van de natte plek. Ga niet zelf het dak op, ook niet aan de kant van de buren. Wat je verder meteen kunt doen, staat op de <a href="/spoed/">spoedpagina</a>.'] },
+      { kop: "Aan welke kant zit het lek?", tekst: [
+        "Water loopt onder de pannen en langs de stenen vaak een stuk opzij voordat het binnenkomt. Een natte plek aan jouw kant van de muur zegt dus niet zeker dat het lek ook aan jouw kant zit.",
+        "Vraag de buren of zij op zolder ook iets zien rond de schoorsteen. Is het bij hen droog en bij jou nat, dan zit het vaker in het lood of de pannen aan jouw kant. Is het bij allebei nat, dan zit het vaak bovenin: in de kop of de afdekplaat van de schoorsteen, die van jullie samen is.",
+        "Let ook op wanneer het lekt. Gebeurt het vooral bij wind uit één richting, dan zit het vaak aan de kant van de schoorsteen waar die wind op staat, ook als dat de kant van de buren is.",
+      ] },
+      { kop: "Waar het bij een gedeelde schoorsteen vaak misgaat", tekst: [
+        "Op de grens. Is één van de twee daken ooit vernieuwd, dan is het lood aan die kant vaak opnieuw gelegd en aan de andere kant niet. Midden op de schoorsteen sluit het nieuwe lood dan niet altijd goed aan op het oude, en daar kan het water achter lopen.",
+        "Bij een kanaal dat niet meer gebruikt wordt. Heeft één van jullie de kachel weggehaald, dan staat dat kanaal soms open zonder kap. De regen valt erin en trekt in de stenen, en omdat de kanalen naast elkaar in dezelfde schoorsteen zitten, kan het vocht ook bij de ander naar binnen komen.",
+        "Bij de kop. De afdekplaat of het metselwerk bovenop is van jullie allebei. Zit daar een scheur in, dan merken vaak beide huizen het.",
+      ] },
+      { kop: "Wie betaalt de reparatie?", tekst: [
+        "Een schoorsteen op de muur tussen twee huizen is meestal van de twee eigenaren samen. Gaat het om de kop, de afdekplaat of het lood op de grens, dan ligt het voor de hand om de kosten te delen. Zit het lek duidelijk in een pan of een stuk lood aan één kant, dan betaalt die kant het vaak zelf. Wat er bij jullie precies geldt, kan in de koopakte staan of in de afspraken van de VvE. Huur je, meld het lek dan bij je verhuurder.",
+        'Spreek vooraf met de buren af hoe jullie het verdelen, voordat er gewerkt wordt. Dat scheelt gedoe achteraf. Voor de schade binnen kijk je naar je eigen verzekering. Hoe dat zit als het lek bij de buren zit, lees je in <a href="/kennisbank/daklekkage-verzekering/">daklekkage en je verzekering</a>.',
+      ] },
+      { kop: "Hoe ik het aanpak", tekst: [
+        "Ik bekijk de schoorsteen het liefst van twee kanten, dus ook vanaf het dakvlak van de buren. Daar heb ik hun toestemming voor nodig, want ik ga niet zomaar op hun dak staan. Vraag dat dus even voordat ik kom.",
+        'Daarna zeg ik eerlijk waar het lek zit en wat er nodig is: een stuk lood weer vastzetten of vervangen, een pan naast de schoorsteen rechtleggen, of een kap of afdekplaat op het kanaal dat niet meer gebruikt wordt. Zit het in het metselwerk zelf, dan heb je een metselaar nodig. Ik maak foto\'s van wat ik zie, zodat jullie allebei weten waar het om gaat. Zie <a href="/diensten/dakreparatie/">dakreparatie</a>.',
+      ] },
+      { kop: "Wat kost het?", tekst: [
+        `Een losse loodslab of een pan naast de schoorsteen herstellen is meestal een gewone lekreparatie: ${lekPrijs}, inclusief het opsporen en het materiaal. Nieuw lood rond de hele schoorsteen of een kap op een kanaal is een andere klus. Je hoort vooraf de vaste prijs, zodat jullie die samen kunnen verdelen voordat ik begin.`,
+      ] },
+    ],
+    dienst: { label: "Bekijk: dakreparatie (lood en pannen)", href: "/diensten/dakreparatie/" },
+    faq: [
+      { v: "Het lekt bij mij, maar de schoorsteen staat ook op het dak van de buren. Moet ik het hen vertellen?", a: "Ja, doe dat meteen. Het lek kan aan hun kant zitten, en voor een goede reparatie moet ik vaak ook hun kant van de schoorsteen kunnen bekijken. Vraag of zij op zolder ook een natte plek zien. Dat helpt bij het zoeken." },
+      { v: "De buren willen niet meebetalen. Wat nu?", a: "Laat eerst vaststellen waar het lek zit. Met foto's van de plek wordt het gesprek met de buren een stuk makkelijker. Zit het duidelijk aan jouw kant, dan kun je het zelf laten repareren. Zit het in de kop of op de grens en komen jullie er samen niet uit, dan kun je advies vragen bij het Juridisch Loket of bij je rechtsbijstandsverzekering, als je die hebt." },
+      { v: "De buren gebruiken hun kanaal niet meer, ik stook nog wel. Kan er dan op één kanaal een kap?", a: "Ja. Elk kanaal heeft zijn eigen opening bovenop de schoorsteen. Op het kanaal dat niet meer gebruikt wordt, kan een kap of afdekplaat die het kanaal nog wel laat ademen. Jouw kanaal krijgt een kap die past bij een schoorsteen die nog in gebruik is, of blijft open. Laat wel goed vaststellen welk kanaal van wie is, zodat er niet per ongeluk een kanaal wordt afgedekt dat nog in gebruik is." },
+      { v: "Hoe kan ik zelf zien of er iets mis is met de schoorsteen?", a: "Kijk vanaf de overkant van de straat of uit een raam, en zoom in met de camera van je telefoon. Let op lood dat van de stenen af staat, een kap die scheef staat, scheuren in de bovenkant en pannen rond de schoorsteen die anders liggen dan de rest. Ga niet zelf het dak op. Stuur me de foto via WhatsApp, dan zeg ik wat ik zie." },
+    ],
+  },
+  {
     slug: "condens-of-lekkage-op-zolder",
     datum: "2026-10-20",
     titel: "Condens of lekkage op zolder?",
