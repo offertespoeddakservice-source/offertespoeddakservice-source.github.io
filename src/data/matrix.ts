@@ -173,6 +173,9 @@ export const MATRIX: MatrixCombo[] = [
     plaats: "drunen",
     dienst: "goten-reinigen",
     hook: "Aan de zuidkant van Drunen, tegen de Loonse en Drunense Duinen aan, staan veel dennen. Dennennaalden zijn dun en glad. Ze glijden zo door een bolrooster of bladvanger heen en vormen onderin de goot een viltige mat die het water vasthoudt. Binnen een jaar groeit daar mos in, en dan loopt de goot bij een flinke bui over, terwijl je van beneden bijna niets ziet liggen. Een den laat het hele jaar door naalden vallen, en in de herfst het meest, dus onder dennen raakt een goot ook buiten de herfst vol. Ik haal de mat er van begin tot eind uit, ook onder een rooster, en maak de uitloop naar de regenpijp vrij. Zie ik iets aan je pannen of het lood, dan hoor je dat meteen.",
+    faq: [
+      { v: "Hoe vaak moet mijn goot leeg als er dennen bij mijn huis staan?", a: "Onder dennen vaak twee keer per jaar. Een den laat het hele jaar door naalden vallen, en in de herfst het meest. Laat je goot daarom laat in de herfst leegmaken, en kijk in het voorjaar of hij alweer vol zit. Aan de kant van de duinen zit er ook zand tussen de naalden, en dat maakt de laag onderin zwaar en dicht. Zie je bij een bui water over de rand komen, wacht dan niet. Je hoort vooraf wat het kost." },
+    ],
   },
   {
     plaats: "boxtel",
@@ -196,6 +199,9 @@ export const MATRIX: MatrixCombo[] = [
     plaats: "sint-michielsgestel",
     dienst: "goten-reinigen",
     hook: "Bij een deel van de huizen in Gestel en Den Dungen zit halverwege de regenpijp een bladvanger: een stuk pijp met een rooster erin en een klepje aan de voorkant. Onder de eiken en beuken langs de Dommel raakt dat rooster in de herfst snel vol. Dan staat de regenpijp bij een bui tot bovenin vol water en loopt de goot over bij de uitloop, terwijl hij zelf bijna leeg is. Daarom maak ik niet alleen de goot leeg en de uitloop vrij, maar open ik ook de bladvanger en maak ik het rooster schoon. Dat klepje kun je daarna zelf af en toe vanaf de grond openen, dan zie je meteen of er weer blad in zit. Zie ik iets aan je pannen, de vorsten of het lood, dan hoor je dat meteen.",
+    faq: [
+      { v: "Hoe maak ik de bladvanger in mijn regenpijp zelf schoon?", a: "Bij de meeste bladvangers zit aan de voorkant een klepje of een deksel. Open dat op een droge dag vanaf de grond, haal het blad en de eikels uit het rooster en klik het weer dicht. Onder de eiken en beuken langs de Dommel doe je dat in de herfst het best eens in de paar weken. Zit de goot zelf vol, of komt er bij een bui water over de rand terwijl de bladvanger schoon is, dan maak ik de goot leeg. Ga daarvoor zelf niet de ladder op." },
+    ],
   },
   {
     plaats: "oisterwijk",
