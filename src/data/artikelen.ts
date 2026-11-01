@@ -1810,6 +1810,47 @@ export const ARTIKELEN: Artikel[] = [
       { v: "Is het erg als het maar een klein beetje lekt?", a: "Een beetje water langs de muur lijkt weinig, maar het trekt in het plafond en het hout van de aanbouw. Na een tijd zie je schimmel of loslatende verf. Laat het daarom nakijken, ook als het maar af en toe druppelt." },
     ],
   },
+  {
+    slug: "veranda-of-overkapping-lekt",
+    datum: "2026-11-01",
+    titel: "Veranda of overkapping lekt?",
+    h1: "Veranda of overkapping lekt: bij de muur, tussen de platen of bij de goot",
+    metaTitle: "Overkapping of veranda lekt: oorzaken | Spoed Dak Service",
+    metaDescription: `Druppelt het onder je veranda of overkapping? Meestal zit het bij de muur, tussen de platen of in het gootje aan de voorkant. Zo zie je waar het bij jou zit.`,
+    intro: `Een veranda of overkapping tegen je huis is fijn, tot het eronder gaat druppelen. Meestal zit het op een van drie plekken: waar de overkapping tegen de muur van je huis zit, bij een naad tussen de platen, of in het smalle gootje aan de voorkant. Hieronder lees je hoe je ziet waar het bij jou zit en wat eraan te doen is.`,
+    secties: [
+      { kop: "Druppelt het nu? Eerst dit", tekst: [
+        `Zet kussens en tuinmeubels droog en leg iets onder de druppel als hij op hout of tegels valt waar je over loopt. Ga niet op de platen staan of ertegen leunen. De meeste overkappingen zijn daar niet op gebouwd, en een kunststof plaat buigt of breekt zo. Maak een foto van de plek waar het druppelt en, als het lukt, uit een raam boven een foto van de overkapping. Lekt het ook binnen in huis, kijk dan op de <a href="/spoed/">spoedpagina</a> wat je meteen kunt doen.`,
+      ] },
+      { kop: "Druppelt het langs de muur van je huis?", tekst: [
+        `Waar de overkapping tegen de gevel zit, ligt meestal een strook lood of zink, of een aluminium profiel met kit erachter. Die moet het water dat langs de muur naar beneden loopt over de platen leiden. Laat die strook los of is de kit uitgedroogd, dan loopt het water erachter langs en druppelt het precies langs de muur naar beneden.`,
+        `Het kan ook water zijn dat bij een flinke bui met wind door de gevel erboven zakt en net boven de overkapping naar buiten komt. Lekt het vooral als de regen tegen die muur slaat, en soms pas uren later, dan zit het vaker in de muur dan in de overkapping. Bij een aanbouw met een plat dak werkt dat net zo: zie <a href="/kennisbank/lekkage-bij-aanbouw/">lekkage bij de aanbouw</a>.`,
+      ] },
+      { kop: "Druppelt het onder een naad tussen de platen?", tekst: [
+        `Kunststof platen liggen op liggers, met rubbers of profielen ertussen, en zijn aan de bovenkant vastgezet met een profiel of schroeven. Na een paar jaar zon en vorst krimpt zo'n rubber of schuift een plaat een stukje, en dan loopt het water langs de naad naar beneden. Zie je druppels langs een ligger, precies onder een naad, dan zit het meestal daar.`,
+        `Zie je groen of vocht in de kanaaltjes van een kanaalplaat, dan is de afsluiting aan de boven- of onderkant van de plaat vaak niet meer dicht. En zitten er op een koude ochtend druppels verspreid onder een plaat, ook als het niet heeft geregend, dan is dat meestal condens en geen lek.`,
+      ] },
+      { kop: "Loopt het over aan de voorkant?", tekst: [
+        `Aan de voorkant van de meeste overkappingen hangt een smalle goot, met een dunne regenpijp die vaak in een van de palen is weggewerkt. Daar komt het blad uit je tuin in terecht. Komt de regenpijp van het grote dak op de overkapping uit, dan krijgt dat gootje bij een flinke bui ook nog het water van je hele dak. Zit het vol, of is de pijp in de paal dicht, dan loopt het water over de voorkant of terug onder de platen. Van beneden zie je dat gootje slecht, dus het wordt makkelijk vergeten.`,
+      ] },
+      { kop: "Blad en mos op de platen", tekst: [
+        `Onder bomen blijft in de herfst veel blad op de platen liggen, vooral in de hoek tegen de muur. Dat houdt water vast, en daar groeien mos en algen in. Het water loopt dan niet meer goed naar de goot en blijft tegen de aansluiting bij de muur staan. Haal het blad er een paar keer per jaar af, met een zachte bezem aan een lange steel of vanaf een ladder naast de overkapping, en niet staand op de platen.`,
+      ] },
+      { kop: "Hoe ik het aanpak", tekst: [
+        `Ik kijk eerst waar het water echt naar binnen komt: bij de muur, bij een naad tussen de platen of bij het gootje. Een losse strook langs de muur zet ik weer goed vast of ik vervang hem, en het gootje maak ik leeg, met de uitloop naar de regenpijp vrij. Ligt een plaat scheef of zit hij los, dan kijk ik of hij vast kan of vervangen moet worden. Zit het in de muur zelf, in de voegen of de stenen, dan zeg ik dat eerlijk: daarvoor heb je een metselaar nodig. Zie ook <a href="/diensten/platte-daken/">platte daken</a>.`,
+      ] },
+      { kop: "Wat kost het?", tekst: [
+        `Dat hangt af van waar het zit en hoeveel werk het is. Een vol gootje leegmaken is iets anders dan een nieuwe aansluiting langs de muur. Je hoort vooraf de vaste prijs, voordat ik begin. Richtprijzen staan op de <a href="/prijzen/">prijzenpagina</a>.`,
+      ] },
+    ],
+    dienst: { label: "Bekijk: platte daken", href: "/diensten/platte-daken/" },
+    faq: [
+      { v: "Kan ik de naad tussen mijn overkapping en de muur zelf dichtkitten?", a: `Een likje kit houdt het soms even droog, maar meestal niet lang. Zit de strook los of komt het water door de muur erboven, dan kit je de verkeerde plek dicht. Maak liever een foto van de muur boven de overkapping en van de plek waar het druppelt, en stuur die via WhatsApp.` },
+      { v: "De regenpijp van mijn dak komt uit op de overkapping. Is dat erg?", a: `Het hoeft niet mis te gaan, maar bij een stortbui krijgt het smalle gootje van de overkapping dan het water van je hele dak. Loopt het daardoor over, dan kan de regenpijp vaak met een verlengstuk tot in de goot of langs de paal naar beneden worden doorgezet. Wat bij jou kan, bekijk ik ter plekke.` },
+      { v: "Mag ik op mijn overkapping lopen om het blad eraf te halen?", a: `Liever niet. De meeste overkappingen zijn niet gemaakt om op te lopen, en kunststof platen buigen of breken zo. Haal het blad weg met een zachte bezem aan een lange steel, of vanaf een ladder naast de overkapping.` },
+      { v: "Is een lekkende overkapping spoed?", a: `Meestal niet, zolang het water buiten blijft. Komt het water ook binnen in huis, bijvoorbeeld langs de muur of bij een kozijn, dan wel. Bel of app me dan met een foto.` },
+    ],
+  },
 ];
 
 export const getArtikel = (slug: string) => ARTIKELEN.find((a) => a.slug === slug);
