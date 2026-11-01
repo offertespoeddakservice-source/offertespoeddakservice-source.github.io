@@ -74,7 +74,7 @@ export const ARTIKELEN: Artikel[] = [
     datum: "2026-10-19",
     titel: "Lekkage bij de schoorsteen",
     h1: "Lekkage bij de schoorsteen: waar het zit en wat eraan te doen is",
-    metaTitle: "Lekkage bij schoorsteen: oorzaken | Spoed Dak Service",
+    metaTitle: "Schoorsteenlekkage: oorzaak en reparatie | Spoed Dak Service",
     metaDescription:
       "Lekkage bij de schoorsteen? Meestal zit het in het lood, de loodslabben of de kop van de schoorsteen. Zo herken je het en zo pak ik het aan, zonder onnodig sloopwerk.",
     intro:
