@@ -108,6 +108,7 @@ export const ARTIKELEN: Artikel[] = [
       { v: "Is lekkage bij de schoorsteen altijd het lood?", a: "Vaak wel, maar niet altijd. Het kan ook de kop van de schoorsteen zijn, een verschoven pan of het metselwerk. Daarom kijk ik eerst goed voordat ik iets doe." },
       { v: "Kan ik het lood zelf dichtkitten?", a: "Een likje kit houdt het soms even droog, maar meestal niet lang. Lood dat los zit moet goed vast of vervangen worden, anders lekt het bij de volgende flinke bui weer." },
       { v: "Kun je snel komen als het binnen druppelt?", a: "Bij spoed in de regio Den Bosch lukt dat vaak nog dezelfde dag. Bel of WhatsApp me met een foto." },
+      { v: "Wat kost het om lekkage bij de schoorsteen te laten repareren?", a: `Zit het lek in een stuk lood dat los zit of in een pan naast de schoorsteen, dan valt het meestal onder een gewone lekreparatie: ${lekPrijs}, inclusief het opsporen en het materiaal. Moet het lood rondom de hele schoorsteen vernieuwd worden, dan is het meer werk. Ook dan hoor je vooraf de vaste prijs, voordat ik begin.` },
     ],
   },
   {
@@ -276,6 +277,7 @@ export const ARTIKELEN: Artikel[] = [
       { v: "Is een natte plek in het plafond spoed?", a: "Druppelt het of wordt de plek snel groter, dan wel. Hoe langer het lekt, hoe meer schade aan het plafond, de isolatie en het hout. Bel of WhatsApp me met een foto. Is het een oude, droge kring, dan kan het meestal even wachten, maar laat het wel nakijken." },
       { v: "Kun je ook helpen als het een leiding is?", a: "Nee, daarvoor heb je een loodgieter nodig. Twijfel je, stuur dan een foto via WhatsApp. Dan zeg ik eerlijk of het van het dak komt of niet." },
       { v: "Kan ik over een vochtplek in het plafond heen schilderen?", a: "Pas als de oorzaak is opgelost en het plafond helemaal droog is. Dat duurt na een lek vaak een paar weken. Schilder je eerder, dan komt de kring meestal terug. Gebruik een verf die vlekken afdekt, want door gewone muurverf schemert een bruine kring vaak weer heen." },
+      { v: "Er zit nog een verdieping boven de natte plek. Kan het dan toch van het dak komen?", a: "Soms wel. Water van een overlopende goot, een lekkende bakgoot of de aansluiting van een aanbouw kan binnen in de buitenmuur naar beneden zakken en een verdieping lager naar buiten komen. Zit de plek tegen een buitenmuur en wordt hij alleen na regen nat, kijk dan ook naar de goot en de gevel erboven. Zit hij midden in de kamer, onder een badkamer of keuken, dan is een leiding veel waarschijnlijker." },
     ],
   },
   {
