@@ -40,6 +40,9 @@ const BIJGEWERKT: Record<string, string> = {
   "dakinspectie": "2026-10-31",
 };
 const bijgewerkt = BIJGEWERKT[a.slug] ?? a.datum;
+const MAANDEN = ["januari", "februari", "maart", "april", "mei", "juni", "juli", "augustus", "september", "oktober", "november", "december"];
+// Maand en jaar uit de echte datum, zodat 'Bijgewerkt' ook na oktober klopt. Zonder datum blijft het juni 2026, zoals voorheen.
+const bijgewerktTekst = bijgewerkt && /^\d{4}-\d{2}/.test(bijgewerkt) ? `${MAANDEN[Number(bijgewerkt.slice(5, 7)) - 1]} ${bijgewerkt.slice(0, 4)}` : "juni 2026";
 const path = `/kennisbank/${a.slug}`;
 const idx = ARTIKELEN.findIndex((x) => x.slug === a.slug);
 // Lees ook: eerst artikelen over hetzelfde onderwerp, daarna aanvullen met de volgende uit de lijst.
@@ -118,7 +121,7 @@ const schema = faqSchema ? [articleSchema, faqSchema] : articleSchema;
       <p class="eyebrow" style="color:#ffb486;">Kennisbank</p>
       <h1>{a.h1}</h1>
       <p class="lead">{a.intro}</p>
-      <p style="color:#9fb4c9; font-size:.9rem; margin-top:10px;">Bijgewerkt: {bijgewerkt?.startsWith("2026-10") ? "oktober 2026" : "juni 2026"} · door <a href="/over/" style="color:inherit; text-decoration:underline;">{SITE.eigenaar}</a>, dakdekker regio Den Bosch</p>
+      <p style="color:#9fb4c9; font-size:.9rem; margin-top:10px;">Bijgewerkt: {bijgewerktTekst} · door <a href="/over/" style="color:inherit; text-decoration:underline;">{SITE.eigenaar}</a>, dakdekker regio Den Bosch</p>
     </div>
   </section>
 
