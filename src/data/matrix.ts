@@ -505,4 +505,14 @@ export const MATRIX: MatrixCombo[] = [
       { v: "Kan ik mijn dak in delen laten renoveren?", a: "Ja, dat kan. Vaak is één dakvlak er slechter aan toe dan de rest, bijvoorbeeld de kant op het noorden, waar het mos het langst nat blijft, of de achterkant onder de bomen. Dan kun je eerst dat dakvlak laten doen en de rest later. Bij een rijtjeshuis kijk ik ook naar de overgang naar het dak van de buren, zodat die dicht blijft. Je hoort vooraf wat elk deel kost." },
     ],
   },
+  // Daklekkage in Wijchen (Rens 23-10: ja, ook bij spoed en lekkage in Wijchen; Search Console: plaatspagina Wijchen 75 vertoningen, dakdekker wijchen 17, nog geen eigen lekkagepagina), met andere lokale inhoud dan plaatsen.ts
+  {
+    plaats: "wijchen",
+    dienst: "daklekkage",
+    hook: "In Wijchen-Zuid en de andere wijken uit de jaren '70 en '80 hebben veel rijtjeshuizen en twee-onder-een-kappers een dakraam in het schuine dak en een berging of aanbouw met een plat dak achter het huis. Lekt het daar, dan kijk ik eerst naar het gootstuk onder het dakraam en naar de strook lood of zink waar het platte dak tegen de achtergevel omhoog loopt. In Niftrik en Batenburg, aan de Maas, staan oude dijkhuizen en boerderijen met een groot pannendak. Over de rivier en de uiterwaarden heeft de wind daar vrij spel, en na een storm gaat een pan langs de rand van het dak daar eerder omhoog dan in een straat vol huizen. Bij een oude schoorsteen zit een lek vaak in het lood eromheen. Wijchen is zo'n 25 minuten rijden vanaf Den Bosch. Stuur me eerst een foto van de natte plek en van die kant van je dak via WhatsApp, dan zie ik vaak al waar ik moet zoeken.",
+    faq: [
+      { v: "Het lekt achter in mijn huis. Komt het van het dakraam of van het platte dak van de aanbouw?", a: "Kijk waar het nat wordt. Zit de natte plek boven, op het schuine plafond of op de muur onder het dakraam, dan komt het water meestal van het gootstuk of het lood rond het raam. Zit hij beneden in de aanbouw, vlak langs de muur van het huis, dan zit het vaker in de aansluiting van het platte dak op de gevel. Stuur me een foto van de natte plek binnen en, als het lukt, uit een raam boven een foto van het dak van de aanbouw." },
+      { v: "Mijn huis staat aan de dijk bij Niftrik of Batenburg. Waar kijk ik naar na een storm?", a: "Kijk eerst naar de kant van je dak die naar de rivier ligt. Daar pakt de wind het hardst, en daar gaan pannen langs de rand en nokvorsten het eerst schuiven. Ga niet zelf het dak op, maar kijk vanaf de dijk of de straat of er iets scheef ligt of mist. Zie je iets, of is het binnen nat, stuur me dan een foto via WhatsApp. Dan hoor je wanneer ik kan komen." },
+    ],
+  },
 ];
