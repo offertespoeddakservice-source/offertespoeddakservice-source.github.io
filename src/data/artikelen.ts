@@ -460,6 +460,7 @@ export const ARTIKELEN: Artikel[] = [
       { v: "Moet ik de sneeuw van mijn dak laten halen?", a: "Van een gewoon pannendak meestal niet, dat kan een laag sneeuw in de regel prima hebben. Op een plat dak met een verstopte afvoer, of op een licht dak van een veranda of schuur, kan veel natte sneeuw wel zwaar worden. Ga er zelf niet op staan. Twijfel je, stuur dan een foto via WhatsApp." },
       { v: "Valt lekkage door sneeuw onder mijn verzekering?", a: `Dat verschilt per polis. Schade door een plotselinge gebeurtenis valt soms onder je opstalverzekering, maar water dat binnenkomt door achterstallig onderhoud meestal niet. Maak foto's van de schade en kijk in je polis. Meer lees je in het artikel over daklekkage en je verzekering.` },
       { v: "Is een lek bij dooi spoed?", a: "Druppelt het binnen of wordt een plafond nat en bol, bel of app me dan meteen. Is het een beetje smeltwater van stuifsneeuw op zolder, dan kun je dat vaak zelf opruimen. Stuur een foto, dan zeg ik eerlijk wat het is." },
+      { v: `Er hangen ijspegels aan mijn dakgoot. Is dat erg?`, a: `Een paar kleine ijspegels zijn niet erg. Grote ijspegels betekenen vaak dat het smeltwater niet weg kan, omdat de goot vol zit of bevroren is, en dan kan het water terug onder de pannen lopen. Hangen ze boven de stoep, je voordeur of het terras, houd daar dan mensen weg, want ze kunnen naar beneden vallen. Sla ze niet zelf vanaf een ladder los, want dan trek je zo de goot uit de beugels. Zie je daarna een natte plek bovenin de muur, stuur me dan een foto via WhatsApp.` },
     ],
   },
   {
