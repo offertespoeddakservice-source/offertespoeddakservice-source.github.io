@@ -391,6 +391,9 @@ export const MATRIX: MatrixCombo[] = [
     plaats: "oss",
     dienst: "dakreparatie",
     hook: "Sinds 2015 hoort ook Geffen bij de gemeente Oss. Daar staan veel twee-onder-een-kappers en vrijstaande huizen met een flink pannendak. Op oudere daken liggen de pannen langs de zijkant en vlak boven de goot vaak nog zonder stormhaak, en juist die gaan bij een harde windstoot als eerste omhoog. Ik leg ze terug en kijk meteen of er een haak bij moet. Bij de oudere rijtjes in Oss liggen soms nog pannen die niet meer gemaakt worden. Is er een kapot, dan zoek ik eerst een pan die past. Lukt dat niet, dan kan ik een oude pan van de achterkant naar voren halen en achter een nieuwe neerleggen, zodat je aan de straatkant niets ziet. Je hoort vooraf wat het kost.",
+    faq: [
+      { v: "Hoe weet ik of de pannen op mijn dak stormhaken hebben?", a: "Vanaf de straat zie je dat bijna niet. Zit er op zolder geen plaat of beschot onder de pannen, kijk dan bij de onderste rijen en langs de zijkant: daar zie je soms een metalen haakje aan de lat dat de pan vasthoudt. Zie je alleen pannen op latten en nergens een haakje, dan liggen ze er waarschijnlijk zonder. Bij de oudere twee-onder-een-kappers in Geffen kom ik dat vaak tegen. Ik kan stormhaken bijzetten waar de wind het eerst grip krijgt, langs de zijkant en vlak boven de goot. Je hoort vooraf wat het kost." },
+    ],
   },
   // Dakreparatie in Vlijmen (Search Console: dakreparatie vlijmen 25 vertoningen op plek 67, nog geen eigen pagina), met andere lokale inhoud dan plaatsen.ts en de lekkage-, storm- en gootpagina van Vlijmen
   {
