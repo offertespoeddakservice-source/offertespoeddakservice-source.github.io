@@ -173,6 +173,9 @@ export const MATRIX: MatrixCombo[] = [
     plaats: "boxtel",
     dienst: "goten-reinigen",
     hook: "In wijken als Selissen en Munsel liggen op steeds meer daken zonnepanelen. Daaronder zoeken duiven graag een plek, en hun nestmateriaal en poep spoelen bij een bui de goot in. Dat blijft bij de uitloop naar de regenpijp hangen, samen met het blad van de straatbomen, en bij de volgende flinke bui loopt de goot dan over. Ik maak de goot leeg en de uitloop vrij. Zie ik dat er duiven onder je panelen zitten, dan hoor je wat je daartegen kunt doen. Ook kijk ik naar de naden en de hoeken van de goot, want die zie je pas goed als hij leeg is.",
+    faq: [
+      { v: "Hoe zie ik of er duiven onder mijn zonnepanelen zitten?", a: "Kijk 's ochtends vanaf de straat of de tuin of er duiven onder de rand van de panelen in en uit vliegen. Andere tekenen zijn takjes en veren die onder de panelen uitsteken, poep op de pannen eronder en in de goot, en gekoer of gekrabbel boven je zolder. Zitten ze eronder, dan kan de rand rond de panelen worden afgesloten met kunststof vogelwering. Dat doe ik het liefst buiten het broedseizoen. Stuur me gerust een foto via WhatsApp." },
+    ],
   },
   {
     plaats: "schijndel",
@@ -193,6 +196,9 @@ export const MATRIX: MatrixCombo[] = [
     plaats: "oisterwijk",
     dienst: "goten-reinigen",
     hook: "Aan de rand van de bossen staan in Oisterwijk veel eiken en berken. Een berk laat in de nazomer en de herfst duizenden kleine zaadjes vallen, en die vormen samen met het blad een fijne, natte laag onderin de goot. Op veel goten zit een bolrooster op de uitloop naar de regenpijp. Dat houdt grof blad tegen, maar onder veel bomen raakt het rooster zelf dicht. Dan loopt de goot over, terwijl hij verder nog half leeg is. Ik maak de goot van begin tot eind leeg, haal het rooster schoon en zet het weer goed op de uitloop. Zie ik iets aan je pannen of het lood, dan hoor je dat meteen.",
+    faq: [
+      { v: "Mijn villa heeft een zinken goot in een houten gootlijst. Kun je die leegmaken zonder iets te beschadigen?", a: "Ja. Bij zo'n goot werk ik voorzichtig en zonder scherp gereedschap, want het zink is na veel jaren vaak dun. Als de goot leeg is, zie ik meteen of er een naad of hoek is waar hij gaat lekken, en of het hout van de lijst eronder nog stevig is. Bladdert de verf onder de goot of is het hout zacht, dan hoor je dat van me, want dan lekt de goot vaak al een tijd. Je hoort vooraf wat het kost." },
+    ],
   },
 
   // ── Tier C · stormschade × alle 12 kerndorpen (klaar voor stormpieken) ──
