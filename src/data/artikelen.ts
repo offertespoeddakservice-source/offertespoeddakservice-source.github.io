@@ -898,10 +898,10 @@ export const ARTIKELEN: Artikel[] = [
   {
     slug: "hoe-vaak-dakgoot-reinigen",
     titel: "Hoe vaak goten reinigen?",
-    h1: "Hoe vaak moet je je dakgoot reinigen, en wat kost het?",
+    h1: "Hoe vaak moet je je dakgoot reinigen? Zo weet je wanneer het tijd is",
     metaTitle: "Hoe vaak moet je je dakgoot schoonmaken? | Spoed Dak Service",
     metaDescription:
-      "Hoe vaak moet je je dakgoot reinigen? Meestal één keer per jaar in het najaar, vaker bij bomen in de buurt. Waarom het belangrijk is en wat het kost.",
+      "Hoe vaak moet je je dakgoot schoonmaken? Meestal één keer per jaar in het najaar, vaker onder bomen of dennen. Zo zie je vanaf de grond dat het tijd is.",
     intro:
       "Volle goten lijken onschuldig, maar ze zijn de oorzaak van veel vochtschade: overlopend water, natte muren en op den duur lekkage. Hoe vaak moet je ze laten reinigen, en wat kost dat?",
     secties: [
