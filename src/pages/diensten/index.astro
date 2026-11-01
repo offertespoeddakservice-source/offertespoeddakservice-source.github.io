@@ -7,6 +7,9 @@ import { MATRIX } from "../../data/matrix.ts";
 import { getPlaats } from "../../data/plaatsen.ts";
 // Dakreparatie per plaats: alle plaatsen met een eigen pagina, zodat nieuwe pagina's vanzelf meekomen.
 const dakrepPlaatsen = MATRIX.filter((c) => c.dienst === "dakreparatie").map((c) => getPlaats(c.plaats)).filter((p) => p) as NonNullable<ReturnType<typeof getPlaats>>[];
+// Dakgoot schoonmaken en dakgoot repareren per plaats: komt vanzelf uit de lijst met pagina's. Den Bosch, Vught en Veghel staan voor het repareren al in de zin hierboven.
+const gotenPlaatsen = MATRIX.filter((c) => c.dienst === "goten-reinigen").map((c) => getPlaats(c.plaats)).filter((p) => p) as NonNullable<ReturnType<typeof getPlaats>>[];
+const gootRepPlaatsen = MATRIX.filter((c) => c.dienst === "dakgoot-vervangen" && !["den-bosch", "vught", "veghel"].includes(c.plaats)).map((c) => getPlaats(c.plaats)).filter((p) => p) as NonNullable<ReturnType<typeof getPlaats>>[];
 ---
 
 <Base
@@ -42,6 +45,9 @@ const dakrepPlaatsen = MATRIX.filter((c) => c.dienst === "dakreparatie").map((c)
       <p style="margin-top:12px;">Stormschade aan je dak? Hoe ik dat aanpak, lees je bij stormschade in <a href="/werkgebied/den-bosch/stormschade/">Den Bosch</a>, <a href="/werkgebied/rosmalen/stormschade/">Rosmalen</a>, <a href="/werkgebied/vught/stormschade/">Vught</a>, <a href="/werkgebied/oss/stormschade/">Oss</a>, <a href="/werkgebied/schijndel/stormschade/">Schijndel</a> en <a href="/werkgebied/boxtel/stormschade/">Boxtel</a>. Lekt je dakgoot, lees dan hoe ik een goot repareer in <a href="/werkgebied/den-bosch/dakgoot-vervangen/">Den Bosch</a>, <a href="/werkgebied/vught/dakgoot-vervangen/">Vught</a> en <a href="/werkgebied/veghel/dakgoot-vervangen/">Veghel</a>.</p>
       {dakrepPlaatsen.length > 0 && (
         <p style="margin-top:12px;">Ligt er een pan scheef of zit de nok los? Wat ik bij een dakreparatie per plaats tegenkom, lees je bij dakreparatie in {dakrepPlaatsen.map((p, i) => (<>{i > 0 && (i === dakrepPlaatsen.length - 1 ? " en " : ", ")}<a href={`/werkgebied/${p.slug}/dakreparatie/`}>{p.naam}</a></>))}.</p>
+      )}
+      {gotenPlaatsen.length > 0 && (
+        <p style="margin-top:12px;">Zit je goot vol blad? Wat ik bij dakgoot schoonmaken per plaats tegenkom, lees je bij dakgoot schoonmaken in {gotenPlaatsen.map((p, i) => (<>{i > 0 && (i === gotenPlaatsen.length - 1 ? " en " : ", ")}<a href={`/werkgebied/${p.slug}/goten-reinigen/`}>{p.naam}</a></>))}.{gootRepPlaatsen.length > 0 && (<> Een lekkende goot repareer ik ook in {gootRepPlaatsen.map((p, i) => (<>{i > 0 && (i === gootRepPlaatsen.length - 1 ? " en " : ", ")}<a href={`/werkgebied/${p.slug}/dakgoot-vervangen/`}>{p.naam}</a></>))}.</>)}</p>
       )}
     </div>
   </section>
