@@ -139,6 +139,7 @@ const review = reviewBij[d.slug];
           <h3>Direct contact</h3>
           <p>Bel of WhatsApp voor een vaste prijs, of vraag de <a href="/dak-apk/">Dak-APK</a> aan (voor {apkPrijs}) voor een compleet keuringsrapport in {SITE.regioOmschrijving}.</p>
           <div class="btn-row" style="margin-top:14px; flex-direction:column;">
+            <a class="btn btn--wa" href={waHref(`Hallo, ik heb een vraag over ${d.titel.toLowerCase()}.`)}>WhatsApp Rens</a>
             <a class="btn btn--primary" href={telHref}>{SITE.telefoonWeergave}</a>
             <a class="btn btn--outline" href="/contact/">Offerte aanvragen</a>
           </div>
