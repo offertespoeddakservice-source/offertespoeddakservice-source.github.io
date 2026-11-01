@@ -238,7 +238,7 @@ export const DIENSTEN: Dienst[] = [
       "Snelle noodreparatie: eerst de schade stoppen",
       "Weggewaaide pannen en nokvorsten herstellen",
       "Foto's en omschrijving voor je verzekeraar",
-      "Daarna nette, blijvende reparatie",
+      "Daarna een nette reparatie, met materiaal dat bij je dak past",
     ],
     faq: [
       {
