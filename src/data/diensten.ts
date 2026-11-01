@@ -359,6 +359,7 @@ export const DIENSTEN: Dienst[] = [
       { v: "Kan ik zelf een dakpan terugleggen?", a: "Liever niet. Op een schuin, nat dak ben je zo uitgegleden, en een pan die niet goed in de sluiting ligt, schuift bij de volgende bui weer. Stuur een foto, dan zeg ik wat er nodig is." },
       { v: "Wat kost het om een paar dakpannen te laten vervangen?", a: `Eén of een paar pannen vervangen valt bij mij onder een kleine reparatie: ${KLEIN_PRIJS}. Gaat het om een hele rij, een groter stuk dak of een pan die lastig te krijgen is, dan hoor je vooraf de vaste prijs.` },
       { v: "Vervang je ook dakpannen buiten Den Bosch?", a: "Ja, in mijn hele werkgebied rond Den Bosch, onder andere in Rosmalen, Vught, Oss, Veghel en Waalwijk. Stuur een foto van je dak vanaf de straat via WhatsApp, dan zie ik vaak al wat voor pan het is en hoor je wanneer ik kan komen." },
+      { v: "Er ligt een kapotte pan onder mijn zonnepanelen. Kun je die vervangen?", a: "Vaak wel. Ligt de pan aan de rand van de panelen, dan kan ik er meestal bij zonder iets aan de panelen te doen. Ligt hij er midden onder, dan moet eerst een paneel los, en dat laat je doen door je installateur. Daarna vervang ik de pan en kijk ik meteen of er bij de dakhaken nog meer pannen gebroken zijn. Stuur me een foto van je dak vanaf de straat en, als het binnen nat is, van de natte plek." },
     ],
   },
   {
