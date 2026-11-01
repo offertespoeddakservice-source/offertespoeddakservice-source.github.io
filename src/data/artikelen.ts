@@ -1897,6 +1897,50 @@ export const ARTIKELEN: Artikel[] = [
       { v: `Mag ik de ladder tegen de goot zetten?`, a: `Liever niet. Een kunststof goot buigt door het gewicht, en bij een zinken goot kunnen de beugels verbuigen, waarna de goot niet meer goed afloopt. Zet de ladder tegen de muur, het liefst met een afstandhouder.` },
     ],
   },
+  {
+    slug: "vorstschade-dakpannen",
+    datum: "2026-11-01",
+    titel: `Vorstschade aan dakpannen?`,
+    h1: `Vorstschade aan dakpannen: schilfers, scheuren en wat je eraan doet`,
+    metaTitle: `Vorstschade aan dakpannen: zo zie je het | Spoed Dak Service`,
+    metaDescription: `Schilfers of stukjes pan in je goot na een vorstperiode? Zo zie je of je dakpannen vorstschade hebben, hoe dat komt en wanneer vervangen nodig is.`,
+    intro: `Na een paar nachten flinke vorst vind je soms dunne schilfers of kleine stukjes pan in je goot of op het terras. Dan nemen je dakpannen waarschijnlijk water op, en is dat water in de pan bevroren. Eén pan met vorstschade is zo vervangen. Zie je het op veel plekken, dan zegt het iets over je hele dak. Hieronder lees je hoe je het herkent en wat je doet.`,
+    secties: [
+      { kop: `Hoe vorstschade ontstaat`, tekst: [
+        `Een nieuwe dakpan laat weinig water door. Na veel jaren zon, regen en mos wordt de buitenkant ruwer en neemt de pan meer water op. Vriest het daarna, dan zet dat water in de pan uit. Dat gebeurt elke winter een paar keer, en op den duur springt er een laagje van de pan af of komt er een scheur in.`,
+      ] },
+      { kop: `Zo zie je het`, tekst: [
+        `Schilfers of dunne plaatjes in de goot of rond je huis, vooral na een periode met vorst. Pannen waar de bovenkant in laagjes af is, vaak aan de onderkant van de pan waar het water overheen loopt. Een haarscheur, of een hoek die eraf is.`,
+        `Kijk ook na een bui vanaf de straat: pannen die nog lang donker en nat blijven terwijl de rest al droog is, nemen meer water op dan de andere. Met de zoom van je telefoon zie je vaak meer dan je denkt.`,
+        `Is er maar één pan gebroken, lees dan ook <a href="/kennisbank/dakpan-kapot-of-verschoven/">dakpan kapot of verschoven</a>.`,
+      ] },
+      { kop: `Gebakken pannen en betonpannen`, tekst: [
+        `Bij gebakken pannen van klei zie je vorstschade meestal als schilfers en afgesprongen laagjes. Bij betonpannen slijt eerder de bovenlaag weg: de pan wordt ruw en korrelig, houdt meer water en mos vast en kan op den duur ook scheuren.`,
+      ] },
+      { kop: `Waar het het eerst gebeurt`, tekst: [
+        `Aan de kant van het dak die weinig zon krijgt, vaak de noordkant, en onder bomen. Daar blijven de pannen het langst nat. Onder dik mos, want mos houdt het water tegen de pan vast. En onderaan het dak, waar al het water van het dakvlak overheen loopt. Hoe je mos aanpakt zonder je pannen te beschadigen, lees je in <a href="/kennisbank/mos-op-dak-verwijderen/">mos op je dak</a>.`,
+      ] },
+      { kop: `Is het erg?`, tekst: [
+        `Een paar pannen met wat schilfers lekken niet meteen. Maar een pan die steeds dunner wordt of een scheur heeft, laat op den duur water door, en elke vorstperiode maakt het erger. De schilfers zelf kunnen samen met het blad de uitloop van je goot dichtzetten. Lekt het al binnen, kijk dan op de <a href="/spoed/">spoedpagina</a> wat je meteen doet.`,
+      ] },
+      { kop: `Wat je zelf beter niet doet`, tekst: [
+        `Ga niet zelf het dak op: een verweerde pan breekt makkelijk onder je voet, en bij vorst is het dak glad. Spuit oude pannen niet schoon met een hogedrukreiniger, want daarmee haal je juist het laagje weg dat nog beschermt. En kit of lijm een gescheurde pan niet: dat laat na een winter weer los.`,
+      ] },
+      { kop: `Hoe ik het aanpak`, tekst: [
+        `Ik kijk eerst hoeveel pannen het zijn en waar ze liggen. Een paar slechte pannen vervang ik los, met een pan die in vorm en maat past bij wat er ligt. Zie <a href="/diensten/dakpannen-vervangen/">dakpannen vervangen</a>. Zit het op veel plekken op hetzelfde dakvlak, dan zeg ik eerlijk dat een groter stuk vervangen slimmer is dan elk jaar een paar pannen. Zie <a href="/diensten/dakrenovatie/">dakrenovatie</a>.`,
+      ] },
+      { kop: `Wat kost het?`, tekst: [
+        `Een paar pannen vervangen valt meestal onder een kleine reparatie: ${kleinPrijs}. Moet er een groter stuk of een heel dakvlak, dan hoor je vooraf de vaste prijs. Wil je eerst weten hoe je hele dak ervoor staat, dan kan dat met de <a href="/dak-apk/">Dak-APK</a> (${apkPrijs}), met foto's van de pannen die aandacht vragen.`,
+      ] },
+    ],
+    dienst: { label: "Bekijk: dakpannen vervangen", href: "/diensten/dakpannen-vervangen/" },
+    faq: [
+      { v: `Kan ik vorstschade aan mijn dakpannen zelf zien?`, a: `Vaak wel. Kijk na een vorstperiode in de goot en rond je huis of er schilfers of stukjes pan liggen, en kijk vanaf de straat met de zoom van je telefoon naar de pannen. Ga zelf niet het dak op. Stuur me een paar foto's via WhatsApp, dan zeg ik eerlijk wat ik zie.` },
+      { v: `Moet mijn hele dak eraf als een paar pannen schilferen?`, a: `Nee. Een paar pannen met vorstschade vervang ik los. Pas als er op veel plekken pannen schilferen of gescheurd zijn, is het slimmer om naar een groter stuk te kijken.` },
+      { v: `Valt vorstschade aan dakpannen onder de verzekering?`, a: `Meestal niet. Verzekeraars zien vorstschade aan oude pannen vaak als slijtage. Komt er door een gescheurde pan water binnen, dan ligt dat voor de schade binnen soms anders. Kijk in je polisvoorwaarden, en lees ook het artikel over daklekkage en je verzekering.` },
+      { v: `Kan ik vorstschade voorkomen?`, a: `Een pan die al water opneemt, wordt niet meer als nieuw. Je kunt wel zorgen dat je pannen sneller drogen: laat dik mos weghalen, houd de goot leeg zodat het water niet terugloopt, en laat een gebroken pan snel vervangen, zodat er geen water onder de pannen blijft hangen.` },
+    ],
+  },
 ];
 
 export const getArtikel = (slug: string) => ARTIKELEN.find((a) => a.slug === slug);
