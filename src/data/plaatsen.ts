@@ -167,6 +167,7 @@ export const PLAATSEN: Plaats[] = [
     faq: [
       { v: "Kom je ook in Moergestel en Haaren?", a: "Ja. Moergestel hoort bij de gemeente Oisterwijk, en Haaren sinds 2021 ook. Ik kom er voor dezelfde klussen als in Oisterwijk zelf, zoals een volle goot, mos op het dak of een lek bij de schoorsteen. Het is zo'n 25 minuten rijden vanaf Den Bosch." },
       { v: "Hoe vaak moeten de goten leeg onder al die bomen?", a: "Onder veel bomen is één keer per jaar vaak te weinig. Een goed moment is laat in de herfst, als het meeste blad eraf is, en daarna nog eens in het voorjaar. Zie je bij een bui water over de rand van de goot komen, wacht dan niet tot die tijd." },
+      { v: "Kun je in Oisterwijk ook een oud dak opknappen, of alleen kleine reparaties doen?", a: "Ook groter werk. Op veel oudere villa's en vrijstaande huizen in Oisterwijk en Moergestel ligt het dak er al tientallen jaren. Dan kijk ik welke pannen op zijn, of de nok nog vast ligt, hoe het lood rond de schoorsteen erbij ligt en of de goten mee moeten. Vaak hoeft niet het hele dak eraf en vervang ik alleen wat echt op is. Ligt er een plat dak op je aanbouw of garage, dan kijk ik of repareren nog kan of dat de dakbedekking beter vervangen kan worden. Je hoort vooraf de vaste prijs." },
     ],
   },
   {
