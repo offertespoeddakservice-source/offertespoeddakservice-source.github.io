@@ -241,6 +241,9 @@ export const MATRIX: MatrixCombo[] = [
     plaats: "vught",
     dienst: "stormschade",
     hook: "In Vught staan veel huizen tussen hoge bomen, in de villawijken en aan de rand van de bossen. Bij een storm breken daar takken af die op het dak terechtkomen. Zo'n tak kan een pan breken of een goot uit de haken trekken, en vanaf de straat zie je dat niet altijd meteen. Kijk na een storm daarom even goed: ligt er een pan scheef, hangt de goot schuin of ligt er een tak in de goot? In Vught-Noord en de andere naoorlogse wijken staan meer rijtjes met een pannendak, en daar zie ik na harde wind vooral pannen aan de onderkant of langs de zijkant van het dak die zijn gaan schuiven. Is je dak open, dan dek ik het eerst af en herstel ik het daarna netjes. Ga zelf niet het dak of de ladder op, en stuur me een foto vanaf de grond.",
+    faq: [
+      { v: "Er hangen takken van een grote boom over mijn dak. Kan ik voor de winter iets doen?", a: "Takken die over je dak hangen, schuren bij harde wind over de pannen en breken er bij een storm het eerst af. Laat ze voor de winter snoeien door een hovenier of boomverzorger. Is het de boom van de buren, overleg dan eerst even met hen. Daarna kan ik kijken of er pannen zijn beschadigd of verschoven, en of de goot vol takjes en blad zit. Stuur me gerust een foto van je dak vanaf de straat via WhatsApp." },
+    ],
   },
   {
     plaats: "berlicum",
