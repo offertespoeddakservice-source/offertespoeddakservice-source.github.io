@@ -1855,6 +1855,47 @@ export const ARTIKELEN: Artikel[] = [
       { v: "Is een lekkende overkapping spoed?", a: `Meestal niet, zolang het water buiten blijft. Komt het water ook binnen in huis, bijvoorbeeld langs de muur of bij een kozijn, dan wel. Bel of app me dan met een foto.` },
     ],
   },
+  {
+    slug: "dakgoot-zelf-schoonmaken",
+    datum: "2026-11-01",
+    titel: `Dakgoot zelf schoonmaken?`,
+    h1: `Dakgoot zelf schoonmaken: zo doe je het veilig, en wanneer je het beter laat doen`,
+    metaTitle: `Dakgoot zelf schoonmaken: zo doe je dat | Spoed Dak Service`,
+    metaDescription: `Wil je je dakgoot zelf schoonmaken? Wat je nodig hebt, hoe je het veilig doet vanaf de ladder, wat je beter laat en wanneer je het liever laat doen.`,
+    intro: `In november zitten veel goten vol blad. Een lage goot leegmaken kun je vaak prima zelf, met een stevige ladder, handschoenen en een emmer. Hoe hoger de goot, hoe groter het risico. Hieronder lees je hoe je het veilig doet, waar je op let nu je toch boven bent, en wanneer je het beter aan mij overlaat.`,
+    secties: [
+      { kop: `Eerst: kun je er veilig bij?`, tekst: [
+        `De goot van een schuur, garage, berging of aanbouw zit vaak zo laag dat je er met een trap of een korte ladder goed bij kunt. Die kun je prima zelf leeghalen.`,
+        `Zit de goot op de eerste verdieping of hoger, moet de ladder op een schuin pad, in de border of tussen de struiken staan, of heb je een bakgoot of een kilgoot? Dan laat je het liever doen. Een val van een paar meter loopt al snel slecht af, en bij een bakgoot of kilgoot loopt een fout niet langs de gevel maar naar binnen. Zie <a href="/kennisbank/bakgoot-lekt/">bakgoot lekt</a> en <a href="/kennisbank/kilgoot-lekt/">kilgoot lekt</a>.`,
+      ] },
+      { kop: `Wat je nodig hebt`, tekst: [
+        `Een stevige ladder die een stuk boven de goot uitkomt, en het liefst iemand die hem onderaan vasthoudt. Werkhandschoenen, want in een goot zitten scherpe randjes, splinters en soms glas. Een emmer met een haak, zodat je hem aan de ladder kunt hangen, en een klein schepje van kunststof.`,
+        `Zet de ladder tegen de muur en niet tegen de goot. Een kunststof goot buigt door en de beugels kunnen losschieten. Met een afstandhouder bovenaan de ladder blijft hij netjes van de goot af.`,
+      ] },
+      { kop: `Zo maak je de goot leeg`, tekst: [
+        `Begin bij de uitloop naar de regenpijp. Haal daar het blad en de prop eruit met je hand, en duw niets de regenpijp in, want daar krijg je het lastig weer uit. Werk daarna vanaf de uitloop naar het eind van de goot.`,
+        `Schep het blad en het slib in de emmer en zet de ladder steeds een stukje op. Blijf met je buik tussen de twee kanten van de ladder en reik niet ver opzij. Juist dan schuift een ladder het makkelijkst weg.`,
+        `Kijk bij de volgende bui of het water nu goed weg loopt. Blijft er halverwege de goot een plas staan, dan hangt de goot niet meer goed op afschot, en dan is leegmaken alleen niet genoeg.`,
+      ] },
+      { kop: `Wat je beter niet doet`, tekst: [
+        `Ga niet het dak op om vanaf de pannen in de goot te reiken, en hang niet uit een dakraam. Werk niet als het regent, waait of vriest, of als het al donker wordt: natte bladeren op een sport zijn glad. Gebruik geen hogedrukreiniger: daarmee spuit je het slib tegen je gevel en ramen, en het water kan onder de pannen terechtkomen.`,
+      ] },
+      { kop: `Kijk meteen even rond`, tekst: [
+        `Nu je toch boven bent, zie je dingen die je van beneden mist. Stukjes specie of pan in de goot betekenen vaak dat er boven bij de nok iets los zit, lees dan <a href="/kennisbank/nokvorsten-los/">losse nokvorsten</a>. Een naad of hoek met roest, een gaatje, of een donkere streep eronder op de gevel wijst op een lek in de goot zelf, zie <a href="/kennisbank/dakgoot-lekt/">dakgoot lekt</a>. Loopt het water achter de goot langs de muur, kijk dan bij <a href="/kennisbank/water-achter-dakgoot/">water achter de dakgoot</a>.`,
+        `Zit de regenpijp zelf verstopt, ook als de goot leeg is? Lees dan <a href="/kennisbank/verstopte-regenpijp-lekkende-dakgoot/">verstopte regenpijp of lekkende dakgoot</a>.`,
+      ] },
+      { kop: `Liever laten doen?`, tekst: [
+        `Bij een rijtjeswoning kost het ${GOTEN_PRIJS}: beide goten leeg, de uitloop naar de regenpijp vrij en de troep gaat mee. Terwijl ik boven ben, kijk ik meteen naar de pannen, het lood en de goot zelf, en je hoort eerlijk wat ik zie. Wat erbij zit en waar de prijs van afhangt, lees je in <a href="/kennisbank/wat-kost-dakgoot-schoonmaken/">wat kost dakgoot schoonmaken</a>.`,
+      ] },
+    ],
+    dienst: { label: "Bekijk: dakgoot reinigen", href: "/diensten/goten-reinigen/" },
+    faq: [
+      { v: `Kan ik mijn dakgoot vanaf de grond schoonmaken?`, a: `Er zijn lange stelen met een grijper of een haakje om vanaf de grond in de goot te werken. Bij een lage goot met droog blad gaat dat redelijk. Nat slib en mos krijg je er zo lastig uit, en je ziet niet of de uitloop naar de regenpijp echt vrij is.` },
+      { v: `Wanneer kan ik mijn goot het beste zelf leegmaken?`, a: `Laat in de herfst, als het meeste blad gevallen is, op een droge dag zonder veel wind. Niet als het vriest of als er ijs in de goot zit: dan is de ladder glad en kun je de goot beschadigen.` },
+      { v: `Waar laat ik het blad en slib uit de goot?`, a: `Blad, mos en slib mogen meestal bij het gft. Stukjes dakpan of specie horen daar niet bij, en die zijn ook een teken dat er boven iets los zit. Stuur me daar gerust een foto van via WhatsApp.` },
+      { v: `Mag ik de ladder tegen de goot zetten?`, a: `Liever niet. Een kunststof goot buigt door het gewicht, en bij een zinken goot kunnen de beugels verbuigen, waarna de goot niet meer goed afloopt. Zet de ladder tegen de muur, het liefst met een afstandhouder.` },
+    ],
+  },
 ];
 
 export const getArtikel = (slug: string) => ARTIKELEN.find((a) => a.slug === slug);
