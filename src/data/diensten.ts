@@ -193,6 +193,7 @@ export const DIENSTEN: Dienst[] = [
         v: "Er heeft eerder een andere dakdekker aan mijn dak gewerkt. Kun je het dan nog repareren?",
         a: "Ja. Ik kijk wat er toen gedaan is en waar het nu lekt of loszit, en ik zeg je eerlijk wat ik zie. Is het werk pas gedaan, neem dan eerst contact op met die dakdekker, want dan hoort hij het in de regel zelf op te lossen. Je hoort vooraf wat mijn reparatie kost.",
       },
+      { v: "Wat kost een spoed dakreparatie 's avonds of in het weekend?", a: `Een losse pan of nokvorst vastzetten of vervangen valt meestal onder een kleine reparatie: ${KLEIN_PRIJS}. Moet ik 's avonds, 's nachts of in het weekend komen, dan komt daar een spoedtoeslag bij. Hoeveel dat is, hoor je voordat ik kom, ook midden in de nacht. Kan het veilig wachten tot een werkdag, bijvoorbeeld omdat het binnen droog blijft, dan zeg ik dat eerlijk. Dat scheelt je de toeslag.` },
     ],
   },
   {
