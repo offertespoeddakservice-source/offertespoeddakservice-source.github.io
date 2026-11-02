@@ -2,25 +2,38 @@
 import Base from "../layouts/Base.astro";
 import { SITE, telHref, waHref } from "../site.config.ts";
 import EchteFotos from "../components/EchteFotos.astro";
+
+const faq = [
+  { v: "Krijg ik jou zelf aan de lijn?", a: "Ja. Er zit geen callcenter of planner tussen. Je krijgt mij aan de lijn, ik kom zelf kijken en ik ben je vaste aanspreekpunt, van de eerste foto tot de rekening." },
+  { v: "In welke plaatsen kom je?", a: "Ik werk vanuit Den Bosch en kom in de regio tot zo'n 45 minuten rijden, zoals Rosmalen, Vught, Oss, Veghel, Boxtel, Oisterwijk en Waalwijk. Alle plaatsen staan bij mijn werkgebied. Staat jouw plaats er niet bij, app me dan even, dan zeg ik eerlijk of ik kan komen." },
+  { v: "Hoe kom ik aan een prijs?", a: "Stuur via WhatsApp een paar foto's van wat er aan de hand is, of bel me. Vaak kan ik dan al zeggen wat het ongeveer wordt. Daarna kom ik kijken en hoor je de vaste prijs voordat ik begin. Een offerte kost niks." },
+];
 ---
 
 <Base
   title={`Over Rens: dakdekker uit Den Bosch | ${SITE.bedrijfsnaam}`}
   description="Achter Spoed Dak Service zit Rens: één vaste dakdekker met ruim 5 jaar ervaring in de regio Den Bosch. Persoonlijk, eerlijk over prijs, met 1 jaar garantie op reparatie en 2 jaar op vervangen."
   path="/over"
-  schema={{
-    "@context": "https://schema.org",
-    "@type": "AboutPage",
-    url: `${SITE.url}/over/`,
-    mainEntity: {
-      "@type": "Person",
-      "@id": `${SITE.url}/over/#rens`,
-      name: SITE.eigenaar,
-      jobTitle: "Dakdekker",
+  schema={[
+    {
+      "@context": "https://schema.org",
+      "@type": "AboutPage",
       url: `${SITE.url}/over/`,
-      worksFor: { "@id": `${SITE.url}/#bedrijf` },
+      mainEntity: {
+        "@type": "Person",
+        "@id": `${SITE.url}/over/#rens`,
+        name: SITE.eigenaar,
+        jobTitle: "Dakdekker",
+        url: `${SITE.url}/over/`,
+        worksFor: { "@id": `${SITE.url}/#bedrijf` },
+      },
     },
-  }}
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      mainEntity: faq.map((f) => ({ "@type": "Question", name: f.v, acceptedAnswer: { "@type": "Answer", text: f.a } })),
+    },
+  ]}
 >
   <section class="hero">
     <div class="wrap">
@@ -73,6 +86,10 @@ import EchteFotos from "../components/EchteFotos.astro";
           <figcaption>Roos, Oosterbeek · regenpijp vervangen</figcaption>
         </figure>
         <p style="margin-top:16px;"><a href={SITE.werkspotUrl} target="_blank" rel="noopener">Lees alle reviews op Werkspot</a></p>
+        <h2>Vragen over mij</h2>
+        <div class="faq" style="margin-top:16px;">
+          {faq.map((f) => (<details><summary>{f.v}</summary><p>{f.a}</p></details>))}
+        </div>
         <p>
           Werk je liever met iemand die gewoon zegt wat er nodig is, en wat níet? Dan zit je bij mij goed.
         </p>
