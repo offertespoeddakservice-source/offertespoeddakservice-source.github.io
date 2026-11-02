@@ -788,6 +788,9 @@ export const ARTIKELEN: Artikel[] = [
       { kop: "Wat je zelf beter niet doet", tekst: [
         "Ga niet zelf het dak op om pannen vast te zetten, en zeker niet als het waait. Plak een losse pan ook niet vast met kit of schuim. Dan zit hij muurvast, en bij een volgende reparatie breken de pannen eromheen als hij eruit moet. Een foto vanaf de straat zegt mij vaak al genoeg.",
       ] },
+      { kop: `Bij jou in de buurt`, tekst: [
+        `Hoe ik losse pannen bij jou in de buurt terugleg en vastzet, lees je bij dakreparatie in <a href="/werkgebied/oss/dakreparatie/">Oss</a>, waar op oudere daken in Geffen de pannen langs de rand vaak nog zonder stormhaak liggen, in <a href="/werkgebied/den-bosch/dakreparatie/">Den Bosch</a>, waar in Maaspoort en Empel de gevelpannen langs de zijkant kunnen losroesten, in <a href="/werkgebied/vlijmen/dakreparatie/">Vlijmen</a>, waar in Geerpark de nokvorsten met een klem vastzitten, en in <a href="/werkgebied/waalwijk/dakreparatie/">Waalwijk</a>, waar op oude huizen in Besoyen en Baardwijk nog oud-Hollandse pannen zonder sluiting liggen. Andere plaatsen vind je bij <a href="/werkgebied/">mijn werkgebied</a>.`,
+      ] },
       { kop: "Wat kost het?", tekst: [
         `Een paar losse pannen terugleggen en vastzetten valt meestal onder een kleine reparatie: ${kleinPrijs}. Moeten er langs alle randen of over een groot stuk dak haken bij, dan is het meer werk. Je hoort de vaste prijs vooraf. Zie ook <a href="/diensten/dakpannen-vervangen/">dakpannen vervangen</a>.`,
       ] },
