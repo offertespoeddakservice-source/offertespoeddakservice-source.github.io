@@ -571,6 +571,12 @@ export const ARTIKELEN: Artikel[] = [
         'Lekt je dakraam alleen bij een flinke stortbui, dan kan het water boven het raam vaak niet snel genoeg weg. Ligt er blad of mos tegen de bovenkant, dan stroomt het over het gootstuk heen naar binnen. Meer daarover lees je in <a href="/kennisbank/dak-lekt-bij-hevige-regen/">dak lekt bij een stortbui</a>.',
         'Lekt het vooral als het hard waait, dan blaast de wind de regen langs de zijkant van het raam onder het gootstuk of een pan door. Dan kijk ik vooral naar de zijkanten van het raam. Zie ook <a href="/kennisbank/dak-lekt-bij-harde-wind/">dak lekt bij harde wind</a>.',
       ] },
+      { kop: `Waar zie je het water als eerste?`, tekst: [
+        `Kijk bij de volgende bui waar je het water als eerste ziet. Dat hoeft niet de plek van het lek te zijn, want water loopt vaak een stuk langs het kozijn of de aftimmering naar beneden voordat het zichtbaar wordt. Maar het helpt wel bij het zoeken.`,
+        `Zie je het eerst bovenin, bij de bovenkant van het kozijn of op het plafond erboven, dan kan het water boven het raam binnenkomen, bijvoorbeeld bij een pan die niet goed ligt of bij blad dat boven het raam blijft liggen. Wordt het vooral nat langs één zijkant, zeker bij wind uit die richting, dan kan het in de aansluiting aan die kant zitten.`,
+        `Is alleen de vensterbank onder het raam nat en is het glas aan de binnenkant beslagen, dan is het vaak condens die langs het glas naar beneden druipt. Daarover lees je hieronder meer.`,
+        `Maak een foto van de plek waar je het water ziet en, als het lukt, van het raam van buiten vanaf de straat. Stuur die via WhatsApp, dan weet ik waar ik als eerste moet kijken.`,
+      ] },
       { kop: "Lekkage of condens?", tekst: [
         'Druppels aan de binnenkant van het glas op een koude ochtend zijn meestal condens, geen lek. Komt het water alleen na regen, en vooral bij wind, dan is het een lek. Meer over het verschil lees je in <a href="/kennisbank/condens-of-lekkage-op-zolder/">condens of lekkage op zolder</a>.',
       ] },
