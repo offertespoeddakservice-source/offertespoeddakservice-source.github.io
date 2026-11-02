@@ -1910,6 +1910,9 @@ export const ARTIKELEN: Artikel[] = [
       { kop: "Hoe ik het aanpak", tekst: [
         'Ik kijk eerst of het water door het dak komt of door de muur. Is het lood of zink losgekomen, dan zet ik het weer goed vast, of ik vervang de strook. Is de dakbedekking langs de muur los of gescheurd, dan maak ik die aansluiting opnieuw dicht. Zie <a href="/diensten/platte-daken/">platte daken</a>.',
       ] },
+      { kop: `Bij jou in de buurt`, tekst: [
+        `Een platte aanbouw, garage of berging tegen het huis zie ik in de hele regio. Hoe ik zo'n lek bij jou in de buurt aanpak, lees je bij daklekkage in <a href="/werkgebied/berlicum/daklekkage/">Berlicum</a>, waar het water vaak binnenkomt waar het garagedak tegen de zijmuur van het huis zit, in <a href="/werkgebied/sint-michielsgestel/daklekkage/">Sint-Michielsgestel</a>, waar in Den Dungen en Gemonde veel rijtjes een platte aanbouw achter het huis hebben, en in <a href="/werkgebied/wijchen/daklekkage/">Wijchen</a>, waar ik eerst kijk naar de strook waar het platte dak tegen de achtergevel omhoog loopt. Andere plaatsen vind je bij <a href="/werkgebied/">mijn werkgebied</a>.`,
+      ] },
       { kop: "Wat kost het?", tekst: [
         'Een losse strook lood weer vastzetten is meestal een overzichtelijke klus. Moet de aansluiting over de hele breedte opnieuw, dan is het meer werk. Je hoort vooraf de vaste prijs, voordat ik begin. Of je verzekering meebetaalt, lees je in <a href="/kennisbank/daklekkage-verzekering/">daklekkage en je verzekering</a>.',
       ] },
