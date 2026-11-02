@@ -1097,6 +1097,14 @@ export const ARTIKELEN: Artikel[] = [
       { kop: "Wat meestal niet wordt vergoed", tekst: [
         "Lekkage door slijtage of achterstallig onderhoud: een goot die al jaren vol zit, pannen die al lang poreus zijn, lood dat langzaam is losgekomen. De reparatie van het dak zelf valt dan meestal buiten de dekking. Soms wordt de schade binnen nog wel vergoed. Dat verschilt per polis, dus lees de voorwaarden of bel je verzekeraar.",
       ] },
+      { kop: `Was het storm? Zo kijkt je verzekeraar ernaar`, tekst: [
+        `In veel polissen is het pas storm bij windkracht 7 of meer. Waait er bij zo'n storm een pan van je dak en regent het daardoor binnen, dan ziet je verzekeraar dat meestal als plotselinge schade. Lekt het bij elke flinke windvlaag door een pan die al lang scheef lag, dan zien ze dat eerder als onderhoud.`,
+        `Schrijf daarom de datum op en hoe laat het begon te lekken. Verzekeraars kijken vaak zelf na hoe hard het die dag waaide, dus een goede datum helpt. Lees ook <a href="/kennisbank/dak-lekt-bij-harde-wind/">dak lekt bij harde wind</a>.`,
+      ] },
+      { kop: `Wat je van mij krijgt voor je verzekeraar`, tekst: [
+        `Bij lekkage en stormschade maak ik foto's van wat ik aantref en van de reparatie, met een korte omschrijving erbij: waar het lek zat, wat de oorzaak was en wat ik heb gedaan. Die kun je meesturen als je de schade meldt. Of en hoeveel je verzekeraar vergoedt, beslist die zelf. Dat kan ik niet voor je regelen.`,
+        `Wil je met de nette reparatie wachten tot de verzekeraar is geweest, dan dek ik een open plek eerst tijdelijk af, zodat het binnen droog blijft. Ook daarvan krijg je foto's.`,
+      ] },
       { kop: "Dit leg je vast voordat je de schade meldt", tekst: [
         "Maak foto's van de natte plek binnen en van de schade aan je spullen. Maak vanaf een veilige plek foto's van het dak, zonder zelf het dak op te gaan. Schrijf de datum op en wat voor weer het was. Gooi beschadigde spullen niet meteen weg.",
         "Beperk ondertussen de schade: water opvangen, spullen droog zetten. Verzekeraars verwachten dat je dat doet. Laat het lek ook snel dichtmaken, want schade die erger wordt doordat je lang wacht, wordt niet altijd vergoed.",
