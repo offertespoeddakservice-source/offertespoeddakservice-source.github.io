@@ -2091,6 +2091,49 @@ export const ARTIKELEN: Artikel[] = [
       { v: `Is een goot die doorhangt spoed?`, a: `Meestal niet, het kan vaak een paar dagen wachten. Hangt hij na een storm half los, of komt er water binnen bovenin de muur, dan wel. Bel of app me dan met een foto.` },
     ],
   },
+  {
+    slug: `lekkage-muur-buren`,
+    datum: `2026-11-02`,
+    titel: `Lekkage langs de muur met de buren?`,
+    h1: `Lekkage op zolder langs de muur met de buren: waar het zit en hoe je het samen oplost`,
+    metaTitle: `Lekkage langs de muur met de buren | Spoed Dak Service`,
+    metaDescription: `Nat op zolder langs de muur met de buren? In een rijtjeshuis zit het lek vaak precies op de grens: bij de overgang van de pannen, de nok of de goot. Zo zoek je het.`,
+    intro: `In een rij huizen loopt het dak vaak gewoon door van het ene huis naar het andere. Precies op de grens, boven de muur tussen jou en de buren, zitten een paar plekken waar een dak graag gaat lekken. Je ziet het als een natte strook op zolder langs die muur, of als een vlek bovenin de muur van je slaapkamer. Hieronder lees je hoe je het herkent, waar het meestal zit en hoe je het met de buren regelt.`,
+    secties: [
+      { kop: `Zo herken je het`, tekst: [
+        `Kijk na een flinke bui op zolder langs de muur met de buren. Zie je een donkere strook op de stenen, een natte plek op de vloer vlak langs die muur of een kring op het plafond van de kamer eronder, dan komt het water vaak van boven die muur. Wordt het alleen nat bij wind uit één richting, dan waait de regen ergens onder een pan of een strook door.`,
+        `Is het ook nat na een paar droge dagen, dan komt het vaker van een leiding, bijvoorbeeld van de badkamer van de buren. Twijfel je, lees dan <a href="/kennisbank/vochtplek-plafond/">vochtplek in het plafond</a>.`,
+      ] },
+      { kop: `Waar het op de grens meestal zit`, tekst: [
+        `Op de overgang tussen twee soorten pannen. Hebben de buren hun dak laten vernieuwen, dan liggen er op de grens twee soorten pannen naast elkaar. Die passen niet vanzelf op elkaar, en daarom hoort daar een overgang die het water tegenhoudt. Is die niet goed gemaakt of na een paar jaar losgekomen, dan loopt het water erlangs naar binnen.`,
+        `Bij de nok. De nokvorsten lopen over de grens door. Ligt er bij de buren een nieuwe nok en bij jou nog een oude in specie, dan zit de zwakke plek vaak precies waar die twee op elkaar aansluiten. Meer daarover in <a href="/kennisbank/nokvorsten-los/">losse nokvorsten</a>.`,
+        `In de goot. Loopt jouw goot door in die van de buren, dan zit er op de grens een naad. Daar gaat een goot vaak als eerste lekken, en het water loopt dan langs de muur naar binnen. Hoe je dat ziet, lees je in <a href="/kennisbank/dakgoot-lekt/">dakgoot lekt</a>.`,
+        `Bij een muur die boven het dak uitsteekt. Bij sommige oudere rijtjes steekt de muur tussen de huizen een stukje boven de pannen uit. Langs die muur ligt lood of zink dat het water op de pannen moet leiden. Laat dat los of is het gescheurd, dan loopt het water erachter naar binnen. Zie <a href="/kennisbank/lood-op-dak/">lood op je dak</a>. En staat er een schoorsteen op de muur tussen jullie in, lees dan <a href="/kennisbank/lekkage-gedeelde-schoorsteen/">lekkage bij een gedeelde schoorsteen</a>.`,
+      ] },
+      { kop: `Waarom het lek soms bij de buren zit`, tekst: [
+        `Water zoekt zijn eigen weg. Het kan aan de kant van de buren onder de pannen komen, over de latten of langs de muur naar jouw kant lopen en pas bij jou te zien zijn. Andersom kan ook: het lek zit aan jouw kant, en de buren hebben de natte plek. Daarom kijk ik bij een lek op de grens naar het stuk dak aan allebei de kanten.`,
+      ] },
+      { kop: `Zo regel je het met de buren`, tekst: [
+        `Praat er eerst even over met je buren. Vraag of zij ook iets zien op hun zolder, en of er onlangs iets aan hun dak is gedaan. Ga niet zelf op hun dak, en ook niet op dat van jezelf. Zit het lek aan hun kant, dan zeg ik dat eerlijk, zodat jullie het samen kunnen oplossen. Zit het precies op de grens, zoals in de overgang of de naad in de goot, dan is het vaak het handigst om het in één keer samen te laten doen.`,
+        `Wie de schade binnen betaalt, hangt af van de oorzaak en van jullie verzekeringen. Daarover lees je meer in <a href="/kennisbank/daklekkage-verzekering/">daklekkage en je verzekering</a>.`,
+      ] },
+      { kop: `Bij jou in de buurt`, tekst: [
+        `Hoe dat er bij jou in de buurt uitziet, lees je bij dakreparatie in <a href="/werkgebied/veghel/dakreparatie/">Veghel</a>, waar in de rijtjes de buren hun dak soms al hebben laten vernieuwen, en bij dakgoot repareren in <a href="/werkgebied/boxtel/dakgoot-vervangen/">Boxtel</a>, waar in Selissen de goot van het ene huis gewoon doorloopt in die van het volgende. Andere plaatsen vind je bij <a href="/werkgebied/">mijn werkgebied</a>.`,
+      ] },
+      { kop: `Hoe ik het aanpak`, tekst: [
+        `Ik kijk eerst van buiten naar de grens: de pannen aan beide kanten, de overgang, de nok, de goot en het lood. Daarna kijk ik op zolder waar het water binnenkomt. Vaak gaat het dan om één overgang die opnieuw moet, een paar pannen die niet goed liggen of één naad in de goot. Ik zeg je eerlijk wat ik zie en aan wiens kant het zit. Zie ook <a href="/diensten/daklekkage/">daklekkage</a> en <a href="/diensten/dakreparatie/">dakreparatie</a>.`,
+      ] },
+      { kop: `Wat kost het?`, tekst: [
+        `Eén lek opsporen en dichten kost meestal ${lekPrijs}, inclusief materiaal. Gaat het alleen om een paar pannen op de grens die niet goed liggen, dan valt het vaak onder een kleine reparatie: ${kleinPrijs}. Je hoort vooraf de vaste prijs, en zit het aan allebei de kanten, dan hoort ieder vooraf wat zijn deel kost.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: daklekkage & spoed`, href: `/diensten/daklekkage/` },
+    faq: [
+      { v: `De buren hebben net een nieuw dak, en nu lekt het bij mij op de grens. Hoe kan dat?`, a: `Dan zit het vaak in de overgang tussen hun nieuwe pannen en jouw oude. Die hoort bij het vernieuwen netjes gemaakt te worden. Is het werk pas gedaan, vraag je buren dan om hun dakdekker te laten kijken, want die hoort het in de regel zelf op te lossen. Komt die niet, of zit het aan jouw kant, stuur me dan een foto van de natte plek en van het dak vanaf de straat.` },
+      { v: `Hoe zie ik vanaf de straat of de overgang op de grens goed is?`, a: `Kijk naar de plek waar de twee daken op elkaar aansluiten. Liggen de pannen daar mooi in één lijn, zonder kier of opstaande rand, dan is dat een goed teken. Zie je een open naad, een strook die omhoog staat of pannen die hoger of lager liggen dan de rest, maak er dan een foto van met de zoom van je telefoon en stuur hem via WhatsApp.` },
+      { v: `Is het spoed als het langs de muur met de buren lekt?`, a: `Druppelt het binnen of wordt de muur snel natter, dan wel: bel of app me. Zie je alleen na een flinke bui een donkere strook op zolder, dan kan het vaak een paar dagen wachten. Zet tot die tijd iets neer dat het water opvangt, en wacht niet tot de volgende storm.` },
+    ],
+  },
 ];
 
 export const getArtikel = (slug: string) => ARTIKELEN.find((a) => a.slug === slug);
