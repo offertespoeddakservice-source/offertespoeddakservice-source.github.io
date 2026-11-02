@@ -832,6 +832,9 @@ export const ARTIKELEN: Artikel[] = [
       { kop: "Wie lost het op?", tekst: [
         "Zijn de panelen pas gelegd, neem dan eerst contact op met je installateur. Lekkage die door het plaatsen komt, hoort de installateur in de regel zelf op te lossen. Komt de installateur niet, of liggen de panelen er al jaren, dan kijk ik waar het lek zit. Moet er voor de reparatie een paneel even los, dan bespreken we eerst samen hoe dat het beste kan.",
       ] },
+      { kop: `Bij jou in de buurt`, tekst: [
+        `Hoe dat er bij jou in de buurt uitziet, lees je bij daklekkage in <a href="/werkgebied/eindhoven/daklekkage/">Eindhoven</a>, waar in Meerhoven op veel daken panelen liggen, en bij stormschade in <a href="/werkgebied/rosmalen/stormschade/">Rosmalen</a>, waar in De Groote Wielen na een storm wel eens een pan bij een dakhaak breekt. In <a href="/werkgebied/sint-michielsgestel/dakgoot-vervangen/">Sint-Michielsgestel</a> liggen de panelen soms tot vlak boven de goot, zodat het water bij een stortbui over de goot heen schiet, en in <a href="/werkgebied/boxtel/goten-reinigen/">Boxtel</a> zitten in Selissen en Munsel vaak duiven onder de panelen.`,
+      ] },
       { kop: "Lekt het niet, maar wil je het voorkomen?", tekst: [
         'Bij het <a href="/diensten/zonnepanelen-reinigen/">reinigen van zonnepanelen</a> kijk ik ook naar de bevestiging en de pannen eronder. Zo zie je een verschoven pan vaak al voordat het binnen nat wordt.',
       ] },
