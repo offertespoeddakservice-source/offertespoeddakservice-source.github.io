@@ -420,6 +420,52 @@ export const ARTIKELEN: Artikel[] = [
     ],
   },
   {
+    slug: `natte-plek-bovenin-muur`,
+    datum: `2026-11-03`,
+    titel: `Natte plek bovenin de muur?`,
+    h1: `Natte plek bovenin de muur, vlak onder het plafond: komt het van het dak?`,
+    metaTitle: `Vochtplek bovenin de muur: dak of gevel? | Spoed Dak Service`,
+    metaDescription: `Vocht bovenin je muur, net onder het plafond? Vaak komt het van de goot of de dakrand, soms van de gevel zelf. Zo zie je waar het zit en wat je nu doet.`,
+    intro: `Een natte plek bovenin de muur, net onder het plafond, lijkt op een daklek. Toch komt het water daar lang niet altijd van de pannen. Vaak zit het bij de goot of de rand van het dak erboven, en soms in de gevel zelf. Hieronder lees je hoe je dat uit elkaar houdt en wat je doet tot het gemaakt is.`,
+    secties: [
+      { kop: `Waar de plek zit, zegt veel`, tekst: [
+        `Zit de natte plek bovenin een buitenmuur, over een flink stuk breedte en vlak onder het plafond? Dan komt het water meestal van de goot of van de onderste rij pannen erboven. Een goot die overloopt, of water dat achter de goot langs de gevel loopt, trekt precies daar de muur in. Lees ook <a href="/kennisbank/water-achter-dakgoot/">water achter de dakgoot</a>.`,
+        `Zit hij in een hoek van de kamer, waar twee buitenmuren samenkomen? Kijk dan buiten of daar een hoek van de goot of een regenpijp zit. Een hoekstuk dat lekt of een uitloop die los zit, geeft vaak een natte plek in precies die hoek. Hoe je een lekkende goot herkent, staat in <a href="/kennisbank/dakgoot-lekt/">dakgoot lekt</a>.`,
+        `Zit hij boven een raam? Dan kan het water van de goot erboven komen, maar het kan ook langs het kozijn naar binnen lopen. Heb je een erker of een luifel met een eigen dakje, lees dan <a href="/kennisbank/erker-lekt/">erker of luifel lekt</a>.`,
+        `Zit hij op de muur tussen jou en de buren, of op de muur waar de schoorsteen tegenaan staat? Dan komt het water vaker van het dak zelf. Kijk bij <a href="/kennisbank/lekkage-muur-buren/">lekkage langs de muur met de buren</a> of bij <a href="/kennisbank/lekkage-bij-schoorsteen/">lekkage bij de schoorsteen</a>.`,
+        `Heb je geen goot die aan de voorkant hangt, maar een goot die in de rand van het dak is weggewerkt? Dan zie je buiten bijna niets, en komt het water bij een lek juist binnen. Zie <a href="/kennisbank/bakgoot-lekt/">bakgoot lekt</a>.`,
+      ] },
+      { kop: `Bij welk weer wordt het nat?`, tekst: [
+        `Na elke flinke bui, ook als het nauwelijks waait: denk dan eerst aan de goot. Die zit vol, hangt niet goed of lekt bij een naad.`,
+        `Alleen bij regen met harde wind, en vooral aan de kant waar de wind op staat: dan kan het water onder de pannen langs de rand van het dak door waaien. Het kan ook regen zijn die hard tegen de gevel slaat en door de stenen trekt. Lees ook <a href="/kennisbank/dak-lekt-bij-harde-wind/">dak lekt bij harde wind</a>.`,
+        `Na sneeuw of bij dooi: dan is het vaak smeltwater dat achter ijs in de goot blijft staan en terugloopt onder de onderste pannen. Zie <a href="/kennisbank/dak-lekt-bij-sneeuw-of-vorst/">dak lekt bij sneeuw of vorst</a>.`,
+        `Ook na dagen zonder regen, vaak met zwarte puntjes in een koude hoek: dan is het meestal condens. Vocht uit de lucht in huis slaat neer op de koudste plek van de kamer, en dat is vaak bovenin een buitenmuur. Daar helpt ventileren en de kamer wat warmer houden, niet werk aan het dak.`,
+      ] },
+      { kop: `Zo kijk je buiten waar het vandaan komt`, tekst: [
+        `Ga tijdens een flinke bui naar buiten en kijk naar de goot boven de natte plek. Komt er water over de voorkant, druppelt het op één plek uit de goot, of loopt het achter de goot langs de muur? Dan zit het vrijwel zeker daar.`,
+        `Kijk ook naar de gevel. Een donkere of groene streep vlak onder de dakrand wijst meestal op water van de goot. Is de muur over een groot stuk donker en nat, ook een eind lager, dan trekt de regen eerder door de stenen of de voegen. Dat is werk voor een gevelspecialist en niet voor mij, en dat zeg ik dan eerlijk.`,
+        `Ga niet zelf de ladder op om in de goot te kijken, zeker niet als het nat is of waait. Een foto vanaf de overkant van de straat of uit een raam boven is genoeg.`,
+      ] },
+      { kop: `Wat je nu doet`, tekst: [
+        `Maak na elke bui een foto van de natte plek, steeds vanaf dezelfde plek in de kamer. Dan zie je meteen of hij groter wordt. Schrijf op bij wat voor weer het nat werd, en uit welke hoek de wind kwam.`,
+        `Zet kasten en een bed een stukje van de muur af, zodat die kan drogen en er geen schimmel achter komt. Loopt het water langs de muur, of zit de natte plek bij een stopcontact of lamp, zet dan de stroom van die groep uit en kijk op de <a href="/spoed/">spoedpagina</a> wat je meteen doet.`,
+      ] },
+      { kop: `Hoe ik het aanpak`, tekst: [
+        `Ik begin buiten, bij de goot en de rand van het dak boven de natte plek. Zit de goot vol, dan maak ik hem leeg. Hangt hij te laag of scheef, of lekt een naad of hoek, dan herstel ik dat. Komt het van de onderste rij pannen of van het lood, dan maak ik dat dicht. Zie ik dat het water door de gevel zelf komt, dan hoor je dat voordat ik iets doe, zodat je niet betaalt voor werk dat niet helpt. Zie ook <a href="/diensten/dakgoot-vervangen/">dakgoot repareren of vervangen</a> en <a href="/diensten/goten-reinigen/">goten reinigen</a>.`,
+      ] },
+      { kop: `Wat kost het?`, tekst: [
+        `Zit de goot alleen vol, dan is leegmaken genoeg. Bij een rijtjeswoning is dat ${GOTEN_PRIJS}. Moet er een naad, een hoek of de hoogte van de goot worden hersteld, of zit het in de pannen of het lood, dan hoor je vooraf de vaste prijs, voordat ik begin. Richtprijzen staan op de <a href="/prijzen/">prijzenpagina</a>.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: dakgoot repareren of vervangen`, href: `/diensten/dakgoot-vervangen/` },
+    faq: [
+      { v: `Komt een natte plek bovenin de muur van het dak?`, a: `Soms, maar vaker van de goot of de onderste rij pannen vlak erboven. Een goot die overloopt of water dat achter de goot langs loopt, trekt precies daar de muur in. Kijk tijdens een bui buiten naar de goot boven de plek, en stuur me een foto van binnen en van buiten. Dan zeg ik eerlijk waar ik denk dat het zit.` },
+      { v: `Kan het van de goot komen als die er van beneden schoon uitziet?`, a: `Ja. Van beneden zie je de bodem van de goot niet. Blad en gruis blijven vaak bij de uitloop naar de regenpijp hangen, en dan loopt de goot op één plek over terwijl hij verder leeg lijkt. Ook kan de goot een stukje te laag hangen, zodat het water van de pannen erachter langs valt. Kijk daarom tijdens een bui, niet op een droge dag. Stuur me een foto van die kant van het huis, dan zie ik vaak al waar het misgaat.` },
+      { v: `Er zit schimmel bovenin de muur. Komt dat door een lek?`, a: `Niet altijd. Zwarte puntjes in een koude hoek, terwijl de muur verder niet nat aanvoelt, zijn vaak condens: vocht uit de lucht in huis dat neerslaat op de koudste plek. Dat zie je veel in slaapkamers en op zolder. Is de plek echt nat en groeit hij na een bui, dan komt er water van buiten. Bij condens helpen een raam op een kier, het rooster open en de kamer wat warmer houden.` },
+      { v: `Is een natte plek bovenin de muur spoed?`, a: `Meestal niet, maar laat het niet de hele winter zitten, want een natte muur droogt in de winter slecht. Loopt het water langs de muur, of zit de plek bij een stopcontact of lamp, dan wel: zet de stroom van die groep uit en bel of app me. Is de plek alleen vochtig, dan kan het vaak een paar dagen wachten.` },
+    ],
+  },
+  {
     slug: "dak-lekt-bij-hevige-regen",
     datum: "2026-10-28",
     titel: "Dak lekt alleen bij een stortbui?",
