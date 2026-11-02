@@ -86,6 +86,9 @@ export const MATRIX: MatrixCombo[] = [
     plaats: "rosmalen",
     dienst: "goten-reinigen",
     hook: "In Molenhoek, Sparrenburg en de andere wijken van Rosmalen uit de jaren '60 en '70 liggen de nokvorsten vaak nog in specie. Brokkelt die af, dan spoelen de brokjes bij elke bui naar de goot. Daar blijven ze samen met het blad hangen bij de uitloop naar de regenpijp, en dan loopt de goot bij een flinke bui over. Vind ik bij het leegmaken stukjes specie in de goot, dan kijk ik meteen naar de nok en hoor je wat ik zie. In De Groote Wielen hebben veel huizen een plat dak of een aanbouw met een plat dak. Daar loopt het water via een afvoer naar de regenpijp, en zit die vol blad, dan blijft het water op het dak staan. Heb je zo'n dak, zeg het dan als je belt, dan kijk ik ook naar die afvoer.",
+    faq: [
+      { v: "Mijn huis in De Groote Wielen heeft een plat dak. Moet de afvoer daarvan ook leeg?", a: "Ja, en die wordt vaak vergeten. Op een plat dak loopt het water via een afvoer in de rand naar de regenpijp. Waait daar blad of zand in, dan blijft het water na een bui op het dak staan, en dat zoekt op den duur een naad of de rand op. Kun je het dak vanuit een raam zien, kijk dan na een bui of er een plas blijft staan. Zeg het als je belt, dan neem ik de afvoer mee als ik je goten leegmaak. Je hoort vooraf wat het kost." },
+    ],
   },
   {
     plaats: "vught",
@@ -173,6 +176,9 @@ export const MATRIX: MatrixCombo[] = [
     plaats: "vlijmen",
     dienst: "goten-reinigen",
     hook: "In Vliedberg en de andere wijken uit de jaren '60 en '70 staat achter veel rijtjeshuizen een berging met een plat dak. Het water van het grote dak komt daar nogal eens via een korte regenpijp op uit, en dan spoelt al het blad van je grote dak naar de afvoer van dat kleine dak. Zit die afvoer dicht, dan blijft het water op de berging staan of loopt het over de rand langs je achtergevel, terwijl je dat vanaf de straat niet ziet. In Geerpark, de nieuwste wijk, zijn de huizen en de bomen nog jong. Daar ligt minder blad in de goot, maar wel zand en fijn gruis dat van het dak en uit de omgeving aanwaait. Onderin de goot wordt dat een laagje slib dat de uitloop naar de regenpijp langzaam dichtzet. In Nieuwkuijk en Haarsteeg staan meer vrijstaande huizen met grote tuinen en oude bomen, en daar zit de goot na de bladval vaak tot de rand vol. Ik maak de goten van begin tot eind leeg, maak de uitloop naar de regenpijp vrij en neem de afvoer van een platte berging mee als je dat vraagt. Zie ik iets aan je pannen of het lood, dan hoor je dat meteen.",
+    faq: [
+      { v: "Mijn huis in Geerpark is nog nieuw. Moet de goot dan al leeg?", a: "Ook bij een nieuw huis is het slim om de goot na een paar jaar te laten nakijken. In Geerpark staan nog weinig grote bomen, maar zand en fijn gruis waaien er wel in, en onderin de goot wordt dat een laagje slib dat je van beneden niet ziet. Kijk tijdens een flinke bui of er water over de rand komt, of dat er bijna niets uit de regenpijp komt. Zie je dat, stuur me dan een foto vanaf de straat. Je hoort vooraf wat het kost." },
+    ],
   },
   {
     plaats: "drunen",
@@ -199,6 +205,9 @@ export const MATRIX: MatrixCombo[] = [
     plaats: "heusden",
     dienst: "goten-reinigen",
     hook: "In vesting Heusden hangt aan veel oude panden nog een zinken goot, en bij een deel zit de goot aan de straatkant achter de gevel, waar je hem van beneden niet ziet. Loopt zo'n goot vol, dan merk je dat vaak pas binnen, aan een natte plek bovenin de muur. Nat blad dat lang in een zinken goot blijft liggen, tast het zink aan, en daar komt na jaren het eerste gaatje. Op een monument kun je zo'n goot niet zomaar door een kunststof goot vervangen, dus het loont om hem schoon te houden. In Oudheusden en Herpt hangen vaker gewone goten aan rijtjeshuizen en vrijstaande huizen, en daar blijft het blad vooral bij de uitloop naar de regenpijp hangen. Ik maak de goten van begin tot eind leeg, maak de uitloop vrij en kijk meteen naar het lood en de pannen.",
+    faq: [
+      { v: "Hoe zie ik of de goot achter de gevel van mijn huis in de vesting vol zit?", a: "Van beneden zie je zo'n goot niet, dus let op wat er binnen gebeurt. Een vochtige plek bovenin de muur aan de straatkant, vooral na een flinke bui, kan betekenen dat de goot achter de gevel overloopt. Kun je vanuit een dakraam of zolderraam bij de goot kijken, kijk dan of er blad of plantjes in liggen, maar ga niet zelf door het raam naar buiten. Stuur me een foto van de natte plek binnen. Als ik de goot leegmaak, kijk ik meteen of het zink nog dicht is. Je hoort vooraf wat het kost." },
+    ],
   },
   {
     plaats: "sint-michielsgestel",
