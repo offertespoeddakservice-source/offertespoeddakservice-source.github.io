@@ -2297,6 +2297,48 @@ export const ARTIKELEN: Artikel[] = [
       { v: `Is een lek langs de daktrim spoed?`, a: `Druppelt het binnen of wordt de plek snel groter, dan wel: bel of app me met een foto. Zie je alleen na een flinke bui een vochtrand, dan kan het vaak een paar dagen wachten. Wacht niet tot de volgende storm, want een rand die al los zit, waait dan verder open.` },
     ],
   },
+  {
+    slug: `hoe-lang-gaat-een-dak-mee`,
+    datum: `2026-11-02`,
+    titel: `Hoe lang gaat een dak mee?`,
+    h1: `Hoe lang gaat een pannendak mee, en wanneer is vervangen slimmer dan repareren?`,
+    metaTitle: `Hoe lang gaat een pannendak mee? | Spoed Dak Service`,
+    metaDescription: `Hoe lang gaan dakpannen, de nok en het lood mee? Zo zie je dat je dak op raakt, wanneer repareren nog loont en wanneer vervangen slimmer is.`,
+    intro: `Een pannendak gaat lang mee, maar niet alles op dat dak even lang. De pannen kunnen nog prima zijn terwijl de nok of het lood eromheen al op is. Daarom is de vraag meestal niet hoe oud je dak is, maar welk deel aandacht nodig heeft. Hieronder lees je wat het eerst slijt, hoe je dat ziet en wanneer vervangen slimmer is dan blijven repareren.`,
+    secties: [
+      { kop: `Niet alles slijt even snel`, tekst: [
+        `Op een pannendak liggen meer dingen dan alleen pannen: de nokvorsten bovenop, lood rond de schoorsteen en het dakraam, en de latten waar de pannen op liggen. Die gaan niet allemaal even lang mee. Bij veel daken van veertig, vijftig jaar oud zijn de pannen nog goed, maar is de specie onder de nok bros geworden of het lood gescheurd.`,
+      ] },
+      { kop: `Gebakken pannen en betonpannen`, tekst: [
+        `Gebakken pannen van klei gaan in de regel heel lang mee, vaak langer dan de rest van het dak. Betonpannen slijten anders: de bovenlaag wordt na veel jaren ruw, ze houden meer water en mos vast en worden op den duur bros. Hoe lang een pan het houdt, hangt ook af van de plek. Aan de noordkant en onder bomen blijft een dak langer nat, en daar slijten pannen sneller. Wat vorst met een oude pan doet, lees je in <a href="/kennisbank/vorstschade-dakpannen/">vorstschade aan dakpannen</a>.`,
+      ] },
+      { kop: `Wat meestal het eerst aandacht vraagt`, tekst: [
+        `De nok. Liggen de nokvorsten in specie, dan wordt die na jaren bros en brokkelt hij af. Je vindt dan brokjes in de goot, en bij een storm gaat er een vorst schuiven. Zie <a href="/kennisbank/nokvorsten-los/">losse nokvorsten</a>.`,
+        `Het lood. Lood rond de schoorsteen, het dakraam en langs de muren gaat vaak tientallen jaren mee, maar wordt op den duur hard, scheurt in de vouwen of laat los van de muur. Zie <a href="/kennisbank/lood-op-dak/">lood op je dak</a>.`,
+        `De pannen langs de rand en onderaan. Daar pakt de wind het dak het hardst en loopt het meeste water overheen. Een losse of kapotte pan daar zie je vaak al vanaf de straat, zie <a href="/kennisbank/dakpan-kapot-of-verschoven/">dakpan kapot of verschoven</a>.`,
+      ] },
+      { kop: `Zo zie je dat je dak op raakt`, tekst: [
+        `Een paar dingen samen zeggen meer dan één losse pan. Let op pannen die na een bui veel langer donker en nat blijven dan de rest, schilfers of stukjes pan in de goot, mos dat steeds terugkomt, brokjes specie van de nok, en een golf in het dak als je er vanaf de straat langs kijkt.`,
+        `Kijk ook op zolder met een zaklamp. Zie je daglicht tussen de pannen, natte of donkere latten, of plekken waar het hout zacht is, dan vraagt je dak aandacht.`,
+      ] },
+      { kop: `Repareren of vervangen?`, tekst: [
+        `Is er één pan gebroken, ligt er een vorst los of is een stuk lood gescheurd, dan is repareren meestal de slimste keus. Daarmee kan je dak vaak nog jaren mee.`,
+        `Moet er elk jaar wel ergens iets gebeuren, en zijn er op veel plekken pannen gescheurd of verweerd? Dan is het vaak slimmer om dat dakvlak in één keer aan te pakken dan elk jaar een stukje te laten repareren. Dat hoeft niet het hele dak te zijn: vaak is maar één kant echt op. Zie <a href="/diensten/dakrenovatie/">dakrenovatie</a>.`,
+      ] },
+      { kop: `Laat het eerst nakijken`, tekst: [
+        `Twijfel je, laat je dak dan eerst nakijken voordat je over vervangen beslist. Met de <a href="/dak-apk/">Dak-APK</a> (${apkPrijs}) loop ik het hele dak na en krijg je foto's van elke plek die aandacht vraagt. Dan weet je wat nu moet, wat nog een paar jaar kan wachten en of vervangen echt nodig is. Hoe zo'n inspectie gaat, lees je in <a href="/kennisbank/dakinspectie/">dakinspectie</a>.`,
+      ] },
+      { kop: `Wat kost het?`, tekst: [
+        `Een losse pan of nokvorst valt meestal onder een kleine reparatie: ${kleinPrijs}. Moet er een heel dakvlak of het hele dak opnieuw, dan kom ik eerst kijken en hoor je vooraf één vaste prijs. Richtprijzen staan op de <a href="/prijzen/">prijzenpagina</a>.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: dakrenovatie`, href: `/diensten/dakrenovatie/` },
+    faq: [
+      { v: `Hoe lang gaat een pannendak mee?`, a: `Dat verschilt per dak. Gebakken pannen gaan in de regel heel lang mee, betonpannen slijten eerder. De nok en het lood vragen meestal eerder aandacht dan de pannen zelf. Kijk daarom niet alleen naar de leeftijd van je dak, maar naar hoe het erbij ligt.` },
+      { v: `Mijn dak is veertig jaar oud. Moet het eraf?`, a: `Niet vanwege de leeftijd alleen. Bij veel daken van die leeftijd zijn de pannen nog goed en gaat het om de nok, het lood of een paar pannen. Pas als er op veel plekken iets mis is, is vervangen slimmer. Stuur me een paar foto's van je dak vanaf de straat, dan zeg ik eerlijk wat ik zie.` },
+      { v: `Gaat mos ten koste van de levensduur van mijn dak?`, a: `Het kan wel. Mos houdt water tegen de pannen vast, en als dat bevriest, kunnen oude pannen schilferen of scheuren. Een beetje mos is niet meteen erg, maar een dikke laag die steeds terugkomt, laat je beter weghalen. Meer lees je in het artikel over mos op je dak.` },
+    ],
+  },
 ];
 
 export const getArtikel = (slug: string) => ARTIKELEN.find((a) => a.slug === slug);
