@@ -2138,6 +2138,44 @@ export const ARTIKELEN: Artikel[] = [
       { v: `Is het spoed als het langs de muur met de buren lekt?`, a: `Druppelt het binnen of wordt de muur snel natter, dan wel: bel of app me. Zie je alleen na een flinke bui een donkere strook op zolder, dan kan het vaak een paar dagen wachten. Zet tot die tijd iets neer dat het water opvangt, en wacht niet tot de volgende storm.` },
     ],
   },
+  {
+    slug: `vogels-onder-dakpannen`,
+    datum: `2026-11-02`,
+    titel: `Vogels onder je dakpannen?`,
+    h1: `Vogels onder je dakpannen: erg of niet, en wat je eraan doet`,
+    metaTitle: `Vogels onder je dakpannen: wat nu? | Spoed Dak Service`,
+    metaDescription: `Gekrabbel boven je slaapkamer of mussen onder de onderste rij pannen? Zo zie je of het kwaad kan, wanneer je er iets aan mag doen en wat vogelwering doet.`,
+    intro: `Mussen, spreeuwen en duiven zoeken in het voorjaar een droog plekje, en de ruimte onder de onderste rij dakpannen is daar ideaal voor. Een paar vogels is niet meteen erg. Maar laat je het jaren zitten, dan krijg je nesten, vuil in de goot en soms een lek. Hieronder lees je hoe je het merkt, wat het kwaad kan, wanneer je er iets aan mag doen en hoe ik het afsluit.`,
+    secties: [
+      { kop: `Zo merk je het`, tekst: [
+        `Je hoort in het voorjaar gekrabbel en getjilp boven je slaapkamer of op zolder, vaak vroeg in de ochtend. Vanaf de straat zie je vogels in en uit vliegen onder de onderste rij pannen, net boven de goot. In de goot liggen takjes, strootjes of veertjes, en op zolder zie je soms nestmateriaal tussen de pannen en de latten.`,
+        `Onder zonnepanelen zijn het meestal duiven. Daar zie je veel poep op het dak en in de goot, en takjes die onder de rand van de panelen uitsteken.`,
+      ] },
+      { kop: `Wat het kwaad kan`, tekst: [
+        `Een nest duwt de onderste pannen een stukje omhoog. Liggen ze niet meer goed in de sluiting, dan waait de regen er bij harde wind onder, en na een tijd zie je een natte plek laag op zolder, vlak boven de goot. Nestmateriaal en poep komen in de goot terecht en zetten de uitloop naar de regenpijp dicht. En vogels pikken soms de folie onder de pannen kapot of nemen stukjes isolatie mee voor hun nest.`,
+        `Hoe je ziet of er een pan scheef ligt, lees je in <a href="/kennisbank/dakpan-kapot-of-verschoven/">dakpan kapot of verschoven</a>.`,
+      ] },
+      { kop: `Wanneer je er iets aan mag doen`, tekst: [
+        `Vogels en hun nesten zijn beschermd. Een nest waarin vogels broeden of jongen zitten, mag je niet weghalen of dichtmaken. Het broedseizoen loopt ongeveer van maart tot in de zomer, en bij mussen soms nog langer. Hoor je in die tijd vogels onder je dak, wacht dan tot de jongen uitgevlogen zijn.`,
+        `Van een paar soorten, zoals de huismus en de gierzwaluw, is de nestplek zelfs het hele jaar beschermd. Weet je niet welke vogels het zijn, of gaat het om mussen of gierzwaluwen, vraag dan eerst bij je gemeente wat er mag. Voor de meeste andere vogels zijn de herfst en de winter het goede moment: dan zijn de nesten leeg, en kan de rij onder de pannen dicht voordat de vogels in het voorjaar terugkomen.`,
+      ] },
+      { kop: `Wat je zelf beter niet doet`, tekst: [
+        `Prop geen gaas, schuim of kit tussen de pannen, en ga er niet zelf met een ladder bij. Je duwt de pannen dan makkelijk verder uit de sluiting. En onder de pannen moet lucht kunnen stromen, anders blijft het daar vochtig. Een rij die je dichtpropt, laat vaak ook geen lucht meer door.`,
+      ] },
+      { kop: `Hoe ik het afsluit`, tekst: [
+        `Buiten het broedseizoen, en als het voor die vogels mag, haal ik oude nesten onder de onderste rij weg en leg ik pannen die omhoog zijn geduwd weer goed. Daarna komt er kunststof vogelwering onder de onderste rij: een kam of strook die de opening dichtmaakt en wel lucht doorlaat. Vanaf de straat zie je er weinig van. Ik kijk naar de hele onderste rij, niet alleen naar de plek waar je de vogels ziet, anders schuiven ze een stukje op. Onder zonnepanelen sluit ik de rand rond de panelen af, zodat duiven er niet meer onder kunnen. Zie <a href="/diensten/vogelwering/">vogelwering</a>.`,
+      ] },
+      { kop: `Wat kost het?`, tekst: [
+        `Dat hangt af van hoe lang de rij onder de pannen is, of er zonnepanelen liggen en of er nesten of pannen weg moeten. Je hoort vooraf de vaste prijs, voordat ik begin. Richtprijzen voor de meeste klussen staan op de <a href="/prijzen/">prijzenpagina</a>.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: vogelwering`, href: `/diensten/vogelwering/` },
+    faq: [
+      { v: `Mag ik een vogelnest onder mijn dakpannen weghalen?`, a: `Niet als er vogels in broeden of jongen in zitten, want vogels en hun nesten zijn beschermd. Van de huismus en de gierzwaluw is de nestplek zelfs het hele jaar beschermd. Weet je niet welke vogels het zijn, vraag het dan eerst na bij je gemeente. Ga er in elk geval niet zelf met een ladder bij.` },
+      { v: `Kan een vogelnest een lekkage geven?`, a: `Dat kan. Een nest duwt de onderste pannen omhoog, en dan waait de regen er bij harde wind onder. Nestmateriaal in de goot zet ook de uitloop dicht, en dan loopt de goot over. Zie je laag op zolder, vlak boven de goot, een natte plek, stuur me dan een foto via WhatsApp.` },
+      { v: `Komen de vogels terug als de vogelwering erop zit?`, a: `Onder de rij die is afgesloten in de regel niet meer. Ze zoeken dan een ander plekje. Daarom kijk ik naar de hele onderste rij, en niet alleen naar het stukje waar je ze ziet.` },
+    ],
+  },
 ];
 
 export const getArtikel = (slug: string) => ARTIKELEN.find((a) => a.slug === slug);
