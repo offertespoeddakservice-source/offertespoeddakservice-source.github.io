@@ -2177,6 +2177,50 @@ export const ARTIKELEN: Artikel[] = [
       { v: `Komen de vogels terug als de vogelwering erop zit?`, a: `Onder de rij die is afgesloten in de regel niet meer. Ze zoeken dan een ander plekje. Daarom kijk ik naar de hele onderste rij, en niet alleen naar het stukje waar je ze ziet.` },
     ],
   },
+  {
+    slug: `erker-lekt`,
+    datum: `2026-11-02`,
+    titel: `Erker of luifel lekt?`,
+    h1: `Erker of luifel lekt: water boven het raam of bij de voordeur`,
+    metaTitle: `Erker lekt: water boven raam of deur | Spoed Dak Service`,
+    metaDescription: `Natte plek boven het raam van je erker, of bij de voordeur onder een luifel? Vaak zit het in het lood tegen de gevel of in het dakje zelf. Zo vind je het.`,
+    intro: `Veel huizen hebben aan de voorkant een erker, of boven de voordeur een luifel met een eigen klein dakje. Zo'n dakje vergeet je snel, tot er boven het raam of naast de deur een natte plek komt. Het water komt dan meestal niet door het raam zelf, maar van het dakje erboven of van de plek waar dat tegen de gevel zit. Hieronder lees je waar het meestal zit, hoe je het herkent en wat eraan te doen is.`,
+    secties: [
+      { kop: `Lekt het nu? Eerst dit`, tekst: [
+        `Leg een handdoek op de vensterbank of zet een emmer onder de druppel, en haal gordijnen en spullen weg. Maak een foto van de natte plek. Ga niet op het dakje staan: een erker of luifel is vaak licht gebouwd en niet gemaakt om op te lopen, en van een ladder ernaast val je zo. Wat je verder meteen kunt doen, staat op de <a href="/spoed/">spoedpagina</a>.`,
+      ] },
+      { kop: `Zo zit een erker of luifel aan je huis`, tekst: [
+        `Het dakje ligt tegen de gevel aan. Waar het de muur raakt, zit een strook lood of zink die met de bovenrand in de muur is vastgezet en over het dakje heen valt. Die strook leidt het water dat langs de gevel naar beneden loopt over het dakje heen, in plaats van erachter. Op het dakje zelf ligt dakbedekking, zink of soms een paar pannen, en aan de voorkant zit een klein gootje of een rand waar het water vanaf loopt.`,
+      ] },
+      { kop: `Waar het meestal lekt`, tekst: [
+        `De strook tegen de gevel. Na veel jaren komt de bovenrand los uit de muur, of er komt een scheur in een hoek. Dan loopt het water van de gevel achter de strook langs naar binnen, en dat zie je boven het raam of in een hoek van de erker.`,
+        `Het dakje zelf. Een naad in de bedekking die loslaat, een gaatje in oud zink of een pan die is gaan schuiven. Op zo'n klein dakje loopt het water vaak eerst een stukje opzij voordat het binnenkomt, dus de natte plek zit niet altijd recht onder het lek.`,
+        `Het gootje aan de voorkant. Zit dat vol blad, dan blijft het water op het dakje staan en loopt het terug naar de muur.`,
+        `De zijkanten. Steekt de erker een stuk uit de gevel, dan sluit het dakje aan de zijkanten aan op de muur of op een houten rand. Daar zit vaak kit, en kit laat na een paar jaar los.`,
+      ] },
+      { kop: `Zo zie je het vanaf de straat`, tekst: [
+        `Ga aan de overkant staan en zoom met je telefoon in op de bovenkant van het dakje. Let op drie dingen: of de bovenrand van de strook nog strak in de muur zit, of er blad of mos op het dakje of in het gootje ligt, en of de kit aan de zijkanten gescheurd is of loslaat. Een groene of donkere vlek op de gevel net boven het dakje betekent vaak dat het water daar al een tijd niet goed weg kan.`,
+      ] },
+      { kop: `Komt het wel van het dakje?`, tekst: [
+        `Niet altijd. Zitten er vooral op koude ochtenden druppels op het glas en de vensterbank, ook na een droge nacht, dan is het vaak condens. Wordt het nat langs de naad tussen het kozijn en de muur, dan kan het water ook via het kozijn binnenkomen, en daarvoor heb je een timmerman nodig. Zit er een scheur in de muur boven het dakje, dan is dat werk voor een metselaar. Water van boven loopt wel vaak langs het kozijn naar beneden, dus ik kijk eerst bij het dakje en de strook erboven. Hoe ik een lek opspoor zonder onnodig sloopwerk, lees je in <a href="/kennisbank/daklekkage-opsporen/">daklekkage opsporen</a>.`,
+      ] },
+      { kop: `Wat je zelf beter niet doet`, tekst: [
+        `Smeer geen kit over de strook of over een naad op het dakje. Dat houdt vaak een winter, en daarna loopt het water achter de kit verder. Leun ook niet vanuit een raam boven naar buiten om erbij te kunnen, en zet geen ladder tegen het gootje.`,
+      ] },
+      { kop: `Hoe ik het aanpak`, tekst: [
+        `Ik kijk eerst van buiten naar de strook tegen de gevel, het dakje, het gootje en de zijkanten, en binnen naar waar het nat is. Zit de strook los, dan zet ik hem weer goed vast in de muur of vervang ik hem. Een gootje vol blad maak ik leeg. Is de bedekking van het dakje op één plek los, dan herstel ik die plek. Is hij helemaal versleten, dan zeg ik eerlijk dat vervangen slimmer is. Zie <a href="/diensten/daklekkage/">daklekkage</a> en <a href="/diensten/dakreparatie/">dakreparatie</a>.`,
+      ] },
+      { kop: `Wat kost het?`, tekst: [
+        `Een strook vastzetten of een naad op het dakje dichtmaken valt meestal onder een gerichte lekreparatie: ${lekPrijs}, inclusief het zoeken en het materiaal. Moet de strook over de hele breedte nieuw, of het hele dakje opnieuw bedekt worden, dan is het meer werk. Ook dan hoor je vooraf de vaste prijs.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: daklekkage & spoed`, href: `/diensten/daklekkage/` },
+    faq: [
+      { v: `Waarom lekt mijn erker alleen bij regen met wind?`, a: `Bij gewone regen loopt het water netjes over de strook tegen de gevel. Waait de regen tegen de muur, dan loopt er veel meer water langs de gevel naar beneden, en staat de strook een stukje open, dan waait het erachter. Lekt het vooral bij wind uit één richting, dan zit het vaak aan die kant van de erker.` },
+      { v: `Hoe vaak moet het gootje van mijn erker leeg?`, a: `Staat er een boom voor je huis, kijk dan elk najaar even vanaf de straat of er blad op het dakje ligt. Een klein gootje zit snel vol, en dan blijft het water tegen de muur staan. Kun je er niet veilig bij, dan neem ik het mee als ik je goten leegmaak.` },
+      { v: `Is een lekkende erker spoed?`, a: `Druppelt het binnen of wordt de plek snel groter, dan wel: bel of app me met een foto. Is het een vochtige plek die alleen na harde regen terugkomt, dan heb je vaak een paar dagen. Laat het niet de hele winter zitten, want dan blijven het hout van het kozijn en de muur boven het raam nat.` },
+    ],
+  },
 ];
 
 export const getArtikel = (slug: string) => ARTIKELEN.find((a) => a.slug === slug);
