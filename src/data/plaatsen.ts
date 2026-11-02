@@ -115,6 +115,7 @@ export const PLAATSEN: Plaats[] = [
     omschrijving: "Dakdekker in Schijndel en Wijbosch: lekkage bij oude pannen of de schoorsteen, volle goten en stormschade. Vaste prijs vooraf. Bel of app Rens.",
     faq: [
       { v: "Kom je ook in Wijbosch en het buitengebied van Schijndel?", a: "Ja. Wijbosch hoort bij Schijndel, en Schijndel hoort sinds 2017 bij de gemeente Meierijstad. Ik kom er voor dezelfde klussen als in Schijndel zelf: lekkage, goten, pannen en lood. Het is zo'n 20 minuten rijden vanaf Den Bosch." },
+      { v: "Kun je mijn dak in Schijndel nakijken voordat de winter begint?", a: "Ja, met de Dak-APK loop ik je hele dak na en krijg je een rapport met foto's. Op de oudere daken in Schijndel kijk ik vooral naar de eerste pannen van voor 1985, want die nemen meer water op en kunnen bij vorst scheuren, en naar de nokvorsten, die daar vaak nog in specie liggen. Staat er nog een oude antenne of schotel op je dak, dan kijk ik of die de pannen eromheen beschadigt. Je hoort daarna wat ik zou doen en in welke volgorde, en wat gerust tot het voorjaar kan wachten." },
     ],
   },
   {
