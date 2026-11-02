@@ -65,6 +65,8 @@ const LEK_ARTIKELEN = new Set([...ONDERWERPEN[0], ...ONDERWERPEN[2], "bakgoot-le
 const toonSpoedregel = LEK_ARTIKELEN.has(a.slug) && !(a.secties[0]?.tekst ?? []).some((t) => t.includes('href="/spoed/"'));
 // Gootartikelen: een gewone zin met links naar dakgoot repareren of vervangen per plaats. Niet bij bakgoot-lekt, die heeft de lekkagezin al.
 const GOOT_ARTIKELEN = new Set(["dakgoot-lekt", "verstopte-regenpijp-lekkende-dakgoot", "water-achter-dakgoot"]);
+// Gootartikelen: na het eerste stuk een gewone regel om een foto van de goot te appen.
+const GOOT_FOTOREGEL = new Set(["hoe-vaak-dakgoot-reinigen", "wat-kost-dakgoot-schoonmaken", "dakgoot-lekt", "verstopte-regenpijp-lekkende-dakgoot", "water-achter-dakgoot", "hoe-lang-gaat-een-dakgoot-mee"]);
 // Artikelen over pannen en reparatiekosten: een gewone zin met links naar dakreparatie per plaats.
 const REPARATIE_ARTIKELEN = new Set(["wat-kost-een-dakdekker", "vorstschade-dakpannen"]);
 // Echte foto's van Rens (uit fotos.ts) bij artikelen waar ze echt bij passen. Alleen artikelen die na publicatie niet zijn aangepast.
@@ -144,6 +146,9 @@ const schema = faqSchema ? [articleSchema, faqSchema] : articleSchema;
             {s.tekst.map((p) => <p set:html={p} />)}
             {i === 0 && toonSpoedregel && (
               <p><strong>Lekt het nu?</strong> Ga niet zelf het dak op. Wat je meteen kunt doen, staat op de <a href="/spoed/">spoedpagina</a>. Of stuur me een foto van de natte plek via <a href={waHref("Hallo, mijn dak lekt. Ik stuur je een foto.")}>WhatsApp</a>, dan kijk ik mee.</p>
+            )}
+            {i === 0 && GOOT_FOTOREGEL.has(a.slug) && (
+              <p><strong>Vol of lek?</strong> Twijfel je of je goot alleen vol zit of echt lekt? Maak vanaf de straat een foto, het liefst tijdens of vlak na een bui, en stuur die via <a href={waHref("Hallo, ik heb een vraag over mijn dakgoot. Ik stuur je een foto.")}>WhatsApp</a>. Dan zeg ik wat ik zie, en je hoort vooraf de vaste prijs.</p>
             )}
           </>
         ))}
