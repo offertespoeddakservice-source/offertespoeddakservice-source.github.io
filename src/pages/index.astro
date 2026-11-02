@@ -10,6 +10,11 @@ import { PRIJZEN } from "../data/prijzen.ts";
 const score = SITE.reviews.score.toString().replace(".", ",");
 const googleReviewLink = SITE.reviewLink && !SITE.reviewLink.includes("JOUW_PLACE_ID") ? SITE.reviewLink : null;
 const apkPrijs = PRIJZEN.find((r) => r.dienst.startsWith("Dak-APK"))?.prijs ?? "";
+const gotenPrijs = PRIJZEN.find((r) => r.dienst === "Dakgoot reinigen")?.prijs ?? "";
+const veegPrijs = PRIJZEN.find((r) => r.dienst === "Schoorsteen vegen")?.prijs ?? "";
+const [kleinVan, kleinTot] = (PRIJZEN.find((r) => r.dienst.startsWith("Kleine reparatie"))?.prijs ?? "").split(" - ");
+const [lekVan, lekTot] = (PRIJZEN.find((r) => r.dienst.startsWith("Daklekkage"))?.prijs ?? "").split(" - ");
+const [ontmosVan, ontmosTot] = (PRIJZEN.find((r) => r.dienst.startsWith("Dak reinigen"))?.prijs ?? "").split(" - ");
 
 const faq = [
   { v: "Wat kost het om iemand te laten komen?", a: `Wil je weten hoe je dak ervoor staat? Dat doe ik via de Dak-APK: binnen een dagdeel een compleet keuringsrapport met foto's, voor ${apkPrijs}. Weet je al wat er moet gebeuren, bijvoorbeeld goten reinigen? Dan hoor je gewoon de vaste prijs vooraf.` },
@@ -133,31 +138,31 @@ const faqSchema = {
 
         <a href="/diensten/goten-reinigen/" style="text-decoration:none; background:#fff; border:1px solid var(--line); border-radius:14px; padding:22px; display:block;">
           <span style="display:block; font-family:var(--font-display); font-weight:800; text-transform:uppercase; letter-spacing:.03em; color:var(--navy); font-size:.85rem;">Dakgoot reinigen</span>
-          <strong style="display:block; font-family:var(--font-display); color:var(--orange); font-size:2.4rem; line-height:1; margin:8px 0;"><span style="font-size:1rem;">vanaf</span> €99</strong>
+          <strong style="display:block; font-family:var(--font-display); color:var(--orange); font-size:2.4rem; line-height:1; margin:8px 0;"><span style="font-size:1rem;">vanaf</span> {gotenPrijs.replace("vanaf ", "")}</strong>
           <span style="display:block; color:var(--muted); font-size:.95rem;">Beide goten leeg, uitloop vrijgemaakt. Rijtjeswoning.</span>
         </a>
 
         <a href="/diensten/schoorsteen-vegen/" style="text-decoration:none; background:#fff; border:1px solid var(--line); border-radius:14px; padding:22px; display:block;">
           <span style="display:block; font-family:var(--font-display); font-weight:800; text-transform:uppercase; letter-spacing:.03em; color:var(--navy); font-size:.85rem;">Schoorsteen vegen</span>
-          <strong style="display:block; font-family:var(--font-display); color:var(--orange); font-size:2.4rem; line-height:1; margin:8px 0;"><span style="font-size:1rem;">vanaf</span> €70</strong>
+          <strong style="display:block; font-family:var(--font-display); color:var(--orange); font-size:2.4rem; line-height:1; margin:8px 0;"><span style="font-size:1rem;">vanaf</span> {veegPrijs.replace("vanaf ", "")}</strong>
           <span style="display:block; color:var(--muted); font-size:.95rem;">Hele schoorsteen, netjes, zonder roetzooi in huis.</span>
         </a>
 
         <a href="/diensten/dakreparatie/" style="text-decoration:none; background:#fff; border:1px solid var(--line); border-radius:14px; padding:22px; display:block;">
           <span style="display:block; font-family:var(--font-display); font-weight:800; text-transform:uppercase; letter-spacing:.03em; color:var(--navy); font-size:.85rem;">Kleine reparatie</span>
-          <strong style="display:block; font-family:var(--font-display); color:var(--orange); font-size:2.4rem; line-height:1; margin:8px 0;">€100<span style="font-size:1.3rem;">-€250</span></strong>
+          <strong style="display:block; font-family:var(--font-display); color:var(--orange); font-size:2.4rem; line-height:1; margin:8px 0;">{kleinVan}<span style="font-size:1.3rem;">-{kleinTot}</span></strong>
           <span style="display:block; color:var(--muted); font-size:.95rem;">Losse pan of nokvorst: kort klusje, vaste prijs vooraf.</span>
         </a>
 
         <a href="/diensten/daklekkage/" style="text-decoration:none; background:#fff; border:1px solid var(--line); border-radius:14px; padding:22px; display:block;">
           <span style="display:block; font-family:var(--font-display); font-weight:800; text-transform:uppercase; letter-spacing:.03em; color:var(--navy); font-size:.85rem;">Daklekkage</span>
-          <strong style="display:block; font-family:var(--font-display); color:var(--orange); font-size:2.4rem; line-height:1; margin:8px 0;">€200<span style="font-size:1.3rem;">-€500</span></strong>
+          <strong style="display:block; font-family:var(--font-display); color:var(--orange); font-size:2.4rem; line-height:1; margin:8px 0;">{lekVan}<span style="font-size:1.3rem;">-{lekTot}</span></strong>
           <span style="display:block; color:var(--muted); font-size:.95rem;">Eén lek opsporen en dichten, incl. materiaal. Ook bij spoed.</span>
         </a>
 
         <a href="/diensten/dak-reinigen/" style="text-decoration:none; background:#fff; border:1px solid var(--line); border-radius:14px; padding:22px; display:block;">
           <span style="display:block; font-family:var(--font-display); font-weight:800; text-transform:uppercase; letter-spacing:.03em; color:var(--navy); font-size:.85rem;">Dak reinigen / ontmossen</span>
-          <strong style="display:block; font-family:var(--font-display); color:var(--orange); font-size:2.4rem; line-height:1; margin:8px 0;">€8<span style="font-size:1.3rem;">-€15 p/m²</span></strong>
+          <strong style="display:block; font-family:var(--font-display); color:var(--orange); font-size:2.4rem; line-height:1; margin:8px 0;">{ontmosVan}<span style="font-size:1.3rem;">-{ontmosTot}</span></strong>
           <span style="display:block; color:var(--muted); font-size:.95rem;">Mos en aanslag eraf, zodat je dak weer ademt.</span>
         </a>
       </div>
