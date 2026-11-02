@@ -13,30 +13,30 @@ const apkPrijs = PRIJZEN.find((r) => r.dienst.startsWith("Dak-APK"))?.prijs ?? "
 // Laatst bijgewerkt: datum van de laatste inhoudelijke wijziging per artikel (zie geschiedenis). Gaat voor de eigen datum van het artikel.
 const BIJGEWERKT: Record<string, string> = {
   "daklekkage-opsporen": "2026-11-01",
-  "wat-kost-daklekkage-repareren": "2026-11-01",
+  "wat-kost-daklekkage-repareren": "2026-11-02",
   "stormschade-eerste-hulp": "2026-11-01",
   "hoe-vaak-dakgoot-reinigen": "2026-11-01",
   "verstopte-regenpijp-lekkende-dakgoot": "2026-11-01",
   "mos-op-dak-verwijderen": "2026-11-01",
   "plat-dak-vervangen-of-repareren": "2026-11-01",
-  "dakonderhoud-per-seizoen": "2026-10-31",
+  "dakonderhoud-per-seizoen": "2026-11-02",
   "schoorsteen-vegen-hoe-vaak": "2026-11-02",
   "hoe-herken-je-een-betrouwbare-dakdekker": "2026-11-01",
   "zonnepanelen-reinigen-nodig": "2026-10-30",
   "wat-kost-een-dakdekker": "2026-10-29",
   "dakgoot-lekt": "2026-10-31",
-  "lekkage-bij-zonnepanelen": "2026-11-01",
+  "lekkage-bij-zonnepanelen": "2026-11-02",
   "nokvorsten-los": "2026-10-27",
   "bakgoot-lekt": "2026-10-29",
   "dak-lekt-bij-harde-wind": "2026-11-01",
-  "kilgoot-lekt": "2026-11-01",
+  "kilgoot-lekt": "2026-11-02",
   "dakraam-lekt": "2026-10-29",
   "daklekkage-verzekering": "2026-11-01",
   "condens-of-lekkage-op-zolder": "2026-11-02",
   "vochtplek-plafond": "2026-11-01",
   "wat-kost-dakgoot-schoonmaken": "2026-10-30",
-  "lekkage-bij-schoorsteen": "2026-11-01",
-  "water-blijft-staan-op-plat-dak": "2026-10-31",
+  "lekkage-bij-schoorsteen": "2026-11-02",
+  "water-blijft-staan-op-plat-dak": "2026-11-02",
   "dakinspectie": "2026-11-02",
   "dak-lekt-bij-sneeuw-of-vorst": "2026-11-01",
   "lekkage-bij-aanbouw": "2026-11-01",
@@ -53,12 +53,13 @@ const path = `/kennisbank/${a.slug}`;
 const idx = ARTIKELEN.findIndex((x) => x.slug === a.slug);
 // Lees ook: eerst artikelen over hetzelfde onderwerp, daarna aanvullen met de volgende uit de lijst.
 const ONDERWERPEN: string[][] = [
-  ["daklekkage-opsporen", "vochtplek-plafond", "plafond-bolt-op-door-lekkage", "water-uit-lamp-plafond", "isolatie-nat-na-lekkage", "dak-lekt-bij-hevige-regen", "dak-lekt-bij-sneeuw-of-vorst", "schoorsteen-lekt-open-haard", "lekkage-gedeelde-schoorsteen", "lekkage-bij-schoorsteen", "condens-of-lekkage-op-zolder", "nat-achter-knieschot", "dakraam-lekt", "lichtkoepel-lekt", "dak-lekt-bij-harde-wind", "kilgoot-lekt", "lekkage-bij-zonnepanelen", "wat-kost-daklekkage-repareren", "daklekkage-verzekering", "lekkage-muur-buren"],
+  ["daklekkage-opsporen", "vochtplek-plafond", "plafond-bolt-op-door-lekkage", "water-uit-lamp-plafond", "isolatie-nat-na-lekkage", "erker-lekt", "dak-lekt-bij-hevige-regen", "dak-lekt-bij-sneeuw-of-vorst", "schoorsteen-lekt-open-haard", "lekkage-gedeelde-schoorsteen", "lekkage-bij-schoorsteen", "condens-of-lekkage-op-zolder", "nat-achter-knieschot", "dakraam-lekt", "lichtkoepel-lekt", "dak-lekt-bij-harde-wind", "kilgoot-lekt", "lekkage-bij-zonnepanelen", "wat-kost-daklekkage-repareren", "daklekkage-verzekering", "lekkage-muur-buren"],
   ["hoe-vaak-dakgoot-reinigen", "wat-kost-dakgoot-schoonmaken", "dakgoot-zelf-schoonmaken", "verstopte-regenpijp-lekkende-dakgoot", "dakgoot-lekt", "dakgoot-hangt-door", "water-achter-dakgoot", "bakgoot-lekt", "hoe-lang-gaat-een-dakgoot-mee", "kilgoot-lekt"],
   ["stormschade-eerste-hulp", "nokvorsten-los", "dakpan-kapot-of-verschoven", "tak-of-boom-op-dak", "dakpannen-vastzetten-tegen-storm", "dak-lekt-bij-harde-wind", "daklekkage-verzekering"],
   ["plat-dak-vervangen-of-repareren", "lichtkoepel-lekt", "water-blijft-staan-op-plat-dak", "dakonderhoud-per-seizoen", "mos-op-dak-verwijderen", "vogels-onder-dakpannen", "zonnepanelen-reinigen-nodig", "lekkage-bij-aanbouw", "veranda-of-overkapping-lekt"],
   ["dakinspectie", "dakonderhoud-per-seizoen", "hoe-herken-je-een-betrouwbare-dakdekker", "wat-kost-een-dakdekker", "vorstschade-dakpannen"],
   ["schoorsteen-vegen-hoe-vaak", "lekkage-bij-schoorsteen", "lekkage-gedeelde-schoorsteen", "schoorsteen-afdekken", "lood-op-dak", "schoorsteen-lekt-open-haard", "dakinspectie", "lekkage-bij-dakdoorvoer"],
+  ["hoe-lang-gaat-een-dak-mee", "vorstschade-dakpannen", "dakpan-kapot-of-verschoven", "nokvorsten-los", "lood-op-dak"],
 ];
 const groep = ONDERWERPEN.find((g) => g.includes(a.slug)) ?? [];
 // Spoedregel na het eerste stuk tekst: alleen bij artikelen over lekkage en storm, en alleen als daar nog geen link naar /spoed/ staat.
