@@ -614,4 +614,13 @@ export const MATRIX: MatrixCombo[] = [
       { v: "De rand van het platte dak op mijn schuur staat na de storm omhoog. Is dat erg?", a: "Laat het niet te lang zitten. Staat de daktrim of de dakbedekking aan de rand een stukje omhoog, dan kan de wind er bij de volgende windstoot verder onder en scheurt er een groter stuk los. En de regen loopt er nu al onder. Ga er niet zelf op, zeker niet als het nog waait. Maak vanuit een raam of vanaf de grond een foto en stuur die via WhatsApp. Dan zeg ik wat er nodig is, en je hoort vooraf wat het kost." },
     ],
   },
+  // Stormschade in Veghel (Search Console: dakdekker veghel 125 vertoningen op plek 75, nog geen stormpagina; stormpagina's per plaats komen hoog binnen zodra er op gezocht wordt), met andere lokale inhoud dan plaatsen.ts en de andere Veghel-pagina's
+  {
+    plaats: "veghel",
+    dienst: "stormschade",
+    hook: "Rond Veghel ligt veel open land, en in de kerkdorpen en het buitengebied staan boerderijen en vrijstaande huizen met een breed pannendak waar de wind bij een storm vol op staat. Daar vind ik na een storm vaak opgetilde of losse pannen langs de zijkant van het dak, bij de gevel, en soms een nokvorst die is gaan schuiven. In de rijtjes en twee-onder-een-kappers uit de jaren '70 en '80 steekt bij veel huizen een pijp van de ventilatie boven de pannen uit, met een kap erop. Die kap vangt veel wind. Staat hij na een storm scheef of is hij weg, dan kan ook de kraag rond de pijp gescheurd zijn, en dan loopt bij de volgende bui het water langs de pijp naar binnen. Kijk na een storm vanaf de straat of alles nog recht staat, en ga zelf niet het dak op. Stuur me een foto via WhatsApp. Kan het niet meteen netjes, dan zorg ik eerst dat het binnen droog blijft, en de foto's die ik maak kun je voor je verzekering gebruiken.",
+    faq: [
+      { v: "Na de storm staat de kap op de ventilatiepijp op mijn dak scheef. Is dat erg?", a: "Het kan, ook als het binnen nog droog is. De kap houdt de regen uit de pijp, en de kraag eromheen leidt het water over de pannen. Is de kap gaan schuiven, dan heeft de wind vaak ook aan die kraag getrokken. Kijk op zolder bij de plek waar de pijp door het dak gaat: zie je daar na een bui natte plekken op het hout of de folie, dan komt er water langs. Ga zelf niet het dak op. Stuur me via WhatsApp een foto van de pijp vanaf de straat en van die plek op zolder. De pijp en de kraag op het dak maak ik weer dicht. Gaat het om de ventilatiebox binnen, dan is dat werk voor je installateur. Je hoort vooraf wat het kost." },
+    ],
+  },
 ];
