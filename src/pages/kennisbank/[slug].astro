@@ -71,6 +71,8 @@ const GOOT_ARTIKELEN = new Set(["dakgoot-lekt", "verstopte-regenpijp-lekkende-da
 const GOOT_FOTOREGEL = new Set(["hoe-vaak-dakgoot-reinigen", "wat-kost-dakgoot-schoonmaken", "dakgoot-lekt", "verstopte-regenpijp-lekkende-dakgoot", "water-achter-dakgoot", "hoe-lang-gaat-een-dakgoot-mee"]);
 // Artikelen over pannen en reparatiekosten: een gewone zin met links naar dakreparatie per plaats.
 const REPARATIE_ARTIKELEN = new Set(["wat-kost-een-dakdekker", "vorstschade-dakpannen"]);
+// Stormartikelen: een gewone zin met links naar stormschade per plaats, in plaats van de zin met lekkagepagina's (geen twee linkzinnen onder elkaar).
+const STORM_ARTIKELEN = new Set(["stormschade-eerste-hulp", "nokvorsten-los", "dakpan-kapot-of-verschoven", "tak-of-boom-op-dak"]);
 // Echte foto's van Rens (uit fotos.ts) bij artikelen waar ze echt bij passen. Alleen artikelen die na publicatie niet zijn aangepast.
 const FOTOS_BIJ: Record<string, { soort: string; max: number }> = {
   "dak-lekt-bij-harde-wind": { soort: "pannen", max: 2 },
@@ -156,8 +158,11 @@ const schema = faqSchema ? [articleSchema, faqSchema] : articleSchema;
           </>
         ))}
         {fotoBij && <EchteFotos soort={fotoBij.soort} max={fotoBij.max} inline />}
-        {LEK_ARTIKELEN.has(a.slug) && (
+        {LEK_ARTIKELEN.has(a.slug) && !STORM_ARTIKELEN.has(a.slug) && (
           <p>Woon je in de regio Den Bosch? Hoe ik een lek bij jou in de buurt aanpak, lees je bij daklekkage in <a href="/werkgebied/den-bosch/daklekkage/">Den Bosch</a>, <a href="/werkgebied/vught/daklekkage/">Vught</a>, <a href="/werkgebied/rosmalen/daklekkage/">Rosmalen</a>, <a href="/werkgebied/oss/daklekkage/">Oss</a>, <a href="/werkgebied/veghel/daklekkage/">Veghel</a>, <a href="/werkgebied/oisterwijk/daklekkage/">Oisterwijk</a>, <a href="/werkgebied/heusden/daklekkage/">Heusden</a> en <a href="/werkgebied/boxtel/daklekkage/">Boxtel</a>. Andere plaatsen vind je bij <a href="/werkgebied/">mijn werkgebied</a>.</p>
+        )}
+        {STORM_ARTIKELEN.has(a.slug) && (
+          <p>Hoe ik na een storm bij jou in de buurt eerst afdek en daarna netjes herstel, lees je bij stormschade in <a href="/werkgebied/den-bosch/stormschade/">Den Bosch</a>, <a href="/werkgebied/rosmalen/stormschade/">Rosmalen</a>, <a href="/werkgebied/vught/stormschade/">Vught</a>, <a href="/werkgebied/oss/stormschade/">Oss</a>, <a href="/werkgebied/berlicum/stormschade/">Berlicum</a>, <a href="/werkgebied/schijndel/stormschade/">Schijndel</a>, <a href="/werkgebied/boxtel/stormschade/">Boxtel</a> en <a href="/werkgebied/waalwijk/stormschade/">Waalwijk</a>. Andere plaatsen vind je bij <a href="/werkgebied/">mijn werkgebied</a>.</p>
         )}
         {GOOT_ARTIKELEN.has(a.slug) && (
           <p>Woon je in de regio Den Bosch? Hoe ik een lekkende goot bij jou in de buurt aanpak, lees je bij dakgoot repareren in <a href="/werkgebied/den-bosch/dakgoot-vervangen/">Den Bosch</a>, <a href="/werkgebied/vught/dakgoot-vervangen/">Vught</a>, <a href="/werkgebied/veghel/dakgoot-vervangen/">Veghel</a> en <a href="/werkgebied/oisterwijk/dakgoot-vervangen/">Oisterwijk</a>. Andere plaatsen vind je bij <a href="/werkgebied/">mijn werkgebied</a>.</p>
