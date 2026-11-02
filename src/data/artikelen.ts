@@ -97,6 +97,9 @@ export const ARTIKELEN: Artikel[] = [
         `Nat aan de bovenkant, de kant van de nok: achter de schoorsteen komt al het water van het dak erboven samen, en daar blijven ook blad en mos liggen. Ligt daar geen goed stuk lood dat het water om de schoorsteen heen leidt, of zit het vol vuil, dan staat het water er na een flinke bui tegen de schoorsteen aan en zoekt het een weg naar binnen.`,
         `Hoe je ziet dat lood op is, lees je in <a href="/kennisbank/lood-op-dak/">lood op je dak</a>. Komt het water in de haard zelf naar beneden, kijk dan bij <a href="/kennisbank/schoorsteen-lekt-open-haard/">water in je open haard</a>.`,
       ] },
+      { kop: `Bij jou in de buurt`, tekst: [
+        `Hoe een lek bij de schoorsteen er bij jou in de buurt uitziet, lees je bij daklekkage in <a href="/werkgebied/waalwijk/daklekkage/">Waalwijk</a>, waar in Waspik veel oude schoorstenen staan die niet meer gebruikt worden, en in <a href="/werkgebied/uden/daklekkage/">Uden</a>, waar bij oudere huizen de schoorsteen soms is weggehaald en het daar jaren later kan gaan lekken. In <a href="/werkgebied/tilburg/">Tilburg</a> staan in het Goirke en Korvel lange rijen arbeiderswoningen met een schoorsteen per huis, en in het Villapark in <a href="/werkgebied/eindhoven/">Eindhoven</a> veel villa's met oud lood rond de schoorsteen. Rond het centrum van <a href="/werkgebied/oss/">Oss</a> staat op oude arbeiderswoningen nogal eens een schoorsteen zonder kap.`,
+      ] },
       { kop: "Hoe ik het aanpak", tekst: [
         'Ik kijk van buiten naar het lood, de pannen en de kop van de schoorsteen. Loszittend lood zet ik opnieuw goed vast of ik vervang de loodslabben, en verschoven pannen leg ik recht. Zie <a href="/diensten/dakreparatie/">dakreparatie</a>. Wordt de schoorsteen nog gebruikt, dan is het handig om het <a href="/diensten/schoorsteen-vegen/">vegen</a> in één keer mee te nemen.',
       ] },
