@@ -101,6 +101,7 @@ export const PLAATSEN: Plaats[] = [
       "Rond Sint-Michielsgestel liggen oude landgoederen, zoals Zegenwerp en Ruwenberg, en ook in de straten eromheen staan hoge eiken en beuken. In de herfst komen daar naast blad ook eikels en takjes in de goot, en die blijven bij de uitloop naar de regenpijp hangen. In Den Dungen en Gemonde staan meer vrijstaande huizen en boerderijen met een groot pannendak, vaak met veel open land eromheen. Daar heeft de wind meer grip op het dak, en waait een nokvorst met losse specie er eerder af dan in een straat vol huizen.",
     faq: [
       { v: "Kom je ook in Den Dungen, Gemonde en Maaskantje?", a: "Ja. Den Dungen, Maaskantje en Gemonde horen bij de gemeente Sint-Michielsgestel, net als Berlicum en Middelrode. Ik kom er voor dezelfde klussen als in Gestel zelf: lekkage, goten, pannen en lood. Het is zo'n kwartier tot twintig minuten rijden vanaf Den Bosch." },
+      { v: "Kun je in Sint-Michielsgestel ook mijn dak isoleren?", a: "Ja, het schuine dak aan de binnenkant of de zoldervloer. Bij de oudere huizen in het centrum van Gestel en langs de Dommel kijk ik eerst goed naar de pannen en het lood. Ligt er ergens een pan scheef of laat het lood los, dan maak ik dat eerst in orde, want isoleren op een dak dat water doorlaat maakt het erger. Ik kom eerst kijken, en je hoort vooraf de vaste prijs." },
     ],
   },
   {
