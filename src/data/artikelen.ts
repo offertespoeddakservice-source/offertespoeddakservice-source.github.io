@@ -2296,6 +2296,9 @@ export const ARTIKELEN: Artikel[] = [
       { kop: `Wat je zelf beter niet doet`, tekst: [
         `Smeer geen kit over de strook of over een naad op het dakje. Dat houdt vaak een winter, en daarna loopt het water achter de kit verder. Leun ook niet vanuit een raam boven naar buiten om erbij te kunnen, en zet geen ladder tegen het gootje.`,
       ] },
+      { kop: `Bij jou in de buurt`, tekst: [
+        `Bij de oudere huizen rond het centrum van Boxtel zie ik veel erkers en luifels met een klein plat dakje, en daar kijk ik bij een lek eerst naar het lood tegen de gevel: zie <a href="/werkgebied/boxtel/">dakdekker in Boxtel</a>. Hetzelfde gebeurt waar een garage of berging met een eigen dak tegen de zijmuur van het huis zit, zoals bij veel huizen in Berlicum: lees <a href="/werkgebied/berlicum/daklekkage/">daklekkage in Berlicum</a>. Lekt het waar een serre tegen het huis zit, kijk dan bij <a href="/werkgebied/sint-michielsgestel/daklekkage/">daklekkage in Sint-Michielsgestel</a>.`,
+      ] },
       { kop: `Hoe ik het aanpak`, tekst: [
         `Ik kijk eerst van buiten naar de strook tegen de gevel, het dakje, het gootje en de zijkanten, en binnen naar waar het nat is. Zit de strook los, dan zet ik hem weer goed vast in de muur of vervang ik hem. Een gootje vol blad maak ik leeg. Is de bedekking van het dakje op één plek los, dan herstel ik die plek. Is hij helemaal versleten, dan zeg ik eerlijk dat vervangen slimmer is. Zie <a href="/diensten/daklekkage/">daklekkage</a> en <a href="/diensten/dakreparatie/">dakreparatie</a>.`,
       ] },
