@@ -1416,6 +1416,10 @@ export const ARTIKELEN: Artikel[] = [
         'Is het lek gevonden en hersteld, kijk dan ook naar de rest van de kant waar de wind op staat. Liggen de pannen langs de rand en de onderste rij nog los op de latten, dan kun je ze laten vastzetten met stormhaken. Wat dat doet en wanneer het zin heeft, lees je in <a href="/kennisbank/dakpannen-vastzetten-tegen-storm/">dakpannen vastzetten tegen storm</a>.',
         "Ligt de nok nog in oude specie die bros wordt, dan wordt bij het opnieuw leggen vaak een ondervorst gebruikt in plaats van specie. Het liefst laat je dat in de herfst doen, voordat de winterstormen komen.",
       ] },
+      { kop: `Wat kost het?`, tekst: [
+        `Ligt er bij de nok of langs de rand van het dak een pan of vorst los, dan valt terugleggen of vervangen meestal onder een kleine reparatie: ${kleinPrijs}. Moet ik eerst zoeken waar het water onder de pannen door komt, bijvoorbeeld bij het lood rond de schoorsteen of het dakraam, dan is het meestal een gerichte lekreparatie: ${lekPrijs}, inclusief materiaal.`,
+        `Lekt het 's avonds, 's nachts of in het weekend en kan het echt niet wachten, dan komt er een toeslag bij. Je hoort de vaste prijs vooraf, voordat ik begin. Wil je ook de andere pannen aan de windkant laten vastzetten, dan hoor je ook daarvan vooraf wat het kost.`,
+      ] },
     ],
     dienst: { label: "Bekijk: dakreparatie (pannen, lood en nok)", href: "/diensten/dakreparatie/" },
     faq: [
