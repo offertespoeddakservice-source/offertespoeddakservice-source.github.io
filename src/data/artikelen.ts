@@ -2044,6 +2044,47 @@ export const ARTIKELEN: Artikel[] = [
       { v: `Komt er nog vocht binnen als de kap erop zit?`, a: `Er kan nog een tijd wat vocht uit de stenen komen, want die moeten eerst opdrogen. Dat duurt soms een paar weken. Wordt de plek daarna niet droger, of juist natter na regen, dan zit het lek ergens anders, bijvoorbeeld in het lood rond de schoorsteen. Stuur me dan een foto van de plek.` },
     ],
   },
+  {
+    slug: `dakgoot-hangt-door`,
+    datum: `2026-11-02`,
+    titel: `Dakgoot hangt door?`,
+    h1: `Dakgoot hangt door of scheef: zo zie je het en dit is eraan te doen`,
+    metaTitle: `Dakgoot hangt door of scheef: wat nu? | Spoed Dak Service`,
+    metaDescription: `Blijft er water in het midden van je dakgoot staan, of loopt hij over op één plek? Dan hangt hij vaak door. Zo zie je het, hoe het komt en wat eraan te doen is.`,
+    intro: `Een goot moet een klein beetje aflopen naar de regenpijp. Hangt hij ergens door, dan blijft het water daar staan in plaats van weg te lopen. Bij een flinke bui loopt de goot op die plek over, in de winter bevriest het water erin, en op den duur gaat hij daar lekken. Hieronder lees je hoe je het ziet, waar het door komt en wat eraan te doen is.`,
+    secties: [
+      { kop: `Zo zie je dat je goot doorhangt`, tekst: [
+        `Kijk vanaf de overkant van de straat langs de goot. Zie je een knik of een bolling naar beneden, of hangt een stuk lager dan de rest, dan hangt hij door. Na een bui zie je het soms ook aan een plas die in het midden van de goot blijft staan, terwijl de rest al leeg is.`,
+        `Andere tekenen: water dat bij een bui op één vaste plek over de voorkant van de goot loopt, ver van de regenpijp. Een groene of donkere streep op de gevel onder die plek. En in de winter ijspegels op steeds dezelfde plek.`,
+      ] },
+      { kop: `Waar het door komt`, tekst: [
+        `Een goot hangt aan beugels. Is er een beugel verbogen, doorgeroest of losgeschoten, dan zakt de goot daar. Bij oudere huizen zitten de beugels soms in het hout van de gootlijst of het boeiboord, en is dat hout zacht geworden, dan houden de schroeven niet meer.`,
+        `Gewicht doet de rest. Een goot vol nat blad en slib is zwaar, en in de winter komen daar ijs en sneeuw bij. Ook een ladder die tegen de goot is gezet, kan een beugel verbuigen. En kunststof goten zetten uit als het warm is en krimpen bij vorst. Na een paar jaar kan een stuk dan uit zijn beugel schuiven.`,
+      ] },
+      { kop: `Waarom je het niet laat zitten`, tekst: [
+        `Water dat in een goot blijft staan, is niet zo onschuldig als het lijkt. Een zinken goot wordt op die plek eerder dun, en een naad of hoek in de buurt gaat eerder lekken. Bevriest het water, dan zet het ijs uit en kan het een naad openduwen. En loopt de goot steeds op dezelfde plek over, dan wordt de gevel daar nat. Hoe je ziet of een goot al echt lek is, lees je in <a href="/kennisbank/dakgoot-lekt/">dakgoot lekt</a>.`,
+      ] },
+      { kop: `Wat je zelf kunt doen`, tekst: [
+        `Maak tijdens of vlak na een bui een foto van de goot vanaf de straat, zodat je ziet waar het water blijft staan. Haal de goot leeg als je er veilig bij kunt, want een volle goot hangt nog verder door. Hoe je dat veilig doet, lees je in <a href="/kennisbank/dakgoot-zelf-schoonmaken/">dakgoot zelf schoonmaken</a>.`,
+        `Trek niet aan een goot die los hangt en zet er geen ladder tegen. Hangt hij na een storm half los, ga er dan ook niet onder staan, want een zinken goot is zwaar.`,
+      ] },
+      { kop: `Hoe ik het aanpak`, tekst: [
+        `Ik kijk eerst waarom de goot zakt: een losse of verbogen beugel, te weinig beugels of hout dat zacht is geworden. Daarna hang ik de goot weer op afschot naar de regenpijp, en waar nodig zet ik nieuwe beugels. Is de goot zelf geknikt of op meer plekken dun, dan vervang ik dat stuk. Is het hout van de gootlijst of het boeiboord rot, dan zeg ik dat eerlijk, want dat moet eerst hersteld worden voordat er een goot aan kan. Zie <a href="/diensten/dakgoot-vervangen/">dakgoot repareren of vervangen</a>.`,
+      ] },
+      { kop: `Bij jou in de buurt`, tekst: [
+        `Hoe ik een goot bij jou in de buurt aanpak, lees je bij dakgoot repareren in <a href="/werkgebied/veghel/dakgoot-vervangen/">Veghel</a>, waar lange goten aan boerderijen nogal eens tussen de haken zakken, en in <a href="/werkgebied/uden/dakgoot-vervangen/">Uden</a>, waar aan veel huizen nog de eerste kunststof goot hangt. Andere plaatsen vind je bij <a href="/werkgebied/">mijn werkgebied</a>.`,
+      ] },
+      { kop: `Wat kost het?`, tekst: [
+        `Dat hangt af van hoe lang de goot is, hoeveel beugels er nodig zijn en of er een stuk goot of hout vervangen moet worden. Een goot opnieuw ophangen is meestal minder werk dan een nieuwe goot. Je hoort vooraf de vaste prijs, voordat ik begin. Richtprijzen staan op de <a href="/prijzen/">prijzenpagina</a>.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: dakgoot repareren of vervangen`, href: `/diensten/dakgoot-vervangen/` },
+    faq: [
+      { v: `Hoeveel moet een dakgoot aflopen?`, a: `Een klein beetje, zodat het water vanzelf naar de regenpijp loopt. Met het blote oog zie je dat bijna niet. Blijft er na een bui ergens water staan, dan loopt hij daar niet goed af.` },
+      { v: `Kan een goot die doorhangt gewoon weer omhoog?`, a: `Vaak wel. Zit de goot zelf nog goed, dan hang ik hem opnieuw op met nieuwe of extra beugels. Is hij geknikt, gescheurd of op meer plekken dun, dan is een nieuw stuk beter. Je hoort vooraf wat het kost.` },
+      { v: `Is een goot die doorhangt spoed?`, a: `Meestal niet, het kan vaak een paar dagen wachten. Hangt hij na een storm half los, of komt er water binnen bovenin de muur, dan wel. Bel of app me dan met een foto.` },
+    ],
+  },
 ];
 
 export const getArtikel = (slug: string) => ARTIKELEN.find((a) => a.slug === slug);
