@@ -267,6 +267,9 @@ export const PLAATSEN: Plaats[] = [
     reistijd: "± 40 min vanaf Den Bosch",
     extra:
       "Sinds 1997 horen ook Prinsenbeek, Teteringen, Bavel en Ulvenhout bij de gemeente Breda. In die dorpen staan veel vrijstaande huizen en twee-onder-een-kappers met een groot pannendak, vaak met een aanbouw of garage ertegen. Waar zo'n aanbouw tegen het huis zit, ligt een strook lood of zink, en die laat na veel jaren los. In de Heuvel en het Brabantpark, wijken uit de jaren '50 en '60, staan veel rijtjeshuizen en portiekwoningen. Bij de rijtjes zit een lek vaak in het lood rond de schoorsteen, bij de portiekwoningen eerder bij de afvoer of de rand van het platte dak.",
+    faq: [
+      { v: "Ik woon in een portiekwoning in de Heuvel of het Brabantpark en het lekt. Wie regelt dat?", a: "Bij een portiekwoning is het dak meestal van de VvE, of van de verhuurder als je huurt. Meld het lek daar meteen, want zij moeten in de regel akkoord geven voor de reparatie. Zet ondertussen een emmer onder de druppel en maak foto's van de natte plek. Vragen de VvE of de verhuurder mij om te komen kijken, dan zoek ik waar het water binnenkomt. Breda is voor mij zo'n 40 minuten rijden, dus stuur eerst een foto via WhatsApp, dan hoor je eerlijk wanneer ik kan komen." },
+    ],
   },
   {
     slug: "helmond",
@@ -290,6 +293,9 @@ export const PLAATSEN: Plaats[] = [
     reistijd: "± 40 min vanaf Den Bosch",
     extra:
       "In Stratum ligt het Villapark, met veel villa's en herenhuizen van voor de oorlog. Die hebben vaak een steil pannendak, lood rond de schoorsteen en zinken goten die al tientallen jaren meegaan. Lekt het daar, dan zit het meestal in dat oude lood of in een naad van de goot. In Woensel-Noord, het grootste stadsdeel van Eindhoven, staan vooral rijtjes uit de jaren '60, '70 en '80. Daar gaat het vaker om nokvorsten die nog in specie liggen en losraken, of om een goot die is gaan doorhangen en bij een flinke bui overloopt.",
+    faq: [
+      { v: "Ik woon in een oude villa in het Villapark. Hoe zie ik of het lood rond mijn schoorsteen lekt?", a: "Kijk vanaf de straat met de zoom van je telefoon naar de voet van de schoorsteen. Staat het lood van de stenen af, zitten er scheurtjes in de hoeken of mist er een stuk, dan kan het water erachter lopen. Binnen zie je dat aan een vochtige plek naast de schoorsteen, vooral na regen met wind. Ga niet zelf het dak op. Stuur me een foto van de schoorsteen en van de natte plek, dan zeg ik eerlijk wat ik zie. Eindhoven is voor mij zo'n 40 minuten rijden, dus dan hoor je ook wanneer ik kan komen." },
+    ],
   },
 ];
 
