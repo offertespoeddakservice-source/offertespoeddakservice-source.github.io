@@ -1998,6 +1998,52 @@ export const ARTIKELEN: Artikel[] = [
       { v: `Kan ik vorstschade voorkomen?`, a: `Een pan die al water opneemt, wordt niet meer als nieuw. Je kunt wel zorgen dat je pannen sneller drogen: laat dik mos weghalen, houd de goot leeg zodat het water niet terugloopt, en laat een gebroken pan snel vervangen, zodat er geen water onder de pannen blijft hangen.` },
     ],
   },
+  {
+    slug: `schoorsteen-afdekken`,
+    datum: `2026-11-02`,
+    titel: `Schoorsteen afdekken?`,
+    h1: `Schoorsteen die je niet meer gebruikt afdekken: kap of afdekplaat, en waar je op let`,
+    metaTitle: `Schoorsteen afdekken: kap of afdekplaat | Spoed Dak Service`,
+    metaDescription: `Stook je niet meer, maar staat je schoorsteen nog open? Dan regent het in het kanaal. Zo dek je hem af, en waarom het kanaal wel moet blijven ademen.`,
+    intro: `Veel huizen hebben nog een schoorsteen die niet meer gebruikt wordt, omdat de kachel of open haard er al jaren uit is. Staat het kanaal bovenop nog open, dan valt er bij elke bui regen in. Dat water trekt in de stenen en komt na een tijd binnen naar buiten, als een vochtige of bruine plek op de muur. Hieronder lees je wanneer afdekken zin heeft, wat je kunt kiezen en waar je op moet letten.`,
+    secties: [
+      { kop: `Zo zie je dat er regen in het kanaal komt`, tekst: [
+        `Een vochtige of bruine plek op de schoorsteenborst of op de muur waar het kanaal achter zit, vaak een paar dagen na een flinke bui. Een muffe of roetige lucht in de kamer als het nat weer is. Zwarte strepen of korreltjes onderin de oude haard. En op zolder een donkere, natte plek op de stenen van het kanaal.`,
+        `Zit de natte plek naast de schoorsteen, op het plafond of op zolder rond het kanaal, dan kan het ook het lood of een pan eromheen zijn. Lees dan <a href="/kennisbank/lekkage-bij-schoorsteen/">lekkage bij de schoorsteen</a>. Komt het water in een haard die je nog wel gebruikt, kijk dan bij <a href="/kennisbank/schoorsteen-lekt-open-haard/">water in je open haard</a>.`,
+      ] },
+      { kop: `Kap of afdekplaat?`, tekst: [
+        `Een kap staat een stukje boven het kanaal. De regen valt erop en niet erin, en er kan toch lucht in en uit. Een afdekplaat ligt plat bovenop de schoorsteen, met aan de zijkant een opening waardoor het kanaal kan blijven ademen. Zit er gaas of een rooster in, dan houden ze ook vogels zoals kauwen uit het kanaal.`,
+        `Welke het beste past, hangt af van de schoorsteen: hoe breed de kop is, of er één of meer kanalen in zitten en hoe hij eruitziet vanaf de straat. Dat kijk ik ter plekke.`,
+      ] },
+      { kop: `Laat het kanaal wel ademen`, tekst: [
+        `Een oud kanaal helemaal luchtdicht dichtmaken is geen goed idee. In de stenen zit vaak nog wat vocht, en als dat nergens heen kan, slaat het neer in het kanaal en zie je binnen alsnog een vochtplek. Een goede kap of plaat houdt daarom de regen tegen, maar laat wel lucht door.`,
+        `Binnen helpt een klein ventilatierooster onderin het kanaal, op de plek waar vroeger de kachel zat. Dan kan er een beetje lucht door het kanaal stromen en droogt het beter op.`,
+      ] },
+      { kop: `Kijk eerst of er echt niets meer op zit`, tekst: [
+        `Soms loopt de afvoer van een cv-ketel, een geiser of een gaskachel nog door een oud kanaal, vaak met een buis erin. Zo'n kanaal mag niet worden afgedekt, want dan kunnen de rookgassen niet meer weg. Weet je niet zeker wat er op je schoorsteen is aangesloten, laat dat dan eerst nakijken door je installateur.`,
+        `Stook je nog op een kachel of open haard? Dan moet het kanaal open blijven. Ook dan kan er een kap op die past bij een schoorsteen die nog in gebruik is. Laat hem dan wel elk stookseizoen vegen, zie <a href="/kennisbank/schoorsteen-vegen-hoe-vaak/">hoe vaak schoorsteen vegen</a>.`,
+      ] },
+      { kop: `Een schoorsteen die je deelt met de buren`, tekst: [
+        `Staat de schoorsteen op de muur tussen jou en de buren, dan zitten er vaak twee kanalen in. Gebruiken zij hun kanaal nog wel, dan kan er op jouw kanaal een plaat of kap terwijl het hunne open blijft. Spreek dat wel eerst samen af. Meer daarover lees je in <a href="/kennisbank/lekkage-gedeelde-schoorsteen/">lekkage bij een gedeelde schoorsteen</a>.`,
+      ] },
+      { kop: `Laat hem eerst nog één keer vegen`, tekst: [
+        `Zit er nog oud roet in het kanaal, laat het dan vegen voordat het wordt afgedekt. Oud roet trekt vocht aan en geeft bruine vlekken en een vieze lucht in huis. Vegen en afdekken kan vaak in dezelfde keer.`,
+      ] },
+      { kop: `Hoe ik het aanpak`, tekst: [
+        `Ik kijk eerst van buiten naar de schoorsteen: de kop, de voegen bovenop, het lood eromheen en hoeveel kanalen erin zitten. Daarna zet ik er een kap of afdekplaat op die past en die het kanaal laat ademen. Zie ik dat het lood of de pannen rond de schoorsteen ook aandacht nodig hebben, dan hoor je dat meteen. Zitten de stenen of voegen van de schoorsteen zelf slecht, dan zeg ik dat eerlijk, want daarvoor heb je een metselaar nodig. Zie ook <a href="/diensten/schoorsteen-vegen/">schoorsteen vegen</a> en <a href="/diensten/dakreparatie/">dakreparatie</a>.`,
+      ] },
+      { kop: `Wat kost het?`, tekst: [
+        `Dat hangt af van de schoorsteen en wat erop moet. Je hoort vooraf de vaste prijs, voordat ik begin. Richtprijzen staan op de <a href="/prijzen/">prijzenpagina</a>.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: schoorsteen vegen`, href: `/diensten/schoorsteen-vegen/` },
+    faq: [
+      { v: `Moet een schoorsteen die ik niet meer gebruik worden afgedekt?`, a: `Het hoeft niet, maar het is wel slim. Zolang het kanaal open staat, valt er bij elke bui regen in. Dat trekt in de stenen, en na een tijd zie je binnen een vochtige of bruine plek. Ook vogels kunnen erin nestelen. Een kap of afdekplaat die het kanaal laat ademen, voorkomt dat.` },
+      { v: `Kan ik de schoorsteen niet beter laten weghalen?`, a: `Dat kan, maar het is een grotere klus: het kanaal moet eruit en het gat in het dak moet goed worden dichtgemaakt. Gebeurt dat niet goed, dan lekt het jaren later precies op die plek. Voor de meeste schoorstenen die niet meer gebruikt worden, is een kap of plaat genoeg. Twijfel je, stuur me dan een foto van je schoorsteen, dan zeg ik eerlijk wat ik ervan denk.` },
+      { v: `Mag ik zelf een plaat op mijn schoorsteen leggen?`, a: `Liever niet. Je moet daarvoor het dak op, en een schoorsteen staat vaak op het hoogste en gladste stuk. Een losse plaat kan bij een storm ook van het dak waaien. Laat hem liever vastzetten door iemand die op daken werkt.` },
+      { v: `Komt er nog vocht binnen als de kap erop zit?`, a: `Er kan nog een tijd wat vocht uit de stenen komen, want die moeten eerst opdrogen. Dat duurt soms een paar weken. Wordt de plek daarna niet droger, of juist natter na regen, dan zit het lek ergens anders, bijvoorbeeld in het lood rond de schoorsteen. Stuur me dan een foto van de plek.` },
+    ],
+  },
 ];
 
 export const getArtikel = (slug: string) => ARTIKELEN.find((a) => a.slug === slug);
