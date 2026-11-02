@@ -1504,6 +1504,9 @@ export const ARTIKELEN: Artikel[] = [
         'De schoorsteen. Stook je hout, laat hem dan vegen voordat je de kachel echt gaat gebruiken. Zie <a href="/kennisbank/schoorsteen-vegen-hoe-vaak/">hoe vaak schoorsteen vegen</a>.',
         'Het platte dak. Kijk na een flinke bui of er geen plas blijft staan. Wanneer dat een probleem is, lees je in <a href="/kennisbank/water-blijft-staan-op-plat-dak/">water op je platte dak</a>.',
       ] },
+      { kop: `Bij jou in de buurt`, tekst: [
+        `Waar ik voor de winter op let, verschilt per plaats. In <a href="/werkgebied/vlijmen/">Vlijmen</a> kijk ik bij de rijtjes in Vliedberg ook naar het platte dak van de berging en de rand van de lichtkoepel, in <a href="/werkgebied/boxtel/">Boxtel</a> naar het lood boven een erker of luifel, en in <a href="/werkgebied/waalwijk/">Waalwijk</a> bij de boerderijen in Sprang-Capelle naar de lange goten en de nok. In <a href="/werkgebied/veghel/">Veghel</a> gaat het bij rijtjeshuizen van zo'n veertig jaar oud vaak om de nok en het lood rond de schoorsteen, en bij de oude villa's in <a href="/werkgebied/vught/">Vught</a> om het lood, de kilgoten en de hoekvorsten.`,
+      ] },
       { kop: "En een professionele inspectie?", tekst: [
         "Een grondige vakinspectie is elke 3 tot 5 jaar verstandig, en vaker bij een ouder dak. Ik doe zo'n check eerlijk: ik zeg wat nú aandacht vraagt en wat best nog even kan wachten. Geen onnodige paniek, geen onnodig werk.",
         'Wil je weten hoe je dak er nu voor staat, dan kan dat met de <a href="/dak-apk/">Dak-APK</a>: een keuring van je hele dak met een fotorapport.',
