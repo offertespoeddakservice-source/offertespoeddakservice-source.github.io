@@ -1547,6 +1547,7 @@ export const ARTIKELEN: Artikel[] = [
       { v: "Kom je ook voor een dakinspectie in mijn plaats?", a: "Ik werk in de regio Den Bosch, onder andere in Vught, Rosmalen, Vlijmen, Oss en Waalwijk. Bel of WhatsApp me, dan hoor je wanneer ik bij je langs kan komen." },
       { v: "Is een dakinspectie hetzelfde als een gratis offerte?", a: `Nee. Weet je al wat er moet gebeuren, bijvoorbeeld een lek, een losse pan of een volle goot, dan is een offerte bij mij gratis: stuur een foto of bel, en je hoort de vaste prijs. De Dak-APK (${apkPrijs}) is voor als je wilt weten hoe je hele dak ervoor staat, met een rapport met foto's.` },
       { v: "Hoe snel krijg ik het rapport van de dakinspectie?", a: `Binnen een dagdeel. Dan weet je zwart op wit hoe je dak ervoor staat, met foto's van de plekken die aandacht vragen en wat nu nodig is of nog kan wachten.` },
+      { v: `Kan een dakinspectie ook in de herfst of winter?`, a: `Ja. Na de herfststormen is het juist een goed moment: dan zie je wat de wind heeft losgemaakt, voordat de vorst en de winterstormen het erger maken. Ik kom op een droge dag. Vriest het, ligt er sneeuw of waait het hard, dan plannen we een andere dag, want dan is het op het dak niet veilig en zie ik ook minder. De Dak-APK kost ${apkPrijs}, en je hoort vooraf wanneer ik kan komen.` },
     ],
   },
   {
