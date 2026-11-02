@@ -32,6 +32,7 @@ export const PLAATSEN: Plaats[] = [
     faq: [
       { v: "Mijn huis in De Groote Wielen is nog maar een paar jaar oud. Kan het dak dan al lekken?", a: "Dat kan, ook bij een jong huis. Is je huis pas een paar jaar oud, kijk dan eerst of de bouwer het lek nog moet oplossen. Valt het daar niet meer onder, stuur me dan een foto van de natte plek. Dan zeg ik eerlijk wat ik zie." },
       { v: "Kom je ook in Kruisstraat, Maliskamp en Hintham?", a: "Ja. Kruisstraat en de Maliskamp horen bij Rosmalen, en Hintham ligt tussen Rosmalen en de stad. Rosmalen hoort sinds 1996 bij de gemeente Den Bosch, en vanaf mijn thuisbasis ben ik er in zo'n tien minuten. Ik kom er voor dezelfde klussen als in de rest van Rosmalen: lekkage, goten, pannen en lood." },
+      { v: "Kun je in Rosmalen ook een heel dakvlak vernieuwen, of alleen kleine reparaties doen?", a: "Ook een heel dakvlak. In Molenhoek en Sparrenburg liggen op een deel van de rijtjeshuizen nog de eerste pannen. Zijn die op veel plekken verweerd of gescheurd, en moet er elk jaar wel ergens iets gebeuren, dan is het vaak slimmer om dat dakvlak in één keer aan te pakken. Dat hoeft niet altijd het hele dak te zijn, want de voorkant en de achterkant slijten vaak niet even snel. In een rij kijk ik ook naar de aansluiting op de daken van de buren, zodat het op de grens dicht blijft. Ik kom eerst kijken en zeg eerlijk of een reparatie nog genoeg is. Je hoort vooraf de vaste prijs." },
     ],
   },
   {
