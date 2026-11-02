@@ -641,6 +641,7 @@ export const ARTIKELEN: Artikel[] = [
       { v: "Waarom lekt mijn lichtkoepel alleen bij harde regen?", a: "Bij een flinke bui komt het water op het platte dak hoger te staan, zeker als de afvoer een beetje vol zit. Dan bereikt het een naad of scheur in de aansluiting die bij gewone regen droog blijft. Kijk dus ook of de afvoer van je platte dak vrij is." },
       { v: "Kan ik op een lichtkoepel staan?", a: "Nee. Een lichtkoepel is niet gemaakt om op te staan of op te leunen, ook al voelt hij stevig. Blijf er altijd naast." },
       { v: "Moet een lekkende lichtkoepel er helemaal af?", a: "Dat hangt af van waar het lek zit. Is alleen de aansluiting met de dakbedekking los, dan kan de koepel blijven zitten. Zit er een scheur in de koepel zelf, of is hij zo bros dat hij kraakt als je hem aanraakt, dan heeft plakken weinig zin." },
+      { v: `Is een lekkende lichtkoepel spoed?`, a: `Druppelt het bij elke bui onder de koepel, of is de koepel bij een storm of door hagel gebroken, dan wel: zet een emmer neer en bel of app me met een foto. Een gebroken koepel dek ik eerst af, zodat het binnen droog blijft. Zie je alleen op koude ochtenden een paar druppels, ook als het droog is, dan is het vaak condens en kan het meestal wachten. Twijfel je, stuur dan een foto van de koepel van binnen en vertel wanneer het druppelt.` },
     ],
   },
   {
