@@ -18,32 +18,33 @@ const BIJGEWERKT: Record<string, string> = {
   "hoe-vaak-dakgoot-reinigen": "2026-11-01",
   "verstopte-regenpijp-lekkende-dakgoot": "2026-11-01",
   "mos-op-dak-verwijderen": "2026-11-01",
-  "plat-dak-vervangen-of-repareren": "2026-11-01",
+  "plat-dak-vervangen-of-repareren": "2026-11-02",
   "dakonderhoud-per-seizoen": "2026-11-02",
   "schoorsteen-vegen-hoe-vaak": "2026-11-02",
-  "hoe-herken-je-een-betrouwbare-dakdekker": "2026-11-01",
+  "hoe-herken-je-een-betrouwbare-dakdekker": "2026-11-02",
   "zonnepanelen-reinigen-nodig": "2026-10-30",
   "wat-kost-een-dakdekker": "2026-10-29",
   "dakgoot-lekt": "2026-10-31",
   "lekkage-bij-zonnepanelen": "2026-11-02",
   "nokvorsten-los": "2026-10-27",
   "bakgoot-lekt": "2026-10-29",
-  "dak-lekt-bij-harde-wind": "2026-11-01",
+  "dak-lekt-bij-harde-wind": "2026-11-02",
   "kilgoot-lekt": "2026-11-02",
-  "dakraam-lekt": "2026-10-29",
-  "daklekkage-verzekering": "2026-11-01",
+  "dakraam-lekt": "2026-11-02",
+  "daklekkage-verzekering": "2026-11-02",
   "condens-of-lekkage-op-zolder": "2026-11-02",
-  "vochtplek-plafond": "2026-11-01",
+  "vochtplek-plafond": "2026-11-02",
   "wat-kost-dakgoot-schoonmaken": "2026-10-30",
   "lekkage-bij-schoorsteen": "2026-11-02",
   "water-blijft-staan-op-plat-dak": "2026-11-02",
   "dakinspectie": "2026-11-02",
   "dak-lekt-bij-sneeuw-of-vorst": "2026-11-01",
-  "lekkage-bij-aanbouw": "2026-11-01",
-  "dak-lekt-bij-hevige-regen": "2026-11-01",
+  "lekkage-bij-aanbouw": "2026-11-02",
+  "dak-lekt-bij-hevige-regen": "2026-11-02",
   "schoorsteen-lekt-open-haard": "2026-11-02",
   "lekkage-bij-dakdoorvoer": "2026-11-02",
   "dakpannen-vastzetten-tegen-storm": "2026-11-02",
+  "lichtkoepel-lekt": "2026-11-02",
 };
 const bijgewerkt = BIJGEWERKT[a.slug] ?? a.datum;
 const MAANDEN = ["januari", "februari", "maart", "april", "mei", "juni", "juli", "augustus", "september", "oktober", "november", "december"];
@@ -63,7 +64,7 @@ const ONDERWERPEN: string[][] = [
 ];
 const groep = ONDERWERPEN.find((g) => g.includes(a.slug)) ?? [];
 // Spoedregel na het eerste stuk tekst: alleen bij artikelen over lekkage en storm, en alleen als daar nog geen link naar /spoed/ staat.
-const LEK_ARTIKELEN = new Set([...ONDERWERPEN[0], ...ONDERWERPEN[2], "bakgoot-lekt", "lekkage-bij-dakdoorvoer", "lood-op-dak", "lekkage-bij-aanbouw"]);
+const LEK_ARTIKELEN = new Set([...ONDERWERPEN[0], ...ONDERWERPEN[2], "bakgoot-lekt", "lekkage-bij-dakdoorvoer", "lood-op-dak", "lekkage-bij-aanbouw", "daktrim-lekt"]);
 const toonSpoedregel = LEK_ARTIKELEN.has(a.slug) && !(a.secties[0]?.tekst ?? []).some((t) => t.includes('href="/spoed/"'));
 // Gootartikelen: een gewone zin met links naar dakgoot repareren of vervangen per plaats. Niet bij bakgoot-lekt, die heeft de lekkagezin al.
 const GOOT_ARTIKELEN = new Set(["dakgoot-lekt", "verstopte-regenpijp-lekkende-dakgoot", "water-achter-dakgoot"]);
