@@ -1459,6 +1459,9 @@ export const ARTIKELEN: Artikel[] = [
       { kop: "Repareren of vervangen?", tekst: [
         'Ligt de kil alleen vol, dan is leegmaken vaak genoeg. Zit er een scheur of een gat in het lood of zink, dan is dat vaak goed te herstellen. Is de kil over een groot stuk op, dan vervang ik dat stuk. Ik kijk eerst wat er echt aan de hand is en zeg eerlijk wat in jouw geval nodig is. Zie <a href="/diensten/dakreparatie/">dakreparatie</a>. Weet je niet zeker of het de kil is, lees dan <a href="/kennisbank/daklekkage-opsporen/">daklekkage opsporen</a>.',
       ] },
+      { kop: `Bij jou in de buurt`, tekst: [
+        `Hoe dat er bij jou in de buurt uitziet, lees je bij daklekkage in <a href="/werkgebied/sint-michielsgestel/daklekkage/">Sint-Michielsgestel</a>, waar onder de oude bomen langs de Dommel veel blad blijft liggen in de kil boven een serre of een lager dak. In <a href="/werkgebied/helmond/">Helmond</a> hebben de huizen in Brandevoort veel hoeken en kilgoten tussen de daken, en bij de vooroorlogse villa's in <a href="/werkgebied/vught/">Vught</a> kijk ik bij een lek ook naar de kilgoten.`,
+      ] },
       { kop: "Wat kost het?", tekst: [
         'Dat hangt af van wat er mis is, hoe lang de kil is en hoe goed je erbij kunt. Je hoort de vaste prijs vooraf, voordat ik begin. Richtprijzen staan op de <a href="/prijzen/">prijzenpagina</a>.',
       ] },
