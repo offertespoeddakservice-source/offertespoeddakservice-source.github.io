@@ -1808,6 +1808,9 @@ export const ARTIKELEN: Artikel[] = [
       { kop: "Lekt je platte dak nu?", tekst: [
         'Zet een emmer onder het lek en maak een foto van de natte plek. Ga niet zelf het dak op als het nat is of waait. Bij een plat dak komt het water vaak meters verderop binnen dan waar het lek zit, dus de plek binnen zegt weinig. Kijk op de <a href="/spoed/">spoedpagina</a> wat je meteen kunt doen, of lees hoe ik <a href="/kennisbank/daklekkage-opsporen/">een daklekkage opspoor</a>.',
       ] },
+      { kop: `Platte daken bij jou in de buurt`, tekst: [
+        `In de regio Den Bosch liggen platte daken vooral op aanbouwen, bergingen, garages en schuren. Hoe ik een lek daar aanpak, lees je bij daklekkage in <a href="/werkgebied/vlijmen/daklekkage/">Vlijmen</a>, waar achter veel rijtjeshuizen een berging met een lichtkoepel staat, in <a href="/werkgebied/den-bosch/daklekkage/">Den Bosch</a>, waar ik in Maaspoort en Empel vaak bij de dakrand of een volle afvoer zoek, en in <a href="/werkgebied/tilburg/daklekkage/">Tilburg</a>, waar in de Reeshof veel huizen een platte aanbouw of berging hebben. Ligt er grind op je platte dak, lees dan bij goten schoonmaken in <a href="/werkgebied/waalwijk/goten-reinigen/">Waalwijk</a> hoe ik de afvoer vrijhoud. Andere plaatsen vind je bij <a href="/werkgebied/">mijn werkgebied</a>.`,
+      ] },
       { kop: "Wat kost het?", tekst: [
         `Een gericht lek in een plat dak, bijvoorbeeld bij een naad, de rand of de afvoer, kost meestal ${lekPrijs}, inclusief materiaal. Is de bedekking op meer plekken versleten en moet er een groter stuk of de hele bedekking opnieuw, dan krijg je een vaste prijs na inspectie. Je hoort altijd wat het wordt voordat ik begin. Alle richtprijzen staan op de <a href="/prijzen/">prijzenpagina</a>.`,
       ] },
