@@ -2243,6 +2243,52 @@ export const ARTIKELEN: Artikel[] = [
       { v: `Is een lekkende erker spoed?`, a: `Druppelt het binnen of wordt de plek snel groter, dan wel: bel of app me met een foto. Is het een vochtige plek die alleen na harde regen terugkomt, dan heb je vaak een paar dagen. Laat het niet de hele winter zitten, want dan blijven het hout van het kozijn en de muur boven het raam nat.` },
     ],
   },
+  {
+    slug: `daktrim-lekt`,
+    datum: `2026-11-02`,
+    titel: `Lekt je platte dak langs de rand?`,
+    h1: `Plat dak lekt langs de rand: daktrim los of lek`,
+    metaTitle: `Plat dak lekt langs de rand: daktrim | Spoed Dak Service`,
+    metaDescription: `Natte plek langs de buitenmuur van je aanbouw, of een rand die na de storm omhoog staat? Vaak zit het bij de daktrim. Zo zie je het en dit doe je eraan.`,
+    intro: `Rond een plat dak zit aan de buitenkant een metalen randprofiel: de daktrim. Die houdt de dakbedekking aan de rand op zijn plek en zorgt dat het water netjes over de rand of naar de afvoer loopt. Gaat het daar mis, dan zie je binnen een natte strook langs de buitenmuur van je aanbouw, garage of berging, en buiten soms een streep op de gevel. Hieronder lees je hoe dat komt, hoe je het herkent en wat eraan te doen is.`,
+    secties: [
+      { kop: `Lekt het nu? Eerst dit`, tekst: [
+        `Zet een emmer onder de druppel, haal spullen weg bij de natte muur en maak een foto van de plek. Ga niet zelf het platte dak op als het nat is of waait, ook niet als het een laag dak is. Wat je verder meteen kunt doen, staat op de <a href="/spoed/">spoedpagina</a>.`,
+      ] },
+      { kop: `Wat een daktrim doet`, tekst: [
+        `De daktrim is een strip, meestal van aluminium, die rondom op de rand van het platte dak zit. De dakbedekking loopt over de rand en zit onder of tegen de trim vast. Zo kan de wind niet onder de bedekking komen, en loopt het water niet achter de rand langs de muur. De trim bestaat uit losse stukken van een paar meter, met op de naden en in de hoeken een koppelstuk.`,
+      ] },
+      { kop: `Waar het langs de rand meestal lekt`, tekst: [
+        `Op de naad tussen twee stukken trim. Aluminium zet uit als het warm is en krimpt als het koud is. Na een paar jaar staat een naad of een hoekstuk dan een stukje open, en daar loopt het water achter de trim.`,
+        `Waar de dakbedekking op de trim aansluit. Krimpt de bedekking na veel jaren, of is hij aan de rand losgeraakt, dan trekt hij een stukje van de trim af. Het water komt dan onder de bedekking en loopt via de rand naar binnen.`,
+        `Na een storm. Bij harde wind pakt de wind de rand als eerste. Zit de trim niet goed vast, dan gaat hij omhoog en klapt de bedekking eronder een stukje open. Daarna loopt de regen er zo onder.`,
+        `Waar de afvoer door de rand gaat. Daar zit een aansluiting die na jaren kan gaan lekken, vooral als er vaak water blijft staan. Zie ook <a href="/kennisbank/water-blijft-staan-op-plat-dak/">water blijft staan op je platte dak</a>.`,
+      ] },
+      { kop: `Zo zie je het`, tekst: [
+        `Binnen zie je een natte strook of een vochtrand op het plafond langs de buitenmuur van de aanbouw, of een vochtige plek bovenin die muur. Buiten zie je soms een donkere of groene streep op de gevel, net onder de rand. Kijk ook vanuit een raam boven naar de rand van het dak: staat de trim ergens omhoog, zit er een kier op een hoek of ligt er een stuk trim scheef, maak er dan een foto van.`,
+        `Zit de natte plek niet aan de buitenrand, maar langs de muur van het huis, waar het platte dak tegen de gevel aansluit? Dan is het meestal de aansluiting op de muur. Lees dan <a href="/kennisbank/lekkage-bij-aanbouw/">lekkage bij de aanbouw</a>.`,
+      ] },
+      { kop: `Wat je zelf beter niet doet`, tekst: [
+        `Smeer geen kit op de naad van de trim of tussen de trim en de bedekking. Dat houdt soms een paar maanden, maar door het uitzetten en krimpen scheurt het weer open, en dan loopt het water achter de kit verder. Trek ook niet aan een trim die na een storm omhoog staat: dan scheurt de bedekking eronder verder.`,
+      ] },
+      { kop: `Hoe ik het aanpak`, tekst: [
+        `Ik kijk eerst langs de hele rand: de naden en hoeken van de trim, hoe de dakbedekking erop aansluit en of de trim nog stevig vastzit. Zit een stuk trim los, dan zet ik het weer vast. Staat een naad of hoek open, dan maak ik die dicht. Is de dakbedekking aan de rand losgeraakt, dan maak ik die aansluiting weer dicht. Is de bedekking over een groter stuk versleten, dan zeg ik eerlijk dat vervangen slimmer is. Lees ook <a href="/kennisbank/plat-dak-vervangen-of-repareren/">plat dak: repareren of vervangen</a> en <a href="/diensten/platte-daken/">platte daken</a>.`,
+      ] },
+      { kop: `Bij jou in de buurt`, tekst: [
+        `Platte daken met een daktrim zie ik in de regio Den Bosch vooral op aanbouwen, garages, bergingen en schuren. In <a href="/werkgebied/rosmalen/">Rosmalen</a> liggen in De Groote Wielen veel platte daken, en daar zit een lek eerder bij de rand of een afvoer dan bij oude pannen. Hoe ik na een storm een rand die omhoog staat eerst afdek en daarna herstel, lees je bij stormschade in <a href="/werkgebied/waalwijk/stormschade/">Waalwijk</a>, waar achter veel oudere huizen in Besoyen en Baardwijk een schuur of werkplaats met een plat dak staat. Andere plaatsen vind je bij <a href="/werkgebied/">mijn werkgebied</a>.`,
+      ] },
+      { kop: `Wat kost het?`, tekst: [
+        `Een stuk trim vastzetten of een open naad dichtmaken valt meestal onder een gerichte lekreparatie: ${lekPrijs}, inclusief het zoeken en het materiaal. Moet de trim over de hele lengte nieuw, of een groter stuk van de bedekking langs de rand opnieuw, dan is het meer werk. Ook dan hoor je vooraf de vaste prijs.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: platte daken (EPDM)`, href: `/diensten/platte-daken/` },
+    faq: [
+      { v: `Wat is een daktrim?`, a: `Een metalen strip, meestal van aluminium, die rondom op de rand van een plat dak zit. De dakbedekking zit daaronder of ertegen vast. De trim houdt de rand dicht tegen wind en water, en zorgt dat het water niet achter de rand langs de muur loopt.` },
+      { v: `Kan ik een losse daktrim zelf vastzetten?`, a: `Liever niet. Je moet er dan op of naast het platte dak voor staan, en met een paar schroeven in een trim die al los zit, trek je de bedekking eronder vaak verder open. Zit de trim los omdat het hout van de dakrand eronder zacht is geworden, dan houden nieuwe schroeven het ook niet. Maak een foto vanaf de grond of uit een raam en stuur die via WhatsApp, dan zeg ik wat ik zie.` },
+      { v: `Lekt het langs de rand of langs de muur van het huis?`, a: `Kijk waar de natte plek zit. Zit hij aan de buitenkant van de aanbouw, onder de rand van het dak, dan zit het vaak bij de trim. Zit hij tegen de muur van het huis, waar het platte dak op de gevel aansluit, dan zit het meestal in de strook lood of zink daar. Stuur me een foto van de natte plek binnen en, als het lukt, uit een raam boven een foto van het dak.` },
+      { v: `Is een lek langs de daktrim spoed?`, a: `Druppelt het binnen of wordt de plek snel groter, dan wel: bel of app me met een foto. Zie je alleen na een flinke bui een vochtrand, dan kan het vaak een paar dagen wachten. Wacht niet tot de volgende storm, want een rand die al los zit, waait dan verder open.` },
+    ],
+  },
 ];
 
 export const getArtikel = (slug: string) => ARTIKELEN.find((a) => a.slug === slug);
