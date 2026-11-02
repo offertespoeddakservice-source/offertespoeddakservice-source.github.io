@@ -32,17 +32,18 @@ const BIJGEWERKT: Record<string, string> = {
   "kilgoot-lekt": "2026-11-01",
   "dakraam-lekt": "2026-10-29",
   "daklekkage-verzekering": "2026-11-01",
-  "condens-of-lekkage-op-zolder": "2026-11-01",
+  "condens-of-lekkage-op-zolder": "2026-11-02",
   "vochtplek-plafond": "2026-11-01",
   "wat-kost-dakgoot-schoonmaken": "2026-10-30",
   "lekkage-bij-schoorsteen": "2026-11-01",
   "water-blijft-staan-op-plat-dak": "2026-10-31",
-  "dakinspectie": "2026-10-31",
+  "dakinspectie": "2026-11-02",
   "dak-lekt-bij-sneeuw-of-vorst": "2026-11-01",
   "lekkage-bij-aanbouw": "2026-11-01",
   "dak-lekt-bij-hevige-regen": "2026-11-01",
   "schoorsteen-lekt-open-haard": "2026-11-02",
   "lekkage-bij-dakdoorvoer": "2026-11-02",
+  "dakpannen-vastzetten-tegen-storm": "2026-11-02",
 };
 const bijgewerkt = BIJGEWERKT[a.slug] ?? a.datum;
 const MAANDEN = ["januari", "februari", "maart", "april", "mei", "juni", "juli", "augustus", "september", "oktober", "november", "december"];
@@ -52,10 +53,10 @@ const path = `/kennisbank/${a.slug}`;
 const idx = ARTIKELEN.findIndex((x) => x.slug === a.slug);
 // Lees ook: eerst artikelen over hetzelfde onderwerp, daarna aanvullen met de volgende uit de lijst.
 const ONDERWERPEN: string[][] = [
-  ["daklekkage-opsporen", "vochtplek-plafond", "plafond-bolt-op-door-lekkage", "water-uit-lamp-plafond", "isolatie-nat-na-lekkage", "dak-lekt-bij-hevige-regen", "dak-lekt-bij-sneeuw-of-vorst", "schoorsteen-lekt-open-haard", "lekkage-gedeelde-schoorsteen", "lekkage-bij-schoorsteen", "condens-of-lekkage-op-zolder", "nat-achter-knieschot", "dakraam-lekt", "lichtkoepel-lekt", "dak-lekt-bij-harde-wind", "kilgoot-lekt", "lekkage-bij-zonnepanelen", "wat-kost-daklekkage-repareren", "daklekkage-verzekering"],
+  ["daklekkage-opsporen", "vochtplek-plafond", "plafond-bolt-op-door-lekkage", "water-uit-lamp-plafond", "isolatie-nat-na-lekkage", "dak-lekt-bij-hevige-regen", "dak-lekt-bij-sneeuw-of-vorst", "schoorsteen-lekt-open-haard", "lekkage-gedeelde-schoorsteen", "lekkage-bij-schoorsteen", "condens-of-lekkage-op-zolder", "nat-achter-knieschot", "dakraam-lekt", "lichtkoepel-lekt", "dak-lekt-bij-harde-wind", "kilgoot-lekt", "lekkage-bij-zonnepanelen", "wat-kost-daklekkage-repareren", "daklekkage-verzekering", "lekkage-muur-buren"],
   ["hoe-vaak-dakgoot-reinigen", "wat-kost-dakgoot-schoonmaken", "dakgoot-zelf-schoonmaken", "verstopte-regenpijp-lekkende-dakgoot", "dakgoot-lekt", "dakgoot-hangt-door", "water-achter-dakgoot", "bakgoot-lekt", "hoe-lang-gaat-een-dakgoot-mee", "kilgoot-lekt"],
   ["stormschade-eerste-hulp", "nokvorsten-los", "dakpan-kapot-of-verschoven", "tak-of-boom-op-dak", "dakpannen-vastzetten-tegen-storm", "dak-lekt-bij-harde-wind", "daklekkage-verzekering"],
-  ["plat-dak-vervangen-of-repareren", "lichtkoepel-lekt", "water-blijft-staan-op-plat-dak", "dakonderhoud-per-seizoen", "mos-op-dak-verwijderen", "lekkage-bij-aanbouw", "veranda-of-overkapping-lekt"],
+  ["plat-dak-vervangen-of-repareren", "lichtkoepel-lekt", "water-blijft-staan-op-plat-dak", "dakonderhoud-per-seizoen", "mos-op-dak-verwijderen", "vogels-onder-dakpannen", "zonnepanelen-reinigen-nodig", "lekkage-bij-aanbouw", "veranda-of-overkapping-lekt"],
   ["dakinspectie", "dakonderhoud-per-seizoen", "hoe-herken-je-een-betrouwbare-dakdekker", "wat-kost-een-dakdekker", "vorstschade-dakpannen"],
   ["schoorsteen-vegen-hoe-vaak", "lekkage-bij-schoorsteen", "lekkage-gedeelde-schoorsteen", "schoorsteen-afdekken", "lood-op-dak", "schoorsteen-lekt-open-haard", "dakinspectie", "lekkage-bij-dakdoorvoer"],
 ];
@@ -97,6 +98,7 @@ const FOTOS_BIJ: Record<string, { soort: string; max: number }> = {
   "wat-kost-een-dakdekker": { soort: "pannen", max: 3 },
   "nat-achter-knieschot": { soort: "pannen", max: 2 },
   "lekkage-bij-aanbouw": { soort: "plat-dak", max: 2 },
+  "vogels-onder-dakpannen": { soort: "vogelwering", max: 3 },
 };
 const fotoBij = FOTOS_BIJ[a.slug];
 const plek = groep.indexOf(a.slug);
