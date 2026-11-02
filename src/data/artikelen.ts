@@ -1044,6 +1044,11 @@ export const ARTIKELEN: Artikel[] = [
         `De meeste lekkages hebben één duidelijke oorzaak: een gebroken pan, losgelaten lood of een versleten naad. Zo'n gerichte reparatie kost meestal ${lekPrijs}, inclusief materiaal. Je hoort het bedrag voordat ik begin.`,
         "Bij spoed buiten kantooruren komt daar een toeslag bij. Ik zeg je eerlijk of het echt niet tot de volgende dag kan wachten.",
       ] },
+      { kop: `Wat het per plek op je dak meestal kost`, tekst: [
+        `Een losse of kapotte pan, of een nokvorst die is gaan schuiven: dat valt meestal onder een kleine reparatie, ${kleinPrijs}. Hoe je dat vanaf de straat ziet, lees je in <a href="/kennisbank/dakpan-kapot-of-verschoven/">dakpan kapot of verschoven</a> en <a href="/kennisbank/nokvorsten-los/">losse nokvorsten</a>.`,
+        `Lood dat los zit bij de schoorsteen of het dakraam, een lekkende kilgoot of een naad in een plat dak: dan zoek ik eerst waar het water echt binnenkomt, en dat valt meestal onder een gerichte lekreparatie, ${lekPrijs}. Zie <a href="/kennisbank/lekkage-bij-schoorsteen/">lekkage bij de schoorsteen</a>, <a href="/kennisbank/dakraam-lekt/">dakraam lekt</a> en <a href="/kennisbank/kilgoot-lekt/">kilgoot lekt</a>.`,
+        `Meer werk is het als het lood rond de hele schoorsteen op is, als een kil over de hele lengte vervangen moet of als het hout onder de pannen nat of rot is. Dan kom ik eerst kijken en hoor je vooraf één vaste prijs voor de hele klus. Komt het water via de goot binnen en niet via het dak, lees dan <a href="/kennisbank/dakgoot-lekt/">dakgoot lekt</a>.`,
+      ] },
       { kop: "Waar de prijs van afhangt", tekst: [
         "Drie dingen bepalen de prijs: de oorzaak (een losse pan is zo gepiept, een rotte dakvoet is meer werk), de bereikbaarheid (hoogte, steiger of ladder) en het daktype. Een pannendak repareer je anders dan een plat dak met bitumen of EPDM.",
         "Je ziet online soms prijzen per vierkante meter. Voor een gericht klusje reken ik liever een eerlijke vaste prijs voor de hele reparatie dan een bedrag per meter.",
