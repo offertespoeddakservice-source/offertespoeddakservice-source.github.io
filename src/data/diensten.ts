@@ -527,6 +527,10 @@ export const DIENSTEN: Dienst[] = [
         v: "Is mijn dak geschikt om te isoleren?",
         a: "Meestal wel, maar het dak moet éérst droog en gezond zijn: isoleren over een lek of vochtprobleem heen maakt de schade alleen maar groter. Dat controleer ik vooraf, bijvoorbeeld met de Dak-APK, en daarna isoleer ik.",
       },
+      {
+        v: "Mijn oude huis heeft geen folie onder de pannen. Kan het dak dan van binnen geïsoleerd worden?",
+        a: "Vaak wel, maar dan moet het goed gebeuren. Bij veel huizen van voor de oorlog liggen de pannen direct op de latten, zonder folie eronder. Tussen de pannen en de isolatie hoort dan ruimte te blijven waar lucht langs kan, en aan de binnenkant een laag die het vocht uit huis tegenhoudt. Anders kan er vocht in de isolatie neerslaan. Ik kijk eerst of de pannen goed liggen en nergens water doorlaten, want zonder folie komt een lekje meteen op de isolatie terecht. Daarna hoor je wat er kan en wat het kost.",
+      },
     ],
   },
 ];
