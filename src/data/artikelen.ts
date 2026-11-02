@@ -451,6 +451,10 @@ export const ARTIKELEN: Artikel[] = [
       { kop: "Hoe ik het oplos", tekst: [
         'Vaak is het geen grote klus. Ik maak de goot, de kil of de afvoer leeg en kijk of het water weer vrij weg kan. Daarna kijk ik of er toch iets lek is, zoals een naad in de goot, een scheur in het lood of een pan die net niet goed ligt. Zit de goot alleen vol, dan is <a href="/diensten/goten-reinigen/">goten reinigen</a> genoeg. Is er wel iets kapot, zie dan <a href="/diensten/daklekkage/">daklekkage</a>. Je hoort vooraf de vaste prijs.',
       ] },
+      { kop: `Wat kost het?`, tekst: [
+        `Zit alleen de goot vol, dan is het gewoon goten reinigen: ${GOTEN_PRIJS} voor een rijtjeswoning, en bij een groter huis hoor je de prijs vooraf. Moet er ook een kilgoot of de afvoer van een plat dak leeg, dan kan ik die meteen meenemen, en ook dan hoor je vooraf wat het kost.`,
+        `Zit er toch iets lek, zoals een naad in de goot, een scheur in het lood of een pan die niet goed ligt, dan is het meestal een gerichte lekreparatie: ${lekPrijs}, inclusief materiaal. Je hoort de vaste prijs vooraf, voordat ik begin.`,
+      ] },
     ],
     dienst: { label: "Bekijk: daklekkage & spoed", href: "/diensten/daklekkage/" },
     faq: [
