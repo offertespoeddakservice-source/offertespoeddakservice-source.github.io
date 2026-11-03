@@ -643,4 +643,13 @@ export const MATRIX: MatrixCombo[] = [
       { v: "Mijn betonpannen zijn na het reinigen nog grijs en ruw. Is dat erg?", a: "Nee, dat is de bovenlaag die in de loop van de jaren slijt. Reinigen haalt het mos en de aanslag weg, maar maakt een oude pan niet nieuw. Zie ik pannen die echt op zijn, met scheuren of afgebrokkelde randen, dan zeg ik dat eerlijk en hoor je wat vervangen kost." },
     ],
   },
+  // Schoorsteen vegen in Den Bosch (diensten/schoorsteen-vegen 75 vertoningen op plek 29, schoorsteenveger + plaats wordt gezocht; stookseizoen), met andere lokale inhoud dan plaatsen.ts, de Veghel-schoorsteenpagina en de andere Den Bosch-pagina's
+  {
+    plaats: "den-bosch",
+    dienst: "schoorsteen-vegen",
+    hook: "In de binnenstad van Den Bosch, officieel 's-Hertogenbosch, staan veel oude panden met een gemetselde schoorsteen waarin meerdere rookkanalen naast elkaar lopen. Vaak wordt er nog maar één gebruikt, voor een houtkachel of een open haard, en staat de schoorsteen op de muur met de buren. Ik veeg het kanaal dat bij jouw kachel of haard hoort, en kijk bovenop of de andere kanalen dicht zijn of open staan. In de Muntel, de Vliert en de Graafsewijk staat in een deel van de huizen uit de jaren '20 en '30 nog een open haard in de voorkamer. In de Kruiskamp en Boschveld hebben veel huizen uit de jaren '50 een eigen schoorsteen waar vroeger een kolenkachel op aangesloten zat. Wordt zo'n kanaal niet meer gebruikt en staat het bovenaan open, dan regent het erin, en dan kan er een kap of afdekplaat op. Bovenop kijk ik ook naar het lood rond de schoorsteen, want daar begint een lek vaak. Den Bosch is mijn thuisbasis, dus vegen plan ik hier makkelijk in.",
+    faq: [
+      { v: "Mijn schoorsteen staat op de muur met de buren. Veeg je dan ook hun kanaal?", a: "Ik veeg het kanaal dat bij jouw kachel of haard hoort. Stoken de buren ook, dan is het handig om het op dezelfde dag te doen, dan hoeft er maar één keer iemand bovenop. Ieder hoort vooraf wat het kost. Weet je niet welk kanaal van jou is, dan zoek ik dat bij het vegen uit." },
+    ],
+  },
 ];
