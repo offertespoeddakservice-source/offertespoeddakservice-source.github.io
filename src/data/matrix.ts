@@ -623,4 +623,13 @@ export const MATRIX: MatrixCombo[] = [
       { v: "Na de storm staat de kap op de ventilatiepijp op mijn dak scheef. Is dat erg?", a: "Het kan, ook als het binnen nog droog is. De kap houdt de regen uit de pijp, en de kraag eromheen leidt het water over de pannen. Is de kap gaan schuiven, dan heeft de wind vaak ook aan die kraag getrokken. Kijk op zolder bij de plek waar de pijp door het dak gaat: zie je daar na een bui natte plekken op het hout of de folie, dan komt er water langs. Ga zelf niet het dak op. Stuur me via WhatsApp een foto van de pijp vanaf de straat en van die plek op zolder. De pijp en de kraag op het dak maak ik weer dicht. Gaat het om de ventilatiebox binnen, dan is dat werk voor je installateur. Je hoort vooraf wat het kost." },
     ],
   },
+  // Dakgoot repareren of vervangen in Rosmalen (Search Console: dakdekker rosmalen 154 vertoningen op plek 61, daklekkage rosmalen 48; nog geen gootpagina), met andere lokale inhoud dan plaatsen.ts en de lekkage-, goot-, storm- en dakreparatiepagina van Rosmalen
+  {
+    plaats: "rosmalen",
+    dienst: "dakgoot-vervangen",
+    hook: "In Sparrenburg, Hondsberg en de andere wijken uit de jaren '60 en '70 hangt aan een deel van de rijtjeshuizen nog een zinken goot op houten gootklossen: de blokjes hout die onder de rand van het dak uitsteken. Die klossen zitten al zo'n vijftig jaar in weer en wind. Laat de verf los, dan trekt er water in het hout, en waar een klos zacht wordt, zakt de goot een stukje. Op die plek blijft na een bui water staan, en daar slijt het zink het snelst. Bij andere rijtjes is de oude zinken goot al eens vervangen door kunststof. Kunststof is minder stijf dan zink. Zitten de beugels te ver uit elkaar, dan buigt zo'n goot na een paar warme zomers tussen de beugels door, en loopt hij bij een flinke bui over op de laagste plek. Vaak is er dan geen nieuwe goot nodig: ik hang hem opnieuw op afschot, met beugels op de goede afstand, en herstel de naad die lekt. Is het hout van een klos zacht, dan hoor je dat van me voordat ik verder ga.",
+    faq: [
+      { v: "Hoe zie ik of de houten klossen onder mijn goot nog goed zijn?", a: "Kijk vanaf de straat langs de goot. Bladdert de verf van een klos, zie je er een donkere plek of een scheur in, of hangt de goot op één plek een stukje lager dan ernaast, dan is die klos vaak nat of zacht geworden. Na een bui zie je het ook aan water dat op die plek in de goot blijft staan. Ga niet zelf op de ladder aan de goot trekken of in het hout prikken. Stuur me een foto via WhatsApp, dan zeg ik eerlijk of het bij de goot blijft of dat er eerst iets aan het hout moet gebeuren. Je hoort vooraf wat het kost." },
+    ],
+  },
 ];
