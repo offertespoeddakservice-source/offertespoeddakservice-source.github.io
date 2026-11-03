@@ -1196,6 +1196,7 @@ export const ARTIKELEN: Artikel[] = [
       ] },
       { kop: "Hoe je het herkent", tekst: [
         "Water dat bij regen over de gootrand klotst, een straaltje langs de gevel, of vochtige plekken op de muur onder de goot. Soms lekt het bij de verbindingen van de pijp.",
+        `Loopt je regenpijp niet buiten langs de gevel, maar binnen in de muur of door een kast, dan zie je een verstopping of lek vaak pas binnen, aan een natte plek. Lees dan <a href="/kennisbank/regenpijp-in-de-muur-lekt/">regenpijp in de muur lekt</a>.`,
       ] },
       { kop: "Waarom je het niet moet laten zitten", tekst: [
         "Blijft de afvoer dicht, dan trekt het overlopende water vocht in je gevel en fundering. Dat geeft vochtplekken, schimmel en op den duur zelfs scheuren. Dat is veel duurder dan de afvoer op tijd vrij laten maken.",
@@ -2408,6 +2409,48 @@ export const ARTIKELEN: Artikel[] = [
       { v: `Hoe lang gaat een pannendak mee?`, a: `Dat verschilt per dak. Gebakken pannen gaan in de regel heel lang mee, betonpannen slijten eerder. De nok en het lood vragen meestal eerder aandacht dan de pannen zelf. Kijk daarom niet alleen naar de leeftijd van je dak, maar naar hoe het erbij ligt.` },
       { v: `Mijn dak is veertig jaar oud. Moet het eraf?`, a: `Niet vanwege de leeftijd alleen. Bij veel daken van die leeftijd zijn de pannen nog goed en gaat het om de nok, het lood of een paar pannen. Pas als er op veel plekken iets mis is, is vervangen slimmer. Stuur me een paar foto's van je dak vanaf de straat, dan zeg ik eerlijk wat ik zie.` },
       { v: `Gaat mos ten koste van de levensduur van mijn dak?`, a: `Het kan wel. Mos houdt water tegen de pannen vast, en als dat bevriest, kunnen oude pannen schilferen of scheuren. Een beetje mos is niet meteen erg, maar een dikke laag die steeds terugkomt, laat je beter weghalen. Meer lees je in het artikel over mos op je dak.` },
+    ],
+  },
+  {
+    slug: `regenpijp-in-de-muur-lekt`,
+    datum: `2026-11-03`,
+    titel: `Regenpijp in de muur lekt?`,
+    h1: `Regenpijp binnen in de muur lekt: natte plek in huis, maar buiten niets te zien`,
+    metaTitle: `Regenpijp in de muur lekt: wat nu? | Spoed Dak Service`,
+    metaDescription: `Loopt je regenpijp binnen door de muur of een kast, en is het daar nat? Vaak zit het bovenin bij de uitloop van de goot. Zo zie je waar het zit en wat je doet.`,
+    intro: `Bij een deel van de huizen loopt de regenpijp niet buiten langs de gevel, maar binnen: in de muur, in een koker of door een kast op de overloop. Lekt er dan iets, dan zie je buiten niets, maar binnen wel. Hieronder lees je hoe je herkent waar het water vandaan komt, wat je zelf kunt doen en wat ik eraan doe.`,
+    secties: [
+      { kop: `Zo weet je of je regenpijp binnen zit`, tekst: [
+        `Kijk naar de gevel onder je goot. Loopt daar geen regenpijp naar beneden, dan gaat het water ergens anders heen. Vaak zit de pijp dan binnen: achter een betimmering, in een koker in de hoek van een kamer, of in een kast op de overloop of in de berging. Bij een flinke bui hoor je hem soms ruisen of klokken.`,
+        `Ik kom het vooral tegen bij rijtjeshuizen uit de jaren '60 en '70, en bij nieuwere huizen met een strakke gevel zonder pijpen.`,
+      ] },
+      { kop: `Waar het meestal lekt`, tekst: [
+        `Bovenin, bij de uitloop. Dat is het stuk waar de goot overgaat in de pijp. Zit de uitloop vol blad of mos, dan blijft het water bij een bui in de goot staan en loopt het langs de aansluiting de muur in. Ook kan de aansluiting na veel jaren los zijn gaan zitten, of is de kit eromheen uitgedroogd.`,
+        `Lager in de pijp, bij een verbinding of een bocht. Zit de pijp verderop dicht, dan staat hij bij een bui vol en komt het water bij een verbinding naar buiten. Dat zie je dan halverwege de muur of in de kast, niet bovenin.`,
+        `Soms is het geen lek, maar condens. In de winter stroomt er koud regenwater door de pijp, en in een warm huis slaat daar vocht op neer. De pijp of de koker is dan over de hele lengte vochtig, vooral tijdens en vlak na een koude bui, en er is geen duidelijke plek waar het druppelt.`,
+      ] },
+      { kop: `Zo kijk je waar het zit`, tekst: [
+        `Kijk waar de natte plek begint. Zit hij bovenin de muur of op het plafond, vlak onder de goot, dan zit het meestal bij de uitloop. Zit hij halverwege de muur of onderin de kast, dan zit het eerder in de pijp zelf.`,
+        `Ga tijdens een flinke bui naar buiten en kijk naar de goot boven die plek. Loopt de goot daar over, of komt er water over de rand bij de uitloop, dan zit de uitloop vaak dicht. Maak er een foto of een filmpje van, en ook van de natte plek binnen. Ga niet zelf de ladder op.`,
+      ] },
+      { kop: `Wat je nu doet`, tekst: [
+        `Zet een bak of handdoeken onder de plek en haal spullen uit de kast. Zit de natte plek bij een stopcontact, een lamp of de meterkast, zet dan de stroom van die groep uit en kijk op de <a href="/spoed/">spoedpagina</a> wat je meteen doet.`,
+        `Breek een betimmering of koker niet zelf open voordat duidelijk is waar het water vandaan komt. Vaak is dat niet nodig.`,
+      ] },
+      { kop: `Hoe ik het aanpak`, tekst: [
+        `Ik begin bovenin, bij de goot. Ik maak de goot en de uitloop leeg, en kijk of de uitloop nog goed op de pijp aansluit en of de goot daar niet te laag hangt. Is de aansluiting los of lek, dan maak ik die opnieuw dicht. Vaak giet ik daarna een emmer water in de goot bij de uitloop en kijk ik binnen of het droog blijft.`,
+        `Blijft het nat en zit het lek lager in de pijp, in de muur of onder de vloer, dan zeg ik dat eerlijk. Dat is werk voor een loodgieter, en dan weet je in elk geval dat het niet aan de goot of het dak ligt. Zie ook <a href="/diensten/dakgoot-vervangen/">dakgoot repareren of vervangen</a>.`,
+      ] },
+      { kop: `Wat kost het?`, tekst: [
+        `Zit alleen de uitloop vol, dan is leegmaken genoeg. Dat is gewoon <a href="/diensten/goten-reinigen/">goten reinigen</a>: ${GOTEN_PRIJS} bij een rijtjeswoning. Moet de aansluiting van de uitloop opnieuw, of hangt de goot verkeerd, dan hoor je vooraf de vaste prijs, voordat ik begin. Richtprijzen staan op de <a href="/prijzen/">prijzenpagina</a>.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: dakgoot repareren of vervangen`, href: `/diensten/dakgoot-vervangen/` },
+    faq: [
+      { v: `Mijn regenpijp in de kast is nat, maar er druppelt niets. Lekt hij?`, a: `Niet per se. Is de pijp over de hele lengte vochtig, vooral tijdens of vlak na een koude bui, dan is het vaak condens: koud regenwater in de pijp en warme lucht in huis. Zit er op één plek een druppel of een natte kring, en wordt die groter bij regen, dan lekt er iets. Maak een foto en stuur die via WhatsApp, dan zeg ik eerlijk wat ik denk.` },
+      { v: `Wie moet ik bellen: een dakdekker of een loodgieter?`, a: `Zit de natte plek bovenin, vlak onder de goot, begin dan bij mij: daar zit het meestal bij de uitloop of de goot. Zit hij halverwege de muur, onderin een kast of in de kruipruimte, dan zit het eerder in de pijp zelf, en dat is werk voor een loodgieter. Twijfel je, stuur dan een foto van de natte plek en van de goot erboven.` },
+      { v: `Helpt een rooster op de uitloop?`, a: `Een bolrooster op de uitloop houdt grof blad uit de pijp, en bij een regenpijp binnen is dat fijn, want een verstopping in de muur krijg je er lastig uit. Maar het rooster zelf raakt onder bomen ook dicht, en dan loopt de goot op die plek over. Laat de goot daarom in de herfst leegmaken en het rooster meteen schoonmaken.` },
+      { v: `Is een lekkende regenpijp binnen spoed?`, a: `Loopt het water langs de muur, zit de natte plek bij een stopcontact of lamp, of druppelt het door het plafond, dan wel: bel of app me met een foto. Is de plek alleen wat vochtig en droogt hij weer op na de bui, dan kan het meestal een paar dagen wachten.` },
     ],
   },
 ];
