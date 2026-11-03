@@ -49,6 +49,7 @@ export const PLAATSEN: Plaats[] = [
       { v: "Kom je ook in Helvoirt en Cromvoirt?", a: "Ja. Cromvoirt hoort bij Vught, en Helvoirt sinds 2021 ook. Allebei liggen ze op zo'n kwartier rijden van Den Bosch." },
       { v: "Moet het oude lood op mijn villa helemaal vervangen worden?", a: "Niet altijd. Oud lood kan nog jaren mee als het goed aansluit op de muur of de schoorsteen. Is het op een paar plekken gescheurd of los, dan vervang ik alleen die stukken. Je hoort vooraf wat het kost." },
       { v: "Kun je het dak van mijn oude villa in Vught een keer helemaal nakijken?", a: "Ja, dat doe ik met de Dak-APK: ik loop je hele dak na en je krijgt een rapport met foto's. Bij de vooroorlogse villa's in Vught kijk ik vooral naar het lood rond de schoorsteen en langs de muren, naar de kilgoten en naar de hoekvorsten op een schilddak, want daar begint een lek op zulke daken meestal. Zo weet je wat nu moet gebeuren en wat nog even kan wachten." },
+      { v: "Ben je een groot dakdekkersbedrijf, of kom je zelf naar Vught?", a: "Spoed Dak Service is geen groot bedrijf met een callcenter. Je krijgt mij aan de lijn, ik kom zelf kijken in Vught, Helvoirt of Cromvoirt en ik ben je vaste aanspreekpunt, van de eerste foto tot de rekening. Bij de oudere villa's kijk ik dan meteen naar het lood, de kilgoten en de goten, zodat je in één keer hoort wat er speelt. Je hoort vooraf de vaste prijs." },
     ],
   },
   {
@@ -202,6 +203,7 @@ export const PLAATSEN: Plaats[] = [
       { v: "Kom je ook in Sprang-Capelle en Waspik?", a: "Ja. Sprang-Capelle en Waspik horen bij de gemeente Waalwijk, en ik kom er voor dezelfde klussen als in Waalwijk zelf: lekkage, goten, pannen en lood. Het is zo'n 25 minuten rijden vanaf Den Bosch." },
       { v: "Vervang je in Waalwijk ook de dakbedekking van een plat dak?", a: "Ja. Achter veel oudere huizen in Waalwijk staat een aanbouw, schuur of oude werkplaats met een plat dak. Lekt dat dak op één plek, dan is een gerichte reparatie vaak genoeg. Is de bedekking op meer plekken versleten, dan zeg ik eerlijk dat vervangen slimmer is. Je hoort vooraf de vaste prijs." },
       { v: "Kun je mijn hele dak in Waalwijk een keer nakijken voor de winter?", a: "Ja, dat doe ik met de Dak-APK: ik loop je hele dak na en je krijgt een rapport met foto's. Bij de oudere huizen in Besoyen en Baardwijk kijk ik vooral naar het lood rond de schoorsteen, bij de boerderijen en vrijstaande huizen in Sprang-Capelle naar de lange goten en de nok. Heb je een plat dak op een aanbouw of oude werkplaats, dan neem ik dat ook mee. Zo weet je wat nu moet gebeuren en wat nog even kan wachten." },
+      { v: "Ik zoek een dakdekkersbedrijf in Waalwijk. Met wie heb ik bij jou te maken?", a: "Met mij, Rens. Je belt of appt niet met een planner, maar met mij: ik kom zelf kijken in Waalwijk, Sprang-Capelle of Waspik en ik blijf je vaste aanspreekpunt, van de eerste foto tot de rekening. Waalwijk is zo'n 25 minuten rijden vanaf Den Bosch. Stuur gerust eerst een foto via WhatsApp, dan hoor je wanneer ik kan komen." },
     ],
   },
   {
