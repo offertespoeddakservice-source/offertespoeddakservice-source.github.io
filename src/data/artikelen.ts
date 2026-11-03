@@ -1657,6 +1657,9 @@ export const ARTIKELEN: Artikel[] = [
       { kop: "Pas op met de hogedrukreiniger", tekst: [
         "Een hogedrukreiniger lijkt snel, maar te veel druk haalt de beschermende toplaag van je pannen weg en beschadigt vooral oudere, poreuze pannen, dan groeit het mos juist sneller terug. Voor stevige, moderne pannen kan lage druk, maar bij twijfel is voorzichtig handwerk of een zachtere methode beter.",
       ] },
+      { kop: "Bij jou in de buurt", tekst: [
+        'Hoeveel mos er op een dak groeit, hangt vooral af van schaduw en bomen. In Oisterwijk, tussen de bossen, groeit het snel op de noordkant van het dak: lees <a href="/werkgebied/oisterwijk/">dakdekker in Oisterwijk</a>. Op de betonpannen in Maaspoort en Empel spoelt mos samen met gruis van de pannen naar de goot, zie <a href="/werkgebied/den-bosch/goten-reinigen/">dakgoot schoonmaken in Den Bosch</a>. En op de oude pannen in Schijndel, vaak nog van voor 1985, wordt het samen met blad een laag slib onderin de goot: zie <a href="/werkgebied/schijndel/goten-reinigen/">dakgoot schoonmaken in Schijndel</a>.',
+      ] },
       { kop: "Hoe ik het aanpak", tekst: [
         "Ik kijk eerst of je pannen het aankunnen. Daarna verwijder ik het mos voorzichtig en ruim ik de goot en de uitloop naar de regenpijp meteen mee op. Zijn de pannen al bros, dan zeg ik dat eerlijk: soms is gericht vervangen slimmer dan blijven reinigen.",
       ] },
