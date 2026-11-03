@@ -2498,6 +2498,52 @@ export const ARTIKELEN: Artikel[] = [
       { v: `Is een lekkende glazen dakpan spoed?`, a: `Loopt er bij regen water naar binnen, of is het glas gebroken en zit er een gat in je dak, dan wel: bel of app me met een foto. Leg tot die tijd een zeil of bak onder de pan. Is het alleen condens, dan kan het rustig wachten.` },
     ],
   },
+  {
+    slug: `dakleer-repareren`,
+    datum: `2026-11-03`,
+    titel: `Dakleer kapot?`,
+    h1: `Dakleer repareren op je schuur, garage of aanbouw: scheur, blaas of losse rand`,
+    metaTitle: `Dakleer repareren op schuur of garage | Spoed Dak Service`,
+    metaDescription: `Lekt het dakleer op je schuur, garage of aanbouw? Zo zie je of het een scheur, blaas of losse rand is, en wanneer een plak genoeg is of een nieuwe laag beter.`,
+    intro: `Een tuinhuis, schuur, garage of oude aanbouw heeft vaak een plat dak met dakleer erop. Dat dak vergeet je snel, tot er na een bui water op je fiets of je gereedschap druppelt. Dakleer gaat meestal eerst op één plek kapot, en dan is het vaak goed te maken. Hieronder lees je hoe je ziet wat er mis is, wat je zelf doet tot het gemaakt is en wanneer een reparatie niet meer genoeg is.`,
+    secties: [
+      { kop: `Lekt het nu? Eerst dit`, tekst: [
+        `Zet een emmer of bak onder de druppel en haal spullen weg die niet nat mogen worden. Druppelt het in de garage of berging bij een stopcontact, een lamp of de wasmachine, zet dan de stroom van die groep uit. Maak een foto van de natte plek van binnen. Wat je verder meteen kunt doen, staat op de <a href="/spoed/">spoedpagina</a>.`,
+      ] },
+      { kop: `Zo ligt dakleer op een schuur of garage`, tekst: [
+        `Onder het dakleer ligt meestal een houten dak: planken of platen op een paar balkjes. Het dakleer ligt daar in banen overheen, en aan de rand is het over de kant van het dak gevouwen en vastgezet, met nagels, een houten lat of een metalen randprofiel. Op een schuur of tuinhuis ligt vaak maar één laag, op de aanbouw van een huis meestal meer. Daarom is het dakleer op een schuur eerder op dan op je huis.`,
+      ] },
+      { kop: `Waar het meestal kapot gaat`, tekst: [
+        `Een blaas. Dat is een bult in het dakleer waar lucht of vocht onder zit. In de zon zet dat uit en wordt de bult groter. Zolang hij dicht is, lekt hij niet. Maar wordt hij hard en bros, of stapt er iemand op, dan scheurt hij open en loopt het water er zo onder.`,
+        `Een rechte scheur. Op een dak van houten planken zie je soms een lange, rechte scheur in het dakleer. Die zit dan vaak precies boven de naad tussen twee planken. Het hout krimpt als het droog is en zet uit als het nat is, en het dakleer erboven trekt op die plek telkens een beetje mee, tot het scheurt.`,
+        `De rand. Waar het dakleer over de kant van het dak is gevouwen, pakt de wind het als eerste. Zit het daar niet meer goed vast, dan klappert het bij harde wind en scheurt het verder in. Heeft je dak een metalen randprofiel, lees dan ook <a href="/kennisbank/daktrim-lekt/">plat dak lekt langs de rand</a>.`,
+        `Rond een pijp of de afvoer. Steekt er een ventilatiepijp door het dak, of loopt het water via een afvoer in de rand weg, dan zit daar een aansluiting die na jaren kan loslaten. Blijft er rond de afvoer water staan, lees dan <a href="/kennisbank/water-blijft-staan-op-plat-dak/">water blijft staan op je platte dak</a>.`,
+      ] },
+      { kop: `Is het hout eronder nog goed?`, tekst: [
+        `Kijk van binnen met een zaklamp tegen de onderkant van het dak. Zie je donkere plekken, schimmel of planken die doorbuigen, dan is het hout op die plek al een tijd nat. Druk er voorzichtig met je hand tegen. Voelt het zacht of verend, dan heeft een plak bovenop weinig zin, want die moet ergens op vastzitten. Dan zeg ik eerlijk wat er eerst moet gebeuren. Is het hout droog en stevig, dan is de reparatie meestal klein.`,
+      ] },
+      { kop: `Wat je zelf beter niet doet`, tekst: [
+        `Prik een blaas niet zelf door, want dan maak je er een gat van. Ga niet op het dak van een schuur of tuinhuis staan om te kijken: het hout is vaak dun en nat dakleer is glad. Wil je tot de reparatie een zeil over de plek leggen, doe dat dan alleen als je er veilig vanaf een lage ladder bij kunt, en leg er stenen of zandzakken op. Spijker het zeil niet vast, want elke spijker is een nieuw gat in het dakleer.`,
+      ] },
+      { kop: `Een plak of een nieuwe laag?`, tekst: [
+        `Zit het lek op één plek en is de rest van het dakleer nog soepel, dan maak ik alleen die plek dicht, met een stuk dat ruim over het gave deel heen valt. Dan kan het dak vaak nog een flinke tijd mee.`,
+        `Is het dakleer hard en breekt een los randje als je het buigt, zitten er op meer plekken scheuren of blazen, of is het dak al eens op een paar plekken geplakt, dan houdt een nieuwe plak het vaak niet lang. Dan is een nieuwe laag over het hele dak de betere keus. Wanneer dat loont en wat het verschil is met EPDM, lees je in <a href="/kennisbank/plat-dak-vervangen-of-repareren/">plat dak: repareren of vervangen</a>.`,
+      ] },
+      { kop: `Hoe ik het aanpak`, tekst: [
+        `Ik kijk eerst van binnen waar het nat is, en van buiten naar het hele dak: de blazen, de scheuren, de rand en de aansluitingen. Een blaas of scheur maak ik open waar dat nodig is, laat ik zo nodig drogen en maak ik dicht met een nieuw stuk dakleer dat ruim over de plek heen valt. Een losse rand zet ik weer vast. Zie ik dat het dak op is, dan hoor je dat voordat ik begin. Zie ook <a href="/diensten/platte-daken/">platte daken</a>.`,
+      ] },
+      { kop: `Wat kost het?`, tekst: [
+        `Een scheur, blaas of losse rand op één plek valt meestal onder een gerichte lekreparatie in een plat dak: ${lekPrijs}, inclusief materiaal. Moet er een nieuwe laag over het hele dak, dan kom ik eerst kijken en hoor je vooraf de vaste prijs. Richtprijzen staan op de <a href="/prijzen/">prijzenpagina</a>.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: platte daken (EPDM)`, href: `/diensten/platte-daken/` },
+    faq: [
+      { v: `Is een blaas in mijn dakleer erg?`, a: `Niet meteen. Een kleine blaas die dicht is, lekt niet. Wordt hij groter, voelt hij hard aan of zit er een barstje in, dan scheurt hij vroeg of laat open. Prik hem niet zelf door. Maak een foto en stuur die via WhatsApp, dan zie ik of hij nu dicht moet of nog even kan wachten.` },
+      { v: `Kan ik op het dak van mijn schuur gaan staan om te kijken?`, a: `Liever niet. Het dak van een schuur of tuinhuis is vaak niet gemaakt om op te lopen, en nat dakleer is glad. Op een blaas of op zacht hout trap je zo een gat. Kijk vanaf een ladder aan de zijkant of vanuit een raam boven, en maak daar een foto.` },
+      { v: `Wat is het verschil tussen dakleer en EPDM?`, a: `Dakleer is een zwarte dakbedekking op basis van bitumen, die in rollen wordt gelegd. EPDM is een soort rubber dat meestal in één stuk over het dak ligt. Allebei kunnen ze goed werken. Bij een reparatie kijk ik eerst wat er nu op je dak ligt, en bij een nieuwe laag hoor je eerlijk wat bij jouw dak past.` },
+      { v: `Is een lekkend schuurdak spoed?`, a: `Meestal niet, maar laat het niet de hele winter zitten. Druppelt het op spullen die je kunt verplaatsen, dan kan het vaak een paar dagen wachten. Lekt het bij een stopcontact of een lamp, of in een aanbouw die aan je huis vastzit, bel of app me dan met een foto. Water dat lang op het hout blijft staan, maakt de reparatie later groter.` },
+    ],
+  },
 ];
 
 export const getArtikel = (slug: string) => ARTIKELEN.find((a) => a.slug === slug);
