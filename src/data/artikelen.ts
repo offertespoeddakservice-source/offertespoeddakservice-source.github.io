@@ -2544,6 +2544,50 @@ export const ARTIKELEN: Artikel[] = [
       { v: `Is een lekkend schuurdak spoed?`, a: `Meestal niet, maar laat het niet de hele winter zitten. Druppelt het op spullen die je kunt verplaatsen, dan kan het vaak een paar dagen wachten. Lekt het bij een stopcontact of een lamp, of in een aanbouw die aan je huis vastzit, bel of app me dan met een foto. Water dat lang op het hout blijft staan, maakt de reparatie later groter.` },
     ],
   },
+  {
+    slug: `lekkage-bij-schotel-of-antenne`,
+    datum: `2026-11-03`,
+    titel: `Lekt het bij je schotel of antenne?`,
+    h1: `Lekkage bij een schotel of antenne op je dak: waar het zit en wat je eraan doet`,
+    metaTitle: `Lekkage door schotel of antenne op dak | Spoed Dak Service`,
+    metaDescription: `Nat op zolder bij een schotel of antenne? Vaak zit het bij de beugel onder de pannen, de kabel of het lood rond de schoorsteen. Zo vind je het.`,
+    intro: `Op veel daken staat een schotel of een antenne, soms al tientallen jaren. Om hem op te hangen moest er iemand het dak op, er kwam een beugel aan het dak of de schoorsteen en er moest een kabel naar binnen. Op elk van die plekken kan het later gaan lekken, vaak pas jaren nadat hij is opgehangen. Hieronder lees je waar het meestal zit, hoe je het herkent en wat eraan te doen is.`,
+    secties: [
+      { kop: `Lekt het nu? Eerst dit`, tekst: [
+        `Zet een emmer onder de druppel, haal spullen weg en maak een foto van de natte plek. Ga niet zelf het dak op, ook niet om de schotel even recht te zetten. Staat de mast na een storm scheef, blijf dan uit de buurt van de kant waar hij naartoe hangt. Wat je verder meteen kunt doen, staat op de <a href="/spoed/">spoedpagina</a>.`,
+      ] },
+      { kop: `Zo zit een schotel of antenne aan je dak`, tekst: [
+        `Meestal op een van deze manieren. Met een dakbeugel: een metalen arm die onder een pan door aan de panlat of het hout eronder is vastgeschroefd, met de mast erop. Met een band om de schoorsteen, waar de mast tegenaan staat. Of met een beugel aan de muur, net onder de dakrand. De kabel gaat dan onder een pan door naar zolder, door een gat in de muur of door een speciale pan met een opening.`,
+      ] },
+      { kop: `Waar het meestal lekt`, tekst: [
+        `Bij de beugel onder de pan. Waar de arm onder de pan door gaat, ligt die pan net niet plat, of er is een stukje uit gezaagd. Bij harde wind waait de regen daar onder de pan.`,
+        `Langs de kabel. Gaat de kabel onder een pan door, dan ligt die pan op de kabel en sluit hij niet meer. Loopt de kabel ook nog schuin naar binnen, dan loopt het water er gewoon langs mee naar zolder. Een kabel hoort vlak voordat hij naar binnen gaat een bocht naar beneden te maken, zodat het water eraf druppelt.`,
+        `Een pan die bij het ophangen is gebroken. Wie over een dak loopt, trapt makkelijk een pan kapot. Een haarscheur zie je van beneden niet, en het lekt soms pas bij de eerste flinke bui. Zie ook <a href="/kennisbank/dakpan-kapot-of-verschoven/">dakpan kapot of verschoven</a>.`,
+        `Bij de schoorsteen. Een band om de schoorsteen kan het lood eronder indrukken of opentrekken. En bij storm gaat een mast heen en weer en trekt hij aan de schoorsteen. Na een tijd zie je dan scheurtjes in het lood of in de voegen. Lees ook <a href="/kennisbank/lekkage-bij-schoorsteen/">lekkage bij de schoorsteen</a> en <a href="/kennisbank/lood-op-dak/">lood op je dak</a>.`,
+      ] },
+      { kop: `Zo zie je het`, tekst: [
+        `Kijk op zolder met een zaklamp bij de plek waar de kabel binnenkomt. Zie je daar een natte streep langs de kabel, een donkere plek op het hout of een druppel aan de kabel zelf, dan komt het water vaak via die weg binnen. Kijk ook vanaf de straat, met de zoom van je telefoon: ligt de pan naast de mast hoger dan de rest, komt de kabel onder een pan uit, of zit de band om de schoorsteen scheef of is hij roestig?`,
+      ] },
+      { kop: `Een antenne die je niet meer gebruikt`, tekst: [
+        `Op veel daken staat nog een oude antenne die al jaren niets meer doet. Bij elke storm gaat hij heen en weer, en dat schuurt aan de pannen en het lood. Een mast die omwaait, komt vaak op de nok of de pannen terecht. Gebruik je hem niet meer, dan kan hij er beter af, het liefst voor de stormen van de winter. Daarna moet het dak op die plek wel weer goed dicht: een pan die past waar de beugel zat, en het lood rond de schoorsteen hersteld waar de band heeft gezeten.`,
+      ] },
+      { kop: `Wat je zelf beter niet doet`, tekst: [
+        `Smeer geen kit rond de kabel of de beugel op de pan. Dat lijkt snel dicht, maar het water loopt er na een tijd onderdoor, en een pan die vastgekit zit, krijg je later lastig los. Trek ook niet van binnenuit aan de kabel, want dan trek je de pan erboven verder scheef.`,
+      ] },
+      { kop: `Hoe ik het aanpak`, tekst: [
+        `Ik kijk naar de beugel, de kabel, de pannen eromheen en het lood bij de schoorsteen. Ligt een pan hol over de beugel of de kabel, dan leg ik hem goed, en waar nodig komt er een pan met een opening voor de kabel in de plaats, zodat de kabel netjes naar binnen gaat en de pan weer dicht ligt. Een gebroken pan vervang ik door een pan die past. Is het lood bij de schoorsteen beschadigd, dan herstel ik dat. De schotel zelf opnieuw richten of verplaatsen laat je doen door een installateur. Zie <a href="/diensten/dakreparatie/">dakreparatie</a>.`,
+      ] },
+      { kop: `Wat kost het?`, tekst: [
+        `Een pan naast de beugel goed leggen of vervangen valt meestal onder een kleine reparatie: ${kleinPrijs}. Moet ik eerst zoeken waar het water binnenkomt, of zit het in het lood rond de schoorsteen, dan valt het meestal onder een gerichte lekreparatie: ${lekPrijs}, inclusief materiaal. Is er een pan met een opening voor de kabel nodig, dan hoor je vooraf de vaste prijs. Richtprijzen staan op de <a href="/prijzen/">prijzenpagina</a>.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: dakreparatie`, href: `/diensten/dakreparatie/` },
+    faq: [
+      { v: `Mijn schotel is pas opgehangen en nu lekt het. Wie lost dat op?`, a: `Is de schotel pas geplaatst, neem dan eerst contact op met wie hem heeft opgehangen, want lekkage door het plaatsen hoort die in de regel zelf op te lossen. Komt die niet, of hangt de schotel er al langer, dan kijk ik waar het water binnenkomt. Stuur me een foto van de natte plek op zolder en van de schotel vanaf de straat.` },
+      { v: `Kan de kabel van mijn schotel gewoon onder een pan door?`, a: `Dat gebeurt veel, maar de pan ligt dan op de kabel en sluit niet goed. Netter is een pan met een opening voor de kabel, of een kabel die via de muur naar binnen gaat. Druppelt het nu bij de kabel, stuur me dan een foto van die plek van binnen en van buiten.` },
+      { v: `Is lekkage bij een schotel of antenne spoed?`, a: `Druppelt het binnen bij een stopcontact, een lamp of je tv-kastje, of staat de mast na een storm scheef, dan wel: bel of app me met een foto. Is het een vochtige plek op zolder die na een bui weer opdroogt, dan kan het vaak een paar dagen wachten. Wacht niet tot de volgende storm.` },
+    ],
+  },
 ];
 
 export const getArtikel = (slug: string) => ARTIKELEN.find((a) => a.slug === slug);
