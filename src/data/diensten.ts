@@ -163,6 +163,7 @@ export const DIENSTEN: Dienst[] = [
     intro:
       "Veel daklekkages beginnen klein: een gebroken pan, loslatend lood bij de schoorsteen of een losgewaaide nokvorst. Ik herstel het voordat het een groot probleem wordt, met materiaal dat bij je dak past. Is het spoed, omdat het binnen druppelt of er na een storm iets open ligt? Bel of app me dan meteen. Stuur er een foto bij die je vanaf de straat maakt, dan zie ik vaak al wat er los zit en wat ik mee moet nemen.",
     punten: [
+      "Bij spoed eerst dichtmaken of afdekken, daarna de nette reparatie",
       "Gebroken of verschoven dakpannen vervangen",
       "Lood/loodslabben bij schoorsteen, dakkapel en dakraam",
       "Nokvorsten opnieuw vastzetten of vervangen",
