@@ -1240,6 +1240,10 @@ export const ARTIKELEN: Artikel[] = [
       { kop: "Lekt het bij de regenpijp?", tekst: [
         "Druppelt het bij de aansluiting van goot en regenpijp, dan zit de uitloop vaak los of lekt de verbinding. Lekt het verderop uit de regenpijp zelf, bij een verbinding of een scheur, dan moet dat stuk pijp meestal opnieuw vast of vervangen worden.",
       ] },
+      { kop: `Nat binnen, bovenin de muur?`, tekst: [
+        `Zie je buiten geen druppel, maar wel binnen een natte plek bovenin de muur, vlak onder het plafond? Dan kan het water achter de goot langs de muur in lopen, bijvoorbeeld omdat de goot een stukje is gezakt. Lees dan <a href="/kennisbank/water-achter-dakgoot/">water achter de dakgoot</a> en <a href="/kennisbank/natte-plek-bovenin-muur/">natte plek bovenin de muur</a>.`,
+        `Loopt er aan die kant van je huis geen regenpijp langs de gevel, dan zit hij vaak binnen, in de muur of in een kast. Een lekkende uitloop zie je dan alleen binnen. Hoe je dat herkent, lees je in <a href="/kennisbank/regenpijp-in-de-muur-lekt/">regenpijp in de muur lekt</a>. Wat je meteen doet als het binnen nat wordt, staat op de <a href="/spoed/">spoedpagina</a>.`,
+      ] },
       { kop: "Tot het gemaakt is: wat je zelf kunt doen", tekst: [
         `Druppelt de goot buiten op één plek, dan is het meestal geen ramp als het een paar dagen duurt. Valt de druppel boven je stoep, je terras of je voordeur, zet er dan een emmer of een bak onder. Zo loopt er niemand door een plas, en bij vorst ligt daar anders zo een plek ijs.`,
         `Maak tijdens een bui een foto of een filmpje van de plek waar het druppelt, het liefst vanaf de straat of uit een raam. Dan zie ik of het bij een naad, een hoek of de uitloop zit, en neem ik meteen het goede materiaal mee.`,
