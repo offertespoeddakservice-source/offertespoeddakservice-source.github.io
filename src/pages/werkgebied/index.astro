@@ -39,7 +39,7 @@ const faqSchema = { "@context": "https://schema.org", "@type": "FAQPage", mainEn
         {PLAATSEN.map((p) => (
           <a class="card" href={`/werkgebied/${p.slug}/`}>
             <h3>{p.naam}</h3>
-            <p>{p.reistijd ?? "In mijn werkgebied"}</p>
+            <p>{p.reistijd ?? "In mijn werkgebied"}{p.wijken.length > 0 && <><br />{p.wijken.slice(0, 3).join(", ")}</>}</p>
           </a>
         ))}
       </div>
