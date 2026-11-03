@@ -1927,6 +1927,9 @@ export const ARTIKELEN: Artikel[] = [
       { kop: "Hoe ik het aanpak", tekst: [
         'Ik kijk eerst waarom het water blijft staan: een dichte afvoer, een kuil in het dak of te weinig afschot. Een dichte afvoer maak ik weer vrij. Ligt het aan een kuil of het afschot, dan zeg ik eerlijk wat er nodig is en of een gerichte reparatie genoeg is. Je hoort de vaste prijs vooraf. Zie <a href="/diensten/platte-daken/">platte daken</a>.',
       ] },
+      { kop: `Wat kost het?`, tekst: [
+        `Is alleen de afvoer dicht, dan is het vaak een kleine klus. Moeten je goten ook leeg, dan neem ik de afvoer van het platte dak in dezelfde keer mee. Lekt het al binnen, dan valt een gericht lek in een plat dak, bijvoorbeeld bij een naad of bij de afvoer, meestal onder een lekreparatie: ${lekPrijs}, inclusief materiaal. Moet er iets aan een kuil of het afschot gebeuren, dan kom ik eerst kijken en hoor je vooraf de vaste prijs.`,
+      ] },
     ],
     dienst: { label: "Bekijk: platte daken (EPDM)", href: "/diensten/platte-daken/" },
     faq: [
