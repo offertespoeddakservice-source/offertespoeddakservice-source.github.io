@@ -346,6 +346,7 @@ export const DIENSTEN: Dienst[] = [
       { v: "Wat kost dak reinigen?", a: `Dak reinigen kost ${ONTMOS_PRIJS}, afhankelijk van hoe groot je dak is en hoe dik het mos erop zit. Je hoort vooraf de vaste prijs voor de hele klus. Stuur gerust een foto van je dak via WhatsApp, dan kan ik je vaak snel een prijs noemen.` },
       { v: "Neem je de goten meteen mee?", a: "Ja. Het mos dat loskomt, valt voor een groot deel in de goot. Daarom maak ik na het reinigen de goten en de uitloop naar de regenpijp meteen leeg, anders zit je goot bij de eerste flinke bui vol. Wat het samen kost, hoor je vooraf." },
       { v: "Kun je mijn dak ook in de herfst of winter reinigen?", a: "Ja, op een droge dag zonder vorst. Is het dak nat en glad of vriest het, dan wacht ik even, want dan is het op het dak niet veilig. Een dikke laag mos laat je liever niet de hele winter liggen: mos houdt water vast, en als dat bevriest kan een oude pan gaan scheuren. Je hoort vooraf wat het kost." },
+      { v: "Hoe lang blijft mijn dak schoon na het reinigen?", a: "Dat hangt vooral af van zon en schaduw. Een dakvlak dat veel zon krijgt, blijft vaak jaren schoon. Op de noordkant en onder bomen blijft een dak na een bui langer nat, en daar komt het mos eerder terug. Een groene waas komt meestal sneller terug dan dikke kussens mos. Houd je goten elk najaar leeg en laat het mos weghalen voordat het weer dik wordt, dan blijft het meestal goed in de hand. Stuur gerust een foto van je dak, dan zeg ik eerlijk wat ik verwacht." },
     ],
   },
   {
