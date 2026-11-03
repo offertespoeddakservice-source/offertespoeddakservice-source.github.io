@@ -2,13 +2,15 @@
 import Base from "../layouts/Base.astro";
 import { SITE, telHref, waHref } from "../site.config.ts";
 import { prijsVan, inclBtw } from "../data/prijzen.ts";
+import EchteFotos from "../components/EchteFotos.astro";
 
 const lekPrijs = prijsVan("daklekkage");
 const gotenPrijs = prijsVan("goot_reinigen");
+const kleinPrijs = prijsVan("dakpan");
 const score = SITE.reviews.score.toString().replace(".", ",");
 
 const stappen = [
-  { n: "1", titel: "Beperk de schade binnen", tekst: "Zet een emmer onder het lek, leg handdoeken neer en schuif spullen en meubels opzij. Prik bij een bolstaand plafond met vocht erachter één klein gaatje boven de emmer, dan komt het water gecontroleerd naar beneden." },
+  { n: "1", titel: "Beperk de schade binnen", tekst: "Zet een emmer onder het lek, leg handdoeken neer en schuif spullen en meubels opzij. Druppelt het uit een lamp of spotje, zet dan in de meterkast de groep van die kamer uit. Bolt het plafond op, ga er dan niet onder staan. Bij een kleine bolling kun je boven de emmer één klein gaatje prikken, zodat het water gecontroleerd naar beneden komt. Hangt het plafond ver door of zie je scheuren, blijf er dan weg." },
   { n: "2", titel: "Blijf zelf van het dak af", tekst: "Zeker bij storm of regen: klim niet zelf het dak op. Een natte pan of ladder is zo gebeurd, en de schade wordt er zelden beter van." },
   { n: "3", titel: "Maak foto's", tekst: "Foto's van de natte plek binnen en (vanaf de grond) van het dak. Handig voor mij om alvast mee te kijken, en voor je verzekering bij stormschade." },
   { n: "4", titel: "Bel of app mij direct", tekst: "Bel of stuur je foto's via WhatsApp. Ik zeg meteen wat je nu zelf kunt doen en wanneer ik er kan zijn, bij spoed in de regio vaak nog dezelfde dag." },
@@ -22,6 +24,7 @@ const faq = [
   { v: "Valt stormschade onder mijn verzekering?", a: "Storm- en hagelschade valt vaak onder je opstalverzekering. Ik maak duidelijke foto's en een omschrijving die je direct kunt indienen." },
   { v: "Is het spoed, of kan het wachten?", a: "Druppelt het binnen, ligt er een pan of nokvorst op straat of zie je een open plek in je dak, dan is het spoed: bel of app me meteen. Een oude, droge kring op het plafond, of een scheve pan terwijl het binnen droog blijft, kan meestal een paar dagen wachten. Twijfel je, stuur dan een foto via WhatsApp. Dan zeg ik eerlijk of het vandaag moet of dat het kan wachten tot overdag op een werkdag. Dan komt er ook geen spoedtoeslag bij." },
   { v: "Wat doe je bij een spoed dakreparatie?", a: "Eerst zorg ik dat het binnen droog blijft: een losse pan terugleggen, een open plek afdekken of een volle goot leegmaken. Vaak kan ik het lek daarna meteen goed maken. Is daar een passende pan of nieuw lood voor nodig, dan maak ik het eerst waterdicht en kom ik terug voor de nette reparatie. Je hoort vooraf wat het kost." },
+  { v: "Ik huur mijn huis en het lekt. Mag ik jou zelf bellen?", a: "Meld het lek eerst bij je verhuurder. Het dak is in de regel zijn zaak, en hij moet meestal akkoord geven voor de reparatie. Huur je van een woningcorporatie, bel dan hun nummer voor reparaties, want die hebben vaak hun eigen vakmensen. Is je verhuurder 's avonds of in het weekend niet te bereiken en druppelt het binnen, dan kun je mij bellen of appen. Je hoort vooraf wat het kost, en ik maak foto's van wat ik aantref. Die kun je aan je verhuurder laten zien, zodat jullie samen kunnen afspreken wie de rekening betaalt." },
 ];
 const faqSchema = {
   "@context": "https://schema.org",
@@ -42,7 +45,7 @@ const faqSchema = {
         <span class="kicker">Spoed · {SITE.regioOmschrijving}</span>
         <span class="stars"><span class="ster">★★★★★</span> <b>{score}</b> <a class="bron" href={SITE.werkspotUrl} target="_blank" rel="noopener">op Werkspot</a></span>
       </div>
-      <h1>Lekkage of stormschade?<br />Vaak dezelfde dag langs</h1>
+      <h1>Spoed dakdekker bij lekkage of stormschade<br />Vaak dezelfde dag langs</h1>
       <p class="lead">
         Een lek wacht niet, ik ook niet. Bel of stuur direct een foto via WhatsApp, je krijgt mij
         (Rens) meteen aan de lijn, ik zeg wat je nú zelf kunt doen en wanneer ik er ben.
@@ -70,6 +73,11 @@ const faqSchema = {
       <p style="margin-top:20px;">
         Wil je alvast weten waar het lek kan zitten? Lees hoe ik <a href="/kennisbank/daklekkage-opsporen/">een daklekkage opspoor</a>, of kijk bij <a href="/kennisbank/lekkage-bij-schoorsteen/">lekkage bij de schoorsteen</a> en <a href="/kennisbank/dakraam-lekt/">een lekkend dakraam</a>. Druppels op zolder terwijl het niet heeft geregend? Dan is het vaak <a href="/kennisbank/condens-of-lekkage-op-zolder/">condens en geen lek</a>. Is het na een storm gebeurd, lees dan <a href="/kennisbank/stormschade-eerste-hulp/">stormschade: eerste hulp</a>.
       </p>
+      <p style="margin-top:16px;">Komt het water vooral bij harde wind binnen? Lees dan <a href="/kennisbank/dak-lekt-bij-harde-wind/">dak lekt bij harde wind</a>. Ligt er specie in de goot of staat de nok scheef, kijk dan bij <a href="/kennisbank/nokvorsten-los/">losse nokvorsten</a>. Is er een tak op je dak gevallen, lees <a href="/kennisbank/tak-of-boom-op-dak/">tak of boom op je dak</a>. En wil je voorkomen dat er bij de volgende storm weer pannen loskomen, lees dan <a href="/kennisbank/dakpannen-vastzetten-tegen-storm/">dakpannen vastzetten tegen storm</a>.</p>
+      <p style="margin-top:16px;">Bolt je plafond op, lees dan wat je doet in <a href="/kennisbank/plafond-bolt-op-door-lekkage/">plafond bolt op door lekkage</a>. Druppelt het uit een lamp of spotje, kijk dan bij <a href="/kennisbank/water-uit-lamp-plafond/">water uit de lamp of spotjes</a>.</p>
+      <p style="margin-top:16px;">Is het nat bovenin de muur, net onder het plafond? Dan komt het water vaak van de goot erboven: lees <a href="/kennisbank/water-achter-dakgoot/">water achter de dakgoot</a>. Zit de natte plek boven een raam met een erker of luifel, kijk dan bij <a href="/kennisbank/erker-lekt/">erker of luifel lekt</a>. En is het nat langs de muur met de buren, lees dan <a href="/kennisbank/lekkage-muur-buren/">lekkage langs de muur met de buren</a>.</p>
+      <p style="margin-top:22px;">Een scheve of kapotte pan zie je van beneden bijna niet. Twee foto's die ik zelf op het dak maakte:</p>
+      <EchteFotos soort="pannen" max={2} inline />
     </div>
   </section>
 
@@ -77,7 +85,7 @@ const faqSchema = {
     <div class="wrap">
       <p class="eyebrow">Waar ik direct bij help</p>
       <h2>Spoedklussen</h2>
-      <div class="grid grid-3" style="margin-top:22px;">
+      <div class="grid grid-2" style="margin-top:22px;">
         <a class="card" href="/diensten/daklekkage/">
           <h3>Daklekkage</h3>
           <p>Lek opsporen zonder sloopwerk en snel dichten: eerst de schade stoppen, dan netjes herstellen.</p>
@@ -93,10 +101,16 @@ const faqSchema = {
           <p>Water langs de gevel? Verstopping verhelpen of de goot herstellen voordat het een lek wordt.</p>
           <span class="price">reinigen {gotenPrijs}</span>
         </a>
+        <a class="card" href="/diensten/dakreparatie/">
+          <h3>Spoed dakreparatie</h3>
+          <p>Een losse pan, een nokvorst die eraf ligt of lood dat loslaat: eerst dicht, dan netjes herstellen.</p>
+          <span class="price">{kleinPrijs}</span>
+        </a>
       </div>
       <p class="notice" style="margin-top:20px;">
         Buiten kantooruren ('s avonds, 's nachts, weekend en feestdagen) geldt een spoedtoeslag. Ook dan hoor je de vaste prijs vóórdat ik begin. Alle bedragen zijn inclusief btw. Alle prijzen staan op de <a href="/prijzen/">prijzen-pagina</a>.
       </p>
+      <p style="margin-top:16px;">Hoe ik een lek bij jou in de buurt aanpak, lees je per plaats: daklekkage in <a href="/werkgebied/den-bosch/daklekkage/">Den Bosch</a>, <a href="/werkgebied/rosmalen/daklekkage/">Rosmalen</a>, <a href="/werkgebied/vught/daklekkage/">Vught</a>, <a href="/werkgebied/oisterwijk/daklekkage/">Oisterwijk</a>, <a href="/werkgebied/heusden/daklekkage/">Heusden</a>, <a href="/werkgebied/schijndel/daklekkage/">Schijndel</a>, <a href="/werkgebied/veghel/daklekkage/">Veghel</a> en <a href="/werkgebied/oss/daklekkage/">Oss</a>. Andere plaatsen vind je bij <a href="/werkgebied/">mijn werkgebied</a>.</p>
     </div>
   </section>
 
@@ -111,6 +125,7 @@ const faqSchema = {
           </details>
         ))}
       </div>
+      <p style="margin-top:18px; max-width:760px;">Staat je vraag er niet bij? Stuur me een foto via <a href={waHref("Hallo, mijn dak lekt. Ik stuur je een foto.")}>WhatsApp</a> of bel <a href={telHref}>{SITE.telefoonWeergave}</a>, dan kijk ik met je mee.</p>
     </div>
   </section>
 </Base>

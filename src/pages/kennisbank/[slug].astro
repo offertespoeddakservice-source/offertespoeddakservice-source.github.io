@@ -12,63 +12,104 @@ const { a } = Astro.props;
 const apkPrijs = PRIJZEN.find((r) => r.dienst.startsWith("Dak-APK"))?.prijs ?? "";
 // Laatst bijgewerkt: datum van de laatste inhoudelijke wijziging per artikel (zie geschiedenis). Gaat voor de eigen datum van het artikel.
 const BIJGEWERKT: Record<string, string> = {
-  "daklekkage-opsporen": "2026-10-29",
-  "wat-kost-daklekkage-repareren": "2026-10-29",
-  "stormschade-eerste-hulp": "2026-10-29",
-  "hoe-vaak-dakgoot-reinigen": "2026-10-29",
-  "verstopte-regenpijp-lekkende-dakgoot": "2026-10-29",
-  "mos-op-dak-verwijderen": "2026-10-29",
-  "plat-dak-vervangen-of-repareren": "2026-10-20",
-  "dakonderhoud-per-seizoen": "2026-10-29",
-  "schoorsteen-vegen-hoe-vaak": "2026-10-29",
-  "hoe-herken-je-een-betrouwbare-dakdekker": "2026-10-29",
-  "zonnepanelen-reinigen-nodig": "2026-10-29",
+  "daklekkage-opsporen": "2026-11-01",
+  "wat-kost-daklekkage-repareren": "2026-11-02",
+  "stormschade-eerste-hulp": "2026-11-01",
+  "hoe-vaak-dakgoot-reinigen": "2026-11-01",
+  "verstopte-regenpijp-lekkende-dakgoot": "2026-11-03",
+  "mos-op-dak-verwijderen": "2026-11-03",
+  "plat-dak-vervangen-of-repareren": "2026-11-02",
+  "dakonderhoud-per-seizoen": "2026-11-02",
+  "schoorsteen-vegen-hoe-vaak": "2026-11-02",
+  "hoe-herken-je-een-betrouwbare-dakdekker": "2026-11-02",
+  "zonnepanelen-reinigen-nodig": "2026-10-30",
   "wat-kost-een-dakdekker": "2026-10-29",
-  "dakgoot-lekt": "2026-10-29",
-  "lekkage-bij-zonnepanelen": "2026-10-29",
+  "dakgoot-lekt": "2026-10-31",
+  "lekkage-bij-zonnepanelen": "2026-11-03",
   "nokvorsten-los": "2026-10-27",
   "bakgoot-lekt": "2026-10-29",
-  "dak-lekt-bij-harde-wind": "2026-10-29",
-  "kilgoot-lekt": "2026-10-29",
-  "dakraam-lekt": "2026-10-29",
-  "daklekkage-verzekering": "2026-10-29",
-  "condens-of-lekkage-op-zolder": "2026-10-29",
-  "vochtplek-plafond": "2026-10-29",
-  "wat-kost-dakgoot-schoonmaken": "2026-10-29",
-  "lekkage-bij-schoorsteen": "2026-10-29",
-  "water-blijft-staan-op-plat-dak": "2026-10-29",
-  "dakinspectie": "2026-10-29",
+  "dak-lekt-bij-harde-wind": "2026-11-02",
+  "kilgoot-lekt": "2026-11-03",
+  "dakraam-lekt": "2026-11-02",
+  "daklekkage-verzekering": "2026-11-02",
+  "condens-of-lekkage-op-zolder": "2026-11-03",
+  "vochtplek-plafond": "2026-11-02",
+  "wat-kost-dakgoot-schoonmaken": "2026-10-30",
+  "lekkage-bij-schoorsteen": "2026-11-03",
+  "water-blijft-staan-op-plat-dak": "2026-11-03",
+  "dakinspectie": "2026-11-02",
+  "dak-lekt-bij-sneeuw-of-vorst": "2026-11-01",
+  "lekkage-bij-aanbouw": "2026-11-02",
+  "dak-lekt-bij-hevige-regen": "2026-11-02",
+  "schoorsteen-lekt-open-haard": "2026-11-02",
+  "lekkage-bij-dakdoorvoer": "2026-11-03",
+  "dakpannen-vastzetten-tegen-storm": "2026-11-02",
+  "lichtkoepel-lekt": "2026-11-02",
+  "water-achter-dakgoot": "2026-11-03",
+  "dakpan-kapot-of-verschoven": "2026-11-03",
+  "erker-lekt": "2026-11-03",
 };
 const bijgewerkt = BIJGEWERKT[a.slug] ?? a.datum;
+const MAANDEN = ["januari", "februari", "maart", "april", "mei", "juni", "juli", "augustus", "september", "oktober", "november", "december"];
+// Maand en jaar uit de echte datum, zodat 'Bijgewerkt' ook na oktober klopt. Zonder datum blijft het juni 2026, zoals voorheen.
+const bijgewerktTekst = bijgewerkt && /^\d{4}-\d{2}/.test(bijgewerkt) ? `${MAANDEN[Number(bijgewerkt.slice(5, 7)) - 1]} ${bijgewerkt.slice(0, 4)}` : "juni 2026";
 const path = `/kennisbank/${a.slug}`;
 const idx = ARTIKELEN.findIndex((x) => x.slug === a.slug);
 // Lees ook: eerst artikelen over hetzelfde onderwerp, daarna aanvullen met de volgende uit de lijst.
 const ONDERWERPEN: string[][] = [
-  ["daklekkage-opsporen", "vochtplek-plafond", "dak-lekt-bij-hevige-regen", "schoorsteen-lekt-open-haard", "lekkage-bij-schoorsteen", "condens-of-lekkage-op-zolder", "dakraam-lekt", "lichtkoepel-lekt", "dak-lekt-bij-harde-wind", "kilgoot-lekt", "lekkage-bij-zonnepanelen", "wat-kost-daklekkage-repareren", "daklekkage-verzekering"],
-  ["hoe-vaak-dakgoot-reinigen", "wat-kost-dakgoot-schoonmaken", "verstopte-regenpijp-lekkende-dakgoot", "dakgoot-lekt", "bakgoot-lekt", "kilgoot-lekt"],
-  ["stormschade-eerste-hulp", "nokvorsten-los", "dakpan-kapot-of-verschoven", "dak-lekt-bij-harde-wind", "daklekkage-verzekering"],
-  ["plat-dak-vervangen-of-repareren", "lichtkoepel-lekt", "water-blijft-staan-op-plat-dak", "dakonderhoud-per-seizoen", "mos-op-dak-verwijderen", "lekkage-bij-aanbouw"],
-  ["dakinspectie", "dakonderhoud-per-seizoen", "hoe-herken-je-een-betrouwbare-dakdekker", "wat-kost-een-dakdekker"],
-  ["schoorsteen-vegen-hoe-vaak", "lekkage-bij-schoorsteen", "schoorsteen-lekt-open-haard", "dakinspectie", "lekkage-bij-dakdoorvoer"],
+  ["daklekkage-opsporen", "vochtplek-plafond", "natte-plek-bovenin-muur", "plafond-bolt-op-door-lekkage", "water-uit-lamp-plafond", "isolatie-nat-na-lekkage", "erker-lekt", "dak-lekt-bij-hevige-regen", "dak-lekt-bij-sneeuw-of-vorst", "schoorsteen-lekt-open-haard", "lekkage-gedeelde-schoorsteen", "lekkage-bij-schoorsteen", "lekkage-bij-schotel-of-antenne", "condens-of-lekkage-op-zolder", "glazen-dakpan-lekt", "nat-achter-knieschot", "dakraam-lekt", "lichtkoepel-lekt", "dak-lekt-bij-harde-wind", "kilgoot-lekt", "lekkage-bij-zonnepanelen", "wat-kost-daklekkage-repareren", "daklekkage-verzekering", "lekkage-muur-buren"],
+  ["hoe-vaak-dakgoot-reinigen", "wat-kost-dakgoot-schoonmaken", "dakgoot-zelf-schoonmaken", "verstopte-regenpijp-lekkende-dakgoot", "regenpijp-in-de-muur-lekt", "dakgoot-lekt", "dakgoot-hangt-door", "water-achter-dakgoot", "natte-plek-bovenin-muur", "bakgoot-lekt", "hoe-lang-gaat-een-dakgoot-mee", "kilgoot-lekt"],
+  ["stormschade-eerste-hulp", "nokvorsten-los", "dakpan-kapot-of-verschoven", "tak-of-boom-op-dak", "dakpannen-vastzetten-tegen-storm", "dak-lekt-bij-harde-wind", "daklekkage-verzekering"],
+  ["plat-dak-vervangen-of-repareren", "dakleer-repareren", "daktrim-lekt", "lichtkoepel-lekt", "water-blijft-staan-op-plat-dak", "dakonderhoud-per-seizoen", "mos-op-dak-verwijderen", "vogels-onder-dakpannen", "zonnepanelen-reinigen-nodig", "lekkage-bij-aanbouw", "veranda-of-overkapping-lekt"],
+  ["dakinspectie", "dakonderhoud-per-seizoen", "hoe-herken-je-een-betrouwbare-dakdekker", "wat-kost-een-dakdekker", "vorstschade-dakpannen"],
+  ["schoorsteen-vegen-hoe-vaak", "lekkage-bij-schoorsteen", "lekkage-gedeelde-schoorsteen", "schoorsteen-afdekken", "lood-op-dak", "lekkage-bij-schotel-of-antenne", "schoorsteen-lekt-open-haard", "dakinspectie", "lekkage-bij-dakdoorvoer"],
+  ["hoe-lang-gaat-een-dak-mee", "vorstschade-dakpannen", "dakpan-kapot-of-verschoven", "glazen-dakpan-lekt", "nokvorsten-los", "lood-op-dak"],
 ];
 const groep = ONDERWERPEN.find((g) => g.includes(a.slug)) ?? [];
 // Spoedregel na het eerste stuk tekst: alleen bij artikelen over lekkage en storm, en alleen als daar nog geen link naar /spoed/ staat.
-const LEK_ARTIKELEN = new Set([...ONDERWERPEN[0], ...ONDERWERPEN[2], "bakgoot-lekt", "lekkage-bij-dakdoorvoer"]);
+const LEK_ARTIKELEN = new Set([...ONDERWERPEN[0], ...ONDERWERPEN[2], "bakgoot-lekt", "lekkage-bij-dakdoorvoer", "lood-op-dak", "lekkage-bij-aanbouw", "daktrim-lekt", "regenpijp-in-de-muur-lekt", "dakleer-repareren"]);
 const toonSpoedregel = LEK_ARTIKELEN.has(a.slug) && !(a.secties[0]?.tekst ?? []).some((t) => t.includes('href="/spoed/"'));
 // Gootartikelen: een gewone zin met links naar dakgoot repareren of vervangen per plaats. Niet bij bakgoot-lekt, die heeft de lekkagezin al.
-const GOOT_ARTIKELEN = new Set(["dakgoot-lekt", "verstopte-regenpijp-lekkende-dakgoot"]);
+const GOOT_ARTIKELEN = new Set(["dakgoot-lekt", "verstopte-regenpijp-lekkende-dakgoot", "water-achter-dakgoot"]);
+// Gootartikelen: na het eerste stuk een gewone regel om een foto van de goot te appen.
+const GOOT_FOTOREGEL = new Set(["hoe-vaak-dakgoot-reinigen", "wat-kost-dakgoot-schoonmaken", "dakgoot-lekt", "verstopte-regenpijp-lekkende-dakgoot", "water-achter-dakgoot", "hoe-lang-gaat-een-dakgoot-mee"]);
+// Artikelen over pannen en reparatiekosten: een gewone zin met links naar dakreparatie per plaats.
+const REPARATIE_ARTIKELEN = new Set(["wat-kost-een-dakdekker", "vorstschade-dakpannen"]);
+// Stormartikelen: een gewone zin met links naar stormschade per plaats, in plaats van de zin met lekkagepagina's (geen twee linkzinnen onder elkaar).
+const STORM_ARTIKELEN = new Set(["stormschade-eerste-hulp", "nokvorsten-los", "dakpan-kapot-of-verschoven", "tak-of-boom-op-dak"]);
 // Echte foto's van Rens (uit fotos.ts) bij artikelen waar ze echt bij passen. Alleen artikelen die na publicatie niet zijn aangepast.
 const FOTOS_BIJ: Record<string, { soort: string; max: number }> = {
   "dak-lekt-bij-harde-wind": { soort: "pannen", max: 2 },
   "dakinspectie": { soort: "pannen", max: 3 },
   "dakpan-kapot-of-verschoven": { soort: "pannen", max: 2 },
+  "dakpannen-vastzetten-tegen-storm": { soort: "pannen", max: 2 },
+  "stormschade-eerste-hulp": { soort: "pannen", max: 2 },
+  "tak-of-boom-op-dak": { soort: "pannen", max: 1 },
   "hoe-herken-je-een-betrouwbare-dakdekker": { soort: "pannen", max: 3 },
   "lekkage-bij-zonnepanelen": { soort: "pannen", max: 2 },
   "lekkage-bij-schoorsteen": { soort: "schoorsteen", max: 4 },
   "lekkage-bij-dakdoorvoer": { soort: "schoorsteen", max: 2 },
   "schoorsteen-lekt-open-haard": { soort: "schoorsteen", max: 4 },
+  "lekkage-gedeelde-schoorsteen": { soort: "schoorsteen", max: 1 },
   "water-blijft-staan-op-plat-dak": { soort: "plat-dak", max: 1 },
+  "plat-dak-vervangen-of-repareren": { soort: "plat-dak", max: 2 },
   "mos-op-dak-verwijderen": { soort: "mos", max: 2 },
+  "lood-op-dak": { soort: "lood-zink", max: 1 },
+  "dakraam-lekt": { soort: "pannen", max: 1 },
+  "dak-lekt-bij-hevige-regen": { soort: "pannen", max: 1 },
+  "dak-lekt-bij-sneeuw-of-vorst": { soort: "pannen", max: 1 },
+  "nokvorsten-los": { soort: "pannen", max: 2 },
+  "dakonderhoud-per-seizoen": { soort: "mos", max: 2 },
+  "daklekkage-opsporen": { soort: "lood-zink", max: 1 },
+  "schoorsteen-vegen-hoe-vaak": { soort: "schoorsteen", max: 2 },
+  "wat-kost-een-dakdekker": { soort: "pannen", max: 3 },
+  "nat-achter-knieschot": { soort: "pannen", max: 2 },
+  "lekkage-bij-aanbouw": { soort: "plat-dak", max: 2 },
+  "vogels-onder-dakpannen": { soort: "vogelwering", max: 3 },
+  "daktrim-lekt": { soort: "plat-dak", max: 2 },
+  "hoe-lang-gaat-een-dak-mee": { soort: "pannen", max: 2 },
+  "glazen-dakpan-lekt": { soort: "pannen", max: 2 },
+  "lekkage-bij-schotel-of-antenne": { soort: "schoorsteen", max: 1 },
 };
 const fotoBij = FOTOS_BIJ[a.slug];
 const plek = groep.indexOf(a.slug);
@@ -105,7 +146,7 @@ const schema = faqSchema ? [articleSchema, faqSchema] : articleSchema;
       <p class="eyebrow" style="color:#ffb486;">Kennisbank</p>
       <h1>{a.h1}</h1>
       <p class="lead">{a.intro}</p>
-      <p style="color:#9fb4c9; font-size:.9rem; margin-top:10px;">Bijgewerkt: {bijgewerkt?.startsWith("2026-10") ? "oktober 2026" : "juni 2026"} · door <a href="/over/" style="color:inherit; text-decoration:underline;">{SITE.eigenaar}</a>, dakdekker regio Den Bosch</p>
+      <p style="color:#9fb4c9; font-size:.9rem; margin-top:10px;">Bijgewerkt: {bijgewerktTekst} · door <a href="/over/" style="color:inherit; text-decoration:underline;">{SITE.eigenaar}</a>, dakdekker regio Den Bosch</p>
     </div>
   </section>
 
@@ -119,21 +160,39 @@ const schema = faqSchema ? [articleSchema, faqSchema] : articleSchema;
             {i === 0 && toonSpoedregel && (
               <p><strong>Lekt het nu?</strong> Ga niet zelf het dak op. Wat je meteen kunt doen, staat op de <a href="/spoed/">spoedpagina</a>. Of stuur me een foto van de natte plek via <a href={waHref("Hallo, mijn dak lekt. Ik stuur je een foto.")}>WhatsApp</a>, dan kijk ik mee.</p>
             )}
+            {i === 0 && GOOT_FOTOREGEL.has(a.slug) && (
+              <p><strong>Vol of lek?</strong> Twijfel je of je goot alleen vol zit of echt lekt? Maak vanaf de straat een foto, het liefst tijdens of vlak na een bui, en stuur die via <a href={waHref("Hallo, ik heb een vraag over mijn dakgoot. Ik stuur je een foto.")}>WhatsApp</a>. Dan zeg ik wat ik zie, en je hoort vooraf de vaste prijs.</p>
+            )}
           </>
         ))}
         {fotoBij && <EchteFotos soort={fotoBij.soort} max={fotoBij.max} inline />}
-        {LEK_ARTIKELEN.has(a.slug) && (
-          <p>Woon je in de regio Den Bosch? Hoe ik een lek bij jou in de buurt aanpak, lees je bij daklekkage in <a href="/werkgebied/den-bosch/daklekkage/">Den Bosch</a>, <a href="/werkgebied/vught/daklekkage/">Vught</a>, <a href="/werkgebied/rosmalen/daklekkage/">Rosmalen</a>, <a href="/werkgebied/oss/daklekkage/">Oss</a> en <a href="/werkgebied/veghel/daklekkage/">Veghel</a>. Andere plaatsen vind je bij <a href="/werkgebied/">mijn werkgebied</a>.</p>
+        {LEK_ARTIKELEN.has(a.slug) && !STORM_ARTIKELEN.has(a.slug) && (
+          <p>Woon je in de regio Den Bosch? Hoe ik een lek bij jou in de buurt aanpak, lees je bij daklekkage in <a href="/werkgebied/den-bosch/daklekkage/">Den Bosch</a>, <a href="/werkgebied/vught/daklekkage/">Vught</a>, <a href="/werkgebied/rosmalen/daklekkage/">Rosmalen</a>, <a href="/werkgebied/oss/daklekkage/">Oss</a>, <a href="/werkgebied/veghel/daklekkage/">Veghel</a>, <a href="/werkgebied/oisterwijk/daklekkage/">Oisterwijk</a>, <a href="/werkgebied/heusden/daklekkage/">Heusden</a> en <a href="/werkgebied/boxtel/daklekkage/">Boxtel</a>. Andere plaatsen vind je bij <a href="/werkgebied/">mijn werkgebied</a>.</p>
+        )}
+        {STORM_ARTIKELEN.has(a.slug) && (
+          <p>Hoe ik na een storm bij jou in de buurt eerst afdek en daarna netjes herstel, lees je bij stormschade in <a href="/werkgebied/den-bosch/stormschade/">Den Bosch</a>, <a href="/werkgebied/rosmalen/stormschade/">Rosmalen</a>, <a href="/werkgebied/vught/stormschade/">Vught</a>, <a href="/werkgebied/oss/stormschade/">Oss</a>, <a href="/werkgebied/berlicum/stormschade/">Berlicum</a>, <a href="/werkgebied/schijndel/stormschade/">Schijndel</a>, <a href="/werkgebied/boxtel/stormschade/">Boxtel</a> en <a href="/werkgebied/waalwijk/stormschade/">Waalwijk</a>. Andere plaatsen vind je bij <a href="/werkgebied/">mijn werkgebied</a>.</p>
         )}
         {GOOT_ARTIKELEN.has(a.slug) && (
           <p>Woon je in de regio Den Bosch? Hoe ik een lekkende goot bij jou in de buurt aanpak, lees je bij dakgoot repareren in <a href="/werkgebied/den-bosch/dakgoot-vervangen/">Den Bosch</a>, <a href="/werkgebied/vught/dakgoot-vervangen/">Vught</a>, <a href="/werkgebied/veghel/dakgoot-vervangen/">Veghel</a> en <a href="/werkgebied/oisterwijk/dakgoot-vervangen/">Oisterwijk</a>. Andere plaatsen vind je bij <a href="/werkgebied/">mijn werkgebied</a>.</p>
+        )}
+        {REPARATIE_ARTIKELEN.has(a.slug) && (
+          <p>Woon je in de regio Den Bosch? Hoe ik een losse of kapotte pan bij jou in de buurt aanpak, lees je bij dakreparatie in <a href="/werkgebied/den-bosch/dakreparatie/">Den Bosch</a>, <a href="/werkgebied/rosmalen/dakreparatie/">Rosmalen</a>, <a href="/werkgebied/vught/dakreparatie/">Vught</a>, <a href="/werkgebied/vlijmen/dakreparatie/">Vlijmen</a>, <a href="/werkgebied/oss/dakreparatie/">Oss</a>, <a href="/werkgebied/veghel/dakreparatie/">Veghel</a>, <a href="/werkgebied/oisterwijk/dakreparatie/">Oisterwijk</a> en <a href="/werkgebied/waalwijk/dakreparatie/">Waalwijk</a>. Andere plaatsen vind je bij <a href="/werkgebied/">mijn werkgebied</a>.</p>
         )}
         <a class="btn btn--primary" href={a.dienst.href.endsWith("/") ? a.dienst.href : a.dienst.href + "/"} style="margin-top:8px;">{a.dienst.label}</a>
       </article>
       <aside>
         <div class="card">
-          <h3>Direct een vraag?</h3>
-          <p>Bel of WhatsApp Rens, of vraag de <a href="/dak-apk/">Dak-APK</a> aan (voor {apkPrijs}) voor een compleet keuringsrapport in {SITE.regioOmschrijving}.</p>
+          {LEK_ARTIKELEN.has(a.slug) ? (
+            <>
+              <h3>Lekt het nu?</h3>
+              <p>Stuur me een foto van de natte plek of bel me. In de regio Den Bosch kan ik bij spoed vaak nog dezelfde dag komen. Wat je zelf meteen kunt doen, staat op de <a href="/spoed/">spoedpagina</a>.</p>
+            </>
+          ) : (
+            <>
+              <h3>Direct een vraag?</h3>
+              <p>Bel of WhatsApp Rens, of vraag de <a href="/dak-apk/">Dak-APK</a> aan (voor {apkPrijs}) voor een compleet keuringsrapport in {SITE.regioOmschrijving}.</p>
+            </>
+          )}
           <div class="btn-row" style="margin-top:14px; flex-direction:column;">
             <a class="btn btn--wa" href={waHref()}>WhatsApp Rens</a>
             <a class="btn btn--primary" href={telHref}>{SITE.telefoonWeergave}</a>

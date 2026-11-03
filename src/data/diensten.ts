@@ -10,6 +10,7 @@ import { prijsVan, inclBtw } from "./prijzen";
 const GOTEN_PRIJS = prijsVan("goot_reinigen");
 const LEK_PRIJS = prijsVan("daklekkage");
 const PAN_PRIJS = prijsVan("dakpan");
+const KLEIN_PRIJS = inclBtw("dakpan");
 const PLATDAK_PRIJS = prijsVan("platdak");
 
 export interface Dienst {
@@ -71,6 +72,18 @@ export const DIENSTEN: Dienst[] = [
         v: "Maak je ook de afvoer en bladvangers schoon?",
         a: "Bij dakgoot schoonmaken hoort de hele goot: blad en mos eruit, bladvangers gecontroleerd en de uitloop naar de regenpijp vrijgemaakt. Klaar is klaar.",
       },
+      {
+        v: "Maak je ook goten schoon buiten Den Bosch?",
+        a: "Ja, in mijn hele werkgebied rond Den Bosch, onder andere in Rosmalen, Vught, Oss, Oisterwijk, Boxtel, Drunen en Veghel. Op de werkgebiedpagina zie je of jouw plaats erbij staat. Stuur gerust een foto van je huis via WhatsApp, dan hoor je vooraf de vaste prijs.",
+      },
+      {
+        v: "Er liggen zonnepanelen tot vlak boven mijn goot. Kun je die goot dan nog leegmaken?",
+        a: "Meestal wel. Ik werk dan vanaf de ladder langs de goot en ga niet op de panelen staan. Onder panelen die tot aan de goot liggen, blijft vaak blad of nestmateriaal hangen, en dat haal ik er meteen uit voor zover ik erbij kan. Nestelen er duiven onder, dan kan ik de rand rond de panelen afsluiten met vogelwering.",
+      },
+      {
+        v: "Reken je per meter goot?",
+        a: `Nee. Je hoort één vaste prijs voor de hele klus, voordat ik begin. Voor een rijtjeswoning is dat ${GOTEN_PRIJS}: beide goten leeg, de uitloop naar de regenpijp vrij en de troep gaat mee. Heb je een hoekhuis, een twee-onder-een-kap of een vrijstaand huis, of zitten je goten hoog, dan noem ik vooraf de vaste prijs. Stuur gerust een foto van je huis vanaf de straat via WhatsApp, dan kan ik die vaak meteen noemen.`,
+      },
     ],
   },
   {
@@ -79,7 +92,7 @@ export const DIENSTEN: Dienst[] = [
     vanafPrijs: LEK_PRIJS,
     h1: "Daklekkage verhelpen: vaak dezelfde dag langs in de regio Den Bosch",
     kort: "Lek opsporen zonder sloopwerk en snel dichten, ook bij spoed.",
-    metaTitle: "Daklekkage repareren regio Den Bosch | Spoed Dak Service",
+    metaTitle: "Daklekkage spoed: lek dichten Den Bosch | Spoed Dak Service",
     metaDescription:
       "Daklekkage? Ik spoor het lek op zonder onnodig sloopwerk en dicht het, bij spoed vaak nog dezelfde dag in de regio Den Bosch. Bel of WhatsApp me.",
     icoon: "💧",
@@ -124,6 +137,18 @@ export const DIENSTEN: Dienst[] = [
         v: "Kun je het lek eerst tijdelijk dichtmaken?",
         a: "Ja. Lukt een nette reparatie niet meteen, bijvoorbeeld omdat het hard regent of omdat er materiaal besteld moet worden, dan dek ik het eerst tijdelijk af, zodat het binnen droog blijft. De echte reparatie volgt daarna, en ook daarvan hoor je vooraf de prijs.",
       },
+      {
+        v: "Het lekt ook als het droog is. Kan dat van het dak komen?",
+        a: "Meestal niet. Druppelt het na een paar droge dagen nog steeds, dan komt het vaker van een leiding, de cv-ketel of de badkamer erboven. Zie je op zolder na een koude nacht druppels verspreid over de folie of het hout, dan is het vaak condens. En na een sneeuwbui kan er sneeuw op zolder liggen die later smelt, en dat lijkt ook op een lek. Stuur een foto van de plek en vertel wanneer het nat wordt, dan zeg ik eerlijk of het bij het dak hoort of bij een loodgieter.",
+      },
+      {
+        v: "Ik woon in een rijtjeshuis. Kan het lek ook bij de buren zitten?",
+        a: "Dat kan. Bij een rij huizen lopen het pannendak, de goot of een plat dak vaak gewoon door van het ene huis naar het andere, en een schoorsteen staat soms op de scheidingsmuur. Het water zoekt zijn eigen weg en komt dan bij jou binnen, terwijl het lek aan de kant van de buren zit. Daarom kijk ik ook naar het stuk dak naast het jouwe. Zit het aan hun kant, dan hoor je dat van me, en dan is het slim om het samen op te lossen.",
+      },
+      {
+        v: "Ik heb het lek zelf al dichtgekit of afgeplakt, maar het lekt nog. Wat nu?",
+        a: "Dat zie ik vaak, en dat is helemaal niet gek. Kit of tape hecht slecht op een nat of vuil dak, en vaak zit het echte lek een stuk hoger dan de plek die je hebt dichtgemaakt. Zet er geen nieuwe laag overheen. Ik zoek waar het water echt binnenkomt, haal oude kit weg waar die in de weg zit en maak het lek daarna goed dicht. Stuur me een foto van de plek die je hebt dichtgemaakt en van de natte plek binnen. Je hoort vooraf wat het kost.",
+      },
     ],
   },
   {
@@ -142,8 +167,9 @@ export const DIENSTEN: Dienst[] = [
       "Losse pan, lood bij de schoorsteen of een nokvorst die los zit? Ik repareer het, bij spoed vaak nog dezelfde dag in de regio Den Bosch. Vaste prijs vooraf.",
     icoon: "🧰",
     intro:
-      "Veel daklekkages beginnen klein: een gebroken pan, loslatend lood bij de schoorsteen of een losgewaaide nokvorst. Ik herstel het voordat het een groot probleem wordt, met materiaal dat bij je dak past.",
+      "Veel daklekkages beginnen klein: een gebroken pan, loslatend lood bij de schoorsteen of een losgewaaide nokvorst. Ik herstel het voordat het een groot probleem wordt, met materiaal dat bij je dak past. Is het spoed, omdat het binnen druppelt of er na een storm iets open ligt? Bel of app me dan meteen. Stuur er een foto bij die je vanaf de straat maakt, dan zie ik vaak al wat er los zit en wat ik mee moet nemen.",
     punten: [
+      "Bij spoed eerst dichtmaken of afdekken, daarna de nette reparatie",
       "Gebroken of verschoven dakpannen vervangen",
       "Lood/loodslabben bij schoorsteen, dakkapel en dakraam",
       "Nokvorsten opnieuw vastzetten of vervangen",
@@ -170,6 +196,15 @@ export const DIENSTEN: Dienst[] = [
         v: "Wanneer is repareren niet meer genoeg?",
         a: "Als er op veel plekken pannen kapot of poreus zijn, of als het dak op meerdere plekken lekt. Dan is blijven repareren duurder dan het dak in één keer goed aanpakken. Ik zeg eerlijk wat in jouw geval verstandig is.",
       },
+      {
+        v: "Kun je ook een dakreparatie doen als het regent of hard waait?",
+        a: "Bij een stortbui of harde wind ga ik niet op een nat, glad dak staan, dat is te gevaarlijk. Lekt het, dan dek ik af wat veilig kan, zodat het binnen droog blijft. De nette reparatie volgt als het droog is. Wanneer ik kan komen, hoor je als je belt of appt.",
+      },
+      {
+        v: "Er heeft eerder een andere dakdekker aan mijn dak gewerkt. Kun je het dan nog repareren?",
+        a: "Ja. Ik kijk wat er toen gedaan is en waar het nu lekt of loszit, en ik zeg je eerlijk wat ik zie. Is het werk pas gedaan, neem dan eerst contact op met die dakdekker, want dan hoort hij het in de regel zelf op te lossen. Je hoort vooraf wat mijn reparatie kost.",
+      },
+      { v: "Wat kost een spoed dakreparatie 's avonds of in het weekend?", a: `Een losse pan of nokvorst vastzetten of vervangen valt meestal onder een kleine reparatie: ${PAN_PRIJS} incl. btw. Moet ik 's avonds, 's nachts of in het weekend komen, dan komt daar een spoedtoeslag bij. Hoeveel dat is, hoor je voordat ik kom, ook midden in de nacht. Kan het veilig wachten tot een werkdag, bijvoorbeeld omdat het binnen droog blijft, dan zeg ik dat eerlijk. Dat scheelt je de toeslag.` },
     ],
   },
   {
@@ -200,6 +235,8 @@ export const DIENSTEN: Dienst[] = [
       { v: "Het lekt bij mijn uitbouw of garage, doe je dat ook?", a: "Ja. De meeste uitbouwen, garages en bergingen hebben een plat dak, en daar zie ik veel lekkage. Vaak zit het bij de aansluiting met de gevel, bij de daktrim aan de rand of bij de afvoer. Die plekken kijk ik als eerste na." },
       { v: "Wat kost het om een lek in een plat dak te repareren?", a: `Een klein plat dak repareren kost ${inclBtw("platdak")}. Het hangt af van waar het lek zit en hoeveel er beschadigd is. Moet de hele dakbedekking eraf, stuur dan een foto, dan hoor je wat het ongeveer kost. Je hoort de vaste prijs voordat ik begin.` },
       { v: "Kun je dakleer op een schuur of tuinhuis repareren?", a: "Ja. Op veel schuren en tuinhuizen ligt dakleer, een dunne laag bitumen. Zit er één scheur of een losse naad in, dan is een gerichte reparatie vaak genoeg. Is het dakleer overal bros, staan er blazen in of lekt het op meer plekken, dan is een nieuwe laag slimmer. Stuur een foto, dan zeg ik eerlijk wat het wordt." },
+      { v: "Hoe vaak moet een plat dak worden nagekeken?", a: "Eén keer per jaar is meestal genoeg, het liefst in het najaar. Ik haal dan blad en mos weg bij de afvoer en in de hoeken, en kijk naar de naden, de randen, de aansluiting tegen de muur en de rand van een lichtkoepel. Zit er een naad los, dan hoor je wat het kost om die dicht te maken voordat er in de winter een lek ontstaat. Na een zware storm, of als er na een bui dagen water blijft staan, laat je het beter eerder bekijken." },
+      { v: "Kun je ook buiten Den Bosch naar een plat dak kijken?", a: "Ja, in mijn hele werkgebied, onder andere in Rosmalen, Vught, Vlijmen, Oisterwijk, Veghel en Waalwijk. Meestal gaat het om het platte dak van een aanbouw, garage of berging. Ik kijk eerst of een gerichte reparatie genoeg is, of dat de dakbedekking over het hele dak versleten is en vervangen beter is. Je hoort vooraf wat er nodig is en wat het kost." },
     ],
   },
   {
@@ -218,7 +255,7 @@ export const DIENSTEN: Dienst[] = [
       "Snelle noodreparatie: eerst de schade stoppen",
       "Weggewaaide pannen en nokvorsten herstellen",
       "Foto's en omschrijving voor je verzekeraar",
-      "Daarna nette, blijvende reparatie",
+      "Daarna een nette reparatie, met materiaal dat bij je dak past",
     ],
     faq: [
       {
@@ -235,6 +272,9 @@ export const DIENSTEN: Dienst[] = [
       },
       { v: "Wat kost een noodreparatie na een storm?", a: "Dat hangt af van de schade. Een paar pannen terugleggen is iets anders dan een open stuk dak afdekken. Je hoort vooraf wat het kost, voordat ik begin. Is het 's avonds, 's nachts of in het weekend, dan komt er een toeslag bij, en ook die hoor je vooraf." },
       { v: "Er ligt na de storm een stuk dakpan of specie in mijn tuin, is dat erg?", a: "Het betekent dat er iets los zit op je dak, vaak een pan of een nokvorst. Ook als het binnen nog droog is, kan de volgende bui of windstoot water binnenlaten of meer pannen lostrekken. Blijf uit de buurt van de plek waar het naar beneden kwam, maak vanaf de straat een foto van je dak en stuur die via WhatsApp." },
+      { v: "Mijn dakgoot is bij de storm losgeraakt, wat nu?", a: "Ga er niet onder staan en trek er niet aan. Een goot die half los hangt, kan verder afscheuren, en een zinken goot is zwaar. Maak vanaf de grond een foto en stuur die via WhatsApp. Vaak zijn er een paar beugels losgetrokken, en dan hang ik de goot weer vast en op afschot. Is de goot zelf geknikt of gescheurd, dan vervang ik dat stuk. Je hoort vooraf wat het kost." },
+      { v: "Kun je komen terwijl het nog stormt?", a: "Bellen of appen kan altijd, ook midden in de storm. Op het dak kan ik pas als het veilig is, want bij zware windstoten is dat voor niemand verstandig. Tot die tijd zeg ik je via de telefoon of WhatsApp wat je binnen kunt doen om de schade te beperken. Na een storm krijg ik veel vragen tegelijk. Een dak dat open ligt of waar het binnen nat wordt, gaat dan voor. Stuur daarom meteen een foto, dan hoor je wanneer ik kan komen." },
+      { v: "Moet ik mijn dak na een storm laten nakijken, ook als het binnen droog blijft?", a: "Niet altijd. Kijk eerst zelf vanaf de straat en vanuit de tuin: ligt er een pan scheef, mist er een, staat de nok niet meer recht of ligt er een stuk pan of specie op de grond? Kijk bij de eerste flinke bui daarna ook even op zolder. Zie je niets en blijft het droog, dan is er meestal niets aan de hand. Zie je wel iets, of twijfel je, maak dan een foto vanaf de grond en stuur die via WhatsApp. Dan zeg ik eerlijk of het moet en hoe snel." },
     ],
   },
   {
@@ -252,8 +292,9 @@ export const DIENSTEN: Dienst[] = [
       "Lekkende of roestige dakgoot repareren of vervangen in de regio Den Bosch. Zink, kunststof of pvc, inclusief afvoer. Vaste prijs vooraf, troep gaat mee.",
     icoon: "🛠",
     intro:
-      "Een goot die roest, op de naden lekt of blijft overlopen krijg je met reinigen niet meer dicht. Dan vervang ik 'm, in zink, kunststof of pvc, passend bij je huis, zodat je gevel en fundering droog blijven.",
+      "Lekt je dakgoot bij een naad, een hoek of de uitloop naar de regenpijp, of hangt hij door? Vaak is dat nog te repareren: ik herstel dat ene stuk of hang de goot weer op afschot naar de regenpijp. Is de goot doorgeroest, bros of op veel plekken lek, dan vervang ik hem in zink, kunststof of pvc, passend bij je huis, zodat je gevel en fundering droog blijven. Je hoort eerlijk wat het wordt, en vooraf wat het kost.",
     punten: [
+      "Lekkende naad, hoek of uitloop herstellen waar dat kan",
       "Oude, roestige of lekkende goten vervangen",
       "Zink, kunststof of pvc, wat bij je dak past",
       "Inclusief beugels en hemelwaterafvoer",
@@ -266,6 +307,7 @@ export const DIENSTEN: Dienst[] = [
       { v: "Kun je een lekkende dakgoot ook repareren in plaats van vervangen?", a: "Vaak wel. Een lekkende naad, een losse hoek, een losse beugel of een lekkende uitloop naar de regenpijp is meestal goed te herstellen. Is de goot op meerdere plekken lek of doorgeroest, dan zeg ik eerlijk dat vervangen slimmer is." },
       { v: "Mijn dakgoot lekt bij de regenpijp, wat is dat?", a: "Meestal zit de uitloop los, het stuk waar de goot overgaat in de regenpijp, of lekt de verbinding. Soms zit de uitloop gewoon vol blad. Ik kijk wat het is en maak het weer dicht." },
       { v: "Mijn goot hangt door, moet hij dan vervangen worden?", a: "Niet altijd. Vaak zit er een beugel los of is er een gebroken. Dan zet ik de goot weer goed op afschot, zodat het water naar de regenpijp loopt in plaats van over de rand." },
+      { v: "Het water loopt achter mijn dakgoot langs de muur. Moet de goot dan vervangen worden?", a: "Meestal niet. Vaak hangt de goot te laag of scheef, of komt het water van onder de pannen niet in de goot terecht. Dan hang ik de goot weer op de goede hoogte en op afschot naar de regenpijp, of zorg ik dat het water van de folie onder de pannen weer in de goot loopt. Vervangen is pas nodig als de goot zelf op is. Je hoort vooraf wat het kost." },
     ],
   },
   {
@@ -313,6 +355,8 @@ export const DIENSTEN: Dienst[] = [
     faq: [
       { v: "Gaat dat niet met een hogedrukspuit kapot?", a: "Op kwetsbare pannen werk ik voorzichtig en op de juiste druk, zodat de toplaag heel blijft. Daar zit 'm juist het vakwerk in." },
       { v: "Neem je de goten meteen mee?", a: "Ja. Het mos dat loskomt, valt voor een groot deel in de goot. Daarom maak ik na het reinigen de goten en de uitloop naar de regenpijp meteen leeg, anders zit je goot bij de eerste flinke bui vol. Wat het samen kost, hoor je vooraf." },
+      { v: "Kun je mijn dak ook in de herfst of winter reinigen?", a: "Ja, op een droge dag zonder vorst. Is het dak nat en glad of vriest het, dan wacht ik even, want dan is het op het dak niet veilig. Een dikke laag mos laat je liever niet de hele winter liggen: mos houdt water vast, en als dat bevriest kan een oude pan gaan scheuren. Je hoort vooraf wat het kost." },
+      { v: "Hoe lang blijft mijn dak schoon na het reinigen?", a: "Dat hangt vooral af van zon en schaduw. Een dakvlak dat veel zon krijgt, blijft vaak jaren schoon. Op de noordkant en onder bomen blijft een dak na een bui langer nat, en daar komt het mos eerder terug. Een groene waas komt meestal sneller terug dan dikke kussens mos. Houd je goten elk najaar leeg en laat het mos weghalen voordat het weer dik wordt, dan blijft het meestal goed in de hand. Stuur gerust een foto van je dak, dan zeg ik eerlijk wat ik verwacht." },
     ],
   },
   {
@@ -342,6 +386,10 @@ export const DIENSTEN: Dienst[] = [
       { v: "Er is een dakpan kapot of verschoven, is dat spoed?", a: "Lekt het al of zit er een gat in je dak, dan is het spoed: bel of WhatsApp me met een foto. Is het één verschoven pan en blijft het binnen droog, dan kan het meestal een paar dagen wachten. Wacht alleen niet tot de volgende storm, want dan waaien er vaak meer los." },
       { v: "Waarom verschuiven dakpannen?", a: "Door harde wind, door een losse of rotte panlat eronder, of doordat er iemand op het dak heeft gelopen, bijvoorbeeld bij het plaatsen van zonnepanelen of een antenne. Ik leg ze recht en kijk meteen of de oorzaak eronder zit." },
       { v: "Kan ik zelf een dakpan terugleggen?", a: "Liever niet. Op een schuin, nat dak ben je zo uitgegleden, en een pan die niet goed in de sluiting ligt, schuift bij de volgende bui weer. Stuur een foto, dan zeg ik wat er nodig is." },
+      { v: "Wat kost het om een paar dakpannen te laten vervangen?", a: `Eén of een paar pannen vervangen valt bij mij onder een kleine reparatie: ${KLEIN_PRIJS}. Gaat het om een hele rij, een groter stuk dak of een pan die lastig te krijgen is, dan hoor je vooraf de vaste prijs.` },
+      { v: "Vervang je ook dakpannen buiten Den Bosch?", a: "Ja, in mijn hele werkgebied rond Den Bosch, onder andere in Rosmalen, Vught, Oss, Veghel en Waalwijk. Stuur een foto van je dak vanaf de straat via WhatsApp, dan zie ik vaak al wat voor pan het is en hoor je wanneer ik kan komen." },
+      { v: "Er ligt een kapotte pan onder mijn zonnepanelen. Kun je die vervangen?", a: "Vaak wel. Ligt de pan aan de rand van de panelen, dan kan ik er meestal bij zonder iets aan de panelen te doen. Ligt hij er midden onder, dan moet eerst een paneel los, en dat laat je doen door je installateur. Daarna vervang ik de pan en kijk ik meteen of er bij de dakhaken nog meer pannen gebroken zijn. Stuur me een foto van je dak vanaf de straat en, als het binnen nat is, van de natte plek." },
+      { v: "Na de vorst liggen er schilfers van mijn dakpannen in de goot. Moeten ze vervangen worden?", a: "Niet meteen allemaal. Een paar schilfers betekent vaak dat er bij oude pannen een laagje van de bovenkant is gesprongen, omdat er water in zat dat bevroor. Zolang de pan heel is en niet lekt, kan hij meestal blijven liggen. Is een pan gescheurd of mist er een hoek, dan vervang ik die. Zie ik op veel plekken schilfers en scheuren, dan zeg ik eerlijk of het slimmer is om een groter stuk te vervangen. Stuur een foto van je dak en van wat er in de goot ligt." },
     ],
   },
   {
@@ -492,6 +540,8 @@ export const DIENSTEN: Dienst[] = [
       { v: "Het lekt bij mijn schoorsteen, kun je dat ook bekijken?", a: "Ja. Bij het vegen kijk ik meteen naar het lood en de aansluiting op het dak, want daar begint lekkage bij de schoorsteen meestal. Zie ik iets, dan hoor je dat eerlijk, en wat het kost om te herstellen." },
       { v: "Wat moet ik doen voordat je komt?", a: "Stook de dag ervoor liever niet, zodat de kachel of haard koud is. Maak de ruimte rond de haard een beetje vrij. Het afdekken doe ik zelf." },
       { v: "Er zit een vogelnest in mijn schoorsteen, wat nu?", a: "Stook dan niet, want met een nest in het kanaal kan de rook, en daarmee koolmonoxide, je huis in komen. Vooral kauwen bouwen in het voorjaar graag een nest in een schoorsteen. Buiten het broedseizoen haal ik het nest eruit als ik kom vegen. Daarna kan er een kap op de schoorsteen, zodat ze er niet meer in kunnen. Twijfel je of er iets in zit, stuur dan een foto van de schoorsteen via WhatsApp." },
+      { v: "Moet mijn schoorsteen geveegd worden als ik alleen een cv-ketel heb?", a: "Meestal niet. Heb je alleen een moderne cv-ketel op gas met een eigen afvoer, dan is er niets te vegen. Dat onderhoud doet je installateur, samen met de ketel. Gaat de afvoer van je ketel door een oud gemetseld kanaal, laat dat dan ook door je installateur nakijken. Stook je daarnaast hout in een kachel of open haard, dan moet dat kanaal wel geveegd worden, het liefst voor het stookseizoen. Weet je niet zeker wat er op je schoorsteen is aangesloten, stuur me dan een foto via WhatsApp." },
+      { v: "Het stookseizoen is al begonnen. Kun je nu nog komen vegen?", a: "Ja, dat kan gewoon. Voor het stookseizoen is het fijnst, maar heb je dit jaar nog niet laten vegen, wacht dan niet tot het voorjaar. In de winter stook je het meest, en dan zet zich ook het meeste roet af. Laat je kachel of haard de dag ervoor uit, zodat hij koud is als ik kom. Bel of app me, dan plannen we een moment." },
     ],
   },
   {
@@ -524,8 +574,8 @@ export const DIENSTEN: Dienst[] = [
     verborgen: true,
     titel: "Zonnepanelen reinigen",
     h1: "Zonnepanelen reinigen: meer opbrengst uit je panelen",
-    kort: "Vuile panelen leveren minder op. Ik maak ze veilig en streepvrij schoon.",
-    metaTitle: "Zonnepanelen reinigen Den Bosch | Spoed Dak Service",
+    kort: "Vuile panelen leveren minder op. Ik maak ze voorzichtig schoon en kijk meteen naar de pannen eronder.",
+    metaTitle: "Zonnepanelen schoonmaken Den Bosch | Spoed Dak Service",
     metaDescription:
       "Zonnepanelen laten schoonmaken in de regio Den Bosch: vuil en vogelpoep eraf, en ik kijk meteen even naar de pannen onder de panelen. Vaste prijs vooraf.",
     icoon: "🔆",
@@ -592,6 +642,7 @@ export const DIENSTEN: Dienst[] = [
       { v: "Hoe weet ik of mijn dak aan renovatie toe is?", a: "Let op scheve of gebroken pannen, mos dat tussen de pannen groeit, specie uit de nok die in de goot ligt en lood dat los zit of scheurt. Zie je dat op meer plekken tegelijk, dan is steeds een losse reparatie vaak duurder dan alles in één keer aanpakken. Met de Dak-APK krijg je een fotorapport van je hele dak, dan zie je zelf hoe het ervoor staat." },
       { v: "Heb ik voor een dakrenovatie een vergunning nodig?", a: "Voor het vervangen van pannen, lood en goten in dezelfde soort en kleur is meestal geen vergunning nodig. Woon je in een monument of in een beschermd stadsgezicht, zoals de binnenstad van Den Bosch of vesting Heusden, vraag het dan eerst na bij de gemeente. Ik denk daar graag in mee." },
       { v: "Doe je ook dakrenovatie buiten Den Bosch?", a: "Ja, in mijn hele werkgebied rond Den Bosch, onder andere in Vught, Rosmalen, Oisterwijk, Veghel en Waalwijk. Een renovatie plan ik vooraf met je in. Ik kom eerst kijken, en je hoort de vaste prijs voordat ik begin." },
+      { v: "Kan een dakrenovatie ook in de herfst of winter?", a: "Meestal wel. Ik plan het werk op droge dagen, en bij vorst, ijs of harde wind wacht ik even, want dan is het op het dak niet veilig. Wachten tot het voorjaar heeft ook een nadeel: losse pannen en een nok die al brokkelt, krijgen dan eerst nog de winterstormen te verduren. Soms is het slim om nu het dringendste te laten doen en de rest in het voorjaar. Je hoort vooraf wat het kost en wanneer ik kan beginnen." },
     ],
   },
   {
@@ -599,7 +650,7 @@ export const DIENSTEN: Dienst[] = [
     verborgen: true,
     titel: "Dakisolatie",
     h1: "Dakisolatie: minder stoken, meer comfort",
-    kort: "Zolder of schuin dak isoleren: direct minder stookkosten, vaak met subsidie.",
+    kort: "Zolder of schuin dak isoleren: meestal minder stookkosten, vaak met subsidie.",
     metaTitle: "Dakisolatie Den Bosch en subsidie-advies | Spoed Dak Service",
     metaDescription:
       "Dak of zolder laten isoleren in de regio Den Bosch? Vaak minder stookkosten en meer comfort, en soms ISDE-subsidie. Vaste prijs vooraf. Bel of WhatsApp Rens.",
@@ -625,6 +676,14 @@ export const DIENSTEN: Dienst[] = [
       {
         v: "Is mijn dak geschikt om te isoleren?",
         a: "Meestal wel, maar het dak moet éérst droog en gezond zijn: isoleren over een lek of vochtprobleem heen maakt de schade alleen maar groter. Dat controleer ik vooraf, bijvoorbeeld met de Dak-APK, en daarna isoleer ik.",
+      },
+      {
+        v: "Mijn oude huis heeft geen folie onder de pannen. Kan het dak dan van binnen geïsoleerd worden?",
+        a: "Vaak wel, maar dan moet het goed gebeuren. Bij veel huizen van voor de oorlog liggen de pannen direct op de latten, zonder folie eronder. Tussen de pannen en de isolatie hoort dan ruimte te blijven waar lucht langs kan, en aan de binnenkant een laag die het vocht uit huis tegenhoudt. Anders kan er vocht in de isolatie neerslaan. Ik kijk eerst of de pannen goed liggen en nergens water doorlaten, want zonder folie komt een lekje meteen op de isolatie terecht. Daarna hoor je wat er kan en wat het kost.",
+      },
+      {
+        v: "Isoleer je ook buiten Den Bosch, bijvoorbeeld in Sint-Michielsgestel?",
+        a: "Ja, in mijn werkgebied rond Den Bosch, onder andere in Sint-Michielsgestel, Rosmalen, Vught en Berlicum. Vooral bij oudere huizen, zoals die uit de jaren '20 en '30 in Den Bosch of de huizen van voor de oorlog in Gestel, kijk ik eerst of het dak droog en dicht is voordat er isolatie in komt. Ik kom eerst kijken, en je krijgt een vaste prijs vooraf.",
       },
     ],
   },

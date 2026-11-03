@@ -252,7 +252,7 @@ export const AD_PAGINAS: AdPagina[] = [
     fotoTitel: "Wat ik op een dak tegenkom",
     fotoMax: 2,
     vragen: [
-      { v: "Wat gebeurt er nadat ik de vragen heb ingevuld?", a: "Meestal staat je prijsindicatie binnen 10 minuten op WhatsApp. Is het wat lastiger, dan kijken we er persoonlijk naar en hoor je binnen 24 uur van ons. Wil je daarna verder, dan plannen we een dag." },
+      { v: "Wat gebeurt er nadat ik de vragen heb ingevuld?", a: "Vaak staat je prijsindicatie binnen 10 minuten op WhatsApp. Is het wat lastiger, dan kijken we er persoonlijk naar en hoor je binnen 24 uur van ons. Wil je daarna verder, dan plannen we een dag." },
       { v: "Zit ik ergens aan vast?", a: "Nee. De prijsindicatie is vrijblijvend. Je beslist zelf of je verder wilt." },
       { v: "Wie komt er?", a: "Ik, Rens, of een collega van mij. Geen callcenter. Ik plan het werk, je hebt één aanspreekpunt en de prijs staat vooraf vast." },
     ],

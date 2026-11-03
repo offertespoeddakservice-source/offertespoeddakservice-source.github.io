@@ -26,10 +26,13 @@ export const PLAATSEN: Plaats[] = [
       "Veel jaren-'60 en '70 woningen met schuine pannendaken: precies het soort dak waar nokvorsten loslaten en goten dichtslibben.",
     wijken: ["Molenhoek", "De Groote Wielen", "Sparrenburg", "Hondsberg", "Maliskamp"],
     reistijd: "10 min vanaf Den Bosch",
+    omschrijving: "Dakdekker in Rosmalen en De Groote Wielen: lekkage bij de nok of een dakdoorvoer, volle goten en losse pannen. Vaste prijs vooraf. Bel of app Rens.",
     extra:
       "In De Groote Wielen zijn de huizen nog jong, maar daar liggen veel platte daken en daken vol zonnepanelen. Lekkage zie ik daar eerder bij een dakdoorvoer, een afvoer of de rand van een plat dak dan bij oude pannen. In de Maliskamp en rond het oude centrum staan meer vrijstaande huizen en twee-onder-een-kappers met een schoorsteen, en daar kijk ik bij een lek eerst naar het lood.",
     faq: [
       { v: "Mijn huis in De Groote Wielen is nog maar een paar jaar oud. Kan het dak dan al lekken?", a: "Dat kan, ook bij een jong huis. Is je huis pas een paar jaar oud, kijk dan eerst of de bouwer het lek nog moet oplossen. Valt het daar niet meer onder, stuur me dan een foto van de natte plek. Dan zeg ik eerlijk wat ik zie." },
+      { v: "Kom je ook in Kruisstraat, Maliskamp en Hintham?", a: "Ja. Kruisstraat en de Maliskamp horen bij Rosmalen, en Hintham ligt tussen Rosmalen en de stad. Rosmalen hoort sinds 1996 bij de gemeente Den Bosch, en vanaf mijn thuisbasis ben ik er in zo'n tien minuten. Ik kom er voor dezelfde klussen als in de rest van Rosmalen: lekkage, goten, pannen en lood." },
+      { v: "Kun je in Rosmalen ook een heel dakvlak vernieuwen, of alleen kleine reparaties doen?", a: "Ook een heel dakvlak. In Molenhoek en Sparrenburg liggen op een deel van de rijtjeshuizen nog de eerste pannen. Zijn die op veel plekken verweerd of gescheurd, en moet er elk jaar wel ergens iets gebeuren, dan is het vaak slimmer om dat dakvlak in één keer aan te pakken. Dat hoeft niet altijd het hele dak te zijn, want de voorkant en de achterkant slijten vaak niet even snel. In een rij kijk ik ook naar de aansluiting op de daken van de buren, zodat het op de grens dicht blijft. Ik kom eerst kijken en zeg eerlijk of een reparatie nog genoeg is. Je hoort vooraf de vaste prijs." },
     ],
   },
   {
@@ -39,11 +42,14 @@ export const PLAATSEN: Plaats[] = [
       "Van vooroorlogse villa's tot naoorlogse rijtjes, vaak oudere daken met klassiek lood en keramische pannen die onderhoud vragen.",
     wijken: ["Vught-Noord", "Vught-Zuid", "Cromvoirt"],
     reistijd: "10 min vanaf Den Bosch",
+    omschrijving: "Dakdekker in Vught, Helvoirt en Cromvoirt: oud lood op villa's, goten vol blad en naalden, losse pannen na storm. Vaste prijs vooraf. Bel of app Rens.",
     extra:
       "Sinds 2021 hoort ook Helvoirt bij de gemeente Vught. Daar staan veel vrijstaande huizen en oude boerderijen met een breed pannendak, vaak met hoge bomen eromheen. Ook aan de bosrand bij de IJzeren Man en de Vughtse Heide staan veel huizen tussen dennen en eiken. Dennennaalden zijn fijn: ze glijden door een bladvanger heen en zetten de uitloop naar de regenpijp na een tijd dicht. Loopt je goot over terwijl er weinig blad in ligt, dan zit het vaak daar.",
     faq: [
       { v: "Kom je ook in Helvoirt en Cromvoirt?", a: "Ja. Cromvoirt hoort bij Vught, en Helvoirt sinds 2021 ook. Allebei liggen ze op zo'n kwartier rijden van Den Bosch." },
       { v: "Moet het oude lood op mijn villa helemaal vervangen worden?", a: "Niet altijd. Oud lood kan nog jaren mee als het goed aansluit op de muur of de schoorsteen. Is het op een paar plekken gescheurd of los, dan vervang ik alleen die stukken. Je hoort vooraf wat het kost." },
+      { v: "Kun je het dak van mijn oude villa in Vught een keer helemaal nakijken?", a: "Ja, dat doe ik met de Dak-APK: ik loop je hele dak na en je krijgt een rapport met foto's. Bij de vooroorlogse villa's in Vught kijk ik vooral naar het lood rond de schoorsteen en langs de muren, naar de kilgoten en naar de hoekvorsten op een schilddak, want daar begint een lek op zulke daken meestal. Zo weet je wat nu moet gebeuren en wat nog even kan wachten." },
+      { v: "Ben je een groot dakdekkersbedrijf, of kom je zelf naar Vught?", a: "Spoed Dak Service is geen groot bedrijf met een callcenter. Je krijgt mij aan de lijn, ik kom zelf kijken in Vught, Helvoirt of Cromvoirt en ik ben je vaste aanspreekpunt, van de eerste foto tot de rekening. Bij de oudere villa's kijk ik dan meteen naar het lood, de kilgoten en de goten, zodat je in één keer hoort wat er speelt. Je hoort vooraf de vaste prijs." },
     ],
   },
   {
@@ -54,6 +60,11 @@ export const PLAATSEN: Plaats[] = [
     wijken: ["Vliedberg", "Het Vromart", "Centrum"],
     reistijd: "15 min vanaf Den Bosch",
     omschrijving: "Dakdekker in Vlijmen, Nieuwkuijk en Haarsteeg: lekkage bij een lichtkoepel, een volle goot of losse pannen na storm. Vaste prijs vooraf. Bel of app Rens.",
+    faq: [
+      { v: "Kom je ook in Nieuwkuijk en Haarsteeg?", a: "Ja. Nieuwkuijk en Haarsteeg liggen vlak bij Vlijmen en horen net als Vlijmen bij de gemeente Heusden. Ik kom er voor dezelfde klussen als in Vlijmen zelf, zoals een lek bij een lichtkoepel, een volle goot of losse pannen na een storm. Het is zo'n kwartier rijden vanaf Den Bosch." },
+      { v: "Kun je mijn dak in Vlijmen een keer helemaal nakijken voor de winter?", a: "Ja, dat doe ik met de Dak-APK: ik loop je hele dak na en je krijgt een rapport met foto's. Bij de rijtjes in Vliedberg kijk ik ook naar het platte dak van de berging en de rand van de lichtkoepel, bij de daken uit de jaren '70 naar verweerde betonpannen, en in Geerpark naar de klemmen van de nokvorsten. Op de foto's zie je zelf hoe je dak erbij ligt, en je hoort eerlijk wat voor de winter moet en wat kan wachten." },
+      { v: "Kun je in Vlijmen ook het platte dak van mijn berging of aanbouw vernieuwen?", a: "Ja. Achter veel rijtjeshuizen in Vliedberg en de andere wijken uit de jaren '70 staat een berging of aanbouw met een plat dak, vaak met een lichtkoepel erin. Is de dakbedekking op één plek kapot, dan is repareren vaak genoeg. Is hij op meer plekken versleten, blijft er na een bui water op staan of is hij al een paar keer gelapt, dan is een nieuwe dakbedekking op termijn meestal slimmer. Ik kijk dan ook naar de rand van de lichtkoepel en de aansluiting op de muur van het huis, want daar begint een lek op zo'n dak vaak. Ik kom eerst kijken, en je hoort vooraf de vaste prijs." },
+    ],
   },
   {
     slug: "drunen",
@@ -65,6 +76,9 @@ export const PLAATSEN: Plaats[] = [
     extra:
       "Drunen hoort samen met Vlijmen en Heusden bij de gemeente Heusden, en Elshout ligt er vlak naast. Aan de zuidkant van Drunen, richting de Loonse en Drunense Duinen, staan veel huizen tussen de bomen. Daar komt in de herfst naast blad ook zand in de goot. Dat spoelt naar de uitloop naar de regenpijp en wordt daar met het blad een zware, natte prop, en dan loopt de goot bij een bui over aan de voorkant. In het oude centrum en in Elshout staan nog veel oudere huizen met een schoorsteen, en daar kijk ik bij een lek eerst naar het lood. Stuur me gerust eerst een foto via WhatsApp.",
     omschrijving: "Dakdekker in Drunen en Elshout: goten vol zand en blad, lekkage bij oud lood en losse pannen na een storm. Vaste prijs vooraf. Bel of app Rens.",
+    faq: [
+      { v: "Kom je ook in Elshout?", a: "Ja. Elshout ligt vlak bij Drunen en hoort net als Drunen bij de gemeente Heusden. Ik kom er voor dezelfde klussen als in Drunen zelf, zoals goten vol zand en blad, lekkage bij oud lood en losse pannen na een storm. Het is zo'n 20 minuten rijden vanaf Den Bosch." },
+    ],
   },
   {
     slug: "berlicum",
@@ -85,8 +99,13 @@ export const PLAATSEN: Plaats[] = [
       "Veel oudere, karakteristieke woningen langs de Dommel met klassieke pannendaken die regelmatig onderhoud aan vorsten en lood vragen.",
     wijken: ["Gestel", "Den Dungen", "Gemonde"],
     reistijd: "15 min vanaf Den Bosch",
+    omschrijving: "Dakdekker in Sint-Michielsgestel, Den Dungen en Gemonde: lood en nokvorsten op oude daken, goten vol blad en lekkage. Vaste prijs vooraf. Bel of app Rens.",
     extra:
       "Rond Sint-Michielsgestel liggen oude landgoederen, zoals Zegenwerp en Ruwenberg, en ook in de straten eromheen staan hoge eiken en beuken. In de herfst komen daar naast blad ook eikels en takjes in de goot, en die blijven bij de uitloop naar de regenpijp hangen. In Den Dungen en Gemonde staan meer vrijstaande huizen en boerderijen met een groot pannendak, vaak met veel open land eromheen. Daar heeft de wind meer grip op het dak, en waait een nokvorst met losse specie er eerder af dan in een straat vol huizen.",
+    faq: [
+      { v: "Kom je ook in Den Dungen, Gemonde en Maaskantje?", a: "Ja. Den Dungen, Maaskantje en Gemonde horen bij de gemeente Sint-Michielsgestel, net als Berlicum en Middelrode. Ik kom er voor dezelfde klussen als in Gestel zelf: lekkage, goten, pannen en lood. Het is zo'n kwartier tot twintig minuten rijden vanaf Den Bosch." },
+      { v: "Kun je in Sint-Michielsgestel ook mijn dak isoleren?", a: "Ja, het schuine dak aan de binnenkant of de zoldervloer. Bij de oudere huizen in het centrum van Gestel en langs de Dommel kijk ik eerst goed naar de pannen en het lood. Ligt er ergens een pan scheef of laat het lood los, dan maak ik dat eerst in orde, want isoleren op een dak dat water doorlaat maakt het erger. Ik kom eerst kijken, en je hoort vooraf de vaste prijs." },
+    ],
   },
   {
     slug: "schijndel",
@@ -96,6 +115,10 @@ export const PLAATSEN: Plaats[] = [
     wijken: ["Hoevenbraak", "Boschweg", "Centrum"],
     reistijd: "20 min vanaf Den Bosch",
     omschrijving: "Dakdekker in Schijndel en Wijbosch: lekkage bij oude pannen of de schoorsteen, volle goten en stormschade. Vaste prijs vooraf. Bel of app Rens.",
+    faq: [
+      { v: "Kom je ook in Wijbosch en het buitengebied van Schijndel?", a: "Ja. Wijbosch hoort bij Schijndel, en Schijndel hoort sinds 2017 bij de gemeente Meierijstad. Ik kom er voor dezelfde klussen als in Schijndel zelf: lekkage, goten, pannen en lood. Het is zo'n 20 minuten rijden vanaf Den Bosch." },
+      { v: "Kun je mijn dak in Schijndel nakijken voordat de winter begint?", a: "Ja, met de Dak-APK loop ik je hele dak na en krijg je een rapport met foto's. Op de oudere daken in Schijndel kijk ik vooral naar de eerste pannen van voor 1985, want die nemen meer water op en kunnen bij vorst scheuren, en naar de nokvorsten, die daar vaak nog in specie liggen. Staat er nog een oude antenne of schotel op je dak, dan kijk ik of die de pannen eromheen beschadigt. Je hoort daarna wat ik zou doen en in welke volgorde, en wat gerust tot het voorjaar kan wachten." },
+    ],
   },
   {
     slug: "boxtel",
@@ -105,6 +128,10 @@ export const PLAATSEN: Plaats[] = [
     wijken: ["Selissen", "Munsel", "Lennisheuvel"],
     reistijd: "25 min vanaf Den Bosch",
     omschrijving: "Dakdekker in Boxtel, Liempde en Esch: een lek opsporen, goten onder de bomen leegmaken en losse pannen terugleggen. Vaste prijs vooraf. Bel of app Rens.",
+    faq: [
+      { v: "Kom je ook in Liempde en Esch?", a: "Ja. Liempde hoort sinds 1996 bij de gemeente Boxtel, en Esch sinds 2021. Ik kom er voor dezelfde klussen als in Boxtel zelf, zoals een lek opsporen, goten leegmaken of losse pannen terugleggen. Boxtel is zo'n 25 minuten rijden vanaf Den Bosch." },
+      { v: "Kun je mijn dak in Boxtel nakijken voordat de winter begint?", a: "Ja, met de Dak-APK loop ik je hele dak na en krijg je een rapport met foto's. Bij de oudere huizen rond het centrum kijk ik vooral naar het lood boven een erker of luifel, bij de rijtjes in Selissen naar de naad in de goot op de grens met de buren en naar duiven onder de zonnepanelen, en bij de boerderijen in Liempde en Esch naar de nok en de schoorsteen. Daarna weet je wat er voor de winter moet gebeuren en wat nog een jaar kan wachten." },
+    ],
   },
   {
     slug: "heusden",
@@ -114,6 +141,10 @@ export const PLAATSEN: Plaats[] = [
     wijken: ["Vesting Heusden", "Oudheusden", "Herpt"],
     reistijd: "20 min vanaf Den Bosch",
     omschrijving: "Dakdekker in vesting Heusden, Oudheusden en Herpt: lekkage bij oud lood of zink, volle goten en losse nokvorsten. Vaste prijs vooraf. Bel of app Rens.",
+    faq: [
+      { v: "Kom je ook in Doeveren, Heesbeen en Hedikhuizen?", a: "Ja. Die dorpjes horen net als de vesting, Oudheusden en Herpt bij de gemeente Heusden. Ik kom er voor dezelfde klussen als in Heusden zelf: lekkage, goten, pannen en lood. Het is zo'n 20 minuten rijden vanaf Den Bosch." },
+      { v: "Mijn huis staat in de vesting. Mag je daar zomaar pannen of een goot vervangen?", a: "In de vesting is het slim om eerst even bij de gemeente Heusden na te vragen wat mag, zeker als je huis een monument is. Een kapotte pan vervangen door een pan die er net zo uitziet, is meestal gewoon onderhoud. Wil je iets anders, zoals een andere pan, een andere kleur of een kunststof goot in plaats van zink, dan heb je in de regel eerst toestemming nodig. Ik kijk wat er nu op je dak ligt en zoek materiaal dat erbij past, zodat je dak er van de straat hetzelfde uitziet. Gaat het om de stenen of de voegen van de gevel of de schoorsteen, dan is dat geen werk voor mij, en dat hoor je dan meteen." },
+    ],
   },
   {
     slug: "oss",
@@ -122,8 +153,13 @@ export const PLAATSEN: Plaats[] = [
       "Veel ruime naoorlogse wijken met schuine daken; goten reinigen en pannen vervangen zijn hier veelgevraagd.",
     wijken: ["Ruwaard", "Ussen", "Schadewijk", "Berghem"],
     reistijd: "25 min vanaf Den Bosch",
+    omschrijving: "Dakdekker in Oss, Berghem en Geffen: lekkage bij lood of een dakraam, goten vol blad en losse pannen na storm. Vaste prijs vooraf. Bel of app Rens.",
     extra:
       "Bij Oss horen ook de dorpen langs de Maas, zoals Lith, Megen en Ravenstein. Daar staan veel dijkhuizen en oude boerderijen met een groot pannendak, en over de rivier en het open land heeft de wind vrij spel. Na een storm zie ik daar vaak dat de houten windveer loszit of dat de pannen langs de zijkant van het dak zijn gaan schuiven. Rond het centrum van Oss staan nog veel oude arbeiderswoningen met een schoorsteen die al jaren niet meer gebruikt wordt. Zit daar geen kap op, dan regent het in het kanaal, en na een tijd zie je een vochtplek op de muur binnen. Vaak is een kap of afdekplaat op de schoorsteen dan genoeg, en die zet ik er zelf op.",
+    faq: [
+      { v: "Kom je bij een lek in Oss ook 's avonds of in het weekend?", a: "Je kunt me dag en nacht bellen of appen, ook in het weekend. Oss is zo'n 25 minuten rijden vanaf Den Bosch. Buiten kantooruren geldt een spoedtoeslag, en ook dan hoor je de vaste prijs voordat ik begin. Twijfel je of het spoed is, stuur dan een foto van de natte plek via WhatsApp. Dan zeg ik eerlijk of het vandaag moet of kan wachten tot een werkdag." },
+      { v: "Kom je ook in Berghem, Geffen en de dorpen langs de Maas?", a: "Ja. Ik kom in de hele gemeente Oss, dus ook in Berghem en Geffen, en in de dorpen langs de Maas, zoals Lith, Megen, Ravenstein en Herpen. Ik kom er voor dezelfde klussen als in de stad: lekkage, goten, pannen en lood. Naar de dorpen langs de Maas is het vanaf Den Bosch iets verder rijden dan naar Oss zelf, dus stuur me eerst een foto via WhatsApp. Dan hoor je eerlijk wanneer ik kan komen." },
+    ],
   },
   {
     slug: "oisterwijk",
@@ -132,11 +168,13 @@ export const PLAATSEN: Plaats[] = [
       "Bosrijke omgeving betekent veel bladval en mos op daken, dus goten en pannen vragen hier extra aandacht.",
     wijken: ["Pannenschuur", "Westend", "Moergestel"],
     reistijd: "25 min vanaf Den Bosch",
+    omschrijving: "Dakdekker in Oisterwijk, Moergestel en Haaren: goten vol blad, mos op het dak en lekkage bij de schoorsteen. Vaste prijs vooraf. Bel of app Rens.",
     extra:
       "Haaren is sinds de herindeling van 2021 een dorp van de gemeente Oisterwijk. Daar en in het buitengebied staan veel vrijstaande huizen en oude boerderijen met een groot pannendak. Onder de vele bomen in en rond Oisterwijk krijgt een dak weinig zon, en op de noordkant groeit dan snel mos. Mos houdt water vast, en als het daarna vriest kan een pan scheuren. Ligt er een dikke laag mos op je dak, dan haal ik die eraf en kijk ik meteen of de pannen eronder nog heel zijn.",
     faq: [
       { v: "Kom je ook in Moergestel en Haaren?", a: "Ja. Moergestel hoort bij de gemeente Oisterwijk, en Haaren sinds 2021 ook. Ik kom er voor dezelfde klussen als in Oisterwijk zelf, zoals een volle goot, mos op het dak of een lek bij de schoorsteen. Het is zo'n 25 minuten rijden vanaf Den Bosch." },
       { v: "Hoe vaak moeten de goten leeg onder al die bomen?", a: "Onder veel bomen is één keer per jaar vaak te weinig. Een goed moment is laat in de herfst, als het meeste blad eraf is, en daarna nog eens in het voorjaar. Zie je bij een bui water over de rand van de goot komen, wacht dan niet tot die tijd." },
+      { v: "Kun je in Oisterwijk ook een oud dak opknappen, of alleen kleine reparaties doen?", a: "Ook groter werk. Op veel oudere villa's en vrijstaande huizen in Oisterwijk en Moergestel ligt het dak er al tientallen jaren. Dan kijk ik welke pannen op zijn, of de nok nog vast ligt, hoe het lood rond de schoorsteen erbij ligt en of de goten mee moeten. Vaak hoeft niet het hele dak eraf en vervang ik alleen wat echt op is. Ligt er een plat dak op je aanbouw of garage, dan kijk ik of repareren nog kan of dat de dakbedekking beter vervangen kan worden. Je hoort vooraf de vaste prijs." },
     ],
   },
   {
@@ -149,6 +187,9 @@ export const PLAATSEN: Plaats[] = [
     extra:
       "Wijchen ligt net over de Maas, aan de kant van Nijmegen. Bij de gemeente horen ook dorpen als Batenburg, Bergharen, Hernen en Balgoij, met veel boerderijen en vrijstaande huizen in het open land tussen de Maas en de Waal. In Wijchen zelf zijn grote delen in de jaren '70 en '80 gebouwd, met veel rijtjeshuizen en twee-onder-een-kappers. Bij die huizen liggen de nokvorsten vaak nog in specie, en die brokkelt na zoveel jaren af. Zie je brokjes in de goot of op de stoep, laat de nok dan nakijken voordat de winterstormen komen.",
     omschrijving: "Dakdekker in Wijchen, Alverna en Niftrik: lekkage bij lood of de nok, volle goten en losse pannen na storm. Vaste prijs vooraf. Bel of app Rens.",
+    faq: [
+      { v: "Kom je ook in Batenburg, Bergharen, Hernen en Balgoij?", a: "Ja. Die dorpen horen bij de gemeente Wijchen. Wijchen zelf is zo'n 25 minuten rijden vanaf Den Bosch, en de dorpen in het Land van Maas en Waal liggen een stukje verder. Stuur gerust eerst een foto via WhatsApp, dan hoor je eerlijk wanneer ik kan komen." },
+    ],
   },
   {
     slug: "waalwijk",
@@ -157,11 +198,14 @@ export const PLAATSEN: Plaats[] = [
       "Mix van naoorlogse wijken met schuine daken; goten reinigen en losse pannen na storm vanaf de Langstraat zijn veelgevraagd.",
     wijken: ["Besoyen", "Baardwijk", "Laageinde", "Sprang-Capelle"],
     reistijd: "25 min vanaf Den Bosch",
+    omschrijving: "Dakdekker in Waalwijk, Sprang-Capelle en Waspik: lekkage bij oud lood of een plat dak, volle goten en losse pannen. Vaste prijs vooraf. Bel of app Rens.",
     extra:
       "Met Sprang-Capelle en Waspik erbij heeft Waalwijk heel verschillende daken. Sprang-Capelle is een lang dorp langs de oude weg, met veel vrijstaande huizen en oude boerderijen met een breed dak en lange goten. Daar valt in de herfst veel blad in de goot van de bomen langs de straat, en een nokvorst die los zit merk je vaak pas als er specie in de goot ligt. In Besoyen en Baardwijk, de oude kernen die aan Waalwijk vastgegroeid zijn, staan nog veel huizen met een schoorsteen en oud lood. Twijfel je wat er met je dak aan de hand is, stuur dan een foto via WhatsApp.",
     faq: [
       { v: "Kom je ook in Sprang-Capelle en Waspik?", a: "Ja. Sprang-Capelle en Waspik horen bij de gemeente Waalwijk, en ik kom er voor dezelfde klussen als in Waalwijk zelf: lekkage, goten, pannen en lood. Het is zo'n 25 minuten rijden vanaf Den Bosch." },
       { v: "Vervang je in Waalwijk ook de dakbedekking van een plat dak?", a: "Ja. Achter veel oudere huizen in Waalwijk staat een aanbouw, schuur of oude werkplaats met een plat dak. Lekt dat dak op één plek, dan is een gerichte reparatie vaak genoeg. Is de bedekking op meer plekken versleten, dan zeg ik eerlijk dat vervangen slimmer is. Je hoort vooraf de vaste prijs." },
+      { v: "Kun je mijn hele dak in Waalwijk een keer nakijken voor de winter?", a: "Ja, dat doe ik met de Dak-APK: ik loop je hele dak na en je krijgt een rapport met foto's. Bij de oudere huizen in Besoyen en Baardwijk kijk ik vooral naar het lood rond de schoorsteen, bij de boerderijen en vrijstaande huizen in Sprang-Capelle naar de lange goten en de nok. Heb je een plat dak op een aanbouw of oude werkplaats, dan neem ik dat ook mee. Zo weet je wat nu moet gebeuren en wat nog even kan wachten." },
+      { v: "Ik zoek een dakdekkersbedrijf in Waalwijk. Met wie heb ik bij jou te maken?", a: "Met mij, Rens. Je belt of appt niet met een planner, maar met mij: ik kom zelf kijken in Waalwijk, Sprang-Capelle of Waspik en ik blijf je vaste aanspreekpunt, van de eerste foto tot de rekening. Waalwijk is zo'n 25 minuten rijden vanaf Den Bosch. Stuur gerust eerst een foto via WhatsApp, dan hoor je wanneer ik kan komen." },
     ],
   },
   {
@@ -171,8 +215,12 @@ export const PLAATSEN: Plaats[] = [
       "Ruim opgezette wijken met schuine pannendaken; bladval en mos zorgen voor snel volle goten en losse pannen.",
     wijken: ["Melle", "Bitswijk", "Hoenderbos", "Centrum"],
     reistijd: "25 min vanaf Den Bosch",
+    omschrijving: "Dakdekker in Uden, Volkel en Odiliapeel: lekkage bij een gezakte goot of een plat dak, volle goten en losse pannen. Vaste prijs vooraf. Bel of app Rens.",
     extra:
       "Rond de Markt in het centrum van Uden zitten veel winkels met een woning erboven. Achter zo'n pand ligt vaak een plat dak op de winkel of het magazijn, en daar komt het water nogal eens binnen bij de afvoer of langs de rand. Volkel en Odiliapeel, de dorpen die bij Uden horen, hebben meer vrijstaande huizen en boerderijen met een groot pannendak en een lange goot. Daar blijft in de herfst veel blad in de goot liggen, en bij een stevige bui loopt hij dan over langs de gevel. Stuur me een foto, dan zeg ik je eerlijk of leegmaken genoeg is.",
+    faq: [
+      { v: "Kom je ook in Volkel en Odiliapeel?", a: "Ja. Volkel en Odiliapeel horen bij Uden, en ook daar kom ik voor lekkage, goten, pannen en lood. Uden is zo'n 25 minuten rijden vanaf Den Bosch, de dorpen liggen een stukje verder. Stuur gerust eerst een foto via WhatsApp, dan hoor je eerlijk wanneer ik kan komen." },
+    ],
   },
   {
     slug: "den-bosch",
@@ -181,11 +229,13 @@ export const PLAATSEN: Plaats[] = [
       "Mijn thuisbasis: van de oude binnenstad met monumentale daken tot naoorlogse wijken met schuine pannendaken. Hier ben ik dagelijks, dus bij spoed sta ik snel voor je deur.",
     wijken: ["Muntel", "Boschveld", "De Slagen", "Maaspoort", "Zuid", "Empel", "Engelen"],
     reistijd: "een paar minuten vanaf mijn thuisbasis",
+    omschrijving: "Dakdekker in Den Bosch, Empel, Engelen en Nuland: lekkage opsporen, oude goten en lood, losse pannen na storm. Vaste prijs vooraf. Bel of app Rens.",
     extra:
       "Bij Den Bosch horen ook Engelen en Bokhoven, de oude dorpjes aan de Maas, en sinds 2015 ook Nuland en Vinkel. In Engelen en Bokhoven staan veel lage dijkhuizen en oude boerderijen. De goot hangt daar laag en vaak onder de bomen langs de dijk, dus die zit in de herfst snel vol. In Nuland en Vinkel staan veel gezinswoningen en twee-onder-een-kappers, en op steeds meer daken liggen zonnepanelen. Lekt het bij jou sinds de panelen erop liggen, dan kijk ik eerst bij de plek waar de kabel door het dak naar binnen gaat.",
     faq: [
       { v: "Werk je ook aan daken in de binnenstad van Den Bosch?", a: "Ja. In de binnenstad staan veel monumenten, en de binnenstad is beschermd stadsgezicht. Daar kun je niet zomaar een andere pan of ander materiaal gebruiken. Ik kijk eerst wat er nu ligt en herstel met materiaal dat erbij past. Twijfel je of je pand een monument is, vraag het dan na bij de gemeente." },
       { v: "Kom je ook in Engelen, Bokhoven, Nuland en Vinkel?", a: "Ja. Engelen en Bokhoven liggen aan de Maas, Nuland en Vinkel aan de oostkant, en ze horen allemaal bij de gemeente Den Bosch. Ik kom er voor dezelfde klussen als in de stad zelf, en bij lekkage vaak nog dezelfde dag." },
+      { v: "Het lekt in Den Bosch 's avonds of in het weekend. Kun je dan komen?", a: "Bellen of appen kan dag en nacht, ook in het weekend. Den Bosch is mijn thuisbasis, dus ik zit meestal niet ver weg. Druppelt het binnen of ligt er een stuk dak open, dan kom ik vaak nog dezelfde dag of avond kijken en maak ik het eerst dicht. Buiten kantooruren komt er een spoedtoeslag bij, en ook dan hoor je de vaste prijs voordat ik begin. Blijft het binnen droog als je de druppel opvangt en kan het veilig wachten tot een werkdag, dan zeg ik dat eerlijk, want dat scheelt je de toeslag. Stuur meteen een foto van de natte plek via WhatsApp." },
     ],
   },
   {
@@ -197,6 +247,11 @@ export const PLAATSEN: Plaats[] = [
     reistijd: "20 min vanaf Den Bosch",
     extra:
       "Veghel hoort sinds 2017 bij de gemeente Meierijstad, samen met onder meer Schijndel en Erp. In de woonwijken die in de jaren '70 en '80 zijn gebouwd, staan veel rijtjeshuizen en twee-onder-een-kappers met een dakraam in het schuine dak aan de achterkant. Na zo'n veertig jaar is het gootstuk of het lood onder zo'n raam vaak op. Dan zie je na een flinke bui een natte plek op de muur of het plafond onder het raam, terwijl het glas zelf nog prima is. Vaak is een nieuw gootstuk genoeg en hoeft het raam er niet uit. Stuur me een foto van de natte plek, dan zeg ik eerlijk wat ik zie.",
+    omschrijving: "Dakdekker in Veghel en Erp: lekkage onder een dakraam of bij de schoorsteen, volle goten en losse nokvorsten. Vaste prijs vooraf. Bel of app Rens.",
+    faq: [
+      { v: "Kom je ook in Erp, Zijtaart, Eerde en Mariaheide?", a: "Ja. Die dorpen horen net als Veghel bij de gemeente Meierijstad. Ik kom er voor dezelfde klussen als in Veghel zelf: lekkage, goten, pannen en lood. Veghel is zo'n 20 minuten rijden vanaf Den Bosch." },
+      { v: "Mijn rijtjeshuis in Veghel is zo'n veertig jaar oud. Waar laat ik voor de winter naar kijken?", a: "Bij huizen van die leeftijd kijk ik vooral naar de nokvorsten, die vaak nog in specie liggen die na jaren bros wordt, naar het lood rond de schoorsteen en naar de goot. Zit die vol blad of hangt hij niet meer goed op afschot, dan loopt hij in de winter over. Stuur gerust een paar foto's vanaf de straat, dan zeg ik eerlijk wat ik zie." },
+    ],
   },
   {
     slug: "tilburg",
@@ -208,6 +263,9 @@ export const PLAATSEN: Plaats[] = [
     extra:
       "Tilburg is een oude textielstad. In wijken als het Goirke, Korvel en de Hasselt staan nog veel arbeiderswoningen van rond 1900 tot 1930, vaak in lange rijen met een laag pannendak en een schoorsteen per huis. De pannen liggen daar soms al tientallen jaren. Lekt het bij zo'n huis, dan zit het meestal bij het lood rond de schoorsteen of bij een pan die is gaan schuiven. Tilburg is voor mij zo'n half uur rijden vanaf Den Bosch, en Udenhout en Berkel-Enschot liggen het dichtstbij.",
     omschrijving: "Dakdekker in Tilburg, Udenhout en Berkel-Enschot: lekkage bij lood of een plat dak, volle goten en losse pannen. Vaste prijs vooraf. Bel of app Rens.",
+    faq: [
+      { v: "Ik woon in een oud arbeidershuis in het Goirke of Korvel. Moet bij een lek het hele dak eraf?", a: "Meestal niet. Bij die oude rijtjes zit een lek vaak in het lood rond de schoorsteen of bij één pan die is gaan schuiven, en dat repareer ik gericht. Zijn de pannen op veel plekken gescheurd of poreus, dan zeg ik eerlijk dat een groter stuk vervangen slimmer is. Tilburg is voor mij zo'n half uur rijden. Stuur daarom eerst een foto van de natte plek en van je dak vanaf de straat via WhatsApp, dan hoor je wanneer ik kan komen." },
+    ],
   },
   {
     slug: "breda",
@@ -218,6 +276,9 @@ export const PLAATSEN: Plaats[] = [
     reistijd: "± 40 min vanaf Den Bosch",
     extra:
       "Sinds 1997 horen ook Prinsenbeek, Teteringen, Bavel en Ulvenhout bij de gemeente Breda. In die dorpen staan veel vrijstaande huizen en twee-onder-een-kappers met een groot pannendak, vaak met een aanbouw of garage ertegen. Waar zo'n aanbouw tegen het huis zit, ligt een strook lood of zink, en die laat na veel jaren los. In de Heuvel en het Brabantpark, wijken uit de jaren '50 en '60, staan veel rijtjeshuizen en portiekwoningen. Bij de rijtjes zit een lek vaak in het lood rond de schoorsteen, bij de portiekwoningen eerder bij de afvoer of de rand van het platte dak.",
+    faq: [
+      { v: "Ik woon in een portiekwoning in de Heuvel of het Brabantpark en het lekt. Wie regelt dat?", a: "Bij een portiekwoning is het dak meestal van de VvE, of van de verhuurder als je huurt. Meld het lek daar meteen, want zij moeten in de regel akkoord geven voor de reparatie. Zet ondertussen een emmer onder de druppel en maak foto's van de natte plek. Vragen de VvE of de verhuurder mij om te komen kijken, dan zoek ik waar het water binnenkomt. Breda is voor mij zo'n 40 minuten rijden, dus stuur eerst een foto via WhatsApp, dan hoor je eerlijk wanneer ik kan komen." },
+    ],
   },
   {
     slug: "helmond",
@@ -228,6 +289,9 @@ export const PLAATSEN: Plaats[] = [
     reistijd: "± 40 min vanaf Den Bosch",
     extra:
       "Stiphout en Mierlo-Hout zijn oude dorpen die aan Helmond zijn vastgegroeid. Daar staan nog veel oudere huizen met een schoorsteen, en een lek zit daar vaak in het lood rond die schoorsteen. In Brandevoort lijken veel huizen oud, maar ze zijn vrij nieuw, gebouwd in een ouderwetse stijl met steile pannendaken en veel hoeken en kilgoten tussen de daken. Juist in die hoeken blijft in de herfst blad liggen. Helmond is voor mij een flink stuk rijden. Stuur daarom eerst een foto via WhatsApp, dan hoor je eerlijk wanneer ik kan komen.",
+    faq: [
+      { v: "Kom je ook in Stiphout, Mierlo-Hout en Brandevoort?", a: "Ja. Stiphout, Mierlo-Hout en Brandevoort horen bij Helmond, en ik kom er voor dezelfde klussen als in de rest van Helmond, zoals lekkage bij het lood rond de schoorsteen of blad in een kilgoot. Helmond is zo'n 40 minuten rijden vanaf Den Bosch. Bel of app me met een foto, dan hoor je wanneer ik kan komen." },
+    ],
   },
   {
     slug: "eindhoven",
@@ -238,6 +302,9 @@ export const PLAATSEN: Plaats[] = [
     reistijd: "± 40 min vanaf Den Bosch",
     extra:
       "In Stratum ligt het Villapark, met veel villa's en herenhuizen van voor de oorlog. Die hebben vaak een steil pannendak, lood rond de schoorsteen en zinken goten die al tientallen jaren meegaan. Lekt het daar, dan zit het meestal in dat oude lood of in een naad van de goot. In Woensel-Noord, het grootste stadsdeel van Eindhoven, staan vooral rijtjes uit de jaren '60, '70 en '80. Daar gaat het vaker om nokvorsten die nog in specie liggen en losraken, of om een goot die is gaan doorhangen en bij een flinke bui overloopt.",
+    faq: [
+      { v: "Ik woon in een oude villa in het Villapark. Hoe zie ik of het lood rond mijn schoorsteen lekt?", a: "Kijk vanaf de straat met de zoom van je telefoon naar de voet van de schoorsteen. Staat het lood van de stenen af, zitten er scheurtjes in de hoeken of mist er een stuk, dan kan het water erachter lopen. Binnen zie je dat aan een vochtige plek naast de schoorsteen, vooral na regen met wind. Ga niet zelf het dak op. Stuur me een foto van de schoorsteen en van de natte plek, dan zeg ik eerlijk wat ik zie. Eindhoven is voor mij zo'n 40 minuten rijden, dus dan hoor je ook wanneer ik kan komen." },
+    ],
   },
 ];
 

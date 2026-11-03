@@ -9,7 +9,7 @@ const FOTO_WA = waHref("Hallo, ik wil graag weten wat het kost. Ik stuur een fot
 
 const faq = [
   { v: "Waarom staat er niet bij alles een bedrag?", a: "Elk dak is anders. Bij kleine klussen zie je hierboven een vanaf-prijs. Bij grotere klussen, zoals een goot of nok vervangen of loodwerk, hangt het te veel af van je dak. Stuur een foto, dan hoor je wat het kost. De vaste prijs hoor je altijd voordat ik begin." },
-  { v: "Hoe kom ik het snelst aan een prijs?", a: "Beantwoord de korte vragen of stuur een foto via WhatsApp. Meestal staat je prijsindicatie binnen 10 minuten op WhatsApp. Is het wat lastiger, dan kijken we er persoonlijk naar en hoor je binnen 24 uur van ons." },
+  { v: "Hoe kom ik het snelst aan een prijs?", a: "Beantwoord de korte vragen of stuur een foto via WhatsApp. Vaak staat je prijsindicatie binnen 10 minuten op WhatsApp. Is het wat lastiger, dan kijken we er persoonlijk naar en hoor je binnen 24 uur van ons." },
   { v: "Zijn de prijzen inclusief btw?", a: "Ja. Alle bedragen op deze site zijn inclusief btw. Een vanaf-prijs is wat het minimaal kost. Meer werk of verder rijden, dan wordt het meer, en dat hoor je vooraf." },
   { v: "Reken je voorrijkosten?", a: "Nee, een prijs aanvragen is gratis en vrijblijvend. Wil je een complete keuring van je dak mét fotorapport? Dat is de Dak-APK (€49). Weet je al wat er moet gebeuren? Dan hoor je gewoon gratis de vaste prijs vooraf." },
 ];
@@ -40,10 +40,10 @@ const faqSchema = {
       <div class="foto-eerst" style="margin-bottom:26px;">
         <div>
           <strong>Snelste weg: stuur een foto</strong>
-          <span>Beantwoord een paar korte vragen of stuur een foto via WhatsApp. Meestal heb je je prijsindicatie binnen 10 minuten.</span>
+          <span>Beantwoord een paar korte vragen of stuur een foto via WhatsApp. Vaak heb je je prijsindicatie binnen 10 minuten.</span>
         </div>
         <div class="btn-row">
-          <a class="btn btn--primary" href="/quiz/">Gratis prijs, meestal binnen 10 minuten</a>
+          <a class="btn btn--primary" href="/quiz/">Gratis prijsindicatie, vaak binnen 10 minuten</a>
           <a class="btn btn--wa" href={FOTO_WA}>Stuur een foto via WhatsApp</a>
         </div>
       </div>
@@ -74,7 +74,7 @@ const faqSchema = {
         {BTW_REGEL} Wijkt de einduitkomst meer dan 10% af van de prijs die je vooraf hoorde, dan laat ik dat vooraf weten, zoals de wet ook voorschrijft (art. 7:753 BW).
       </p>
       <div class="btn-row" style="margin-top:22px;">
-        <a class="btn btn--primary" href="/quiz/">Gratis prijs, meestal binnen 10 minuten</a>
+        <a class="btn btn--primary" href="/quiz/">Gratis prijsindicatie, vaak binnen 10 minuten</a>
         <a class="btn btn--outline" href={telHref}>Bel {SITE.telefoonWeergave}</a>
       </div>
     </div>

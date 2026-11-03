@@ -86,9 +86,13 @@ const schema = [
         <p>
           Volle goten, losse pannen of een dak dat aan onderhoud toe is: ik help je er netjes vanaf. {`${p.naam} is ${p.reistijd}, dus hier plan ik de klus vooraf met je in.`}
         </p>
+      ) : p.reistijd?.startsWith("±") ? (
+        <p>
+          Volle goten, een lek na de regen of losse pannen na een storm: ik help je er netjes vanaf. {`${p.naam} is ${p.reistijd}. Stuur me eerst een foto, dan hoor je eerlijk wanneer ik kan komen.`}
+        </p>
       ) : (
       <p>
-        Of het nu gaat om volle goten, een lek na de regen of losse pannen na een storm,
+        Volle goten, een lek na de regen of losse pannen na een storm:
         ik help je er snel en netjes vanaf. {p.reistijd ? `${p.naam} is ${p.reistijd}, ` : ""}
         dus ik ben vaak snel ter plaatse.
       </p>
@@ -103,24 +107,8 @@ const schema = [
         {heeftLekPagina
           ? <>Hoe ik een lek in {p.naam} opspoor, lees je bij <a href={`/werkgebied/${p.slug}/daklekkage/`}>daklekkage in {p.naam}</a>.</>
           : <>Hoe ik een lek opspoor zonder onnodig sloopwerk, lees je bij <a href="/diensten/daklekkage/">daklekkage</a>.</>}
-        Stuur me de foto via WhatsApp, dan hoor je eerlijk wat ik zie en wat de beste volgende stap is.
+        Stuur me de foto via <a href={waHref(`Hallo, mijn dak lekt in ${p.naam}. Ik stuur je een foto.`)}>WhatsApp</a>, dan hoor je eerlijk wat ik zie en wat de beste volgende stap is.
       </p>
-    </div>
-  </section>
-
-  <section class="section section--soft">
-    <div class="wrap">
-      <h2>Wat ik in {p.naam} doe</h2>
-      <div class="grid grid-3" style="margin-top:18px;">
-        {DIENSTEN.filter((d) => !d.verborgen).map((d) => (
-          <a class="card" href={`/diensten/${d.slug}/`}>
-            <DienstIcon slug={d.slug} />
-            <h3>{d.titel}</h3>
-            <p>{d.kort}</p>
-            {d.vanafPrijs && <span class="price">{d.vanafPrijs}</span>}
-          </a>
-        ))}
-      </div>
     </div>
   </section>
 
@@ -136,6 +124,22 @@ const schema = [
     </section>
   )}
 
+  <section class="section section--soft">
+    <div class="wrap">
+      <h2>Wat ik in {p.naam} doe</h2>
+      <div class="grid grid-3" style="margin-top:18px;">
+        {DIENSTEN.filter((d) => !d.verborgen).map((d) => (
+          <a class="card" href={MATRIX.some((c) => c.plaats === p.slug && c.dienst === d.slug) ? `/werkgebied/${p.slug}/${d.slug}/` : `/diensten/${d.slug}/`}>
+            <DienstIcon slug={d.slug} />
+            <h3>{d.titel}</h3>
+            <p>{d.kort}</p>
+            {d.vanafPrijs && <span class="price">{d.vanafPrijs}</span>}
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
   <section class="section">
     <div class="wrap">
       <h2>Veelgestelde vragen: {p.naam}</h2>
@@ -147,6 +151,7 @@ const schema = [
           </details>
         ))}
       </div>
+      <p style="margin-top:18px; max-width:760px;">Staat je vraag er niet bij? Stuur me een appje met een foto via <a href={waHref(`Hallo, ik heb een vraag over mijn dak in ${p.naam}.`)}>WhatsApp</a> of bel <a href={telHref}>{SITE.telefoonWeergave}</a>, dan kijk ik met je mee.</p>
     </div>
   </section>
 

@@ -23,7 +23,7 @@ const navItems = NAV.map((item) => ({ label: item.label, href: item.href.endsWit
 const apkPrijs = PRIJZEN.find((r) => r.sleutel === "apk")?.prijs ?? "";
 // De quiz (/quiz/): daar geen vaste quiz-knop onderaan (je staat er al), wel meting van bezoek en kliks.
 const opQuiz = huidigPad.startsWith("/quiz/");
-const QUIZ_KNOP = "Gratis prijs, meestal binnen 10 minuten";
+const QUIZ_KNOP = "Gratis prijsindicatie, vaak binnen 10 minuten";
 
 const businessSchema: Record<string, unknown> = {
   "@context": "https://schema.org",
@@ -125,7 +125,7 @@ const schemas = [businessSchema, websiteSchema, ...(breadcrumbSchema ? [breadcru
     <title>{title}</title>
     <meta name="description" content={description} />
     <link rel="canonical" href={canonical} />
-    <meta name="robots" content={noindex ? "noindex, follow" : "index, follow"} />
+    <meta name="robots" content={noindex ? "noindex, follow" : "index, follow, max-snippet:-1, max-image-preview:large"} />
     <meta name="theme-color" content="#0f2742" />
     <meta property="og:type" content="website" />
     <meta property="og:locale" content="nl_NL" />
@@ -257,7 +257,9 @@ const schemas = [businessSchema, websiteSchema, ...(breadcrumbSchema ? [breadcru
               <li><a href="/diensten/regenpijp-vervangen/">Regenpijp vervangen</a></li>
               <li><a href="/diensten/nokvorsten-vervangen/">Nokvorsten repareren of vervangen</a></li>
               <li><a href="/diensten/lood-vervangen/">Lood vervangen</a></li>
+              <li><a href="/diensten/dakrenovatie/">Dakrenovatie</a></li>
               <li><a href="/diensten/stormschade/">Stormschade</a></li>
+              <li><a href="/diensten/vogelwering/">Vogelwering</a></li>
               <li><a href="/diensten/">Alle diensten →</a></li>
             </ul>
           </div>
@@ -265,18 +267,36 @@ const schemas = [businessSchema, websiteSchema, ...(breadcrumbSchema ? [breadcru
             <h3>Lekt het?</h3>
             <ul>
               <li><a href="/kennisbank/vochtplek-plafond/">Vochtplek in het plafond</a></li>
+              <li><a href="/kennisbank/plafond-bolt-op-door-lekkage/">Plafond bolt op door lekkage</a></li>
+              <li><a href="/kennisbank/water-uit-lamp-plafond/">Water uit de lamp of spotjes</a></li>
               <li><a href="/kennisbank/daklekkage-opsporen/">Daklekkage opsporen</a></li>
               <li><a href="/kennisbank/lekkage-bij-schoorsteen/">Lekkage bij de schoorsteen</a></li>
+              <li><a href="/kennisbank/lekkage-gedeelde-schoorsteen/">Gedeelde schoorsteen lekt</a></li>
               <li><a href="/kennisbank/schoorsteen-lekt-open-haard/">Water in je open haard</a></li>
+              <li><a href="/kennisbank/lekkage-bij-dakdoorvoer/">Lekkage bij een ontluchtingspijp</a></li>
+              <li><a href="/kennisbank/lood-op-dak/">Lood op je dak lekt</a></li>
               <li><a href="/kennisbank/dakraam-lekt/">Dakraam lekt</a></li>
+              <li><a href="/kennisbank/erker-lekt/">Erker of luifel lekt</a></li>
+              <li><a href="/kennisbank/lekkage-bij-zonnepanelen/">Lekkage bij zonnepanelen</a></li>
               <li><a href="/kennisbank/dak-lekt-bij-harde-wind/">Lekt het alleen bij harde wind?</a></li>
               <li><a href="/kennisbank/dak-lekt-bij-hevige-regen/">Lekt het alleen bij een stortbui?</a></li>
+              <li><a href="/kennisbank/dak-lekt-bij-sneeuw-of-vorst/">Lekt het bij sneeuw of vorst?</a></li>
+              <li><a href="/kennisbank/nat-achter-knieschot/">Nat achter het knieschot</a></li>
+              <li><a href="/kennisbank/lekkage-muur-buren/">Nat langs de muur met de buren</a></li>
+              <li><a href="/kennisbank/isolatie-nat-na-lekkage/">Isolatie nat na een lek</a></li>
               <li><a href="/kennisbank/dakgoot-lekt/">Dakgoot lekt</a></li>
+              <li><a href="/kennisbank/water-achter-dakgoot/">Water achter de dakgoot</a></li>
+              <li><a href="/kennisbank/bakgoot-lekt/">Bakgoot lekt</a></li>
               <li><a href="/kennisbank/kilgoot-lekt/">Kilgoot lekt</a></li>
               <li><a href="/kennisbank/stormschade-eerste-hulp/">Stormschade: eerste hulp</a></li>
+              <li><a href="/kennisbank/dakpan-kapot-of-verschoven/">Dakpan kapot of verschoven</a></li>
               <li><a href="/kennisbank/wat-kost-daklekkage-repareren/">Wat kost een lekkage repareren?</a></li>
               <li><a href="/kennisbank/daklekkage-verzekering/">Lekkage en je verzekering</a></li>
               <li><a href="/kennisbank/plat-dak-vervangen-of-repareren/">Plat dak lekt</a></li>
+              <li><a href="/kennisbank/daktrim-lekt/">Plat dak lekt langs de rand</a></li>
+              <li><a href="/kennisbank/water-blijft-staan-op-plat-dak/">Water op je platte dak</a></li>
+              <li><a href="/kennisbank/lichtkoepel-lekt/">Lichtkoepel lekt</a></li>
+              <li><a href="/kennisbank/veranda-of-overkapping-lekt/">Veranda of overkapping lekt</a></li>
             </ul>
           </div>
           <div>
@@ -286,13 +306,29 @@ const schemas = [businessSchema, websiteSchema, ...(breadcrumbSchema ? [breadcru
               <li><a href={waHref()}>WhatsApp</a></li>
               <li><a href={`mailto:${SITE.email}`}>{SITE.email}</a></li>
               <li><a href="/werkgebied/">Werkgebied</a></li>
-              <li><a href="/quiz/">Gratis prijs aanvragen</a></li>
+              <li><a href="/quiz/">Gratis prijsindicatie aanvragen</a></li>
               <li><a href="/prijzen/">Prijzen</a></li>
               <li><a href="/kennisbank/wat-kost-dakgoot-schoonmaken/">Wat kost dakgoot schoonmaken?</a></li>
+              <li><a href="/kennisbank/hoe-vaak-dakgoot-reinigen/">Hoe vaak dakgoot schoonmaken?</a></li>
+              <li><a href="/kennisbank/dakgoot-zelf-schoonmaken/">Dakgoot zelf schoonmaken</a></li>
+              <li><a href="/kennisbank/verstopte-regenpijp-lekkende-dakgoot/">Verstopte regenpijp</a></li>
+              <li><a href="/kennisbank/hoe-lang-gaat-een-dakgoot-mee/">Hoe lang gaat een dakgoot mee?</a></li>
+              <li><a href="/kennisbank/dakgoot-hangt-door/">Dakgoot hangt door</a></li>
               <li><a href="/kennisbank/wat-kost-een-dakdekker/">Wat kost een dakreparatie?</a></li>
               <li><a href="/over/">Over Rens</a></li>
               <li><a href="/kennisbank/hoe-herken-je-een-betrouwbare-dakdekker/">Betrouwbare dakdekker herkennen</a></li>
               <li><a href="/kennisbank/dakinspectie/">Dakinspectie: wat ik nakijk</a></li>
+              <li><a href="/kennisbank/dakonderhoud-per-seizoen/">Dakonderhoud per seizoen</a></li>
+              <li><a href="/kennisbank/hoe-lang-gaat-een-dak-mee/">Hoe lang gaat een pannendak mee?</a></li>
+              <li><a href="/kennisbank/nokvorsten-los/">Losse nokvorsten</a></li>
+              <li><a href="/kennisbank/dakpannen-vastzetten-tegen-storm/">Dakpannen vastzetten tegen storm</a></li>
+              <li><a href="/kennisbank/tak-of-boom-op-dak/">Tak of boom op je dak</a></li>
+              <li><a href="/kennisbank/vorstschade-dakpannen/">Vorstschade aan dakpannen</a></li>
+              <li><a href="/kennisbank/condens-of-lekkage-op-zolder/">Condens of lekkage op zolder?</a></li>
+              <li><a href="/kennisbank/schoorsteen-vegen-hoe-vaak/">Hoe vaak schoorsteen vegen?</a></li>
+              <li><a href="/kennisbank/schoorsteen-afdekken/">Schoorsteen afdekken</a></li>
+              <li><a href="/kennisbank/mos-op-dak-verwijderen/">Mos op je dak</a></li>
+              <li><a href="/kennisbank/vogels-onder-dakpannen/">Vogels onder je dakpannen</a></li>
               <li><a href="/kennisbank/">Kennisbank</a></li>
             </ul>
           </div>

@@ -15,8 +15,9 @@ const HOME_PRIJZEN = ["goot_reinigen", "dakpan", "goot_plakken", "daklekkage", "
 const FOTO_WA = waHref("Hallo, ik wil graag weten wat het kost. Ik stuur een foto mee.");
 
 const faq = [
-  { v: "Wat kost het om iemand te laten komen?", a: "Wil je weten hoe je dak ervoor staat? Dat doe ik via de Dak-APK: binnen een dagdeel een compleet keuringsrapport met foto's, voor €49. Weet je al wat er moet gebeuren, bijvoorbeeld goten reinigen? Dan hoor je gewoon de vaste prijs vooraf." },
+  { v: "Wat kost het om iemand te laten komen?", a: `Wil je weten hoe je dak ervoor staat? Dat doe ik via de Dak-APK: binnen een dagdeel een compleet keuringsrapport met foto's, voor ${apkPrijs}. Weet je al wat er moet gebeuren, bijvoorbeeld goten reinigen? Dan hoor je gewoon de vaste prijs vooraf.` },
   { v: "Hoe snel kun je komen?", a: "Bij spoed en lekkage vaak nog dezelfde dag in de regio Den Bosch. Bel of WhatsApp me, dan hoor je meteen wat kan." },
+  { v: "Mijn dak lekt nu. Wat moet ik eerst doen?", a: "Zet een emmer onder de druppel, haal spullen weg die nat kunnen worden en ga niet zelf het dak op, zeker niet bij regen of wind. Maak een foto van de natte plek en stuur die via WhatsApp, of bel me. Dan hoor je wat je nu zelf kunt doen en wanneer ik kan komen. Op de spoedpagina staat wat je verder meteen kunt doen." },
   { v: "Werk je ook bij mij in de buurt?", a: `Ik werk in ${SITE.regioOmschrijving}. Staat je plaats er niet bij? Bel of app gerust, dan zeg ik eerlijk of ik er kan komen.` },
   { v: "Krijg ik garantie?", a: "Ja. Op een reparatie krijg je 1 jaar garantie en op vervangen 2 jaar, zonder kleine lettertjes. Is er iets mee, dan kom ik gratis terug om het te verhelpen." },
 ];
@@ -50,19 +51,19 @@ const faqSchema = {
         <span class="kicker">Dakdekker · {SITE.regioOmschrijving}</span>
         <span class="stars"><span class="ster">★★★★★</span> <b>{score}</b> <a class="bron" href={SITE.werkspotUrl} target="_blank" rel="noopener">op Werkspot</a></span>
       </div>
-      <h1>Vakkundig dakwerk<br />door één vaste man</h1>
+      <h1>Dakdekker in Den Bosch:<br />vakkundig dakwerk door één vaste man</h1>
       <p class="lead">
         Geen callcenter, geen verrassingen achteraf. Je krijgt mij, Rens, aan de lijn,
         ik kom langs, en je hoort eerlijk wat er nodig is. Vaste prijs vooraf.
       </p>
       <div class="pricehook">
         <span class="van">Dak-APK<br />keuring</span>
-        <span class="big">€49</span>
+        <span class="big">{apkPrijs}</span>
         <span class="per">compleet fotorapport<br />binnen een dagdeel</span>
       </div>
       <p style="margin:14px 0 0; color:#d3e0ec; font-size:1.02rem; max-width:660px;">
-        <strong style="color:#fff;">Een offerte is altijd gratis.</strong> Weet je al wat er speelt? Bel of stuur een foto via WhatsApp, dan krijg je gewoon een prijs, géén €49.
-        De <strong style="color:#fff;">Dak-APK (€49) is optioneel</strong>: een complete keuring mét fotorapport, handig als je wilt weten hoe je hele dak ervoor staat.
+        <strong style="color:#fff;">Een offerte is altijd gratis.</strong> Weet je al wat er speelt? Bel of stuur een foto via WhatsApp, dan krijg je gewoon een prijs, géén {apkPrijs}.
+        De <strong style="color:#fff;">Dak-APK ({apkPrijs}) is optioneel</strong>: een complete keuring mét fotorapport, handig als je wilt weten hoe je hele dak ervoor staat.
       </p>
       <div class="hero-checks">
         <span><span class="v">✓</span> Eerlijk advies, geen verkooppraatje</span>
@@ -71,7 +72,7 @@ const faqSchema = {
         <span><span class="v">✓</span> Vaak dezelfde dag bij spoed</span>
       </div>
       <div class="btn-row">
-        <a class="btn btn--primary" href="/quiz/">Gratis prijs, meestal binnen 10 minuten</a>
+        <a class="btn btn--primary" href="/quiz/">Gratis prijsindicatie, vaak binnen 10 minuten</a>
         <a class="btn btn--wa" href={FOTO_WA}>Stuur een foto via WhatsApp</a>
         <a class="btn btn--ghost" href="/dak-apk/">Bekijk de Dak-APK</a>
       </div>
@@ -110,7 +111,7 @@ const faqSchema = {
         </div>
         <div class="card">
           <h3>Eerlijke prijs vooraf</h3>
-          <p>Vaste prijs voordat ik aan een klus begin, geen verrassingen achteraf. Wil je eerst weten hoe je dak ervoor staat? Dat kan via de Dak-APK, voor €49.</p>
+          <p>Vaste prijs voordat ik aan een klus begin, geen verrassingen achteraf. Wil je eerst weten hoe je dak ervoor staat? Dat kan via de Dak-APK, voor {apkPrijs}.</p>
         </div>
         <div class="card">
           <h3>Uit de regio</h3>
@@ -131,10 +132,10 @@ const faqSchema = {
       <div class="foto-eerst" style="margin-top:22px;">
         <div>
           <strong>Snelste weg: stuur een foto</strong>
-          <span>Beantwoord een paar korte vragen of stuur een foto via WhatsApp. Meestal heb je je prijsindicatie binnen 10 minuten.</span>
+          <span>Beantwoord een paar korte vragen of stuur een foto via WhatsApp. Vaak heb je je prijsindicatie binnen 10 minuten.</span>
         </div>
         <div class="btn-row">
-          <a class="btn btn--primary" href="/quiz/">Gratis prijs, meestal binnen 10 minuten</a>
+          <a class="btn btn--primary" href="/quiz/">Gratis prijsindicatie, vaak binnen 10 minuten</a>
           <a class="btn btn--wa" href={FOTO_WA}>Stuur een foto via WhatsApp</a>
         </div>
       </div>
@@ -207,7 +208,7 @@ const faqSchema = {
       <h2>Van belletje tot klaar dak in 4 stappen</h2>
       <div class="stappen">
         <div class="stap"><div class="n">1</div><h3>Bel of app</h3><p>Je krijgt mij direct aan de lijn. Vertel kort wat er speelt.</p></div>
-        <div class="stap"><div class="n">2</div><h3>Dak-APK of meteen aan de slag</h3><p>Twijfel je? Ik kom langs met de Dak-APK (€49) en je krijgt een compleet rapport. Weet je het al? Dan spreken we gelijk de vaste prijs af.</p></div>
+        <div class="stap"><div class="n">2</div><h3>Dak-APK of meteen aan de slag</h3><p>Twijfel je? Ik kom langs met de Dak-APK ({apkPrijs}) en je krijgt een compleet rapport. Weet je het al? Dan spreken we gelijk de vaste prijs af.</p></div>
         <div class="stap"><div class="n">3</div><h3>Vaste prijs vooraf</h3><p>Je hoort de prijs vóór ik begin. Geen voorrijkosten, geen verrassingen.</p></div>
         <div class="stap"><div class="n">4</div><h3>Netjes gedaan</h3><p>Ik voer het werk uit en ruim op. Je krijgt 1 jaar garantie op reparatie en 2 jaar op vervangen.</p></div>
       </div>
@@ -224,6 +225,7 @@ const faqSchema = {
         {PLAATSEN.map((p) => <a class="chip" href={`/werkgebied/${p.slug}/`}>{p.naam}</a>)}
         <a class="chip" href="/werkgebied/">Hele werkgebied →</a>
       </div>
+      <p style="margin-top:18px;">Lekt het bij jou? Hoe ik een lek in jouw plaats aanpak, lees je bij daklekkage in <a href="/werkgebied/berlicum/daklekkage/">Berlicum</a>, <a href="/werkgebied/vlijmen/daklekkage/">Vlijmen</a>, <a href="/werkgebied/drunen/daklekkage/">Drunen</a>, <a href="/werkgebied/boxtel/daklekkage/">Boxtel</a>, <a href="/werkgebied/sint-michielsgestel/daklekkage/">Sint-Michielsgestel</a>, <a href="/werkgebied/uden/daklekkage/">Uden</a>, <a href="/werkgebied/waalwijk/daklekkage/">Waalwijk</a> en <a href="/werkgebied/tilburg/daklekkage/">Tilburg</a>.</p>
     </div>
   </section>
 
