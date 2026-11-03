@@ -221,6 +221,7 @@ export const ARTIKELEN: Artikel[] = [
       { kop: "Zo herken je een lek", tekst: [
         "Een lek zit meestal op één plek en komt na regen, vaak bij wind uit een bepaalde richting. Je ziet een natte plek of een kring bij de schoorsteen, een dakraam, een doorvoer of vlak onder de nok.",
         'Let wel: de natte plek zit zelden precies onder het echte lek. Hoe ik dat opspoor lees je in <a href="/kennisbank/daklekkage-opsporen/">daklekkage opsporen</a>.',
+        `Druppelt het precies onder een glazen dakpan, dan kan het allebei zijn, want op het koude glas slaat condens als eerste neer. Lees dan <a href="/kennisbank/glazen-dakpan-lekt/">glazen dakpan lekt</a>.`,
       ] },
       { kop: "Wat je zelf tegen condens doet", tekst: [
         "Hang geen was te drogen op zolder. Kijk of de afzuiging van je badkamer echt naar buiten gaat en niet op zolder uitkomt, dat komt voor. Zet de zolder af en toe even open zodat het vocht weg kan, en houd het zolderluik dicht als je doucht of kookt.",
@@ -2451,6 +2452,43 @@ export const ARTIKELEN: Artikel[] = [
       { v: `Wie moet ik bellen: een dakdekker of een loodgieter?`, a: `Zit de natte plek bovenin, vlak onder de goot, begin dan bij mij: daar zit het meestal bij de uitloop of de goot. Zit hij halverwege de muur, onderin een kast of in de kruipruimte, dan zit het eerder in de pijp zelf, en dat is werk voor een loodgieter. Twijfel je, stuur dan een foto van de natte plek en van de goot erboven.` },
       { v: `Helpt een rooster op de uitloop?`, a: `Een bolrooster op de uitloop houdt grof blad uit de pijp, en bij een regenpijp binnen is dat fijn, want een verstopping in de muur krijg je er lastig uit. Maar het rooster zelf raakt onder bomen ook dicht, en dan loopt de goot op die plek over. Laat de goot daarom in de herfst leegmaken en het rooster meteen schoonmaken.` },
       { v: `Is een lekkende regenpijp binnen spoed?`, a: `Loopt het water langs de muur, zit de natte plek bij een stopcontact of lamp, of druppelt het door het plafond, dan wel: bel of app me met een foto. Is de plek alleen wat vochtig en droogt hij weer op na de bui, dan kan het meestal een paar dagen wachten.` },
+    ],
+  },
+  {
+    slug: `glazen-dakpan-lekt`,
+    datum: `2026-11-03`,
+    titel: `Glazen dakpan lekt?`,
+    h1: `Glazen dakpan lekt of druppelt: kapot, verschoven of condens?`,
+    metaTitle: `Glazen dakpan lekt: kapot of condens? | Spoed Dak Service`,
+    metaDescription: `Druppelt het onder de glazen pan op je zolder? Vaak is het condens, soms een scheur of een pan die niet goed past. Zo zie je het verschil en wat eraan te doen is.`,
+    intro: `Op veel zolders en in schuren ligt een glazen dakpan voor wat daglicht. Druppelt het precies daar, dan denk je meteen aan een lek. Soms klopt dat: het glas is gescheurd of de pan ligt niet goed. Maar heel vaak is het condens. Hieronder lees je hoe je het verschil ziet en wat je eraan doet.`,
+    secties: [
+      { kop: `Condens of lek?`, tekst: [
+        `Condens zie je op koude ochtenden, ook na een droge nacht. Het glas is aan de binnenkant beslagen en de druppels vallen recht onder de pan, op een kleine plek. Bij een lek wordt het juist nat na regen, vaak bij wind uit één richting, en zie je een natte streep op het hout of de folie onder of naast de pan.`,
+        `Glas is kouder dan een gewone pan, dus warme, vochtige lucht uit huis slaat daar als eerste op neer. Hoe je condens op zolder verder herkent, lees je in <a href="/kennisbank/condens-of-lekkage-op-zolder/">condens of lekkage op zolder</a>.`,
+      ] },
+      { kop: `Waar een glazen pan lekt`, tekst: [
+        `Een scheur in het glas. Glas kan barsten door hagel, een vallende tak, iemand die erop heeft gestaan of een harde vorstnacht. Een haarscheur zie je van binnen vaak pas als je er met een zaklamp schuin langs schijnt.`,
+        `Een pan die niet past. Een glazen pan moet hetzelfde model zijn als de pannen eromheen. Is er ooit een glazen pan van een ander model in gelegd, dan sluit hij niet goed aan en waait de regen er bij harde wind onder.`,
+        `Een pan die is gaan schuiven. Een glazen pan ligt net als de andere pannen op de latten. Waait hij bij een storm een stukje omhoog, dan ligt hij daarna net uit de sluiting.`,
+      ] },
+      { kop: `Wat je zelf kunt doen`, tekst: [
+        `Bij condens: zet de zolder af en toe even open, hang geen was te drogen op zolder en houd het luik dicht als je doucht of kookt. Leg een handdoek of bak onder de pan, zodat de druppels het hout niet nat maken.`,
+        `Bij een lek: vang het water op en maak een foto van de pan van binnen en, als het lukt, van buiten vanaf de straat. Duw de pan niet van binnenuit terug, want glas breekt makkelijk en je duwt hem zo verder uit de sluiting. Ga niet zelf het dak op.`,
+      ] },
+      { kop: `Hoe ik het aanpak`, tekst: [
+        `Ik kijk eerst of het glas heel is en of de pan goed in de sluiting ligt. Ligt hij scheef, dan leg ik hem terug. Is het glas gebarsten of past de pan niet bij de pannen eromheen, dan vervang ik hem door een glazen pan van hetzelfde model, als die nog te krijgen is. Lukt dat niet, dan zeg ik dat eerlijk en kijken we samen wat kan, bijvoorbeeld een gewone pan op die plek als je het licht niet echt nodig hebt. Zie ook <a href="/diensten/dakpannen-vervangen/">dakpannen vervangen</a>.`,
+      ] },
+      { kop: `Wat kost het?`, tekst: [
+        `Dat hangt af van wat er mis is: een pan terugleggen is iets anders dan een nieuwe glazen pan zoeken en leggen. Je hoort vooraf de vaste prijs, voordat ik begin. Richtprijzen voor kleine reparaties staan op de <a href="/prijzen/">prijzenpagina</a>.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: dakpannen vervangen`, href: `/diensten/dakpannen-vervangen/` },
+    faq: [
+      { v: `Mijn glazen dakpan is van binnen beslagen. Is dat erg?`, a: `Meestal niet. Een beslagen pan op een koude ochtend is condens: vocht uit huis dat op het koude glas neerslaat. Blijft het hout eronder lang nat of zie je zwarte puntjes, zet de zolder dan vaker even open. Wordt het alleen nat na regen, dan is het eerder een lek. Stuur me dan een foto.` },
+      { v: `Kan ik een glazen dakpan zelf vervangen?`, a: `Van binnenuit lukt dat bijna nooit goed. De pannen erboven moeten een stukje omhoog, en glas breekt makkelijk. Op een dak staan is ook niet zonder risico. Laat het liever doen. Stuur me een foto van de pan en van de pannen eromheen, dan zie ik welk model het is.` },
+      { v: `Kan er een gewone pan in plaats van de glazen pan?`, a: `Ja, als je het licht op zolder niet nodig hebt. Een gewone pan van hetzelfde model past er gewoon in, en dan heb je ook geen last meer van condens op het glas. Wil je het licht houden, dan zoek ik een glazen pan die past.` },
+      { v: `Is een lekkende glazen dakpan spoed?`, a: `Loopt er bij regen water naar binnen, of is het glas gebroken en zit er een gat in je dak, dan wel: bel of app me met een foto. Leg tot die tijd een zeil of bak onder de pan. Is het alleen condens, dan kan het rustig wachten.` },
     ],
   },
 ];
