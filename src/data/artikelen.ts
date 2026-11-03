@@ -609,7 +609,7 @@ export const ARTIKELEN: Artikel[] = [
     datum: "2026-10-20",
     titel: "Dakraam lekt?",
     h1: "Dakraam lekt: waar het meestal zit en wat eraan te doen is",
-    metaTitle: "Dakraam lekt: oorzaken en oplossing | Spoed Dak Service",
+    metaTitle: "Lekkage dakraam: waarom je dakraam lekt | Spoed Dak Service",
     metaDescription:
       "Lekt je dakraam bij regen? Meestal zit het niet in het glas, maar in de aansluiting met het dak: gootstukken, lood of verschoven pannen. Zo herken je het.",
     intro:
