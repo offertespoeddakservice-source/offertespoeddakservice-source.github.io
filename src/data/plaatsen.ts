@@ -230,6 +230,7 @@ export const PLAATSEN: Plaats[] = [
     faq: [
       { v: "Werk je ook aan daken in de binnenstad van Den Bosch?", a: "Ja. In de binnenstad staan veel monumenten, en de binnenstad is beschermd stadsgezicht. Daar kun je niet zomaar een andere pan of ander materiaal gebruiken. Ik kijk eerst wat er nu ligt en herstel met materiaal dat erbij past. Twijfel je of je pand een monument is, vraag het dan na bij de gemeente." },
       { v: "Kom je ook in Engelen, Bokhoven, Nuland en Vinkel?", a: "Ja. Engelen en Bokhoven liggen aan de Maas, Nuland en Vinkel aan de oostkant, en ze horen allemaal bij de gemeente Den Bosch. Ik kom er voor dezelfde klussen als in de stad zelf, en bij lekkage vaak nog dezelfde dag." },
+      { v: "Het lekt in Den Bosch 's avonds of in het weekend. Kun je dan komen?", a: "Bellen of appen kan dag en nacht, ook in het weekend. Den Bosch is mijn thuisbasis, dus ik zit meestal niet ver weg. Druppelt het binnen of ligt er een stuk dak open, dan kom ik vaak nog dezelfde dag of avond kijken en maak ik het eerst dicht. Buiten kantooruren komt er een spoedtoeslag bij, en ook dan hoor je de vaste prijs voordat ik begin. Blijft het binnen droog als je de druppel opvangt en kan het veilig wachten tot een werkdag, dan zeg ik dat eerlijk, want dat scheelt je de toeslag. Stuur meteen een foto van de natte plek via WhatsApp." },
     ],
   },
   {
