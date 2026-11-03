@@ -654,4 +654,14 @@ export const MATRIX: MatrixCombo[] = [
       { v: "Mijn schoorsteen staat op de muur met de buren. Veeg je dan ook hun kanaal?", a: "Ik veeg het kanaal dat bij jouw kachel of haard hoort. Stoken de buren ook, dan is het handig om het op dezelfde dag te doen, dan hoeft er maar één keer iemand bovenop. Ieder hoort vooraf wat het kost. Weet je niet welk kanaal van jou is, dan zoek ik dat bij het vegen uit." },
     ],
   },
+  // Dakreparatie in Boxtel (Search Console: dakreparatie boxtel 14 vertoningen op plek 88, nog geen eigen pagina; daklekkage boxtel 59 vertoningen op plek 22), met andere lokale inhoud dan plaatsen.ts en de lekkage-, goot-, dakgoot- en stormpagina van Boxtel
+  {
+    plaats: "boxtel",
+    dienst: "dakreparatie",
+    hook: "In Selissen en Munsel staan veel rijtjeshuizen met houten kozijnen en een houten gootlijst, die om de paar jaar geschilderd worden. Heeft de schilder zijn ladder tegen de goot of de onderste rij pannen gezet, of is er iemand over het dak gelopen om bij een dakraam te komen, dan kan er een pan gescheurd of een stukje uit de sluiting geschoven zijn. Van beneden zie je dat bijna nooit, en je merkt het pas bij de eerste flinke bui, aan een natte plek laag op zolder. In Liempde en Esch staat bij veel boerderijen een schuur of stal naast het huis. Op zo'n schuur kijkt bijna niemand, en een gebroken pan blijft er soms jaren liggen, tot de panlatten eronder zacht zijn. Ik vervang de pannen die kapot zijn door pannen die erbij passen, en kijk meteen of het hout eronder nog goed is. Boxtel is zo'n 25 minuten rijden vanaf Den Bosch. Stuur me een foto vanaf de straat via WhatsApp, dan zie ik vaak al wat ik mee moet nemen.",
+    faq: [
+      { v: "Mijn kozijnen zijn net geschilderd en nu lekt het laag op zolder. Kan dat door de ladder komen?", a: "Dat kan. Stond de ladder tegen de goot of op de onderste rij pannen, dan kan een pan gescheurd zijn of een stukje omhoog zijn gekomen, en dan waait de regen er bij een bui onder. Kijk vanaf de overkant van de straat of er boven de goot een pan hoger ligt dan de rest of een hoekje mist. Op zolder zie je het als een natte plek vlak boven de vloer, achter het knieschot. Is het werk pas gedaan, meld het dan eerst bij de schilder. Stuur me daarna een foto van het dak en van de natte plek via WhatsApp. Je hoort vooraf wat het kost." },
+      { v: "Op het dak van mijn schuur in Liempde ligt een kapotte pan. Moet dat meteen?", a: "Niet per se vandaag, maar laat het niet de winter over zitten. Onder een gat in een schuurdak worden de panlatten en het hout bij elke bui nat, en na een paar jaar zijn ze zacht. Dan moet er veel meer gebeuren dan één pan vervangen. Staan er spullen in de schuur, zet die dan droog. Ga zelf niet op het schuurdak staan, want oude panlatten kunnen breken. Stuur me een foto vanaf de grond. Je hoort vooraf wat het kost." },
+    ],
+  },
 ];
