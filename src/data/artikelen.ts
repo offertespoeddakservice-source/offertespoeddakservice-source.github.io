@@ -731,6 +731,7 @@ export const ARTIKELEN: Artikel[] = [
       { v: "Kan ik met losse nokvorsten wachten tot het voorjaar?", a: "Liever niet. In de herfst en winter waait het het hardst, en dan is de kans het grootst dat een losse vorst eraf waait. Laat het daarom nakijken voordat de stormen komen." },
       { v: "Wat kost het om losse nokvorsten vast te laten zetten?", a: `Een paar losse vorsten vastzetten valt meestal onder een kleine reparatie: ${kleinPrijs}. Moet de hele nok opnieuw, dan is het meer werk. Je hoort altijd vooraf de vaste prijs.` },
       { v: "Wat is een ondervorst?", a: "Een strook onder de nokvorsten die de nok afsluit tegen regen en wind, maar wel lucht onder de pannen laat. Wordt een nok opnieuw gelegd, dan komt zo'n ondervorst vaak in de plaats van de oude specie." },
+      { v: `Mijn nok ligt droog, zonder specie. Kan die ook losraken?`, a: `Dat kan, al gaat het anders dan bij een nok in specie. Bij een droge nok ligt er een rol of strook onder de vorsten, en zit elke vorst vast met een klem of schroef. Breekt er een klem of schiet hij los, dan gaat die ene vorst bij harde wind schuiven, terwijl de rest gewoon vastligt. Vanaf de straat zie je dat aan een vorst die scheef ligt of een kier in de rij. Brokjes specie in de goot zie je bij zo'n nok niet. Stuur me een foto vanaf de straat. Vaak is één vorst terugleggen en vastzetten genoeg, en dan kijk ik meteen of de strook eronder nog heel is.` },
     ],
   },
   {
