@@ -1877,6 +1877,10 @@ export const ARTIKELEN: Artikel[] = [
         "Op veel garages, schuren en oudere aanbouwen ligt dakleer, de gewone naam voor bitumen in banen. Vaak ligt er bovenop een laag leislag: fijne steentjes die het bitumen tegen de zon beschermen. Zie je die steentjes in de goot of bij de afvoer liggen, dan slijt de bovenlaag.",
         "Daarna droogt het bitumen in de zon uit. Je ziet dan fijne scheurtjes, een beetje zoals een opgedroogde modderplas. Op de overlap van twee banen kan een naad gaan openstaan, en op een schuur komt soms een spijkerkop door het dakleer omhoog. Kun je het dak vanuit een raam boven zien, maak dan een foto en stuur die via WhatsApp. Dan zeg ik eerlijk wat ik zie.",
       ] },
+      { kop: `Gaat het om je schuur, garage of tuinhuis?`, tekst: [
+        `Lekt het dak van je schuur, garage of tuinhuis, dan is dat vaak een ander verhaal dan het platte dak van je aanbouw. Zo'n dak is meestal eenvoudiger opgebouwd, en een blaas, een scheur of een losse rand is vaak met een gerichte reparatie te maken. Hoe je ziet wat er mis is en wanneer een plak genoeg is, lees je in <a href="/kennisbank/dakleer-repareren/">dakleer repareren</a>.`,
+        `Is het nat langs de buitenmuur van je aanbouw, of staat de rand van het dak na een storm omhoog, kijk dan bij <a href="/kennisbank/daktrim-lekt/">plat dak lekt langs de rand</a>. Blijft er na een bui een plas op het dak staan, lees dan <a href="/kennisbank/water-blijft-staan-op-plat-dak/">water blijft staan op je platte dak</a>.`,
+      ] },
       { kop: "Lekt je platte dak nu?", tekst: [
         'Zet een emmer onder het lek en maak een foto van de natte plek. Ga niet zelf het dak op als het nat is of waait. Bij een plat dak komt het water vaak meters verderop binnen dan waar het lek zit, dus de plek binnen zegt weinig. Kijk op de <a href="/spoed/">spoedpagina</a> wat je meteen kunt doen, of lees hoe ik <a href="/kennisbank/daklekkage-opsporen/">een daklekkage opspoor</a>.',
       ] },
