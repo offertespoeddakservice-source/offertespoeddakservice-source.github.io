@@ -124,6 +124,13 @@ const schema = [
           <p set:html={verder} />
         </>
       )}
+      {d.slug === "daklekkage" && (
+        <>
+          <h3>Foto's uit mijn werk</h3>
+          <p>Bij een lek kijk ik eerst naar de plekken waar het water vaak binnenkomt, zoals het lood rond de schoorsteen en de aansluiting rond een pijp door het dak.</p>
+          <EchteFotos soort="schoorsteen" max={3} inline />
+        </>
+      )}
     </div>
   </section>
 
