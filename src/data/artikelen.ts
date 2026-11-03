@@ -1438,7 +1438,7 @@ export const ARTIKELEN: Artikel[] = [
         'Ga daarna met een zaklamp op zolder kijken. Zie je ergens daglicht, of een natte plek op het hout of de folie, maak er dan een foto van. Zit de nok los, lees dan <a href="/kennisbank/nokvorsten-los/">losse nokvorsten</a>. Lekt het sinds de storm alleen als het hard waait, lees dan <a href="/kennisbank/dak-lekt-bij-harde-wind/">dak lekt bij harde wind</a>.',
       ] },
       { kop: "Wanneer je moet bellen", tekst: [
-        "Een open dak of actieve lekkage is spoed, daar kom ik snel voor langs om eerst de schade te stoppen (afdekken, dichten), en daarna netjes te herstellen. Bel of WhatsApp, dan hoor je meteen wanneer ik kan.",
+        'Een open dak of een lek waar nu water binnenkomt, is spoed. Dan stop ik eerst de schade, door af te dekken of tijdelijk dicht te maken, en daarna herstel ik het netjes. Bel of WhatsApp me met een foto, dan hoor je meteen wanneer ik kan komen. Wat je tot die tijd zelf doet, staat op de <a href="/spoed/">spoedpagina</a>.',
       ] },
       { kop: "Storm voorspeld? Dit kun je vooraf doen", tekst: [
         "Wordt er een zware storm voorspeld, loop dan een paar dagen vooraf een rondje om je huis en kijk vanaf de straat en de tuin naar je dak. Ligt er een pan scheef, staat het lood bij de schoorsteen omhoog of liggen er brokjes specie in de goot, stuur me dan een foto via WhatsApp. Een losse pan of nokvorst is voor de storm vaak met een kleine reparatie vast te zetten, en anders neemt de wind hem mee.",
