@@ -141,6 +141,7 @@ export const PLAATSEN: Plaats[] = [
     omschrijving: "Dakdekker in vesting Heusden, Oudheusden en Herpt: lekkage bij oud lood of zink, volle goten en losse nokvorsten. Vaste prijs vooraf. Bel of app Rens.",
     faq: [
       { v: "Kom je ook in Doeveren, Heesbeen en Hedikhuizen?", a: "Ja. Die dorpjes horen net als de vesting, Oudheusden en Herpt bij de gemeente Heusden. Ik kom er voor dezelfde klussen als in Heusden zelf: lekkage, goten, pannen en lood. Het is zo'n 20 minuten rijden vanaf Den Bosch." },
+      { v: "Mijn huis staat in de vesting. Mag je daar zomaar pannen of een goot vervangen?", a: "In de vesting is het slim om eerst even bij de gemeente Heusden na te vragen wat mag, zeker als je huis een monument is. Een kapotte pan vervangen door een pan die er net zo uitziet, is meestal gewoon onderhoud. Wil je iets anders, zoals een andere pan, een andere kleur of een kunststof goot in plaats van zink, dan heb je in de regel eerst toestemming nodig. Ik kijk wat er nu op je dak ligt en zoek materiaal dat erbij past, zodat je dak er van de straat hetzelfde uitziet. Gaat het om de stenen of de voegen van de gevel of de schoorsteen, dan is dat geen werk voor mij, en dat hoor je dan meteen." },
     ],
   },
   {
