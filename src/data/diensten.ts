@@ -79,6 +79,10 @@ export const DIENSTEN: Dienst[] = [
         v: "Er liggen zonnepanelen tot vlak boven mijn goot. Kun je die goot dan nog leegmaken?",
         a: "Meestal wel. Ik werk dan vanaf de ladder langs de goot en ga niet op de panelen staan. Onder panelen die tot aan de goot liggen, blijft vaak blad of nestmateriaal hangen, en dat haal ik er meteen uit voor zover ik erbij kan. Nestelen er duiven onder, dan kan ik de rand rond de panelen afsluiten met vogelwering.",
       },
+      {
+        v: "Reken je per meter goot?",
+        a: `Nee. Je hoort één vaste prijs voor de hele klus, voordat ik begin. Voor een rijtjeswoning is dat ${GOTEN_PRIJS}: beide goten leeg, de uitloop naar de regenpijp vrij en de troep gaat mee. Heb je een hoekhuis, een twee-onder-een-kap of een vrijstaand huis, of zitten je goten hoog, dan noem ik vooraf de vaste prijs. Stuur gerust een foto van je huis vanaf de straat via WhatsApp, dan kan ik die vaak meteen noemen.`,
+      },
     ],
   },
   {
