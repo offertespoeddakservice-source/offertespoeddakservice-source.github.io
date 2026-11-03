@@ -28,6 +28,8 @@ const serviceSchema: Record<string, unknown> = {
   areaServed: PLAATSEN.map((p) => ({ "@type": "City", name: p.naam })),
 };
 if (minPrice) serviceSchema.offers = { "@type": "Offer", priceSpecification: { "@type": "UnitPriceSpecification", priceCurrency: "EUR", minPrice } };
+// Geen losse minPrice bij een prijs per vierkante meter of per paneel: dan zou Google het als prijs voor de hele klus lezen.
+if ((d.vanafPrijs ?? "").includes("p/")) delete serviceSchema.offers;
 const faqSchema = d.faq.length
   ? {
       "@context": "https://schema.org",
