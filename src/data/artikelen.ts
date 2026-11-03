@@ -1363,6 +1363,7 @@ export const ARTIKELEN: Artikel[] = [
       { v: "Kun je snel komen als het binnen nat wordt?", a: "Bel of WhatsApp me met een foto van de natte plek binnen en van de goot buiten. Dan hoor je wanneer ik kan komen." },
       { v: "Kan een bakgoot vervangen worden door een gewone hangende goot?", a: "Soms wel, maar het verandert de voorkant van je huis. Bij een monument of in een beschermd stadsgezicht, zoals in de binnenstad van Den Bosch of in vesting Heusden, mag dat vaak niet zomaar. Meestal is het slimmer om de bakgoot te herstellen of opnieuw te bekleden. Ik zeg eerlijk wat bij jouw huis kan." },
       { v: "Hoe vaak moet een bakgoot leeg?", a: "Minstens één keer per jaar, het liefst in het najaar als het blad gevallen is. Staan er bomen vlak bij je huis, dan vaker. Bij een bakgoot is dat extra belangrijk, want loopt hij over, dan komt het water vaak binnen." },
+      { v: `Is een lekkende bakgoot spoed?`, a: `Komt het water binnen, bovenin de muur of langs het plafond, dan wel: bel of app me met een foto van de natte plek en van de goot buiten. Een bakgoot ligt op hout, en elke bui die daar langs loopt, maakt de klus later groter. Druppelt het alleen buiten achter de goot langs en blijft het binnen droog, dan kan het meestal een paar dagen wachten.` },
     ],
   },
   {
@@ -1999,6 +2000,7 @@ export const ARTIKELEN: Artikel[] = [
       { v: "Waarom lekt mijn aanbouw alleen langs de muur?", a: "Omdat daar de naad zit tussen het platte dak en de gevel van het huis. Laat het lood of de dakbedekking daar los, dan komt het water precies langs de muur naar binnen. Het kan ook water zijn dat door de gevel erboven naar beneden zakt." },
       { v: "Hoe zie ik of het van het dak of van de muur komt?", a: "Lekt het bij elke flinke bui, ook zonder veel wind, dan zit het meestal in het dak of de aansluiting. Lekt het vooral als de regen tegen die gevel aan slaat, en soms pas een dag later, dan komt het water vaker door de muur. Stuur een foto, dan kijk ik mee." },
       { v: "Is het erg als het maar een klein beetje lekt?", a: "Een beetje water langs de muur lijkt weinig, maar het trekt in het plafond en het hout van de aanbouw. Na een tijd zie je schimmel of loslatende verf. Laat het daarom nakijken, ook als het maar af en toe druppelt." },
+      { v: `Is lekkage bij de aanbouw spoed?`, a: `Druppelt het binnen, loopt het water langs de muur naar beneden of zit de natte plek bij een lamp of stopcontact, dan wel: bel of app me met een foto. Is het nat bij een lamp of stopcontact, zet dan de stroom van die groep uit. Is het een donkere rand langs de muur die na de bui weer opdroogt, dan kan het meestal een paar dagen wachten. Wacht er niet tot de volgende storm mee, want het water trekt in het plafond en het hout van de aanbouw.` },
     ],
   },
   {
