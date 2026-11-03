@@ -632,4 +632,14 @@ export const MATRIX: MatrixCombo[] = [
       { v: "Hoe zie ik of de houten klossen onder mijn goot nog goed zijn?", a: "Kijk vanaf de straat langs de goot. Bladdert de verf van een klos, zie je er een donkere plek of een scheur in, of hangt de goot op één plek een stukje lager dan ernaast, dan is die klos vaak nat of zacht geworden. Na een bui zie je het ook aan water dat op die plek in de goot blijft staan. Ga niet zelf op de ladder aan de goot trekken of in het hout prikken. Stuur me een foto via WhatsApp, dan zeg ik eerlijk of het bij de goot blijft of dat er eerst iets aan het hout moet gebeuren. Je hoort vooraf wat het kost." },
     ],
   },
+  // Dak reinigen in Den Bosch (Search Console: dakreiniging den bosch 12 vertoningen op plek 23 zonder eigen pagina), met andere lokale inhoud dan plaatsen.ts en de andere Den Bosch-pagina's
+  {
+    plaats: "den-bosch",
+    dienst: "dak-reinigen",
+    hook: "In Den Bosch, officieel 's-Hertogenbosch, zit het meeste mos op de kant van het dak die op het noorden ligt en op daken onder de bomen. In de Muntel, de Vliert en Den Bosch-Zuid liggen op veel huizen uit de jaren '20 en '30 nog gebakken pannen. Daar groeit het mos vooral in de naden waar de pannen over elkaar liggen, precies waar het regenwater langs moet. In Maaspoort en Empel liggen vaker betonpannen uit de jaren '80 en '90. Die zijn na zoveel jaren ruw aan de bovenkant, en daar hechten mos en groene aanslag makkelijk op. Op beide soorten pannen werk ik voorzichtig, zodat de bovenlaag heel blijft. Zie ik bij het reinigen een gebroken pan of een pan die is gaan schuiven, dan hoor je dat meteen. Het mos dat loskomt, valt voor een deel in de goot, dus die maak ik daarna leeg.",
+    faq: [
+      { v: "Komt het mos na het reinigen weer terug?", a: "Op den duur wel. Mos groeit waar een dak lang nat blijft, en dat verandert niet doordat het schoon is. Op een dak in de volle zon duurt het jaren voordat er weer veel op zit, op de noordkant of onder de bomen gaat het sneller. Ik zeg je eerlijk wat ik bij jouw dak verwacht en of het zin heeft om het nu te laten doen. Je hoort vooraf wat het kost." },
+      { v: "Mijn betonpannen zijn na het reinigen nog grijs en ruw. Is dat erg?", a: "Nee, dat is de bovenlaag die in de loop van de jaren slijt. Reinigen haalt het mos en de aanslag weg, maar maakt een oude pan niet nieuw. Zie ik pannen die echt op zijn, met scheuren of afgebrokkelde randen, dan zeg ik dat eerlijk en hoor je wat vervangen kost." },
+    ],
+  },
 ];
