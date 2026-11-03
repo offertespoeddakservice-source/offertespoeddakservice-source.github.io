@@ -545,6 +545,10 @@ export const DIENSTEN: Dienst[] = [
         v: "Mijn oude huis heeft geen folie onder de pannen. Kan het dak dan van binnen geïsoleerd worden?",
         a: "Vaak wel, maar dan moet het goed gebeuren. Bij veel huizen van voor de oorlog liggen de pannen direct op de latten, zonder folie eronder. Tussen de pannen en de isolatie hoort dan ruimte te blijven waar lucht langs kan, en aan de binnenkant een laag die het vocht uit huis tegenhoudt. Anders kan er vocht in de isolatie neerslaan. Ik kijk eerst of de pannen goed liggen en nergens water doorlaten, want zonder folie komt een lekje meteen op de isolatie terecht. Daarna hoor je wat er kan en wat het kost.",
       },
+      {
+        v: "Isoleer je ook buiten Den Bosch, bijvoorbeeld in Sint-Michielsgestel?",
+        a: "Ja, in mijn werkgebied rond Den Bosch, onder andere in Sint-Michielsgestel, Rosmalen, Vught en Berlicum. Vooral bij oudere huizen, zoals die uit de jaren '20 en '30 in Den Bosch of de huizen van voor de oorlog in Gestel, kijk ik eerst of het dak droog en dicht is voordat er isolatie in komt. Ik kom eerst kijken, en je krijgt een vaste prijs vooraf.",
+      },
     ],
   },
 ];
