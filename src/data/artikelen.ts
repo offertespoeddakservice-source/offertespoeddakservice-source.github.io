@@ -1721,7 +1721,7 @@ export const ARTIKELEN: Artikel[] = [
     slug: "wat-kost-een-dakdekker",
     titel: "Wat kost een dakdekker?",
     h1: "Wat kost een dakdekker of een dakreparatie? Eerlijke richtprijzen",
-    metaTitle: "Wat kost een dakdekker of dakreparatie? | Spoed Dak Service",
+    metaTitle: "Dakreparatie kosten: wat kost een dakdekker?",
     metaDescription:
       `Wat kost een dakdekker? Goten reinigen ${GOTEN_PRIJS}, kleine reparatie ${kleinPrijs}, daklekkage ${lekPrijs}. Offerte altijd gratis, vaste prijs vooraf.`,
     intro:
