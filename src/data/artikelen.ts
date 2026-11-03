@@ -772,6 +772,7 @@ export const ARTIKELEN: Artikel[] = [
       { v: "Kan ik een gebroken dakpan lijmen of kitten?", a: "Dat houdt zelden lang. Kit en tape laten na een paar maanden zon en vorst los, en een gelijmde pan breekt vaak naast de naad opnieuw. Een nieuwe pan blijft wel liggen." },
       { v: "Betaalt de verzekering een kapotte dakpan?", a: "Breekt of verschuift een pan door storm of hagel, dan valt de schade vaak onder je opstalverzekering. Is de pan door ouderdom of vorst gescheurd, dan meestal niet. Maak foto's en kijk in je polis. Meer lees je in het artikel over daklekkage en je verzekering." },
       { v: "Moet het hele dak vervangen worden als er een paar pannen kapot zijn?", a: "Nee. Een paar kapotte pannen vervang ik los. Pas als er op veel plekken pannen gebroken, poreus of afgebrokkeld zijn, is het slimmer om naar een groter stuk dak te kijken. Met de Dak-APK krijg je een fotorapport van je hele dak." },
+      { v: "Een dakpan ligt scheef. Is rechtleggen genoeg, of moet hij eruit?", a: "Is de pan heel en zit de lat eronder nog vast, dan is rechtleggen vaak genoeg. Dan leg ik hem terug, zodat hij weer goed in de pannen ernaast haakt. Ligt dezelfde pan na een tijd weer scheef, dan zit er meestal iets onder: een lat die los of zacht is, een vogelnest, of een pan die net niet bij de rest past. Dat los ik dan eerst op. Is de pan gebarsten of mist er een hoekje, dan vervang ik hem. Van beneden is dat verschil lastig te zien, dus stuur me een foto vanaf de overkant van de straat via WhatsApp. Je hoort vooraf wat het kost." },
     ],
   },
   {
