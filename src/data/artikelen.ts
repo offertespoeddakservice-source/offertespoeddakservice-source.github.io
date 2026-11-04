@@ -1065,7 +1065,7 @@ export const ARTIKELEN: Artikel[] = [
     datum: "2026-10-21",
     titel: "Wat kost dakgoot schoonmaken?",
     h1: "Wat kost dakgoot schoonmaken? Zo zit de prijs in elkaar",
-    metaTitle: "Wat kost dakgoot schoonmaken? | Spoed Dak Service",
+    metaTitle: "Kosten dakgoot schoonmaken of reinigen | Spoed Dak Service",
     metaDescription:
       `Wat kost dakgoot schoonmaken of reinigen? Eén goot ${GOTEN_PRIJS}. Waar de prijs van afhangt, wat erbij zit en hoe het zit met een prijs per meter.`,
     intro:
