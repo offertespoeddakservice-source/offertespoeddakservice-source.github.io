@@ -112,6 +112,16 @@ const schema = [
           : <>Hoe ik een lek opspoor zonder onnodig sloopwerk, lees je bij <a href="/diensten/daklekkage/">daklekkage</a>.</>}
         Stuur me de foto via <a href={waHref(`Hallo, mijn dak lekt in ${p.naam}. Ik stuur je een foto.`)}>WhatsApp</a>, dan hoor je eerlijk wat ik zie en wat de beste volgende stap is.
       </p>
+      <h3>In het kort</h3>
+      <ul>
+        <li><strong>Wie:</strong> Spoed Dak Service, het bedrijf van {SITE.eigenaar}, dakdekker uit 's-Hertogenbosch.</li>
+        <li><strong>Waar:</strong> {p.naam} en omgeving, {p.reistijd ?? SITE.regioOmschrijving}.</li>
+        <li><strong>Klussen:</strong> daklekkage, losse dakpannen en nokvorsten, lood, dakgoten repareren en schoonmaken, stormschade.</li>
+        <li><strong>Contact:</strong> bellen of WhatsApp op <a href={telHref}>{SITE.telefoonWeergave}</a>, dag en nacht bereikbaar.</li>
+        <li><strong>Prijs:</strong> je hoort de vaste prijs voordat ik begin.</li>
+        <li><strong>Verzekerd:</strong> bedrijfsaansprakelijk verzekerd.</li>
+        <li><strong>Reviews:</strong> <a href={SITE.werkspotUrl} target="_blank" rel="noopener">{SITE.reviews.score.toString().replace(".", ",")} op Werkspot</a>{SITE.reviews.werkspotAantal > 0 ? ` (${SITE.reviews.werkspotAantal} reviews)` : ""}.</li>
+      </ul>
     </div>
   </section>
 
