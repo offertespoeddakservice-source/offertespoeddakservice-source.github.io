@@ -2762,6 +2762,49 @@ export const ARTIKELEN: Artikel[] = [
       { v: `Moet ik thuis zijn als je een losse pan komt vastzetten?`, a: `Niet altijd. Kan ik er van buiten goed bij en hebben we de prijs vooraf afgesproken, dan kan ik een losse pan of nokvorst ook vastzetten als je niet thuis bent. Stuur me vooraf een foto van je dak vanaf de straat en zeg waar ik mijn ladder kan zetten.` },
     ],
   },
+  {
+    slug: `dakkapel-lekt`,
+    datum: `2026-11-04`,
+    titel: `Dakkapel lekt?`,
+    h1: `Dakkapel lekt: zo vind je waar het water binnenkomt`,
+    metaTitle: `Dakkapel lekt: oorzaak en reparatie | Spoed Dak Service`,
+    metaDescription: `Nat onder of naast je dakkapel? Vaak zit het in het lood langs de zijkant, de strook onder het raam, een kitnaad of het platte dakje erop. Zo vind je het.`,
+    intro: `Een dakkapel is een klein huisje op je dak, met een eigen dakje, twee zijkanten en een raam. Overal waar de dakkapel op de pannen aansluit, kan water naar binnen komen. Vaak lekt het niet door de dakkapel zelf, maar bij de aansluiting op het dak eromheen. Hieronder lees je waar het meestal zit, hoe je dat herkent en wat eraan te doen is. Ik repareer lekkage aan een dakkapel die er al staat. Wil je er een bij op je dak, dan ben je bij een ander bedrijf aan het goede adres.`,
+    secties: [
+      { kop: `Lekt het nu? Eerst dit`, tekst: [
+        `Zet een emmer of handdoek onder de druppel, haal spullen weg en maak een foto van de natte plek. Ga niet zelf het dak op en klim niet uit het raam van de dakkapel om te kijken. Wat je verder meteen kunt doen, staat op de <a href="/spoed/">spoedpagina</a>.`,
+      ] },
+      { kop: `Waar een dakkapel meestal lekt`, tekst: [
+        `Langs de zijkanten. Waar de zijkant van de dakkapel op de pannen staat, ligt een strook lood of loodvervanger die het water over de pannen leidt. Staat die strook los, is hij gescheurd of ligt er een pan scheef onder, dan loopt het water achter de strook langs naar binnen. Je ziet het dan vaak als een natte plek naast de dakkapel, in de hoek van het plafond of op de muur eronder.`,
+        `Onder het raam. Onder de voorkant van de dakkapel ligt een strook die over de pannen eronder valt. Is die losgekomen of gescheurd, dan loopt het water bij een flinke bui onder de strook door. Dat zie je als een natte plek onder het raam of op het plafond van de kamer eronder.`,
+        `Het dakje erop. Op de meeste dakkapellen ligt een klein plat dak met een randje langs de voorkant. Daar lekt het bij een losse naad, bij de rand of als het afvoertje naar de goot vol blad zit. Dan wordt het vaak nat bovenin, vlak onder het plafond van de dakkapel. Meer over zo'n rand lees je in <a href="/kennisbank/daktrim-lekt/">plat dak lekt langs de rand</a>.`,
+        `Bovenaan, waar het dakje van de dakkapel onder de pannen erboven doorloopt. Blijft daar blad of mos liggen, of ligt een pan erboven scheef, dan kan het water daar onder de pannen terechtkomen.`,
+        `Kitnaden. Rond het kozijn en op de hoeken zit vaak kit. Die droogt in de zon uit en laat los, en dan komt het water via de naad binnen.`,
+      ] },
+      { kop: `Raam of dak?`, tekst: [
+        `Zitten er alleen druppels op het glas en op de onderkant van het kozijn, vooral op koude ochtenden, dan is het vaak condens en geen lek. Lekt het bij het raam zelf, bijvoorbeeld tussen het glas en het kozijn, dan is dat werk voor een glaszetter of een kozijnenbedrijf. Komt het water van boven of van opzij, dan zit het meestal in de aansluiting op het dak, en daar kijk ik naar. Meer over het verschil lees je in <a href="/kennisbank/condens-of-lekkage-op-zolder/">condens of lekkage op zolder</a>.`,
+      ] },
+      { kop: `Zo vind je het`, tekst: [
+        `Kijk na een bui waar het precies nat is: naast de dakkapel, eronder of bovenin. Kijk daarna vanaf de straat of uit de tuin, met de zoom van je telefoon, of de stroken langs de zijkanten nog strak op de pannen liggen en of er een pan scheef ligt. Maak van allebei een foto, dan zie ik vaak al waar ik moet beginnen.`,
+      ] },
+      { kop: `Wat je zelf beter niet doet`, tekst: [
+        `Smeer geen nieuwe kit over oude kit of over een kier in het lood. Kit hecht slecht op een nat of vuil oppervlak, en vaak zit het lek ergens anders dan waar je kit. Ga ook niet op het dakje van de dakkapel staan: dat is vaak niet gemaakt om op te lopen, en bij nat weer is het glad.`,
+      ] },
+      { kop: `Hoe ik het aanpak`, tekst: [
+        `Ik begin buiten en kijk naar de stroken langs de zijkanten en onder het raam, de pannen eromheen, de kitnaden en het dakje. Een strook die los zit, zet ik weer goed vast, en gescheurd lood vervang ik. Ik werk meestal met loodvervanger, en met echt lood als je dat wilt. Een pan die scheef ligt of gebroken is, leg ik goed of vervang ik. Lekt het dakje zelf, dan kijk ik of een gerichte reparatie genoeg is of dat de dakbedekking op is, en dat hoor je vooraf. Zie <a href="/diensten/daklekkage/">daklekkage opsporen en repareren</a> en <a href="/kennisbank/lood-op-dak/">lood op je dak</a>.`,
+      ] },
+      { kop: `Wat kost het?`, tekst: [
+        `Een pan naast de dakkapel goed leggen of vervangen valt meestal onder een kleine reparatie: ${kleinPrijs}. Moet ik eerst zoeken waar het water binnenkomt, dan is het meestal een gerichte lekreparatie: ${lekPrijs}, inclusief materiaal. Moet er nieuw lood of loodvervanger langs een hele zijkant, dan hoor je vooraf de vaste prijs. Stuur een foto van de dakkapel vanaf de straat en van de natte plek binnen.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: daklekkage opsporen en repareren`, href: `/diensten/daklekkage/` },
+    faq: [
+      { v: `Mijn dakkapel is pas geplaatst en lekt nu al. Wie lost dat op?`, a: `Neem eerst contact op met het bedrijf dat de dakkapel heeft geplaatst. Lekkage die door het plaatsen komt, hoort dat bedrijf in de regel zelf op te lossen. Komt het niet, of staat de dakkapel er al jaren, dan kijk ik waar het water binnenkomt. Stuur me een foto van de natte plek en van de dakkapel vanaf de straat.` },
+      { v: `Is lekkage bij een dakkapel verzekerd?`, a: `Dat hangt af van je polis en van de oorzaak. Komt het door een storm, dan wordt de schade binnen vaak vergoed. Komt het door slijtage, zoals oud lood of uitgedroogde kit, dan meestal niet. Maak foto's van de schade voordat je iets opruimt en bel je verzekeraar. Ik maak foto's van wat ik aantref en van de reparatie, die kun je meesturen.` },
+      { v: `Is een lekkende dakkapel spoed?`, a: `Druppelt het binnen bij een stopcontact, een lamp of op je vloer, dan wel: bel of app me met een foto. Is het een vochtige plek die na een bui weer opdroogt, dan kan het vaak een paar dagen wachten. Wacht niet tot de volgende storm, want dan wordt het meestal erger.` },
+      { v: `Kun je er ook een extra dakkapel op zetten?`, a: `Nee. Ik repareer lekkage aan een dakkapel die er al staat: de aansluiting op de pannen, het lood en het dakje. Wil je er een bij, dan ga je naar een bedrijf dat daarin gespecialiseerd is.` },
+    ],
+  },
 ];
 
 export const getArtikel = (slug: string) => ARTIKELEN.find((a) => a.slug === slug);
