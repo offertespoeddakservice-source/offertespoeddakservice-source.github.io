@@ -2719,6 +2719,49 @@ export const ARTIKELEN: Artikel[] = [
       { v: `Kun je ook zeggen wat een reparatie zou kosten?`, a: `Zie ik iets wat gemaakt moet worden, dan kun je me vragen wat het kost als ik het voor je doe. Dan hoor je dat vooraf, zodat je weet waar je aan toe bent.` },
     ],
   },
+  {
+    slug: `dakpannen-klapperen-bij-wind`,
+    datum: `2026-11-04`,
+    titel: `Klappert er iets op je dak?`,
+    h1: `Dakpannen klapperen bij harde wind: wat het is en wat je doet`,
+    metaTitle: `Dakpannen klapperen bij harde wind | Spoed Dak Service`,
+    metaDescription: `Hoor je bij harde wind getik of geklapper op je dak? Vaak is het een losse pan, een nokvorst, een strook lood of een oude antenne. Zo vind je wat het is.`,
+    intro: `Het waait hard, en ergens boven je hoofd tikt of klappert iets. Dat is niet alleen vervelend als je wilt slapen. Vaak is het een teken dat er iets los zit, en dat kan bij de volgende storm van je dak waaien. Hieronder lees je wat het meestal is, hoe je het vindt en wat eraan te doen is.`,
+    secties: [
+      { kop: `Hoor je het nu? Eerst dit`, tekst: [
+        `Ga niet het dak op en zet geen ladder tegen de gevel zolang het hard waait. Blijf uit de buurt van de kant van het huis waar het geluid vandaan komt, want een pan die los klappert, kan naar beneden komen. Let op waar je het hoort: aan de voorkant of de achterkant, bovenin bij de nok of onderin bij de goot. Ligt er al een pan op de grond of wordt het binnen nat, kijk dan op de <a href="/spoed/">spoedpagina</a> wat je meteen doet.`,
+      ] },
+      { kop: `Wat er meestal klappert`, tekst: [
+        `Een losse dakpan. Een pan die niet meer goed in de sluiting ligt, wordt bij elke windstoot een stukje opgetild en valt dan terug. Dat geeft een tik of een klap. Het gebeurt het vaakst bij de pannen langs de randen van het dak en vlak onder de nok, waar de wind de meeste grip heeft.`,
+        `Een losse nokvorst. Is de specie onder de nok oud, dan kan een vorst los gaan liggen en bij wind heen en weer gaan. Vaak liggen er dan ook stukjes specie in de goot. Zie <a href="/kennisbank/nokvorsten-los/">losse nokvorsten</a>.`,
+        `Een strook lood die los staat. Rond de schoorsteen en langs een muur ligt lood of loodvervanger. Staat een strook los van de steen, dan komt de wind eronder en klappert hij. Zie <a href="/kennisbank/lood-op-dak/">lood op je dak</a>.`,
+        `Een oude antenne of schotel. De mast gaat bij wind heen en weer en tikt tegen de pannen of de schoorsteen, of de kabel slaat tegen het dak. Zie <a href="/kennisbank/lekkage-bij-schotel-of-antenne/">lekkage bij een schotel of antenne</a>.`,
+        `Een losse windveer. De plank langs de zijkant van het dak kan bij wind tegen de muur slaan. Zie <a href="/kennisbank/windveer-los-of-rot/">windveer los of rot</a>.`,
+        `De kap op een pijp. De kap op de ontluchting of op de afvoer van de cv-ketel kan los zitten en bij wind rammelen.`,
+      ] },
+      { kop: `Zo vind je waar het zit`, tekst: [
+        `Ga bij wind op zolder staan en luister waar het geluid het hardst is. Kijk met een zaklamp of je ergens daglicht tussen de pannen ziet, of een pan die beweegt. Kijk de volgende dag vanaf de straat en uit de tuin, met de zoom van je telefoon: ligt er een pan hoger of scheef, staat de nok niet recht, staat er een strook lood los of hangt de antenne scheef? Kijk ook op de grond en in de goot of er stukjes pan of specie liggen. Maak er een foto van, dan zie ik wat ik mee moet nemen.`,
+      ] },
+      { kop: `Waarom je het niet laat zitten`, tekst: [
+        `Een pan die bij elke windstoot opwipt, slijt aan de rand en breekt na een tijd. En waar een pan los ligt, komt de wind onder de pannen eromheen, zodat er bij de volgende storm vaak meer losgaan. Waar een pan of strook open ligt, kan regen naar binnen waaien, ook als het nu nog droog blijft. Lekt het alleen bij harde wind, lees dan <a href="/kennisbank/dak-lekt-bij-harde-wind/">dak lekt bij harde wind</a>.`,
+      ] },
+      { kop: `Wat je zelf beter niet doet`, tekst: [
+        `Leg geen stenen of zandzakken op je dak en plak niets vast met tape of kit. Op een schuin dak glijdt dat eraf, en een pan die vastgekit zit, krijg je later lastig los. Klim niet bij wind of regen het dak op, ook niet om even te kijken.`,
+      ] },
+      { kop: `Hoe ik het aanpak`, tekst: [
+        `Ik zoek eerst wat er los zit. Een losse pan leg ik weer goed in de sluiting en zet ik waar nodig vast, een gebroken pan vervang ik. Een losse nokvorst zet ik weer vast met dakmortel, en een strook lood die los staat, zet ik weer goed tegen de steen. Een oude antenne die je niet meer gebruikt, haal ik eraf, en daarna maak ik het dak op die plek weer dicht. Welke pannen bij storm het eerst loskomen en hoe je ze vastzet, lees je in <a href="/kennisbank/dakpannen-vastzetten-tegen-storm/">dakpannen vastzetten tegen storm</a>.`,
+      ] },
+      { kop: `Wat kost het?`, tekst: [
+        `Een losse pan of nokvorst vastzetten valt meestal onder een kleine reparatie: ${kleinPrijs}. Gaat het om meer pannen, de hele nok of nieuw lood, dan hoor je vooraf de vaste prijs. Stuur een foto van je dak vanaf de straat, dan zie ik vaak al wat er los zit.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: dakreparatie`, href: `/diensten/dakreparatie/` },
+    faq: [
+      { v: `Is geklapper op mijn dak spoed?`, a: `Meestal niet meteen, zolang het binnen droog blijft en er niets naar beneden komt. Ligt er een pan of een stuk pan op de grond, staat de antenne scheef of wordt het binnen nat, dan wel: bel of app me met een foto. Wacht niet tot de volgende storm, want een pan die nu klappert, ligt er dan vaak af.` },
+      { v: `Ik hoor vooral 's avonds getik op het dak, ook als het niet waait. Wat is dat?`, a: `Dat is vaak geen losse pan. Als het 's avonds afkoelt, krimpen de goot en het hout van het dak een klein beetje, en dat geeft getik of gekraak. Ook druppels van een boom of vogels op het dak kun je horen. Hoor je het alleen bij wind, dan zit er vaker echt iets los.` },
+      { v: `Moet ik thuis zijn als je een losse pan komt vastzetten?`, a: `Niet altijd. Kan ik er van buiten goed bij en hebben we de prijs vooraf afgesproken, dan kan ik een losse pan of nokvorst ook vastzetten als je niet thuis bent. Stuur me vooraf een foto van je dak vanaf de straat en zeg waar ik mijn ladder kan zetten.` },
+    ],
+  },
 ];
 
 export const getArtikel = (slug: string) => ARTIKELEN.find((a) => a.slug === slug);
