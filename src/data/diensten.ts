@@ -490,6 +490,7 @@ export const DIENSTEN: Dienst[] = [
       { v: "Kunststof of zink?", a: "Kunststof is voordeliger en je hoeft er weinig aan te doen. Zink gaat lang mee en past mooi bij een zinken goot. Ik kijk wat bij je huis past." },
       { v: "Mijn regenpijp lekt alleen bij een verbinding, moet hij dan helemaal nieuw?", a: "Niet altijd. Soms is alleen een stuk of een bocht kapot. Ik kijk wat er nodig is en zeg eerlijk of een stuk vervangen genoeg is." },
       { v: "Kijk je ook naar de goot?", a: "Ja. Loopt de goot over of lekt hij bij de uitloop naar de regenpijp, dan zie ik dat meteen. Dan hoor je wat dat erbij kost, voordat ik iets doe." },
+      { v: "Mijn regenpijp is bij de storm losgeraakt van de muur. Is dat erg?", a: "Laat hem niet te lang zo hangen. Bij wind slaat een losse pijp tegen de gevel en kan hij breken, en vaak schiet hij dan ook uit de uitloop van de goot, zodat het water langs je muur loopt. Ga er niet zelf op een ladder aan trekken. Meestal is de pijp nog goed en zijn alleen de beugels los of afgebroken. Dan zet ik hem weer goed in de uitloop en maak ik hem vast met nieuwe beugels. Is er een stuk gebroken, dan vervang ik dat stuk. Stuur een foto via WhatsApp, dan hoor je vooraf wat het kost." },
     ],
   },
   {
