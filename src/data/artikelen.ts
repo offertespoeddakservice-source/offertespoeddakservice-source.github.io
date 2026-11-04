@@ -2608,6 +2608,43 @@ export const ARTIKELEN: Artikel[] = [
       { v: `Is lekkage bij een schotel of antenne spoed?`, a: `Druppelt het binnen bij een stopcontact, een lamp of je tv-kastje, of staat de mast na een storm scheef, dan wel: bel of app me met een foto. Is het een vochtige plek op zolder die na een bui weer opdroogt, dan kan het vaak een paar dagen wachten. Wacht niet tot de volgende storm.` },
     ],
   },
+  {
+    slug: `windveer-los-of-rot`,
+    datum: `2026-11-04`,
+    titel: `Windveer los of rot?`,
+    h1: `Windveer los of rot: de plank langs de zijkant van je dak`,
+    metaTitle: `Windveer los of rot na storm? | Spoed Dak Service`,
+    metaDescription: `Hangt de windveer langs de zijkant van je dak los na een storm, of is hij rot? Zo zie je het, waarom de pannen erboven gaan schuiven en wat eraan te doen is.`,
+    intro: `De windveer is de plank die schuin langs de zijkant van je dak loopt, bij de kopgevel. Hij dekt de uiteinden van de panlatten af en houdt de wind onder de rand van het dak weg. Je kijkt er zelden naar, tot hij na een storm los hangt of er een stuk uit valt. Hieronder lees je hoe je ziet wat er mis is, wat je zelf doet tot het gemaakt is en hoe ik het aanpak.`,
+    secties: [
+      { kop: `Hangt hij nu los? Eerst dit`, tekst: [
+        `Blijf uit de buurt van de gevel onder de losse plank, en zet daar als het kan iets neer zodat niemand eronder loopt. Een windveer is lang en zwaar, en bij de volgende windstoot kan hij verder losscheuren. Trek er niet aan en zet geen ladder tegen de gevel. Maak vanaf de straat of uit de tuin een foto en stuur die via WhatsApp. Ligt het dak open of wordt het binnen nat, kijk dan op de <a href="/spoed/">spoedpagina</a> wat je meteen doet.`,
+      ] },
+      { kop: `Zo zie je dat er iets mis is`, tekst: [
+        `Kijk vanaf de straat langs de schuine rand van het dak. Een windveer hoort strak en recht te liggen. Zie je een kier tussen de plank en de muur, een plank die naar buiten wijkt of een stuk dat scheef hangt, dan zit hij los.`,
+        `Rot zie je aan verf die afbladdert, donkere of zachte plekken en hout dat uit elkaar valt. Dat begint vaak onderaan, vlak boven de goot, en bij de naad waar twee planken op elkaar aansluiten. Daar blijft het water het langst staan.`,
+        `Kijk ook naar de pannen erboven. Liggen de pannen langs de rand van het dak scheef of half over de kant, dan houdt de windveer ze vaak niet meer goed op hun plek.`,
+      ] },
+      { kop: `Waarom je het niet laat zitten`, tekst: [
+        `Een losse windveer laat de wind onder de rand van het dak komen. Bij de volgende storm trekt die aan de pannen langs de kopgevel, en juist die waaien er het eerst af. Een rotte windveer houdt de schroeven niet meer vast, en dan kan er een stuk naar beneden komen. Loopt er water achter de plank, dan worden ook de uiteinden van de panlatten nat, en dan wordt de reparatie later groter. Welke pannen bij storm het eerst loskomen, lees je in <a href="/kennisbank/dakpannen-vastzetten-tegen-storm/">dakpannen vastzetten tegen storm</a>.`,
+      ] },
+      { kop: `Wat je zelf beter niet doet`, tekst: [
+        `Schroef of spijker een losse windveer niet zelf vast vanaf een ladder. Je werkt dan hoog, aan de rand van het dak, met een plank die kan meegeven. Een likje kit of tape op een rotte plek houdt ook niet, want het hout eronder blijft nat en rot verder.`,
+      ] },
+      { kop: `Hoe ik het aanpak`, tekst: [
+        `Ik kijk eerst hoe de windveer vastzit en hoe het hout eronder eruitziet, ook de uiteinden van de panlatten. Zit een goede windveer alleen los, dan zet ik hem weer stevig vast. Is hij rot of gebroken, dan vervang ik hem. Daarna leg ik de pannen langs de rand weer goed op hun plek, en een pan die bij het losslaan is gebroken, vervang ik. Zie ik dat er meer aan de hand is, dan hoor je dat voordat ik begin. Zie ook <a href="/diensten/dakreparatie/">dakreparatie</a> en <a href="/diensten/stormschade/">stormschade</a>.`,
+      ] },
+      { kop: `Wat kost het?`, tekst: [
+        `Dat hangt af van hoe lang de windveer is, hoe hoog hij zit en of ik hem alleen vastzet of vervang. Stuur een foto vanaf de straat, dan hoor je vooraf wat het kost. Waait een goede windveer los bij een storm, dan valt dat vaak onder je opstalverzekering. Is hij losgekomen omdat het hout rot was, dan meestal niet. Dat verschilt per polis: lees <a href="/kennisbank/daklekkage-verzekering/">daklekkage en je verzekering</a>.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: dakreparatie`, href: `/diensten/dakreparatie/` },
+    faq: [
+      { v: `Wat is het verschil tussen een windveer en een boeideel?`, a: `Allebei zijn het planken langs de rand van je dak. De windveer loopt schuin langs de zijkant, bij de kopgevel. Een boeideel zit meestal recht onder de dakrand, aan de kant van de goot. Ze gaan om dezelfde redenen kapot: los na een storm of rot door water.` },
+      { v: `Is een losse windveer spoed?`, a: `Hangt hij half los boven de stoep, de oprit of je tuin, of slaat hij bij wind tegen de muur, dan wel: bel of app me met een foto. Zit hij een beetje los maar ligt hij nog strak tegen de muur, dan kan het meestal een paar dagen wachten. Wacht niet tot de volgende storm.` },
+      { v: `Moet de windveer aan beide kanten van mijn huis vervangen worden?`, a: `Niet altijd. Vaak is één kant slechter, meestal de kant waar de meeste wind en regen op staat. Ik kijk naar allebei en zeg eerlijk of de andere kant nog goed is. Jij beslist wat ik meeneem.` },
+    ],
+  },
 ];
 
 export const getArtikel = (slug: string) => ARTIKELEN.find((a) => a.slug === slug);
