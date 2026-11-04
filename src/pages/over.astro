@@ -7,6 +7,7 @@ const faq = [
   { v: "Krijg ik jou zelf aan de lijn?", a: "Ja. Er zit geen callcenter of planner tussen. Je krijgt mij aan de lijn, ik kom zelf kijken en ik ben je vaste aanspreekpunt, van de eerste foto tot de rekening." },
   { v: "In welke plaatsen kom je?", a: "Ik werk vanuit Den Bosch en kom in de regio tot zo'n 45 minuten rijden, zoals Rosmalen, Vught, Oss, Veghel, Boxtel, Oisterwijk en Waalwijk. Alle plaatsen staan bij mijn werkgebied. Staat jouw plaats er niet bij, app me dan even, dan zeg ik eerlijk of ik kan komen." },
   { v: "Hoe kom ik aan een prijs?", a: "Stuur via WhatsApp een paar foto's van wat er aan de hand is, of bel me. Vaak kan ik dan al zeggen wat het ongeveer wordt. Daarna kom ik kijken en hoor je de vaste prijs voordat ik begin. Een offerte kost niks." },
+  { v: "Ben je verzekerd?", a: "Ja, ik ben bedrijfsaansprakelijk verzekerd. Dat is de verzekering voor schade die een vakman tijdens zijn werk per ongeluk aan je huis of je spullen maakt." },
 ];
 ---
 
@@ -24,6 +25,7 @@ const faq = [
         "@id": `${SITE.url}/over/#rens`,
         name: SITE.eigenaar,
         jobTitle: "Dakdekker",
+        knowsAbout: ["Daklekkage", "Dakreparatie", "Dakpannen en nokvorsten", "Dakgoten en regenpijpen", "Lood en loodvervanger", "Platte daken", "Stormschade aan daken"],
         url: `${SITE.url}/over/`,
         worksFor: { "@id": `${SITE.url}/#bedrijf` },
       },
