@@ -66,6 +66,9 @@ const schema = [
       </div>
       <h1>{titel}: goten, lekkage &amp; reparatie</h1>
       <p class="lead">
+        {p.slug === "den-bosch"
+          ? <>Spoed Dak Service is een dakdekker uit 's-Hertogenbosch voor daklekkage, losse dakpannen en dakgoten in de hele stad en de dorpen eromheen.</>
+          : <>Spoed Dak Service is een dakdekker uit 's-Hertogenbosch voor daklekkage, losse dakpannen en dakgoten in {p.naam} en omgeving.</>}
         Zoek je een betrouwbare dakdekker in {p.naam}? Je krijgt mij, Rens, aan de lijn.
         Twijfel je over de staat van je dak? Vraag de <a href="/dak-apk/">Dak-APK</a> aan (voor {apkPrijs}) voor een compleet fotorapport.
         Weet je al wat er moet gebeuren? Dan hoor je gelijk een eerlijke, vaste prijs.
