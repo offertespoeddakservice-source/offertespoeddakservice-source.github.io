@@ -119,6 +119,7 @@ export const PLAATSEN: Plaats[] = [
     faq: [
       { v: "Kom je ook in Wijbosch en het buitengebied van Schijndel?", a: "Ja. Wijbosch hoort bij Schijndel, en Schijndel hoort sinds 2017 bij de gemeente Meierijstad. Ik kom er voor dezelfde klussen als in Schijndel zelf: lekkage, goten, pannen en lood. Het is zo'n 20 minuten rijden vanaf Den Bosch." },
       { v: "Kun je mijn dak in Schijndel nakijken voordat de winter begint?", a: "Ja, met de Dak-APK loop ik je hele dak na en krijg je een rapport met foto's. Op de oudere daken in Schijndel kijk ik vooral naar de eerste pannen van voor 1985, want die nemen meer water op en kunnen bij vorst scheuren, en naar de nokvorsten, die daar vaak nog in specie liggen. Staat er nog een oude antenne of schotel op je dak, dan kijk ik of die de pannen eromheen beschadigt. Je hoort daarna wat ik zou doen en in welke volgorde, en wat gerust tot het voorjaar kan wachten." },
+      { v: "Kom je ook in Sint-Oedenrode?", a: "Ja. Sint-Oedenrode ligt naast Schijndel en hoort sinds 2017 bij dezelfde gemeente, Meierijstad, net als Veghel. Ook Nijnsel, Olland en Boskant vallen onder Sint-Oedenrode. Heb je daar een lekkend dak, een goot die overloopt of een pan die los ligt, app me dan een foto van de plek. Dan laat ik je weten wat ik zie en wanneer ik langs kan komen." },
     ],
   },
   {
@@ -208,6 +209,7 @@ export const PLAATSEN: Plaats[] = [
       { v: "Vervang je in Waalwijk ook de dakbedekking van een plat dak?", a: "Ja. Achter veel oudere huizen in Waalwijk staat een aanbouw, schuur of oude werkplaats met een plat dak. Lekt dat dak op één plek, dan is een gerichte reparatie vaak genoeg. Is de bedekking op meer plekken versleten, dan zeg ik eerlijk dat vervangen slimmer is. Je hoort vooraf de vaste prijs." },
       { v: "Kun je mijn hele dak in Waalwijk een keer nakijken voor de winter?", a: "Ja, dat doe ik met de Dak-APK: ik loop je hele dak na en je krijgt een rapport met foto's. Bij de oudere huizen in Besoyen en Baardwijk kijk ik vooral naar het lood rond de schoorsteen, bij de boerderijen en vrijstaande huizen in Sprang-Capelle naar de lange goten en de nok. Heb je een plat dak op een aanbouw of oude werkplaats, dan neem ik dat ook mee. Zo weet je wat nu moet gebeuren en wat nog even kan wachten." },
       { v: "Ik zoek een dakdekkersbedrijf in Waalwijk. Met wie heb ik bij jou te maken?", a: "Met mij, Rens. Je belt of appt niet met een planner, maar met mij: ik kom zelf kijken in Waalwijk, Sprang-Capelle of Waspik en ik blijf je vaste aanspreekpunt, van de eerste foto tot de rekening. Waalwijk is zo'n 25 minuten rijden vanaf Den Bosch. Stuur gerust eerst een foto via WhatsApp, dan hoor je wanneer ik kan komen." },
+      { v: "Kom je ook in Kaatsheuvel en Loon op Zand?", a: "Ja. Kaatsheuvel ligt net onder Waalwijk en hoort met Loon op Zand en De Moer bij de gemeente Loon op Zand. Daar kom ik net zo goed voor een lekkage, een volle of lekkende goot, losse pannen of lood dat loslaat. Maak een foto van wat je ziet en stuur hem via WhatsApp, dan spreken we samen een moment af." },
     ],
   },
   {
@@ -222,6 +224,7 @@ export const PLAATSEN: Plaats[] = [
       "Rond de Markt in het centrum van Uden zitten veel winkels met een woning erboven. Achter zo'n pand ligt vaak een plat dak op de winkel of het magazijn, en daar komt het water nogal eens binnen bij de afvoer of langs de rand. Volkel en Odiliapeel, de dorpen die bij Uden horen, hebben meer vrijstaande huizen en boerderijen met een groot pannendak en een lange goot. Daar blijft in de herfst veel blad in de goot liggen, en bij een stevige bui loopt hij dan over langs de gevel. Stuur me een foto, dan zeg ik je eerlijk of leegmaken genoeg is.",
     faq: [
       { v: "Kom je ook in Volkel en Odiliapeel?", a: "Ja. Volkel en Odiliapeel horen bij Uden, en ook daar kom ik voor lekkage, goten, pannen en lood. Uden is zo'n 25 minuten rijden vanaf Den Bosch, de dorpen liggen een stukje verder. Stuur gerust eerst een foto via WhatsApp, dan hoor je eerlijk wanneer ik kan komen." },
+      { v: "Kom je ook in Zeeland, Schaijk en Reek?", a: "Ja. Zeeland, Schaijk en Reek hoorden vroeger bij de gemeente Landerd. Sinds 2022 vormen ze samen met Uden, Volkel en Odiliapeel de gemeente Maashorst. Lekt er iets, zit de goot vol of is er na een storm een pan verschoven, bel of app me gerust. Met een foto erbij kan ik meestal al inschatten wat er speelt." },
     ],
   },
   {
