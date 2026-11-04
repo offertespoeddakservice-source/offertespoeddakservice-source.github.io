@@ -2890,6 +2890,44 @@ export const ARTIKELEN: Artikel[] = [
       { v: `Werkt lekspray of kit uit de bouwmarkt?`, a: `Soms houdt het een paar dagen, maar op een natte of vuile plek hecht het slecht. En vaak zit het lek niet op de plek waar je het water ziet. Bij de reparatie moet ik het er dan eerst weer af halen.` },
     ],
   },
+  {
+    slug: `lekkage-huurhuis`,
+    datum: `2026-11-04`,
+    titel: `Lekt je huurhuis?`,
+    h1: `Dak lekt in een huurhuis: wat doe je, en wie regelt de reparatie?`,
+    metaTitle: `Daklekkage in een huurhuis: wat nu? | Spoed Dak Service`,
+    metaDescription: `Lekt het dak van je huurhuis? Zo beperk je de schade, zo meld je het bij je verhuurder en zo zit het met de reparatie en je spullen. Ook voor verhuurders.`,
+    intro: `Huur je je huis en lekt het dak, dan wil je twee dingen weten: wat doe je nu meteen, en wie zorgt dat het gemaakt wordt? In de regel is het dak de zaak van je verhuurder, maar jij moet het lek wel snel melden. Hieronder lees je wat je zelf doet, hoe je het meldt en wat er gebeurt als ik kom. Ben je zelf verhuurder, dan staat verderop wat je van mij kunt verwachten.`,
+    secties: [
+      { kop: `Lekt het nu? Eerst dit`, tekst: [
+        `Zet een emmer onder de druppel, leg handdoeken neer en schuif je spullen opzij. Druppelt het uit een lamp of spotje, zet dan in de meterkast de groep van die kamer uit. Ga niet zelf het dak op. Maak foto's van de natte plek, van de schade aan je spullen en vanaf de straat van het dak. Wat je verder meteen kunt doen, staat op de <a href="/spoed/">spoedpagina</a>.`,
+      ] },
+      { kop: `Meld het meteen bij je verhuurder`, tekst: [
+        `Bel of mail je verhuurder zo snel mogelijk, ook als het om een kleine plek gaat, en stuur de foto's mee. Zet erbij sinds wanneer het lekt, waar het water binnenkomt en of het erger wordt. Bewaar dat bericht. Huur je van een woningcorporatie, gebruik dan hun nummer of website voor reparaties. Vaak hebben ze ook een nummer voor spoed buiten kantooruren.`,
+      ] },
+      { kop: `Wie regelt en betaalt de reparatie?`, tekst: [
+        `In de regel is een lekkend dak de zaak van de verhuurder: het dak hoort bij het huis, en groot onderhoud ligt bij de eigenaar. Kleine, dagelijkse dingen kunnen bij jou liggen. Wat precies, staat in je huurcontract. Woon je in een appartement, dan regelt meestal de VvE van het gebouw het dak. De melding loopt dan via je verhuurder.`,
+      ] },
+      { kop: `En je eigen spullen?`, tekst: [
+        `Schade aan je eigen spullen, zoals een kast, een bank of een vloerkleed, valt meestal onder je eigen inboedelverzekering. Schade aan het huis zelf, zoals het plafond of de muur, is meestal iets voor de opstalverzekering van de verhuurder. Wat er vergoed wordt, hangt af van de polis en van de oorzaak. Meer daarover lees je in <a href="/kennisbank/daklekkage-verzekering/">daklekkage en je verzekering</a>.`,
+      ] },
+      { kop: `Je verhuurder is niet te bereiken`, tekst: [
+        `Druppelt het binnen en kun je je verhuurder 's avonds of in het weekend niet bereiken, dan kun je mij bellen of appen om erger te voorkomen. Vaak maak ik het dan eerst waterdicht, en ik maak foto's van wat ik aantref en van wat ik heb gedaan. Laat het je verhuurder daarna zo snel mogelijk weten, met die foto's erbij. Reageert je verhuurder ook daarna niet, kijk dan bij het Juridisch Loket of de Huurcommissie wat je kunt doen.`,
+      ] },
+      { kop: `Ben je zelf verhuurder?`, tekst: [
+        `Meldt je huurder een lek, stuur me dan de foto's die je huurder heeft gemaakt, of laat je huurder ze zelf via WhatsApp sturen. Ik spreek dan een moment af met je huurder, zodat je er zelf niet bij hoeft te zijn. Na afloop krijg je foto's van wat ik aantrof en van de reparatie. Zie ook <a href="/diensten/daklekkage/">daklekkage opsporen en repareren</a>.`,
+      ] },
+      { kop: `Wat kost het?`, tekst: [
+        `Moet ik zoeken waar het water binnenkomt en het lek dichtmaken, dan is het meestal een gerichte lekreparatie: ${lekPrijs}, inclusief materiaal. Ligt er alleen een pan los of scheef, dan valt het vaak onder een kleine reparatie: ${kleinPrijs}. Je hoort vooraf wat het kost, zodat huurder en verhuurder samen kunnen afspreken wie de rekening krijgt.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: daklekkage opsporen en repareren`, href: `/diensten/daklekkage/` },
+    faq: [
+      { v: `Moet ik als huurder de dakdekker zelf betalen?`, a: `Meestal niet. Een lekkend dak is in de regel de zaak van de verhuurder. Heb je zelf iemand laten komen omdat je verhuurder niet te bereiken was, bewaar dan de rekening en de foto's en laat ze aan je verhuurder zien. Wie wat betaalt, spreken jullie samen af.` },
+      { v: `Mijn verhuurder zegt dat het condens is en geen lek. Hoe weet ik dat?`, a: `Druppels die verspreid op het hout of de folie onder het dak zitten, vooral na een koude nacht, zijn vaak condens. Een natte plek die na elke bui op dezelfde plek terugkomt, is vaker een lek. Maak een paar dagen lang foto's, ook vlak na een bui, en noteer de datum erbij. Dan heb je iets om samen naar te kijken.` },
+      { v: `Ik woon in een appartement. Wie regelt het dak dan?`, a: `Meestal de VvE van het gebouw, want het dak is van alle eigenaren samen. Huur je het appartement, meld het lek dan bij je verhuurder, die geeft het door aan de VvE. Woon je niet op de bovenste verdieping, dan komt het water misschien niet van het dak, maar van de badkamer of een leiding van de buren boven je.` },
+    ],
+  },
 ];
 
 export const getArtikel = (slug: string) => ARTIKELEN.find((a) => a.slug === slug);
