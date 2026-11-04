@@ -136,7 +136,7 @@ export const QUIZ_KEUZE: { label: string; klus: string }[] = [
 ];
 
 export const QUIZ_HUIS = ["Tussenwoning", "Hoekhuis", "Twee-onder-een-kap", "Vrijstaand", "Appartement of flat", "Anders"];
-export const QUIZ_HOOGTE = ["Begane grond of uitbouw", "1e verdieping", "2e verdieping of hoger", "Weet ik niet"];
+export const QUIZ_HOOGTE = ["Begane grond of uitbouw", "1e verdieping", "2e verdieping", "3e verdieping of hoger", "Weet ik niet"];
 
 /** Vast zinnetje bovenaan elke advertentiepagina (quiz-plan.md, teksten) */
 export const QUIZ_ZIN = "Beantwoord 5 korte vragen en krijg vaak binnen 10 minuten een gratis prijsindicatie op WhatsApp.";
