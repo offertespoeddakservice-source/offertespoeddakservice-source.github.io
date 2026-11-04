@@ -2645,6 +2645,46 @@ export const ARTIKELEN: Artikel[] = [
       { v: `Moet de windveer aan beide kanten van mijn huis vervangen worden?`, a: `Niet altijd. Vaak is één kant slechter, meestal de kant waar de meeste wind en regen op staat. Ik kijk naar allebei en zeg eerlijk of de andere kant nog goed is. Jij beslist wat ik meeneem.` },
     ],
   },
+  {
+    slug: `zinken-dakgoot-lekt`,
+    datum: `2026-11-04`,
+    titel: `Zinken dakgoot lekt?`,
+    h1: `Zinken dakgoot lekt: solderen, van binnen coaten of vervangen?`,
+    metaTitle: `Zinken dakgoot lekt: solderen of coaten? | Spoed Dak Service`,
+    metaDescription: `Lekt je zinken dakgoot bij een naad of een dunne plek? Lees wanneer solderen genoeg is, wanneer de goot van binnen coaten zin heeft en wanneer vervangen beter is.`,
+    intro: `Zinken goten gaan lang mee, maar na jaren gaan ze op een paar vaste plekken lekken: bij de naden, bij de hoeken en waar het zink dun is geworden. Vaak hoeft de goot dan niet meteen te worden vervangen. Hieronder lees je wat de drie mogelijkheden zijn en hoe ik kies welke past.`,
+    secties: [
+      { kop: `Druppelt het nu?`, tekst: [
+        `Valt de druppel buiten boven je stoep of terras, zet er dan een bak onder, zodat er bij vorst geen plek ijs ligt. Maak tijdens een bui een foto of filmpje van de plek waar het druppelt. Komt het water binnen, bovenin de muur of langs een kozijn, dan is het spoed: kijk op de <a href="/spoed/">spoedpagina</a> wat je meteen doet.`,
+      ] },
+      { kop: `Waar een zinken goot lekt`, tekst: [
+        `Bij de naden. Een zinken goot bestaat uit stukken die aan elkaar zijn gesoldeerd. Zink zet uit als het warm is en krimpt als het koud is, en na jaren laat zo'n naad een keer los. Je ziet dan een druppel die steeds op dezelfde plek valt.`,
+        `Bij de hoeken en de uitloop naar de regenpijp. Daar zitten ook soldeernaden, en daar komt het meeste water samen.`,
+        `Waar het zink dun is. Van binnen slijt zink langzaam, vooral waar blad en vuil lang blijven liggen. Eerst wordt het dof en ruw, later komen er kleine gaatjes. Aan de onderkant van de goot zie je dan vaak een witte uitslag of een natte plek.`,
+      ] },
+      { kop: `Solderen: als het bij een naad of hoek zit`, tekst: [
+        `Zit het lek in een naad of een hoek en is het zink eromheen nog dik genoeg, dan maak ik de naad schoon en soldeer ik hem opnieuw. Zo zit het zink weer aan elkaar vast zoals het bedoeld is. Solderen kan alleen op een droge goot, dus bij regen of vorst wacht ik op een droge dag.`,
+      ] },
+      { kop: `Van binnen coaten: als de goot nog goed hangt, maar op meer plekken dun is`, tekst: [
+        `Is het zink op meer plekken dun of zitten er kleine gaatjes, maar hangt de goot nog goed en zitten de beugels vast, dan kan ik de goot van binnen coaten. Ik maak de goot schoon en droog en breng aan de binnenkant een laag aan die de goot weer waterdicht maakt. Zo kan een goot die verder nog goed is vaak nog een tijd mee, zonder dat er meteen een nieuwe goot hoeft te komen.`,
+      ] },
+      { kop: `Vervangen: als de goot op is`, tekst: [
+        `Hangt de goot door, is het zink op veel plekken dun of lek, of zit er al plak op plak, dan houdt een reparatie het niet lang meer. Dan is een nieuwe goot de betere keus. Hoe je dat ziet, lees je in <a href="/kennisbank/hoe-lang-gaat-een-dakgoot-mee/">hoe lang gaat een dakgoot mee</a>. Ligt je goot op of achter de gevel, kijk dan ook bij <a href="/kennisbank/bakgoot-lekt/">bakgoot lekt</a>.`,
+      ] },
+      { kop: `Wat je zelf beter niet doet`, tekst: [
+        `Smeer geen kit of bitumen in een zinken goot. Het hecht slecht op nat of vuil zink, en als de naad later toch gesoldeerd moet worden, moet al dat spul er eerst weer uit. Zet ook geen ladder tegen een goot die al zwak is, want zink deukt snel.`,
+      ] },
+      { kop: `Wat kost het?`, tekst: [
+        `Dat hangt af van wat het wordt: één naad solderen is iets anders dan een hele goot van binnen coaten of vervangen. Stuur een foto van de plek waar het lekt en van de goot vanaf de straat, dan hoor je vooraf wat het kost. Je weet de prijs voordat ik begin. Zie ook <a href="/diensten/dakgoot-vervangen/">dakgoot repareren of vervangen</a>.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: dakgoot repareren of vervangen`, href: `/diensten/dakgoot-vervangen/` },
+    faq: [
+      { v: `Moet de hele goot vervangen worden als er één gat in zit?`, a: `Meestal niet. Eén gaatje of één lekke naad is vaak goed te solderen. Pas als het zink op veel plekken dun is, of de goot ook doorhangt, zeg ik dat vervangen slimmer is.` },
+      { v: `Kan een kunststof goot ook gesoldeerd worden?`, a: `Nee, solderen kan alleen bij zink. Bij een kunststof goot zit een lek meestal in een verbinding of in een rubber dat is uitgedroogd. Dan vervang ik dat stuk of die verbinding.` },
+      { v: `Kun je een zinken bakgoot ook solderen?`, a: `Ja. Omdat een bakgoot op of in de gevel ligt, komt een lek daar vaak binnen terecht, dus wacht er niet te lang mee. Stuur een foto van de goot en van de natte plek binnen, dan kijk ik mee.` },
+    ],
+  },
 ];
 
 export const getArtikel = (slug: string) => ARTIKELEN.find((a) => a.slug === slug);
