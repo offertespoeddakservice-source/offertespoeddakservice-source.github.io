@@ -2852,6 +2852,44 @@ export const ARTIKELEN: Artikel[] = [
       { v: `Is een kapotte folie spoed?`, a: `Meestal niet. Blijft het droog op zolder, dan kan het wachten. Druppelt er water van de folie op je plafond, op je isolatie of bij een stopcontact, bel of app me dan met een foto van de plek en van je dak vanaf de straat.` },
     ],
   },
+  {
+    slug: `daklek-tijdelijk-dichten`,
+    datum: `2026-11-04`,
+    titel: `Daklek tijdelijk dichten?`,
+    h1: `Daklek tijdelijk dichten: wat je zelf veilig kunt doen tot het gemaakt is`,
+    metaTitle: `Daklekkage tijdelijk oplossen | Spoed Dak Service`,
+    metaDescription: `Lekt je dak en duurt het nog even voordat de dakdekker er is? Dit kun je zelf veilig doen, binnen en op zolder, en dit laat je beter liggen.`,
+    intro: `Het lekt, en het duurt nog even voordat er iemand op je dak kan. Dan wil je het zo droog mogelijk houden. Het meeste wat je zelf veilig kunt doen, doe je binnen en op zolder, niet op het dak. Hieronder lees je wat helpt, wat je beter laat en wanneer je niet moet wachten.`,
+    secties: [
+      { kop: `Eerst: is het spoed?`, tekst: [
+        `Druppelt het bij een stopcontact, een lamp of de meterkast, bolt het plafond op, of ligt er na een storm een open plek in je dak? Wacht dan niet, maar bel of app me meteen. Wat je in de eerste minuten doet, staat op de <a href="/spoed/">spoedpagina</a>. Is het een druppel op zolder of een natte plek die langzaam groter wordt, dan helpt wat hieronder staat om de tijd tot de reparatie te overbruggen.`,
+      ] },
+      { kop: `Binnen: vang het water op`, tekst: [
+        `Zet een emmer of bak onder de druppel en leg er een oude doek in, dan spat het niet. Leg handdoeken langs de rand van de natte plek en schuif meubels en spullen opzij. Wat je niet kunt verplaatsen, dek je af met plastic. Leeg de emmer op tijd, ook voordat je gaat slapen.`,
+      ] },
+      { kop: `Op zolder: laat het water de goede kant op lopen`, tekst: [
+        `Ga met een zaklamp naar de plek waar het binnenkomt en zet daar een bak neer. Lukt dat niet precies, leg dan een stuk plastic of een open vuilniszak zo neer dat het water in de bak loopt en niet in je isolatie of naar het plafond eronder. Haal natte dozen en spullen weg. Is de isolatie op die plek nat, trek hem dan met handschoenen aan een stukje weg zodat hij kan drogen. Wat je daarna met natte isolatie doet, lees je in <a href="/kennisbank/isolatie-nat-na-lekkage/">isolatie nat na een lek</a>. Maak een foto van de plek waar het water vandaan lijkt te komen, dan weet ik straks waar ik moet beginnen.`,
+      ] },
+      { kop: `Lekt het uit de goot?`, tekst: [
+        `Druppelt het buiten uit de goot boven je stoep of je voordeur, zet er dan een bak onder, zodat er bij vorst geen plek ijs ligt. Loopt de goot over, dan zit hij vaak vol. Ga niet met een ladder bij een volle of losse goot staan, zeker niet als het nat of glad is. Of je goot vol zit of echt lek is, lees je in <a href="/kennisbank/dakgoot-lekt/">dakgoot lekt</a>.`,
+      ] },
+      { kop: `Wat je beter niet doet`, tekst: [
+        `Klim niet zelf het dak op, ook niet om even een pan recht te leggen. Natte pannen zijn glad en breken snel onder je voet. Leg geen zeil met stenen op een schuin dak: bij wind gaat het zeil klapperen en schuiven de stenen eraf. En smeer geen kit of tape op een natte plek. Dat houdt het zelden droog, en vaak zit het lek ergens anders dan waar je het water ziet. Gaat het om het lage platte dak van een aanbouw of schuur, lees dan in <a href="/kennisbank/plat-dak-vervangen-of-repareren/">plat dak: repareren of vervangen</a> wat je daar op een droge dag wel zelf kunt doen.`,
+      ] },
+      { kop: `Hoe ik het aanpak`, tekst: [
+        `Bij een lek is mijn eerste klus dat het binnen niet verder nat wordt. Ligt er een pan scheef, dan leg ik hem terug. Ligt er na een storm een stuk dak open, dan dek ik het af. Zit de goot vol, dan maak ik hem leeg. Kan ik het daarna meteen goed maken, dan doe ik dat. Moet er een passende pan of nieuw lood komen, dan blijft het tot die tijd dicht en kom ik terug om het netjes af te maken. Zie <a href="/diensten/daklekkage/">daklekkage opsporen en repareren</a>.`,
+      ] },
+      { kop: `Wat kost het?`, tekst: [
+        `Een losse pan terugleggen of vervangen valt meestal onder een kleine reparatie: ${kleinPrijs}. Moet ik eerst zoeken waar het water binnenkomt en het lek dichtmaken, dan is het meestal een gerichte lekreparatie: ${lekPrijs}, inclusief materiaal. Stuur een foto van de natte plek en van je dak vanaf de straat. Je hoort de prijs voordat ik begin.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: daklekkage opsporen en repareren`, href: `/diensten/daklekkage/` },
+    faq: [
+      { v: `Hoe lang kan een daklek wachten?`, a: `Dat hangt af van waar het water heen gaat. Komt het op zolder in een bak terecht en blijft het plafond eronder droog, dan kan het vaak een paar dagen wachten. Wordt het plafond nat, zakt het water in de isolatie of druppelt het bij een stopcontact of lamp, wacht dan niet. Stuur me een foto, dan zeg ik eerlijk of het vandaag moet.` },
+      { v: `Mag ik zelf een zeil over mijn dak leggen?`, a: `Liever niet. Op een schuin dak moet een zeil goed vastzitten, anders gaat het bij wind klapperen en trekt het pannen mee. Daarvoor moet je op het dak, en dat is bij nat weer gevaarlijk. Vang het water liever binnen op tot ik er ben.` },
+      { v: `Werkt lekspray of kit uit de bouwmarkt?`, a: `Soms houdt het een paar dagen, maar op een natte of vuile plek hecht het slecht. En vaak zit het lek niet op de plek waar je het water ziet. Bij de reparatie moet ik het er dan eerst weer af halen.` },
+    ],
+  },
 ];
 
 export const getArtikel = (slug: string) => ARTIKELEN.find((a) => a.slug === slug);
