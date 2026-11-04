@@ -2928,6 +2928,44 @@ export const ARTIKELEN: Artikel[] = [
       { v: `Ik woon in een appartement. Wie regelt het dak dan?`, a: `Meestal de VvE van het gebouw, want het dak is van alle eigenaren samen. Huur je het appartement, meld het lek dan bij je verhuurder, die geeft het door aan de VvE. Woon je niet op de bovenste verdieping, dan komt het water misschien niet van het dak, maar van de badkamer of een leiding van de buren boven je.` },
     ],
   },
+  {
+    slug: `dakgoot-lekt-bij-regenpijp`,
+    datum: `2026-11-04`,
+    titel: `Lekt je goot bij de regenpijp?`,
+    h1: `Dakgoot lekt bij de regenpijp: de uitloop, de bocht of de pijp?`,
+    metaTitle: `Dakgoot lekt bij de regenpijp | Spoed Dak Service`,
+    metaDescription: `Druppelt je dakgoot precies waar de regenpijp begint? Vaak zit het in de uitloop, in de bocht eronder of in een pijp die is gezakt. Zo zie je wat het is.`,
+    intro: `De plek waar de goot overgaat in de regenpijp is een van de plekken waar een goot het vaakst lekt. Daar komt al het water uit de goot samen, en er zitten een paar verbindingen vlak boven elkaar. Hieronder lees je waar het meestal zit, hoe je het vanaf de grond herkent en wat eraan te doen is.`,
+    secties: [
+      { kop: `Zo zit het in elkaar`, tekst: [
+        `Onderin de goot zit een uitloop: een kort stuk pijp dat door de bodem van de goot naar beneden steekt. Bij een kunststof goot is die meestal vastgelijmd of zit hij met een rubber in de goot. Bij een zinken goot is hij erin gesoldeerd. Onder de uitloop zit vaak een bocht, soms twee, die naar de gevel loopt. Daar schuift de regenpijp in, en een beugel houdt de pijp tegen de muur.`,
+      ] },
+      { kop: `Waar het meestal lekt`, tekst: [
+        `Rond de uitloop in de goot. Bij kunststof laat de lijm of het rubber na jaren los, bij zink de soldeernaad. Je ziet dan een druppel die precies onder de goot valt, naast of langs de pijp, ook nog een tijdje na de bui.`,
+        `Tussen de uitloop en de pijp. Zakt de regenpijp een stukje, bijvoorbeeld omdat een beugel los zit, dan steekt de uitloop niet ver genoeg meer in de pijp. Bij een flinke bui spuit het water er dan naast.`,
+        `In de bocht onder de goot. Blad en mos blijven daar het eerst hangen. Staat het water in de bocht, dan komt het bij de verbindingen naar buiten en klotst het bij een bui uit de goot rond de uitloop.`,
+        `Een uitloop die het water niet bijhoudt. Bij een groot dak met maar één regenpijp kan de uitloop bij een stortbui te weinig water kwijt. Dan loopt de goot vlak bij de pijp over, terwijl er niets lek is.`,
+      ] },
+      { kop: `Zo zie je wat het is`, tekst: [
+        `Kijk tijdens of vlak na een bui vanaf de grond. Druppelt het op één plek onder de goot, ook als het al gestopt is met regenen, dan zit het meestal in de uitloop zelf. Spuit het tijdens de bui langs de pijp naar buiten, kijk dan of de pijp nog goed in de uitloop steekt. Komt er onderaan weinig water uit de pijp terwijl de goot vol staat, dan zit er een verstopping. Lees dan <a href="/kennisbank/verstopte-regenpijp-lekkende-dakgoot/">verstopte regenpijp</a>. Maak een foto of een filmpje, dan zie ik vaak al wat ik mee moet nemen.`,
+      ] },
+      { kop: `Wat je zelf beter niet doet`, tekst: [
+        `Smeer geen kit rond de uitloop. Op een natte of vuile goot hecht het slecht, en bij een zinken goot moet het er weer helemaal af voordat ik kan solderen. Duw of trek niet aan de pijp om hem terug in de uitloop te krijgen, want een oude beugel of een kunststof bocht breekt dan snel. En zet geen ladder tegen een goot die al los zit.`,
+      ] },
+      { kop: `Hoe ik het aanpak`, tekst: [
+        `Ik maak eerst de goot en de uitloop leeg en kijk of het water weer goed wegloopt. Lekt een kunststof uitloop, dan maak ik de verbinding opnieuw of vervang ik de uitloop. Bij een zinken goot soldeer ik de uitloop opnieuw in de goot, of ik vervang hem als het zink eromheen te dun is. Is de pijp gezakt, dan zet ik hem weer goed in de uitloop en maak ik de beugel vast. Kan één regenpijp het water niet aan, dan kijken we samen of er een tweede uitloop met een eigen pijp bij kan. Zie <a href="/diensten/dakgoot-vervangen/">dakgoot repareren of vervangen</a> en <a href="/diensten/regenpijp-vervangen/">regenpijp vervangen</a>.`,
+      ] },
+      { kop: `Wat kost het?`, tekst: [
+        `Dat hangt af van wat het is: een uitloop opnieuw vastzetten is iets anders dan een nieuwe uitloop solderen of een stuk pijp vervangen. Stuur een foto van de plek vanaf de straat, dan hoor je vooraf wat het kost. Zit de goot alleen vol, dan is het gewoon <a href="/diensten/goten-reinigen/">goten reinigen</a>.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: dakgoot repareren of vervangen`, href: `/diensten/dakgoot-vervangen/` },
+    faq: [
+      { v: `Lekt mijn goot of mijn regenpijp?`, a: `Valt de druppel net onder de goot, waar de pijp begint, dan zit het meestal in de uitloop. Komt het water verderop uit de pijp, bij een verbinding of een scheur, dan zit het in de pijp zelf. Kijk tijdens een bui waar het water precies naar buiten komt.` },
+      { v: `Kan een losse beugel ervoor zorgen dat het lekt?`, a: `Ja. Zit een beugel los, dan zakt de pijp een stukje en steekt de uitloop er niet ver genoeg meer in. Bij een flinke bui spuit het water er dan naast. Vaak is het genoeg om de pijp terug te zetten en de beugel opnieuw vast te maken.` },
+      { v: `Is een lekkende uitloop spoed?`, a: `Meestal niet, zolang het water buiten blijft. Loopt het bij de pijp tegen de gevel en wordt het binnen nat, dan wel: bel of app me met een foto.` },
+    ],
+  },
 ];
 
 export const getArtikel = (slug: string) => ARTIKELEN.find((a) => a.slug === slug);
