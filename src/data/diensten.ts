@@ -625,6 +625,7 @@ export const DIENSTEN: Dienst[] = [
       { v: "Van welk materiaal is de vogelwering?", a: "Ik gebruik standaard kunststof vogelwering. Die komt onder de onderste rij pannen, zodat vogels er niet meer tussen kunnen, terwijl er nog wel lucht onder je pannen blijft. Vanaf de straat zie je er weinig van." },
       { v: "Kan er ook vogelwering onder mijn zonnepanelen?", a: "Ja, dat kan. Onder zonnepanelen nestelen vaak duiven, en die laten veel troep achter op je dak en in de goot. Ik sluit de rand rond de panelen af, zodat ze er niet meer onder komen." },
       { v: "Wanneer kun je vogelwering het beste laten plaatsen?", a: "Het liefst in de herfst of de winter. In het voorjaar en de zomer broeden er vaak vogels onder de pannen, en een nest waarin vogels broeden mag je niet zomaar weghalen. Hoor of zie je in die tijd vogels onder je dak, dan is het beter te wachten tot de jongen uitgevlogen zijn. Daarna sluit ik de rij onder de pannen af. Vogelwering is bij mij standaard van kunststof." },
+      { v: "Ik hoor gekrabbel onder mijn dakpannen. Zijn dat vogels?", a: "Vaak wel. Mussen en spreeuwen kruipen graag onder de onderste rij pannen, vlak boven de goot, en in het voorjaar hoor je daar soms jonge vogels piepen. Kijk 's ochtends vanaf de straat of je vogels onder de onderste rij pannen ziet in- en uitvliegen. Hoor je het vooral 's nachts en hoger in het dak, dan kan het ook een muis of een marter zijn, en dan is vogelwering meestal niet de oplossing. Stuur me een foto van de onderste rij pannen, dan zeg ik eerlijk wat ik zie." },
     ],
   },
   {
