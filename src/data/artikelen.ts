@@ -1352,6 +1352,9 @@ export const ARTIKELEN: Artikel[] = [
       { kop: "Repareren of opnieuw bekleden?", tekst: [
         'Een lekke naad, een losse hoek of een lekkende uitloop is vaak goed te herstellen. Is het zink op veel plekken dun of zit het hout eronder al zacht, dan is het slimmer om de bakgoot in één keer opnieuw te bekleden. Ik kijk eerst wat er echt aan de hand is en zeg eerlijk wat in jouw geval verstandig is. Zie <a href="/diensten/dakgoot-vervangen/">dakgoot repareren of vervangen</a>.',
       ] },
+      { kop: `Een zinken bakgoot: solderen of van binnen coaten`, tekst: [
+        `Zit het lek in een naad of een hoek en is het zink eromheen nog goed, dan soldeer ik die naad opnieuw. Is het zink op meer plekken dun, maar ligt de bak nog goed en is het hout eronder stevig, dan kan ik de goot van binnen coaten, zodat hij weer waterdicht is. Solderen en coaten kan alleen op een droge goot, dus bij regen of vorst wacht ik op een droge dag. Hoe ik kies tussen solderen, coaten en vervangen, lees je in <a href="/kennisbank/zinken-dakgoot-lekt/">zinken dakgoot lekt</a>.`,
+      ] },
       { kop: "Bakgoten in de regio Den Bosch", tekst: [
         `Bakgoten kom je in de regio Den Bosch vooral tegen bij huizen van voor de oorlog, zoals in de Muntel en de Vliert in Den Bosch, en bij de oudere villa's en herenhuizen in Vught. In Oisterwijk ligt de goot bij oude villa's vaak in een houten gootlijst. Wat ik daar tegenkom en hoe ik het aanpak, lees je bij dakgoot repareren in <a href="/werkgebied/den-bosch/dakgoot-vervangen/">Den Bosch</a>, <a href="/werkgebied/vught/dakgoot-vervangen/">Vught</a> en <a href="/werkgebied/oisterwijk/dakgoot-vervangen/">Oisterwijk</a>.`,
       ] },
