@@ -271,6 +271,7 @@ export const PLAATSEN: Plaats[] = [
     omschrijving: "Dakdekker in Tilburg, Udenhout en Berkel-Enschot: lekkage bij lood of een plat dak, volle goten en losse pannen. Vaste prijs vooraf. Bel of app Rens.",
     faq: [
       { v: "Ik woon in een oud arbeidershuis in het Goirke of Korvel. Moet bij een lek het hele dak eraf?", a: "Meestal niet. Bij die oude rijtjes zit een lek vaak in het lood rond de schoorsteen of bij één pan die is gaan schuiven, en dat repareer ik gericht. Zijn de pannen op veel plekken gescheurd of poreus, dan zeg ik eerlijk dat een groter stuk vervangen slimmer is. Tilburg is voor mij zo'n half uur rijden. Stuur daarom eerst een foto van de natte plek en van je dak vanaf de straat via WhatsApp, dan hoor je wanneer ik kan komen." },
+      { v: "Kom je ook in Goirle en Dongen?", a: "Ja. Goirle ligt aan de zuidkant van Tilburg en Dongen aan de noordkant, elk met een eigen gemeente. Ik kom er voor dezelfde klussen als in Tilburg: lekkage, goten, pannen en lood. Tilburg is voor mij zo'n half uur rijden, dus stuur eerst een foto via WhatsApp, dan hoor je wanneer ik kan komen." },
     ],
   },
   {
@@ -284,6 +285,7 @@ export const PLAATSEN: Plaats[] = [
       "Sinds 1997 horen ook Prinsenbeek, Teteringen, Bavel en Ulvenhout bij de gemeente Breda. In die dorpen staan veel vrijstaande huizen en twee-onder-een-kappers met een groot pannendak, vaak met een aanbouw of garage ertegen. Waar zo'n aanbouw tegen het huis zit, ligt een strook lood of zink, en die laat na veel jaren los. In de Heuvel en het Brabantpark, wijken uit de jaren '50 en '60, staan veel rijtjeshuizen en portiekwoningen. Bij de rijtjes zit een lek vaak in het lood rond de schoorsteen, bij de portiekwoningen eerder bij de afvoer of de rand van het platte dak.",
     faq: [
       { v: "Ik woon in een portiekwoning in de Heuvel of het Brabantpark en het lekt. Wie regelt dat?", a: "Bij een portiekwoning is het dak meestal van de VvE, of van de verhuurder als je huurt. Meld het lek daar meteen, want zij moeten in de regel akkoord geven voor de reparatie. Zet ondertussen een emmer onder de druppel en maak foto's van de natte plek. Vragen de VvE of de verhuurder mij om te komen kijken, dan zoek ik waar het water binnenkomt. Breda is voor mij zo'n 40 minuten rijden, dus stuur eerst een foto via WhatsApp, dan hoor je eerlijk wanneer ik kan komen." },
+      { v: "Kom je ook in Etten-Leur en Rijen?", a: "Ja. Etten-Leur ligt aan de westkant van Breda en heeft een eigen gemeente. Rijen hoort bij de gemeente Gilze en Rijen, tussen Breda en Tilburg. Ik kom er voor dezelfde klussen als in Breda: lekkage, goten, pannen en lood. Breda is voor mij zo'n 40 minuten rijden, dus stuur eerst een foto via WhatsApp, dan hoor je eerlijk wanneer ik kan komen." },
     ],
   },
   {
@@ -297,6 +299,7 @@ export const PLAATSEN: Plaats[] = [
       "Stiphout en Mierlo-Hout zijn oude dorpen die aan Helmond zijn vastgegroeid. Daar staan nog veel oudere huizen met een schoorsteen, en een lek zit daar vaak in het lood rond die schoorsteen. In Brandevoort lijken veel huizen oud, maar ze zijn vrij nieuw, gebouwd in een ouderwetse stijl met steile pannendaken en veel hoeken en kilgoten tussen de daken. Juist in die hoeken blijft in de herfst blad liggen. Helmond is voor mij een flink stuk rijden. Stuur daarom eerst een foto via WhatsApp, dan hoor je eerlijk wanneer ik kan komen.",
     faq: [
       { v: "Kom je ook in Stiphout, Mierlo-Hout en Brandevoort?", a: "Ja. Stiphout, Mierlo-Hout en Brandevoort horen bij Helmond, en ik kom er voor dezelfde klussen als in de rest van Helmond, zoals lekkage bij het lood rond de schoorsteen of blad in een kilgoot. Helmond is zo'n 40 minuten rijden vanaf Den Bosch. Bel of app me met een foto, dan hoor je wanneer ik kan komen." },
+      { v: "Kom je ook in Mierlo, Beek en Donk en Aarle-Rixtel?", a: "Ja. Mierlo hoort bij de gemeente Geldrop-Mierlo, en is iets anders dan Mierlo-Hout, dat bij Helmond hoort. Beek en Donk en Aarle-Rixtel horen bij de gemeente Laarbeek, aan de noordkant van Helmond. Ik kom er voor dezelfde klussen als in Helmond: lekkage, goten, pannen en lood. Helmond is voor mij zo'n 40 minuten rijden, dus stuur eerst een foto via WhatsApp, dan hoor je eerlijk wanneer ik kan komen." },
     ],
   },
   {
@@ -310,6 +313,7 @@ export const PLAATSEN: Plaats[] = [
       "In Stratum ligt het Villapark, met veel villa's en herenhuizen van voor de oorlog. Die hebben vaak een steil pannendak, lood rond de schoorsteen en zinken goten die al tientallen jaren meegaan. Lekt het daar, dan zit het meestal in dat oude lood of in een naad van de goot. In Woensel-Noord, het grootste stadsdeel van Eindhoven, staan vooral rijtjes uit de jaren '60, '70 en '80. Daar gaat het vaker om nokvorsten die nog in specie liggen en losraken, of om een goot die is gaan doorhangen en bij een flinke bui overloopt.",
     faq: [
       { v: "Ik woon in een oude villa in het Villapark. Hoe zie ik of het lood rond mijn schoorsteen lekt?", a: "Kijk vanaf de straat met de zoom van je telefoon naar de voet van de schoorsteen. Staat het lood van de stenen af, zitten er scheurtjes in de hoeken of mist er een stuk, dan kan het water erachter lopen. Binnen zie je dat aan een vochtige plek naast de schoorsteen, vooral na regen met wind. Ga niet zelf het dak op. Stuur me een foto van de schoorsteen en van de natte plek, dan zeg ik eerlijk wat ik zie. Eindhoven is voor mij zo'n 40 minuten rijden, dus dan hoor je ook wanneer ik kan komen." },
+      { v: "Kom je ook in Best, Son en Breugel en Nuenen?", a: "Ja. Best, Son en Breugel en Nuenen liggen vlak bij Eindhoven, elk met een eigen gemeente. Best en Son liggen aan de kant van Den Bosch, dus daar ben ik iets eerder dan in Eindhoven zelf. Ik kom er voor dezelfde klussen: lekkage, goten, pannen en lood. Eindhoven is voor mij zo'n 40 minuten rijden, dus stuur eerst een foto via WhatsApp, dan hoor je eerlijk wanneer ik kan komen." },
     ],
   },
 ];
