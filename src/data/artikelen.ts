@@ -990,6 +990,7 @@ export const ARTIKELEN: Artikel[] = [
       { v: "Hoe lang gaat lood op een dak mee?", a: "Vaak tientallen jaren. Hoe lang precies hangt af van hoe goed het destijds is aangebracht en hoeveel het bij warmte en kou moet werken. Bij een ouder huis is het slim om het lood rond de schoorsteen en het dakraam eens te laten nakijken, bijvoorbeeld met de Dak-APK." },
       { v: "Kun je gescheurd lood plakken?", a: "Plakken met tape of kit houdt het hooguit even droog. Op oud lood hecht het slecht, en na een winter zit er weer een kier. Een scheur in een hoek los ik liever op met een nieuw stuk lood." },
       { v: "Lekt het bij de schoorsteen altijd door het lood?", a: "Niet altijd. Het water kan ook door de stenen van de schoorsteen zelf komen, of van boven in de schoorsteen vallen als er geen kap op zit. Meer lees je in de artikelen over lekkage bij de schoorsteen en water in je open haard." },
+      { v: `Werk je met lood of met loodvervanger?`, a: `Meestal met loodvervanger. Dat is lichter, laat zich goed vormen rond een schoorsteen of dakraam en is voor dieven niet interessant. Wil je liever echt lood, bijvoorbeeld omdat er nu ook lood ligt of omdat het beter bij een oud huis past, dan kan dat ook. Zeg het als je een foto stuurt, dan hoor je vooraf wat het kost.` },
     ],
   },
   {
