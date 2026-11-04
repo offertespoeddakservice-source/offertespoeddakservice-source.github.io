@@ -1493,6 +1493,9 @@ export const ARTIKELEN: Artikel[] = [
       { kop: `Staat er een antenne of schotel op je dak?`, tekst: [
         `Een mast op het dak vangt bij storm veel wind. Hij gaat heen en weer en trekt aan de beugel onder de pannen of aan de band om de schoorsteen. Daardoor kan een pan naast de mast net uit de sluiting komen te liggen, of gaat het lood rond de schoorsteen open. Bij gewone regen merk je daar niets van, maar bij harde wind waait het water er dan onder. Lekt het bij jou vlak bij de plek waar de mast of de kabel zit, lees dan <a href="/kennisbank/lekkage-bij-schotel-of-antenne/">lekkage bij een schotel of antenne</a>.`,
       ] },
+      { kop: `Tikt of klappert er iets?`, tekst: [
+        `Hoor je bij harde wind getik of geklapper boven je hoofd, dan zit er vaak iets los: een pan die bij elke windstoot een stukje opwipt, een nokvorst, een strook lood of de plank langs de zijkant van je dak. Waar iets los ligt, kan de regen bij de volgende bui ook naar binnen waaien. Hoe je vindt wat het is, lees je in <a href="/kennisbank/dakpannen-klapperen-bij-wind/">dakpannen klapperen bij wind</a>. Hangt de windveer langs de kopgevel los of is hij rot, kijk dan bij <a href="/kennisbank/windveer-los-of-rot/">windveer los of rot</a>.`,
+      ] },
       { kop: "Wat je nu doet", tekst: [
         'Vang het water op en maak een foto van de natte plek, ook als het later weer droog is. Schrijf op bij wat voor weer het lekte: uit welke hoek de wind kwam en hoe hard het regende. Dat helpt mij om de plek op het dak te vinden. Ga niet zelf het dak op bij harde wind. Lekt het nu flink, kijk dan op de <a href="/spoed/">spoedpagina</a>.',
       ] },
