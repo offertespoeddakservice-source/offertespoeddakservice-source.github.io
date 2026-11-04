@@ -2805,6 +2805,45 @@ export const ARTIKELEN: Artikel[] = [
       { v: `Kun je er ook een extra dakkapel op zetten?`, a: `Nee. Ik repareer lekkage aan een dakkapel die er al staat: de aansluiting op de pannen, het lood en het dakje. Wil je er een bij, dan ga je naar een bedrijf dat daarin gespecialiseerd is.` },
     ],
   },
+  {
+    slug: `dakfolie-kapot`,
+    datum: `2026-11-04`,
+    titel: `Folie onder je pannen kapot?`,
+    h1: `Dakfolie kapot of vergaan: is dat erg en wat doe je eraan?`,
+    metaTitle: `Dakfolie kapot of vergaan: is dat erg? | Spoed Dak Service`,
+    metaDescription: `Hangt de folie onder je dakpannen in flarden, of druppelt het ervan af? Lees wat die folie doet, wanneer een scheur erg is en wanneer het kan wachten.`,
+    intro: `Bij veel huizen zie je op zolder tussen de balken geen houten platen, maar een folie met de panlatten en de pannen erachter. Soms hangt die folie in flarden, zit er een scheur in of druppelt er water van af. Dat schrikt, maar het betekent niet altijd dat je dak lekt. Hieronder lees je wat de folie doet, wanneer een kapotte folie erg is en wat eraan te doen is.`,
+    secties: [
+      { kop: `Wat die folie doet`, tekst: [
+        `De pannen houden het meeste water tegen. Maar bij harde wind, bij stuifsneeuw of onder een pan die net niet goed ligt, komt er wel eens wat water of sneeuw onder de pannen. De folie vangt dat op en laat het naar beneden lopen, de goot in. Hij is dus een tweede laag, achter de pannen. Bij oudere huizen ligt er vaak geen folie, of een oude folie die bros is geworden.`,
+      ] },
+      { kop: `Zo zie je dat de folie op is`, tekst: [
+        `Op zolder: de folie hangt in flarden, scheurt als je ertegenaan komt, is bros of verkleurd, of er zitten gaten in waardoor je de panlatten of de pannen ziet.`,
+        `Onderaan, bij de goot: komt de folie niet meer tot in de goot, dan kan het water dat eroverheen loopt achter de goot langs de muur lopen. Zie <a href="/kennisbank/water-achter-dakgoot/">water achter de dakgoot</a>.`,
+      ] },
+      { kop: `Druppelt het van de folie?`, tekst: [
+        `Zitten de druppels op één plek en alleen na regen of harde wind, dan komt er op die plek water onder de pannen, en zit het lek in de pannen erboven. Zitten de druppels verspreid over de hele folie, vooral na een koude nacht, dan is het vaak condens van binnen. Hoe je dat verschil ziet, lees je in <a href="/kennisbank/condens-of-lekkage-op-zolder/">condens of lekkage op zolder</a>. Ligt er na een sneeuwbui sneeuw op de folie, lees dan <a href="/kennisbank/dak-lekt-bij-sneeuw-of-vorst/">dak lekt bij sneeuw of vorst</a>.`,
+      ] },
+      { kop: `Is een kapotte folie erg?`, tekst: [
+        `Liggen de pannen goed en blijft het droog op zolder, dan is een oude of gescheurde folie meestal geen reden om meteen iets te doen. De pannen doen het meeste werk. Het wordt wel een probleem als er water van de folie af naar binnen druppelt, als het hout eronder nat wordt of als er bij harde wind of sneeuw steeds wat binnenkomt. Dan is het slim om eerst te laten kijken welke pan of welk stuk dak het water binnenlaat.`,
+      ] },
+      { kop: `Wat je zelf beter niet doet`, tekst: [
+        `Plak van binnen geen nieuw plastic of tape tegen de oude folie. Dan sluit je vocht op tussen twee lagen, en dat kan juist natte plekken en schimmel op het hout geven. Prik ook geen gaatjes om het water te laten weglopen, want dan loopt het in je isolatie of op je plafond.`,
+      ] },
+      { kop: `Hoe ik het aanpak`, tekst: [
+        `Ik kijk eerst waar het water vandaan komt: van een pan, de nok, het lood of van binnen. Vaak is het lek in de pannen te verhelpen en hoeft de folie niet meteen te worden vervangen. Komt de folie onderaan niet meer in de goot, dan zorg ik dat het water weer in de goot terechtkomt. Is de folie over het hele dak vergaan, dan kan hij alleen worden vervangen als de pannen en de panlatten eraf gaan. Dat doe je dus meestal bij een dakrenovatie, en daarbij leg ik nieuwe folie en nieuwe panlatten als je dat wilt. Zie <a href="/diensten/dakrenovatie/">dakrenovatie</a> en <a href="/kennisbank/hoe-lang-gaat-een-dak-mee/">hoe lang gaat een pannendak mee</a>.`,
+      ] },
+      { kop: `Wat kost het?`, tekst: [
+        `Moet ik eerst zoeken waar het water binnenkomt en dat lek dichtmaken, dan is het meestal een gerichte lekreparatie: ${lekPrijs}, inclusief materiaal. Moeten de pannen eraf voor nieuwe folie en panlatten, dan is dat groter werk. Stuur een foto van je dak vanaf de straat en van de folie op zolder, dan hoor je wat het ongeveer kost. Je weet de prijs voordat ik begin.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: daklekkage opsporen en repareren`, href: `/diensten/daklekkage/` },
+    faq: [
+      { v: `Mijn huis heeft helemaal geen folie onder de pannen. Is dat een probleem?`, a: `Niet vanzelf. Veel oudere huizen zijn zo gebouwd en blijven jarenlang droog, zolang de pannen, de nok en het lood goed zijn. Wel komt er bij harde wind of stuifsneeuw makkelijker wat binnen. Laat je het dak ooit vernieuwen, dan is dat het moment om er folie onder te laten leggen.` },
+      { v: `Kan de folie vervangen worden zonder de pannen eraf te halen?`, a: `Over het hele dak niet. De folie ligt onder de panlatten en de pannen, en daar kun je van binnen niet goed bij. Voor nieuwe folie gaan de pannen en de panlatten eraf. Daarom gebeurt dat meestal bij een renovatie, en niet als losse klus.` },
+      { v: `Is een kapotte folie spoed?`, a: `Meestal niet. Blijft het droog op zolder, dan kan het wachten. Druppelt er water van de folie op je plafond, op je isolatie of bij een stopcontact, bel of app me dan met een foto van de plek en van je dak vanaf de straat.` },
+    ],
+  },
 ];
 
 export const getArtikel = (slug: string) => ARTIKELEN.find((a) => a.slug === slug);
