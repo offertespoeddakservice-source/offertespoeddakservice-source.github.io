@@ -2685,6 +2685,39 @@ export const ARTIKELEN: Artikel[] = [
       { v: `Kun je een zinken bakgoot ook solderen?`, a: `Ja. Omdat een bakgoot op of in de gevel ligt, komt een lek daar vaak binnen terecht, dus wacht er niet te lang mee. Stuur een foto van de goot en van de natte plek binnen, dan kijk ik mee.` },
     ],
   },
+  {
+    slug: `dak-keuren-bij-huis-kopen`,
+    datum: `2026-11-04`,
+    titel: `Huis kopen? Laat het dak keuren`,
+    h1: `Dak keuren als je een huis koopt: waar ik op let`,
+    metaTitle: `Dak laten keuren bij aankoop huis | Spoed Dak Service`,
+    metaDescription: `Een huis kopen? Een bouwkundige keuring bekijkt het dak vaak alleen van een afstand. Zo laat je het dak zelf nakijken, met toestemming van de verkoper.`,
+    intro: `Als je een huis koopt, let je op de keuken, de badkamer en de fundering. Het dak zie je vanaf de straat nauwelijks, terwijl een lek of een versleten nok later flink kan tegenvallen. Met de Dak-APK kijk ik het dak na van een huis dat je wilt kopen, als de verkoper daar toestemming voor geeft. Hieronder lees je wanneer dat zinvol is, wat ik nakijk en hoe je het regelt.`,
+    secties: [
+      { kop: `Bouwkundige keuring of een keuring van het dak?`, tekst: [
+        `Een bouwkundige keuring bekijkt het hele huis, en het dak vaak alleen vanaf de grond, vanuit een dakraam of van een afstand. Voor veel huizen is dat genoeg. Is het dak oud, zie je bij de bezichtiging iets wat je niet vertrouwt, of zegt de keurder zelf dat het dak beter van dichtbij bekeken kan worden, dan is een aparte keuring van het dak zinvol.`,
+      ] },
+      { kop: `Waar ik op let`, tekst: [
+        `De pannen: gebroken, verschoven of poreus, en of er mos tussen groeit. De nok: zit de specie nog goed, of liggen er al stukjes in de goot. Het lood rond de schoorsteen, het dakraam en langs muren. De goten en de uitloop naar de regenpijp. En op zolder, als dat kan: natte plekken, oude vlekken op het hout en of er folie onder de pannen ligt.`,
+        `Heeft het huis een aanbouw, garage of berging met een plat dak, dan kijk ik ook naar de dakbedekking, de randen en de afvoer. Wat ik bij een keuring verder nakijk, lees je in <a href="/kennisbank/dakinspectie/">dakinspectie</a>.`,
+      ] },
+      { kop: `Zo regel je het`, tekst: [
+        `Vraag via de makelaar of de verkoper toestemming om het dak te laten keuren, en spreek een moment af waarop ik erbij kan, ook op zolder. Heb je in je koopovereenkomst een voorbehoud voor een bouwkundige keuring, kijk dan tot wanneer dat loopt en plan de keuring ruim daarvoor. Stuur me het adres en de datum via WhatsApp, dan hoor je wanneer ik kan.`,
+      ] },
+      { kop: `Wat je krijgt`, tekst: [
+        `Je krijgt een rapport met foto's van de plekken die ik heb nagekeken, met wat er nu of binnenkort moet gebeuren. Zo weet je beter waar je aan toe bent voordat de koop rond is.`,
+      ] },
+      { kop: `Wat kost het?`, tekst: [
+        `De Dak-APK kost ${apkPrijs}. Wat er precies in zit, lees je op de <a href="/dak-apk/">Dak-APK-pagina</a>.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: de Dak-APK`, href: `/dak-apk/` },
+    faq: [
+      { v: `Mag ik het dak laten keuren van een huis dat nog niet van mij is?`, a: `Ja, als de verkoper toestemming geeft. Ik kom alleen met die toestemming, en het liefst is de verkoper of de makelaar erbij om me op zolder te laten.` },
+      { v: `Moet ik zelf bij de keuring zijn?`, a: `Dat hoeft niet, maar het is wel handig. Dan kan ik je ter plekke laten zien wat ik zie, en kun je meteen je vragen stellen.` },
+      { v: `Kun je ook zeggen wat een reparatie zou kosten?`, a: `Zie ik iets wat gemaakt moet worden, dan kun je me vragen wat het kost als ik het voor je doe. Dan hoor je dat vooraf, zodat je weet waar je aan toe bent.` },
+    ],
+  },
 ];
 
 export const getArtikel = (slug: string) => ARTIKELEN.find((a) => a.slug === slug);
