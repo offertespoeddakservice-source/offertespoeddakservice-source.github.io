@@ -51,7 +51,7 @@ const verder = verderLezen[d.slug];
 // Interne links: de andere klussen in deze plaats, en dezelfde klus in de andere plaatsen.
 const zelfdePlaats = MATRIX.filter((c) => c.plaats === p.slug && c.dienst !== d.slug)
   .map((c) => getDienst(c.dienst))
-  .filter((x) => x);
+  .filter((x) => x && !x.verborgen); // geen knoppen naar diensten die verborgen zijn (die pagina's bestaan niet)
 const zelfdeDienst = MATRIX.filter((c) => c.dienst === d.slug && c.plaats !== p.slug)
   .map((c) => getPlaats(c.plaats))
   .filter((x) => x);

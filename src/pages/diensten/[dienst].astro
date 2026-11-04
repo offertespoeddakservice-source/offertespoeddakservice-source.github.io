@@ -39,7 +39,8 @@ const faqSchema = d.faq.length
   : null;
 const schema = faqSchema ? [serviceSchema, faqSchema] : serviceSchema;
 const andere = DIENSTEN.filter((x) => x.slug !== d.slug && !x.verborgen);
-const matrixVoorDienst = MATRIX.filter((c) => c.dienst === d.slug)
+// Verborgen diensten hebben geen pagina's per plaats (die worden niet gebouwd), dus ook geen knoppen ernaartoe.
+const matrixVoorDienst = d.verborgen ? [] : MATRIX.filter((c) => c.dienst === d.slug)
   .map((c) => getPlaats(c.plaats))
   .filter((p) => p);
 const relArtikel = ({
@@ -170,7 +171,7 @@ const review = reviewBij[d.slug];
     </div>
   </section>
 
-  <EchteFotos dienst={d.slug} bestanden={d.fotos} />
+  {d.fotos ? <EchteFotos dienst={d.slug} bestanden={d.fotos} /> : <EchteFotos dienst={d.slug} />}
 
   {d.faq.length > 0 && (
     <section class="section section--soft">
