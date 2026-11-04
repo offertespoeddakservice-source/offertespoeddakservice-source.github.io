@@ -1048,6 +1048,9 @@ export const ARTIKELEN: Artikel[] = [
         `Eén goot, bijvoorbeeld alleen de voorgoot, kost ${GOTEN_PRIJS}: goot leeg, uitloop naar de regenpijp vrijgemaakt, troep mee. Beide goten of een groter of hoger huis: dan hoor je vooraf de vaste prijs.`,
         'Wil je precies weten wat erbij zit, waar de prijs van afhangt en hoe het zit met een prijs per meter? Lees dan <a href="/kennisbank/wat-kost-dakgoot-schoonmaken/">wat kost dakgoot schoonmaken</a>.',
       ] },
+      { kop: "Goten schoonmaken bij jou in de buurt", tekst: [
+        'Woon je in de regio Den Bosch? Per plaats lees je waar ik bij het schoonmaken op let en wat ik daar in de goot tegenkom: in <a href="/werkgebied/rosmalen/goten-reinigen/">Rosmalen</a>, <a href="/werkgebied/berlicum/goten-reinigen/">Berlicum</a>, <a href="/werkgebied/vlijmen/goten-reinigen/">Vlijmen</a>, <a href="/werkgebied/heusden/goten-reinigen/">Heusden</a>, <a href="/werkgebied/sint-michielsgestel/goten-reinigen/">Sint-Michielsgestel</a>, <a href="/werkgebied/schijndel/goten-reinigen/">Schijndel</a>, <a href="/werkgebied/veghel/goten-reinigen/">Veghel</a> en <a href="/werkgebied/waalwijk/goten-reinigen/">Waalwijk</a>. Andere plaatsen vind je bij <a href="/werkgebied/">mijn werkgebied</a>.',
+      ] },
     ],
     dienst: { label: "Bekijk: dakgoot reinigen", href: "/diensten/goten-reinigen/" },
     faq: [
