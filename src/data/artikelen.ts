@@ -1637,6 +1637,9 @@ export const ARTIKELEN: Artikel[] = [
       { kop: "Wat je daarna krijgt", tekst: [
         `Bij mij heet een dakinspectie de <a href="/dak-apk/">Dak-APK</a>. Je krijgt een rapport met foto's van de plekken die aandacht vragen, met uitleg in gewone taal. Ik zeg erbij wat nu nodig is en wat best nog even kan wachten. Niks aan de hand? Dan hoor je dat ook gewoon.`,
       ] },
+      { kop: `Een huis kopen?`, tekst: [
+        `Wil je een huis kopen, dan kan ik het dak keuren als de verkoper daar toestemming voor geeft. Een bouwkundige keuring bekijkt het dak vaak alleen van een afstand. Ik kijk er van dichtbij naar, en ook op zolder als dat kan. Hoe je dat regelt en waar ik dan op let, lees je in <a href="/kennisbank/dak-keuren-bij-huis-kopen/">dak keuren als je een huis koopt</a>.`,
+      ] },
       { kop: "Wat kost een dakinspectie?", tekst: [
         `De Dak-APK kost ${apkPrijs} voor een keuring van je hele dak met een fotorapport. Moet er daarna iets gebeuren, dan hoor je vooraf de vaste prijs, en jij beslist of je dat door mij laat doen. Richtprijzen voor de meeste klussen staan op de <a href="/prijzen/">prijzenpagina</a>.`,
       ] },
