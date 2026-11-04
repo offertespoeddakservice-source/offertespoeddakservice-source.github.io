@@ -90,6 +90,7 @@ export const PLAATSEN: Plaats[] = [
     omschrijving: "Dakdekker in Berlicum en Middelrode: lood bij de schoorsteen, lange goten en losse pannen na storm. Vaste prijs vooraf. Bel of app Rens.",
     faq: [
       { v: "Kom je ook in Middelrode?", a: "Ja. Middelrode ligt vlak bij Berlicum, en allebei horen ze bij de gemeente Sint-Michielsgestel. Het is zo'n kwartier rijden vanaf Den Bosch, dus ik kom er voor dezelfde klussen als in Berlicum zelf." },
+      { v: "Kom je ook in Heeswijk-Dinther en Loosbroek?", a: "Ja. Heeswijk-Dinther en Loosbroek horen bij de gemeente Bernheze. Heeswijk-Dinther ligt vlak bij Middelrode, en Loosbroek daar niet ver vandaan. Ik kom er voor dezelfde klussen als in Berlicum zelf: lekkage, goten, pannen en lood. Stuur gerust eerst een foto via WhatsApp, dan hoor je wanneer ik kan komen." },
     ],
   },
   {
@@ -159,6 +160,7 @@ export const PLAATSEN: Plaats[] = [
     faq: [
       { v: "Kom je bij een lek in Oss ook 's avonds of in het weekend?", a: "Je kunt me dag en nacht bellen of appen, ook in het weekend. Oss is zo'n 25 minuten rijden vanaf Den Bosch. Buiten kantooruren geldt een spoedtoeslag, en ook dan hoor je de vaste prijs voordat ik begin. Twijfel je of het spoed is, stuur dan een foto van de natte plek via WhatsApp. Dan zeg ik eerlijk of het vandaag moet of kan wachten tot een werkdag." },
       { v: "Kom je ook in Berghem, Geffen en de dorpen langs de Maas?", a: "Ja. Ik kom in de hele gemeente Oss, dus ook in Berghem en Geffen, en in de dorpen langs de Maas, zoals Lith, Megen, Ravenstein en Herpen. Ik kom er voor dezelfde klussen als in de stad: lekkage, goten, pannen en lood. Naar de dorpen langs de Maas is het vanaf Den Bosch iets verder rijden dan naar Oss zelf, dus stuur me eerst een foto via WhatsApp. Dan hoor je eerlijk wanneer ik kan komen." },
+      { v: "Kom je ook in Heesch en Nistelrode?", a: "Ja. Heesch en Nistelrode horen bij de gemeente Bernheze, net als Heeswijk-Dinther, Vorstenbosch en Loosbroek. Heesch ligt tussen Den Bosch en Oss, en Nistelrode tussen Heesch en Uden. Ik kom er voor dezelfde klussen als in Oss: lekkage, goten, pannen en lood. Stuur gerust eerst een foto via WhatsApp, dan hoor je wanneer ik kan komen." },
     ],
   },
   {
@@ -236,6 +238,7 @@ export const PLAATSEN: Plaats[] = [
       { v: "Werk je ook aan daken in de binnenstad van Den Bosch?", a: "Ja. In de binnenstad staan veel monumenten, en de binnenstad is beschermd stadsgezicht. Daar kun je niet zomaar een andere pan of ander materiaal gebruiken. Ik kijk eerst wat er nu ligt en herstel met materiaal dat erbij past. Twijfel je of je pand een monument is, vraag het dan na bij de gemeente." },
       { v: "Kom je ook in Engelen, Bokhoven, Nuland en Vinkel?", a: "Ja. Engelen en Bokhoven liggen aan de Maas, Nuland en Vinkel aan de oostkant, en ze horen allemaal bij de gemeente Den Bosch. Ik kom er voor dezelfde klussen als in de stad zelf, en bij lekkage vaak nog dezelfde dag." },
       { v: "Het lekt in Den Bosch 's avonds of in het weekend. Kun je dan komen?", a: "Bellen of appen kan dag en nacht, ook in het weekend. Den Bosch is mijn thuisbasis, dus ik zit meestal niet ver weg. Druppelt het binnen of ligt er een stuk dak open, dan kom ik vaak nog dezelfde dag of avond kijken en maak ik het eerst dicht. Buiten kantooruren komt er een spoedtoeslag bij, en ook dan hoor je de vaste prijs voordat ik begin. Blijft het binnen droog als je de druppel opvangt en kan het veilig wachten tot een werkdag, dan zeg ik dat eerlijk, want dat scheelt je de toeslag. Stuur meteen een foto van de natte plek via WhatsApp." },
+      { v: "Kom je ook in Hedel, Ammerzoden en Kerkdriel, aan de overkant van de Maas?", a: "Ja. Hedel, Ammerzoden en Kerkdriel horen bij de gemeente Maasdriel, in de Bommelerwaard. Hedel ligt vanuit Den Bosch net over de Maas. Ik kom er voor dezelfde klussen als in de stad: lekkage, goten, pannen en lood. Ook in de kleinere dorpen, zoals Velddriel, Hoenzadriel en Alem, kom ik. Stuur gerust eerst een foto via WhatsApp, dan hoor je wanneer ik kan komen." },
     ],
   },
   {
