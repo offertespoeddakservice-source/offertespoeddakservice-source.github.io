@@ -88,6 +88,23 @@ const reviewBij: Record<string, { tekst: string; naam: string; klus: string }> =
   dakreparatie: { tekst: "Snel en mooi dak geplaatst voor een hele nette prijs. Blij mee!", naam: "F. Spolders, Zoetermeer", klus: "dakreparatie" },
 };
 const review = reviewBij[d.slug];
+// Eén zin bovenaan die Google en AI kunnen overnemen: wie, wat en waar (net als op de plaats- en de plaats x klus-pagina's).
+const WAT_PER_DIENST: Record<string, string> = {
+  "goten-reinigen": "het schoonmaken van dakgoten",
+  daklekkage: "daklekkage opsporen en repareren, ook met spoed",
+  dakreparatie: "dakreparaties, zoals losse dakpannen, nokvorsten en lood",
+  "platte-daken": "het repareren en vervangen van platte daken",
+  stormschade: "het afdekken en herstellen van stormschade aan je dak",
+  "dakgoot-vervangen": "het repareren en vervangen van dakgoten",
+  "dakpannen-vervangen": "het vervangen en rechtleggen van dakpannen",
+  "nokvorsten-vervangen": "het repareren en vervangen van nokvorsten",
+  "lood-vervangen": "het vastzetten en vervangen van lood bij de schoorsteen, de muur en het dakraam",
+  "regenpijp-vervangen": "het vervangen en repareren van regenpijpen",
+  dakdoorvoer: "het plaatsen en repareren van dakdoorvoeren",
+  vogelwering: "vogelwering onder dakpannen en zonnepanelen",
+  dakrenovatie: "het opknappen van een versleten dak (dakrenovatie)"
+};
+const watZin = WAT_PER_DIENST[d.slug] ?? d.titel.toLowerCase();
 ---
 
 <Base title={d.metaTitle} description={d.metaDescription} path={path} schema={schema} noindex={d.verborgen === true}>
@@ -98,6 +115,7 @@ const review = reviewBij[d.slug];
         <span class="stars"><span class="ster">★★★★★</span> <b>{SITE.reviews.score.toString().replace(".", ",")}</b> <a class="bron" href={SITE.werkspotUrl} target="_blank" rel="noopener">op Werkspot</a></span>
       </div>
       <h1>{d.h1}</h1>
+      {!d.verborgen && <p class="lead" style="margin-bottom:12px;">Spoed Dak Service is een dakdekker uit 's-Hertogenbosch voor {watZin} in de regio Den Bosch en verder in Brabant.</p>}
       <p class="lead">{d.intro}</p>
       {heeftBedrag ? (
         <p style="margin:16px 0 0; font-size:1.1rem; color:#fff;">
