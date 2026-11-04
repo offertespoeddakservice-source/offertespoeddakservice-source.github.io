@@ -522,6 +522,7 @@ export const DIENSTEN: Dienst[] = [
       { v: "Sluit je de pijp ook aan op de ketel of de WTW-unit?", a: "Nee, ik doe het stuk door het dak: de doorvoerpan en de aansluiting op de pannen. De aansluiting op je ketel, afzuigkap of WTW-unit doet je installateur. We kunnen samen afspreken wie wat doet." },
       { v: "Mijn doorvoer lekt, wat kan het zijn?", a: "Vaak is de kraag rond de pijp uitgedroogd of gescheurd, of ligt de doorvoerpan niet meer goed tussen de andere pannen. Dan loopt het water langs de pijp naar binnen. Ik kijk wat het is en maak het dicht." },
       { v: "Kan dat ook op een plat dak?", a: "Stuur een foto van het dak en de plek, dan kijk ik mee. Op een pannendak doe ik het het vaakst." },
+      { v: "Er komt een warmtepomp of airco. Kun je de leiding door het dak laten gaan?", a: "Ja, het stuk door het dak doe ik. Ik plaats een doorvoerpan die past bij je pannen, zodat de leiding er netjes doorheen kan en het water er omheen loopt. Dan hoeft er geen gat in een gewone pan geboord of gezaagd te worden, want daar begint later vaak een lek. De leiding zelf en de aansluiting op de warmtepomp of airco doet je installateur. Stuur een foto van je dak en vertel waar de leiding naar binnen moet, dan hoor je vooraf wat het kost." },
     ],
   },
   {
