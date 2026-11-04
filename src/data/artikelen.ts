@@ -1147,7 +1147,7 @@ export const ARTIKELEN: Artikel[] = [
     datum: "2026-10-21",
     titel: "Daklekkage en je verzekering",
     h1: "Daklekkage en je verzekering: wat wordt meestal vergoed?",
-    metaTitle: "Vergoedt de verzekering daklekkage? | Spoed Dak Service",
+    metaTitle: "Daklekkage verzekering: wat wordt vergoed?",
     metaDescription:
       "Lekt je dak? De verzekering vergoedt vaak de schade binnen, maar niet altijd de reparatie van het dak zelf. Zo zit het meestal, en dit leg je vast.",
     intro:
