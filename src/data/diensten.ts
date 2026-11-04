@@ -280,7 +280,7 @@ export const DIENSTEN: Dienst[] = [
   {
     slug: "dakgoot-vervangen",
     titel: "Dakgoot vervangen",
-    vanafPrijs: `repareren ${prijsVan("goot_plakken")}`,
+    vanafPrijs: "stuur een foto",
     zieOok: [
       { label: "Regenpijp vervangen", href: "/diensten/regenpijp-vervangen/" },
       { label: "Goten reinigen", href: "/diensten/goten-reinigen/" },
@@ -301,7 +301,7 @@ export const DIENSTEN: Dienst[] = [
       "Vaste prijs vooraf, troep gaat mee",
     ],
     faq: [
-      { v: "Wat kost een dakgoot repareren of vervangen?", a: `Een lek dichtzetten (plakken) kost ${inclBtw("goot_plakken")}, een zinken naad solderen ${inclBtw("goot_solderen")} en een goot die nog goed is van binnen coaten ${inclBtw("goot_coaten")}. Moet de goot helemaal vervangen worden, stuur dan een foto, dan hoor je wat het kost.` },
+      { v: "Wat kost een dakgoot repareren of vervangen?", a: "Dat hangt af van wat er mis is. Een lekkende naad plakken of solderen, een goot die nog goed is van binnen coaten of de hele goot vervangen: dat zijn verschillende klussen. Stuur een foto van de plek waar het lekt en van de goot vanaf de straat, dan hoor je wat het kost. Je weet de prijs voordat ik begin." },
       { v: "Reinigen of vervangen?", a: "Zit er alleen blad in, dan volstaat reinigen. Is de goot doorgeroest of lek op de naden, dan is vervangen op termijn goedkoper. Ik zeg eerlijk wat in jouw geval slim is." },
       { v: "Welk materiaal kies ik?", a: "Zink gaat het langst mee en oogt klassiek; kunststof/pvc is voordeliger en onderhoudsarm. Ik help je kiezen wat bij je huis past." },
       { v: "Kun je een lekkende dakgoot ook repareren in plaats van vervangen?", a: "Vaak wel. Een lekkende naad, een losse hoek, een losse beugel of een lekkende uitloop naar de regenpijp is meestal goed te herstellen. Is de goot op meerdere plekken lek of doorgeroest, dan zeg ik eerlijk dat vervangen slimmer is." },

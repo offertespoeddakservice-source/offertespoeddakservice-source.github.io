@@ -1266,7 +1266,7 @@ export const ARTIKELEN: Artikel[] = [
         'Een goot die door ouderdom lek is geraakt, valt bij de meeste verzekeringen niet onder de dekking. Voor de schade aan je gevel of binnen ligt dat soms anders, maar dat verschilt per polis. Waait de goot los bij een storm, dan is het vaak wel plotselinge schade. Meer hierover lees je in <a href="/kennisbank/daklekkage-verzekering/">daklekkage en je verzekering</a>.',
       ] },
       { kop: "Wat kost het?", tekst: [
-        `Een lek dichtzetten (plakken) kost ${inclBtw("goot_plakken")}, een zinken naad solderen ${inclBtw("goot_solderen")}. Moet de goot helemaal vervangen worden, stuur dan een foto. Je hoort de vaste prijs vooraf. Zit de goot alleen vol, dan is het gewoon <a href="/diensten/goten-reinigen/">goten reinigen</a>. Alle bedragen staan op de <a href="/prijzen/">prijzenpagina</a>.`,
+        `Wat het kost, hangt af van wat er lek is: een naad, een hoek, de uitloop of een losse beugel. Stuur een foto van de plek waar het druppelt, dan hoor je vooraf wat het kost. Dat geldt ook als de goot helemaal vervangen moet worden. Zit de goot alleen vol, dan is het gewoon <a href="/diensten/goten-reinigen/">goten reinigen</a>.`,
       ] },
     ],
     dienst: { label: "Bekijk: dakgoot repareren of vervangen", href: "/diensten/dakgoot-vervangen/" },
@@ -1755,8 +1755,8 @@ export const ARTIKELEN: Artikel[] = [
         "<strong>Hoeveel er aan de hand is.</strong> Zie ik naast die ene pan ook een losse nokvorst of lood dat loslaat, dan hoor je dat vooraf, met wat het samen kost. Jij beslist wat ik meeneem.",
       ] },
       { kop: "Richtprijzen per klus", tekst: [
-        `Een daklekkage opsporen en repareren kost ${lekPrijs}, inclusief materiaal. Een klein plat dak repareren ${inclBtw("platdak")}. Een dakgoot plakken ${inclBtw("goot_plakken")}, solderen ${inclBtw("goot_solderen")} en coaten ${inclBtw("goot_coaten")}. Een regenpijp vervangen ${inclBtw("regenpijp")}. Nokvorsten opnieuw aansmeren ${nokPrijs}.`,
-        'Een goot of nok vervangen, loodwerk of groter werk zoals een hele dakbedekking: stuur een foto, dan hoor je wat het kost. Voor grotere klussen plannen we een paar weken vooruit. Alle bedragen staan op de <a href="/prijzen/">prijzenpagina</a>.',
+        `Een daklekkage opsporen en repareren kost ${lekPrijs}, inclusief materiaal. Een klein plat dak repareren ${inclBtw("platdak")}. Een regenpijp vervangen ${inclBtw("regenpijp")}. Nokvorsten opnieuw aansmeren ${nokPrijs}.`,
+        'Een goot repareren of vervangen, een nok vervangen, loodwerk of groter werk zoals een hele dakbedekking: stuur een foto, dan hoor je wat het kost. Voor grotere klussen plannen we een paar weken vooruit. Alle bedragen staan op de <a href="/prijzen/">prijzenpagina</a>.',
         "Bij spoed buiten kantooruren komt er een toeslag bij, die hoor je vooraf, nooit als verrassing achteraf.",
       ] },
       { kop: "Waarom een vaste prijs vooraf?", tekst: [

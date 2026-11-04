@@ -11,7 +11,7 @@ const score = SITE.reviews.score.toString().replace(".", ",");
 const googleReviewLink = SITE.reviewLink && !SITE.reviewLink.includes("JOUW_PLACE_ID") ? SITE.reviewLink : null;
 const apkPrijs = prijsVan("apk");
 // Richtprijzen op de homepage: een paar kleine klussen met een vanaf-bedrag, de rest staat op /prijzen (alles incl. btw)
-const HOME_PRIJZEN = ["goot_reinigen", "dakpan", "goot_plakken", "daklekkage", "nok_repareren"].map((k) => PRIJZEN.find((r) => r.sleutel === k)!);
+const HOME_PRIJZEN = ["goot_reinigen", "dakpan", "platdak", "daklekkage", "nok_repareren"].map((k) => PRIJZEN.find((r) => r.sleutel === k)!);
 const FOTO_WA = waHref("Hallo, ik wil graag weten wat het kost. Ik stuur een foto mee.");
 
 const faq = [
