@@ -296,6 +296,49 @@ export const ARTIKELEN_EXTRA: Artikel[] = [
       { v: `Is een lekkende dakgoot bij vorst erger?`, a: `Het kan. Water dat in de goot blijft staan, bevriest en zet dan uit, en dat kan een naad of hoekstuk verder openduwen. Bij vorst wordt een plek op de stoep met druppels ook glad. Zet er een bak onder en laat het na de vorst nakijken.` },
     ],
   },
+  {
+    slug: `dak-lekt-na-reparatie`,
+    datum: `2026-11-05`,
+    titel: `Dak lekt nog na de reparatie?`,
+    h1: `Dak lekt nog na de reparatie: hoe kan dat, en wat doe je nu?`,
+    metaTitle: `Dak lekt nog na reparatie: hoe kan dat? | Spoed Dak Service`,
+    metaDescription: `Dak gerepareerd, maar na de volgende bui weer nat? Vaak is het restvocht, een tweede lek of water dat verderop binnenkomt. Zo zoek je uit wat het is.`,
+    intro: `Het lek is gemaakt, en toch zie je na de volgende bui weer een natte plek. Dat is vervelend, maar het betekent niet meteen dat de reparatie niet goed is. Er zijn een paar bekende oorzaken, en de meeste zijn goed uit te zoeken. Hieronder lees je welke dat zijn, hoe je ze uit elkaar houdt en wat je nu doet.`,
+    secties: [
+      { kop: `Lekt het nu? Eerst dit`, tekst: [
+        `Zet een emmer onder de druppel, haal spullen weg en maak een foto van de natte plek, met de datum erbij. Ga niet zelf het dak op. Wat je verder meteen kunt doen, staat op de <a href="/spoed/">spoedpagina</a>.`,
+      ] },
+      { kop: `Nieuw water, of oud water dat nog opdroogt?`, tekst: [
+        `Na een lek zit er vaak nog water in het plafond, de isolatie of het hout erboven. Dat droogt langzaam, en een vlek kan nog weken donker blijven of zelfs een stukje groter worden, zonder dat er nieuw water bij komt. Teken met potlood de rand van de vlek af. Wordt hij na een droge week kleiner of lichter, dan is het restvocht. Wordt hij na een bui juist groter of natter, dan komt er nog water bij. Hoe lang drogen duurt, lees je in <a href="/kennisbank/plafond-drogen-na-lekkage/">plafond laten drogen na een lekkage</a>.`,
+      ] },
+      { kop: `Er zat een tweede lek`, tekst: [
+        `Op een ouder dak is het niet gek als er meer dan één zwakke plek is. Het water van twee lekken kan op dezelfde plek binnenkomen, en dan merk je de tweede pas als de eerste dicht is. Dat zie je vaak bij een schoorsteen, waar het lood aan meer dan één kant kan lekken, en bij een dak waar ook de nok of een pan verderop los ligt.`,
+      ] },
+      { kop: `Het water loopt verder dan je denkt`, tekst: [
+        `Water loopt onder de pannen en over de folie of het hout vaak een flink stuk naar beneden of opzij, voordat het binnen zichtbaar wordt. De natte plek binnen zit daardoor zelden recht onder het echte lek. Is er gerepareerd op de plek die het meest voor de hand lag, dan kan het echte lek hoger of opzij zitten. Lees <a href="/kennisbank/daklekkage-opsporen/">daklekkage opsporen</a>.`,
+      ] },
+      { kop: `Het lekt alleen bij wind, of alleen bij een stortbui`, tekst: [
+        `Lekt het na de reparatie alleen bij harde wind uit één richting, of alleen bij een flinke stortbui, dan gaat het vaak om een plek die bij gewone regen droog blijft. Schrijf op bij wat voor weer het lekt, dat helpt bij het zoeken. Lees <a href="/kennisbank/dak-lekt-bij-harde-wind/">dak lekt bij harde wind</a> en <a href="/kennisbank/dak-lekt-bij-hevige-regen/">dak lekt bij hevige regen</a>.`,
+      ] },
+      { kop: `Of is het condens?`, tekst: [
+        `Druppelt het vooral op koude ochtenden, ook als het dagen droog is geweest, en zie je druppels verspreid over de folie of het hout? Dan is het vaak condens en geen lek. Dat komt in de winter vaker voor, zeker na het isoleren. Lees <a href="/kennisbank/condens-of-lekkage-op-zolder/">condens of lekkage op zolder</a>.`,
+      ] },
+      { kop: `Bel eerst wie de reparatie deed`, tekst: [
+        `Is de reparatie pas gedaan, bel of app dan eerst de dakdekker die hem deed. Vertel wat je ziet, stuur je foto's en zeg bij wat voor weer het lekte. Geef hem de kans om te kijken, want hij weet wat hij heeft gedaan en waar hij heeft gezocht. Wat er voor afspraken gelden, staat meestal op de offerte of de factuur. Ging het om een nieuw dak of een nieuwbouwhuis, lees dan <a href="/kennisbank/nieuw-dak-lekt/">nieuw dak lekt</a>.`,
+        `Heb ik bij jou een lek gerepareerd en is het weer nat, bel of app me dan meteen, met een foto van de plek. Dan kijk ik waar het water nu vandaan komt.`,
+      ] },
+      { kop: `Een tweede mening`, tekst: [
+        `Reageert de dakdekker niet, of kom je er samen niet uit? Dan kun je een andere vakman laten kijken. Bewaar de foto's, de offerte en de rekening van de eerste reparatie, en zeg erbij wat er toen is gedaan. Ik kijk dan waar het water nu binnenkomt, maak foto's van wat ik zie en zeg eerlijk of het om dezelfde plek gaat of om een andere. Je hoort vooraf wat het kost. Twijfel je over je rechten, vraag dan advies bij het Juridisch Loket.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: daklekkage & spoed`, href: `/diensten/daklekkage/` },
+    faq: [
+      { v: `Hoe weet ik of de vlek nog restvocht is of een nieuw lek?`, a: `Teken de rand van de vlek af met potlood en kijk na een paar droge dagen en na de volgende bui. Wordt hij kleiner of lichter, dan droogt hij op. Wordt hij na regen groter of natter, dan komt er nog water bij. Stuur me een foto van voor en na de bui als je twijfelt.` },
+      { v: `Moet de dakdekker die het repareerde terugkomen?`, a: `Is de reparatie pas gedaan, vraag hem dan eerst om te komen kijken. Lekt het op een andere plek dan waar hij heeft gewerkt, dan kan het ook een tweede lek zijn. Leg vast wat je ziet, met foto's en de datum, zodat jullie samen kunnen kijken wat er aan de hand is.` },
+      { v: `Kan een dak op twee plekken tegelijk lekken?`, a: `Ja, zeker bij een ouder dak. Het water van twee lekken komt soms op dezelfde plek binnen. Dan zie je de tweede pas als de eerste dicht is. Daarom kijk ik bij een lek ook naar de plekken eromheen en erboven.` },
+      { v: `Hoe lang moet ik wachten voordat ik het plafond schilder?`, a: `Tot de plek helemaal droog is en na een paar flinke buien droog blijft. Dan weet je ook zeker dat er geen nieuw water meer bij komt. Bij een kleine plek is dat vaak een paar weken, bij een betonnen plafond soms langer.` },
+    ],
+  },
 ];
 
 // Extra vragen bij bestaande artikelen. artikelen.ts is te groot om nog te laten groeien, daarom staan nieuwe vragen hier.
