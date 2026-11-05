@@ -1883,7 +1883,7 @@ export const ARTIKELEN: Artikel[] = [
     slug: "plat-dak-vervangen-of-repareren",
     titel: "Plat dak: repareren of vervangen?",
     h1: "Plat dak vervangen of repareren? EPDM, bitumen en de kosten",
-    metaTitle: "Plat dak lekt: repareren of vervangen? | Spoed Dak Service",
+    metaTitle: "Plat dak repareren of vervangen? | Spoed Dak Service",
     metaDescription:
       "Plat dak dat lekt: repareren of de hele bedekking vervangen? Het verschil tussen EPDM en bitumen, wanneer wat loont, en hoe ik het lek opspoor.",
     intro:
