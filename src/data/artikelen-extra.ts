@@ -339,6 +339,48 @@ export const ARTIKELEN_EXTRA: Artikel[] = [
       { v: `Hoe lang moet ik wachten voordat ik het plafond schilder?`, a: `Tot de plek helemaal droog is en na een paar flinke buien droog blijft. Dan weet je ook zeker dat er geen nieuw water meer bij komt. Bij een kleine plek is dat vaak een paar weken, bij een betonnen plafond soms langer.` },
     ],
   },
+  {
+    slug: `lekkende-dakgoot-verzekering`,
+    datum: `2026-11-05`,
+    titel: `Lekkende dakgoot en je verzekering`,
+    h1: `Lekkende dakgoot en een natte muur: betaalt de verzekering?`,
+    metaTitle: `Dakgoot lekt: betaalt de verzekering? | Spoed Dak Service`,
+    metaDescription: `Natte muur of plafond door een lekkende of overlopende dakgoot? Wat je verzekeraar vaak wel en niet vergoedt, wat je vastlegt en wanneer het onderhoud heet.`,
+    intro: `Een goot die lekt of overloopt, maakt eerst de buitenmuur nat. Gaat dat lang door, of loopt het water achter de goot langs naar binnen, dan krijg je een natte plek bovenin de muur of op het plafond. Of je verzekering daar iets aan betaalt, hangt vooral af van hoe het kwam: plotseling, of door slijtage en een goot die al lang vol zat. Hieronder lees je hoe het meestal zit. Wat er in jouw polis staat, gaat voor.`,
+    secties: [
+      { kop: `Lekt het nu binnen? Eerst dit`, tekst: [
+        `Zet een emmer neer, schuif spullen van de natte muur af en maak foto's, binnen en van de goot buiten, voordat je iets opruimt. Zit de natte plek bij een stopcontact of een lamp, zet dan in de meterkast de groep van die kamer uit. Wat je verder meteen doet, staat op de <a href="/spoed/">spoedpagina</a>.`,
+      ] },
+      { kop: `Wat vaak wel wordt vergoed`, tekst: [
+        `De schade binnen: een nat plafond, een vlek op de muur, behang dat loslaat of een vloer die nat is geworden. Veel inboedel- en opstalverzekeringen vergoeden dat als het water plotseling binnenkwam, bijvoorbeeld bij een storm, een zware stortbui of een goot die bij een windstoot losscheurde. Is een stuk goot afgewaaid of door een tak geraakt, dan valt de reparatie van de goot soms ook onder je opstalverzekering.`,
+      ] },
+      { kop: `Wat meestal niet wordt vergoed`, tekst: [
+        `De goot zelf, als hij lekt door slijtage: een naad die na veel jaren loslaat, zink dat dun is geworden of kunststof dat bros is. En schade die langzaam is ontstaan, zoals een muur die al maanden nat werd omdat de goot steeds overliep. Verzekeraars zien dat in de regel als onderhoud. Ook een goot die lang vol blad zat en daardoor overliep, valt daar vaak onder.`,
+      ] },
+      { kop: `Buitenmuur of binnen: wat je ziet`, tekst: [
+        `Loopt het water buiten langs de gevel, dan wordt vooral de buitenmuur nat. Groene strepen of afgebrokkelde stenen zie je daar pas na een tijd. Loopt het water achter de goot langs naar binnen, dan zie je het sneller binnen, bovenin de muur of op het plafond. Hoe dat komt, lees je in <a href="/kennisbank/water-achter-dakgoot/">water achter de dakgoot</a> en <a href="/kennisbank/natte-plek-bovenin-muur/">natte plek bovenin de muur</a>.`,
+      ] },
+      { kop: `Dit leg je vast`, tekst: [
+        `Foto's van de natte plek binnen, met de datum, en van de goot buiten, vanaf de straat en het liefst tijdens een bui. Schrijf op wanneer het begon en bij wat voor weer het nat werd. Bewaar de rekening van de reparatie en van wat je verder hebt laten herstellen. Bel je verzekeraar of kijk in je polisvoorwaarden voordat je de schade binnen laat herstellen, want soms willen ze eerst zelf komen kijken.`,
+      ] },
+      { kop: `Wat je van mij krijgt`, tekst: [
+        `Repareer ik je goot, dan maak ik foto's van wat ik aantref en van de reparatie, met een korte omschrijving van wat er aan de hand was. Die kun je naar je verzekeraar sturen. Of ze iets vergoeden, beslist je verzekeraar, niet ik.`,
+      ] },
+      { kop: `Woon je in een rij of in een huurhuis?`, tekst: [
+        `Loopt de goot door naar de buren en zit het lek aan hun kant, dan is het slim om het samen op te lossen. Lees <a href="/kennisbank/lekkage-muur-buren/">nat langs de muur met de buren</a>. Huur je, meld het dan meteen bij je verhuurder, want de goot is in de regel zijn zaak. Lees <a href="/kennisbank/lekkage-huurhuis/">lekkage in een huurhuis</a>. Meer over je verzekering bij een daklek in het algemeen staat in <a href="/kennisbank/daklekkage-verzekering/">daklekkage en je verzekering</a>.`,
+      ] },
+      { kop: `Laat de goot op tijd maken`, tekst: [
+        `Een goot die lekt, wordt niet vanzelf beter, en een verzekeraar verwacht in de regel dat je de schade beperkt. Hoe ik een lekkende naad, hoek of uitloop repareer, lees je in <a href="/kennisbank/dakgoot-lekt/">dakgoot lekt</a>. Stuur een foto van de goot vanaf de straat en van de natte plek, dan hoor je vooraf wat het kost. Zie ook <a href="/diensten/dakgoot-vervangen/">dakgoot repareren of vervangen</a>.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: dakgoot repareren of vervangen`, href: `/diensten/dakgoot-vervangen/` },
+    faq: [
+      { v: `Betaalt de verzekering een nieuwe dakgoot?`, a: `Meestal niet als de goot lekt door ouderdom of slijtage. Is de goot bij een storm losgescheurd of door een vallende tak beschadigd, dan valt de reparatie soms wel onder je opstalverzekering. Kijk in je polisvoorwaarden of bel je verzekeraar.` },
+      { v: `Mijn muur is nat door een overlopende goot. Wordt dat vergoed?`, a: `Dat hangt af van je polis en van hoe het kwam. Liep de goot over bij een zware stortbui, dan is dat eerder plotselinge schade. Liep hij over omdat hij al lang vol blad zat, dan zien verzekeraars dat vaak als onderhoud. Maak foto's van de goot en van de natte muur, en meld het bij je verzekeraar.` },
+      { v: `Moet ik eerst mijn verzekeraar bellen of eerst de goot laten maken?`, a: `Druppelt het binnen, dan mag je de schade in de regel eerst beperken, bijvoorbeeld door de goot te laten leegmaken of een lek dicht te laten maken. Maak wel eerst foto's en bewaar de rekening. Meld het daarna zo snel als je kunt bij je verzekeraar.` },
+      { v: `Krijg ik van jou iets voor mijn verzekeraar?`, a: `Ja. Ik maak foto's van wat ik aantref en van de reparatie, met een korte omschrijving van wat er aan de hand was. Die kun je meesturen. Of je verzekeraar iets vergoedt, beslist hij zelf.` },
+    ],
+  },
 ];
 
 // Extra vragen bij bestaande artikelen. artikelen.ts is te groot om nog te laten groeien, daarom staan nieuwe vragen hier.
