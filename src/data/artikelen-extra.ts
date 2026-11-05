@@ -440,4 +440,7 @@ export const FAQ_ERBIJ: Record<string, Artikel["faq"]> = {
   "lekkage-bij-zonnepanelen": [
     { v: `Er komen zonnepanelen op mijn dak. Moet ik het dak eerst laten nakijken?`, a: `Dat is slim, zeker bij een ouder dak. Liggen de panelen er eenmaal, dan kom je veel lastiger bij de pannen, de nok en het lood eronder. Een gebroken pan, een nok met losse specie of lood dat los zit, regel je het handigst voordat de panelen erop gaan. Stuur me een paar foto's van je dak vanaf de straat, dan zeg ik eerlijk of er eerst iets moet gebeuren. Wil je een rapport met foto's van je hele dak, dan kan dat met de Dak-APK voor ${apkPrijs}.` },
   ],
+  "dakraam-lekt": [
+    { v: `Mijn dakraam lekt alleen als het open of op de ventilatiestand staat. Is het dak dan lek?`, a: `Meestal niet. Blijft het droog zolang het raam dicht is, dan komt het water vaak via het raam zelf binnen: langs de rubbers, door de ventilatieklep bovenin, of omdat het raam niet meer goed sluit. Zet het raam bij regen dicht en kijk of het dan droog blijft. Lekt het ook als het raam dicht is, dan zit het eerder in de aansluiting met het dak, en daar kijk ik naar. Stuur me een foto van het raam van binnen en, als het lukt, van buiten vanaf de straat.` },
+  ],
 };
