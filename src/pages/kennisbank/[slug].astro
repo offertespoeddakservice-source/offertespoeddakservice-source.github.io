@@ -74,7 +74,7 @@ const ONDERWERPEN: string[][] = [
 ];
 const groep = ONDERWERPEN.find((g) => g.includes(a.slug)) ?? [];
 // Spoedregel na het eerste stuk tekst: alleen bij artikelen over lekkage en storm, en alleen als daar nog geen link naar /spoed/ staat.
-const LEK_ARTIKELEN = new Set([...ONDERWERPEN[0], ...ONDERWERPEN[2], "bakgoot-lekt", "lekkage-bij-dakdoorvoer", "lood-op-dak", "lekkage-bij-aanbouw", "daktrim-lekt", "regenpijp-in-de-muur-lekt", "dakleer-repareren", "epdm-dak-lekt"]);
+const LEK_ARTIKELEN = new Set([...ONDERWERPEN[0], ...ONDERWERPEN[2], "bakgoot-lekt", "lekkage-bij-dakdoorvoer", "lood-op-dak", "lekkage-bij-aanbouw", "daktrim-lekt", "regenpijp-in-de-muur-lekt", "dakleer-repareren", "epdm-dak-lekt", "plat-dak-vervangen-of-repareren", "veranda-of-overkapping-lekt"]);
 const toonSpoedregel = LEK_ARTIKELEN.has(a.slug) && !(a.secties[0]?.tekst ?? []).some((t) => t.includes('href="/spoed/"'));
 // Gootartikelen: een gewone zin met links naar dakgoot repareren of vervangen per plaats. Niet bij bakgoot-lekt, die heeft de lekkagezin al.
 const GOOT_ARTIKELEN = new Set(["dakgoot-lekt", "verstopte-regenpijp-lekkende-dakgoot", "water-achter-dakgoot", "dakgoot-lekt-bij-regenpijp", "kunststof-dakgoot-lekt"]);
@@ -83,7 +83,7 @@ const GOOT_FOTOREGEL = new Set(["hoe-vaak-dakgoot-reinigen", "wat-kost-dakgoot-s
 // Artikelen over pannen en reparatiekosten: een gewone zin met links naar dakreparatie per plaats.
 const REPARATIE_ARTIKELEN = new Set(["wat-kost-een-dakdekker", "vorstschade-dakpannen", "hoe-lang-gaat-een-dak-mee"]);
 // Stormartikelen: een gewone zin met links naar stormschade per plaats, in plaats van de zin met lekkagepagina's (geen twee linkzinnen onder elkaar).
-const STORM_ARTIKELEN = new Set(["stormschade-eerste-hulp", "nokvorsten-los", "dakpan-kapot-of-verschoven", "tak-of-boom-op-dak", "windveer-los-of-rot", "dakpannen-klapperen-bij-wind"]);
+const STORM_ARTIKELEN = new Set(["stormschade-eerste-hulp", "nokvorsten-los", "dakpan-kapot-of-verschoven", "tak-of-boom-op-dak", "windveer-los-of-rot", "dakpannen-klapperen-bij-wind", "dakpannen-vastzetten-tegen-storm"]);
 // Echte foto's van Rens (uit fotos.ts) bij artikelen waar ze echt bij passen. Alleen artikelen die na publicatie niet zijn aangepast.
 const FOTOS_BIJ: Record<string, { soort: string; max: number }> = {
   "dak-lekt-bij-harde-wind": { soort: "pannen", max: 2 },
