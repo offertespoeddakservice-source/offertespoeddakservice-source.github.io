@@ -176,6 +176,46 @@ export const ARTIKELEN_EXTRA: Artikel[] = [
       { v: `Is een lek in een nieuw dak spoed?`, a: `Druppelt het in een kamer, bij een lamp of een stopcontact, of wordt een plafond bol, dan wel. Meld het meteen bij de aannemer of de dakdekker. Kunnen die niet snel komen, bel of app mij dan met een foto. Is het een vochtige plek die na de bui weer opdroogt, dan kan het vaak een paar dagen wachten.` },
     ],
   },
+  {
+    slug: `plafond-drogen-na-lekkage`,
+    datum: `2026-11-05`,
+    titel: `Plafond drogen na een lekkage`,
+    h1: `Plafond na een daklek: hoe lang laten drogen, en wanneer kun je schilderen?`,
+    metaTitle: `Plafond drogen na lekkage | Spoed Dak Service`,
+    metaDescription: `Lek dicht, maar nog een natte plek of bruine kring in je plafond? Zo laat je het drogen, zo zie je of het droog is en zo komt de vlek niet terug.`,
+    intro: `Is het lek in je dak gemaakt, dan wil je die natte plek of bruine kring zo snel mogelijk weg hebben. Maar een plafond dat te vroeg wordt geschilderd, krijgt de vlek vaak gewoon terug. Hieronder lees je hoe lang drogen meestal duurt, hoe je ziet of het droog is, en wat het betekent als de vlek na een tijd weer terugkomt.`,
+    secties: [
+      { kop: `Eerst: is het lek echt dicht?`, tekst: [
+        `Drogen heeft pas zin als er geen nieuw water meer bij komt. Wordt de plek na een flinke bui weer groter of natter, dan zit er nog een lek. Lekt het nu, kijk dan op de <a href="/spoed/">spoedpagina</a> wat je meteen doet. Bolt het plafond op, lees dan eerst <a href="/kennisbank/plafond-bolt-op-door-lekkage/">plafond bolt op na een lekkage</a>.`,
+      ] },
+      { kop: `Hoe lang duurt drogen?`, tekst: [
+        `Dat hangt af van hoe nat het is geworden en waar het plafond van gemaakt is. Een kleine plek in een plafond van gipsplaat is vaak binnen een paar weken droog. Een betonnen plafond met een laag stucwerk erop houdt water veel langer vast, en dan kan het ruim een maand of langer duren. Is ook de isolatie op zolder nat geworden, dan duurt het langer, want die geeft het vocht langzaam af. Lees daarover <a href="/kennisbank/isolatie-nat-na-lekkage/">isolatie nat na een lekkage</a>.`,
+      ] },
+      { kop: `Zo help je het drogen`, tekst: [
+        `Zet een raam op een kier of het rooster open, en houd de kamer op een gewone temperatuur. Zet geen kachel of bouwdroger vlak onder het plafond, want als het te snel droogt, kan het stucwerk scheuren of loslaten. Haal spullen weg die tegen de natte plek aan staan, en zet kasten een stukje van de muur af, zodat er lucht langs kan.`,
+      ] },
+      { kop: `Zo zie je dat het droog is`, tekst: [
+        `Een natte plek is vaak donkerder en voelt kouder aan dan de rest. Is de kleur weer gelijk en voelt de plek net zo warm als het plafond eromheen, dan is hij meestal droog. Met een vochtmeter uit de bouwmarkt kun je het nameten: vergelijk de plek met een stuk plafond dat niet nat is geweest. Twijfel je, wacht dan liever nog een week.`,
+      ] },
+      { kop: `De bruine kring wegwerken`, tekst: [
+        `Water neemt vuil en kalk mee uit het plafond, en bij het drogen blijft dat achter als een gele of bruine rand. Gewone muurverf dekt dat slecht: na een paar dagen schijnt de kring er weer doorheen. Zet de vlek daarom eerst in met een isolerende of vlekkendekkende grondverf, en schilder daarna het hele plafond, zodat je geen verschil ziet.`,
+        `Is het stucwerk los, de gipsplaat zacht of doorgezakt, of zitten er scheuren in, dan moet dat stuk hersteld worden. Dat is werk voor een stukadoor of een klusbedrijf. Dat doe ik zelf niet.`,
+      ] },
+      { kop: `Komt de vlek terug?`, tekst: [
+        `Komt de vlek na een paar weken of na de volgende flinke bui terug, dan komt er nog water bij. Dan zit het lek op een andere plek dan je dacht, of is er een tweede lek. Komt de vlek juist terug na koude dagen, terwijl het droog is geweest, dan kan het condens zijn. Lees <a href="/kennisbank/vochtplek-plafond/">vochtplek in het plafond</a> en <a href="/kennisbank/condens-of-lekkage-op-zolder/">condens of lekkage op zolder</a>. Stuur me een foto van de plek en vertel wanneer hij terugkwam, dan zeg ik eerlijk wat ik denk.`,
+      ] },
+      { kop: `Voor je verzekering`, tekst: [
+        `Maak foto's van de vlek en het plafond voordat je gaat schilderen of iets laat herstellen, en bewaar de rekeningen. Kwam het lek plotseling, bijvoorbeeld door een storm, dan wordt de schade binnen vaak vergoed. Dat verschilt per polis. Lees <a href="/kennisbank/daklekkage-verzekering/">daklekkage en je verzekering</a>.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: daklekkage & spoed`, href: `/diensten/daklekkage/` },
+    faq: [
+      { v: `Kan ik gewoon over een watervlek heen schilderen?`, a: `Liever niet met alleen muurverf. De bruine rand schijnt er dan na een paar dagen weer doorheen. Laat de plek eerst helemaal drogen, zet hem in met een isolerende of vlekkendekkende grondverf en schilder daarna het plafond.` },
+      { v: `Hoe lang moet ik wachten voordat ik schilder?`, a: `Tot de plek helemaal droog is. Bij een kleine plek in gipsplaat is dat vaak een paar weken, bij een betonnen plafond met stucwerk soms een maand of langer. Schilder je te vroeg, dan blijft het vocht onder de verf zitten en kan de verf gaan bladderen of de vlek terugkomen.` },
+      { v: `Het plafond is droog, maar het ruikt muf. Wat nu?`, a: `Zet de kamer en de zolder een paar dagen goed open. Blijft het muf ruiken of zie je zwarte puntjes, dan zit er nog vocht, vaak in de isolatie of het hout boven het plafond. Laat dat nakijken voordat je gaat schilderen.` },
+      { v: `Betaalt de verzekering het herstel van mijn plafond?`, a: `Vaak wel, als het lek plotseling ontstond, bijvoorbeeld door storm. Komt het door slijtage of achterstallig onderhoud, dan wordt soms alleen de schade binnen vergoed, of niets. Kijk in je polis en maak foto's voordat je iets laat herstellen.` },
+    ],
+  },
 ];
 
 // Extra vragen bij bestaande artikelen. artikelen.ts is te groot om nog te laten groeien, daarom staan nieuwe vragen hier.
