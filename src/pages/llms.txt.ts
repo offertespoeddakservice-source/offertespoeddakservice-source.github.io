@@ -5,6 +5,7 @@ import { SITE } from "../site.config.ts";
 import { PLAATSEN } from "../data/plaatsen.ts";
 import { DIENSTEN } from "../data/diensten.ts";
 import { ARTIKELEN } from "../data/artikelen.ts";
+import { MATRIX } from "../data/matrix.ts";
 
 // Duidelijke namen voor AI. Een dienst die hier niet staat, krijgt zijn gewone titel.
 const NAMEN: Record<string, string> = {
@@ -21,6 +22,20 @@ const ZICHTBARE_DIENSTEN = DIENSTEN.filter((d) => !d.verborgen);
 // Veelgelezen uitleg uit de eigen kennisbank. Een artikel dat verborgen is of niet bestaat, valt vanzelf weg.
 const UITLEG = ["daklekkage-opsporen", "dak-lekt-bij-harde-wind", "water-achter-dakgoot", "dakgoot-lekt", "dakraam-lekt", "lekkage-bij-schoorsteen", "stormschade-eerste-hulp", "daklekkage-verzekering"];
 const UITLEG_ARTIKELEN = UITLEG.map((s) => ARTIKELEN.find((a) => a.slug === s)).filter((a) => a && !a.verborgen) as typeof ARTIKELEN;
+// Pagina's per plaats en klus (uit matrix.ts), zodat een AI bij een vraag als "daklekkage in Vught" meteen de lokale pagina vindt. Verborgen diensten vallen weg.
+const KLUS_NAMEN: Record<string, string> = {
+  daklekkage: "Daklekkage",
+  "goten-reinigen": "Dakgoot schoonmaken",
+  "dakgoot-vervangen": "Dakgoot repareren of vervangen",
+  stormschade: "Stormschade",
+  dakreparatie: "Dakreparatie",
+  dakrenovatie: "Dakrenovatie",
+};
+const LOKAAL = MATRIX.flatMap((c) => {
+  const d = ZICHTBARE_DIENSTEN.find((x) => x.slug === c.dienst);
+  const p = PLAATSEN.find((x) => x.slug === c.plaats);
+  return d && p ? [{ naam: `${KLUS_NAMEN[d.slug] ?? d.titel} in ${p.naam}`, pad: `/werkgebied/${p.slug}/${d.slug}/` }] : [];
+});
 
 export const GET: APIRoute = () => {
   const u = SITE.url;
@@ -48,6 +63,9 @@ export const GET: APIRoute = () => {
     "## Werkgebied",
     `Vanuit ${SITE.basisplaats} in de regio Den Bosch. Klussen verder weg, zoals in Breda, Eindhoven en Helmond, worden vooraf ingepland.`,
     ...PLAATSEN.map((p) => `- [Dakdekker in ${p.naam}](${u}/werkgebied/${p.slug}/)`),
+    "",
+    "## Per plaats en klus",
+    ...LOKAAL.map((l) => `- [${l.naam}](${u}${l.pad})`),
     "",
     "## Veelgelezen uitleg",
     ...UITLEG_ARTIKELEN.map((a) => `- [${a.titel}](${u}/kennisbank/${a.slug}/)`),
