@@ -17,18 +17,33 @@ const groepen = GROEPEN.map((g, i) => ({
   kop: g.kop,
   artikelen: [...g.slugs.map((s) => zichtbaar.find((a) => a.slug === s)).filter((a) => a), ...(i === GROEPEN.length - 1 ? overig : [])] as typeof ARTIKELEN,
 }));
+// Gestructureerde gegevens: de kennisbank als verzameling, met alle zichtbare artikelen in de volgorde van de pagina.
+const lijstSchema = {
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  name: "Daktips & eerlijke uitleg",
+  url: `${SITE.url}/kennisbank/`,
+  inLanguage: "nl-NL",
+  publisher: { "@id": `${SITE.url}/#bedrijf` },
+  mainEntity: {
+    "@type": "ItemList",
+    itemListElement: groepen.flatMap((g) => g.artikelen).map((a, i) => ({ "@type": "ListItem", position: i + 1, url: `${SITE.url}/kennisbank/${a.slug}/`, name: a.titel })),
+  },
+};
 ---
 
 <Base
   title={`Daktips: lekkage, goten en storm | ${SITE.bedrijfsnaam}`}
   description="Eerlijke daktips van dakdekker Rens: daklekkage opsporen, een vochtplek in je plafond, een lekkende dakgoot, stormschade en wat het kost."
   path="/kennisbank"
+  schema={lijstSchema}
 >
   <section class="hero">
     <div class="wrap">
       <p class="eyebrow" style="color:#ffb486;">Kennisbank</p>
       <h1>Daktips & eerlijke uitleg</h1>
       <p class="lead">Praktische uitleg over je dak, zonder verkooppraatje. Zo weet je wat er speelt voordat je belt.</p>
+      <p class="lead" style="margin-top:10px;">Uitleg van Rens van Spoed Dak Service, dakdekker uit 's-Hertogenbosch voor lekkage, losse pannen, goten en stormschade in de regio Den Bosch.</p>
     </div>
   </section>
   <section class="section">
