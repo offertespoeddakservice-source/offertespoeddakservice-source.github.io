@@ -135,4 +135,45 @@ export const ARTIKELEN_EXTRA: Artikel[] = [
       { v: `Mag ik iemand die aanbelt gewoon wegsturen?`, a: `Ja. Je hoeft niemand te woord te staan en je hoeft niets uit te leggen. Zeg gewoon dat je zelf een dakdekker belt als het nodig is.` },
     ],
   },
+  {
+    slug: `nieuw-dak-lekt`,
+    datum: `2026-11-05`,
+    titel: `Nieuw dak lekt al?`,
+    h1: `Je dak is nieuw en lekt al: nieuwbouw of net vernieuwd, wie lost het op?`,
+    metaTitle: `Nieuw dak lekt: nieuwbouw of renovatie | Spoed Dak Service`,
+    metaDescription: `Lekt het dak van je nieuwbouwhuis, of je dak dat net vernieuwd is? Meld het eerst bij wie het heeft gemaakt. Zo leg je het vast en zo beperk je de schade.`,
+    intro: `Lekt je dak terwijl het nieuw is, dan meld je het eerst bij wie het heeft gemaakt: de aannemer bij een nieuwbouwhuis, of de dakdekker die je dak heeft vernieuwd. Dat voelt vreemd, want je verwacht juist dat een nieuw dak droog blijft. Toch komt het voor, vaak bij een aansluiting die net niet goed is afgewerkt. Hieronder lees je wat je meteen doet, wat je vastlegt en wanneer je zelf iemand anders kunt bellen.`,
+    secties: [
+      { kop: `Lekt het nu? Eerst dit`, tekst: [
+        `Zet een emmer onder de druppel, haal spullen weg en leg handdoeken neer. Zit de natte plek bij een lamp of stopcontact, zet dan in de meterkast de groep van die kamer uit. Ga niet zelf het dak op, ook niet om even te kijken. Wat je verder meteen kunt doen, staat op de <a href="/spoed/">spoedpagina</a>.`,
+      ] },
+      { kop: `Waar een nieuw dak vaak lekt`, tekst: [
+        `Bij een nieuw dak zit het lek zelden in de pannen of de dakbedekking zelf. Meestal zit het bij een aansluiting: het lood of de strook rond een dakraam, de schoorsteen of een ontluchtingspijp, de overgang van het schuine dak naar een plat dak of een aanbouw, of de rand waar het dak op de goot uitkomt. Ook een kabel van zonnepanelen die onder een pan door naar binnen gaat, is een bekende plek.`,
+        `Druppelt het alleen op koude ochtenden, ook als het dagen droog is? Dan kan het ook condens zijn. In een nieuw huis zit vaak nog bouwvocht in de muren en vloeren, en een nieuw huis is goed dicht, zodat dat vocht langer binnen blijft. Lees <a href="/kennisbank/condens-of-lekkage-op-zolder/">condens of lekkage op zolder</a>.`,
+      ] },
+      { kop: `Een nieuwbouwhuis: eerst de aannemer`, tekst: [
+        `Kort na de oplevering heb je meestal een onderhoudstermijn van een paar maanden. In die tijd hoort de aannemer gebreken op te lossen, en een lek is een gebrek. Meld het schriftelijk, met foto's en de datum, en bewaar wat je stuurt.`,
+        `Daarna loopt bij veel nieuwbouwhuizen nog een regeling voor gebreken, bijvoorbeeld via Woningborg of SWK. Hoe lang die loopt en wat eronder valt, staat in je koop- of aanneemovereenkomst en in de papieren die je bij de oplevering kreeg. Kijk daar eerst in voordat je iemand anders laat komen.`,
+      ] },
+      { kop: `Net een nieuw dak laten leggen: eerst die dakdekker`, tekst: [
+        `Is je dak kort geleden vernieuwd of gerepareerd, bel of app dan eerst de dakdekker die het werk heeft gedaan. Laat hem weten wat je ziet, stuur foto's en geef hem de kans om het op te lossen. Wat er voor afspraken gelden, staat meestal op de offerte of de factuur.`,
+      ] },
+      { kop: `Dit leg je vast`, tekst: [
+        `Maak foto's van de natte plek binnen, het liefst met de datum erbij, en vanaf de straat van het dak. Schrijf op wanneer het lekt: bij elke bui, alleen bij harde wind of alleen bij een stortbui. Bewaar je berichten aan de aannemer of de dakdekker. Dat helpt als je het gebrek meldt, en ook als je de schade binnen bij je verzekering meldt. Lees ook <a href="/kennisbank/daklekkage-verzekering/">daklekkage en je verzekering</a>.`,
+      ] },
+      { kop: `Laat het niet zomaar door een ander maken`, tekst: [
+        `Laat je het lek door een andere vakman repareren voordat de aannemer of de eerste dakdekker heeft kunnen kijken, dan kan het lastiger worden om je kosten later terug te krijgen. De schade beperken mag wel, en dat wordt in de regel ook van je verwacht: water opvangen en een open plek tijdelijk laten afdekken. Zeg dan wel tegen wie het werk heeft gedaan dat je dat doet, en bewaar de foto's en de rekening.`,
+      ] },
+      { kop: `Wanneer je mij belt`, tekst: [
+        `Reageert de aannemer of de dakdekker niet, of pas over weken, terwijl het binnen druppelt? Dan kun je mij bellen of appen. Ik dek het eerst af, zodat het binnen droog blijft, en maak foto's van wat ik zie, met een korte omschrijving. Die kun je doorsturen naar wie het werk heeft gedaan. Valt het lek nergens meer onder of bestaat het bedrijf niet meer, dan zoek ik het lek en maak ik het goed. Je hoort vooraf wat het kost. Hoe ik een lek zoek, lees je in <a href="/kennisbank/daklekkage-opsporen/">daklekkage opsporen</a>.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: daklekkage & spoed`, href: `/diensten/daklekkage/` },
+    faq: [
+      { v: `Mijn aannemer reageert niet en het lekt. Mag ik zelf een dakdekker bellen?`, a: `Om de schade te beperken wel. Laat een open plek tijdelijk afdekken, maak foto's en bewaar de rekening. Meld de aannemer schriftelijk dat je dat hebt gedaan en dat hij het lek nog moet oplossen. Twijfel je over je rechten, vraag dan advies bij het Juridisch Loket.` },
+      { v: `Het lekt pas een paar jaar na de oplevering. Kan ik nog bij de aannemer terecht?`, a: `Vaak wel. Bij veel nieuwbouwhuizen loopt de regeling voor gebreken een aantal jaren door na de oplevering. Kijk in de papieren van je oplevering wat eronder valt en hoe je een gebrek meldt. Valt het er niet meer onder, dan kan ik kijken waar het lekt en hoor je vooraf wat het kost.` },
+      { v: `Is het condens of een lek in mijn nieuwe huis?`, a: `Druppelt het vooral op koude ochtenden, ook als het dagen droog is, en zie je de druppels verspreid over de folie of het hout, dan is het vaak condens. Wordt een plek juist natter na een bui, dan is het eerder een lek. Ventileer goed, zeker het eerste jaar, en stuur me een foto als je twijfelt.` },
+      { v: `Is een lek in een nieuw dak spoed?`, a: `Druppelt het in een kamer, bij een lamp of een stopcontact, of wordt een plafond bol, dan wel. Meld het meteen bij de aannemer of de dakdekker. Kunnen die niet snel komen, bel of app mij dan met een foto. Is het een vochtige plek die na de bui weer opdroogt, dan kan het vaak een paar dagen wachten.` },
+    ],
+  },
 ];
