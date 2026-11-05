@@ -113,7 +113,7 @@ export const ARTIKELEN: Artikel[] = [
       { v: "Kan ik het lood zelf dichtkitten?", a: "Een likje kit houdt het soms even droog, maar meestal niet lang. Lood dat los zit moet goed vast of vervangen worden, anders lekt het bij de volgende flinke bui weer." },
       { v: "Kun je snel komen als het binnen druppelt?", a: "Bij spoed in de regio Den Bosch lukt dat vaak nog dezelfde dag. Bel of WhatsApp me met een foto." },
       { v: "Wat kost het om lekkage bij de schoorsteen te laten repareren?", a: `Zit het lek in een stuk lood dat los zit of in een pan naast de schoorsteen, dan valt het meestal onder een gewone lekreparatie: ${lekPrijs}, inclusief het opsporen en het materiaal. Moet het lood rondom de hele schoorsteen vernieuwd worden, dan is het meer werk. Ook dan hoor je vooraf de vaste prijs, voordat ik begin.` },
-      { v: "Ik zie bruine vlekken op de muur van de schoorsteen, ook als het droog is. Is dat lekkage?", a: "Niet altijd. Komen de vlekken vooral als je stookt, en worden ze na een flinke bui niet groter, dan is het vaak condens in het kanaal. De rook koelt in een koude schoorsteen af, het vocht slaat aan de binnenkant neer en trekt samen met roet door de stenen naar buiten. Je herkent het aan bruine of gele vlekken die een beetje plakken en naar roet ruiken. Worden de vlekken juist groter na regen, ook als je niet stookt, dan komt er water van buiten bij, via het lood, de kop van de schoorsteen of een open kanaal zonder kap. Bij het vegen kijk ik naar het kanaal en bovenop naar de kap en het lood. Zit het in hoe je kachel op het kanaal is aangesloten, dan zeg ik eerlijk dat je daarvoor de vakman nodig hebt die hem heeft geplaatst. Stuur me gerust een foto van de vlekken via WhatsApp." },
+      { v: "Ik zie bruine vlekken op de muur van de schoorsteen, ook als het droog is. Is dat lekkage?", a: "Niet altijd. Komen de vlekken vooral als je stookt, en worden ze na een flinke bui niet groter, dan is het vaak condens in het kanaal. De rook koelt in een koude schoorsteen af, het vocht slaat aan de binnenkant neer en trekt samen met roet door de stenen naar buiten. Je herkent het aan bruine of gele vlekken die een beetje plakken en naar roet ruiken. Worden de vlekken juist groter na regen, ook als je niet stookt, dan komt er water van buiten bij, via het lood, de kop van de schoorsteen of een open kanaal zonder kap. Ik kijk dan bovenop naar de kap en het lood. Zit het in hoe je kachel op het kanaal is aangesloten, dan zeg ik eerlijk dat je daarvoor de vakman nodig hebt die hem heeft geplaatst. Stuur me gerust een foto van de vlekken via WhatsApp." },
     ],
   },
   {
@@ -273,10 +273,10 @@ export const ARTIKELEN: Artikel[] = [
         `Natte isolatie houdt het vocht lang vast tegen het hout van je dak. Dat hout droogt dan niet, en na een tijd zie je schimmel of zacht hout. Een natte plek in de isolatie is ook een koude plek, en daar slaat in de winter weer condens op neer. Dan lijkt het alsof het blijft lekken, terwijl het lek allang dicht is. Hoe je condens van een lek onderscheidt, lees je in <a href="/kennisbank/condens-of-lekkage-op-zolder/">condens of lekkage op zolder</a>.`,
       ] },
       { kop: "Hoe ik het aanpak", tekst: [
-        `Eerst zoek ik waar het water binnenkomt en maak ik dat dicht. Daarna kijk ik op zolder hoe ver de isolatie nat is. Een klein stuk laat ik liever drogen dan dat ik het vervang. Is een groter stuk door en door nat of ingezakt, dan haal ik dat eruit en zet ik er nieuwe isolatie terug, aan de warme kant netjes dicht met folie. Zie <a href="/diensten/dakisolatie/">dakisolatie</a>.`,
+        `Eerst zoek ik waar het water binnenkomt en maak ik dat dicht. Daarna kijk ik op zolder hoe ver de isolatie nat is en zeg ik eerlijk of drogen genoeg is. Isoleren doe ik zelf niet. Moet er een groter stuk uit, laat dat dan doen door een isolatiebedrijf dat de folie aan de warme kant weer netjes dichtmaakt.`,
       ] },
       { kop: "Wat kost het?", tekst: [
-        `Een lek opsporen en dichten kost meestal ${lekPrijs}, inclusief materiaal. Moet er ook isolatie vervangen worden, dan hangt de prijs af van hoe groot dat stuk is. Je hoort vooraf de vaste prijs, voordat ik begin. Kwam het lek plotseling, bijvoorbeeld door een storm, dan valt schade aan de isolatie soms onder je opstalverzekering. Maak foto's voordat je iets weghaalt. Meer lees je in <a href="/kennisbank/daklekkage-verzekering/">daklekkage en je verzekering</a>.`,
+        `Een lek opsporen en dichten kost meestal ${lekPrijs}, inclusief materiaal. Je hoort vooraf de vaste prijs, voordat ik begin. Kwam het lek plotseling, bijvoorbeeld door een storm, dan valt schade aan de isolatie soms onder je opstalverzekering. Maak foto's voordat je iets weghaalt. Meer lees je in <a href="/kennisbank/daklekkage-verzekering/">daklekkage en je verzekering</a>.`,
       ] },
     ],
     dienst: { label: "Bekijk: daklekkage & spoed", href: "/diensten/daklekkage/" },
@@ -2129,7 +2129,7 @@ export const ARTIKELEN: Artikel[] = [
         `Bij gebakken pannen van klei zie je vorstschade meestal als schilfers en afgesprongen laagjes. Bij betonpannen slijt eerder de bovenlaag weg: de pan wordt ruw en korrelig, houdt meer water en mos vast en kan op den duur ook scheuren.`,
       ] },
       { kop: `Waar het het eerst gebeurt`, tekst: [
-        `Aan de kant van het dak die weinig zon krijgt, vaak de noordkant, en onder bomen. Daar blijven de pannen het langst nat. Onder dik mos, want mos houdt het water tegen de pan vast. En onderaan het dak, waar al het water van het dakvlak overheen loopt. Hoe je mos aanpakt zonder je pannen te beschadigen, lees je in <a href="/kennisbank/mos-op-dak-verwijderen/">mos op je dak</a>.`,
+        `Aan de kant van het dak die weinig zon krijgt, vaak de noordkant, en onder bomen. Daar blijven de pannen het langst nat. Onder dik mos, want mos houdt het water tegen de pan vast. En onderaan het dak, waar al het water van het dakvlak overheen loopt.`,
       ] },
       { kop: `Is het erg?`, tekst: [
         `Een paar pannen met wat schilfers lekken niet meteen. Maar een pan die steeds dunner wordt of een scheur heeft, laat op den duur water door, en elke vorstperiode maakt het erger. De schilfers zelf kunnen samen met het blad de uitloop van je goot dichtzetten. Lekt het al binnen, kijk dan op de <a href="/spoed/">spoedpagina</a> wat je meteen doet.`,
@@ -2175,22 +2175,22 @@ export const ARTIKELEN: Artikel[] = [
       ] },
       { kop: `Kijk eerst of er echt niets meer op zit`, tekst: [
         `Soms loopt de afvoer van een cv-ketel, een geiser of een gaskachel nog door een oud kanaal, vaak met een buis erin. Zo'n kanaal mag niet worden afgedekt, want dan kunnen de rookgassen niet meer weg. Weet je niet zeker wat er op je schoorsteen is aangesloten, laat dat dan eerst nakijken door je installateur.`,
-        `Stook je nog op een kachel of open haard? Dan moet het kanaal open blijven. Ook dan kan er een kap op die past bij een schoorsteen die nog in gebruik is. Laat hem dan wel elk stookseizoen vegen, zie <a href="/kennisbank/schoorsteen-vegen-hoe-vaak/">hoe vaak schoorsteen vegen</a>.`,
+        `Stook je nog op een kachel of open haard? Dan moet het kanaal open blijven. Ook dan kan er een kap op die past bij een schoorsteen die nog in gebruik is. Laat hem dan wel elk stookseizoen vegen door een schoorsteenveger.`,
       ] },
       { kop: `Een schoorsteen die je deelt met de buren`, tekst: [
         `Staat de schoorsteen op de muur tussen jou en de buren, dan zitten er vaak twee kanalen in. Gebruiken zij hun kanaal nog wel, dan kan er op jouw kanaal een plaat of kap terwijl het hunne open blijft. Spreek dat wel eerst samen af. Meer daarover lees je in <a href="/kennisbank/lekkage-gedeelde-schoorsteen/">lekkage bij een gedeelde schoorsteen</a>.`,
       ] },
       { kop: `Laat hem eerst nog één keer vegen`, tekst: [
-        `Zit er nog oud roet in het kanaal, laat het dan vegen voordat het wordt afgedekt. Oud roet trekt vocht aan en geeft bruine vlekken en een vieze lucht in huis. Vegen en afdekken kan vaak in dezelfde keer.`,
+        `Zit er nog oud roet in het kanaal, laat het dan vegen voordat het wordt afgedekt. Oud roet trekt vocht aan en geeft bruine vlekken en een vieze lucht in huis. Dat doet een schoorsteenveger, daarna kan de kap erop.`,
       ] },
       { kop: `Hoe ik het aanpak`, tekst: [
-        `Ik kijk eerst van buiten naar de schoorsteen: de kop, de voegen bovenop, het lood eromheen en hoeveel kanalen erin zitten. Daarna zet ik er een kap of afdekplaat op die past en die het kanaal laat ademen. Zie ik dat het lood of de pannen rond de schoorsteen ook aandacht nodig hebben, dan hoor je dat meteen. Zitten de stenen of voegen van de schoorsteen zelf slecht, dan zeg ik dat eerlijk, want daarvoor heb je een metselaar nodig. Zie ook <a href="/diensten/schoorsteen-vegen/">schoorsteen vegen</a> en <a href="/diensten/dakreparatie/">dakreparatie</a>.`,
+        `Ik kijk eerst van buiten naar de schoorsteen: de kop, de voegen bovenop, het lood eromheen en hoeveel kanalen erin zitten. Daarna zet ik er een kap of afdekplaat op die past en die het kanaal laat ademen. Zie ik dat het lood of de pannen rond de schoorsteen ook aandacht nodig hebben, dan hoor je dat meteen. Zitten de stenen of voegen van de schoorsteen zelf slecht, dan zeg ik dat eerlijk, want daarvoor heb je een metselaar nodig. Zie ook <a href="/diensten/dakreparatie/">dakreparatie</a> en <a href="/diensten/lood-vervangen/">lood vervangen</a>.`,
       ] },
       { kop: `Wat kost het?`, tekst: [
         `Dat hangt af van de schoorsteen en wat erop moet. Je hoort vooraf de vaste prijs, voordat ik begin. Richtprijzen staan op de <a href="/prijzen/">prijzenpagina</a>.`,
       ] },
     ],
-    dienst: { label: `Bekijk: schoorsteen vegen`, href: `/diensten/schoorsteen-vegen/` },
+    dienst: { label: `Bekijk: dakreparatie`, href: `/diensten/dakreparatie/` },
     faq: [
       { v: `Moet een schoorsteen die ik niet meer gebruik worden afgedekt?`, a: `Het hoeft niet, maar het is wel slim. Zolang het kanaal open staat, valt er bij elke bui regen in. Dat trekt in de stenen, en na een tijd zie je binnen een vochtige of bruine plek. Ook vogels kunnen erin nestelen. Een kap of afdekplaat die het kanaal laat ademen, voorkomt dat.` },
       { v: `Kan ik de schoorsteen niet beter laten weghalen?`, a: `Dat kan, maar het is een grotere klus: het kanaal moet eruit en het gat in het dak moet goed worden dichtgemaakt. Gebeurt dat niet goed, dan lekt het jaren later precies op die plek. Voor de meeste schoorstenen die niet meer gebruikt worden, is een kap of plaat genoeg. Twijfel je, stuur me dan een foto van je schoorsteen, dan zeg ik eerlijk wat ik ervan denk.` },
