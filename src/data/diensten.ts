@@ -84,7 +84,7 @@ export const DIENSTEN: Dienst[] = [
       },
       {
         v: "Reken je per meter goot?",
-        a: `Nee. Je hoort één vaste prijs voor de hele klus, voordat ik begin. Voor een rijtjeswoning is dat ${GOTEN_PRIJS}: beide goten leeg, de uitloop naar de regenpijp vrij en de troep gaat mee. Heb je een hoekhuis, een twee-onder-een-kap of een vrijstaand huis, of zitten je goten hoog, dan noem ik vooraf de vaste prijs. Stuur gerust een foto van je huis vanaf de straat via WhatsApp, dan kan ik die vaak meteen noemen.`,
+        a: `Nee. Je hoort één vaste prijs voor de hele klus, voordat ik begin. Eén goot, bijvoorbeeld alleen de voorgoot, kost ${GOTEN_PRIJS}: goot leeg, de uitloop naar de regenpijp vrij en de troep gaat mee. Moeten beide goten schoon, heb je een hoekhuis, een twee-onder-een-kap of een vrijstaand huis, of zitten je goten hoog, dan noem ik vooraf de vaste prijs. Stuur gerust een foto van je huis vanaf de straat via WhatsApp, dan kan ik die vaak meteen noemen.`,
       },
       {
         v: "Neem je de goot van mijn garage, aanbouw of schuur ook mee?",

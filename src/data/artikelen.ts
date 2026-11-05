@@ -2097,7 +2097,7 @@ export const ARTIKELEN: Artikel[] = [
         `Zit de regenpijp zelf verstopt, ook als de goot leeg is? Lees dan <a href="/kennisbank/verstopte-regenpijp-lekkende-dakgoot/">verstopte regenpijp of lekkende dakgoot</a>.`,
       ] },
       { kop: `Liever laten doen?`, tekst: [
-        `Bij een rijtjeswoning kost het ${GOTEN_PRIJS}: beide goten leeg, de uitloop naar de regenpijp vrij en de troep gaat mee. Terwijl ik boven ben, kijk ik meteen naar de pannen, het lood en de goot zelf, en je hoort eerlijk wat ik zie. Wat erbij zit en waar de prijs van afhangt, lees je in <a href="/kennisbank/wat-kost-dakgoot-schoonmaken/">wat kost dakgoot schoonmaken</a>.`,
+        `Eén goot, zoals de voorgoot, kost ${GOTEN_PRIJS} en de troep gaat mee. Voor beide goten hoor je vooraf de prijs. Terwijl ik boven ben, kijk ik meteen naar de pannen, het lood en de goot zelf, en je hoort eerlijk wat ik zie. Wat erbij zit en waar de prijs van afhangt, lees je in <a href="/kennisbank/wat-kost-dakgoot-schoonmaken/">wat kost dakgoot schoonmaken</a>.`,
       ] },
     ],
     dienst: { label: "Bekijk: dakgoot reinigen", href: "/diensten/goten-reinigen/" },
