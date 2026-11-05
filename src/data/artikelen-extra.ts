@@ -381,6 +381,45 @@ export const ARTIKELEN_EXTRA: Artikel[] = [
       { v: `Krijg ik van jou iets voor mijn verzekeraar?`, a: `Ja. Ik maak foto's van wat ik aantref en van de reparatie, met een korte omschrijving van wat er aan de hand was. Die kun je meesturen. Of je verzekeraar iets vergoedt, beslist hij zelf.` },
     ],
   },
+  {
+    slug: `druppelen-horen-plafond`,
+    datum: `2026-11-05`,
+    titel: `Je hoort druppelen, maar ziet geen water?`,
+    h1: `Je hoort water druppelen in je plafond of muur, maar ziet niets: waar komt het vandaan?`,
+    metaTitle: `Druppelen horen in plafond of muur | Spoed Dak Service`,
+    metaDescription: `Hoor je bij regen getik of gedruppel boven je plafond of in de muur, maar zie je geen natte plek? Zo zoek je uit of het van het dak, de goot of een leiding komt.`,
+    intro: `Je ligt in bed en hoort boven je hoofd getik of gedruppel, maar op het plafond zie je niets. Dat is vervelend, want je weet niet of er iets aan de hand is. Vaak is er een gewone verklaring, maar soms is het het begin van een lek dat je pas later ziet. Hieronder lees je hoe je uitzoekt waar het geluid vandaan komt, en wanneer je beter even belt.`,
+    secties: [
+      { kop: `Eerst: wanneer hoor je het?`, tekst: [
+        `Let goed op wanneer je het geluid hoort. Hoor je het alleen tijdens of vlak na regen, dan komt het water van buiten: van het dak, de goot of een regenpijp. Hoor je het ook als het dagen droog is, of juist als er iemand doucht of een kraan openstaat, dan is een leiding of de afvoer veel waarschijnlijker. Dan heb je een loodgieter nodig. Kijk ook of je watermeter draait terwijl alle kranen dicht zijn.`,
+      ] },
+      { kop: `Getik van buiten`, tekst: [
+        `Niet elk getik is water dat binnenkomt. Regen die op een loodslab valt, op een metalen kap op de schoorsteen of op het profiel rond een dakraam, kan binnen klinken alsof het in je plafond druppelt. Dat merk je vooral op zolder of in een slaapkamer onder het schuine dak. Druppelt er water uit een goot op een vensterbank of op een plat dakje eronder, dan hoor je dat binnen ook. Kijk bij de volgende bui uit het raam of ga even naar buiten om te zien waar het water op valt.`,
+      ] },
+      { kop: `Water dat je nog niet ziet`, tekst: [
+        `Komt er wel water binnen, dan loopt het eerst over de folie, de panlatten of een balk. Soms druppelt het op de isolatie of op de bovenkant van een plafond van gipsplaat. Daar trekt het in, en pas na een tijd zie je een vlek of een bolling. Ook in een spouwmuur, of langs een regenpijp die binnen in de muur zit, kan water naar beneden lopen zonder dat je het meteen ziet. Lees ook <a href="/kennisbank/regenpijp-in-de-muur-lekt/">regenpijp in de muur lekt</a> en <a href="/kennisbank/plafond-bolt-op-door-lekkage/">plafond bolt op na een lekkage</a>.`,
+      ] },
+      { kop: `Zo zoek je het zelf uit`, tekst: [
+        `Kun je veilig op zolder komen, ga dan tijdens of vlak na een bui met een zaklamp kijken op de plek waar je het geluid hoort. Kijk naar de onderkant van de pannen of het dakbeschot, naar de balken, de isolatie en de pijpen die door het dak gaan. Een natte streep op het hout wijst vaak de weg naar boven. Leg een stuk karton of een oude handdoek onder die plek, dan zie je de volgende keer of er water op valt. Heb je geen zolder, kijk dan of het plafond onder de plek kouder of donkerder is dan de rest.`,
+      ] },
+      { kop: `Of is het condens?`, tekst: [
+        `Hoor je het vooral op koude ochtenden, ook als het droog is geweest? Dan kan het condens zijn: vocht uit het huis dat tegen het koude dak of tegen een koude pijp neerslaat en naar beneden druppelt. Dat gebeurt ook bij een ontluchtingspijp of de afvoer van een afzuiging die over een koude zolder loopt. Lees <a href="/kennisbank/condens-of-lekkage-op-zolder/">condens of lekkage op zolder</a> en <a href="/kennisbank/lekkage-bij-dakdoorvoer/">lekkage bij een dakdoorvoer</a>.`,
+      ] },
+      { kop: `Wanneer je niet wacht`, tekst: [
+        `Hoor je het druppelen boven een lamp, een stopcontact of een plafond van gipsplaat, of zie je de plek ineens bol staan of verkleuren? Wacht dan niet. Zet in de meterkast de groep van die kamer uit en blijf niet onder een bolling staan. Wat je verder meteen doet, staat op de <a href="/spoed/">spoedpagina</a>. Lees ook <a href="/kennisbank/water-uit-lamp-plafond/">water uit de lamp</a>.`,
+      ] },
+      { kop: `Hoe ik het aanpak`, tekst: [
+        `Stuur me een bericht: wanneer je het hoort, waar in huis, en een foto van het plafond en van die kant van je dak vanaf de straat. Dan zeg ik eerlijk of het eerder van het dak, de goot of een leiding komt. Komt het van het dak, dan kijk ik eerst op zolder en daarna buiten waar het water binnenkomt, zonder onnodig iets open te breken. Je hoort vooraf wat het kost. Hoe ik een lek zoek, lees je in <a href="/kennisbank/daklekkage-opsporen/">daklekkage opsporen</a>.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: daklekkage & spoed`, href: `/diensten/daklekkage/` },
+    faq: [
+      { v: `Ik hoor druppelen, maar mijn plafond is droog. Lekt mijn dak?`, a: `Niet per se. Hoor je het alleen bij regen, dan kan het water buiten op een loodslab, een kap of een vensterbank tikken. Het kan ook water zijn dat wel binnenkomt, maar nog op de isolatie of een balk blijft liggen. Kijk tijdens een bui met een zaklamp op zolder. Zie je nat hout of natte isolatie, dan lekt het wel. Stuur me een foto, dan kijk ik mee.` },
+      { v: `Ik hoor het ook als het droog is. Wat is het dan?`, a: `Dan komt het meestal niet van het dak. Een lekkende leiding, de afvoer van de badkamer of condens in een koude pijp is dan waarschijnlijker. Kijk of je watermeter draait terwijl alle kranen dicht zijn. Bij een leiding heb je een loodgieter nodig.` },
+      { v: `Kan ik wachten tot ik een vlek zie?`, a: `Liever niet te lang. Water dat steeds op dezelfde plek op de isolatie of het plafond valt, maakt het hout en de isolatie nat, en een plafond van gipsplaat kan daardoor gaan bollen. Hoor je het bij elke bui, laat het dan nakijken.` },
+      { v: `Is druppelen in het plafond spoed?`, a: `Hoor je het boven een lamp of een stopcontact, of staat het plafond bol, dan wel. Zet de groep van die kamer uit in de meterkast en bel of app me. Hoor je alleen af en toe een tikje bij harde regen en blijft alles droog, dan kan het meestal een paar dagen wachten.` },
+    ],
+  },
 ];
 
 // Extra vragen bij bestaande artikelen. artikelen.ts is te groot om nog te laten groeien, daarom staan nieuwe vragen hier.
