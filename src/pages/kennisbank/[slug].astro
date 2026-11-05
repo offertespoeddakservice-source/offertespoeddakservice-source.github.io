@@ -2,11 +2,12 @@
 import Base from "../../layouts/Base.astro";
 import { SITE, telHref, waHref } from "../../site.config.ts";
 import { ARTIKELEN } from "../../data/artikelen.ts";
+import { FAQ_ERBIJ } from "../../data/artikelen-extra.ts";
 import { PRIJZEN } from "../../data/prijzen.ts";
 import EchteFotos from "../../components/EchteFotos.astro";
 
 export function getStaticPaths() {
-  return ARTIKELEN.map((a) => ({ params: { slug: a.slug }, props: { a } }));
+  return ARTIKELEN.map((a) => ({ params: { slug: a.slug }, props: { a: { ...a, faq: [...a.faq, ...(FAQ_ERBIJ[a.slug] ?? [])] } } }));
 }
 const { a } = Astro.props;
 const apkPrijs = PRIJZEN.find((r) => r.dienst.startsWith("Dak-APK"))?.prijs ?? "";

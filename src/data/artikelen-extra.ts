@@ -177,3 +177,14 @@ export const ARTIKELEN_EXTRA: Artikel[] = [
     ],
   },
 ];
+
+// Extra vragen bij bestaande artikelen. artikelen.ts is te groot om nog te laten groeien, daarom staan nieuwe vragen hier.
+// kennisbank/[slug].astro zet ze onder de vragen die al in het artikel staan (ook in het FAQ-schema).
+export const FAQ_ERBIJ: Record<string, Artikel["faq"]> = {
+  "daklekkage-verzekering": [
+    { v: `Mijn verzekeraar wil een eigen dakdekker sturen. Mag ik toch zelf iemand kiezen?`, a: `Vaak wel, maar kijk eerst in je polis of bel je verzekeraar. Sommige verzekeraars werken met een eigen herstelservice. Kies je zelf een vakman, dan vergoeden ze soms minder, of willen ze eerst de offerte of foto's zien voordat je de reparatie laat doen. Druppelt het nu, dan mag je de schade in de regel eerst beperken, bijvoorbeeld door een open plek tijdelijk te laten afdekken. Bewaar de rekening en de foto's. Kies je mij, dan krijg je foto's van wat ik aantref en van de reparatie, met een korte omschrijving, die je naar je verzekeraar kunt sturen.` },
+  ],
+  "dak-lekt-bij-sneeuw-of-vorst": [
+    { v: `Mijn regenpijp is na de vorst gescheurd. Hoe kan dat?`, a: `Meestal stond er water in de pijp, omdat hij onderaan of in een bocht verstopt zat. Bevriest dat water, dan zet het uit en drukt het de pijp open. Je ziet dan een lange scheur, of een naad of bocht die is opengesprongen, vaak laag bij de grond. Bij dooi loopt het water er dan uit, langs de gevel. Ga er niet zelf met heet water of vanaf een ladder aan werken. Stuur een foto van de scheur en van de onderkant van de pijp via WhatsApp. Een gescheurd stuk vervang ik, en ik kijk meteen of de goot erboven nog goed afloopt. Je hoort vooraf wat het kost.` },
+  ],
+};
