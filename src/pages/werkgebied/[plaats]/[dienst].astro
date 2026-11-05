@@ -124,6 +124,9 @@ const schema = [
     <div class="wrap prose">
       <h2>{d.titel} in {p.naam}</h2>
       <p>{d.intro}</p>
+      {(d.slug === "daklekkage" || d.slug === "stormschade") && (
+        <p><strong>Komt er nu water binnen?</strong> Zet een emmer onder de druppel, haal spullen weg en ga niet zelf het dak op. Maak een foto van de natte plek en, als het lukt, van je dak vanaf de straat, en stuur die via <a href={waHref(`Hallo, ik heb een lek of schade aan mijn dak in ${p.naam}. Ik stuur je een foto.`)}>WhatsApp</a>. Dan zeg ik wat je nu zelf kunt doen en wanneer ik kan komen.</p>
+      )}
       <p>{p.lokaal}</p>
       <ul>
         {d.punten.map((punt) => <li>{punt}</li>)}
