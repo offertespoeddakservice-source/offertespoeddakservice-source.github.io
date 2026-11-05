@@ -461,6 +461,7 @@ export const DIENSTEN: Dienst[] = [
       { v: "Hoe weet ik of het het lood is?", a: "Een natte plek op zolder vlak naast de schoorsteen of het dakraam, of strepen op de muur onder het lood, wijzen vaak naar het lood. Kijk ook vanaf de straat: krult het omhoog of zit er een kier, dan is het meestal raak." },
       { v: "Moet al het lood eraf?", a: "Niet altijd. Een losse strook kan vaak opnieuw vastgezet worden. Is het lood gescheurd of op, dan komt er nieuw lood. Je hoort vooraf welke van de twee het wordt." },
       { v: "Doe je ook het voegwerk van de schoorsteen?", a: "Nee, voegwerk en metselen doe ik niet. Ik herstel het lood en de aansluiting op het dak. Zie ik dat de stenen of de voegen slecht zijn, dan zeg ik dat eerlijk, zodat je daar iemand anders voor kunt vragen." },
+      { v: "Gebruik je echt lood of loodvervanger?", a: "Meestal loodvervanger. Dat weegt minder dan lood en is goed te vormen rond een schoorsteen, langs een muur of om een dakraam. Wil je liever echt lood, bijvoorbeeld omdat er op je dak al lood ligt of omdat het beter bij een oud huis of een monument past, zeg het dan als je een foto stuurt. Dan werk ik met lood, en je hoort vooraf wat het kost." },
     ],
   },
   {
