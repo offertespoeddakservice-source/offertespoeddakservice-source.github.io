@@ -20,7 +20,7 @@ const NAMEN: Record<string, string> = {
 const ZICHTBARE_DIENSTEN = DIENSTEN.filter((d) => !d.verborgen);
 
 // Veelgelezen uitleg uit de eigen kennisbank. Een artikel dat verborgen is of niet bestaat, valt vanzelf weg.
-const UITLEG = ["daklekkage-opsporen", "dak-lekt-bij-harde-wind", "water-achter-dakgoot", "dakgoot-lekt", "dakraam-lekt", "lekkage-bij-schoorsteen", "stormschade-eerste-hulp", "daklekkage-verzekering"];
+const UITLEG = ["daklekkage-opsporen", "dak-lekt-bij-harde-wind", "water-achter-dakgoot", "dakgoot-lekt", "dakraam-lekt", "lekkage-bij-schoorsteen", "lood-op-dak", "lekkage-bij-dakdoorvoer", "nokvorsten-los", "stormschade-eerste-hulp", "daklekkage-verzekering"];
 const UITLEG_ARTIKELEN = UITLEG.map((s) => ARTIKELEN.find((a) => a.slug === s)).filter((a) => a && !a.verborgen) as typeof ARTIKELEN;
 // Pagina's per plaats en klus (uit matrix.ts), zodat een AI bij een vraag als "daklekkage in Vught" meteen de lokale pagina vindt. Verborgen diensten vallen weg.
 const KLUS_NAMEN: Record<string, string> = {
@@ -54,6 +54,16 @@ export const GET: APIRoute = () => {
     "## Zo werkt het",
     "- Stuur een foto via WhatsApp of bel. Je hoort de prijs voordat het werk begint.",
     `- Bij lekkage of stormschade: kijk eerst op ${u}/spoed/ wat je zelf meteen kunt doen.`,
+    "",
+    "## Klussen die de eigenaar heeft bevestigd",
+    "- Lekkende naden in zinken dakgoten en bakgoten solderen, een lekkende dakgoot van binnen coaten, of de goot vervangen.",
+    "- Lood rond een schoorsteen, dakraam of muur vastzetten of vervangen, meestal met loodvervanger en op wens met echt lood.",
+    "- Een losgewaaide of rotte houten windveer langs de zijkant van het dak vervangen.",
+    "- Een oude antenne of schotel (mast, beugel en kabel) van het dak halen en het dak weer dichtmaken.",
+    "- Rot dakbeschot onder het dakleer van een schuur, garage of aanbouw vervangen, als dat nodig is.",
+    "- Bij een dakrenovatie op wens nieuwe folie en nieuwe panlatten onder de pannen.",
+    "- Een losse pan of nokvorst repareren als je niet thuis bent, als er van buiten bij te komen is en de prijs vooraf is afgesproken.",
+    "- De Dak-APK (dakkeuring met fotorapport), ook bij een huis dat je wilt kopen, met toestemming van de verkoper.",
     "",
     "## Diensten",
     ...ZICHTBARE_DIENSTEN.map((d) => `- [${NAMEN[d.slug] ?? d.titel}](${u}/diensten/${d.slug}/)`),
