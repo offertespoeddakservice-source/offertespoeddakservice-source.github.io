@@ -134,6 +134,7 @@ export const PLAATSEN: Plaats[] = [
     faq: [
       { v: "Kom je ook in Liempde en Esch?", a: "Ja. Liempde hoort sinds 1996 bij de gemeente Boxtel, en Esch sinds 2021. Ik kom er voor dezelfde klussen als in Boxtel zelf, zoals een lek opsporen, goten leegmaken of losse pannen terugleggen. Boxtel is zo'n 25 minuten rijden vanaf Den Bosch." },
       { v: "Kun je mijn dak in Boxtel nakijken voordat de winter begint?", a: "Ja, met de Dak-APK loop ik je hele dak na en krijg je een rapport met foto's. Bij de oudere huizen rond het centrum kijk ik vooral naar het lood boven een erker of luifel, bij de rijtjes in Selissen naar de naad in de goot op de grens met de buren en naar duiven onder de zonnepanelen, en bij de boerderijen in Liempde en Esch naar de nok en de schoorsteen. Daarna weet je wat er voor de winter moet gebeuren en wat nog een jaar kan wachten." },
+      { v: "Kom je ook in Oirschot en de Beerzen?", a: "Ja. Oirschot ligt ten zuiden van Boxtel en is een eigen gemeente, waar ook Middelbeers, Oostelbeers en Westelbeers bij horen. Ik kom er voor dezelfde klussen als in Boxtel: een lek opsporen, een goot die lekt of vol zit, en pannen of lood die los liggen. Stuur me een foto van je dak vanaf de straat via WhatsApp, dan hoor je wanneer ik kan komen." },
     ],
   },
   {
@@ -147,6 +148,7 @@ export const PLAATSEN: Plaats[] = [
     faq: [
       { v: "Kom je ook in Doeveren, Heesbeen en Hedikhuizen?", a: "Ja. Die dorpjes horen net als de vesting, Oudheusden en Herpt bij de gemeente Heusden. Ik kom er voor dezelfde klussen als in Heusden zelf: lekkage, goten, pannen en lood. Het is zo'n 20 minuten rijden vanaf Den Bosch." },
       { v: "Mijn huis staat in de vesting. Mag je daar zomaar pannen of een goot vervangen?", a: "In de vesting is het slim om eerst even bij de gemeente Heusden na te vragen wat mag, zeker als je huis een monument is. Een kapotte pan vervangen door een pan die er net zo uitziet, is meestal gewoon onderhoud. Wil je iets anders, zoals een andere pan, een andere kleur of een kunststof goot in plaats van zink, dan heb je in de regel eerst toestemming nodig. Ik kijk wat er nu op je dak ligt en zoek materiaal dat erbij past, zodat je dak er van de straat hetzelfde uitziet. Gaat het om de stenen of de voegen van de gevel of de schoorsteen, dan is dat geen werk voor mij, en dat hoor je dan meteen." },
+      { v: "Kom je ook in Ammerzoden en Well, aan de overkant van de Maas?", a: "Ja. Ammerzoden en Well liggen aan de andere kant van de Maas, ten noorden van Heusden, en horen bij de gemeente Maasdriel in de Bommelerwaard. Ook daar kom ik voor lekkage, goten, pannen en lood. App me een foto van de plek waar het lekt of van je dak vanaf de straat, dan laat ik weten wanneer ik langs kan komen." },
     ],
   },
   {
@@ -213,6 +215,7 @@ export const PLAATSEN: Plaats[] = [
       { v: "Kun je mijn hele dak in Waalwijk een keer nakijken voor de winter?", a: "Ja, dat doe ik met de Dak-APK: ik loop je hele dak na en je krijgt een rapport met foto's. Bij de oudere huizen in Besoyen en Baardwijk kijk ik vooral naar het lood rond de schoorsteen, bij de boerderijen en vrijstaande huizen in Sprang-Capelle naar de lange goten en de nok. Heb je een plat dak op een aanbouw of oude werkplaats, dan neem ik dat ook mee. Zo weet je wat nu moet gebeuren en wat nog even kan wachten." },
       { v: "Ik zoek een dakdekkersbedrijf in Waalwijk. Met wie heb ik bij jou te maken?", a: "Met mij, Rens. Je belt of appt niet met een planner, maar met mij: ik kom zelf kijken in Waalwijk, Sprang-Capelle of Waspik en ik blijf je vaste aanspreekpunt, van de eerste foto tot de rekening. Waalwijk is zo'n 25 minuten rijden vanaf Den Bosch. Stuur gerust eerst een foto via WhatsApp, dan hoor je wanneer ik kan komen." },
       { v: "Kom je ook in Kaatsheuvel en Loon op Zand?", a: "Ja. Kaatsheuvel ligt net onder Waalwijk en hoort met Loon op Zand en De Moer bij de gemeente Loon op Zand. Daar kom ik net zo goed voor een lekkage, een volle of lekkende goot, losse pannen of lood dat loslaat. Maak een foto van wat je ziet en stuur hem via WhatsApp, dan spreken we samen een moment af." },
+      { v: "Kom je ook in Raamsdonksveer en Geertruidenberg?", a: "Ja. Raamsdonksveer en Geertruidenberg liggen aan de westkant, voorbij Waspik, en horen samen met Raamsdonk bij de gemeente Geertruidenberg. Ook daar kom ik voor een lek, een goot die lekt of overloopt, losse pannen en lood. Het is voor mij iets verder rijden dan Waalwijk zelf. Stuur eerst een foto van wat je ziet via WhatsApp, dan hoor je eerlijk wanneer ik kan komen." },
     ],
   },
   {
