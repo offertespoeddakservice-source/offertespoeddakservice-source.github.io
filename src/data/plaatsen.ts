@@ -33,6 +33,7 @@ export const PLAATSEN: Plaats[] = [
       { v: "Mijn huis in De Groote Wielen is nog maar een paar jaar oud. Kan het dak dan al lekken?", a: "Dat kan, ook bij een jong huis. Is je huis pas een paar jaar oud, kijk dan eerst of de bouwer het lek nog moet oplossen. Valt het daar niet meer onder, stuur me dan een foto van de natte plek. Dan zeg ik eerlijk wat ik zie." },
       { v: "Kom je ook in Kruisstraat, Maliskamp en Hintham?", a: "Ja. Kruisstraat en de Maliskamp horen bij Rosmalen, en Hintham ligt tussen Rosmalen en de stad. Rosmalen hoort sinds 1996 bij de gemeente Den Bosch, en vanaf mijn thuisbasis ben ik er in zo'n tien minuten. Ik kom er voor dezelfde klussen als in de rest van Rosmalen: lekkage, goten, pannen en lood." },
       { v: "Kun je in Rosmalen ook een heel dakvlak vernieuwen, of alleen kleine reparaties doen?", a: "Ook een heel dakvlak. In Molenhoek en Sparrenburg liggen op een deel van de rijtjeshuizen nog de eerste pannen. Zijn die op veel plekken verweerd of gescheurd, en moet er elk jaar wel ergens iets gebeuren, dan is het vaak slimmer om dat dakvlak in één keer aan te pakken. Dat hoeft niet altijd het hele dak te zijn, want de voorkant en de achterkant slijten vaak niet even snel. In een rij kijk ik ook naar de aansluiting op de daken van de buren, zodat het op de grens dicht blijft. Ik kom eerst kijken en zeg eerlijk of een reparatie nog genoeg is. Je hoort vooraf de vaste prijs." },
+      { v: "Kom je ook in Maren-Kessel, Kessel en Lithoijen?", a: "Ja. Die dorpen liggen tussen Rosmalen en Lith, aan de kant van de Maas, en horen bij de gemeente Oss. Vanuit Rosmalen ben je er zo. Ook daar gaat het meestal om een lek, een volle of lekkende goot, of pannen en lood die los zitten. App me een foto van wat je ziet, dan laat ik weten wanneer ik langs kan komen." },
     ],
   },
   {
@@ -192,6 +193,7 @@ export const PLAATSEN: Plaats[] = [
     omschrijving: "Dakdekker in Wijchen, Alverna en Niftrik: lekkage bij lood of de nok, volle goten en losse pannen na storm. Vaste prijs vooraf. Bel of app Rens.",
     faq: [
       { v: "Kom je ook in Batenburg, Bergharen, Hernen en Balgoij?", a: "Ja. Die dorpen horen bij de gemeente Wijchen. Wijchen zelf is zo'n 25 minuten rijden vanaf Den Bosch, en de dorpen in het Land van Maas en Waal liggen een stukje verder. Stuur gerust eerst een foto via WhatsApp, dan hoor je eerlijk wanneer ik kan komen." },
+      { v: "Kom je ook in Grave?", a: "Ja. Grave ligt aan de Maas, ten zuiden van Wijchen, en hoort sinds 2022 bij de gemeente Land van Cuijk. Ook daar kom ik voor lekkage, een volle of lekkende goot, losse pannen en lood. Grave is voor mij een flink stuk rijden vanaf Den Bosch, dus zo'n klus plan ik vooraf met je in. App me eerst een foto van wat je ziet." },
     ],
   },
   {
@@ -242,6 +244,7 @@ export const PLAATSEN: Plaats[] = [
       { v: "Kom je ook in Engelen, Bokhoven, Nuland en Vinkel?", a: "Ja. Engelen en Bokhoven liggen aan de Maas, Nuland en Vinkel aan de oostkant, en ze horen allemaal bij de gemeente Den Bosch. Ik kom er voor dezelfde klussen als in de stad zelf, en bij lekkage vaak nog dezelfde dag." },
       { v: "Het lekt in Den Bosch 's avonds of in het weekend. Kun je dan komen?", a: "Bellen of appen kan dag en nacht, ook in het weekend. Den Bosch is mijn thuisbasis, dus ik zit meestal niet ver weg. Druppelt het binnen of ligt er een stuk dak open, dan kom ik vaak nog dezelfde dag of avond kijken en maak ik het eerst dicht. Buiten kantooruren komt er een spoedtoeslag bij, en ook dan hoor je de vaste prijs voordat ik begin. Blijft het binnen droog als je de druppel opvangt en kan het veilig wachten tot een werkdag, dan zeg ik dat eerlijk, want dat scheelt je de toeslag. Stuur meteen een foto van de natte plek via WhatsApp." },
       { v: "Kom je ook in Hedel, Ammerzoden en Kerkdriel, aan de overkant van de Maas?", a: "Ja. Hedel, Ammerzoden en Kerkdriel horen bij de gemeente Maasdriel, in de Bommelerwaard. Hedel ligt vanuit Den Bosch net over de Maas. Ik kom er voor dezelfde klussen als in de stad: lekkage, goten, pannen en lood. Ook in de kleinere dorpen, zoals Velddriel, Hoenzadriel en Alem, kom ik. Stuur gerust eerst een foto via WhatsApp, dan hoor je wanneer ik kan komen." },
+      { v: "Kom je ook in Zaltbommel?", a: "Ja. Zaltbommel ligt in de Bommelerwaard aan de Waal, en vanuit Den Bosch rijd je erheen over de A2. Bij de gemeente Zaltbommel horen ook dorpen als Brakel, Gameren en Kerkwijk. Ik kom er voor dezelfde klussen als in de stad: lekkage, goten, pannen en lood. Woon je in Zaltbommel of een van de dorpen eromheen, app me dan een foto van je dak of van de natte plek. Dan hoor je wat ik zie en wanneer ik kan komen." },
     ],
   },
   {
@@ -257,6 +260,7 @@ export const PLAATSEN: Plaats[] = [
     faq: [
       { v: "Kom je ook in Erp, Zijtaart, Eerde en Mariaheide?", a: "Ja. Die dorpen horen net als Veghel bij de gemeente Meierijstad. Ik kom er voor dezelfde klussen als in Veghel zelf: lekkage, goten, pannen en lood. Veghel is zo'n 20 minuten rijden vanaf Den Bosch." },
       { v: "Mijn rijtjeshuis in Veghel is zo'n veertig jaar oud. Waar laat ik voor de winter naar kijken?", a: "Bij huizen van die leeftijd kijk ik vooral naar de nokvorsten, die vaak nog in specie liggen die na jaren bros wordt, naar het lood rond de schoorsteen en naar de goot. Zit die vol blad of hangt hij niet meer goed op afschot, dan loopt hij in de winter over. Stuur gerust een paar foto's vanaf de straat, dan zeg ik eerlijk wat ik zie." },
+      { v: "Kom je ook in Boekel en Gemert?", a: "Ja. Boekel ligt tussen Uden en Gemert en is een eigen gemeente, waar ook Venhorst bij hoort. Gemert hoort bij de gemeente Gemert-Bakel. Bel of app me daar gerust voor een lek, een goot die overloopt of pannen die los liggen. Gemert ligt voor mij wat verder weg dan Veghel, dus een klus daar plan ik meestal vooraf in. Stuur eerst een foto, dan hoor je eerlijk wanneer ik kan komen." },
     ],
   },
   {
