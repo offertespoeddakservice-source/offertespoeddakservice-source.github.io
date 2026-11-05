@@ -10,12 +10,26 @@ const dakrepPlaatsen = MATRIX.filter((c) => c.dienst === "dakreparatie").map((c)
 // Dakgoot schoonmaken en dakgoot repareren per plaats: komt vanzelf uit de lijst met pagina's. Den Bosch, Vught en Veghel staan voor het repareren al in de zin hierboven.
 const gotenPlaatsen = MATRIX.filter((c) => c.dienst === "goten-reinigen").map((c) => getPlaats(c.plaats)).filter((p) => p) as NonNullable<ReturnType<typeof getPlaats>>[];
 const gootRepPlaatsen = MATRIX.filter((c) => c.dienst === "dakgoot-vervangen" && !["den-bosch", "vught", "veghel"].includes(c.plaats)).map((c) => getPlaats(c.plaats)).filter((p) => p) as NonNullable<ReturnType<typeof getPlaats>>[];
+// Gestructureerde gegevens: het dienstenoverzicht als verzameling, met alle zichtbare diensten in de volgorde van de pagina. Geen prijzen.
+const lijstSchema = {
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  name: "Diensten van Spoed Dak Service",
+  url: `${SITE.url}/diensten/`,
+  inLanguage: "nl-NL",
+  publisher: { "@id": `${SITE.url}/#bedrijf` },
+  mainEntity: {
+    "@type": "ItemList",
+    itemListElement: DIENSTEN.filter((d) => !d.verborgen).map((d, i) => ({ "@type": "ListItem", position: i + 1, url: `${SITE.url}/diensten/${d.slug}/`, name: d.titel })),
+  },
+};
 ---
 
 <Base
   title={`Dakdekker diensten regio Den Bosch | ${SITE.bedrijfsnaam}`}
   description="Alle dakdiensten in de regio Den Bosch: daklekkage en spoed, goten reinigen en repareren, dakpannen, lood, platte daken (EPDM) en stormschade."
   path="/diensten"
+  schema={lijstSchema}
 >
   <section class="hero">
     <div class="wrap">
