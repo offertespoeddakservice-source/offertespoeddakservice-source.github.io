@@ -93,6 +93,7 @@ const schema = [
     description: `${d.titel} in ${p.naam}: ${d.kort}`,
     provider: { "@type": "RoofingContractor", "@id": `${SITE.url}/#bedrijf`, name: SITE.bedrijfsnaam, telephone: `+${SITE.telefoonE164}` },
     areaServed: { "@type": "City", name: p.naam },
+    url: `${SITE.url}${path}/`,
   },
   {
     "@context": "https://schema.org",
@@ -132,6 +133,9 @@ const schema = [
       <ul>
         {d.punten.map((punt) => <li>{punt}</li>)}
       </ul>
+      {d.slug === "dakgoot-vervangen" && (
+        <p><strong>Druppelt of lekt je goot?</strong> Maak tijdens of vlak na een bui vanaf de straat een foto van de plek waar het druppelt of overloopt, en stuur die via <a href={waHref(`Hallo, mijn dakgoot lekt in ${p.naam}. Ik stuur je een foto.`)}>WhatsApp</a>. Dan zeg ik wat ik zie, en je hoort vooraf wat het kost.</p>
+      )}
       {verder && (
         <>
           <h3>Handig om te weten</h3>
