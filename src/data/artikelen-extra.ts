@@ -437,4 +437,7 @@ export const FAQ_ERBIJ: Record<string, Artikel["faq"]> = {
   "dak-lekt-bij-harde-wind": [
     { v: `Helpt het om mijn pannen te laten vastzetten tegen lekken bij harde wind?`, a: `Soms. Lekt het omdat de wind pannen optilt of laat klapperen, vooral langs de zijkant van het dak, de onderste rij boven de goot of vlak onder de nok, dan helpt vastzetten met stormhaken vaak. Waait de regen onder pannen door die gewoon vastliggen, of komt het water bij de nok of het lood binnen, dan lost vastzetten dat niet op. Dan kijk ik eerst waar het water echt binnenkomt. Stuur me een foto van je dak vanaf de straat en zeg erbij bij welke windrichting het lekt. Je hoort vooraf wat het kost.` },
   ],
+  "lekkage-bij-zonnepanelen": [
+    { v: `Er komen zonnepanelen op mijn dak. Moet ik het dak eerst laten nakijken?`, a: `Dat is slim, zeker bij een ouder dak. Liggen de panelen er eenmaal, dan kom je veel lastiger bij de pannen, de nok en het lood eronder. Een gebroken pan, een nok met losse specie of lood dat los zit, regel je het handigst voordat de panelen erop gaan. Stuur me een paar foto's van je dak vanaf de straat, dan zeg ik eerlijk of er eerst iets moet gebeuren. Wil je een rapport met foto's van je hele dak, dan kan dat met de Dak-APK voor ${apkPrijs}.` },
+  ],
 };
