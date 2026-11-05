@@ -216,6 +216,45 @@ export const ARTIKELEN_EXTRA: Artikel[] = [
       { v: `Betaalt de verzekering het herstel van mijn plafond?`, a: `Vaak wel, als het lek plotseling ontstond, bijvoorbeeld door storm. Komt het door slijtage of achterstallig onderhoud, dan wordt soms alleen de schade binnen vergoed, of niets. Kijk in je polis en maak foto's voordat je iets laat herstellen.` },
     ],
   },
+  {
+    slug: `offerte-dakdekker-vergelijken`,
+    datum: `2026-11-05`,
+    titel: `Offertes van dakdekkers vergelijken`,
+    h1: `Twee offertes voor je dak: zo vergelijk je ze eerlijk`,
+    metaTitle: `Offerte dakdekker vergelijken | Spoed Dak Service`,
+    metaDescription: `Twee offertes voor je dak en een groot verschil in prijs? Zo zie je of ze over dezelfde klus gaan, wat er op papier hoort te staan en waar je op let.`,
+    intro: `Vraag je bij twee dakdekkers een prijs, dan krijg je vaak twee heel verschillende offertes. De een wil een paar pannen vervangen, de ander het halve dak. De een noemt één bedrag, de ander een prijs per meter. Hieronder lees je hoe je ze eerlijk naast elkaar legt, wat er op papier hoort te staan en waar je beter even doorvraagt.`,
+    secties: [
+      { kop: `Gaat het over dezelfde klus?`, tekst: [
+        `Kijk eerst wat er precies gaat gebeuren, niet naar het bedrag onderaan. Repareert de een het lek, en vervangt de ander het hele stuk dak? Gaat het om dezelfde pannen of hetzelfde materiaal? Dan vergelijk je twee verschillende klussen. Vraag allebei waarom ze voor hun aanpak kiezen, en wat ze op je dak zagen. Een vakman die echt heeft gekeken, kan dat uitleggen, het liefst met een foto erbij.`,
+      ] },
+      { kop: `Dit hoort op papier te staan`, tekst: [
+        `Wat er gebeurt en waar op het dak. Hoeveel: hoeveel pannen, hoeveel meter goot of hoeveel vierkante meter dakbedekking. Welk materiaal er gebruikt wordt. Of de prijs met of zonder btw is. Wat er wel en niet bij zit, zoals een steiger, het afvoeren van oud materiaal of extra werk als er onder de pannen meer blijkt te zitten. Wanneer het werk gedaan wordt en hoe lang de prijs geldt. En de naam, het adres en het KvK-nummer van het bedrijf.`,
+      ] },
+      { kop: `Hier vraag je door`, tekst: [
+        `Een prijs per meter of per pan, zonder dat erbij staat om hoeveel het gaat. Een post meerwerk die niet is uitgelegd. Een flink deel vooruit betalen, of contant. Een prijs die alleen vandaag geldt. En een offerte waar alleen 'dak repareren' op staat, zonder te zeggen wat. Dat hoeft niet te betekenen dat het niet klopt, maar vraag het na voordat je tekent. Lees ook <a href="/kennisbank/hoe-herken-je-een-betrouwbare-dakdekker/">betrouwbare dakdekker herkennen</a>.`,
+      ] },
+      { kop: `Goedkoop of duur?`, tekst: [
+        `De laagste prijs is niet vanzelf de slechtste keus, en de hoogste niet vanzelf de beste. Het gaat erom wat je ervoor krijgt. Een reparatie die het lek echt oplost, is goedkoper dan een goedkope reparatie die na een jaar weer lekt. Ligt een prijs veel lager dan de andere, kijk dan of er iets mist, bijvoorbeeld het lood rond de schoorsteen of het afvoeren van het oude materiaal. Waar de prijs van een dakreparatie van afhangt, lees je in <a href="/kennisbank/wat-kost-een-dakdekker/">wat kost een dakdekker</a>.`,
+      ] },
+      { kop: `Kreeg je de offerte aan de deur?`, tekst: [
+        `Heeft iemand ongevraagd aangebeld en meteen een prijs gegeven, neem dan rustig de tijd voordat je ja zegt. Lees <a href="/kennisbank/dakdekker-aan-de-deur/">er belt een dakdekker aan</a>. Spreek je aan de deur een klus af, dan heb je als particulier in de regel bedenktijd.`,
+      ] },
+      { kop: `Een derde blik`, tekst: [
+        `Twijfel je tussen twee offertes, of vertrouw je het niet helemaal? Stuur me via WhatsApp een foto van je dak vanaf de straat en, als je wilt, de offerte. Dan zeg ik eerlijk wat ik zie en of de aanpak me logisch lijkt. Wil je weten hoe je hele dak ervoor staat, dan kun je de <a href="/dak-apk/">Dak-APK</a> laten doen: voor ${apkPrijs} kijk ik je hele dak na en krijg je een rapport met foto's. Dan weet je wat er nu echt moet gebeuren en wat nog kan wachten.`,
+      ] },
+      { kop: `Hoe ik zelf een prijs geef`, tekst: [
+        `Ik kom kijken of je stuurt een foto, en dan hoor je vooraf één vaste prijs voor de klus. Zie ik onderweg dat er meer nodig is, dan hoor je dat eerst, en dan beslis jij. Richtprijzen staan op de <a href="/prijzen/">prijzenpagina</a>.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: spoed dakreparatie`, href: `/diensten/dakreparatie/` },
+    faq: [
+      { v: `Moet ik meer dan één offerte vragen?`, a: `Bij een grote klus, zoals een nieuw dak of een nieuwe dakbedekking, is het slim om er twee of drie te vragen. Bij een lek dat nu binnen druppelt, is dat vaak niet handig, want dan wil je dat het snel dicht is. Laat het dan eerst afdekken en vraag voor de nette reparatie gerust een tweede prijs.` },
+      { v: `Is een offerte van een dakdekker gratis?`, a: `Meestal wel, bij mij ook. Een keuring van je hele dak met een rapport en foto's is iets anders. Bij mij heet dat de Dak-APK, en daarvoor betaal je een vast bedrag.` },
+      { v: `De ene dakdekker wil repareren, de andere alles vervangen. Wie heeft gelijk?`, a: `Dat hangt af van hoe je dak erbij ligt. Is het dak verder gezond en zit het lek op één plek, dan is repareren vaak genoeg. Zijn de pannen of de dakbedekking op veel plekken op, dan kan vervangen op termijn slimmer zijn. Vraag allebei om foto's van wat ze zagen. Twijfel je dan nog, laat er dan een derde naar kijken.` },
+      { v: `Mag ik een andere offerte naar je sturen om te laten bekijken?`, a: `Ja. Stuur hem via WhatsApp, samen met een foto van je dak vanaf de straat. Ik zeg eerlijk wat ik ervan denk, ook als ik hetzelfde zou doen als die andere vakman.` },
+    ],
+  },
 ];
 
 // Extra vragen bij bestaande artikelen. artikelen.ts is te groot om nog te laten groeien, daarom staan nieuwe vragen hier.
