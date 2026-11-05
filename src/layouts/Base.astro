@@ -54,7 +54,7 @@ const businessSchema: Record<string, unknown> = {
     opens: "00:00",
     closes: "23:59",
   },
-  areaServed: PLAATSEN.map((p) => ({ "@type": "City", name: p.naam })),
+  areaServed: [{ "@type": "State", name: "Noord-Brabant" }, ...PLAATSEN.map((p) => ({ "@type": "City", name: p.naam }))],
   address: { "@type": "PostalAddress", addressLocality: SITE.basisplaats, addressRegion: "Noord-Brabant", addressCountry: "NL" },
   geo: { "@type": "GeoCoordinates", latitude: SITE.geo.lat, longitude: SITE.geo.lon },
 };
