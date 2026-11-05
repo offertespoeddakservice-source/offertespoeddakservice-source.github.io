@@ -5,13 +5,15 @@
  * (schoorsteen vegen, dak reinigen, dakkapel reinigen, zonnepanelen, dakisolatie, dakcoating).
  */
 
-import { prijsVan, inclBtw } from "./prijzen";
+import { PRIJZEN, prijsVan, inclBtw } from "./prijzen";
 
 const GOTEN_PRIJS = prijsVan("goot_reinigen");
 const LEK_PRIJS = prijsVan("daklekkage");
 const PAN_PRIJS = prijsVan("dakpan");
 const KLEIN_PRIJS = inclBtw("dakpan");
 const PLATDAK_PRIJS = prijsVan("platdak");
+// Zink-regenpijp: het bedrag staat in de uitleg van de regenpijp-rij in prijzen.ts, zo blijft er één bron.
+const ZINK_REGENPIJP = PRIJZEN.find((r) => r.sleutel === "regenpijp")?.uitleg.match(/Zink (vanaf [^\s.]+)/)?.[1];
 
 export interface Dienst {
   slug: string;
@@ -472,7 +474,7 @@ export const DIENSTEN: Dienst[] = [
     kort: "Gescheurde, losse of lekkende regenpijp vervangen, in kunststof of zink.",
     metaTitle: "Regenpijp vervangen of repareren | Spoed Dak Service",
     metaDescription:
-      `Regenpijp gescheurd, los of lek? Ik vervang hem, kunststof ${inclBtw("regenpijp")} en zink vanaf €525 incl. btw. Vaste prijs vooraf, stuur gerust een foto.`,
+      `Regenpijp gescheurd, los of lek? Ik vervang hem, kunststof ${inclBtw("regenpijp")}${ZINK_REGENPIJP ? ` en zink ${ZINK_REGENPIJP} incl. btw` : ""}. Vaste prijs vooraf, stuur gerust een foto.`,
     icoon: "🛠",
     geenAfbeelding: true,
     fotos: ["/fotos/regenpijp-met-aftakking-72b9bb.webp", "/fotos/regenpijp-aansluiten-bestrating-open-6d4a97.webp", "/fotos/regenpijp-aftakking-plat-dak-98b289.webp"],
@@ -489,7 +491,7 @@ export const DIENSTEN: Dienst[] = [
       "Aansluiting op de goot meteen nagekeken",
     ],
     faq: [
-      { v: "Wat kost een regenpijp vervangen?", a: `Een kunststof regenpijp vervangen kost ${inclBtw("regenpijp")}. Zink kost vanaf €525 incl. btw. Is hij heel lang of lastig te bereiken, dan hoor je de prijs vooraf.` },
+      { v: "Wat kost een regenpijp vervangen?", a: `Een kunststof regenpijp vervangen kost ${inclBtw("regenpijp")}.${ZINK_REGENPIJP ? ` Zink kost ${ZINK_REGENPIJP} incl. btw.` : ""} Is hij heel lang of lastig te bereiken, dan hoor je de prijs vooraf.` },
       { v: "Kunststof of zink?", a: "Kunststof is voordeliger en je hoeft er weinig aan te doen. Zink gaat lang mee en past mooi bij een zinken goot. Ik kijk wat bij je huis past." },
       { v: "Mijn regenpijp lekt alleen bij een verbinding, moet hij dan helemaal nieuw?", a: "Niet altijd. Soms is alleen een stuk of een bocht kapot. Ik kijk wat er nodig is en zeg eerlijk of een stuk vervangen genoeg is." },
       { v: "Kijk je ook naar de goot?", a: "Ja. Loopt de goot over of lekt hij bij de uitloop naar de regenpijp, dan zie ik dat meteen. Dan hoor je wat dat erbij kost, voordat ik iets doe." },
