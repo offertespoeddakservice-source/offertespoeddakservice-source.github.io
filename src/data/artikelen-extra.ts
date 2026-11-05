@@ -466,6 +466,48 @@ export const ARTIKELEN_EXTRA: Artikel[] = [
       { v: `Kun je een dakterras repareren als het regent?`, a: `Een nette reparatie niet, want de dakbedekking moet schoon en droog zijn. Lekt het nu, dan kijk ik of ik het eerst tijdelijk kan afdekken, zodat het binnen droog blijft. De reparatie volgt op een droge dag. Je hoort vooraf wat het kost.` },
     ],
   },
+  {
+    slug: `poreuze-dakpannen`,
+    datum: `2026-11-06`,
+    titel: `Nemen je dakpannen water op?`,
+    h1: `Poreuze dakpannen: zo zie je of je pannen water opnemen, en wat je eraan doet`,
+    metaTitle: `Poreuze dakpannen herkennen | Spoed Dak Service`,
+    metaDescription: `Blijven je dakpannen na een bui lang donker, groeit er veel mos op of liggen er schilfers in de goot? Dan nemen ze water op. Zo zie je hoe erg het is.`,
+    intro: `Dakpannen gaan lang mee, maar niet eeuwig. Na veel jaren regen, vorst en zon worden sommige pannen poreus: ze nemen water op in plaats van het af te voeren. Dat gebeurt niet op één dag, en je dak lekt er ook niet meteen door. Maar een poreuze pan gaat bij vorst sneller kapot, en dan komt er wel water onder de pannen. Hieronder lees je hoe je het herkent, hoe erg het is en wat eraan te doen is.`,
+    secties: [
+      { kop: `Wat is een poreuze dakpan?`, tekst: [
+        `Een dakpan is gemaakt van gebakken klei of van beton. Een goede pan laat het regenwater over zich heen lopen. Na jaren slijt de bovenkant: bij een betonpan verdwijnt de gekleurde toplaag, bij een kleipan gaat de harde buitenkant er langzaam af. Dan trekt het water de pan in. Nat worden is op zich niet erg, maar water in een pan dat bevriest, zet uit. Daardoor komen er kleine scheurtjes in, schilfert de pan af of breekt er een stuk af.`,
+      ] },
+      { kop: `Zo herken je het vanaf de straat`, tekst: [
+        `Kijk na een flinke bui naar je dak, als het weer droog wordt. Blijven een paar pannen of een heel stuk dak veel langer donker dan de rest, dan nemen die pannen meer water op. Andere tekenen zijn veel mos of groene aanslag op dezelfde pannen, pannen die dof en ruw zijn geworden terwijl de rest nog glad is, en schilfers of stukjes pan in de goot. Maak een foto met de zoom van je telefoon, dan zie je meer dan met het blote oog.`,
+      ] },
+      { kop: `Zo zie je het op zolder`, tekst: [
+        `Ligt er geen folie of houten beschot onder je pannen, dan zie je op zolder de onderkant van de pannen. Zijn sommige pannen na een natte week aan de onderkant donker of vochtig, dan trekt er water in. Ligt er wel folie of beschot, kijk dan na een natte periode of de panlatten donker zijn of er vochtplekken op het hout zitten. Lees ook <a href="/kennisbank/dakfolie-kapot/">dakfolie kapot of vergaan</a>.`,
+      ] },
+      { kop: `Hoe erg is het?`, tekst: [
+        `Een paar poreuze pannen tussen pannen die nog goed zijn, is niet erg. Die vervang ik los, door pannen die passen bij de rest. Zitten er op veel plekken pannen die water opnemen, afbrokkelen of na elke vorstperiode weer een barst hebben, dan blijf je repareren. Dan is het vaak slimmer om dat dakvlak in één keer aan te pakken. De voorkant en de achterkant van een dak slijten vaak niet even snel, dus het hoeft niet meteen het hele dak te zijn.`,
+      ] },
+      { kop: `Wat het met lekkage te maken heeft`, tekst: [
+        `Een poreuze pan lekt zelf zelden door. Het water dat erin trekt, komt meestal niet binnen. Het wordt een probleem als de pan bij vorst barst of er een stuk afvalt. Dan ligt er een gat in je dak en loopt de regen onder de pannen. Lees ook <a href="/kennisbank/vorstschade-dakpannen/">vorstschade aan dakpannen</a> en <a href="/kennisbank/dakpan-kapot-of-verschoven/">dakpan kapot of verschoven</a>.`,
+      ] },
+      { kop: `Wat je zelf beter niet doet`, tekst: [
+        `Ga niet zelf op het dak lopen om te kijken. Een poreuze pan breekt makkelijker als je erop stapt, en een natte of bemoste pan is glad. Spuit het dak ook niet schoon met een hogedrukspuit. Daarmee haal je juist de laatste harde laag van de pannen af, en je spuit water onder de pannen door.`,
+      ] },
+      { kop: `Hoe ik het aanpak`, tekst: [
+        `Stuur me een foto van je dak vanaf de straat, het liefst vlak na een bui, en als het kan een foto van de onderkant van de pannen op zolder. Dan zie ik vaak al of het om een paar pannen gaat of om meer. Ik kijk naar de pannen, maar ook naar de nok, het lood en de goot, want bij een ouder dak speelt er vaak meer. Wil je je hele dak laten nakijken, dan kan dat met de <a href="/dak-apk/">Dak-APK</a>. Moet een dakvlak opnieuw, lees dan <a href="/diensten/dakrenovatie/">dakrenovatie</a>. Hoe lang een pannendak meegaat, lees je in <a href="/kennisbank/hoe-lang-gaat-een-dak-mee/">hoe lang gaat een pannendak mee</a>.`,
+      ] },
+      { kop: `Wat kost het?`, tekst: [
+        `Een paar losse pannen vervangen kost ${prijsVan("dakpan")}. Moet er een groter stuk of een heel dakvlak opnieuw, dan kom ik eerst kijken en hoor je vooraf de vaste prijs. Richtprijzen staan op de <a href="/prijzen/">prijzenpagina</a>.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: dakpannen vervangen`, href: `/diensten/dakpannen-vervangen/` },
+    faq: [
+      { v: `Is het erg als mijn dak na een bui lang donker blijft?`, a: `Niet meteen. Het betekent dat de pannen water opnemen. Dat is een teken dat ze ouder worden, en het is goed om ze een keer te laten nakijken, liefst voor de winter. Zie je ook schilfers in de goot of een natte plek op zolder, stuur me dan een foto via WhatsApp.` },
+      { v: `Worden betonpannen eerder poreus dan kleipannen?`, a: `Dat verschilt per pan en per dak. Bij betonpannen zie je na veel jaren vaak dat de gekleurde toplaag weg is en de pan ruw en grijs wordt. Kleipannen gaan meestal langer mee, maar ook die kunnen na lange tijd water opnemen, vooral op de kant van het dak die weinig zon krijgt en lang nat blijft.` },
+      { v: `Kan ik een paar nieuwe pannen tussen de oude laten leggen?`, a: `Ja, als er een pan te krijgen is die past. Bij oudere daken is niet elke pan nog te koop. Dan zoek ik een pan die in vorm en maat past. Een nieuwe pan heeft soms een iets andere kleur dan de oude ernaast. Stuur me een foto van je pannen, het liefst van dichtbij vanuit een raam, dan zie ik vaak al welke pan het is.` },
+      { v: `Moet het hele dak eraf als mijn pannen poreus zijn?`, a: `Nee, niet meteen. Gaat het om een paar pannen, dan vervang ik die los. Pas als er op veel plekken pannen water opnemen of kapot gaan, is het slim om een dakvlak in één keer aan te pakken. Ik zeg eerlijk wat ik zie, en je hoort vooraf wat het kost.` },
+    ],
+  },
 ];
 
 // Extra vragen bij bestaande artikelen. artikelen.ts is te groot om nog te laten groeien, daarom staan nieuwe vragen hier.
