@@ -153,6 +153,7 @@ export const DIENSTEN: Dienst[] = [
         v: "Ik heb het lek zelf al dichtgekit of afgeplakt, maar het lekt nog. Wat nu?",
         a: "Dat zie ik vaak, en dat is helemaal niet gek. Kit of tape hecht slecht op een nat of vuil dak, en vaak zit het echte lek een stuk hoger dan de plek die je hebt dichtgemaakt. Zet er geen nieuwe laag overheen. Ik zoek waar het water echt binnenkomt, haal oude kit weg waar die in de weg zit en maak het lek daarna goed dicht. Stuur me een foto van de plek die je hebt dichtgemaakt en van de natte plek binnen. Je hoort vooraf wat het kost.",
       },
+      { v: "Ik woon in een appartement en het lekt door het plafond. Kom je dan ook?", a: "Ja. Woon je op de bovenste verdieping, dan komt het water vaak van het platte dak of de dakrand boven je. Woon je lager, dan kan het ook van een balkon, een leiding of de woning boven je komen. Het dak van een appartementengebouw is meestal van de VvE. Meld het lek daarom meteen bij het bestuur of de beheerder van de VvE, en huur je, ook bij je verhuurder, want zij moeten meestal akkoord geven voor de reparatie. Ik kijk waar het water binnenkomt en maak foto's die je aan de VvE kunt laten zien. Stuur me eerst een foto van de natte plek via WhatsApp." },
     ],
   },
   {
