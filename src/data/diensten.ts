@@ -429,6 +429,7 @@ export const DIENSTEN: Dienst[] = [
       { v: "Hoe zie ik of mijn nokvorsten los zitten?", a: "Kijk vanaf de straat naar de bovenste rand van je dak. Een vorst die scheef ligt, een kier tussen twee vorsten of stukjes specie in de goot of de tuin: dan is het tijd. Maak een foto en stuur hem op, dan kijk ik mee." },
       { v: "Repareren of de hele nok vervangen?", a: "Zitten er een paar los, dan is opnieuw aansmeren prima. Is de specie overal op of zijn veel vorsten kapot, dan is de hele nok in één keer slimmer. Ik zeg eerlijk wat bij jouw dak past." },
       { v: "Kan het wachten tot het voorjaar?", a: "Liever niet. Bij een storm kan een losse vorst van het dak waaien, en dan komt er water onder de pannen. Vastzetten is een kleine klus, de schade erna vaak niet." },
+      { v: "Er liggen zonnepanelen tot vlak onder mijn nok. Kun je de nokvorsten dan nog repareren?", a: "Meestal wel. Ik werk dan langs de panelen en ga er niet op staan. Liggen ze zo dicht onder de nok dat ik er niet veilig bij kan, dan moet er eerst een paneel los, en dat laat je doen door je installateur. Daarna zet ik de vorsten vast of vervang ik ze, en kijk ik meteen of de bovenste rij pannen nog goed ligt. Stuur me een foto van je dak vanaf de straat, dan zie ik hoe dicht de panelen bij de nok liggen. Je hoort vooraf wat het kost." },
     ],
   },
   {
