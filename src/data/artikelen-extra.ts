@@ -434,4 +434,7 @@ export const FAQ_ERBIJ: Record<string, Artikel["faq"]> = {
   "water-achter-dakgoot": [
     { v: `Is water achter de dakgoot spoed?`, a: `Loopt het alleen buiten langs de gevel, dan is het vervelend, maar meestal geen spoed. Laat het wel snel nakijken, want een muur die bij elke bui nat wordt, trekt het vocht op den duur naar binnen. Wordt het binnen nat, bovenin de muur of rond een kozijn, dan wel: bel of app me met een foto van de natte plek en van de goot buiten. Zit de natte plek bij een stopcontact of een lamp, zet dan eerst in de meterkast de groep van die kamer uit.` },
   ],
+  "dak-lekt-bij-harde-wind": [
+    { v: `Helpt het om mijn pannen te laten vastzetten tegen lekken bij harde wind?`, a: `Soms. Lekt het omdat de wind pannen optilt of laat klapperen, vooral langs de zijkant van het dak, de onderste rij boven de goot of vlak onder de nok, dan helpt vastzetten met stormhaken vaak. Waait de regen onder pannen door die gewoon vastliggen, of komt het water bij de nok of het lood binnen, dan lost vastzetten dat niet op. Dan kijk ik eerst waar het water echt binnenkomt. Stuur me een foto van je dak vanaf de straat en zeg erbij bij welke windrichting het lekt. Je hoort vooraf wat het kost.` },
+  ],
 };
