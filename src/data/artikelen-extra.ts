@@ -508,6 +508,45 @@ export const ARTIKELEN_EXTRA: Artikel[] = [
       { v: `Moet het hele dak eraf als mijn pannen poreus zijn?`, a: `Nee, niet meteen. Gaat het om een paar pannen, dan vervang ik die los. Pas als er op veel plekken pannen water opnemen of kapot gaan, is het slim om een dakvlak in één keer aan te pakken. Ik zeg eerlijk wat ik zie, en je hoort vooraf wat het kost.` },
     ],
   },
+  {
+    slug: `wat-kost-een-dakinspectie`,
+    datum: `2026-11-06`,
+    titel: `Wat kost een dakinspectie?`,
+    h1: `Wat kost een dakinspectie, en wat krijg je ervoor?`,
+    metaTitle: `Wat kost een dakinspectie? | Spoed Dak Service`,
+    metaDescription: `Wat kost een dakinspectie, en waar betaal je eigenlijk voor? Zo zie je het verschil tussen een snelle blik vanaf de straat en een keuring met fotorapport.`,
+    intro: `Je wilt weten hoe je dak ervoor staat, bijvoorbeeld voor de winter, na een storm of omdat je een huis wilt kopen. Dan kom je al snel uit bij een dakinspectie. Maar wat kost dat, en wat krijg je er dan voor? Hieronder lees je waar de prijs van afhangt, wat er bij een goede inspectie hoort en wat de Dak-APK bij mij kost.`,
+    secties: [
+      { kop: `Waar de prijs van afhangt`, tekst: [
+        `Een dakinspectie is niet overal hetzelfde. De ene keer kijkt iemand vijf minuten vanaf de straat, de andere keer gaat een vakman het dak op, kijkt hij op zolder en krijg je een rapport met foto's. Dat verschil zie je terug in de prijs. Verder maakt het uit hoe groot je dak is, hoe goed je erbij kunt en of er ook een plat dak of een schuur bij hoort.`,
+      ] },
+      { kop: `Wat er bij een goede inspectie hoort`, tekst: [
+        `Bij een goede inspectie wordt het hele dak nagekeken, niet alleen de plek die je zelf al zag. Denk aan de pannen, de nok, het lood rond de schoorsteen en het dakraam, de goten en de afvoer, en de plekken waar al eens water is binnengekomen. Op zolder kijk je naar vochtplekken op het hout en of er folie onder de pannen ligt. Wat ik precies nakijk, lees je in <a href="/kennisbank/dakinspectie/">dakinspectie: wat ik nakijk</a>.`,
+      ] },
+      { kop: `Een snelle blik of een rapport?`, tekst: [
+        `Een snelle blik vanaf de straat zegt al iets: een scheve pan of een nok die niet recht staat, zie je zo. Maar lood dat loslaat, een gescheurde pan of een goot die bij een naad lekt, zie je pas van dichtbij. Een rapport met foto's heeft als voordeel dat je zelf ziet wat er speelt, en dat je het kunt bewaren of aan iemand anders kunt laten zien, bijvoorbeeld als je een huis koopt.`,
+      ] },
+      { kop: `Wat de Dak-APK bij mij kost`, tekst: [
+        `Bij mij heet de dakinspectie de Dak-APK. Die kost ${apkPrijs}. Ik kijk naar de pannen, de nokvorsten, de goot en de afwatering, mos en aanslag, het lood en de aansluitingen, sporen van vocht en, als ze er liggen, de bevestiging van zonnepanelen. Je krijgt een rapport met foto's. Is er iets nodig, dan hoor je wat het kost. Is er niets aan de hand, dan hoor je dat ook. Meer lees je op de pagina over de <a href="/dak-apk/">Dak-APK</a>.`,
+      ] },
+      { kop: `Wanneer een inspectie zin heeft`, tekst: [
+        `Voor de winter, als je dak al lang niet is nagekeken. Na een zware storm, ook als het binnen droog lijkt. Als je een huis wilt kopen: lees dan <a href="/kennisbank/dak-keuren-bij-huis-kopen/">dak keuren bij een huis kopen</a>. En voordat er zonnepanelen op je dak komen, want daarna kom je slechter bij de pannen eronder.`,
+      ] },
+      { kop: `Belt er iemand aan voor een inspectie?`, tekst: [
+        `Belt er iemand aan die zegt dat hij vanaf de straat schade aan je dak ziet en meteen wil kijken? Laat je niet overhaasten. Lees eerst <a href="/kennisbank/dakdekker-aan-de-deur/">er belt een dakdekker aan</a>, daar staat wat je dan het beste doet. Heb je al twee prijzen gekregen, lees dan <a href="/kennisbank/offerte-dakdekker-vergelijken/">offertes van dakdekkers vergelijken</a>.`,
+      ] },
+      { kop: `Lekt het al?`, tekst: [
+        `Komt er nu water binnen, dan heb je geen inspectie nodig maar een reparatie. Kijk op de <a href="/spoed/">spoedpagina</a> wat je meteen doet, of lees <a href="/kennisbank/daklekkage-opsporen/">daklekkage opsporen</a>.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: de Dak-APK`, href: `/dak-apk/` },
+    faq: [
+      { v: `Is een gratis dakinspectie te vertrouwen?`, a: `Dat hoeft niet slecht te zijn, maar vraag vooraf wat je krijgt. Kijkt hij alleen vanaf de straat, of ook op het dak en op zolder? Krijg je foto's van wat hij vindt? En neem niet meteen op de stoep een grote klus aan. Twijfel je over een advies, vraag dan een tweede mening.` },
+      { v: `Moet ik thuis zijn bij de Dak-APK?`, a: `Het liefst wel, want dan kan ik ook op zolder kijken. Daar zie je vaak sporen van vocht die je van buiten niet ziet.` },
+      { v: `Krijg ik na de inspectie meteen een prijs voor de reparatie?`, a: `Als er iets nodig is, hoor je wat het kost voordat er iets gebeurt. Jij beslist of en wanneer het gebeurt.` },
+      { v: `Hoe vaak laat je je dak nakijken?`, a: `Voor een pannendak is eens in de paar jaar meestal genoeg, en na een zware storm. Is je dak ouder, of heb je een plat dak, dan liever eens per jaar, het liefst in het najaar.` },
+    ],
+  },
 ];
 
 // Extra vragen bij bestaande artikelen. artikelen.ts is te groot om nog te laten groeien, daarom staan nieuwe vragen hier.
