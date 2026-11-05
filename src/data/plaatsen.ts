@@ -79,6 +79,7 @@ export const PLAATSEN: Plaats[] = [
     omschrijving: "Dakdekker in Drunen en Elshout: goten vol zand en blad, lekkage bij oud lood en losse pannen na een storm. Vaste prijs vooraf. Bel of app Rens.",
     faq: [
       { v: "Kom je ook in Elshout?", a: "Ja. Elshout ligt vlak bij Drunen en hoort net als Drunen bij de gemeente Heusden. Ik kom er voor dezelfde klussen als in Drunen zelf, zoals goten vol zand en blad, lekkage bij oud lood en losse pannen na een storm. Het is zo'n 20 minuten rijden vanaf Den Bosch." },
+      { v: "Mijn goot in Drunen zit elk najaar vol zand en blad. Hoe vaak moet hij leeg?", a: "Staat je huis aan de kant van de Loonse en Drunense Duinen of tussen de bomen, dan is één keer per jaar vaak te weinig. Een goed moment is laat in de herfst, als het meeste blad eraf is. Komt er naast blad ook veel zand in je goot, dan zakt dat naar de uitloop naar de regenpijp en wordt het daar een zware prop. Dan is een tweede keer in het voorjaar vaak slim. Loopt je goot bij een bui over aan de voorkant, wacht dan niet tot die tijd. Stuur me een foto van de goot vanaf de straat via WhatsApp, dan hoor je vooraf wat het kost." },
     ],
   },
   {
