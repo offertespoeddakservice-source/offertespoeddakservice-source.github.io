@@ -4,6 +4,7 @@
  */
 
 import { prijsVan, inclBtw } from "./prijzen";
+import { ARTIKELEN_EXTRA } from "./artikelen-extra";
 
 // Alle bedragen incl. btw (src/data/prijzen.ts, stand 29-10-2026)
 const GOTEN_PRIJS = inclBtw("goot_reinigen");
@@ -2975,5 +2976,7 @@ export const ARTIKELEN: Artikel[] = [
     ],
   },
 ];
+// Nieuwe artikelen staan sinds 05-11-2026 in artikelen-extra.ts (dit bestand is te groot geworden).
+ARTIKELEN.push(...ARTIKELEN_EXTRA.filter((x) => !ARTIKELEN.some((a) => a.slug === x.slug)));
 
 export const getArtikel = (slug: string) => ARTIKELEN.find((a) => a.slug === slug);
