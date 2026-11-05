@@ -255,6 +255,47 @@ export const ARTIKELEN_EXTRA: Artikel[] = [
       { v: `Mag ik een andere offerte naar je sturen om te laten bekijken?`, a: `Ja. Stuur hem via WhatsApp, samen met een foto van je dak vanaf de straat. Ik zeg eerlijk wat ik ervan denk, ook als ik hetzelfde zou doen als die andere vakman.` },
     ],
   },
+  {
+    slug: `lekkende-dakgoot-tijdelijk-oplossen`,
+    datum: `2026-11-05`,
+    titel: `Dakgoot lekt: tijdelijk oplossen?`,
+    h1: `Dakgoot lekt: wat je zelf tijdelijk kunt doen tot hij gemaakt is`,
+    metaTitle: `Lekkende dakgoot tijdelijk oplossen | Spoed Dak Service`,
+    metaDescription: `Lekt je dakgoot en duurt het nog even voor hij gemaakt is? Dit kun je zelf veilig doen om de muur en je huis droog te houden, en dit laat je beter liggen.`,
+    intro: `Lekt je dakgoot op één plek, dan wil je dat het stopt, ook als de reparatie pas over een paar dagen kan. Dat kan vaak, zonder dat je zelf de ladder op hoeft. Hieronder lees je wat je vanaf de grond en binnen kunt doen, wat je beter laat, en wanneer je niet moet wachten.`,
+    secties: [
+      { kop: `Eerst: druppelt het buiten of binnen?`, tekst: [
+        `Valt de druppel buiten op de stoep, het terras of in de tuin, dan is het vervelend, maar meestal geen spoed. Wordt de muur binnen nat, bovenin vlak onder het plafond of rond een kozijn, dan komt het water naar binnen en wil je het snel laten maken. Kijk dan op de <a href="/spoed/">spoedpagina</a> wat je meteen doet. Lees ook <a href="/kennisbank/natte-plek-bovenin-muur/">natte plek bovenin de muur</a>.`,
+      ] },
+      { kop: `Vol of lek?`, tekst: [
+        `Loopt het water over de voorkant van de goot, of op veel plekken tegelijk, dan zit de goot of de uitloop naar de regenpijp waarschijnlijk vol. Dan is hij niet lek, en is leegmaken genoeg. Valt de druppel bij elke bui op dezelfde plek, ook als de goot leeg lijkt, dan zit er een lek in een naad, een hoek of bij de uitloop. Hoe je dat verschil ziet, lees je in <a href="/kennisbank/dakgoot-lekt/">dakgoot lekt</a>.`,
+      ] },
+      { kop: `Wat je vanaf de grond kunt doen`, tekst: [
+        `Zet een emmer of een bak onder de plek waar het druppelt, zeker als het op de stoep of de oprit valt. Bij vorst wordt een plek met druppels zo een plek met ijs.`,
+        `Kijk onderaan de regenpijp of het water er nog uitkomt. Gaat de pijp onderaan de grond in en staat het water daar hoog, dan kan de verstopping ook laag zitten. Lees dan <a href="/kennisbank/verstopte-regenpijp-lekkende-dakgoot/">verstopte regenpijp</a>.`,
+        `Druppelt het tegen de gevel, op een kozijn of op een houten raam, zet dan weg wat nat kan worden, en kijk na een bui of het hout of de muur nat blijft.`,
+      ] },
+      { kop: `Binnen: houd het droog`, tekst: [
+        `Is de muur binnen nat, schuif dan kasten en spullen een stukje van de muur af, zodat ze niet nat worden en er lucht langs kan. Leg een handdoek op de vensterbank als het langs het kozijn komt. Zit de natte plek bij een stopcontact of een lamp, zet dan in de meterkast de groep van die kamer uit. Maak foto's van de natte plek binnen en van de goot buiten, ook voor je verzekering.`,
+      ] },
+      { kop: `Wat je beter laat`, tekst: [
+        `Ga niet met een ladder tegen de goot staan om hem dicht te plakken, zeker niet als het nat is of hard waait. Een ladder tegen een oude goot kan hem verbuigen of losdrukken, en een kunststof goot breekt bij kou snel. Kit en tape houden op een natte of vuile goot meestal maar kort, en daarna moet het er weer helemaal af voordat de goot goed gemaakt kan worden. Prik ook geen gaatje in de goot om het water ergens anders te laten weglopen.`,
+      ] },
+      { kop: `Wanneer je niet wacht`, tekst: [
+        `Loopt het water binnen langs de muur, hangt de goot los boven de stoep of de oprit, of staat er na een bui water in de goot dat niet meer wegloopt, wacht dan niet op droog weer. Stuur me een foto via WhatsApp of bel. Hangt de goot alleen wat scheef, lees dan <a href="/kennisbank/dakgoot-hangt-door/">dakgoot hangt door</a>.`,
+      ] },
+      { kop: `Hoe ik het maak`, tekst: [
+        `Ik maak de goot eerst leeg, zodat ik zie waar hij echt lekt. Een lekkende naad in een zinken goot kan ik vaak solderen, en een goot die nog stevig is maar op een paar plekken dun wordt, kan van binnen gecoat worden. Bij een kunststof goot vervang ik meestal de lekkende verbinding of het hoekstuk. Lees ook <a href="/kennisbank/zinken-dakgoot-lekt/">zinken dakgoot lekt</a> en <a href="/kennisbank/kunststof-dakgoot-lekt/">kunststof dakgoot lekt</a>. Stuur een foto van de goot vanaf de straat en van de plek waar het druppelt, dan hoor je vooraf wat het kost. Zie ook <a href="/diensten/dakgoot-vervangen/">dakgoot repareren of vervangen</a>.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: dakgoot repareren of vervangen`, href: `/diensten/dakgoot-vervangen/` },
+    faq: [
+      { v: `Kan ik een lekkende dakgoot zelf tijdelijk dichtmaken?`, a: `Vanaf de grond niet, en vanaf een ladder liever ook niet. Kit of tape houdt op een natte of vuile goot meestal maar kort. Zet een emmer onder de druppel, houd binnen de muur vrij en stuur me een foto. Dan zeg ik of het kan wachten of dat het snel moet.` },
+      { v: `Hoe lang kan een lekkende dakgoot wachten?`, a: `Valt de druppel buiten op de stoep, dan kan het vaak een paar dagen wachten. Laat het niet de hele winter zitten, want water dat steeds op dezelfde plek langs de gevel loopt, maakt de muur en het hout aan de dakrand nat. Komt het water binnen, dan wacht je liever niet.` },
+      { v: `Mijn goot loopt over, maar lekt niet. Wat doe ik?`, a: `Dan zit hij of de uitloop naar de regenpijp meestal vol blad of mos. Ga er niet zelf met een ladder tegenaan staan als het nat of glad is. Kijk onderaan of de regenpijp nog water afvoert, en stuur me een foto van de goot tijdens of vlak na een bui.` },
+      { v: `Is een lekkende dakgoot bij vorst erger?`, a: `Het kan. Water dat in de goot blijft staan, bevriest en zet dan uit, en dat kan een naad of hoekstuk verder openduwen. Bij vorst wordt een plek op de stoep met druppels ook glad. Zet er een bak onder en laat het na de vorst nakijken.` },
+    ],
+  },
 ];
 
 // Extra vragen bij bestaande artikelen. artikelen.ts is te groot om nog te laten groeien, daarom staan nieuwe vragen hier.
