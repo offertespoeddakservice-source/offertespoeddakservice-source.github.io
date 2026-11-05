@@ -431,4 +431,7 @@ export const FAQ_ERBIJ: Record<string, Artikel["faq"]> = {
   "dak-lekt-bij-sneeuw-of-vorst": [
     { v: `Mijn regenpijp is na de vorst gescheurd. Hoe kan dat?`, a: `Meestal stond er water in de pijp, omdat hij onderaan of in een bocht verstopt zat. Bevriest dat water, dan zet het uit en drukt het de pijp open. Je ziet dan een lange scheur, of een naad of bocht die is opengesprongen, vaak laag bij de grond. Bij dooi loopt het water er dan uit, langs de gevel. Ga er niet zelf met heet water of vanaf een ladder aan werken. Stuur een foto van de scheur en van de onderkant van de pijp via WhatsApp. Een gescheurd stuk vervang ik, en ik kijk meteen of de goot erboven nog goed afloopt. Je hoort vooraf wat het kost.` },
   ],
+  "water-achter-dakgoot": [
+    { v: `Is water achter de dakgoot spoed?`, a: `Loopt het alleen buiten langs de gevel, dan is het vervelend, maar meestal geen spoed. Laat het wel snel nakijken, want een muur die bij elke bui nat wordt, trekt het vocht op den duur naar binnen. Wordt het binnen nat, bovenin de muur of rond een kozijn, dan wel: bel of app me met een foto van de natte plek en van de goot buiten. Zit de natte plek bij een stopcontact of een lamp, zet dan eerst in de meterkast de groep van die kamer uit.` },
+  ],
 };
