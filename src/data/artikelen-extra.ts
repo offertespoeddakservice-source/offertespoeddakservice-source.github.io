@@ -420,6 +420,52 @@ export const ARTIKELEN_EXTRA: Artikel[] = [
       { v: `Is druppelen in het plafond spoed?`, a: `Hoor je het boven een lamp of een stopcontact, of staat het plafond bol, dan wel. Zet de groep van die kamer uit in de meterkast en bel of app me. Hoor je alleen af en toe een tikje bij harde regen en blijft alles droog, dan kan het meestal een paar dagen wachten.` },
     ],
   },
+  {
+    slug: `dakterras-lekt`,
+    datum: `2026-11-06`,
+    titel: `Lekt je dakterras of balkon?`,
+    h1: `Dakterras of balkon lekt naar de kamer eronder: waar het zit en wat je doet`,
+    metaTitle: `Dakterras of balkon lekt | Spoed Dak Service`,
+    metaDescription: `Lekt het in de kamer onder je dakterras of balkon? Vaak zit het onder de tegels, bij de afvoer, de rand of de muur. Zo zie je waar het zit en wat je doet.`,
+    intro: `Een dakterras of balkon boven een kamer is eigenlijk een plat dak met tegels erop. Je loopt niet over de dakbedekking zelf, maar over de tegels die erop liggen. Lekt het in de kamer eronder, dan zit het lek meestal in die dakbedekking onder de tegels, en vaak op een paar vaste plekken. Hieronder lees je welke dat zijn, wat je zelf kunt nakijken en hoe het gemaakt wordt.`,
+    secties: [
+      { kop: `Lekt het nu? Eerst dit`, tekst: [
+        `Zet een emmer onder de druppel en haal spullen weg die niet nat mogen worden. Druppelt het bij een lamp of spotje, zet dan in de meterkast de groep van die kamer uit. Maak een foto van de natte plek binnen en van het terras. Wat je verder meteen kunt doen, staat op de <a href="/spoed/">spoedpagina</a>.`,
+      ] },
+      { kop: `Zo zit een dakterras in elkaar`, tekst: [
+        `Onder de tegels ligt een dakbedekking, meestal bitumen of EPDM, net als op een gewoon plat dak. De tegels liggen daar los bovenop, op tegeldragers of op een laag grind. Tegen de muur loopt de dakbedekking een stukje omhoog, en ergens zit een afvoer of een uitloop door de rand waar het water weg kan. Omdat de tegels erop liggen, zie je van al die plekken bijna niets.`,
+      ] },
+      { kop: `Waar het meestal lekt`, tekst: [
+        `Bij de afvoer. Onder de tegels hoopt zich blad, zand en vuil op rond de afvoer. Loopt die langzaam weg of zit hij dicht, dan blijft het water op de dakbedekking staan en zoekt het een weg langs de aansluiting van de afvoer naar binnen.`,
+        `Bij de deur naar het terras. Onder de dorpel van de deur loopt de dakbedekking vaak maar een klein stukje omhoog. Staat er na een bui water op het terras, of waait de regen tegen de deur, dan kan het over die rand onder de dorpel door lopen. Binnen zie je dat vaak bij de deur of op het plafond eronder, langs die muur.`,
+        `Langs de muur en de rand. Waar de dakbedekking tegen de muur omhoog loopt, zit bovenaan een strook of profiel. Zit die los, dan loopt het regenwater van de gevel erachter naar beneden. Aan de buitenkant van het terras zit vaak een daktrim. Zie ook <a href="/kennisbank/daktrim-lekt/">plat dak lekt langs de rand</a>.`,
+        `Bij een hek of reling. Is het hek door de dakbedekking heen vastgeschroefd, dan is elke schroef een plek waar water langs kan. Na jaren laat de afdichting daaromheen los.`,
+        `Onder een zware bak of tegeldrager. Een grote bloembak die jaren op één plek staat, of een scherp steentje onder een tegeldrager, kan na een tijd een gaatje in de dakbedekking drukken. Dat zie je pas als de tegels eraf zijn.`,
+      ] },
+      { kop: `Wat je zelf kunt nakijken`, tekst: [
+        `Kijk na een bui of er water op het terras blijft staan, en waar. Kijk of de afvoer vrij is: vaak kun je het roostertje erboven optillen en het blad eruit halen. Kijk langs de muur en bij de deur of je een kier, een losse strook of een opstaande rand ziet. Til geen tegels op langs de rand van het terras, en leun niet op een hek dat los zit.`,
+      ] },
+      { kop: `Of is het iets anders?`, tekst: [
+        `Zit de natte plek midden in het plafond, onder een badkamer, of wordt hij ook groter als het dagen droog is, dan is het eerder een leiding. Lees <a href="/kennisbank/vochtplek-plafond/">vochtplek in het plafond</a>. Druppelt het vooral op koude ochtenden, dan kan het condens zijn: zie <a href="/kennisbank/condens-of-lekkage-op-zolder/">condens of lekkage op zolder</a>.`,
+      ] },
+      { kop: `Woon je in een appartement?`, tekst: [
+        `Het dakterras of balkon van een appartement hoort meestal bij het gebouw, en het onderhoud daarvan ligt vaak bij de VvE. Meld een lek daarom ook bij het bestuur of de beheerder, en huur je, bij je verhuurder. Meer daarover lees je bij <a href="/diensten/daklekkage/">daklekkage</a>.`,
+      ] },
+      { kop: `Hoe ik het aanpak`, tekst: [
+        `Ik kijk eerst binnen waar het nat is, en daarna op het terras naar de afvoer, de deur, de rand en de muur. Op de plek waar ik het lek verwacht, haal ik de tegels weg en maak ik de dakbedekking schoon en droog. Een losse naad, een gaatje of een losse aansluiting bij de afvoer of de muur maak ik dicht, en daarna gaan de tegels er weer op. Is de dakbedekking op veel plekken versleten, dan zeg ik eerlijk dat een nieuwe laag beter is. Zie ook <a href="/diensten/platte-daken/">platte daken</a> en <a href="/kennisbank/epdm-dak-lekt/">EPDM-dak lekt</a>.`,
+      ] },
+      { kop: `Wat kost het?`, tekst: [
+        `Een gerichte reparatie van een lek in een klein plat dak kost ${platPrijs}. Moeten er veel tegels weg, of is er een nieuwe dakbedekking nodig, dan kom ik eerst kijken en hoor je vooraf de vaste prijs. Richtprijzen staan op de <a href="/prijzen/">prijzenpagina</a>.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: platte daken (EPDM)`, href: `/diensten/platte-daken/` },
+    faq: [
+      { v: `Moeten alle tegels eraf om het lek te vinden?`, a: `Meestal niet. Ik kijk eerst waar het binnen nat is en waar het water op het terras blijft staan, en haal dan alleen op die plekken de tegels weg. Pas als de dakbedekking over het hele terras op is, moeten alle tegels eraf.` },
+      { v: `Kan ik zelf kit langs de deur of de rand smeren?`, a: `Liever niet. Kit hecht slecht op een natte of vuile ondergrond, en op EPDM houdt het niet. Vaak zit het echte lek ook ergens anders, onder de tegels. Dan moet de kit er bij de reparatie weer af. Maak liever de afvoer vrij en stuur me een foto.` },
+      { v: `Is een lekkend dakterras spoed?`, a: `Druppelt het in een kamer, bij een lamp of een stopcontact, of wordt het plafond bol, dan wel: bel of app me met een foto. Zie je alleen na een flinke bui een kleine vlek, dan kan het vaak een paar dagen wachten. Laat het niet de hele winter zitten, want het plafond en het hout eronder worden steeds natter.` },
+      { v: `Kun je een dakterras repareren als het regent?`, a: `Een nette reparatie niet, want de dakbedekking moet schoon en droog zijn. Lekt het nu, dan kijk ik of ik het eerst tijdelijk kan afdekken, zodat het binnen droog blijft. De reparatie volgt op een droge dag. Je hoort vooraf wat het kost.` },
+    ],
+  },
 ];
 
 // Extra vragen bij bestaande artikelen. artikelen.ts is te groot om nog te laten groeien, daarom staan nieuwe vragen hier.
