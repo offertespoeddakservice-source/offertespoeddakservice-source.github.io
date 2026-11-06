@@ -57,6 +57,14 @@ const businessSchema: Record<string, unknown> = {
   areaServed: [{ "@type": "State", name: "Noord-Brabant" }, ...PLAATSEN.map((p) => ({ "@type": "City", name: p.naam }))],
   address: { "@type": "PostalAddress", addressLocality: SITE.basisplaats, addressRegion: "Noord-Brabant", addressCountry: "NL" },
   geo: { "@type": "GeoCoordinates", latitude: SITE.geo.lat, longitude: SITE.geo.lon },
+  contactPoint: {
+    "@type": "ContactPoint",
+    contactType: "customer service",
+    telephone: `+${SITE.telefoonE164}`,
+    availableLanguage: ["nl"],
+    hoursAvailable: { "@type": "OpeningHoursSpecification", dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"], opens: "00:00", closes: "23:59" },
+  },
+  knowsAbout: ["daklekkage", "dakreparatie", "dakpannen", "nokvorsten", "lood en loodvervanger", "dakgoten", "regenpijpen", "platte daken", "stormschade", "windveren", "vogelwering", "dakrenovatie"],
 };
 if (SITE.reviews.aantal > 0) {
   businessSchema.aggregateRating = { "@type": "AggregateRating", ratingValue: SITE.reviews.score, reviewCount: SITE.reviews.aantal };
