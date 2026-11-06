@@ -818,4 +818,7 @@ export const FAQ_ERBIJ: Record<string, Artikel["faq"]> = {
   "dakraam-lekt": [
     { v: `Mijn dakraam lekt alleen als het open of op de ventilatiestand staat. Is het dak dan lek?`, a: `Meestal niet. Blijft het droog zolang het raam dicht is, dan komt het water vaak via het raam zelf binnen: langs de rubbers, door de ventilatieklep bovenin, of omdat het raam niet meer goed sluit. Zet het raam bij regen dicht en kijk of het dan droog blijft. Lekt het ook als het raam dicht is, dan zit het eerder in de aansluiting met het dak, en daar kijk ik naar. Stuur me een foto van het raam van binnen en, als het lukt, van buiten vanaf de straat.` },
   ],
+  "lekkage-bij-dakdoorvoer": [
+    { v: `Mijn oude cv-ketel gaat eruit en de afvoer door het dak is niet meer nodig. Wat moet er met dat gat?`, a: `Dat moet goed dicht. Haalt de installateur de oude afvoerpijp weg, dan blijft de doorvoerpan met een open gat in je dak achter. Een stuk tape of een prop isolatie houdt dat maar kort droog. Ik haal de doorvoerpan weg en leg er een gewone pan in die past bij de pannen eromheen, zodat het dak daar weer dicht is. Zit de afvoer in een plat dak, dan maak ik de dakbedekking op die plek dicht. Laat het me weten als je de ketel laat vervangen, dan stemmen we af wanneer ik kom, zodat het dak niet lang open ligt. Je hoort vooraf wat het kost.` },
+  ],
 };
