@@ -18,6 +18,8 @@ export function getStaticPaths() {
 const { p, d, hook, faqExtra } = Astro.props;
 const path = `/werkgebied/${p.slug}/${d.slug}`;
 const titel = `${d.titel} in ${p.naam}`;
+// Kop zoals mensen zoeken ('dakgoot schoonmaken oss'): bij goten reinigen dezelfde woorden als in de titel.
+const kop = d.slug === "goten-reinigen" ? `Dakgoot schoonmaken in ${p.naam}` : titel;
 // Titel en omschrijving per dienst waar de standaardzin niet goed loopt; de andere diensten houden de standaard.
 const gotenPrijs = PRIJZEN.find((r) => r.sleutel === "goot_reinigen")?.prijs ?? "";
 const metaTitelPerDienst: Record<string, string> = {
@@ -117,7 +119,7 @@ const schema = [
   <section class="hero">
     <div class="wrap">
       <p class="eyebrow" style="color:#ffb486;">{p.naam} · {p.reistijd ?? SITE.regioOmschrijving}</p>
-      <h1>{titel}</h1>
+      <h1>{kop}</h1>
       <p class="lead" style="margin-bottom:12px;">Spoed Dak Service is een dakdekker uit 's-Hertogenbosch voor {watZin} {waarZin}.</p>
       <p class="lead">{hook}</p>
       <div class="btn-row" style="margin-top:22px;">
@@ -129,7 +131,7 @@ const schema = [
 
   <section class="section">
     <div class="wrap prose">
-      <h2>{d.titel} in {p.naam}</h2>
+      <h2>{kop}</h2>
       <p>{d.intro}</p>
       {(d.slug === "daklekkage" || d.slug === "stormschade") && (
         <p><strong>Komt er nu water binnen?</strong> Zet een emmer onder de druppel, haal spullen weg en ga niet zelf het dak op. Maak een foto van de natte plek en, als het lukt, van je dak vanaf de straat, en stuur die via <a href={waHref(`Hallo, ik heb een lek of schade aan mijn dak in ${p.naam}. Ik stuur je een foto.`)}>WhatsApp</a>. Dan zeg ik wat je nu zelf kunt doen en wanneer ik kan komen.</p>
