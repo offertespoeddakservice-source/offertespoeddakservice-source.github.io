@@ -698,6 +698,56 @@ export const ARTIKELEN_EXTRA: Artikel[] = [
       { v: `Is loodvervanger net zo goed als lood?`, a: `Voor de meeste daken voldoet loodvervanger prima. Het is lichter en goed te vormen rond een schoorsteen of langs een muur. Wil je liever echt lood, bijvoorbeeld bij een oud huis, dan kan dat ook.` },
     ],
   },
+  {
+    slug: `lekkage-dakdekker-of-loodgieter`,
+    datum: `2026-11-06`,
+    titel: `Lekkage: dakdekker of loodgieter?`,
+    h1: `Lekkage in huis: bel je een dakdekker of een loodgieter?`,
+    metaTitle: `Lekkage: dakdekker of loodgieter? | Spoed Dak Service`,
+    metaDescription: `Nat plafond of muur? Alleen nat bij regen: meestal dak of goot, dus een dakdekker. Ook nat als het droog is: vaak een leiding, dus een loodgieter. Zo zie je het.`,
+    intro: `Een natte plek op je plafond of langs de muur, en dan de vraag: wie bel ik? Het korte antwoord: wordt het alleen nat tijdens of na regen, dan komt het water meestal van buiten, van het dak, de goot of een regenpijp, en dan heb je een dakdekker nodig. Wordt het ook nat als het dagen droog is, dan is een leiding, een afvoer of de cv veel waarschijnlijker, en dan bel je een loodgieter of installateur. Hieronder lees je hoe je dat in een paar minuten uitzoekt.`,
+    secties: [
+      { kop: `Lekt het nu? Eerst dit`, tekst: [
+        `Zet een emmer onder de druppel en haal spullen weg. Zit de natte plek bij een lamp, een spotje of een stopcontact, zet dan in de meterkast de groep van die kamer uit. Lijkt het een leiding en blijft het lopen, draai dan de hoofdkraan dicht. Ga niet zelf het dak op. Wat je verder meteen kunt doen, staat op de <a href="/spoed/">spoedpagina</a>.`,
+      ] },
+      { kop: `De snelste test: heeft het geregend?`, tekst: [
+        `Kijk wanneer het nat wordt. Alleen tijdens of vlak na een bui, of bij harde wind met regen: dan komt het water van buiten. Ook als het al dagen droog is: dan komt het van binnen.`,
+        `Doe daarna de watermetertest. Draai alle kranen dicht, zet de vaatwasser en de wasmachine uit en kijk of je watermeter nog draait. Draait hij, dan lekt er ergens een leiding. Staat hij stil en wordt het toch nat als het droog is, kijk dan naar de afvoer van de douche, het bad of de wc erboven.`,
+        `Kijk ook naar de druk van je cv-ketel. Zakt die steeds, terwijl je niets bijvult, dan kan er een cv-leiding lekken. Dat is werk voor je installateur.`,
+      ] },
+      { kop: `Dan bel je een dakdekker`, tekst: [
+        `De natte plek zit op de bovenste verdieping of op zolder, en wordt groter na regen.`,
+        `Het is nat naast de schoorsteen, rond een dakraam of lichtkoepel, of rond een pijp die door het dak gaat. Zie <a href="/kennisbank/lekkage-bij-schoorsteen/">lekkage bij de schoorsteen</a> en <a href="/kennisbank/dakraam-lekt/">dakraam lekt</a>.`,
+        `Het is nat bovenin een buitenmuur, vlak onder het plafond. Dan zit het vaak bij de goot erboven. Lees <a href="/kennisbank/natte-plek-bovenin-muur/">natte plek bovenin de muur</a>.`,
+        `Het lekt alleen bij harde wind, of na sneeuw en bij dooi. Zie <a href="/kennisbank/dak-lekt-bij-harde-wind/">dak lekt bij harde wind</a>.`,
+      ] },
+      { kop: `Dan bel je een loodgieter of installateur`, tekst: [
+        `De natte plek zit onder een badkamer, een wc of een keuken, of op een verdieping met nog een verdieping erboven.`,
+        `Het wordt natter als er iemand doucht, in bad gaat of de wc doortrekt.`,
+        `Je watermeter draait terwijl alle kranen dicht zijn, of de druk van je cv-ketel zakt steeds.`,
+        `Het lekt uit een verbinding van een leiding of afvoer die je kunt zien, bijvoorbeeld in een kast of bij de cv-ketel.`,
+      ] },
+      { kop: `Twijfelgevallen`, tekst: [
+        `Een regenpijp binnen in de muur. Lekt het bovenin, vlak onder de goot, dan zit het meestal bij de uitloop en kijk ik ernaar. Zit het halverwege de muur of lager, dan is het eerder de pijp zelf, en dat is werk voor een loodgieter. Lees <a href="/kennisbank/regenpijp-in-de-muur-lekt/">regenpijp in de muur lekt</a>.`,
+        `De afvoer van de cv-ketel of de ventilatie door het dak. Komt het water van buiten langs de pijp naar binnen, waar die door het dak gaat, dan is het mijn werk. Lekt het binnen uit een verbinding van de pijp, dan is het voor de installateur. Zie <a href="/kennisbank/lekkage-bij-dakdoorvoer/">lekkage bij een dakdoorvoer</a>.`,
+        `Druppels op zolder op koude, droge ochtenden, verspreid over de folie of het hout. Dan is het vaak condens, en dan heb je geen van beiden nodig: ventileren helpt dan meer. Lees <a href="/kennisbank/condens-of-lekkage-op-zolder/">condens of lekkage op zolder</a>.`,
+        `Je hoort het druppelen, maar je ziet niets. Lees <a href="/kennisbank/druppelen-horen-plafond/">water horen druppelen in je plafond</a>.`,
+      ] },
+      { kop: `Hoe ik het aanpak`, tekst: [
+        `Twijfel je, stuur me dan een foto van de natte plek en vertel erbij wanneer het nat wordt: bij regen, bij wind, of ook als het droog is. Vaak kan ik dan al zeggen of het bij mij hoort of bij een loodgieter. Kom ik kijken en zie ik dat het water niet van het dak of de goot komt, dan zeg ik dat voordat ik iets repareer. Zie ook <a href="/diensten/daklekkage/">daklekkage</a>.`,
+      ] },
+      { kop: `Wat kost het?`, tekst: [
+        `Een lek in het dak opsporen en dichtmaken kost ${inclBtw("daklekkage")}. Je hoort de vaste prijs vooraf, voordat ik begin. Richtprijzen staan op de <a href="/prijzen/">prijzenpagina</a>.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: daklekkage`, href: `/diensten/daklekkage/` },
+    faq: [
+      { v: `Wie bel ik bij een natte plek op het plafond?`, a: `Wordt de plek alleen nat bij regen, bel dan een dakdekker. Wordt hij ook nat als het droog is, of zit hij onder een badkamer, wc of keuken, dan is een loodgieter waarschijnlijker. Kijk ook of je watermeter draait terwijl alle kranen dicht zijn.` },
+      { v: `Het plafond van mijn badkamer wordt nat, maar alleen als het regent. Is het dan het dak?`, a: `Vaak wel. Boven een badkamer gaat vaak de afzuiging of de ontluchting door het dak naar buiten. Lekt de aansluiting rond die pijp, dan loopt het regenwater langs de pijp naar beneden en zie je het precies op het badkamerplafond. Wordt het ook nat na het douchen, dan kan het condens in de afzuigpijp zijn. Stuur me een foto van de plek en zeg erbij wanneer het nat wordt.` },
+      { v: `Kun jij ook een lekkende leiding repareren?`, a: `Nee, dat doe ik niet. Leidingen, afvoeren en de cv zijn werk voor een loodgieter of installateur. Twijfel je of het van het dak komt, stuur dan eerst een foto. Dan zeg ik eerlijk of je mij nodig hebt of iemand anders.` },
+      { v: `Ik weet het niet zeker en het blijft lekken. Wat doe ik?`, a: `Vang het water op, zet de stroom uit als het bij een lamp of stopcontact zit, en draai de hoofdkraan dicht. Stopt het daarna, dan is het een leiding en bel je een loodgieter. Blijft het lopen en heeft het geregend, bel of app me dan met een foto van de natte plek.` },
+    ],
+  },
 ];
 
 // Extra vragen bij bestaande artikelen. artikelen.ts is te groot om nog te laten groeien, daarom staan nieuwe vragen hier.
