@@ -795,6 +795,55 @@ export const ARTIKELEN_EXTRA: Artikel[] = [
       { v: `Is een reparatie in de winter minder goed?`, a: `Niet als het bij het goede weer gebeurt. Een pan of lood ligt in januari net zo goed als in juli. Waar het weer wel uitmaakt, zoals bij dakmortel of een plat dak, wacht ik op een geschikte dag, en zo lang blijft het tijdelijk dicht.` },
     ],
   },
+  {
+    slug: `welke-dakpan-heb-ik`,
+    datum: `2026-11-06`,
+    titel: `Welke dakpan heb ik?`,
+    h1: `Welke dakpan heb ik? Zo herken je je pannen`,
+    metaTitle: `Welke dakpan heb ik? Zo herken je hem | Spoed Dak Service`,
+    metaDescription: `Gebakken of beton, oud-Hollands, sneldekker of Romaans? Zo zie je welke dakpannen er op je dak liggen, en hoe je aan een pan komt die past.`,
+    intro: `Is er een pan kapot en wil je weten welke je nodig hebt? Dan helpt het om te weten wat er op je dak ligt. Kort gezegd let je op drie dingen: het materiaal (gebakken klei of beton), de vorm en de kleur. Op zolder zie je soms nog meer, want op de achterkant van een pan staat vaak een naam of nummer van de fabriek. Hieronder lees je hoe je het herkent en hoe je aan een pan komt die past.`,
+    secties: [
+      { kop: `Gebakken pan of betonpan?`, tekst: [
+        `De meeste pannen zijn van gebakken klei of van beton. Een gebakken pan is vaak wat dunner en gladder, en aan de achterkant zie je dezelfde kleur klei als aan de voorkant. Een betonpan is dikker en zwaarder, voelt aan de achterkant ruw aan, een beetje als schuurpapier, en is daar vaak grijs. Bij een betonpan zit de kleur in een laag aan de bovenkant. Na veel jaren slijt die laag, en dan wordt de pan ruw en dof.`,
+      ] },
+      { kop: `De vorm: welke pan ligt er?`, tekst: [
+        `Oud-Hollandse pan: de klassieke golvende pan met één grote golf, op veel oudere huizen en boerderijen.`,
+        `Verbeterde Hollandse pan: lijkt op de oud-Hollandse, maar heeft aan de zijkant en de bovenkant sluitingen, zodat de pannen beter in elkaar grijpen. Die zie je op veel huizen, van oud tot vrij nieuw.`,
+        `Sneldekker: een grotere, vrij vlakke pan met een golf aan de zijkant. Er gaan er minder van op een vierkante meter, en je ziet hem veel op huizen die na de oorlog zijn gebouwd.`,
+        `Romaanse pan: een pan met een vlak stuk en een ronde rol, waardoor het dak er een beetje zuidelijk uitziet.`,
+        `Tuile du Nord: een vlakke pan met een paar ribbels in de lengte.`,
+        `Vlakke pan: een strakke, platte pan, vaak op nieuwere huizen.`,
+        `Weet je niet hoe een deel van je dak heet, zoals de nok of de kil, kijk dan bij <a href="/kennisbank/daktermen-uitgelegd/">daktermen uitgelegd</a>.`,
+      ] },
+      { kop: `De kleur en de afwerking`, tekst: [
+        `Rode en oranje pannen zijn vaak gewone gebakken pannen. Blauwgrijze of donkergrijze gebakken pannen heten gesmoord: ze zijn zo gebakken dat ze die kleur krijgen. Glanzende pannen hebben een glazuur, en een gebakken pan met een matte kleurlaag heet geëngobeerd. Een nieuwe pan naast een pan die al jaren in de zon ligt, ziet er bijna altijd iets anders uit, ook als het hetzelfde type is.`,
+      ] },
+      { kop: `Kijk op zolder naar de achterkant`, tekst: [
+        `Kun je op zolder bij de pannen, omdat er geen beschot of isolatie onder zit, kijk dan naar de achterkant. Daar staat vaak een naam, een stempel of een nummer van de fabriek, soms met een jaartal. Maak daar een foto van. Zit er wel isolatie of beschot onder, haal dat dan niet zelf weg.`,
+        `Liggen er in de schuur of op zolder nog losse pannen die na de bouw zijn overgebleven? Bewaar die. Dat is vaak precies de pan die je later nodig hebt.`,
+      ] },
+      { kop: `Wordt jouw pan niet meer gemaakt?`, tekst: [
+        `Bij oudere daken komt dat vaak voor. Soms is er een pan van een andere fabriek met dezelfde maat en vorm. Soms is er nog een gebruikte pan van hetzelfde type te krijgen. En soms kan ik een pan van een plek die je vanaf de straat niet ziet, zoals de achterkant, verplaatsen naar de voorkant, en op die verborgen plek een pan leggen die er net iets anders uitziet. Ik kijk wat bij jouw dak kan.`,
+      ] },
+      { kop: `Waarom de juiste pan belangrijk is`, tekst: [
+        `Een pan die net niet past, sluit niet goed aan op de pannen eromheen. Dan kan de regen er bij harde wind onderdoor waaien, en dat merk je pas als het binnen nat wordt. Lees ook <a href="/kennisbank/dak-lekt-bij-harde-wind/">dak lekt bij harde wind</a>. Is er een pan gebroken of verschoven, kijk dan bij <a href="/kennisbank/dakpan-kapot-of-verschoven/">dakpan kapot of verschoven</a>. Nemen je pannen water op, lees dan <a href="/kennisbank/poreuze-dakpannen/">poreuze dakpannen</a>.`,
+      ] },
+      { kop: `Stuur een foto`, tekst: [
+        `Twijfel je welke pan je hebt, maak dan vanaf de straat een foto van je dak met de zoom van je telefoon, en als het kan een foto van de achterkant van een pan op zolder. Stuur ze via WhatsApp, dan zeg ik wat er ligt en of er een passende pan besteld moet worden. Ga niet zelf het dak op.`,
+      ] },
+      { kop: `Wat kost het?`, tekst: [
+        `Een paar losse of kapotte pannen vervangen kost ${inclBtw("dakpan")}. Moet er eerst een pan besteld worden, dan hoor je dat vooraf, met de prijs erbij. Richtprijzen staan op de <a href="/prijzen/">prijzenpagina</a>.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: dakpannen vervangen`, href: `/diensten/dakpannen-vervangen/` },
+    faq: [
+      { v: `Hoe weet ik of mijn dakpan van beton of van klei is?`, a: `Kijk naar de achterkant. Een betonpan is daar grijs en ruw, een gebakken pan heeft daar meestal dezelfde kleur klei als aan de voorkant. Een betonpan is ook dikker en zwaarder.` },
+      { v: `Kan een kapotte betonpan vervangen worden door een gebakken pan?`, a: `Meestal niet zomaar. Ze verschillen vaak in maat, vorm en dikte, en dan sluit de nieuwe pan niet goed aan op de pannen eromheen. Er moet een pan in die past bij wat er al ligt.` },
+      { v: `Waarom heeft een nieuwe pan een andere kleur dan de rest?`, a: `Omdat je oude pannen jaren in de zon, de regen en de wind hebben gelegen. Ook als het hetzelfde type is, is een nieuwe pan vaak wat feller. Na een paar jaar valt het verschil meestal minder op.` },
+      { v: `Kun je aan een foto zien welke pan ik heb?`, a: `Vaak wel. Met een foto van je dak vanaf de straat en, als het kan, een foto van de achterkant van een pan op zolder, zie ik meestal welk soort pan het is. Soms moet ik er op het dak even naar kijken.` },
+    ],
+  },
 ];
 
 // Extra vragen bij bestaande artikelen. artikelen.ts is te groot om nog te laten groeien, daarom staan nieuwe vragen hier.
