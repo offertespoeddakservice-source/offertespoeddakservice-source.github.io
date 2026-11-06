@@ -299,6 +299,7 @@ export const PLAATSEN: Plaats[] = [
       "Ook in Breda en omstreken kom ik voor lekkage en ander dakwerk. Je vindt hier een mix van vooroorlogse en naoorlogse daken die onderhoud aan pannen, lood en goten vragen.",
     wijken: ["Prinsenbeek", "Teteringen", "Ginneken", "Haagse Beemden"],
     reistijd: "± 40 min vanaf Den Bosch",
+    omschrijving: "Dakdekker in Breda, Prinsenbeek en Teteringen: daklekkage, een lekkende dakgoot en losse pannen. Stuur een foto, dan hoor je eerlijk wanneer ik kan komen.",
     extra:
       "Sinds 1997 horen ook Prinsenbeek, Teteringen, Bavel en Ulvenhout bij de gemeente Breda. In die dorpen staan veel vrijstaande huizen en twee-onder-een-kappers met een groot pannendak, vaak met een aanbouw of garage ertegen. Waar zo'n aanbouw tegen het huis zit, ligt een strook lood of zink, en die laat na veel jaren los. In de Heuvel en het Brabantpark, wijken uit de jaren '50 en '60, staan veel rijtjeshuizen en portiekwoningen. Bij de rijtjes zit een lek vaak in het lood rond de schoorsteen, bij de portiekwoningen eerder bij de afvoer of de rand van het platte dak.",
     faq: [
@@ -314,6 +315,7 @@ export const PLAATSEN: Plaats[] = [
       "Ruime naoorlogse wijken met schuine daken; voor dakwerk en lekkage kom ik in Helmond en de omliggende kernen.",
     wijken: ["Brouwhuis", "Dierdonk", "Mierlo-Hout", "Stiphout"],
     reistijd: "± 40 min vanaf Den Bosch",
+    omschrijving: "Dakdekker in Helmond, Brandevoort en Stiphout: daklekkage bij het lood, blad in de kilgoot en losse pannen. Stuur een foto, dan hoor je wanneer ik kan komen.",
     extra:
       "Stiphout en Mierlo-Hout zijn oude dorpen die aan Helmond zijn vastgegroeid. Daar staan nog veel oudere huizen met een schoorsteen, en een lek zit daar vaak in het lood rond die schoorsteen. In Brandevoort lijken veel huizen oud, maar ze zijn vrij nieuw, gebouwd in een ouderwetse stijl met steile pannendaken en veel hoeken en kilgoten tussen de daken. Juist in die hoeken blijft in de herfst blad liggen. Helmond is voor mij een flink stuk rijden. Stuur daarom eerst een foto via WhatsApp, dan hoor je eerlijk wanneer ik kan komen.",
     faq: [
@@ -329,6 +331,7 @@ export const PLAATSEN: Plaats[] = [
       "Ook in de regio Eindhoven kom ik voor lekkage en ander dakwerk. Veel naoorlogse woningen met schuine pannendaken en platte uitbouwen.",
     wijken: ["Tongelre", "Woensel", "Gestel", "Stratum"],
     reistijd: "± 40 min vanaf Den Bosch",
+    omschrijving: "Dakdekker in Eindhoven, Stratum en Woensel: daklekkage, dakgoten repareren of vervangen en losse pannen. Stuur een foto, dan hoor je wanneer ik kan komen.",
     extra:
       "In Stratum ligt het Villapark, met veel villa's en herenhuizen van voor de oorlog. Die hebben vaak een steil pannendak, lood rond de schoorsteen en zinken goten die al tientallen jaren meegaan. Lekt het daar, dan zit het meestal in dat oude lood of in een naad van de goot. In Woensel-Noord, het grootste stadsdeel van Eindhoven, staan vooral rijtjes uit de jaren '60, '70 en '80. Daar gaat het vaker om nokvorsten die nog in specie liggen en losraken, of om een goot die is gaan doorhangen en bij een flinke bui overloopt.",
     faq: [
