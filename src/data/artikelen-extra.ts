@@ -876,4 +876,7 @@ export const FAQ_ERBIJ: Record<string, Artikel["faq"]> = {
   "schoorsteen-lekt-open-haard": [
     { v: `Er komt alleen water in mijn haard als het hard waait uit één richting. Wat zegt dat?`, a: `Dat zegt vaak waar het zit. Is het kanaal bovenin open, dan waait de regen er bij wind uit één richting schuin in, en bij weinig wind blijft het droog. Een kap of afdekplaat helpt dan meestal. Wordt vooral de kant van de schoorsteen nat waar de wind op staat, dan kan het water ook door het lood aan die kant of door de stenen en voegen trekken. Het lood herstel ik zelf. Zijn de stenen of voegen poreus, dan zeg ik dat eerlijk, want dat is werk voor een metselaar. Schrijf op bij welke wind het nat werd, en stuur me een foto van de schoorsteen vanaf de straat.` },
   ],
+  "wat-kost-daklekkage-repareren": [
+    { v: `Wat als je tijdens de reparatie ziet dat er meer kapot is?`, a: `Dan stop ik en laat ik het je eerst zien, met een foto als je zelf niet op het dak kunt kijken. Je hoort wat het extra werk is en wat het kost, en jij beslist of ik het meteen meeneem of dat het kan wachten. Extra werk doe ik pas als jij akkoord geeft. Is iets niet nodig om het lek dicht te krijgen, dan zeg ik dat er eerlijk bij.` },
+  ],
 };
