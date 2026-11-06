@@ -1232,7 +1232,7 @@ export const ARTIKELEN: Artikel[] = [
     datum: "2026-10-21",
     titel: "Dakgoot lekt?",
     h1: "Dakgoot lekt: bij de naad, de hoek of de regenpijp",
-    metaTitle: "Dakgoot lekt: oorzaken en oplossing | Spoed Dak Service",
+    metaTitle: "Dakgoot lekt? Lekkende goot repareren | Spoed Dak Service",
     metaDescription:
       "Druppelt je dakgoot bij een naad, een hoek of bij de regenpijp? Zo zie je of de goot vol zit of echt lek is, en wanneer repareren of vervangen loont.",
     intro:
