@@ -547,6 +547,56 @@ export const ARTIKELEN_EXTRA: Artikel[] = [
       { v: `Hoe vaak laat je je dak nakijken?`, a: `Voor een pannendak is eens in de paar jaar meestal genoeg, en na een zware storm. Is je dak ouder, of heb je een plat dak, dan liever eens per jaar, het liefst in het najaar.` },
     ],
   },
+  {
+    slug: `dakgoot-loopt-over`,
+    datum: `2026-11-06`,
+    titel: `Loopt je dakgoot over bij regen?`,
+    h1: `Dakgoot loopt over bij regen: vol, verstopt, scheef of te weinig afvoer?`,
+    metaTitle: `Dakgoot loopt over bij regen: oorzaken | Spoed Dak Service`,
+    metaDescription: `Loopt je dakgoot over bij een bui? Meestal zit hij vol, is de uitloop verstopt, hangt hij scheef of kan één regenpijp het niet aan. Zo zie je wat het is.`,
+    intro: `Het regent flink en het water klettert over de rand van je goot naar beneden, op het terras of langs de gevel. Een goot die overloopt, is meestal niet kapot. Vaak kan het water gewoon niet weg. Hieronder lees je hoe je vanaf de grond ziet waar het aan ligt, en wat eraan te doen is.`,
+    secties: [
+      { kop: `Loopt het nu over? Eerst dit`, tekst: [
+        `Valt het water alleen buiten over de rand, dan is het meestal geen spoed. Valt het op een stoep of een drempel, zet er dan een bak onder, zodat er bij vorst geen plek ijs komt. Wordt het binnen nat, bovenin de muur of rond een kozijn, kijk dan op de <a href="/spoed/">spoedpagina</a> wat je meteen doet. Ga niet bij regen of wind de ladder op.`,
+      ] },
+      { kop: `Kijk eerst waar het overloopt`, tekst: [
+        `Ga tijdens een bui buiten staan en kijk waar het water over de rand komt. Loopt het over vlak bij de regenpijp, dan zit het daar meestal dicht. Loopt het over in het midden, dan blijft het water daar staan, omdat de goot op die plek vol zit of doorhangt. Loopt hij over aan het eind waar geen regenpijp zit, dan loopt de goot de verkeerde kant op of kan het water niet snel genoeg weg. Kijk ook onderaan de regenpijp: komt er bijna niets uit terwijl de goot overloopt, dan zit het in de uitloop of in de pijp.`,
+      ] },
+      { kop: `De goot zit vol`, tekst: [
+        `Blad, mos, dennennaalden en het zand dat van oude pannen afspoelt, blijven in de goot liggen. In de herfst gaat dat snel, zeker onder bomen. Een volle goot kan bij een flinke bui het water niet meer kwijt en loopt dan over de voorkant. Vaak zie je er dan plantjes of gras in groeien. Hoe vaak een goot leeg moet, lees je in <a href="/kennisbank/hoe-vaak-dakgoot-reinigen/">hoe vaak dakgoot reinigen</a>.`,
+      ] },
+      { kop: `De uitloop of de regenpijp zit dicht`, tekst: [
+        `De meeste rommel komt samen bij de uitloop, het gat in de goot waar het water de regenpijp in loopt. Daar blijft een prop blad hangen, of in de bocht net onder de goot. Dan staat de goot vol water terwijl hij verder schoon lijkt. Meer daarover lees je in <a href="/kennisbank/verstopte-regenpijp-lekkende-dakgoot/">verstopte regenpijp</a>.`,
+      ] },
+      { kop: `De goot hangt scheef of door`, tekst: [
+        `Een goot moet een klein beetje aflopen naar de regenpijp. Is een beugel los of krom, of is het hout erachter zacht geworden, dan zakt de goot op die plek door. Daar blijft water staan, en bij een bui loopt hij precies daar over. Vanaf de straat zie je dat als een knik in de goot, of als een plek waar na de bui nog lang water staat. Lees ook <a href="/kennisbank/dakgoot-hangt-door/">dakgoot hangt door</a>.`,
+      ] },
+      { kop: `Eén regenpijp voor een lange goot`, tekst: [
+        `Aan een lange goot, of aan een groot dak dat op één goot afwatert, zit soms maar één regenpijp. Bij gewone regen gaat dat goed. Bij een stortbui kan die ene pijp het niet bijhouden, en dan loopt de goot over aan de kant waar geen pijp zit, terwijl hij schoon is en nergens lekt. Een tweede uitloop met een eigen regenpijp kan dat beter oplossen dan een nieuwe goot.`,
+      ] },
+      { kop: `Overlopen of lekken?`, tekst: [
+        `Een goot die overloopt, laat het water over de voorkant vallen, meestal over een flink stuk. Een goot die lekt, druppelt op één vaste plek, ook als hij leeg is, vaak onder een naad of een hoek. Kijk dan bij <a href="/kennisbank/dakgoot-lekt/">dakgoot lekt</a>. Loopt het water niet over de voorkant maar achter de goot langs de muur, dan is het weer iets anders: lees <a href="/kennisbank/water-achter-dakgoot/">water achter de dakgoot</a>.`,
+      ] },
+      { kop: `Waarom je het niet laat zitten`, tekst: [
+        `Water dat steeds over de rand valt, komt tegen de gevel en bij de fundering terecht. De muur wordt nat en groen, en op den duur trekt het vocht naar binnen. Blijft er in de winter water in de goot staan en bevriest dat, dan kan het een naad openduwen. Zie ook <a href="/kennisbank/dak-lekt-bij-sneeuw-of-vorst/">dak lekt bij sneeuw of vorst</a>.`,
+      ] },
+      { kop: `Wat je zelf beter niet doet`, tekst: [
+        `Ga niet in de regen of op een natte ladder tegen de goot staan, en zet de ladder niet tegen een kunststof goot: die breekt makkelijk. Prik niet van onderen met een stok of een stuk draad in de regenpijp als je niet weet waar de prop zit. Dan druk je hem vaak verder vast. Wil je de goot zelf leegmaken, lees dan eerst <a href="/kennisbank/dakgoot-zelf-schoonmaken/">dakgoot zelf schoonmaken</a>.`,
+      ] },
+      { kop: `Hoe ik het aanpak`, tekst: [
+        `Stuur me tijdens of vlak na een bui een foto of filmpje van de plek waar het overloopt, en een foto van de goot vanaf de straat. Dan zie ik vaak al of hij vol zit, scheef hangt of dat het aan de regenpijp ligt. Ter plekke maak ik de goot leeg en de uitloop vrij, en kijk ik of hij goed afloopt. Hangt hij door, dan zet ik hem weer op afschot naar de regenpijp. Zit er ook een lek in, dan hoor je dat eerlijk. Zie <a href="/diensten/goten-reinigen/">goten reinigen</a> en <a href="/diensten/dakgoot-vervangen/">dakgoot repareren of vervangen</a>.`,
+      ] },
+      { kop: `Wat kost het?`, tekst: [
+        `Eén goot leegmaken, bijvoorbeeld alleen de voorgoot, kost ${prijsVan("goot_reinigen")}: de goot leeg, de uitloop naar de regenpijp vrij en de troep gaat mee. Moeten beide goten schoon, of moet er ook iets aan de goot gebeuren, dan hoor je vooraf de vaste prijs. Richtprijzen staan op de <a href="/prijzen/">prijzenpagina</a>.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: dakgoot schoonmaken`, href: `/diensten/goten-reinigen/` },
+    faq: [
+      { v: `Mijn goot loopt alleen bij een stortbui over. Is dat erg?`, a: `Niet altijd. Bij een echte wolkbreuk kan bijna elke goot het water even niet bijhouden. Gebeurt het bij elke flinke bui, of steeds op dezelfde plek, dan zit de goot vaak vol, hangt hij door of is er te weinig afvoer. Stuur me een filmpje van de goot tijdens een bui, dan zeg ik eerlijk wat ik zie.` },
+      { v: `Mijn goot is pas schoongemaakt en loopt toch over. Hoe kan dat?`, a: `Dan zit het vaak in de uitloop of in de regenpijp zelf, of hangt de goot op een plek door. Kijk tijdens een bui onderaan de regenpijp. Komt er bijna niets uit, dan zit er ergens een prop. Komt er wel veel uit en loopt de goot toch over, dan kan één regenpijp het water van dat dak niet aan. Stuur me een foto van de goot en van de onderkant van de pijp.` },
+      { v: `Is een overlopende goot spoed?`, a: `Meestal niet, zolang het water buiten blijft. Wordt het binnen nat, bovenin de muur, rond een kozijn of op het plafond, dan wel: bel of app me met een foto. Zit de natte plek bij een stopcontact of een lamp, zet dan eerst in de meterkast de groep van die kamer uit.` },
+    ],
+  },
 ];
 
 // Extra vragen bij bestaande artikelen. artikelen.ts is te groot om nog te laten groeien, daarom staan nieuwe vragen hier.
