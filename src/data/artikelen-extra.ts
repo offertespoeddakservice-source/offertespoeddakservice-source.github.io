@@ -748,6 +748,53 @@ export const ARTIKELEN_EXTRA: Artikel[] = [
       { v: `Ik weet het niet zeker en het blijft lekken. Wat doe ik?`, a: `Vang het water op, zet de stroom uit als het bij een lamp of stopcontact zit, en draai de hoofdkraan dicht. Stopt het daarna, dan is het een leiding en bel je een loodgieter. Blijft het lopen en heeft het geregend, bel of app me dan met een foto van de natte plek.` },
     ],
   },
+  {
+    slug: `dak-repareren-in-de-winter`,
+    datum: `2026-11-06`,
+    titel: `Dak repareren in de winter?`,
+    h1: `Dak repareren in de winter: wat kan bij vorst, regen en wind?`,
+    metaTitle: `Dak repareren in de winter: kan dat? | Spoed Dak Service`,
+    metaDescription: `Lekt je dak in de winter? Veel reparaties kunnen gewoon, ook als het koud is. Lees wat bij vorst, regen en wind kan, en wat beter op een droge dag wacht.`,
+    intro: `Lekt je dak in november of januari, dan hoef je meestal niet tot het voorjaar te wachten. Een losse pan, een verschoven nokvorst of een lek bij de schoorsteen kan ik in de winter vaak gewoon herstellen. Maar niet elk werk kan bij elk weer. Dakmortel hardt niet goed uit als het vriest, op een nat plat dak hecht niets, en bij ijzel of storm is een dak voor niemand veilig. Hieronder lees je wat wel kan, wat beter op een droge dag wacht en hoe het binnen ondertussen droog blijft.`,
+    secties: [
+      { kop: `Lekt het nu? Eerst dit`, tekst: [
+        `Zet een emmer onder de druppel, leg er een handdoek onder en haal spullen weg die nat kunnen worden. Ga in de winter zeker niet zelf het dak of de ladder op: rijp, ijs of nat blad op de pannen maakt alles spiegelglad. Maak een foto van de natte plek en, vanaf de straat, van je dak. Wat je verder meteen kunt doen, staat op de <a href="/spoed/">spoedpagina</a>.`,
+      ] },
+      { kop: `Wat in de winter meestal gewoon kan`, tekst: [
+        `Een losse of kapotte pan vervangen of terugleggen. Daar is geen mortel of lijm voor nodig, dus dat kan ook als het koud is, zolang de pannen niet glad zijn van ijs of rijp.`,
+        `Lood rond een schoorsteen of langs een muur vastzetten of vervangen. Lood laat zich ook bij kou goed vormen. Werk ik met loodvervanger, dan kies ik een droge dag, want het moet goed hechten op de ondergrond.`,
+        `Een volle goot leegmaken, zolang het blad er niet in is vastgevroren. Juist voor de winter is dat slim, want water dat in een volle goot blijft staan, kan bevriezen en een naad openduwen.`,
+        `Een kap of afdekplaat zetten op een schoorsteen die je niet meer gebruikt, zodat het niet meer in het kanaal regent.`,
+      ] },
+      { kop: `Wat beter op het juiste weer wacht`, tekst: [
+        `Een nok opnieuw aansmeren. Nokvorsten liggen vaak in dakmortel, en die moet een paar dagen kunnen uitharden zonder vorst. Vriest het, of komt er nachtvorst aan, dan dek ik een open stuk nok eerst tijdelijk af, zodat het niet binnen regent. Het aansmeren doe ik dan op een dag dat het een tijdje niet vriest. Meer over de nok lees je in <a href="/kennisbank/nokvorsten-los/">losse nokvorsten</a>.`,
+        `Een plat dak repareren. Lijm, tape en dakbedekking hechten alleen op een schone, droge ondergrond. Op een nat dak, of met rijp of sneeuw erop, houdt een reparatie niet. Dan dek ik het lek eerst tijdelijk af en maak ik het goed op een droge dag. Zie ook <a href="/kennisbank/water-blijft-staan-op-plat-dak/">water blijft staan op je platte dak</a>.`,
+        `Kitten of plakken. Kit en tape hechten slecht op een koude, natte ondergrond. Een lek dat in de winter met kit is dichtgesmeerd, gaat vaak binnen een paar weken weer lekken.`,
+      ] },
+      { kop: `Wanneer ik niet het dak op ga`, tekst: [
+        `Bij ijzel, bij sneeuw of ijs op de pannen en bij storm ga ik niet het dak op. Dat is niet veilig, ook niet voor een dakdekker, en een pan die je dan terugduwt, breekt makkelijk. Dan wachten we tot het weer het toelaat. Tot die tijd vang je het water binnen op, en ik zeg je wat je verder kunt doen om de schade klein te houden. Zodra het kan, plannen we het in.`,
+      ] },
+      { kop: `Eerst dicht, daarna netjes`, tekst: [
+        `In de winter werk ik vaak in twee stappen. Eerst zorg ik dat het binnen droog blijft: een pan terugleggen, een open plek afdekken of een volle goot leegmaken. Is er voor de nette reparatie droog weer nodig, of een passende pan die besteld moet worden, dan kom ik daarvoor terug. Hoe je een lek tot die tijd opvangt, lees je in <a href="/kennisbank/daklek-tijdelijk-dichten/">daklek tijdelijk dichten</a>.`,
+      ] },
+      { kop: `Wat je zelf beter niet doet`, tekst: [
+        `Klim in de winter niet op het dak of op een ladder tegen de goot. Hak geen ijs uit de goot en giet er geen heet water in, want verderop bevriest het meteen weer. Schep geen sneeuw van je dak. En smeer een lek niet zelf dicht met kit of tape: dat laat bij vorst los, en voordat het lek goed gemaakt kan worden, moet het er weer af. Lekt het bij sneeuw of dooi, lees dan <a href="/kennisbank/dak-lekt-bij-sneeuw-of-vorst/">dak lekt bij sneeuw of vorst</a>.`,
+      ] },
+      { kop: `Voor de winter laten nakijken`, tekst: [
+        `Wil je het voor zijn, laat dan in de herfst je goten leegmaken en kijken of de nok en het lood rond de schoorsteen nog goed vastzitten. Wat je per seizoen nakijkt, staat in <a href="/kennisbank/dakonderhoud-per-seizoen/">dakonderhoud per seizoen</a>. Wil je een rapport met foto's van je hele dak, dan kan dat met de <a href="/dak-apk/">Dak-APK</a> voor ${apkPrijs}.`,
+      ] },
+      { kop: `Wat kost het?`, tekst: [
+        `Een paar losse of kapotte pannen vervangen kost ${inclBtw("dakpan")}. Een lek opsporen en dichtmaken kost ${inclBtw("daklekkage")}. Moet ik eerst tijdelijk afdekken en later terugkomen voor de nette reparatie, dan hoor je dat vooraf, met de prijs erbij. Richtprijzen staan op de <a href="/prijzen/">prijzenpagina</a>.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: spoed dakreparatie`, href: `/diensten/dakreparatie/` },
+    faq: [
+      { v: `Kan een dakdekker in de winter werken?`, a: `Ja, het meeste werk kan gewoon. Pannen vervangen, lood vastzetten en goten leegmaken kan ook als het koud is. Alleen werk met dakmortel, lijm of kit wacht beter op een dag zonder vorst en zonder regen. Bij ijzel, sneeuw op de pannen of storm wacht ik tot het veilig is.` },
+      { v: `Kan een nokvorst bij vorst vastgezet worden?`, a: `Aansmeren met dakmortel liever niet, want de mortel moet uitharden zonder vorst. Ligt er nu een vorst los, dan zorg ik eerst dat de nok dicht is en het niet binnen regent, en smeer ik hem aan zodra het een paar dagen niet vriest.` },
+      { v: `Moet ik met een lek wachten tot het voorjaar?`, a: `Nee. Een lek wordt in de winter niet vanzelf kleiner, en water dat lang in het hout of de isolatie blijft zitten, droogt in de winter slecht. Laat het dichtmaken zodra het kan. Kan de nette reparatie pas op een droge dag, dan dek ik het eerst tijdelijk af.` },
+      { v: `Is een reparatie in de winter minder goed?`, a: `Niet als het bij het goede weer gebeurt. Een pan of lood ligt in januari net zo goed als in juli. Waar het weer wel uitmaakt, zoals bij dakmortel of een plat dak, wacht ik op een geschikte dag, en zo lang blijft het tijdelijk dicht.` },
+    ],
+  },
 ];
 
 // Extra vragen bij bestaande artikelen. artikelen.ts is te groot om nog te laten groeien, daarom staan nieuwe vragen hier.
