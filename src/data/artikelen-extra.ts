@@ -879,4 +879,7 @@ export const FAQ_ERBIJ: Record<string, Artikel["faq"]> = {
   "wat-kost-daklekkage-repareren": [
     { v: `Wat als je tijdens de reparatie ziet dat er meer kapot is?`, a: `Dan stop ik en laat ik het je eerst zien, met een foto als je zelf niet op het dak kunt kijken. Je hoort wat het extra werk is en wat het kost, en jij beslist of ik het meteen meeneem of dat het kan wachten. Extra werk doe ik pas als jij akkoord geeft. Is iets niet nodig om het lek dicht te krijgen, dan zeg ik dat er eerlijk bij.` },
   ],
+  "daklekkage-opsporen": [
+    { v: `Kun je een lek ook vinden als het op dat moment droog is?`, a: `Vaak wel. Water laat sporen na: een donkere kring of streep op het hout, een vlek op de folie, roest op een spijker of een vochtige plek in de isolatie. Die volg ik naar boven, en buiten kijk ik op die plek naar de pannen, het lood en de naden. Vertel me ook bij welk weer het nat werd, bijvoorbeeld alleen bij harde wind of bij een stortbui, want dat zegt veel over waar het zit. Zie ik op een droge dag niets, dan vraag ik je bij de volgende bui een foto te maken van de plek waar het druppelt.` },
+  ],
 };
