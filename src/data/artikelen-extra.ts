@@ -597,6 +597,51 @@ export const ARTIKELEN_EXTRA: Artikel[] = [
       { v: `Is een overlopende goot spoed?`, a: `Meestal niet, zolang het water buiten blijft. Wordt het binnen nat, bovenin de muur, rond een kozijn of op het plafond, dan wel: bel of app me met een foto. Zit de natte plek bij een stopcontact of een lamp, zet dan eerst in de meterkast de groep van die kamer uit.` },
     ],
   },
+  {
+    slug: `licht-tussen-dakpannen`,
+    datum: `2026-11-06`,
+    titel: `Zie je licht tussen je dakpannen?`,
+    h1: `Licht tussen je dakpannen op zolder: is dat erg?`,
+    metaTitle: `Licht tussen dakpannen op zolder: erg? | Spoed Dak Service`,
+    metaDescription: `Zie je op zolder daglicht tussen je dakpannen? Bij een oud dak zonder folie is een beetje licht vaak normaal. Zo zie je wanneer het wel een probleem is.`,
+    intro: `Je staat op zolder, kijkt omhoog en ziet hier en daar streepjes daglicht tussen de pannen. Daar hoef je niet altijd van te schrikken. Bij veel oudere huizen hoort een beetje licht erbij. Maar een gat waar je echt doorheen kijkt, of licht op een plek waar het eerst niet was, is wel een teken dat er iets los of kapot is. Hieronder lees je hoe je het verschil ziet.`,
+    secties: [
+      { kop: `Eerst: ligt er iets onder je pannen?`, tekst: [
+        `Kijk eerst wat je op zolder eigenlijk ziet. Zie je de onderkant van de pannen en de latten waar ze aan hangen, dan ligt er niets tussen: geen folie en geen houten beschot. Dat is bij veel oudere huizen zo. Zie je folie of houten platen, dan kun je de pannen zelf niet zien, en dan betekent licht iets anders. Lees ook <a href="/kennisbank/dakfolie-kapot/">dakfolie kapot of vergaan</a>.`,
+      ] },
+      { kop: `Wat licht is normaal`, tekst: [
+        `Pannen liggen in elkaar, maar niet potdicht. Bij een dak zonder folie zie je daarom vaak kleine streepjes licht waar de pannen elkaar overlappen, vooral langs de randen en vlak onder de nok. Bij gewone regen komt daar geen water door, want het water loopt over de pannen naar beneden. Bij harde wind of stuifsneeuw kan er wel wat doorheen komen. Zie <a href="/kennisbank/dak-lekt-bij-harde-wind/">dak lekt bij harde wind</a> en <a href="/kennisbank/dak-lekt-bij-sneeuw-of-vorst/">dak lekt bij sneeuw of vorst</a>.`,
+      ] },
+      { kop: `Wanneer licht wel een probleem is`, tekst: [
+        `Een plek licht groter dan een vinger, of een plek waar je een stuk lucht ziet, betekent meestal dat een pan gebroken is, dat er een hoek af is of dat een pan is verschoven. Licht op een plek waar het eerst donker was, vaak na een storm, wijst ook op een pan die is gaan schuiven. En licht langs de schoorsteen, het dakraam of een pijp door het dak betekent vaak dat het lood of de aansluiting daar niet meer goed dicht zit. Zie <a href="/kennisbank/dakpan-kapot-of-verschoven/">dakpan kapot of verschoven</a> en <a href="/kennisbank/lood-op-dak/">lood op je dak</a>.`,
+      ] },
+      { kop: `Licht onder de nok`, tekst: [
+        `Zie je bovenin, onder de nok, een rij streepjes licht? Ligt de nok in specie, dan kan die specie zijn uitgebrokkeld, zodat er kieren onder de nokvorsten zitten. Vanaf de straat zie je dat soms ook: stukjes specie in de goot of een vorst die scheef ligt. Lees <a href="/kennisbank/nokvorsten-los/">losse nokvorsten</a>.`,
+      ] },
+      { kop: `Licht door folie of beschot`, tekst: [
+        `Ligt er folie onder de pannen en zie je toch licht, dan zit er een scheur of gat in de folie en ligt er waarschijnlijk ook een pan scheef of kapot boven die plek. Bij houten beschot zie je zelden licht. Zie je het daar toch, dan is het hout op die plek vaak kapot of zit er een open naad. Kijk dan ook of het hout eromheen donker of zacht is.`,
+      ] },
+      { kop: `Zo kijk je het veilig na`, tekst: [
+        `Ga op een droge dag met een zaklamp naar zolder en doe daar het licht uit. Dan zie je het daglicht het best. Maak een foto van elke plek waar je licht ziet, en kijk op het hout eronder of er donkere strepen of natte plekken zitten. Ga daarna aan de overkant van de straat staan en kijk met de zoom van je telefoon of je aan de buitenkant een pan ziet die scheef ligt of mist. Druk niet van binnen tegen de pannen en ga niet zelf het dak op.`,
+      ] },
+      { kop: `Is het spoed?`, tekst: [
+        `Zie je een groot gat en komt er regen of storm aan, of is het op zolder al nat? Dan wel. Zet een bak of emmer onder de plek, leg er een zeil of handdoek onder en stuur me een foto. Wat je verder meteen kunt doen, staat op de <a href="/spoed/">spoedpagina</a>. Zie je alleen kleine streepjes licht en blijft het droog, dan kan het meestal wachten tot een gewone werkdag.`,
+      ] },
+      { kop: `Hoe ik het aanpak`, tekst: [
+        `Stuur me de foto's van zolder en een foto van je dak vanaf de straat. Dan zie ik vaak al of het om een paar pannen gaat, om de nok of om het lood. Een verschoven pan leg ik terug, een kapotte pan vervang ik door een pan die past, en een losse nok zet ik weer vast. Ligt er geen folie onder je pannen en gaat het je om de kieren zelf, dan zeg ik eerlijk wat er kan. Bij een dakrenovatie kan er op wens nieuwe folie onder de pannen. Zie <a href="/diensten/dakreparatie/">dakreparatie</a> en <a href="/diensten/dakrenovatie/">dakrenovatie</a>.`,
+      ] },
+      { kop: `Wat kost het?`, tekst: [
+        `Een paar pannen terugleggen of vervangen, of een losse nokvorst vastzetten, valt meestal onder een kleine reparatie: ${prijsVan("dakpan")}. Moet de hele nok opnieuw of gaat het om een groter stuk dak, dan hoor je vooraf de vaste prijs. Richtprijzen staan op de <a href="/prijzen/">prijzenpagina</a>.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: dakreparatie`, href: `/diensten/dakreparatie/` },
+    faq: [
+      { v: `Ik zie licht tussen mijn pannen, maar het lekt niet. Moet ik iets doen?`, a: `Gaat het om kleine streepjes licht bij een dak zonder folie, en blijft het op zolder ook na een flinke bui droog, dan meestal niet. Zie je een groter gat, of licht op een plek waar het eerst niet was, laat het dan nakijken voordat de volgende storm komt. Stuur me een foto van de plek, dan zeg ik eerlijk wat ik zie.` },
+      { v: `Kan ik de kieren tussen de pannen zelf dichtkitten of dichtschuimen?`, a: `Liever niet. Pannen moeten een beetje kunnen bewegen, en onder de pannen moet lucht kunnen. Kit of schuim tussen de pannen houdt vocht vast, en dan worden de latten eronder sneller rot. Bij een reparatie moet het er ook weer af. Een verschoven of kapotte pan los je op door hem goed te leggen of te vervangen.` },
+      { v: `Moet er folie onder mijn pannen?`, a: `Dat hoeft niet. Veel oude daken liggen al lang zonder folie en blijven gewoon droog. Folie houdt wel stuifsneeuw en regen die bij harde wind onder de pannen waait beter tegen. Folie leg je alleen als de pannen eraf gaan, bijvoorbeeld bij een dakrenovatie. Dat doe ik als je dat wilt.` },
+      { v: `Is licht tussen de pannen na een storm spoed?`, a: `Zie je na een storm ineens licht, of een gat waar eerst geen gat was, dan ligt er waarschijnlijk een pan scheef of is er een weggewaaid. Zet bij regen een bak onder de plek en stuur me een foto van zolder en van je dak vanaf de straat. Lekt het al, dan is het spoed: bel of app me.` },
+    ],
+  },
 ];
 
 // Extra vragen bij bestaande artikelen. artikelen.ts is te groot om nog te laten groeien, daarom staan nieuwe vragen hier.
