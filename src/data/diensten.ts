@@ -259,7 +259,7 @@ export const DIENSTEN: Dienst[] = [
     kort: "Weggewaaide pannen, losse delen of lekkage na storm? Snel actie.",
     metaTitle: "Stormschade dak: noodreparatie Den Bosch | Spoed Dak Service",
     metaDescription:
-      "Stormschade aan je dak: weggewaaide pannen of lekkage? Ik kom snel langs voor noodreparatie in de regio Den Bosch en help met foto's voor de verzekering.",
+      "Stormschade aan je dak: weggewaaide pannen, een losse nok of lekkage? Ik dek eerst af en herstel daarna netjes, met foto's voor je verzekering. Regio Den Bosch.",
     icoon: "🌬️",
     intro:
       "Na een storm telt elk uur. Losse of weggewaaide pannen en open plekken laten regen binnen. Ik beperk eerst de schade (afdekken/dichten) en herstel daarna netjes, en maak duidelijke foto's die je kunt gebruiken voor je verzekering.",
