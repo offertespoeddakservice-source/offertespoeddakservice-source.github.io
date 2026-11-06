@@ -36,13 +36,25 @@ const faqSchema = {
   "@type": "FAQPage",
   mainEntity: faq.map((f) => ({ "@type": "Question", name: f.v, acceptedAnswer: { "@type": "Answer", text: f.a } })),
 };
+// Spoed als dienst in de gegevens voor Google en AI: wie, wat, waar en dag en nacht bereikbaar. Geen prijs.
+const spoedSchema = {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  name: "Spoed dakdekker bij daklekkage en stormschade",
+  serviceType: "Spoed dakreparatie",
+  description: "Spoed bij daklekkage en stormschade aan je dak: eerst de schade beperken, daarna een nette reparatie. Dag en nacht bereikbaar.",
+  url: `${SITE.url}/spoed/`,
+  provider: { "@type": "RoofingContractor", "@id": `${SITE.url}/#bedrijf`, name: SITE.bedrijfsnaam, telephone: `+${SITE.telefoonE164}` },
+  areaServed: [{ "@type": "State", name: "Noord-Brabant" }, { "@type": "City", name: SITE.basisplaats }],
+  hoursAvailable: { "@type": "OpeningHoursSpecification", dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"], opens: "00:00", closes: "23:59" },
+};
 ---
 
 <Base
   title={`Spoed dakdekker en daklekkage Den Bosch | ${SITE.bedrijfsnaam}`}
   description="Acute daklekkage of stormschade? Spoed dakdekker in de regio Den Bosch, vaak dezelfde dag langs, ook 's avonds en in het weekend. Bel 06 10 18 53 57."
   path="/spoed"
-  schema={faqSchema}
+  schema={[faqSchema, spoedSchema]}
 >
   <section class="hero">
     <div class="wrap">
