@@ -81,7 +81,7 @@ const zelfdeDienst = MATRIX.filter((c) => c.dienst === d.slug && c.plaats !== p.
 // FAQ: combineer plaats-specifiek + dienst-specifiek → uniek én rijk per pagina.
 const faq = [
   {
-    v: `Kun je snel langskomen voor ${d.titel.toLowerCase()} in ${p.naam}?`,
+    v: `Kun je snel langskomen voor ${(KLUS_NAAM[d.slug] ?? d.titel).toLowerCase()} in ${p.naam}?`,
     a: p.slug === "den-bosch"
       ? `Ja, Den Bosch is mijn thuisbasis, dus ik ben er zo. Bij spoed kom ik regelmatig nog dezelfde dag.`
       : p.reistijd?.startsWith("±")
@@ -168,7 +168,7 @@ const schema = [
 
   <section class="section section--soft">
     <div class="wrap">
-      <h2>Veelgestelde vragen: {d.titel.toLowerCase()} in {p.naam}</h2>
+      <h2>Veelgestelde vragen: {(KLUS_NAAM[d.slug] ?? d.titel).toLowerCase()} in {p.naam}</h2>
       <div class="faq" style="margin-top:16px; max-width:760px;">
         {faq.map((f) => (
           <details>
