@@ -885,4 +885,7 @@ export const FAQ_ERBIJ: Record<string, Artikel["faq"]> = {
   "wat-kost-een-dakdekker": [
     { v: `Werk je met een uurtarief?`, a: `Nee. Bij mij hoor je vooraf één vaste prijs voor de hele klus, geen bedrag per uur. Dan weet je vooraf waar je aan toe bent. Een paar losse pannen vervangen kost bijvoorbeeld ${inclBtw("dakpan")}. Voor groter werk stuur je een foto of kom ik eerst kijken, en je hoort de prijs voordat ik begin.` },
   ],
+  "dak-keuren-bij-huis-kopen": [
+    { v: `Ik verkoop mijn huis. Heeft het zin om het dak vooraf te laten keuren?`, a: `Dat kan. Met de Dak-APK weet je zelf hoe je dak erbij ligt voordat kopers en hun keurder komen kijken. Je krijgt een rapport met foto's dat je kunt laten zien. Zie ik iets wat gemaakt moet worden, zoals een losse pan of lood dat loslaat, dan hoor je vooraf wat het kost, en kies jij of je het voor de verkoop laat doen. Weet je van een lek of een ander gebrek aan je dak, vertel dat dan aan je makelaar, want een verkoper moet bekende gebreken in de regel melden. De Dak-APK kost ${apkPrijs}.` },
+  ],
 };
