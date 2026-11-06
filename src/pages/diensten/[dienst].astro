@@ -106,6 +106,8 @@ const WAT_PER_DIENST: Record<string, string> = {
   dakrenovatie: "het opknappen van een versleten dak (dakrenovatie)"
 };
 const watZin = WAT_PER_DIENST[d.slug] ?? d.titel.toLowerCase();
+// Knoppen naar de pagina's per plaats: de namen waarop mensen zoeken, net als op de plaatspagina's.
+const KNOP_NAAM: Record<string, string> = { "goten-reinigen": "Dakgoot schoonmaken", "dakgoot-vervangen": "Dakgoot repareren of vervangen" };
 ---
 
 <Base title={d.metaTitle} description={d.metaDescription} path={path} schema={schema} noindex={d.verborgen === true}>
@@ -216,7 +218,7 @@ const watZin = WAT_PER_DIENST[d.slug] ?? d.titel.toLowerCase();
         <>
           <p class="lead">Direct naar {d.titel.toLowerCase()} in jouw plaats:</p>
           <div class="chips" style="margin-bottom:18px;">
-            {matrixVoorDienst.map((p) => <a class="chip" href={`/werkgebied/${p.slug}/${d.slug}/`}>{d.titel} in {p.naam}</a>)}
+            {matrixVoorDienst.map((p) => <a class="chip" href={`/werkgebied/${p.slug}/${d.slug}/`}>{KNOP_NAAM[d.slug] ?? d.titel} in {p.naam}</a>)}
           </div>
         </>
       )}
