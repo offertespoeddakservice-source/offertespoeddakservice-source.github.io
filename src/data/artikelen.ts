@@ -2656,7 +2656,7 @@ export const ARTIKELEN: Artikel[] = [
         `Dat hangt af van hoe lang de windveer is, hoe hoog hij zit en of ik hem alleen vastzet of vervang. Stuur een foto vanaf de straat, dan hoor je vooraf wat het kost. Waait een goede windveer los bij een storm, dan valt dat vaak onder je opstalverzekering. Is hij losgekomen omdat het hout rot was, dan meestal niet. Dat verschilt per polis: lees <a href="/kennisbank/daklekkage-verzekering/">daklekkage en je verzekering</a>.`,
       ] },
     ],
-    dienst: { label: `Bekijk: dakreparatie`, href: `/diensten/dakreparatie/` },
+    dienst: { label: `Bekijk: windveer vervangen`, href: `/diensten/windveer-vervangen/` },
     faq: [
       { v: `Wat is het verschil tussen een windveer en een boeideel?`, a: `Allebei zijn het planken langs de rand van je dak. De windveer loopt schuin langs de zijkant, bij de kopgevel. Een boeideel zit meestal recht onder de dakrand, aan de kant van de goot. Ze gaan om dezelfde redenen kapot: los na een storm of rot door water.` },
       { v: `Is een losse windveer spoed?`, a: `Hangt hij half los boven de stoep, de oprit of je tuin, of slaat hij bij wind tegen de muur, dan wel: bel of app me met een foto. Zit hij een beetje los maar ligt hij nog strak tegen de muur, dan kan het meestal een paar dagen wachten. Wacht niet tot de volgende storm.` },

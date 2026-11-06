@@ -537,6 +537,37 @@ export const DIENSTEN: Dienst[] = [
     ],
   },
   {
+    slug: "windveer-vervangen",
+    titel: "Windveer vervangen",
+    vanafPrijs: "stuur een foto",
+    h1: "Windveer vervangen of vastzetten: de plank langs de zijkant van je dak",
+    kort: "Losse of rotte windveer langs de zijkant van je dak vastzetten of vervangen, en de pannen erboven weer goed gelegd.",
+    metaTitle: "Windveer vervangen of vastzetten | Spoed Dak Service",
+    metaDescription:
+      "Windveer los na een storm of rot? Ik zet hem weer vast of vervang hem en leg de pannen langs de rand weer goed. Regio Den Bosch. Stuur een foto voor de prijs.",
+    icoon: "🧰",
+    geenAfbeelding: true,
+    zieOok: [
+      { label: "Stormschade", href: "/diensten/stormschade/" },
+      { label: "Dakpannen vervangen", href: "/diensten/dakpannen-vervangen/" },
+    ],
+    intro:
+      "Langs de schuine zijkant van je dak, bij de kopgevel, zit een lange plank: de windveer. Hij sluit de rand van het dak af, zodat de wind er niet onder kan, en houdt de pannen aan de zijkant op hun plek. Na een storm hangt hij soms los, en na jaren regen kan het hout gaan rotten, vaak eerst onderaan, vlak boven de goot. Een goede windveer zet ik weer stevig vast. Is hij rot of gebroken, dan vervang ik hem, en daarna leg ik de pannen langs de rand weer goed.",
+    punten: [
+      "Losse windveer weer stevig vastzetten",
+      "Rotte of gebroken windveer vervangen",
+      "Pannen langs de zijkant weer goed gelegd, een gebroken pan vervangen",
+      "Meteen een blik op de uiteinden van de panlatten eronder",
+    ],
+    faq: [
+      { v: "Wat kost een windveer vervangen?", a: "Dat hangt af van hoe lang de windveer is, hoe hoog hij zit, of het om één kant of beide kanten van het huis gaat en of ik hem vastzet of vervang. Stuur een foto van de zijkant van je dak vanaf de straat via WhatsApp, dan hoor je vooraf wat het kost." },
+      { v: "Moet de hele windveer eruit, of kan een stuk vervangen worden?", a: "Dat hangt af van hoe ver het rot zit. Zit een goede windveer alleen los, dan zet ik hem weer vast. Is alleen het onderste stuk boven de goot zacht, dan kijk ik of dat stuk vervangen kan worden. Is het hout over de hele lengte zacht of gespleten, dan is een nieuwe windveer beter. Je hoort eerlijk wat ik zie." },
+      { v: "Mijn windveer klappert bij wind tegen de gevel. Wat doe ik nu?", a: "Blijf uit de buurt van de gevel onder de plank en zet er als het kan iets neer, zodat niemand eronder loopt. Trek er niet aan en zet geen ladder tegen de muur. Maak vanaf de straat een foto en stuur die via WhatsApp. Hangt hij half los boven de stoep, de oprit of je tuin, dan is het spoed: bel of app me meteen." },
+      { v: "Valt een losgewaaide windveer onder mijn verzekering?", a: "Waait een goede windveer los bij een storm, dan valt het herstel vaak onder je opstalverzekering. Was het hout al rot, dan meestal niet. Dat verschilt per polis. Ik maak foto's van wat ik aantref en van de reparatie, met een korte omschrijving, die je naar je verzekeraar kunt sturen." },
+      { v: "Kom je ook buiten Den Bosch voor een windveer?", a: "Ja, in mijn werkgebied rond Den Bosch, onder andere in Rosmalen, Vught, Oss, Veghel en Boxtel. Een klus verder weg plan ik vooraf met je in. Stuur eerst een foto van de zijkant van je dak, dan hoor je wanneer ik kan komen." },
+    ],
+  },
+  {
     slug: "schoorsteen-vegen",
     verborgen: true,
     titel: "Schoorsteen vegen",
