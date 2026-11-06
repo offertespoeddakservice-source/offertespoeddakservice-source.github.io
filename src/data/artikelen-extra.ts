@@ -821,4 +821,7 @@ export const FAQ_ERBIJ: Record<string, Artikel["faq"]> = {
   "lekkage-bij-dakdoorvoer": [
     { v: `Mijn oude cv-ketel gaat eruit en de afvoer door het dak is niet meer nodig. Wat moet er met dat gat?`, a: `Dat moet goed dicht. Haalt de installateur de oude afvoerpijp weg, dan blijft de doorvoerpan met een open gat in je dak achter. Een stuk tape of een prop isolatie houdt dat maar kort droog. Ik haal de doorvoerpan weg en leg er een gewone pan in die past bij de pannen eromheen, zodat het dak daar weer dicht is. Zit de afvoer in een plat dak, dan maak ik de dakbedekking op die plek dicht. Laat het me weten als je de ketel laat vervangen, dan stemmen we af wanneer ik kom, zodat het dak niet lang open ligt. Je hoort vooraf wat het kost.` },
   ],
+  "dakpan-kapot-of-verschoven": [
+    { v: `Er ligt een stuk dakpan in mijn tuin, maar vanaf de straat zie ik niets. Wat nu?`, a: `Kijk eerst naar de achterkant van je huis en naar het dak van een schuur of aanbouw, want daar kijk je vanaf de straat niet op. Kijk ook naar de vorm en de kleur van het stuk. Is het rond en zit er specie aan, dan komt het vaak van de nok. Lijkt het niet op je eigen pannen, dan kan het ook van het dak van de buren zijn gewaaid. Bewaar het stuk en maak er een foto van, en ook van elk dakvlak dat je kunt zien, eventueel vanuit een raam boven. Stuur die via WhatsApp, dan zie ik vaak al waar het vandaan komt. Ga zelf niet op het dak of op een ladder zoeken.` },
+  ],
 };
