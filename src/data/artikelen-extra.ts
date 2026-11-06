@@ -642,6 +642,62 @@ export const ARTIKELEN_EXTRA: Artikel[] = [
       { v: `Is licht tussen de pannen na een storm spoed?`, a: `Zie je na een storm ineens licht, of een gat waar eerst geen gat was, dan ligt er waarschijnlijk een pan scheef of is er een weggewaaid. Zet bij regen een bak onder de plek en stuur me een foto van zolder en van je dak vanaf de straat. Lekt het al, dan is het spoed: bel of app me.` },
     ],
   },
+  {
+    slug: `daktermen-uitgelegd`,
+    datum: `2026-11-06`,
+    titel: `Daktermen uitgelegd`,
+    h1: `Daktermen uitgelegd: van nokvorst tot kilgoot`,
+    metaTitle: `Daktermen uitgelegd: van nok tot goot | Spoed Dak Service`,
+    metaDescription: `Wat is een nokvorst, een kilgoot, een windveer of een loodslab? Korte uitleg van de woorden die een dakdekker gebruikt, zodat je weet waar het over gaat.`,
+    intro: `Heeft een dakdekker het over je nokvorsten, je kil of het lood bij de schoorsteen, dan is het handig als je weet wat hij bedoelt. Hieronder staan de woorden die ik het vaakst gebruik, kort uitgelegd. Bij elk woord staat een link naar meer uitleg voor als er iets mis mee is.`,
+    secties: [
+      { kop: `Het pannendak`, tekst: [
+        `<strong>Nok</strong>: de bovenste rand van een schuin dak, waar twee dakvlakken samenkomen.`,
+        `<strong>Nokvorsten</strong>: de ronde of hoekige pannen die bovenop de nok liggen. Ze liggen vaak in specie, of ze zijn met klemmen vastgezet op een ondervorst. Zitten ze los, lees dan <a href="/kennisbank/nokvorsten-los/">losse nokvorsten</a>.`,
+        `<strong>Ondervorst</strong>: een strook onder de nokvorsten die de nok afsluit, zodat regen, wind en fijne sneeuw er niet onder kunnen. Een nok zonder specie heet ook wel een droge nok.`,
+        `<strong>Hoekkeper</strong>: de schuine rand waar twee dakvlakken van een schilddak naar buiten toe samenkomen. Daarop liggen hoekvorsten, net als op de nok.`,
+        `<strong>Gevelpannen</strong>: de pannen langs de schuine zijkant van het dak, met een rand die over de zijkant valt. Ze krijgen veel wind.`,
+        `<strong>Windveer</strong>: de plank langs de schuine zijkant van het dak, onder de gevelpannen. Is hij los of rot, lees dan <a href="/kennisbank/windveer-los-of-rot/">windveer los of rot</a>.`,
+        `<strong>Panlatten</strong>: de houten latten waar de pannen aan hangen. Daaronder lopen vaak tengels: latten van boven naar beneden die de panlatten een stukje van de folie of het beschot af houden, zodat water eronder weg kan lopen.`,
+        `<strong>Dakfolie</strong>: een laag onder de pannen die regen en stuifsneeuw opvangt die onder de pannen door komt. Niet elk dak heeft folie. Zie <a href="/kennisbank/dakfolie-kapot/">dakfolie kapot of vergaan</a>.`,
+        `<strong>Dakbeschot</strong>: houten platen of planken onder de pannen, of onder de dakbedekking van een plat dak.`,
+        `<strong>Stormhaak</strong>: een metalen haakje of klem dat een pan aan de panlat vastzet, zodat de wind hem niet kan optillen. Zie <a href="/kennisbank/dakpannen-vastzetten-tegen-storm/">dakpannen vastzetten tegen storm</a>.`,
+        `<strong>Dakvoet</strong>: de onderkant van het dak, vlak boven de goot. Daar komt de vogelwering. Zie <a href="/kennisbank/vogels-onder-dakpannen/">vogels onder je dakpannen</a>.`,
+        `<strong>Knieschot</strong>: het lage wandje op zolder onder het schuine dak. Daarachter ligt de dakvoet. Zie <a href="/kennisbank/nat-achter-knieschot/">nat achter het knieschot</a>.`,
+      ] },
+      { kop: `Lood en aansluitingen`, tekst: [
+        `<strong>Lood</strong>: stroken lood rond een schoorsteen of een dakraam, of tegen een muur, die zorgen dat het water over de pannen wegloopt in plaats van erachter. Zie <a href="/kennisbank/lood-op-dak/">lood op je dak</a>.`,
+        `<strong>Loodslab</strong>: een strook lood die over de pannen ligt en met de bovenkant in de muur of de schoorsteen vastzit.`,
+        `<strong>Loodvervanger</strong>: een lichter materiaal dat net als lood rond een schoorsteen of langs een muur wordt gelegd. Ik werk meestal met loodvervanger, en met echt lood als je dat liever hebt.`,
+        `<strong>Dakdoorvoer</strong>: een pan of kraag waar een pijp door het dak gaat, bijvoorbeeld van de ventilatie of de ketel. Zie <a href="/kennisbank/lekkage-bij-dakdoorvoer/">lekkage bij een dakdoorvoer</a>.`,
+      ] },
+      { kop: `Goten en afvoer`, tekst: [
+        `<strong>Hangende goot</strong>: een goot die met beugels aan de voorkant van het dak hangt, van zink of kunststof. Zie <a href="/kennisbank/dakgoot-lekt/">dakgoot lekt</a>.`,
+        `<strong>Bakgoot</strong>: een goot die in de rand van het dak zelf zit, bovenop de muur, meestal bekleed met zink. Zie <a href="/kennisbank/bakgoot-lekt/">bakgoot lekt</a>.`,
+        `<strong>Kilgoot</strong>: de goot in de hoek waar twee dakvlakken naar binnen toe samenkomen. Zie <a href="/kennisbank/kilgoot-lekt/">kilgoot lekt</a>.`,
+        `<strong>Uitloop</strong>: het stuk onderin de goot waar het water de regenpijp in loopt. Daar blijft het meeste blad hangen. Zie <a href="/kennisbank/dakgoot-lekt-bij-regenpijp/">dakgoot lekt bij de regenpijp</a>.`,
+        `<strong>Afschot</strong>: de kleine helling van een goot of een plat dak, zodat het water naar de afvoer loopt. Zonder afschot blijft er water staan. Zie <a href="/kennisbank/dakgoot-hangt-door/">dakgoot hangt door</a>.`,
+        `<strong>Regenpijp</strong>: de pijp die het water van de goot naar beneden brengt, ook wel hemelwaterafvoer genoemd. Zie <a href="/kennisbank/verstopte-regenpijp-lekkende-dakgoot/">verstopte regenpijp</a>.`,
+      ] },
+      { kop: `Het platte dak`, tekst: [
+        `<strong>EPDM</strong>: een dakbedekking van rubber, op een klein plat dak vaak in één stuk. Zie <a href="/kennisbank/epdm-dak-lekt/">EPDM-dak lekt</a>.`,
+        `<strong>Bitumen en dakleer</strong>: dakbedekking op basis van bitumen, die in banen op het dak ligt. Dakleer is een dunne soort, vaak op een schuur of tuinhuis. Zie <a href="/kennisbank/dakleer-repareren/">dakleer repareren</a>.`,
+        `<strong>Opstand</strong>: het stuk dakbedekking dat tegen een muur of tegen de rand van een lichtkoepel omhoog loopt.`,
+        `<strong>Daktrim</strong>: de strip, meestal van aluminium, rondom op de rand van een plat dak. Zie <a href="/kennisbank/daktrim-lekt/">plat dak lekt langs de rand</a>.`,
+        `<strong>Lichtkoepel</strong>: een koepel van kunststof in een plat dak, die licht binnenlaat. Zie <a href="/kennisbank/lichtkoepel-lekt/">lichtkoepel lekt</a>.`,
+      ] },
+      { kop: `Staat jouw woord er niet bij?`, tekst: [
+        `Gebruikt een dakdekker een woord dat je niet kent, vraag dan gewoon wat hij bedoelt en laat het je op een foto zien. Stuur mij gerust een foto van je dak, dan leg ik uit wat ik zie. Twijfel je over een advies of een offerte, lees dan <a href="/kennisbank/offerte-dakdekker-vergelijken/">offertes van dakdekkers vergelijken</a>.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: dakreparatie`, href: `/diensten/dakreparatie/` },
+    faq: [
+      { v: `Wat is het verschil tussen een nok en een nokvorst?`, a: `De nok is de bovenste rand van het dak, waar twee dakvlakken samenkomen. De nokvorsten zijn de pannen die daar bovenop liggen en de nok afdekken.` },
+      { v: `Wat is het verschil tussen een bakgoot en een hangende goot?`, a: `Een hangende goot hangt met beugels aan de voorkant van het dak. Een bakgoot zit in de dakrand zelf, bovenop de muur, en is meestal bekleed met zink. Lekt een bakgoot, dan komt het water vaak binnen bovenin de muur, omdat hij op de muur ligt.` },
+      { v: `Wat is een kilgoot?`, a: `Een kilgoot, of kortweg kil, is de goot in de hoek waar twee dakvlakken naar binnen toe samenkomen. Al het water van beide dakvlakken loopt erdoor, en blad blijft er makkelijk in hangen. Daarom gaat een kil vaker lekken dan de rest van het dak.` },
+      { v: `Is loodvervanger net zo goed als lood?`, a: `Voor de meeste daken voldoet loodvervanger prima. Het is lichter en goed te vormen rond een schoorsteen of langs een muur. Wil je liever echt lood, bijvoorbeeld bij een oud huis, dan kan dat ook.` },
+    ],
+  },
 ];
 
 // Extra vragen bij bestaande artikelen. artikelen.ts is te groot om nog te laten groeien, daarom staan nieuwe vragen hier.
