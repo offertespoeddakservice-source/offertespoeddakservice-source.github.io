@@ -824,4 +824,7 @@ export const FAQ_ERBIJ: Record<string, Artikel["faq"]> = {
   "dakpan-kapot-of-verschoven": [
     { v: `Er ligt een stuk dakpan in mijn tuin, maar vanaf de straat zie ik niets. Wat nu?`, a: `Kijk eerst naar de achterkant van je huis en naar het dak van een schuur of aanbouw, want daar kijk je vanaf de straat niet op. Kijk ook naar de vorm en de kleur van het stuk. Is het rond en zit er specie aan, dan komt het vaak van de nok. Lijkt het niet op je eigen pannen, dan kan het ook van het dak van de buren zijn gewaaid. Bewaar het stuk en maak er een foto van, en ook van elk dakvlak dat je kunt zien, eventueel vanuit een raam boven. Stuur die via WhatsApp, dan zie ik vaak al waar het vandaan komt. Ga zelf niet op het dak of op een ladder zoeken.` },
   ],
+  "schoorsteen-lekt-open-haard": [
+    { v: `Er komt alleen water in mijn haard als het hard waait uit één richting. Wat zegt dat?`, a: `Dat zegt vaak waar het zit. Is het kanaal bovenin open, dan waait de regen er bij wind uit één richting schuin in, en bij weinig wind blijft het droog. Een kap of afdekplaat helpt dan meestal. Wordt vooral de kant van de schoorsteen nat waar de wind op staat, dan kan het water ook door het lood aan die kant of door de stenen en voegen trekken. Het lood herstel ik zelf. Zijn de stenen of voegen poreus, dan zeg ik dat eerlijk, want dat is werk voor een metselaar. Schrijf op bij welke wind het nat werd, en stuur me een foto van de schoorsteen vanaf de straat.` },
+  ],
 };
