@@ -77,6 +77,7 @@ const leesVerder: Record<string, string[]> = {
   "regenpijp-vervangen": ["verstopte-regenpijp-lekkende-dakgoot", "dakgoot-lekt", "bakgoot-lekt", "dakgoot-lekt-bij-regenpijp", "regenpijp-in-de-muur-lekt"],
   dakdoorvoer: ["lekkage-bij-dakdoorvoer", "condens-of-lekkage-op-zolder", "druppelen-horen-plafond"],
   "windveer-vervangen": ["windveer-los-of-rot", "dakpannen-vastzetten-tegen-storm", "dakpannen-klapperen-bij-wind", "stormschade-eerste-hulp"],
+  "antenne-verwijderen": ["lekkage-bij-schotel-of-antenne", "dak-lekt-bij-harde-wind", "lekkage-bij-schoorsteen", "lood-op-dak"],
 };
 const leesArtikelen = (leesVerder[d.slug] ?? [])
   .map((s) => ARTIKELEN.find((x) => x.slug === s))
@@ -105,7 +106,8 @@ const WAT_PER_DIENST: Record<string, string> = {
   dakdoorvoer: "het plaatsen en repareren van dakdoorvoeren",
   vogelwering: "vogelwering onder dakpannen en zonnepanelen",
   dakrenovatie: "het opknappen van een versleten dak (dakrenovatie)",
-  "windveer-vervangen": "het vastzetten en vervangen van een losse of rotte windveer"
+  "windveer-vervangen": "het vastzetten en vervangen van een losse of rotte windveer",
+  "antenne-verwijderen": "het weghalen van een oude antenne of schotel en het dichtmaken van het dak"
 };
 const watZin = WAT_PER_DIENST[d.slug] ?? d.titel.toLowerCase();
 // Knoppen naar de pagina's per plaats: de namen waarop mensen zoeken, net als op de plaatspagina's.

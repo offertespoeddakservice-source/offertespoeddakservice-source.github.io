@@ -573,6 +573,36 @@ export const DIENSTEN: Dienst[] = [
     ],
   },
   {
+    slug: "antenne-verwijderen",
+    titel: "Antenne of schotel weghalen",
+    vanafPrijs: "stuur een foto",
+    h1: "Oude antenne of schotel van je dak halen, en het dak weer dicht",
+    kort: "Een oude antenne of schotel van je dak gehaald, met mast, beugel en kabel, en het dak op die plek weer dicht.",
+    metaTitle: "Antenne of schotel van het dak halen | Spoed Dak Service",
+    metaDescription:
+      "Oude antenne of schotel op je dak? Ik haal mast, beugel en kabel weg en maak het dak daarna weer dicht. Regio Den Bosch. Stuur een foto voor de prijs.",
+    icoon: "🧰",
+    geenAfbeelding: true,
+    zieOok: [
+      { label: "Lood vervangen", href: "/diensten/lood-vervangen/" },
+      { label: "Spoed dakreparatie", href: "/diensten/dakreparatie/" },
+    ],
+    intro:
+      "Op veel daken staat nog een antenne die al jaren niets meer doet, of een schotel die niet meer wordt gebruikt. Bij elke storm gaat zo'n mast heen en weer. Dat schuurt aan de pannen en het lood, en een mast die omwaait, komt vaak op de nok of de pannen terecht. Ik haal de mast, de beugel en de kabel weg en maak het dak op die plek weer dicht, zodat er geen gat of losse pan achterblijft.",
+    punten: [
+      "Mast, beugel en kabel van het dak gehaald",
+      "Een pan die past op de plek waar de beugel onder de pannen zat",
+      "Lood rond de schoorsteen nagekeken als er een band om de schoorsteen zat",
+      "Het dak op die plek weer dicht, zonder losse of kapotte pan",
+    ],
+    faq: [
+      { v: "Wat kost het om een antenne of schotel van het dak te halen?", a: "Dat hangt af van hoe de mast vastzit, aan een beugel onder de pannen, met een band om de schoorsteen of aan de muur, en hoe hoog en bereikbaar hij staat. Stuur een foto van je dak vanaf de straat via WhatsApp, dan hoor je vooraf wat het kost." },
+      { v: "Moet er daarna iets aan mijn dak gebeuren?", a: "Meestal een beetje. Waar de beugel onder een pan door ging, ligt die pan vaak niet meer plat of is er een stuk uit gezaagd. Die vervang ik door een pan die past. Zat de mast met een band om de schoorsteen, dan kijk ik of het lood daar nog goed is en herstel ik het waar dat nodig is. Zo blijft er geen plek achter waar het later gaat lekken." },
+      { v: "De antenne staat na de storm scheef. Is dat spoed?", a: "Hangt de mast over de rand van het dak of boven de stoep, de oprit of je tuin, dan wel: blijf eronder weg en bel of app me met een foto. Staat hij alleen een beetje scheef en blijft het binnen droog, dan kan het meestal een paar dagen wachten. Wacht niet tot de volgende storm, want een scheve mast trekt bij elke windstoot verder aan de pannen of de schoorsteen." },
+      { v: "Mijn schotel doet het nog. Kun je hem ook verplaatsen of opnieuw richten?", a: "Nee, verplaatsen en richten laat je doen door een installateur. Lekt het bij de beugel of de kabel van een schotel die je wel gebruikt, dan maak ik het dak op die plek weer dicht. Stuur me een foto van de natte plek en van de schotel vanaf de straat." },
+    ],
+  },
+  {
     slug: "schoorsteen-vegen",
     verborgen: true,
     titel: "Schoorsteen vegen",
