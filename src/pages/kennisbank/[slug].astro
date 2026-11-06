@@ -2,7 +2,7 @@
 import Base from "../../layouts/Base.astro";
 import { SITE, telHref, waHref } from "../../site.config.ts";
 import { ARTIKELEN } from "../../data/artikelen.ts";
-import { FAQ_ERBIJ } from "../../data/artikelen-extra.ts";
+import { FAQ_ERBIJ, KORT_ANTWOORD } from "../../data/artikelen-extra.ts";
 import { PRIJZEN } from "../../data/prijzen.ts";
 import EchteFotos from "../../components/EchteFotos.astro";
 
@@ -173,6 +173,9 @@ const schema = faqSchema ? [articleSchema, faqSchema] : articleSchema;
   <section class="section">
     <div class="wrap split">
       <article class="prose">
+        {KORT_ANTWOORD[a.slug] && (
+          <p class="notice" style="margin-top:0;"><strong>Kort antwoord:</strong> {KORT_ANTWOORD[a.slug]}</p>
+        )}
         {a.secties.map((s, i) => (
           <>
             <h2>{s.kop}</h2>

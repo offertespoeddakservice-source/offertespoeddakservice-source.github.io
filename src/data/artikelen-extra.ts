@@ -889,3 +889,13 @@ export const FAQ_ERBIJ: Record<string, Artikel["faq"]> = {
     { v: `Ik verkoop mijn huis. Heeft het zin om het dak vooraf te laten keuren?`, a: `Dat kan. Met de Dak-APK weet je zelf hoe je dak erbij ligt voordat kopers en hun keurder komen kijken. Je krijgt een rapport met foto's dat je kunt laten zien. Zie ik iets wat gemaakt moet worden, zoals een losse pan of lood dat loslaat, dan hoor je vooraf wat het kost, en kies jij of je het voor de verkoop laat doen. Weet je van een lek of een ander gebrek aan je dak, vertel dat dan aan je makelaar, want een verkoper moet bekende gebreken in de regel melden. De Dak-APK kost ${apkPrijs}.` },
   ],
 };
+
+// Kort antwoord bovenaan een artikel: één of twee zinnen met het directe antwoord, voor Google en AI. Geen bedragen.
+export const KORT_ANTWOORD: Record<string, string> = {
+  "lekkage-bij-schoorsteen": `Lekt het naast de schoorsteen, dan zit het meestal in het lood rond de voet van de schoorsteen, dat na jaren scheurt, omkrult of loslaat. Soms komt het water door de kop van de schoorsteen of door het kanaal zelf naar binnen. Een foto vanaf de straat laat vaak al zien waar het zit.`,
+  "daklekkage-opsporen": `De natte plek binnen zit zelden recht onder het lek. Water loopt eerst over de panlatten, de folie of de isolatie naar beneden en komt pas op het laagste punt naar binnen. Een lek vind je daarom door de weg van het water van binnen en van buiten terug te volgen, zonder onnodig sloopwerk.`,
+  "dakgoot-lekt": `Een dakgoot lekt meestal bij een naad, een hoek, het eindstuk of de uitloop naar de regenpijp. Vaak is repareren genoeg: een zinken naad solderen, een kunststof verbinding vernieuwen of de goot van binnen coaten. Pas als de goot op veel plekken lek of doorgeroest is, is een nieuwe goot de betere keus.`,
+  "plat-dak-vervangen-of-repareren": `Een lekkend plat dak kan vaak gerepareerd worden, zeker als het lek op één plek zit, zoals bij een naad, de rand of de afvoer. Vervangen is meestal pas slimmer als de dakbedekking op veel plekken los, gescheurd of versleten is, of als er na elke reparatie ergens anders een nieuw lek opduikt.`,
+  "hoe-vaak-dakgoot-reinigen": `Voor de meeste huizen is één keer per jaar genoeg, het liefst in het najaar als het blad gevallen is. Staan er bomen vlak bij je huis, of heb je een bakgoot of kilgoot, dan is twee keer per jaar vaak slimmer.`,
+  "dakraam-lekt": `Lekt het bij een dakraam in een pannendak, dan zit het meestal in het gootstuk of het lood rond het raam, of in de aansluiting op de pannen erboven. Lekt het alleen als het raam open of op de ventilatiestand staat, dan zit het vaak in het raam zelf en niet in het dak.`,
+};
