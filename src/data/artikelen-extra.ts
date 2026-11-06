@@ -882,4 +882,7 @@ export const FAQ_ERBIJ: Record<string, Artikel["faq"]> = {
   "daklekkage-opsporen": [
     { v: `Kun je een lek ook vinden als het op dat moment droog is?`, a: `Vaak wel. Water laat sporen na: een donkere kring of streep op het hout, een vlek op de folie, roest op een spijker of een vochtige plek in de isolatie. Die volg ik naar boven, en buiten kijk ik op die plek naar de pannen, het lood en de naden. Vertel me ook bij welk weer het nat werd, bijvoorbeeld alleen bij harde wind of bij een stortbui, want dat zegt veel over waar het zit. Zie ik op een droge dag niets, dan vraag ik je bij de volgende bui een foto te maken van de plek waar het druppelt.` },
   ],
+  "wat-kost-een-dakdekker": [
+    { v: `Werk je met een uurtarief?`, a: `Nee. Bij mij hoor je vooraf één vaste prijs voor de hele klus, geen bedrag per uur. Dan weet je vooraf waar je aan toe bent. Een paar losse pannen vervangen kost bijvoorbeeld ${inclBtw("dakpan")}. Voor groter werk stuur je een foto of kom ik eerst kijken, en je hoort de prijs voordat ik begin.` },
+  ],
 };
