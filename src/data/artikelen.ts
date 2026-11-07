@@ -456,7 +456,7 @@ export const ARTIKELEN: Artikel[] = [
         `Ik begin buiten, bij de goot en de rand van het dak boven de natte plek. Zit de goot vol, dan maak ik hem leeg. Hangt hij te laag of scheef, of lekt een naad of hoek, dan herstel ik dat. Komt het van de onderste rij pannen of van het lood, dan maak ik dat dicht. Zie ik dat het water door de gevel zelf komt, dan hoor je dat voordat ik iets doe, zodat je niet betaalt voor werk dat niet helpt. Zie ook <a href="/diensten/dakgoot-vervangen/">dakgoot repareren of vervangen</a> en <a href="/diensten/goten-reinigen/">goten reinigen</a>.`,
       ] },
       { kop: `Wat kost het?`, tekst: [
-        `Zit de goot alleen vol, dan is leegmaken genoeg. Bij een rijtjeswoning is dat ${GOTEN_PRIJS}. Moet er een naad, een hoek of de hoogte van de goot worden hersteld, of zit het in de pannen of het lood, dan hoor je vooraf de vaste prijs, voordat ik begin. Richtprijzen staan op de <a href="/prijzen/">prijzenpagina</a>.`,
+        `Zit de goot alleen vol, dan is leegmaken genoeg. Voor één goot, bijvoorbeeld alleen de voorgoot, is dat ${GOTEN_PRIJS}. Moet er een naad, een hoek of de hoogte van de goot worden hersteld, of zit het in de pannen of het lood, dan hoor je vooraf de vaste prijs, voordat ik begin. Richtprijzen staan op de <a href="/prijzen/">prijzenpagina</a>.`,
       ] },
     ],
     dienst: { label: `Bekijk: dakgoot repareren of vervangen`, href: `/diensten/dakgoot-vervangen/` },
@@ -500,7 +500,7 @@ export const ARTIKELEN: Artikel[] = [
         'Vaak is het geen grote klus. Ik maak de goot, de kil of de afvoer leeg en kijk of het water weer vrij weg kan. Daarna kijk ik of er toch iets lek is, zoals een naad in de goot, een scheur in het lood of een pan die net niet goed ligt. Zit de goot alleen vol, dan is <a href="/diensten/goten-reinigen/">goten reinigen</a> genoeg. Is er wel iets kapot, zie dan <a href="/diensten/daklekkage/">daklekkage</a>. Je hoort vooraf de vaste prijs.',
       ] },
       { kop: `Wat kost het?`, tekst: [
-        `Zit alleen de goot vol, dan is het gewoon goten reinigen: ${GOTEN_PRIJS} voor een rijtjeswoning, en bij een groter huis hoor je de prijs vooraf. Moet er ook een kilgoot of de afvoer van een plat dak leeg, dan kan ik die meteen meenemen, en ook dan hoor je vooraf wat het kost.`,
+        `Zit alleen de goot vol, dan is het gewoon goten reinigen: ${GOTEN_PRIJS} voor één goot, en voor beide goten of een groter huis hoor je de prijs vooraf. Moet er ook een kilgoot of de afvoer van een plat dak leeg, dan kan ik die meteen meenemen, en ook dan hoor je vooraf wat het kost.`,
         `Zit er toch iets lek, zoals een naad in de goot, een scheur in het lood of een pan die niet goed ligt, dan is het meestal een gerichte lekreparatie: ${lekPrijs}, inclusief materiaal. Je hoort de vaste prijs vooraf, voordat ik begin.`,
       ] },
     ],
@@ -2488,7 +2488,7 @@ export const ARTIKELEN: Artikel[] = [
         `Blijft het nat en zit het lek lager in de pijp, in de muur of onder de vloer, dan zeg ik dat eerlijk. Dat is werk voor een loodgieter, en dan weet je in elk geval dat het niet aan de goot of het dak ligt. Zie ook <a href="/diensten/dakgoot-vervangen/">dakgoot repareren of vervangen</a>.`,
       ] },
       { kop: `Wat kost het?`, tekst: [
-        `Zit alleen de uitloop vol, dan is leegmaken genoeg. Dat is gewoon <a href="/diensten/goten-reinigen/">goten reinigen</a>: ${GOTEN_PRIJS} bij een rijtjeswoning. Moet de aansluiting van de uitloop opnieuw, of hangt de goot verkeerd, dan hoor je vooraf de vaste prijs, voordat ik begin. Richtprijzen staan op de <a href="/prijzen/">prijzenpagina</a>.`,
+        `Zit alleen de uitloop vol, dan is leegmaken genoeg. Dat is gewoon <a href="/diensten/goten-reinigen/">goten reinigen</a>: ${GOTEN_PRIJS} voor één goot. Moet de aansluiting van de uitloop opnieuw, of hangt de goot verkeerd, dan hoor je vooraf de vaste prijs, voordat ik begin. Richtprijzen staan op de <a href="/prijzen/">prijzenpagina</a>.`,
       ] },
     ],
     dienst: { label: `Bekijk: dakgoot repareren of vervangen`, href: `/diensten/dakgoot-vervangen/` },
