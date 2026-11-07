@@ -57,6 +57,52 @@ export const ARTIKELEN_EXTRA: Artikel[] = [
     ],
   },
   {
+    slug: `golfplaten-lekken`,
+    datum: `2026-11-07`,
+    titel: `Golfplaten lekken?`,
+    h1: `Golfplaten op je schuur, garage of carport lekken: waar het zit en wat je doet`,
+    metaTitle: `Golfplaten lekken: oorzaak en reparatie | Spoed Dak Service`,
+    metaDescription: `Lekt het dak van je schuur of garage met golfplaten? Vaak zit het bij een overlap, een schroef of de muur. Zo zie je waar, en dit check je eerst bij oude platen.`,
+    intro: `Op veel schuren, garages, carports en oude werkplaatsen ligt een dak van golfplaten. Dat zijn grote, gegolfde platen van vezelcement, kunststof, bitumen of metaal, die over elkaar heen liggen en met schroeven op de balken vastzitten. Gaat zo'n dak lekken, dan zit het bijna altijd op een paar vaste plekken. Hieronder lees je welke dat zijn, hoe je ze herkent, en wat je bij oude platen eerst moet weten.`,
+    secties: [
+      { kop: `Eerst: hoe oud zijn de platen?`, tekst: [
+        `Grijze golfplaten van vezelcement die er al van voor 1994 op liggen, kunnen asbest bevatten. Zolang je ze met rust laat, is dat meestal geen direct gevaar. Maar boren, zagen, breken, schuren of schoonspuiten maakt de vezels los. Ga er dan niet zelf aan werken. Weet je niet hoe oud het dak is, of twijfel je, laat de platen dan eerst onderzoeken door een gecertificeerd bedrijf. In zulke platen boor of zaag ik zelf niet, en weghalen mag alleen een gecertificeerd asbestbedrijf.`,
+      ] },
+      { kop: `Lekt het nu? Eerst dit`, tekst: [
+        `Zet een emmer of bak onder de druppel en haal spullen weg die nat kunnen worden, zoals gereedschap, een fiets of dozen. Ligt er na een storm een plaat los, blijf dan uit de buurt zolang het waait, want een losse plaat kan verder losscheuren of wegwaaien. Ga nooit op golfplaten staan: veel platen houden je gewicht niet, en je zakt er zo doorheen. Wat je verder meteen kunt doen, staat op de <a href="/spoed/">spoedpagina</a>.`,
+      ] },
+      { kop: `Waar golfplaten meestal lekken`, tekst: [
+        `Bij een schroef. Elke schroef heeft een rubberen ring onder de kop die het gat dicht houdt. Na jaren zon en vorst droogt die ring uit of scheurt hij, en dan loopt het water langs de schroef naar binnen. Zit een schroef in het dal van de golf in plaats van op de bolle kant, dan staat hij precies op de plek waar het water langs stroomt, en lekt hij nog sneller.`,
+        `Bij een overlap. Waar twee platen over elkaar liggen, aan de zijkant of waar een bovenste plaat over een onderste valt, kan bij harde wind regen tussen de platen door waaien. Is de overlap te klein, of ligt het dak heel flauw, dan loopt het water daar terug en druppelt het binnen langs de naad.`,
+        `Bij de muur. Staat de schuur of carport tegen een muur of tegen je huis, dan zit daar een strook lood, zink of een ander profiel tussen de platen en de muur. Laat die strook los, of is hij nooit goed afgewerkt, dan loopt het water van de muur achter de platen naar binnen. Lees ook <a href="/kennisbank/lekkage-bij-aanbouw/">lekkage bij de aanbouw</a>.`,
+        `Een scheur of een gat in een plaat. Een tak die erop valt, een harde hagelbui of iemand die erop heeft gestaan, kan een plaat laten barsten. Een scheur zie je van binnen vaak als een streepje licht.`,
+        `Bij de nok of de rand. Bovenop een zadeldak ligt een nokstuk over de platen, en aan de rand soms een randstuk. Waait dat los of scheurt het, dan regent het daar binnen.`,
+      ] },
+      { kop: `Of is het condens?`, tekst: [
+        `Onder metalen golfplaten druppelt het soms ook als het droog is. Op koude nachten koelen de platen sterk af, en de vochtige lucht in de schuur of garage vormt daar druppels, die 's ochtends naar beneden vallen. Dat lijkt op een lek, maar het zit verspreid over het hele dak en niet op één plek. Ventileren helpt dan meer dan een reparatie. Lees ook <a href="/kennisbank/condens-of-lekkage-op-zolder/">condens of lekkage</a>.`,
+      ] },
+      { kop: `Zo zie je waar het zit`, tekst: [
+        `Kijk tijdens of vlak na een bui van binnen naar de onderkant van het dak, met een zaklamp. Volg de natte streep naar boven: daar zit het lek meestal. Druppelt het precies onder een schroef, dan is het de ring. Loopt het langs een naad tussen twee platen, dan is het de overlap. Wordt het vooral nat langs de muur, dan is het de aansluiting. Maak er een foto van, en ook een foto van het dak van buiten, vanaf de grond of vanuit een raam.`,
+      ] },
+      { kop: `Wat je zelf beter niet doet`, tekst: [
+        `Ga niet op het dak staan en leun niet met een ladder op de platen. Smeer geen kit of bitumen over schroeven of naden: dat houdt op een vuile plaat maar kort, en daarna moet het er weer af. En spuit oude golfplaten niet schoon met een hogedrukreiniger, zeker niet als ze van voor 1994 zijn.`,
+      ] },
+      { kop: `Hoe ik het aanpak`, tekst: [
+        `Bij platen zonder asbest kijk ik eerst waar het water echt binnenkomt. Een schroef met een uitgedroogde ring vervang ik door een nieuwe schroef met een nieuwe ring. Een losse plaat zet ik weer vast, en een gescheurde plaat vervang ik door een plaat die past. Bij de muur maak ik de aansluiting opnieuw dicht. Zijn de platen over het hele dak bros of lek, dan hoor je eerlijk wat er nodig is. Heeft je schuur of garage een plat dak met dakleer of EPDM, lees dan <a href="/kennisbank/dakleer-repareren/">dakleer repareren</a> of <a href="/kennisbank/epdm-dak-lekt/">EPDM-dak lekt</a>. Lekt het bij een veranda met kunststof platen, kijk dan bij <a href="/kennisbank/veranda-of-overkapping-lekt/">veranda of overkapping lekt</a>.`,
+      ] },
+      { kop: `Wat kost het?`, tekst: [
+        `Dat hangt af van wat er mis is: een paar schroeven, één plaat of de aansluiting op de muur. Ook telt mee hoe hoog het dak is en hoe goed ik erbij kan. Stuur een foto van de plek waar het lekt en van het dak van buiten via WhatsApp, dan hoor je vooraf wat het kost.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: spoed dakreparatie`, href: `/diensten/dakreparatie/` },
+    faq: [
+      { v: `Mag ik zelf een lekkende golfplaat vervangen?`, a: `Bij een plaat zonder asbest kan dat, maar het is lastiger dan het lijkt, want je kunt niet op het dak staan en de nieuwe plaat moet goed onder en over de platen ernaast vallen. Bij grijze platen van voor 1994 ga je er niet zelf aan werken voordat je weet of er asbest in zit. Laat ze eerst onderzoeken en vraag bij je gemeente wat er mag.` },
+      { v: `Hoe weet ik of mijn golfplaten asbest bevatten?`, a: `Zeker weten doe je het alleen met een onderzoek door een gecertificeerd bedrijf. Wel geldt: grijze golfplaten van vezelcement die er al van voor 1994 op liggen, kunnen asbest bevatten. Twijfel je, laat het dan eerst nakijken voordat er iemand in boort of zaagt.` },
+      { v: `Er druppelt water onder mijn metalen dak, ook als het droog is. Is het lek?`, a: `Waarschijnlijk niet. Onder metalen platen vormt zich op koude nachten condens, en die druppels vallen 's ochtends naar beneden. Dat zit verspreid over het hele dak. Lekt het vooral na een bui en op één vaste plek, dan is het eerder een schroef, een overlap of de aansluiting op de muur. Stuur me een foto van de plek, dan zeg ik eerlijk wat ik denk.` },
+      { v: `Is een lekkend golfplatendak spoed?`, a: `Meestal niet, zolang het in een schuur of carport lekt en er niets kapot kan. Ligt er na een storm een plaat los boven de tuin, de oprit of het pad van de buren, dan wel: blijf eronder weg en bel of app me met een foto. Lekt het in een garage of werkplaats die tegen je huis staat en wordt de muur van het huis nat, laat het dan ook niet te lang zitten.` },
+    ],
+  },
+  {
     slug: `kunststof-dakgoot-lekt`,
     datum: `2026-11-05`,
     titel: `Kunststof dakgoot lekt?`,
