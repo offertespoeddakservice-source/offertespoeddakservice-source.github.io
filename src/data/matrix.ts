@@ -279,7 +279,7 @@ export const MATRIX: MatrixCombo[] = [
   {
     plaats: "vlijmen",
     dienst: "stormschade",
-    hook: "Vanaf de Maaskant krijgt Vlijmen flink wind; na een storm zie ik hier vaak weggewaaide pannen en losgeraakt lood. Is je dak open, dan maak ik dat eerst dicht, zodat het binnen droog blijft.",
+    hook: "Veel huizen in Vlijmen hebben twee daken: het pannendak van het huis zelf, en daarachter het platte dak van een berging of aanbouw, vaak met een lichtkoepel. Bij een storm kan op allebei iets misgaan. Op het grote dak gaat het om pannen die verschuiven en de nok, op het platte dak om een rand die omhoog waait of een koepel die loskomt. Dat platte dak zie je vanaf de straat niet, kijk daarom na de storm even vanuit een raam boven. In Geerpark, waar de daken nog jong zijn, zitten de nokvorsten meestal met een klem vast, en daar is het na een storm eerder een vorst die is verschoven. Ligt er een open plek, dan maak ik die eerst dicht, zodat het binnen droog blijft, en daarna volgt de nette reparatie.",
     faq: [
       { v: "Ik heb een lichtkoepel op het platte dak van mijn berging. Waar let ik op na een storm?", a: "Kijk vanuit een raam boven of de koepel nog recht en heel op zijn rand staat. Bij een harde windstoot kan een oude koepel scheuren of een stukje loskomen, en dan regent het er recht onder naar binnen. Zie je een barst of staat de koepel scheef, zet dan binnen een emmer onder de koepel en stuur me een foto via WhatsApp. Ga niet zelf op het platte dak staan zolang het waait. Is de koepel kapot, dan dek ik hem eerst af, en daarna kijken we samen wat de beste oplossing is." },
     ],
@@ -287,7 +287,7 @@ export const MATRIX: MatrixCombo[] = [
   {
     plaats: "drunen",
     dienst: "stormschade",
-    hook: "Open bij de Loonse en Drunense Duinen vangt Drunen veel wind. Losse of weggewaaide pannen laten regen binnen. Ligt er een open plek, dan dek ik die eerst af, en daarna volgt de nette reparatie.",
+    hook: "Drunen ligt tegen de Loonse en Drunense Duinen, en vooral aan die kant staan veel huizen onder hoge bomen. Bij een storm komen daar niet alleen pannen los, maar vallen er ook takken op het dak en in de goot. Een tak die op de pannen valt of eroverheen schuurt, kan een pan breken die je vanaf de straat niet ziet. Kijk na een storm daarom ook of er takken op je dak of in je goot liggen, en of er stukjes pan in de tuin liggen. Bij de oudere huizen in het centrum en in Elshout, vaak met een schoorsteen, kijk ik na een storm ook naar het lood eromheen, want daar kan de wind de regen achter het lood blazen. Ga zelf niet het dak op. Ligt er een open plek, dan dek ik die eerst af, en daarna volgt de nette reparatie.",
     faq: [
       { v: "Ik woon in Elshout. Kom je daar ook na een storm?", a: "Elshout ligt vlak bij Drunen en hoort net als Drunen bij de gemeente Heusden, dus daar kom ik ook. Na een storm krijg ik veel vragen tegelijk. Ik ga eerst naar daken die open liggen en waar het binnen nat wordt. Stuur me een foto van je dak vanaf de straat via WhatsApp, dan zie ik hoe erg het is en hoor je wanneer ik kan komen. Lekt het al, zet dan binnen een emmer neer en haal spullen onder de natte plek weg." },
     ],
@@ -312,7 +312,7 @@ export const MATRIX: MatrixCombo[] = [
   {
     plaats: "heusden",
     dienst: "stormschade",
-    hook: "Aan de open Maaskant bij Heusden grijpt de wind hard aan; oudere daken in de vesting zijn extra kwetsbaar. Ik dek het eerst af en herstel het daarna, zoveel mogelijk met materiaal dat bij het oude werk past.",
+    hook: "In de vesting staan veel monumenten en oude panden met een steil pannendak, lood en zinken goten. Na een storm kijk ik daar naar de nok, de pannen langs de rand en het lood tegen de muren en de schoorstenen, en voor de nette reparatie zoek ik materiaal dat past bij wat er al ligt. Buiten de vesting, in Oudheusden en Herpt en in dorpjes als Doeveren en Hedikhuizen, staan meer boerderijen en vrijstaande huizen in het open land. Daar heeft de wind veel grip op de nok en op de pannen langs de zijkant van het dak, en ook het dak van een schuur of stal vergeet je na een storm snel. Ga zelf niet het dak op, maar stuur me een foto vanaf de grond. Ligt er een open plek, dan maak ik die eerst dicht.",
     faq: [
       { v: "Mijn huis in de vesting is een monument. Wat gebeurt er als er na een storm iets kapot is?", a: "Eerst maak ik een open plek dicht met een tijdelijke afdekking, zodat het binnen droog blijft. Daarmee verander ik niets aan het pand. Voor de nette reparatie zoek ik pannen en lood die bij het oude werk passen, en dat kan iets langer duren dan bij een gewoon huis. Twijfel je wat er aan je monument mag, vraag het dan na bij de gemeente Heusden. Stuur me na de storm een foto van je dak vanaf de straat via WhatsApp." },
     ],
@@ -328,7 +328,7 @@ export const MATRIX: MatrixCombo[] = [
   {
     plaats: "oisterwijk",
     dienst: "stormschade",
-    hook: "In bosrijk Oisterwijk komen bij storm takken én pannen naar beneden. Ik dek de schade eerst af en herstel het daarna netjes, met foto's voor je verzekeraar.",
+    hook: "Oisterwijk ligt midden in de bossen en vennen, en in veel straten en lanen staan hoge bomen vlak bij de huizen. Bij een storm vallen daar naast pannen ook takken op het dak, en een tak kan een pan breken of een nokvorst losstoten zonder dat je het vanaf de straat goed ziet. In Moergestel, Haaren en het buitengebied staan meer boerderijen en vrijstaande huizen met een groot pannendak, en daar pakt de wind vooral de nok en de pannen langs de rand. Kijk na een storm ook naar je goot. Ligt die vol takken en blad, dan loopt hij bij de volgende bui over. Ligt er een open plek, dan dek ik die eerst af en herstel ik het daarna netjes, met foto's voor je verzekeraar.",
     faq: [
       { v: "Na de storm hangt er een afgebroken tak in de boom boven mijn dak. Wat doe ik?", a: "Blijf weg onder die tak en zet je auto ergens anders neer, want hij kan bij de volgende windvlaag alsnog vallen. Laat de tak weghalen door een boomverzorger, want dat werk doe ik zelf niet. Is er al iets op je dak gekomen, of zie je een pan die scheef ligt of een goot die schuin hangt, stuur me dan een foto vanaf de grond via WhatsApp. Dan kijk ik daarna naar de pannen en de goot, en een open plek dek ik eerst af." },
     ],
