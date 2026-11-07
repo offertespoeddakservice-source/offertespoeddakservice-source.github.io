@@ -1104,6 +1104,50 @@ export const ARTIKELEN_EXTRA: Artikel[] = [
       { v: `Moet de warmtepomp eraf voor de reparatie?`, a: `Meestal niet. Zit het lek bij de doorvoer of naast de unit, dan kan ik daar vaak gewoon bij. Zit het precies onder de unit, dan moet hij soms even opzij. Dat doe ik niet zonder de installateur, want aan de leidingen en de aansluiting zit ik niet.` },
     ],
   },
+  {
+    slug: `plat-dak-onderhouden`,
+    datum: `2026-11-07`,
+    titel: `Plat dak onderhouden?`,
+    h1: `Plat dak onderhouden: wat je elk jaar nakijkt, zodat het droog blijft`,
+    metaTitle: `Onderhoud plat dak: dit kijk je na | Spoed Dak Service`,
+    metaDescription: `Een plat dak gaat langer mee als de afvoer vrij blijft en je op tijd ziet dat een naad, de rand of de opstand loslaat. Zo kijk je het zelf na, en dit laat je doen.`,
+    intro: `Een plat dak vraagt weinig onderhoud, maar het vraagt wel iets. Het meeste gaat mis op een paar vaste plekken: de afvoer, de naden, de rand en de plek waar het dak tegen de muur omhoog loopt. Kijk je daar een of twee keer per jaar naar, dan zie je een probleem meestal voordat het binnen lekt. Hieronder lees je wanneer je kijkt, waar je op let en wat je beter laat doen.`,
+    secties: [
+      { kop: `Wanneer je kijkt`, tekst: [
+        `Een goed moment is laat in de herfst, als het meeste blad van de bomen is, en nog eens in het voorjaar. Kijk ook na een storm of een flinke hagelbui. Het makkelijkst kijk je vanuit een raam boven. Kun je het dak zo niet goed zien, ga er dan niet zelf op staan: een nat plat dak is glad, en niet elk dak houdt je gewicht.`,
+      ] },
+      { kop: `De afvoer vrij`, tekst: [
+        `Op een plat dak moet het water naar een afvoer, meestal een uitloop door de rand naar een regenpijp. Ligt daar blad, mos of grind voor, dan blijft het water staan. Staat er na een paar droge dagen nog een plas, dan loopt het niet goed weg. Lees ook <a href="/kennisbank/water-blijft-staan-op-plat-dak/">water blijft staan op je platte dak</a>. Zit er een rooster of korf op de afvoer, kijk dan of die er nog op zit en niet vol zit.`,
+      ] },
+      { kop: `Blad, takken en mos`, tekst: [
+        `Blad en takjes die op het dak blijven liggen, houden vocht vast en schuiven bij een bui naar de afvoer. Mos op een plat dak laat vooral zien dat het daar lang nat blijft. Kijk dan of het water op die plek wel weg kan. Veeg niet met een harde bezem of een schep over de bedekking en gebruik geen hogedrukspuit, want daarmee maak je hem kapot.`,
+      ] },
+      { kop: `Naden, rand en opstand`, tekst: [
+        `Kijk naar de naden waar twee banen over elkaar liggen. Staat er een randje omhoog of zie je een kier, dan kan daar water onder. Kijk ook naar de rand van het dak, onder de daktrim, en naar de plek waar het dak tegen de muur omhoog loopt: de opstand. Laat de bedekking daar los, dan loopt het water erachter. Zie <a href="/kennisbank/daktrim-lekt/">plat dak lekt langs de rand</a> en <a href="/kennisbank/lekkage-bij-aanbouw/">lekkage bij de aanbouw</a>.`,
+      ] },
+      { kop: `Lichtkoepel en pijpen`, tekst: [
+        `Kijk rond een lichtkoepel en rond een pijp die door het dak gaat. Zit de aansluiting nog strak, of is er alleen kit gebruikt die loslaat of scheurt? Zie <a href="/kennisbank/lichtkoepel-lekt/">lichtkoepel lekt</a>.`,
+      ] },
+      { kop: `Bobbels, scheurtjes en grind`, tekst: [
+        `Een bobbel is vaak lucht onder de bedekking en hoeft niet erg te zijn, zolang er geen scheurtje in zit. Kleine scheurtjes of een bedekking die er droog en gebarsten uitziet, laten wel zien dat hij ouder wordt. Ligt er grind op je dak, laat dat dan liggen, want het beschermt de bedekking. Kijk alleen of het niet in de afvoer spoelt.`,
+      ] },
+      { kop: `Wat je beter niet zelf doet`, tekst: [
+        `Smeer geen kit of bitumen uit de bouwmarkt op een plek die je niet vertrouwt. Dat hecht slecht op een natte of vuile ondergrond, en voordat het goed gemaakt kan worden, moet het er weer af. Loop niet met steentjes onder je schoenen over het dak, en zet er niets zwaars op zonder te weten of het dak dat kan hebben.`,
+      ] },
+      { kop: `Laten nakijken`, tekst: [
+        `Twijfel je, maak dan een paar foto's vanuit een raam boven en stuur die via WhatsApp. Dan zeg ik eerlijk of er iets moet gebeuren of dat het nog goed is. Zie ik een losse naad, een losse opstand of een lek bij de afvoer, dan maak ik alleen die plek dicht. Is de bedekking op veel plekken op, dan hoor je dat ook. Meer daarover lees je in <a href="/kennisbank/plat-dak-vervangen-of-repareren/">plat dak repareren of vervangen</a> en bij <a href="/diensten/platte-daken/">platte daken</a>.`,
+      ] },
+      { kop: `Wat kost het?`, tekst: [
+        `Een gerichte reparatie van een lek in een klein plat dak kost ${platPrijs}. Moet er meer gebeuren, dan kom ik eerst kijken en hoor je vooraf de vaste prijs. Richtprijzen staan op de <a href="/prijzen/">prijzenpagina</a>.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: platte daken`, href: `/diensten/platte-daken/` },
+    faq: [
+      { v: `Wanneer kijk ik mijn platte dak het beste na?`, a: `Een of twee keer per jaar: laat in de herfst, als het blad gevallen is, en in het voorjaar. Kijk ook na een storm. Staan er veel bomen in de buurt, dan blijft er meer blad liggen en kijk je vaker naar de afvoer.` },
+      { v: `Mag ik zelf op mijn platte dak lopen?`, a: `Liever niet als het niet nodig is. Een nat of bemost dak is glad, en niet elk plat dak is gemaakt om op te lopen, zeker niet het dak van een berging of garage met dunne platen eronder. Kijk liever vanuit een raam en stuur me een foto.` },
+      { v: `Er groeit mos op mijn platte dak. Is dat erg?`, a: `Een beetje mos is meestal geen ramp, maar het laat zien dat het daar lang nat blijft. Kijk of het water op die plek naar de afvoer kan. Haal het niet weg met een harde bezem, een schep of een hogedrukspuit, want dan beschadig je de bedekking. Stuur me een foto als er een plas blijft staan of als de bedekking eronder er kapot uitziet.` },
+    ],
+  },
 ];
 
 // Extra vragen bij bestaande artikelen. artikelen.ts is te groot om nog te laten groeien, daarom staan nieuwe vragen hier.

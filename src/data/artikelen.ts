@@ -1598,6 +1598,7 @@ export const ARTIKELEN: Artikel[] = [
       { kop: "Let op per daktype", tekst: [
         "Pannendak: controleer op losse, gebroken of poreuze pannen, verwijder mos op tijd (mos houdt vocht vast) en kijk jaarlijks de nokvorsten en het lood bij schoorsteen en dakramen na.",
         "Plat dak: hier is stilstaand water de grootste vijand. Controleer na hevige regen of het water goed wegloopt, en houd naden en opstanden in de gaten.",
+        'Wat je bij een plat dak precies nakijkt, staat in <a href="/kennisbank/plat-dak-onderhouden/">plat dak onderhouden</a>.',
       ] },
       { kop: "Voor de winter: vier dingen om na te lopen", tekst: [
         'De nok. Liggen er brokjes specie in de goot of op de stoep, dan zitten er vaak vorsten los. Lees <a href="/kennisbank/nokvorsten-los/">losse nokvorsten</a>.',
