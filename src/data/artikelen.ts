@@ -2620,7 +2620,7 @@ export const ARTIKELEN: Artikel[] = [
         `Een pan naast de beugel goed leggen of vervangen valt meestal onder een kleine reparatie: ${kleinPrijs}. Moet ik eerst zoeken waar het water binnenkomt, of zit het in het lood rond de schoorsteen, dan valt het meestal onder een gerichte lekreparatie: ${lekPrijs}, inclusief materiaal. Is er een pan met een opening voor de kabel nodig, dan hoor je vooraf de vaste prijs. Richtprijzen staan op de <a href="/prijzen/">prijzenpagina</a>.`,
       ] },
     ],
-    dienst: { label: `Bekijk: dakreparatie`, href: `/diensten/dakreparatie/` },
+    dienst: { label: `Bekijk: antenne of schotel van het dak halen`, href: `/diensten/antenne-verwijderen/` },
     faq: [
       { v: `Mijn schotel is pas opgehangen en nu lekt het. Wie lost dat op?`, a: `Is de schotel pas geplaatst, neem dan eerst contact op met wie hem heeft opgehangen, want lekkage door het plaatsen hoort die in de regel zelf op te lossen. Komt die niet, of hangt de schotel er al langer, dan kijk ik waar het water binnenkomt. Stuur me een foto van de natte plek op zolder en van de schotel vanaf de straat.` },
       { v: `Kan de kabel van mijn schotel gewoon onder een pan door?`, a: `Dat gebeurt veel, maar de pan ligt dan op de kabel en sluit niet goed. Netter is een pan met een opening voor de kabel, of een kabel die via de muur naar binnen gaat. Druppelt het nu bij de kabel, stuur me dan een foto van die plek van binnen en van buiten.` },
