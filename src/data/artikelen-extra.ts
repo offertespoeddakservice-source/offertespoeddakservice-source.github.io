@@ -1236,6 +1236,9 @@ export const FAQ_ERBIJ: Record<string, Artikel["faq"]> = {
   "dakgoot-zelf-schoonmaken": [
     { v: `Kan ik mijn dakgoot schoonmaken vanuit het dakraam?`, a: `Liever niet. Vanuit een dakraam kom je bijna nooit goed bij de goot: hij zit een eind lager en verder naar voren dan je denkt, en je moet ver uit het raam hangen of op de pannen stappen. Juist dan gaat het mis. Met een lange steel met een grijper kom je soms bij het stuk recht onder het raam, maar de rest van de goot en de uitloop naar de regenpijp bereik je zo niet. Kun je er niet veilig met een ladder bij, laat het dan doen. Stuur me gerust een foto van je goot vanaf de straat.` },
   ],
+  "dakinspectie": [
+    { v: `Sommige dakdekkers doen een gratis dakinspectie. Waarom kost de Dak-APK geld?`, a: `Een gratis inspectie kan prima zijn. Vraag wel wat je krijgt: alleen een offerte voor werk, of ook een verslag van je hele dak. Bij de Dak-APK loop ik je hele dak na en krijg je een rapport met foto's, ook als er niets hoeft te gebeuren. Daarvoor betaal je ${apkPrijs}. Weet je al wat er mis is en wil je alleen weten wat het kost, stuur dan een foto via WhatsApp. Een prijs vragen kost niets.` },
+  ],
 };
 
 // Kort antwoord bovenaan een artikel: één of twee zinnen met het directe antwoord, voor Google en AI. Bedragen alleen via inclBtw uit prijzen.ts, nooit met de hand.
