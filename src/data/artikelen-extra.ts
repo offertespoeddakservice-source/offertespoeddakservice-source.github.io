@@ -888,6 +888,9 @@ export const FAQ_ERBIJ: Record<string, Artikel["faq"]> = {
   "dak-keuren-bij-huis-kopen": [
     { v: `Ik verkoop mijn huis. Heeft het zin om het dak vooraf te laten keuren?`, a: `Dat kan. Met de Dak-APK weet je zelf hoe je dak erbij ligt voordat kopers en hun keurder komen kijken. Je krijgt een rapport met foto's dat je kunt laten zien. Zie ik iets wat gemaakt moet worden, zoals een losse pan of lood dat loslaat, dan hoor je vooraf wat het kost, en kies jij of je het voor de verkoop laat doen. Weet je van een lek of een ander gebrek aan je dak, vertel dat dan aan je makelaar, want een verkoper moet bekende gebreken in de regel melden. De Dak-APK kost ${apkPrijs}.` },
   ],
+  "dakgoot-zelf-schoonmaken": [
+    { v: `Kan ik mijn dakgoot schoonmaken vanuit het dakraam?`, a: `Liever niet. Vanuit een dakraam kom je bijna nooit goed bij de goot: hij zit een eind lager en verder naar voren dan je denkt, en je moet ver uit het raam hangen of op de pannen stappen. Juist dan gaat het mis. Met een lange steel met een grijper kom je soms bij het stuk recht onder het raam, maar de rest van de goot en de uitloop naar de regenpijp bereik je zo niet. Kun je er niet veilig met een ladder bij, laat het dan doen. Stuur me gerust een foto van je goot vanaf de straat.` },
+  ],
 };
 
 // Kort antwoord bovenaan een artikel: één of twee zinnen met het directe antwoord, voor Google en AI. Geen bedragen.
