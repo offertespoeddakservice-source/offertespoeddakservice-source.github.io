@@ -1188,6 +1188,52 @@ export const ARTIKELEN_EXTRA: Artikel[] = [
       { v: `Waarom is het alleen nat bij harde wind?`, a: `Bij gewone regen loopt het water netjes over de nok en de pannen naar beneden. Bij harde wind waait de regen schuin onder een losse vorst, een kier in de specie of een gescheurde strook onder de nok door. Let op bij welke windrichting het nat wordt, dan weet ik aan welke kant van de nok ik moet zoeken.` },
     ],
   },
+  {
+    slug: `lekkage-badkamer-plafond`,
+    datum: `2026-11-08`,
+    titel: `Nat plafond in de badkamer?`,
+    h1: `Natte plek op het plafond van je badkamer: komt het van het dak, de afzuiging of is het condens?`,
+    metaTitle: `Badkamerplafond nat: dak of condens? | Spoed Dak Service`,
+    metaDescription: `Een natte plek of druppels op het plafond van je badkamer? Vaak is het condens of water uit de pijp van de afzuiging, soms het dak of een dakraam. Zo zie je het verschil.`,
+    intro: `Zit je badkamer bovenin het huis, onder een schuin dak of een plat dak, dan kan een natte plek op het plafond van drie kanten komen: van het dak zelf, van de pijp van de afzuiging die door het dak naar buiten gaat, of van de damp van je eigen douche. Dat verschil zie je vaak al aan het moment waarop het nat wordt. Hieronder lees je waar je op let, wat je zelf kunt testen en wanneer je mij of juist een installateur belt.`,
+    secties: [
+      { kop: `Lekt het nu? Eerst dit`, tekst: [
+        `Zet een emmer of bak onder de druppel en leg er een handdoek onder. Zit de natte plek bij een spotje, een lamp of de afzuiger in het plafond, zet dan in de meterkast de groep van de badkamer uit en gebruik de afzuiger niet. Lees ook <a href="/kennisbank/water-uit-lamp-plafond/">water uit een lamp in het plafond</a>. Ga niet zelf het dak op. Wat je verder meteen kunt doen, staat op de <a href="/spoed/">spoedpagina</a>.`,
+      ] },
+      { kop: `Na het douchen of na een bui?`, tekst: [
+        `Let op wanneer het nat wordt. Wordt het plafond nat vlak na het douchen, ook op dagen dat het droog is, dan is het meestal condens. De warme, vochtige lucht slaat neer tegen het koudste stuk van het plafond, vaak in een hoek, boven de douche of tegen de buitenmuur. Je ziet dan vaak ook zwarte puntjes van schimmel. Wordt het nat na regen, ook als er die dag niemand heeft gedoucht, dan komt het water eerder van buiten.`,
+      ] },
+      { kop: `De pijp van de afzuiging`, tekst: [
+        `In veel badkamers zit een afzuiger of een ventiel in het plafond, met een pijp die over de zolder naar het dak loopt en daar naar buiten gaat. Op het dak zit om die pijp een kraag op een speciale pan. Is die kraag gescheurd of uitgedroogd, of ligt de pan niet meer goed, dan loopt het regenwater langs de pijp naar binnen en zie je de natte plek rond het ventiel. Lees ook <a href="/kennisbank/lekkage-bij-dakdoorvoer/">lekkage bij een ontluchtingspijp of doorvoer</a>.`,
+        `Druppelt het uit het ventiel ook als het droog is, vooral na het douchen of op koude dagen, dan is het vaak condens in de pijp zelf. De vochtige lucht koelt af in een koude pijp op zolder, en het water loopt terug naar het ventiel. Dat is geen daklek, en dat los je niet op het dak op. Daarvoor bel je een installateur, die kan kijken of de pijp goed loopt en geïsoleerd is.`,
+      ] },
+      { kop: `Een dakraam boven de douche`, tekst: [
+        `Zit er een dakraam in je badkamer, dan slaat de damp ook op het glas neer en loopt het langs het kozijn naar beneden. Dat lijkt op een lek. Wordt het alleen nat na het douchen, dan is het condens. Wordt het nat na een bui, ook als het raam dicht zat, dan kan het in de aansluiting van het raam op het dak zitten. Zie <a href="/kennisbank/dakraam-lekt/">dakraam lekt</a>.`,
+      ] },
+      { kop: `Het dak boven de badkamer`, tekst: [
+        `Ligt je badkamer onder een schuin pannendak, dan kan het water binnenkomen bij een pan die is gaan schuiven, bij het lood rond een schoorsteen of bij een pijp door het dak, en daarna een stuk over het hout lopen voordat het op het plafond uitkomt. Ligt hij onder een plat dak, bijvoorbeeld in een aanbouw, dan zit het vaker bij een naad, de rand of de afvoer. Lees ook <a href="/kennisbank/vochtplek-plafond/">vochtplek in het plafond</a> en <a href="/kennisbank/lekkage-bij-aanbouw/">lekkage bij de aanbouw</a>.`,
+      ] },
+      { kop: `Of een leiding?`, tekst: [
+        `Druppelt het ook na een paar droge dagen nog, terwijl er niet gedoucht is, dan kan het van een leiding komen, bijvoorbeeld van de cv-ketel of een waterleiding op zolder. Dan is een loodgieter de juiste persoon. Twijfel je, lees dan <a href="/kennisbank/lekkage-dakdekker-of-loodgieter/">dakdekker of loodgieter</a>.`,
+      ] },
+      { kop: `Zo test je het zelf`, tekst: [
+        `Zet met potlood een streepje langs de rand van de natte plek. Douche een paar dagen met het raam open of de afzuiger aan, en kijk of de plek groter wordt. Kijk ook na de eerstvolgende flinke bui, liefst als er die dag nog niet gedoucht is. Wordt hij alleen na een bui groter, dan is het waarschijnlijk het dak of de kraag om de pijp. Maak elke keer een foto, dan zie je het verschil en kan ik meekijken.`,
+      ] },
+      { kop: `Hoe ik het aanpak`, tekst: [
+        `Ik kijk op zolder waar het water langs het hout of de pijp loopt, en daarna buiten naar de kraag rond de pijp, de pannen en het lood boven de badkamer. Een gescheurde kraag of een doorvoerpan die niet goed ligt, vervang ik, en een verschoven pan leg ik terug. Is het condens of zit het in de pijp of een leiding, dan zeg ik dat eerlijk, en dan hoor je wie je beter kunt bellen. Zie ook <a href="/diensten/daklekkage/">daklekkage opsporen en repareren</a>.`,
+      ] },
+      { kop: `Wat kost het?`, tekst: [
+        `Een lek opsporen en dichtmaken kost ${inclBtw("daklekkage")}. Gaat het om de kraag of de pan rond de pijp van de afzuiging, stuur dan een foto van die plek op het dak vanaf de straat, dan hoor je wat het kost. Je hoort de prijs voordat ik begin.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: daklekkage opsporen en repareren`, href: `/diensten/daklekkage/` },
+    faq: [
+      { v: `Er zitten zwarte puntjes op mijn badkamerplafond. Is dat een lek?`, a: `Meestal niet. Zwarte puntjes zijn vaak schimmel, en die groeit waar vocht van het douchen steeds op dezelfde koude plek neerslaat. Ventileer tijdens en na het douchen, met het raam open of de afzuiger aan. Komt er na een bui ook een natte, bruine kring bij, dan kan er wel water van buiten bij komen. Stuur me dan een foto.` },
+      { v: `Het druppelt uit het ventiel van de afzuiging. Moet het dak open?`, a: `Meestal niet. Druppelt het vooral na het douchen of op koude dagen, ook als het droog is, dan is het vaak condens in de pijp, en dan helpt een installateur je verder. Druppelt het alleen bij regen, dan kan de kraag rond de pijp op het dak lekken, en daar kijk ik naar. Stuur me een foto van het ventiel en van de pijp op het dak, als je die vanaf de straat kunt zien.` },
+      { v: `Is een nat badkamerplafond spoed?`, a: `Druppelt het bij een lamp, een spotje of de afzuiger, of bolt het plafond op, dan wel: zet de groep van de badkamer uit en bel of app me met een foto. Is het een vochtige plek die na het douchen weer opdroogt, dan is het meestal condens en kan het wachten.` },
+      { v: `Mijn badkamer zit in de aanbouw onder een plat dak. Waar lekt het dan meestal?`, a: `Vaak bij de rand van het dak, bij een naad, bij de afvoer of op de plek waar het platte dak tegen de muur van het huis omhoog loopt. Ook een lichtkoepel of de pijp van de afzuiging door het platte dak kan lekken. Kijk vanuit een raam boven of er na een bui water op het dak blijft staan, en stuur me daar een foto van, samen met een foto van de natte plek binnen.` },
+    ],
+  },
 ];
 
 // Extra vragen bij bestaande artikelen. artikelen.ts is te groot om nog te laten groeien, daarom staan nieuwe vragen hier.
