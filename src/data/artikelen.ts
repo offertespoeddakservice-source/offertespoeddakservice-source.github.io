@@ -697,7 +697,7 @@ export const ARTIKELEN: Artikel[] = [
     datum: "2026-10-21",
     titel: "Losse nokvorsten",
     h1: "Losse nokvorsten: zo herken je het en dit doe je eraan",
-    metaTitle: "Losse nokvorsten op je dak: wat nu? | Spoed Dak Service",
+    metaTitle: "Nokvorst los of specie in de goot? | Spoed Dak Service",
     metaDescription:
       "Specie in de goot of een scheve nokvorst? Dan zit de nok los. Zo herken je het, waarom je beter niet op de volgende storm wacht en hoe ik het herstel.",
     intro:
