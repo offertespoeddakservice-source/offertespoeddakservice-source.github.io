@@ -1018,6 +1018,49 @@ export const ARTIKELEN_EXTRA: Artikel[] = [
       { v: `Kun je aan een foto zien welke pan ik heb?`, a: `Vaak wel. Met een foto van je dak vanaf de straat en, als het kan, een foto van de achterkant van een pan op zolder, zie ik meestal welk soort pan het is. Soms moet ik er op het dak even naar kijken.` },
     ],
   },
+  {
+    slug: `storm-op-komst-dak`,
+    datum: `2026-11-07`,
+    titel: `Storm op komst?`,
+    h1: `Storm op komst: zo maak je je dak en je huis stormklaar`,
+    metaTitle: `Storm op komst? Je dak stormklaar maken | Spoed Dak Service`,
+    metaDescription: `Wordt er een storm voorspeld? Zo kijk je vooraf vanaf de straat naar je dak, zet je losse spullen vast en weet je wat je doet als er toch iets losraakt.`,
+    intro: `Zegt het weerbericht dat er een storm aankomt, of geeft het KNMI code geel of oranje voor wind? Dan heb je meestal nog een dag of twee. In die tijd kun je veel doen om schade te voorkomen, zonder zelf het dak op te gaan. Hieronder lees je waar je vooraf naar kijkt, wat je in en om het huis vastzet en wat je doet als er tijdens de storm toch iets losraakt.`,
+    secties: [
+      { kop: `Kijk vooraf vanaf de straat naar je dak`, tekst: [
+        `Loop op een droge dag een rondje om je huis en kijk vanaf de overkant van de straat en uit de tuin naar je dak, met de zoom van je telefoon. Let op een pan die scheef ligt of mist, een nokvorst die niet meer recht ligt, brokjes specie in de goot of op de stoep, lood bij de schoorsteen of het dakraam dat omhoog staat, en de plank langs de zijkant van het dak, de windveer, als die los lijkt te zitten.`,
+        `Zie je zoiets, maak er dan een foto van en stuur die via WhatsApp. Een losse pan of nokvorst vastzetten is meestal een kleine klus, en hoe eerder ik het weet, hoe groter de kans dat het voor de storm nog kan. Hoe dat gaat, lees je in <a href="/kennisbank/dakpannen-vastzetten-tegen-storm/">dakpannen vastzetten tegen storm</a> en <a href="/kennisbank/nokvorsten-los/">losse nokvorsten</a>.`,
+      ] },
+      { kop: `Maak foto's van je dak voordat de storm komt`, tekst: [
+        `Maak vooraf een paar foto's van je dak, je goten en je schoorsteen, van de voorkant en de achterkant. Gaat er tijdens de storm iets kapot, dan kun je je verzekeraar laten zien hoe je dak er vlak voor de storm bij lag. Je telefoon bewaart de datum bij de foto. Meer over de verzekering lees je in <a href="/kennisbank/daklekkage-verzekering/">daklekkage en je verzekering</a>.`,
+      ] },
+      { kop: `Goot leeg voor de regen`, tekst: [
+        `Een storm komt vaak met veel regen. Zit je goot vol blad, dan loopt hij over en komt het water langs de gevel naar beneden, of bij een bakgoot naar binnen. Kijk bij de eerste bui of het water over de rand komt. Laat hem leegmaken als hij vol zit, maar ga er zelf niet op een ladder voor staan als het al waait. Zie <a href="/kennisbank/dakgoot-loopt-over/">dakgoot loopt over</a>.`,
+      ] },
+      { kop: `Antenne, schotel en takken`, tekst: [
+        `Staat er een oude antenne of schotel op je dak, kijk dan of de mast nog recht staat en of de kabel niet los over de pannen hangt. Een mast vangt veel wind en kan bij een storm aan de pannen of het lood trekken. Zie <a href="/kennisbank/lekkage-bij-schotel-of-antenne/">lekkage bij een schotel of antenne</a>. Hangen er takken boven of vlak naast je dak, laat die dan op tijd snoeien door een hovenier of boomverzorger. Wat je doet als er toch een tak op je dak valt, lees je in <a href="/kennisbank/tak-of-boom-op-dak/">tak of boom op je dak</a>.`,
+      ] },
+      { kop: `In en om het huis`, tekst: [
+        `Zet tuinmeubels, een trampoline, losse plantenbakken en de kliko vast of zet ze binnen. Zulke spullen waaien bij een storm zo tegen een raam, een overkapping of het dak van je schuur. Doe zonneschermen in, sluit dakramen en lichtkoepels en kijk of de deuren van je schuur en garage goed dicht zitten. Leg alvast een emmer, een paar handdoeken en een zaklamp klaar, en zoek op welke groep in de meterkast bij welke kamer hoort.`,
+      ] },
+      { kop: `Tijdens de storm`, tekst: [
+        `Blijf binnen en ga niet naar buiten om naar je dak te kijken. Loop niet langs de gevel of onder de dakrand, want een pan of nokvorst die eraf waait, valt zomaar naar beneden. Ga niet het dak of een ladder op. Hoor je getik of geklapper, schrijf dan op waar in huis je het hoort, dan weet ik later waar ik moet kijken. Zie ook <a href="/kennisbank/dakpannen-klapperen-bij-wind/">dakpannen klapperen bij wind</a>.`,
+      ] },
+      { kop: `Waait er toch iets los?`, tekst: [
+        `Druppelt het binnen, zet dan een emmer onder de druppel en leg er een handdoek onder. Zit de natte plek bij een lamp of stopcontact, zet dan in de meterkast de groep van die kamer uit. Maak foto's van de natte plek en, als het veilig kan, van je dak vanaf de straat, en stuur die via WhatsApp of bel me. Wat je verder meteen kunt doen, staat op de <a href="/spoed/">spoedpagina</a>. Wat je na de storm nakijkt, lees je in <a href="/kennisbank/stormschade-eerste-hulp/">stormschade: eerste hulp</a>.`,
+      ] },
+      { kop: `Wat kost het?`, tekst: [
+        `Een losse pan of nokvorst weer vastzetten, of een paar pannen vervangen, kost ${inclBtw("dakpan")}. Is er na de storm meer kapot, dan hoor je vooraf wat het kost, voordat ik begin. Richtprijzen staan op de <a href="/prijzen/">prijzenpagina</a>.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: stormschade aan je dak`, href: `/diensten/stormschade/` },
+    faq: [
+      { v: `Moet ik mijn dak laten nakijken als er een storm aankomt?`, a: `Niet als alles er vanaf de straat goed uitziet en je dak de vorige stormen goed heeft doorstaan. Zie je een pan die scheef ligt, specie in de goot of lood dat omhoog staat, stuur me dan zo vroeg mogelijk een foto. Dan zeg ik eerlijk of het voor de storm nog moet, of dat het kan wachten.` },
+      { v: `Kan ik zelf een losse pan terugleggen voordat de storm komt?`, a: `Liever niet. Een pan moet precies in de pannen ernaast en erboven haken, en op een schuin dak sta je zo verkeerd. Ligt hij net niet goed, dan pakt de wind hem alsnog. Maak een foto vanaf de straat en stuur die via WhatsApp.` },
+      { v: `Wat doe ik als er tijdens de storm een pan van mijn dak waait?`, a: `Blijf binnen en ga niet onder de dakrand staan. Kijk binnen of het ergens nat wordt, en zet een emmer neer als het druppelt. Maak, als het veilig kan, een foto van je dak vanaf de overkant van de straat, en bel of app me. Raap de stukken pas op als de wind is gaan liggen.` },
+      { v: `Betaalt mijn verzekering stormschade aan mijn dak?`, a: `Dat hangt af van je polis en van wat er kapot is. Waait er bij een storm een pan of nokvorst van een dak dat goed onderhouden was, dan wordt de schade vaak vergoed. Lag de pan al los of was het lood al op, dan kan je verzekeraar dat als achterstallig onderhoud zien. Foto's van je dak van vlak voor de storm helpen dan. Kijk in je polisvoorwaarden of bel je verzekeraar.` },
+    ],
+  },
 ];
 
 // Extra vragen bij bestaande artikelen. artikelen.ts is te groot om nog te laten groeien, daarom staan nieuwe vragen hier.
