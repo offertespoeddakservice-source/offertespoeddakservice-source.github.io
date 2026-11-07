@@ -223,6 +223,50 @@ export const ARTIKELEN_EXTRA: Artikel[] = [
     ],
   },
   {
+    slug: `lichtstraat-lekt`,
+    datum: `2026-11-07`,
+    titel: `Lichtstraat lekt?`,
+    h1: `Lichtstraat in je aanbouw lekt: waar het zit en wat je doet`,
+    metaTitle: `Lichtstraat lekt: oorzaak en reparatie | Spoed Dak Service`,
+    metaDescription: `Druppelt het bij de lichtstraat in je aanbouw? Vaak zit het in de aansluiting op het platte dak of in de rubbers van het glas, of is het condens. Zo zie je het.`,
+    intro: `Een lichtstraat is een lange strook glas in het platte dak van een aanbouw of uitbouw, die extra daglicht in de keuken of woonkamer geeft. Mooi, maar het is ook een plek waar een plat dak vaak gaat lekken. Meestal zit het niet in het glas zelf, maar in de aansluiting tussen de lichtstraat en de dakbedekking eromheen. Hieronder lees je waar het meestal zit, hoe je het verschil met condens ziet en wie wat repareert.`,
+    secties: [
+      { kop: `Lekt het nu? Eerst dit`, tekst: [
+        `Zet een emmer of bak onder de druppel en leg een handdoek op de vloer. Druppelt het vlak bij een lamp, een spotje of een stopcontact, zet dan in de meterkast de groep van die ruimte uit. Ga niet op het platte dak staan, en zeker niet op het glas. Maak een foto van de plek waar het druppelt en, als het kan, vanuit een raam boven een foto van het dak. Wat je verder meteen kunt doen, staat op de <a href="/spoed/">spoedpagina</a>.`,
+      ] },
+      { kop: `Zo zit een lichtstraat in je dak`, tekst: [
+        `De lichtstraat staat op een opstand: een rand van hout of kunststof die een stukje boven het dak uitsteekt. Daarop ligt een frame met de glazen ruiten, die met rubbers of kit in het frame vastzitten. De dakbedekking van het platte dak, bitumen of EPDM, loopt tegen die opstand omhoog en wordt daar afgewerkt, zodat het regenwater langs de lichtstraat naar de afvoer loopt.`,
+      ] },
+      { kop: `Waar het meestal lekt`, tekst: [
+        `Bij de opstand. Zit de dakbedekking tegen de opstand los, is er een hoek ingescheurd of is de afwerking bovenaan de opstand niet goed, dan loopt het water erachter. Binnen zie je dat vaak langs de rand van de lichtstraat, of een eind verderop op het plafond.`,
+        `Bij de rubbers of de kit van het glas. Na jaren zon en vorst krimpen rubbers en droogt kit uit. Dan komt er water tussen het glas en het frame door, meestal bij een naad of aan de onderkant van een ruit.`,
+        `Bij een plas tegen de lichtstraat. Ligt het dak naast de lichtstraat net te vlak, of zit de afvoer vol blad, dan blijft het water na een bui tegen de opstand staan. Vroeg of laat zoekt het daar een weg naar binnen. Lees ook <a href="/kennisbank/water-blijft-staan-op-plat-dak/">water blijft staan op je platte dak</a>.`,
+        `Een barst in het glas. Door hagel, een vallende tak of spanning in het glas kan een ruit barsten. Dat zie je meestal van binnen al.`,
+      ] },
+      { kop: `Of is het condens?`, tekst: [
+        `Een lichtstraat is vaak de koudste plek van de kamer. Warme, vochtige lucht van het koken of douchen slaat tegen het koude glas neer, en die druppels lopen naar beneden. Dat lijkt op een lek. Het verschil: condens zie je vooral op koude ochtenden, ook als het dagen droog is, en verspreid over het glas. Een lek komt bij of vlak na regen, en steeds op dezelfde plek. Lees meer in <a href="/kennisbank/condens-of-lekkage-op-zolder/">condens of lekkage</a>.`,
+      ] },
+      { kop: `Wat je zelf beter niet doet`, tekst: [
+        `Smeer geen kit over de naden van het glas of over de rand van de dakbedekking. Kit op een vuile of natte ondergrond houdt maar kort, en het verstopt de plek waar het echte lek zit. Ga ook niet op het glas staan of leunen, ook niet om het schoon te maken.`,
+      ] },
+      { kop: `Wie repareert wat?`, tekst: [
+        `De aansluiting tussen de dakbedekking en de opstand is dakwerk, en die maak ik weer dicht. Zit het lek in het glas, de rubbers of het frame van de lichtstraat zelf, dan is dat werk voor de leverancier of een glaszetter. Is de aanbouw nog vrij nieuw, neem dan eerst contact op met de bouwer of de leverancier, want dan hoort die het in de regel zelf op te lossen. Ik kijk eerst waar het water echt binnenkomt, en ik zeg je eerlijk wie je ervoor nodig hebt. Lees ook <a href="/kennisbank/lekkage-bij-aanbouw/">lekkage bij de aanbouw</a> en <a href="/kennisbank/lichtkoepel-lekt/">lichtkoepel lekt</a>.`,
+      ] },
+      { kop: `Hoe ik het aanpak`, tekst: [
+        `Ik kijk binnen waar het nat wordt en daarna op het dak naar de opstand, de hoeken en de afvoer. Zit de dakbedekking tegen de opstand los of is hij ingescheurd, dan maak ik die aansluiting opnieuw dicht. Blijft er water tegen de lichtstraat staan, dan maak ik de afvoer vrij en kijk ik of het water beter weg kan. Lekt het dak eromheen op meer plekken, dan zeg ik eerlijk of een nieuwe dakbedekking slimmer is. Zie ook <a href="/diensten/platte-daken/">platte daken</a>.`,
+      ] },
+      { kop: `Wat kost het?`, tekst: [
+        `Dat hangt af van waar het lek zit en hoe groot de lichtstraat is. Een losse aansluiting op één plek is iets anders dan de hele rand rond de lichtstraat. Stuur een foto van de plek waar het druppelt en van het dak, dan hoor je vooraf wat het kost.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: platte daken`, href: `/diensten/platte-daken/` },
+    faq: [
+      { v: `Is een lekkende lichtstraat spoed?`, a: `Druppelt het in de keuken of de woonkamer, bij een lamp of een stopcontact, of wordt het plafond bol, dan wel: zet de groep uit en bel of app me met een foto. Zijn het een paar druppels bij een stortbui en blijft het verder droog, dan kan het vaak een paar dagen wachten. Laat het niet de hele winter zitten.` },
+      { v: `Mijn lichtstraat lekt alleen bij een stortbui. Hoe kan dat?`, a: `Dan komt er bij veel regen in korte tijd meer water op het dak dan de afvoer aankan. Het water blijft dan even tegen de opstand staan en komt binnen waar de afwerking net niet goed is. Kijk na zo'n bui vanuit een raam boven of er een plas naast de lichtstraat staat. Maak er een foto van en stuur die via WhatsApp.` },
+      { v: `Kun je ook het glas of de rubbers van mijn lichtstraat vervangen?`, a: `Dat is werk voor de leverancier van de lichtstraat of een glaszetter. Ik maak de aansluiting tussen de lichtstraat en het platte dak dicht. Twijfel je waar het zit, stuur dan een foto van de plek waar het druppelt, dan zeg ik eerlijk wie je het beste kunt bellen.` },
+    ],
+  },
+  {
     slug: `plafond-drogen-na-lekkage`,
     datum: `2026-11-05`,
     titel: `Plafond drogen na een lekkage`,
