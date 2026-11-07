@@ -330,6 +330,39 @@ export const DIENSTEN: Dienst[] = [
     ],
   },
   {
+    slug: "dakgoot-coaten",
+    titel: "Dakgoot coaten",
+    vanafPrijs: "stuur een foto",
+    h1: "Dakgoot van binnen coaten: een lekkende goot weer dicht, zonder nieuwe goot",
+    kort: "Een goot die nog stevig hangt maar op een paar plekken lekt of dun wordt, van binnen gecoat, zodat het water weer in de goot blijft.",
+    metaTitle: "Dakgoot coaten bij lekkage | Spoed Dak Service",
+    metaDescription:
+      "Lekt je zinken goot of bakgoot op een paar plekken, of wordt het zink dun? Vaak kan hij van binnen gecoat worden in plaats van vervangen. Stuur een foto voor de prijs.",
+    icoon: "🛠",
+    geenAfbeelding: true,
+    zieOok: [
+      { label: "Dakgoot repareren of vervangen", href: "/diensten/dakgoot-vervangen/" },
+      { label: "Goten reinigen", href: "/diensten/goten-reinigen/" },
+    ],
+    intro:
+      "Lekt je zinken goot op een paar plekken, of wordt het zink dun op de plek waar altijd water en blad bleven liggen, terwijl de goot zelf nog stevig hangt? Dan hoeft hij er vaak niet uit. Ik maak de goot leeg, schoon en droog, en breng er van binnen een coating op, over het stuk dat lekt of over de hele lengte. Zo blijft het regenwater in de goot en loopt het niet meer langs je gevel naar beneden. Hangt de goot door, zit hij los van de beugels of is het zink op, dan helpt coaten niet, en dat zeg ik je eerlijk.",
+    punten: [
+      "Goot eerst leeg, schoon en droog, zodat de coating goed hecht",
+      "Goot van binnen gecoat over het stuk dat lekt, of over de hele lengte",
+      "Ook voor een zinken bakgoot in de rand van het dak",
+      "Eerlijk advies: solderen, coaten of toch een nieuwe goot",
+      "Je hoort vooraf wat het kost, de troep gaat mee",
+    ],
+    faq: [
+      { v: "Wat kost het om een dakgoot te laten coaten?", a: "Dat hangt af van hoe lang de goot is, of ik alleen een stuk of de hele lengte coat en hoe goed ik erbij kan. Stuur een foto van de goot vanaf de straat en van de plek waar het druppelt via WhatsApp, dan hoor je vooraf wat het kost." },
+      { v: "Coaten of solderen?", a: "Lekt een zinken goot alleen bij één naad, dan is solderen vaak genoeg. Lekt hij op meer plekken, of wordt het zink over een stuk dun, dan is coaten vaak slimmer, omdat ik dan dat hele stuk in één keer dichtmaak. Ik kijk eerst wat er aan de hand is en zeg eerlijk wat ik zou doen." },
+      { v: "Wanneer helpt coaten niet?", a: "Als de goot doorhangt, los zit van de beugels of zo dun is dat er gaten in vallen. Dan blijft het water op de verkeerde plek staan of houdt de ondergrond de coating niet. Dan hang ik de goot eerst weer op afschot naar de regenpijp, of zeg ik eerlijk dat een nieuwe goot beter is. Is het hout achter of onder de goot zacht, dan moet dat eerst hersteld worden." },
+      { v: "Kun je een goot ook in de winter coaten?", a: "Alleen op een droge dag zonder vorst, want op een natte of bevroren goot hecht het niet. Lekt het nu en is het te koud of te nat, dan kan ik de goot vaak eerst leegmaken, zodat het water weer naar de regenpijp loopt, en kom ik op een droge dag terug om te coaten." },
+      { v: "Kun je ook een zinken bakgoot van binnen coaten?", a: "Vaak wel. Een bakgoot ligt in de rand van het dak, en lekt hij, dan komt het water vaak binnen in de muur of in de kamer eronder. Is het zink nog stevig, dan kan coaten een goede reparatie zijn. Ik kijk eerst of het hout eronder nog gezond is." },
+      { v: "Kom je ook buiten Den Bosch om een goot te coaten?", a: "Ja, in mijn werkgebied, onder andere in Boxtel, Veghel, Vught, Rosmalen en Oss. Coaten plan ik met je in op een droge dag. Stuur eerst een foto van de goot, dan hoor je wanneer ik kan komen." },
+    ],
+  },
+  {
     slug: "dakcoating",
     verborgen: true,
     titel: "Dak coaten",
