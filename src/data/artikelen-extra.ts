@@ -599,6 +599,45 @@ export const ARTIKELEN_EXTRA: Artikel[] = [
     ],
   },
   {
+    slug: `dakpan-lijmen-of-kitten`,
+    datum: `2026-11-07`,
+    titel: `Dakpan lijmen of kitten?`,
+    h1: `Gebroken dakpan lijmen of kitten: houdt dat, en wat werkt wel?`,
+    metaTitle: `Gebroken dakpan lijmen of kitten? | Spoed Dak Service`,
+    metaDescription: `Gebarsten dakpan lijmen, kitten of plakken? Dat houdt zelden lang. Waarom niet, wanneer het even helpt en waarom een nieuwe pan meestal beter is.`,
+    intro: `Een pan met een barst of een afgebroken hoek lijkt makkelijk te maken: een likje kit of lijm erop en klaar. Online zie je er allerlei middeltjes voor. Toch houdt dat op een dak zelden lang. Hieronder lees je waarom, wanneer het als noodoplossing even kan helpen, en hoe ik een kapotte pan aanpak.`,
+    secties: [
+      { kop: `Lekt het nu? Eerst dit`, tekst: [
+        `Zet een emmer onder de druppel en maak een foto van de natte plek. Ga niet zelf het dak op om een pan te lijmen, zeker niet als het nat is of waait. Wat je verder meteen kunt doen, staat op de <a href="/spoed/">spoedpagina</a>.`,
+      ] },
+      { kop: `Waarom lijmen of kitten zelden houdt`, tekst: [
+        `Een dakpan ligt het hele jaar in de zon, de regen en de vorst. Hij wordt overdag warm en 's nachts koud, en zet daarbij steeds een klein beetje uit en krimpt weer. Kit, lijm en tape kunnen dat niet lang bijhouden. Na een paar maanden laten ze los, en dan loopt het water weer op dezelfde plek naar binnen.`,
+        `Kit hecht ook slecht op een pan die vuil, bemost of vochtig is, en dat zijn de meeste pannen op een dak. Zit er water in een barst en vriest het, dan duwt het ijs de barst verder open, ook als er een laagje kit overheen zit.`,
+      ] },
+      { kop: `Waarom een gelijmde pan vaak opnieuw breekt`, tekst: [
+        `Een barst ontstaat meestal niet zomaar. De pan is oud en neemt water op, er heeft iemand op gestaan, of er viel een tak op. Lijm je de barst, dan blijft de pan zwak, en bij de volgende vorst of windstoot breekt hij vaak net naast de naad. Neemt je dak op meer plekken water op, lees dan ook <a href="/kennisbank/poreuze-dakpannen/">poreuze dakpannen</a>.`,
+      ] },
+      { kop: `Wanneer het even kan helpen`, tekst: [
+        `Als noodoplossing, tot de pan vervangen wordt, kan een stuk tape of kit soms een paar dagen of weken het ergste water tegenhouden. Zie het als een emmer onder de druppel: het koopt tijd, meer niet. Zet er geen nieuwe laag overheen als het weer gaat lekken. Hoe je een lek tijdelijk dicht houdt zonder zelf het dak op te gaan, lees je in <a href="/kennisbank/daklek-tijdelijk-dichten/">daklek tijdelijk dichten</a>.`,
+      ] },
+      { kop: `Wat het wel oplost`, tekst: [
+        `Een nieuwe pan die past bij de pannen eromheen. Ik haal de kapotte pan eruit, kijk of de panlat en de folie eronder nog goed zijn, en leg een passende pan terug die weer goed in de pannen ernaast haakt. Is een oud model niet meer te krijgen, dan zoek ik een oplossing, bijvoorbeeld een pan van een plek die je niet ziet. Hoe je zelf ziet welke pannen je hebt, lees je in <a href="/kennisbank/welke-dakpan-heb-ik/">welke dakpan heb ik</a>.`,
+      ] },
+      { kop: `Zit er al kit op je dak?`, tekst: [
+        `Heeft iemand eerder een pan dichtgekit of met schuim vastgezet, dan haal ik dat weg waar het in de weg zit. Kit tussen de pannen houdt ook vocht vast, en dan worden de latten eronder sneller zacht. Lekt het na zo'n eerdere reparatie nog steeds, lees dan <a href="/kennisbank/dak-lekt-na-reparatie/">dak lekt na een reparatie</a>.`,
+      ] },
+      { kop: `Wat kost het?`, tekst: [
+        `Een paar losse of kapotte pannen vervangen valt meestal onder een kleine reparatie: ${inclBtw("dakpan")}. Zijn de panlatten of de folie eronder ook nat of zacht geworden, dan is het meer werk. Je hoort de vaste prijs vooraf, voordat ik begin. Zie ook <a href="/diensten/dakpannen-vervangen/">dakpannen vervangen</a>.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: dakpannen vervangen`, href: `/diensten/dakpannen-vervangen/` },
+    faq: [
+      { v: `Welke kit of lijm werkt het best op een dakpan?`, a: `Geen enkele houdt het echt lang. Ook kit die voor buiten of voor daken is gemaakt, laat op een pan die in de zon en de vorst ligt na een tijd los. Als noodoplossing voor een paar dagen kan het, maar een nieuwe pan is de echte oplossing.` },
+      { v: `Kan ik een gebarsten pan laten zitten als het binnen droog blijft?`, a: `Liever niet te lang. Ook als het binnen nu droog is, komt er bij elke bui wat water onder de pan, op de lat en de folie. En bij vorst of een flinke windstoot kan de pan verder breken of verschuiven. Stuur me een foto vanaf de straat, dan zeg ik eerlijk hoe snel het moet.` },
+      { v: `Is een gebroken dakpan spoed?`, a: `Lekt het binnen of ligt er een stuk dak open, dan wel: bel of app me met een foto. Is het binnen droog en zit er alleen een barstje in, dan kan het meestal een paar dagen wachten. Wacht niet tot de volgende storm.` },
+    ],
+  },
+  {
     slug: `wat-kost-een-dakinspectie`,
     datum: `2026-11-06`,
     titel: `Wat kost een dakinspectie?`,
