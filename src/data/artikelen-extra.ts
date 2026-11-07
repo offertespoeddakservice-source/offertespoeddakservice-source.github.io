@@ -1148,6 +1148,46 @@ export const ARTIKELEN_EXTRA: Artikel[] = [
       { v: `Er groeit mos op mijn platte dak. Is dat erg?`, a: `Een beetje mos is meestal geen ramp, maar het laat zien dat het daar lang nat blijft. Kijk of het water op die plek naar de afvoer kan. Haal het niet weg met een harde bezem, een schep of een hogedrukspuit, want dan beschadig je de bedekking. Stuur me een foto als er een plas blijft staan of als de bedekking eronder er kapot uitziet.` },
     ],
   },
+  {
+    slug: `lekkage-bij-de-nok`,
+    datum: `2026-11-07`,
+    titel: `Nat bovenin je zolder, onder de nok?`,
+    h1: `Dak lekt bij de nok: een natte plek bovenin je zolder, waar komt het vandaan?`,
+    metaTitle: `Dak lekt bij de nok: nat op zolder? | Spoed Dak Service`,
+    metaDescription: `Nat bovenin je zolder, vlak onder de nok? Vaak zit het in een losse nokvorst, een kapotte pan vlak onder de nok of een pijp door het dak. Soms is het condens.`,
+    intro: `Zie je op zolder een natte plek helemaal bovenin, waar de twee dakvlakken samenkomen? Of druppelt het langs de balk die onder de nok loopt? Dan komt het water meestal van de nok zelf of van vlak eronder. Hieronder lees je waar het meestal zit, hoe je condens herkent en wat je doet tot het gemaakt is.`,
+    secties: [
+      { kop: `Lekt het nu? Eerst dit`, tekst: [
+        `Zet een emmer onder de druppel en leg er een handdoek onder. Zit de natte plek boven een lamp of bij een stopcontact, zet dan in de meterkast de groep van die kamer uit. Ga niet zelf het dak op: de nok is het hoogste en steilste stuk van je dak. Maak een foto van de natte plek en, als het kan, van je dak vanaf de overkant van de straat. Wat je verder meteen kunt doen, staat op de <a href="/spoed/">spoedpagina</a>.`,
+      ] },
+      { kop: `Waar het water bij de nok binnenkomt`, tekst: [
+        `<strong>Een losse nokvorst.</strong> Op oudere daken liggen de nokvorsten in specie. Die wordt na jaren bros en brokkelt af, en dan waait de regen onder de vorsten door naar binnen. Vanaf de straat zie je dan vaak een vorst die scheef ligt, of brokjes specie in de goot. Lees ook <a href="/kennisbank/nokvorsten-los/">losse nokvorsten</a>.`,
+        `<strong>Een gescheurde strook onder een droge nok.</strong> Ligt je nok droog, zonder specie, dan zit er onder de vorsten een strook die de nok dichthoudt. Scheurt die of laat hij los, dan kan er bij harde wind regen onder de nok door waaien, ook als de vorsten zelf nog netjes liggen.`,
+        `<strong>Een kapotte pan vlak onder de nok.</strong> De bovenste rij pannen schuift onder de nokvorsten. Is daar een pan gebroken of verschoven, dan loopt het water er op het hoogste punt onder, en zie je het binnen bovenin. Zo'n pan zie je van beneden bijna niet. Zie <a href="/kennisbank/dakpan-kapot-of-verschoven/">dakpan kapot of verschoven</a>.`,
+        `<strong>Een pijp vlak bij de nok.</strong> Een ontluchtingspijp of afvoer komt vaak hoog door het dak naar buiten. Is de kraag eromheen gescheurd, dan loopt het water langs de pijp naar binnen, en dat lijkt dan op een lek bij de nok. Lees <a href="/kennisbank/lekkage-bij-dakdoorvoer/">lekkage bij een ontluchtingspijp of doorvoer</a>.`,
+        `<strong>De schoorsteen op de nok.</strong> Staat de schoorsteen op of vlak naast de nok, dan kan het water ook langs het lood rond de schoorsteen binnenkomen. Lees <a href="/kennisbank/lekkage-bij-schoorsteen/">lekkage bij de schoorsteen</a>.`,
+      ] },
+      { kop: `Of is het condens?`, tekst: [
+        `Warme, vochtige lucht uit je huis stijgt op en komt bovenin de zolder terecht. Is het daar koud, dan slaat dat vocht neer tegen het hout of de folie onder de nok. Dan zie je druppels of een natte plek bovenin, vooral na een koude nacht, ook als het niet heeft geregend. Wordt het alleen nat na een bui of bij harde wind, dan is het eerder een lek. Hoe je het verschil ziet, lees je in <a href="/kennisbank/condens-of-lekkage-op-zolder/">condens of lekkage op zolder</a>.`,
+      ] },
+      { kop: `Zo kijk je zelf, zonder het dak op te gaan`, tekst: [
+        `Kijk vanaf de overkant van de straat naar de nok, het liefst met de zoom van je telefoon. Ligt er een vorst scheef, zit er een kier tussen twee vorsten, of ligt er specie in de goot of op de stoep? Kijk ook vanuit de tuin naar de achterkant. Op zolder kun je met een zaklamp kijken waar het hout donker of nat is. Volg zo'n streep naar boven, want het water loopt vaak een stuk over de balk voordat het druppelt.`,
+      ] },
+      { kop: `Hoe ik het aanpak`, tekst: [
+        `Ik kijk eerst op zolder waar het hout nat is, en daarna buiten naar de nok, de bovenste rij pannen en wat er vlak onder de nok door het dak steekt. Een losse vorst zet ik weer vast, een kapotte pan vervang ik door een die past, en is de strook onder een droge nok gescheurd, dan vervang ik die. Is de specie onder de hele nok op, dan zeg ik eerlijk dat het slimmer is om de hele nok in één keer opnieuw te doen. Ligt de nok open, dan maak ik hem eerst dicht. Zie ook <a href="/diensten/nokvorsten-vervangen/">nokvorsten repareren of vervangen</a>.`,
+      ] },
+      { kop: `Wat kost het?`, tekst: [
+        `Een paar losse pannen vervangen of een nokvorst weer vastzetten kost ${inclBtw("dakpan")}. De nokvorsten opnieuw aansmeren met dakmortel kost ${inclBtw("nok_repareren")}. Moeten de vorsten vervangen worden, stuur dan een foto, dan hoor je wat het kost. Je hoort de prijs voordat ik begin. Richtprijzen staan op de <a href="/prijzen/">prijzenpagina</a>.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: nokvorsten repareren of vervangen`, href: `/diensten/nokvorsten-vervangen/` },
+    faq: [
+      { v: `Is een lek bij de nok spoed?`, a: `Druppelt het binnen, of zie je vanaf de straat een open plek op de nok of een vorst die er bijna af ligt, dan wel: bel of app me met een foto. Zeker als er een storm aankomt, want dan kan een losse vorst eraf waaien. Is het een oude, droge kring bovenin die niet groter wordt, dan kan het vaak een paar dagen wachten.` },
+      { v: `Wat kan ik op zolder doen tot het gemaakt is?`, a: `Zet een bak of emmer onder de druppel en leg plastic of een handdoek op de vloer eronder. Duw geen isolatie of doeken tussen de pannen en het hout, want dan blijft het water juist hangen. Ga niet zelf de nok op om iets af te dekken.` },
+      { v: `Mijn nok is een paar jaar geleden nog opnieuw gelegd. Kan het daar dan toch lekken?`, a: `Dat kan. Bij een droge nok zit elke vorst vast met een klem of schroef, en schiet er één los, dan gaat die vorst bij harde wind schuiven. Ook de strook onder de vorsten kan bij een schoorsteen of de rand van het dak loslaten. Is het werk nog maar kort geleden gedaan, neem dan eerst contact op met wie het heeft gedaan. Anders kijk ik wat er los zit.` },
+      { v: `Waarom is het alleen nat bij harde wind?`, a: `Bij gewone regen loopt het water netjes over de nok en de pannen naar beneden. Bij harde wind waait de regen schuin onder een losse vorst, een kier in de specie of een gescheurde strook onder de nok door. Let op bij welke windrichting het nat wordt, dan weet ik aan welke kant van de nok ik moet zoeken.` },
+    ],
+  },
 ];
 
 // Extra vragen bij bestaande artikelen. artikelen.ts is te groot om nog te laten groeien, daarom staan nieuwe vragen hier.
