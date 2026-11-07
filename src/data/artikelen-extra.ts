@@ -644,6 +644,51 @@ export const ARTIKELEN_EXTRA: Artikel[] = [
     ],
   },
   {
+    slug: `ijspegels-aan-dakgoot`,
+    datum: `2026-11-07`,
+    titel: `IJspegels aan je dakgoot?`,
+    h1: `IJspegels aan je dakgoot: wat ze zeggen over je goot en wat je doet`,
+    metaTitle: `IJspegels aan de dakgoot: wat nu? | Spoed Dak Service`,
+    metaDescription: `Hangen er ijspegels aan je dakgoot? Vaak zit de goot of de uitloop vol, hangt hij door of lekt er een naad. Zo zie je wat het is, en zo blijft het veilig.`,
+    intro: `Na een koude nacht hangen er ijspegels aan je goot. Een paar kleine pegels na sneeuw zijn niet meteen erg. Maar hangen er steeds dikke pegels langs de voorkant, of telkens op dezelfde plek, dan zegt dat iets over je goot. IJspegels ontstaan waar water over de rand loopt of uit een naad druppelt en dan bevriest. Hieronder lees je wat de plek van de pegels je vertelt, wat je beter niet doet en wat er na de vorst moet gebeuren.`,
+    secties: [
+      { kop: `Eerst: houd het veilig`, tekst: [
+        `Grote ijspegels kunnen bij dooi of een windstoot naar beneden vallen, en ze zijn zwaar en scherp. Hangen ze boven een voordeur, een stoep of een pad, zet daar dan iets neer zodat niemand eronder loopt, en gebruik zo nodig een andere deur. Druppelt het smeltwater op de stoep, dan wordt het daar 's nachts glad. Ga niet zelf met een ladder tegen een bevroren goot staan om de pegels eraf te slaan: de ladder glijdt op ijs, en een kunststof goot breekt bij kou snel.`,
+      ] },
+      { kop: `Pegels langs de hele voorkant: de goot zit vol`, tekst: [
+        `Hangen er pegels over een flink stuk van de goot, dan loopt het water daar over de rand. Meestal zit de goot vol blad, mos of dennennaalden, of is de uitloop naar de regenpijp dicht. Het water kan dan niet weg, loopt over de voorkant en bevriest aan de rand. Lees ook <a href="/kennisbank/dakgoot-loopt-over/">dakgoot loopt over</a> en <a href="/kennisbank/verstopte-regenpijp-lekkende-dakgoot/">verstopte regenpijp</a>.`,
+      ] },
+      { kop: `Steeds op dezelfde plek: doorhangen of een lekke naad`, tekst: [
+        `Hangt er telkens een pegel op één vaste plek midden in de goot, dan blijft daar water staan omdat de goot doorhangt. Lees <a href="/kennisbank/dakgoot-hangt-door/">dakgoot hangt door</a>. Hangt de pegel precies onder een naad, een hoek of het eindstuk, dan lekt de goot daar. Bij een zinken goot is het vaak een soldeernaad, bij kunststof een verbinding. Kijk bij <a href="/kennisbank/zinken-dakgoot-lekt/">zinken dakgoot lekt</a> of <a href="/kennisbank/kunststof-dakgoot-lekt/">kunststof dakgoot lekt</a>.`,
+      ] },
+      { kop: `Bij de regenpijp: de uitloop of de pijp is bevroren`, tekst: [
+        `Hangen de pegels vooral rond de regenpijp, of zit er ijs in de bocht onder de goot, dan is de afvoer bevroren of verstopt. Het water blijft dan in de goot staan en bevriest daar ook. Staat er water in de regenpijp zelf, dan kan die bij vorst scheuren. Zie je na de dooi een lange scheur in de pijp, stuur me dan een foto.`,
+      ] },
+      { kop: `Na sneeuw: smeltwater van het dak`, tekst: [
+        `Ligt er sneeuw op je dak, dan smelt die soms aan de onderkant door de warmte uit je huis, ook als het buiten vriest. Het smeltwater loopt naar beneden en bevriest weer bij de koude goot en de onderste rij pannen. Zo ontstaat een rand van ijs met pegels eronder. Achter zo'n ijsrand kan het water blijven staan en onder de onderste pannen door naar binnen lopen, en dan zie je een natte plek laag op zolder, vlak boven de goot. Lees ook <a href="/kennisbank/dak-lekt-bij-sneeuw-of-vorst/">dak lekt bij sneeuw of vorst</a>.`,
+      ] },
+      { kop: `Waarom je het niet laat zitten`, tekst: [
+        `IJs is zwaar. Een goot die vol ijs zit, trekt aan de beugels en kan gaan doorhangen. Water dat in een naad of hoek bevriest, zet uit en kan die verder openduwen, zodat de goot na de vorst lekt op een plek waar hij eerst nog dicht was. En een goot die blijft overlopen, maakt de gevel eronder nat.`,
+      ] },
+      { kop: `Wat je zelf beter niet doet`, tekst: [
+        `Gooi geen heet water in de goot of de regenpijp: dat bevriest daarna opnieuw, vaak lager in de pijp. Strooi geen zout in de goot, want zout is slecht voor zink en voor de gevel. En hak het ijs niet los met een schop of bezem vanaf een ladder: zo beschadig je de goot of de pannen erboven.`,
+      ] },
+      { kop: `Hoe ik het aanpak`, tekst: [
+        `Bij ijzel of sneeuw op de pannen wacht ik tot het veilig is. Stuur me tot die tijd een foto van de plek waar de pegels hangen, vanaf de straat en het liefst met de hele goot erop, want die plek zegt vaak al waar het zit. Na de vorst maak ik de goot leeg en de uitloop vrij, en kijk ik of de goot goed afloopt naar de regenpijp. Hangt hij door, dan zet ik hem weer op afschot. Lekt er een naad, dan soldeer ik die bij zink of vervang ik de verbinding bij kunststof, en een goot die nog stevig is maar op meer plekken lekt, kan van binnen gecoat worden. Zie <a href="/diensten/goten-reinigen/">dakgoot schoonmaken</a> en <a href="/diensten/dakgoot-vervangen/">dakgoot repareren of vervangen</a>.`,
+      ] },
+      { kop: `Wat kost het?`, tekst: [
+        `Eén goot leegmaken, bijvoorbeeld alleen de voorgoot, kost ${prijsVan("goot_reinigen")}: de goot leeg, de uitloop naar de regenpijp vrij en de troep gaat mee. Moeten beide goten schoon, of moet er ook iets aan de goot gerepareerd worden, dan hoor je vooraf wat het kost. Richtprijzen staan op de <a href="/prijzen/">prijzenpagina</a>.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: dakgoot schoonmaken`, href: `/diensten/goten-reinigen/` },
+    faq: [
+      { v: `Zijn ijspegels aan mijn dakgoot gevaarlijk?`, a: `Kleine pegels meestal niet. Grote pegels kunnen bij dooi of wind naar beneden vallen, en dat is gevaarlijk boven een deur, een stoep of een pad. Zet daar iets neer zodat niemand eronder loopt. Ga ze niet zelf vanaf een ladder weghalen.` },
+      { v: `Kan mijn dakgoot kapot gaan door ijs?`, a: `Dat kan. Een goot vol ijs is zwaar en trekt aan de beugels, en water dat in een naad of hoek bevriest, kan die openduwen. Lekt je goot na een vorstperiode op een nieuwe plek, of hangt hij ineens scheef, stuur me dan een foto.` },
+      { v: `Is het normaal dat er na sneeuw ijspegels aan mijn goot hangen?`, a: `Een paar kleine pegels na sneeuw komen vaak voor. Hangt er een dikke rand van ijs langs de hele goot, of zie je daarna een natte plek laag op zolder, dan kan het smeltwater achter het ijs onder de pannen door lopen. Laat dat na de dooi nakijken.` },
+      { v: `Is een goot met ijspegels spoed?`, a: `Meestal niet. Het wordt pas spoed als het binnen nat wordt, als de goot los hangt boven de stoep of de oprit, of als er een zware pegel boven een deur hangt waar je niet omheen kunt. Bel of app me dan met een foto. Zit een natte plek bij een lamp of stopcontact, zet dan eerst in de meterkast de groep van die kamer uit.` },
+    ],
+  },
+  {
     slug: `licht-tussen-dakpannen`,
     datum: `2026-11-06`,
     titel: `Zie je licht tussen je dakpannen?`,
