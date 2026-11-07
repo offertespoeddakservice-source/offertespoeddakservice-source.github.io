@@ -105,9 +105,9 @@ const schema = [
   {
     "@context": "https://schema.org",
     "@type": "Service",
-    name: `${d.titel} ${p.naam}`,
-    serviceType: d.titel,
-    description: `${d.titel} in ${p.naam}: ${d.kort}`,
+    name: `${KLUS_NAAM[d.slug] ?? d.titel} in ${p.naam}`,
+    serviceType: KLUS_NAAM[d.slug] ?? d.titel,
+    description: `Spoed Dak Service is een dakdekker uit 's-Hertogenbosch voor ${watZin} ${waarZin}.`,
     provider: { "@type": "RoofingContractor", "@id": `${SITE.url}/#bedrijf`, name: SITE.bedrijfsnaam, telephone: `+${SITE.telefoonE164}` },
     areaServed: { "@type": "City", name: p.naam },
     url: `${SITE.url}${path}/`,
