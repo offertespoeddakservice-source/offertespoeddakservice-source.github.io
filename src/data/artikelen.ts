@@ -1531,7 +1531,7 @@ export const ARTIKELEN: Artikel[] = [
     datum: "2026-10-24",
     titel: "Kilgoot lekt?",
     h1: "Kilgoot lekt: lekkage waar twee daken samenkomen",
-    metaTitle: "Kilgoot lekt: oorzaken en oplossing | Spoed Dak Service",
+    metaTitle: "Kilgoot lekt: natte plek in de hoek? | Spoed Dak Service",
     metaDescription:
       "Een natte plek in de hoek waar twee dakvlakken samenkomen? Dan lekt vaak de kilgoot. Zo herken je het, waar het meestal zit en wat eraan te doen is.",
     intro:
