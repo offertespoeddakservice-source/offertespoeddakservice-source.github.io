@@ -1234,6 +1234,49 @@ export const ARTIKELEN_EXTRA: Artikel[] = [
       { v: `Mijn badkamer zit in de aanbouw onder een plat dak. Waar lekt het dan meestal?`, a: `Vaak bij de rand van het dak, bij een naad, bij de afvoer of op de plek waar het platte dak tegen de muur van het huis omhoog loopt. Ook een lichtkoepel of de pijp van de afzuiging door het platte dak kan lekken. Kijk vanuit een raam boven of er na een bui water op het dak blijft staan, en stuur me daar een foto van, samen met een foto van de natte plek binnen.` },
     ],
   },
+  {
+    slug: `lekkage-bij-kachelpijp`,
+    datum: `2026-11-08`,
+    titel: `Lekt het bij de pijp van je houtkachel?`,
+    h1: `Lekkage bij de pijp van je houtkachel of pelletkachel: waar het zit en wat je doet`,
+    metaTitle: `Lekkage bij de kachelpijp door het dak | Spoed Dak Service`,
+    metaDescription: `Druppelt het langs de pijp van je houtkachel? Vaak zit het in de kraag of de slab op het dak, soms is het condens of regen in de pijp zelf. Zo zie je het verschil.`,
+    intro: `Heb je een houtkachel of pelletkachel met een eigen pijp door het dak, dan is dat een plek waar een dak kan gaan lekken. Je ziet het aan een natte plek of bruine kring op het plafond rond de pijp, of aan druppels langs de pijp naar beneden. Vaak zit het op het dak, in de aansluiting rond de pijp. Soms komt het water uit de pijp zelf. Hieronder lees je hoe je het verschil ziet, wat je zelf doet en wat ik eraan doe.`,
+    secties: [
+      { kop: `Lekt het nu? Eerst dit`, tekst: [
+        `Zet een bak onder de druppel en haal spullen weg die nat kunnen worden. Raak de pijp niet aan als de kachel brandt of net uit is. Stook liever niet tot je weet waar het water vandaan komt. Ga niet zelf het dak op. Maak een foto van de natte plek en, als dat veilig kan, van de pijp op het dak vanaf de straat. Wat je verder meteen kunt doen, staat op de <a href="/spoed/">spoedpagina</a>.`,
+      ] },
+      { kop: `Hoe de pijp door het dak gaat`, tekst: [
+        `Op een pannendak gaat de pijp van een kachel meestal door een slab van lood of aluminium, of door een speciale doorvoerpan. Rond de pijp zit een kraag die de kier tussen de pijp en de slab dichthoudt, en vaak zit er boven die kraag nog een stormkraag om de pijp, die het water over de kraag heen leidt. Op een plat dak zit er een opstaande manchet om de pijp, die in de dakbedekking is meegenomen.`,
+      ] },
+      { kop: `Waar het water binnenkomt`, tekst: [
+        `<strong>Een gescheurde of losse kraag.</strong> Een kachelpijp wordt warm en weer koud, en de kraag eromheen werkt mee. Na een aantal jaren kan hij uitdrogen, scheuren of loskomen van de pijp. Dan loopt het regenwater langs de pijp naar binnen.`,
+        `<strong>Een stormkraag die los zit of ontbreekt.</strong> Zakt de stormkraag naar beneden of zit hij scheef, dan loopt het water tussen de pijp en de kraag door.`,
+        `<strong>Een slab of doorvoerpan die niet goed ligt.</strong> Is de slab bij het plaatsen niet goed onder de pannen erboven geschoven, of is de pan ernaast verschoven, dan loopt het water onder de slab door.`,
+        `<strong>Een gat in een gewone pan, dichtgekit.</strong> Soms is er een gat in een gewone pan gemaakt en is de kier rond de pijp dichtgekit. Kit laat na een tijd los, en dan lekt het rond de pijp.`,
+        `Lees ook <a href="/kennisbank/lekkage-bij-dakdoorvoer/">lekkage bij een ontluchtingspijp of doorvoer</a>.`,
+      ] },
+      { kop: `Of komt het uit de pijp zelf?`, tekst: [
+        `Druppelt er bruin of zwart water onderaan de pijp of bij de kachel, dat naar rook ruikt, ook op dagen dat het droog is? Dan is het vaak condens in de pijp. Dat gebeurt sneller als het hout nat is of de pijp koud blijft. Regent het bovenin de pijp naar binnen omdat er geen goede kap op zit, dan wordt de binnenkant van de pijp nat, ook als de aansluiting op het dak dicht is. In beide gevallen is het geen daklek, en dan is je kachelinstallateur of schoorsteenveger de juiste persoon. Heb je een gemetselde schoorsteen, lees dan <a href="/kennisbank/schoorsteen-lekt-open-haard/">water in je open haard of kachel</a>.`,
+      ] },
+      { kop: `Zo kijk je zelf, zonder het dak op te gaan`, tekst: [
+        `Kijk vanaf de straat of de tuin, met de zoom van je telefoon, naar de plek waar de pijp door het dak gaat. Zit de kraag strak om de pijp, staat de stormkraag er nog boven, en ligt de slab of de pan plat tussen de pannen eromheen? Kijk binnen of het nat wordt na een bui of juist als je stookt. Wordt het alleen nat bij regen, ook als de kachel al dagen uit is, dan zit het meestal op het dak.`,
+      ] },
+      { kop: `Hoe ik het aanpak`, tekst: [
+        `Ik doe het stuk door het dak: de slab of doorvoerpan, de kraag en de aansluiting op de pannen eromheen. Een uitgedroogde of gescheurde kraag vervang ik, een slab of pan die niet goed ligt leg ik opnieuw, en een gekit gat in een gewone pan vervang ik door een doorvoer die past bij je pannen. Aan de kachelpijp zelf, de stormkraag en de kap bovenop werkt je kachelinstallateur. Moet de pijp eruit om het dak goed dicht te maken, dan stemmen we af wie wat doet. Zie ook <a href="/diensten/dakdoorvoer/">dakdoorvoer plaatsen of herstellen</a>.`,
+      ] },
+      { kop: `Wat kost het?`, tekst: [
+        `Dat hangt af van wat er mis is. Een nieuwe kraag is een andere klus dan een nieuwe slab of doorvoerpan. Stuur een foto van de pijp op het dak vanaf de straat en van de natte plek binnen via WhatsApp, dan hoor je wat het kost. Je weet de prijs voordat ik begin.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: dakdoorvoer plaatsen of herstellen`, href: `/diensten/dakdoorvoer/` },
+    faq: [
+      { v: `Mag ik blijven stoken zolang het lekt?`, a: `Liever niet tot je weet waar het water vandaan komt. Zit het in de pijp zelf, dan wil je dat je installateur er eerst naar kijkt. Zit het in de aansluiting op het dak, dan maak ik die dicht, en daarna kun je weer gewoon stoken. Zet tot die tijd een bak onder de druppel en stuur me een foto.` },
+      { v: `Vervang je ook de pijp van mijn kachel?`, a: `Nee. De pijp, de stormkraag, de kap en de aansluiting op de kachel horen bij je kachelinstallateur. Ik doe het stuk door het dak, zodat het daar dicht is. Laat je een nieuwe kachel plaatsen, dan kunnen we afspreken dat ik de doorvoer in het dak maak en de installateur de pijp.` },
+      { v: `Is het condens of een lek?`, a: `Wordt het alleen nat als je stookt, en is het water bruin of ruikt het naar rook, dan is het vaak condens in de pijp. Wordt het nat na een bui, ook als de kachel al dagen uit is, dan is het eerder een lek bij de aansluiting op het dak. Let een paar dagen op wanneer het nat wordt, en maak er foto's van.` },
+      { v: `Mijn kachelpijp gaat door een plat dak. Kun je daar ook naar kijken?`, a: `Stuur een foto van de pijp op het dak en van de natte plek binnen, dan kijk ik mee. Op een plat dak zit het lek vaak in de manchet om de pijp of in de dakbedekking ernaast. Op een pannendak doe ik deze klus het vaakst.` },
+    ],
+  },
 ];
 
 // Extra vragen bij bestaande artikelen. artikelen.ts is te groot om nog te laten groeien, daarom staan nieuwe vragen hier.
