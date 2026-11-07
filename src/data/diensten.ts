@@ -172,7 +172,7 @@ export const DIENSTEN: Dienst[] = [
     kort: "Gebroken pannen, lood bij schoorsteen of dakraam, losse nokvorsten.",
     metaTitle: "Spoed dakreparatie regio Den Bosch | Spoed Dak Service",
     metaDescription:
-      "Losse pan, lood bij de schoorsteen of een nokvorst die los zit? Ik repareer het, bij spoed vaak nog dezelfde dag in de regio Den Bosch. Vaste prijs vooraf.",
+      `Spoed dakreparatie: losse pan, lood of nokvorst? Vaak nog dezelfde dag in de regio Den Bosch. Een losse pan of nokvorst ${KLEIN_PRIJS}.`,
     icoon: "🧰",
     intro:
       "Veel daklekkages beginnen klein: een gebroken pan, loslatend lood bij de schoorsteen of een losgewaaide nokvorst. Ik herstel het voordat het een groot probleem wordt, met materiaal dat bij je dak past. Is het spoed, omdat het binnen druppelt of er na een storm iets open ligt? Bel of app me dan meteen. Stuur er een foto bij die je vanaf de straat maakt, dan zie ik vaak al wat er los zit en wat ik mee moet nemen.",
