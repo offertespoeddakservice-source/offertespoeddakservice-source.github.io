@@ -926,6 +926,7 @@ export const ARTIKELEN: Artikel[] = [
         "Op een pannendak gaat de pijp door een speciale pan: de doorvoerpan. Rond de pijp zit een rubberen of kunststof kraag, of een stuk lood. Na jaren in de zon droogt dat rubber uit en scheurt het, of het zakt een stukje omlaag langs de pijp. Dan loopt het water bij een bui langs de pijp naar binnen.",
         "Ook de doorvoerpan zelf kan gebarsten of verschoven zijn, bijvoorbeeld na een storm of als er iemand op het dak heeft gestaan. En soms heeft iemand de kier rond de pijp ooit met kit dichtgesmeerd. Dat houdt een paar jaar, en daarna laat de kit los.",
         'Op een plat dak zit rond de pijp een manchet die in de dakbedekking is opgenomen. Laat die aansluiting los of scheurt de dakbedekking rond de pijp, dan komt het water erachter. Blijft er water rond de pijp staan, lees dan ook <a href="/kennisbank/water-blijft-staan-op-plat-dak/">water blijft staan op je platte dak</a>.',
+        'Staat er een warmtepomp of airco op je platte dak en gaan de leidingen door het dak, lees dan <a href="/kennisbank/lekkage-warmtepomp-of-airco/">lekkage sinds de warmtepomp of airco</a>.',
       ] },
       { kop: "Lek of condens in de pijp?", tekst: [
         "Een ontluchtingspijp of afzuigpijp die door een koude zolder loopt, wordt zelf ook koud. Warme, vochtige lucht slaat daar tegen neer, en die druppels lopen langs de pijp naar beneden. Dat lijkt op een lek, maar het komt van binnen.",

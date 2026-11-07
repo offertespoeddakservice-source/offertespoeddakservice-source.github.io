@@ -1061,6 +1061,49 @@ export const ARTIKELEN_EXTRA: Artikel[] = [
       { v: `Betaalt mijn verzekering stormschade aan mijn dak?`, a: `Dat hangt af van je polis en van wat er kapot is. Waait er bij een storm een pan of nokvorst van een dak dat goed onderhouden was, dan wordt de schade vaak vergoed. Lag de pan al los of was het lood al op, dan kan je verzekeraar dat als achterstallig onderhoud zien. Foto's van je dak van vlak voor de storm helpen dan. Kijk in je polisvoorwaarden of bel je verzekeraar.` },
     ],
   },
+  {
+    slug: `lekkage-warmtepomp-of-airco`,
+    datum: `2026-11-07`,
+    titel: `Lekt het sinds de warmtepomp of airco?`,
+    h1: `Lekkage sinds de warmtepomp of airco er is: bij de leidingen, de poten of het condenswater`,
+    metaTitle: `Lekt het sinds de warmtepomp of airco? | Spoed Dak Service`,
+    metaDescription: `Lekt je dak of aanbouw sinds er een warmtepomp of airco is geplaatst? Vaak zit het bij de leidingen door het dak, de poten op de dakbedekking of het condenswater.`,
+    intro: `Steeds meer huizen krijgen een warmtepomp of airco. De buitenunit staat vaak op het platte dak van een aanbouw, garage of berging, en de leidingen gaan door het dak of de muur naar binnen. Lekt het sinds die tijd, dan ligt het meestal niet aan het apparaat zelf, maar aan wat er bij het plaatsen met het dak is gebeurd. Hieronder lees je waar het meestal zit, wat je zelf kunt zien en wie je belt.`,
+    secties: [
+      { kop: `Lekt het nu? Eerst dit`, tekst: [
+        `Zet een emmer onder de druppel en haal spullen weg die nat kunnen worden. Zit de natte plek bij een lamp of stopcontact, zet dan in de meterkast de groep van die kamer uit. Ga niet zelf het dak op. Maak een foto van de natte plek en, als het kan vanuit een raam boven, van de unit en het dak eromheen. Wat je verder meteen kunt doen, staat op de <a href="/spoed/">spoedpagina</a>.`,
+      ] },
+      { kop: `Waar het meestal zit`, tekst: [
+        `Waar de leidingen door het dak gaan. De leidingen, de kabel en de afvoer van het condenswater moeten ergens naar binnen. Is daar een gat geboord en alleen met kit of schuim dichtgemaakt, dan houdt dat vaak maar kort. Zon en vorst laten de kit los, en dan loopt het regenwater langs de leidingen naar binnen. Een nette doorvoer heeft een kraag die in de dakbedekking is opgenomen.`,
+        `Onder de poten of het frame. Staat de unit met de poten direct op de dakbedekking, dan drukken die er bij elke trilling een beetje in. Na een tijd slijt er een gat, of scheurt de bedekking bij de rand van een poot.`,
+        `Door werk op het dak. Bij het plaatsen lopen er mensen met gereedschap over het dak. Een steentje onder een schoen, een gevallen boor of een scherpe hoek van een frame kan een gaatje maken dat je pas bij de eerste flinke bui merkt.`,
+        `Bij het condenswater. Een warmtepomp of airco maakt water, en een warmtepomp ontdooit in de winter af en toe, dan komt er in korte tijd flink wat water uit. Loopt dat niet naar de afvoer, dan blijft het op het dak staan, en bij vorst kan het in de afvoer bevriezen. Een plas die steeds terugkomt, vindt na een tijd een zwakke naad. Lees ook <a href="/kennisbank/water-blijft-staan-op-plat-dak/">water blijft staan op je platte dak</a>.`,
+        `Langs de muur. Gaan de leidingen eerst door de gevel en dan over het platte dak, dan kan het water ook langs de leidingen de muur in lopen, vlak boven de aanbouw. Binnen zie je dat als een natte plek langs de muur. Zie <a href="/kennisbank/lekkage-bij-aanbouw/">lekkage bij de aanbouw</a>.`,
+      ] },
+      { kop: `Gaan de leidingen door een pannendak?`, tekst: [
+        `Dan is de leiding soms door een gewone pan geboord of onder een pan door gelegd. Die pan ligt dan niet meer goed in de sluiting, en bij een bui loopt het water langs de leiding naar binnen. Hoe dat zit, lees je in <a href="/kennisbank/lekkage-bij-dakdoorvoer/">lekkage bij een ontluchtingspijp of dakdoorvoer</a>.`,
+      ] },
+      { kop: `Of is het condens binnen?`, tekst: [
+        `De leidingen van een airco worden koud als hij koelt. Lopen ze binnen door een warme, vochtige ruimte, dan kunnen er druppels aan de buitenkant van de leiding komen. Dat lijkt op een lek, maar het komt niet van het dak. Druppelt het ook op droge dagen, en vooral als het apparaat draait, dan is dat werk voor je installateur. Meer over het verschil lees je in <a href="/kennisbank/condens-of-lekkage-op-zolder/">condens of lekkage op zolder</a>.`,
+      ] },
+      { kop: `Wie bel je?`, tekst: [
+        `Is de warmtepomp of airco pas geplaatst, meld het lek dan eerst bij het bedrijf dat hem heeft geplaatst. Lekkage door het plaatsen hoort dat bedrijf in de regel zelf op te lossen. Het apparaat, de leidingen en de afvoer van het condenswater zijn werk voor de installateur. Het dak eromheen is werk voor mij: een doorvoer netjes dichtmaken, een gat of scheur in de dakbedekking herstellen, of een plek repareren waar de poten de bedekking hebben beschadigd. Moet de unit daarvoor even opzij, dan is het handig als de installateur erbij is.`,
+      ] },
+      { kop: `Hoe ik het aanpak`, tekst: [
+        `Ik kijk eerst binnen waar het nat is, en daarna op het dak naar de doorvoer, de plek onder de poten en de naden en de afvoer eromheen. Een doorvoer die alleen met kit is dichtgemaakt, maak ik opnieuw dicht met een kraag of manchet die in de dakbedekking wordt opgenomen. Een beschadigde plek in de bedekking herstel ik. Alleen een rand kit erom vind ik geen goede oplossing, want die laat na een paar jaar weer los. Zie ook <a href="/diensten/platte-daken/">platte daken</a> en <a href="/diensten/dakdoorvoer/">dakdoorvoer</a>.`,
+      ] },
+      { kop: `Wat kost het?`, tekst: [
+        `Een gerichte reparatie van een lek in een klein plat dak kost ${platPrijs}. Moet er meer gebeuren, bijvoorbeeld omdat het water al een tijd in de isolatie of het hout is getrokken, dan hoor je vooraf de vaste prijs, voordat ik begin. Richtprijzen staan op de <a href="/prijzen/">prijzenpagina</a>.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: platte daken`, href: `/diensten/platte-daken/` },
+    faq: [
+      { v: `Mijn warmtepomp is net geplaatst en nu lekt het. Wie moet het oplossen?`, a: `Meld het eerst bij het bedrijf dat de warmtepomp heeft geplaatst. Lekkage door het plaatsen hoort dat bedrijf in de regel zelf op te lossen. Maak foto's van de natte plek en van de unit op het dak, en schrijf op wanneer het lekte. Komt het bedrijf niet, of staat de unit er al langer, dan kijk ik waar het water binnenkomt.` },
+      { v: `Kan het condenswater van de warmtepomp mijn dak beschadigen?`, a: `Niet als het goed wegloopt. Blijft het op het dak staan of loopt het steeds over dezelfde naad, dan slijt die plek sneller. En bevriest het in de winter in de afvoer, dan kan het regenwater daarna niet weg. Kijk na een koude nacht of er ijs of een plas bij de unit ligt, en stuur me een foto als dat steeds terugkomt.` },
+      { v: `Is lekkage bij de warmtepomp spoed?`, a: `Druppelt het binnen bij een lamp, een stopcontact of op spullen die niet nat mogen worden, dan wel: zet de stroom van die groep uit en bel of app me met een foto. Is het een vochtige plek die na de bui weer opdroogt, dan kan het vaak een paar dagen wachten. Laat het niet de hele winter zitten.` },
+      { v: `Moet de warmtepomp eraf voor de reparatie?`, a: `Meestal niet. Zit het lek bij de doorvoer of naast de unit, dan kan ik daar vaak gewoon bij. Zit het precies onder de unit, dan moet hij soms even opzij. Dat doe ik niet zonder de installateur, want aan de leidingen en de aansluiting zit ik niet.` },
+    ],
+  },
 ];
 
 // Extra vragen bij bestaande artikelen. artikelen.ts is te groot om nog te laten groeien, daarom staan nieuwe vragen hier.
