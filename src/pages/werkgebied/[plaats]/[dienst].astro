@@ -153,6 +153,12 @@ const schema = [
       {d.slug === "dakgoot-vervangen" && (
         <p><strong>Druppelt of lekt je goot?</strong> Maak tijdens of vlak na een bui vanaf de straat een foto van de plek waar het druppelt of overloopt, en stuur die via <a href={waHref(`Hallo, mijn dakgoot lekt in ${p.naam}. Ik stuur je een foto.`)}>WhatsApp</a>. Dan zeg ik wat ik zie, en je hoort vooraf wat het kost.</p>
       )}
+      {d.slug === "dakreparatie" && (
+        <p><strong>Ligt er een pan scheef of los?</strong> Maak vanaf de overkant van de straat een foto van je dak, het liefst met de zoom van je telefoon, en stuur die via <a href={waHref(`Hallo, er ligt een pan of nokvorst los op mijn dak in ${p.naam}. Ik stuur je een foto.`)}>WhatsApp</a>. Dan zeg ik wat ik zie, en je hoort vooraf wat het kost. Ga zelf niet het dak op.</p>
+      )}
+      {d.slug === "dakrenovatie" && (
+        <p><strong>Twijfel je of je dak op is?</strong> Stuur een paar foto's van je dak vanaf de straat en vanuit de tuin via <a href={waHref(`Hallo, ik twijfel of mijn dak in ${p.naam} aan vernieuwing toe is. Ik stuur je foto's.`)}>WhatsApp</a>. Dan zeg ik eerlijk of repareren nog kan of dat vernieuwen slimmer is, en je hoort vooraf wat het kost.</p>
+      )}
       {verder && (
         <>
           <h3>Handig om te weten</h3>
