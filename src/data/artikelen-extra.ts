@@ -1238,7 +1238,7 @@ export const FAQ_ERBIJ: Record<string, Artikel["faq"]> = {
   ],
 };
 
-// Kort antwoord bovenaan een artikel: één of twee zinnen met het directe antwoord, voor Google en AI. Geen bedragen.
+// Kort antwoord bovenaan een artikel: één of twee zinnen met het directe antwoord, voor Google en AI. Bedragen alleen via inclBtw uit prijzen.ts, nooit met de hand.
 export const KORT_ANTWOORD: Record<string, string> = {
   "lekkage-bij-schoorsteen": `Lekt het naast de schoorsteen, dan zit het meestal in het lood rond de voet van de schoorsteen, dat na jaren scheurt, omkrult of loslaat. Soms komt het water door de kop van de schoorsteen of door het kanaal zelf naar binnen. Een foto vanaf de straat laat vaak al zien waar het zit.`,
   "daklekkage-opsporen": `De natte plek binnen zit zelden recht onder het lek. Water loopt eerst over de panlatten, de folie of de isolatie naar beneden en komt pas op het laagste punt naar binnen. Een lek vind je daarom door de weg van het water van binnen en van buiten terug te volgen, zonder onnodig sloopwerk.`,
@@ -1251,4 +1251,7 @@ export const KORT_ANTWOORD: Record<string, string> = {
   "lekkage-bij-zonnepanelen": `Lekt het sinds er zonnepanelen op je dak liggen, dan zit het meestal niet in de panelen zelf, maar in een pan die bij het plaatsen is verschoven of gebroken, vaak bij een dakhaak. Ook een kabeldoorvoer die niet goed is afgewerkt, of blad dat onder de panelen blijft liggen, kan de oorzaak zijn. Zijn de panelen pas gelegd, meld het dan eerst bij je installateur.`,
   "schoorsteen-lekt-open-haard": `Komt er bij regen water in je open haard of kachel, dan komt het meestal van boven door de schoorsteen zelf: een open kanaal zonder kap, een kapotte afdekplaat op de kop, of stenen en voegen die water doorlaten. Wordt het vooral naast de schoorsteen nat, dan zit het vaker in het lood rond de voet.`,
   "vochtplek-plafond": `Een vochtplek in je plafond komt waarschijnlijk van het dak als hij op de bovenste verdieping zit, na regen groter wordt en weer opdroogt als het een paar dagen droog is. Blijft hij ook bij droog weer nat, of zit hij onder een badkamer, dan komt het water vaker van een leiding. Verspreide druppels na een koude nacht wijzen eerder op condens.`,
+  "wat-kost-daklekkage-repareren": `Een daklek opsporen en dichtmaken kost bij mij ${inclBtw("daklekkage")}: ik zoek waar het water binnenkomt en maak het lek dicht. Is er meer nodig, zoals nieuw lood of een groter stuk dak, dan hoor je dat en de prijs voordat ik verder ga.`,
+  "wat-kost-dakgoot-schoonmaken": `Een dakgoot schoonmaken kost bij mij ${inclBtw("goot_reinigen")} voor één goot, bijvoorbeeld alleen de voorgoot. Voor beide goten of een groter huis hoor je de prijs vooraf. Ik reken niet per meter: je hoort één prijs voor de hele klus.`,
+  "wat-kost-een-dakdekker": `Een kleine reparatie, zoals een paar losse pannen vervangen of een nokvorst weer vastzetten, kost bij mij ${inclBtw("dakpan")}. Een daklek opsporen en dichtmaken kost ${inclBtw("daklekkage")}. Voor groter werk stuur je een foto, en je hoort de prijs voordat ik begin. Ik werk niet met een uurtarief.`,
 };
