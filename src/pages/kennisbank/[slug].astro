@@ -5,6 +5,7 @@ import { ARTIKELEN } from "../../data/artikelen.ts";
 import { FAQ_ERBIJ, KORT_ANTWOORD } from "../../data/artikelen-extra.ts";
 import { PRIJZEN } from "../../data/prijzen.ts";
 import EchteFotos from "../../components/EchteFotos.astro";
+import { FOTOS } from "../../data/fotos.ts";
 
 export function getStaticPaths() {
   return ARTIKELEN.map((a) => ({ params: { slug: a.slug }, props: { a: { ...a, faq: [...a.faq, ...(FAQ_ERBIJ[a.slug] ?? [])] } } }));
@@ -132,6 +133,16 @@ const FOTOS_BIJ: Record<string, { soort: string; max: number }> = {
   "welke-dakpan-heb-ik": { soort: "pannen", max: 2 },
 };
 const fotoBij = FOTOS_BIJ[a.slug];
+// Precies deze echte foto's (uit fotos.ts) bij artikelen waar geen soort goed past, zoals de veranda of een goot die doorhangt.
+// Op code uit de bestandsnaam; het pad komt uit fotos.ts, dus alleen foto's die Rens goedkeurde.
+const FOTOS_BESTANDEN: Record<string, string[]> = {
+  "veranda-of-overkapping-lekt": ["9bf5ac"],
+  "dakgoot-hangt-door": ["ae9944"],
+  "verstopte-regenpijp-lekkende-dakgoot": ["ae9944", "6d4a97"],
+};
+const fotoBestanden = FOTOS_BESTANDEN[a.slug]
+  ?.map((code) => FOTOS.find((f) => f.bestand.includes(`-${code}.`))?.bestand)
+  .filter((b): b is string => !!b);
 const plek = groep.indexOf(a.slug);
 const uitGroep = [...groep.slice(plek + 1), ...groep.slice(0, Math.max(plek, 0))]
   .map((s) => ARTIKELEN.find((x) => x.slug === s))
@@ -189,6 +200,7 @@ const schema = faqSchema ? [articleSchema, faqSchema] : articleSchema;
           </>
         ))}
         {fotoBij && <EchteFotos soort={fotoBij.soort} max={fotoBij.max} inline />}
+        {!fotoBij && fotoBestanden && fotoBestanden.length > 0 && <EchteFotos bestanden={fotoBestanden} max={fotoBestanden.length} inline />}
         {LEK_ARTIKELEN.has(a.slug) && !STORM_ARTIKELEN.has(a.slug) && (
           <p>Woon je in de regio Den Bosch? Hoe ik een lek bij jou in de buurt aanpak, lees je bij daklekkage in <a href="/werkgebied/den-bosch/daklekkage/">Den Bosch</a>, <a href="/werkgebied/vught/daklekkage/">Vught</a>, <a href="/werkgebied/rosmalen/daklekkage/">Rosmalen</a>, <a href="/werkgebied/oss/daklekkage/">Oss</a>, <a href="/werkgebied/veghel/daklekkage/">Veghel</a>, <a href="/werkgebied/oisterwijk/daklekkage/">Oisterwijk</a>, <a href="/werkgebied/heusden/daklekkage/">Heusden</a> en <a href="/werkgebied/boxtel/daklekkage/">Boxtel</a>. Andere plaatsen vind je bij <a href="/werkgebied/">mijn werkgebied</a>.</p>
         )}
