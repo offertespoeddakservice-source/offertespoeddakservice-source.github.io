@@ -1578,6 +1578,47 @@ export const ARTIKELEN_EXTRA: Artikel[] = [
       { v: `Op zolder zie ik nog een stuk van het oude kanaal. Kan dat kwaad?`, a: `Meestal niet, zolang het droog is en het kanaal boven goed is afgesloten. Voelt de bovenkant nat aan, of zie je na regen water langs de stenen lopen, dan komt er nog water in van boven. Maak een foto en stuur die via WhatsApp, dan kijk ik mee.` },
     ],
   },
+  {
+    slug: `gedeelde-dakgoot-lekt`,
+    datum: `2026-11-09`,
+    titel: `Gedeelde dakgoot met de buren lekt?`,
+    h1: `Dakgoot lekt op de grens met de buren: wie maakt het en wie betaalt?`,
+    metaTitle: `Gedeelde dakgoot met de buren lekt | Spoed Dak Service`,
+    metaDescription: `Lekt de dakgoot die je deelt met de buren? Vaak zit het in de naad op de grens of bij de regenpijp die jullie samen gebruiken. Zo zie je waar het zit en regel je het samen.`,
+    intro: `In een rij huizen of bij een twee-onder-een-kap loopt de dakgoot vaak gewoon door van jouw huis naar dat van de buren. Soms delen jullie ook één regenpijp. Lekt het op of vlak bij de grens, dan wil je weten waar het precies zit en wie het laat maken. Hieronder lees je waar zo'n goot meestal lekt, hoe je het herkent en hoe je het met de buren regelt.`,
+    secties: [
+      { kop: `Zo zit een gedeelde goot in elkaar`, tekst: [
+        `Bij oudere rijtjes ligt er vaak één lange zinken goot over meerdere huizen, met een gesoldeerde naad ergens rond de grens. Bij kunststof goten zit er meestal een koppelstuk tussen jouw stuk en dat van de buren. Soms is er later aan één kant een stuk vervangen, en dan zit er op de grens zink aan kunststof vast. En vaak loopt het water van twee huizen naar één regenpijp, die precies op de grens of net aan één kant staat.`,
+      ] },
+      { kop: `Waar het meestal lekt`, tekst: [
+        `Bij de naad of het koppelstuk op de grens. Daar komen twee stukken goot samen, vaak van een andere leeftijd. Een oude soldeernaad scheurt, of het rubber in een kunststof koppelstuk droogt uit.`,
+        `Waar zink en kunststof aan elkaar zitten. Die twee zetten bij warmte en kou niet even veel uit, en daardoor laat de verbinding na een tijd los.`,
+        `Bij de uitloop die jullie samen gebruiken. Al het water van twee daken komt daar samen. Zit die uitloop vol blad, dan loopt de goot bij een flinke bui over, vaak precies boven de muur tussen de twee huizen.`,
+        `Een goot die op de grens doorhangt. Heeft één van de twee huizen nieuwe beugels gekregen en de ander niet, dan ligt de goot op de grens soms niet meer op één lijn. Dan blijft daar water staan.`,
+      ] },
+      { kop: `Zo zie je waar het zit`, tekst: [
+        `Kijk tijdens of vlak na een bui vanaf de straat. Druppelt het op één plek, ook nog als het gestopt is met regenen, dan zit het meestal in een naad of koppelstuk. Komt het water bij een bui over de voorkant van de goot, dan zit hij vol of hangt hij door. Binnen zie je een lekkende goot vaak als een natte plek bovenin de muur of bij het plafond, langs de muur met de buren. Lees ook <a href="/kennisbank/lekkage-muur-buren/">lekkage langs de muur met de buren</a> en <a href="/kennisbank/natte-plek-bovenin-muur/">natte plek bovenin de muur</a>. Maak een foto van de goot vanaf de straat, zo dat je ook het stuk van de buren ziet.`,
+      ] },
+      { kop: `Wie maakt het en wie betaalt?`, tekst: [
+        `Meestal hoort het stuk goot op jouw huis bij jouw huis, en het stuk op het huis van de buren bij hen. Maar bij een lek precies op de grens, of bij een regenpijp die jullie samen gebruiken, is vaak niet duidelijk van wie het is. Praat er daarom eerst met je buren over, liefst met de foto erbij, en spreek vooraf af hoe jullie de kosten verdelen. Huur je, meld het dan bij je verhuurder. Lees ook <a href="/kennisbank/lekkage-huurhuis/">lekkage in een huurhuis</a> en <a href="/kennisbank/lekkende-dakgoot-verzekering/">lekkende dakgoot en je verzekering</a>.`,
+      ] },
+      { kop: `Wat je zelf beter niet doet`, tekst: [
+        `Smeer geen kit op de naad en plak er geen tape over. Op een natte of vuile goot hecht dat slecht, en bij zink moet het er weer af voordat een naad gesoldeerd kan worden. Ga niet zelf aan het stuk van de buren zitten zonder dat zij het weten. En zet geen ladder tegen een goot die al doorhangt.`,
+      ] },
+      { kop: `Hoe ik het aanpak`, tekst: [
+        `Ik maak eerst de goot rond de grens en de uitloop leeg, zodat ik goed kan zien waar het lekt. Een lekkende naad in een zinken goot soldeer ik opnieuw. Bij kunststof vervang ik het koppelstuk of maak ik de verbinding opnieuw. Zit er zink aan kunststof vast, dan kijk ik of die verbinding opnieuw kan of dat een ander overgangsstuk beter is. Is de goot op de grens gezakt, dan hang ik hem weer op afschot naar de regenpijp. Ik kijk naar het stuk aan beide kanten van de grens en zeg eerlijk aan wiens kant het lek zit. Zie ook <a href="/diensten/dakgoot-vervangen/">dakgoot repareren of vervangen</a>.`,
+      ] },
+      { kop: `Wat kost het?`, tekst: [
+        `Dat hangt af van wat het is: een naad opnieuw solderen is iets anders dan een koppelstuk vervangen of een stuk goot opnieuw ophangen. Stuur een foto van de goot vanaf de straat, dan hoor je vooraf wat het kost. Laten jij en je buren het samen doen, dan noem ik de prijs voor het hele stuk, zodat jullie die samen kunnen verdelen. Zit de goot alleen vol, dan is het gewoon <a href="/diensten/goten-reinigen/">goten reinigen</a>.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: dakgoot repareren of vervangen`, href: `/diensten/dakgoot-vervangen/` },
+    faq: [
+      { v: `Mijn buren willen hun deel van de goot niet laten repareren. Wat nu?`, a: `Zit het lek aan jouw kant van de grens, dan kan ik dat stuk repareren zonder aan hun deel te komen. Zit het precies in de naad of aan hun kant, dan helpt een reparatie aan alleen jouw stuk meestal niet. Laat ze dan de foto zien van de plek waar het lekt. Komen jullie er samen niet uit, dan kun je advies vragen bij buurtbemiddeling of bij je rechtsbijstandsverzekering, als je die hebt.` },
+      { v: `Kunnen we de goot van twee huizen in één keer laten doen?`, a: `Ja, dat kan. Is de goot bij jou en bij de buren even oud, dan is het vaak handig om het in één keer te doen, met één nette verbinding op de grens. Jullie horen vooraf de prijs en spreken samen af hoe je die verdeelt. Wil maar één van jullie iets laten doen, dan maak ik de verbinding met het stuk van de ander weer dicht.` },
+      { v: `Is een lekkende goot op de grens spoed?`, a: `Meestal niet, zolang het water buiten blijft. Loopt het tegen de muur tussen de huizen en wordt het bij jou of bij de buren binnen nat, dan wel: stuur dan meteen een foto via WhatsApp.` },
+    ],
+  },
 ];
 
 // Extra vragen bij bestaande artikelen. artikelen.ts is te groot om nog te laten groeien, daarom staan nieuwe vragen hier.
@@ -1715,4 +1756,5 @@ export const KORT_ANTWOORD: Record<string, string> = {
   "dakgoot-hangt-door": `Blijft er na een bui water in het midden van je goot staan, of zie je vanaf de straat dat hij ergens lager hangt, dan is er meestal een beugel losgeraakt, verbogen of afgebroken, of geeft het hout erachter mee. Vaak is het genoeg om de goot weer op afschot naar de regenpijp te hangen. Laat het niet te lang zitten, want waar water blijft staan, gaat een goot op den duur lekken.`,
   "wat-kost-plat-dak-repareren": `Een klein plat dak repareren, zoals een lek in het dak van een aanbouw, garage of berging, kost bij mij ${platPrijs}. Moet de hele dakbedekking eraf of is het hout eronder rot, dan is het meer werk, en de prijs daarvan hoor je nadat ik heb gekeken. Zit het lek op één plek en is de rest nog goed, dan is repareren meestal genoeg.`,
   "lekkage-weggehaalde-schoorsteen": `Lekt het op de plek waar vroeger een schoorsteen stond, dan zit het meestal in de pannen waarmee het gat is gedicht: een model dat net niet past, panlatten die niet goed aansluiten of oud lood dat is blijven liggen. Is alleen de bovenkant weggehaald, dan zit het vaak bij de plaat of kap op de stomp. Soms trekt het water door de muur van het oude kanaal en niet via het dak.`,
+  "gedeelde-dakgoot-lekt": `Lekt de dakgoot op de grens met de buren, dan zit het meestal in de naad of het koppelstuk waar jouw stuk goot en dat van de buren samenkomen, of bij een regenpijp die jullie samen gebruiken. Vaak is opnieuw solderen of een nieuw koppelstuk genoeg. Spreek met je buren vooraf af wie wat laat doen en hoe jullie de kosten verdelen.`,
 };
