@@ -1639,6 +1639,9 @@ export const FAQ_ERBIJ: Record<string, Artikel["faq"]> = {
   "daktrim-lekt": [
     { v: `Wat is een waterkering op een plat dak?`, a: `Zo noemen veel mensen de opstaande rand langs de buitenkant van een plat dak, vaak een aluminium daktrim of een houten rand met de dakbedekking eroverheen. Die rand houdt het regenwater op het dak, zodat het naar de afvoer loopt en niet over de rand langs je gevel. Zit de trim los, staat er een naad open bij een hoek, of is de dakbedekking onder de trim gescheurd, dan loopt het water erachter. Binnen zie je dan een natte plek vlak onder de rand, of buiten een natte streep op de gevel. Stuur me een foto van de rand vanaf de grond of vanuit een raam boven, dan hoor je vooraf wat het kost.` },
   ],
+  "dakgoot-lekt": [
+    { v: `Mijn dakgoot lekt alleen bij een flinke bui. Bij gewone regen blijft het droog. Hoe kan dat?`, a: `Dan staat het water bij een stortbui hoger in de goot dan normaal. Vaak kan het niet snel genoeg weg, omdat de uitloop naar de regenpijp half dicht zit met blad, of omdat er voor een lange goot maar één regenpijp is. Komt het water dan tot boven een naad of een hoek die niet meer helemaal dicht is, dan lekt het daar, terwijl die plek bij gewone regen droog blijft. Ook kan het water dan over de achterkant van de goot langs je muur lopen. Kijk tijdens een bui vanaf de straat waar het druppelt en of er bijna niets uit de regenpijp komt, en stuur me daar een foto of filmpje van via WhatsApp. Je hoort vooraf wat het kost.` },
+  ],
 };
 
 // Kort antwoord bovenaan een artikel: één of twee zinnen met het directe antwoord, voor Google en AI. Bedragen alleen via inclBtw uit prijzen.ts, nooit met de hand.
