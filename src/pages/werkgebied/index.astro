@@ -17,6 +17,7 @@ const faq = [
   { v: "Hoe ver reis je vanuit Den Bosch?", a: "Ik werk vanuit Den Bosch, vooral in Brabant en in de steden eromheen, zoals Tilburg, Breda, Eindhoven, Helmond en Nijmegen. Rosmalen, Vught, Vlijmen en Berlicum liggen op een kwartier of minder. Breda, Eindhoven en Helmond zijn zo'n 40 minuten rijden. Woon je verder weg, bel of app dan met een foto van je dak. Dan zeg ik eerlijk of ik kan komen, en een klus verder weg plan ik vooraf met je in." },
   { v: "Kom je bij lekkage ook buiten Den Bosch?", a: "Ja, in mijn hele werkgebied. In de plaatsen dicht bij Den Bosch lukt het bij lekkage vaak nog dezelfde dag. Bel of app me met een foto van de natte plek, dan hoor je meteen wanneer ik kan." },
   { v: "Mijn plaats staat er niet bij. Kom je toch?", a: "Dat hangt af van waar je woont en wat er aan de hand is. Stuur een appje of bel even, dan zeg ik eerlijk of ik kan komen." },
+  { v: "Kom je ook over de Waal, in Tiel of Culemborg?", a: "Ja. Tiel en Culemborg liggen aan de overkant van de Waal, in de Betuwe. Vanuit Den Bosch is dat ruim een half uur rijden. Een klus daar, zoals goten schoonmaken, een losse pan of lood bij de schoorsteen, plan ik vooraf met je in. Lekt het, stuur dan eerst een foto van de natte plek en van je dak vanaf de straat via WhatsApp. Dan hoor je eerlijk wanneer ik kan komen." },
 ];
 const faqSchema = { "@context": "https://schema.org", "@type": "FAQPage", mainEntity: faq.map((f) => ({ "@type": "Question", name: f.v, acceptedAnswer: { "@type": "Answer", text: f.a } })) };
 ---
