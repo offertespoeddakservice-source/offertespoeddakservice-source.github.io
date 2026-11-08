@@ -1408,6 +1408,46 @@ export const ARTIKELEN_EXTRA: Artikel[] = [
       { v: `Zie ik het altijd van buiten als er lood weg is?`, a: `Niet altijd. Rond een schoorsteen aan de voorkant zie je het vaak vanaf de straat, maar lood aan de achterkant of langs de muur van een aanbouw zie je pas vanuit de tuin of vanuit een raam boven. Wordt het ineens nat op een plek die altijd droog was, kijk dan vanaf de grond of uit een raam naar het lood boven die plek.` },
     ],
   },
+  {
+    slug: `vuurwerk-schade-dak`,
+    datum: `2026-11-08`,
+    titel: `Vuurwerk en je dak`,
+    h1: `Vuurwerk en je dak: een pijl in de goot, een kapotte pan of een brandplek`,
+    metaTitle: `Vuurwerkschade aan je dak: wat nu? | Spoed Dak Service`,
+    metaDescription: `Na oud en nieuw een vuurpijl in je goot, een kapotte pan of een brandplek op je platte dak? Zo kijk je veilig, zo regel je je verzekering en zo wordt het gemaakt.`,
+    intro: `Rond oud en nieuw komt er van alles op daken terecht: afgeschoten vuurpijlen, stukken karton van een cakebox en soms een pijl die nog nasmeult. Meestal blijft het bij troep in de goot. Maar soms is er een pan gebroken, zit er een gat of brandplek in de dakbedekking van een plat dak of in een kunststof goot, of is er droog blad in de goot gaan smeulen. Hieronder lees je wat je voor oud en nieuw kunt doen, waar je op 1 januari naar kijkt en hoe het gemaakt wordt.`,
+    secties: [
+      { kop: `Rookt of brandt er iets? Eerst dit`, tekst: [
+        `Zie je rook of vuur op je dak, in de goot of onder de pannen, bel dan meteen 112. Ga niet zelf het dak op of op een ladder staan om het te blussen. Is het uit en lekt het binnen, zet dan een emmer onder de druppel en kijk op de <a href="/spoed/">spoedpagina</a> wat je verder meteen doet.`,
+      ] },
+      { kop: `Voor oud en nieuw: dit kun je vooraf doen`, tekst: [
+        `Ligt er nog veel blad in je goot, laat hem dan voor de jaarwisseling leegmaken. Droog blad en takjes in een volle goot vatten makkelijker vlam als er een pijl in terechtkomt. Hoe vaak een goot leeg moet, lees je in <a href="/kennisbank/hoe-vaak-dakgoot-reinigen/">hoe vaak dakgoot schoonmaken</a>.`,
+        `Steek je zelf vuurwerk af, doe dat dan op een plek waar het niet richting je eigen dak of dat van de buren gaat. Ligt er na de jaarwisseling karton of andere troep op je platte dak, laat het dan niet liggen, want het zet de afvoer zo dicht. Kun je er niet veilig bij, laat het dan doen. Zie ook <a href="/kennisbank/water-blijft-staan-op-plat-dak/">water blijft staan op je platte dak</a>.`,
+      ] },
+      { kop: `Op 1 januari: zo kijk je vanaf de grond`, tekst: [
+        `Kijk op een droge dag vanaf de overkant van de straat en vanuit de tuin naar je dak, met de zoom van je telefoon. Ligt er een pijl of een stuk karton in de goot of tegen de schoorsteen? Is er een pan gebroken, of zie je een zwarte plek? Kijk bij een plat dak vanuit een raam boven of er gaatjes of brandplekken in de dakbedekking zitten. Een kunststof goot kan op de plek van een pijl gesmolten of gescheurd zijn. Maak foto's van wat je ziet.`,
+      ] },
+      { kop: `Wat je zelf beter niet doet`, tekst: [
+        `Ga niet op het dak of op een ladder bij de goot staan om vuurwerk weg te halen, zeker niet als het nat is of vriest. Raak vuurwerk dat niet is afgegaan niet aan.`,
+      ] },
+      { kop: `Hoe ik het aanpak`, tekst: [
+        `Ik haal de resten uit de goot en van het dak, en kijk meteen of de goot nog goed afloopt naar de regenpijp. Een gebroken pan vervang ik door een pan die past. Zit er een gat of brandplek in de dakbedekking van een plat dak, dan maak ik die plek dicht. Is een stuk kunststof goot gesmolten of gescheurd, dan vervang ik dat stuk. Zie ik daarbij nog iets anders, dan laat ik het je zien en hoor je vooraf wat het kost. Zie ook <a href="/diensten/dakreparatie/">dakreparatie</a> en <a href="/diensten/goten-reinigen/">dakgoot schoonmaken</a>.`,
+      ] },
+      { kop: `Valt het onder je verzekering?`, tekst: [
+        `Schade door vuurwerk valt vaak onder je opstalverzekering, maar dat verschilt per polis. Maak foto's voordat er iets wordt opgeruimd of gemaakt, en kijk in je polisvoorwaarden. Weet je wie het vuurwerk heeft afgestoken, dan kan de schade ook bij die persoon of diens verzekering liggen. Ik maak foto's van wat ik aantref en van de reparatie, met een korte omschrijving, die je naar je verzekeraar kunt sturen. Lees ook <a href="/kennisbank/daklekkage-verzekering/">daklekkage en je verzekering</a>.`,
+      ] },
+      { kop: `Wat kost het?`, tekst: [
+        `Dat hangt af van wat er kapot is: alleen troep in de goot, een gebroken pan, een stuk goot of een plek in een plat dak. Stuur een foto van je dak vanaf de straat via WhatsApp, dan hoor je vooraf wat het kost.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: spoed dakreparatie`, href: `/diensten/dakreparatie/` },
+    faq: [
+      { v: `Er ligt een vuurpijl in mijn dakgoot. Is dat erg?`, a: `Meestal niet, zolang hij niet meer smeult. Een pijl of een stuk karton kan wel de uitloop naar de regenpijp dichtzetten, en dan loopt de goot bij de volgende bui over. Ga er niet zelf met een ladder bij staan. Stuur me een foto, dan haal ik het eruit en kijk ik meteen of de goot nog heel is.` },
+      { v: `Er zit een brandplek in mijn platte dak. Lekt het dan?`, a: `Dat kan. Een vuurpijl of een stuk vuurwerk kan een gaatje of een zwakke plek in de dakbedekking maken, en daar komt bij de volgende bui water door. Kijk binnen onder die plek of het nat wordt, en stuur een foto van de plek, eventueel vanuit een raam boven. Ik maak die plek dicht, en je hoort vooraf wat het kost.` },
+      { v: `Is vuurwerkschade aan mijn dak spoed?`, a: `Rookt of brandt er iets, bel dan 112. Komt er water binnen of ligt er een stuk dak open, bel of app me dan met een foto. Ligt er alleen troep in de goot of op het dak en blijft het binnen droog, dan kan het meestal een paar dagen wachten.` },
+      { v: `Moet ik mijn goot voor oud en nieuw laten leegmaken?`, a: `Ligt er nog veel droog blad in, dan is het slim. Droog blad vat makkelijker vlam als er een pijl in terechtkomt, en een lege goot loopt na de jaarwisseling ook beter af als er resten in vallen. Stuur een foto van je goot vanaf de straat, dan hoor je vooraf wat het kost.` },
+    ],
+  },
 ];
 
 // Extra vragen bij bestaande artikelen. artikelen.ts is te groot om nog te laten groeien, daarom staan nieuwe vragen hier.
