@@ -1377,6 +1377,9 @@ export const FAQ_ERBIJ: Record<string, Artikel["faq"]> = {
   "dakinspectie": [
     { v: `Sommige dakdekkers doen een gratis dakinspectie. Waarom kost de Dak-APK geld?`, a: `Een gratis inspectie kan prima zijn. Vraag wel wat je krijgt: alleen een offerte voor werk, of ook een verslag van je hele dak. Bij de Dak-APK loop ik je hele dak na en krijg je een rapport met foto's, ook als er niets hoeft te gebeuren. Daarvoor betaal je ${apkPrijs}. Weet je al wat er mis is en wil je alleen weten wat het kost, stuur dan een foto via WhatsApp. Een prijs vragen kost niets.` },
   ],
+  "stormschade-eerste-hulp": [
+    { v: `Na de storm hangt er een dakgoot of een plank langs het dak los boven de stoep. Wat doe ik?`, a: `Blijf eronder weg en zorg dat er niemand onder loopt of parkeert. Trek er niet aan en zet geen ladder tegen de goot of de muur, want een losse goot of windveer kan dan verder losscheuren. Maak vanaf een veilige plek een foto en bel of app me meteen, want iets wat los boven de stoep of de oprit hangt, is spoed. Ik maak het eerst vast of haal het losse stuk weg, zodat het veilig is, en daarna kijk ik wat er nodig is om het netjes te herstellen. Je hoort vooraf wat het kost.` },
+  ],
 };
 
 // Kort antwoord bovenaan een artikel: één of twee zinnen met het directe antwoord, voor Google en AI. Bedragen alleen via inclBtw uit prijzen.ts, nooit met de hand.
