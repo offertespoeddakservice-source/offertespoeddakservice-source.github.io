@@ -1654,6 +1654,46 @@ export const ARTIKELEN_EXTRA: Artikel[] = [
       { v: `Kan ik een losse gevelpan zelf vastkitten?`, a: `Liever niet. Je moet daarvoor op de rand van het dak zijn, en daar val je het makkelijkst. Kit houdt een gevelpan ook niet goed tegen de wind, en het maakt het later lastiger om hem netjes vast te zetten. Stuur liever een foto via WhatsApp.` },
     ],
   },
+  {
+    slug: `bladvanger-dakgoot`,
+    datum: `2026-11-09`,
+    titel: `Bladvanger of gaas in je dakgoot?`,
+    h1: `Bladvanger of gaas in je dakgoot: helpt dat tegen een volle goot?`,
+    metaTitle: `Gaas of bladvanger in de dakgoot: zin? | Spoed Dak Service`,
+    metaDescription: `Helpt een gaas, borstel of bolletje in je dakgoot tegen blad? Soms wel, maar je goot moet nog steeds schoon. Zo zie je wat bij jouw goot past en waar het misgaat.`,
+    intro: `In de herfst zit je goot zo weer vol blad, en dan ligt een gaas of een bladvanger voor de hand. Dat kan helpen, maar het lost niet alles op, en soms maakt het het zelfs lastiger. Hieronder lees je welke soorten er zijn, wanneer ze zin hebben en waar je op moet letten.`,
+    secties: [
+      { kop: `Welke soorten er zijn`, tekst: [
+        `Een bolletje of korfje van draad in de uitloop naar de regenpijp. Dat houdt blad uit de regenpijp, zodat die niet verstopt raakt.`,
+        `Een gaas of rooster over de hele goot. Dat ligt bovenop de goot en houdt grof blad tegen, zodat het eroverheen waait of erop blijft liggen.`,
+        `Een borstel die in de goot ligt. Het water loopt tussen de haren door, en het blad blijft er bovenop hangen.`,
+      ] },
+      { kop: `Wat het wel doet`, tekst: [
+        `Een gaas of borstel houdt grote bladeren en takjes uit de goot. Staat er één boom met groot blad naast je huis, dan blijft je goot daardoor langer schoon. Een bolletje in de uitloop zorgt dat de regenpijp niet verstopt raakt, en een verstopte pijp is lastiger te verhelpen dan een volle goot.`,
+      ] },
+      { kop: `Waar het misgaat`, tekst: [
+        `Fijn spul gaat er gewoon doorheen. Dennennaalden, zaadjes, mos van het dak en zand dat van oude pannen afspoelt, komen toch in de goot. Dan ligt het vuil onder het gaas, en is het lastiger weg te halen. Op een gaas of borstel blijft nat blad ook liggen, en dat wordt een mat waar het water bij een bui overheen loopt. En een bolletje in de uitloop raakt zelf ook vol. Dan loopt de goot over, terwijl de regenpijp er schoon uitziet. Lees ook <a href="/kennisbank/dakgoot-loopt-over/">dakgoot loopt over</a>.`,
+      ] },
+      { kop: `Wanneer het zin heeft`, tekst: [
+        `Bij een lage goot onder één of twee bomen met groot blad, zoals een eik, esdoorn of kastanje, helpt een gaas vaak goed. Bij veel dennen, bij een goot vol mos of bij een bakgoot of kilgoot helpt het weinig, want daar komt vooral fijn vuil in. Daar is de goot op tijd leegmaken beter. Hoe vaak dat moet, lees je bij <a href="/kennisbank/hoe-vaak-dakgoot-reinigen/">hoe vaak dakgoot reinigen</a>.`,
+      ] },
+      { kop: `Waar je op let`, tekst: [
+        `Kijk na een flinke bui of het water nog in de goot loopt, en niet over het gaas heen. Haal het blad dat erbovenop ligt weg, en kijk een keer per jaar onder het gaas. Ga voor een hoge goot niet zelf op de ladder staan. Hoe je een lage goot veilig zelf doet, lees je bij <a href="/kennisbank/dakgoot-zelf-schoonmaken/">dakgoot zelf schoonmaken</a>.`,
+      ] },
+      { kop: `Hoe ik het aanpak`, tekst: [
+        `Als ik je goot leegmaak, haal ik ook het vuil onder een gaas of uit een borstel weg, als ik erbij kan, en maak ik de uitloop naar de regenpijp vrij. Zit er een bolletje in de uitloop, dan kijk ik of dat niet zelf de verstopping is. Ik zeg je eerlijk of een gaas bij jouw goot zin heeft, of dat je beter af bent met de goot op tijd leegmaken. Zie <a href="/diensten/goten-reinigen/">goten reinigen</a>.`,
+      ] },
+      { kop: `Wat kost het?`, tekst: [
+        `Een goot leegmaken kost bij mij ${inclBtw("goot_reinigen")} voor één goot, bijvoorbeeld alleen de voorgoot. Voor beide goten of een groter huis hoor je de prijs vooraf. Stuur gerust een foto van je goot vanaf de straat.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: goten reinigen`, href: `/diensten/goten-reinigen/` },
+    faq: [
+      { v: `Hoeft mijn goot met een gaas erop niet meer schoon?`, a: `Toch wel. Een gaas houdt grof blad tegen, maar fijn vuil, naalden en mos komen er toch onder. Meestal hoeft de goot dan minder vaak leeg, maar af en toe blijft nodig. Kijk na de herfst of het water nog goed wegloopt.` },
+      { v: `Mijn goot loopt over, maar er zit een bolletje in de uitloop. Hoe kan dat?`, a: `Dan zit het bolletje waarschijnlijk zelf vol blad. Het water kan dan niet meer de regenpijp in en loopt over de rand van de goot. Is het bolletje schoongemaakt, dan loopt het water vaak meteen weer weg.` },
+      { v: `Helpt een gaas tegen dennennaalden?`, a: `Meestal niet goed. Naalden zijn dun en glijden door de meeste gazen en borstels heen, of blijven erin steken. Staat je huis tussen de dennen, dan is de goot op tijd leegmaken vaak beter.` },
+    ],
+  },
 ];
 
 // Extra vragen bij bestaande artikelen. artikelen.ts is te groot om nog te laten groeien, daarom staan nieuwe vragen hier.
@@ -1800,4 +1840,5 @@ export const KORT_ANTWOORD: Record<string, string> = {
   "windveer-los-of-rot": `Hangt je windveer na een storm los, staat hij van de muur af of zit er een zacht of zwart stuk in, dan kan de wind onder de rand van je dak komen. Een losse windveer zet ik weer vast, en een rotte vervang ik. Ga er niet zelf met een ladder bij als het hard waait, en blijf uit de buurt van die kant van het huis.`,
   "dak-lekt-bij-sneeuw-of-vorst": `Lekt het bij sneeuw of dooi, dan is het vaak stuifsneeuw die bij harde wind tussen de pannen door op zolder waait en later smelt. Of het smeltwater kan niet weg, omdat de goot of de kilgoot vol ijs zit en het water onder de pannen terugloopt. Blijft het bij gewone regen droog, dan zit er meestal geen gat in je dak.`,
   "stormschade-eerste-hulp": `Na stormschade aan je dak ga je niet zelf het dak op en blijf je uit de buurt van losse pannen. Vang binnen het water op, maak foto's van de schade voor je verzekering en stuur ze via WhatsApp. Ligt je dak open of komt er water binnen, dan dek ik het eerst af. De nette reparatie volgt als het droog is.`,
+  "bladvanger-dakgoot": `Een gaas, borstel of bolletje in je dakgoot houdt grof blad tegen, en daardoor hoeft de goot vaak minder vaak leeg. Het lost niet alles op: dennennaalden, mos en zand komen er toch onder, en een bolletje in de uitloop kan zelf verstopt raken, zodat de goot overloopt. Bij een lage goot onder een boom met groot blad helpt het vaak, bij veel dennen of mos meestal weinig.`,
 };
