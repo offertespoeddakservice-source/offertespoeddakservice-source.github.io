@@ -1423,6 +1423,9 @@ export const FAQ_ERBIJ: Record<string, Artikel["faq"]> = {
   "stormschade-eerste-hulp": [
     { v: `Na de storm hangt er een dakgoot of een plank langs het dak los boven de stoep. Wat doe ik?`, a: `Blijf eronder weg en zorg dat er niemand onder loopt of parkeert. Trek er niet aan en zet geen ladder tegen de goot of de muur, want een losse goot of windveer kan dan verder losscheuren. Maak vanaf een veilige plek een foto en bel of app me meteen, want iets wat los boven de stoep of de oprit hangt, is spoed. Ik maak het eerst vast of haal het losse stuk weg, zodat het veilig is, en daarna kijk ik wat er nodig is om het netjes te herstellen. Je hoort vooraf wat het kost.` },
   ],
+  "dakpannen-vastzetten-tegen-storm": [
+    { v: `Ik woon in een rijtjeshuis. Moeten mijn pannen ook vast als de buren dat al hebben laten doen?`, a: `Niet altijd allemaal. De wind pakt vooral de randen van een dak: de zijkant bij de gevel, de onderste rij boven de goot en de rij vlak onder de nok. Woon je in een tussenwoning, dan heb je geen zijkant aan de gevel, en gaat het vooral om de onderste rij, de rij onder de nok en de pannen rond een dakraam. Woon je op de hoek, dan is juist de zijkant aan de gevel de plek waar het eerst misgaat. Kijk ook naar de grens met de buren: liggen hun pannen vast en de jouwe niet, dan zit het verschil precies op de overgang. Stuur me een foto van je dak vanaf de straat, dan zeg ik eerlijk welke pannen bij jou vast moeten. Je hoort vooraf wat het kost.` },
+  ],
 };
 
 // Kort antwoord bovenaan een artikel: één of twee zinnen met het directe antwoord, voor Google en AI. Bedragen alleen via inclBtw uit prijzen.ts, nooit met de hand.
