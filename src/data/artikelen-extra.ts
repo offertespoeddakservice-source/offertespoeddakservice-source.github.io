@@ -1619,6 +1619,41 @@ export const ARTIKELEN_EXTRA: Artikel[] = [
       { v: `Is een lekkende goot op de grens spoed?`, a: `Meestal niet, zolang het water buiten blijft. Loopt het tegen de muur tussen de huizen en wordt het bij jou of bij de buren binnen nat, dan wel: stuur dan meteen een foto via WhatsApp.` },
     ],
   },
+  {
+    slug: `gevelpannen-los`,
+    datum: `2026-11-09`,
+    titel: `Gevelpannen los na storm?`,
+    h1: `Gevelpannen los: de pannen langs de zijkant van je dak`,
+    metaTitle: `Gevelpannen los na storm: wat nu? | Spoed Dak Service`,
+    metaDescription: `Liggen de pannen langs de zijkant van je dak los of scheef na een storm? Zo herken je losse gevelpannen, wat je zelf doet en hoe ze weer vast komen te zitten.`,
+    intro: `Aan de zijkant van een pannendak, boven de kopgevel, liggen bij veel huizen speciale pannen met een omgezette rand: de gevelpannen. Ze dekken de rand van het dak af, zodat wind en regen er niet onder komen. Juist daar trekt de wind bij een storm het hardst aan. Hieronder lees je hoe je ziet dat ze los zitten, wat je zelf doet en hoe ik ze weer vastzet.`,
+    secties: [
+      { kop: `Zo liggen gevelpannen op je dak`, tekst: [
+        `Een gevelpan lijkt op een gewone dakpan, maar heeft aan één kant een rand die naar beneden is gebogen. Die rand valt over de <a href="/kennisbank/windveer-los-of-rot/">windveer</a>, de plank die schuin langs de zijkant van het dak loopt. Zo is de rand van het dak dicht. Op veel daken zit elke gevelpan met een spijker, schroef of klem vast. Op oudere daken liggen ze soms los op de panlatten, of zijn ze met specie vastgezet. Er zijn ook daken zonder gevelpannen, met een strook zink of een houten afwerking langs de rand.`,
+      ] },
+      { kop: `Zo zie je dat ze los zitten`, tekst: [
+        `Kijk vanaf de straat of de tuin, met de zoom van je telefoon, langs de zijkant van het dak. Een gevelpan die scheef ligt of omhoog staat, valt daar meteen op. Ook een kier tussen de rand van de pan en de windveer, een gat in de rij of stukken pan op de grond naast het huis wijzen erop. Hoor je bij harde wind getik of geklapper aan de kant van de kopgevel, dan is het vaak een gevelpan die beweegt. Lees ook <a href="/kennisbank/dakpannen-klapperen-bij-wind/">dakpannen klapperen bij wind</a>.`,
+      ] },
+      { kop: `Waarom ze loskomen`, tekst: [
+        `Bij de rand van het dak komt de wind van opzij onder de pannen en tilt ze op. Zit een gevelpan niet goed vast, omdat de spijker is weggeroest, de klem is verbogen of de specie is verbrokkeld, dan schuift hij bij elke storm een stukje verder. Is de windveer eronder zacht of los, dan houdt ook een nieuwe spijker het niet lang.`,
+      ] },
+      { kop: `Wat je zelf doet`, tekst: [
+        `Ga niet zelf het dak op en zet geen ladder tegen de kopgevel als het hard waait. Ligt er een pan los of scheef, blijf dan bij harde wind uit de buurt van die kant van je huis, en zet de auto of de fietsen daar weg. Komt er water binnen, zet dan een emmer neer en haal spullen weg. Maak een foto van de zijkant van het dak vanaf de straat en stuur die via WhatsApp. Wat je verder meteen kunt doen, staat op de <a href="/spoed/">spoedpagina</a>.`,
+      ] },
+      { kop: `Hoe ik het aanpak`, tekst: [
+        `Ik kijk eerst of de windveer eronder nog stevig is. Is die zacht of los, dan moet die eerst gemaakt worden, anders houdt niets het lang. Losse gevelpannen leg ik terug en zet ik weer vast. Een kapotte gevelpan vervang ik door een die bij je dak past. Zitten er meer gevelpannen los, dan kijk ik de hele rij na, zodat je bij de volgende storm niet weer hetzelfde hebt. Zie ook <a href="/diensten/windveer-vervangen/">windveer vervangen</a> en <a href="/diensten/dakreparatie/">dakreparatie</a>.`,
+      ] },
+      { kop: `Wat kost het?`, tekst: [
+        `Een paar losse pannen terugleggen of vervangen valt meestal onder een kleine reparatie: ${inclBtw("dakpan")}. Moet de windveer ook vervangen worden, of de hele rij gevelpannen opnieuw, dan hoor je vooraf de vaste prijs. Stuur een foto van de zijkant van je dak, dan zie ik vaak al wat er nodig is.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: spoed dakreparatie`, href: `/diensten/dakreparatie/` },
+    faq: [
+      { v: `Is een losse gevelpan spoed?`, a: `Ligt hij scheef maar nog op zijn plek, en blijft het binnen droog, dan kan het meestal wachten tot een droge dag. Laat het wel voor de volgende storm maken, want een gevelpan die eraf waait, kan op straat of op een auto vallen. Hangt hij half over de rand of zit er al een gat in de rij, bel of app me dan meteen met een foto.` },
+      { v: `Waarom waaien juist de pannen aan de zijkant los?`, a: `Aan de rand van het dak komt de wind van opzij onder de pannen. In het midden van het dak houden de pannen elkaar op hun plek, maar aan de rand heeft een gevelpan maar aan één kant een buurpan. Daarom moet juist die pan goed vastzitten.` },
+      { v: `Kan ik een losse gevelpan zelf vastkitten?`, a: `Liever niet. Je moet daarvoor op de rand van het dak zijn, en daar val je het makkelijkst. Kit houdt een gevelpan ook niet goed tegen de wind, en het maakt het later lastiger om hem netjes vast te zetten. Stuur liever een foto via WhatsApp.` },
+    ],
+  },
 ];
 
 // Extra vragen bij bestaande artikelen. artikelen.ts is te groot om nog te laten groeien, daarom staan nieuwe vragen hier.
@@ -1757,4 +1792,5 @@ export const KORT_ANTWOORD: Record<string, string> = {
   "wat-kost-plat-dak-repareren": `Een klein plat dak repareren, zoals een lek in het dak van een aanbouw, garage of berging, kost bij mij ${platPrijs}. Moet de hele dakbedekking eraf of is het hout eronder rot, dan is het meer werk, en de prijs daarvan hoor je nadat ik heb gekeken. Zit het lek op één plek en is de rest nog goed, dan is repareren meestal genoeg.`,
   "lekkage-weggehaalde-schoorsteen": `Lekt het op de plek waar vroeger een schoorsteen stond, dan zit het meestal in de pannen waarmee het gat is gedicht: een model dat net niet past, panlatten die niet goed aansluiten of oud lood dat is blijven liggen. Is alleen de bovenkant weggehaald, dan zit het vaak bij de plaat of kap op de stomp. Soms trekt het water door de muur van het oude kanaal en niet via het dak.`,
   "gedeelde-dakgoot-lekt": `Lekt de dakgoot op de grens met de buren, dan zit het meestal in de naad of het koppelstuk waar jouw stuk goot en dat van de buren samenkomen, of bij een regenpijp die jullie samen gebruiken. Vaak is opnieuw solderen of een nieuw koppelstuk genoeg. Spreek met je buren vooraf af wie wat laat doen en hoe jullie de kosten verdelen.`,
+  "gevelpannen-los": `Gevelpannen zijn de pannen met een omgezette rand langs de zijkant van je dak, boven de kopgevel. Bij een storm trekt de wind daar het hardst aan, en zit een gevelpan niet goed vast, dan gaat hij schuiven of waait hij eraf. Losse gevelpannen leg ik terug en zet ik weer vast. Is de windveer eronder zacht, dan moet die eerst gemaakt worden.`,
 };
