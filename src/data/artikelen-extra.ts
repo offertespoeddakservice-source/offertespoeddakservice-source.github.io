@@ -1655,6 +1655,9 @@ export const FAQ_ERBIJ: Record<string, Artikel["faq"]> = {
   "bakgoot-lekt": [
     { v: `Hoe zie ik vanaf de straat of ik een bakgoot heb of een gewone goot?`, a: `Kijk naar de onderkant van je dak. Hangt er een goot voor de onderste pannen langs, met beugels eronder, dan is het een gewone hangende goot. Zie je daar alleen een brede houten lijst of rand, en verdwijnen de pannen erachter, dan ligt de goot er meestal als een bak in: een bakgoot. Vaak komt de regenpijp dan onder uit die lijst of loopt hij er vlak achter weg. Twijfel je, maak dan vanaf de overkant van de straat een foto van de dakrand en stuur die via WhatsApp. Dan zeg ik wat je hebt en waar je bij een lek op moet letten.` },
   ],
+  "tak-of-boom-op-dak": [
+    { v: `Bel ik na de storm eerst mijn verzekering of eerst jou?`, a: `Maak eerst foto's, en doe daarna allebei. Ligt je dak open of komt er water binnen, dan mag je de schade in de regel eerst laten beperken, zoals een gat tijdelijk laten afdekken. Wacht daarmee niet op de verzekering, want elke bui maakt de schade binnen groter. Meld de schade daarna zo snel mogelijk bij je verzekeraar, en kijk in je polis of die eerst zelf iemand wil sturen. Van mij krijg je foto's van wat ik aantref en van wat ik heb gedaan, met een korte omschrijving, die je kunt meesturen. Een grote tak of boom laat je eerst weghalen door een boomverzorger.` },
+  ],
 };
 
 // Kort antwoord bovenaan een artikel: één of twee zinnen met het directe antwoord, voor Google en AI. Bedragen alleen via inclBtw uit prijzen.ts, nooit met de hand.
