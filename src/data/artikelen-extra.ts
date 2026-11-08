@@ -1673,6 +1673,9 @@ export const FAQ_ERBIJ: Record<string, Artikel["faq"]> = {
   "veranda-of-overkapping-lekt": [
     { v: `Kun je het gootje van mijn overkapping meenemen als je mijn dakgoten leegmaakt?`, a: `Dat kan vaak in dezelfde keer. Zeg het als je belt of appt, dan neem ik het gootje aan de voorkant en de uitloop naar de regenpijp mee. Ik werk dan vanaf een ladder naast de overkapping en ga niet op de platen staan. Zit de regenpijp in de paal verderop dicht, dan zeg ik dat eerlijk. Je hoort vooraf wat het samen kost.` },
   ],
+  "nat-achter-knieschot": [
+    { v: `Het lek is gemaakt. Hoe krijg ik het achter het knieschot weer droog?`, a: `Haal alles weg wat achter het knieschot staat en zet het luikje een paar dagen open, zodat er lucht bij kan. Leg natte dozen of kleden niet terug voordat ze droog zijn. Is de isolatie of de vloer daar door en door nat, of gaat het muf ruiken, dan droogt het slecht en is vervangen vaak beter. Daarover lees je meer in het artikel over natte isolatie na een lekkage. Blijft het ook na een paar droge weken vochtig, terwijl het niet meer regent, dan is het vaak condens en geen lek. Kijk dan bij condens of lekkage op zolder, of stuur me een foto via WhatsApp.` },
+  ],
 };
 
 // Kort antwoord bovenaan een artikel: één of twee zinnen met het directe antwoord, voor Google en AI. Bedragen alleen via inclBtw uit prijzen.ts, nooit met de hand.
