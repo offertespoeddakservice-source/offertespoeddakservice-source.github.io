@@ -1645,6 +1645,9 @@ export const FAQ_ERBIJ: Record<string, Artikel["faq"]> = {
   "lekkage-muur-buren": [
     { v: `Moet je voor de reparatie ook op het dak van de buren?`, a: `Soms wel. Zit het lek precies op de grens, dan moet ik vaak een paar pannen aan hun kant optillen om de aansluiting goed te maken, of daar mijn ladder neerzetten. Laat het je buren vooraf weten en vraag of ze het goed vinden. Hun pannen leg ik daarna weer netjes terug. Zit het lek aan hun kant, dan zeg ik dat eerlijk, en dan is het slim om samen af te spreken wie wat betaalt. Stuur me een foto van het dak vanaf de straat, met de grens tussen jullie huizen erop, dan hoor je vooraf wat het kost.` },
   ],
+  "lekkage-bij-schoorsteen": [
+    { v: `Mijn schoorsteen lekt alleen als het lang achter elkaar regent, niet bij een korte bui. Waar zit het dan?`, a: `Dan trekt het water vaak langzaam naar binnen, en niet door een open kier. Bij een lange regenperiode raken de stenen en de voegen van de schoorsteen of de kop bovenop zo nat dat het water er na uren doorheen komt. Bij een korte bui gebeurt dat nog niet. Zit het lood rond de voet los, dan lekt het meestal al bij een flinke bui, zeker met wind. Kijk na een regenachtige dag vanaf de straat of de stenen van de schoorsteen lang donker blijven, en of er bovenop een kap of afdekplaat zit. Het lood en de afdekking van de kop herstel ik zelf. Zijn de stenen of voegen poreus, dan zeg ik dat eerlijk, want dat is werk voor een metselaar. Stuur me een foto van de schoorsteen en van de natte plek binnen via WhatsApp.` },
+  ],
 };
 
 // Kort antwoord bovenaan een artikel: één of twee zinnen met het directe antwoord, voor Google en AI. Bedragen alleen via inclBtw uit prijzen.ts, nooit met de hand.
