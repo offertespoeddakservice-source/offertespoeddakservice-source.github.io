@@ -1670,6 +1670,9 @@ export const FAQ_ERBIJ: Record<string, Artikel["faq"]> = {
   "regenpijp-in-de-muur-lekt": [
     { v: `Mijn regenpijp in de muur klokt of borrelt bij een flinke bui. Is dat erg?`, a: `Niet per se. Bij een flinke bui stroomt er veel water tegelijk door de pijp, en dan neemt het lucht mee. Dat geeft een klokkend of borrelend geluid, en dat is vaak gewoon. Hoor je het ook bij een gewone bui, of loopt de goot boven de uitloop over terwijl het klokt, dan kan het water niet goed weg. Vaak zit de uitloop of de pijp dan half dicht met blad of gruis. Kijk tijdens een bui buiten of er water over de rand van de goot komt bij de plek waar de pijp naar binnen gaat, en kijk binnen of de muur of de kast droog blijft. Stuur me een foto of een filmpje via WhatsApp, dan zeg ik eerlijk of het bij de goot zit of lager in de pijp.` },
   ],
+  "veranda-of-overkapping-lekt": [
+    { v: `Kun je het gootje van mijn overkapping meenemen als je mijn dakgoten leegmaakt?`, a: `Dat kan vaak in dezelfde keer. Zeg het als je belt of appt, dan neem ik het gootje aan de voorkant en de uitloop naar de regenpijp mee. Ik werk dan vanaf een ladder naast de overkapping en ga niet op de platen staan. Zit de regenpijp in de paal verderop dicht, dan zeg ik dat eerlijk. Je hoort vooraf wat het samen kost.` },
+  ],
 };
 
 // Kort antwoord bovenaan een artikel: één of twee zinnen met het directe antwoord, voor Google en AI. Bedragen alleen via inclBtw uit prijzen.ts, nooit met de hand.
