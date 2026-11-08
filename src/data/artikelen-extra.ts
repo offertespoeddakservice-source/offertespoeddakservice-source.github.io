@@ -1277,6 +1277,55 @@ export const ARTIKELEN_EXTRA: Artikel[] = [
       { v: `Mijn kachelpijp gaat door een plat dak. Kun je daar ook naar kijken?`, a: `Stuur een foto van de pijp op het dak en van de natte plek binnen, dan kijk ik mee. Op een plat dak zit het lek vaak in de manchet om de pijp of in de dakbedekking ernaast. Op een pannendak doe ik deze klus het vaakst.` },
     ],
   },
+  {
+    slug: `dakgoot-losgeraakt`,
+    datum: `2026-11-08`,
+    titel: `Dakgoot los of losgewaaid?`,
+    h1: `Dakgoot losgeraakt of losgewaaid na een storm: wat doe je nu?`,
+    metaTitle: `Dakgoot los of losgewaaid: wat nu? | Spoed Dak Service`,
+    metaDescription: `Hangt je dakgoot na een storm los of staat hij schuin van de muur? Zo houd je het veilig, zo zie je wat er los zit en zo wordt het gemaakt.`,
+    intro: `Na een storm zie je het soms vanaf de straat: de dakgoot hangt aan één kant lager, staat een stukje van de muur af of hangt half los boven de stoep. Dat is meer dan een schoonheidsfoutje. Bij de volgende bui loopt het water langs je muur in plaats van naar de regenpijp, en bij harde wind kan een los stuk verder losscheuren. Hieronder lees je wat je meteen doet, hoe je ziet wat er los zit en hoe het gemaakt wordt.`,
+    secties: [
+      { kop: `Hangt hij los boven de stoep? Eerst dit`, tekst: [
+        `Blijf onder de goot weg en zorg dat niemand eronder loopt, fietst of parkeert. Zet er als het kan een kliko of een paar stoelen neer, zodat mensen eromheen lopen. Trek niet aan de goot, duw hem niet terug en zet geen ladder tegen de goot of de gevel, want een goot die half los hangt, kan dan helemaal loskomen. Maak vanaf een veilige plek een foto en bel of app me. Hangt er iets los boven de stoep, de oprit of je terras, dan is het spoed. Wat je verder meteen kunt doen, staat op de <a href="/spoed/">spoedpagina</a>.`,
+      ] },
+      { kop: `Zo hangt een dakgoot aan je huis`, tekst: [
+        `Een dakgoot hangt in beugels. Bij de meeste huizen zitten die met schroeven vast aan een houten plank langs de onderkant van het dak, het boeiboord, of aan houten klossen die onder de dakrand uitsteken. Een kunststof goot klikt in zijn beugels, een zinken goot ligt erin. De goot hangt net onder de onderste rij pannen, met een klein beetje afschot naar de regenpijp. Een bakgoot is anders: die ligt in een houten bak bovenop de muur. Lees daarover <a href="/kennisbank/bakgoot-lekt/">bakgoot lekt</a>.`,
+      ] },
+      { kop: `Waarom een goot losraakt`, tekst: [
+        `<strong>Wind die onder de goot slaat.</strong> Bij een storm trekt de wind niet alleen aan de pannen, maar ook aan de goot, vooral op de hoek van een huis en aan het eind van een rij. Zitten de beugels al wat losser, dan wipt de goot eruit of buigt een beugel weg.`,
+        `<strong>Een volle goot.</strong> Een goot vol nat blad, zand en water is zwaar. Komt daar bij een flinke bui nog water bij, dan trekt dat gewicht de beugels langzaam scheef, tot de goot bij een windstoot loslaat. Lees ook <a href="/kennisbank/dakgoot-loopt-over/">dakgoot loopt over</a>.`,
+        `<strong>Hout dat zacht is geworden.</strong> Zitten de beugels in een boeiboord of klossen waar al jaren water in trekt, dan houden de schroeven op een gegeven moment geen houvast meer. Dan zakt de goot eerst een stukje, en bij een storm laat hij los.`,
+        `<strong>Een tak of een ladder.</strong> Een tak die op de goot valt, of een ladder die er hard tegenaan heeft gestaan, kan een beugel verbuigen of een kunststof goot laten scheuren.`,
+        `<strong>IJs.</strong> Blijft er in de winter ijs in de goot staan, dan is hij veel zwaarder dan normaal. Lees daarover <a href="/kennisbank/ijspegels-aan-dakgoot/">ijspegels aan je dakgoot</a>.`,
+      ] },
+      { kop: `Losgeraakt of doorgezakt?`, tekst: [
+        `Hangt de goot over een groot stuk een beetje lager in het midden, en blijft daar na een bui water staan, dan is hij vaak in de loop van de jaren doorgezakt en niet ineens losgeraakt. Dat lees je in <a href="/kennisbank/dakgoot-hangt-door/">dakgoot hangt door</a>. Hangt hij na een storm ineens scheef, staat hij van de muur af of steekt er een beugel omhoog, dan is hij losgeraakt.`,
+      ] },
+      { kop: `Zo kijk je zelf, vanaf de grond`, tekst: [
+        `Ga aan de overkant van de straat of achter in de tuin staan en kijk langs de goot, met de zoom van je telefoon. Hangt hij op één plek lager? Zit er een kier tussen de goot en het hout erachter? Steekt er een beugel uit, of ligt er een stuk goot of een eindstuk in de tuin? Kijk ook naar de regenpijp: raakt de goot los, dan schiet de uitloop vaak uit de pijp. Maak een paar foto's, en als je het kunt zien ook een van het hout boven de goot.`,
+      ] },
+      { kop: `Wat je zelf beter niet doet`, tekst: [
+        `Ga niet op een ladder staan om de goot terug te duwen of met tape of touw vast te binden. Een ladder tegen een losse goot heeft geen houvast, en je staat dan precies onder het stuk dat los zit. Zet hem ook niet zelf vast met een paar extra schroeven. Is het hout zacht, dan houdt dat niet, en de volgende keer komt er een groter stuk los.`,
+      ] },
+      { kop: `Hoe ik het aanpak`, tekst: [
+        `Hangt de goot los boven de stoep, dan maak ik hem eerst veilig: ik zet hem tijdelijk vast of haal het losse stuk weg. Daarna kijk ik waarom hij los is gekomen. Zijn de beugels verbogen of afgebroken en is het hout nog stevig, dan zet ik nieuwe beugels en hang ik de goot weer op afschot naar de regenpijp. Is een stuk goot gescheurd of geknikt, dan vervang ik dat stuk. Zit het hout waar de beugels in zitten zacht, dan hoor je dat van me voordat ik verder ga, want dan moet eerst dat hout gemaakt worden. Zie ook <a href="/diensten/dakgoot-vervangen/">dakgoot repareren of vervangen</a>.`,
+      ] },
+      { kop: `Valt het onder je verzekering?`, tekst: [
+        `Is een goede goot bij een storm losgewaaid, dan valt het herstel vaak onder je opstalverzekering. Was het hout al zacht of hing de goot al lang scheef, dan zien verzekeraars dat meestal als onderhoud. Dat verschilt per polis. Maak foto's voordat er iets wordt gemaakt. Ik maak foto's van wat ik aantref en van de reparatie, met een korte omschrijving, die je naar je verzekeraar kunt sturen. Lees ook <a href="/kennisbank/lekkende-dakgoot-verzekering/">lekkende dakgoot en je verzekering</a>.`,
+      ] },
+      { kop: `Wat kost het?`, tekst: [
+        `Dat hangt af van hoeveel er los zit, of er beugels of een stuk goot vervangen moeten worden en hoe hoog en bereikbaar de goot hangt. Stuur een foto van de goot vanaf de straat via WhatsApp, dan hoor je vooraf wat het kost.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: dakgoot repareren of vervangen`, href: `/diensten/dakgoot-vervangen/` },
+    faq: [
+      { v: `Is een losgeraakte dakgoot spoed?`, a: `Hangt hij los boven de stoep, de oprit, je terras of het pad van de buren, dan wel: blijf eronder weg en bel of app me met een foto. Is hij alleen een stukje gezakt en loopt het water bij een bui over de rand, dan is het geen spoed, maar laat het niet de winter over zitten. Het water loopt dan langs je muur, en dat trekt op den duur naar binnen.` },
+      { v: `Kan een losgeraakte goot gewoon terug in de beugels?`, a: `Soms wel. Is een kunststof goot uit zijn beugels gewipt en zijn de goot en de beugels nog heel, dan kan hij vaak terug, en waar het nodig is zet ik er een beugel bij. Is een beugel verbogen, een stuk goot geknikt of het hout erachter zacht, dan moet er meer gebeuren. Dat zie ik als ik ervoor sta, en je hoort vooraf wat het kost.` },
+      { v: `De regenpijp is met de goot mee losgekomen. Is dat erg?`, a: `Dan loopt het water bij een bui naast de pijp langs de muur naar beneden. Laat het daarom snel maken. Vaak is de pijp alleen uit de uitloop van de goot geschoten of zit een beugel van de pijp los. Is de pijp daarbij gescheurd of geknikt, dan vervang ik dat stuk. Stuur een foto van de goot en de pijp via WhatsApp.` },
+      { v: `Kan ik voorkomen dat mijn goot bij de volgende storm losraakt?`, a: `Voor een groot deel wel. Houd de goot leeg, zeker na de bladval, zodat hij niet zwaar wordt van nat blad en water. Kijk na een storm vanaf de straat of hij nog recht hangt. En laat een goot die op één plek zakt op tijd nakijken, want dat is vaak het eerste teken dat een beugel of het hout erachter het begeeft.` },
+    ],
+  },
 ];
 
 // Extra vragen bij bestaande artikelen. artikelen.ts is te groot om nog te laten groeien, daarom staan nieuwe vragen hier.
