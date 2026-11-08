@@ -1667,6 +1667,9 @@ export const FAQ_ERBIJ: Record<string, Artikel["faq"]> = {
   "zinken-dakgoot-lekt": [
     { v: `Hoe zie ik of mijn dakgoot van zink of van kunststof is?`, a: `Kijk vanaf de straat of vanuit een raam boven naar de goot. Zink is grijs en mat, wordt na jaren donkerder of krijgt witte vlekken, en de stukken zitten met soldeernaden aan elkaar. Kunststof is glad, vaak grijs, wit, bruin of zwart, en de stukken zitten met losse verbindingsstukken in elkaar. Zit de goot in de rand van het dak achter een houten lijst, dan is het meestal een bakgoot met zink erin. Twijfel je, stuur me dan een foto van de goot en van een naad of hoek. Dan zeg ik wat je hebt en wat bij jouw goot past.` },
   ],
+  "regenpijp-in-de-muur-lekt": [
+    { v: `Mijn regenpijp in de muur klokt of borrelt bij een flinke bui. Is dat erg?`, a: `Niet per se. Bij een flinke bui stroomt er veel water tegelijk door de pijp, en dan neemt het lucht mee. Dat geeft een klokkend of borrelend geluid, en dat is vaak gewoon. Hoor je het ook bij een gewone bui, of loopt de goot boven de uitloop over terwijl het klokt, dan kan het water niet goed weg. Vaak zit de uitloop of de pijp dan half dicht met blad of gruis. Kijk tijdens een bui buiten of er water over de rand van de goot komt bij de plek waar de pijp naar binnen gaat, en kijk binnen of de muur of de kast droog blijft. Stuur me een foto of een filmpje via WhatsApp, dan zeg ik eerlijk of het bij de goot zit of lager in de pijp.` },
+  ],
 };
 
 // Kort antwoord bovenaan een artikel: één of twee zinnen met het directe antwoord, voor Google en AI. Bedragen alleen via inclBtw uit prijzen.ts, nooit met de hand.
