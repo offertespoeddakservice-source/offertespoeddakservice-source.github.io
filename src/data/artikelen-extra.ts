@@ -1536,6 +1536,48 @@ export const ARTIKELEN_EXTRA: Artikel[] = [
       { v: `Rekenen dakdekkers per vierkante meter?`, a: `Sommige wel. Een prijs per vierkante meter zegt vooral iets over een nieuw dak. Bij een reparatie gaat het om de plek waar het lekt, en daarom hoor je bij mij één vaste prijs voor de hele klus, voordat ik begin.` },
     ],
   },
+  {
+    slug: `lekkage-weggehaalde-schoorsteen`,
+    datum: `2026-11-08`,
+    titel: `Lekt het waar je schoorsteen zat?`,
+    h1: `Lekkage op de plek waar vroeger een schoorsteen stond: waar het zit en wat je doet`,
+    metaTitle: `Lekkage na weggehaalde schoorsteen | Spoed Dak Service`,
+    metaDescription: `Schoorsteen weggehaald en lekt het nu op die plek? Vaak zit het in de pannen of de aansluiting waar het gat is gedicht. Zo zie je het en zo wordt het dicht.`,
+    intro: `Bij veel huizen is de oude schoorsteen weggehaald, omdat de kachel of open haard er al lang uit was. Op het dak is het gat dan dichtgemaakt met pannen of met een stuk dakbedekking. Gaat het daarna lekken, dan zie je een natte plek op zolder of een bruine vlek op de muur, precies waar het kanaal vroeger liep. Hieronder lees je waar het meestal zit, hoe je het herkent en hoe het weer dicht wordt.`,
+    secties: [
+      { kop: `Lekt het nu? Eerst dit`, tekst: [
+        `Zet een emmer onder de druppel en leg er een handdoek onder. Ga niet zelf het dak op. Maak een foto van de natte plek binnen en, als dat kan, van die plek op het dak vanaf de straat. Wat je verder meteen kunt doen, staat op de <a href="/spoed/">spoedpagina</a>.`,
+      ] },
+      { kop: `Zo wordt het gat van een schoorsteen meestal gedicht`, tekst: [
+        `Wordt een schoorsteen tot onder het dak weggehaald, dan blijft er een gat in de pannen over. Dat wordt dichtgemaakt met panlatten en pannen, zodat het dak daar weer gewoon doorloopt. Soms is alleen het stuk boven het dak weggehaald en is de stomp afgedekt met een plaat of een kap. En soms ligt er nog een stuk lood of een strook die bij de oude schoorsteen hoorde.`,
+      ] },
+      { kop: `Waar het water binnenkomt`, tekst: [
+        `<strong>Pannen die net niet passen.</strong> Zijn er in het gat pannen gelegd van een ander model of een andere maat, dan haken ze niet goed in de pannen ernaast. Bij een flinke bui of harde wind loopt het water dan onder die pannen door.`,
+        `<strong>Panlatten of folie die niet doorlopen.</strong> Sluiten de panlatten niet goed aan op die van de rest van het dak, of mist er op die plek folie, dan liggen de pannen er net anders bij, of loopt het water dat onder de pannen komt niet meer netjes naar de goot.`,
+        `<strong>Oud lood dat is blijven liggen.</strong> Ligt er nog een stuk lood of een strook van de oude schoorsteen, dan kan het water daaronder of erachter lopen.`,
+        `<strong>Een stomp met een plaat erop.</strong> Is alleen de bovenkant weggehaald, dan zit het lek vaak bij de plaat of kap bovenop, of bij het lood rond de voet van wat er nog staat. Lees dan ook <a href="/kennisbank/lekkage-bij-schoorsteen/">lekkage bij de schoorsteen</a>.`,
+      ] },
+      { kop: `Of is het vocht uit het oude kanaal?`, tekst: [
+        `Zit de bruine vlek op de muur waar het kanaal binnen nog in de muur zit, en wordt hij vooral groter bij regen met wind tegen die gevel, dan kan het water ook door de stenen van de muur naar binnen trekken, en niet via het dak. Een oude vlek van roet kan na jaren ook doorkomen in nieuwe verf, zonder dat hij nat is. Voel of de plek nat of koud aanvoelt, en kijk of hij na een bui groter wordt. Zit het in de muur zelf, dan zeg ik dat eerlijk, want dan heb je een metselaar nodig.`,
+      ] },
+      { kop: `Zo kijk je zelf, zonder het dak op te gaan`, tekst: [
+        `Kijk vanaf de overkant van de straat of vanuit de tuin naar de plek waar de schoorsteen stond, met de zoom van je telefoon. Zie je pannen in een andere kleur of vorm, een rij die niet recht loopt, een kier of een stuk lood? Kijk ook bij regen met een zaklamp op zolder langs de plek waar het kanaal doorliep, en kijk of het hout daar nat is of donkere strepen heeft.`,
+      ] },
+      { kop: `Hoe ik het aanpak`, tekst: [
+        `Ik kijk op zolder en buiten waar het water binnenkomt. Liggen er pannen die niet passen, dan vervang ik ze door pannen die wel bij de rest van je dak passen, en sluiten de panlatten eronder niet goed aan, dan maak ik dat eerst goed. Oud lood dat geen nut meer heeft en water doorlaat, haal ik weg of leg ik opnieuw, meestal met loodvervanger. Zie ook <a href="/diensten/dakreparatie/">dakreparatie</a>.`,
+      ] },
+      { kop: `Wat kost het?`, tekst: [
+        `Een paar pannen die niet goed liggen vervangen kost ${inclBtw("dakpan")}. Moeten er panlatten of folie worden aangepast, of zit het in het lood, dan is het meer werk. Stuur een foto van de plek vanaf de straat en van de natte plek binnen via WhatsApp, dan hoor je vooraf wat het kost.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: dakreparatie`, href: `/diensten/dakreparatie/` },
+    faq: [
+      { v: `Is lekkage op de plek van een oude schoorsteen spoed?`, a: `Druppelt het binnen, dan wel: zet een emmer neer en bel of app me met een foto. Is het een vlek die alleen na een flinke bui wat groter wordt en daarna opdroogt, dan kan het meestal een paar dagen wachten. Laat het niet de winter over zitten, want het hout eronder wordt bij elke bui weer nat.` },
+      { v: `De schoorsteen is pas weggehaald en nu lekt het. Wie lost het op?`, a: `Is het werk nog maar kort geleden gedaan, neem dan eerst contact op met wie het heeft gedaan, want die hoort het in de regel zelf op te lossen. Komt die niet, of is het al jaren geleden, dan kijk ik waar het lekt en hoor je vooraf wat de reparatie kost. Ik maak foto's van wat ik aantref.` },
+      { v: `Kun je een pan vinden die past bij de rest van mijn dak?`, a: `Meestal wel. Stuur een foto van je dak vanaf de straat, dan zie ik vaak al welk model het is. Is jouw model niet meer te koop, dan zijn er vaak nog pannen te vinden die in vorm en maat passen. Lukt dat niet, dan kan ik voor de kant die je ziet pannen gebruiken van een stuk dak dat je vanaf de straat niet ziet. Dat overleg ik eerst met je.` },
+      { v: `Op zolder zie ik nog een stuk van het oude kanaal. Kan dat kwaad?`, a: `Meestal niet, zolang het droog is en het kanaal boven goed is afgesloten. Voelt de bovenkant nat aan, of zie je na regen water langs de stenen lopen, dan komt er nog water in van boven. Maak een foto en stuur die via WhatsApp, dan kijk ik mee.` },
+    ],
+  },
 ];
 
 // Extra vragen bij bestaande artikelen. artikelen.ts is te groot om nog te laten groeien, daarom staan nieuwe vragen hier.
@@ -1632,4 +1674,5 @@ export const KORT_ANTWOORD: Record<string, string> = {
   "condens-of-lekkage-op-zolder": `Zie je druppels of een natte waas verspreid over het hout of de folie op zolder, vooral na een koude nacht en ook op droge dagen, dan is het meestal condens: vocht uit je eigen huis dat tegen het koude dak neerslaat. Zit de natte plek op één plek en komt hij na regen of bij wind uit één richting, dan is het eerder een lek.`,
   "dakgoot-hangt-door": `Blijft er na een bui water in het midden van je goot staan, of zie je vanaf de straat dat hij ergens lager hangt, dan is er meestal een beugel losgeraakt, verbogen of afgebroken, of geeft het hout erachter mee. Vaak is het genoeg om de goot weer op afschot naar de regenpijp te hangen. Laat het niet te lang zitten, want waar water blijft staan, gaat een goot op den duur lekken.`,
   "wat-kost-plat-dak-repareren": `Een klein plat dak repareren, zoals een lek in het dak van een aanbouw, garage of berging, kost bij mij ${platPrijs}. Moet de hele dakbedekking eraf of is het hout eronder rot, dan is het meer werk, en de prijs daarvan hoor je nadat ik heb gekeken. Zit het lek op één plek en is de rest nog goed, dan is repareren meestal genoeg.`,
+  "lekkage-weggehaalde-schoorsteen": `Lekt het op de plek waar vroeger een schoorsteen stond, dan zit het meestal in de pannen waarmee het gat is gedicht: een model dat net niet past, panlatten die niet goed aansluiten of oud lood dat is blijven liggen. Is alleen de bovenkant weggehaald, dan zit het vaak bij de plaat of kap op de stomp. Soms trekt het water door de muur van het oude kanaal en niet via het dak.`,
 };
