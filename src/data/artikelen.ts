@@ -1566,7 +1566,7 @@ export const ARTIKELEN: Artikel[] = [
         'Dat hangt af van wat er mis is, hoe lang de kil is en hoe goed je erbij kunt. Je hoort de vaste prijs vooraf, voordat ik begin. Richtprijzen staan op de <a href="/prijzen/">prijzenpagina</a>.',
       ] },
     ],
-    dienst: { label: "Bekijk: dakreparatie (pannen, lood en nok)", href: "/diensten/dakreparatie/" },
+    dienst: { label: "Bekijk: kilgoot repareren of vervangen", href: "/diensten/kilgoot-repareren/" },
     faq: [
       { v: "Wat is een kilgoot?", a: "De goot in de hoek waar twee schuine dakvlakken samenkomen. Meestal is het een strook lood of zink onder de pannen. Al het water van die twee dakvlakken loopt erdoorheen." },
       { v: "Waarom lekt mijn kilgoot alleen bij een stortbui?", a: "Bij een gewone bui kan het water weg. Bij een stortbui, of als er blad in de kil ligt, komt het water hoger te staan dan de rand van het lood of zink en loopt het opzij onder de pannen door. Dat zie je dan pas binnen." },
