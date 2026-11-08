@@ -30,6 +30,17 @@ const heeftLekPagina = MATRIX.some((c) => c.plaats === p.slug && c.dienst === "d
 // Namen voor de pagina's per plaats en klus, zoals mensen zoeken (dakgoot repareren, niet alleen vervangen). Ook gebruikt in de gegevens voor Google en AI.
 const KLUS_NAAM: Record<string, string> = { daklekkage: "Daklekkage", "dakgoot-vervangen": "Dakgoot repareren of vervangen", "goten-reinigen": "Dakgoot schoonmaken", stormschade: "Stormschade", dakreparatie: "Dakreparatie", dakrenovatie: "Dakrenovatie" };
 const klusNaam = (d: { slug: string; titel: string }) => KLUS_NAAM[d.slug] ?? d.titel;
+// Gemeente en provincie per plaats, voor de gegevens voor Google en AI (zodat 'Heusden' of 'Den Bosch' niet verward wordt). Plaats zonder gemeente in deze lijst: dan alleen de provincie.
+const GEMEENTE: Record<string, string> = { rosmalen: "'s-Hertogenbosch", "den-bosch": "'s-Hertogenbosch", vught: "Vught", vlijmen: "Heusden", drunen: "Heusden", heusden: "Heusden", berlicum: "Sint-Michielsgestel", "sint-michielsgestel": "Sint-Michielsgestel", schijndel: "Meierijstad", veghel: "Meierijstad", boxtel: "Boxtel", oss: "Oss", oisterwijk: "Oisterwijk", wijchen: "Wijchen", waalwijk: "Waalwijk", uden: "Maashorst", tilburg: "Tilburg", breda: "Breda", helmond: "Helmond", eindhoven: "Eindhoven" };
+const provincie = p.slug === "wijchen" ? "Gelderland" : "Noord-Brabant";
+const areaServed = {
+  "@type": "City",
+  name: p.slug === "den-bosch" ? "'s-Hertogenbosch" : p.naam,
+  ...(p.slug === "den-bosch" ? { alternateName: "Den Bosch" } : {}),
+  containedInPlace: GEMEENTE[p.slug]
+    ? { "@type": "AdministrativeArea", name: `gemeente ${GEMEENTE[p.slug]}`, containedInPlace: { "@type": "State", name: provincie } }
+    : { "@type": "State", name: provincie },
+};
 
 const faq = [
   { v: `Werk je in heel ${p.naam}?`, a: `Ja, ik werk in heel ${p.naam}${p.wijken.length ? `, onder andere ${p.wijken.slice(0, 3).join(", ")}` : ""} en de directe omgeving. ${p.reistijd ? `Het is maar ${p.reistijd}.` : ""}` },
@@ -46,7 +57,7 @@ const schema = [
     serviceType: "Dakdekker",
     description: `Spoed Dak Service is een dakdekker uit 's-Hertogenbosch voor daklekkage, losse dakpannen en dakgoten ${p.slug === "den-bosch" ? "in de hele stad en de dorpen eromheen" : `in ${p.naam} en omgeving`}.`,
     provider: { "@type": "RoofingContractor", "@id": `${SITE.url}/#bedrijf`, name: SITE.bedrijfsnaam, telephone: `+${SITE.telefoonE164}` },
-    areaServed: { "@type": "City", name: p.naam },
+    areaServed,
     url: `${SITE.url}/werkgebied/${p.slug}/`,
     ...(matrixVoorPlaats.length > 0 ? { hasOfferCatalog: { "@type": "OfferCatalog", name: `Dakwerk in ${p.naam}`, itemListElement: matrixVoorPlaats.map((d) => ({ "@type": "Offer", itemOffered: { "@type": "Service", name: `${klusNaam(d!)} in ${p.naam}`, url: `${SITE.url}/werkgebied/${p.slug}/${d!.slug}/` } })) } } : {}),
   },
