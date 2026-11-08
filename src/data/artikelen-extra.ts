@@ -1661,6 +1661,9 @@ export const FAQ_ERBIJ: Record<string, Artikel["faq"]> = {
   "druppelen-horen-plafond": [
     { v: `Ik hoor het vooral als het hard waait. Wat betekent dat?`, a: `Dan is het vaak geen leiding. Bij harde wind en regen kan de regen onder een pan door waaien die net niet goed in de sluiting ligt, of langs de nok of het lood bij de schoorsteen. Dat water druppelt op de folie, een balk of de isolatie, en dat hoor je voordat je een vlek ziet. Het kan ook iets zijn dat los zit en bij elke windstoot tikt, zoals een pan, een strook lood of een kap op een pijp. Let op aan welke kant van het huis je het hoort en bij welke windrichting, en kijk na de bui met een zaklamp op zolder. Stuur me een foto van die kant van je dak vanaf de straat, dan zeg ik wat ik denk dat het is.` },
   ],
+  "dakpannen-klapperen-bij-wind": [
+    { v: `Het klappert in een rij huizen. Kan het ook van het dak van de buren komen?`, a: `Dat kan. In een rij liggen de daken tegen elkaar, en geluid draagt over het dak en de zolder een flink eind. Wat je boven je slaapkamer hoort, kan een pan of een strook lood bij de buren zijn, vaak vlak bij de grens. Kijk de volgende dag vanaf de overkant van de straat naar alle daken in de rij, met de zoom van je telefoon. Zie je bij de buren een pan die scheef ligt of een strook die los staat, zeg het ze dan, want bij de volgende storm kan het bij hen of bij jou misgaan. Zit het op de grens, dan kijk ik aan beide kanten, en ieder hoort vooraf wat het kost. Stuur me een foto van de rij daken via WhatsApp.` },
+  ],
 };
 
 // Kort antwoord bovenaan een artikel: één of twee zinnen met het directe antwoord, voor Google en AI. Bedragen alleen via inclBtw uit prijzen.ts, nooit met de hand.
