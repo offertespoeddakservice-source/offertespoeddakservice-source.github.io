@@ -1652,6 +1652,9 @@ export const FAQ_ERBIJ: Record<string, Artikel["faq"]> = {
   "plat-dak-vervangen-of-repareren": [
     { v: `Kan een lekkend plat dak ook in de winter gerepareerd worden?`, a: `Vaak wel. Een lek op één plek, bij een naad, de rand of de afvoer, kan ook in de winter worden gemaakt, op een droge dag. Op een nat, bevroren of besneeuwd dak hecht een reparatie slecht, en dan wacht ik op beter weer. Druppelt het nu binnen, dan kijk ik eerst hoe het tot die tijd droog kan blijven. Moet de hele dakbedekking eraf, dan is het voorjaar vaak een beter moment, behalve als het echt niet kan wachten. Zet tot die tijd een bak onder de druppel en maak foto's van de natte plek. Stuur die via WhatsApp, dan zeg ik wat ik zie.` },
   ],
+  "bakgoot-lekt": [
+    { v: `Hoe zie ik vanaf de straat of ik een bakgoot heb of een gewone goot?`, a: `Kijk naar de onderkant van je dak. Hangt er een goot voor de onderste pannen langs, met beugels eronder, dan is het een gewone hangende goot. Zie je daar alleen een brede houten lijst of rand, en verdwijnen de pannen erachter, dan ligt de goot er meestal als een bak in: een bakgoot. Vaak komt de regenpijp dan onder uit die lijst of loopt hij er vlak achter weg. Twijfel je, maak dan vanaf de overkant van de straat een foto van de dakrand en stuur die via WhatsApp. Dan zeg ik wat je hebt en waar je bij een lek op moet letten.` },
+  ],
 };
 
 // Kort antwoord bovenaan een artikel: één of twee zinnen met het directe antwoord, voor Google en AI. Bedragen alleen via inclBtw uit prijzen.ts, nooit met de hand.
