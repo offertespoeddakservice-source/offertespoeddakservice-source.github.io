@@ -1506,6 +1506,9 @@ export const FAQ_ERBIJ: Record<string, Artikel["faq"]> = {
   "dakpannen-vastzetten-tegen-storm": [
     { v: `Ik woon in een rijtjeshuis. Moeten mijn pannen ook vast als de buren dat al hebben laten doen?`, a: `Niet altijd allemaal. De wind pakt vooral de randen van een dak: de zijkant bij de gevel, de onderste rij boven de goot en de rij vlak onder de nok. Woon je in een tussenwoning, dan heb je geen zijkant aan de gevel, en gaat het vooral om de onderste rij, de rij onder de nok en de pannen rond een dakraam. Woon je op de hoek, dan is juist de zijkant aan de gevel de plek waar het eerst misgaat. Kijk ook naar de grens met de buren: liggen hun pannen vast en de jouwe niet, dan zit het verschil precies op de overgang. Stuur me een foto van je dak vanaf de straat, dan zeg ik eerlijk welke pannen bij jou vast moeten. Je hoort vooraf wat het kost.` },
   ],
+  "daktrim-lekt": [
+    { v: `Wat is een waterkering op een plat dak?`, a: `Zo noemen veel mensen de opstaande rand langs de buitenkant van een plat dak, vaak een aluminium daktrim of een houten rand met de dakbedekking eroverheen. Die rand houdt het regenwater op het dak, zodat het naar de afvoer loopt en niet over de rand langs je gevel. Zit de trim los, staat er een naad open bij een hoek, of is de dakbedekking onder de trim gescheurd, dan loopt het water erachter. Binnen zie je dan een natte plek vlak onder de rand, of buiten een natte streep op de gevel. Stuur me een foto van de rand vanaf de grond of vanuit een raam boven, dan hoor je vooraf wat het kost.` },
+  ],
 };
 
 // Kort antwoord bovenaan een artikel: één of twee zinnen met het directe antwoord, voor Google en AI. Bedragen alleen via inclBtw uit prijzen.ts, nooit met de hand.
