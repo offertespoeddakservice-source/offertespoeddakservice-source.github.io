@@ -51,6 +51,16 @@ if (d.slug === "daklekkage" && p.slug === "veghel") {
   metaTitelPerDienst.daklekkage = "Daklekkage Veghel: lek opsporen en repareren";
   omschrijvingPerDienst.daklekkage = "Daklekkage in Veghel? Ik zoek waar het water binnenkomt, bijvoorbeeld onder een dakraam of bij de schoorsteen, en repareer alleen wat nodig is. Bel of app Rens.";
 }
+// Daklekkage in Tilburg (gemaakt 24-10), Eindhoven en Waalwijk (gemaakt 25-10): de 14 dagen zijn om, dus ook hier het zoekwoord vooraan. Eigen omschrijving zonder 'vaste prijs vooraf'. Breda (gemaakt 27-10) mag vanaf 10-11.
+const LEK_OMSCHRIJVING_NIEUW: Record<string, string> = {
+  tilburg: "Daklekkage in Tilburg? Ik zoek waar het water binnenkomt, bijvoorbeeld bij een dak uit de jaren '80 of '90 in de Reeshof, en repareer alleen wat nodig is. Bel of app Rens.",
+  eindhoven: "Daklekkage in Eindhoven? Ik zoek waar het water binnenkomt, bijvoorbeeld bij de zonnepanelen of onder de dakrand, en repareer alleen wat nodig is. Stuur een foto of app Rens.",
+  waalwijk: "Daklekkage in Waalwijk, Sprang-Capelle of Waspik? Ik zoek waar het water binnenkomt, bijvoorbeeld bij een oude schoorsteen of een schuur met golfplaten, en repareer alleen wat nodig is. Bel of app Rens.",
+};
+if (d.slug === "daklekkage" && LEK_OMSCHRIJVING_NIEUW[p.slug]) {
+  metaTitelPerDienst.daklekkage = `Daklekkage ${p.naam}: lek opsporen en repareren`;
+  omschrijvingPerDienst.daklekkage = LEK_OMSCHRIJVING_NIEUW[p.slug];
+}
 // Stormschade per plaats: titel met 'stormschade dak' vooraan, zoals mensen zoeken. Niet voor de stormpagina's die na 23-10 zijn gemaakt (Waalwijk 01-11, Veghel 03-11), die meten we eerst.
 const nieuweStormPaginas = ["waalwijk", "veghel"];
 if (d.slug === "stormschade" && !nieuweStormPaginas.includes(p.slug)) {
