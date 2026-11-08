@@ -1649,6 +1649,9 @@ export const FAQ_ERBIJ: Record<string, Artikel["faq"]> = {
   "lekkage-bij-schoorsteen": [
     { v: `Mijn schoorsteen lekt alleen als het lang achter elkaar regent, niet bij een korte bui. Waar zit het dan?`, a: `Dan trekt het water vaak langzaam naar binnen, en niet door een open kier. Bij een lange regenperiode raken de stenen en de voegen van de schoorsteen of de kop bovenop zo nat dat het water er na uren doorheen komt. Bij een korte bui gebeurt dat nog niet. Zit het lood rond de voet los, dan lekt het meestal al bij een flinke bui, zeker met wind. Kijk na een regenachtige dag vanaf de straat of de stenen van de schoorsteen lang donker blijven, en of er bovenop een kap of afdekplaat zit. Het lood en de afdekking van de kop herstel ik zelf. Zijn de stenen of voegen poreus, dan zeg ik dat eerlijk, want dat is werk voor een metselaar. Stuur me een foto van de schoorsteen en van de natte plek binnen via WhatsApp.` },
   ],
+  "plat-dak-vervangen-of-repareren": [
+    { v: `Kan een lekkend plat dak ook in de winter gerepareerd worden?`, a: `Vaak wel. Een lek op één plek, bij een naad, de rand of de afvoer, kan ook in de winter worden gemaakt, op een droge dag. Op een nat, bevroren of besneeuwd dak hecht een reparatie slecht, en dan wacht ik op beter weer. Druppelt het nu binnen, dan kijk ik eerst hoe het tot die tijd droog kan blijven. Moet de hele dakbedekking eraf, dan is het voorjaar vaak een beter moment, behalve als het echt niet kan wachten. Zet tot die tijd een bak onder de druppel en maak foto's van de natte plek. Stuur die via WhatsApp, dan zeg ik wat ik zie.` },
+  ],
 };
 
 // Kort antwoord bovenaan een artikel: één of twee zinnen met het directe antwoord, voor Google en AI. Bedragen alleen via inclBtw uit prijzen.ts, nooit met de hand.
