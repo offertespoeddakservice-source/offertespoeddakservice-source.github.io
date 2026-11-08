@@ -1658,6 +1658,9 @@ export const FAQ_ERBIJ: Record<string, Artikel["faq"]> = {
   "tak-of-boom-op-dak": [
     { v: `Bel ik na de storm eerst mijn verzekering of eerst jou?`, a: `Maak eerst foto's, en doe daarna allebei. Ligt je dak open of komt er water binnen, dan mag je de schade in de regel eerst laten beperken, zoals een gat tijdelijk laten afdekken. Wacht daarmee niet op de verzekering, want elke bui maakt de schade binnen groter. Meld de schade daarna zo snel mogelijk bij je verzekeraar, en kijk in je polis of die eerst zelf iemand wil sturen. Van mij krijg je foto's van wat ik aantref en van wat ik heb gedaan, met een korte omschrijving, die je kunt meesturen. Een grote tak of boom laat je eerst weghalen door een boomverzorger.` },
   ],
+  "druppelen-horen-plafond": [
+    { v: `Ik hoor het vooral als het hard waait. Wat betekent dat?`, a: `Dan is het vaak geen leiding. Bij harde wind en regen kan de regen onder een pan door waaien die net niet goed in de sluiting ligt, of langs de nok of het lood bij de schoorsteen. Dat water druppelt op de folie, een balk of de isolatie, en dat hoor je voordat je een vlek ziet. Het kan ook iets zijn dat los zit en bij elke windstoot tikt, zoals een pan, een strook lood of een kap op een pijp. Let op aan welke kant van het huis je het hoort en bij welke windrichting, en kijk na de bui met een zaklamp op zolder. Stuur me een foto van die kant van je dak vanaf de straat, dan zeg ik wat ik denk dat het is.` },
+  ],
 };
 
 // Kort antwoord bovenaan een artikel: één of twee zinnen met het directe antwoord, voor Google en AI. Bedragen alleen via inclBtw uit prijzen.ts, nooit met de hand.
