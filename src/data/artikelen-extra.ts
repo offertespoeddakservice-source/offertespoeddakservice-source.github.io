@@ -1326,6 +1326,49 @@ export const ARTIKELEN_EXTRA: Artikel[] = [
       { v: `Kan ik voorkomen dat mijn goot bij de volgende storm losraakt?`, a: `Voor een groot deel wel. Houd de goot leeg, zeker na de bladval, zodat hij niet zwaar wordt van nat blad en water. Kijk na een storm vanaf de straat of hij nog recht hangt. En laat een goot die op één plek zakt op tijd nakijken, want dat is vaak het eerste teken dat een beugel of het hout erachter het begeeft.` },
     ],
   },
+  {
+    slug: `wat-kost-nokvorsten-repareren`,
+    datum: `2026-11-08`,
+    titel: `Wat kost nokvorsten repareren?`,
+    h1: `Wat kost het om nokvorsten te repareren of te vervangen?`,
+    metaTitle: `Wat kost nokvorsten repareren? | Spoed Dak Service`,
+    metaDescription: `Losse nokvorst of brokkelige specie op de nok? Een vorst vastzetten kost ${inclBtw("dakpan")}, de nok opnieuw aansmeren ${inclBtw("nok_repareren")}. Zo zit het met de prijs.`,
+    intro: `Ligt er een nokvorst scheef, zitten er brokjes specie in je goot of is er na een storm een vorst van je dak gewaaid? Dan wil je weten wat het kost om dat te laten maken. Dat hangt vooral af van de vraag of het om één vorst gaat of om de hele nok. Hieronder lees je wat het bij mij kost, waar de prijs van afhangt en wanneer je beter eerst een foto stuurt.`,
+    secties: [
+      { kop: `Dit kost het bij mij`, tekst: [
+        `Eén losse nokvorst weer vastzetten, of een paar losse pannen vervangen, kost ${inclBtw("dakpan")}.`,
+        `De nokvorsten opnieuw aansmeren met dakmortel, als de oude specie onder de nok op is, kost ${inclBtw("nok_repareren")}.`,
+        `Moeten er nokvorsten vervangen worden, of moet de hele nok opnieuw, dan noem ik geen bedrag zonder het te zien. Stuur een foto van de nok, dan hoor je wat het kost. De vaste prijs hoor je voordat ik begin. Alle richtprijzen staan op de <a href="/prijzen/">prijzenpagina</a>.`,
+      ] },
+      { kop: `Ligt de nok nu open? Eerst dit`, tekst: [
+        `Mist er na een storm een vorst, of ligt er een vorst half los, dan ligt het hoogste punt van je dak open. Zet op zolder een emmer onder de nok als je daar veilig kunt komen, en ga zelf niet het dak op. Heb je een vorst of een stuk ervan gevonden, leg het dan apart: aan de vorm en de kleur zie ik welke vorst er op je dak hoort. Wat je verder meteen kunt doen, staat op de <a href="/spoed/">spoedpagina</a>.`,
+      ] },
+      { kop: `Vastzetten, opnieuw aansmeren of vervangen`, tekst: [
+        `<strong>Vastzetten.</strong> Ligt er één vorst scheef of los en zit de rest van de nok nog goed, dan zet ik alleen die vorst weer vast. Dat is een kleine reparatie.`,
+        `<strong>Opnieuw aansmeren.</strong> Op oudere daken liggen de vorsten in specie. Brokkelt die op veel plekken af, dan haal ik de oude specie weg en zet ik de vorsten opnieuw vast met dakmortel. De vorsten zelf gaan terug op hun plek.`,
+        `<strong>Vervangen.</strong> Zijn er vorsten gebroken, of is de nok over de hele lengte op, dan vervang ik wat nodig is. Dat is meer werk, en daarvoor hoor je vooraf een prijs voor jouw dak. Hoe je ziet dat je nok los zit, lees je in <a href="/kennisbank/nokvorsten-los/">losse nokvorsten</a>.`,
+      ] },
+      { kop: `Waar de prijs van afhangt`, tekst: [
+        `Hoeveel vorsten los zitten. Eén vorst is iets anders dan een nok waar op drie of vier plekken de specie uit ligt. Zit het op veel plekken los, dan is de hele nok in één keer vaak voordeliger dan elk jaar een stukje.`,
+        `Hoe lang de nok is. Een rijtjeshuis heeft een korte nok. Een vrijstaand huis of een boerderij heeft een lange, en bij een schilddak liggen er ook vorsten op de schuine hoeken van het dak.`,
+        `Of de vorsten nog heel zijn. Een gebroken vorst vervang ik door een die past bij je pannen. Bij oude pannen moet ik zo'n vorst soms eerst zoeken. Lees ook <a href="/kennisbank/welke-dakpan-heb-ik/">welke dakpan heb ik</a>.`,
+        `Hoe goed ik bij de nok kan. Een nok op een laag huis is sneller gedaan dan een nok hoog op een steil dak, of een nok met zonnepanelen tot vlak eronder.`,
+      ] },
+      { kop: `Wat ik meteen meeneem`, tekst: [
+        `Sta ik toch bij de nok, dan kijk ik ook naar de bovenste rijen pannen, want een kapotte pan vlak onder de nok zie je van beneden bijna niet. Zie ik nog iets anders, zoals lood dat loslaat bij de schoorsteen, dan laat ik het je zien en hoor je wat het kost. Extra werk doe ik pas als jij akkoord geeft.`,
+      ] },
+      { kop: `Na een storm en je verzekering`, tekst: [
+        `Is een nokvorst bij een storm losgewaaid, dan valt het herstel vaak onder je opstalverzekering. Was de specie al jaren aan het afbrokkelen, dan zien verzekeraars het eerder als onderhoud. Dat verschilt per polis. Ik maak foto's van wat ik aantref en van de reparatie, met een korte omschrijving, die je naar je verzekeraar kunt sturen. Lees ook <a href="/kennisbank/daklekkage-verzekering/">daklekkage en je verzekering</a>.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: nokvorsten repareren of vervangen`, href: `/diensten/nokvorsten-vervangen/` },
+    faq: [
+      { v: `Wat kost één losse nokvorst vastzetten?`, a: `Eén of een paar losse vorsten vastzetten valt onder een kleine reparatie: ${inclBtw("dakpan")}. Zit de specie onder de hele nok los, dan is opnieuw aansmeren slimmer, en dat kost ${inclBtw("nok_repareren")}. Stuur een foto van de nok vanaf de straat, dan zeg ik eerlijk wat bij jouw dak nodig is.` },
+      { v: `Is de hele nok laten doen duurder dan een paar vorsten?`, a: `Ja, want het is meer werk. Maar zit de specie op veel plekken los, dan komt er anders elk jaar wel ergens een vorst los, en dan betaal je steeds opnieuw. Ik zeg eerlijk of een paar vorsten genoeg is of dat de hele nok slimmer is.` },
+      { v: `Hoor ik de prijs voordat je begint?`, a: `Ja. Bij een kleine reparatie hoor je de prijs meestal al als je me een foto stuurt. Moet de nok opnieuw of moeten er vorsten vervangen worden, dan kom ik eerst kijken of vraag ik om een paar extra foto's, en dan hoor je de vaste prijs voordat ik begin.` },
+      { v: `Mijn nok ligt droog, zonder specie. Kost repareren dan hetzelfde?`, a: `Niet altijd. Bij een droge nok zit elke vorst met een klem of schroef vast, en onder de vorsten ligt een strook die de nok dicht houdt. Is er één vorst losgeschoten, dan is dat een kleine reparatie. Is de strook eronder gescheurd of losgekomen, dan is het meer werk. Stuur een foto van de nok, dan hoor je vooraf wat het kost.` },
+    ],
+  },
 ];
 
 // Extra vragen bij bestaande artikelen. artikelen.ts is te groot om nog te laten groeien, daarom staan nieuwe vragen hier.
