@@ -1492,6 +1492,50 @@ export const ARTIKELEN_EXTRA: Artikel[] = [
       { v: `Hoe snel kun je komen?`, a: `Bel of app me met een foto van de natte plek, dan hoor je wanneer ik kan komen. Bij spoed in de regio Den Bosch lukt dat vaak nog dezelfde dag. Na een storm, als veel mensen tegelijk bellen, gaat een dak dat open ligt of waar het binnen nat wordt voor.` },
     ],
   },
+  {
+    slug: `wat-kost-plat-dak-repareren`,
+    datum: `2026-11-08`,
+    titel: `Wat kost plat dak repareren?`,
+    h1: `Wat kost het om een lekkend plat dak te repareren?`,
+    metaTitle: `Wat kost plat dak repareren? | Spoed Dak Service`,
+    metaDescription: `Lekt het platte dak van je aanbouw of garage? Een klein plat dak repareren kost ${platPrijs}. Zo zit het met de prijs, en wanneer vervangen slimmer is.`,
+    intro: `Lekt het platte dak van je aanbouw, garage of berging, dan wil je vooral weten of het met een reparatie klaar is of dat er een nieuw dak op moet. Dat scheelt veel in de prijs. Hieronder lees je wat een reparatie bij mij kost, waar de prijs van afhangt en wanneer vervangen de betere keus is.`,
+    secties: [
+      { kop: `Dit kost het bij mij`, tekst: [
+        `Een klein plat dak repareren, zoals een lek in het dak van een aanbouw, garage of berging, kost ${platPrijs}. Je hoort vooraf wat er bij jouw dak nodig is.`,
+        `Moet de hele dakbedekking eraf, of gaat het om een groot dak, dan noem ik geen bedrag zonder het te zien. Stuur een paar foto's, dan hoor je wat het ongeveer kost, en daarna de vaste prijs voordat ik begin. Alle richtprijzen staan op de <a href="/prijzen/">prijzenpagina</a>.`,
+      ] },
+      { kop: `Lekt het nu? Eerst dit`, tekst: [
+        `Zet een emmer onder de druppel en haal spullen weg. Ga niet zelf het platte dak op als het nat, glad of donker is, en loop niet over een stuk dat zacht aanvoelt. Kijk vanuit een raam boven of er water op het dak blijft staan, en maak daar een foto van. Wat je verder meteen kunt doen, staat op de <a href="/spoed/">spoedpagina</a>.`,
+      ] },
+      { kop: `Waar de prijs van afhangt`, tekst: [
+        `<strong>Waar het lek zit.</strong> Een losse naad of een scheur midden op het dak is sneller dicht dan een lek in een hoek, langs de muur van het huis of rond een lichtkoepel of afvoer, waar meer aansluitingen samenkomen.`,
+        `<strong>Hoe groot het beschadigde stuk is.</strong> Eén plek is iets anders dan een dak met blazen en scheuren op meer plekken.`,
+        `<strong>Wat eronder zit.</strong> Heeft het dak lang gelekt, dan kan het hout onder de dakbedekking zacht of rot zijn. Dan moet dat eerst vervangen worden, en dat is meer werk.`,
+        `<strong>Wat erop ligt.</strong> Ligt er grind, staan er zonnepanelen of een airco op het dak, dan moet ik daar eerst omheen werken of iets opzij leggen voordat ik bij de plek kan.`,
+        `<strong>Hoe goed ik erbij kan.</strong> Een lage aanbouw aan de achterkant is iets anders dan een plat dak op de tweede verdieping.`,
+      ] },
+      { kop: `Repareren of vervangen?`, tekst: [
+        `Zit het lek op één plek en is de rest van de dakbedekking nog soepel en heel, dan is een reparatie meestal genoeg. Is de bedekking overal bros, zitten er op veel plekken blazen of scheuren, of komt er na elke reparatie ergens anders een nieuw lek bij, dan is een nieuwe dakbedekking op den duur goedkoper dan steeds opnieuw repareren. Ik zeg eerlijk wat ik zie. Meer lees je in <a href="/kennisbank/plat-dak-vervangen-of-repareren/">plat dak repareren of vervangen</a>.`,
+      ] },
+      { kop: `EPDM of bitumen`, tekst: [
+        `Op de meeste platte daken ligt bitumen of EPDM. Aan de prijs van een kleine reparatie verandert dat weinig: de plek wordt dichtgemaakt met hetzelfde soort materiaal dat er al ligt. Lekt een EPDM-dak, lees dan <a href="/kennisbank/epdm-dak-lekt/">EPDM-dak lekt</a>. Gaat het om dakleer op een schuur of tuinhuis, kijk dan bij <a href="/kennisbank/dakleer-repareren/">dakleer repareren</a>.`,
+      ] },
+      { kop: `Wat je zelf beter niet doet`, tekst: [
+        `Smeer geen kit of teer over een natte plek in de hoop dat het dan dicht is. Op een nat of vuil dak hecht dat niet, en het maakt het later lastiger om het echte lek te vinden en goed te repareren.`,
+      ] },
+      { kop: `Na een storm of hagel`, tekst: [
+        `Is de dakbedekking bij een storm losgewaaid of door hagel beschadigd, dan valt het herstel vaak onder je opstalverzekering. Was het dak al op, dan zien verzekeraars het eerder als onderhoud. Dat verschilt per polis. Ik maak foto's van wat ik aantref en van de reparatie, met een korte omschrijving, die je naar je verzekeraar kunt sturen.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: plat dak repareren of vervangen`, href: `/diensten/platte-daken/` },
+    faq: [
+      { v: `Wat kost een lek in het platte dak van mijn aanbouw?`, a: `Een klein plat dak repareren, zoals het dak van een aanbouw, kost ${platPrijs}. Is het hout eronder rot of moet er een groter stuk nieuw, dan hoor je dat voordat ik verder ga, met de prijs erbij.` },
+      { v: `Wat kost een nieuwe dakbedekking op een plat dak?`, a: `Dat hangt af van hoe groot het dak is, wat er nu op ligt en hoe het hout eronder erbij ligt. Daarom noem ik geen bedrag zonder het te zien. Stuur een paar foto's van het dak, bijvoorbeeld vanuit een raam boven, en zeg ongeveer hoe groot het is. Dan hoor je wat het ongeveer kost, en na het kijken de vaste prijs.` },
+      { v: `Kun je een lekkend plat dak in de winter repareren?`, a: `Vaak wel, op een droge dag. Op een nat of bevroren dak hecht een reparatie slecht. Lekt het nu en is het te nat, dan maak ik het eerst zo goed mogelijk dicht, zodat het binnen droog blijft, en kom ik op een droge dag terug voor de nette reparatie. Ook daarvan hoor je vooraf wat het kost.` },
+      { v: `Rekenen dakdekkers per vierkante meter?`, a: `Sommige wel. Een prijs per vierkante meter zegt vooral iets over een nieuw dak. Bij een reparatie gaat het om de plek waar het lekt, en daarom hoor je bij mij één vaste prijs voor de hele klus, voordat ik begin.` },
+    ],
+  },
 ];
 
 // Extra vragen bij bestaande artikelen. artikelen.ts is te groot om nog te laten groeien, daarom staan nieuwe vragen hier.
@@ -1587,4 +1631,5 @@ export const KORT_ANTWOORD: Record<string, string> = {
   "dakinspectie": `Bij een dakinspectie loop ik je hele dak na: de pannen, de nok, het lood rond de schoorsteen en het dakraam, de goten en sporen van vocht op zolder. Bij mij heet dat de Dak-APK, en die kost ${apkPrijs}. Je krijgt een rapport met foto's, ook als er niets hoeft te gebeuren. Handig na een storm, voor de winter of als je een huis wilt kopen.`,
   "condens-of-lekkage-op-zolder": `Zie je druppels of een natte waas verspreid over het hout of de folie op zolder, vooral na een koude nacht en ook op droge dagen, dan is het meestal condens: vocht uit je eigen huis dat tegen het koude dak neerslaat. Zit de natte plek op één plek en komt hij na regen of bij wind uit één richting, dan is het eerder een lek.`,
   "dakgoot-hangt-door": `Blijft er na een bui water in het midden van je goot staan, of zie je vanaf de straat dat hij ergens lager hangt, dan is er meestal een beugel losgeraakt, verbogen of afgebroken, of geeft het hout erachter mee. Vaak is het genoeg om de goot weer op afschot naar de regenpijp te hangen. Laat het niet te lang zitten, want waar water blijft staan, gaat een goot op den duur lekken.`,
+  "wat-kost-plat-dak-repareren": `Een klein plat dak repareren, zoals een lek in het dak van een aanbouw, garage of berging, kost bij mij ${platPrijs}. Moet de hele dakbedekking eraf of is het hout eronder rot, dan is het meer werk, en de prijs daarvan hoor je nadat ik heb gekeken. Zit het lek op één plek en is de rest nog goed, dan is repareren meestal genoeg.`,
 };
