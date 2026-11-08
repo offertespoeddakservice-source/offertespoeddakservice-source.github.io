@@ -103,7 +103,7 @@ export const DIENSTEN: Dienst[] = [
       "Daklekkage? Ik spoor het lek op zonder onnodig sloopwerk en dicht het, bij spoed vaak nog dezelfde dag in de regio Den Bosch. Bel of WhatsApp me.",
     icoon: "💧",
     intro:
-      "Een lek wacht niet. Ik kom snel langs, spoor de oorzaak op (de natte plek zit zelden recht onder het echte lek) en dicht het vakkundig. Eerst de schade beperken, dan de oorzaak aanpakken, en je hoort eerlijk of het een reparatie is of dat er meer nodig is.",
+      "Een lek wacht niet. Bel of app me met een foto, dan hoor je wanneer ik kan komen. Ik spoor de oorzaak op (de natte plek zit zelden recht onder het echte lek) en dicht het vakkundig. Eerst de schade beperken, dan de oorzaak aanpakken, en je hoort eerlijk of het een reparatie is of dat er meer nodig is.",
     punten: [
       "Vaak dezelfde dag langs bij spoed in de regio",
       "Lek opsporen zonder onnodig sloopwerk",
@@ -278,7 +278,7 @@ export const DIENSTEN: Dienst[] = [
       },
       {
         v: "Er zijn dakpannen weggewaaid, kun je met spoed komen?",
-        a: "Ja. Weggewaaide of verschoven dakpannen laten regen binnen, dus dat is spoed. Ik kom snel langs voor een noodreparatie: eerst dichten en afdekken, daarna netjes herstellen.",
+        a: "Weggewaaide of verschoven dakpannen laten regen binnen, dus dat is spoed. Bel of app me met een foto, dan hoor je wanneer ik kan komen. Eerst dicht ik de open plek en dek ik af, daarna herstel ik het netjes.",
       },
       {
         v: "Doe je ook noodreparatie 's avonds of in het weekend?",
