@@ -513,6 +513,39 @@ export const DIENSTEN: Dienst[] = [
     ],
   },
   {
+    slug: "kilgoot-repareren",
+    titel: "Kilgoot repareren",
+    vanafPrijs: "stuur een foto",
+    h1: "Kilgoot repareren of vervangen: weer een droge hoek",
+    kort: "Lekkende kilgoot leeggemaakt, een scheur in het lood of zink hersteld of een versleten kil vervangen, met de pannen erlangs weer goed gelegd.",
+    metaTitle: "Kilgoot repareren of vervangen | Spoed Dak Service",
+    metaDescription:
+      "Lekt het in de hoek waar twee daken samenkomen? Ik maak de kilgoot leeg, herstel het lood of zink of vervang een versleten kil. Stuur een foto voor de prijs.",
+    icoon: "🧰",
+    geenAfbeelding: true,
+    zieOok: [
+      { label: "Kilgoot lekt: zo herken je het", href: "/kennisbank/kilgoot-lekt/" },
+      { label: "Lood vervangen", href: "/diensten/lood-vervangen/" },
+      { label: "Spoed dakreparatie", href: "/diensten/dakreparatie/" },
+    ],
+    intro:
+      "Een kilgoot, of kortweg de kil, ligt in de hoek waar twee schuine dakvlakken samenkomen, bijvoorbeeld bij een L-vormig huis, een aanbouw met een schuin dak of een schuur die tegen je huis staat. Al het water van die twee dakvlakken loopt erdoorheen. Daarom gaat een kil sneller lekken dan de rest van het dak als er blad in ligt of als het lood of zink na veel jaren op is. Ik maak de kil leeg, zoek waar het water onder de pannen door loopt en herstel die plek. Is de kil over een groot stuk op, dan vervang ik dat stuk en leg ik de pannen erlangs weer goed.",
+    punten: [
+      "Kilgoot leeggemaakt, ook een gesloten kil die onder de pannen ligt",
+      "Een scheur of gaatje in het lood of zink van de kil hersteld",
+      "Een versleten stuk kil vervangen, meestal met loodvervanger en op wens met echt lood",
+      "De pannen langs de kil weer goed gelegd, en meteen een blik op het lood eromheen",
+    ],
+    faq: [
+      { v: "Wat kost het om een kilgoot te repareren?", a: "Dat hangt af van wat er nodig is: alleen leegmaken, een scheur op één plek herstellen of een stuk kil vervangen. Ook telt mee hoe lang de kil is en hoe goed ik erbij kan. Stuur een foto van de natte plek binnen en van de kil vanaf de straat via WhatsApp, dan hoor je vooraf wat het kost." },
+      { v: "Hoe weet ik of het lek in de kilgoot zit?", a: "Zit de natte plek binnen in de hoek, onder de plek waar twee dakvlakken samenkomen, dan is het vaak de kil. Lekt het vooral bij een stortbui of in de herfst, als er veel blad valt, dan nog eerder. Vanaf de straat zie je soms blad of mos in de kil liggen, of pannen langs de kil die scheef liggen. Hoe je het verder herkent, lees je in het artikel over een lekkende kilgoot in de kennisbank." },
+      { v: "Kan een kilgoot gerepareerd worden, of moet hij er helemaal uit?", a: "Vaak kan hij gerepareerd worden. Ligt hij vol, dan maak ik hem leeg. Zit er op één plek een scheur of een gaatje, dan herstel ik die plek. Is het lood of zink over een groot stuk dun of gescheurd, dan vervang ik dat stuk. Daarvoor moeten de pannen langs de kil eraf, en daarna leg ik ze weer goed. Ik zeg eerlijk wat bij jouw dak nodig is." },
+      { v: "Is een lekkende kilgoot spoed?", a: "Druppelt het binnen, of wordt het plafond in de hoek bol, dan wel: zet een emmer neer en bel of app me met een foto. Is het een oude, droge vlek in de hoek die niet groter wordt, dan kan het vaak een paar dagen wachten. Laat de kil wel voor de winter nakijken, want blad en sneeuw blijven juist in de kil liggen." },
+      { v: "Mijn huis heeft een gesloten kil. Kun je die ook nakijken?", a: "Ja. Bij een gesloten kil liggen de pannen van beide kanten bijna tegen elkaar en zit het lood of zink eronder, dus vanaf de straat zie je niet of er iets in ligt. Ik haal waar het nodig is een paar pannen langs de kil weg, maak de kil eronder leeg en kijk of het lood of zink nog heel is. Daarna leg ik de pannen weer terug. Je hoort vooraf wat het kost." },
+      { v: "Kom je ook buiten Den Bosch voor een kilgoot?", a: "Ja. Ik kom in de hele regio Den Bosch, en verder in Brabant plan ik zo'n klus vooraf met je in. Bij oudere villa's, zoals je die in Vught veel ziet, ligt de kil vaak al tientallen jaren en is het lood of zink dun geworden. Stuur een foto van de kil vanaf de straat, dan hoor je wanneer ik kan komen." },
+    ],
+  },
+  {
     slug: "regenpijp-vervangen",
     titel: "Regenpijp vervangen",
     vanafPrijs: prijsVan("regenpijp"),
