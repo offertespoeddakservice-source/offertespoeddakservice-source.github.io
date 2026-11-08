@@ -1448,6 +1448,50 @@ export const ARTIKELEN_EXTRA: Artikel[] = [
       { v: `Moet ik mijn goot voor oud en nieuw laten leegmaken?`, a: `Ligt er nog veel droog blad in, dan is het slim. Droog blad vat makkelijker vlam als er een pijl in terechtkomt, en een lege goot loopt na de jaarwisseling ook beter af als er resten in vallen. Stuur een foto van je goot vanaf de straat, dan hoor je vooraf wat het kost.` },
     ],
   },
+  {
+    slug: `daklek-hoe-lang-wachten`,
+    datum: `2026-11-08`,
+    titel: `Hoe lang kan een daklek wachten?`,
+    h1: `Daklek: hoe lang kun je wachten met repareren?`,
+    metaTitle: `Daklek: hoe lang kun je wachten? | Spoed Dak Service`,
+    metaDescription: `Druppelt het, of zie je alleen een oude kring? Wanneer een daklek spoed is, wanneer het een paar dagen kan wachten en wat er gebeurt als je te lang wacht.`,
+    intro: `Je ziet een natte plek of hoort het druppelen, en je vraagt je af of het vandaag nog moet of dat het tot volgende week kan. Dat hangt af van hoeveel water er binnenkomt, waar het naartoe loopt en wat voor weer er aankomt. Hieronder lees je wanneer je niet moet wachten, wanneer een paar dagen geen kwaad kan en wat een lek doet als je het te lang laat zitten.`,
+    secties: [
+      { kop: `Wanneer je niet moet wachten`, tekst: [
+        `Bel of app als het binnen druppelt of stroomt, als het plafond opbolt of scheuren krijgt, als het water bij een lamp, spotje of stopcontact komt, of als er na een storm een pan, nokvorst of stuk lood mist en je dak open ligt. Ook als er nog een flinke bui of storm wordt voorspeld, wacht je liever niet. Wat je in de tussentijd zelf kunt doen, staat op de <a href="/spoed/">spoedpagina</a>.`,
+      ] },
+      { kop: `Wanneer het meestal een paar dagen kan wachten`, tekst: [
+        `Zie je een oude, droge kring op het plafond die niet groter wordt, ligt er een pan scheef terwijl het binnen droog blijft, of zie je alleen na een stortbui een paar druppels op zolder die daarna weer opdrogen? Dan kan het meestal een paar dagen wachten, tot een droge werkdag. Zet wel een bak onder de plek en kijk na elke bui even of het erger wordt.`,
+        `Twijfel je, stuur dan een foto van de natte plek en van je dak vanaf de straat via WhatsApp. Dan zeg ik eerlijk of het vandaag moet of dat het kan wachten.`,
+      ] },
+      { kop: `Wat er gebeurt als je te lang wacht`, tekst: [
+        `<strong>Het hout wordt nat.</strong> Water loopt eerst over de panlatten, het dakbeschot of de folie voordat je het binnen ziet. Blijft dat hout steeds nat, dan gaat het op den duur rotten, en dan is een kleine reparatie een grotere klus geworden.`,
+        `<strong>De isolatie zuigt zich vol.</strong> Natte isolatie houdt minder warmte binnen en droogt slecht. Lees ook <a href="/kennisbank/isolatie-nat-na-lekkage/">isolatie nat na een lekkage</a>.`,
+        `<strong>Het plafond raakt beschadigd.</strong> Een kring wordt een bruine vlek, en bij meer water kan het stucwerk of de gipsplaat loslaten of gaan doorhangen. Zie <a href="/kennisbank/plafond-bolt-op-door-lekkage/">plafond bolt op door lekkage</a>.`,
+        `<strong>Schimmel.</strong> Waar het lang vochtig blijft, op zolder of in een hoek van de kamer, kan schimmel gaan groeien.`,
+        `<strong>In de winter wordt het erger.</strong> Bevriest het water in een scheur of onder een pan, dan zet het uit en wordt de kier groter. Lees ook <a href="/kennisbank/dak-repareren-in-de-winter/">dak repareren in de winter</a>.`,
+      ] },
+      { kop: `Wachten en je verzekering`, tekst: [
+        `Verzekeraars verwachten in de regel dat je de schade beperkt zodra je een lek ziet. Laat je een lek weken of maanden zitten, dan kan de verzekeraar de schade die daardoor erger is geworden zien als je eigen schuld of als achterstallig onderhoud. Hoe dat bij jou zit, staat in je polis. Maak foto's zodra je het lek ziet, ook als je nog even moet wachten. Lees ook <a href="/kennisbank/daklekkage-verzekering/">daklekkage en je verzekering</a>.`,
+      ] },
+      { kop: `Moet je even wachten? Dit doe je tot het gemaakt is`, tekst: [
+        `Vang het water op met een emmer of bak, leg er een handdoek of plastic onder en zet spullen opzij. Kijk op zolder of je veilig bij de plek kunt en zet daar ook een bak neer. Ga niet zelf het dak op en plak geen zeil of tape op natte pannen. Meer lees je in <a href="/kennisbank/daklek-tijdelijk-dichten/">daklek tijdelijk dichten</a>.`,
+      ] },
+      { kop: `Hoe ik het aanpak`, tekst: [
+        `Bij spoed zorg ik eerst dat het binnen droog blijft: een pan terugleggen, een open plek afdekken of een volle goot leegmaken. Daarna zoek ik waar het water echt binnenkomt en maak ik het lek dicht. Kan het wachten, dan plannen we een moment op een droge dag. Zie ook <a href="/diensten/daklekkage/">daklekkage opsporen en repareren</a>.`,
+      ] },
+      { kop: `Wat kost het?`, tekst: [
+        `Een lek opsporen en dichtmaken kost ${inclBtw("daklekkage")}. Is er door het wachten meer kapot, zoals rotte panlatten, dan is het meer werk. Je hoort de prijs voordat ik begin.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: daklekkage opsporen en repareren`, href: `/diensten/daklekkage/` },
+    faq: [
+      { v: `Kan een daklek een nacht wachten?`, a: `Vaak wel, als je het water goed kunt opvangen en het niet bij een lamp, een stopcontact of een opbollend plafond komt. Zet een emmer onder de druppel, leg er een handdoek onder en zet spullen opzij. Bolt het plafond op of komt het water bij de elektra, wacht dan niet en bel of app me met een foto.` },
+      { v: `Het lekt alleen bij een stortbui. Kan dat wachten?`, a: `Meestal een paar dagen, zolang het daarna weer opdroogt. Laat het niet de winter over zitten, want elke flinke bui maakt het hout eronder weer nat. Vaak zit het bij een goot die het water niet snel genoeg kwijt kan, of bij de afvoer van een plat dak.` },
+      { v: `Ik zie een oude, droge kring op het plafond. Moet daar nog iets aan gebeuren?`, a: `Zet met potlood een streepje langs de rand en kijk na de volgende flinke bui of hij groter wordt of weer nat aanvoelt. Blijft hij droog en even groot, dan is het lek misschien al eerder gemaakt. Wordt hij groter, dan lekt het nog, en dan laat je het beter nakijken voordat het hout erboven gaat rotten.` },
+      { v: `Hoe snel kun je komen?`, a: `Bel of app me met een foto van de natte plek, dan hoor je wanneer ik kan komen. Bij spoed in de regio Den Bosch lukt dat vaak nog dezelfde dag. Na een storm, als veel mensen tegelijk bellen, gaat een dak dat open ligt of waar het binnen nat wordt voor.` },
+    ],
+  },
 ];
 
 // Extra vragen bij bestaande artikelen. artikelen.ts is te groot om nog te laten groeien, daarom staan nieuwe vragen hier.
@@ -1535,4 +1579,5 @@ export const KORT_ANTWOORD: Record<string, string> = {
   "dak-lekt-bij-hevige-regen": `Lekt je dak alleen bij een stortbui en blijft het bij gewone regen droog, dan zit er meestal geen gat in je dak. Er valt dan in korte tijd zoveel water dat het ergens niet snel genoeg weg kan, vaak in een goot of kilgoot met blad erin, in een bakgoot of bij de afvoer van een plat dak. Het water komt dan hoger te staan dan dat stuk dak aankan en zoekt een weg naar binnen.`,
   "lekkage-gedeelde-schoorsteen": `Lekt het naast een schoorsteen die op de muur tussen jou en de buren staat, dan kan het lek net zo goed aan de kant van de buren zitten, want onder de pannen loopt het water vaak opzij. Meestal zit het in het lood rond de voet van de schoorsteen of in de kop bovenop. Laat beide kanten nakijken en spreek met je buren vooraf af wie wat betaalt.`,
   "kilgoot-lekt": `Lekt het in een hoek van je zolder of plafond, onder de plek waar twee dakvlakken samenkomen, dan zit het meestal in de kilgoot. Vaak ligt er blad of mos in, waardoor het water bij een flinke bui over de rand onder de pannen door loopt. Dan is leegmaken vaak genoeg. Zit er een scheur of gaatje in het lood of zink van de kil, dan moet die plek hersteld worden.`,
+  "daklek-hoe-lang-wachten": `Druppelt het binnen, bolt het plafond op, komt het water bij een lamp of stopcontact of ligt je dak na een storm open, dan moet het meteen gebeuren. Een oude, droge kring of een scheve pan terwijl het binnen droog blijft, kan meestal een paar dagen wachten tot een droge werkdag. Wacht geen weken, want elke bui maakt het hout en de isolatie eronder natter.`,
 };
