@@ -1642,6 +1642,9 @@ export const FAQ_ERBIJ: Record<string, Artikel["faq"]> = {
   "dakgoot-lekt": [
     { v: `Mijn dakgoot lekt alleen bij een flinke bui. Bij gewone regen blijft het droog. Hoe kan dat?`, a: `Dan staat het water bij een stortbui hoger in de goot dan normaal. Vaak kan het niet snel genoeg weg, omdat de uitloop naar de regenpijp half dicht zit met blad, of omdat er voor een lange goot maar één regenpijp is. Komt het water dan tot boven een naad of een hoek die niet meer helemaal dicht is, dan lekt het daar, terwijl die plek bij gewone regen droog blijft. Ook kan het water dan over de achterkant van de goot langs je muur lopen. Kijk tijdens een bui vanaf de straat waar het druppelt en of er bijna niets uit de regenpijp komt, en stuur me daar een foto of filmpje van via WhatsApp. Je hoort vooraf wat het kost.` },
   ],
+  "lekkage-muur-buren": [
+    { v: `Moet je voor de reparatie ook op het dak van de buren?`, a: `Soms wel. Zit het lek precies op de grens, dan moet ik vaak een paar pannen aan hun kant optillen om de aansluiting goed te maken, of daar mijn ladder neerzetten. Laat het je buren vooraf weten en vraag of ze het goed vinden. Hun pannen leg ik daarna weer netjes terug. Zit het lek aan hun kant, dan zeg ik dat eerlijk, en dan is het slim om samen af te spreken wie wat betaalt. Stuur me een foto van het dak vanaf de straat, met de grens tussen jullie huizen erop, dan hoor je vooraf wat het kost.` },
+  ],
 };
 
 // Kort antwoord bovenaan een artikel: één of twee zinnen met het directe antwoord, voor Google en AI. Bedragen alleen via inclBtw uit prijzen.ts, nooit met de hand.
