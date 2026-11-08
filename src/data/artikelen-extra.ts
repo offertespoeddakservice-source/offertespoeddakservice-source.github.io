@@ -1369,6 +1369,45 @@ export const ARTIKELEN_EXTRA: Artikel[] = [
       { v: `Mijn nok ligt droog, zonder specie. Kost repareren dan hetzelfde?`, a: `Niet altijd. Bij een droge nok zit elke vorst met een klem of schroef vast, en onder de vorsten ligt een strook die de nok dicht houdt. Is er één vorst losgeschoten, dan is dat een kleine reparatie. Is de strook eronder gescheurd of losgekomen, dan is het meer werk. Stuur een foto van de nok, dan hoor je vooraf wat het kost.` },
     ],
   },
+  {
+    slug: `lood-van-dak-gestolen`,
+    datum: `2026-11-08`,
+    titel: `Lood van je dak gestolen?`,
+    h1: `Lood van je dak gestolen: wat doe je nu?`,
+    metaTitle: `Lood van je dak gestolen: wat nu? | Spoed Dak Service`,
+    metaDescription: `Mist er lood rond je schoorsteen, langs een muur of onder je dakraam? Zo beperk je de schade, zo regel je aangifte en verzekering, en zo wordt je dak weer dicht.`,
+    intro: `Het komt voor dat er lood van een dak wordt gehaald, vooral van daken waar je makkelijk bij kunt, zoals bij een aanbouw, een garage of een plat dak naast het huis. Vaak merk je het pas bij de eerste bui: ineens is het nat naast de schoorsteen of onder het dakraam. Waar het lood weg is, ligt je dak open. Hieronder lees je wat je meteen doet, hoe je het regelt met de politie en je verzekering en hoe het weer dicht wordt.`,
+    secties: [
+      { kop: `Lekt het nu? Eerst dit`, tekst: [
+        `Zet een emmer onder de druppel, leg er een handdoek onder en haal spullen weg die nat kunnen worden. Zit de natte plek bij een lamp of stopcontact, zet dan in de meterkast de groep van die kamer uit. Ga niet zelf het dak op en klim ook niet op de aanbouw of de garage om te kijken, want waar het lood is weggetrokken kunnen pannen of de dakbedekking beschadigd zijn. Maak vanaf de grond een foto van de plek en een van de natte plek binnen. Wat je verder meteen kunt doen, staat op de <a href="/spoed/">spoedpagina</a>.`,
+      ] },
+      { kop: `Zo zie je dat er lood weg is`, tekst: [
+        `Rond de voet van de schoorsteen hoort een grijze strook te liggen die over de pannen valt. Ook langs een muur waar een lager dak tegen je huis zit, en onder een dakraam, ligt zo'n strook. Zie je daar nu kale steen, een open kier of een rij spijkers of klemmen zonder iets eronder, dan is het lood weg. Soms is er nog een gescheurd stuk blijven hangen, of liggen er pannen scheef op de plek waar het lood onder vandaan is getrokken. Waar het lood normaal zit, lees je in <a href="/kennisbank/lood-op-dak/">lood op je dak</a>.`,
+      ] },
+      { kop: `Aangifte en je verzekering`, tekst: [
+        `Doe aangifte bij de politie, ook als het om een klein stuk gaat, want je verzekeraar vraagt daar vaak om. Maak foto's van de plek waar het lood zat en van de schade binnen, voordat er iets wordt gemaakt. Of het nieuwe lood en de schade binnen worden vergoed, hangt af van je opstalverzekering en je polis. Bel je verzekeraar of kijk in je polisvoorwaarden. Ik maak foto's van wat ik aantref en van de reparatie, met een korte omschrijving, die je kunt meesturen. Lees ook <a href="/kennisbank/daklekkage-verzekering/">daklekkage en je verzekering</a>.`,
+      ] },
+      { kop: `Wat je zelf beter niet doet`, tekst: [
+        `Plak de open plek niet zelf af met tape, folie of kit vanaf een ladder of het dak. Op natte steen hecht dat niet, en een zeil vangt bij wind zoveel kracht dat het je zo van de ladder trekt. Vang het water liever binnen op en stuur me een foto.`,
+      ] },
+      { kop: `Hoe ik het aanpak`, tekst: [
+        `Lekt het, dan maak ik de plek eerst dicht, zodat het binnen droog blijft. Daarna leg ik nieuwe stroken rond de schoorsteen, langs de muur of onder het dakraam, en leg ik de pannen eromheen weer goed. Meestal werk ik met loodvervanger. Dat is lichter, laat zich goed vormen en is voor dieven niet interessant. Wil je liever echt lood, bijvoorbeeld bij een oud huis of een monument, dan kan dat ook. Zie <a href="/diensten/lood-vervangen/">lood vervangen</a>.`,
+      ] },
+      { kop: `Zeg het ook tegen je buren`, tekst: [
+        `Is er bij jou lood weggehaald, zeg het dan ook tegen je buren, zodat zij even naar hun schoorsteen en dakraam kunnen kijken. Ligt jouw dak tegen dat van de buren, dan kijk ik ook naar de aansluiting op de grens, zodat het daar dicht blijft. Zie ook <a href="/kennisbank/lekkage-muur-buren/">lekkage langs de muur met de buren</a>.`,
+      ] },
+      { kop: `Wat kost het?`, tekst: [
+        `Dat hangt af van hoeveel lood er weg is, of het om de schoorsteen, een muur of een dakraam gaat en of er binnen al schade is. Stuur een foto van de plek vanaf de straat en van de natte plek binnen via WhatsApp, dan hoor je vooraf wat het kost.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: lood vervangen`, href: `/diensten/lood-vervangen/` },
+    faq: [
+      { v: `Is gestolen lood spoed?`, a: `Regent het of wordt het binnen nat, dan wel: bel of app me met een foto, want waar het lood weg is, ligt je dak open. Is het droog en zie je binnen nog niets, dan kan het meestal een dag of twee wachten. Wacht niet tot na de volgende flinke bui.` },
+      { v: `Moet ik eerst aangifte doen voordat je het maakt?`, a: `De reparatie hoeft daar meestal niet op te wachten. Maak wel eerst foto's van de plek en van de schade binnen, en doe daarna zo snel mogelijk aangifte. Twijfel je, bel dan eerst even je verzekeraar.` },
+      { v: `Kun je het lood vervangen door iets wat niet gestolen wordt?`, a: `Ja. Meestal werk ik met loodvervanger. Van beneden lijkt dat op lood, maar het is voor dieven niet interessant. Bij een monument of een oud huis kan echt lood beter passen, en dat bespreek ik dan eerst met je.` },
+      { v: `Zie ik het altijd van buiten als er lood weg is?`, a: `Niet altijd. Rond een schoorsteen aan de voorkant zie je het vaak vanaf de straat, maar lood aan de achterkant of langs de muur van een aanbouw zie je pas vanuit de tuin of vanuit een raam boven. Wordt het ineens nat op een plek die altijd droog was, kijk dan vanaf de grond of uit een raam naar het lood boven die plek.` },
+    ],
+  },
 ];
 
 // Extra vragen bij bestaande artikelen. artikelen.ts is te groot om nog te laten groeien, daarom staan nieuwe vragen hier.
