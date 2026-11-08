@@ -20,13 +20,26 @@ const faq = [
   { v: "Kom je ook over de Waal, in Tiel of Culemborg?", a: "Ja. Tiel en Culemborg liggen aan de overkant van de Waal, in de Betuwe. Vanuit Den Bosch is dat ruim een half uur rijden. Een klus daar, zoals goten schoonmaken, een losse pan of lood bij de schoorsteen, plan ik vooraf met je in. Lekt het, stuur dan eerst een foto van de natte plek en van je dak vanaf de straat via WhatsApp. Dan hoor je eerlijk wanneer ik kan komen." },
 ];
 const faqSchema = { "@context": "https://schema.org", "@type": "FAQPage", mainEntity: faq.map((f) => ({ "@type": "Question", name: f.v, acceptedAnswer: { "@type": "Answer", text: f.a } })) };
+// Gestructureerde gegevens: het werkgebied als verzameling, met alle plaatspagina's (zoals bij /kennisbank/ en /diensten/).
+const lijstSchema = {
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  name: "Werkgebied van Spoed Dak Service",
+  url: `${SITE.url}/werkgebied/`,
+  inLanguage: "nl-NL",
+  publisher: { "@id": `${SITE.url}/#bedrijf` },
+  mainEntity: {
+    "@type": "ItemList",
+    itemListElement: PLAATSEN.map((p, i) => ({ "@type": "ListItem", position: i + 1, url: `${SITE.url}/werkgebied/${p.slug}/`, name: `Dakdekker in ${p.naam}` })),
+  },
+};
 ---
 
 <Base
   title={`Werkgebied: dakdekker regio Den Bosch | ${SITE.bedrijfsnaam}`}
   description="Waar ik als dakdekker kom: Den Bosch, Rosmalen, Vught, Oss, Veghel, Waalwijk, Boxtel en meer. Staat je plaats er niet bij? App me, dan zeg ik eerlijk of ik kan komen."
   path="/werkgebied"
-  schema={faqSchema}
+  schema={[faqSchema, lijstSchema]}
 >
   <section class="hero">
     <div class="wrap">
