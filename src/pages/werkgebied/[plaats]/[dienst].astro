@@ -156,6 +156,9 @@ const schema = [
       {(d.slug === "daklekkage" || d.slug === "stormschade") && (
         <p><strong>Komt er nu water binnen?</strong> Zet een emmer onder de druppel, haal spullen weg en ga niet zelf het dak op. Maak een foto van de natte plek en, als het lukt, van je dak vanaf de straat, en stuur die via <a href={waHref(`Hallo, ik heb een lek of schade aan mijn dak in ${p.naam}. Ik stuur je een foto.`)}>WhatsApp</a>. Dan zeg ik wat je nu zelf kunt doen en wanneer ik kan komen.</p>
       )}
+      {d.slug === "stormschade" && (
+        <p><strong>Na de storm: waar kijk je naar?</strong> Ga aan de overkant van de straat staan en zoom met je telefoon in op vijf plekken. De pannen langs de zijkant van je dak, die bij een storm het eerst gaan schuiven: zie <a href="/kennisbank/gevelpannen-los/">gevelpannen los</a>. De nok bovenop, en of er specie in de goot ligt: zie <a href="/kennisbank/nokvorsten-los/">losse nokvorsten</a>. De kap en het lood van de schoorsteen: zie <a href="/kennisbank/schoorsteen-na-storm/">schoorsteen na een storm</a>. De plank langs de schuine rand van je dak: zie <a href="/kennisbank/windveer-los-of-rot/">windveer los of rot</a>. En de goot, of die nog recht en vast hangt: zie <a href="/kennisbank/dakgoot-losgeraakt/">dakgoot losgeraakt</a>. Zie je iets, stuur dan een foto via <a href={waHref(`Hallo, ik zie na de storm iets aan mijn dak in ${p.naam}. Ik stuur je een foto.`)}>WhatsApp</a>.</p>
+      )}
       <p>{p.lokaal}</p>
       <ul>
         {d.punten.map((punt) => <li>{punt}</li>)}
