@@ -14,7 +14,13 @@ export function getStaticPaths() {
 const { p } = Astro.props;
 const path = `/werkgebied/${p.slug}`;
 const titel = `Dakdekker in ${p.naam}`;
-const metaTitel = `Dakdekker ${p.naam}: lekkage en dakwerk | ${SITE.bedrijfsnaam}`;
+// Titel per plaats waar vooral op een klus wordt gezocht ('dakreparatie eindhoven', 'dakgoot reparatie breda'). Lekkage zit hier niet in, want die plaatsen hebben een eigen lekkagepagina. De andere plaatsen houden de standaard.
+const METATITEL_PER_PLAATS: Record<string, string> = {
+  eindhoven: "Dakreparatie en dakgoten in Eindhoven",
+  helmond: "Dakreparatie en dakgoten in Helmond",
+  breda: "Dakreparatie en dakgoten in Breda",
+};
+const metaTitel = `${METATITEL_PER_PLAATS[p.slug] ?? `Dakdekker ${p.naam}: lekkage en dakwerk`} | ${SITE.bedrijfsnaam}`;
 const apkPrijs = PRIJZEN.find((r) => r.sleutel === "apk")?.prijs ?? "";
 const gotenPrijs = PRIJZEN.find((r) => r.sleutel === "goot_reinigen")?.prijs ?? "";
 const kleinPrijs = PRIJZEN.find((r) => r.sleutel === "dakpan")?.prijs ?? "";
