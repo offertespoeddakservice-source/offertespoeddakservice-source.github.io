@@ -1973,6 +1973,49 @@ export const ARTIKELEN_EXTRA: Artikel[] = [
       { v: `Is een lek bij de afvoer spoed?`, a: `Druppelt het in een kamer, bij een lamp of een stopcontact, of wordt het plafond bol, dan wel: bel of app me met een foto. Lekt het in een berging of garage op een plek waar niets kapot kan, dan kan het vaak een paar dagen wachten. Haal in de tussentijd het blad van de afvoer als je er veilig bij kunt, dan staat er minder water rond de uitloop.` },
     ],
   },
+  {
+    slug: `verzekering-betaalt-daklekkage-niet`,
+    datum: `2026-11-10`,
+    titel: `Verzekering betaalt je daklekkage niet?`,
+    h1: `Je verzekering betaalt de daklekkage niet: waarom, en wat kun je nog doen?`,
+    metaTitle: `Verzekering betaalt daklekkage niet? | Spoed Dak Service`,
+    metaDescription: `Wijst je verzekeraar de daklekkage af omdat het onderhoud zou zijn? Zo lees je de afwijzing, zo maak je bezwaar en daarom laat je het lek toch snel maken.`,
+    intro: `Je hebt de lekkage gemeld, en je verzekeraar laat weten dat hij niet betaalt. Vaak staat er dan iets als 'achterstallig onderhoud' of 'geleidelijk ontstaan'. Dat is zuur, zeker als je plafond net nat is geworden. Het korte antwoord: lees eerst waarom het is afgewezen, want de reparatie van het dak en de schade binnen worden vaak apart beoordeeld. Ben je het er niet mee eens, dan kun je bezwaar maken. En laat het lek ondertussen gewoon maken. Hieronder lees je hoe dat gaat.`,
+    secties: [
+      { kop: `Waarom een verzekeraar een daklek afwijst`, tekst: [
+        `Een opstalverzekering is meestal bedoeld voor schade die plotseling en onverwacht ontstaat, zoals een storm die pannen van je dak blaast. Een dak dat langzaam slijt, valt daar in de regel niet onder. Dit zijn de redenen die je het vaakst in een afwijzing leest.`,
+        `<strong>Onderhoud.</strong> Het lood rond de schoorsteen was na jaren gescheurd, de kit was uitgedroogd of de dakbedekking was op. Dat zien verzekeraars als slijtage die je had kunnen zien aankomen.`,
+        `<strong>Geleidelijk ontstaan.</strong> Het lekte al een tijd voordat je het merkte, bijvoorbeeld boven een plafond of achter een knieschot. Ook dat valt bij veel polissen buiten de dekking.`,
+        `<strong>Een fout bij de bouw of bij een eerdere reparatie.</strong> Is het dak niet goed gelegd, dan verwijst de verzekeraar je vaak naar wie het werk heeft gedaan. Is je huis nieuw, lees dan <a href="/kennisbank/nieuw-dak-lekt/">je dak is nieuw en lekt al</a>.`,
+      ] },
+      { kop: `Het dak en de schade binnen zijn twee verschillende dingen`, tekst: [
+        `Kijk goed wat er precies is afgewezen. Bij veel polissen betaalt de verzekeraar de reparatie van de oorzaak niet, zoals nieuw lood of een nieuwe pan, maar de waterschade binnen soms wel, als het water plotseling naar binnen kwam. Denk aan een plafond, een muur of een vloer. Schade aan je spullen hoort meestal bij je inboedelverzekering. Staat dat niet duidelijk in de brief, vraag het dan na. Wat er meestal wel en niet onder valt, lees je in <a href="/kennisbank/daklekkage-verzekering/">daklekkage en je verzekering</a>.`,
+      ] },
+      { kop: `Lees de afwijzing goed`, tekst: [
+        `Vraag de afwijzing op papier of per mail, met de reden en het artikel uit je polisvoorwaarden waar de verzekeraar zich op beroept. Leg dat naast je eigen polis. Kijk ook of iemand echt naar je dak heeft gekeken, of dat de beslissing alleen is genomen op foto's van de natte plek binnen.`,
+      ] },
+      { kop: `Ben je het er niet mee eens?`, tekst: [
+        `Reageer schriftelijk en leg uit waarom je denkt dat het wel plotseling ontstond. Bijvoorbeeld omdat het pas begon te lekken na een storm, of omdat je dak kort ervoor nog is nagekeken. Stuur foto's mee en, als je die hebt, een omschrijving van de dakdekker van wat hij op het dak aantrof.`,
+        `Blijft de verzekeraar bij zijn besluit, dan kun je een klacht indienen bij de klachtenafdeling van de verzekeraar zelf. Kom je er daarna nog niet uit, dan kun je terecht bij het Klachteninstituut Financiële Dienstverlening (Kifid). Daar gelden eigen regels en termijnen, dus kijk op hun site wat er voor jou geldt.`,
+      ] },
+      { kop: `Laat het lek toch snel maken`, tekst: [
+        `Een afwijzing is geen reden om te wachten. Elke bui maakt de schade binnen groter: natte isolatie, rot hout, schimmel en een plafond dat gaat bollen. Die extra schade wordt meestal ook niet vergoed, juist omdat je van het lek wist. Maak dus eerst foto's van alles, binnen en van je dak vanaf de straat, en laat het daarna maken. Bewaar de rekening en de foto's voor als je toch bezwaar maakt. Lees ook <a href="/kennisbank/daklek-hoe-lang-wachten/">hoe lang kun je wachten met een daklek?</a>`,
+      ] },
+      { kop: `Wat ik voor je doe`, tekst: [
+        `Ik zoek waar het water echt binnenkomt en maak foto's van wat ik aantref, bijvoorbeeld een pan die is weggewaaid, lood dat is losgescheurd of een naad die al lang open zat. Daar schrijf ik een korte omschrijving bij, zonder iets mooier of erger te maken dan het is. Die kun je naar je verzekeraar sturen. Of de schade gedekt is, beslist je verzekeraar, niet ik. Voor de reparatie hoor je vooraf wat het kost. Zie <a href="/diensten/daklekkage/">daklekkage opsporen en repareren</a>.`,
+      ] },
+      { kop: `Zo voorkom je een volgende afwijzing`, tekst: [
+        `Veel afwijzingen gaan over onderhoud dat te lang is blijven liggen. Laat je dak daarom eens in de paar jaar nakijken, en zeker na een flinke storm. Met de <a href="/dak-apk/">Dak-APK</a> krijg je een rapport met foto's van je hele dak, zodat je weet wat er moet gebeuren voordat het gaat lekken.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: daklekkage opsporen en repareren`, href: `/diensten/daklekkage/` },
+    faq: [
+      { v: `Betaalt de verzekering de schade binnen als de reparatie van het dak niet wordt vergoed?`, a: `Soms wel. Bij veel polissen valt de reparatie van de oorzaak, zoals versleten lood, er niet onder, maar de waterschade aan je plafond, muur of vloer wel, als het water plotseling naar binnen kwam. Schade aan je spullen hoort meestal bij je inboedelverzekering. Kijk in je polisvoorwaarden of vraag het je verzekeraar.` },
+      { v: `Mag ik het lek laten maken voordat de expert is geweest?`, a: `Overleg het eerst met je verzekeraar. Dreigt er meer schade, dan mag je die in de regel beperken, bijvoorbeeld door een open plek tijdelijk te laten afdekken. Maak vooraf foto's van alles en bewaar de kapotte stukken en de rekening.` },
+      { v: `Kun jij zeggen of mijn lek onder de verzekering valt?`, a: `Nee, dat beslist je verzekeraar. Ik kan wel laten zien wat ik op je dak aantref, met foto's en een korte omschrijving. Daarmee kan je verzekeraar beter beoordelen wat er is gebeurd.` },
+      { v: `Wat is het Kifid?`, a: `Het Klachteninstituut Financiële Dienstverlening. Daar kun je een klacht over je verzekeraar indienen als je er met de verzekeraar zelf niet uitkomt. Je moet eerst bij de klachtenafdeling van je verzekeraar zijn geweest. Op de site van het Kifid lees je hoe het werkt en welke termijnen er gelden.` },
+    ],
+  },
 ];
 
 // Extra vragen bij bestaande artikelen. artikelen.ts is te groot om nog te laten groeien, daarom staan nieuwe vragen hier.
@@ -2155,4 +2198,5 @@ export const KORT_ANTWOORD: Record<string, string> = {
   "dakpannen-vastzetten-tegen-storm": `Bij een storm komen de pannen het eerst los langs de zijkant van het dak, in de onderste rij boven de goot, vlak onder de nok en rond een dakraam, schoorsteen of zonnepanelen. Op veel oudere daken liggen de pannen nog los op de latten. Een stormhaak zet een pan aan de panlat vast, zodat hij bij een windstoot niet omhoog kan wippen. Daarvoor hoeft meestal niet het hele dak opnieuw gelegd te worden.`,
   "hoe-herken-je-een-betrouwbare-dakdekker": `Een betrouwbare dakdekker herken je aan een KvK-nummer dat je zelf kunt opzoeken, een vast adres en telefoonnummer, en een prijs op papier of in een appje voordat het werk begint. Vraag ook of hij verzekerd is als er bij het werk iets kapotgaat. Pas op als iemand onaangekondigd aanbelt of je onder druk zet om direct te beslissen. Extra werk hoort pas te beginnen nadat jij de prijs ervan hebt goedgekeurd.`,
   "plat-dak-lekt-bij-afvoer": `Lekt een plat dak bij de afvoer, dan zit het meestal in de aansluiting van de dakbedekking op de uitloop, die na jaren loslaat of scheurt. Vaak zit de afvoer ook half dicht met blad of grind, zodat het water rond de uitloop blijft staan en een kier vindt. Eerst de afvoer vrijmaken, dan de aansluiting goed dichtmaken.`,
+  "verzekering-betaalt-daklekkage-niet": `Een verzekeraar wijst een daklek vaak af als het om slijtage of achterstallig onderhoud gaat, of als het lek langzaam is ontstaan. De reparatie van het dak en de waterschade binnen worden soms apart beoordeeld. Ben je het er niet mee eens, reageer dan schriftelijk met foto's, en laat het lek ondertussen wel maken.`,
 };
