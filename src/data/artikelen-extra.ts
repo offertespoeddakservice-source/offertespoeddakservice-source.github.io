@@ -1918,6 +1918,9 @@ export const FAQ_ERBIJ: Record<string, Artikel["faq"]> = {
   "schoorsteen-afdekken": [
     { v: `Hoe zie ik vanaf de straat of er al een kap of afdekplaat op mijn schoorsteen zit?`, a: `Kijk vanaf de overkant van de straat naar de bovenkant van de schoorsteen, met de zoom van je telefoon. Een kap zie je als een kapje of plaatje dat een stukje boven de schoorsteen uitsteekt, met een open ruimte eronder. Een afdekplaat ligt plat bovenop en is vaak iets breder dan de schoorsteen. Zie je bovenop alleen de stenen en een donker gat, dan staat het kanaal open en valt de regen erin. Stuur me die foto via WhatsApp, dan zeg ik wat ik zie en wat erop kan.` },
   ],
+  "condens-of-lekkage-op-zolder": [
+    { v: `Het ruikt muf op mijn zolder. Is dat een lek of condens?`, a: `Dat kan allebei, en waar het ruikt zegt vaak genoeg. Ruikt het overal een beetje muf, vooral in de winter, en zie je op het hout of de folie kleine zwarte puntjes of een grijze waas, dan is het meestal condens: vocht uit je huis dat tegen het koude dak neerslaat en niet weg kan. Vaker luchten en het zolderraam of de ventilatie open laten helpt dan vaak al. Ruikt het vooral op één plek, en zie je daar een donkere kring, een natte rand op het hout of iets wat na een bui erger wordt, dan is het eerder een lek. Kijk na de volgende flinke bui met een zaklamp op die plek en stuur me een foto via WhatsApp. Dan zeg ik eerlijk of het bij het dak hoort.` },
+  ],
 };
 
 // Kort antwoord bovenaan een artikel: één of twee zinnen met het directe antwoord, voor Google en AI. Bedragen alleen via inclBtw uit prijzen.ts, nooit met de hand.
