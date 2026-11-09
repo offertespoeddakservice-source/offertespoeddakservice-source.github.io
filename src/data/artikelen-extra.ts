@@ -1735,6 +1735,44 @@ export const ARTIKELEN_EXTRA: Artikel[] = [
       { v: `Valt een beschadigde schoorsteen onder mijn verzekering?`, a: `Dat hangt af van je polis en van de oorzaak. Waait er bij een storm een kap los of scheurt het lood, dan wordt dat vaak vergoed. Waren de voegen of het lood al lang op, dan zien verzekeraars het meestal als onderhoud. Maak foto's voordat er iets gebeurt en meld het bij je verzekeraar. Van mij krijg je foto's van wat ik aantref en van de reparatie, met een korte omschrijving.` },
     ],
   },
+  {
+    slug: `huis-gekocht-dak-lekt`,
+    datum: `2026-11-09`,
+    titel: `Net een huis gekocht en het dak lekt?`,
+    h1: `Net een huis gekocht en het dak lekt: wat doe je nu?`,
+    metaTitle: `Huis gekocht en het dak lekt: wat nu? | Spoed Dak Service`,
+    metaDescription: `Lekt het dak van het huis dat je net hebt gekocht? Zo beperk je eerst de schade, leg je het lek vast voor de verkoper en zoek je uit wie de reparatie betaalt.`,
+    intro: `Je hebt net de sleutel, en bij de eerste flinke bui zie je een natte plek op zolder of op het plafond. Dat is schrikken, en je vraagt je meteen af of de verkoper dit wist. Hieronder lees je wat je eerst doet, hoe je het lek vastlegt en hoe je uitzoekt wie de reparatie betaalt. Ik ben dakdekker en geen jurist, dus voor dat laatste stuk wijs ik je de weg.`,
+    secties: [
+      { kop: `Eerst de schade beperken`, tekst: [
+        `Zet een emmer onder de druppel, leg handdoeken neer en haal spullen weg, zeker verhuisdozen die nog op zolder staan. Druppelt het bij een lamp of stopcontact, zet dan in de meterkast de groep van die kamer uit. Ga niet zelf het dak op. Wat je verder meteen kunt doen, staat op de <a href="/spoed/">spoedpagina</a>.`,
+      ] },
+      { kop: `Leg alles vast voordat er iets gerepareerd wordt`, tekst: [
+        `Maak foto's en een kort filmpje van de natte plek binnen, van de druppel en van het dak vanaf de straat. Schrijf erbij op welke dag het begon en wat voor weer het was. Bewaar ook het koopcontract, de lijst van zaken en eventueel het bouwkundig rapport. Wil de verkoper of je verzekeraar het lek eerst zelf zien, dan heb je zo bewijs van hoe het eruitzag.`,
+      ] },
+      { kop: `Had de verkoper het moeten melden?`, tekst: [
+        `Dat hangt af van wat er in je koopcontract staat en van wat de verkoper wist. Een verkoper moet gebreken die hij kent in de regel melden, en een koper moet zelf ook goed kijken. Was het lek te zien bij de bezichtiging, of staat er in het contract iets over het dak, dan ligt het weer anders. Meld het lek zo snel als je kunt bij de verkoper, het liefst per mail met de foto's erbij. Voor advies kun je terecht bij je rechtsbijstandsverzekering als je die hebt, bij het Juridisch Loket, of je vraagt het na bij je makelaar of notaris.`,
+      ] },
+      { kop: `Waar het lek vaak zit`, tekst: [
+        `Vaak is het geen nieuw lek, maar een plek die bij droog weer niet opviel. Bijvoorbeeld een pan die al langer scheef lag, lood rond de schoorsteen dat los is gaan zitten, of een goot die vol blad zit en overloopt. Een verse natte plek naast een oude, droge kring zegt vaak dat het al eerder heeft gelekt. Dat is handig om te weten, maar of het de verkoper iets aangaat, hangt af van wat hij wist. Lees ook <a href="/kennisbank/vochtplek-plafond/">vochtplek in het plafond</a> en <a href="/kennisbank/daklekkage-opsporen/">daklekkage opsporen</a>.`,
+      ] },
+      { kop: `Wacht niet te lang met repareren`, tekst: [
+        `Ook als nog niet duidelijk is wie betaalt, wil je niet dat het bij elke bui natter wordt. Het is vaak verstandig om het lek eerst te laten dichtmaken of tijdelijk te laten afdekken, nadat je hebt vastgelegd hoe het eruitzag. Wil de verkoper het eerst zien, laat hem dan weten dat het binnen druppelt en spreek snel een moment af. Bewaar de rekening van de reparatie.`,
+      ] },
+      { kop: `Hoe ik het aanpak`, tekst: [
+        `Ik zoek waar het water echt binnenkomt en maak het lek dicht. Daarbij maak ik foto's van wat ik aantref en van de reparatie, met een korte omschrijving van wat er mis was. Die kun je aan de verkoper, je makelaar of je verzekeraar laten zien. Zie ik dat de plek al langer lekt, bijvoorbeeld aan zacht hout of oude kringen, dan zeg ik dat eerlijk. Wil je meteen weten hoe de rest van je dak erbij ligt, dan kan dat met de <a href="/dak-apk/">Dak-APK</a>: een rapport met foto's van je hele dak, voor ${apkPrijs}.`,
+      ] },
+      { kop: `Wat kost het?`, tekst: [
+        `Een daklek opsporen en dichtmaken kost bij mij ${inclBtw("daklekkage")}. Is er meer nodig, zoals nieuw lood of een groter stuk dak, dan hoor je dat en de prijs voordat ik verder ga. Stuur een foto van de natte plek en van je dak vanaf de straat via WhatsApp.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: daklekkage opsporen en repareren`, href: `/diensten/daklekkage/` },
+    faq: [
+      { v: `Kan ik de kosten van de reparatie bij de verkoper terughalen?`, a: `Soms wel. Dat hangt af van je koopcontract, van wat de verkoper wist en van wat je bij de bezichtiging had kunnen zien. Meld het zo snel mogelijk bij de verkoper, met foto's en de datum, en vraag advies bij je rechtsbijstandsverzekering of het Juridisch Loket. Bewaar de rekening en de foto's van de reparatie.` },
+      { v: `Moet ik met repareren wachten tot de verkoper heeft gekeken?`, a: `Druppelt het binnen, wacht dan niet te lang, want de schade wordt bij elke bui groter. Maak eerst goede foto's en laat de verkoper weten dat het lekt. Wil hij het zelf zien, spreek dan snel een moment af. Lukt dat niet op korte termijn, dan kan ik het eerst tijdelijk afdekken, zodat het binnen droog blijft.` },
+      { v: `Ik heb het huis laten keuren. Waarom staat het lek niet in het rapport?`, a: `Een bouwkundige keuring is een momentopname. Op een droge dag zie je een lek vaak niet, en een keurder kan niet altijd van dichtbij naar elk stuk van het dak kijken. Kijk in je rapport wat er over het dak staat, bijvoorbeeld over de leeftijd van de pannen of het lood. Heb je vragen over het rapport, stel ze dan aan de keurder.` },
+    ],
+  },
 ];
 
 // Extra vragen bij bestaande artikelen. artikelen.ts is te groot om nog te laten groeien, daarom staan nieuwe vragen hier.
@@ -1883,4 +1921,5 @@ export const KORT_ANTWOORD: Record<string, string> = {
   "stormschade-eerste-hulp": `Na stormschade aan je dak ga je niet zelf het dak op en blijf je uit de buurt van losse pannen. Vang binnen het water op, maak foto's van de schade voor je verzekering en stuur ze via WhatsApp. Ligt je dak open of komt er water binnen, dan dek ik het eerst af. De nette reparatie volgt als het droog is.`,
   "bladvanger-dakgoot": `Een gaas, borstel of bolletje in je dakgoot houdt grof blad tegen, en daardoor hoeft de goot vaak minder vaak leeg. Het lost niet alles op: dennennaalden, mos en zand komen er toch onder, en een bolletje in de uitloop kan zelf verstopt raken, zodat de goot overloopt. Bij een lage goot onder een boom met groot blad helpt het vaak, bij veel dennen of mos meestal weinig.`,
   "schoorsteen-na-storm": `Na een storm zie je bij een schoorsteen meestal een van drie dingen: een kap of afdekplaat die scheef staat, lood aan de voet dat omhoog staat of is losgescheurd, of stenen en voegen bovenin die zijn losgeraakt. Dreigen er stenen te vallen boven de stoep of de weg, bel dan 112. Het lood en de kap herstel ik zelf, voor losse stenen heb je een metselaar nodig.`,
+  "huis-gekocht-dak-lekt": `Lekt het dak van je net gekochte huis, beperk dan eerst de schade en maak foto's van de natte plek en van het dak voordat er iets wordt gerepareerd. Meld het zo snel mogelijk bij de verkoper. Of die moet meebetalen, hangt af van je koopcontract en van wat hij wist. Laat het lek wel snel dichtmaken, want elke bui maakt de schade groter.`,
 };
