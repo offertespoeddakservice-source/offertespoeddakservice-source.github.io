@@ -23,13 +23,19 @@ const lijstSchema = {
     itemListElement: DIENSTEN.filter((d) => !d.verborgen).map((d, i) => ({ "@type": "ListItem", position: i + 1, url: `${SITE.url}/diensten/${d.slug}/`, name: d.titel })),
   },
 };
+const faq = [
+  { v: "Kun je meerdere klussen in één keer doen?", a: "Ja, en dat is vaak handig. Maak ik je goten leeg, dan kijk ik ook naar de nok, de pannen en het lood. Zit er iets los, dan hoor je eerst wat het kost om dat mee te nemen, en jij beslist of het in dezelfde keer gebeurt. Dan hoef ik niet twee keer te komen." },
+  { v: "Werk je ook aan het dak van een schuur, garage of berging?", a: "Ja. Lekt het dakleer of de dakbedekking van een schuur, garage, berging of aanbouw, dan repareer ik dat, en is het hout eronder rot, dan vervang ik dat als het nodig is. De goten van zo'n gebouw maak ik ook leeg. Liggen er grijze golfplaten van voor 1994 op, dan boor of zaag ik daar niet in, want daar kan asbest in zitten. Laat die eerst onderzoeken." },
+  { v: "Ik huur mijn huis of woon in een appartement. Kun je dan ook komen?", a: "Ja. Huur je, meld een lek of een kapotte goot dan eerst bij je verhuurder, want die is in de regel verantwoordelijk voor het dak en moet akkoord geven. Woon je in een appartement, dan is het dak meestal van de VvE. Vraagt je verhuurder of de VvE mij om te komen, of hebben jullie dat samen afgesproken, dan kijk ik waar het lekt en maak ik foto's van wat ik zie. Druppelt het nu, zet dan een emmer neer en stuur me een foto." },
+];
+const faqSchema = { "@context": "https://schema.org", "@type": "FAQPage", mainEntity: faq.map((f) => ({ "@type": "Question", name: f.v, acceptedAnswer: { "@type": "Answer", text: f.a } })) };
 ---
 
 <Base
   title={`Dakdekker diensten regio Den Bosch | ${SITE.bedrijfsnaam}`}
   description="Alle dakdiensten in de regio Den Bosch: daklekkage en spoed, goten reinigen en repareren, dakpannen, lood, platte daken (EPDM) en stormschade."
   path="/diensten"
-  schema={lijstSchema}
+  schema={[lijstSchema, faqSchema]}
 >
   <section class="hero">
     <div class="wrap">
@@ -77,6 +83,8 @@ const lijstSchema = {
       )}
     </div>
   </section>
+
+  <section class="section section--white"><div class="wrap"><h2>Vragen over mijn werk</h2><div class="faq" style="margin-top:16px; max-width:760px;">{faq.map((f) => (<details><summary>{f.v}</summary><p>{f.a}</p></details>))}</div></div></section>
 
   <!-- ANDERE VRAAG? (vangnet voor klussen die er niet bij staan) -->
   <section class="section section--navy" style="text-align:center;">
