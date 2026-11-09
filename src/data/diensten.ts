@@ -100,7 +100,7 @@ export const DIENSTEN: Dienst[] = [
     slug: "daklekkage",
     titel: "Daklekkage & spoed",
     vanafPrijs: LEK_PRIJS,
-    h1: "Daklekkage verhelpen: vaak dezelfde dag langs in de regio Den Bosch",
+    h1: "Daklekkage met spoed verhelpen: vaak dezelfde dag langs in de regio Den Bosch",
     kort: "Lek opsporen zonder sloopwerk en snel dichten, ook bij spoed.",
     metaTitle: "Daklekkage spoed: lek dichten Den Bosch | Spoed Dak Service",
     metaDescription:
