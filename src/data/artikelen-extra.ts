@@ -1857,6 +1857,44 @@ export const ARTIKELEN_EXTRA: Artikel[] = [
       { v: `Is een lek na werk bij de buren spoed?`, a: `Druppelt het binnen, of zit de natte plek bij een lamp of stopcontact, dan wel: bel of app me met een foto. Is het een vochtige plek langs de muur die alleen na harde regen terugkomt, dan heb je meestal een paar dagen om het met de buren te regelen. Laat het niet de hele winter zitten.` },
     ],
   },
+  {
+    slug: `dakgoot-schoonmaken-in-de-winter`,
+    datum: `2026-11-09`,
+    titel: `Dakgoot schoonmaken in de winter?`,
+    h1: `Dakgoot schoonmaken in de winter: kan dat nog, en wanneer wacht je beter?`,
+    metaTitle: `Dakgoot schoonmaken in de winter? | Spoed Dak Service`,
+    metaDescription: `Is het blad gevallen en zit je goot nog vol? Ook in de winter kan een goot leeg, op een droge dag zonder ijs. Zo zie je of het nog moet en waarom wachten tot het voorjaar riskant is.`,
+    intro: `Veel mensen denken pas aan hun dakgoot als het blad al gevallen is en de eerste vorst eraan komt. Is het dan te laat? Meestal niet. Hieronder lees je wanneer een goot in de winter nog leeg kan, wanneer je beter even wacht en waarom het niet tot het voorjaar moet blijven liggen.`,
+    secties: [
+      { kop: `Kan het nog?`, tekst: [
+        `Ja, meestal wel. Een goot leegmaken kan ook in december of januari, zolang het droog is en er geen ijs in de goot of sneeuw op het dak ligt. Na de bladval is het zelfs een goed moment, want dan ligt er een paar weken later niet alweer een nieuwe laag in.`,
+      ] },
+      { kop: `Wanneer je beter even wacht`, tekst: [
+        `Ligt er ijs in de goot of sneeuw op het dak, dan wacht ik tot het gedooid is. Bevroren blad zit vast in de goot, en wie het eruit hakt, beschadigt zo een zinken naad of een kunststof goot die door de kou bros is. Bij harde wind, of als de ladder op een gladde ondergrond moet staan, plan ik het ook op een andere dag. Dat geldt net zo goed als je het zelf wilt doen.`,
+      ] },
+      { kop: `Waarom je niet tot het voorjaar wacht`, tekst: [
+        `Een volle goot houdt water vast. Gaat het vriezen, dan zet dat water uit en drukt het naden en hoeken open, vooral bij zinken goten en bij een goot die een beetje doorhangt. Bij dooi kan het smeltwater nergens heen en loopt het terug onder de pannen of achter de goot langs de muur. Meer daarover lees je in <a href="/kennisbank/ijspegels-aan-dakgoot/">ijspegels aan je dakgoot</a> en <a href="/kennisbank/water-achter-dakgoot/">water achter de dakgoot</a>.`,
+      ] },
+      { kop: `Zo zie je of je goot nog vol zit`, tekst: [
+        `Kijk tijdens een bui vanaf de straat. Loopt het water over de voorkant van de goot, of komt er bijna niets uit de regenpijp, dan zit hij vol. Steken er plantjes of mos boven de goot uit, dan blijft er ook water in staan. Hoe vaak een goot leeg moet, lees je in <a href="/kennisbank/hoe-vaak-dakgoot-reinigen/">hoe vaak dakgoot reinigen</a>.`,
+      ] },
+      { kop: `Zelf doen in de winter?`, tekst: [
+        `Een lage goot aan een berging of een overkapping kun je op een droge dag zelf leegmaken. Hoe je dat veilig doet, lees je in <a href="/kennisbank/dakgoot-zelf-schoonmaken/">dakgoot zelf schoonmaken</a>. Een goot op hoogte laat je in de winter beter liggen. Een ladder op natte tegels of tegen een koude, gladde goot glijdt snel weg.`,
+      ] },
+      { kop: `Hoe ik het in de winter doe`, tekst: [
+        `Ik maak de goot leeg op een droge dag zonder ijs in de goot, maak de uitloop naar de regenpijp vrij en kijk meteen of er een naad of hoek lekt of dat de goot ergens doorhangt. Zie ik dat de vorst al een naad heeft opengedrukt, dan zeg ik dat eerlijk. Solderen of een goot van binnen coaten doe ik alleen als het droog is en niet vriest, want anders hecht het niet. Dan maak ik de goot eerst leeg, zodat het water weer naar de regenpijp loopt, en kom ik op een droge dag terug.`,
+      ] },
+      { kop: `Wat kost het?`, tekst: [
+        `Een goot schoonmaken kost bij mij ${inclBtw("goot_reinigen")} voor één goot, bijvoorbeeld alleen de voorgoot: goot leeg, de uitloop naar de regenpijp vrij en de troep gaat mee. Voor beide goten of een groter huis hoor je de prijs vooraf. Stuur gerust eerst een foto van je goot vanaf de straat. Zie ook <a href="/diensten/goten-reinigen/">dakgoot schoonmaken</a>.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: dakgoot schoonmaken`, href: `/diensten/goten-reinigen/` },
+    faq: [
+      { v: `Is het erg als mijn goot de hele winter vol blijft zitten?`, a: `Het hoeft niet meteen mis te gaan, maar de kans op schade wordt groter. Bij elke flinke bui loopt hij over langs je muur, en bij vorst kan het ijs een naad of hoek openduwen. Is de goot nu leeg, dan heb je daar de rest van de winter veel minder last van.` },
+      { v: `Kun je in de winter ook mijn regenpijp vrijmaken?`, a: `Zit de prop bovenin, bij de uitloop van de goot, dan maak ik die vrij als ik de goot leegmaak. Is de pijp lager bevroren, dan wacht ik tot het dooit, want ijs in een pijp krijg je er niet uit zonder iets te beschadigen.` },
+      { v: `Wanneer laat ik mijn goot het beste leegmaken?`, a: `Het liefst als het meeste blad gevallen is, in november of begin december. Dan blijft hij de rest van de winter vaak schoon. Staan er dennen of veel bomen vlak bij je huis, dan is het slim om in het voorjaar nog een keer te laten kijken.` },
+    ],
+  },
 ];
 
 // Extra vragen bij bestaande artikelen. artikelen.ts is te groot om nog te laten groeien, daarom staan nieuwe vragen hier.
@@ -2020,4 +2058,5 @@ export const KORT_ANTWOORD: Record<string, string> = {
   "lekkage-muur-buren": `Is het op zolder nat langs de muur met de buren, dan zit het lek vaak precies op de grens: bij de overgang tussen twee soorten pannen, waar de nokvorsten op elkaar aansluiten, bij de naad in de goot of bij het lood langs een muur die boven het dak uitsteekt. Het water kan ook aan de kant van de buren binnenkomen en naar jouw kant lopen. Laat daarom beide kanten nakijken en spreek met je buren af wie wat laat maken.`,
   "lood-op-dak": `Lood ligt op je dak overal waar de pannen ophouden: rond de schoorsteen, onder een dakraam, langs een muur en soms in de kilgoot. Het gaat vaak tientallen jaren mee. Dat het op is, zie je aan scheurtjes in de vouwen, een kier tussen het lood en de steen of lood dat omhoog krult. Vaak hoeft alleen dat stuk vastgezet of vervangen te worden. Meestal werk ik met loodvervanger, en met echt lood als je dat liever hebt.`,
   "lekkage-na-dakwerk-buren": `Lekt het bij jou sinds er aan het dak van de buren is gewerkt, dan zit het lek meestal op de grens: bij de overgang tussen hun nieuwe en jouw oude pannen, bij de nok, in de verbinding van de goot of bij een pan waar iemand op heeft gestaan. Maak foto's met de datum, praat eerst met je buren en vraag of hun dakdekker terugkomt. Lekt het nu, laat het dan eerst waterdicht maken.`,
+  "dakgoot-schoonmaken-in-de-winter": `Een dakgoot schoonmaken kan ook in de winter, op een droge dag zonder ijs in de goot of sneeuw op het dak. Ligt er ijs, wacht dan tot het dooit en hak het er niet uit. Wacht niet tot het voorjaar, want water in een volle goot bevriest en kan naden en hoeken openduwen.`,
 };
