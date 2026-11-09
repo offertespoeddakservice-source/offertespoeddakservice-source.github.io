@@ -1895,6 +1895,42 @@ export const ARTIKELEN_EXTRA: Artikel[] = [
       { v: `Wanneer laat ik mijn goot het beste leegmaken?`, a: `Het liefst als het meeste blad gevallen is, in november of begin december. Dan blijft hij de rest van de winter vaak schoon. Staan er dennen of veel bomen vlak bij je huis, dan is het slim om in het voorjaar nog een keer te laten kijken.` },
     ],
   },
+  {
+    slug: `dakgoot-schoonmaken-huurder-of-verhuurder`,
+    datum: `2026-11-09`,
+    titel: `Dakgoot schoonmaken: huurder of verhuurder?`,
+    h1: `Wie maakt de dakgoot schoon: de huurder of de verhuurder?`,
+    metaTitle: `Goot schoonmaken: huurder of verhuurder? | Spoed Dak Service`,
+    metaDescription: `Huur je en zit de dakgoot vol? Een lage goot waar je veilig bij kunt, is vaak jouw klus, een goot op hoogte meestal die van de verhuurder. Zo zit het en zo regel je het.`,
+    intro: `Huur je je huis en loopt de dakgoot bij een bui over, dan wil je weten wie hem moet laten schoonmaken: jij of je verhuurder. Dat hangt af van je huurcontract en van hoe goed je bij de goot kunt. Hieronder lees je hoe het meestal zit, wat je zelf kunt doen en wat ik doe als een huurder of een verhuurder me belt.`,
+    secties: [
+      { kop: `Hoe het meestal zit`, tekst: [
+        `In de regel zijn kleine dingen die je makkelijk en veilig zelf kunt doen voor de huurder. Denk aan het gootje van een lage berging of een overkapping, waar je vanaf de grond of een trapje bij kunt. Een dakgoot op hoogte, waar een lange ladder of een steiger voor nodig is, hoort meestal bij de verhuurder. Dat geldt ook voor een goot die lekt, doorhangt of los zit: repareren is in de regel de zaak van de eigenaar.`,
+        `Wat er bij jou precies geldt, staat in je huurcontract. Twijfel je, vraag het dan na bij je verhuurder of kijk bij het Juridisch Loket.`,
+      ] },
+      { kop: `Huur je van een woningcorporatie?`, tekst: [
+        `Kijk dan op hun website bij onderhoud of reparaties. Daar staat vaak precies wie wat doet, en soms kun je voor klein onderhoud, zoals de goot, een onderhoudsabonnement afsluiten. Huur je van een particuliere verhuurder, meld het dan gewoon met een foto.`,
+      ] },
+      { kop: `Zo meld je het`, tekst: [
+        `Maak tijdens of vlak na een bui een foto of filmpje van de goot die overloopt. Wordt het binnen of tegen de muur nat, maak daar dan ook een foto van. Stuur het naar je verhuurder, met de datum erbij, en bewaar dat bericht. Loopt het water al naar binnen, zeg dat er dan duidelijk bij, want dan is het geen klein klusje meer. Lees ook <a href="/kennisbank/lekkage-huurhuis/">lekkage in een huurhuis</a>.`,
+      ] },
+      { kop: `Zelf schoonmaken? Alleen als het veilig kan`, tekst: [
+        `Een lage goot aan een berging of een overkapping kun je vaak zelf leegmaken. Hoe je dat veilig doet, lees je in <a href="/kennisbank/dakgoot-zelf-schoonmaken/">dakgoot zelf schoonmaken</a>. Een goot op de eerste verdieping of hoger laat je beter liggen, ook als je het zelf zou mogen. Van een ladder tegen een volle, natte goot val je zo.`,
+      ] },
+      { kop: `Wat ik doe als een huurder of verhuurder belt`, tekst: [
+        `Ben je verhuurder, dan spreek ik een moment af met je huurder, zodat je er zelf niet bij hoeft te zijn. Ben je huurder en wil je het zelf laten doen, bijvoorbeeld omdat het in je contract staat of omdat je verhuurder dat goed vindt, dan kan dat ook. Zie ik bij het schoonmaken dat de goot lekt of los hangt, dan zeg ik dat eerlijk en maak ik er een foto van, zodat je het aan je verhuurder kunt laten zien.`,
+      ] },
+      { kop: `Wat kost het?`, tekst: [
+        `Eén goot schoonmaken, bijvoorbeeld alleen de voorgoot, kost bij mij ${inclBtw("goot_reinigen")}: goot leeg, de uitloop naar de regenpijp vrij en de troep gaat mee. Voor beide goten of een groter huis hoor je de prijs vooraf. Zo kunnen huurder en verhuurder vooraf afspreken wie de rekening krijgt. Zie ook <a href="/diensten/goten-reinigen/">dakgoot schoonmaken</a>.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: dakgoot schoonmaken`, href: `/diensten/goten-reinigen/` },
+    faq: [
+      { v: `Mijn verhuurder reageert niet en de goot loopt bij elke bui over. Wat nu?`, a: `Stuur nog een keer een bericht met foto's en de datum, en bewaar alles. Loopt het water naar binnen, zet dat er dan duidelijk bij. Reageert je verhuurder ook dan niet, kijk dan bij het Juridisch Loket of de Huurcommissie wat je kunt doen. Laat je het zelf doen, spreek dan eerst af wie betaalt, anders blijf je misschien zelf met de rekening zitten.` },
+      { v: `Wie betaalt als er door een volle goot schade binnen komt?`, a: `Dat hangt af van de oorzaak en van je contract. Schade aan het huis zelf is meestal iets voor de verhuurder en zijn opstalverzekering, schade aan je eigen spullen voor je eigen inboedelverzekering. Meer lees je in het artikel over een lekkende dakgoot en je verzekering.` },
+      { v: `Hoe vaak moet de goot van een huurhuis leeg?`, a: `Net als bij elk ander huis: meestal één keer per jaar, het liefst in het najaar als het blad gevallen is. Staan er bomen vlak bij het huis, dan soms twee keer.` },
+    ],
+  },
 ];
 
 // Extra vragen bij bestaande artikelen. artikelen.ts is te groot om nog te laten groeien, daarom staan nieuwe vragen hier.
@@ -2059,4 +2095,5 @@ export const KORT_ANTWOORD: Record<string, string> = {
   "lood-op-dak": `Lood ligt op je dak overal waar de pannen ophouden: rond de schoorsteen, onder een dakraam, langs een muur en soms in de kilgoot. Het gaat vaak tientallen jaren mee. Dat het op is, zie je aan scheurtjes in de vouwen, een kier tussen het lood en de steen of lood dat omhoog krult. Vaak hoeft alleen dat stuk vastgezet of vervangen te worden. Meestal werk ik met loodvervanger, en met echt lood als je dat liever hebt.`,
   "lekkage-na-dakwerk-buren": `Lekt het bij jou sinds er aan het dak van de buren is gewerkt, dan zit het lek meestal op de grens: bij de overgang tussen hun nieuwe en jouw oude pannen, bij de nok, in de verbinding van de goot of bij een pan waar iemand op heeft gestaan. Maak foto's met de datum, praat eerst met je buren en vraag of hun dakdekker terugkomt. Lekt het nu, laat het dan eerst waterdicht maken.`,
   "dakgoot-schoonmaken-in-de-winter": `Een dakgoot schoonmaken kan ook in de winter, op een droge dag zonder ijs in de goot of sneeuw op het dak. Ligt er ijs, wacht dan tot het dooit en hak het er niet uit. Wacht niet tot het voorjaar, want water in een volle goot bevriest en kan naden en hoeken openduwen.`,
+  "dakgoot-schoonmaken-huurder-of-verhuurder": `In de regel maakt de huurder kleine dingen schoon waar hij makkelijk en veilig bij kan, zoals het gootje van een lage berging of overkapping. Een dakgoot op hoogte, waar een lange ladder of steiger voor nodig is, hoort meestal bij de verhuurder, net als een goot die lekt of los hangt. Wat er bij jou geldt, staat in je huurcontract.`,
 };
