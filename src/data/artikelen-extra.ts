@@ -1694,6 +1694,47 @@ export const ARTIKELEN_EXTRA: Artikel[] = [
       { v: `Helpt een gaas tegen dennennaalden?`, a: `Meestal niet goed. Naalden zijn dun en glijden door de meeste gazen en borstels heen, of blijven erin steken. Staat je huis tussen de dennen, dan is de goot op tijd leegmaken vaak beter.` },
     ],
   },
+  {
+    slug: `schoorsteen-na-storm`,
+    datum: `2026-11-09`,
+    titel: `Schoorsteen beschadigd na storm?`,
+    h1: `Schoorsteen beschadigd na een storm: kap scheef, lood los of stenen los`,
+    metaTitle: `Schoorsteen beschadigd na storm: wat nu? | Spoed Dak Service`,
+    metaDescription: `Staat de kap op je schoorsteen scheef, ligt er lood los of vallen er stenen na een storm? Zo kijk je veilig, wat je meteen doet en wat er gerepareerd moet worden.`,
+    intro: `Een schoorsteen steekt boven het dak uit, en daar pakt de wind hem van alle kanten. Na een flinke storm zie je soms dat de kap scheef staat, dat er een strook lood omhoog staat of dat er stukjes steen of voeg in de goot of op de stoep liggen. Hieronder lees je hoe je dat veilig bekijkt, wanneer het spoed is en wat er gemaakt moet worden.`,
+    secties: [
+      { kop: `Eerst veilig`, tekst: [
+        `Liggen er stenen of stukken voeg op de stoep, of staat de schoorsteen zichtbaar scheef, blijf dan uit de buurt van die kant van het huis en zet de auto ergens anders neer. Dreigt er iets te vallen boven de stoep of de weg, bel dan 112, dan kan de brandweer de plek afzetten. Ga zelf niet het dak op en zet geen ladder tegen de schoorsteen of de goot. Wat je binnen meteen kunt doen als het lekt, staat op de <a href="/spoed/">spoedpagina</a>.`,
+      ] },
+      { kop: `Zo kijk je vanaf de straat`, tekst: [
+        `Ga aan de overkant van de straat staan, of kijk vanuit een raam boven, en zoom met je telefoon in op de schoorsteen. Let op vier dingen: staat de kap of de afdekplaat bovenop nog recht, ligt het lood aan de voet nog plat over de pannen, zitten er gaten in de voegen of ontbreken er stenen, en liggen de pannen rond de schoorsteen nog op hun plek. Maak er een paar foto's van, ook van wat er op de grond ligt.`,
+      ] },
+      { kop: `Wat je vaak ziet na een storm`, tekst: [
+        `Een kap of afdekplaat die scheef staat of los ligt. Die zit vaak met een paar schroeven of klemmen vast, en na jaren roesten die door. Een losse kap kan bij de volgende storm van het dak waaien, en zonder kap regent het in het kanaal.`,
+        `Lood dat omhoog staat of is losgescheurd. Het lood aan de voet van de schoorsteen zorgt dat het water over de pannen wegloopt. Staat er een strook open, dan waait de regen erachter en zie je binnen een natte plek naast de schoorsteen. Lees ook <a href="/kennisbank/lood-op-dak/">lood op je dak</a>.`,
+        `Losse stenen of voegen bovenin. Het bovenste stuk van een schoorsteen krijgt de meeste regen en wind. Brokkelen de voegen al, dan kan een storm er stukken uit trekken.`,
+        `Een band of beugel van een oude antenne die is losgetrokken. Hangt die nog aan de schoorsteen, dan trekt hij bij elke windstoot aan het metselwerk en het lood. Zie <a href="/diensten/antenne-verwijderen/">antenne of schotel weghalen</a>.`,
+      ] },
+      { kop: `Is het spoed?`, tekst: [
+        `Ja, als er stenen dreigen te vallen, als de schoorsteen zichtbaar scheef staat, of als het binnen naast de schoorsteen druppelt. Bel of app me dan met een foto. Staat alleen de kap een beetje scheef en blijft het binnen droog, dan kan het meestal een paar dagen wachten. Wacht niet tot de volgende storm, want dan wordt het vaak erger.`,
+      ] },
+      { kop: `Stook je op de schoorsteen?`, tekst: [
+        `Laat de kachel of open haard dan uit tot de schoorsteen is nagekeken. Er kunnen stukken steen of een losgeraakte kap in het kanaal zijn gevallen, en dan kan de rook niet goed weg. Laat het kanaal nakijken door een schoorsteenveger voordat je weer stookt. Lekt het bij de afvoer van je cv-ketel, kijk dan bij <a href="/kennisbank/lekkage-bij-dakdoorvoer/">lekkage bij een dakdoorvoer</a>.`,
+      ] },
+      { kop: `Hoe ik het aanpak`, tekst: [
+        `Ik kijk eerst of het veilig is om bij de schoorsteen te werken. Lekt het, dan maak ik de plek eerst dicht. Losgeraakt lood zet ik weer vast of vervang ik, meestal met loodvervanger en met echt lood als je dat liever hebt. Een scheve of losse kap of afdekplaat zet ik weer vast of vervang ik door een die past. Pannen rond de schoorsteen die zijn gaan schuiven, leg ik terug. Zijn de stenen of voegen zelf beschadigd, dan zeg ik dat eerlijk, want metselwerk doe ik niet. Daarvoor heb je een metselaar nodig. Zie ook <a href="/diensten/lood-vervangen/">lood vervangen</a> en <a href="/diensten/stormschade/">stormschade</a>.`,
+      ] },
+      { kop: `Wat kost het?`, tekst: [
+        `Dat hangt af van wat er stuk is en hoe goed ik bij de schoorsteen kan. Een kap vastzetten is iets anders dan nieuw lood rondom. Stuur een foto van de schoorsteen vanaf de straat en, als het lekt, van de natte plek binnen. Dan hoor je vooraf wat het kost. Stormschade valt vaak onder je opstalverzekering, dus maak foto's voordat er iets wordt weggehaald. Lees ook <a href="/kennisbank/daklekkage-verzekering/">daklekkage en je verzekering</a>.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: lood vervangen`, href: `/diensten/lood-vervangen/` },
+    faq: [
+      { v: `Mag ik de kachel gebruiken als de kap van mijn schoorsteen scheef staat?`, a: `Liever niet tot het is nagekeken. Een scheve kap kan de rook tegenhouden, en er kunnen stukken in het kanaal zijn gevallen. Laat de kachel of haard uit, laat de kap weer goed zetten en laat het kanaal daarna nakijken door een schoorsteenveger.` },
+      { v: `Er ligt een stuk steen in mijn tuin. Komt dat van de schoorsteen?`, a: `Vaak wel, zeker als het een stuk baksteen is met een randje voeg eraan. Een stuk dakpan is dunner en heeft aan de achterkant vaak een ribbel of een nokje. Bewaar het stuk, maak er een foto van en kijk vanaf de straat of er bovenin de schoorsteen iets mist. Stuur die foto's via WhatsApp, dan zeg ik wat ik zie.` },
+      { v: `Valt een beschadigde schoorsteen onder mijn verzekering?`, a: `Dat hangt af van je polis en van de oorzaak. Waait er bij een storm een kap los of scheurt het lood, dan wordt dat vaak vergoed. Waren de voegen of het lood al lang op, dan zien verzekeraars het meestal als onderhoud. Maak foto's voordat er iets gebeurt en meld het bij je verzekeraar. Van mij krijg je foto's van wat ik aantref en van de reparatie, met een korte omschrijving.` },
+    ],
+  },
 ];
 
 // Extra vragen bij bestaande artikelen. artikelen.ts is te groot om nog te laten groeien, daarom staan nieuwe vragen hier.
@@ -1841,4 +1882,5 @@ export const KORT_ANTWOORD: Record<string, string> = {
   "dak-lekt-bij-sneeuw-of-vorst": `Lekt het bij sneeuw of dooi, dan is het vaak stuifsneeuw die bij harde wind tussen de pannen door op zolder waait en later smelt. Of het smeltwater kan niet weg, omdat de goot of de kilgoot vol ijs zit en het water onder de pannen terugloopt. Blijft het bij gewone regen droog, dan zit er meestal geen gat in je dak.`,
   "stormschade-eerste-hulp": `Na stormschade aan je dak ga je niet zelf het dak op en blijf je uit de buurt van losse pannen. Vang binnen het water op, maak foto's van de schade voor je verzekering en stuur ze via WhatsApp. Ligt je dak open of komt er water binnen, dan dek ik het eerst af. De nette reparatie volgt als het droog is.`,
   "bladvanger-dakgoot": `Een gaas, borstel of bolletje in je dakgoot houdt grof blad tegen, en daardoor hoeft de goot vaak minder vaak leeg. Het lost niet alles op: dennennaalden, mos en zand komen er toch onder, en een bolletje in de uitloop kan zelf verstopt raken, zodat de goot overloopt. Bij een lage goot onder een boom met groot blad helpt het vaak, bij veel dennen of mos meestal weinig.`,
+  "schoorsteen-na-storm": `Na een storm zie je bij een schoorsteen meestal een van drie dingen: een kap of afdekplaat die scheef staat, lood aan de voet dat omhoog staat of is losgescheurd, of stenen en voegen bovenin die zijn losgeraakt. Dreigen er stenen te vallen boven de stoep of de weg, bel dan 112. Het lood en de kap herstel ik zelf, voor losse stenen heb je een metselaar nodig.`,
 };
