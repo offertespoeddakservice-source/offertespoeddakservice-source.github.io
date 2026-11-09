@@ -90,7 +90,7 @@ const ONDERWERPEN: string[][] = [
 ];
 const groep = ONDERWERPEN.find((g) => g.includes(a.slug)) ?? [];
 // Spoedregel na het eerste stuk tekst: alleen bij artikelen over lekkage en storm, en alleen als daar nog geen link naar /spoed/ staat.
-const LEK_ARTIKELEN = new Set([...ONDERWERPEN[0], ...ONDERWERPEN[2], "bakgoot-lekt", "lekkage-bij-dakdoorvoer", "lood-op-dak", "lekkage-bij-aanbouw", "daktrim-lekt", "regenpijp-in-de-muur-lekt", "dakleer-repareren", "epdm-dak-lekt", "plat-dak-vervangen-of-repareren", "veranda-of-overkapping-lekt", "lichtstraat-lekt"]);
+const LEK_ARTIKELEN = new Set([...ONDERWERPEN[0], ...ONDERWERPEN[2], "bakgoot-lekt", "lekkage-bij-dakdoorvoer", "lood-op-dak", "lekkage-bij-aanbouw", "daktrim-lekt", "regenpijp-in-de-muur-lekt", "dakleer-repareren", "epdm-dak-lekt", "plat-dak-vervangen-of-repareren", "veranda-of-overkapping-lekt", "lichtstraat-lekt", "lekkage-bij-kachelpijp", "lood-van-dak-gestolen", "lekkage-weggehaalde-schoorsteen", "golfplaten-lekken", "plat-dak-lekt-bij-afvoer"]);
 const toonSpoedregel = LEK_ARTIKELEN.has(a.slug) && !(a.secties[0]?.tekst ?? []).some((t) => t.includes('href="/spoed/"'));
 // Gootartikelen: een gewone zin met links naar dakgoot repareren of vervangen per plaats. Niet bij bakgoot-lekt, die heeft de lekkagezin al.
 const GOOT_ARTIKELEN = new Set(["dakgoot-lekt", "verstopte-regenpijp-lekkende-dakgoot", "water-achter-dakgoot", "dakgoot-lekt-bij-regenpijp", "kunststof-dakgoot-lekt", "lekkende-dakgoot-tijdelijk-oplossen", "lekkende-dakgoot-verzekering", "dakgoot-loopt-over", "dakgoot-losgeraakt", "gedeelde-dakgoot-lekt", "dakgoot-zink-of-kunststof"]);
