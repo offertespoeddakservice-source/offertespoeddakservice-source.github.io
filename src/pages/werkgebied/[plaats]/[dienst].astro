@@ -72,6 +72,10 @@ const WAT_PER_DIENST: Record<string, string> = { daklekkage: "daklekkage opspore
 const watZin = WAT_PER_DIENST[d.slug] ?? d.titel.toLowerCase();
 const KLUS_NAAM: Record<string, string> = { daklekkage: "Daklekkage", "dakgoot-vervangen": "Dakgoot repareren of vervangen", "goten-reinigen": "Dakgoot schoonmaken", stormschade: "Stormschade", dakreparatie: "Dakreparatie", dakrenovatie: "Dakrenovatie" };
 const waarZin = p.slug === "den-bosch" ? "in de hele stad en de dorpen eromheen" : `in ${p.naam} en omgeving`;
+// Gemeente en provincie per plaats, voor 'In het kort' en de gegevens voor Google en AI (gelijk aan de plaatspagina).
+const GEMEENTE: Record<string, string> = { rosmalen: "'s-Hertogenbosch", "den-bosch": "'s-Hertogenbosch", vught: "Vught", vlijmen: "Heusden", drunen: "Heusden", heusden: "Heusden", berlicum: "Sint-Michielsgestel", "sint-michielsgestel": "Sint-Michielsgestel", schijndel: "Meierijstad", veghel: "Meierijstad", boxtel: "Boxtel", oss: "Oss", oisterwijk: "Oisterwijk", wijchen: "Wijchen", waalwijk: "Waalwijk", uden: "Maashorst", tilburg: "Tilburg", breda: "Breda", helmond: "Helmond", eindhoven: "Eindhoven" };
+const gemeente = GEMEENTE[p.slug];
+const provincie = p.slug === "wijchen" ? "Gelderland" : "Noord-Brabant";
 
 // Verder lezen bij lekkage en storm: gewone zinnen met links naar de spoedpagina en de kennisbank.
 const verderLezen: Record<string, string> = {
@@ -119,7 +123,7 @@ const schema = [
     serviceType: KLUS_NAAM[d.slug] ?? d.titel,
     description: `Spoed Dak Service is een dakdekker uit 's-Hertogenbosch voor ${watZin} ${waarZin}.`,
     provider: { "@type": "RoofingContractor", "@id": `${SITE.url}/#bedrijf`, name: SITE.bedrijfsnaam, telephone: `+${SITE.telefoonE164}` },
-    areaServed: { "@type": "City", name: p.naam },
+    areaServed: { "@type": "City", name: p.slug === "den-bosch" ? "'s-Hertogenbosch" : p.naam, ...(p.slug === "den-bosch" ? { alternateName: "Den Bosch" } : {}), containedInPlace: gemeente ? { "@type": "AdministrativeArea", name: `gemeente ${gemeente}`, containedInPlace: { "@type": "State", name: provincie } } : { "@type": "State", name: provincie } },
     url: `${SITE.url}${path}/`,
   },
   {
@@ -181,6 +185,15 @@ const schema = [
           <p set:html={verder} />
         </>
       )}
+      <h3>In het kort</h3>
+      <ul>
+        <li><strong>Wie:</strong> Spoed Dak Service, het bedrijf van {SITE.eigenaar}, dakdekker uit 's-Hertogenbosch.</li>
+        <li><strong>Klus:</strong> {KLUS_NAAM[d.slug] ?? d.titel} in {p.naam}{gemeente && gemeente !== p.naam ? ` (gemeente ${gemeente})` : ""}.</li>
+        <li><strong>Afstand:</strong> {p.reistijd ?? SITE.regioOmschrijving}.</li>
+        <li><strong>Contact:</strong> bellen of WhatsApp op <a href={telHref}>{SITE.telefoonWeergave}</a>, dag en nacht bereikbaar.</li>
+        <li><strong>Prijs:</strong> je hoort de vaste prijs voordat ik begin.</li>
+        <li><strong>Verzekerd:</strong> bedrijfsaansprakelijk verzekerd.</li>
+      </ul>
       {d.slug === "daklekkage" && (
         <>
           <h3>Foto's uit mijn werk</h3>
