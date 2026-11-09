@@ -2087,6 +2087,9 @@ export const FAQ_ERBIJ: Record<string, Artikel["faq"]> = {
   "lekkage-gedeelde-schoorsteen": [
     { v: `Ik wil het lood aan mijn kant laten vernieuwen, maar de buren niet. Kan dat?`, a: `Dat kan. Het lood aan jouw kant van de schoorsteen kan los van dat van de buren worden vernieuwd. Op de grens, midden op de schoorsteen, laat ik het nieuwe lood goed aansluiten op het oude lood van de buren, zodat het water daar niet achter kan lopen. Zie ik dat het lood aan hun kant ook op is, dan zeg ik dat eerlijk en maak ik er een foto van, die je aan je buren kunt laten zien. Zit het lek bovenin, in de kop of de afdekplaat van de schoorsteen, dan helpt alleen jouw kant vernieuwen niet, en is het slim om dat samen te laten doen. Je hoort vooraf wat het kost.` },
   ],
+  "hoe-vaak-dakgoot-reinigen": [
+    { v: `De boom van de buren hangt boven mijn dak en het blad valt in mijn goot. Wat kan ik doen?`, a: `Praat eerst met je buren. Hangt er een tak over jouw dak, vraag dan of ze die laten terugsnoeien, want zo'n tak geeft niet alleen blad in je goot, maar kan bij een storm ook op je pannen slaan. Kom je er samen niet uit, dan kun je advies vragen bij het Juridisch Loket. Tot die tijd helpt het om je goot vaker te laten leegmaken: laat in het najaar, als de boom kaal is, en bij veel blad nog een keer in het voorjaar. Een bladvanger of gaas houdt grof blad tegen, maar lost het niet helemaal op. Stuur me een foto van je goot vanaf de straat via WhatsApp, dan hoor je vooraf wat het kost.` },
+  ],
 };
 
 // Kort antwoord bovenaan een artikel: één of twee zinnen met het directe antwoord, voor Google en AI. Bedragen alleen via inclBtw uit prijzen.ts, nooit met de hand.

@@ -1032,7 +1032,7 @@ export const ARTIKELEN: Artikel[] = [
     secties: [
       { kop: "Eén keer per jaar, vaker bij bomen", tekst: [
         "Voor de meeste huizen is één keer per jaar genoeg, het beste in het najaar als het blad gevallen is. Staan er bomen vlak bij je huis, dan is twee keer per jaar slimmer.",
-        "Het najaar (augustus tot oktober) is de drukste én belangrijkste periode: blad én herfststormen zorgen dan voor de meeste verstoppingen.",
+        "Het najaar, van oktober tot en met december, is de drukste en belangrijkste periode: dan valt het meeste blad en komen de herfststormen, en dat geeft de meeste verstoppingen.",
       ] },
       { kop: "Waarom het belangrijk is", tekst: [
         "Een verstopte goot loopt over langs de gevel, trekt vocht in muren en fundering en kan binnen voor lekkage zorgen. Een kleine jaarlijkse onderhoudsbeurt voorkomt dure schade.",
