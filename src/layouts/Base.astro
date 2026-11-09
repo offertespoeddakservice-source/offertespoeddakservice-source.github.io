@@ -70,7 +70,7 @@ if (SITE.reviews.aantal > 0) {
   businessSchema.aggregateRating = { "@type": "AggregateRating", ratingValue: SITE.reviews.score, reviewCount: SITE.reviews.aantal };
 }
 // Nette namen in het kruimelpad: plaatsnamen zoals ze heten, de rest met één hoofdletter vooraan.
-const KRUIMEL_NAMEN: Record<string, string> = { "dak-apk": "Dak-APK", over: "Over Rens" };
+const KRUIMEL_NAMEN: Record<string, string> = { "dak-apk": "Dak-APK", over: "Over Rens", "dakgoot-vervangen": "Dakgoot repareren of vervangen", "goten-reinigen": "Dakgoot schoonmaken" };
 const kruimelNaam = (seg: string) => {
   const s = decodeURIComponent(seg);
   if (KRUIMEL_NAMEN[s]) return KRUIMEL_NAMEN[s];
