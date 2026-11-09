@@ -7,6 +7,9 @@ import { ARTIKELEN } from "../data/artikelen.ts";
 
 const heeftTijdelijk = ARTIKELEN.some((a) => a.slug === "daklek-tijdelijk-dichten" && !a.verborgen);
 const heeftHuurhuis = ARTIKELEN.some((a) => a.slug === "lekkage-huurhuis" && !a.verborgen);
+const heeftGevelpannen = ARTIKELEN.some((a) => a.slug === "gevelpannen-los" && !a.verborgen);
+const heeftGootLos = ARTIKELEN.some((a) => a.slug === "dakgoot-losgeraakt" && !a.verborgen);
+const heeftSchoorsteenStorm = ARTIKELEN.some((a) => a.slug === "schoorsteen-na-storm" && !a.verborgen);
 
 const lekPrijs = prijsVan("daklekkage");
 const gotenPrijs = prijsVan("goot_reinigen");
@@ -95,6 +98,13 @@ const spoedSchema = {
         Wil je alvast weten waar het lek kan zitten? Lees hoe ik <a href="/kennisbank/daklekkage-opsporen/">een daklekkage opspoor</a>, of kijk bij <a href="/kennisbank/lekkage-bij-schoorsteen/">lekkage bij de schoorsteen</a> en <a href="/kennisbank/dakraam-lekt/">een lekkend dakraam</a>. Druppels op zolder terwijl het niet heeft geregend? Dan is het vaak <a href="/kennisbank/condens-of-lekkage-op-zolder/">condens en geen lek</a>. Is het na een storm gebeurd, lees dan <a href="/kennisbank/stormschade-eerste-hulp/">stormschade: eerste hulp</a>.
       </p>
       <p style="margin-top:16px;">Komt het water vooral bij harde wind binnen? Lees dan <a href="/kennisbank/dak-lekt-bij-harde-wind/">dak lekt bij harde wind</a>. Ligt er specie in de goot of staat de nok scheef, kijk dan bij <a href="/kennisbank/nokvorsten-los/">losse nokvorsten</a>. Is er een tak op je dak gevallen, lees <a href="/kennisbank/tak-of-boom-op-dak/">tak of boom op je dak</a>. En wil je voorkomen dat er bij de volgende storm weer pannen loskomen, lees dan <a href="/kennisbank/dakpannen-vastzetten-tegen-storm/">dakpannen vastzetten tegen storm</a>.</p>
+      {(heeftGevelpannen || heeftGootLos || heeftSchoorsteenStorm) && (
+        <p style="margin-top:16px;">
+          {heeftGevelpannen && <>Liggen na de storm de pannen langs de zijkant van je dak los of scheef, lees dan <a href="/kennisbank/gevelpannen-los/">gevelpannen los</a>.</>}
+          {heeftGootLos && <> Hangt je dakgoot los, kijk dan bij <a href="/kennisbank/dakgoot-losgeraakt/">dakgoot losgeraakt na een storm</a>.</>}
+          {heeftSchoorsteenStorm && <> Staat de kap op je schoorsteen scheef, of ligt er lood of steen los, lees dan <a href="/kennisbank/schoorsteen-na-storm/">schoorsteen beschadigd na een storm</a>.</>}
+        </p>
+      )}
       <p style="margin-top:16px;">Bolt je plafond op, lees dan wat je doet in <a href="/kennisbank/plafond-bolt-op-door-lekkage/">plafond bolt op door lekkage</a>. Druppelt het uit een lamp of spotje, kijk dan bij <a href="/kennisbank/water-uit-lamp-plafond/">water uit de lamp of spotjes</a>.</p>
       <p style="margin-top:16px;">Is het nat bovenin de muur, net onder het plafond? Dan komt het water vaak van de goot erboven: lees <a href="/kennisbank/water-achter-dakgoot/">water achter de dakgoot</a>. Zit de natte plek boven een raam met een erker of luifel, kijk dan bij <a href="/kennisbank/erker-lekt/">erker of luifel lekt</a>. En is het nat langs de muur met de buren, lees dan <a href="/kennisbank/lekkage-muur-buren/">lekkage langs de muur met de buren</a>.</p>
       <p style="margin-top:16px;">Hoor je water druppelen, maar zie je nog geen natte plek? Lees dan <a href="/kennisbank/druppelen-horen-plafond/">druppelen horen in je plafond</a>. Lekt het nog terwijl je dak net is gerepareerd, kijk dan bij <a href="/kennisbank/dak-lekt-na-reparatie/">dak lekt na de reparatie</a>. Lekt het platte dak van je aanbouw, garage of schuur, lees dan <a href="/kennisbank/epdm-dak-lekt/">EPDM-dak lekt</a> of <a href="/kennisbank/dakleer-repareren/">dakleer repareren</a>. En is het lek gemaakt, maar zit er nog een natte plek, dan lees je in <a href="/kennisbank/plafond-drogen-na-lekkage/">plafond drogen na een lekkage</a> hoe lang dat duurt.</p>
