@@ -1931,6 +1931,48 @@ export const ARTIKELEN_EXTRA: Artikel[] = [
       { v: `Hoe vaak moet de goot van een huurhuis leeg?`, a: `Net als bij elk ander huis: meestal één keer per jaar, het liefst in het najaar als het blad gevallen is. Staan er bomen vlak bij het huis, dan soms twee keer.` },
     ],
   },
+  {
+    slug: `plat-dak-lekt-bij-afvoer`,
+    datum: `2026-11-09`,
+    titel: `Plat dak lekt bij de afvoer?`,
+    h1: `Plat dak lekt bij de afvoer: waar het water langs de uitloop naar binnen komt`,
+    metaTitle: `Plat dak lekt bij de afvoer? | Spoed Dak Service`,
+    metaDescription: `Lekt je platte dak bij de afvoer of vlak bij de regenpijp? Meestal zit het in de aansluiting op de uitloop, of staat de afvoer half dicht. Zo zie je waar het zit.`,
+    intro: `Op een plat dak loopt al het regenwater naar één of twee plekken: de afvoer. Daar gaat het water door de rand of door het dak naar de regenpijp. Juist daar komt bij een bui het meeste water samen, en juist daar lekt een plat dak vaak. Binnen zie je dat als een natte plek in een hoek van de aanbouw, de garage of de berging, vaak aan de kant waar de regenpijp zit. Hieronder lees je hoe zo'n afvoer in elkaar zit, waar het lekt en wat eraan te doen is.`,
+    secties: [
+      { kop: `Lekt het nu? Eerst dit`, tekst: [
+        `Zet een emmer onder de druppel en haal spullen weg die niet nat mogen worden. Ga niet op het platte dak staan als het nat of glad is of hard waait. Kun je vanuit een raam boven het dak zien, maak dan een foto van de afvoer en van de plek eromheen. Wat je verder meteen kunt doen, staat op de <a href="/spoed/">spoedpagina</a>.`,
+      ] },
+      { kop: `Zo zit de afvoer van een plat dak in elkaar`, tekst: [
+        `Bij de meeste aanbouwen, garages en bergingen zit de afvoer in de dakrand. Het water stroomt door een korte buis door de rand naar buiten, in een bak of trechter aan de gevel, en van daar de regenpijp in. Soms zit de afvoer midden in het dak en gaat de pijp binnen naar beneden. De dakbedekking loopt over de rand van de uitloop heen en zit daarop vast, zodat het water erin loopt en niet eronder. Vaak ligt er een rooster of korf op tegen blad. Op sommige daken zit iets hoger in de rand nog een tweede opening, de noodoverloop, voor als de afvoer verstopt raakt.`,
+      ] },
+      { kop: `Waar het meestal lekt`, tekst: [
+        `Bij de aansluiting op de uitloop. Waar de dakbedekking over de rand van de uitloop valt, kan hij na jaren loslaten of scheuren. Dan loopt het water niet in de buis, maar ernaast, onder de bedekking door naar binnen. Rond de afvoer gaat het hier het vaakst mis.`,
+        `Een afvoer die half dicht zit. Blad, mos, zand of grind in de afvoer houdt het water tegen. Dan blijft er na een bui een plas rond de afvoer staan, en dat water zoekt de kleinste kier in de aansluiting op. Lees ook <a href="/kennisbank/water-blijft-staan-op-plat-dak/">water blijft staan op je platte dak</a>.`,
+        `De bak of trechter aan de gevel. Loopt die over omdat hij vol zit, of is de regenpijp eronder verstopt, dan loopt het water langs de gevel en soms terug achter de rand. Binnen zie je dan een natte plek bovenin de muur, vlak onder het platte dak.`,
+        `Een uitloop die gescheurd of losgeraakt is. Een oude uitloop van zink of kunststof kan na veel jaren scheuren of loskomen van de buis. Ook vorst kan dat doen, als er water in de afvoer bevriest.`,
+        `Een pijp die binnen naar beneden gaat. Zit de afvoer midden in het dak en loopt de pijp door je huis, dan kan het ook bij een verbinding in die pijp lekken. Lees dan <a href="/kennisbank/regenpijp-in-de-muur-lekt/">regenpijp in de muur lekt</a>.`,
+      ] },
+      { kop: `Zo zie je waar het zit`, tekst: [
+        `Kijk na een bui vanuit een raam boven naar het dak. Staat er een plas rond de afvoer, of ligt er blad of grind op het rooster, dan loopt het water daar niet goed weg. Kijk buiten ook naar de bak aan de gevel en de regenpijp: komt er bij een bui bijna niets uit de pijp, dan zit er onderweg iets dicht. Zit de natte plek binnen vlak bij de afvoer, in de hoek waar buiten de regenpijp loopt, dan is de aansluiting op de uitloop de eerste plek om te kijken. Zit de natte plek langs de muur van het huis of langs de rand, kijk dan bij <a href="/kennisbank/lekkage-bij-aanbouw/">lekkage bij de aanbouw</a> of <a href="/kennisbank/daktrim-lekt/">plat dak lekt langs de rand</a>.`,
+      ] },
+      { kop: `Wat je zelf kunt doen`, tekst: [
+        `Kun je er veilig bij, bijvoorbeeld vanuit een raam of op een droge dag met een stevige ladder, haal dan het blad en vuil van het rooster en uit de afvoer. Prik niet met iets scherps in de afvoer, want dan maak je zo een gat in de bedekking of de uitloop. Smeer geen kit rond de afvoer: op een natte of vuile ondergrond hecht dat niet, en het maakt een nette reparatie later lastiger. Lekt het daarna nog, stuur me dan een foto via WhatsApp.`,
+      ] },
+      { kop: `Hoe ik het aanpak`, tekst: [
+        `Ik maak eerst de afvoer, het rooster en de bak aan de gevel leeg, zodat het water weer weg kan. Daarna kijk ik naar de aansluiting van de dakbedekking op de uitloop. Zit die los of is hij gescheurd, dan maak ik die plek schoon en droog en sluit ik de bedekking weer goed op de uitloop aan. Is de uitloop zelf gescheurd of op, dan vervang ik hem. Bij EPDM gaat dat anders dan bij bitumen, lees ook <a href="/kennisbank/epdm-dak-lekt/">EPDM-dak lekt</a>. Is de dakbedekking op veel plekken op, dan zeg ik eerlijk dat een nieuwe bedekking beter is. Zie <a href="/diensten/platte-daken/">platte daken</a> en <a href="/kennisbank/plat-dak-vervangen-of-repareren/">plat dak repareren of vervangen</a>.`,
+      ] },
+      { kop: `Wat kost het?`, tekst: [
+        `Een gerichte reparatie van een lek in een klein plat dak, zoals een losse aansluiting bij de afvoer, kost ${platPrijs}. Zit de afvoer alleen dicht, dan is het vaak een kleinere klus. Moet er een nieuwe uitloop in of een groter stuk dakbedekking, dan kom ik eerst kijken en hoor je vooraf de vaste prijs. Richtprijzen staan op de <a href="/prijzen/">prijzenpagina</a>.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: platte daken (EPDM)`, href: `/diensten/platte-daken/` },
+    faq: [
+      { v: `Hoe vaak moet de afvoer van een plat dak schoongemaakt worden?`, a: `Meestal één keer per jaar, het liefst laat in de herfst als het blad gevallen is. Staan er bomen bij je huis, of liggen er zonnepanelen op het dak waar blad tussen blijft hangen, dan is twee keer per jaar slimmer. Kijk na een flinke bui of er een plas rond de afvoer blijft staan. Is dat zo, dan zit hij waarschijnlijk half dicht.` },
+      { v: `Het druppelt binnen alleen bij een stortbui. Kan dat de afvoer zijn?`, a: `Ja, dat past er goed bij. Bij een gewone bui kan de afvoer het water nog aan. Bij een stortbui komt er in korte tijd veel water, en zit de afvoer half dicht, dan staat het water rond de uitloop hoger dan normaal. Dan komt het bij een kier in de aansluiting die bij gewone regen droog blijft. Kijk tijdens of vlak na een stortbui of er een plas rond de afvoer staat, en stuur me daar een foto van.` },
+      { v: `Is een lek bij de afvoer spoed?`, a: `Druppelt het in een kamer, bij een lamp of een stopcontact, of wordt het plafond bol, dan wel: bel of app me met een foto. Lekt het in een berging of garage op een plek waar niets kapot kan, dan kan het vaak een paar dagen wachten. Haal in de tussentijd het blad van de afvoer als je er veilig bij kunt, dan staat er minder water rond de uitloop.` },
+    ],
+  },
 ];
 
 // Extra vragen bij bestaande artikelen. artikelen.ts is te groot om nog te laten groeien, daarom staan nieuwe vragen hier.
@@ -2100,4 +2142,5 @@ export const KORT_ANTWOORD: Record<string, string> = {
   "regenpijp-in-de-muur-lekt": `Loopt je regenpijp binnen door de muur, een koker of een kast en is het daar nat, dan zit het meestal bovenin bij de uitloop, waar de goot overgaat in de pijp. Vaak zit die uitloop vol blad of mos, of laat de aansluiting los. Zit de natte plek halverwege de muur, dan zit het eerder bij een verbinding lager in de pijp. Is de pijp in de winter over de hele lengte vochtig, dan is het vaak condens.`,
   "dakpannen-vastzetten-tegen-storm": `Bij een storm komen de pannen het eerst los langs de zijkant van het dak, in de onderste rij boven de goot, vlak onder de nok en rond een dakraam, schoorsteen of zonnepanelen. Op veel oudere daken liggen de pannen nog los op de latten. Een stormhaak zet een pan aan de panlat vast, zodat hij bij een windstoot niet omhoog kan wippen. Daarvoor hoeft meestal niet het hele dak opnieuw gelegd te worden.`,
   "hoe-herken-je-een-betrouwbare-dakdekker": `Een betrouwbare dakdekker herken je aan een KvK-nummer dat je zelf kunt opzoeken, een vast adres en telefoonnummer, en een prijs op papier of in een appje voordat het werk begint. Vraag ook of hij verzekerd is als er bij het werk iets kapotgaat. Pas op als iemand onaangekondigd aanbelt of je onder druk zet om direct te beslissen. Extra werk hoort pas te beginnen nadat jij de prijs ervan hebt goedgekeurd.`,
+  "plat-dak-lekt-bij-afvoer": `Lekt een plat dak bij de afvoer, dan zit het meestal in de aansluiting van de dakbedekking op de uitloop, die na jaren loslaat of scheurt. Vaak zit de afvoer ook half dicht met blad of grind, zodat het water rond de uitloop blijft staan en een kier vindt. Eerst de afvoer vrijmaken, dan de aansluiting goed dichtmaken.`,
 };
