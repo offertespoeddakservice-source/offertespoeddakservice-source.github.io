@@ -90,6 +90,10 @@ export const DIENSTEN: Dienst[] = [
         v: "Neem je de goot van mijn garage, aanbouw of schuur ook mee?",
         a: "Ja, als ik er veilig bij kan. Aan een garage, aanbouw of schuur hangt vaak een lage goot die net zo vol blad zit als die van het huis, en die wordt vaak vergeten. Zeg het erbij als je een foto stuurt, dan hoor je vooraf de prijs voor alles samen. Ligt er een plat dak op met een afvoer, dan kijk ik meteen of die afvoer nog vrij is.",
       },
+      {
+        v: "Er ligt een gaas of een borstel in mijn goot. Maak je die ook schoon?",
+        a: "Ja, als ik er goed bij kan. Onder een gaas of in een borstel blijven naalden, mos en zand toch hangen, en op het gaas zelf blijft nat blad liggen. Ik haal het gaas of de borstel eruit, maak de goot en de uitloop naar de regenpijp leeg en leg het daarna terug. Zit er een bolletje in de uitloop, dan maak ik dat ook schoon. Zeg het erbij als je een foto stuurt, dan hoor je vooraf de prijs.",
+      },
     ],
   },
   {
