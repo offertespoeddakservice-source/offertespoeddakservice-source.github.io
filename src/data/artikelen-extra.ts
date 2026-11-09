@@ -1815,6 +1815,48 @@ export const ARTIKELEN_EXTRA: Artikel[] = [
       { v: `Kan alleen de voorgoot vervangen worden?`, a: `Ja. De voorgoot en de achtergoot zijn twee aparte goten. Is de achterste nog goed, dan kan die blijven hangen. Ik kijk wel even naar de andere goot, zodat je weet hoe die erbij ligt.` },
     ],
   },
+  {
+    slug: `lekkage-na-dakwerk-buren`,
+    datum: `2026-11-09`,
+    titel: `Lekt het sinds de buren hun dak lieten doen?`,
+    h1: `Lekt het bij jou sinds er aan het dak van de buren is gewerkt?`,
+    metaTitle: `Lekkage na dakwerk bij de buren | Spoed Dak Service`,
+    metaDescription: `Lekt het bij jou sinds de buren een nieuw dak, een nieuwe goot of zonnepanelen kregen? Vaak zit het op de grens of bij een pan waar iemand op stond. Zo pak je het aan.`,
+    intro: `De buren hebben hun dak laten vernieuwen, een nieuwe goot gekregen of zonnepanelen laten leggen, en kort daarna lekt het bij jou. Dat is geen toeval: in een rij huizen liggen de daken tegen elkaar aan, en wie bij de buren werkt, komt vaak ook aan de rand van jouw dak. Hieronder lees je waar het dan meestal lekt, hoe je ziet of het met dat werk te maken heeft en hoe je het met de buren regelt.`,
+    secties: [
+      { kop: `Lekt het nu? Eerst dit`, tekst: [
+        `Zet een emmer onder de druppel, haal spullen weg en maak foto's van de natte plek, met de datum erbij. Ga niet zelf het dak op, en ook niet op een steiger die er nog van de buren staat. Wat je verder meteen kunt doen, staat op de <a href="/spoed/">spoedpagina</a>.`,
+      ] },
+      { kop: `Waarom werk bij de buren jouw dak kan raken`, tekst: [
+        `Bij rijtjeshuizen en twee-onder-een-kappers lopen de pannen, de nok en de goot vaak gewoon over de grens door. Wie bij de buren werkt, moet die overgang openmaken en daarna weer dicht. En om bij de grens of de nok te komen, stapt een dakdekker of installateur soms een stukje op jouw dak.`,
+      ] },
+      { kop: `Waar het daarna meestal lekt`, tekst: [
+        `Op de grens tussen de twee daken. Krijgen de buren nieuwe pannen, dan liggen er op de grens twee soorten pannen naast elkaar. Die passen niet vanzelf op elkaar, en daarom hoort daar een overgang die het water tegenhoudt. Is die niet goed gemaakt, dan loopt het water erlangs naar jouw kant. Meer over lekken op de grens lees je in <a href="/kennisbank/lekkage-muur-buren/">lekkage langs de muur met de buren</a>.`,
+        `Bij de nok. Is bij de buren de nok opnieuw gelegd en bij jou niet, dan zit de zwakke plek waar de nieuwe vorsten op je oude nok aansluiten. Soms is daar bij het werk ook oude specie losgeraakt. Zie <a href="/kennisbank/nokvorsten-los/">losse nokvorsten</a>.`,
+        `Een pan waar iemand op heeft gestaan. Een pan kan dan barsten of net uit de sluiting schuiven. Vanaf de straat zie je dat vaak niet, maar bij de volgende flinke bui loopt het water eronder door.`,
+        `In de goot. Hebben de buren een nieuwe goot gekregen, dan zit er op de grens een nieuwe verbinding met jouw goot. Lekt die, of liggen de twee stukken niet op één lijn, dan blijft daar water staan of loopt het langs de muur. Lees <a href="/kennisbank/gedeelde-dakgoot-lekt/">gedeelde dakgoot lekt</a>.`,
+        `Bij zonnepanelen van de buren. Liggen de panelen vlak bij de grens, dan kan er bij het plaatsen een pan zijn verschoven of gebroken, of loopt er een kabel onder de pannen door. Zie <a href="/kennisbank/lekkage-bij-zonnepanelen/">lekkage bij zonnepanelen</a>.`,
+      ] },
+      { kop: `Zo zie je of het met het werk te maken heeft`, tekst: [
+        `Kijk wanneer het begon. Bleef het voor het werk droog en wordt het nu bij een flinke bui nat, dan ligt een verband voor de hand. Kijk op zolder waar de natte plek zit: vlak langs de muur met de buren of onder de nok wijst naar de grens. Ga dan aan de overkant van de straat staan en maak met de zoom van je telefoon een foto van beide daken. Soms zie je dan al een pan die scheef ligt of een strook die openstaat.`,
+      ] },
+      { kop: `Praat eerst met de buren`, tekst: [
+        `Laat je buren de foto's zien en vraag wie het werk heeft gedaan. Komt het lek door dat werk, dan is het in de regel netjes als hun dakdekker of installateur terugkomt om het te herstellen. Een goed bedrijf wil dat meestal ook zelf, want het gaat om zijn eigen werk. Spreek wel af wanneer, want elke bui maakt de schade binnen groter. Huur je, meld het dan ook bij je verhuurder.`,
+      ] },
+      { kop: `Komt hun dakdekker niet, of twijfel je?`, tekst: [
+        `Dan kom ik kijken. Ik zoek waar het water binnenkomt, aan jouw kant en op de grens, en maak foto's van wat ik aantref, met een korte omschrijving erbij. Daarmee kun je je buren of hun dakdekker laten zien wat er mis is. Lekt het nu en kan het niet wachten, dan maak ik het eerst waterdicht. Wie de rekening krijgt, spreken jullie samen af. Zie ook <a href="/diensten/daklekkage/">daklekkage opsporen en repareren</a>.`,
+      ] },
+      { kop: `Wat kost het?`, tekst: [
+        `Een verschoven of gebarsten pan terugleggen of vervangen valt meestal onder een kleine reparatie: ${inclBtw("dakpan")}. Moet ik zoeken waar het water binnenkomt en het lek dichtmaken, dan is het meestal een gerichte lekreparatie: ${inclBtw("daklekkage")}. Je hoort vooraf de vaste prijs, zodat je met je buren kunt afspreken wie wat betaalt.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: daklekkage & spoed`, href: `/diensten/daklekkage/` },
+    faq: [
+      { v: `De buren zeggen dat het al lekte voordat hun dak gedaan werd. Wat nu?`, a: `Dat kan ook zo zijn. Daarom zijn foto's met een datum zo handig, van voor en na het werk als je die hebt. Ik kijk waar het water echt binnenkomt en zeg eerlijk wat ik zie, ook als het met het werk van de buren niets te maken heeft. Komen jullie er samen niet uit, dan kun je advies vragen bij buurtbemiddeling of bij je rechtsbijstandsverzekering, als je die hebt.` },
+      { v: `Mijn buren gaan hun dak laten vernieuwen. Moet ik iets regelen?`, a: `Praat er vooraf even over. Vraag hoe de overgang op de grens gemaakt wordt en of er iemand op jouw dak moet staan. Maak voor het werk een paar foto's van je dak vanaf de straat en van je zolder langs de muur met de buren, dan heb je later iets om mee te vergelijken. Is jouw dak net zo oud, dan kan het handig zijn om de grens of de nok in één keer mee te laten nemen.` },
+      { v: `Is een lek na werk bij de buren spoed?`, a: `Druppelt het binnen, of zit de natte plek bij een lamp of stopcontact, dan wel: bel of app me met een foto. Is het een vochtige plek langs de muur die alleen na harde regen terugkomt, dan heb je meestal een paar dagen om het met de buren te regelen. Laat het niet de hele winter zitten.` },
+    ],
+  },
 ];
 
 // Extra vragen bij bestaande artikelen. artikelen.ts is te groot om nog te laten groeien, daarom staan nieuwe vragen hier.
@@ -1977,4 +2019,5 @@ export const KORT_ANTWOORD: Record<string, string> = {
   "nat-achter-knieschot": `Nat achter het knieschot komt meestal van de onderkant van het dak. Water dat hoger onder de pannen komt, loopt over de folie naar beneden en komt helemaal onderaan binnen. Vaak zit het in de onderste rij pannen, in folie die onderaan niet tot in de goot loopt of in een goot die vol zit. Is het hout daar ook op droge dagen vochtig, verspreid over een groter stuk, dan is het vaker condens.`,
   "lekkage-muur-buren": `Is het op zolder nat langs de muur met de buren, dan zit het lek vaak precies op de grens: bij de overgang tussen twee soorten pannen, waar de nokvorsten op elkaar aansluiten, bij de naad in de goot of bij het lood langs een muur die boven het dak uitsteekt. Het water kan ook aan de kant van de buren binnenkomen en naar jouw kant lopen. Laat daarom beide kanten nakijken en spreek met je buren af wie wat laat maken.`,
   "lood-op-dak": `Lood ligt op je dak overal waar de pannen ophouden: rond de schoorsteen, onder een dakraam, langs een muur en soms in de kilgoot. Het gaat vaak tientallen jaren mee. Dat het op is, zie je aan scheurtjes in de vouwen, een kier tussen het lood en de steen of lood dat omhoog krult. Vaak hoeft alleen dat stuk vastgezet of vervangen te worden. Meestal werk ik met loodvervanger, en met echt lood als je dat liever hebt.`,
+  "lekkage-na-dakwerk-buren": `Lekt het bij jou sinds er aan het dak van de buren is gewerkt, dan zit het lek meestal op de grens: bij de overgang tussen hun nieuwe en jouw oude pannen, bij de nok, in de verbinding van de goot of bij een pan waar iemand op heeft gestaan. Maak foto's met de datum, praat eerst met je buren en vraag of hun dakdekker terugkomt. Lekt het nu, laat het dan eerst waterdicht maken.`,
 };
