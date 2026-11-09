@@ -33,6 +33,7 @@ const matrixVoorPlaats = MATRIX.filter((c) => c.plaats === p.slug)
   .map((c) => getDienst(c.dienst))
   .filter((d) => d && !d.verborgen);
 const heeftLekPagina = MATRIX.some((c) => c.plaats === p.slug && c.dienst === "daklekkage");
+const heeftGootPagina = MATRIX.some((c) => c.plaats === p.slug && c.dienst === "dakgoot-vervangen");
 // Namen voor de pagina's per plaats en klus, zoals mensen zoeken (dakgoot repareren, niet alleen vervangen). Ook gebruikt in de gegevens voor Google en AI.
 const KLUS_NAAM: Record<string, string> = { daklekkage: "Daklekkage", "dakgoot-vervangen": "Dakgoot repareren of vervangen", "goten-reinigen": "Dakgoot schoonmaken", stormschade: "Stormschade", dakreparatie: "Dakreparatie", dakrenovatie: "Dakrenovatie" };
 const klusNaam = (d: { slug: string; titel: string }) => KLUS_NAAM[d.slug] ?? d.titel;
@@ -136,6 +137,7 @@ const schema = [
         Stuur me de foto via <a href={waHref(`Hallo, mijn dak lekt in ${p.naam}. Ik stuur je een foto.`)}>WhatsApp</a>, dan hoor je eerlijk wat ik zie en wat de beste volgende stap is.
       </p>
       <p>Druppelt het ook als het een paar dagen droog is? Dan komt het water vaak van een leiding en niet van het dak. Lees dan eerst <a href="/kennisbank/lekkage-dakdekker-of-loodgieter/">lekkage: dakdekker of loodgieter?</a></p>
+      {heeftGootPagina && (<p>Is het nat bovenin de muur, vlak onder de goot, of loopt er bij een bui water over de rand? Dan zit het vaak in de goot en niet in het dak. Hoe ik een lekkende goot in {p.naam} repareer, lees je bij <a href={`/werkgebied/${p.slug}/dakgoot-vervangen/`}>dakgoot repareren in {p.naam}</a>.</p>)}
       <h3>In het kort</h3>
       <ul>
         <li><strong>Wie:</strong> Spoed Dak Service, het bedrijf van {SITE.eigenaar}, dakdekker uit 's-Hertogenbosch.</li>
