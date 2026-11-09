@@ -2084,6 +2084,9 @@ export const FAQ_ERBIJ: Record<string, Artikel["faq"]> = {
   "dak-lekt-bij-hevige-regen": [
     { v: `Het lekt alleen bij een stortbui. Kan het wachten tot na de winter?`, a: `Liever niet. Ook als het maar af en toe lekt, wordt het hout, de isolatie of de muur bij elke stortbui weer nat, en in de winter droogt dat slecht. Vaak zit er alleen een goot, kilgoot of afvoer vol blad. Leegmaken is dan een kleine klus, en die laat je beter voor de vorst doen, want water in een volle goot kan bevriezen en een naad openduwen. Druppelt het nu niet en is de plek binnen droog, dan hoeft het niet vandaag, maar plan het wel binnen een paar weken. Wanneer een lek echt meteen moet, lees je in het artikel over hoe lang je met een daklek kunt wachten. Stuur me gerust een foto van de natte plek en van je goot vanaf de straat via WhatsApp.` },
   ],
+  "lekkage-gedeelde-schoorsteen": [
+    { v: `Ik wil het lood aan mijn kant laten vernieuwen, maar de buren niet. Kan dat?`, a: `Dat kan. Het lood aan jouw kant van de schoorsteen kan los van dat van de buren worden vernieuwd. Op de grens, midden op de schoorsteen, laat ik het nieuwe lood goed aansluiten op het oude lood van de buren, zodat het water daar niet achter kan lopen. Zie ik dat het lood aan hun kant ook op is, dan zeg ik dat eerlijk en maak ik er een foto van, die je aan je buren kunt laten zien. Zit het lek bovenin, in de kop of de afdekplaat van de schoorsteen, dan helpt alleen jouw kant vernieuwen niet, en is het slim om dat samen te laten doen. Je hoort vooraf wat het kost.` },
+  ],
 };
 
 // Kort antwoord bovenaan een artikel: één of twee zinnen met het directe antwoord, voor Google en AI. Bedragen alleen via inclBtw uit prijzen.ts, nooit met de hand.
