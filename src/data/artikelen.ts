@@ -1486,9 +1486,9 @@ export const ARTIKELEN: Artikel[] = [
       ] },
       { kop: "Waar het meestal zit", tekst: [
         'Bij de nok. Is de specie onder de nokvorsten verweerd of ligt een vorst los, dan waait de regen daar zo onderdoor. Lees ook <a href="/kennisbank/nokvorsten-los/">losse nokvorsten</a>.',
-        "Bij een verschoven of gebroken pan, vaak overgebleven van een eerdere storm.",
+        'Bij een verschoven of gebroken pan, vaak overgebleven van een eerdere storm. Zie <a href="/kennisbank/dakpan-kapot-of-verschoven/">dakpan kapot of verschoven</a>.',
         'Bij de schoorsteen of het dakraam, waar het lood niet meer goed aansluit. Zie <a href="/kennisbank/lekkage-bij-schoorsteen/">lekkage bij de schoorsteen</a> en <a href="/kennisbank/dakraam-lekt/">dakraam lekt</a>.',
-        "Langs de randen van het dak, bij de gevelpannen en de windveren. Daar vangt het dak de meeste wind.",
+        'Langs de randen van het dak, bij de gevelpannen en de windveren. Daar vangt het dak de meeste wind. Zie <a href="/kennisbank/gevelpannen-los/">gevelpannen los</a>.',
       ] },
       { kop: "Oudere daken", tekst: [
         "Bij sommige oudere daken ligt onder de pannen geen goede waterkerende laag meer, of is die op plekken vergaan. Waait er dan water onder een pan door, dan komt het meteen op zolder terecht. Ligt er wel een goede laag onder, dan loopt het water meestal eerst daarover naar de goot.",
