@@ -142,7 +142,8 @@ const schema = [
       <ul>
         <li><strong>Wie:</strong> Spoed Dak Service, het bedrijf van {SITE.eigenaar}, dakdekker uit 's-Hertogenbosch.</li>
         <li><strong>Waar:</strong> {p.naam} en omgeving, {p.reistijd ?? SITE.regioOmschrijving}.</li>
-        <li><strong>Klussen:</strong> daklekkage, losse dakpannen en nokvorsten, lood, dakgoten repareren en schoonmaken, stormschade.</li>
+        {GEMEENTE[p.slug] && <li><strong>Gemeente:</strong> {p.slug === "den-bosch" ? "'s-Hertogenbosch (Den Bosch)" : GEMEENTE[p.slug] === p.naam ? p.naam : `${GEMEENTE[p.slug]}, waar ${p.naam} bij hoort`}, provincie {provincie}.</li>}
+        <li><strong>Klussen:</strong> daklekkage, losse dakpannen en nokvorsten, lood, dakgoten repareren en schoonmaken, platte daken, windveren, stormschade en oude antennes of schotels weghalen.</li>
         <li><strong>Contact:</strong> bellen of WhatsApp op <a href={telHref}>{SITE.telefoonWeergave}</a>, dag en nacht bereikbaar.</li>
         <li><strong>Prijs:</strong> je hoort de vaste prijs voordat ik begin.</li>
         <li><strong>Verzekerd:</strong> bedrijfsaansprakelijk verzekerd.</li>
