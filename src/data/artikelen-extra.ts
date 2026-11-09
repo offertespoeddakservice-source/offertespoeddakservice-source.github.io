@@ -2079,6 +2079,9 @@ export const FAQ_ERBIJ: Record<string, Artikel["faq"]> = {
   "condens-of-lekkage-op-zolder": [
     { v: `Het ruikt muf op mijn zolder. Is dat een lek of condens?`, a: `Dat kan allebei, en waar het ruikt zegt vaak genoeg. Ruikt het overal een beetje muf, vooral in de winter, en zie je op het hout of de folie kleine zwarte puntjes of een grijze waas, dan is het meestal condens: vocht uit je huis dat tegen het koude dak neerslaat en niet weg kan. Vaker luchten en het zolderraam of de ventilatie open laten helpt dan vaak al. Ruikt het vooral op één plek, en zie je daar een donkere kring, een natte rand op het hout of iets wat na een bui erger wordt, dan is het eerder een lek. Kijk na de volgende flinke bui met een zaklamp op die plek en stuur me een foto via WhatsApp. Dan zeg ik eerlijk of het bij het dak hoort.` },
   ],
+  "dak-lekt-bij-hevige-regen": [
+    { v: `Het lekt alleen bij een stortbui. Kan het wachten tot na de winter?`, a: `Liever niet. Ook als het maar af en toe lekt, wordt het hout, de isolatie of de muur bij elke stortbui weer nat, en in de winter droogt dat slecht. Vaak zit er alleen een goot, kilgoot of afvoer vol blad. Leegmaken is dan een kleine klus, en die laat je beter voor de vorst doen, want water in een volle goot kan bevriezen en een naad openduwen. Druppelt het nu niet en is de plek binnen droog, dan hoeft het niet vandaag, maar plan het wel binnen een paar weken. Wanneer een lek echt meteen moet, lees je in het artikel over hoe lang je met een daklek kunt wachten. Stuur me gerust een foto van de natte plek en van je goot vanaf de straat via WhatsApp.` },
+  ],
 };
 
 // Kort antwoord bovenaan een artikel: één of twee zinnen met het directe antwoord, voor Google en AI. Bedragen alleen via inclBtw uit prijzen.ts, nooit met de hand.
