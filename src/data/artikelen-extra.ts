@@ -1773,6 +1773,48 @@ export const ARTIKELEN_EXTRA: Artikel[] = [
       { v: `Ik heb het huis laten keuren. Waarom staat het lek niet in het rapport?`, a: `Een bouwkundige keuring is een momentopname. Op een droge dag zie je een lek vaak niet, en een keurder kan niet altijd van dichtbij naar elk stuk van het dak kijken. Kijk in je rapport wat er over het dak staat, bijvoorbeeld over de leeftijd van de pannen of het lood. Heb je vragen over het rapport, stel ze dan aan de keurder.` },
     ],
   },
+  {
+    slug: `dakgoot-zink-of-kunststof`,
+    datum: `2026-11-09`,
+    titel: `Dakgoot vervangen: zink of kunststof?`,
+    h1: `Dakgoot vervangen: zink of kunststof, en wat past bij jouw huis?`,
+    metaTitle: `Dakgoot vervangen: zink of kunststof? | Spoed Dak Service`,
+    metaDescription: `Moet je dakgoot vervangen worden: zink of kunststof? Het verschil in levensduur, onderhoud en uiterlijk, en wat past bij jouw huis en dat van de buren.`,
+    intro: `Is je dakgoot op, dan moet je kiezen: weer zink, of kunststof. Allebei kunnen ze goed werken, maar ze verschillen in hoe lang ze meegaan, hoe ze eruitzien en wat ze nodig hebben. Hieronder lees je waar het verschil zit en waar ik naar kijk als ik je help kiezen.`,
+    secties: [
+      { kop: `Moet hij er echt uit?`, tekst: [
+        `Vaak niet. Lekt een goot op één naad, een hoek of bij de uitloop naar de regenpijp, en is de rest nog goed, dan is repareren meestal genoeg. Lees dan eerst <a href="/kennisbank/zinken-dakgoot-lekt/">zinken dakgoot lekt</a> of <a href="/kennisbank/kunststof-dakgoot-lekt/">kunststof dakgoot lekt</a>. Vervangen is pas slimmer als de goot op veel plekken lek, dun of bros is, of als hij blijft doorhangen. Hoe je dat ziet, lees je in <a href="/kennisbank/hoe-lang-gaat-een-dakgoot-mee/">hoe lang gaat een dakgoot mee</a>.`,
+      ] },
+      { kop: `Zink: lang mee en klassiek`, tekst: [
+        `De stukken van een zinken goot worden aan elkaar gesoldeerd, dus er zitten geen losse verbindingen met rubbers in. Lekt er later een naad, dan is die meestal opnieuw te solderen. Zink is grijs en mat en wordt na een paar jaar donkerder. Bij oudere huizen en bij een monument past zink vaak het best.`,
+        `Zink zet uit als het warm is en krimpt als het koud is. Een lange goot moet daarom ergens kunnen werken, anders trekt hij na jaren een naad los. Daar let ik op bij het ophangen.`,
+      ] },
+      { kop: `Kunststof: licht en weinig onderhoud`, tekst: [
+        `Een kunststof goot is licht, roest niet en hoeft niet geschilderd te worden. De stukken zitten met verbindingsstukken in elkaar, met een rubber of lijm erin. Na veel jaren in de zon wordt kunststof stugger, en dan kan een hoekstuk of eindstuk eerder scheuren of een verbinding gaan lekken. Kunststof is er in grijs, wit, zwart en bruin, en past goed bij veel huizen van na de oorlog en bij nieuwbouw. Meestal is het ook voordeliger dan zink.`,
+      ] },
+      { kop: `Waar ik naar kijk als ik je help kiezen`, tekst: [
+        `Wat er nu hangt en hoe oud je huis is. Hangt er zink en is het huis van voor de oorlog, dan past zink er vaak het best bij.`,
+        `Wat de buren hebben. In een rij huizen loopt de goot vaak door. Kies je iets anders dan de buren, dan zit er op de grens een overgangsstuk, en zink en kunststof werken bij warmte en kou niet even veel. Zo'n overgang moet goed gemaakt worden, anders laat hij na een paar jaar los. Lees ook <a href="/kennisbank/gedeelde-dakgoot-lekt/">gedeelde dakgoot lekt</a>.`,
+        `Of het een hangende goot is of een bakgoot. Een bakgoot ligt in de rand van het dak, en dat is een andere klus. Lees daarvoor <a href="/kennisbank/bakgoot-lekt/">bakgoot lekt</a>.`,
+        `Of je in een monument of een beschermd stadsgezicht woont. Dan mag je niet zomaar ander materiaal gebruiken. Vraag het eerst na bij de gemeente.`,
+      ] },
+      { kop: `Ook de regenpijp en de beugels`, tekst: [
+        `Komt er een nieuwe goot, kijk dan meteen naar de regenpijp en de beugels. Een nieuwe goot aan een oude regenpijp kan prima, maar de aansluiting moet passen. Hangt er aan een lange goot maar één regenpijp en loopt hij bij een stortbui over, dan is dit een goed moment om een tweede uitloop te overwegen. Zie <a href="/diensten/regenpijp-vervangen/">regenpijp vervangen</a>.`,
+      ] },
+      { kop: `Hoe ik het aanpak`, tekst: [
+        `Ik kijk eerst of vervangen echt nodig is. Is dat zo, dan bespreek ik met je wat bij je huis past. Daarna haal ik de oude goot weg, zet ik de beugels op afschot naar de regenpijp en hang ik de nieuwe goot op. Zink soldeer ik aan elkaar, bij kunststof gebruik ik passende verbindingsstukken. Tot slot kijk ik of de uitloop goed aansluit en of het water van onder de pannen in de goot loopt. Zie <a href="/diensten/dakgoot-vervangen/">dakgoot repareren of vervangen</a>.`,
+      ] },
+      { kop: `Wat kost het?`, tekst: [
+        `Dat hangt af van hoe lang de goot is, welk materiaal je kiest, hoe hoog hij hangt en of de regenpijp mee moet. Stuur een foto van je huis vanaf de straat, met de goot en de regenpijp erop, dan hoor je vooraf wat het kost. Je weet de prijs voordat ik begin.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: dakgoot repareren of vervangen`, href: `/diensten/dakgoot-vervangen/` },
+    faq: [
+      { v: `Wat gaat langer mee, zink of kunststof?`, a: `Als hij goed hangt en op tijd wordt leeggemaakt, houdt zink het meestal langer vol. Kunststof wordt na veel jaren in de zon stugger, en dan breekt een hoek of eindstuk sneller. Maar een goed opgehangen kunststof goot doet het ook lang. Hoe lang het bij jou wordt, hangt vooral af van het ophangen en het onderhoud.` },
+      { v: `Kan ik een zinken goot laten vervangen door kunststof?`, a: `Bij een hangende goot kan dat meestal. Woon je in een monument of in een beschermd stadsgezicht, vraag dan eerst bij de gemeente of het mag. Loopt je goot door naar die van de buren, dan maak ik op de grens een nette overgang. Stuur een foto van je huis en dat van de buren vanaf de straat.` },
+      { v: `Kan alleen de voorgoot vervangen worden?`, a: `Ja. De voorgoot en de achtergoot zijn twee aparte goten. Is de achterste nog goed, dan kan die blijven hangen. Ik kijk wel even naar de andere goot, zodat je weet hoe die erbij ligt.` },
+    ],
+  },
 ];
 
 // Extra vragen bij bestaande artikelen. artikelen.ts is te groot om nog te laten groeien, daarom staan nieuwe vragen hier.
@@ -1922,4 +1964,5 @@ export const KORT_ANTWOORD: Record<string, string> = {
   "bladvanger-dakgoot": `Een gaas, borstel of bolletje in je dakgoot houdt grof blad tegen, en daardoor hoeft de goot vaak minder vaak leeg. Het lost niet alles op: dennennaalden, mos en zand komen er toch onder, en een bolletje in de uitloop kan zelf verstopt raken, zodat de goot overloopt. Bij een lage goot onder een boom met groot blad helpt het vaak, bij veel dennen of mos meestal weinig.`,
   "schoorsteen-na-storm": `Na een storm zie je bij een schoorsteen meestal een van drie dingen: een kap of afdekplaat die scheef staat, lood aan de voet dat omhoog staat of is losgescheurd, of stenen en voegen bovenin die zijn losgeraakt. Dreigen er stenen te vallen boven de stoep of de weg, bel dan 112. Het lood en de kap herstel ik zelf, voor losse stenen heb je een metselaar nodig.`,
   "huis-gekocht-dak-lekt": `Lekt het dak van je net gekochte huis, beperk dan eerst de schade en maak foto's van de natte plek en van het dak voordat er iets wordt gerepareerd. Meld het zo snel mogelijk bij de verkoper. Of die moet meebetalen, hangt af van je koopcontract en van wat hij wist. Laat het lek wel snel dichtmaken, want elke bui maakt de schade groter.`,
+  "dakgoot-zink-of-kunststof": `Zink gaat meestal langer mee, wordt gesoldeerd en past goed bij oudere huizen en monumenten. Kunststof is lichter, hoeft niet geschilderd te worden en is meestal voordeliger. Welke beter is, hangt af van je huis, van wat de buren hebben en of er regels gelden, zoals in een beschermd stadsgezicht. Lekt je goot maar op één plek, dan is repareren vaak genoeg.`,
 };
