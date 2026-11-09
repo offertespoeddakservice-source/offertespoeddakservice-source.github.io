@@ -1582,7 +1582,7 @@ export const ARTIKELEN: Artikel[] = [
     slug: "dakonderhoud-per-seizoen",
     titel: "Dakonderhoud per seizoen",
     h1: "Dakonderhoud per seizoen: wat je wanneer moet controleren",
-    metaTitle: "Hoe vaak dak onderhouden? Checklist | Spoed Dak Service",
+    metaTitle: "Dakonderhoud: wat en hoe vaak? Checklist | Spoed Dak Service",
     metaDescription:
       "Hoe vaak moet je je dak onderhouden? Twee keer per jaar kijken, in het voorjaar en het najaar. Wat je per seizoen controleert, bij een pannendak en een plat dak.",
     intro:
