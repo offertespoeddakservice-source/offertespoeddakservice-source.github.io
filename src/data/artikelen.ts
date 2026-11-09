@@ -1107,7 +1107,7 @@ export const ARTIKELEN: Artikel[] = [
     slug: "wat-kost-daklekkage-repareren",
     titel: "Wat kost daklekkage repareren?",
     h1: "Wat kost het om een daklekkage te repareren? (eerlijke prijzen)",
-    metaTitle: "Wat kost daklekkage repareren? Prijzen | Spoed Dak Service",
+    metaTitle: `Kosten daklekkage repareren: ${prijsVan("daklekkage")} | Spoed Dak Service`,
     metaDescription:
       `Wat kost een daklekkage repareren? Een gerichte reparatie kost ${lekPrijs}, inclusief materiaal. Waar de prijs van afhangt en waarom wachten duurder is.`,
     intro:
