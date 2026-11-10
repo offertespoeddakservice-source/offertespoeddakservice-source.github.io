@@ -79,6 +79,7 @@ const leesVerder: Record<string, string[]> = {
   "windveer-vervangen": ["windveer-los-of-rot", "dakpannen-vastzetten-tegen-storm", "dakpannen-klapperen-bij-wind", "stormschade-eerste-hulp", "storm-op-komst-dak", "gevelpannen-los"],
   "antenne-verwijderen": ["lekkage-bij-schotel-of-antenne", "dak-lekt-bij-harde-wind", "lekkage-bij-schoorsteen", "lood-op-dak"],
   "dakgoot-coaten": ["zinken-dakgoot-lekt", "bakgoot-lekt", "dakgoot-lekt", "hoe-lang-gaat-een-dakgoot-mee", "water-achter-dakgoot"],
+  "dakgoot-solderen": ["zinken-dakgoot-lekt", "dakgoot-lekt", "bakgoot-lekt", "dakgoot-lekt-bij-regenpijp", "gedeelde-dakgoot-lekt", "lekkende-dakgoot-tijdelijk-oplossen"],
   "kilgoot-repareren": ["kilgoot-lekt", "lood-op-dak", "dak-lekt-bij-hevige-regen", "zinken-dakgoot-lekt", "dak-lekt-bij-sneeuw-of-vorst", "hoe-vaak-dakgoot-reinigen"],
 };
 const leesArtikelen = (leesVerder[d.slug] ?? [])
@@ -111,6 +112,7 @@ const WAT_PER_DIENST: Record<string, string> = {
   "windveer-vervangen": "het vastzetten en vervangen van een losse of rotte windveer",
   "antenne-verwijderen": "het weghalen van een oude antenne of schotel en het dichtmaken van het dak",
   "dakgoot-coaten": "het van binnen coaten van lekkende dakgoten en bakgoten",
+  "dakgoot-solderen": "het solderen van lekkende naden, hoeken en uitlopen in zinken dakgoten en bakgoten",
   "kilgoot-repareren": "het repareren en vervangen van kilgoten"
 };
 const watZin = WAT_PER_DIENST[d.slug] ?? d.titel.toLowerCase();

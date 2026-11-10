@@ -308,6 +308,7 @@ export const DIENSTEN: Dienst[] = [
     zieOok: [
       { label: "Regenpijp vervangen", href: "/diensten/regenpijp-vervangen/" },
       { label: "Goten reinigen", href: "/diensten/goten-reinigen/" },
+      { label: "Dakgoot solderen", href: "/diensten/dakgoot-solderen/" },
     ],
     h1: "Dakgoot repareren of vervangen: bij lekkende naden, roest of een goot die blijft overlopen",
     kort: "Versleten of lekkende goot? Nieuwe zinken, kunststof of pvc goot, netjes gemonteerd.",
@@ -352,6 +353,7 @@ export const DIENSTEN: Dienst[] = [
     zieOok: [
       { label: "Dakgoot repareren of vervangen", href: "/diensten/dakgoot-vervangen/" },
       { label: "Goten reinigen", href: "/diensten/goten-reinigen/" },
+      { label: "Dakgoot solderen", href: "/diensten/dakgoot-solderen/" },
     ],
     intro:
       "Lekt je zinken goot op een paar plekken, of wordt het zink dun op de plek waar altijd water en blad bleven liggen, terwijl de goot zelf nog stevig hangt? Dan hoeft hij er vaak niet uit. Ik maak de goot leeg, schoon en droog, en breng er van binnen een coating op, over het stuk dat lekt of over de hele lengte. Zo blijft het regenwater in de goot en loopt het niet meer langs je gevel naar beneden. Hangt de goot door, zit hij los van de beugels of is het zink op, dan helpt coaten niet, en dat zeg ik je eerlijk.",
@@ -369,6 +371,39 @@ export const DIENSTEN: Dienst[] = [
       { v: "Kun je een goot ook in de winter coaten?", a: "Alleen op een droge dag zonder vorst, want op een natte of bevroren goot hecht het niet. Lekt het nu en is het te koud of te nat, dan kan ik de goot vaak eerst leegmaken, zodat het water weer naar de regenpijp loopt, en kom ik op een droge dag terug om te coaten." },
       { v: "Kun je ook een zinken bakgoot van binnen coaten?", a: "Vaak wel. Een bakgoot ligt in de rand van het dak, en lekt hij, dan komt het water vaak binnen in de muur of in de kamer eronder. Is het zink nog stevig, dan kan coaten een goede reparatie zijn. Ik kijk eerst of het hout eronder nog gezond is." },
       { v: "Kom je ook buiten Den Bosch om een goot te coaten?", a: "Ja, in mijn werkgebied, onder andere in Boxtel, Veghel, Vught, Rosmalen en Oss. Coaten plan ik met je in op een droge dag. Stuur eerst een foto van de goot, dan hoor je wanneer ik kan komen." },
+    ],
+  },
+  {
+    slug: "dakgoot-solderen",
+    titel: "Dakgoot solderen",
+    vanafPrijs: "stuur een foto",
+    h1: "Zinken dakgoot solderen: een lekkende naad, hoek of uitloop weer dicht",
+    kort: "Lekt je zinken goot of bakgoot bij een naad, een hoek of de uitloop? Vaak is opnieuw solderen genoeg en hoeft de goot er niet uit.",
+    metaTitle: "Zinken dakgoot solderen bij lekkage | Spoed Dak Service",
+    metaDescription:
+      "Lekt je zinken dakgoot of bakgoot bij een naad, een hoek of de uitloop? Vaak is opnieuw solderen genoeg en hoeft de goot er niet uit. Stuur een foto voor de prijs.",
+    icoon: "🛠",
+    geenAfbeelding: true,
+    zieOok: [
+      { label: "Dakgoot van binnen coaten", href: "/diensten/dakgoot-coaten/" },
+      { label: "Dakgoot repareren of vervangen", href: "/diensten/dakgoot-vervangen/" },
+    ],
+    intro:
+      "Druppelt je zinken goot bij elke bui op dezelfde plek, bij een naad, een hoek of de uitloop naar de regenpijp? Dan is daar meestal de soldeernaad opengegaan. Zink zet uit als het warm is en krimpt als het koud is, en na jaren laat zo'n naad los. Vaak hoeft de goot er dan niet uit: ik maak de goot leeg en droog, schuur de naad schoon en soldeer hem opnieuw dicht. Lekt de goot op veel plekken of is het zink over een groot stuk dun, dan helpt solderen niet meer. Is de goot verder nog stevig, dan kan van binnen coaten nog, en is het zink echt op, dan is een nieuwe goot beter. Dat zeg ik je eerlijk als ik heb gekeken. Je hoort vooraf wat het kost.",
+    punten: [
+      "Lekkende naad, hoek, eindstuk of uitloop in een zinken goot opnieuw solderen",
+      "Ook in een zinken bakgoot in de rand van het dak",
+      "Goot eerst leeg en droog, naad schoon geschuurd, zodat het soldeer goed hecht",
+      "Eerlijk advies: solderen, van binnen coaten of toch een nieuwe goot",
+      "Je hoort vooraf wat het kost, de troep gaat mee",
+    ],
+    faq: [
+      { v: "Wat kost een dakgoot solderen?", a: "Dat hangt af van hoeveel naden of hoeken lek zijn, hoe lang de goot is en hoe goed ik erbij kan. Stuur een foto van de plek waar het druppelt en van de goot vanaf de straat via WhatsApp, dan hoor je vooraf wat het kost." },
+      { v: "Hoe zie ik dat een naad lekt en de goot niet gewoon vol zit?", a: "Een volle goot loopt bij een bui over de voorkant over, vaak over een groot stuk. Een lekke naad druppelt op één vaste plek onder de goot, en blijft dat vaak nog een tijd doen als de bui al voorbij is. Daar zie je soms ook een donkere streep of groene aanslag op de gevel. Twijfel je, maak dan tijdens of vlak na een bui een foto vanaf de straat." },
+      { v: "Kun je een kunststof goot ook solderen?", a: "Nee, solderen kan alleen bij zink. Bij een kunststof goot lekt het meestal bij een verbinding, een hoek of het eindstuk, en dan maak ik die verbinding opnieuw of vervang ik dat stuk. Twijfel je of je goot van zink of kunststof is, stuur dan een foto." },
+      { v: "Kan ik de naad niet zelf met kit dichtmaken?", a: "Op een natte of vuile goot hecht kit slecht, en vaak lekt het na een paar maanden weer. Bovendien moet de kit er helemaal af voordat ik kan solderen, en dat is extra werk. Wil je tot de reparatie het ergste opvangen, zet dan een emmer onder de druppel. Ga er niet zelf voor op een ladder staan." },
+      { v: "Kun je ook in de winter solderen?", a: "Op een droge dag meestal wel. De goot moet leeg en droog zijn, en bij regen, sneeuw of ijs in de goot gaat het niet. Lekt het nu en is het te nat, dan maak ik de goot vaak eerst leeg, zodat het water weer naar de regenpijp loopt, en kom ik op een droge dag terug om te solderen." },
+      { v: "Wanneer helpt solderen niet meer?", a: "Als het zink over een groot stuk dun is, als er gaatjes in de bodem zitten of als de goot op veel plekken lekt. Dan komt er na het solderen steeds ergens anders een lek bij. Is de goot verder nog stevig, dan kan van binnen coaten een oplossing zijn. Is het zink echt op, dan is een nieuwe goot slimmer. Dat zeg ik je eerlijk als ik heb gekeken." },
     ],
   },
   {
