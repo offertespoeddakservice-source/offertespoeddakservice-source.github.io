@@ -2091,6 +2091,52 @@ export const ARTIKELEN_EXTRA: Artikel[] = [
       { v: `De pan is op het dak van de buren gevallen. Kijk je daar ook naar?`, a: `Als de buren het goed vinden, kijk ik ook even naar hun dak, bijvoorbeeld of er een pan is gebroken waar de jouwe op viel. Dat spreek ik dan apart met hen af, en zij horen vooraf wat het kost.` },
     ],
   },
+  {
+    slug: `zachte-plek-plat-dak`,
+    datum: `2026-11-10`,
+    titel: `Zachte plek op je platte dak?`,
+    h1: `Zachte of verende plek op je platte dak: is het hout eronder rot?`,
+    metaTitle: `Plat dak zacht of verend: hout rot? | Spoed Dak Service`,
+    metaDescription: `Veert je platte dak op één plek of voelt het zacht? Dan is het hout onder de dakbedekking vaak nat of rot. Zo herken je het, en zo wordt het hersteld.`,
+    intro: `Je loopt over het platte dak van je aanbouw, garage of berging om blad weg te halen, en op één plek geeft het mee. Of je ziet vanuit een raam boven dat er een kuil in het dak zit waar steeds een plas blijft staan. Meestal betekent dat dat het hout onder de dakbedekking op die plek nat is geworden en zacht wordt. Hieronder lees je hoe het zover komt, hoe je het veilig nakijkt en wat eraan te doen is.`,
+    secties: [
+      { kop: `Eerst: ga er niet meer op staan`, tekst: [
+        `Een plek die meegeeft, kan verder inzakken als je erop staat. Dan scheurt de dakbedekking, of zak je met je voet door het hout. Blijf van die plek af en loop er ook niet langs om te kijken. Kijk vanuit een raam boven of vanaf een ladder aan de rand, en maak daar een foto. Druppelt het binnen al, zet dan een bak neer en haal spullen weg. Wat je verder meteen kunt doen, staat op de <a href="/spoed/">spoedpagina</a>.`,
+      ] },
+      { kop: `Hoe een plat dak in elkaar zit`, tekst: [
+        `Onder de dakbedekking, of dat nu dakleer, bitumen of EPDM is, ligt een houten dak: planken of platen op houten balken. Dat hout heet het dakbeschot. Bij een aanbouw of uitbouw van een huis zit er vaak isolatie tussen of op het hout. Zolang de bedekking dicht is en het hout droog blijft, gaat dat lang mee. Komt er water bij het hout en kan het niet meer weg, dan wordt het op die plek zacht en gaat het uiteindelijk rotten.`,
+      ] },
+      { kop: `Hoe het hout nat wordt`, tekst: [
+        `<strong>Een lek dat al een tijd zit.</strong> Een klein gaatje, een losse naad of een scheurtje rond een pijp of de afvoer laat bij elke bui een beetje water door. Binnen zie je daar soms nog niets van, omdat het hout en de isolatie het water eerst opnemen.`,
+        `<strong>Water dat blijft staan.</strong> Zakt een stuk van het dak een beetje door, dan blijft daar na elke bui een plas staan. Dat water zoekt elk naadje op, en het hout eronder wordt steeds natter. Zo wordt de kuil groter. Lees ook <a href="/kennisbank/water-blijft-staan-op-plat-dak/">water blijft staan op je platte dak</a>.`,
+        `<strong>Vocht van binnen.</strong> In een aanbouw met een keuken of badkamer hangt veel warme, vochtige lucht. Is het dak aan de binnenkant niet goed afgesloten, dan kan dat vocht in het koude hout neerslaan. Dan wordt het hout van onderen nat, ook als de bedekking heel is. Lees ook <a href="/kennisbank/condens-of-lekkage-op-zolder/">condens of lekkage</a>.`,
+        `<strong>Een afvoer of rand die niet goed werkt.</strong> Loopt het water niet goed weg bij de afvoer, of komt het achter de daktrim, dan wordt vooral het hout langs de rand nat. Lees <a href="/kennisbank/plat-dak-lekt-bij-afvoer/">plat dak lekt bij de afvoer</a> en <a href="/kennisbank/daktrim-lekt/">plat dak lekt langs de rand</a>.`,
+      ] },
+      { kop: `Zo kijk je het na zonder erop te staan`, tekst: [
+        `Van buiten: kijk na een bui vanuit een raam boven. Blijft er op één plek een plas staan die er vroeger niet was, of zie je een kuil, een plooi of een scheur in de bedekking, dan is dat de plek om op te letten.`,
+        `Van binnen: kun je in de aanbouw, de garage of de berging bij de onderkant van het dak, kijk dan met een zaklamp. Donkere kringen, zwarte plekken van schimmel, hout dat doorbuigt of een plaat die bol staat, wijzen op hout dat al een tijd nat is. Zit er een afgewerkt plafond onder, dan zie je vaak een vlek of een plek die bol gaat staan. Ruik ook even, want rot hout ruikt muf.`,
+      ] },
+      { kop: `Is het erg?`, tekst: [
+        `Een kleine zachte plek is vaak goed te herstellen als je er op tijd bij bent. Hoe langer het hout nat blijft, hoe groter de plek wordt. Het rot kan zich uitbreiden naar de planken ernaast en soms naar de balken eronder, en dan wordt de reparatie groter. Is de isolatie ook nat geworden, lees dan <a href="/kennisbank/isolatie-nat-na-lekkage/">isolatie nat na een lekkage</a>.`,
+      ] },
+      { kop: `Wat je zelf beter niet doet`, tekst: [
+        `Leg geen plaat of tegel op de plek om er toch over te kunnen lopen, en smeer geen kit of een nieuw stuk bedekking over de kuil. Daarmee los je het rotte hout eronder niet op, en het water blijft eronder zitten. Een plak op zacht hout houdt ook niet, want hij moet ergens stevig op vastzitten.`,
+      ] },
+      { kop: `Hoe ik het aanpak`, tekst: [
+        `Ik kijk eerst van binnen en van buiten hoe groot de zachte plek is en waar het water vandaan komt. Op die plek haal ik de dakbedekking weg en kijk ik hoe ver het hout is aangetast. Rotte planken of platen vervang ik door nieuw hout, en als het nodig is ook de natte isolatie. Daarna maak ik de bedekking weer dicht, met een nieuw stuk dat goed aansluit op wat er al ligt. Ik los ook de oorzaak op, zoals een losse naad, een verstopte afvoer of een kuil waar water bleef staan. Is het hout op veel plekken zacht, of is de bedekking zelf ook op, dan zeg ik eerlijk dat een nieuw dak beter is. Zie <a href="/diensten/platte-daken/">platte daken repareren</a> en <a href="/kennisbank/plat-dak-vervangen-of-repareren/">plat dak repareren of vervangen</a>.`,
+      ] },
+      { kop: `Wat kost het?`, tekst: [
+        `Een lek in een klein plat dak dichtmaken kost ${platPrijs}. Moet er ook rot hout vervangen worden, dan is het meer werk. Hoeveel hout eruit moet, zie ik pas goed als de bedekking op die plek open is. Je hoort vooraf de vaste prijs. Kom ik onderweg meer tegen, dan laat ik je dat eerst zien voordat ik verder ga. Richtprijzen staan op de <a href="/prijzen/">prijzenpagina</a>.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: platte daken repareren`, href: `/diensten/platte-daken/` },
+    faq: [
+      { v: `Kan ik nog op mijn platte dak lopen als het op één plek zacht is?`, a: `Liever niet. Blijf in elk geval van de zachte plek af, en ook van de stukken eromheen, want hoe ver het hout is aangetast, zie je van bovenaf niet. Moet er blad of een tak van het dak, doe dat dan vanaf een ladder aan de rand, of laat het mij meenemen als ik kom kijken.` },
+      { v: `Ik zie binnen geen vlek. Kan het hout dan toch rot zijn?`, a: `Ja. Hout en isolatie nemen eerst veel water op voordat je binnen iets ziet, en bij een garage of berging zonder plafond kijk je er vaak niet naar. Een plek die meegeeft of een plas die steeds terugkomt, is dan vaak het eerste teken. Kijk met een zaklamp tegen de onderkant van het dak, als je erbij kunt.` },
+      { v: `Betaalt mijn verzekering het rotte hout?`, a: `Meestal niet. Hout dat langzaam rot door een lek of door vocht, zien verzekeraars in de regel als slijtage of onderhoud. De schade binnen wordt soms wel vergoed, als die plotseling ontstond. Kijk in je polis en maak foto's voordat er iets wordt gerepareerd. Meer lees je in het artikel over daklekkage en je verzekering.` },
+      { v: `Is een zachte plek in mijn platte dak spoed?`, a: `Lekt het binnen bij een lamp of een stopcontact, of zakt het plafond van de aanbouw door, dan wel: bel of app me met een foto. Is het binnen droog en gaat het om een garage of berging, dan kan het meestal een paar dagen wachten. Laat het niet de hele winter zitten, want nat hout droogt in de winter slecht en de plek wordt groter.` },
+    ],
+  },
 ];
 
 // Extra vragen bij bestaande artikelen. artikelen.ts is te groot om nog te laten groeien, daarom staan nieuwe vragen hier.
@@ -2289,4 +2335,5 @@ export const KORT_ANTWOORD: Record<string, string> = {
   "lichtkoepel-lekt": `Waar de druppels vallen, zegt veel. Lopen ze langs de binnenkant van de opstand naar beneden, dan zit het vaak in de dakbedekking rondom de koepel, en dat is meestal een gerichte reparatie. Komen ze uit het midden van de koepel, dan kan de koepel zelf gescheurd zijn. Zie je alleen op koude ochtenden een waas of druppels, ook als het droog is, dan is het meestal condens.`,
   "lekkage-badkamer-plafond": `Let een paar dagen op wanneer het plafond nat wordt. Vooral na het douchen, ook bij droog weer: dan is het meestal condens, of vocht dat in de pijp van de afzuiging neerslaat en terugloopt. Alleen bij regen of harde wind: dan komt het eerder van het dak, van de plek waar die pijp door het dak gaat of van een dakraam.`,
   "epdm-dak-lekt": `Een EPDM-dak lekt zelden midden in de baan, maar op de plekken waar het rubber is verlijmd of aangesloten: de rand langs de daktrim, de strook tegen de muur, de hoeken en de manchet rond een afvoer of pijp. Zit het lek op één plek, dan is een gerichte reparatie met een nieuw stuk EPDM meestal genoeg en hoeft het dak er niet af.`,
+  "zachte-plek-plat-dak": `Geeft je platte dak op één plek mee, dan is het hout onder de dakbedekking daar meestal nat en zacht geworden door een lek, een plas die bleef staan of vocht van binnen. Ga er niet meer op staan. Het rotte hout moet eruit en de bedekking moet op die plek opnieuw dicht, anders wordt de plek steeds groter.`,
 };
