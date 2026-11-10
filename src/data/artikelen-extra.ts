@@ -2261,6 +2261,46 @@ export const ARTIKELEN_EXTRA: Artikel[] = [
       { v: `Is het spoed?`, a: `Druppelt het bij elke bui, of zit de natte plek bij een lamp of stopcontact, dan wel: bel of app me met een foto, en zet bij een lamp of stopcontact eerst in de meterkast de groep van die kamer uit. Werd het alleen nat op de dag van het spuiten en blijft het daarna droog, dan kan het meestal wachten. Houd het bij de volgende buien in de gaten.` },
     ],
   },
+  {
+    slug: `dak-nakijken-voor-zonnepanelen`,
+    datum: `2026-11-10`,
+    titel: `Komen er zonnepanelen op je dak?`,
+    h1: `Zonnepanelen op je dak: laat eerst je dak nakijken`,
+    metaTitle: `Dak nakijken voor zonnepanelen | Spoed Dak Service`,
+    metaDescription: `Komen er zonnepanelen op je dak? Laat eerst kapotte pannen, de nok en het lood nakijken, want daarna kom je er lastig bij. Zo zie je wat vooraf moet.`,
+    intro: `Zonnepanelen liggen er jarenlang. In die tijd kom je slecht bij de pannen eronder: wil je daar iets aan laten doen, dan moet er eerst een paneel los. Daarom is het slim om je dak te laten nakijken voordat de panelen erop komen. Hieronder lees je waar je op let, wat er vooraf geregeld moet zijn en wie wat doet.`,
+    secties: [
+      { kop: `Waarom vooraf`, tekst: [
+        `Een kapotte pan onder een paneel zie je niet, en je komt er niet bij zonder dat je installateur het paneel eerst losmaakt. Dat kost later extra tijd en geld. Een dak dat vooraf in orde is, scheelt dat gedoe. Bovendien loopt de installateur bij het leggen over je pannen, en een pan die al zwak was, breekt dan sneller.`,
+      ] },
+      { kop: `Waar je vooraf naar kijkt`, tekst: [
+        `De pannen. Liggen er gebroken, gescheurde of verschoven pannen op het dakvlak waar de panelen komen? Zijn het oude pannen die veel water opnemen of schilferen, lees dan <a href="/kennisbank/poreuze-dakpannen/">nemen je dakpannen water op?</a>`,
+        `De nok. Ligt de nok nog in oude specie die brokkelt, laat hem dan eerst vastzetten, zeker als de panelen tot vlak onder de nok komen. Zie <a href="/kennisbank/nokvorsten-los/">losse nokvorsten</a>.`,
+        `Het lood. Rond de schoorsteen of een dakraam naast de panelen moet het lood goed liggen. Ligt er straks een paneel vlak naast, dan kom je er later moeilijk bij.`,
+        `De leeftijd van je dak. Is je dak al oud en moet het over een paar jaar toch vernieuwd worden, dan kan het slimmer zijn dat eerst te doen. Anders moeten de panelen er straks weer af. Lees <a href="/kennisbank/hoe-lang-gaat-een-dak-mee/">hoe lang gaat een pannendak mee</a>.`,
+        `De goot. Liggen de panelen straks tot vlak boven de goot, dan blijft daar vaker blad en nestmateriaal hangen. Laat de goot vooraf leegmaken en kijk of hij nog goed vastzit.`,
+      ] },
+      { kop: `Wie doet wat`, tekst: [
+        `Het nakijken en herstellen van de pannen, de nok, het lood en de goot doe ik. Aan de zonnepanelen zelf werk ik niet: het leggen, de dakhaken en de kabels doet je installateur. Vraag je installateur hoe de dakhaken onder de pannen komen en wat er gebeurt als er bij het leggen een pan breekt. Gaat de kabel onder een pan door naar binnen, vraag dan of daar een doorvoerpan kan komen. Zie <a href="/diensten/dakdoorvoer/">dakdoorvoer plaatsen</a>.`,
+      ] },
+      { kop: `Vogels onder de panelen`, tekst: [
+        `Onder panelen is het droog en beschut, en duiven zoeken daar graag een plek. Wil je dat voorkomen, dan kan de rand rond de panelen na het leggen worden afgesloten met vogelwering. Lees <a href="/kennisbank/duiven-onder-zonnepanelen/">duiven onder je zonnepanelen</a>.`,
+      ] },
+      { kop: `Hoe ik het nakijk`, tekst: [
+        `Met de <a href="/dak-apk/">Dak-APK</a> loop ik je hele dak na en krijg je een rapport met foto's, voor ${apkPrijs}. Dan weet je wat er voor de panelen moet gebeuren en wat kan blijven zoals het is. Weet je al wat er kapot is, stuur dan alleen een foto van je dak vanaf de straat, dan hoor je vooraf wat het kost. Plan het een paar weken voordat de installateur komt, dan is er tijd om het te herstellen.`,
+      ] },
+      { kop: `Wat kost het?`, tekst: [
+        `Een paar kapotte pannen vervangen of een losse nokvorst vastzetten kost ${inclBtw("dakpan")}. De hele nok opnieuw aansmeren of nieuw lood is meer werk, en dan hoor je vooraf de vaste prijs. Richtprijzen staan op de <a href="/prijzen/">prijzenpagina</a>.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: dakpannen vervangen`, href: `/diensten/dakpannen-vervangen/` },
+    faq: [
+      { v: `Moet mijn dak nagekeken worden voordat er zonnepanelen op komen?`, a: `Het hoeft niet, maar het is wel slim, zeker bij een dak dat al wat ouder is. Onder de panelen kom je jarenlang slecht bij de pannen. Een kapotte pan of losse nok die je nu laat maken, hoeft er later niet voor een paneel af.` },
+      { v: `Mijn dak is oud. Eerst vernieuwen of eerst de panelen?`, a: `Is je dak bijna op, dan is eerst vernieuwen meestal slimmer, anders moeten de panelen er een paar jaar later weer af en weer op. Is het dak nog goed, dan is herstellen wat kapot is vaak genoeg. Stuur me een paar foto's van je dak vanaf de straat, dan zeg ik eerlijk wat ik denk.` },
+      { v: `De installateur heeft bij het leggen een pan gebroken. Wat nu?`, a: `Meld het eerst bij de installateur, met een foto, want schade door het leggen hoort die in de regel zelf op te lossen. Ligt de pan aan de rand van de panelen, dan kan ik hem vaak vervangen zonder dat er een paneel los hoeft. Ligt hij eronder, dan moet de installateur het paneel eerst losmaken. Meer lees je in het artikel over lekkage bij zonnepanelen.` },
+      { v: `Leg jij ook zonnepanelen?`, a: `Nee. Aan zonnepanelen zelf werk ik niet: leggen, losmaken en verplaatsen doet je installateur. Ik zorg dat het dak eronder in orde is.` },
+    ],
+  },
 ];
 
 // Extra vragen bij bestaande artikelen. artikelen.ts is te groot om nog te laten groeien, daarom staan nieuwe vragen hier.
@@ -2472,4 +2512,5 @@ export const KORT_ANTWOORD: Record<string, string> = {
   "duiven-onder-zonnepanelen": `Duiven onder zonnepanelen laten poep en nestmateriaal achter dat je goot verstopt, en ze kunnen pannen uit de sluiting duwen. De oplossing is de hele rand rond de panelen afsluiten met vogelwering, zodra er geen nest met jongen meer onder zit. De panelen hoeven daar meestal niet voor los.`,
   "dak-vernieuwen-rijtjeshuis": `Ja, meestal kun je het dak van je rijtjeshuis alleen laten vernieuwen. Op de grens met de buren komt dan een nette overgang naar hun pannen, hun nok en hun goot. Samen is slimmer als hun dak ook op is, of als jullie een schoorsteen, goot of kilgoot delen.`,
   "dak-lekt-na-schoonmaken": `Werd het alleen nat op de dag van het schoonspuiten, dan is er meestal spuitwater onder de pannen gekomen, en dat droogt vanzelf op. Lekt het bij elke bui, dan is er bij het schoonmaken waarschijnlijk een pan gebroken of verschoven, specie uit de nok gespoten of lood opgetild, en dat moet gemaakt worden.`,
+  "dak-nakijken-voor-zonnepanelen": `Ja, laat je dak nakijken voordat de zonnepanelen erop komen, want onder de panelen kom je jarenlang slecht bij de pannen. Laat vooraf kapotte of verschoven pannen vervangen, een losse nok vastzetten en het lood bij de schoorsteen nakijken. Is je dak bijna op, vernieuw het dan eerst.`,
 };
