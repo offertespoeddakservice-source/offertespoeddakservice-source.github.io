@@ -2218,6 +2218,9 @@ export const FAQ_ERBIJ: Record<string, Artikel["faq"]> = {
   "dakgoot-lekt-bij-regenpijp": [
     { v: `Er zit een rooster of bolletje in de uitloop van mijn goot. Kan het daardoor lekken?`, a: `Dat kan. Zo'n bolrooster houdt blad uit de regenpijp, maar het blad blijft er dan zelf omheen liggen. Raakt het rooster dicht, dan kan het water niet meer weg en loopt de goot vlak bij de uitloop over, terwijl er niets lek is. Het lijkt dan op een lekkende uitloop. Kijk na een bui of er blad om het rooster ligt en of er nog water in de goot staat. Is dat zo, dan is leegmaken vaak genoeg. Druppelt het ook als de goot leeg is, op één vaste plek onder de uitloop, dan zit het in de verbinding, en die maak ik opnieuw. Stuur me een foto van de goot vanaf de straat via WhatsApp.` },
   ],
+  "dakleer-repareren": [
+    { v: `Kun je dakleer ook in de winter repareren?`, a: `Op een droge dag zonder vorst meestal wel. Op nat of bevroren dakleer hecht een reparatie slecht, en dan lekt het na een tijd weer. Lekt het nu en is het te nat of te koud, dan dek ik de plek eerst af, zodat het binnen droog blijft, en kom ik op een droge dag terug om het goed te maken. Laat het niet tot het voorjaar zitten, want water dat lang op het hout staat, maakt de reparatie later groter. Stuur me een foto van het dak en van de natte plek binnen via WhatsApp.` },
+  ],
 };
 
 // Kort antwoord bovenaan een artikel: één of twee zinnen met het directe antwoord, voor Google en AI. Bedragen alleen via inclBtw uit prijzen.ts, nooit met de hand.
