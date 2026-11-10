@@ -2350,6 +2350,9 @@ export const FAQ_ERBIJ: Record<string, Artikel["faq"]> = {
   "dakleer-repareren": [
     { v: `Kun je dakleer ook in de winter repareren?`, a: `Op een droge dag zonder vorst meestal wel. Op nat of bevroren dakleer hecht een reparatie slecht, en dan lekt het na een tijd weer. Lekt het nu en is het te nat of te koud, dan dek ik de plek eerst af, zodat het binnen droog blijft, en kom ik op een droge dag terug om het goed te maken. Laat het niet tot het voorjaar zitten, want water dat lang op het hout staat, maakt de reparatie later groter. Stuur me een foto van het dak en van de natte plek binnen via WhatsApp.` },
   ],
+  "hoe-lang-gaat-een-dak-mee": [
+    { v: `Mijn rijtjeshuis heeft nog het eerste dak, maar de buren willen nog niet vernieuwen. Moet ik op ze wachten?`, a: `Nee, meestal niet. Jouw kant van het dak kan los van die van de buren worden vernieuwd. Op de grens maak ik dan een nette overgang naar hun pannen, de nok en de goot, zodat het daar droog blijft, en de buren kunnen later gewoon aansluiten. Samen is wel slimmer als hun dak ook al lekt, of als jullie een schoorsteen of goot delen. Wat er op de grens gebeurt en wat je met je buren afspreekt, lees je in het artikel over je dak vernieuwen in een rijtjeshuis. Stuur me een foto van de rij huizen vanaf de straat, dan hoor je vooraf wat het kost.` },
+  ],
 };
 
 // Kort antwoord bovenaan een artikel: één of twee zinnen met het directe antwoord, voor Google en AI. Bedragen alleen via inclBtw uit prijzen.ts, nooit met de hand.
