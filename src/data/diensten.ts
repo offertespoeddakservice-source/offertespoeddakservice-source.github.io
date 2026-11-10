@@ -45,6 +45,11 @@ export const DIENSTEN: Dienst[] = [
       `Goten laten reinigen in de regio Den Bosch: ${inclBtw("goot_reinigen")} voor één goot, vaste prijs vooraf. Netjes werk en eerlijk advies over je dak. Stuur een foto of app Rens.`,
     icoon: "🪣",
     vanafPrijs: GOTEN_PRIJS,
+    zieOok: [
+      { label: "Dakgoot repareren of vervangen", href: "/diensten/dakgoot-vervangen/" },
+      { label: "Zinken dakgoot solderen", href: "/diensten/dakgoot-solderen/" },
+      { label: "Regenpijp vervangen of repareren", href: "/diensten/regenpijp-vervangen/" },
+    ],
     intro:
       "Volle of verstopte dakgoten zorgen voor overlopend water, vochtige muren en op den duur lekkage. Ik maak je goten leeg, controleer de afvoer en kijk meteen of er nog iets aan je dak speelt. Geen verrassingen: je weet vooraf wat het kost.",
     punten: [
@@ -610,6 +615,7 @@ export const DIENSTEN: Dienst[] = [
     zieOok: [
       { label: "Dakgoot repareren of vervangen", href: "/diensten/dakgoot-vervangen/" },
       { label: "Goten reinigen", href: "/diensten/goten-reinigen/" },
+      { label: "Zinken dakgoot solderen", href: "/diensten/dakgoot-solderen/" },
     ],
     intro:
       "Een regenpijp die gescheurd is, los van de muur hangt of bij de verbindingen lekt, laat het water langs je gevel lopen. Dan wordt de muur nat en groen. Ik vervang de regenpijp, in kunststof of zink, en kijk meteen of de goot erboven het water goed kwijt kan.",
