@@ -2137,6 +2137,45 @@ export const ARTIKELEN_EXTRA: Artikel[] = [
       { v: `Is een zachte plek in mijn platte dak spoed?`, a: `Lekt het binnen bij een lamp of een stopcontact, of zakt het plafond van de aanbouw door, dan wel: bel of app me met een foto. Is het binnen droog en gaat het om een garage of berging, dan kan het meestal een paar dagen wachten. Laat het niet de hele winter zitten, want nat hout droogt in de winter slecht en de plek wordt groter.` },
     ],
   },
+  {
+    slug: `duiven-onder-zonnepanelen`,
+    datum: `2026-11-10`,
+    titel: `Duiven onder je zonnepanelen?`,
+    h1: `Duiven onder je zonnepanelen: wat het kwaad kan en hoe je ze eronder vandaan houdt`,
+    metaTitle: `Duiven onder zonnepanelen: wat nu? | Spoed Dak Service`,
+    metaDescription: `Nestelen er duiven onder je zonnepanelen? Ze laten poep en takken achter, zetten de goot dicht en kunnen pannen laten schuiven. Zo pak je het aan.`,
+    intro: `Sinds er zonnepanelen op je dak liggen, zie je steeds duiven op de nok zitten en onder de panelen verdwijnen. Op je dak en in de goot liggen poep en takjes, en 's ochtends hoor je gekoer en gekrabbel. Onder de panelen is het droog, warm en uit de wind, en daarom is het voor duiven een ideale plek. Hieronder lees je wat het kwaad kan, wat je zelf beter niet doet en hoe de rand rond de panelen wordt afgesloten.`,
+    secties: [
+      { kop: `Zo zie je dat er duiven onder zitten`, tekst: [
+        `Je ziet duiven onder de rand van de panelen in en uit lopen, vaak aan de onderkant of de zijkant. Er steken takjes onder de panelen uit, en op de pannen eronder, in de goot en op de grond liggen poep en veertjes. Soms hoor je ze binnen, vooral als je slaapkamer of zolder vlak onder de panelen ligt.`,
+      ] },
+      { kop: `Wat het kwaad kan`, tekst: [
+        `Nesten en poep spoelen bij regen naar beneden en komen in de goot terecht. Daar zetten ze de uitloop naar de regenpijp dicht, en dan loopt de goot over. Lees ook <a href="/kennisbank/dakgoot-loopt-over/">dakgoot loopt over</a>.`,
+        `Onder de panelen hoopt nestmateriaal zich op. Daar droogt het slecht, en de pannen eronder blijven langer nat. Duiven lopen ook over de pannen en duwen soms een pan net uit de sluiting. Dan kan de regen er bij harde wind onder waaien.`,
+        `De kabels van de panelen lopen onder de panelen door. Vogels kunnen daaraan pikken of er hun nest tegenaan bouwen. Zie je beschadigde kabels, laat dan je installateur kijken.`,
+        `En duivenpoep is vies en ruikt, zeker als het op je terras of je vensterbank terechtkomt.`,
+      ] },
+      { kop: `Wanneer je er iets aan doet`, tekst: [
+        `Duiven kunnen bijna het hele jaar broeden. Zit er een nest met eieren of jongen onder de panelen, dan sluit je die plek niet af voordat de jongen uitgevlogen zijn. Weet je niet of er nog jongen zitten, of gaat het om andere vogels dan duiven, vraag het dan eerst na bij je gemeente. Is er geen nest met jongen, dan kan de rand meteen dicht. Hoe eerder, hoe minder troep er onder de panelen ligt. Hoe het zit met mussen en andere vogels onder de pannen, lees je in <a href="/kennisbank/vogels-onder-dakpannen/">vogels onder je dakpannen</a>.`,
+      ] },
+      { kop: `Wat je zelf beter niet doet`, tekst: [
+        `Ga niet zelf het dak op en klim niet op de panelen. Je kunt een paneel beschadigen, en een nat dak met poep erop is glad. Prop geen gaas, schuim of doeken onder de rand van de panelen, want dat waait los, houdt water vast of beschadigt de kabels. Een nepuil of glimmende stroken helpen meestal ook niet lang, want duiven wennen daar snel aan.`,
+      ] },
+      { kop: `Hoe ik het aanpak`, tekst: [
+        `Ik kijk eerst hoe de panelen liggen en waar de duiven eronder komen. Liggen er nesten of takken aan de rand, dan haal ik weg wat ik daar veilig kan bereiken. Daarna sluit ik de rand rond het hele veld met panelen af met vogelwering, zodat de duiven er niet meer onder kunnen. Ik kijk naar de hele rand en niet alleen naar de plek waar je ze ziet, anders schuiven ze een stukje op. De panelen zelf maak ik niet los, en schoonmaken doe ik ook niet. Dat is werk voor je installateur of voor iemand die zonnepanelen schoonmaakt. Zie ik bij het afsluiten een pan die scheef ligt of gebroken is, dan zeg ik dat erbij. Zie <a href="/diensten/vogelwering/">vogelwering</a>.`,
+      ] },
+      { kop: `Wat kost het?`, tekst: [
+        `Dat hangt af van hoe groot het veld met panelen is, hoeveel rand er afgesloten moet worden en hoe goed ik erbij kan. Stuur een foto van je dak vanaf de straat en, als het kan, een foto van dichtbij van de rand van de panelen. Dan hoor je vooraf de vaste prijs, voordat ik begin.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: vogelwering`, href: `/diensten/vogelwering/` },
+    faq: [
+      { v: `Komen de duiven terug als de rand dicht is?`, a: `Onder de panelen in de regel niet meer, als de hele rand dicht is. Ze blijven soms nog een tijd op de nok of de rand van het dak zitten, omdat ze de plek kennen, maar ze kunnen er niet meer onder. Daarom sluit ik de hele rand af en niet alleen de plek waar je ze nu ziet.` },
+      { v: `Kan het lekken door duiven onder de panelen?`, a: `Niet meteen, maar het kan wel. Nestmateriaal en poep zetten de goot dicht, en dan loopt hij over. En een pan die door de duiven of hun nest een stukje uit de sluiting is geduwd, laat bij harde wind de regen door. Zie je binnen een natte plek onder de panelen, lees dan het artikel over lekkage bij zonnepanelen, of stuur me een foto via WhatsApp.` },
+      { v: `Moeten de panelen eraf om de duiven weg te krijgen?`, a: `Meestal niet. De rand rond de panelen kan worden afgesloten terwijl de panelen gewoon blijven liggen. Ligt er onder de panelen veel nestmateriaal waar ik niet bij kan, dan zeg ik dat eerlijk. Om dat weg te halen moeten er soms panelen los, en dat doet je installateur.` },
+      { v: `Wanneer kan de vogelwering er het best op?`, a: `Zodra er geen nest met eieren of jongen meer onder de panelen zit. Bij duiven kan dat ook in de herfst of de winter zijn. Hoe eerder de rand dicht is, hoe minder troep er onder de panelen en in je goot komt. Stuur me een foto, dan kijk ik mee.` },
+    ],
+  },
 ];
 
 // Extra vragen bij bestaande artikelen. artikelen.ts is te groot om nog te laten groeien, daarom staan nieuwe vragen hier.
@@ -2336,4 +2375,5 @@ export const KORT_ANTWOORD: Record<string, string> = {
   "lekkage-badkamer-plafond": `Let een paar dagen op wanneer het plafond nat wordt. Vooral na het douchen, ook bij droog weer: dan is het meestal condens, of vocht dat in de pijp van de afzuiging neerslaat en terugloopt. Alleen bij regen of harde wind: dan komt het eerder van het dak, van de plek waar die pijp door het dak gaat of van een dakraam.`,
   "epdm-dak-lekt": `Een EPDM-dak lekt zelden midden in de baan, maar op de plekken waar het rubber is verlijmd of aangesloten: de rand langs de daktrim, de strook tegen de muur, de hoeken en de manchet rond een afvoer of pijp. Zit het lek op één plek, dan is een gerichte reparatie met een nieuw stuk EPDM meestal genoeg en hoeft het dak er niet af.`,
   "zachte-plek-plat-dak": `Geeft je platte dak op één plek mee, dan is het hout onder de dakbedekking daar meestal nat en zacht geworden door een lek, een plas die bleef staan of vocht van binnen. Ga er niet meer op staan. Het rotte hout moet eruit en de bedekking moet op die plek opnieuw dicht, anders wordt de plek steeds groter.`,
+  "duiven-onder-zonnepanelen": `Duiven onder zonnepanelen laten poep en nestmateriaal achter dat je goot verstopt, en ze kunnen pannen uit de sluiting duwen. De oplossing is de hele rand rond de panelen afsluiten met vogelwering, zodra er geen nest met jongen meer onder zit. De panelen hoeven daar meestal niet voor los.`,
 };
