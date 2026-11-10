@@ -256,7 +256,7 @@ export const PLAATSEN: Plaats[] = [
     slug: "den-bosch",
     naam: "Den Bosch",
     lokaal:
-      "Mijn thuisbasis: van de oude binnenstad met monumentale daken tot naoorlogse wijken met schuine pannendaken. Hier ben ik dagelijks, dus bij spoed sta ik snel voor je deur.",
+      "Den Bosch is mijn thuisbasis. In de binnenstad staan monumenten en oude panden dicht op elkaar, met steile pannendaken, zinken goten en lood dat er vaak al tientallen jaren ligt. In de Muntel en het Zand staan veel huizen van voor de oorlog, in Boschveld en de Kruiskamp naoorlogse rijtjes, en Maaspoort en Empel zijn grotendeels vanaf de jaren '80 gebouwd.",
     wijken: ["Muntel", "Boschveld", "De Slagen", "Maaspoort", "Zuid", "Empel", "Engelen"],
     reistijd: "een paar minuten vanaf mijn thuisbasis",
     omschrijving: "Dakdekker in Den Bosch, Empel, Engelen en Nuland: lekkage opsporen, oude goten en lood, losse pannen na storm. Vaste prijs vooraf. Bel of app Rens.",
