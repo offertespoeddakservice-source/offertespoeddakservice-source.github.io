@@ -2212,6 +2212,9 @@ export const FAQ_ERBIJ: Record<string, Artikel["faq"]> = {
   "hoe-vaak-dakgoot-reinigen": [
     { v: `De boom van de buren hangt boven mijn dak en het blad valt in mijn goot. Wat kan ik doen?`, a: `Praat eerst met je buren. Hangt er een tak over jouw dak, vraag dan of ze die laten terugsnoeien, want zo'n tak geeft niet alleen blad in je goot, maar kan bij een storm ook op je pannen slaan. Kom je er samen niet uit, dan kun je advies vragen bij het Juridisch Loket. Tot die tijd helpt het om je goot vaker te laten leegmaken: laat in het najaar, als de boom kaal is, en bij veel blad nog een keer in het voorjaar. Een bladvanger of gaas houdt grof blad tegen, maar lost het niet helemaal op. Stuur me een foto van je goot vanaf de straat via WhatsApp, dan hoor je vooraf wat het kost.` },
   ],
+  "water-blijft-staan-op-plat-dak": [
+    { v: `Sinds de storm blijft er water staan op een plek waar dat eerst niet zo was. Wat betekent dat?`, a: `Vaak ligt er dan iets in de weg: blad, takjes of grind dat bij de storm naar de afvoer of de rand is geblazen. Ligt er alleen wat blad of grind voor de afvoer, dan is leegmaken vaak genoeg. Blijft het water staan, of zie je een bolling of een plooi in de dakbedekking, dan kan de bedekking op die plek zijn losgekomen of opgetild. Dan loopt het water er bij de volgende bui makkelijk onder. Ga er niet zelf op lopen. Maak vanuit een raam boven een foto en stuur die via WhatsApp, dan zeg ik eerlijk wat ik zie. Meer lees je in het artikel over een losgewaaide dakbedekking na een storm.` },
+  ],
 };
 
 // Kort antwoord bovenaan een artikel: één of twee zinnen met het directe antwoord, voor Google en AI. Bedragen alleen via inclBtw uit prijzen.ts, nooit met de hand.
