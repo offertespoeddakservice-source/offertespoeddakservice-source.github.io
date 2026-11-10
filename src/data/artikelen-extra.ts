@@ -2054,6 +2054,43 @@ export const ARTIKELEN_EXTRA: Artikel[] = [
       { v: `Helpen stenen of tegels op het dak tegen loswaaien?`, a: `Liever niet. Losse stenen of tegels kunnen bij de volgende windstoot verschuiven of eraf waaien, en ze drukken en schuren op de bedekking. Een losse rand of naad moet echt vast, aan de daktrim of met een nieuw stuk bedekking.` },
     ],
   },
+  {
+    slug: `dakpan-op-auto-buren`,
+    datum: `2026-11-10`,
+    titel: `Dakpan op de auto of bij de buren?`,
+    h1: `Dakpan van je dak gewaaid op de auto of het huis van de buren: wat nu, en wie betaalt?`,
+    metaTitle: `Dakpan op auto of bij de buren gewaaid? | Spoed Dak Service`,
+    metaDescription: `Viel er bij storm een dakpan van je dak op een auto of bij de buren? Zo handel je het veilig af, zo zit het met de verzekering en zo gaat je dak weer dicht.`,
+    intro: `Na een flinke windstoot ligt er een pan van jouw dak op de auto van de buren, in hun tuin of op hun dak. Je schrikt, en je hebt meteen twee zorgen: er zit een gat in je eigen dak, en er is schade bij een ander. Hieronder lees je stap voor stap wat je doet: eerst de veiligheid, dan foto's, dan het gesprek met je buren en je verzekeraar, en tot slot je eigen dak weer dicht voordat de volgende bui komt.`,
+    secties: [
+      { kop: `Eerst: veiligheid`, tekst: [
+        `Hangt er nog een pan of een stuk nokvorst los boven de stoep, de oprit of de tuin, houd mensen en kinderen dan op afstand en zet de auto als het kan ergens anders neer. Ga zelf niet het dak op en zet geen ladder tegen de gevel zolang het nog hard waait. Is er direct gevaar, bijvoorbeeld een losse schoorsteenkap of een stuk dak boven de weg, bel dan 112.`,
+      ] },
+      { kop: `Maak foto's voordat je iets opruimt`, tekst: [
+        `Maak foto's van de pan of de stukken op de auto of in de tuin, van de schade bij de buren en van je eigen dak vanaf de straat, met de zoom van je telefoon. Schrijf de datum en het tijdstip op en bewaar de stukken pan. Die foto's heb je straks nodig, voor je eigen verzekeraar en voor die van de buren.`,
+      ] },
+      { kop: `Praat meteen met je buren`, tekst: [
+        `Ga even langs, vertel wat er is gebeurd en wissel jullie gegevens en die van jullie verzekeraars uit. Beloof niet meteen dat jij alles betaalt, want dat hangt af van de situatie en van de polissen. Een rustig gesprek op de eerste dag voorkomt een hoop gedoe later.`,
+      ] },
+      { kop: `Wie betaalt de schade bij de buren?`, tekst: [
+        `Dat hangt vooral af van de storm en van hoe je dak erbij lag. Bij een zware storm gaan verzekeraars er vaak van uit dat niemand er iets aan kon doen. Dan meldt je buurman de schade meestal bij zijn eigen verzekering, zoals de autoverzekering met cascodekking of zijn opstalverzekering. Lag de pan al langer los, of was je dak duidelijk slecht onderhouden, dan kun jij aansprakelijk zijn, en dan komt je eigen aansprakelijkheidsverzekering in beeld. Wat er precies onder valt, staat in de polissen. Twijfel je, bel dan je verzekeraar en vertel wat er is gebeurd.`,
+        `Hoe het meestal zit met je eigen dak en je opstalverzekering, lees je in <a href="/kennisbank/daklekkage-verzekering/">daklekkage en je verzekering</a>.`,
+      ] },
+      { kop: `Je eigen dak weer dicht`, tekst: [
+        `Waar een pan is weggewaaid, zit een open plek, en bij de volgende bui loopt het water daar onder de pannen door naar binnen. Kijk op zolder of het onder die plek nat wordt en zet er zo nodig een bak onder. Stuur me een foto van je dak vanaf de straat via WhatsApp. Een open plek dek ik eerst af, en daarna leg ik er een pan in die past bij de rest van je dak. Je hoort vooraf wat het kost. Wat je verder na een storm doet, lees je in <a href="/kennisbank/stormschade-eerste-hulp/">stormschade: eerste hulp</a>.`,
+      ] },
+      { kop: `Zo voorkom je het bij de volgende storm`, tekst: [
+        `Een pan waait er zelden zomaar af. Meestal lag hij al een beetje scheef, zat hij niet vast of was de nokvorst los. Langs de zijkant van het dak, bij de onderste rij boven de goot en vlak onder de nok heeft de wind de meeste grip. Laat die plekken nakijken als er een storm is voorspeld, of als je na een storm brokjes specie of stukjes pan in de goot ziet. Lees ook <a href="/kennisbank/dakpannen-vastzetten-tegen-storm/">dakpannen vastzetten tegen storm</a>.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: stormschade`, href: `/diensten/stormschade/` },
+    faq: [
+      { v: `Moet ik de schade bij mijn buren zelf betalen?`, a: `Niet meteen. Wissel eerst jullie gegevens uit en meld het allebei bij je eigen verzekeraar. Of jij aansprakelijk bent, hangt af van de storm en van de staat van je dak. Beloof daarom niets voordat je verzekeraar ernaar heeft gekeken.` },
+      { v: `Kan ik de pan zelf terugleggen?`, a: `Liever niet. Een dak is na een storm vaak nat en glad, en waar één pan los is, liggen er vaak meer los. Bovendien moet de pan goed in de pannen ernaast haken, anders waait hij er bij de volgende storm zo weer af. Stuur me een foto, dan kijk ik wat er nodig is.` },
+      { v: `Krijg ik iets van je voor mijn verzekeraar?`, a: `Ik maak foto's van wat ik op je dak aantref en van de reparatie, met een korte omschrijving erbij. Die kun je naar je verzekeraar sturen. Of de schade vergoed wordt, beslist je verzekeraar.` },
+      { v: `De pan is op het dak van de buren gevallen. Kijk je daar ook naar?`, a: `Als de buren het goed vinden, kijk ik ook even naar hun dak, bijvoorbeeld of er een pan is gebroken waar de jouwe op viel. Dat spreek ik dan apart met hen af, en zij horen vooraf wat het kost.` },
+    ],
+  },
 ];
 
 // Extra vragen bij bestaande artikelen. artikelen.ts is te groot om nog te laten groeien, daarom staan nieuwe vragen hier.
