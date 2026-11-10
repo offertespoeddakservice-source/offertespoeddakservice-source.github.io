@@ -409,25 +409,25 @@ export const DIENSTEN: Dienst[] = [
   {
     slug: "dakcoating",
     verborgen: true,
-    titel: "Dak coaten",
-    vanafPrijs: "prijs na inspectie",
-    h1: "Dak coaten: bescherm je pannen en goten, veel goedkoper dan vervangen",
-    kort: "Coating beschermt pannen en goten die nog goed zijn tegen mos, vuil en slijtage.",
-    metaTitle: "Dak coaten & dakcoating Den Bosch | Spoed Dak Service",
+    titel: "Verweerde dakpannen",
+    vanafPrijs: "stuur een foto",
+    h1: "Verweerde of poreuze dakpannen: vervangen of renoveren",
+    kort: "Pannen die op zijn vervangen, en eerlijk advies over de rest van je dak.",
+    metaTitle: "Verweerde dakpannen vervangen | Spoed Dak Service",
     metaDescription:
-      "Dakpannen of dakgoot coaten in de regio Den Bosch: beschermt wat nog goed is en is veel goedkoper dan vervangen. Vaste prijs vooraf. Bel of WhatsApp Rens.",
+      "Zijn je dakpannen verweerd, poreus of gebroken? Dan vervang ik de pannen die op zijn, of adviseer ik eerlijk een renovatie. Stuur een foto van je dak.",
     icoon: "🛡",
     intro:
-      "Zijn je pannen of goot nog goed maar verweerd? Dan hoef je ze niet te vervangen. Een coating beschermt tegen mos, vuil en slijtage en geeft je dak jaren extra, voor een fractie van de prijs van vervangen.",
+      "Zijn je dakpannen verweerd, nemen ze water op of laten ze schilfers los? Dan kijk ik eerlijk wat er nodig is. Pannen die op zijn vervang ik, en is het hele dak aan het eind, dan is een renovatie de betere stap. Een lekkende dakgoot kan ik van binnen coaten.",
     punten: [
-      "Eerst reinigen, dan coaten, netjes en grondig",
-      "Voor pannen die nog goed zijn (geen poreuze/versleten)",
-      "Veel goedkoper dan vervangen",
-      "Eerlijk advies: coaten of toch vervangen?",
+      "Poreuze of gebroken pannen vervangen",
+      "Een losse nok of los lood weer vast",
+      "Een lekkende dakgoot van binnen coaten of solderen",
+      "Eerlijk advies: repareren, vervangen of renoveren",
     ],
     faq: [
-      { v: "Wanneer is coaten zinvol?", a: "Als je pannen of goot nog stevig zijn maar verweerd. Zijn ze poreus of versleten, dan is coaten zonde. Dan adviseer ik vervangen. Ik kom kijken en zeg het eerlijk." },
-      { v: "Kun je ook de dakgoot coaten?", a: "Ja. Een goot die nog goed is maar verweerd kun je coaten tegen roest en slijtage, veel goedkoper dan vervangen." },
+      { v: "Mijn pannen zijn verweerd. Moeten ze allemaal vervangen worden?", a: "Niet altijd. Vaak zijn een paar pannen echt op en is de rest nog goed. Dan vervang ik alleen die pannen. Nemen veel pannen water op, of breken ze bij vorst, dan is een renovatie van het dakvlak slimmer. Hoe je dat ziet, lees je in het artikel over poreuze dakpannen. Stuur me gerust een foto van je dak vanaf de straat." },
+      { v: "Kun je een lekkende dakgoot van binnen coaten?", a: "Ja. Is een zinken goot of bakgoot verder nog stevig maar lekt hij op een paar plekken, dan kan ik de dakgoot van binnen coaten of een naad solderen. Meer lees je op de pagina over dakgoot coaten." },
     ],
   },
   {
