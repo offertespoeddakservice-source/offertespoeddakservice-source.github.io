@@ -2176,6 +2176,47 @@ export const ARTIKELEN_EXTRA: Artikel[] = [
       { v: `Wanneer kan de vogelwering er het best op?`, a: `Zodra er geen nest met eieren of jongen meer onder de panelen zit. Bij duiven kan dat ook in de herfst of de winter zijn. Hoe eerder de rand dicht is, hoe minder troep er onder de panelen en in je goot komt. Stuur me een foto, dan kijk ik mee.` },
     ],
   },
+  {
+    slug: `dak-vernieuwen-rijtjeshuis`,
+    datum: `2026-11-10`,
+    titel: `Dak vernieuwen in een rijtjeshuis?`,
+    h1: `Je dak vernieuwen in een rijtjeshuis: samen met de buren of alleen?`,
+    metaTitle: `Dak vernieuwen in een rijtjeshuis | Spoed Dak Service`,
+    metaDescription: `Wil je het dak van je rijtjeshuis vernieuwen en de buren nog niet? Dat kan vaak. Zo gaat het op de grens, bij de nok en de goot, en zo maak je afspraken.`,
+    intro: `In een rij huizen zijn de daken vaak in hetzelfde jaar gelegd, met dezelfde pannen. Na veertig of vijftig jaar is het dak bij het ene huis eerder op dan bij het andere, of wil de ene buur er nu geld aan uitgeven en de andere nog niet. Moet je dan wachten tot de hele rij meedoet? Meestal niet. Hieronder lees je wat er op de grens gebeurt als je alleen vernieuwt, wanneer samen slimmer is en wat je met je buren afspreekt.`,
+    secties: [
+      { kop: `Kan het alleen?`, tekst: [
+        `Ja, in de regel wel. Elk huis in de rij heeft zijn eigen stuk dak, en de grens ligt meestal boven de muur tussen jullie huizen. Jouw kant kan nieuwe pannen en nieuwe panlatten krijgen, en als je dat wilt ook nieuwe folie, terwijl het dak van de buren blijft liggen. Het gaat er vooral om hoe het op de grens wordt afgewerkt.`,
+      ] },
+      { kop: `Wat er op de grens gebeurt`, tekst: [
+        `Op de grens komen jouw nieuwe pannen tegen de oude pannen van de buren. Passen de nieuwe pannen in vorm en maat bij de oude, dan haken ze gewoon in elkaar. Is dat niet zo, bijvoorbeeld omdat de oude pan niet meer gemaakt wordt, dan maak ik op de grens een nette overgang met een strook loodvervanger of lood, zodat het water er niet tussen kan lopen.`,
+        `De nok loopt bij een rij huizen vaak in één lijn over alle daken. Op de grens laat ik de nieuwe nokvorsten goed aansluiten op die van de buren. Loopt je goot door naar die van de buren, dan maak ik ook daar een nette overgang. Krijgt jouw kant nieuwe folie, dan laat ik die op de grens goed aansluiten, zodat er geen water onder kan komen.`,
+      ] },
+      { kop: `Wanneer samen slimmer is`, tekst: [
+        `Als het dak van de buren net zo oud is en ook al lekt of pannen verliest. Dan worden de twee daken in één keer gedaan, en zit er op de grens geen overgang van oud naar nieuw.`,
+        `Als jullie op de grens een schoorsteen, een goot of een kilgoot delen. Dat stuk pak je het best in één keer aan, anders blijf je op die plek lappen. Lees ook <a href="/kennisbank/lekkage-gedeelde-schoorsteen/">lekkage bij een gedeelde schoorsteen</a> en <a href="/kennisbank/gedeelde-dakgoot-lekt/">gedeelde dakgoot lekt</a>.`,
+        `Als jullie allebei dezelfde pan willen, zodat de rij er weer als één geheel uitziet. En als er voor het werk een steiger nodig is: die hoeft er dan maar één keer te staan.`,
+      ] },
+      { kop: `Wat je met je buren afspreekt`, tekst: [
+        `Vertel je buren ruim van tevoren dat je je dak laat vernieuwen, en wanneer. Voor het werk op de grens moet ik soms een paar pannen aan hun kant optillen of mijn ladder bij hen neerzetten. Hun pannen leg ik daarna weer netjes terug.`,
+        `Doen jullie het samen, spreek dan op papier af wie wat betaalt, vooral voor de stukken die jullie delen, zoals de nok op de grens, een gedeelde goot of de schoorsteen. Dan weet ieder waar hij aan toe is.`,
+        `Werkt je buur niet mee terwijl het werk anders niet kan? Buren moeten in de regel toestaan dat je hun grond of dak even gebruikt voor noodzakelijk onderhoud aan je eigen huis, als het anders niet of alleen heel lastig kan. Advies daarover kun je vragen bij het Juridisch Loket. Meestal komt het met een goed gesprek vooraf gewoon goed.`,
+      ] },
+      { kop: `Hoe ik het aanpak`, tekst: [
+        `Ik kom eerst kijken naar jouw dak en naar dat van de buren op de grens: welke pannen er liggen, hoe de nok en de goot doorlopen en of er een gedeelde schoorsteen is. Willen de buren ook, dan krijgt ieder een eigen prijs voor zijn eigen huis, zodat duidelijk is wie wat betaalt. Doe je het alleen, dan zeg ik eerlijk hoe de overgang op de grens wordt en hoe die eruitziet. Voor grotere klussen plannen we een paar weken vooruit, en ik werk op droge dagen. Zie <a href="/diensten/dakrenovatie/">dakrenovatie</a>.`,
+      ] },
+      { kop: `Is je dak echt aan vernieuwen toe?`, tekst: [
+        `Of je dak echt op is, lees je in <a href="/kennisbank/hoe-lang-gaat-een-dak-mee/">hoe lang gaat een pannendak mee</a>. Wil je eerst weten hoe je hele dak ervoor staat, met foto's van elke plek, dan is de <a href="/dak-apk/">Dak-APK</a> een goed begin.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: dakrenovatie`, href: `/diensten/dakrenovatie/` },
+    faq: [
+      { v: `Ziet het er raar uit als alleen mijn kant nieuwe pannen heeft?`, a: `Dat hangt af van de pan. Kies je een pan in dezelfde vorm en kleur als die van de buren, dan valt het verschil na een paar jaar weinig meer op, omdat nieuwe pannen ook verweren. Kies je een andere pan of kleur, dan zie je de grens altijd. Woon je in een monument of in een beschermd stadsgezicht, vraag dan eerst bij de gemeente wat mag.` },
+      { v: `Kunnen de buren later nog aansluiten?`, a: `Ja. Ik maak de overgang op de grens zo dat de buren later hun eigen kant kunnen laten vernieuwen. Dan gaat de overgang eruit, en sluiten hun nieuwe pannen gewoon aan op de jouwe.` },
+      { v: `Wie betaalt de nok op de grens?`, a: `Dat spreken jullie samen af. Vaak betaalt ieder het stuk boven zijn eigen huis, en wordt het stuk precies op de grens gedeeld. Vernieuw je alleen, dan hoort de aansluiting op de nok van de buren bij jouw klus.` },
+      { v: `Moet ik de buren om toestemming vragen?`, a: `Voor het werk aan je eigen dak niet. Moet ik voor de aansluiting een paar pannen aan hun kant optillen of mijn ladder bij hen neerzetten, dan wel. Vraag het ze vooraf, dan kunnen ze zeggen wanneer het hun uitkomt.` },
+    ],
+  },
 ];
 
 // Extra vragen bij bestaande artikelen. artikelen.ts is te groot om nog te laten groeien, daarom staan nieuwe vragen hier.
@@ -2379,4 +2420,5 @@ export const KORT_ANTWOORD: Record<string, string> = {
   "epdm-dak-lekt": `Een EPDM-dak lekt zelden midden in de baan, maar op de plekken waar het rubber is verlijmd of aangesloten: de rand langs de daktrim, de strook tegen de muur, de hoeken en de manchet rond een afvoer of pijp. Zit het lek op één plek, dan is een gerichte reparatie met een nieuw stuk EPDM meestal genoeg en hoeft het dak er niet af.`,
   "zachte-plek-plat-dak": `Geeft je platte dak op één plek mee, dan is het hout onder de dakbedekking daar meestal nat en zacht geworden door een lek, een plas die bleef staan of vocht van binnen. Ga er niet meer op staan. Het rotte hout moet eruit en de bedekking moet op die plek opnieuw dicht, anders wordt de plek steeds groter.`,
   "duiven-onder-zonnepanelen": `Duiven onder zonnepanelen laten poep en nestmateriaal achter dat je goot verstopt, en ze kunnen pannen uit de sluiting duwen. De oplossing is de hele rand rond de panelen afsluiten met vogelwering, zodra er geen nest met jongen meer onder zit. De panelen hoeven daar meestal niet voor los.`,
+  "dak-vernieuwen-rijtjeshuis": `Ja, meestal kun je het dak van je rijtjeshuis alleen laten vernieuwen. Op de grens met de buren komt dan een nette overgang naar hun pannen, hun nok en hun goot. Samen is slimmer als hun dak ook op is, of als jullie een schoorsteen, goot of kilgoot delen.`,
 };
