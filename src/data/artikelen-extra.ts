@@ -2353,6 +2353,9 @@ export const FAQ_ERBIJ: Record<string, Artikel["faq"]> = {
   "hoe-lang-gaat-een-dak-mee": [
     { v: `Mijn rijtjeshuis heeft nog het eerste dak, maar de buren willen nog niet vernieuwen. Moet ik op ze wachten?`, a: `Nee, meestal niet. Jouw kant van het dak kan los van die van de buren worden vernieuwd. Op de grens maak ik dan een nette overgang naar hun pannen, de nok en de goot, zodat het daar droog blijft, en de buren kunnen later gewoon aansluiten. Samen is wel slimmer als hun dak ook al lekt, of als jullie een schoorsteen of goot delen. Wat er op de grens gebeurt en wat je met je buren afspreekt, lees je in het artikel over je dak vernieuwen in een rijtjeshuis. Stuur me een foto van de rij huizen vanaf de straat, dan hoor je vooraf wat het kost.` },
   ],
+  "lood-op-dak": [
+    { v: `Er zitten witte strepen of een witte waas op mijn lood of op de pannen eronder. Is dat erg?`, a: `Meestal niet. Lood vormt buiten vanzelf een dun laagje op het oppervlak. Dat is eerst wit of lichtgrijs en wordt later donkergrijs. Bij nieuw lood spoelt de regen er de eerste tijd wat van af, en dat zie je als witte strepen op de pannen of de muur eronder. Dat is geen lek, en het valt na een tijd meestal minder op. Of het lood nog goed dicht zit, zie je er niet aan. Let daarvoor op een kier tussen het lood en de steen, scheurtjes in de hoeken en randen die omhoog staan. Zie je die, of wordt het binnen nat, stuur me dan een foto via WhatsApp.` },
+  ],
 };
 
 // Kort antwoord bovenaan een artikel: één of twee zinnen met het directe antwoord, voor Google en AI. Bedragen alleen via inclBtw uit prijzen.ts, nooit met de hand.
