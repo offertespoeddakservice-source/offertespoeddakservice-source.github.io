@@ -46,16 +46,22 @@ if (d.slug === "dakgoot-vervangen" && p.slug === "vught") {
   metaTitelPerDienst["dakgoot-vervangen"] = "Dakgoot repareren of vervangen in Vught";
   omschrijvingPerDienst["dakgoot-vervangen"] = "Lekt je dakgoot in Vught of Helvoirt? Ik repareer een lekkende naad, hoek of uitloop, of vervang de goot als hij op is. Stuur een foto voor de prijs.";
 }
+// Dakgoot repareren in Veghel: gemaakt op 26-10, dus vanaf 09-11 mag de titel ('dakgoot reparatie veghel' plek 12,6, 'dakgoot lekkage veghel' plek 13,7).
+if (d.slug === "dakgoot-vervangen" && p.slug === "veghel") {
+  metaTitelPerDienst["dakgoot-vervangen"] = "Dakgoot repareren of vervangen in Veghel";
+  omschrijvingPerDienst["dakgoot-vervangen"] = "Lekt je dakgoot in Veghel of een van de kerkdorpen? Ik repareer een lekkende naad, hoek of uitloop, of vervang de goot als hij op is. Stuur een foto voor de prijs.";
+}
 // Daklekkage in Veghel: gemaakt op 24-10, dus vanaf 07-11 mag de titel ('daklekkage veghel' plek 23, pagina plek 25 met 116 vertoningen en 0 kliks). Eigen omschrijving zonder 'vaste prijs vooraf'.
 if (d.slug === "daklekkage" && p.slug === "veghel") {
   metaTitelPerDienst.daklekkage = "Daklekkage Veghel: lek opsporen en repareren";
   omschrijvingPerDienst.daklekkage = "Daklekkage in Veghel? Ik zoek waar het water binnenkomt, bijvoorbeeld onder een dakraam of bij de schoorsteen, en repareer alleen wat nodig is. Bel of app Rens.";
 }
-// Daklekkage in Tilburg (gemaakt 24-10), Eindhoven en Waalwijk (gemaakt 25-10): de 14 dagen zijn om, dus ook hier het zoekwoord vooraan. Eigen omschrijving zonder 'vaste prijs vooraf'. Breda (gemaakt 27-10) mag vanaf 10-11.
+// Daklekkage in Tilburg (gemaakt 24-10), Eindhoven en Waalwijk (gemaakt 25-10): de 14 dagen zijn om, dus ook hier het zoekwoord vooraan. Eigen omschrijving zonder 'vaste prijs vooraf'. Breda (gemaakt 27-10) sinds 10-11 ook.
 const LEK_OMSCHRIJVING_NIEUW: Record<string, string> = {
   tilburg: "Daklekkage in Tilburg? Ik zoek waar het water binnenkomt, bijvoorbeeld bij een dak uit de jaren '80 of '90 in de Reeshof, en repareer alleen wat nodig is. Bel of app Rens.",
   eindhoven: "Daklekkage in Eindhoven? Ik zoek waar het water binnenkomt, bijvoorbeeld bij de zonnepanelen of onder de dakrand, en repareer alleen wat nodig is. Stuur een foto of app Rens.",
   waalwijk: "Daklekkage in Waalwijk, Sprang-Capelle of Waspik? Ik zoek waar het water binnenkomt, bijvoorbeeld bij een oude schoorsteen of een schuur met golfplaten, en repareer alleen wat nodig is. Bel of app Rens.",
+  breda: "Daklekkage in Breda of Prinsenbeek? Ik zoek waar het water binnenkomt, bijvoorbeeld bij een oude pan in Ginneken, en repareer wat nodig is. Stuur een foto.",
 };
 if (d.slug === "daklekkage" && LEK_OMSCHRIJVING_NIEUW[p.slug]) {
   metaTitelPerDienst.daklekkage = `Daklekkage ${p.naam}: lek opsporen en repareren`;
