@@ -172,7 +172,7 @@ export const DIENSTEN: Dienst[] = [
       { label: "Lood bij schoorsteen, muur of dakraam vervangen", href: "/diensten/lood-vervangen/" },
       { label: "Dakdoorvoer plaatsen", href: "/diensten/dakdoorvoer/" },
     ],
-    h1: "Dakreparatie, ook met spoed: pannen, lood en nokvorsten hersteld",
+    h1: "Spoed dakreparatie: pannen, lood en nokvorsten hersteld",
     kort: "Gebroken pannen, lood bij schoorsteen of dakraam, losse nokvorsten.",
     metaTitle: "Spoed dakreparatie regio Den Bosch | Spoed Dak Service",
     metaDescription:
