@@ -4,6 +4,7 @@
  */
 import type { Artikel } from "./artikelen";
 import { prijsVan, inclBtw } from "./prijzen";
+import { ARTIKELEN_EXTRA_2, KORT_ANTWOORD_2 } from "./artikelen-extra-2";
 
 const platPrijs = inclBtw("platdak");
 const apkPrijs = prijsVan("apk");
@@ -2518,3 +2519,7 @@ export const KORT_ANTWOORD: Record<string, string> = {
   "lekkende-dakgoot-tijdelijk-oplossen": `Tot de goot gemaakt is: zet een bak onder de druppel, schuif binnen spullen van de natte muur en maak foto's, maar ga niet met een ladder kitten of tapen, want dat houdt op een natte goot zelden. Valt de druppel buiten, dan kan het meestal een paar dagen wachten. Komt het water binnen of hangt de goot los boven de stoep, app of bel dan meteen.`,
   "ijspegels-aan-dakgoot": `Waar de pegels hangen, vertelt wat er mis is: over de hele lengte meestal een volle goot of een dichte uitloop, steeds op één plek een goot die doorhangt of een lekke naad, en rond de regenpijp een bevroren afvoer. Houd mensen weg onder grote pegels, sla ze niet vanaf een ladder weg en laat de goot na de vorst nakijken.`,
 };
+
+// Nieuwe artikelen sinds 10-11-2026 staan in artikelen-extra-2.ts (dit bestand is te groot geworden).
+ARTIKELEN_EXTRA.push(...ARTIKELEN_EXTRA_2.filter((x) => !ARTIKELEN_EXTRA.some((a) => a.slug === x.slug)));
+Object.assign(KORT_ANTWOORD, KORT_ANTWOORD_2);
