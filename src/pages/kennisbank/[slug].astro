@@ -190,6 +190,7 @@ const articleSchema = {
   "@type": "Article",
   headline: a.h1,
   description: a.metaDescription,
+  ...(KORT_ANTWOORD[a.slug] ? { abstract: KORT_ANTWOORD[a.slug] } : {}),
   inLanguage: "nl-NL",
   author: { "@type": "Person", "@id": `${SITE.url}/over/#rens`, name: SITE.eigenaar, url: `${SITE.url}/over/`, worksFor: { "@id": `${SITE.url}/#bedrijf` } },
   publisher: { "@type": "Organization", "@id": `${SITE.url}/#bedrijf`, name: SITE.bedrijfsnaam, logo: { "@type": "ImageObject", url: `${SITE.url}/favicon.svg` } },
