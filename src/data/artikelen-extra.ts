@@ -2016,6 +2016,44 @@ export const ARTIKELEN_EXTRA: Artikel[] = [
       { v: `Wat is het Kifid?`, a: `Het Klachteninstituut Financiële Dienstverlening. Daar kun je een klacht over je verzekeraar indienen als je er met de verzekeraar zelf niet uitkomt. Je moet eerst bij de klachtenafdeling van je verzekeraar zijn geweest. Op de site van het Kifid lees je hoe het werkt en welke termijnen er gelden.` },
     ],
   },
+  {
+    slug: `plat-dak-losgewaaid-na-storm`,
+    datum: `2026-11-10`,
+    titel: `Dakbedekking losgewaaid na storm?`,
+    h1: `Dakbedekking van je platte dak losgewaaid na een storm: wat nu?`,
+    metaTitle: `Plat dak losgewaaid na storm: wat nu? | Spoed Dak Service`,
+    metaDescription: `Staat de rand van je platte dak omhoog, klappert er een baan of ligt er een stuk dakbedekking in de tuin? Zo zie je hoe erg het is en wat je nu doet.`,
+    intro: `Na een storm zie je vanuit een raam boven dat de rand van het platte dak op je aanbouw, garage of berging omhoog staat. Of je hoort iets klapperen, of er ligt een stuk dakbedekking in de tuin. Bij een plat dak heeft de wind de meeste grip op de randen en de hoeken. Komt de bedekking daar los, dan kan de wind er bij de volgende windstoot verder onder, en bij regen loopt het water onder de bedekking door naar binnen. Hieronder lees je hoe je inschat hoe erg het is, wat je zelf doet en wat ik eraan doe.`,
+    secties: [
+      { kop: `Waar het meestal loskomt`, tekst: [
+        `<strong>De rand en de daktrim.</strong> Het metalen randprofiel langs de buitenkant houdt de bedekking aan de rand vast. Zit de trim los, dan krult de rand van de bedekking omhoog. Meer daarover lees je in <a href="/kennisbank/daktrim-lekt/">plat dak lekt langs de rand</a>.`,
+        `<strong>De hoeken.</strong> Op de hoeken trekt de wind van twee kanten tegelijk. Daar laat een naad of de lijmlaag vaak als eerste los.`,
+        `<strong>De naden.</strong> Ligt de bedekking in banen, dan kan een naad bij harde wind open gaan staan, en dan klappert de baan.`,
+        `<strong>De strook tegen de muur.</strong> Waar het platte dak tegen de gevel van het huis omhoog loopt, kan de bovenkant loskomen van de muur. Dan loopt het water bij de volgende bui achter de strook naar binnen, vaak vlak langs de muur.`,
+      ] },
+      { kop: `Zo zie je hoe erg het is`, tekst: [
+        `Kijk vanuit een raam boven of vanaf de grond, niet vanaf het dak. Staat er alleen een randje van een paar centimeter omhoog en blijft het binnen droog, dan kan het meestal een paar dagen wachten. Klappert er een hele baan, ligt er een stuk bedekking los of zie je het hout of de isolatie eronder, dan is het spoed, want bij de volgende bui komt het water direct naar binnen. Kijk ook binnen, in de aanbouw of de garage, of het plafond of de muur langs de rand nat wordt.`,
+      ] },
+      { kop: `Wat je zelf nu doet`, tekst: [
+        `Ga niet zelf het dak op zolang het waait. Een plat dak lijkt veilig, maar een natte bedekking is glad en een losse baan brengt je zo uit balans. Haal losse stukken uit de tuin weg, zodat ze niet verder waaien. Zet binnen een bak onder een druppel en haal spullen weg die nat kunnen worden. Leg geen stenen of tegels op het dak om de bedekking vast te houden: die kunnen bij de volgende windstoot verschuiven of eraf waaien, en ze beschadigen de bedekking. Maak foto's van het dak en van de schade binnen, voor je verzekering.`,
+      ] },
+      { kop: `Wat ik eraan doe`, tekst: [
+        `Ligt de bedekking over een groot stuk open, dan dek ik dat eerst af, zodat het binnen droog blijft. Op een droge dag zet ik de losse rand of naad weer vast, maak ik de daktrim of de strook tegen de muur weer goed, of vervang ik het stuk dat is losgewaaid. Is het hout onder de bedekking nat en zacht geworden, dan vervang ik dat als het nodig is. Ik kijk ook naar de rest van het dak, want waar de wind op één plek grip kreeg, zit het op andere plekken vaak ook al los. Je hoort vooraf wat het kost. Zie <a href="/diensten/platte-daken/">platte daken repareren</a>.`,
+      ] },
+      { kop: `Moet de hele dakbedekking eraf?`, tekst: [
+        `Niet altijd. Is de bedekking verder nog goed en is alleen een rand of een naad losgekomen, dan is een gerichte reparatie meestal genoeg. Is de bedekking oud, bros of al een paar keer gelapt, en laat hij bij elke storm ergens anders los, dan is een nieuwe bedekking op termijn slimmer. Dat zeg ik eerlijk als ik heb gekeken. Wat een reparatie van een klein plat dak meestal kost, lees je in <a href="/kennisbank/wat-kost-plat-dak-repareren/">wat kost een plat dak repareren</a>.`,
+      ] },
+      { kop: `En je verzekering?`, tekst: [
+        `Schade door een storm valt bij veel opstalverzekeringen onder de dekking. Was de bedekking al oud of los, dan kan je verzekeraar het als onderhoud zien. Maak foto's voordat er iets wordt gerepareerd, en kijk in je polis wat er voor jou geldt. Ik maak foto's van wat ik aantref en van de reparatie, met een korte omschrijving, die je kunt meesturen. Lees ook <a href="/kennisbank/daklekkage-verzekering/">daklekkage en je verzekering</a>.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: platte daken repareren`, href: `/diensten/platte-daken/` },
+    faq: [
+      { v: `Is een losgewaaide dakbedekking spoed?`, a: `Klappert er een baan, ligt er een stuk los of zie je het hout eronder, dan wel, want bij de volgende bui komt het water direct naar binnen. Staat er alleen een klein randje omhoog en blijft het binnen droog, dan kan het meestal een paar dagen wachten. Stuur me een foto vanuit een raam boven, dan zeg ik eerlijk wat ik zie.` },
+      { v: `Kun je een plat dak repareren als het nog nat is?`, a: `De bedekking vastzetten of een stuk vervangen gaat het best op een droge dag. Is het nat en ligt het dak open, dan dek ik het eerst af, zodat het binnen droog blijft, en kom ik op een droge dag terug voor de reparatie.` },
+      { v: `Helpen stenen of tegels op het dak tegen loswaaien?`, a: `Liever niet. Losse stenen of tegels kunnen bij de volgende windstoot verschuiven of eraf waaien, en ze drukken en schuren op de bedekking. Een losse rand of naad moet echt vast, aan de daktrim of met een nieuw stuk bedekking.` },
+    ],
+  },
 ];
 
 // Extra vragen bij bestaande artikelen. artikelen.ts is te groot om nog te laten groeien, daarom staan nieuwe vragen hier.
