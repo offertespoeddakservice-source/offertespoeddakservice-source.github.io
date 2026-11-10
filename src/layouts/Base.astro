@@ -30,6 +30,7 @@ const businessSchema: Record<string, unknown> = {
   "@type": "RoofingContractor",
   "@id": `${SITE.url}/#bedrijf`,
   name: SITE.bedrijfsnaam,
+  alternateName: ["Spoed Dak", "Spoeddakservice"],
   description: "Dakdekker uit 's-Hertogenbosch voor daklekkage, spoed dakreparatie, losse dakpannen en nokvorsten, dakgoten en stormschade. Dag en nacht bereikbaar.",
   url: SITE.url,
   telephone: `+${SITE.telefoonE164}`,
@@ -95,7 +96,7 @@ const breadcrumbSchema = crumbs.length
       ],
     }
   : null;
-const websiteSchema = { "@context": "https://schema.org", "@type": "WebSite", "@id": `${SITE.url}/#website`, name: SITE.bedrijfsnaam, url: SITE.url, inLanguage: "nl-NL", publisher: { "@id": `${SITE.url}/#bedrijf` } };
+const websiteSchema = { "@context": "https://schema.org", "@type": "WebSite", "@id": `${SITE.url}/#website`, name: SITE.bedrijfsnaam, alternateName: "Spoeddakservice", url: SITE.url, inLanguage: "nl-NL", publisher: { "@id": `${SITE.url}/#bedrijf` } };
 const schemas = [businessSchema, websiteSchema, ...(breadcrumbSchema ? [breadcrumbSchema] : []), ...(Array.isArray(schema) ? schema : schema ? [schema] : [])];
 ---
 
