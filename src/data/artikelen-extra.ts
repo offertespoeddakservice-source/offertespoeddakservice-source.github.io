@@ -2215,6 +2215,9 @@ export const FAQ_ERBIJ: Record<string, Artikel["faq"]> = {
   "water-blijft-staan-op-plat-dak": [
     { v: `Sinds de storm blijft er water staan op een plek waar dat eerst niet zo was. Wat betekent dat?`, a: `Vaak ligt er dan iets in de weg: blad, takjes of grind dat bij de storm naar de afvoer of de rand is geblazen. Ligt er alleen wat blad of grind voor de afvoer, dan is leegmaken vaak genoeg. Blijft het water staan, of zie je een bolling of een plooi in de dakbedekking, dan kan de bedekking op die plek zijn losgekomen of opgetild. Dan loopt het water er bij de volgende bui makkelijk onder. Ga er niet zelf op lopen. Maak vanuit een raam boven een foto en stuur die via WhatsApp, dan zeg ik eerlijk wat ik zie. Meer lees je in het artikel over een losgewaaide dakbedekking na een storm.` },
   ],
+  "dakgoot-lekt-bij-regenpijp": [
+    { v: `Er zit een rooster of bolletje in de uitloop van mijn goot. Kan het daardoor lekken?`, a: `Dat kan. Zo'n bolrooster houdt blad uit de regenpijp, maar het blad blijft er dan zelf omheen liggen. Raakt het rooster dicht, dan kan het water niet meer weg en loopt de goot vlak bij de uitloop over, terwijl er niets lek is. Het lijkt dan op een lekkende uitloop. Kijk na een bui of er blad om het rooster ligt en of er nog water in de goot staat. Is dat zo, dan is leegmaken vaak genoeg. Druppelt het ook als de goot leeg is, op één vaste plek onder de uitloop, dan zit het in de verbinding, en die maak ik opnieuw. Stuur me een foto van de goot vanaf de straat via WhatsApp.` },
+  ],
 };
 
 // Kort antwoord bovenaan een artikel: één of twee zinnen met het directe antwoord, voor Google en AI. Bedragen alleen via inclBtw uit prijzen.ts, nooit met de hand.
