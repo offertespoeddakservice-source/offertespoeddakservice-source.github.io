@@ -1,4 +1,4 @@
-// llms.txt (03-11-2026, bijgewerkt 04-11-2026, 07-11-2026: alle artikelen erbij): korte, feitelijke uitleg voor AI-zoekmachines (ChatGPT, Gemini, Perplexity, Copilot).
+// llms.txt (03-11-2026, bijgewerkt 04-11-2026, 07-11-2026: alle artikelen erbij, 10-11-2026: bereikbaar en korte namen): korte, feitelijke uitleg voor AI-zoekmachines (ChatGPT, Gemini, Perplexity, Copilot).
 // Plaatsen komen vanzelf uit plaatsen.ts en diensten uit diensten.ts (verborgen diensten, die Rens niet doet, vallen weg). Geen prijzen, geen beloftes.
 import type { APIRoute } from "astro";
 import { SITE } from "../site.config.ts";
@@ -15,7 +15,7 @@ const NAMEN: Record<string, string> = {
   "dakgoot-vervangen": "Dakgoot repareren of vervangen",
   "platte-daken": "Platte daken repareren",
   "regenpijp-vervangen": "Regenpijp vervangen of repareren",
-  vogelwering: "Vogelwering onder de dakpannen",
+  vogelwering: "Vogelwering onder de dakpannen en rond zonnepanelen",
 };
 const ZICHTBARE_DIENSTEN = DIENSTEN.filter((d) => !d.verborgen);
 
@@ -45,8 +45,9 @@ export const GET: APIRoute = () => {
     `> Dakdekker uit ${SITE.basisplaats} (regio Den Bosch, Noord-Brabant) voor daklekkage, dakreparatie, dakgoten en onderhoud aan woonhuizen. Je hebt rechtstreeks contact met de eigenaar, ${SITE.eigenaar}.`,
     "",
     `- Bellen of WhatsApp: ${SITE.telefoonWeergave}`,
+    "- Ook bekend als: Spoed Dak, Spoeddakservice",
     `- E-mail: ${SITE.email}`,
-    `- Bereikbaar: ${SITE.openingstijden}`,
+    "- Bereikbaar: dag en nacht (24/7), ook in het weekend, voor bellen en WhatsApp",
     `- KvK: ${SITE.kvk}`,
     `- Bedrijfsaansprakelijk verzekerd`,
     `- Reviews: ${String(SITE.reviews.score).replace(".", ",")} op Werkspot (${SITE.reviews.werkspotAantal} reviews): ${SITE.werkspotUrl}`,
