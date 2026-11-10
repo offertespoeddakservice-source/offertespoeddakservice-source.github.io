@@ -2217,6 +2217,50 @@ export const ARTIKELEN_EXTRA: Artikel[] = [
       { v: `Moet ik de buren om toestemming vragen?`, a: `Voor het werk aan je eigen dak niet. Moet ik voor de aansluiting een paar pannen aan hun kant optillen of mijn ladder bij hen neerzetten, dan wel. Vraag het ze vooraf, dan kunnen ze zeggen wanneer het hun uitkomt.` },
     ],
   },
+  {
+    slug: `dak-lekt-na-schoonmaken`,
+    datum: `2026-11-10`,
+    titel: `Lekt je dak sinds het is schoongemaakt?`,
+    h1: `Dak lekt na het schoonspuiten of ontmossen: hoe kan dat, en wat nu?`,
+    metaTitle: `Dak lekt na schoonspuiten of ontmossen | Spoed Dak Service`,
+    metaDescription: `Lekt het sinds je dak is schoongespoten of ontmost? Vaak zit er water onder de pannen, is een pan gebroken of de nok losgespoten. Zo zie je wat het is.`,
+    intro: `Je dak is schoongemaakt, door een bedrijf of door jezelf met een hogedrukspuit, en kort daarna zie je een natte plek op zolder of op het plafond. Dat is minder vreemd dan het klinkt. Bij het spuiten en het lopen op het dak kan er iets verschuiven of kapotgaan, en soms zat het lek er al, verstopt onder het mos. Hieronder lees je hoe je het verschil ziet, wat je eerst doet en hoe het wordt opgelost.`,
+    secties: [
+      { kop: `Lekt het nu? Eerst dit`, tekst: [
+        `Zet een emmer onder de druppel, haal spullen weg en maak foto's van de natte plek. Je telefoon bewaart de datum erbij. Ga niet zelf het dak op: een pas schoongespoten dak is nat en glad, en een pan die al gescheurd is, breekt onder je voet. Wat je verder meteen kunt doen, staat op de <a href="/spoed/">spoedpagina</a>.`,
+      ] },
+      { kop: `Alleen op de dag van het spuiten, of bij elke bui?`, tekst: [
+        `Werd het nat op de dag van het schoonmaken zelf, en blijft het daarna bij gewone regen droog? Dan is er waarschijnlijk spuitwater onder de pannen terechtgekomen. Een harde straal duwt water omhoog onder de pannen door, tegen de folie of het hout erachter, op plekken waar gewone regen niet komt. Dat droogt meestal vanzelf op. Kijk bij de eerstvolgende flinke bui of de plek droog blijft.`,
+        `Wordt het bij elke bui opnieuw nat, of komt er een nieuwe plek bij, dan is er iets kapot of verschoven. Dat droogt niet vanzelf op en moet gemaakt worden.`,
+      ] },
+      { kop: `Wat er bij het schoonmaken mis kan gaan`, tekst: [
+        `Een pan die gebroken of gescheurd is. Wie over een dak loopt, stapt al snel op een pan die dat niet houdt. Een haarscheur zie je vanaf de straat niet, maar bij regen loopt het water er wel doorheen.`,
+        `Pannen die verschoven zijn. Door het lopen of door de straal kan een pan een stukje uit de sluiting raken. Dan waait de regen er bij wind onder.`,
+        `Specie die uit de nok is gespoten. Ligt de nok nog in oude specie, dan spuit een harde straal daar zo stukken uit. Dan liggen er brokjes in de goot en komt de regen onder de nok door. Zie <a href="/kennisbank/nokvorsten-los/">losse nokvorsten</a>.`,
+        `Lood dat is opgetild. Een straal onder de rand van het lood bij de schoorsteen of het dakraam kan een strook omhoog duwen. Zie <a href="/kennisbank/lood-op-dak/">lood op je dak</a>.`,
+        `Een goot vol mos en slib. Wat er van het dak af komt, belandt in de goot. Wordt die daarna niet goed leeggemaakt, dan loopt hij bij de eerste bui over. Zie <a href="/kennisbank/dakgoot-loopt-over/">dakgoot loopt over</a>.`,
+      ] },
+      { kop: `Of het lek zat er al`, tekst: [
+        `Soms dichtte het mos een kier die er al jaren zat, bijvoorbeeld bij een gescheurde pan of bij de nok. Is het mos weg, dan komt het water er ineens wel door. Ook oude, ruwe pannen kunnen na hard spuiten meer water opnemen, omdat de bovenste laag eraf is. Lees daarover <a href="/kennisbank/poreuze-dakpannen/">nemen je dakpannen water op?</a>`,
+      ] },
+      { kop: `Heeft een bedrijf je dak schoongemaakt?`, tekst: [
+        `Neem dan eerst contact op met dat bedrijf. Vertel wat je ziet, stuur je foto's en zeg wanneer het nat werd. Geef ze de kans om te komen kijken. Wat er voor afspraken gelden, staat meestal op de offerte of de factuur. Werd het je aan de deur aangeboden, lees dan ook <a href="/kennisbank/dakdekker-aan-de-deur/">er belt een dakdekker aan</a>. Komt het bedrijf niet, of heb je het dak zelf schoongemaakt, dan kijk ik waar het water binnenkomt.`,
+      ] },
+      { kop: `Hoe ik het aanpak`, tekst: [
+        `Een dak schoonmaken of ontmossen doe ik zelf niet. Ik zoek waar het water nu binnenkomt en maak dat dicht. Ik begin buiten, boven de natte plek en een flink stuk hoger, en kijk naar gebroken en verschoven pannen, de nok, het lood en de goot. Een gebroken pan vervang ik, een verschoven pan leg ik terug in de sluiting en losse nokvorsten zet ik weer vast. Zit de goot vol slib, dan maak ik hem leeg. Je krijgt foto's van wat ik aantref, die je kunt laten zien aan het bedrijf dat het dak schoonmaakte of aan je verzekeraar.`,
+      ] },
+      { kop: `Wat kost het?`, tekst: [
+        `Een gebroken pan vervangen of een losse pan of nokvorst vastzetten valt meestal onder een kleine reparatie: ${inclBtw("dakpan")}. Moet ik eerst zoeken waar het water binnenkomt, dan is het een gerichte lekreparatie: ${inclBtw("daklekkage")}, inclusief materiaal. Je hoort vooraf de vaste prijs. Stuur een foto van je dak vanaf de straat en van de natte plek binnen via WhatsApp.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: daklekkage opsporen en repareren`, href: `/diensten/daklekkage/` },
+    faq: [
+      { v: `Hoe lang na het schoonspuiten kan er nog water binnenkomen?`, a: `Spuitwater dat onder de pannen is gekomen, druppelt meestal alleen op de dag zelf en soms nog een dag erna. Daarna droogt het op. Wordt het bij een latere bui opnieuw nat, dan is het geen spuitwater meer, maar zit er echt iets los of kapot.` },
+      { v: `Is mijn dak door het schoonspuiten kapot?`, a: `Niet per se. Vaak gaat het om een paar pannen of een stukje nok, en dat is goed te herstellen. Zijn de pannen al oud en zijn ze hard gespoten, dan kan de bovenste laag eraf zijn, waardoor ze sneller water opnemen. Dat zie je aan pannen die na een bui lang donker blijven. Stuur me een foto, dan zeg ik eerlijk wat ik zie.` },
+      { v: `Kun je ook mijn dak schoonmaken?`, a: `Nee, daken schoonmaken of ontmossen doe ik niet. Ik repareer wat er aan je dak kapot of los is, zoals pannen, de nok, het lood en de goot, en ik maak je goten leeg.` },
+      { v: `Is het spoed?`, a: `Druppelt het bij elke bui, of zit de natte plek bij een lamp of stopcontact, dan wel: bel of app me met een foto, en zet bij een lamp of stopcontact eerst in de meterkast de groep van die kamer uit. Werd het alleen nat op de dag van het spuiten en blijft het daarna droog, dan kan het meestal wachten. Houd het bij de volgende buien in de gaten.` },
+    ],
+  },
 ];
 
 // Extra vragen bij bestaande artikelen. artikelen.ts is te groot om nog te laten groeien, daarom staan nieuwe vragen hier.
@@ -2427,4 +2471,5 @@ export const KORT_ANTWOORD: Record<string, string> = {
   "zachte-plek-plat-dak": `Geeft je platte dak op één plek mee, dan is het hout onder de dakbedekking daar meestal nat en zacht geworden door een lek, een plas die bleef staan of vocht van binnen. Ga er niet meer op staan. Het rotte hout moet eruit en de bedekking moet op die plek opnieuw dicht, anders wordt de plek steeds groter.`,
   "duiven-onder-zonnepanelen": `Duiven onder zonnepanelen laten poep en nestmateriaal achter dat je goot verstopt, en ze kunnen pannen uit de sluiting duwen. De oplossing is de hele rand rond de panelen afsluiten met vogelwering, zodra er geen nest met jongen meer onder zit. De panelen hoeven daar meestal niet voor los.`,
   "dak-vernieuwen-rijtjeshuis": `Ja, meestal kun je het dak van je rijtjeshuis alleen laten vernieuwen. Op de grens met de buren komt dan een nette overgang naar hun pannen, hun nok en hun goot. Samen is slimmer als hun dak ook op is, of als jullie een schoorsteen, goot of kilgoot delen.`,
+  "dak-lekt-na-schoonmaken": `Werd het alleen nat op de dag van het schoonspuiten, dan is er meestal spuitwater onder de pannen gekomen, en dat droogt vanzelf op. Lekt het bij elke bui, dan is er bij het schoonmaken waarschijnlijk een pan gebroken of verschoven, specie uit de nok gespoten of lood opgetild, en dat moet gemaakt worden.`,
 };
