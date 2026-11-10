@@ -274,6 +274,7 @@ const schemas = [businessSchema, websiteSchema, ...(breadcrumbSchema ? [breadcru
               <li><a href="/diensten/antenne-verwijderen/">Antenne of schotel weghalen</a></li>
               <li><a href="/diensten/dakgoot-coaten/">Dakgoot van binnen coaten</a></li>
               {DIENSTEN.some((d) => d.slug === "dakgoot-solderen" && !d.verborgen) && <li><a href="/diensten/dakgoot-solderen/">Dakgoot solderen</a></li>}
+              {DIENSTEN.some((d) => d.slug === "dakbeschot-vervangen" && !d.verborgen) && <li><a href="/diensten/dakbeschot-vervangen/">Rot dakbeschot vervangen</a></li>}
               <li><a href="/diensten/dakrenovatie/">Dakrenovatie</a></li>
               <li><a href="/diensten/stormschade/">Stormschade</a></li>
               <li><a href="/diensten/vogelwering/">Vogelwering</a></li>
@@ -348,6 +349,10 @@ const schemas = [businessSchema, websiteSchema, ...(breadcrumbSchema ? [breadcru
               <li><a href="/kennisbank/daklek-hoe-lang-wachten/">Hoe lang kan een daklek wachten?</a></li>
               <li><a href="/kennisbank/lekkage-weggehaalde-schoorsteen/">Lekt het waar de schoorsteen stond?</a></li>
               <li><a href="/kennisbank/lood-van-dak-gestolen/">Lood van je dak gestolen</a></li>
+              <li><a href="/kennisbank/verzekering-betaalt-daklekkage-niet/">Verzekering betaalt het lek niet</a></li>
+              <li><a href="/kennisbank/dak-lekt-na-schoonmaken/">Lekt het sinds het schoonspuiten?</a></li>
+              <li><a href="/kennisbank/zachte-plek-plat-dak/">Zachte plek op je platte dak</a></li>
+              <li><a href="/kennisbank/plat-dak-losgewaaid-na-storm/">Platte dakbedekking losgewaaid</a></li>
             </ul>
           </div>
           <div>
@@ -395,6 +400,7 @@ const schemas = [businessSchema, websiteSchema, ...(breadcrumbSchema ? [breadcru
               <li><a href="/kennisbank/dakpannen-klapperen-bij-wind/">Pannen klapperen bij wind</a></li>
               <li><a href="/kennisbank/storm-op-komst-dak/">Storm op komst?</a></li>
               <li><a href="/kennisbank/dakgoot-losgeraakt/">Dakgoot losgeraakt na storm</a></li>
+              <li><a href="/kennisbank/dakpan-op-auto-buren/">Dakpan op de auto van de buren</a></li>
               <li><a href="/kennisbank/vuurwerk-schade-dak/">Vuurwerkschade aan je dak</a></li>
               <li><a href="/kennisbank/dakpan-lijmen-of-kitten/">Gebroken pan lijmen of kitten?</a></li>
               <li><a href="/kennisbank/plat-dak-onderhouden/">Plat dak onderhouden</a></li>
@@ -402,6 +408,10 @@ const schemas = [businessSchema, websiteSchema, ...(breadcrumbSchema ? [breadcru
               <li><a href="/kennisbank/condens-of-lekkage-op-zolder/">Condens of lekkage op zolder?</a></li>
               <li><a href="/kennisbank/schoorsteen-afdekken/">Schoorsteen afdekken</a></li>
               <li><a href="/kennisbank/vogels-onder-dakpannen/">Vogels onder je dakpannen</a></li>
+              <li><a href="/kennisbank/duiven-onder-zonnepanelen/">Duiven onder je zonnepanelen</a></li>
+              <li><a href="/kennisbank/dak-nakijken-voor-zonnepanelen/">Dak nakijken voor zonnepanelen</a></li>
+              <li><a href="/kennisbank/dak-vernieuwen-rijtjeshuis/">Dak vernieuwen in een rijtjeshuis</a></li>
+              <li><a href="/kennisbank/lood-of-loodvervanger/">Lood of loodvervanger?</a></li>
               <li><a href="/kennisbank/">Kennisbank</a></li>
             </ul>
           </div>
