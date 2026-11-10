@@ -13,6 +13,10 @@ const apkPrijs = prijsVan("apk");
 // Richtprijzen op de homepage: een paar kleine klussen met een vanaf-bedrag, de rest staat op /prijzen (alles incl. btw)
 const HOME_PRIJZEN = ["goot_reinigen", "dakpan", "platdak", "daklekkage", "nok_repareren"].map((k) => PRIJZEN.find((r) => r.sleutel === k)!);
 const FOTO_WA = waHref("Hallo, ik wil graag weten wat het kost. Ik stuur een foto mee.");
+const HOME_UITLEG = ["daklek-tijdelijk-dichten", "dak-lekt-bij-harde-wind", "water-achter-dakgoot", "lekkage-bij-dakdoorvoer", "daklekkage-opsporen", "lekkage-bij-schoorsteen", "dakraam-lekt", "dakgoot-lekt", "stormschade-eerste-hulp"];
+const zichtbareArtikelen = ARTIKELEN.filter((a) => !a.verborgen);
+const uitgelicht = HOME_UITLEG.map((s) => zichtbareArtikelen.find((a) => a.slug === s)).filter((a) => a) as typeof ARTIKELEN;
+const overigeArtikelen = zichtbareArtikelen.filter((a) => !HOME_UITLEG.includes(a.slug));
 
 const faq = [
   { v: "Wat kost het om iemand te laten komen?", a: `Wil je weten hoe je dak ervoor staat? Dat doe ik via de Dak-APK: binnen een dagdeel een compleet keuringsrapport met foto's, voor ${apkPrijs}. Weet je al wat er moet gebeuren, bijvoorbeeld goten reinigen? Dan hoor je gewoon de vaste prijs vooraf.` },
@@ -251,13 +255,18 @@ const faqSchema = {
       <h2>Daktips & eerlijke uitleg</h2>
       <p class="lead">Zo weet je wat er speelt voordat je belt, zonder verkooppraatje.</p>
       <div class="grid grid-3" style="margin-top:22px;">
-        {ARTIKELEN.filter((a) => !a.verborgen).map((a) => (
+        {uitgelicht.map((a) => (
           <a class="card" href={`/kennisbank/${a.slug}/`}>
             <h3>{a.titel}</h3>
             <p>{a.metaDescription}</p>
           </a>
         ))}
       </div>
+      <h3 style="margin-top:28px;">Alle uitleg op een rij</h3>
+      <ul style="columns:2 260px; column-gap:28px; margin:12px 0 0; padding-left:18px;">
+        {overigeArtikelen.map((a) => <li style="margin:0 0 6px; break-inside:avoid;"><a href={`/kennisbank/${a.slug}/`}>{a.titel}</a></li>)}
+      </ul>
+      <p style="margin-top:18px;"><a class="btn btn--outline" href="/kennisbank/">Naar de kennisbank</a></p>
     </div>
   </section>
 
