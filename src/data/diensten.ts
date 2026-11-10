@@ -240,6 +240,7 @@ export const DIENSTEN: Dienst[] = [
     metaDescription:
       "Lekkage in een plat dak? EPDM- en bitumendaken repareren of vervangen in de regio Den Bosch. Eerlijke prijs, 1 jaar garantie op reparatie en 2 jaar op vervangen.",
     icoon: "🏠",
+    zieOok: [ { label: "Rot dakbeschot vervangen", href: "/diensten/dakbeschot-vervangen/" } ],
     intro:
       "Platte daken lekken het vaakst bij naden en aansluitingen, en het water loopt vaak verderop naar binnen dan waar het lek zit. Ik spoor het op en herstel met EPDM of bitumen, of vervang de hele bedekking als dat verstandiger is.",
     punten: [
@@ -262,6 +263,33 @@ export const DIENSTEN: Dienst[] = [
       { v: "Kun je ook buiten Den Bosch naar een plat dak kijken?", a: "Ja, in mijn hele werkgebied, onder andere in Rosmalen, Vught, Vlijmen, Oisterwijk, Veghel en Waalwijk. Meestal gaat het om het platte dak van een aanbouw, garage of berging. Ik kijk eerst of een gerichte reparatie genoeg is, of dat de dakbedekking over het hele dak versleten is en vervangen beter is. Je hoort vooraf wat er nodig is en wat het kost." },
       { v: "Er ligt grind op mijn platte dak. Kun je dan wel zien waar het lekt?", a: "Ja, maar het kost wat meer zoekwerk. Het grind ligt los op de dakbedekking en beschermt die tegen de zon. Het lek zelf zit eronder, bij een naad, de rand, de afvoer of tegen de muur. Op de plekken waar ik het lek verwacht, schuif ik het grind opzij, maak ik de bedekking schoon en repareer ik het. Daarna gaat het grind er weer op. Zit de afvoer vol grind of slib, dan maak ik die meteen vrij. Je hoort vooraf wat het kost." },
       { v: "Het hout onder de dakbedekking van mijn aanbouw of garage is zacht of rot. Vervang je dat ook?", a: "Ja, als het nodig is. Heeft een plat dak lang gelekt, dan kan het houten dakbeschot onder de dakbedekking zacht worden of gaan rotten. Je ziet dat soms aan een kuil in het dak waar na een bui water blijft staan, of binnen aan een donkere plek op de onderkant van het hout. Ik haal de dakbedekking op die plek weg, vervang de rotte platen en leg er daarna weer nieuwe dakbedekking op. Is het hout nog stevig, dan is dat niet nodig. Stuur een foto van het dak en, als je die kunt zien, van de onderkant, dan hoor je vooraf wat het kost." },
+    ],
+  },
+  {
+    slug: "dakbeschot-vervangen",
+    titel: "Rot dakbeschot vervangen",
+    h1: "Rot dakbeschot vervangen onder het platte dak van je schuur, garage of aanbouw",
+    kort: "Zacht of rot hout onder de dakbedekking van je schuur, garage of aanbouw vervangen, en het dak weer dicht.",
+    metaTitle: "Rot dakbeschot vervangen (plat dak) | Spoed Dak Service",
+    metaDescription:
+      "Veert het platte dak van je schuur, garage of aanbouw, of is het hout eronder zacht? Dan vervang ik het rotte dakbeschot en maak ik het dak weer dicht. Stuur een foto.",
+    icoon: "🪵",
+    geenAfbeelding: true,
+    zieOok: [ { label: "Platte daken repareren", href: "/diensten/platte-daken/" } ],
+    intro:
+      "Het dakbeschot is de laag planken of platen waar de dakbedekking van een plat dak op ligt. Heeft het dak een tijd op één plek gelekt, dan wordt dat hout nat, en na een tijd zacht of rot. Een lapje op de dakbedekking helpt dan niet meer, want daaronder blijft het hout wegrotten. Ik haal de bedekking op die plek weg, vervang het rotte hout en maak het dak daarna weer dicht. Je hoort vooraf wat het kost.",
+    punten: [
+      "Rot of zacht dakbeschot onder dakleer of een andere dakbedekking vervangen",
+      "Op het platte dak van een schuur, garage, berging of aanbouw",
+      "Eerst kijken hoe groot de rotte plek is, ook van binnen",
+      "Daarna de dakbedekking op die plek weer dicht",
+      "Eerlijk advies: een stuk vervangen of het hele dak opnieuw",
+    ],
+    faq: [
+      { v: "Hoe weet ik of het dakbeschot rot is?", a: "Van binnen zie je het vaak het eerst: planken of platen die donker zijn, vlekken hebben of schimmelig ruiken. Van buiten merk je het aan een plek die veert of inzakt, of aan een kuil waar na elke bui water blijft liggen. Ga niet op een dak staan dat doorzakt. Kijk liever met een zaklamp van binnen naar de onderkant van het dak en stuur me daar een foto van." },
+      { v: "Moet het hele dak eraf als er een stuk rot is?", a: "Niet altijd. Is het hout op één plek rot, bijvoorbeeld rond een lek bij de rand of de afvoer, dan vervang ik alleen dat stuk en maak ik de dakbedekking daar weer dicht. Is het hout op veel plekken zacht, of is de dakbedekking zelf ook op, dan zeg ik eerlijk dat het slimmer is om het dak in één keer opnieuw te doen." },
+      { v: "Hoe komt het dat het hout rot is geworden?", a: "Meestal door een lek dat lang niet is opgemerkt: een scheur of losse naad in de dakbedekking, een rand die loslaat of een afvoer die verstopt zat, waardoor er water bleef staan. Ook condens kan het hout van binnen nat houden, zeker in een schuur of garage zonder ventilatie. Daarom kijk ik bij het vervangen ook waar het water vandaan kwam." },
+      { v: "Wat kost het om dakbeschot te vervangen?", a: "Dat hangt af van hoe groot de rotte plek is, hoe goed ik erbij kan en wat er op het dak ligt. Stuur een foto van het dak en, als het kan, van de binnenkant van je schuur of garage via WhatsApp. Dan hoor je vooraf wat het kost." },
     ],
   },
   {
