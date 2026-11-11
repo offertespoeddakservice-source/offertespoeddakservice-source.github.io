@@ -105,6 +105,8 @@ const toonSpoedregel = LEK_ARTIKELEN.has(a.slug) && !(a.secties[0]?.tekst ?? [])
 const GOOT_ARTIKELEN = new Set(["dakgoot-lekt", "verstopte-regenpijp-lekkende-dakgoot", "water-achter-dakgoot", "dakgoot-lekt-bij-regenpijp", "kunststof-dakgoot-lekt", "lekkende-dakgoot-tijdelijk-oplossen", "lekkende-dakgoot-verzekering", "dakgoot-loopt-over", "dakgoot-losgeraakt", "gedeelde-dakgoot-lekt", "dakgoot-zink-of-kunststof"]);
 // Gootartikelen: na het eerste stuk een gewone regel om een foto van de goot te appen.
 const GOOT_FOTOREGEL = new Set(["hoe-vaak-dakgoot-reinigen", "wat-kost-dakgoot-schoonmaken", "dakgoot-lekt", "verstopte-regenpijp-lekkende-dakgoot", "water-achter-dakgoot", "hoe-lang-gaat-een-dakgoot-mee", "dakgoot-lekt-bij-regenpijp", "dakgoot-loopt-over", "bladvanger-dakgoot", "dakgoot-schoonmaken-in-de-winter", "dakgoot-schoonmaken-huurder-of-verhuurder"]);
+// Artikelen over pannen, onderhoud en kosten: na het eerste stuk een gewone regel om een foto te appen, zoals bij de lekkage- en gootartikelen (11-11-2026).
+const FOTOREGEL_OVERIG = new Set(["wat-kost-een-dakdekker", "hoe-lang-gaat-een-dak-mee", "poreuze-dakpannen", "welke-dakpan-heb-ik", "vorstschade-dakpannen", "dakpan-lijmen-of-kitten", "vogels-onder-dakpannen", "dakonderhoud-per-seizoen", "offerte-dakdekker-vergelijken", "dakdekker-aan-de-deur", "vuurwerk-schade-dak"]);
 // Gootartikelen (de gootgroep in ONDERWERPEN) die niet al het lekkageblok krijgen: een eigen blok aan de zijkant over de goot in plaats van de Dak-APK.
 const GOOT_ZIJBLOK = new Set(ONDERWERPEN[1]);
 // Artikelen over pannen en reparatiekosten: een gewone zin met links naar dakreparatie per plaats.
@@ -257,6 +259,9 @@ const schema = faqSchema ? [articleSchema, faqSchema] : articleSchema;
             {i === 0 && GOOT_FOTOREGEL.has(a.slug) && (
               <p><strong>Vol of lek?</strong> Twijfel je of je goot alleen vol zit of echt lekt? Maak vanaf de straat een foto, het liefst tijdens of vlak na een bui, en stuur die via <a href={waHref("Hallo, ik heb een vraag over mijn dakgoot. Ik stuur je een foto.")}>WhatsApp</a>. Dan zeg ik wat ik zie, en je hoort vooraf de vaste prijs.</p>
             )}
+            {i === 0 && FOTOREGEL_OVERIG.has(a.slug) && !toonSpoedregel && !GOOT_FOTOREGEL.has(a.slug) && (
+              <p><strong>Twijfel je wat het bij jou is?</strong> Maak vanaf de overkant van de straat een foto van je dak, met de zoom van je telefoon, en stuur die via <a href={waHref("Hallo, ik heb een vraag over mijn dak. Ik stuur je een foto.")}>WhatsApp</a>. Dan zeg ik eerlijk wat ik zie, en je hoort vooraf wat het kost.</p>
+            )}
           </>
         ))}
         {fotoBij && <EchteFotos soort={fotoBij.soort} max={fotoBij.max} inline />}
@@ -297,6 +302,9 @@ const schema = faqSchema ? [articleSchema, faqSchema] : articleSchema;
             <a class="btn btn--wa" href={waHref()}>WhatsApp Rens</a>
             <a class="btn btn--primary" href={telHref}>{SITE.telefoonWeergave}</a>
           </div>
+          {SITE.reviews.werkspotAantal > 0 && (
+            <p style="margin-top:12px; font-size:.9rem;">★ {String(SITE.reviews.score).replace(".", ",")} op <a href={SITE.werkspotUrl}>Werkspot</a> ({SITE.reviews.werkspotAantal} reviews)</p>
+          )}
         </div>
       </aside>
     </div>
