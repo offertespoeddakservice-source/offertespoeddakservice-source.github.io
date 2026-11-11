@@ -119,7 +119,7 @@ const WAT_PER_DIENST: Record<string, string> = {
 };
 const watZin = WAT_PER_DIENST[d.slug] ?? d.titel.toLowerCase();
 // Knoppen naar de pagina's per plaats: de namen waarop mensen zoeken, net als op de plaatspagina's.
-const KNOP_NAAM: Record<string, string> = { "goten-reinigen": "Dakgoot schoonmaken", "dakgoot-vervangen": "Dakgoot repareren of vervangen" };
+const KNOP_NAAM: Record<string, string> = { "goten-reinigen": "Dakgoot schoonmaken", "dakgoot-vervangen": "Dakgoot repareren of vervangen", daklekkage: "Daklekkage" };
 ---
 
 <Base title={d.metaTitle} description={d.metaDescription} path={path} schema={schema} noindex={d.verborgen === true}>
