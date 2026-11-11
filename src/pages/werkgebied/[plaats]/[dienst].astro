@@ -202,6 +202,7 @@ const schema = [
         <li><strong>Contact:</strong> bellen of WhatsApp op <a href={telHref}>{SITE.telefoonWeergave}</a>, dag en nacht bereikbaar.</li>
         <li><strong>Prijs:</strong> je hoort de vaste prijs voordat ik begin.</li>
         <li><strong>Verzekerd:</strong> bedrijfsaansprakelijk verzekerd.</li>
+        <li><strong>Reviews:</strong> <a href={SITE.werkspotUrl} target="_blank" rel="noopener">{SITE.reviews.score.toString().replace(".", ",")} op Werkspot</a>{SITE.reviews.werkspotAantal > 0 ? ` (${SITE.reviews.werkspotAantal} reviews)` : ""}.</li>
       </ul>
       {d.slug === "daklekkage" && (
         <>
