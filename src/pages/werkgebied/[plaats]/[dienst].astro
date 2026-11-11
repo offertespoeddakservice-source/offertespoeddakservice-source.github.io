@@ -20,9 +20,15 @@ const path = `/werkgebied/${p.slug}/${d.slug}`;
 const titel = `${d.titel} in ${p.naam}`;
 // Kop zoals mensen zoeken ('dakgoot schoonmaken oss'): bij goten reinigen dezelfde woorden als in de titel.
 const kop = d.slug === "goten-reinigen" ? `Dakgoot schoonmaken in ${p.naam}` : titel;
-// Kop (h1) van de lekkagepagina's per plaats in de woorden waarop mensen zoeken ('daklekkage vught'), gelijk aan de titel. Alleen pagina's die ouder zijn dan 14 dagen. De h2 eronder blijft zoals hij was.
-const LEK_H1_PLAATSEN = ["oss", "rosmalen", "vught", "berlicum", "vlijmen", "drunen", "boxtel", "schijndel", "heusden", "sint-michielsgestel", "oisterwijk"];
-const h1 = d.slug === "daklekkage" && LEK_H1_PLAATSEN.includes(p.slug) ? `Daklekkage in ${p.naam}: lek opsporen en repareren` : kop;
+// Kop (h1) van de lekkagepagina's per plaats in de woorden waarop mensen zoeken ('daklekkage vught'), gelijk aan de titel. Alleen pagina's die ouder zijn dan 14 dagen. De h2 eronder blijft zoals hij was. Sinds 12-11-2026 ook Den Bosch, Uden, Veghel, Eindhoven, Waalwijk en Tilburg. Breda, Helmond en Wijchen nog niet.
+const LEK_H1_PLAATSEN = ["oss", "rosmalen", "vught", "berlicum", "vlijmen", "drunen", "boxtel", "schijndel", "heusden", "sint-michielsgestel", "oisterwijk", "den-bosch", "uden", "veghel", "eindhoven", "waalwijk", "tilburg"];
+// Kop (h1) van de gootpagina's per plaats zoals mensen zoeken ('dakgoot reparatie den bosch'), gelijk aan de titel. Alleen pagina's die ouder zijn dan 14 dagen en waarvan de kop nooit is aangepast (12-11-2026).
+const GOOT_H1_PLAATSEN = ["den-bosch", "vught", "veghel", "oisterwijk", "boxtel", "sint-michielsgestel"];
+const h1 = d.slug === "daklekkage" && LEK_H1_PLAATSEN.includes(p.slug)
+  ? `Daklekkage in ${p.naam}: lek opsporen en repareren`
+  : d.slug === "dakgoot-vervangen" && GOOT_H1_PLAATSEN.includes(p.slug)
+    ? `Dakgoot repareren of vervangen in ${p.naam}`
+    : kop;
 // Titel en omschrijving per dienst waar de standaardzin niet goed loopt; de andere diensten houden de standaard.
 const gotenPrijs = PRIJZEN.find((r) => r.sleutel === "goot_reinigen")?.prijs ?? "";
 const metaTitelPerDienst: Record<string, string> = {
@@ -53,6 +59,16 @@ if (d.slug === "dakgoot-vervangen" && p.slug === "vught") {
 if (d.slug === "dakgoot-vervangen" && p.slug === "veghel") {
   metaTitelPerDienst["dakgoot-vervangen"] = "Dakgoot repareren of vervangen in Veghel";
   omschrijvingPerDienst["dakgoot-vervangen"] = "Lekt je dakgoot in Veghel of een van de kerkdorpen? Ik repareer een lekkende naad, hoek of uitloop, of vervang de goot als hij op is. Stuur een foto voor de prijs.";
+}
+// Dakgoot repareren in Oisterwijk, Boxtel en Sint-Michielsgestel: gemaakt op 29-10, dus vanaf 12-11 mag de titel ('dakgoot reparatie oisterwijk' plek 12,5). Elk een eigen omschrijving, zonder 'vaste prijs vooraf'.
+const GOOT_OMSCHRIJVING_NIEUW: Record<string, string> = {
+  oisterwijk: "Lekt je dakgoot in Oisterwijk of Moergestel, of zit hij vol naalden en blad? Ik soldeer een lekke naad, zet een losse hoek vast of vervang de goot. Stuur een foto.",
+  boxtel: "Druppelt je dakgoot in Boxtel of Liempde bij een hoek of de regenpijp? Ik repareer de naad of uitloop, of vervang de goot als hij op is. App een foto voor de prijs.",
+  "sint-michielsgestel": "Lekkende dakgoot in Sint-Michielsgestel, Gemonde of Den Dungen? Ik zoek waar hij lekt en repareer de naad of het hoekstuk, of vervang de goot. Stuur een foto voor de prijs.",
+};
+if (d.slug === "dakgoot-vervangen" && GOOT_OMSCHRIJVING_NIEUW[p.slug]) {
+  metaTitelPerDienst["dakgoot-vervangen"] = `Dakgoot repareren of vervangen in ${p.naam}`;
+  omschrijvingPerDienst["dakgoot-vervangen"] = GOOT_OMSCHRIJVING_NIEUW[p.slug];
 }
 // Daklekkage in Veghel: gemaakt op 24-10, dus vanaf 07-11 mag de titel ('daklekkage veghel' plek 23, pagina plek 25 met 116 vertoningen en 0 kliks). Eigen omschrijving zonder 'vaste prijs vooraf'.
 if (d.slug === "daklekkage" && p.slug === "veghel") {
