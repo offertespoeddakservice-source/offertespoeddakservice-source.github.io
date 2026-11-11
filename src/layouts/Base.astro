@@ -65,7 +65,7 @@ const businessSchema: Record<string, unknown> = {
     availableLanguage: ["nl"],
     hoursAvailable: { "@type": "OpeningHoursSpecification", dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"], opens: "00:00", closes: "23:59" },
   },
-  knowsAbout: ["daklekkage", "dakreparatie", "dakpannen", "nokvorsten", "lood en loodvervanger", "dakgoten", "zinken dakgoten solderen", "dakgoten van binnen coaten", "kilgoten", "regenpijpen", "dakdoorvoeren", "platte daken", "stormschade", "windveren", "oude antennes en schotels weghalen", "vogelwering", "dakrenovatie", "dakinspectie (Dak-APK)"],
+  knowsAbout: ["daklekkage", "dakreparatie", "dakpannen", "nokvorsten", "lood en loodvervanger", "dakgoten", "zinken dakgoten solderen", "dakgoten van binnen coaten", "kilgoten", "regenpijpen", "dakdoorvoeren", "platte daken", "rot dakbeschot onder een plat dak vervangen", "stormschade", "windveren", "oude antennes en schotels weghalen", "vogelwering", "dakrenovatie", "dakinspectie (Dak-APK)"],
 };
 if (SITE.reviews.aantal > 0) {
   businessSchema.aggregateRating = { "@type": "AggregateRating", ratingValue: SITE.reviews.score, reviewCount: SITE.reviews.aantal };
