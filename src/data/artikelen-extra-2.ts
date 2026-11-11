@@ -246,6 +246,46 @@ export const ARTIKELEN_EXTRA_2: Artikel[] = [
       { v: `Is een lek in een plat dak met grind spoed?`, a: `Druppelt het binnen, of zit de natte plek bij een lamp of stopcontact, dan wel. Zet dan de groep van die ruimte uit en bel of app me. Zie je alleen een droge, oude kring die na een bui niet groter wordt, dan kan het meestal een paar dagen wachten.` },
     ],
   },
+  {
+    slug: `pannendak-schuur-lekt`,
+    datum: `2026-11-11`,
+    titel: `Pannendak van je schuur lekt`,
+    h1: `Het pannendak van je schuur, garage of oude stal lekt: waar zit het?`,
+    metaTitle: `Pannendak van schuur of garage lekt | Spoed Dak Service`,
+    metaDescription: `Lekt het pannendak van je schuur, garage of oude stal? Vaak ligt er geen folie onder en zit het in een gebroken pan, de nok of een rotte panlat. Zo zie je wat het is.`,
+    intro: `Veel schuren, garages en oude stallen hebben een schuin dak met pannen, net als een huis. Alleen is zo'n dak vaak eenvoudiger gebouwd: de pannen liggen direct op de latten, zonder folie of planken eronder. Van binnen kijk je zo tegen de onderkant van de pannen aan. Lekt het, dan druppelt het meteen op je fiets, je gereedschap of je voorraad. Hieronder lees je hoe zo'n dak in elkaar zit, waar het meestal lekt en wat eraan te doen is.`,
+    secties: [
+      { kop: `Lekt het nu? Eerst dit`, tekst: [
+        `Zet een bak onder de druppel en haal spullen weg die niet nat mogen worden. Druppelt het bij een stopcontact, een lamp of een machine, zet dan de stroom van die groep uit. Ga niet op het dak staan: oude pannen en latten breken makkelijk. Wat je verder meteen kunt doen, staat op de <a href="/spoed/">spoedpagina</a>.`,
+      ] },
+      { kop: `Zo ligt een pannendak op een schuur`, tekst: [
+        `Op een huis ligt onder de pannen meestal folie of houten platen, en die vangen water op dat onder een pan door waait. Op veel schuren en oude stallen is dat er niet. De pannen haken met hun neusje achter de panlatten, en daaronder is het open. Dat is niet fout: zo'n dak kan jaren droog blijven zolang de pannen goed liggen. Maar elke pan die breekt of verschuift, laat het water meteen naar binnen.`,
+      ] },
+      { kop: `Waar het meestal lekt`, tekst: [
+        `Een gebroken of verschoven pan. Een tak, vorst of iemand die op het dak heeft gestaan: één kapotte pan is genoeg. Van binnen zie je het vaak meteen, aan een streep daglicht of een natte plek op de lat eronder. Zie ook <a href="/kennisbank/licht-tussen-dakpannen/">licht tussen je dakpannen</a>.`,
+        `De nok. Liggen de nokvorsten in specie, dan brokkelt die na jaren af. Bij harde wind waait de regen dan langs de nok naar binnen. Zie <a href="/kennisbank/nokvorsten-los/">losse nokvorsten</a>.`,
+        `Waar de schuur tegen je huis of een muur aan zit. Daar ligt een strook lood of loodvervanger tussen het dak en de muur. Laat die los, dan loopt het water langs de muur naar binnen. Zie <a href="/kennisbank/lood-op-dak/">lood op je dak</a>.`,
+        `Rotte panlatten. Blijft het ergens lang nat, dan kan een lat zacht worden. Een pan ligt dan niet meer goed vast en gaat schuiven.`,
+        `De goot. Een schuur heeft vaak een lage goot, soms vlak onder bomen. Zit die vol, dan loopt het water over de rand of terug onder de onderste pannen.`,
+      ] },
+      { kop: `Zo kijk je zelf`, tekst: [
+        `Ga op een droge dag in de schuur staan en kijk met een zaklamp omhoog. Zie je ergens daglicht, een donkere vlek op een lat of een pan die anders ligt dan de rest? Kijk na een bui waar de druppels vallen. Kijk buiten vanaf de grond, of vanaf een stevige ladder aan de zijkant, naar de nok, de pannen langs de rand en de goot. Maak van alles een foto.`,
+        `Liggen er op een deel van je schuur geen pannen maar golfplaten, lees dan <a href="/kennisbank/golfplaten-lekken/">golfplaten lekken</a>, met wat je eerst nagaat bij oude platen.`,
+      ] },
+      { kop: `Hoe ik het aanpak`, tekst: [
+        `Een gebroken of verschoven pan vervang ik of leg ik terug, met een pan die past bij wat er ligt. Een losse nokvorst zet ik weer vast. Is de strook langs de muur los, dan herstel ik die, meestal met loodvervanger en op wens met echt lood. Zie ik dat er latten rot zijn of dat er op veel plekken pannen op zijn, dan hoor je dat eerst, en ook wat het kost, voordat ik verder ga. Wil je dat het in de schuur droger blijft, bijvoorbeeld omdat je er spullen bewaart, dan kan er bij een grotere vernieuwing folie onder de pannen. Dat is een keuze, geen moet.`,
+      ] },
+      { kop: `Wat kost het?`, tekst: [
+        `Een paar losse of gebroken pannen vervangen, of een nokvorst weer vastzetten, kost bij mij ${inclBtw("dakpan")}. Is er meer nodig, zoals nieuwe latten of een groter stuk dak, stuur dan een foto van binnen en van buiten. Je hoort de prijs voordat ik begin. Zie ook <a href="/diensten/dakpannen-vervangen/">dakpannen vervangen</a>.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: dakpannen vervangen`, href: `/diensten/dakpannen-vervangen/` },
+    faq: [
+      { v: `Moet er folie onder de pannen van mijn schuur?`, a: `Niet per se. Veel schuren hebben nooit folie gehad en blijven droog zolang de pannen goed liggen. Wel waait er bij harde wind of stuifsneeuw makkelijker wat naar binnen. Bewaar je er spullen die echt droog moeten blijven, dan kan folie zinvol zijn als het dak toch een keer vernieuwd wordt.` },
+      { v: `Ik zie van binnen een streep daglicht. Lekt het daar dan?`, a: `Niet altijd. Bij pannen zonder folie eronder zie je vaak wat licht langs de randen, ook als ze goed liggen. Zie je een brede streep, een stuk lucht of een pan die schuin hangt, dan ligt er een pan los of is er een kapot. Kijk na een bui of het onder die plek nat is, en stuur me een foto van binnen en van buiten.` },
+      { v: `Kan het lek in mijn schuur tot het voorjaar wachten?`, a: `Dat hangt af van wat eronder staat en hoeveel het lekt. Een paar druppels op een betonvloer kunnen vaak even wachten, maar water op houten latten maakt ze op den duur zacht, en dan gaan er meer pannen schuiven. Ligt er een pan los die bij storm kan wegwaaien, laat hem dan voor de winter vastzetten.` },
+    ],
+  },
 ];
 
 // Kort antwoord bovenaan een artikel (zie KORT_ANTWOORD in artikelen-extra.ts). Geen bedragen met de hand.
@@ -266,6 +306,7 @@ export const KORT_ANTWOORD_2: Record<string, string> = {
   "schoorsteen-afdekken": `Stook je niet meer en staat het kanaal bovenin open, dan valt er bij elke bui regen in. Een kap of afdekplaat houdt die regen eruit, terwijl er aan de zijkant nog lucht door kan, zodat het kanaal blijft ademen. Een kanaal helemaal dichtmaken zonder ventilatie geeft later vaak vochtplekken binnen.`,
   "lekkende-dakgoot-verzekering": `Een natte muur of plafond door een lekkende dakgoot wordt vaak vergoed als het water plotseling binnenkwam, bijvoorbeeld bij een storm. De reparatie van de goot zelf, en schade door een goot die al lang lekte of vol zat, zien verzekeraars meestal als onderhoud. Wat jij vergoed krijgt, staat in je eigen polis. Maak foto's voordat er iets wordt gerepareerd.`,
   "wat-kost-nokvorsten-repareren": `Eén losse nokvorst weer vastzetten kost bij mij ${inclBtw("dakpan")}. Is de specie onder de nok op en moeten de vorsten opnieuw worden aangesmeerd met dakmortel, dan kost dat ${inclBtw("nok_repareren")}. Moeten er vorsten of moet de hele nok vervangen worden, dan hoor je de prijs als je een foto hebt gestuurd.`,
+  "pannendak-schuur-lekt": `Op een schuur, garage of oude stal liggen de pannen vaak direct op de latten, zonder folie eronder. Lekt het, dan zit het meestal in een gebroken of verschoven pan, een losse nokvorst, de strook langs de muur van je huis of een rotte panlat. Vaak is het een kleine reparatie op die ene plek.`,
 };
 
 // Extra vragen onder een bestaand artikel (zoals FAQ_ERBIJ in artikelen-extra.ts, dat te groot is geworden). Kennisbank [slug].astro voegt ze erbij.
