@@ -286,6 +286,44 @@ export const ARTIKELEN_EXTRA_2: Artikel[] = [
       { v: `Kan het lek in mijn schuur tot het voorjaar wachten?`, a: `Dat hangt af van wat eronder staat en hoeveel het lekt. Een paar druppels op een betonvloer kunnen vaak even wachten, maar water op houten latten maakt ze op den duur zacht, en dan gaan er meer pannen schuiven. Ligt er een pan los die bij storm kan wegwaaien, laat hem dan voor de winter vastzetten.` },
     ],
   },
+  {
+    slug: `wat-kost-dakpan-vervangen`,
+    datum: `2026-11-11`,
+    titel: `Wat kost een dakpan vervangen?`,
+    h1: `Wat kost een dakpan vervangen? Eén losse pan, een paar pannen of de nok`,
+    metaTitle: `Wat kost een dakpan vervangen? | Spoed Dak Service`,
+    metaDescription: `Een paar losse of gebroken dakpannen vervangen kost bij mij ${inclBtw("dakpan")}. Waar de prijs van afhangt en wat je stuurt om vooraf een vaste prijs te horen.`,
+    intro: `Er ligt een pan scheef, er is er een gebroken door een tak, of je vindt een stuk pan in de tuin. Dan wil je vooral weten wat dat gaat kosten. Hieronder lees je wat een paar pannen vervangen bij mij kost, waar de prijs van afhangt en hoe je vaak al met een foto de prijs hoort.`,
+    secties: [
+      { kop: `Lekt het nu? Eerst dit`, tekst: [
+        `Druppelt het binnen, zet dan een emmer neer en haal spullen weg. Ligt er een pan of een stuk van de nok op de stoep, blijf dan uit de buurt van die kant van het huis. Wat je verder meteen kunt doen, staat op de <a href="/spoed/">spoedpagina</a>.`,
+      ] },
+      { kop: `Wat het kost`, tekst: [
+        `Een paar losse of gebroken pannen vervangen, of een nokvorst weer vastzetten, kost bij mij ${inclBtw("dakpan")}. Dat is een vanaf-prijs. Je hoort één vaste prijs voor de hele klus voordat ik begin, geen bedrag per uur.`,
+      ] },
+      { kop: `Waar de prijs van afhangt`, tekst: [
+        `Hoeveel pannen het zijn. Eén of een paar pannen is een kleine klus. Ligt er na een storm een hele rij los, of zijn er op een dakvlak veel pannen op, dan is het meer werk.`,
+        `Waar ze liggen. Een pan in de onderste rij boven de goot is makkelijker te bereiken dan een pan vlak onder de nok of midden op een steil dak. Ook een aanbouw of erker waar ik eerst overheen moet, telt mee.`,
+        `Of er een pan te krijgen is die past. Veel pannen worden nog gemaakt, maar van oudere modellen soms niet meer. Dan zoek ik een pan die in vorm en maat zo goed mogelijk past. Hoe je zelf ziet welke pan je hebt, lees je in <a href="/kennisbank/welke-dakpan-heb-ik/">welke dakpan heb ik?</a>`,
+        `Of er meer aan de hand is. Ligt een pan scheef omdat de lat eronder rot is, of is het lood ernaast ook los, dan hoor je dat eerst, en wat het extra kost, voordat ik verder ga.`,
+      ] },
+      { kop: `En de nok?`, tekst: [
+        `Eén losse nokvorst weer vastzetten valt onder dezelfde kleine reparatie. Moeten de nokvorsten over de hele nok opnieuw worden aangesmeerd met dakmortel, dan kost dat ${inclBtw("nok_repareren")}. Moet de hele nok vervangen worden, stuur dan een foto. Meer lees je in <a href="/kennisbank/wat-kost-nokvorsten-repareren/">wat kost nokvorsten repareren</a>.`,
+      ] },
+      { kop: `Zo hoor je de prijs vooraf`, tekst: [
+        `Maak vanaf de overkant van de straat een foto van je dak, met de zoom van je telefoon, en als het kan ook een uit een raam boven. Ligt er een stuk pan in de tuin, maak daar ook een foto van. Lekt het binnen, stuur dan ook de natte plek. Stuur alles via WhatsApp. Dan zie ik vaak al wat er nodig is en hoor je de prijs. Zie ik op de foto niet genoeg, dan zeg ik dat eerlijk.`,
+      ] },
+      { kop: `Zelf doen?`, tekst: [
+        `Een pan vervangen lijkt een klein klusje, maar je staat op een schuin dak waar oude pannen onder je voeten breken, en een nat of bemost dak is glad. Kitten of lijmen van een gebroken pan houdt meestal niet lang: zie <a href="/kennisbank/dakpan-lijmen-of-kitten/">dakpan lijmen of kitten</a>. Hoe je ziet of een pan kapot of verschoven is, lees je in <a href="/kennisbank/dakpan-kapot-of-verschoven/">dakpan kapot of verschoven</a>.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: dakpannen vervangen`, href: `/diensten/dakpannen-vervangen/` },
+    faq: [
+      { v: `Reken je per pan?`, a: `Nee. Je hoort vooraf één vaste prijs voor de hele klus. Een paar pannen vervangen kost ${inclBtw("dakpan")}. Zijn het er veel meer, of moet er ook aan de nok of het lood iets gebeuren, dan hoor je dat en de prijs voordat ik begin.` },
+      { v: `Betaalt mijn verzekering een pan die bij een storm is gebroken?`, a: `Vaak wel, als het echt storm was. Lag de pan al lang los of was hij al poreus, dan zien verzekeraars het eerder als onderhoud. Maak foto's van het dak en van de stukken pan voordat er iets wordt gerepareerd, en kijk in je polis. Meer lees je in het artikel over daklekkage en je verzekering.` },
+      { v: `Ik heb nog een paar oude pannen in de schuur liggen. Heb je daar wat aan?`, a: `Vaak wel. Liggen er na een verbouwing of een eerdere reparatie nog pannen in je schuur of op zolder, gooi ze dan niet weg. Past zo'n pan bij je dak, dan gebruik ik hem, en dan hoef ik niet te zoeken naar een pan die past.` },
+    ],
+  },
 ];
 
 // Kort antwoord bovenaan een artikel (zie KORT_ANTWOORD in artikelen-extra.ts). Geen bedragen met de hand.
@@ -307,6 +345,7 @@ export const KORT_ANTWOORD_2: Record<string, string> = {
   "lekkende-dakgoot-verzekering": `Een natte muur of plafond door een lekkende dakgoot wordt vaak vergoed als het water plotseling binnenkwam, bijvoorbeeld bij een storm. De reparatie van de goot zelf, en schade door een goot die al lang lekte of vol zat, zien verzekeraars meestal als onderhoud. Wat jij vergoed krijgt, staat in je eigen polis. Maak foto's voordat er iets wordt gerepareerd.`,
   "wat-kost-nokvorsten-repareren": `Eén losse nokvorst weer vastzetten kost bij mij ${inclBtw("dakpan")}. Is de specie onder de nok op en moeten de vorsten opnieuw worden aangesmeerd met dakmortel, dan kost dat ${inclBtw("nok_repareren")}. Moeten er vorsten of moet de hele nok vervangen worden, dan hoor je de prijs als je een foto hebt gestuurd.`,
   "pannendak-schuur-lekt": `Op een schuur, garage of oude stal liggen de pannen vaak direct op de latten, zonder folie eronder. Lekt het, dan zit het meestal in een gebroken of verschoven pan, een losse nokvorst, de strook langs de muur van je huis of een rotte panlat. Vaak is het een kleine reparatie op die ene plek.`,
+  "wat-kost-dakpan-vervangen": `Een paar losse of gebroken dakpannen vervangen, of een nokvorst weer vastzetten, kost bij mij ${inclBtw("dakpan")}. De prijs hangt vooral af van hoeveel pannen het zijn, hoe goed ik erbij kan en of er een pan te krijgen is die past. Met een foto van je dak vanaf de straat hoor je meestal al vooraf wat het kost.`,
 };
 
 // Extra vragen onder een bestaand artikel (zoals FAQ_ERBIJ in artikelen-extra.ts, dat te groot is geworden). Kennisbank [slug].astro voegt ze erbij.
