@@ -33,4 +33,35 @@ export const ARTIKEL_CORRECTIES: Record<string, Partial<Pick<Artikel, "secties" 
     ],
     dienst: { label: `Bekijk: dakgoot schoonmaken`, href: `/diensten/goten-reinigen/` },
   },
+  "zinken-dakgoot-lekt": {
+    dienst: { label: `Bekijk: dakgoot solderen`, href: `/diensten/dakgoot-solderen/` },
+  },
+  "zachte-plek-plat-dak": {
+    dienst: { label: `Bekijk: rot dakbeschot vervangen`, href: `/diensten/dakbeschot-vervangen/` },
+  },
+  "schoorsteen-vegen-hoe-vaak": {
+    secties: [
+      { kop: `Hoe vaak is nodig?`, tekst: [
+        `Stook je regelmatig hout? Dan is één keer per jaar het advies, het beste vóór het stookseizoen, eind zomer of begin herfst. Bij een gasketel of weinig stoken kan het minder vaak.`,
+        `Veel verzekeraars verwachten ook een jaarlijkse beurt, handig om te weten als er ooit iets misgaat.`,
+      ] },
+      { kop: `Waarom het belangrijk is`, tekst: [
+        `In het kanaal verzamelt zich roet en creosoot. Te veel daarvan vergroot de kans op schoorsteenbrand en zorgt voor slechte trek, met rook in huis als gevolg. Vegen lost dat op.`,
+      ] },
+      { kop: `Zo zie je dat vegen nodig is`, tekst: [
+        `Rook die bij het aansteken de kamer in slaat, een kachel die slecht trekt, een sterke roetlucht als je niet stookt, of zwarte schilfers onder in de haard. Merk je zoiets, wacht dan niet tot volgend jaar.`,
+      ] },
+      { kop: `Wie veegt je schoorsteen?`, tekst: [
+        `Schoorsteen vegen doe ik zelf niet. Laat het doen door een erkende schoorsteenveger. Wat ik wel doe aan je schoorsteen: het lood en de aansluiting op het dak nakijken, vastzetten of vervangen, en een kap of afdekplaat plaatsen als er regen in het kanaal valt. Zie <a href="/diensten/lood-vervangen/">lood vervangen</a> en <a href="/kennisbank/schoorsteen-afdekken/">schoorsteen afdekken</a>.`,
+      ] },
+    ],
+    faq: [
+      { v: `Kom jij mijn schoorsteen vegen?`, a: `Nee, dat doe ik niet. Laat het vegen doen door een erkende schoorsteenveger. Lekt het bij je schoorsteen of valt er regen in het kanaal, dan kom ik wel. Stuur me een foto van de schoorsteen vanaf de straat via WhatsApp.` },
+      { v: `Wanneer kan ik het beste laten vegen?`, a: `Vóór het stookseizoen, dus eind zomer of begin herfst. Dan begin je de winter veilig en met goede trek.` },
+      { v: `Is schoorsteen vegen verplicht?`, a: `Voor een gewoon woonhuis staat het niet in de wet. Wel vragen veel verzekeraars in hun voorwaarden om een jaarlijkse veegbeurt als je hout stookt. Gaat het mis en is er niet geveegd, dan kan dat gevolgen hebben voor je uitkering. Kijk het even na in je polis.` },
+      { v: `Moet de schoorsteen ook geveegd worden als ik weinig stook?`, a: `Stook je maar een paar keer per jaar, dan kan het vaak minder vaak. Heb je lang niet gestookt of zaten er vogels op de schoorsteen, laat dan voordat je weer begint toch even kijken of het kanaal vrij is.` },
+      { v: `Mijn schoorsteen wordt niet meer gebruikt. Wat moet ik doen?`, a: `Elk jaar vegen hoeft dan niet meer, want er komt geen nieuw roet bij. Laat hem wel één keer vegen als je stopt met stoken. Blijft het kanaal daarna open, dan valt er regen in, en dat water trekt met het roet in de muur. Binnen zie je dat als bruine vlekken. Een kap of afdekplaat houdt de regen tegen en laat het kanaal toch ademen. Die kan ik er voor je op zetten. Je hoort vooraf wat het kost.` },
+    ],
+    dienst: { label: `Bekijk: lood vervangen bij de schoorsteen`, href: `/diensten/lood-vervangen/` },
+  },
 };
