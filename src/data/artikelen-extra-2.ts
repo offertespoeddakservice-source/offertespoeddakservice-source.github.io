@@ -90,6 +90,45 @@ export const ARTIKELEN_EXTRA_2: Artikel[] = [
       { v: `Kan een lekdetectiebedrijf mijn dak ook repareren?`, a: `Dat verschilt per bedrijf. Sommige zoeken alleen en geven je een rapport, en voor de reparatie heb je daarna nog een dakdekker nodig. Vraag het vooraf na, dan weet je waar je aan toe bent.` },
     ],
   },
+  {
+    slug: `dak-monument-repareren`,
+    datum: `2026-11-11`,
+    titel: `Dak van een monument repareren`,
+    h1: `Je dak repareren in een monument of beschermd stadsgezicht: wat mag en waar let je op?`,
+    metaTitle: `Dak repareren bij een monument: wat mag? | Spoed Dak Service`,
+    metaDescription: `Woon je in een monument of in een beschermd stadsgezicht, zoals de binnenstad van Den Bosch? Zo zit het met herstel, toestemming, pannen, lood en zinken goten.`,
+    intro: `Woon je in een monument, of in een straat die beschermd stadsgezicht is, zoals de binnenstad van Den Bosch of de vesting Heusden, dan wil je bij een lek of een losse pan weten wat je mag. Kun je het gewoon laten repareren, of heb je eerst toestemming nodig? Hieronder lees je hoe het meestal zit, waar ik op let en wat je zelf vooraf regelt.`,
+    secties: [
+      { kop: `Lekt het nu? Eerst droog`, tekst: [
+        `Een lek wacht niet. Zet een emmer onder de druppel en haal spullen weg die nat kunnen worden. Een open plek afdekken of een losse pan terugleggen, zodat het binnen droog blijft, kan meestal meteen. Wat je verder meteen doet, staat op de <a href="/spoed/">spoedpagina</a>.`,
+      ] },
+      { kop: `Monument of beschermd stadsgezicht: wat is het verschil?`, tekst: [
+        `Een rijksmonument of gemeentelijk monument is een gebouw dat zelf beschermd is. Een beschermd stadsgezicht is een heel gebied, zoals een oude binnenstad, waar vooral gelet wordt op hoe de straat en de daken eruitzien. Of jouw huis een monument is of in zo'n gebied ligt, kun je navragen bij je gemeente. Rijksmonumenten staan ook in het monumentenregister van de Rijksdienst voor het Cultureel Erfgoed.`,
+      ] },
+      { kop: `Gewoon herstel of een verandering?`, tekst: [
+        `Herstel je iets met hetzelfde materiaal en in dezelfde vorm, zoals een kapotte pan vervangen door een pan die er net zo uitziet, of lood vernieuwen zoals het er lag, dan geldt dat in de regel als gewoon onderhoud. Verander je iets aan hoe het dak eruitziet, zoals een andere pan, een andere kleur, kunststof in plaats van zink of een dakraam erbij, dan heb je meestal eerst toestemming nodig. Twijfel je, vraag het dan vooraf na bij de gemeente. Dat is sneller dan achteraf iets terug moeten draaien.`,
+      ] },
+      { kop: `Waar ik op let bij een oud dak`, tekst: [
+        `Ik kijk eerst wat er nu ligt: welke pan, welke kleur, hoe de nok is gelegd en hoe het lood en de goten zijn gemaakt. Een kapotte pan vervang ik door een die past, en soms moet ik daarvoor even zoeken naar een oude pan van dezelfde soort. Hoe je ziet welke pan je hebt, lees je in <a href="/kennisbank/welke-dakpan-heb-ik/">welke dakpan heb ik?</a>`,
+        `Meestal werk ik met loodvervanger, maar op een monument past echt lood vaak beter, en soms vraagt de gemeente erom. Dan werk ik met lood. Zie <a href="/kennisbank/lood-of-loodvervanger/">lood of loodvervanger</a>. Een oude zinken goot of bakgoot probeer ik eerst te herstellen, door een naad opnieuw te solderen of de goot van binnen te coaten, voordat hij vervangen moet worden. Lees <a href="/kennisbank/bakgoot-lekt/">bakgoot lekt</a>.`,
+      ] },
+      { kop: `Goten die je niet ziet`, tekst: [
+        `In oude binnensteden liggen veel goten uit het zicht: achter een lijst in de rand van het dak, of tussen twee panden in. Raakt zo'n goot vol of gaat het zink lekken, dan loopt het water niet langs de gevel naar beneden, maar komt het binnen, soms bij de buren. Laat zulke goten daarom elk najaar nakijken en leegmaken. Zie ook <a href="/kennisbank/kilgoot-lekt/">kilgoot lekt</a>.`,
+      ] },
+      { kop: `Wat ik niet doe`, tekst: [
+        `Aan de stenen en de voegen van de gevel of de schoorsteen werk ik niet. Is daar iets mee, dan heb je een metselaar nodig, en bij een monument het liefst een die ervaring heeft met oude gebouwen. Dat zeg ik je dan meteen.`,
+      ] },
+      { kop: `Wat kost het?`, tekst: [
+        `Een paar losse of kapotte pannen vervangen kost ${inclBtw("dakpan")}. Moet er een oude pan gezocht worden, of gaat het om lood of een zinken goot, stuur dan een foto van het dak vanaf de straat en van de plek waar het lekt. Dan hoor je vooraf wat het kost.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: dakreparatie (pannen, lood en nok)`, href: `/diensten/dakreparatie/` },
+    faq: [
+      { v: `Heb ik toestemming nodig om een kapotte pan op mijn monument te laten vervangen?`, a: `Meestal niet, als de nieuwe pan er net zo uitziet als de oude. Dat valt in de regel onder gewoon onderhoud. Wil je een andere pan of kleur, of iets anders aan het dak veranderen, vraag het dan eerst na bij je gemeente.` },
+      { v: `Kom je ook in de binnenstad van Den Bosch en de vesting Heusden?`, a: `Ja. Den Bosch is mijn thuisbasis, en Heusden is zo'n 20 minuten rijden. In de smalle straten van de binnenstad en de vesting spreken we vooraf af waar ik mijn bus en ladder kwijt kan. Stuur eerst een foto van je dak vanaf de straat.` },
+      { v: `Mag ik bij een monument zelf kiezen tussen lood en loodvervanger?`, a: `Dat hangt af van je gemeente. Bij een monument of in een beschermd stadsgezicht wil de gemeente vaak dat het dak eruit blijft zien zoals het was, en dan is echt lood vaak de beste keus. Vraag het vooraf na. Ik werk met allebei.` },
+    ],
+  },
 ];
 
 // Kort antwoord bovenaan een artikel (zie KORT_ANTWOORD in artikelen-extra.ts). Geen bedragen met de hand.
@@ -100,6 +139,7 @@ export const KORT_ANTWOORD_2: Record<string, string> = {
   "lekkage-bij-de-nok": `Een natte plek helemaal bovenin je zolder komt meestal van een losse nokvorst, een gescheurde strook onder een droge nok, een kapotte pan vlak onder de nok of een pijp die hoog door het dak gaat. Wordt het alleen nat na een koude nacht, ook zonder regen, dan is het vaak condens.`,
   "druppelen-horen-plafond": `Hoor je alleen bij regen getik, dan valt het water vaak buiten op lood, een kap of een vensterbank, of ligt het binnen nog op de isolatie of een balk. Kijk tijdens een bui met een zaklamp op zolder. Hoor je het ook als het droog is, dan is een leiding of afvoer waarschijnlijker en heb je een loodgieter nodig.`,
   "plafond-drogen-na-lekkage": `Een kleine natte plek in een plafond van gipsplaat is vaak binnen een paar weken droog, een betonnen plafond met stucwerk kan een maand of langer nodig hebben. Laat het rustig drogen, zet de bruine kring daarna eerst in met een vlekkendekkende grondverf en schilder pas dan. Komt de vlek na een bui terug, dan lekt het nog.`,
+  "dak-monument-repareren": `Herstel met hetzelfde materiaal en in dezelfde vorm, zoals een kapotte pan vervangen door een pan die er net zo uitziet, geldt bij een monument in de regel als gewoon onderhoud. Wil je iets veranderen aan hoe het dak eruitziet, zoals een andere pan, kunststof in plaats van zink of een dakraam erbij, vraag dan eerst bij de gemeente of daar toestemming voor nodig is.`,
 };
 
 // Extra vragen onder een bestaand artikel (zoals FAQ_ERBIJ in artikelen-extra.ts, dat te groot is geworden). Kennisbank [slug].astro voegt ze erbij.
