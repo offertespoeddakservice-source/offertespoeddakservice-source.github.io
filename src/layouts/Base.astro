@@ -4,6 +4,7 @@ import { SITE, NAV, telHref, waHref } from "../site.config.ts";
 import { PLAATSEN } from "../data/plaatsen.ts";
 import { PRIJZEN } from "../data/prijzen.ts";
 import { DIENSTEN } from "../data/diensten.ts";
+import { ARTIKELEN } from "../data/artikelen.ts";
 import Meting from "../components/Meting.astro";
 
 interface Props {
@@ -77,6 +78,9 @@ const kruimelNaam = (seg: string) => {
   if (KRUIMEL_NAMEN[s]) return KRUIMEL_NAMEN[s];
   const plaats = PLAATSEN.find((p) => p.slug === s);
   if (plaats) return plaats.naam;
+  // Kennisartikelen: de titel van het artikel, zonder vraagteken aan het eind.
+  const artikel = ARTIKELEN.find((a) => a.slug === s && !a.verborgen);
+  if (artikel) return artikel.titel.replace(/\?$/, "");
   const tekst = s.replace(/-/g, " ");
   return tekst.charAt(0).toUpperCase() + tekst.slice(1);
 };
