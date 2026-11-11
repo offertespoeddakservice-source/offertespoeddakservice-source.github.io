@@ -14,6 +14,8 @@ const heeftSchoorsteenStorm = ARTIKELEN.some((a) => a.slug === "schoorsteen-na-s
 const lekPrijs = prijsVan("daklekkage");
 const gotenPrijs = prijsVan("goot_reinigen");
 const kleinPrijs = prijsVan("dakpan");
+const platPrijs = prijsVan("platdak");
+const loodPrijs = prijsVan("lood");
 const score = SITE.reviews.score.toString().replace(".", ",");
 
 const stappen = [
@@ -144,6 +146,16 @@ const spoedSchema = {
           <h3>Spoed dakreparatie</h3>
           <p>Een losse pan, een nokvorst die eraf ligt of lood dat loslaat: eerst dicht, dan netjes herstellen.</p>
           <span class="price">{kleinPrijs}</span>
+        </a>
+        <a class="card" href="/diensten/platte-daken/">
+          <h3>Lekkend plat dak</h3>
+          <p>Lekt het platte dak van je aanbouw, garage of berging? Eerst droog, dan gericht repareren.</p>
+          <span class="price">{platPrijs}</span>
+        </a>
+        <a class="card" href="/diensten/lood-vervangen/">
+          <h3>Lekt het bij de schoorsteen?</h3>
+          <p>Lood dat los zit of gescheurd is: eerst dicht, daarna vastzetten of vervangen.</p>
+          <span class="price">{loodPrijs}</span>
         </a>
       </div>
       <p class="notice" style="margin-top:20px;">
