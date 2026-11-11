@@ -367,6 +367,41 @@ export const ARTIKELEN_EXTRA_2: Artikel[] = [
       { v: `Is een natte plek op de schuine wand spoed?`, a: `Druppelt het, wordt de plek bij elke bui groter of zit hij bij een stopcontact of lamp, dan wel: bel of app me met een foto. Is het een oude, droge kring die niet groter wordt, dan kan het meestal een paar dagen wachten.` },
     ],
   },
+  {
+    slug: `dakdekker-kleine-klus`,
+    datum: `2026-11-11`,
+    titel: `Een dakdekker voor een kleine klus`,
+    h1: `Een dakdekker voor een kleine klus: waarom het lastig is en hoe het wel lukt`,
+    metaTitle: `Dakdekker voor een kleine klus vinden | Spoed Dak Service`,
+    metaDescription: `Eén losse pan, een stukje lood of een goot die op één plek lekt? Waarom kleine klussen vaak blijven liggen, wat je meestuurt en wat het bij mij kost.`,
+    intro: `Er ligt één pan scheef, er zit een stukje lood los of je goot druppelt op één plek. Geen groot werk, maar je wilt het wel gemaakt hebben voordat het erger wordt. Toch hoor je vaak niets terug, of pas na weken. Hieronder lees je waarom dat zo gaat, hoe je een kleine klus toch snel geregeld krijgt en hoe ik ermee omga.`,
+    secties: [
+      { kop: `Waarom kleine klussen blijven liggen`, tekst: [
+        `Voor een kleine reparatie moet een dakdekker net zo goed rijden, een ladder neerzetten en materiaal meenemen als voor een grote klus. Wie een volle planning heeft, kiest dan vaak eerst het grote werk, zoals een heel dak of een nieuwe dakbedekking. Een klein klusje schuift dan steeds door. Dat is geen onwil, zo werkt een volle agenda.`,
+      ] },
+      { kop: `Wat een kleine klus is`, tekst: [
+        `Eén of een paar losse of gebroken pannen. Een nokvorst die scheef ligt of los zit. Een stukje lood bij de schoorsteen of het dakraam dat omhoog staat. Een goot die op één plek druppelt, of een beugel die los zit. Een losse windveer, of een oude antenne die weg moet.`,
+      ] },
+      { kop: `Waarom je het beter niet laat liggen`, tekst: [
+        `Onder één kapotte pan worden de panlatten bij elke bui nat, en een los stukje lood laat bij harde wind de regen erachter lopen. Wat nu een kleine reparatie is, wordt na een winter vaak een lek binnen, met nat hout en natte isolatie. Zie ook <a href="/kennisbank/daklek-hoe-lang-wachten/">hoe lang kan een daklek wachten?</a>`,
+      ] },
+      { kop: `Zo krijg je het sneller geregeld`, tekst: [
+        `Stuur meteen een paar foto's mee: je dak of je goot vanaf de overkant van de straat, met de zoom van je telefoon, en als het lekt ook de natte plek binnen. Zet erbij in welke plaats je woont en wat je ziet. Dan kan een dakdekker vaak al zien wat er nodig is en wat hij mee moet nemen, zonder eerst te komen kijken. Heb je meer kleine dingen, zoals een losse pan en een volle goot, noem ze dan meteen allemaal, dan kan het in één bezoek.`,
+      ] },
+      { kop: `Hoe ik met kleine klussen omga`, tekst: [
+        `In de regio Den Bosch kom ik ook voor één losse pan, een scheve nokvorst of een stukje lood. Je krijgt mij zelf aan de lijn, en ik zeg eerlijk wat ik op de foto zie en wanneer ik kan komen. Gaat het om een losse pan of nokvorst, kan ik er van buiten goed bij en spreken we de prijs vooraf af, dan hoef je er niet per se bij te zijn. Woon je verder weg, stuur dan ook eerst een foto, dan hoor je eerlijk of en wanneer ik kan komen.`,
+      ] },
+      { kop: `Wat kost een kleine klus?`, tekst: [
+        `Een paar losse of gebroken pannen vervangen, of een nokvorst weer vastzetten, kost bij mij ${inclBtw("dakpan")}. Eén goot leegmaken, bijvoorbeeld alleen de voorgoot, kost ${inclBtw("goot_reinigen")}. Voor lood, een lekkende goot of een windveer hoor je de prijs als je een foto hebt gestuurd. Je hoort één vaste prijs voor de klus voordat ik begin, geen bedrag per uur. Zie ook de <a href="/prijzen/">prijzenpagina</a> en <a href="/diensten/dakreparatie/">dakreparatie</a>.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: dakreparatie`, href: `/diensten/dakreparatie/` },
+    faq: [
+      { v: `Kun je meerdere kleine dingen in één keer doen?`, a: `Ja, en dat is vaak slim. Zie je naast een losse pan ook een volle goot of een stukje lood dat omhoog staat, stuur dan van alles een foto. Dan neem ik het in één bezoek mee en hoor je vooraf de prijs voor alles samen.` },
+      { v: `Werk je voor een kleine klus met een uurtarief?`, a: `Nee. Je hoort vooraf één vaste prijs voor de klus, voordat ik begin. Zo weet je waar je aan toe bent.` },
+      { v: `Iemand belde aan en zag iets los op mijn dak. Moet ik het hem laten maken?`, a: `Liever niet meteen. Laat je aan de deur niet onder druk zetten. Maak zelf een foto van je dak vanaf de straat en vraag een dakdekker die je zelf hebt opgezocht om mee te kijken. Meer lees je in het artikel over een dakdekker aan de deur.` },
+    ],
+  },
 ];
 
 // Kort antwoord bovenaan een artikel (zie KORT_ANTWOORD in artikelen-extra.ts). Geen bedragen met de hand.
@@ -390,6 +425,7 @@ export const KORT_ANTWOORD_2: Record<string, string> = {
   "pannendak-schuur-lekt": `Op een schuur, garage of oude stal liggen de pannen vaak direct op de latten, zonder folie eronder. Lekt het, dan zit het meestal in een gebroken of verschoven pan, een losse nokvorst, de strook langs de muur van je huis of een rotte panlat. Vaak is het een kleine reparatie op die ene plek.`,
   "wat-kost-dakpan-vervangen": `Een paar losse of gebroken dakpannen vervangen, of een nokvorst weer vastzetten, kost bij mij ${inclBtw("dakpan")}. De prijs hangt vooral af van hoeveel pannen het zijn, hoe goed ik erbij kan en of er een pan te krijgen is die past. Met een foto van je dak vanaf de straat hoor je meestal al vooraf wat het kost.`,
   "natte-plek-schuine-wand-zolder": `Een natte plek op de schuine wand van je zolderkamer komt meestal van een lek hoger in het dak: een verschoven of gebroken pan, de aansluiting rond een dakraam, de nok of het lood bij de schoorsteen. Het water loopt eerst achter de wand naar beneden, dus de plek zit vaak lager dan het lek. Zie je alleen een vochtige waas na koude nachten, dan is het vaak condens.`,
+  "dakdekker-kleine-klus": `Een kleine klus blijft bij veel dakdekkers liggen, omdat rijden, ladder en materiaal voor een kleine reparatie bijna net zoveel tijd kosten als voor groot werk. Je krijgt het sneller geregeld als je meteen foto's van je dak vanaf de straat stuurt en zegt wat je ziet. In de regio Den Bosch kom ik ook voor één losse pan, een scheve nokvorst of een stukje lood.`,
 };
 
 // Extra vragen onder een bestaand artikel (zoals FAQ_ERBIJ in artikelen-extra.ts, dat te groot is geworden). Kennisbank [slug].astro voegt ze erbij.
