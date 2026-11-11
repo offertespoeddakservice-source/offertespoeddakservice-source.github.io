@@ -4,6 +4,7 @@
  */
 import type { Artikel } from "./artikelen";
 import { inclBtw } from "./prijzen";
+import { ARTIKELEN_EXTRA_3, KORT_ANTWOORD_3 } from "./artikelen-extra-3";
 
 export const ARTIKELEN_EXTRA_2: Artikel[] = [
   {
@@ -458,3 +459,7 @@ export const FAQ_ERBIJ_2: Record<string, Artikel["faq"]> = {
     { v: `Mijn goot hangt door sinds de schilder of de glazenwasser er een ladder tegen heeft gezet. Wat nu?`, a: `Dan is er vaak een beugel verbogen of een stuk goot uit zijn beugel gedrukt. Maak een foto van de plek, het liefst tijdens of vlak na een bui, zodat je ziet waar het water blijft staan. Is het werk net gedaan, meld het dan eerst bij de schilder of de glazenwasser. Komt het daar niet goed, of wil je dat ik het herstel, stuur me de foto dan via WhatsApp. Meestal is het genoeg om de beugel recht te zetten of te vervangen en de goot weer op afschot naar de regenpijp te hangen. Is de goot op die plek geknikt of gescheurd, dan vervang ik dat stuk. Zet zelf geen ladder tegen de goot om hem terug te duwen. Je hoort vooraf wat het kost.` },
   ],
 };
+
+// Artikelen en korte antwoorden uit artikelen-extra-3.ts (sinds 12-11-2026) erachter, zodat ze via artikelen-extra.ts in ARTIKELEN en KORT_ANTWOORD komen.
+ARTIKELEN_EXTRA_2.push(...ARTIKELEN_EXTRA_3.filter((x) => !ARTIKELEN_EXTRA_2.some((a) => a.slug === x.slug)));
+Object.assign(KORT_ANTWOORD_2, KORT_ANTWOORD_3);
