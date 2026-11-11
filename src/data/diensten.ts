@@ -99,6 +99,10 @@ export const DIENSTEN: Dienst[] = [
         v: "Er ligt een gaas of een borstel in mijn goot. Maak je die ook schoon?",
         a: "Ja, als ik er goed bij kan. Onder een gaas of in een borstel blijven naalden, mos en zand toch hangen, en op het gaas zelf blijft nat blad liggen. Ik haal het gaas of de borstel eruit, maak de goot en de uitloop naar de regenpijp leeg en leg het daarna terug. Zit er een bolletje in de uitloop, dan maak ik dat ook schoon. Zeg het erbij als je een foto stuurt, dan hoor je vooraf de prijs.",
       },
+      {
+        v: "Mijn goot zit nog vol, maar het gaat vriezen. Kun je hem nu nog leegmaken?",
+        a: "Ja, op een droge dag waarop er geen ijs in de goot zit. Wacht er liever niet mee tot het voorjaar. Nat blad dat in de goot blijft liggen, bevriest tot een harde prop, en dan kan het smeltwater bij de dooi nergens heen. Het loopt dan over de rand langs je gevel, of het ijs duwt een naad of hoek van de goot open. Zit de goot op dit moment vol ijs, dan wacht ik tot het dooit, want ijs eruit hakken beschadigt de goot. Stuur me een foto van je goot vanaf de straat via WhatsApp, dan hoor je vooraf wat het kost.",
+      },
     ],
   },
   {
