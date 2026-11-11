@@ -20,6 +20,9 @@ const path = `/werkgebied/${p.slug}/${d.slug}`;
 const titel = `${d.titel} in ${p.naam}`;
 // Kop zoals mensen zoeken ('dakgoot schoonmaken oss'): bij goten reinigen dezelfde woorden als in de titel.
 const kop = d.slug === "goten-reinigen" ? `Dakgoot schoonmaken in ${p.naam}` : titel;
+// Kop (h1) van de lekkagepagina's per plaats in de woorden waarop mensen zoeken ('daklekkage vught'), gelijk aan de titel. Alleen pagina's die ouder zijn dan 14 dagen. De h2 eronder blijft zoals hij was.
+const LEK_H1_PLAATSEN = ["oss", "rosmalen", "vught", "berlicum", "vlijmen", "drunen", "boxtel", "schijndel", "heusden", "sint-michielsgestel", "oisterwijk"];
+const h1 = d.slug === "daklekkage" && LEK_H1_PLAATSEN.includes(p.slug) ? `Daklekkage in ${p.naam}: lek opsporen en repareren` : kop;
 // Titel en omschrijving per dienst waar de standaardzin niet goed loopt; de andere diensten houden de standaard.
 const gotenPrijs = PRIJZEN.find((r) => r.sleutel === "goot_reinigen")?.prijs ?? "";
 const metaTitelPerDienst: Record<string, string> = {
@@ -149,7 +152,7 @@ const schema = [
   <section class="hero">
     <div class="wrap">
       <p class="eyebrow" style="color:#ffb486;">{p.naam} · {p.reistijd ?? SITE.regioOmschrijving}</p>
-      <h1>{kop}</h1>
+      <h1>{h1}</h1>
       <p class="lead" style="margin-bottom:12px;">Spoed Dak Service is een dakdekker uit 's-Hertogenbosch voor {watZin} {waarZin}.</p>
       <p class="lead">{hook}</p>
       <div class="btn-row" style="margin-top:22px;">
