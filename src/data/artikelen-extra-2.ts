@@ -324,6 +324,49 @@ export const ARTIKELEN_EXTRA_2: Artikel[] = [
       { v: `Ik heb nog een paar oude pannen in de schuur liggen. Heb je daar wat aan?`, a: `Vaak wel. Liggen er na een verbouwing of een eerdere reparatie nog pannen in je schuur of op zolder, gooi ze dan niet weg. Past zo'n pan bij je dak, dan gebruik ik hem, en dan hoef ik niet te zoeken naar een pan die past.` },
     ],
   },
+  {
+    slug: `natte-plek-schuine-wand-zolder`,
+    datum: `2026-11-11`,
+    titel: `Natte plek op de schuine wand van je zolderkamer`,
+    h1: `Natte plek op de schuine wand van je zolderkamer: lek of condens?`,
+    metaTitle: `Natte plek op schuine wand zolderkamer | Spoed Dak Service`,
+    metaDescription: `Een natte plek of kring op de schuine wand van je zolderkamer? Zo zie je of het van de pannen, het dakraam, de nok of condens komt, en wat je meteen doet.`,
+    intro: `Is je zolder een slaapkamer of werkkamer, dan zit er tegen de schuine kant van het dak vaak een wand van gipsplaat of schrootjes. Komt daar een natte plek, een gele kring of bladderende verf op, dan zie je het lek zelf niet, want dat zit achter de wand, ergens in het dak. Hieronder lees je waar het water meestal vandaan komt, hoe je condens herkent en wat je meteen kunt doen.`,
+    secties: [
+      { kop: `Lekt het nu? Eerst dit`, tekst: [
+        `Zet een bak of een handdoek onder de plek en schuif een bed of bureau opzij. Zit de natte plek bij een stopcontact, een lamp of spotjes in de schuine wand, zet dan in de meterkast de groep van die kamer uit. Ga niet zelf het dak op. Wat je verder meteen kunt doen, staat op de <a href="/spoed/">spoedpagina</a>.`,
+      ] },
+      { kop: `Waarom je het lek niet ziet`, tekst: [
+        `Achter de schuine wand zit meestal isolatie, daarachter het dakbeschot of de folie, en daarop liggen de pannen. Water dat ergens onder een pan door komt, loopt eerst over de folie of het hout naar beneden en zakt pas verderop door de isolatie naar binnen. De natte plek op je wand zit daarom vaak lager dan het lek. Hoe ik dat terugvolg, lees je in <a href="/kennisbank/daklekkage-opsporen/">daklekkage opsporen</a>.`,
+      ] },
+      { kop: `Waar het meestal vandaan komt`, tekst: [
+        `Een dakraam in dezelfde wand. Zit de natte plek onder of naast een dakraam, dan zit het vaak in de aansluiting rond het raam: het gootstuk, het lood of een pan ernaast. Zie <a href="/kennisbank/dakraam-lekt/">dakraam lekt</a>.`,
+        `Een verschoven of gebroken pan hoger op het dak. Na harde wind of een tak op het dak ligt er soms een pan scheef. Vanaf de straat zie je dat met de zoom van je telefoon. Zie <a href="/kennisbank/dakpan-kapot-of-verschoven/">dakpan kapot of verschoven</a>.`,
+        `De nok. Zit de plek bovenin, vlak onder het hoogste punt van de kamer, kijk dan bij <a href="/kennisbank/lekkage-bij-de-nok/">nat bovenin, onder de nok</a>.`,
+        `De schoorsteen of een pijp door het dak. Zit de plek in de buurt van het schoorsteenkanaal of een afvoer, dan is het lood of de kraag rond die doorvoer een bekende plek. Zie <a href="/kennisbank/lekkage-bij-schoorsteen/">lekkage bij de schoorsteen</a> en <a href="/kennisbank/lekkage-bij-dakdoorvoer/">lekkage bij een dakdoorvoer</a>.`,
+        `Onderaan de schuine wand, waar hij overgaat in het knieschot. Dan kan het ook bij de goot of de onderste pannen zitten. Zie <a href="/kennisbank/nat-achter-knieschot/">nat achter het knieschot</a>.`,
+      ] },
+      { kop: `Of is het condens?`, tekst: [
+        `In de winter kan een natte plek op een schuine wand ook condens zijn. Is de isolatie achter de wand op één plek ingezakt of nat geworden, dan is dat stuk wand kouder dan de rest, en daar slaat vocht uit de kamer neer. Je ziet dan vaak een vochtige waas of zwarte puntjes, ook na droge dagen, vooral na een koude nacht of als er in de kamer wordt geslapen. Een lek zie je meestal na regen, op één plek, met een duidelijke kring. Meer over het verschil lees je in <a href="/kennisbank/condens-of-lekkage-op-zolder/">condens of lekkage op zolder</a>.`,
+      ] },
+      { kop: `Zo kijk je zelf`, tekst: [
+        `Kijk na een flinke bui of de plek groter of donkerder wordt. Zet met potlood een streep langs de rand van de kring, dan zie je na de volgende bui meteen of hij groeit. Kijk vanaf de overkant van de straat of de pannen boven die kamer recht liggen, en maak een foto met de zoom van je telefoon. Haal de wand niet zelf open om te zoeken, want vaak is dat niet nodig.`,
+      ] },
+      { kop: `Hoe ik het aanpak`, tekst: [
+        `Ik zoek eerst waar het water echt binnenkomt: van buiten bij de pannen, het dakraam, de nok of het lood, en van binnen waar ik achter de wand kan kijken, bijvoorbeeld via de bergruimte achter het knieschot. Daarna maak ik het lek dicht. De wand hoeft daarvoor meestal niet open. Is de isolatie achter de wand nat geworden, dan zeg ik dat eerlijk, want natte isolatie droogt niet altijd vanzelf. Zie <a href="/kennisbank/isolatie-nat-na-lekkage/">isolatie nat na een lekkage</a>.`,
+      ] },
+      { kop: `Wat kost het?`, tekst: [
+        `Een lek opsporen en dichtmaken kost bij mij ${inclBtw("daklekkage")}, inclusief het zoeken en het materiaal. Stuur een foto van de natte plek en van je dak vanaf de straat via WhatsApp, dan hoor je vooraf de vaste prijs. Zie ook <a href="/diensten/daklekkage/">daklekkage</a>.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: daklekkage & spoed`, href: `/diensten/daklekkage/` },
+    faq: [
+      { v: `Moet de schuine wand open om het lek te vinden?`, a: `Meestal niet. Vaak zie ik van buiten al waar het water binnenkomt, bij een pan, het dakraam, de nok of het lood. Soms kan ik via de bergruimte achter het knieschot of een luik bij de achterkant van de wand kijken. Moet er toch een stukje open, dan bespreken we dat eerst.` },
+      { v: `De plek is weer droog. Moet ik dan nog iets doen?`, a: `Kijk bij de volgende flinke bui, zeker als het ook waait, of de plek terugkomt. Komt hij terug, dan lekt het nog en wordt de isolatie erachter steeds natter. Laat het dan nakijken voordat het hout gaat rotten of er schimmel komt.` },
+      { v: `Wanneer kan ik de vlek overschilderen?`, a: `Pas als het lek gemaakt is en de wand helemaal droog is. Gebruik eerst een grondverf die vlekken afdekt, anders schemert de kring door de nieuwe verf heen. Hoe lang drogen duurt, lees je in het artikel over een plafond drogen na een lekkage.` },
+      { v: `Is een natte plek op de schuine wand spoed?`, a: `Druppelt het, wordt de plek bij elke bui groter of zit hij bij een stopcontact of lamp, dan wel: bel of app me met een foto. Is het een oude, droge kring die niet groter wordt, dan kan het meestal een paar dagen wachten.` },
+    ],
+  },
 ];
 
 // Kort antwoord bovenaan een artikel (zie KORT_ANTWOORD in artikelen-extra.ts). Geen bedragen met de hand.
@@ -346,6 +389,7 @@ export const KORT_ANTWOORD_2: Record<string, string> = {
   "wat-kost-nokvorsten-repareren": `Eén losse nokvorst weer vastzetten kost bij mij ${inclBtw("dakpan")}. Is de specie onder de nok op en moeten de vorsten opnieuw worden aangesmeerd met dakmortel, dan kost dat ${inclBtw("nok_repareren")}. Moeten er vorsten of moet de hele nok vervangen worden, dan hoor je de prijs als je een foto hebt gestuurd.`,
   "pannendak-schuur-lekt": `Op een schuur, garage of oude stal liggen de pannen vaak direct op de latten, zonder folie eronder. Lekt het, dan zit het meestal in een gebroken of verschoven pan, een losse nokvorst, de strook langs de muur van je huis of een rotte panlat. Vaak is het een kleine reparatie op die ene plek.`,
   "wat-kost-dakpan-vervangen": `Een paar losse of gebroken dakpannen vervangen, of een nokvorst weer vastzetten, kost bij mij ${inclBtw("dakpan")}. De prijs hangt vooral af van hoeveel pannen het zijn, hoe goed ik erbij kan en of er een pan te krijgen is die past. Met een foto van je dak vanaf de straat hoor je meestal al vooraf wat het kost.`,
+  "natte-plek-schuine-wand-zolder": `Een natte plek op de schuine wand van je zolderkamer komt meestal van een lek hoger in het dak: een verschoven of gebroken pan, de aansluiting rond een dakraam, de nok of het lood bij de schoorsteen. Het water loopt eerst achter de wand naar beneden, dus de plek zit vaak lager dan het lek. Zie je alleen een vochtige waas na koude nachten, dan is het vaak condens.`,
 };
 
 // Extra vragen onder een bestaand artikel (zoals FAQ_ERBIJ in artikelen-extra.ts, dat te groot is geworden). Kennisbank [slug].astro voegt ze erbij.
