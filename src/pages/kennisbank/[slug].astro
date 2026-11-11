@@ -4,12 +4,13 @@ import { SITE, telHref, waHref } from "../../site.config.ts";
 import { ARTIKELEN } from "../../data/artikelen.ts";
 import { FAQ_ERBIJ, KORT_ANTWOORD } from "../../data/artikelen-extra.ts";
 import { FAQ_ERBIJ_2 } from "../../data/artikelen-extra-2.ts";
+import { ARTIKEL_CORRECTIES } from "../../data/artikel-correcties.ts";
 import { PRIJZEN } from "../../data/prijzen.ts";
 import EchteFotos from "../../components/EchteFotos.astro";
 import { FOTOS } from "../../data/fotos.ts";
 
 export function getStaticPaths() {
-  return ARTIKELEN.map((a) => ({ params: { slug: a.slug }, props: { a: { ...a, faq: [...a.faq, ...(FAQ_ERBIJ[a.slug] ?? []), ...(FAQ_ERBIJ_2[a.slug] ?? [])] } } }));
+  return ARTIKELEN.map((a) => { const c = { ...a, ...(ARTIKEL_CORRECTIES[a.slug] ?? {}) }; return { params: { slug: a.slug }, props: { a: { ...c, faq: [...c.faq, ...(FAQ_ERBIJ[a.slug] ?? []), ...(FAQ_ERBIJ_2[a.slug] ?? [])] } } }; });
 }
 const { a } = Astro.props;
 const apkPrijs = PRIJZEN.find((r) => r.dienst.startsWith("Dak-APK"))?.prijs ?? "";
