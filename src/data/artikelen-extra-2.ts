@@ -362,4 +362,7 @@ export const FAQ_ERBIJ_2: Record<string, Artikel["faq"]> = {
   "dakleer-repareren": [
     { v: `Kan ik een scheur in mijn dakleer zelf dichtmaken met bitumenkit of een reparatieset uit de bouwmarkt?`, a: `Bij een kleine scheur op een lage schuur of een tuinhuis kan dat soms even helpen, zolang het dakleer eromheen nog soepel is. Doe het alleen op een droge dag, als de plek schoon en droog is, en als je er veilig vanaf een lage ladder bij kunt, zonder op het dak te gaan staan. Op een nat of vuil oppervlak hecht het niet. Bij een blaas, een losse naad langs de rand of zacht hout eronder lost een likje kit het meestal niet op: het water loopt er dan onderdoor. Zie het als tijdelijk, en kijk na de volgende bui of het droog blijft. Lekt de aanbouw van je huis, of zit het op een hoger dak, stuur me dan liever een foto. Je hoort vooraf wat het kost.` },
   ],
+  "hoe-herken-je-een-betrouwbare-dakdekker": [
+    { v: `Hoe zoek ik op of een dakdekker echt bij de KvK staat?`, a: `Zoek de bedrijfsnaam of het KvK-nummer op in het Handelsregister op de website van de KvK. Je ziet daar in elk geval de naam, het nummer en de plaats van het bedrijf. Kijk of die kloppen met wat op de offerte, het visitekaartje of de bus staat. Vind je het nummer nergens, of hoort het bij een ander bedrijf of een andere plaats, vraag dan door voordat je iemand op je dak laat. Mijn eigen KvK-nummer staat onderaan elke pagina van deze site.` },
+  ],
 };
