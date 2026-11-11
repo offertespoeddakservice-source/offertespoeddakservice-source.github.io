@@ -64,7 +64,7 @@ const leesVerder: Record<string, string[]> = {
   dakreparatie: ["wat-kost-daklekkage-repareren", "nokvorsten-los", "dakpan-kapot-of-verschoven", "dakraam-lekt", "kilgoot-lekt", "lood-op-dak", "dak-lekt-na-reparatie", "offerte-dakdekker-vergelijken", "dak-repareren-in-de-winter", "dakpan-lijmen-of-kitten", "daktermen-uitgelegd", "wat-kost-nokvorsten-repareren", "gevelpannen-los", "lekkage-weggehaalde-schoorsteen", "dak-lekt-na-schoonmaken"],
   "platte-daken": ["plat-dak-vervangen-of-repareren", "daktrim-lekt", "water-blijft-staan-op-plat-dak", "lichtkoepel-lekt", "lekkage-bij-aanbouw", "lekkage-bij-zonnepanelen", "dakonderhoud-per-seizoen", "veranda-of-overkapping-lekt", "epdm-dak-lekt", "dakleer-repareren", "dakterras-lekt", "golfplaten-lekken", "plat-dak-onderhouden", "lichtstraat-lekt", "lekkage-warmtepomp-of-airco", "wat-kost-plat-dak-repareren", "plat-dak-lekt-bij-afvoer", "plat-dak-losgewaaid-na-storm", "zachte-plek-plat-dak"],
   stormschade: ["stormschade-eerste-hulp", "dakpan-kapot-of-verschoven", "dak-lekt-bij-harde-wind", "daklekkage-verzekering", "tak-of-boom-op-dak", "dakpannen-vastzetten-tegen-storm", "dakpannen-klapperen-bij-wind", "windveer-los-of-rot", "storm-op-komst-dak", "dakgoot-losgeraakt", "vuurwerk-schade-dak", "gevelpannen-los", "dakpan-op-auto-buren", "plat-dak-losgewaaid-na-storm"],
-  "dakgoot-vervangen": ["dakgoot-lekt", "dakgoot-hangt-door", "water-achter-dakgoot", "natte-plek-bovenin-muur", "bakgoot-lekt", "kilgoot-lekt", "verstopte-regenpijp-lekkende-dakgoot", "hoe-lang-gaat-een-dakgoot-mee", "lekkende-dakgoot-tijdelijk-oplossen", "zinken-dakgoot-lekt", "kunststof-dakgoot-lekt", "dakgoot-lekt-bij-regenpijp", "lekkende-dakgoot-verzekering", "dakgoot-losgeraakt", "gedeelde-dakgoot-lekt"],
+  "dakgoot-vervangen": ["dakgoot-lekt", "dakgoot-hangt-door", "water-achter-dakgoot", "natte-plek-bovenin-muur", "bakgoot-lekt", "kilgoot-lekt", "verstopte-regenpijp-lekkende-dakgoot", "hoe-lang-gaat-een-dakgoot-mee", "lekkende-dakgoot-tijdelijk-oplossen", "zinken-dakgoot-lekt", "kunststof-dakgoot-lekt", "dakgoot-lekt-bij-regenpijp", "lekkende-dakgoot-verzekering", "dakgoot-losgeraakt", "gedeelde-dakgoot-lekt", "regenpijp-loost-op-dak"],
   "dakpannen-vervangen": ["dakpan-kapot-of-verschoven", "stormschade-eerste-hulp", "nokvorsten-los", "dak-lekt-bij-harde-wind", "dakpannen-vastzetten-tegen-storm", "vorstschade-dakpannen", "hoe-lang-gaat-een-dak-mee", "dakpannen-klapperen-bij-wind", "windveer-los-of-rot", "welke-dakpan-heb-ik", "dakpan-lijmen-of-kitten", "poreuze-dakpannen", "gevelpannen-los", "dak-nakijken-voor-zonnepanelen"],
   "schoorsteen-vegen": ["schoorsteen-vegen-hoe-vaak", "lekkage-bij-schoorsteen", "lekkage-gedeelde-schoorsteen", "schoorsteen-lekt-open-haard", "lood-op-dak", "schoorsteen-afdekken"],
   "zonnepanelen-reinigen": ["zonnepanelen-reinigen-nodig", "lekkage-bij-zonnepanelen", "vogels-onder-dakpannen"],
@@ -74,13 +74,14 @@ const leesVerder: Record<string, string[]> = {
   dakisolatie: ["condens-of-lekkage-op-zolder", "vochtplek-plafond", "isolatie-nat-na-lekkage"],
   "nokvorsten-vervangen": ["nokvorsten-los", "dakpan-kapot-of-verschoven", "dak-lekt-bij-harde-wind", "dakpannen-klapperen-bij-wind", "licht-tussen-dakpannen", "lekkage-bij-de-nok", "wat-kost-nokvorsten-repareren"],
   "lood-vervangen": ["lekkage-bij-schoorsteen", "schoorsteen-lekt-open-haard", "dakraam-lekt", "lood-op-dak", "lekkage-bij-kachelpijp", "lood-van-dak-gestolen", "lekkage-weggehaalde-schoorsteen", "lood-of-loodvervanger"],
-  "regenpijp-vervangen": ["verstopte-regenpijp-lekkende-dakgoot", "dakgoot-lekt", "bakgoot-lekt", "dakgoot-lekt-bij-regenpijp", "regenpijp-in-de-muur-lekt", "gedeelde-dakgoot-lekt"],
+  "regenpijp-vervangen": ["verstopte-regenpijp-lekkende-dakgoot", "dakgoot-lekt", "bakgoot-lekt", "dakgoot-lekt-bij-regenpijp", "regenpijp-in-de-muur-lekt", "gedeelde-dakgoot-lekt", "regenpijp-loost-op-dak"],
   dakdoorvoer: ["lekkage-bij-dakdoorvoer", "condens-of-lekkage-op-zolder", "druppelen-horen-plafond", "lekkage-warmtepomp-of-airco", "lekkage-bij-kachelpijp", "lekkage-badkamer-plafond"],
   "windveer-vervangen": ["windveer-los-of-rot", "dakpannen-vastzetten-tegen-storm", "dakpannen-klapperen-bij-wind", "stormschade-eerste-hulp", "storm-op-komst-dak", "gevelpannen-los"],
   "antenne-verwijderen": ["lekkage-bij-schotel-of-antenne", "dak-lekt-bij-harde-wind", "lekkage-bij-schoorsteen", "lood-op-dak"],
   "dakgoot-coaten": ["zinken-dakgoot-lekt", "bakgoot-lekt", "dakgoot-lekt", "hoe-lang-gaat-een-dakgoot-mee", "water-achter-dakgoot"],
   "dakgoot-solderen": ["zinken-dakgoot-lekt", "dakgoot-lekt", "bakgoot-lekt", "dakgoot-lekt-bij-regenpijp", "gedeelde-dakgoot-lekt", "lekkende-dakgoot-tijdelijk-oplossen"],
   "kilgoot-repareren": ["kilgoot-lekt", "lood-op-dak", "dak-lekt-bij-hevige-regen", "zinken-dakgoot-lekt", "dak-lekt-bij-sneeuw-of-vorst", "hoe-vaak-dakgoot-reinigen"],
+  "dakbeschot-vervangen": ["zachte-plek-plat-dak", "dakleer-repareren", "water-blijft-staan-op-plat-dak", "plat-dak-vervangen-of-repareren", "lekkage-bij-aanbouw", "wat-kost-plat-dak-repareren"],
 };
 const leesArtikelen = (leesVerder[d.slug] ?? [])
   .map((s) => ARTIKELEN.find((x) => x.slug === s))
@@ -113,7 +114,8 @@ const WAT_PER_DIENST: Record<string, string> = {
   "antenne-verwijderen": "het weghalen van een oude antenne of schotel en het dichtmaken van het dak",
   "dakgoot-coaten": "het van binnen coaten van lekkende dakgoten en bakgoten",
   "dakgoot-solderen": "het solderen van lekkende naden, hoeken en uitlopen in zinken dakgoten en bakgoten",
-  "kilgoot-repareren": "het repareren en vervangen van kilgoten"
+  "kilgoot-repareren": "het repareren en vervangen van kilgoten",
+  "dakbeschot-vervangen": "het vervangen van rot dakbeschot onder het platte dak van een schuur, garage of aanbouw"
 };
 const watZin = WAT_PER_DIENST[d.slug] ?? d.titel.toLowerCase();
 // Knoppen naar de pagina's per plaats: de namen waarop mensen zoeken, net als op de plaatspagina's.
