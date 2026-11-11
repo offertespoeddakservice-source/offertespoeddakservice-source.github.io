@@ -129,6 +129,44 @@ export const ARTIKELEN_EXTRA_2: Artikel[] = [
       { v: `Mag ik bij een monument zelf kiezen tussen lood en loodvervanger?`, a: `Dat hangt af van je gemeente. Bij een monument of in een beschermd stadsgezicht wil de gemeente vaak dat het dak eruit blijft zien zoals het was, en dan is echt lood vaak de beste keus. Vraag het vooraf na. Ik werk met allebei.` },
     ],
   },
+  {
+    slug: `lekkage-overgang-schuin-plat-dak`,
+    datum: `2026-11-11`,
+    titel: `Lek waar schuin en plat dak samenkomen`,
+    h1: `Lekkage waar je schuine dak overgaat in een plat dak: waar zit het?`,
+    metaTitle: `Lek bij overgang schuin en plat dak | Spoed Dak Service`,
+    metaDescription: `Lekt het precies waar je pannendak eindigt op het platte dak van je aanbouw of garage? Zo zie je of het de strook onder de pannen, de opstand of de hoek is.`,
+    intro: `Bij veel huizen loopt het schuine pannendak aan de achterkant door tot op het platte dak van een aanbouw, of ligt een garage met een plat dak tegen de zijkant van een schuin dak. Op die overgang komen twee soorten dak samen, en daar lekt het nogal eens. Hieronder lees je waar het meestal zit, hoe je het herkent en hoe het weer dicht gaat.`,
+    secties: [
+      { kop: `Lekt het nu? Eerst dit`, tekst: [
+        `Zet een emmer onder de druppel en haal spullen weg die nat kunnen worden. Ga niet op het platte dak staan als het nat is of hard waait. Wat je verder meteen kunt doen, staat op de <a href="/spoed/">spoedpagina</a>.`,
+      ] },
+      { kop: `Hoe zo'n overgang in elkaar zit`, tekst: [
+        `Waar de onderste rij pannen boven een plat dak eindigt, ligt onder die pannen meestal een strook lood of loodvervanger. Die strook valt over de rand van het platte dak en leidt het water van de pannen naar de dakbedekking. De dakbedekking van het platte dak loopt op die plek een stukje omhoog, onder de strook door. Zo overlappen de twee daken elkaar, en loopt het water van boven naar beneden zonder ertussen te komen.`,
+      ] },
+      { kop: `Waar het meestal lekt`, tekst: [
+        `De strook onder de pannen. Na jaren scheurt lood bij de vouwen of krult het op, en loodvervanger kan loskomen. Dan loopt het water achter de strook langs naar binnen. Hoe je ziet dat lood op is, lees je in <a href="/kennisbank/lood-op-dak/">lood op je dak</a>.`,
+        `De opstand van het platte dak. Loopt de dakbedekking niet hoog genoeg door onder de pannen, of is hij daar losgekomen of gescheurd, dan komt het water bij een flinke bui over de rand van de bedekking heen.`,
+        `De hoek. Waar de overgang tegen een muur of tegen de zijkant van het schuine dak aansluit, komen naden van verschillende kanten samen. Daar blijven ook blad en mos liggen.`,
+        `Water dat er niet weg kan. Van het hele schuine dak komt het water op die ene strook terecht. Ligt de afvoer van het platte dak ver weg of zit hij vol blad, dan blijft er na een bui water tegen de overgang staan. Lees ook <a href="/kennisbank/water-blijft-staan-op-plat-dak/">water blijft staan op je platte dak</a>.`,
+      ] },
+      { kop: `Zo herken je het`, tekst: [
+        `De natte plek zit binnen meestal in de aanbouw of de garage, vlak onder de plek waar het schuine dak overgaat in het platte dak. Vaak wordt het pas nat na een flinke bui, of bij regen met wind van die kant. Kijk vanuit een raam boven of je een strook ziet die omhoog staat, een scheur in de dakbedekking langs de rand, of een plas tegen de overgang. Zit de natte plek langs een gewone muur van het huis, zonder pannen erboven, lees dan <a href="/kennisbank/lekkage-bij-aanbouw/">lekkage bij de aanbouw</a>.`,
+      ] },
+      { kop: `Hoe ik het aanpak`, tekst: [
+        `Ik kijk eerst waar het water echt binnenkomt, want de natte plek binnen zit vaak een stukje verderop. Daarna leg ik de onderste pannen even weg, herstel of vernieuw ik de strook eronder en maak ik de aansluiting van de dakbedekking weer dicht. Meestal werk ik met loodvervanger, en met echt lood als je dat liever hebt. Is het hout onder het platte dak op die plek zacht geworden, dan vervang ik dat als het nodig is. Zie ook <a href="/diensten/platte-daken/">platte daken</a> en <a href="/diensten/lood-vervangen/">lood vervangen</a>.`,
+      ] },
+      { kop: `Wat kost het?`, tekst: [
+        `Een daklek opsporen en dichtmaken kost bij mij ${inclBtw("daklekkage")}, inclusief materiaal. Moet de strook over de hele breedte nieuw, of is er meer kapot, dan hoor je dat en de prijs voordat ik verder ga. Stuur een foto van de overgang, gemaakt vanuit een raam boven, en van de natte plek binnen.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: platte daken`, href: `/diensten/platte-daken/` },
+    faq: [
+      { v: `Kan ik de strook onder de pannen zelf dichtkitten?`, a: `Een likje kit houdt het soms even droog, maar op lood of loodvervanger dat beweegt, en op een vuile of natte ondergrond, laat het meestal snel weer los. Vaak zit het lek ook net onder de pannen, waar je met kit niet bij komt. Zet liever een emmer neer en stuur me een foto.` },
+      { v: `Waarom lekt het alleen bij een stortbui?`, a: `Bij gewone regen kan het water op tijd weg. Bij een stortbui komt er van het hele schuine dak zoveel water op de overgang, dat het hoger komt te staan dan de opstand van het platte dak of de rand van de strook. Dan zoekt het een weg naar binnen. Een afvoer die vol blad zit, maakt dat erger.` },
+      { v: `Is het spoed?`, a: `Druppelt het binnen, of zit de natte plek bij een lamp of stopcontact, dan wel. Zet dan de groep van die kamer uit in de meterkast en bel of app me. Zie je alleen een oude kring die na een bui niet groter wordt, dan kan het meestal een paar dagen wachten.` },
+    ],
+  },
 ];
 
 // Kort antwoord bovenaan een artikel (zie KORT_ANTWOORD in artikelen-extra.ts). Geen bedragen met de hand.
@@ -140,6 +178,7 @@ export const KORT_ANTWOORD_2: Record<string, string> = {
   "druppelen-horen-plafond": `Hoor je alleen bij regen getik, dan valt het water vaak buiten op lood, een kap of een vensterbank, of ligt het binnen nog op de isolatie of een balk. Kijk tijdens een bui met een zaklamp op zolder. Hoor je het ook als het droog is, dan is een leiding of afvoer waarschijnlijker en heb je een loodgieter nodig.`,
   "plafond-drogen-na-lekkage": `Een kleine natte plek in een plafond van gipsplaat is vaak binnen een paar weken droog, een betonnen plafond met stucwerk kan een maand of langer nodig hebben. Laat het rustig drogen, zet de bruine kring daarna eerst in met een vlekkendekkende grondverf en schilder pas dan. Komt de vlek na een bui terug, dan lekt het nog.`,
   "dak-monument-repareren": `Herstel met hetzelfde materiaal en in dezelfde vorm, zoals een kapotte pan vervangen door een pan die er net zo uitziet, geldt bij een monument in de regel als gewoon onderhoud. Wil je iets veranderen aan hoe het dak eruitziet, zoals een andere pan, kunststof in plaats van zink of een dakraam erbij, vraag dan eerst bij de gemeente of daar toestemming voor nodig is.`,
+  "lekkage-overgang-schuin-plat-dak": `Lekt het waar je schuine pannendak eindigt op een plat dak, dan zit het meestal in de strook lood of loodvervanger onder de onderste pannen, in de dakbedekking die daar niet meer goed onder de pannen doorloopt, of in de hoek waar de overgang tegen een muur komt. Vaak is het een gerichte reparatie op die ene plek.`,
 };
 
 // Extra vragen onder een bestaand artikel (zoals FAQ_ERBIJ in artikelen-extra.ts, dat te groot is geworden). Kennisbank [slug].astro voegt ze erbij.
