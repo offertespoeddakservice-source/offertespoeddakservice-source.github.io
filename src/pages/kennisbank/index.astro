@@ -17,6 +17,9 @@ const groepen = GROEPEN.map((g, i) => ({
   kop: g.kop,
   artikelen: [...g.slugs.map((s) => zichtbaar.find((a) => a.slug === s)).filter((a) => a), ...(i === GROEPEN.length - 1 ? overig : [])] as typeof ARTIKELEN,
 }));
+// Veel gelezen: de uitleg met de meeste bezoekers in de eigen teller (11-11-2026). Een artikel dat verborgen is of niet bestaat, valt vanzelf weg.
+const VEEL_GELEZEN = ["water-achter-dakgoot", "dak-lekt-bij-harde-wind", "lekkage-bij-dakdoorvoer", "lekkage-bij-kachelpijp", "nat-achter-knieschot"];
+const veelGelezen = VEEL_GELEZEN.map((s) => zichtbaar.find((a) => a.slug === s)).filter((a) => a) as typeof ARTIKELEN;
 // Gestructureerde gegevens: de kennisbank als verzameling, met alle zichtbare artikelen in de volgorde van de pagina.
 const lijstSchema = {
   "@context": "https://schema.org",
@@ -51,6 +54,9 @@ const lijstSchema = {
       <div style="display:flex; flex-wrap:wrap; gap:8px; margin-bottom:28px;">
         {groepen.map((g, i) => <a class="chip" href={`#groep-${i + 1}`}>{g.kop}</a>)}
       </div>
+      {veelGelezen.length > 0 && (
+        <p style="margin:0 0 28px;"><strong>Veel gelezen:</strong> {veelGelezen.map((a, i) => (<>{i > 0 && ", "}<a href={`/kennisbank/${a.slug}/`}>{a.titel.replace(/\?$/, "")}</a></>))}.</p>
+      )}
       {groepen.map((g, i) => (
         <>
           <h2 id={`groep-${i + 1}`} style={i === 0 ? "" : "margin-top:40px;"}>{g.kop}</h2>
