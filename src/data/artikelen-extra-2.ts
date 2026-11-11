@@ -205,6 +205,47 @@ export const ARTIKELEN_EXTRA_2: Artikel[] = [
       { v: `Is het spoed?`, a: `Meestal niet, maar laat het niet de hele winter zo. Druppelt het binnen, zet dan een emmer neer en stuur me een foto. Blijft het binnen droog en zie je alleen dat het water op het dak spat, dan kan het wachten tot een droge dag.` },
     ],
   },
+  {
+    slug: `plat-dak-met-grind-lekt`,
+    datum: `2026-11-11`,
+    titel: `Plat dak met grind lekt`,
+    h1: `Plat dak met grind lekt: waar zit het, en moet het grind eraf?`,
+    metaTitle: `Plat dak met grind lekt: wat nu? | Spoed Dak Service`,
+    metaDescription: `Lekt je platte dak met grind erop? Meestal zit het bij de afvoer, de rand of een naad onder het grind. Zo zie je waar, en waarom het grind er niet helemaal af hoeft.`,
+    intro: `Op veel platte daken van een aanbouw, garage of berging ligt een laag grind. Lekt zo'n dak, dan zie je niet waar het zit, want het grind ligt over de dakbedekking heen. Veel mensen denken dan dat al het grind eraf moet. Meestal hoeft dat niet. Hieronder lees je waarom er grind op ligt, waar het meestal lekt en hoe het lek gevonden wordt.`,
+    secties: [
+      { kop: `Lekt het nu? Eerst dit`, tekst: [
+        `Zet een emmer of bak onder de druppel en haal spullen weg die nat kunnen worden. Druppelt het bij een lamp of stopcontact, zet dan in de meterkast de groep van die ruimte uit. Ga niet op het dak als het nat is, waait of vriest. Wat je verder meteen kunt doen, staat op de <a href="/spoed/">spoedpagina</a>.`,
+      ] },
+      { kop: `Waarom er grind op je dak ligt`, tekst: [
+        `Het grind ligt los op de dakbedekking. Het houdt de zon tegen, zodat de bitumen of het rubber eronder minder snel oud wordt, en het houdt de bedekking bij harde wind op zijn plek. Het grind zelf houdt geen water tegen. Dat doet de laag eronder.`,
+      ] },
+      { kop: `Waar het meestal lekt`, tekst: [
+        `Bij de afvoer. Grind en blad spoelen naar de uitloop en zetten die half dicht. Dan blijft het water rond de afvoer staan en zoekt het een kier in de aansluiting. Zie <a href="/kennisbank/plat-dak-lekt-bij-afvoer/">plat dak lekt bij de afvoer</a>.`,
+        `Langs de rand en tegen de muur. Waar de dakbedekking omhoog loopt tegen een muur of over de daktrim, ligt meestal geen grind. Daar krijgt de bedekking de meeste zon en beweging, en daar laat een naad of hoek het eerst los. Zie <a href="/kennisbank/daktrim-lekt/">plat dak lekt langs de rand</a>.`,
+        `Op een kale plek. Waait of spoelt het grind ergens weg, bijvoorbeeld onder een regenpijp of in een hoek waar de wind het wegblaast, dan ligt de bedekking daar open in de zon. Die plek wordt sneller bros en kan gaan scheuren.`,
+        `Bij een pijp of lichtkoepel. Rond alles wat door het dak steekt, zit een aansluiting die na jaren kan loslaten. Zie <a href="/kennisbank/lichtkoepel-lekt/">lichtkoepel lekt</a>.`,
+      ] },
+      { kop: `Zo kijk je zelf, zonder het dak op te gaan`, tekst: [
+        `Kijk vanuit een raam boven of vanaf een stevige ladder aan de rand. Staat er na een paar droge dagen nog een plas rond de afvoer? Is het grind ergens weggespoeld, zodat je de zwarte bedekking ziet? Staat de rand of de trim ergens omhoog? Kijk binnen waar de natte plek zit: vlak bij de buitenmuur, onder de afvoer of midden in de ruimte. Maak van alles een foto. Blijft het water lang staan, lees dan ook <a href="/kennisbank/water-blijft-staan-op-plat-dak/">water blijft staan op je platte dak</a>.`,
+      ] },
+      { kop: `Moet al het grind eraf?`, tekst: [
+        `Meestal niet. Ik begin bij de plekken waar het het vaakst lekt: de afvoer, de rand, de aansluiting tegen de muur en wat er door het dak steekt. Daar schep ik het grind opzij, zodat ik de bedekking goed kan zien. Vind ik daar niets, dan volg ik vanaf de natte plek binnen de weg van het water. Na de reparatie gaat het grind weer terug, zodat de bedekking weer beschermd is. Alleen als de bedekking over het hele dak op is, moet het grind er helemaal af, en dat hoor je dan eerst.`,
+      ] },
+      { kop: `Wat je zelf beter niet doet`, tekst: [
+        `Schep het grind niet zelf weg en zet er geen zware spullen op, want zo druk je makkelijk een scherp steentje in de bedekking. Spuit het dak niet schoon met een hogedrukreiniger. En smeer geen kit of verf op een plek waar je een lek vermoedt: de echte oorzaak ligt dan vaak nog open, en de reparatie wordt later lastiger.`,
+      ] },
+      { kop: `Wat kost het?`, tekst: [
+        `Een lek in een klein plat dak repareren, zoals van een aanbouw, garage of berging, kost bij mij ${inclBtw("platdak")}. Is het hout onder de bedekking zacht geworden, of is de bedekking op meer plekken op, dan hoor je dat en de prijs voordat ik verder ga. Zie ook <a href="/diensten/platte-daken/">platte daken</a> en <a href="/kennisbank/zachte-plek-plat-dak/">zachte plek op je platte dak</a>.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: platte daken`, href: `/diensten/platte-daken/` },
+    faq: [
+      { v: `Moet al het grind van mijn dak om het lek te vinden?`, a: `Meestal niet. Ik kijk eerst bij de afvoer, de rand, de muur en rond pijpen of een koepel, en schep alleen daar het grind opzij. Na de reparatie gaat het grind terug. Pas als de hele bedekking op is, moet het er helemaal af.` },
+      { v: `De afvoer op mijn dak zit vol grind. Kan ik die zelf vrijmaken?`, a: `Kun je er veilig bij, vanaf een stevige ladder of een dakterras met een hek, dan kun je het grind en blad bij de uitloop voorzichtig met de hand weghalen. Duw niets de pijp in. Ga niet op het dak als het nat is of waait. Loopt het water daarna nog steeds slecht weg, of lekt het binnen, stuur me dan een foto.` },
+      { v: `Is een lek in een plat dak met grind spoed?`, a: `Druppelt het binnen, of zit de natte plek bij een lamp of stopcontact, dan wel. Zet dan de groep van die ruimte uit en bel of app me. Zie je alleen een droge, oude kring die na een bui niet groter wordt, dan kan het meestal een paar dagen wachten.` },
+    ],
+  },
 ];
 
 // Kort antwoord bovenaan een artikel (zie KORT_ANTWOORD in artikelen-extra.ts). Geen bedragen met de hand.
@@ -218,6 +259,7 @@ export const KORT_ANTWOORD_2: Record<string, string> = {
   "dak-monument-repareren": `Herstel met hetzelfde materiaal en in dezelfde vorm, zoals een kapotte pan vervangen door een pan die er net zo uitziet, geldt bij een monument in de regel als gewoon onderhoud. Wil je iets veranderen aan hoe het dak eruitziet, zoals een andere pan, kunststof in plaats van zink of een dakraam erbij, vraag dan eerst bij de gemeente of daar toestemming voor nodig is.`,
   "lekkage-overgang-schuin-plat-dak": `Lekt het waar je schuine pannendak eindigt op een plat dak, dan zit het meestal in de strook lood of loodvervanger onder de onderste pannen, in de dakbedekking die daar niet meer goed onder de pannen doorloopt, of in de hoek waar de overgang tegen een muur komt. Vaak is het een gerichte reparatie op die ene plek.`,
   "regenpijp-loost-op-dak": `Komt de regenpijp van je bovenste goot uit op een lager dak, dan valt bij elke bui al het water van dat dakvlak op één plek. Op pannen kan het onder de rand spatten of een pan laten schuiven, op een plat dak slijt de dakbedekking daar sneller. Meestal is de oplossing de pijp doortrekken tot in de goot of de afvoer eronder.`,
+  "plat-dak-met-grind-lekt": `Lekt een plat dak met grind, dan zit het meestal bij de afvoer, langs de rand of tegen de muur, bij een pijp of koepel, of op een plek waar het grind is weggespoeld. Het grind hoeft er daarvoor meestal niet helemaal af: alleen op die plekken gaat het opzij, en na de reparatie gaat het terug.`,
 };
 
 // Extra vragen onder een bestaand artikel (zoals FAQ_ERBIJ in artikelen-extra.ts, dat te groot is geworden). Kennisbank [slug].astro voegt ze erbij.
