@@ -167,6 +167,44 @@ export const ARTIKELEN_EXTRA_2: Artikel[] = [
       { v: `Is het spoed?`, a: `Druppelt het binnen, of zit de natte plek bij een lamp of stopcontact, dan wel. Zet dan de groep van die kamer uit in de meterkast en bel of app me. Zie je alleen een oude kring die na een bui niet groter wordt, dan kan het meestal een paar dagen wachten.` },
     ],
   },
+  {
+    slug: `regenpijp-loost-op-dak`,
+    datum: `2026-11-11`,
+    titel: `Regenpijp komt uit op het dak eronder`,
+    h1: `Je regenpijp komt uit op het dak eronder: kan dat lekken?`,
+    metaTitle: `Regenpijp loost op lager dak: erg? | Spoed Dak Service`,
+    metaDescription: `Komt de regenpijp van je bovenste goot uit op het dak van je aanbouw of garage? Waarom dat op den duur kan lekken en hoe het water netjes wegloopt.`,
+    intro: `Bij veel huizen loopt de regenpijp van de bovenste goot niet naar de grond, maar komt hij uit op een lager dak: het platte dak van de aanbouw, de garage of de berging, of de pannen van een lager stuk dak. Dat werkt, maar bij elke bui komt al het water van je grote dakvlak op één plek terecht. Hieronder lees je wanneer dat kwaad kan, hoe je het ziet en wat eraan te doen is.`,
+    secties: [
+      { kop: `Lekt het nu? Eerst dit`, tekst: [
+        `Zet een emmer onder de druppel en haal spullen weg die nat kunnen worden. Ga niet op het lage dak staan als het nat is of waait. Wat je verder meteen kunt doen, staat op de <a href="/spoed/">spoedpagina</a>.`,
+      ] },
+      { kop: `Waarom die ene plek het zwaar krijgt`, tekst: [
+        `Een regenpijp verzamelt het water van een heel dakvlak. Komt die pijp uit boven een lager dak, dan klettert bij een flinke bui al dat water op een paar pannen of op één stukje dakbedekking. Dat is iets anders dan gewone regen, die over het hele dak verdeeld valt.`,
+      ] },
+      { kop: `Op een pannendak`, tekst: [
+        `Valt het water op de pannen van een lager dak, dan kan het onder de rand van een pan spatten, of bij harde wind onder de pannen door waaien. Een pan die steeds die straal krijgt, kan ook een stukje gaan schuiven. Het water loopt dan over de panlatten of de folie naar beneden en komt verderop binnen, vaak bij de muur of onderaan bij de goot. In de winter kan het water daar bevriezen, en dan loopt de rest er bij dooi overheen. Lees ook <a href="/kennisbank/dakpan-kapot-of-verschoven/">dakpan kapot of verschoven</a>.`,
+      ] },
+      { kop: `Op een plat dak`, tekst: [
+        `Op een plat dak slijt de dakbedekking sneller op de plek waar de straal neerkomt. Ligt er grind op het dak, dan spoelt het daar weg en ligt de bedekking open in de zon. Ligt de afvoer een eind verderop, dan staat er na een stortbui een plas rond die plek, en staand water zoekt elke kleine scheur op. Lees ook <a href="/kennisbank/water-blijft-staan-op-plat-dak/">water blijft staan op je platte dak</a> en <a href="/kennisbank/plat-dak-lekt-bij-afvoer/">plat dak lekt bij de afvoer</a>.`,
+      ] },
+      { kop: `Zo zie je het`, tekst: [
+        `Kijk tijdens een flinke bui vanuit een raam boven naar de plek waar de pijp uitkomt. Spat het water alle kanten op, loopt het over de rand van de pannen, of blijft het op het platte dak staan? Kijk na de bui of er grind is weggespoeld, of er een donkere of groene plek op de dakbedekking zit en of er een pan scheef ligt. Binnen zie je het aan een natte plek in de aanbouw of de garage, vaak onder of vlak naast die plek, en vooral na een stortbui.`,
+      ] },
+      { kop: `Wat eraan te doen is`, tekst: [
+        `Meestal is de oplossing eenvoudig: de pijp doortrekken tot in de goot of de afvoer van het lagere dak, of er een bocht onder zetten zodat het water netjes in de goot loopt in plaats van op de pannen. Op een plat dak kan de pijp ook aansluiten op de afvoer zelf, of op een regenpijp die daar al staat. Is de dakbedekking of een pan op die plek al beschadigd, dan maak ik dat eerst dicht. Zie <a href="/diensten/regenpijp-vervangen/">regenpijp vervangen of repareren</a>.`,
+      ] },
+      { kop: `Wat kost het?`, tekst: [
+        `Dat hangt af van hoe lang de pijp moet worden, waar hij op aansluit en of er al schade is aan de pannen of de dakbedekking. Stuur een foto van de plek waar de pijp uitkomt en, als het lekt, van de natte plek binnen. Dan hoor je vooraf wat het kost.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: regenpijp vervangen of repareren`, href: `/diensten/regenpijp-vervangen/` },
+    faq: [
+      { v: `Mag een regenpijp gewoon op een plat dak uitkomen?`, a: `Het mag, en je ziet het veel. Maar bij een flinke bui komt al het water van het dakvlak erboven op één plek terecht. Ligt de afvoer dichtbij en is de dakbedekking daar goed, dan gaat het vaak jaren goed. Ligt de afvoer ver weg of spoelt het grind weg, dan is het beter om de pijp door te trekken tot in de afvoer.` },
+      { v: `Kan ik er zelf een tegel onder leggen?`, a: `Op een plat dak beschermt een losse tegel onder de uitloop de dakbedekking tegen de straal. Leg hem wel zo neer dat het water eronder door kan, en ga alleen op het dak als dat veilig kan, op een droge dag. Op een pannendak helpt een tegel niet. Daar is de pijp doortrekken tot in de goot beter.` },
+      { v: `Is het spoed?`, a: `Meestal niet, maar laat het niet de hele winter zo. Druppelt het binnen, zet dan een emmer neer en stuur me een foto. Blijft het binnen droog en zie je alleen dat het water op het dak spat, dan kan het wachten tot een droge dag.` },
+    ],
+  },
 ];
 
 // Kort antwoord bovenaan een artikel (zie KORT_ANTWOORD in artikelen-extra.ts). Geen bedragen met de hand.
@@ -179,6 +217,7 @@ export const KORT_ANTWOORD_2: Record<string, string> = {
   "plafond-drogen-na-lekkage": `Een kleine natte plek in een plafond van gipsplaat is vaak binnen een paar weken droog, een betonnen plafond met stucwerk kan een maand of langer nodig hebben. Laat het rustig drogen, zet de bruine kring daarna eerst in met een vlekkendekkende grondverf en schilder pas dan. Komt de vlek na een bui terug, dan lekt het nog.`,
   "dak-monument-repareren": `Herstel met hetzelfde materiaal en in dezelfde vorm, zoals een kapotte pan vervangen door een pan die er net zo uitziet, geldt bij een monument in de regel als gewoon onderhoud. Wil je iets veranderen aan hoe het dak eruitziet, zoals een andere pan, kunststof in plaats van zink of een dakraam erbij, vraag dan eerst bij de gemeente of daar toestemming voor nodig is.`,
   "lekkage-overgang-schuin-plat-dak": `Lekt het waar je schuine pannendak eindigt op een plat dak, dan zit het meestal in de strook lood of loodvervanger onder de onderste pannen, in de dakbedekking die daar niet meer goed onder de pannen doorloopt, of in de hoek waar de overgang tegen een muur komt. Vaak is het een gerichte reparatie op die ene plek.`,
+  "regenpijp-loost-op-dak": `Komt de regenpijp van je bovenste goot uit op een lager dak, dan valt bij elke bui al het water van dat dakvlak op één plek. Op pannen kan het onder de rand spatten of een pan laten schuiven, op een plat dak slijt de dakbedekking daar sneller. Meestal is de oplossing de pijp doortrekken tot in de goot of de afvoer eronder.`,
 };
 
 // Extra vragen onder een bestaand artikel (zoals FAQ_ERBIJ in artikelen-extra.ts, dat te groot is geworden). Kennisbank [slug].astro voegt ze erbij.
