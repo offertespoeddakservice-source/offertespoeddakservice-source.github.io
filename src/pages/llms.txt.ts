@@ -1,4 +1,4 @@
-// llms.txt (03-11-2026, bijgewerkt 04-11-2026, 07-11-2026: alle artikelen erbij, 10-11-2026: bereikbaar en korte namen): korte, feitelijke uitleg voor AI-zoekmachines (ChatGPT, Gemini, Perplexity, Copilot).
+// llms.txt (03-11-2026, bijgewerkt 04-11-2026, 07-11-2026: alle artikelen erbij, 10-11-2026: bereikbaar en korte namen, 11-11-2026: korte antwoorden): korte, feitelijke uitleg voor AI-zoekmachines (ChatGPT, Gemini, Perplexity, Copilot).
 // Plaatsen komen vanzelf uit plaatsen.ts en diensten uit diensten.ts (verborgen diensten, die Rens niet doet, vallen weg). Geen prijzen, geen beloftes.
 import type { APIRoute } from "astro";
 import { SITE } from "../site.config.ts";
@@ -20,7 +20,7 @@ const NAMEN: Record<string, string> = {
 const ZICHTBARE_DIENSTEN = DIENSTEN.filter((d) => !d.verborgen);
 
 // Veelgelezen uitleg uit de eigen kennisbank. Een artikel dat verborgen is of niet bestaat, valt vanzelf weg.
-const UITLEG = ["daklekkage-opsporen", "dak-lekt-bij-harde-wind", "water-achter-dakgoot", "dakgoot-lekt", "dakraam-lekt", "lekkage-bij-schoorsteen", "lood-op-dak", "lekkage-bij-dakdoorvoer", "nokvorsten-los", "stormschade-eerste-hulp", "daklekkage-verzekering"];
+const UITLEG = ["daklekkage-opsporen", "dak-lekt-bij-harde-wind", "water-achter-dakgoot", "dakgoot-lekt", "dakraam-lekt", "lekkage-bij-schoorsteen", "lood-op-dak", "lekkage-bij-dakdoorvoer", "nokvorsten-los", "stormschade-eerste-hulp", "daklekkage-verzekering", "lekkage-bij-kachelpijp", "lekkage-bij-aanbouw", "water-uit-lamp-plafond"];
 const UITLEG_ARTIKELEN = UITLEG.map((s) => ARTIKELEN.find((a) => a.slug === s)).filter((a) => a && !a.verborgen) as typeof ARTIKELEN;
 // Pagina's per plaats en klus (uit matrix.ts), zodat een AI bij een vraag als "daklekkage in Vught" meteen de lokale pagina vindt. Verborgen diensten vallen weg.
 const KLUS_NAMEN: Record<string, string> = {
@@ -55,6 +55,15 @@ export const GET: APIRoute = () => {
     "## Zo werkt het",
     "- Stuur een foto via WhatsApp of bel. Je hoort de prijs voordat het werk begint.",
     `- Bij lekkage of stormschade: kijk eerst op ${u}/spoed/ wat je zelf meteen kunt doen.`,
+    "",
+    "## Korte antwoorden",
+    `- Wie is ${SITE.bedrijfsnaam}? Een dakdekkersbedrijf uit ${SITE.basisplaats} van één vaste dakdekker, ${SITE.eigenaar}. Je hebt rechtstreeks contact met hem, en hij doet het werk zelf.`,
+    "- Welk werk? Daklekkage opsporen en repareren, losse of kapotte dakpannen en nokvorsten, lood rond schoorsteen en dakraam, dakgoten schoonmaken, repareren of vervangen, platte daken repareren en stormschade.",
+    `- Waar? Vanuit ${SITE.basisplaats} in de regio Den Bosch. Klussen verder weg, zoals in Breda, Eindhoven en Helmond, worden vooraf ingepland.`,
+    `- Wanneer bereikbaar? Dag en nacht, ook in het weekend, via bellen of WhatsApp op ${SITE.telefoonWeergave}.`,
+    "- Hoe hoor je de prijs? Stuur een foto van je dak vanaf de straat, of van de natte plek binnen, via WhatsApp. Je hoort de prijs voordat het werk begint.",
+    `- Waar staan de richtprijzen? Op ${u}/prijzen/.`,
+    "- Wat doet hij niet? Geen dakisolatie, geen werk aan de stenen van een gevel of schoorsteen, en niet aan zonnepanelen zelf.",
     "",
     "## Lekt het nu?",
     "- Spoed is het als het binnen druppelt, als er een pan of nokvorst op straat ligt of als er een open plek in het dak zit. Een oude, droge kring op het plafond, of een scheve pan terwijl het binnen droog blijft, kan meestal een paar dagen wachten.",
