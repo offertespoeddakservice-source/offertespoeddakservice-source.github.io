@@ -64,7 +64,7 @@ const lijstSchema = {
         ))}
       </div>
       <h2 style="margin-top:36px;">Per klus en plaats</h2>
-      <p>Voor de klussen waar het meest naar gevraagd wordt, heb ik per plaats een eigen pagina. Daar lees je wat ik in die plaats vaak tegenkom.</p>
+      <p>Voor de klussen waar het meest naar gevraagd wordt, heb ik per plaats een eigen pagina. Daar lees je hoe ik die klus aanpak en waar je bij de huizen in die plaats op let.</p>
       {perDienst.map((x) => (
         <p><strong>{KLUS_NAAM[x.d.slug] ?? x.d.titel}:</strong> {x.plaatsen.map((p, i) => (<>{i > 0 && ", "}<a href={`/werkgebied/${p.slug}/${x.d.slug}/`}>{p.naam}</a></>))}</p>
       ))}
