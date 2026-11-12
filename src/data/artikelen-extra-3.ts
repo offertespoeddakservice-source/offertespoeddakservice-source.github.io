@@ -338,6 +338,48 @@ export const ARTIKELEN_EXTRA_3: Artikel[] = [
       { v: `Ik heb alleen een klein luik en kom niet goed op zolder. Kun je dan toch kijken?`, a: `Meestal wel. Zet de spullen onder het luik opzij, zodat ik erbij kan. Stuur vooraf een foto van de natte plek en van je dak vanaf de straat, dan weet ik waar ik moet beginnen. Je hoort vooraf wat het kost.` },
     ],
   },
+  {
+    slug: `regenpijp-kapot-door-vorst`,
+    datum: `2026-11-12`,
+    titel: `Regenpijp kapot door vorst?`,
+    h1: `Regenpijp gescheurd of lek na de vorst: hoe komt dat en wat doe je?`,
+    metaTitle: `Regenpijp gescheurd door vorst? | Spoed Dak Service`,
+    metaDescription: `Een scheur in je regenpijp, een losse bocht of water dat halverwege de gevel naar buiten spuit na een vorstperiode? Zo komt het, en zo voorkom je het.`,
+    intro: `Na een paar nachten vorst zie je het ineens: een lange scheur in je regenpijp, een bocht die uit elkaar is geschoven, of bij de eerste bui spuit het water halverwege de gevel naar buiten. Een regenpijp gaat niet zomaar kapot van de kou. Er heeft water in gestaan dat is bevroren, en ijs zet uit. Hieronder lees je hoe dat komt, wat je meteen doet en hoe je het de volgende winter voorkomt.`,
+    secties: [
+      { kop: `Spuit of druppelt het nu? Eerst dit`, tekst: [
+        `Loopt het water langs de gevel, zet er dan als het makkelijk kan een emmer of bak onder, zodat er geen plas tegen de muur blijft staan en er bij vorst geen ijs op de stoep komt. Hak geen ijs uit de pijp en giet er geen heet water in: verderop bevriest het meteen weer, en koud kunststof breekt snel als je ertegen slaat. Zet geen ladder tegen de pijp. Maak tijdens een bui een foto of filmpje van de plek waar het water eruit komt.`,
+      ] },
+      { kop: `Waarom een regenpijp bevriest`, tekst: [
+        `Een regenpijp is bedoeld om leeg te lopen. Bevriest hij, dan stond er water in dat niet weg kon. Meestal zit de pijp onderaan dicht: in de bocht vlak boven de grond, of in de aansluiting op de buis onder de bestrating, waar blad, zand en mos uit de goot zich ophopen. Zakt de bestrating rond de pijp, dan kan ook die aansluiting een stukje zijn verschoven. Bij vorst bevriest het water dat erboven staat, en het ijs duwt de pijp van binnenuit open. Lees ook <a href="/kennisbank/verstopte-regenpijp-lekkende-dakgoot/">verstopte regenpijp of lekkende dakgoot</a>.`,
+      ] },
+      { kop: `Wat je dan ziet`, tekst: [
+        `Een scheur in de lengte. Bij een kunststof pijp zie je vaak een rechte scheur van een paar centimeter tot een flink stuk lang. Bij de volgende bui spuit of druppelt het water daar naar buiten.`,
+        `Een bocht of verbinding die uit elkaar is geschoven. Het ijs duwt de stukken uit elkaar, en dan zit er een kier bij een verbinding. Het water loopt daar langs de buitenkant van de pijp naar beneden.`,
+        `Een pijp die uit de uitloop van de goot is gedrukt. Zit de pijp onderaan vast in de grond en bevriest hij, dan kan hij bovenaan een stukje omhoog of opzij zijn geschoven. Het water valt dan naast de pijp langs de gevel.`,
+        `Een zinken pijp met een barst of een open naad. Zink is taaier dan kunststof, maar ook daar kan ijs een soldeernaad of een zwakke plek openduwen.`,
+      ] },
+      { kop: `Waarom je het niet de hele winter laat zitten`, tekst: [
+        `Loopt het water halverwege de gevel naar buiten, dan wordt de muur op die plek bij elke bui nat, en bij vorst bevriest dat water in de voegen en de stenen. Zit de pijp vol ijs, dan kan ook de goot erboven overlopen. Zie ook <a href="/kennisbank/ijspegels-aan-dakgoot/">ijspegels aan je dakgoot</a>.`,
+      ] },
+      { kop: `Zo voorkom je het`, tekst: [
+        `Houd de goot en de uitloop naar de regenpijp leeg, zeker na de bladval, want wat in de goot ligt, spoelt bij elke bui de pijp in. Kijk tijdens een flinke bui of het water onderaan de pijp goed wegloopt. Komt er bijna niets uit terwijl de goot vol staat, of blijft er water staan rond de voet van de pijp, dan zit hij ergens dicht. Laat dat vrijmaken voordat het gaat vriezen. Zie <a href="/kennisbank/dakgoot-schoonmaken-in-de-winter/">dakgoot schoonmaken in de winter</a>.`,
+      ] },
+      { kop: `Hoe ik het aanpak`, tekst: [
+        `Ik kijk eerst waar de pijp kapot is en waarom er water in bleef staan. Een gescheurd stuk pijp of een kapotte bocht vervang ik door een nieuw stuk dat past, in kunststof of zink. Is een verbinding uit elkaar geschoven, dan zet ik de stukken weer in elkaar en maak ik de pijp vast met beugels. Zit de verstopping bovenin of in een bocht waar ik bij kan, dan maak ik die vrij. Zit het dieper, onder de grond of in het riool, dan zeg ik eerlijk dat daar een ontstoppingsbedrijf voor nodig is. Zie <a href="/diensten/regenpijp-vervangen/">regenpijp vervangen of repareren</a>.`,
+      ] },
+      { kop: `Wat kost het?`, tekst: [
+        `Dat hangt af van wat er kapot is: één stuk of een bocht vervangen is iets anders dan de hele pijp. Stuur een foto van de pijp vanaf de straat en, als het lukt, een filmpje tijdens een bui via WhatsApp, dan hoor je vooraf wat het kost.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: regenpijp vervangen of repareren`, href: `/diensten/regenpijp-vervangen/` },
+    faq: [
+      { v: `Kan ik een scheur in mijn regenpijp zelf afplakken?`, a: `Als noodoplossing tot de reparatie helpt tape soms even, op een droge, schone pijp en alleen als je er vanaf de grond bij kunt. Lang houdt het niet: zodra er weer water in staat en het vriest, duwt het ijs de scheur verder open. Zet er geen ladder voor tegen de pijp.` },
+      { v: `Mijn regenpijp zit vol ijs. Moet ik iets doen?`, a: `Laat hem vanzelf ontdooien. Hak er niet in en giet er geen heet water in. Loopt de goot erboven over en hangen er grote ijspegels boven de stoep of je voordeur, houd daar dan mensen weg. Zie je na de dooi een scheur, of loopt het water naast de pijp, stuur me dan een foto.` },
+      { v: `Moet de hele regenpijp vervangen worden?`, a: `Meestal niet. Vaak is alleen het stuk met de scheur of de bocht onderaan kapot, en dat vervang ik los. Is de pijp over de hele lengte bros of verkleurd en breekt het kunststof als je erop drukt, dan zeg ik eerlijk dat een nieuwe pijp slimmer is.` },
+      { v: `Is een kapotte regenpijp spoed?`, a: `Meestal niet, zolang het water buiten langs de gevel loopt. Wordt het binnen nat, bijvoorbeeld bij een regenpijp die binnen in de muur zit, dan wel: stuur me meteen een foto van de natte plek.` },
+    ],
+  },
 ];
 
 // Kort antwoord bovenaan een artikel (zie KORT_ANTWOORD in artikelen-extra.ts). Geen bedragen met de hand.
@@ -355,4 +397,5 @@ export const KORT_ANTWOORD_3: Record<string, string> = {
   "afzuigkap-lekt-bij-regen": `Komt er water uit je afzuigkap als het regent, ook als je niet kookt, dan loopt het meestal langs de pijp door het dak naar binnen, of valt de regen in de pijp omdat het kapje erop mist. Druppelt het alleen na het koken en bij koud weer, dan is het eerder condens in het kanaal over de koude zolder. Dat laat je nakijken door je installateur.`,
   "keurmerk-dakdekker": `Een keurmerk zegt dat een dakdekker heeft afgesproken zich aan bepaalde eisen te houden, maar niet wie er op je dak staat of dat de prijs eerlijk is. Kijk op de site van het keurmerk of het bedrijf echt in de lijst staat. En kijk bij elke dakdekker zelf na: de KvK-inschrijving, of hij verzekerd is, een prijs vooraf, afspraken op papier en wat andere klanten schrijven.`,
   "water-uit-zolderluik": `Druppelt het uit je zolderluik of langs de vlizotrap, dan komt het water bijna altijd van hoger. Wordt het alleen nat bij regen, dan loopt water van een lek in het dak over de zoldervloer naar het luikgat, het laagste punt. Is het ook nat na een koude, droge nacht, dan is het vaak condens: warme lucht uit huis die langs het luik naar de koude zolder stroomt.`,
+  "regenpijp-kapot-door-vorst": `Een regenpijp scheurt bij vorst als er water in bleef staan dat bevroor. Meestal zit de pijp onderaan dicht, in de bocht boven de grond of in de aansluiting onder de bestrating, door blad en zand uit de goot. Het ijs duwt de pijp dan in de lengte open of schuift een bocht uit elkaar. Vaak is één stuk vervangen genoeg, als de verstopping ook weg is.`,
 };
