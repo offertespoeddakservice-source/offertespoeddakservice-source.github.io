@@ -150,7 +150,7 @@ export const DIENSTEN: Dienst[] = [
       },
       {
         v: "Betaalt de verzekering de reparatie van mijn dak?",
-        a: "Dat hangt af van je polis en van de oorzaak. De schade binnen, zoals aan een plafond of een vloer, wordt vaak vergoed. De reparatie van het dak zelf niet altijd, zeker niet als het lek door slijtage komt. Maak foto's van de schade voordat je iets opruimt en bel je verzekeraar.",
+        a: "Dat hangt af van je polis en van de oorzaak. De schade binnen, zoals aan een plafond of een vloer, wordt vaak vergoed. De reparatie van het dak zelf niet altijd, zeker niet als het lek door slijtage komt. Maak foto's van de schade voordat je iets opruimt en bel je verzekeraar. Zelf maak ik foto's van wat ik op je dak aantref en van de reparatie, met een korte omschrijving. Die kun je meesturen naar je verzekeraar.",
       },
       {
         v: "Kun je het lek eerst tijdelijk dichtmaken?",
