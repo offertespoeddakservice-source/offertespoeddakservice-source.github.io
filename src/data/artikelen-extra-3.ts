@@ -260,6 +260,45 @@ export const ARTIKELEN_EXTRA_3: Artikel[] = [
       { v: `Er is net een nieuwe keuken geplaatst en sindsdien lekt het. Wie lost het op?`, a: `Is er bij de nieuwe keuken ook een nieuw kanaal of een nieuwe pijp door het dak gemaakt, meld het dan eerst bij wie dat deed. Wat bij het werk niet goed is gegaan, hoort hij in de regel zelf op te lossen. Zat de pijp door het dak er al, of komt hij er niet uit, dan kijk ik op het dak waar het water binnenkomt.` },
     ],
   },
+  {
+    slug: `keurmerk-dakdekker`,
+    datum: `2026-11-12`,
+    titel: `Keurmerk voor dakdekkers: wat zegt het?`,
+    h1: `Keurmerk voor dakdekkers: wat zegt het, en wat kijk je zelf na?`,
+    metaTitle: `Keurmerk dakdekker: wat zegt het? | Spoed Dak Service`,
+    metaDescription: `Een keurmerk zegt iets over een dakdekker, maar niet alles. Zo kijk je of het klopt en wat je zelf nakijkt: KvK, verzekering, prijs vooraf, reviews.`,
+    intro: `Zoek je een dakdekker, dan zie je op veel sites en bussen het logo van een keurmerk of een branchevereniging. Dat geeft een goed gevoel, maar wat zegt het eigenlijk? En betekent geen keurmerk dat een dakdekker minder goed is? Hieronder lees je wat een keurmerk wel en niet zegt, hoe je nakijkt of het klopt, en wat je bij elke dakdekker zelf kunt controleren.`,
+    secties: [
+      { kop: `Wat is een keurmerk voor dakdekkers?`, tekst: [
+        `In de dakenbranche zijn er keurmerken en brancheverenigingen, zoals het keurmerk Dakmerk en de branchevereniging Vebidak. Een bedrijf dat zo'n keurmerk voert, heeft afgesproken zich aan bepaalde eisen te houden en wordt daar in de regel op gecontroleerd. Welke eisen dat zijn, en of er een regeling is als er iets misgaat, verschilt per keurmerk. Dat lees je op de site van het keurmerk zelf.`,
+      ] },
+      { kop: `Kijk na of het klopt`, tekst: [
+        `Een logo op een site of een bus is snel geplakt. Zoek daarom op de site van het keurmerk of de vereniging of het bedrijf echt in de lijst staat, met dezelfde naam en dezelfde plaats. Staat het er niet in, vraag dan waarom.`,
+      ] },
+      { kop: `Wat een keurmerk niet zegt`, tekst: [
+        `Een keurmerk zegt niet wie er bij jou op het dak staat, of de prijs eerlijk is en of het bedrijf de klus zelf doet of doorgeeft. Ook een bedrijf met een keurmerk kan een dure offerte maken, en een kleine dakdekker zonder keurmerk kan prima werk leveren. Kijk dus ook naar de punten hieronder.`,
+      ] },
+      { kop: `Wat je bij elke dakdekker zelf kunt nakijken`, tekst: [
+        `Staat het bedrijf bij de KvK? Zoek de naam op in het handelsregister van de KvK en kijk of de naam, de plaats en het soort bedrijf kloppen.`,
+        `Is het bedrijf verzekerd? Vraag of het bedrijfsaansprakelijk verzekerd is. Gaat er bij het werk iets kapot bij jou of bij de buren, dan is daar een verzekering voor.`,
+        `Hoor je de prijs vooraf? Een goede dakdekker zegt voordat hij begint wat het kost en wat erbij hoort, het liefst op papier of in een appje. Lees ook <a href="/kennisbank/offerte-dakdekker-vergelijken/">twee offertes eerlijk vergelijken</a>.`,
+        `Staan de afspraken op papier? Vraag wat er gebeurt als er na het werk toch iets mis blijkt, en laat dat op papier of in een appje zetten.`,
+        `Wat schrijven andere klanten? Kijk niet alleen naar het cijfer, maar naar wat mensen over het contact, de prijs en het werk schrijven.`,
+        `Wie spreek je? Krijg je een callcenter of een planner aan de lijn, of degene die het werk doet? Dat zegt veel over hoe het contact later loopt.`,
+        `Moet je meteen beslissen? Belt er iemand aan die zegt dat het vandaag nog moet, neem dan de tijd. Lees <a href="/kennisbank/dakdekker-aan-de-deur/">er belt een dakdekker aan</a>.`,
+      ] },
+      { kop: `Wat je bij mij kunt nakijken`, tekst: [
+        `Ik ben Rens, dakdekker uit 's-Hertogenbosch, en Spoed Dak Service is mijn eigen bedrijf. Mijn KvK-nummer staat onderaan elke pagina van deze site. Ik ben bedrijfsaansprakelijk verzekerd, je hoort de prijs voordat ik begin en je spreekt met mij, niet met een callcenter. Wat klanten over mij schrijven, lees je op <a href="/over/">over Rens</a>. Meer over hoe je een goede dakdekker herkent, staat in <a href="/kennisbank/hoe-herken-je-een-betrouwbare-dakdekker/">een betrouwbare dakdekker herkennen</a>.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: dakreparatie`, href: `/diensten/dakreparatie/` },
+    faq: [
+      { v: `Is een dakdekker zonder keurmerk minder goed?`, a: `Niet per se. Veel kleine dakdekkers hebben geen keurmerk en leveren goed werk. Kijk bij elke dakdekker naar de KvK-inschrijving, de verzekering, een prijs vooraf, afspraken op papier en wat andere klanten schrijven.` },
+      { v: `Hoe controleer ik of een keurmerk echt is?`, a: `Zoek op de site van het keurmerk of de branchevereniging naar de naam van het bedrijf. Staat het in de lijst met dezelfde naam en plaats, dan klopt het. Zie je alleen een logo op de site of de bus, vraag dan om het lidnummer en kijk het na.` },
+      { v: `Wat is het verschil tussen een keurmerk en een branchevereniging?`, a: `Een branchevereniging is een vereniging van bedrijven uit dezelfde branche. Een keurmerk is een set eisen waar een bedrijf aan moet voldoen, en waarop het in de regel wordt gecontroleerd. Bij allebei hangt het ervan af wat er precies achter zit, en dat lees je op hun eigen site.` },
+      { v: `Waar let ik op bij reviews van een dakdekker?`, a: `Kijk niet alleen naar het cijfer, maar naar wat mensen schrijven: kwam hij op de afgesproken tijd, klopte de prijs met wat vooraf was gezegd, en werd een probleem achteraf netjes opgelost? Een paar echte reviews met een naam en een plaats zeggen meer dan veel sterren zonder tekst.` },
+    ],
+  },
 ];
 
 // Kort antwoord bovenaan een artikel (zie KORT_ANTWOORD in artikelen-extra.ts). Geen bedragen met de hand.
@@ -275,4 +314,5 @@ export const KORT_ANTWOORD_3: Record<string, string> = {
   "vochtplek-schoorsteen-binnen": `Een vochtplek op de schoorsteen in je kamer komt meestal van lood rond de schoorsteen dat los zit of gescheurd is, van regen die in een open kanaal zonder kap valt, of van condens en roet in het kanaal. Is het alleen nat na regen, dan komt het van buiten. Is de plek geel of bruin en ook bij droog weer nat, vooral als je stookt, laat dan eerst het kanaal nakijken.`,
   "cv-ketel-lekt-bij-regen": `Druppelt het bij je cv-ketel of langs de pijp erboven alleen als het regent, dan komt het water meestal langs de doorvoer op het dak binnen: de kraag rond de pijp is uitgedroogd of gescheurd, of de doorvoerpan ligt niet meer goed. Is het ook nat bij droog weer, of zakt de druk van je ketel, dan zit het eerder in de ketel, het condenswater of een leiding, en bel je je installateur.`,
   "afzuigkap-lekt-bij-regen": `Komt er water uit je afzuigkap als het regent, ook als je niet kookt, dan loopt het meestal langs de pijp door het dak naar binnen, of valt de regen in de pijp omdat het kapje erop mist. Druppelt het alleen na het koken en bij koud weer, dan is het eerder condens in het kanaal over de koude zolder. Dat laat je nakijken door je installateur.`,
+  "keurmerk-dakdekker": `Een keurmerk zegt dat een dakdekker heeft afgesproken zich aan bepaalde eisen te houden, maar niet wie er op je dak staat of dat de prijs eerlijk is. Kijk op de site van het keurmerk of het bedrijf echt in de lijst staat. En kijk bij elke dakdekker zelf na: de KvK-inschrijving, of hij verzekerd is, een prijs vooraf, afspraken op papier en wat andere klanten schrijven.`,
 };
