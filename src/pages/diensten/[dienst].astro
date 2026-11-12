@@ -26,11 +26,13 @@ const serviceSchema: Record<string, unknown> = {
   description: d.metaDescription,
   url: `${SITE.url}/diensten/${d.slug}/`,
   provider: { "@type": "RoofingContractor", "@id": `${SITE.url}/#bedrijf`, name: SITE.bedrijfsnaam, telephone: `+${SITE.telefoonE164}` },
-  areaServed: [{ "@type": "State", name: "Noord-Brabant" }, ...PLAATSEN.map((p) => ({ "@type": "City", name: p.naam }))],
+  areaServed: [{ "@type": "State", name: "Noord-Brabant" }, { "@type": "State", name: "Gelderland" }, ...PLAATSEN.map((p) => ({ "@type": "City", name: p.naam }))],
 };
 if (minPrice) serviceSchema.offers = { "@type": "Offer", priceSpecification: { "@type": "UnitPriceSpecification", priceCurrency: "EUR", minPrice } };
 // Geen losse minPrice bij een prijs per vierkante meter of per paneel: dan zou Google het als prijs voor de hele klus lezen.
 if ((d.vanafPrijs ?? "").includes("p/")) delete serviceSchema.offers;
+// Spoedklussen: dag en nacht bereikbaar, net als op /spoed/
+if (["daklekkage", "stormschade", "dakreparatie"].includes(d.slug)) serviceSchema.hoursAvailable = { "@type": "OpeningHoursSpecification", dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"], opens: "00:00", closes: "23:59" };
 const faqSchema = d.faq.length
   ? {
       "@context": "https://schema.org",
@@ -60,11 +62,11 @@ const relArtikel = ({
 // Meer weten: twee of drie kennisartikelen per dienst. Bestaat een artikel niet, dan valt het weg.
 const leesVerder: Record<string, string[]> = {
   "goten-reinigen": ["wat-kost-dakgoot-schoonmaken", "hoe-vaak-dakgoot-reinigen", "verstopte-regenpijp-lekkende-dakgoot", "dakgoot-zelf-schoonmaken", "dakgoot-loopt-over", "ijspegels-aan-dakgoot", "vuurwerk-schade-dak", "bladvanger-dakgoot", "dakgoot-schoonmaken-in-de-winter", "dakgoot-schoonmaken-huurder-of-verhuurder"],
-  daklekkage: ["daklekkage-opsporen", "lekdetectie-daklek", "vochtplek-plafond", "plafond-bolt-op-door-lekkage", "water-uit-lamp-plafond", "lekkage-bij-schoorsteen", "wat-kost-daklekkage-repareren", "lekkage-bij-aanbouw", "dak-lekt-bij-sneeuw-of-vorst", "lekkage-muur-buren", "erker-lekt", "dakfolie-kapot", "dak-lekt-na-reparatie", "plafond-drogen-na-lekkage", "nieuw-dak-lekt", "lekkage-dakdekker-of-loodgieter", "lekkage-badkamer-plafond", "lekkage-bij-de-nok", "daklek-hoe-lang-wachten", "verzekering-betaalt-daklekkage-niet", "natte-plek-schuine-wand-zolder"],
-  dakreparatie: ["wat-kost-daklekkage-repareren", "nokvorsten-los", "dakpan-kapot-of-verschoven", "dakraam-lekt", "kilgoot-lekt", "lood-op-dak", "dak-lekt-na-reparatie", "offerte-dakdekker-vergelijken", "dak-repareren-in-de-winter", "dakpan-lijmen-of-kitten", "daktermen-uitgelegd", "wat-kost-nokvorsten-repareren", "gevelpannen-los", "lekkage-weggehaalde-schoorsteen", "dak-lekt-na-schoonmaken", "dakdekker-kleine-klus"],
+  daklekkage: ["daklekkage-opsporen", "lekdetectie-daklek", "vochtplek-plafond", "plafond-bolt-op-door-lekkage", "water-uit-lamp-plafond", "lekkage-bij-schoorsteen", "wat-kost-daklekkage-repareren", "lekkage-bij-aanbouw", "dak-lekt-bij-sneeuw-of-vorst", "lekkage-muur-buren", "erker-lekt", "dakfolie-kapot", "dak-lekt-na-reparatie", "plafond-drogen-na-lekkage", "nieuw-dak-lekt", "lekkage-dakdekker-of-loodgieter", "lekkage-badkamer-plafond", "lekkage-bij-de-nok", "daklek-hoe-lang-wachten", "verzekering-betaalt-daklekkage-niet", "natte-plek-schuine-wand-zolder", "lekt-sinds-dakisolatie", "hoekkeper-lekt", "cv-ketel-lekt-bij-regen"],
+  dakreparatie: ["wat-kost-daklekkage-repareren", "nokvorsten-los", "dakpan-kapot-of-verschoven", "dakraam-lekt", "kilgoot-lekt", "lood-op-dak", "dak-lekt-na-reparatie", "offerte-dakdekker-vergelijken", "dak-repareren-in-de-winter", "dakpan-lijmen-of-kitten", "daktermen-uitgelegd", "wat-kost-nokvorsten-repareren", "gevelpannen-los", "lekkage-weggehaalde-schoorsteen", "dak-lekt-na-schoonmaken", "dakdekker-kleine-klus", "keurmerk-dakdekker"],
   "platte-daken": ["plat-dak-vervangen-of-repareren", "daktrim-lekt", "water-blijft-staan-op-plat-dak", "lichtkoepel-lekt", "lekkage-bij-aanbouw", "lekkage-bij-zonnepanelen", "dakonderhoud-per-seizoen", "veranda-of-overkapping-lekt", "epdm-dak-lekt", "dakleer-repareren", "dakterras-lekt", "golfplaten-lekken", "plat-dak-onderhouden", "lichtstraat-lekt", "lekkage-warmtepomp-of-airco", "wat-kost-plat-dak-repareren", "plat-dak-lekt-bij-afvoer", "plat-dak-losgewaaid-na-storm", "zachte-plek-plat-dak", "plat-dak-met-grind-lekt"],
   stormschade: ["stormschade-eerste-hulp", "dakpan-kapot-of-verschoven", "dak-lekt-bij-harde-wind", "daklekkage-verzekering", "tak-of-boom-op-dak", "dakpannen-vastzetten-tegen-storm", "dakpannen-klapperen-bij-wind", "windveer-los-of-rot", "storm-op-komst-dak", "dakgoot-losgeraakt", "vuurwerk-schade-dak", "gevelpannen-los", "dakpan-op-auto-buren", "plat-dak-losgewaaid-na-storm"],
-  "dakgoot-vervangen": ["dakgoot-lekt", "dakgoot-hangt-door", "water-achter-dakgoot", "natte-plek-bovenin-muur", "bakgoot-lekt", "kilgoot-lekt", "verstopte-regenpijp-lekkende-dakgoot", "hoe-lang-gaat-een-dakgoot-mee", "lekkende-dakgoot-tijdelijk-oplossen", "zinken-dakgoot-lekt", "kunststof-dakgoot-lekt", "dakgoot-lekt-bij-regenpijp", "lekkende-dakgoot-verzekering", "dakgoot-losgeraakt", "gedeelde-dakgoot-lekt", "regenpijp-loost-op-dak"],
+  "dakgoot-vervangen": ["dakgoot-lekt", "dakgoot-hangt-door", "water-achter-dakgoot", "natte-plek-bovenin-muur", "bakgoot-lekt", "kilgoot-lekt", "verstopte-regenpijp-lekkende-dakgoot", "hoe-lang-gaat-een-dakgoot-mee", "lekkende-dakgoot-tijdelijk-oplossen", "zinken-dakgoot-lekt", "kunststof-dakgoot-lekt", "dakgoot-lekt-bij-regenpijp", "lekkende-dakgoot-verzekering", "dakgoot-losgeraakt", "gedeelde-dakgoot-lekt", "regenpijp-loost-op-dak", "lekt-sinds-nieuwe-dakgoot"],
   "dakpannen-vervangen": ["dakpan-kapot-of-verschoven", "stormschade-eerste-hulp", "nokvorsten-los", "dak-lekt-bij-harde-wind", "dakpannen-vastzetten-tegen-storm", "vorstschade-dakpannen", "hoe-lang-gaat-een-dak-mee", "dakpannen-klapperen-bij-wind", "windveer-los-of-rot", "welke-dakpan-heb-ik", "dakpan-lijmen-of-kitten", "poreuze-dakpannen", "gevelpannen-los", "dak-nakijken-voor-zonnepanelen", "pannendak-schuur-lekt", "wat-kost-dakpan-vervangen"],
   "schoorsteen-vegen": ["schoorsteen-vegen-hoe-vaak", "lekkage-bij-schoorsteen", "lekkage-gedeelde-schoorsteen", "schoorsteen-lekt-open-haard", "lood-op-dak", "schoorsteen-afdekken"],
   "zonnepanelen-reinigen": ["zonnepanelen-reinigen-nodig", "lekkage-bij-zonnepanelen", "vogels-onder-dakpannen"],
@@ -72,11 +74,11 @@ const leesVerder: Record<string, string[]> = {
   "dak-reinigen": ["mos-op-dak-verwijderen", "dakonderhoud-per-seizoen", "hoe-vaak-dakgoot-reinigen"],
   dakrenovatie: ["dakinspectie", "hoe-lang-gaat-een-dak-mee", "nokvorsten-los", "lood-op-dak", "plat-dak-vervangen-of-repareren", "hoe-herken-je-een-betrouwbare-dakdekker", "offerte-dakdekker-vergelijken", "poreuze-dakpannen", "licht-tussen-dakpannen", "wat-kost-een-dakinspectie", "dak-vernieuwen-rijtjeshuis"],
   dakisolatie: ["condens-of-lekkage-op-zolder", "vochtplek-plafond", "isolatie-nat-na-lekkage"],
-  "nokvorsten-vervangen": ["nokvorsten-los", "dakpan-kapot-of-verschoven", "dak-lekt-bij-harde-wind", "dakpannen-klapperen-bij-wind", "licht-tussen-dakpannen", "lekkage-bij-de-nok", "wat-kost-nokvorsten-repareren", "wat-kost-dakpan-vervangen"],
+  "nokvorsten-vervangen": ["nokvorsten-los", "dakpan-kapot-of-verschoven", "dak-lekt-bij-harde-wind", "dakpannen-klapperen-bij-wind", "licht-tussen-dakpannen", "lekkage-bij-de-nok", "wat-kost-nokvorsten-repareren", "wat-kost-dakpan-vervangen", "hoekkeper-lekt"],
   "lood-vervangen": ["lekkage-bij-schoorsteen", "schoorsteen-lekt-open-haard", "dakraam-lekt", "lood-op-dak", "lekkage-bij-kachelpijp", "lood-van-dak-gestolen", "lekkage-weggehaalde-schoorsteen", "lood-of-loodvervanger", "vochtplek-schoorsteen-binnen"],
   "dakraam-lekkage": ["dakraam-lekt", "condens-of-lekkage-op-zolder", "dak-lekt-bij-harde-wind", "lood-op-dak", "lood-of-loodvervanger", "lichtkoepel-lekt"],
   "regenpijp-vervangen": ["verstopte-regenpijp-lekkende-dakgoot", "dakgoot-lekt", "bakgoot-lekt", "dakgoot-lekt-bij-regenpijp", "regenpijp-in-de-muur-lekt", "gedeelde-dakgoot-lekt", "regenpijp-loost-op-dak"],
-  dakdoorvoer: ["lekkage-bij-dakdoorvoer", "condens-of-lekkage-op-zolder", "druppelen-horen-plafond", "lekkage-warmtepomp-of-airco", "lekkage-bij-kachelpijp", "lekkage-badkamer-plafond"],
+  dakdoorvoer: ["lekkage-bij-dakdoorvoer", "condens-of-lekkage-op-zolder", "druppelen-horen-plafond", "lekkage-warmtepomp-of-airco", "lekkage-bij-kachelpijp", "lekkage-badkamer-plafond", "cv-ketel-lekt-bij-regen", "afzuigkap-lekt-bij-regen"],
   "windveer-vervangen": ["windveer-los-of-rot", "dakpannen-vastzetten-tegen-storm", "dakpannen-klapperen-bij-wind", "stormschade-eerste-hulp", "storm-op-komst-dak", "gevelpannen-los"],
   "antenne-verwijderen": ["lekkage-bij-schotel-of-antenne", "dak-lekt-bij-harde-wind", "lekkage-bij-schoorsteen", "lood-op-dak"],
   "dakgoot-coaten": ["zinken-dakgoot-lekt", "bakgoot-lekt", "dakgoot-lekt", "hoe-lang-gaat-een-dakgoot-mee", "water-achter-dakgoot"],
@@ -195,7 +197,7 @@ const KNOP_NAAM: Record<string, string> = { "goten-reinigen": "Dakgoot schoonmak
       <aside>
         <div class="card">
           <h3>Direct contact</h3>
-          <p>Bel of WhatsApp voor een vaste prijs, of vraag de <a href="/dak-apk/">Dak-APK</a> aan (voor {apkPrijs}) voor een compleet keuringsrapport in {SITE.regioOmschrijving}.</p>
+          <p>Bel of WhatsApp voor een vaste prijs, of vraag de <a href="/dak-apk/">Dak-APK</a> aan (voor {apkPrijs}) voor een compleet keuringsrapport in de regio Den Bosch en verder in Brabant.</p>
           <div class="btn-row" style="margin-top:14px; flex-direction:column;">
             <a class="btn btn--wa" href={waHref(`Hallo, ik heb een vraag over ${d.titel.toLowerCase()}.`)}>WhatsApp Rens</a>
             <a class="btn btn--primary" href={telHref}>{SITE.telefoonWeergave}</a>
