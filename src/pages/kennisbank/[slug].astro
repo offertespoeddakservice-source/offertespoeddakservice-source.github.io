@@ -114,6 +114,8 @@ const GOOT_ARTIKELEN = new Set(["dakgoot-lekt", "verstopte-regenpijp-lekkende-da
 const GOOT_FOTOREGEL = new Set(["hoe-vaak-dakgoot-reinigen", "wat-kost-dakgoot-schoonmaken", "dakgoot-lekt", "verstopte-regenpijp-lekkende-dakgoot", "water-achter-dakgoot", "hoe-lang-gaat-een-dakgoot-mee", "dakgoot-lekt-bij-regenpijp", "dakgoot-loopt-over", "bladvanger-dakgoot", "dakgoot-schoonmaken-in-de-winter", "dakgoot-schoonmaken-huurder-of-verhuurder", "lekt-sinds-nieuwe-dakgoot", "kunststof-dakgoot-lekt", "zinken-dakgoot-lekt", "gedeelde-dakgoot-lekt", "lekkende-dakgoot-tijdelijk-oplossen", "lekkende-dakgoot-verzekering", "ijspegels-aan-dakgoot"]);
 // Artikelen over pannen, onderhoud en kosten: na het eerste stuk een gewone regel om een foto te appen, zoals bij de lekkage- en gootartikelen (11-11-2026).
 const FOTOREGEL_OVERIG = new Set(["wat-kost-een-dakdekker", "hoe-lang-gaat-een-dak-mee", "poreuze-dakpannen", "welke-dakpan-heb-ik", "vorstschade-dakpannen", "dakpan-lijmen-of-kitten", "vogels-onder-dakpannen", "dakonderhoud-per-seizoen", "offerte-dakdekker-vergelijken", "dakdekker-aan-de-deur", "vuurwerk-schade-dak", "wat-kost-dakpan-vervangen"]);
+// Artikelen over platte daken zonder spoedregel: na het eerste stuk een regel om een foto van het platte dak te sturen, vanuit een raam boven (12-11-2026).
+const PLATDAK_FOTOREGEL = new Set(["water-blijft-staan-op-plat-dak", "plat-dak-onderhouden", "wat-kost-plat-dak-repareren"]);
 // Gootartikelen (de gootgroep in ONDERWERPEN) die niet al het lekkageblok krijgen: een eigen blok aan de zijkant over de goot in plaats van de Dak-APK.
 const GOOT_ZIJBLOK = new Set(ONDERWERPEN[1]);
 // Artikelen over pannen en reparatiekosten: een gewone zin met links naar dakreparatie per plaats.
@@ -281,6 +283,9 @@ const schema = faqSchema ? [articleSchema, faqSchema] : articleSchema;
             )}
             {i === 0 && FOTOREGEL_OVERIG.has(a.slug) && !toonSpoedregel && !GOOT_FOTOREGEL.has(a.slug) && (
               <p><strong>Twijfel je wat het bij jou is?</strong> Maak vanaf de overkant van de straat een foto van je dak, met de zoom van je telefoon, en stuur die via <a href={waHref("Hallo, ik heb een vraag over mijn dak. Ik stuur je een foto.")}>WhatsApp</a>. Dan zeg ik eerlijk wat ik zie, en je hoort vooraf wat het kost.</p>
+            )}
+            {i === 0 && PLATDAK_FOTOREGEL.has(a.slug) && !toonSpoedregel && !GOOT_FOTOREGEL.has(a.slug) && !FOTOREGEL_OVERIG.has(a.slug) && (
+              <p><strong>Twijfel je wat er met je platte dak is?</strong> Maak vanuit een raam boven, of vanaf een plek waar je veilig staat, een foto van het dak en stuur die via <a href={waHref("Hallo, ik heb een vraag over mijn platte dak. Ik stuur je een foto.")}>WhatsApp</a>. Ga er niet zelf op als het nat of glad is. Dan zeg ik eerlijk wat ik zie, en je hoort vooraf wat het kost.</p>
             )}
           </>
         ))}
