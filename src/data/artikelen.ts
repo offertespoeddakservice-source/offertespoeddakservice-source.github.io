@@ -1589,11 +1589,11 @@ export const ARTIKELEN: Artikel[] = [
       "Een dak gaat tientallen jaren mee, maar alleen als je het een beetje bijhoudt. Twee korte checks per jaar, in het voorjaar en het najaar, voorkomen verreweg de meeste dure schade. Hieronder wat er per seizoen toe doet, en hoe vaak je een vakman nodig hebt.",
     secties: [
       { kop: "Twee keer per jaar: voorjaar en najaar", tekst: [
-        "De vuistregel is twee visuele controles per jaar. In het voorjaar herstel je winterschade (losse pannen, gescheurd lood, gootschade van vorst). In het najaar maak je het dak winterklaar: goten leeg vóór de bladval, pannen en lood na voor de eerste herfststorm.",
+        "De vuistregel is twee visuele controles per jaar. In het voorjaar herstel je winterschade (losse pannen, gescheurd lood, gootschade van vorst). In het najaar maak je het dak winterklaar: pannen en lood na voor de eerste herfststorm, en de goten leeg als het meeste blad gevallen is.",
         "Is je dak ouder dan zo'n vijftien jaar, dan is twee keer kijken echt geen luxe, oudere daken laten sneller los.",
       ] },
-      { kop: "Goten: minimaal twee keer per jaar", tekst: [
-        "Goten zijn het vaakst de oorzaak van vochtschade. Maak ze minstens twee keer per jaar leeg, en bij bomen in de buurt vaker. Najaar is het belangrijkste moment, vlak na de bladval.",
+      { kop: "Goten: meestal één keer per jaar, onder bomen vaker", tekst: [
+        "Goten zijn het vaakst de oorzaak van vochtschade. Voor de meeste huizen is één keer per jaar leegmaken genoeg, het liefst laat in het najaar als het blad gevallen is. Staan er bomen vlak bij je huis, of heb je een bakgoot of kilgoot, dan is twee keer per jaar vaak slimmer: na de bladval en in het voorjaar.",
       ] },
       { kop: "Let op per daktype", tekst: [
         "Pannendak: controleer op losse, gebroken of poreuze pannen, verwijder mos op tijd (mos houdt vocht vast) en kijk jaarlijks de nokvorsten en het lood bij schoorsteen en dakramen na.",
