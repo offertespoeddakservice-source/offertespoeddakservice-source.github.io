@@ -51,6 +51,50 @@ export const ARTIKELEN_EXTRA_3: Artikel[] = [
       { v: `Moet ik thuis zijn als je komt?`, a: `Niet per se. Kan ik van buiten bij de hoekkeper en spreken we de prijs vooraf af, dan kan ik een losse vorst ook vastzetten als je niet thuis bent. Lekt het binnen, dan is het fijn als ik even op zolder kan kijken.` },
     ],
   },
+  {
+    slug: `lekt-sinds-nieuwe-dakgoot`,
+    datum: `2026-11-12`,
+    titel: `Lekt het sinds je nieuwe dakgoot?`,
+    h1: `Lekt het sinds je nieuwe dakgoot? Zo zie je waar het water heen gaat`,
+    metaTitle: `Lekt het sinds je nieuwe dakgoot? | Spoed Dak Service`,
+    metaDescription: `Natte muur of druppels sinds de goot is vervangen? Vaak valt het water achter de goot, zit de uitloop verkeerd of lekt een naad. Zo zie je het en dit doe je.`,
+    intro: `De oude goot is eruit en er hangt een nieuwe. En toch wordt het nat: bovenin de muur, rond een kozijn of op het terras onder een plek waar het eerst droog bleef. Dat ligt meestal niet aan het materiaal van de nieuwe goot, maar aan hoe hij hangt en aansluit. Hieronder lees je waar het water dan meestal heen gaat, wat je zelf kunt zien en wie je belt.`,
+    secties: [
+      { kop: `Lekt het nu? Eerst dit`, tekst: [
+        `Wordt het binnen nat, zet dan een emmer of handdoek neer en haal spullen weg. Zit de natte plek bij een stopcontact of lamp, zet dan de groep in de meterkast uit. Zet zelf geen ladder tegen de nieuwe goot. Maak tijdens of vlak na een bui een foto of filmpje van de goot vanaf de straat, en een foto van de natte plek binnen. Wat je verder meteen kunt doen, staat op de <a href="/spoed/">spoedpagina</a>.`,
+      ] },
+      { kop: `Het water valt achter de goot`, tekst: [
+        `Het water van de onderste rij pannen moet in de goot vallen. Hangt de nieuwe goot een stukje lager of verder van de pannen dan de oude, dan valt het water bij een flinke bui tussen de goot en de muur naar beneden. Ook de folie onder de pannen moet aan de onderkant in de goot uitkomen. Eindigt die nu achter de goot, dan loopt water dat over de folie komt langs de muur naar binnen. Binnen zie je dat als een natte plek bovenin de muur, vlak onder het plafond. Lees ook <a href="/kennisbank/water-achter-dakgoot/">water achter de dakgoot</a>.`,
+      ] },
+      { kop: `De goot loopt de verkeerde kant op`, tekst: [
+        `Een goot moet een klein beetje aflopen naar de regenpijp. Hangt hij vlak, of loopt hij net de andere kant op, dan blijft het water staan of loopt het over aan het eind waar geen pijp zit. Na een bui staat er dan nog lang een laagje water in. Zie <a href="/kennisbank/dakgoot-loopt-over/">dakgoot loopt over</a>.`,
+      ] },
+      { kop: `De uitloop sluit niet goed aan op de regenpijp`, tekst: [
+        `Waar het water de goot uit gaat, moet de uitloop netjes in de regenpijp vallen. Zit de uitloop op een andere plek dan de oude, of is de regenpijp niet goed aangesloten, dan spat het water ernaast langs de gevel. Dat zie je als een natte streep op de muur onder de uitloop.`,
+      ] },
+      { kop: `Een naad of een hoek lekt`, tekst: [
+        `Een kunststof goot zit met lijm of rubbers in elkaar, een zinken goot is gesoldeerd. Is een verbinding of een hoekstuk niet goed dicht, dan druppelt het op één vaste plek, ook als de bui al voorbij is. Lees <a href="/kennisbank/dakgoot-lekt/">dakgoot lekt</a>.`,
+      ] },
+      { kop: `Of was het er al?`, tekst: [
+        `Soms viel een oud lek eerst niet op, of ligt er boven de goot ook een pan scheef. Wordt het nat op een plek waar de goot niet bij komt, zoals midden op het plafond of hoog op zolder, dan zit het eerder in het dak zelf.`,
+      ] },
+      { kop: `Wie bel je?`, tekst: [
+        `Is de goot pas vervangen, meld het dan eerst bij wie hem heeft opgehangen, met je foto's en filmpje erbij. Wat er bij het ophangen niet goed is gegaan, hoort hij in de regel zelf op te lossen. Komt hij niet, of kom je er samen niet uit, dan kijk ik waar het water heen gaat en zeg ik eerlijk wat ik zie. Lees ook <a href="/kennisbank/dak-lekt-na-reparatie/">dak lekt nog na de reparatie</a>.`,
+      ] },
+      { kop: `Hoe ik het aanpak`, tekst: [
+        `Ik kijk eerst tijdens of na een bui waar het water langs de gevel loopt, en daarna bovenaan bij de goot, de onderste rij pannen en de uitloop. Hangt de goot te laag of de verkeerde kant op, dan hang ik hem opnieuw op afschot naar de regenpijp. Valt het water achter de goot, dan zorg ik dat het weer in de goot terechtkomt. Lekt een naad, dan maak ik die dicht. Zie <a href="/diensten/dakgoot-vervangen/">dakgoot repareren of vervangen</a>.`,
+      ] },
+      { kop: `Wat kost het?`, tekst: [
+        `Dat hangt af van wat er mis is: de goot opnieuw ophangen, de uitloop verplaatsen of een naad dichtmaken. Stuur een foto of filmpje van de goot tijdens een bui en een foto van de natte plek binnen via WhatsApp, dan hoor je vooraf wat het kost.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: dakgoot repareren of vervangen`, href: `/diensten/dakgoot-vervangen/` },
+    faq: [
+      { v: `De goot is pas opgehangen. Mag ik iemand anders laten kijken?`, a: `Dat mag altijd, maar geef eerst degene die de goot heeft opgehangen de kans om het op te lossen. Laat je een ander iets aanpassen voordat hij heeft gekeken, dan kan dat later lastig worden als jullie het oneens zijn. Maak in elk geval foto's en een filmpje van wat je ziet, met de datum erbij.` },
+      { v: `Hoe zie ik of de goot goed afloopt?`, a: `Kijk na een bui vanuit een raam boven, of met de zoom van je telefoon vanaf de overkant, of er nog water in de goot staat. Staat het water aan het eind zonder regenpijp, of over de hele lengte, dan loopt hij niet goed af. Loopt hij netjes leeg naar de pijp, dan is dat in orde.` },
+      { v: `Is het spoed?`, a: `Loopt het water alleen buiten langs de gevel, dan meestal niet, al moet je het niet lang laten zitten. Wordt het binnen nat, bovenin de muur of rond een kozijn, of zit de plek bij een stopcontact, dan wel: bel of app me met een foto.` },
+    ],
+  },
 ];
 
 // Kort antwoord bovenaan een artikel (zie KORT_ANTWOORD in artikelen-extra.ts). Geen bedragen met de hand.
@@ -61,4 +105,5 @@ export const KORT_ANTWOORD_3: Record<string, string> = {
   "dakgoot-loopt-over": `Kijk tijdens een bui waar je goot overloopt. Vlak bij de regenpijp zit de uitloop meestal dicht. In het midden zit de goot vol of hangt hij door. Aan het eind waar geen pijp zit, loopt de goot de verkeerde kant op of kan één regenpijp het water niet bijhouden. Een goot die overloopt, is dus meestal niet lek: het water kan alleen niet weg.`,
   "dakterras-lekt": `Bij een lekkend dakterras of balkon komt het water meestal binnen rond de afvoer, onder de dorpel van de terrasdeur, langs de muur of bij de schroeven van een hek. Kijk na een bui waar water op de tegels blijft staan en of de afvoer vrij is. Voor de reparatie gaan meestal alleen op die plek de tegels eraf.`,
   "hoekkeper-lekt": `Lekt het bij de schuine nok van je schilddak, de hoekkeper, dan zit het meestal in een vorst die los ligt omdat de specie eronder op is, in een gebroken vorst of in een schuin gezaagde pan naast de lijn die is gaan schuiven. Het water loopt eerst langs de schuine balk naar beneden, dus de natte plek op zolder zit vaak lager dan het lek.`,
+  "lekt-sinds-nieuwe-dakgoot": `Wordt het nat sinds je dakgoot is vervangen, dan hangt de nieuwe goot vaak net lager of verder van de pannen, zodat het water erachter valt, of loopt hij niet goed af naar de regenpijp. Ook een uitloop die niet goed in de pijp valt of een naad die niet dicht is, kan het zijn. Meld het eerst bij wie de goot heeft opgehangen.`,
 };
