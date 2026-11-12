@@ -1,9 +1,9 @@
 // Correcties op bestaande kennisartikelen (11-11-2026).
 // artikelen.ts en artikelen-extra.ts zijn te groot voor de automatische controle, daarom staat een correctie hier.
-// Kennisbank [slug].astro legt hem over het artikel heen: alleen de velden die hier staan, veranderen.
+// Kennisbank [slug].astro legt hem over het artikel heen: alleen de velden die hier staan, veranderen (ook de titel voor Google).
 import type { Artikel } from "./artikelen";
 
-export const ARTIKEL_CORRECTIES: Record<string, Partial<Pick<Artikel, "secties" | "faq" | "dienst">>> = {
+export const ARTIKEL_CORRECTIES: Record<string, Partial<Pick<Artikel, "secties" | "faq" | "dienst" | "metaTitle">>> = {
   "mos-op-dak-verwijderen": {
     secties: [
       { kop: "Is mos echt schadelijk?", tekst: [
@@ -64,4 +64,6 @@ export const ARTIKEL_CORRECTIES: Record<string, Partial<Pick<Artikel, "secties" 
     ],
     dienst: { label: `Bekijk: lood vervangen bij de schoorsteen`, href: `/diensten/lood-vervangen/` },
   },
+  "dakraam-lekt": { dienst: { label: "Bekijk: lekkend dakraam repareren", href: "/diensten/dakraam-lekkage/" } },
+  "dakinspectie": { metaTitle: "Dakinspectie: wat een dakdekker nakijkt | Spoed Dak Service" },
 };
