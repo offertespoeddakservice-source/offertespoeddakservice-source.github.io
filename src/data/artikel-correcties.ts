@@ -67,4 +67,6 @@ export const ARTIKEL_CORRECTIES: Record<string, Partial<Pick<Artikel, "secties" 
   "dakraam-lekt": { dienst: { label: "Bekijk: lekkend dakraam repareren", href: "/diensten/dakraam-lekkage/" } },
   "dakinspectie": { metaTitle: "Dakinspectie: wat een dakdekker nakijkt | Spoed Dak Service" },
   "dakpan-kapot-of-verschoven": { metaTitle: "Dakpan scheef, kapot of verschoven? | Spoed Dak Service" },
+  "lood-op-dak": { dienst: { label: "Bekijk: lood vastzetten of vervangen", href: "/diensten/lood-vervangen/" } },
+  "lekkage-gedeelde-schoorsteen": { dienst: { label: "Bekijk: lood vervangen bij de schoorsteen", href: "/diensten/lood-vervangen/" } },
 };
