@@ -123,6 +123,8 @@ export const PLAATSEN: Plaats[] = [
       "Mix van jaren-'60/'70 rijtjes en vrijstaande woningen, veel daken van vóór 1985, gevoelig voor losse pannen en gootlekkage.",
     wijken: ["Hoevenbraak", "Boschweg", "Centrum"],
     reistijd: "20 min vanaf Den Bosch",
+    extra:
+      "Schijndel hoort sinds 2017 bij de gemeente Meierijstad, samen met Veghel en Sint-Oedenrode, en Wijbosch ligt er vlak naast. Rond de Markt, bij de Glazen Boerderij, en in de oude straten van het dorp staan nog veel oudere huizen met een schoorsteen en een pannendak dat al lang meegaat. Bij zulke huizen kijk ik bij een lek eerst naar het lood rond de schoorsteen en naar pannen die verweerd of gescheurd zijn. In de woonwijken, zoals Hoevenbraak en Boschweg, staan veel rijtjes en twee-onder-een-kappers, vaak nog met de eerste pannen en een nok die in specie ligt. In het buitengebied rond Schijndel en Wijbosch staan boerderijen met een breed dak, vaak met een schuur ernaast die een eigen goot heeft, en die goot wordt snel vergeten. Stuur me gerust eerst een foto via WhatsApp.",
     omschrijving: "Dakdekker in Schijndel en Wijbosch: lekkage bij oude pannen of de schoorsteen, volle goten en stormschade. Vaste prijs vooraf. Bel of app Rens.",
     faq: [
       { v: "Kom je ook in Wijbosch en het buitengebied van Schijndel?", a: "Ja. Wijbosch hoort bij Schijndel, en Schijndel hoort sinds 2017 bij de gemeente Meierijstad. Ik kom er voor dezelfde klussen als in Schijndel zelf: lekkage, goten, pannen en lood. Het is zo'n 20 minuten rijden vanaf Den Bosch." },
