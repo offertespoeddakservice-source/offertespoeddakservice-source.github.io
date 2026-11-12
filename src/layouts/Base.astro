@@ -272,6 +272,7 @@ const schemas = [businessSchema, websiteSchema, ...(breadcrumbSchema ? [breadcru
               <li><a href="/diensten/regenpijp-vervangen/">Regenpijp vervangen</a></li>
               <li><a href="/diensten/nokvorsten-vervangen/">Nokvorsten repareren of vervangen</a></li>
               <li><a href="/diensten/lood-vervangen/">Lood vervangen</a></li>
+              {DIENSTEN.some((d) => d.slug === "dakraam-lekkage" && !d.verborgen) && <li><a href="/diensten/dakraam-lekkage/">Lekkend dakraam repareren</a></li>}
               <li><a href="/diensten/kilgoot-repareren/">Kilgoot repareren</a></li>
               <li><a href="/diensten/dakdoorvoer/">Dakdoorvoer plaatsen</a></li>
               <li><a href="/diensten/windveer-vervangen/">Windveer vervangen</a></li>
