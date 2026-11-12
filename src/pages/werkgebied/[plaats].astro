@@ -152,6 +152,12 @@ const schema = [
           <p>Is er bij harde wind een pan verschoven, ligt er een stuk pan of specie in de tuin, of hangt je goot los? Ga niet zelf het dak op en blijf weg onder de dakrand waar iets naar beneden kwam. Maak vanaf de overkant van de straat een foto van je dak en stuur die via <a href={waHref(`Hallo, ik heb stormschade aan mijn dak in ${p.naam}. Ik stuur je een foto.`)}>WhatsApp</a>. Hoe ik stormschade in {p.naam} eerst afdek en daarna netjes herstel, lees je bij <a href={`/werkgebied/${p.slug}/stormschade/`}>stormschade in {p.naam}</a>.</p>
         </>
       )}
+      {!heeftStormPagina && (
+        <>
+          <h3>Na een storm</h3>
+          <p>Ligt er na harde wind een pan scheef, mist er een nokvorst of hangt je goot los? Ga niet zelf het dak op en blijf weg onder de dakrand. Maak vanaf de overkant van de straat een foto van je dak en stuur die via <a href={waHref(`Hallo, ik heb na de storm schade aan mijn dak in ${p.naam}. Ik stuur je een foto.`)}>WhatsApp</a>. Wat je meteen zelf kunt doen en hoe het met je verzekering zit, lees je in <a href="/kennisbank/stormschade-eerste-hulp/">stormschade: eerste hulp</a>. Hoe ik stormschade eerst afdek en daarna netjes herstel, staat bij <a href="/diensten/stormschade/">stormschade aan je dak</a>.{p.reistijd ? ` ${p.naam} is ${p.reistijd}, dus je hoort eerlijk wanneer ik kan komen.` : ""}</p>
+        </>
+      )}
       <h3>In het kort</h3>
       <ul>
         <li><strong>Wie:</strong> Spoed Dak Service, het bedrijf van {SITE.eigenaar}, dakdekker uit 's-Hertogenbosch.</li>
