@@ -1,4 +1,4 @@
-// llms.txt (03-11-2026, bijgewerkt 04-11-2026, 07-11-2026: alle artikelen erbij, 10-11-2026: bereikbaar en korte namen, 11-11-2026: korte antwoorden, 12-11-2026: zonder 'doet het werk zelf'): korte, feitelijke uitleg voor AI-zoekmachines (ChatGPT, Gemini, Perplexity, Copilot).
+// llms.txt (03-11-2026, bijgewerkt 04-11-2026, 07-11-2026: alle artikelen erbij, 10-11-2026: bereikbaar en korte namen, 11-11-2026: korte antwoorden, 12-11-2026: zonder 'doet het werk zelf', 12-11-2026 ronde 5: Gelderland in Waar): korte, feitelijke uitleg voor AI-zoekmachines (ChatGPT, Gemini, Perplexity, Copilot).
 // Plaatsen komen vanzelf uit plaatsen.ts en diensten uit diensten.ts (verborgen diensten, die Rens niet doet, vallen weg). Geen prijzen, geen beloftes.
 import type { APIRoute } from "astro";
 import { SITE } from "../site.config.ts";
@@ -59,7 +59,7 @@ export const GET: APIRoute = () => {
     "## Korte antwoorden",
     `- Wie is ${SITE.bedrijfsnaam}? Een dakdekkersbedrijf uit ${SITE.basisplaats} van één vaste dakdekker, ${SITE.eigenaar}. Je hebt rechtstreeks contact met hem.`,
     "- Welk werk? Daklekkage opsporen en repareren, losse of kapotte dakpannen en nokvorsten, lood rond schoorsteen en dakraam, dakgoten schoonmaken, repareren of vervangen, platte daken repareren en stormschade.",
-    `- Waar? Vanuit ${SITE.basisplaats} in de regio Den Bosch. Klussen verder weg, zoals in Breda, Eindhoven en Helmond, worden vooraf ingepland.`,
+    `- Waar? Vanuit ${SITE.basisplaats} in de regio Den Bosch en verder in Brabant, en in Gelderland rond Wijchen en Nijmegen. Klussen verder weg, zoals in Breda, Eindhoven en Helmond, worden vooraf ingepland.`,
     `- Wanneer bereikbaar? Dag en nacht, ook in het weekend, via bellen of WhatsApp op ${SITE.telefoonWeergave}.`,
     "- Hoe hoor je de prijs? Stuur een foto van je dak vanaf de straat, of van de natte plek binnen, via WhatsApp. Je hoort de prijs voordat het werk begint.",
     `- Waar staan de richtprijzen? Op ${u}/prijzen/.`,
@@ -91,7 +91,7 @@ export const GET: APIRoute = () => {
     `- [Dak-APK (dakkeuring)](${u}/dak-apk/)`,
     "",
     "## Werkgebied",
-    `Vanuit ${SITE.basisplaats} in de regio Den Bosch. Klussen verder weg, zoals in Breda, Eindhoven en Helmond, worden vooraf ingepland.`,
+    `Vanuit ${SITE.basisplaats} in de regio Den Bosch en verder in Brabant, en in Gelderland rond Wijchen en Nijmegen. Klussen verder weg, zoals in Breda, Eindhoven en Helmond, worden vooraf ingepland.`,
     ...PLAATSEN.map((p) => `- [Dakdekker in ${p.naam}](${u}/werkgebied/${p.slug}/)`),
     "",
     "## Ook in de dorpen eromheen",
