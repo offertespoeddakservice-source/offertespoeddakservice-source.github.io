@@ -10,6 +10,7 @@ const heeftHuurhuis = ARTIKELEN.some((a) => a.slug === "lekkage-huurhuis" && !a.
 const heeftGevelpannen = ARTIKELEN.some((a) => a.slug === "gevelpannen-los" && !a.verborgen);
 const heeftGootLos = ARTIKELEN.some((a) => a.slug === "dakgoot-losgeraakt" && !a.verborgen);
 const heeftSchoorsteenStorm = ARTIKELEN.some((a) => a.slug === "schoorsteen-na-storm" && !a.verborgen);
+const bestaat = (slug: string) => ARTIKELEN.some((a) => a.slug === slug && !a.verborgen);
 
 const lekPrijs = prijsVan("daklekkage");
 const gotenPrijs = prijsVan("goot_reinigen");
@@ -112,6 +113,16 @@ const spoedSchema = {
       <p style="margin-top:16px;">Bolt je plafond op, lees dan wat je doet in <a href="/kennisbank/plafond-bolt-op-door-lekkage/">plafond bolt op door lekkage</a>. Druppelt het uit een lamp of spotje, kijk dan bij <a href="/kennisbank/water-uit-lamp-plafond/">water uit de lamp of spotjes</a>.</p>
       <p style="margin-top:16px;">Is het nat bovenin de muur, net onder het plafond? Dan komt het water vaak van de goot erboven: lees <a href="/kennisbank/water-achter-dakgoot/">water achter de dakgoot</a>. Zit de natte plek boven een raam met een erker of luifel, kijk dan bij <a href="/kennisbank/erker-lekt/">erker of luifel lekt</a>. En is het nat langs de muur met de buren, lees dan <a href="/kennisbank/lekkage-muur-buren/">lekkage langs de muur met de buren</a>.</p>
       <p style="margin-top:16px;">Hoor je water druppelen, maar zie je nog geen natte plek? Lees dan <a href="/kennisbank/druppelen-horen-plafond/">druppelen horen in je plafond</a>. Lekt het nog terwijl je dak net is gerepareerd, kijk dan bij <a href="/kennisbank/dak-lekt-na-reparatie/">dak lekt na de reparatie</a>. Lekt het platte dak van je aanbouw, garage of schuur, lees dan <a href="/kennisbank/epdm-dak-lekt/">EPDM-dak lekt</a> of <a href="/kennisbank/dakleer-repareren/">dakleer repareren</a>. En is het lek gemaakt, maar zit er nog een natte plek, dan lees je in <a href="/kennisbank/plafond-drogen-na-lekkage/">plafond drogen na een lekkage</a> hoe lang dat duurt.</p>
+      {(bestaat("lekkage-bij-kachelpijp") || bestaat("lekkage-bij-dakdoorvoer") || bestaat("cv-ketel-lekt-bij-regen") || bestaat("afzuigkap-lekt-bij-regen") || bestaat("water-uit-zolderluik") || bestaat("vochtplek-schoorsteen-binnen") || bestaat("hoekkeper-lekt")) && (
+        <p style="margin-top:16px;">
+          {bestaat("lekkage-bij-kachelpijp") && <>Druppelt het langs de pijp van je houtkachel, lees dan <a href="/kennisbank/lekkage-bij-kachelpijp/">lekkage bij de kachelpijp</a>.</>}
+          {bestaat("lekkage-bij-dakdoorvoer") && <> Loopt het water langs een ontluchtingspijp of een andere pijp door het dak naar binnen, kijk dan bij <a href="/kennisbank/lekkage-bij-dakdoorvoer/">lekkage bij een dakdoorvoer</a>.</>}
+          {(bestaat("cv-ketel-lekt-bij-regen") || bestaat("afzuigkap-lekt-bij-regen")) && <> Komt er bij regen water bij je cv-ketel of uit je afzuigkap, lees dan {bestaat("cv-ketel-lekt-bij-regen") && <a href="/kennisbank/cv-ketel-lekt-bij-regen/">water bij je cv-ketel</a>}{bestaat("cv-ketel-lekt-bij-regen") && bestaat("afzuigkap-lekt-bij-regen") && " of "}{bestaat("afzuigkap-lekt-bij-regen") && <a href="/kennisbank/afzuigkap-lekt-bij-regen/">water uit je afzuigkap</a>}.</>}
+          {bestaat("water-uit-zolderluik") && <> Druppelt het uit je zolderluik of langs de vlizotrap, lees dan <a href="/kennisbank/water-uit-zolderluik/">water uit je zolderluik</a>.</>}
+          {bestaat("vochtplek-schoorsteen-binnen") && <> Zit er een natte plek op de schoorsteen in je kamer, kijk dan bij <a href="/kennisbank/vochtplek-schoorsteen-binnen/">vochtplek op de schoorsteen binnen</a>.</>}
+          {bestaat("hoekkeper-lekt") && <> En is het nat in een hoek van de zolder, onder de schuine nok van een schilddak, lees dan <a href="/kennisbank/hoekkeper-lekt/">lekkage bij de hoekkeper</a>.</>}
+        </p>
+      )}
       {(heeftTijdelijk || heeftHuurhuis) && (
         <p style="margin-top:16px;">
           {heeftTijdelijk && <>Moet je even wachten tot ik er ben? Wat je binnen en op zolder zelf veilig kunt doen om het droog te houden, lees je in <a href="/kennisbank/daklek-tijdelijk-dichten/">daklek tijdelijk dichten</a>.</>}
