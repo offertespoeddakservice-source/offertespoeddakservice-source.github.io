@@ -218,6 +218,48 @@ export const ARTIKELEN_EXTRA_3: Artikel[] = [
       { v: `Mijn ketel is net vervangen en nu lekt het bij de pijp. Wie lost het op?`, a: `Is er bij het vervangen ook een nieuwe pijp door het dak gegaan, meld het dan eerst bij de installateur die dat deed. Wat bij het werk niet goed is gegaan, hoort hij in de regel zelf op te lossen. Komt hij er niet uit, of zat de doorvoer er al, dan kijk ik op het dak waar het water binnenkomt.` },
     ],
   },
+  {
+    slug: `afzuigkap-lekt-bij-regen`,
+    datum: `2026-11-12`,
+    titel: `Water uit je afzuigkap als het regent?`,
+    h1: `Water uit je afzuigkap als het regent: dak, kanaal of condens?`,
+    metaTitle: `Water uit je afzuigkap als het regent? | Spoed Dak Service`,
+    metaDescription: `Druppelt er water uit je afzuigkap of uit het kanaal erboven? Vaak komt het langs de pijp door het dak, of is het condens in het kanaal. Zo zie je het verschil.`,
+    intro: `Je kookt niet eens, en toch druppelt er water uit je afzuigkap, of er zit een natte plek op het plafond erboven. Bij een afzuigkap met een motor gaat de lucht via een kanaal of slang naar buiten, en bij veel huizen loopt dat kanaal over de zolder naar een pijp door het dak. Langs dat hele stuk kan water binnenkomen. Hieronder lees je waar het meestal zit, hoe je het verschil ziet en wie je belt.`,
+    secties: [
+      { kop: `Druppelt het nu? Eerst dit`, tekst: [
+        `Zet de afzuigkap uit, leg een doek of bak op het fornuis of het aanrecht en haal spullen weg. Druppelt het bij de lampjes in de afzuigkap, laat hem dan uit tot hij droog is. Ga niet zelf het dak op. Maak een foto van de afzuigkap en, als je erbij kunt, van het kanaal op zolder. Wat je verder meteen kunt doen, staat op de <a href="/spoed/">spoedpagina</a>.`,
+      ] },
+      { kop: `Regen langs de pijp door het dak`, tekst: [
+        `Waar het kanaal door het dak naar buiten gaat, zit een doorvoerpan met een kraag rond de pijp. Is die kraag uitgedroogd of gescheurd, of ligt de doorvoerpan niet goed tussen de andere pannen, dan loopt het regenwater langs de buitenkant van de pijp naar binnen. Het zakt mee langs het kanaal en komt er bij de afzuigkap weer uit. Op zolder zie je dan een natte plek op het hout of de folie rond de pijp.`,
+      ] },
+      { kop: `Regen in de pijp`, tekst: [
+        `Bovenop de pijp op het dak hoort een kapje dat de regen tegenhoudt. Is dat na een storm weggewaaid of scheef gaan staan, dan valt de regen recht in de pijp en loopt hij door het kanaal naar beneden. Kijk vanaf de overkant van de straat of de pijp op je dak nog een kapje heeft.`,
+      ] },
+      { kop: `Condens in het kanaal`, tekst: [
+        `Bij het koken gaat er warme, vochtige lucht door het kanaal. Loopt dat kanaal over een koude zolder, dan koelt die lucht af en slaat het vocht aan de binnenkant neer. Dat water loopt terug naar de afzuigkap. Je merkt het vooral bij koud weer en na het koken, ook als het droog is. Een lang kanaal dat doorhangt, maakt het erger. Dat los je niet op het dak op: laat het kanaal nakijken door je installateur of keukenleverancier.`,
+      ] },
+      { kop: `Een slang die los zit`, tekst: [
+        `Zit het kanaal op zolder los van de pijp door het dak, dan blaast de vochtige kooklucht de zolder in. Die slaat neer tegen het koude dak en geeft druppels die op een lek lijken. Lees daarover <a href="/kennisbank/condens-of-lekkage-op-zolder/">condens of lekkage op zolder</a>.`,
+      ] },
+      { kop: `Zo zie je het verschil`, tekst: [
+        `Komt er water uit de afzuigkap tijdens of na regen, ook als je niet hebt gekookt? Dan komt het van buiten: langs de pijp door het dak, of door een kapje dat mist. Komt er alleen water na het koken, vooral als het koud is? Dan is het eerder condens in het kanaal. Kijk ook op zolder: is het hout of de folie rond de pijp nat, dan komt het van het dak.`,
+      ] },
+      { kop: `Hoe ik het aanpak`, tekst: [
+        `Ik kijk op zolder waar het water langs de pijp loopt en daarna op het dak naar de kraag, de doorvoerpan en het kapje. Een gescheurde kraag of een doorvoerpan die niet goed ligt, vervang ik. Mist het kapje of is de doorvoer zelf op, dan plaats ik een nieuwe doorvoer die bij je pannen past. Het kanaal binnen en de aansluiting op de afzuigkap doet je installateur of keukenleverancier. Zie <a href="/diensten/dakdoorvoer/">dakdoorvoer plaatsen of repareren</a> en <a href="/kennisbank/lekkage-bij-dakdoorvoer/">lekkage bij een dakdoorvoer</a>.`,
+      ] },
+      { kop: `Wat kost het?`, tekst: [
+        `Gaat het om de kraag of een doorvoerpan die niet goed ligt, dan valt het onder een lek opsporen en dichtmaken: ${inclBtw("daklekkage")}. Een nieuwe doorvoer hangt af van je pannen en de dikte van de pijp. Stuur een foto van de pijp op je dak vanaf de straat via WhatsApp, dan hoor je vooraf wat het kost.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: dakdoorvoer plaatsen of repareren`, href: `/diensten/dakdoorvoer/` },
+    faq: [
+      { v: `Mag ik de afzuigkap nog gebruiken?`, a: `Druppelt het uit de afzuigkap of bij de lampjes, zet hem dan uit tot je weet waar het water vandaan komt en hij droog is. Gaat het om een paar druppels condens na het koken, dan kun je hem meestal gewoon gebruiken, maar laat het kanaal wel nakijken.` },
+      { v: `Mijn afzuigkap heeft geen kanaal naar buiten. Waar komt het water dan vandaan?`, a: `Een afzuigkap die de lucht door een filter terug de keuken in blaast, krijgt via een pijp geen regen binnen. Komt er dan toch water uit of eromheen, dan druppelt het vaak van hoger: een lek in het plafond erboven, een leiding of de badkamer. Kijk of er een natte plek op het plafond zit en stuur me een foto, dan zeg ik eerlijk of het bij het dak hoort of bij een loodgieter.` },
+      { v: `Is water uit de afzuigkap spoed?`, a: `Meestal niet, tenzij het bij de lampjes of de stekker druppelt of er veel water komt. Zet de afzuigkap dan uit en stuur me een foto. Een paar druppels na een bui laat je wel op korte termijn nakijken, want het water loopt ook langs het hout op zolder.` },
+      { v: `Er is net een nieuwe keuken geplaatst en sindsdien lekt het. Wie lost het op?`, a: `Is er bij de nieuwe keuken ook een nieuw kanaal of een nieuwe pijp door het dak gemaakt, meld het dan eerst bij wie dat deed. Wat bij het werk niet goed is gegaan, hoort hij in de regel zelf op te lossen. Zat de pijp door het dak er al, of komt hij er niet uit, dan kijk ik op het dak waar het water binnenkomt.` },
+    ],
+  },
 ];
 
 // Kort antwoord bovenaan een artikel (zie KORT_ANTWOORD in artikelen-extra.ts). Geen bedragen met de hand.
@@ -232,4 +274,5 @@ export const KORT_ANTWOORD_3: Record<string, string> = {
   "lekt-sinds-dakisolatie": `Wordt het nat sinds je dak is geïsoleerd, dan is het vaak condens: vocht uit huis dat achter de isolatie tegen het koude dak neerslaat, vooral na koude nachten. Is het alleen nat tijdens of na regen, op één vaste plek, dan is eerder een pan of de folie bij het werk geraakt, of valt een oud lek nu pas op. Meld het eerst bij het bedrijf dat isoleerde.`,
   "vochtplek-schoorsteen-binnen": `Een vochtplek op de schoorsteen in je kamer komt meestal van lood rond de schoorsteen dat los zit of gescheurd is, van regen die in een open kanaal zonder kap valt, of van condens en roet in het kanaal. Is het alleen nat na regen, dan komt het van buiten. Is de plek geel of bruin en ook bij droog weer nat, vooral als je stookt, laat dan eerst het kanaal nakijken.`,
   "cv-ketel-lekt-bij-regen": `Druppelt het bij je cv-ketel of langs de pijp erboven alleen als het regent, dan komt het water meestal langs de doorvoer op het dak binnen: de kraag rond de pijp is uitgedroogd of gescheurd, of de doorvoerpan ligt niet meer goed. Is het ook nat bij droog weer, of zakt de druk van je ketel, dan zit het eerder in de ketel, het condenswater of een leiding, en bel je je installateur.`,
+  "afzuigkap-lekt-bij-regen": `Komt er water uit je afzuigkap als het regent, ook als je niet kookt, dan loopt het meestal langs de pijp door het dak naar binnen, of valt de regen in de pijp omdat het kapje erop mist. Druppelt het alleen na het koken en bij koud weer, dan is het eerder condens in het kanaal over de koude zolder. Dat laat je nakijken door je installateur.`,
 };
