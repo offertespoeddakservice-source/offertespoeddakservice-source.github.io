@@ -299,6 +299,45 @@ export const ARTIKELEN_EXTRA_3: Artikel[] = [
       { v: `Waar let ik op bij reviews van een dakdekker?`, a: `Kijk niet alleen naar het cijfer, maar naar wat mensen schrijven: kwam hij op de afgesproken tijd, klopte de prijs met wat vooraf was gezegd, en werd een probleem achteraf netjes opgelost? Een paar echte reviews met een naam en een plaats zeggen meer dan veel sterren zonder tekst.` },
     ],
   },
+  {
+    slug: `water-uit-zolderluik`,
+    datum: `2026-11-12`,
+    titel: `Water uit je zolderluik?`,
+    h1: `Water uit je zolderluik of langs de vlizotrap: lek op zolder of condens?`,
+    metaTitle: `Water uit je zolderluik of vlizotrap? | Spoed Dak Service`,
+    metaDescription: `Druppelt het uit je zolderluik of langs de vlizotrap? Vaak loopt er water over de zoldervloer naar het luikgat, of is het condens. Zo zie je wat het is.`,
+    intro: `Het druppelt uit de kier rond je zolderluik, er zit een natte plek op het plafond naast het luik, of de treden van de vlizotrap zijn nat. Dat is vreemd, want het luik zelf kan niet lekken. Het water komt van hoger: van een lek in het dak dat over de zoldervloer naar het gat van het luik loopt, of van vocht uit je huis dat op de koude zolder neerslaat. Hieronder lees je hoe je die twee uit elkaar houdt en wat je doet.`,
+    secties: [
+      { kop: `Druppelt het nu? Eerst dit`, tekst: [
+        `Zet een emmer of bak onder het luik en leg een handdoek op de vloer. Zit er een lamp of schakelaar bij de natte plek, zet dan in de meterkast de groep van die verdieping uit. Klap de vlizotrap niet uit als er water op ligt of als de treden nat zijn, want dan glij je zo weg. Ga ook niet zelf het dak op. Wat je verder meteen kunt doen, staat op de <a href="/spoed/">spoedpagina</a>.`,
+      ] },
+      { kop: `Waarom het juist bij het luik naar beneden komt`, tekst: [
+        `Een zoldervloer is zelden helemaal vlak, en waar het luik zit, zit een gat in die vloer. Komt er ergens op zolder water binnen, bijvoorbeeld bij de schoorsteen, een dakraam of een pijp door het dak, dan loopt dat over de vloer of langs een balk naar het laagste punt. Vaak is dat het luikgat. Daardoor druppelt het uit de kier rond het luik, terwijl het lek een paar meter verderop in het dak zit. Lees ook <a href="/kennisbank/daklekkage-opsporen/">daklekkage opsporen</a>.`,
+      ] },
+      { kop: `Of is het condens?`, tekst: [
+        `Warme lucht uit je huis bevat vocht. Sluit het luik niet goed aan, dan stroomt die warme lucht langs de kieren de koude zolder op. Daar koelt hij af tegen de pannen, de folie of het hout, en het vocht slaat neer. Die druppels vallen terug op de vloer en lopen naar het luik, of het luik zelf wordt aan de zolderkant nat. Dat zie je vooral na koude, heldere nachten, vaak op meer plekken tegelijk, ook als het dagen droog is geweest. Zie <a href="/kennisbank/condens-of-lekkage-op-zolder/">condens of lekkage op zolder</a>.`,
+      ] },
+      { kop: `Zo zie je het verschil`, tekst: [
+        `Ga met een zaklamp op zolder kijken, tijdens of vlak na een bui als dat veilig kan. Volg het natte spoor op de vloer of langs een balk terug naar boven. Komt het uit één hoek, bij de schoorsteen, een dakraam of een pijp, en alleen als het regent? Dan is het een lek. Zie je druppels verspreid over de onderkant van het dak en is het ook nat na een droge, koude nacht? Dan is het eerder condens. Maak foto's van wat je ziet, met de datum en het weer erbij.`,
+      ] },
+      { kop: `Wat je zelf kunt doen`, tekst: [
+        `Leg een oude handdoek of een bak op de plek op zolder waar het water vandaan komt, zodat het niet verder over de vloer loopt, en haal spullen uit die hoek. Is het condens, kijk dan of het luik goed sluit: een tochtstrip rond het luik houdt de warme lucht beneden. Hangt er veel vocht in huis, bijvoorbeeld van douchen of de was, zet dan de ventilatie aan. Smeer geen kit tussen de pannen of op het dak.`,
+      ] },
+      { kop: `Hoe ik het aanpak`, tekst: [
+        `Ik kijk eerst op zolder waar het water vandaan komt, en daarna op het dak boven die plek: de pannen, de nok, het lood rond de schoorsteen of het dakraam en de kraag rond een pijp. Zit daar het lek, dan maak ik het dicht. Zie ik geen lek en wijst alles op condens, dan zeg ik dat eerlijk, want dat los je niet op het dak op. Zie <a href="/diensten/daklekkage/">daklekkage opsporen en repareren</a>.`,
+      ] },
+      { kop: `Wat kost het?`, tekst: [
+        `Een lek opsporen en dichtmaken kost bij mij ${inclBtw("daklekkage")}, inclusief het zoeken en het materiaal. Ligt er alleen een pan scheef of is er een gebroken, dan kost dat ${inclBtw("dakpan")}. Stuur een foto van de natte plek op zolder en van je dak vanaf de straat via WhatsApp, dan hoor je vooraf wat het kost.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: daklekkage & spoed`, href: `/diensten/daklekkage/` },
+    faq: [
+      { v: `Kan een zolderluik zelf lekken?`, a: `Nee. Een luik zit binnen in je huis. Komt er water uit, dan komt dat van hoger: van een lek in het dak dat over de zoldervloer naar het luikgat loopt, of van condens op de koude zolder.` },
+      { v: `Is water uit het zolderluik spoed?`, a: `Druppelt het, of zit de natte plek bij een lamp of stopcontact, dan wel: zet de groep uit en bel of app me met een foto. Gaat het om een paar druppels na een koude nacht die weer opdrogen, dan is het meestal condens en geen spoed, maar laat het wel nakijken.` },
+      { v: `Helpt het als het luik beter sluit?`, a: `Tegen condens vaak wel: een luik dat goed sluit, houdt de warme, vochtige lucht beneden. Tegen een lek in het dak helpt het niet, want dan blijft het water op zolder doorlopen. Kijk dus eerst of het alleen bij regen nat wordt.` },
+      { v: `Ik heb alleen een klein luik en kom niet goed op zolder. Kun je dan toch kijken?`, a: `Meestal wel. Zet de spullen onder het luik opzij, zodat ik erbij kan. Stuur vooraf een foto van de natte plek en van je dak vanaf de straat, dan weet ik waar ik moet beginnen. Je hoort vooraf wat het kost.` },
+    ],
+  },
 ];
 
 // Kort antwoord bovenaan een artikel (zie KORT_ANTWOORD in artikelen-extra.ts). Geen bedragen met de hand.
@@ -315,4 +354,5 @@ export const KORT_ANTWOORD_3: Record<string, string> = {
   "cv-ketel-lekt-bij-regen": `Druppelt het bij je cv-ketel of langs de pijp erboven alleen als het regent, dan komt het water meestal langs de doorvoer op het dak binnen: de kraag rond de pijp is uitgedroogd of gescheurd, of de doorvoerpan ligt niet meer goed. Is het ook nat bij droog weer, of zakt de druk van je ketel, dan zit het eerder in de ketel, het condenswater of een leiding, en bel je je installateur.`,
   "afzuigkap-lekt-bij-regen": `Komt er water uit je afzuigkap als het regent, ook als je niet kookt, dan loopt het meestal langs de pijp door het dak naar binnen, of valt de regen in de pijp omdat het kapje erop mist. Druppelt het alleen na het koken en bij koud weer, dan is het eerder condens in het kanaal over de koude zolder. Dat laat je nakijken door je installateur.`,
   "keurmerk-dakdekker": `Een keurmerk zegt dat een dakdekker heeft afgesproken zich aan bepaalde eisen te houden, maar niet wie er op je dak staat of dat de prijs eerlijk is. Kijk op de site van het keurmerk of het bedrijf echt in de lijst staat. En kijk bij elke dakdekker zelf na: de KvK-inschrijving, of hij verzekerd is, een prijs vooraf, afspraken op papier en wat andere klanten schrijven.`,
+  "water-uit-zolderluik": `Druppelt het uit je zolderluik of langs de vlizotrap, dan komt het water bijna altijd van hoger. Wordt het alleen nat bij regen, dan loopt water van een lek in het dak over de zoldervloer naar het luikgat, het laagste punt. Is het ook nat na een koude, droge nacht, dan is het vaak condens: warme lucht uit huis die langs het luik naar de koude zolder stroomt.`,
 };
