@@ -462,6 +462,9 @@ export const FAQ_ERBIJ_2: Record<string, Artikel["faq"]> = {
   "lekkage-bij-kachelpijp": [
     { v: `Mijn houtkachel is pas geplaatst en nu lekt het langs de pijp. Wie lost dat op?`, a: `Bel eerst de kachelzaak of de installateur die de kachel en de pijp heeft geplaatst. Het gat in het dak en de kraag rond de pijp horen bij dat werk, en een lek dat kort na het plaatsen begint, hoort het bedrijf in de regel zelf te herstellen. Noteer wanneer het voor het eerst nat werd, en maak foto's van de natte plek en van de pijp op het dak vanaf de straat. Wordt het daar niet opgelost, of is de kachel al jaren geleden geplaatst, stuur mij die foto's dan via WhatsApp. Dan kijk ik naar de slab of doorvoerpan, de kraag en de pannen eromheen. Je hoort vooraf wat het kost.` },
   ],
+  "lekkage-bij-aanbouw": [
+    { v: `Moet de hele dakbedekking van mijn aanbouw eraf als het alleen langs de muur lekt?`, a: `Meestal niet. Lekt het alleen in de strook langs de gevel, dan zit het vaak in de aansluiting: het lood of zink dat uit de muur is gekomen, of de dakbedekking die eronder tegen de muur omhoog loopt en daar is losgeraakt. Dan maak ik die aansluiting opnieuw dicht en blijft de rest van het dak liggen. Kijk wel even vanuit een raam boven naar de rest van het dak. Zie je ook midden op het dak blazen, scheuren of naden die openstaan, of is het dak al vaak gerepareerd, dan bespreek ik met je of nieuwe dakbedekking verstandiger is dan nog een reparatie. Stuur me een foto van de natte plek binnen en van het dak van de aanbouw, dan hoor je vooraf wat het kost.` },
+  ],
 };
 
 // Artikelen en korte antwoorden uit artikelen-extra-3.ts (sinds 12-11-2026) erachter, zodat ze via artikelen-extra.ts in ARTIKELEN en KORT_ANTWOORD komen.
