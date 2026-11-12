@@ -179,6 +179,45 @@ export const ARTIKELEN_EXTRA_3: Artikel[] = [
       { v: `Mijn buren hebben dezelfde schoorsteen. Kan het van hun kant komen?`, a: `Dat kan. Staat de schoorsteen op de muur tussen jullie huizen, dan kan het lood of het kanaal aan hun kant de oorzaak zijn. Lees daarover lekkage bij een gedeelde schoorsteen in de kennisbank.` },
     ],
   },
+  {
+    slug: `cv-ketel-lekt-bij-regen`,
+    datum: `2026-11-12`,
+    titel: `Water bij je cv-ketel als het regent?`,
+    h1: `Water bij je cv-ketel als het regent: lekt de pijp door het dak?`,
+    metaTitle: `Water bij je cv-ketel als het regent? | Spoed Dak Service`,
+    metaDescription: `Druppelt het bij je cv-ketel of langs de pijp erboven als het regent? Vaak komt het water langs de doorvoer op het dak binnen. Zo zie je wie je belt.`,
+    intro: `Het regent, en ineens staat er water onder je cv-ketel, druppelt het langs de pijp boven de ketel of zit er een natte plek op het plafond van de kast of de zolder waar de ketel hangt. Bij veel huizen gaat de pijp van de ketel door het dak naar buiten, en waar die pijp door de pannen gaat, kan regenwater binnenkomen. Maar water bij een ketel kan ook van de ketel zelf komen. Hieronder lees je hoe je het verschil ziet en wie je belt.`,
+    secties: [
+      { kop: `Druppelt het nu? Eerst dit`, tekst: [
+        `Zet een bak of handdoek onder de druppel en haal spullen weg. Komt het water op of in de ketel, of bij een stopcontact, raak dan niets aan wat nat is, zet de ketel niet zelf open en bel je installateur. Ga niet zelf het dak op. Maak een foto van de plek waar het druppelt en, als het lukt, van de pijp op je dak vanaf de straat. Wat je verder meteen kunt doen, staat op de <a href="/spoed/">spoedpagina</a>.`,
+      ] },
+      { kop: `Waar de pijp door het dak gaat`, tekst: [
+        `Bij veel HR-ketels gaat er een pijp door het dak: daardoor gaat de rook naar buiten en komt er verse lucht naar binnen. Op het dak zit die pijp in een speciale doorvoerpan, met een kraag van rubber of lood eromheen. Droogt die kraag na jaren uit of scheurt hij, of ligt de doorvoerpan niet meer goed tussen de andere pannen, dan loopt het regenwater langs de buitenkant van de pijp naar beneden. Op zolder zie je dat als een natte plek op het hout of de folie rond de pijp, en lager als druppels langs de pijp tot bij de ketel.`,
+      ] },
+      { kop: `Na een storm: de kap op de pijp`, tekst: [
+        `Bovenop de pijp zit een kap. Staat die na een storm scheef of is hij weg, dan heeft de wind vaak ook aan de kraag rond de pijp getrokken. Kijk vanaf de overkant van de straat of de pijp nog recht staat en de kap er nog op zit. De kap hoort meestal bij het afvoersysteem van je ketel, en die laat je vervangen door je installateur. De kraag en de doorvoerpan op het dak maak ik weer dicht.`,
+      ] },
+      { kop: `Of komt het water van de ketel zelf?`, tekst: [
+        `Een HR-ketel maakt bij het stoken zelf water: condenswater. Dat loopt via een slangetje en een sifon onder de ketel naar het riool. Zit dat slangetje los, is de sifon verstopt of lekt een verbinding van een cv-leiding, dan druppelt het onder de ketel, ook als het droog weer is. Zakt de druk van je ketel steeds terwijl je niets bijvult, dan lekt er vaak ergens een cv-leiding. Dat is werk voor je installateur, niet voor een dakdekker. Lees ook <a href="/kennisbank/lekkage-dakdekker-of-loodgieter/">lekkage: dakdekker of loodgieter?</a>`,
+      ] },
+      { kop: `Zo zie je het verschil`, tekst: [
+        `Alleen nat tijdens of na regen, en het meest bij regen met wind? Dan komt het water van buiten, langs de doorvoer op het dak. Ook nat als het dagen droog is, vooral als de ketel brandt? Dan komt het eerder van de ketel, het condenswater of een leiding. Kijk ook op zolder: is het hout of de folie rond de pijp nat, of loopt er een streep langs de buitenkant van de pijp, dan komt het van het dak. Droog de plek af en kijk na de volgende bui of hij weer nat is.`,
+      ] },
+      { kop: `Hoe ik het aanpak`, tekst: [
+        `Ik kijk eerst op zolder waar het water langs de pijp loopt, en daarna op het dak naar de kraag, de doorvoerpan en de pannen eromheen. Is de kraag gescheurd of uitgedroogd, dan vervang ik hem. Ligt de doorvoerpan niet goed of is hij kapot, dan leg ik er een die bij je pannen past. Aan de ketel en de pijp binnen kom ik niet, dat doet je installateur. Zit het daar, dan zeg ik dat eerlijk. Zie <a href="/diensten/dakdoorvoer/">dakdoorvoer plaatsen of repareren</a> en <a href="/kennisbank/lekkage-bij-dakdoorvoer/">lekkage bij een dakdoorvoer</a>.`,
+      ] },
+      { kop: `Wat kost het?`, tekst: [
+        `Een lek bij de doorvoer opsporen en dichtmaken kost bij mij ${inclBtw("daklekkage")}, inclusief het zoeken en het materiaal. Moet er een nieuwe doorvoerpan in, stuur dan een foto van de pijp op je dak vanaf de straat en van de natte plek binnen via WhatsApp, dan hoor je vooraf wat het kost.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: dakdoorvoer plaatsen of repareren`, href: `/diensten/dakdoorvoer/` },
+    faq: [
+      { v: `Is water bij mijn cv-ketel gevaarlijk?`, a: `Water op of in de ketel hoort er niet. Raak geen natte stekkers of stopcontacten aan, zet de ketel niet zelf open en bel bij water op of in de ketel eerst je installateur. Komt het water van boven langs de pijp, dan maak ik daarna de doorvoer op het dak dicht.` },
+      { v: `Bel ik eerst de installateur of jou?`, a: `Komt het water alleen bij regen en zie je op zolder een natte plek rond de pijp, bel of app dan mij. Druppelt het ook bij droog weer, onder de ketel of bij een leiding, of zakt de druk van je ketel, bel dan je installateur. Twijfel je, stuur me een foto van de plek en vertel wanneer het nat wordt, dan zeg ik eerlijk wie je het beste kunt bellen.` },
+      { v: `De pijp van mijn ketel gaat door de muur, niet door het dak. Kan het dan ook lekken?`, a: `Dan zit het niet in het dak, en dan is het werk voor je installateur. Komt er bij jou een natte plek hoger in huis, op zolder of onder de pannen, dan kijk ik wel waar die vandaan komt.` },
+      { v: `Mijn ketel is net vervangen en nu lekt het bij de pijp. Wie lost het op?`, a: `Is er bij het vervangen ook een nieuwe pijp door het dak gegaan, meld het dan eerst bij de installateur die dat deed. Wat bij het werk niet goed is gegaan, hoort hij in de regel zelf op te lossen. Komt hij er niet uit, of zat de doorvoer er al, dan kijk ik op het dak waar het water binnenkomt.` },
+    ],
+  },
 ];
 
 // Kort antwoord bovenaan een artikel (zie KORT_ANTWOORD in artikelen-extra.ts). Geen bedragen met de hand.
@@ -192,4 +231,5 @@ export const KORT_ANTWOORD_3: Record<string, string> = {
   "lekt-sinds-nieuwe-dakgoot": `Wordt het nat sinds je dakgoot is vervangen, dan hangt de nieuwe goot vaak net lager of verder van de pannen, zodat het water erachter valt, of loopt hij niet goed af naar de regenpijp. Ook een uitloop die niet goed in de pijp valt of een naad die niet dicht is, kan het zijn. Meld het eerst bij wie de goot heeft opgehangen.`,
   "lekt-sinds-dakisolatie": `Wordt het nat sinds je dak is geïsoleerd, dan is het vaak condens: vocht uit huis dat achter de isolatie tegen het koude dak neerslaat, vooral na koude nachten. Is het alleen nat tijdens of na regen, op één vaste plek, dan is eerder een pan of de folie bij het werk geraakt, of valt een oud lek nu pas op. Meld het eerst bij het bedrijf dat isoleerde.`,
   "vochtplek-schoorsteen-binnen": `Een vochtplek op de schoorsteen in je kamer komt meestal van lood rond de schoorsteen dat los zit of gescheurd is, van regen die in een open kanaal zonder kap valt, of van condens en roet in het kanaal. Is het alleen nat na regen, dan komt het van buiten. Is de plek geel of bruin en ook bij droog weer nat, vooral als je stookt, laat dan eerst het kanaal nakijken.`,
+  "cv-ketel-lekt-bij-regen": `Druppelt het bij je cv-ketel of langs de pijp erboven alleen als het regent, dan komt het water meestal langs de doorvoer op het dak binnen: de kraag rond de pijp is uitgedroogd of gescheurd, of de doorvoerpan ligt niet meer goed. Is het ook nat bij droog weer, of zakt de druk van je ketel, dan zit het eerder in de ketel, het condenswater of een leiding, en bel je je installateur.`,
 };
