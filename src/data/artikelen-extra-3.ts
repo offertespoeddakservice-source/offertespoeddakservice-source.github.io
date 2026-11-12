@@ -95,6 +95,48 @@ export const ARTIKELEN_EXTRA_3: Artikel[] = [
       { v: `Is het spoed?`, a: `Loopt het water alleen buiten langs de gevel, dan meestal niet, al moet je het niet lang laten zitten. Wordt het binnen nat, bovenin de muur of rond een kozijn, of zit de plek bij een stopcontact, dan wel: bel of app me met een foto.` },
     ],
   },
+  {
+    slug: `lekt-sinds-dakisolatie`,
+    datum: `2026-11-12`,
+    titel: `Lekt het sinds je dak is geïsoleerd?`,
+    h1: `Nat op zolder sinds je dak is geïsoleerd: condens, een geraakte pan of een oud lek?`,
+    metaTitle: `Lekt het sinds je dak is geïsoleerd? | Spoed Dak Service`,
+    metaDescription: `Druppels of een natte plek sinds je dak is geïsoleerd? Vaak is het condens, een pan of folie die bij het werk is geraakt, of een oud lek dat nu pas opvalt.`,
+    intro: `Je dak is net geïsoleerd, en nu zie je druppels op zolder, een natte plek op de nieuwe platen of een vlek op het plafond. Dat is schrikken, want je wilde het huis juist beter maken. Meestal is het een van drie dingen: condens, een pan of de folie die bij het werk is geraakt, of een oud lek dat eerst niemand zag. Hieronder lees je hoe je die uit elkaar houdt en wie je belt.`,
+    secties: [
+      { kop: `Druppelt het nu? Eerst dit`, tekst: [
+        `Zet een emmer of handdoek onder de plek en haal spullen weg. Zit de natte plek bij een lamp of stopcontact, zet dan in de meterkast de groep van die kamer uit. Ga niet zelf het dak op. Maak een foto van de plek en schrijf op wanneer het nat werd: tijdens een bui, of na een koude, droge nacht. Wat je verder meteen kunt doen, staat op de <a href="/spoed/">spoedpagina</a>.`,
+      ] },
+      { kop: `Condens: vocht dat achter de isolatie neerslaat`, tekst: [
+        `Na het isoleren blijft de warmte beter binnen, en daardoor worden het hout en de folie aan de buitenkant van de isolatie kouder. Komt er warme, vochtige lucht uit het huis achter de isolatie, bijvoorbeeld langs een naad of een gat voor een lamp of leiding, dan slaat dat vocht neer tegen het koude dak en druppelt het terug. Dat zie je vooral na koude, heldere nachten, ook als het dagen droog is geweest, en vaak verspreid over een groter stuk. Lees ook <a href="/kennisbank/condens-of-lekkage-op-zolder/">condens of lekkage op zolder</a>.`,
+      ] },
+      { kop: `Een pan of de folie is bij het werk geraakt`, tekst: [
+        `Wordt er van binnenuit geïsoleerd, dan wordt er tegen het dak geschroefd en geniet. Een schroef die te lang is, kan door de folie gaan of een pan van onderen een stukje optillen. Wordt er van buitenaf geïsoleerd, dan gaan de pannen eraf en weer terug, en dan kan er een pan niet goed in de sluiting liggen of gebroken zijn. Dan wordt het nat tijdens of na regen, en steeds op dezelfde plek.`,
+      ] },
+      { kop: `Een oud lek dat nu pas opvalt`, tekst: [
+        `Soms lekte het al, maar zag niemand het. Een klein lek liep vroeger langs een balk en droogde op zolder weer op. Nu zit er isolatie tegen het dak: het water zakt in de isolatie en komt pas bij een naad van de platen of op het plafond naar buiten. Dan lijkt het nieuw, maar zit het lek bijvoorbeeld bij het lood van de schoorsteen of een dakraam.`,
+      ] },
+      { kop: `Zo zie je het verschil`, tekst: [
+        `Alleen nat tijdens of na regen, en steeds op dezelfde plek? Dan is het eerder een lek. Nat na een koude nacht, ook als het droog was, en op meer plekken tegelijk? Dan is het eerder condens. Zet met potlood een streep langs de rand van de vlek. Wordt hij na een bui groter, dan komt er water van buiten bij. Wordt hij groter na een koude, droge nacht, dan is het vocht van binnen.`,
+      ] },
+      { kop: `Wie bel je?`, tekst: [
+        `Is het isoleren net gedaan, meld het dan eerst bij het bedrijf dat het deed, met je foto's en de data erbij. Wat bij het werk is misgegaan, hoort dat bedrijf in de regel zelf op te lossen. Isoleren doe ik zelf niet. Komt het water van buiten, of komen jullie er samen niet uit, dan kijk ik op het dak waar het binnenkomt.`,
+      ] },
+      { kop: `Hoe ik het aanpak`, tekst: [
+        `Ik kijk eerst buiten naar de pannen boven de natte plek, de nok, het lood en de doorvoeren, en daarna binnen waar het water zit. Ligt er een pan scheef of is er een gebroken, dan leg ik hem goed of vervang ik hem. Zit het lek bij het lood of een doorvoer, dan maak ik dat dicht. Zie ik geen lek en wijst alles op condens, dan zeg ik dat eerlijk, want dat los je niet op het dak op. Is de isolatie nat geworden, lees dan <a href="/kennisbank/isolatie-nat-na-lekkage/">natte isolatie na een lekkage</a>.`,
+      ] },
+      { kop: `Wat kost het?`, tekst: [
+        `Een lek opsporen en dichtmaken kost bij mij ${inclBtw("daklekkage")}, inclusief het zoeken en het materiaal. Is het alleen een pan die verschoven of gebroken is, dan kost dat ${inclBtw("dakpan")}. Stuur een foto van de natte plek en van je dak vanaf de straat via WhatsApp, dan hoor je vooraf wat het kost.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: daklekkage & spoed`, href: `/diensten/daklekkage/` },
+    faq: [
+      { v: `Kan isoleren een lek veroorzaken?`, a: `Het isoleren zelf niet, maar bij het werk kan een pan of de folie geraakt worden. En als warme lucht uit huis achter de isolatie komt, kan er condens ontstaan die op een lek lijkt. Kijk dus eerst wanneer het nat wordt: na regen, of na een koude nacht.` },
+      { v: `Moet de nieuwe isolatie eruit als hij nat is?`, a: `Niet altijd. Is hij op één plek kort nat geweest en is de oorzaak opgelost, dan kan die plek vaak drogen. Is hij lang of flink nat geweest, dan is het vaak beter om dat stuk te vervangen. Laat dat beoordelen door het bedrijf dat de isolatie heeft aangebracht.` },
+      { v: `Is het spoed?`, a: `Druppelt het binnen, of zit de natte plek bij een lamp of stopcontact, dan wel: bel of app me met een foto. Gaat het om een paar druppels na een koude nacht en droogt het weer op, dan is het meestal geen spoed, maar laat het wel nakijken.` },
+      { v: `Isoleer jij ook daken?`, a: `Nee, isoleren doe ik niet. Ik zorg wel dat je dak dicht is, en dat is ook verstandig om te laten nakijken voordat er geïsoleerd wordt. Op een dak dat water doorlaat, wordt isolatie nat.` },
+    ],
+  },
 ];
 
 // Kort antwoord bovenaan een artikel (zie KORT_ANTWOORD in artikelen-extra.ts). Geen bedragen met de hand.
@@ -106,4 +148,5 @@ export const KORT_ANTWOORD_3: Record<string, string> = {
   "dakterras-lekt": `Bij een lekkend dakterras of balkon komt het water meestal binnen rond de afvoer, onder de dorpel van de terrasdeur, langs de muur of bij de schroeven van een hek. Kijk na een bui waar water op de tegels blijft staan en of de afvoer vrij is. Voor de reparatie gaan meestal alleen op die plek de tegels eraf.`,
   "hoekkeper-lekt": `Lekt het bij de schuine nok van je schilddak, de hoekkeper, dan zit het meestal in een vorst die los ligt omdat de specie eronder op is, in een gebroken vorst of in een schuin gezaagde pan naast de lijn die is gaan schuiven. Het water loopt eerst langs de schuine balk naar beneden, dus de natte plek op zolder zit vaak lager dan het lek.`,
   "lekt-sinds-nieuwe-dakgoot": `Wordt het nat sinds je dakgoot is vervangen, dan hangt de nieuwe goot vaak net lager of verder van de pannen, zodat het water erachter valt, of loopt hij niet goed af naar de regenpijp. Ook een uitloop die niet goed in de pijp valt of een naad die niet dicht is, kan het zijn. Meld het eerst bij wie de goot heeft opgehangen.`,
+  "lekt-sinds-dakisolatie": `Wordt het nat sinds je dak is geïsoleerd, dan is het vaak condens: vocht uit huis dat achter de isolatie tegen het koude dak neerslaat, vooral na koude nachten. Is het alleen nat tijdens of na regen, op één vaste plek, dan is eerder een pan of de folie bij het werk geraakt, of valt een oud lek nu pas op. Meld het eerst bij het bedrijf dat isoleerde.`,
 };
