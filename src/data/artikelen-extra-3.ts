@@ -137,6 +137,48 @@ export const ARTIKELEN_EXTRA_3: Artikel[] = [
       { v: `Isoleer jij ook daken?`, a: `Nee, isoleren doe ik niet. Ik zorg wel dat je dak dicht is, en dat is ook verstandig om te laten nakijken voordat er geïsoleerd wordt. Op een dak dat water doorlaat, wordt isolatie nat.` },
     ],
   },
+  {
+    slug: `vochtplek-schoorsteen-binnen`,
+    datum: `2026-11-12`,
+    titel: `Vochtplek op je schoorsteen binnen?`,
+    h1: `Vochtplek of vlek op de schoorsteen in je kamer: lood, regen in het kanaal of condens?`,
+    metaTitle: `Vochtplek op je schoorsteen binnen? | Spoed Dak Service`,
+    metaDescription: `Een natte plek, een bruine vlek of bladderende verf op de schoorsteen in je kamer? Vaak zit het in het lood, in regen die in het kanaal valt of in condens.`,
+    intro: `Op de schoorsteen in je woonkamer of slaapkamer verschijnt een natte plek, een gele of bruine vlek, of de verf en het behang laten los. Dat is vreemd, want de schoorsteen loopt helemaal door tot boven het dak. Het water kan op een paar plekken binnenkomen, en niet altijd is dat werk voor een dakdekker. Hieronder lees je hoe je het verschil ziet en wie je belt.`,
+    secties: [
+      { kop: `Is het nu nat? Eerst dit`, tekst: [
+        `Haal spullen weg van de muur en leg een handdoek op de grond als het druppelt. Stook de kachel of haard niet als er water in komt. Maak een foto van de plek en kijk, als het veilig kan, ook op zolder naar de schoorsteen. Wat je verder meteen kunt doen, staat op de <a href="/spoed/">spoedpagina</a>.`,
+      ] },
+      { kop: `Het lood rond de schoorsteen op het dak`, tekst: [
+        `Waar de schoorsteen door de pannen komt, ligt lood of loodvervanger. Scheurt dat of komt het los, dan loopt het regenwater langs de stenen naar beneden. Vaak zie je het eerst op zolder, als een natte plek op of naast de schoorsteen. Maar het water kan in de muur ook verder zakken en pas een verdieping lager in de kamer naar buiten komen. Is de schoorsteen op zolder ook nat na regen, dan is het lood een sterke kandidaat. Lees ook <a href="/kennisbank/lood-op-dak/">lood op je dak</a> en <a href="/kennisbank/lekkage-bij-schoorsteen/">lekkage bij de schoorsteen</a>.`,
+      ] },
+      { kop: `Regen die in een open kanaal valt`, tekst: [
+        `Staat er geen kap of afdekplaat op een kanaal dat je niet meer gebruikt, dan valt er bij elke bui regen in. Dat trekt in de binnenkant van het kanaal en komt na een paar dagen naar buiten als een vochtige of bruine plek op de schoorsteen in de kamer. Zie <a href="/kennisbank/schoorsteen-afdekken/">schoorsteen afdekken</a>. Komt het water in een haard die je nog gebruikt, lees dan <a href="/kennisbank/schoorsteen-lekt-open-haard/">water in je open haard</a>.`,
+      ] },
+      { kop: `Condens en roet in het kanaal`, tekst: [
+        `Is er een kachel, haard of ketel op het kanaal aangesloten, dan kan de warme, vochtige rook in een koud kanaal afkoelen. Het vocht slaat dan neer, en met roet erin geeft dat gele of bruine vlekken die door de muur heen komen, soms met een vieze lucht. Dat gebeurt ook bij droog weer, vooral als je stookt. Dat los je niet op het dak op: laat het kanaal nakijken door een schoorsteenveger of je installateur.`,
+      ] },
+      { kop: `De stenen of voegen van de schoorsteen`, tekst: [
+        `Boven het dak staat de schoorsteen in weer en wind. Zijn de stenen of de voegen poreus geworden, dan trekt er bij slagregen water in. Aan de stenen werk ik niet. Zie ik dat het daar zit, dan zeg ik dat eerlijk, zodat je er een metselaar naar kunt laten kijken.`,
+      ] },
+      { kop: `Zo zie je het verschil`, tekst: [
+        `Alleen nat na regen, of na regen met harde wind uit één richting? Dan zit het eerder in het lood, een open kanaal of de stenen. Ook nat of vlekkerig als het droog is, vooral als je stookt, en geel of bruin van kleur? Dan is het eerder condens of roet in het kanaal. Kijk ook op zolder: is de schoorsteen daar nat aan de kant van de pannen, dan komt het van buiten.`,
+      ] },
+      { kop: `Hoe ik het aanpak`, tekst: [
+        `Ik kijk op het dak naar het lood rond de schoorsteen, de pannen eromheen en de bovenkant van het kanaal, en op zolder waar de schoorsteen nat is. Los lood zet ik weer vast, gescheurd lood vervang ik, meestal met loodvervanger en op wens met echt lood. Staat een kanaal dat je niet meer gebruikt open, dan kan er een kap of afdekplaat op die het kanaal laat ademen. Zie <a href="/diensten/lood-vervangen/">lood vervangen</a>.`,
+      ] },
+      { kop: `Wat kost het?`, tekst: [
+        `Dat hangt af van wat er mis is: lood vastzetten, nieuw lood of een kap op het kanaal. Stuur een foto van de schoorsteen vanaf de straat en van de plek binnen via WhatsApp, dan hoor je vooraf wat het kost.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: lood vervangen`, href: `/diensten/lood-vervangen/` },
+    faq: [
+      { v: `De plek droogt niet op, ook niet na een paar droge weken. Wat is dat?`, a: `Dan is het vaak vocht dat nog in de stenen zit, of condens en roet in het kanaal. Stenen drogen langzaam, soms duurt dat weken. Wordt de plek na regen weer natter, dan komt er nog water van buiten bij. Blijft hij gelijk of wordt hij bruiner als je stookt, laat dan het kanaal nakijken.` },
+      { v: `Kan ik de vlek gewoon overschilderen?`, a: `Pas als de oorzaak weg is en de muur droog is. Verf je eroverheen terwijl er nog vocht in zit, dan komt de vlek terug of gaat de verf bladderen.` },
+      { v: `Is een natte schoorsteen binnen spoed?`, a: `Meestal niet, tenzij het druppelt of de plek bij een stopcontact of lamp zit. Zet dan de groep uit en bel of app me met een foto. Een vochtplek die langzaam groter wordt, laat je wel op korte termijn nakijken, want natte stenen en balken worden er niet beter van.` },
+      { v: `Mijn buren hebben dezelfde schoorsteen. Kan het van hun kant komen?`, a: `Dat kan. Staat de schoorsteen op de muur tussen jullie huizen, dan kan het lood of het kanaal aan hun kant de oorzaak zijn. Lees daarover lekkage bij een gedeelde schoorsteen in de kennisbank.` },
+    ],
+  },
 ];
 
 // Kort antwoord bovenaan een artikel (zie KORT_ANTWOORD in artikelen-extra.ts). Geen bedragen met de hand.
@@ -149,4 +191,5 @@ export const KORT_ANTWOORD_3: Record<string, string> = {
   "hoekkeper-lekt": `Lekt het bij de schuine nok van je schilddak, de hoekkeper, dan zit het meestal in een vorst die los ligt omdat de specie eronder op is, in een gebroken vorst of in een schuin gezaagde pan naast de lijn die is gaan schuiven. Het water loopt eerst langs de schuine balk naar beneden, dus de natte plek op zolder zit vaak lager dan het lek.`,
   "lekt-sinds-nieuwe-dakgoot": `Wordt het nat sinds je dakgoot is vervangen, dan hangt de nieuwe goot vaak net lager of verder van de pannen, zodat het water erachter valt, of loopt hij niet goed af naar de regenpijp. Ook een uitloop die niet goed in de pijp valt of een naad die niet dicht is, kan het zijn. Meld het eerst bij wie de goot heeft opgehangen.`,
   "lekt-sinds-dakisolatie": `Wordt het nat sinds je dak is geïsoleerd, dan is het vaak condens: vocht uit huis dat achter de isolatie tegen het koude dak neerslaat, vooral na koude nachten. Is het alleen nat tijdens of na regen, op één vaste plek, dan is eerder een pan of de folie bij het werk geraakt, of valt een oud lek nu pas op. Meld het eerst bij het bedrijf dat isoleerde.`,
+  "vochtplek-schoorsteen-binnen": `Een vochtplek op de schoorsteen in je kamer komt meestal van lood rond de schoorsteen dat los zit of gescheurd is, van regen die in een open kanaal zonder kap valt, of van condens en roet in het kanaal. Is het alleen nat na regen, dan komt het van buiten. Is de plek geel of bruin en ook bij droog weer nat, vooral als je stookt, laat dan eerst het kanaal nakijken.`,
 };
