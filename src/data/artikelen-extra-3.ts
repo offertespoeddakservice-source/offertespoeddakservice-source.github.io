@@ -380,6 +380,45 @@ export const ARTIKELEN_EXTRA_3: Artikel[] = [
       { v: `Is een kapotte regenpijp spoed?`, a: `Meestal niet, zolang het water buiten langs de gevel loopt. Wordt het binnen nat, bijvoorbeeld bij een regenpijp die binnen in de muur zit, dan wel: stuur me meteen een foto van de natte plek.` },
     ],
   },
+  {
+    slug: `wachten-op-dakdekker-na-storm`,
+    datum: `2026-11-13`,
+    titel: `Na een storm wachten op een dakdekker?`,
+    h1: `Na een storm geen dakdekker te krijgen? Zo houd je het droog tot er iemand komt`,
+    metaTitle: `Wachten op een dakdekker na storm? | Spoed Dak Service`,
+    metaDescription: `Na een zware storm hebben dakdekkers het druk. Zo houd je het binnen droog, dit laat je beter, dit stuur je mee en zo hoor je wanneer er iemand komt.`,
+    intro: `Na een zware storm gaat bij veel dakdekkers tegelijk de telefoon. Iedereen wil zijn dak het liefst vandaag nog dicht hebben, en er zijn maar een paar handen. Dat betekent niet dat je niets kunt doen. Hieronder lees je hoe je binnen zo veel mogelijk droog houdt, wat je beter laat, hoe je je vraag zo duidelijk maakt dat er snel naar gekeken kan worden, en welk dak meestal als eerste aan de beurt is.`,
+    secties: [
+      { kop: `Eerst: veilig`, tekst: [
+        `Blijf bij harde wind uit de buurt van de kant van het huis waar pannen of een losse goot naar beneden kunnen komen, en zet die plek af als er mensen langslopen. Ga niet zelf het dak op en zet geen ladder tegen de goot, ook niet als het even droog is. Pannen, lood en goten zitten na een storm vaak losser dan je van beneden ziet. Hangt er iets los boven de stoep of de straat en kan het elk moment vallen, bel dan 112.`,
+      ] },
+      { kop: `Binnen droog houden`, tekst: [
+        `Zet een emmer of bak onder elke druppel en leg er een doek in, dan spat het minder. Haal spullen weg en leg handdoeken of plastic op de vloer. Zit de natte plek bij een lamp, een spotje of een stopcontact, zet dan in de meterkast de groep van die kamer uit. Kun je veilig op zolder komen, kijk dan waar het water binnenkomt en zet ook daar een bak neer, dan loopt er minder door naar het plafond eronder. Bolt het plafond op, lees dan <a href="/kennisbank/plafond-bolt-op-door-lekkage/">plafond bolt op door lekkage</a>.`,
+      ] },
+      { kop: `Wat je beter laat`, tekst: [
+        `Leg geen stenen of tegels op een losse pan of op een plat dak, want bij de volgende windstoot gaan ze zelf schuiven. Smeer geen kit op een nat dak: dat houdt niet en het maakt de reparatie later lastiger. En zeg niet meteen ja tegen iemand die na de storm aanbelt en zegt dat je hele dak vandaag nog moet. Lees daarover <a href="/kennisbank/dakdekker-aan-de-deur/">er belt een dakdekker aan</a>.`,
+      ] },
+      { kop: `Zo maak je je vraag duidelijk`, tekst: [
+        `Hoe meer een dakdekker vooraf ziet, hoe sneller hij weet hoe dringend het is en wat hij mee moet nemen. Stuur daarom in één bericht een foto van de natte plek binnen, een of twee foto's van je dak vanaf de overkant van de straat, gemaakt met de zoom van je telefoon, je adres, en of het nu druppelt of alleen nat is geweest. Zeg erbij of er een pan, een nokvorst of een stuk goot op straat of in de tuin ligt. Een paar zinnen en goede foto's zeggen vaak meer dan een lang telefoongesprek.`,
+      ] },
+      { kop: `Welk dak gaat eerst?`, tekst: [
+        `Na een storm gaat bij mij een dak voor waar het binnen nat wordt of dat open ligt: een gat waar pannen of een nokvorst zijn weggewaaid, een losgewaaide dakbedekking of een goot die los boven de stoep hangt. Ligt er een pan scheef terwijl het binnen droog blijft, dan kan dat meestal een paar dagen wachten, en dat zeg ik je dan eerlijk. Zo kan ik eerst de daken dichtmaken waar het water nu naar binnen loopt. Wanneer ik bij jou kan komen, hoor je als je een foto stuurt.`,
+      ] },
+      { kop: `Eerst dicht, daarna netjes`, tekst: [
+        `Ligt je dak open, dan maak ik het eerst dicht of dek ik het af, zodat het binnen droog blijft. Vaak kan ik het daarna meteen goed maken. Moet er een pan besteld worden die bij je dak past, of is het te nat of waait het te hard voor lood of dakbedekking, dan kom ik voor de nette reparatie terug op een droge dag. Je hoort vooraf wat het kost. Zie <a href="/diensten/stormschade/">stormschade aan je dak</a>.`,
+      ] },
+      { kop: `En je verzekering?`, tekst: [
+        `Meld de schade zo snel mogelijk bij je verzekeraar en maak foto's voordat er iets wordt opgeruimd of gemaakt. Veel verzekeraars vragen je om verdere schade te beperken, bijvoorbeeld door water op te vangen of een gat tijdelijk te laten afdekken, en vergoeden de kosten daarvan vaak, maar dat verschilt per polis. Bewaar de bonnetjes van wat je daarvoor koopt. Ik maak foto's van wat ik aantref en van de reparatie, met een korte omschrijving, die je kunt meesturen. Lees ook <a href="/kennisbank/stormschade-eerste-hulp/">stormschade: eerste hulp</a> en <a href="/kennisbank/daklekkage-verzekering/">daklekkage en je verzekering</a>.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: stormschade aan je dak`, href: `/diensten/stormschade/` },
+    faq: [
+      { v: `Hoe lang moet ik na een storm wachten op een dakdekker?`, a: `Dat hangt af van hoe zwaar de storm was en hoeveel daken er tegelijk schade hebben. Na een gewone harde wind gaat het vaak vlot, na een zware storm is het overal drukker. Stuur meteen foto's en zeg of het binnen nat wordt, dan hoor je eerlijk wanneer ik kan komen. Lekt het binnen, vang het water dan op en houd de natte plek in de gaten.` },
+      { v: `Mag ik zelf een zeil over het gat leggen?`, a: `Niet vanaf het dak. Op een nat, schuin dak bij wind is dat te gevaarlijk, en een zeil dat niet goed vastligt, waait weg of trekt nog meer pannen los. Kun je veilig op zolder komen, dan kun je daar wel een bak neerzetten of plastic leggen onder de plek waar het water binnenkomt. Het afdekken aan de buitenkant laat je doen.` },
+      { v: `Kan ik intussen gewoon in huis blijven?`, a: `Meestal wel. Houd de stroom uit in de kamer waar het bij een lamp of stopcontact nat is, en blijf weg onder een plafond dat opbolt of doorhangt. Dreigt er iets in te storten of naar beneden te vallen, bel dan 112.` },
+      { v: `Kan ik je ook 's avonds of in het weekend een foto sturen?`, a: `Ja, bellen en WhatsApp kan dag en nacht. Stuur je foto's gewoon meteen, ook 's avonds. Dan hoor je wat ik zie en wanneer ik kan komen.` },
+    ],
+  },
 ];
 
 // Kort antwoord bovenaan een artikel (zie KORT_ANTWOORD in artikelen-extra.ts). Geen bedragen met de hand.
@@ -404,4 +443,5 @@ export const KORT_ANTWOORD_3: Record<string, string> = {
   "nieuw-dak-lekt": `Lekt je dak terwijl het nieuw is, meld het dan eerst bij wie het heeft gemaakt: de aannemer bij een nieuwbouwhuis, of de dakdekker die je dak heeft vernieuwd. Leg het vast met foto's, een filmpje en de datum, en vang het water ondertussen op. Vaak zit het bij een aansluiting die net niet goed is afgewerkt.`,
   "lekkage-huurhuis": `Lekt het dak van je huurhuis, vang het water dan op, maak foto's en meld het meteen bij je verhuurder of woningcorporatie, het liefst schriftelijk. In de regel is het dak de zaak van de verhuurder, en die regelt de reparatie. Schade aan je eigen spullen valt meestal onder je eigen inboedelverzekering. Woon je in een appartement, dan regelt meestal de VvE het dak.`,
   "welke-dakpan-heb-ik": `Kijk naar drie dingen: het materiaal (gebakken klei of beton), de vorm en de kleur. Op zolder staat op de achterkant van een pan vaak een naam of nummer van de fabriek. Stuur een foto van je dak vanaf de straat en, als het kan, van de achterkant van een pan, dan zoek ik een pan die past.`,
+  "wachten-op-dakdekker-na-storm": `Na een zware storm hebben dakdekkers het druk. Houd intussen binnen zo veel mogelijk droog: een emmer onder elke druppel, spullen weg en de stroom uit bij een natte lamp of stopcontact. Ga niet zelf het dak op en leg geen stenen op losse pannen. Stuur foto's van binnen en van je dak vanaf de straat, en zeg of het nu druppelt: een dak dat open ligt of waar het binnen nat wordt, gaat meestal voor.`,
 };
