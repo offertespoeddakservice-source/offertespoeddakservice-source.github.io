@@ -459,6 +459,9 @@ export const FAQ_ERBIJ_2: Record<string, Artikel["faq"]> = {
   "dakgoot-hangt-door": [
     { v: `Mijn goot hangt door sinds de schilder of de glazenwasser er een ladder tegen heeft gezet. Wat nu?`, a: `Dan is er vaak een beugel verbogen of een stuk goot uit zijn beugel gedrukt. Maak een foto van de plek, het liefst tijdens of vlak na een bui, zodat je ziet waar het water blijft staan. Is het werk net gedaan, meld het dan eerst bij de schilder of de glazenwasser. Komt het daar niet goed, of wil je dat ik het herstel, stuur me de foto dan via WhatsApp. Meestal is het genoeg om de beugel recht te zetten of te vervangen en de goot weer op afschot naar de regenpijp te hangen. Is de goot op die plek geknikt of gescheurd, dan vervang ik dat stuk. Zet zelf geen ladder tegen de goot om hem terug te duwen. Je hoort vooraf wat het kost.` },
   ],
+  "lekkage-bij-kachelpijp": [
+    { v: `Mijn houtkachel is pas geplaatst en nu lekt het langs de pijp. Wie lost dat op?`, a: `Bel eerst de kachelzaak of de installateur die de kachel en de pijp heeft geplaatst. Het gat in het dak en de kraag rond de pijp horen bij dat werk, en een lek dat kort na het plaatsen begint, hoort het bedrijf in de regel zelf te herstellen. Noteer wanneer het voor het eerst nat werd, en maak foto's van de natte plek en van de pijp op het dak vanaf de straat. Wordt het daar niet opgelost, of is de kachel al jaren geleden geplaatst, stuur mij die foto's dan via WhatsApp. Dan kijk ik naar de slab of doorvoerpan, de kraag en de pannen eromheen. Je hoort vooraf wat het kost.` },
+  ],
 };
 
 // Artikelen en korte antwoorden uit artikelen-extra-3.ts (sinds 12-11-2026) erachter, zodat ze via artikelen-extra.ts in ARTIKELEN en KORT_ANTWOORD komen.
