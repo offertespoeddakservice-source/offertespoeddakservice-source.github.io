@@ -580,6 +580,7 @@ export const DIENSTEN: Dienst[] = [
     zieOok: [
       { label: "Daklekkage opsporen en repareren", href: "/diensten/daklekkage/" },
       { label: "Dakreparatie", href: "/diensten/dakreparatie/" },
+      { label: "Lekkend dakraam repareren", href: "/diensten/dakraam-lekkage/" },
     ],
     intro:
       "Waar je dak tegen iets aan komt, een schoorsteen, een muur of een dakraam, ligt lood. Dat lood zorgt dat het water over de pannen wegloopt. Na jaren gaat het scheuren, krult het omhoog of komt het los. Dan loopt het water erachter en zie je binnen een natte plek. Ik zet het lood weer vast of vervang het.",
@@ -598,6 +599,40 @@ export const DIENSTEN: Dienst[] = [
       { v: "Het lekt bij mijn schoorsteen alleen als het hard waait en regent. Is het dan het lood?", a: "Vaak wel. Bij regen met harde wind uit één richting slaat het water tegen de schoorsteen en waait het achter lood dat een stukje los staat, omhoog is gekruld of uit de voeg is gekomen. Bij gewone regen blijft het dan droog. Kijk na zo'n bui op zolder aan welke kant van de schoorsteen het nat is: aan de kant van de goot, langs een zijkant of aan de kant van de nok. Dat zegt vaak al welk stuk lood het is. Soms zit het in de stenen of de voegen zelf, en dat zeg ik dan eerlijk, want metselwerk doe ik niet. Stuur me een foto van de schoorsteen vanaf de straat en van de natte plek, dan hoor je vooraf wat het kost." },
       { v: "Er is lood van mijn dak gestolen. Kun je dat vervangen?", a: "Ja. Ontbreekt er lood rond de schoorsteen, langs een muur of onder een dakraam, dan ligt je dak daar open en loopt het water bij de volgende bui naar binnen. Lekt het al, dan maak ik de plek eerst dicht. Daarna leg ik nieuwe stroken en leg ik de pannen eromheen weer goed. Meestal neem ik loodvervanger, want dat is voor dieven niet interessant. Wil je liever echt lood, dan kan dat ook. Maak foto's van de plek voordat ik begin en doe aangifte, want daar vraagt je verzekeraar vaak om. Stuur me een foto vanaf de straat, dan hoor je vooraf wat het kost." },
       { v: "Het lekt boven mijn erker of bij de luifel boven de voordeur. Is dat ook lood?", a: "Vaak wel. Waar het dakje van een erker of luifel tegen de gevel zit, ligt een strook lood of zink die met de bovenrand in de muur vastzit en over het dakje valt. Komt die bovenrand los of scheurt de strook in een hoek, dan loopt het water van de gevel erachter naar binnen, en dat zie je boven het raam of naast de deur. Zit de strook los, dan zet ik hem weer vast in de muur. Is hij op, dan vervang ik hem, meestal met loodvervanger en op wens met echt lood. Is het dakje zelf lek of zit het gootje vol, dan kijk ik daar meteen ook naar. Stuur me een foto van het dakje vanaf de straat, dan hoor je vooraf wat het kost." },
+    ],
+  },
+  {
+    slug: "dakraam-lekkage",
+    titel: "Dakraam lekkage",
+    vanafPrijs: "stuur een foto",
+    h1: "Lekkend dakraam repareren: de aansluiting op je dak weer dicht",
+    kort: "Lekt het bij je dakraam? Meestal zit het in het gootstuk, het lood of een pan ernaast, en die aansluiting maak ik weer dicht.",
+    metaTitle: "Dakraam lekt? Lekkage dakraam repareren | Spoed Dak Service",
+    metaDescription:
+      "Lekt het bij je dakraam? Meestal zit het in het gootstuk, het lood of een pan ernaast, niet in het raam zelf. Ik maak de aansluiting weer dicht. Stuur een foto.",
+    icoon: "🪟",
+    geenAfbeelding: true,
+    zieOok: [
+      { label: "Dakraam lekt: zo herken je het", href: "/kennisbank/dakraam-lekt/" },
+      { label: "Lood vervangen", href: "/diensten/lood-vervangen/" },
+      { label: "Daklekkage opsporen en repareren", href: "/diensten/daklekkage/" },
+    ],
+    intro:
+      "Lekt het bij je dakraam, dan zit het water zelden in het raam zelf. Meestal komt het binnen in de aansluiting tussen het raam en je dak: het gootstuk onder het raam, de stroken langs de zijkanten, het stuk boven het raam of een pan ernaast die niet meer goed aansluit. Ik zoek waar het water binnenkomt en maak die aansluiting weer dicht, zodat het raam er meestal gewoon in kan blijven.",
+    punten: [
+      "Lek rond het dakraam opgespoord, van buiten en op zolder",
+      "Gootstuk, lood of loodvervanger rond het raam vastgezet of vervangen",
+      "Pannen naast en boven het raam goed gelegd of vervangen",
+      "Blad en vuil boven het raam weggehaald, zodat het water weer om het raam heen loopt",
+    ],
+    faq: [
+      { v: "Wat kost het om een lekkend dakraam te laten repareren?", a: `Zit het lek in de aansluiting rond het raam, dan is het meestal een gerichte lekreparatie: ${inclBtw("daklekkage")}, inclusief het zoeken en het materiaal. Moet er rond het raam nieuw lood of loodvervanger komen, dan hoor je de prijs als je een foto hebt gestuurd. Je weet wat het kost voordat ik begin.` },
+      { v: "Moet mijn dakraam eruit als het lekt?", a: "Meestal niet. Vaak zit het in het gootstuk, het lood of een pan naast het raam, en dat herstel ik zonder dat het raam eruit hoeft. Is het hout van het kozijn zacht, of zit er een barst in het glas, dan zeg ik eerlijk dat het raam zelf op is. Dan hoor je wat de mogelijkheden zijn." },
+      { v: "Hoe weet ik of het lekt of dat het condens is?", a: "Druppels op het glas of de vensterbank op koude ochtenden, ook als het droog is geweest, zijn meestal condens. Wordt het alleen nat tijdens of na regen, en vooral aan de bovenkant of langs de zijkanten van de betimmering, dan is het eerder een lek. Maak een foto als je het ziet en zeg erbij wat voor weer het was." },
+      { v: "Het lekt alleen bij harde regen met wind. Hoe kan dat?", a: "Dan komt het water binnen op een plek die bij gewone regen droog blijft. Harde wind blaast de regen onder een strook langs de zijkant, of onder een pan naast het raam die een klein stukje omhoog staat. Ligt er boven het raam blad of mos, dan kan het water ook opzij onder de pannen worden gestuurd. Ik kijk gericht op die plekken, ook als het op dat moment droog is." },
+      { v: "Bij de storm is mijn dakraam opengewaaid of staat het scheef. Wat nu?", a: "Doe het raam van binnen dicht als dat veilig kan, en ga niet het dak op. Maak een foto van binnen en vanaf de straat. Kan het niet meer dicht of komt er regen binnen, bel of app me dan. Ik zorg eerst dat het binnen droog blijft, en kijk daarna of de aansluiting en de pannen rond het raam weer goed liggen. Is een scharnier of het glas kapot, dan hoor je eerlijk dat er een onderdeel of een nieuw raam nodig is. Wat ik doe en wat het kost, hoor je vooraf." },
+      { v: "Is een lekkend dakraam spoed?", a: "Druppelt het binnen, of zit de natte plek bij een lamp of stopcontact, dan wel: zet er een emmer onder, zet zo nodig de groep in de meterkast uit en bel of app me met een foto. Is het een vlek die na de bui weer opdroogt, dan kan het vaak een paar dagen wachten." },
+      { v: "Het gaat om een raam in een plat dak. Doe je dat ook?", a: "Een raam in een plat dak is meestal een lichtkoepel of lichtstraat. Lekt het daar, dan zit het vaak in de aansluiting op de dakbedekking. Stuur een foto, dan kijk ik mee. In de kennisbank lees je meer over een lekkende lichtkoepel." },
     ],
   },
   {
