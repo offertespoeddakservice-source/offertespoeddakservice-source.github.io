@@ -489,6 +489,9 @@ export const FAQ_ERBIJ_2: Record<string, Artikel["faq"]> = {
   "golfplaten-lekken": [
     { v: `Kun je oude golfplaten op mijn schuur of carport vervangen door nieuwe platen?`, a: `Ja. Zijn de platen bros, gescheurd of lekken ze op veel plekken, dan haal ik ze eraf en schroef ik nieuwe platen op de balken, met genoeg overlap en nieuwe schroeven. Ik kijk dan meteen of de balken eronder nog stevig zijn. Zijn je oude platen grijs en van voor 1994, laat ze dan eerst onderzoeken op asbest. In platen met asbest boor of zaag ik niet, die moeten volgens de regels worden weggehaald. Stuur een foto van het dak en, als het kan, van de binnenkant, dan hoor je vooraf wat het kost.` },
   ],
+  "water-uit-lamp-plafond": [
+    { v: `Er komt water uit mijn lamp, maar op zolder of boven is alles droog. Hoe kan dat?`, a: `Dan komt het water vaak van opzij. In huizen met betonnen vloeren lopen de stroomdraden door buizen in het beton. Water dat ergens anders binnenkomt, bijvoorbeeld bij een platte aanbouw, een balkon of dakterras of langs een kozijn, kan door zo'n buis een eind meelopen en komt pas bij de lamp of een spotje naar buiten. Ook een leiding of de afvoer van een badkamer erboven kan het zijn, en in een appartement de woning boven je. Laat de groep in de meterkast uit staan. Let op wanneer het druppelt: alleen tijdens of na regen wijst naar buiten, ook bij droog weer eerder naar een leiding, en dan bel je een loodgieter. Stuur me een foto van de lamp en van wat er boven en naast die kamer zit, dan zeg ik eerlijk of het bij mij hoort.` },
+  ],
 };
 
 // Artikelen en korte antwoorden uit artikelen-extra-3.ts (sinds 12-11-2026) erachter, zodat ze via artikelen-extra.ts in ARTIKELEN en KORT_ANTWOORD komen.
