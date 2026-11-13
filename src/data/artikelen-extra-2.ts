@@ -507,6 +507,9 @@ export const FAQ_ERBIJ_2: Record<string, Artikel["faq"]> = {
   "zinken-dakgoot-lekt": [
     { v: `Kan ik een lekke naad in mijn zinken dakgoot zelf solderen?`, a: `Liever niet, tenzij je het vak kent. Solderen lukt alleen op zink dat helemaal schoon, droog en vetvrij is, en je werkt met een hete soldeerbout vlak bij het hout van de dakrand en de gootlijst. Op een ladder bij een goot op hoogte gaat dat makkelijk mis. Een likje kit uit de bouwmarkt houdt het vaak maar kort, en die kit moet er weer helemaal af voordat de naad goed gesoldeerd kan worden. Maak tijdens een bui een foto van de plek waar het druppelt en stuur die via WhatsApp. Is het zink rond de naad nog goed, dan is opnieuw solderen meestal genoeg. Je hoort vooraf wat het kost.` },
   ],
+  "daklekkage-verzekering": [
+    { v: `Moet ik de rekening van de dakdekker eerst zelf betalen?`, a: `Meestal wel. Bij de meeste verzekeringen betaal je de reparatie zelf en stuur je daarna de rekening met foto's naar je verzekeraar. Soms regelt de verzekeraar het herstel zelf, of betaalt hij de vakman rechtstreeks, maar dat verschilt per verzekeraar en per polis. Vraag het na voordat de reparatie begint, zeker bij een grotere klus. Van mij krijg je foto's van wat ik aantrof en van de reparatie, met een korte omschrijving, die je kunt meesturen. Wat er vergoed wordt, beslist je verzekeraar.` },
+  ],
 };
 
 // Artikelen en korte antwoorden uit artikelen-extra-3.ts (sinds 12-11-2026) erachter, zodat ze via artikelen-extra.ts in ARTIKELEN en KORT_ANTWOORD komen.
