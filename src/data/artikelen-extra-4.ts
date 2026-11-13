@@ -172,6 +172,50 @@ export const ARTIKELEN_EXTRA_4: Artikel[] = [
       { v: `Kan ik de kier rond mijn nieuwe dakraam zelf dichtkitten?`, a: `Liever niet. Rond een dakraam zit de aansluiting juist zo dat het water er langs kan weglopen. Kit je daar iets dicht, dan blijft het water op de verkeerde plek staan, en moet de kit er later weer af. Zet een bak onder de druppel en stuur een foto, dan zeg ik wat ik zie.` },
     ],
   },
+  {
+    slug: `schuin-dak-aanbouw-lekt`,
+    datum: `2026-11-13`,
+    titel: `Lekt het schuine dakje van je aanbouw?`,
+    h1: `Schuin dakje van je aanbouw lekt bij de muur: waar zit het?`,
+    metaTitle: `Schuin dak aanbouw lekt bij de muur? | Spoed Dak Service`,
+    metaDescription: `Heeft je aanbouw, keuken of bijkeuken een schuin dakje met pannen tegen het huis? Lekt het bovenaan bij de muur, dan zit het vaak in de loodslab. Zo zie je het.`,
+    intro: `Niet elke aanbouw heeft een plat dak. Bij veel huizen staat achter een keuken, bijkeuken of berging met een schuin dakje van pannen, dat met de hoge kant tegen de gevel van het huis ligt. Zo'n dak met één schuin vlak heet ook wel een lessenaarsdak. Lekt het daar, dan zie je binnen meestal een natte plek bovenaan, waar het dakje tegen de muur komt. Hieronder lees je hoe zo'n dakje in elkaar zit, waar het meestal lekt en wat eraan te doen is.`,
+    secties: [
+      { kop: `Lekt het nu? Eerst dit`, tekst: [
+        `Zet een emmer of bak onder de druppel en schuif spullen weg van de natte muur. Zit de natte plek bij een lamp of stopcontact, zet dan in de meterkast de groep van die ruimte uit. Klim niet op het dakje om te kijken: de pannen breken snel onder je gewicht en zijn glad als ze nat zijn. Maak een foto van de natte plek. Wat je verder meteen kunt doen, staat op de <a href="/spoed/">spoedpagina</a>.`,
+      ] },
+      { kop: `Zo zit zo'n dakje in elkaar`, tekst: [
+        `De pannen liggen op latten, van de lage kant boven de goot tot de hoge kant tegen de muur van het huis. Daar, bovenaan, ligt een strook lood of loodvervanger: de loodslab. De bovenrand zit in een voeg van de muur, de onderkant ligt over de bovenste rij pannen. Al het water dat langs de gevel naar beneden loopt, gaat zo over de pannen in plaats van erachter. Aan de zijkant van het dakje zit soms ook zo'n strook, als het dakje tegen een muurtje of de aanbouw van de buren ligt.`,
+      ] },
+      { kop: `Waar het meestal lekt`, tekst: [
+        `De loodslab. Na jaren komt de bovenrand uit de voeg, scheurt de strook in een hoek of krult hij omhoog door de wind. Dan loopt het regenwater van de gevel achter de strook langs naar binnen. Binnen zie je dat bovenaan, tegen de muur, vaak over een flink stuk.`,
+        `De bovenste rij pannen. Die pannen zijn vaak ingekort om onder de strook te passen, en een korte pan ligt minder vast. Schuift er een een stukje naar beneden, dan ontstaat er een kier waar de regen onder komt.`,
+        `Een dakje dat erg flauw ligt. Pannen zijn gemaakt voor een dak met genoeg helling. Ligt het dakje vlak, dan blijft het water langer op de pannen staan en waait het bij harde wind er makkelijker onder, zeker als er geen folie onder de pannen ligt. Dan lekt het vaak midden op het dakje, en vooral bij wind en regen tegelijk.`,
+        `De goot aan de onderkant. Zit die vol blad, dan staat het water terug onder de onderste rij pannen en loopt het aan de lage kant naar binnen, of langs de muur van de aanbouw naar beneden.`,
+      ] },
+      { kop: `Of komt het water door de muur?`, tekst: [
+        `Soms is het dakje zelf dicht. De gevel boven het dakje neemt bij slagregen water op, en dat zakt in de muur naar beneden tot het op de plek van het dakje naar buiten of naar binnen komt. Je merkt dat doordat het vooral nat wordt als de regen hard tegen die gevel slaat, en soms pas een dag later. Zit het in de muur zelf, dan zeg ik dat eerlijk, zodat je daar iemand anders voor kunt vragen. Heeft je aanbouw een plat dak, lees dan <a href="/kennisbank/lekkage-bij-aanbouw/">lekkage bij de aanbouw</a>.`,
+      ] },
+      { kop: `Zo vind je waar het zit`, tekst: [
+        `Kijk eerst binnen waar de natte plek zit. Bovenaan, tegen de muur, wijst vaak naar de loodslab of de muur erboven. Midden op het dakje wijst naar een pan. Onderaan, aan de kant van de goot, naar de goot of de onderste pannen. Vaak kun je het dakje goed zien vanuit een raam op de verdieping erboven. Maak daar een foto van, met de zoom van je telefoon, en let op een strook die van de muur af staat, een pan die scheef ligt of blad in de goot.`,
+      ] },
+      { kop: `Wat je zelf beter niet doet`, tekst: [
+        `Smeer geen kit over de rand van de loodslab of tussen de pannen. Dat houdt een paar maanden, en daarna loopt het water achter de kit langs, terwijl je het lek van buiten niet meer ziet. Ga ook niet vanaf een ladder op de pannen leunen om erbij te komen.`,
+      ] },
+      { kop: `Hoe ik het aanpak`, tekst: [
+        `Ik kijk eerst binnen waar het nat is, en daarna buiten naar de strook tegen de muur, de bovenste rij pannen, de zijkanten en de goot. Zit de loodslab los, dan zet ik hem weer vast in de voeg. Is hij gescheurd of op, dan komt er een nieuwe strook, meestal van loodvervanger en op wens van echt lood. Een pan die geschoven of gebroken is, leg ik terug of vervang ik door een die past, en de goot maak ik leeg als dat nodig is. Zie <a href="/diensten/lood-vervangen/">lood vervangen</a> en <a href="/kennisbank/lood-op-dak/">lood op je dak</a>.`,
+      ] },
+      { kop: `Wat kost het?`, tekst: [
+        `Een losse of gebroken pan terugleggen of vervangen valt meestal onder een kleine reparatie: ${inclBtw("dakpan")}. Moet de strook tegen de muur vastgezet of vervangen worden, dan hangt de prijs af van hoe lang die strook is en hoe goed ik erbij kan. Stuur een foto van het dakje en van de natte plek binnen, dan hoor je vooraf wat het kost.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: lood vervangen`, href: `/diensten/lood-vervangen/` },
+    faq: [
+      { v: `Kan ik op het dakje van mijn aanbouw gaan staan om te kijken?`, a: `Liever niet. Pannen zijn niet gemaakt om op te lopen en breken snel, zeker op een klein dakje. Als ze nat zijn, glijd je er zo af. Kijk vanuit een raam op de verdieping erboven of vanaf de grond, en maak daar een foto.` },
+      { v: `Het lekt alleen als de regen hard tegen de achtergevel slaat. Wat zegt dat?`, a: `Dan zit het vaak in de strook tegen de muur, of in de muur erboven. Bij slagregen loopt er veel water langs de gevel naar beneden, en dat komt achter een strook die los staat. Het kan ook zijn dat de muur zelf water opneemt. Kijk na zo'n bui of het nat is over de hele breedte tegen de muur of op één plek, en stuur me daar een foto van.` },
+      { v: `Moet het hele dakje eraf als het lekt?`, a: `Meestal niet. Vaak zit het lek op één plek: de strook tegen de muur, een pan of de goot. Dan repareer ik alleen die plek. Zijn de pannen op veel plekken gebroken of poreus, of zijn de latten eronder rot, dan zeg ik eerlijk dat een groter stuk opnieuw slimmer is. Je hoort vooraf wat het kost.` },
+    ],
+  },
 ];
 
 // Kort antwoord bovenaan een artikel (zie KORT_ANTWOORD in artikelen-extra.ts). Geen bedragen met de hand.
@@ -180,4 +224,5 @@ export const KORT_ANTWOORD_4: Record<string, string> = {
   "dak-fluit-bij-harde-wind": `Gefluit of gegier op zolder bij harde wind komt van wind die door een smalle opening blaast: een kier onder de nokvorsten, een pan die niet goed sluit, een ventilatiepan, het kapje op een pijp, een open schoorsteen of de rand van een dakraam. Een fluitende ventilatiepan is meestal gewoon. Voel je tocht of zie je daglicht bij de nok of tussen de pannen, laat het dan nakijken.`,
   "goot-schoonmaken-glazenwasser-of-dakdekker": `Zit je goot alleen vol blad en lekt hij niet, dan kan de glazenwasser hem prima leegmaken, zolang de uitloop naar de regenpijp ook vrij wordt gemaakt. Druppelt de goot, loopt het water achter de goot langs de gevel, ligt er specie of een stuk pan in, of gaat het om een bakgoot of kilgoot, dan is een dakdekker slimmer: die kan het in dezelfde keer nakijken en repareren.`,
   "lekt-sinds-nieuw-dakraam": `Lekt het sinds er een nieuw dakraam in je pannendak zit, dan zit het bijna nooit in het glas, maar in de aansluiting op het dak: het gootstuk rond het raam, de folie boven het raam of een pan ernaast die niet goed terugligt. Is het raam pas geplaatst, neem dan eerst contact op met wie het heeft geplaatst. Lekt het alleen als het raam op de ventilatiestand staat, dan zit het in het raam zelf.`,
+  "schuin-dak-aanbouw-lekt": `Lekt het schuine pannendakje van je aanbouw, dan zit het meestal bovenaan: in de strook lood of loodvervanger die met de bovenrand in de muur zit en over de bovenste rij pannen valt. Ook een ingekorte bovenste pan die is gaan schuiven, een volle goot onderaan of een gevel die bij slagregen water doorlaat kan de oorzaak zijn. Vaak is het een reparatie op die ene plek.`,
 };
