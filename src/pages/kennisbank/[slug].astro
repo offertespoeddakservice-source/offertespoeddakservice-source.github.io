@@ -29,28 +29,28 @@ const BIJGEWERKT: Record<string, string> = {
   "zonnepanelen-reinigen-nodig": "2026-10-30",
   "wat-kost-een-dakdekker": "2026-11-07",
   "dakgoot-lekt": "2026-11-11",
-  "lekkage-bij-schotel-of-antenne": "2026-11-05",
+  "lekkage-bij-schotel-of-antenne": "2026-11-13",
   "lekkage-bij-zonnepanelen": "2026-11-12",
   "nokvorsten-los": "2026-11-08",
   "bakgoot-lekt": "2026-11-04",
-  "dak-lekt-bij-harde-wind": "2026-11-07",
+  "dak-lekt-bij-harde-wind": "2026-11-13",
   "kilgoot-lekt": "2026-11-08",
   "dakraam-lekt": "2026-11-07",
   "daklekkage-verzekering": "2026-11-10",
   "condens-of-lekkage-op-zolder": "2026-11-08",
-  "vochtplek-plafond": "2026-11-07",
+  "vochtplek-plafond": "2026-11-12",
   "wat-kost-dakgoot-schoonmaken": "2026-11-07",
-  "lekkage-bij-schoorsteen": "2026-11-07",
+  "lekkage-bij-schoorsteen": "2026-11-12",
   "water-blijft-staan-op-plat-dak": "2026-11-10",
   "dakinspectie": "2026-11-08",
   "dak-lekt-bij-sneeuw-of-vorst": "2026-11-09",
-  "lekkage-bij-aanbouw": "2026-11-08",
+  "lekkage-bij-aanbouw": "2026-11-12",
   "dak-lekt-bij-hevige-regen": "2026-11-08",
   "schoorsteen-lekt-open-haard": "2026-11-10",
   "lekkage-bij-dakdoorvoer": "2026-11-08",
   "dakpannen-vastzetten-tegen-storm": "2026-11-02",
   "lichtkoepel-lekt": "2026-11-10",
-  "water-achter-dakgoot": "2026-11-07",
+  "water-achter-dakgoot": "2026-11-13",
   "dakpan-kapot-of-verschoven": "2026-11-08",
   "erker-lekt": "2026-11-12",
   "dakleer-repareren": "2026-11-11",
@@ -62,7 +62,7 @@ const BIJGEWERKT: Record<string, string> = {
   "vogels-onder-dakpannen": "2026-11-08",
   "wat-kost-een-dakinspectie": "2026-11-08",
   "lekkage-gedeelde-schoorsteen": "2026-11-08",
-  "dakgoot-hangt-door": "2026-11-08",
+  "dakgoot-hangt-door": "2026-11-12",
   "lekkage-muur-buren": "2026-11-09",
   "water-uit-lamp-plafond": "2026-11-09",
   "zinken-dakgoot-lekt": "2026-11-09",
@@ -76,7 +76,7 @@ const BIJGEWERKT: Record<string, string> = {
   "natte-plek-bovenin-muur": "2026-11-10",
   "lekkage-badkamer-plafond": "2026-11-10",
   "epdm-dak-lekt": "2026-11-10",
-  "lekkage-bij-kachelpijp": "2026-11-11",
+  "lekkage-bij-kachelpijp": "2026-11-12",
   "lekkage-bij-de-nok": "2026-11-11",
   "druppelen-horen-plafond": "2026-11-11",
   "plafond-drogen-na-lekkage": "2026-11-11",
@@ -87,6 +87,12 @@ const BIJGEWERKT: Record<string, string> = {
   "dak-lekt-na-reparatie": "2026-11-12",
   "dakgoot-loopt-over": "2026-11-12",
   "dakterras-lekt": "2026-11-12",
+  "lichtstraat-lekt": "2026-11-13",
+  "glazen-dakpan-lekt": "2026-11-13",
+  "dakfolie-kapot": "2026-11-13",
+  "plat-dak-losgewaaid-na-storm": "2026-11-13",
+  "vuurwerk-schade-dak": "2026-11-13",
+  "lood-van-dak-gestolen": "2026-11-13",
 };
 const bijgewerkt = BIJGEWERKT[a.slug] ?? a.datum;
 const MAANDEN = ["januari", "februari", "maart", "april", "mei", "juni", "juli", "augustus", "september", "oktober", "november", "december"];
@@ -97,29 +103,29 @@ const idx = ARTIKELEN.findIndex((x) => x.slug === a.slug);
 // Lees ook: eerst artikelen over hetzelfde onderwerp, daarna aanvullen met de volgende uit de lijst.
 const ONDERWERPEN: string[][] = [
   ["daklekkage-opsporen", "lekdetectie-daklek", "daklek-tijdelijk-dichten", "vochtplek-plafond", "natte-plek-bovenin-muur", "plafond-bolt-op-door-lekkage", "water-uit-lamp-plafond", "druppelen-horen-plafond", "isolatie-nat-na-lekkage", "lekt-sinds-dakisolatie", "erker-lekt", "dak-lekt-bij-hevige-regen", "dak-lekt-bij-sneeuw-of-vorst", "schoorsteen-lekt-open-haard", "lekkage-gedeelde-schoorsteen", "lekkage-bij-schoorsteen", "lekkage-bij-schotel-of-antenne", "condens-of-lekkage-op-zolder", "glazen-dakpan-lekt", "nat-achter-knieschot", "dakraam-lekt", "dakkapel-lekt", "lichtkoepel-lekt", "dak-lekt-bij-harde-wind", "kilgoot-lekt", "lekkage-bij-zonnepanelen", "wat-kost-daklekkage-repareren", "daklekkage-verzekering", "lekkage-huurhuis", "nieuw-dak-lekt", "lekkage-muur-buren", "dakfolie-kapot", "plafond-drogen-na-lekkage", "dak-lekt-na-reparatie", "dakterras-lekt", "licht-tussen-dakpannen", "lekkage-dakdekker-of-loodgieter", "dak-repareren-in-de-winter", "lekkage-bij-de-nok", "lekkage-badkamer-plafond", "lekkage-warmtepomp-of-airco", "daklek-hoe-lang-wachten", "huis-gekocht-dak-lekt", "lekkage-na-dakwerk-buren", "verzekering-betaalt-daklekkage-niet", "dak-lekt-na-schoonmaken", "natte-plek-schuine-wand-zolder", "hoekkeper-lekt", "cv-ketel-lekt-bij-regen", "afzuigkap-lekt-bij-regen", "water-uit-zolderluik"],
-  ["hoe-vaak-dakgoot-reinigen", "wat-kost-dakgoot-schoonmaken", "dakgoot-zelf-schoonmaken", "verstopte-regenpijp-lekkende-dakgoot", "regenpijp-in-de-muur-lekt", "dakgoot-lekt", "dakgoot-loopt-over", "dakgoot-lekt-bij-regenpijp", "dakgoot-hangt-door", "dakgoot-losgeraakt", "water-achter-dakgoot", "natte-plek-bovenin-muur", "bakgoot-lekt", "hoe-lang-gaat-een-dakgoot-mee", "kilgoot-lekt", "zinken-dakgoot-lekt", "kunststof-dakgoot-lekt", "lekkende-dakgoot-tijdelijk-oplossen", "lekkende-dakgoot-verzekering", "ijspegels-aan-dakgoot", "gedeelde-dakgoot-lekt", "bladvanger-dakgoot", "dakgoot-zink-of-kunststof", "dakgoot-schoonmaken-in-de-winter", "dakgoot-schoonmaken-huurder-of-verhuurder", "regenpijp-loost-op-dak", "regenpijp-kapot-door-vorst", "lekt-sinds-nieuwe-dakgoot"],
+  ["hoe-vaak-dakgoot-reinigen", "wat-kost-dakgoot-schoonmaken", "dakgoot-zelf-schoonmaken", "verstopte-regenpijp-lekkende-dakgoot", "regenpijp-in-de-muur-lekt", "dakgoot-lekt", "dakgoot-loopt-over", "dakgoot-lekt-bij-regenpijp", "dakgoot-hangt-door", "dakgoot-losgeraakt", "water-achter-dakgoot", "natte-plek-bovenin-muur", "bakgoot-lekt", "hoe-lang-gaat-een-dakgoot-mee", "kilgoot-lekt", "zinken-dakgoot-lekt", "kunststof-dakgoot-lekt", "lekkende-dakgoot-tijdelijk-oplossen", "lekkende-dakgoot-verzekering", "ijspegels-aan-dakgoot", "gedeelde-dakgoot-lekt", "bladvanger-dakgoot", "dakgoot-zink-of-kunststof", "dakgoot-schoonmaken-in-de-winter", "dakgoot-schoonmaken-huurder-of-verhuurder", "regenpijp-loost-op-dak", "regenpijp-kapot-door-vorst", "lekt-sinds-nieuwe-dakgoot", "zand-in-dakgoot", "dakgoot-lekt-na-schoonmaken"],
   ["stormschade-eerste-hulp", "daklek-tijdelijk-dichten", "nokvorsten-los", "dakpan-kapot-of-verschoven", "tak-of-boom-op-dak", "dakpannen-vastzetten-tegen-storm", "dak-lekt-bij-harde-wind", "daklekkage-verzekering", "windveer-los-of-rot", "dakpannen-klapperen-bij-wind", "storm-op-komst-dak", "gevelpannen-los", "schoorsteen-na-storm", "dakpan-op-auto-buren", "plat-dak-losgewaaid-na-storm", "wachten-op-dakdekker-na-storm"],
   ["plat-dak-vervangen-of-repareren", "zachte-plek-plat-dak", "epdm-dak-lekt", "dakterras-lekt", "dakleer-repareren", "daktrim-lekt", "lichtkoepel-lekt", "lichtstraat-lekt", "water-blijft-staan-op-plat-dak", "plat-dak-lekt-bij-afvoer", "dakonderhoud-per-seizoen", "mos-op-dak-verwijderen", "vogels-onder-dakpannen", "duiven-onder-zonnepanelen", "zonnepanelen-reinigen-nodig", "lekkage-bij-aanbouw", "veranda-of-overkapping-lekt", "golfplaten-lekken", "wat-kost-plat-dak-repareren", "plat-dak-losgewaaid-na-storm", "lekkage-overgang-schuin-plat-dak", "plat-dak-met-grind-lekt"],
   ["dakinspectie", "wat-kost-een-dakinspectie", "dakonderhoud-per-seizoen", "hoe-herken-je-een-betrouwbare-dakdekker", "dakdekker-aan-de-deur", "wat-kost-een-dakdekker", "vorstschade-dakpannen", "dak-keuren-bij-huis-kopen", "offerte-dakdekker-vergelijken", "daktermen-uitgelegd", "plat-dak-onderhouden", "huis-gekocht-dak-lekt", "dak-nakijken-voor-zonnepanelen", "dakdekker-kleine-klus", "keurmerk-dakdekker"],
   ["schoorsteen-vegen-hoe-vaak", "lekkage-bij-schoorsteen", "vochtplek-schoorsteen-binnen", "lekkage-gedeelde-schoorsteen", "schoorsteen-afdekken", "lood-op-dak", "lood-of-loodvervanger", "lekkage-bij-schotel-of-antenne", "schoorsteen-lekt-open-haard", "dakinspectie", "lekkage-bij-dakdoorvoer", "lekkage-bij-kachelpijp", "lood-van-dak-gestolen", "lekkage-weggehaalde-schoorsteen", "schoorsteen-na-storm", "dak-monument-repareren"],
-  ["hoe-lang-gaat-een-dak-mee", "dak-vernieuwen-rijtjeshuis", "vorstschade-dakpannen", "welke-dakpan-heb-ik", "dakpan-kapot-of-verschoven", "dakpan-lijmen-of-kitten", "glazen-dakpan-lekt", "nokvorsten-los", "lood-op-dak", "poreuze-dakpannen", "licht-tussen-dakpannen", "wat-kost-nokvorsten-repareren", "vuurwerk-schade-dak", "dak-monument-repareren", "pannendak-schuur-lekt", "wat-kost-dakpan-vervangen"],
+  ["hoe-lang-gaat-een-dak-mee", "dak-vernieuwen-rijtjeshuis", "vorstschade-dakpannen", "welke-dakpan-heb-ik", "dakpan-kapot-of-verschoven", "dakpan-lijmen-of-kitten", "glazen-dakpan-lekt", "nokvorsten-los", "lood-op-dak", "poreuze-dakpannen", "licht-tussen-dakpannen", "wat-kost-nokvorsten-repareren", "vuurwerk-schade-dak", "dak-monument-repareren", "pannendak-schuur-lekt", "wat-kost-dakpan-vervangen", "dakpannen-zakken-af"],
 ];
 const groep = ONDERWERPEN.find((g) => g.includes(a.slug)) ?? [];
 // Spoedregel na het eerste stuk tekst: alleen bij artikelen over lekkage en storm, en alleen als daar nog geen link naar /spoed/ staat.
 const LEK_ARTIKELEN = new Set([...ONDERWERPEN[0], ...ONDERWERPEN[2], "bakgoot-lekt", "lekkage-bij-dakdoorvoer", "lood-op-dak", "lekkage-bij-aanbouw", "daktrim-lekt", "regenpijp-in-de-muur-lekt", "dakleer-repareren", "epdm-dak-lekt", "plat-dak-vervangen-of-repareren", "veranda-of-overkapping-lekt", "lichtstraat-lekt", "lekkage-bij-kachelpijp", "lood-van-dak-gestolen", "lekkage-weggehaalde-schoorsteen", "golfplaten-lekken", "plat-dak-lekt-bij-afvoer", "zachte-plek-plat-dak", "lekkage-overgang-schuin-plat-dak", "regenpijp-loost-op-dak", "plat-dak-met-grind-lekt", "pannendak-schuur-lekt", "vochtplek-schoorsteen-binnen"]);
 const toonSpoedregel = LEK_ARTIKELEN.has(a.slug) && !(a.secties[0]?.tekst ?? []).some((t) => t.includes('href="/spoed/"'));
 // Gootartikelen: een gewone zin met links naar dakgoot repareren of vervangen per plaats. Niet bij bakgoot-lekt, die heeft de lekkagezin al.
-const GOOT_ARTIKELEN = new Set(["dakgoot-lekt", "verstopte-regenpijp-lekkende-dakgoot", "water-achter-dakgoot", "dakgoot-lekt-bij-regenpijp", "kunststof-dakgoot-lekt", "lekkende-dakgoot-tijdelijk-oplossen", "lekkende-dakgoot-verzekering", "dakgoot-loopt-over", "dakgoot-losgeraakt", "gedeelde-dakgoot-lekt", "dakgoot-zink-of-kunststof", "zinken-dakgoot-lekt", "lekt-sinds-nieuwe-dakgoot"]);
+const GOOT_ARTIKELEN = new Set(["dakgoot-lekt", "verstopte-regenpijp-lekkende-dakgoot", "water-achter-dakgoot", "dakgoot-lekt-bij-regenpijp", "kunststof-dakgoot-lekt", "lekkende-dakgoot-tijdelijk-oplossen", "lekkende-dakgoot-verzekering", "dakgoot-loopt-over", "dakgoot-losgeraakt", "gedeelde-dakgoot-lekt", "dakgoot-zink-of-kunststof", "zinken-dakgoot-lekt", "lekt-sinds-nieuwe-dakgoot", "dakgoot-lekt-na-schoonmaken"]);
 // Gootartikelen: na het eerste stuk een gewone regel om een foto van de goot te appen.
-const GOOT_FOTOREGEL = new Set(["hoe-vaak-dakgoot-reinigen", "wat-kost-dakgoot-schoonmaken", "dakgoot-lekt", "verstopte-regenpijp-lekkende-dakgoot", "water-achter-dakgoot", "hoe-lang-gaat-een-dakgoot-mee", "dakgoot-lekt-bij-regenpijp", "dakgoot-loopt-over", "bladvanger-dakgoot", "dakgoot-schoonmaken-in-de-winter", "dakgoot-schoonmaken-huurder-of-verhuurder", "lekt-sinds-nieuwe-dakgoot", "kunststof-dakgoot-lekt", "zinken-dakgoot-lekt", "gedeelde-dakgoot-lekt", "lekkende-dakgoot-tijdelijk-oplossen", "lekkende-dakgoot-verzekering", "ijspegels-aan-dakgoot"]);
+const GOOT_FOTOREGEL = new Set(["hoe-vaak-dakgoot-reinigen", "wat-kost-dakgoot-schoonmaken", "dakgoot-lekt", "verstopte-regenpijp-lekkende-dakgoot", "water-achter-dakgoot", "hoe-lang-gaat-een-dakgoot-mee", "dakgoot-lekt-bij-regenpijp", "dakgoot-loopt-over", "bladvanger-dakgoot", "dakgoot-schoonmaken-in-de-winter", "dakgoot-schoonmaken-huurder-of-verhuurder", "lekt-sinds-nieuwe-dakgoot", "kunststof-dakgoot-lekt", "zinken-dakgoot-lekt", "gedeelde-dakgoot-lekt", "lekkende-dakgoot-tijdelijk-oplossen", "lekkende-dakgoot-verzekering", "ijspegels-aan-dakgoot", "zand-in-dakgoot", "dakgoot-lekt-na-schoonmaken"]);
 // Artikelen over pannen, onderhoud en kosten: na het eerste stuk een gewone regel om een foto te appen, zoals bij de lekkage- en gootartikelen (11-11-2026).
-const FOTOREGEL_OVERIG = new Set(["wat-kost-een-dakdekker", "hoe-lang-gaat-een-dak-mee", "poreuze-dakpannen", "welke-dakpan-heb-ik", "vorstschade-dakpannen", "dakpan-lijmen-of-kitten", "vogels-onder-dakpannen", "dakonderhoud-per-seizoen", "offerte-dakdekker-vergelijken", "dakdekker-aan-de-deur", "vuurwerk-schade-dak", "wat-kost-dakpan-vervangen"]);
+const FOTOREGEL_OVERIG = new Set(["wat-kost-een-dakdekker", "hoe-lang-gaat-een-dak-mee", "poreuze-dakpannen", "welke-dakpan-heb-ik", "vorstschade-dakpannen", "dakpan-lijmen-of-kitten", "vogels-onder-dakpannen", "dakonderhoud-per-seizoen", "offerte-dakdekker-vergelijken", "dakdekker-aan-de-deur", "vuurwerk-schade-dak", "wat-kost-dakpan-vervangen", "dakpannen-zakken-af"]);
 // Artikelen over platte daken zonder spoedregel: na het eerste stuk een regel om een foto van het platte dak te sturen, vanuit een raam boven (12-11-2026).
 const PLATDAK_FOTOREGEL = new Set(["water-blijft-staan-op-plat-dak", "plat-dak-onderhouden", "wat-kost-plat-dak-repareren"]);
 // Gootartikelen (de gootgroep in ONDERWERPEN) die niet al het lekkageblok krijgen: een eigen blok aan de zijkant over de goot in plaats van de Dak-APK.
 const GOOT_ZIJBLOK = new Set(ONDERWERPEN[1]);
 // Artikelen over pannen en reparatiekosten: een gewone zin met links naar dakreparatie per plaats.
-const REPARATIE_ARTIKELEN = new Set(["wat-kost-een-dakdekker", "vorstschade-dakpannen", "hoe-lang-gaat-een-dak-mee", "poreuze-dakpannen", "welke-dakpan-heb-ik", "dakpan-lijmen-of-kitten", "wat-kost-dakpan-vervangen"]);
+const REPARATIE_ARTIKELEN = new Set(["wat-kost-een-dakdekker", "vorstschade-dakpannen", "hoe-lang-gaat-een-dak-mee", "poreuze-dakpannen", "welke-dakpan-heb-ik", "dakpan-lijmen-of-kitten", "wat-kost-dakpan-vervangen", "dakpannen-zakken-af"]);
 // Stormartikelen: een gewone zin met links naar stormschade per plaats, in plaats van de zin met lekkagepagina's (geen twee linkzinnen onder elkaar).
 const STORM_ARTIKELEN = new Set(["stormschade-eerste-hulp", "nokvorsten-los", "dakpan-kapot-of-verschoven", "tak-of-boom-op-dak", "windveer-los-of-rot", "dakpannen-klapperen-bij-wind", "dakpannen-vastzetten-tegen-storm", "storm-op-komst-dak", "gevelpannen-los", "schoorsteen-na-storm", "dakpan-op-auto-buren", "plat-dak-losgewaaid-na-storm", "wachten-op-dakdekker-na-storm"]);
 // Echte foto's van Rens (uit fotos.ts) bij artikelen waar ze echt bij passen. Alleen artikelen die na publicatie niet zijn aangepast.
@@ -192,6 +198,9 @@ const FOTOS_BIJ: Record<string, { soort: string; max: number }> = {
   "keurmerk-dakdekker": { soort: "pannen", max: 2 },
   "water-uit-zolderluik": { soort: "pannen", max: 1 },
   "wachten-op-dakdekker-na-storm": { soort: "pannen", max: 2 },
+  "zand-in-dakgoot": { soort: "goot", max: 2 },
+  "dakpannen-zakken-af": { soort: "pannen", max: 2 },
+  "dakgoot-lekt-na-schoonmaken": { soort: "goot", max: 2 },
 };
 const fotoBij = FOTOS_BIJ[a.slug];
 // Precies deze echte foto's (uit fotos.ts) bij artikelen waar geen soort goed past, zoals de veranda of een goot die doorhangt.
