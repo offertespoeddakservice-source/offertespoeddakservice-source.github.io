@@ -49,9 +49,53 @@ export const ARTIKELEN_EXTRA_4: Artikel[] = [
       { v: `Kan ik het gaatje zelf dichtkitten?`, a: `Liever niet. Kit hecht slecht op een natte of vuile goot, en moet de naad later gesoldeerd worden, dan moet de kit er eerst weer uit. Zet tot die tijd een bak onder de druppel. Wat je verder tijdelijk kunt doen, lees je in het artikel over een lekkende dakgoot tijdelijk oplossen.` },
     ],
   },
+  {
+    slug: `dak-fluit-bij-harde-wind`,
+    datum: `2026-11-13`,
+    titel: `Fluit of giert het op je zolder bij wind?`,
+    h1: `Fluitend of gierend geluid op zolder bij harde wind: waar komt het vandaan?`,
+    metaTitle: `Dak fluit of giert bij harde wind? | Spoed Dak Service`,
+    metaDescription: `Gefluit of gegier op zolder bij storm? Vaak waait de wind langs een kier bij de nok, een pan, een pijp of de schoorsteen. Zo vind je het en zie je of het erg is.`,
+    intro: `Het stormt, en ergens boven je klinkt een hoog gefluit of een laag gegier. Getik of geklapper wijst meestal op iets wat los zit. Gefluit komt van wind die met kracht door een smalle opening blaast. Vaak is dat onschuldig, maar soms wijst het op een kier waar bij de volgende bui ook regen of stuifsneeuw door kan komen. Hieronder lees je waar het meestal vandaan komt, hoe je het vindt en wanneer je er iets aan laat doen.`,
+    secties: [
+      { kop: `Eerst dit`, tekst: [
+        `Ga bij harde wind niet het dak op en zet geen ladder tegen de gevel. Zoeken kan prima vanaf zolder, en als het weer rustig is ook vanaf de straat. Hoor je behalve gefluit ook getik of geklapper, lees dan ook <a href="/kennisbank/dakpannen-klapperen-bij-wind/">dakpannen klapperen bij harde wind</a>.`,
+      ] },
+      { kop: `Waar het meestal vandaan komt`, tekst: [
+        `De nok. De opening onder de nokvorsten hoort dicht te zijn, met specie of met een strook onder de vorsten. Is de specie verbrokkeld of zit een vorst los, dan blaast de wind door die kier. Je hoort het dan helemaal bovenin, over de hele lengte van het dak of op één plek. Zie <a href="/kennisbank/nokvorsten-los/">losse nokvorsten</a>.`,
+        `Een pan die niet goed sluit. Ligt een pan een stukje open, bijvoorbeeld na een storm of na werk aan zonnepanelen, dan fluit de wind door de kier eronder. Op zolder zie je daar soms daglicht. Zie <a href="/kennisbank/licht-tussen-dakpannen/">licht tussen je dakpannen</a>.`,
+        `Een ventilatiepan of een pijp door het dak. Een ventilatiepan heeft een opening, en de pijp van de riolering of de afzuiging staat bovenaan open. Waait de wind er schuin langs, dan kan dat fluiten, net als wanneer je over een fles blaast. Dat is meestal geen probleem. Zit het kapje op de pijp los of scheef, dan hoor je het harder en kan er ook regen in. Zie <a href="/kennisbank/lekkage-bij-dakdoorvoer/">lekkage bij een dakdoorvoer</a>.`,
+        `De schoorsteen. Een open schoorsteenkanaal giert bij harde wind, zeker als je de schoorsteen niet meer gebruikt. Dat is op zich gewoon. Valt er ook regen in, dan zie je na een tijd vocht op de schoorsteen binnen. Lees <a href="/kennisbank/schoorsteen-afdekken/">schoorsteen afdekken</a>.`,
+        `Een dakraam. Sluit het raam niet helemaal of is een rubber uitgedroogd, dan fluit het langs de rand. Het raam en de rubbers zijn werk voor de leverancier of een glaszetter. De aansluiting van het raam op het dak is werk voor mij. Zie <a href="/kennisbank/dakraam-lekt/">dakraam lekt</a>.`,
+        `Een scheur in de folie. Op een dak met folie onder de pannen kan een losse of gescheurde flap bij wind trillen en zoemen. Dat hoor je vooral op zolder, dicht bij die plek. Zie <a href="/kennisbank/dakfolie-kapot/">dakfolie kapot</a>.`,
+      ] },
+      { kop: `Zo vind je waar het zit`, tekst: [
+        `Ga tijdens de wind met een zaklamp op zolder staan en luister waar het geluid het hardst is. Houd de rug van je hand bij de pannen, de nok en de rand van een dakraam: waar het fluit, voel je vaak tocht. Kijk ook of je ergens daglicht ziet. Is het weer rustig, kijk dan vanaf de straat met de zoom van je telefoon naar de nok, de kapjes op de pijpen en de schoorsteen. Maak een foto van wat je ziet en schrijf erbij uit welke hoek de wind kwam.`,
+      ] },
+      { kop: `Wanneer het erg is`, tekst: [
+        `Gefluit uit een ventilatiepan of een open pijp is meestal gewoon en hoeft niet weg. Laat het wel nakijken als je op zolder tocht of daglicht ziet bij de nok of tussen de pannen, als er na een bui een natte plek is, als je na een sneeuwbui sneeuw op zolder vindt of als het geluid er pas sinds een storm is. Waar de wind doorheen komt, kan bij de volgende bui ook regen komen. Lees ook <a href="/kennisbank/dak-lekt-bij-harde-wind/">dak lekt bij harde wind</a>.`,
+      ] },
+      { kop: `Wat je zelf beter niet doet`, tekst: [
+        `Prop geen doeken of isolatie in een kier of in een ventilatiepan. Dat houdt vocht vast, en een ventilatiepan heeft zijn opening juist nodig. Plak ook geen tape op de buitenkant van een dakraam of een pijp, en ga bij wind niet het dak op.`,
+      ] },
+      { kop: `Hoe ik het aanpak`, tekst: [
+        `Ik zoek eerst waar de wind naar binnen komt. Een losse nokvorst zet ik weer vast, en is de specie onder de nok op, dan smeer ik de vorsten opnieuw aan met dakmortel. Een pan die niet goed sluit, leg ik terug in de sluiting of vervang ik door een die past. Zit er een kapje los op een pijp door het dak, dan zet ik dat vast of vervang ik het. Zit het in het dakraam zelf, dan zeg ik dat eerlijk. Zie <a href="/diensten/dakreparatie/">dakreparatie</a> en <a href="/diensten/nokvorsten-vervangen/">nokvorsten repareren</a>.`,
+      ] },
+      { kop: `Wat kost het?`, tekst: [
+        `Een losse pan of nokvorst vastzetten valt meestal onder een kleine reparatie: ${inclBtw('dakpan')}. Moeten de nokvorsten opnieuw worden aangesmeerd met dakmortel, dan kost dat ${inclBtw('nok_repareren')}. Stuur een foto van je dak vanaf de straat en vertel waar je het geluid hoort, dan hoor je vooraf wat het kost.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: dakreparatie`, href: `/diensten/dakreparatie/` },
+    faq: [
+      { v: `Is gefluit op mijn dak bij storm gevaarlijk?`, a: `Meestal niet. Het geluid zelf doet niets, maar het is wel een teken dat de wind ergens door een kier blaast. Voel je tocht of zie je daglicht bij de nok of tussen de pannen, of wordt het na een bui nat, laat het dan nakijken voordat de volgende storm komt.` },
+      { v: `Het giert in mijn schoorsteen bij harde wind. Moet daar iets aan gebeuren?`, a: `Bij een open kanaal is dat gewoon. Gebruik je de schoorsteen niet meer en valt er ook regen in, dan houdt een kap of afdekplaat de regen eruit, en vaak wordt het geluid dan ook minder. Gebruik je de schoorsteen nog wel, vraag dan eerst aan je schoorsteenveger of installateur welke kap erop mag.` },
+      { v: `Ik hoor het fluiten alleen bij wind uit één richting. Wat zegt dat?`, a: `Dat helpt bij het zoeken. De kier zit dan meestal aan de kant waar de wind tegenaan blaast, of bij de nok, waar de wind over het dak trekt. Noteer de windrichting en waar je het geluid hoort, en stuur dat mee met een foto van je dak vanaf de straat.` },
+    ],
+  },
 ];
 
 // Kort antwoord bovenaan een artikel (zie KORT_ANTWOORD in artikelen-extra.ts). Geen bedragen met de hand.
 export const KORT_ANTWOORD_4: Record<string, string> = {
   "dakgoot-lekt-na-schoonmaken": `Lekt je goot sinds hij is leeggemaakt, dan zat er vaak al een klein lek in een naad, een hoek of een verbinding, en hield het vuil dat dicht. Het kan ook zijn dat er bij het werk een beugel is verbogen, of dat de uitloop niet meer goed in de regenpijp zit. Kijk tijdens een bui waar het precies druppelt en maak er een foto van.`,
+  "dak-fluit-bij-harde-wind": `Gefluit of gegier op zolder bij harde wind komt van wind die door een smalle opening blaast: een kier onder de nokvorsten, een pan die niet goed sluit, een ventilatiepan, het kapje op een pijp, een open schoorsteen of de rand van een dakraam. Een fluitende ventilatiepan is meestal gewoon. Voel je tocht of zie je daglicht bij de nok of tussen de pannen, laat het dan nakijken.`,
 };
