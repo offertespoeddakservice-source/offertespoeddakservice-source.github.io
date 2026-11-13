@@ -129,6 +129,49 @@ export const ARTIKELEN_EXTRA_4: Artikel[] = [
       { v: `Kun je het leegmaken van de goot combineren met ander werk aan het dak?`, a: `Ja. Ligt er een pan scheef of zit de nok los, dan kan dat meestal in dezelfde keer, als ik het passende materiaal bij me heb. Je hoort eerst wat het kost, en jij beslist.` },
     ],
   },
+  {
+    slug: `lekt-sinds-nieuw-dakraam`,
+    datum: `2026-11-13`,
+    titel: `Lekt het sinds je nieuwe dakraam?`,
+    h1: `Lekt het sinds er een nieuw dakraam in je dak zit? Hier zit het meestal`,
+    metaTitle: `Nieuw dakraam lekt: waar zit het? | Spoed Dak Service`,
+    metaDescription: `Lekt het sinds er een nieuw dakraam in je pannendak zit? Vaak zit het in het gootstuk, de folie rond het raam of een pan die niet goed terugligt. Zo zie je het.`,
+    intro: `Je hebt net een nieuw dakraam laten plaatsen, of een oud raam laten vervangen, en bij de eerste flinke bui zie je een natte plek naast of onder het raam. Dat is balen, maar het gebeurt vaker dan je denkt. Het glas zelf is bijna nooit het probleem. Meestal zit het in hoe het raam op het dak is aangesloten. Hieronder lees je waar het meestal zit, wie het oplost en wat je tot die tijd doet.`,
+    secties: [
+      { kop: `Lekt het nu? Eerst dit`, tekst: [
+        `Zet een emmer of bak onder de druppel, leg er een handdoek in zodat het niet spat, en haal spullen weg. Doe het raam dicht en zet het niet op de ventilatiestand zolang het regent. Ga niet zelf het dak op en hang niet uit het raam om te kijken. Maak foto's van de natte plek en van het raam van binnen. Wat je verder meteen kunt doen, staat op de <a href="/spoed/">spoedpagina</a>.`,
+      ] },
+      { kop: `Eerst bellen met wie het raam heeft geplaatst`, tekst: [
+        `Is het raam pas geplaatst, neem dan eerst contact op met het bedrijf of de vakman die het heeft gedaan, en stuur je foto's mee. Een lek dat kort na het plaatsen begint, hoort in de regel bij dat werk, en vaak lost die het zelf op. Schrijf op wanneer het voor het eerst nat werd en bij wat voor weer. Is het raam al langer geleden geplaatst, of komt het daar niet goed, dan kijk ik ernaar.`,
+      ] },
+      { kop: `Waar het meestal zit`, tekst: [
+        `Het gootstuk. Rond een dakraam in een pannendak ligt een set stroken, het gootstuk, die het water om het raam heen leidt. Bovenaan hoort die onder de pannen te liggen en onderaan over de pannen. Is een stuk niet goed aangesloten, of ligt de onderste flap niet plat op de pannen, dan loopt het water eronder naar binnen.`,
+        `De folie rond het raam. Ligt er folie onder je pannen, dan is daar voor het raam een opening in gemaakt. Boven het raam hoort die folie zo te liggen dat het water dat onder de pannen komt, opzij om het raam heen loopt. Is dat niet goed gedaan, dan loopt dat water langs de bovenkant van het kozijn naar binnen. Binnen zie je dat als nat langs de bovenkant of de zijkanten van de betimmering rond het raam.`,
+        `De pannen naast en boven het raam. Voor het plaatsen zijn er pannen weggehaald, ingekort of opnieuw gelegd. Ligt er een pan net niet goed in de sluiting, of sluit een ingekorte pan niet goed aan op het gootstuk, dan waait de regen er bij harde wind onder. Soms is er bij het werk ook een pan gebroken, op een plek die je van beneden niet ziet.`,
+      ] },
+      { kop: `Of is het condens?`, tekst: [
+        `Zie je vooral op koude ochtenden druppels op het glas en water op de onderkant van het kozijn, ook als het niet heeft geregend, dan is het vaak condens. Bij een nieuw raam in een pas verbouwde zolder zit er de eerste tijd ook nog veel vocht in de lucht. Lucht vaker, laat de ventilatieklep open en kijk of het minder wordt. Twijfel je, lees dan <a href="/kennisbank/condens-of-lekkage-op-zolder/">condens of lekkage op zolder</a>.`,
+      ] },
+      { kop: `Zo zie je waar het zit`, tekst: [
+        `Kijk bij de volgende bui waar het precies nat wordt. Nat bovenaan het raam wijst vaak naar de folie of het gootstuk boven het raam. Nat langs één zijkant wijst naar de aansluiting of de pannen aan die kant, zeker als het vooral lekt bij wind uit die richting. Nat onderaan, onder de vensterbank, kan ook van het gootstuk onder het raam komen. Lekt het alleen als het raam open of op de ventilatiestand staat, dan zit het in het raam zelf. Maak een foto van binnen, en als het lukt een van het raam vanaf de straat, met de zoom van je telefoon.`,
+      ] },
+      { kop: `Wat je zelf beter niet doet`, tekst: [
+        `Spuit geen kit rond het raam aan de buitenkant en plak er geen tape over. Daarmee dek je vaak de plek af waar het water weg moet, en een vakman moet het later weer weghalen. Ga ook niet vanuit het raam aan de pannen ernaast trekken of duwen.`,
+      ] },
+      { kop: `Hoe ik het aanpak`, tekst: [
+        `Ik kijk naar de aansluiting van het raam op je dak: het gootstuk, de stroken langs de zijkanten, de pannen eromheen en, als ik erbij kan, de folie boven het raam. Ligt een pan niet goed, dan leg ik hem terug of vervang ik hem door een die past. Zit een strook los of verkeerd, dan maak ik die aansluiting weer dicht. Zit het in het raam zelf, zoals een rubber, het scharnier of het glas, dan zeg ik dat eerlijk, want dat is werk voor de leverancier van het raam of een glaszetter. Zie ook <a href="/diensten/dakraam-lekkage/">lekkend dakraam repareren</a> en <a href="/kennisbank/dakraam-lekt/">dakraam lekt</a>.`,
+      ] },
+      { kop: `Wat kost het?`, tekst: [
+        `Dat hangt af van wat er nodig is. Ligt er alleen een pan naast het raam niet goed, dan valt dat meestal onder een kleine reparatie: ${inclBtw("dakpan")}. Moet de aansluiting van het raam opnieuw, dan hoor je de prijs als ik foto's heb gezien of ben komen kijken. Je weet altijd vooraf wat het kost.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: lekkend dakraam repareren`, href: `/diensten/dakraam-lekkage/` },
+    faq: [
+      { v: `Het dakraam is net geplaatst en lekt al. Bel ik jou of de installateur?`, a: `Eerst de installateur of het bedrijf dat het raam heeft geplaatst. Een lek kort na het plaatsen hoort in de regel bij dat werk. Stuur foto's van de natte plek en het raam mee en schrijf op bij welk weer het nat werd. Komt het daar niet goed, of is het raam al jaren oud, stuur mij dan die foto's via WhatsApp.` },
+      { v: `Het lekt alleen als het raam op de ventilatiestand staat. Ligt het aan het dak?`, a: `Meestal niet. Komt er alleen water binnen als het raam open of op de ventilatiestand staat, dan zit het in het raam zelf: de klep, een rubber of hoe het raam sluit. Doe het raam bij regen dicht en vraag het na bij de leverancier van het raam. Wordt het ook nat als het raam dicht zit, dan zit het eerder in de aansluiting op het dak.` },
+      { v: `Kan ik de kier rond mijn nieuwe dakraam zelf dichtkitten?`, a: `Liever niet. Rond een dakraam zit de aansluiting juist zo dat het water er langs kan weglopen. Kit je daar iets dicht, dan blijft het water op de verkeerde plek staan, en moet de kit er later weer af. Zet een bak onder de druppel en stuur een foto, dan zeg ik wat ik zie.` },
+    ],
+  },
 ];
 
 // Kort antwoord bovenaan een artikel (zie KORT_ANTWOORD in artikelen-extra.ts). Geen bedragen met de hand.
@@ -136,4 +179,5 @@ export const KORT_ANTWOORD_4: Record<string, string> = {
   "dakgoot-lekt-na-schoonmaken": `Lekt je goot sinds hij is leeggemaakt, dan zat er vaak al een klein lek in een naad, een hoek of een verbinding, en hield het vuil dat dicht. Het kan ook zijn dat er bij het werk een beugel is verbogen, of dat de uitloop niet meer goed in de regenpijp zit. Kijk tijdens een bui waar het precies druppelt en maak er een foto van.`,
   "dak-fluit-bij-harde-wind": `Gefluit of gegier op zolder bij harde wind komt van wind die door een smalle opening blaast: een kier onder de nokvorsten, een pan die niet goed sluit, een ventilatiepan, het kapje op een pijp, een open schoorsteen of de rand van een dakraam. Een fluitende ventilatiepan is meestal gewoon. Voel je tocht of zie je daglicht bij de nok of tussen de pannen, laat het dan nakijken.`,
   "goot-schoonmaken-glazenwasser-of-dakdekker": `Zit je goot alleen vol blad en lekt hij niet, dan kan de glazenwasser hem prima leegmaken, zolang de uitloop naar de regenpijp ook vrij wordt gemaakt. Druppelt de goot, loopt het water achter de goot langs de gevel, ligt er specie of een stuk pan in, of gaat het om een bakgoot of kilgoot, dan is een dakdekker slimmer: die kan het in dezelfde keer nakijken en repareren.`,
+  "lekt-sinds-nieuw-dakraam": `Lekt het sinds er een nieuw dakraam in je pannendak zit, dan zit het bijna nooit in het glas, maar in de aansluiting op het dak: het gootstuk rond het raam, de folie boven het raam of een pan ernaast die niet goed terugligt. Is het raam pas geplaatst, neem dan eerst contact op met wie het heeft geplaatst. Lekt het alleen als het raam op de ventilatiestand staat, dan zit het in het raam zelf.`,
 };
