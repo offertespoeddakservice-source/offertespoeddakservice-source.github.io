@@ -498,6 +498,9 @@ export const FAQ_ERBIJ_2: Record<string, Artikel["faq"]> = {
   "nokvorsten-los": [
     { v: `Er ligt na de storm een nokvorst in mijn tuin of op de stoep. Wat doe ik ermee?`, a: `Kijk eerst of er nog meer los ligt. Blijf weg onder de dakrand aan die kant en zorg dat niemand eronder loopt of parkeert. Raap de vorst alleen op als dat veilig kan, en leg hem apart in plaats van in de container. Is hij heel, dan kan hij vaak terug op de nok, en ook aan een gebroken vorst zie ik welk model ik moet zoeken. Maak een foto van de vorst en van de nok vanaf de straat, want die heb je ook nodig voor je verzekering. Kijk op zolder of het onder de nok nat wordt. Ligt de nok open en regent het, dan is het spoed: stuur de foto's meteen via WhatsApp. Je hoort vooraf wat het kost.` },
   ],
+  "dakpannen-vastzetten-tegen-storm": [
+    { v: `Kunnen er ook stormhaken op mijn oude dakpannen?`, a: `In de regel wel. Voor de meeste pannen die op Nederlandse daken liggen, ook oudere modellen, is er een haak die past. Welke haak het wordt, hangt af van de vorm van je pan en van de maat van de panlatten eronder. Ik kijk daarom eerst welke pan er ligt. Is een panlat op een plek zacht of rot, dan houdt een haak daar weinig, en dan moet eerst die lat vervangen worden. Liggen er pannen zonder sluiting, zoals oud-Hollandse pannen, dan kijk ik wat er bij jouw dak kan. Stuur me een foto van je dak vanaf de straat en, als het lukt, van de achterkant van een pan op zolder. Je hoort vooraf wat het kost.` },
+  ],
 };
 
 // Artikelen en korte antwoorden uit artikelen-extra-3.ts (sinds 12-11-2026) erachter, zodat ze via artikelen-extra.ts in ARTIKELEN en KORT_ANTWOORD komen.
