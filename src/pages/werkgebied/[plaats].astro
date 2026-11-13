@@ -40,6 +40,8 @@ const heeftReparatiePagina = MATRIX.some((c) => c.plaats === p.slug && c.dienst 
 // Zin over water bij de cv-ketel of afzuigkap alleen als die artikelen bestaan, zodat er nooit een kapotte link komt.
 const heeftKetel = ARTIKELEN.some((a) => a.slug === "cv-ketel-lekt-bij-regen" && !a.verborgen);
 const heeftAfzuig = ARTIKELEN.some((a) => a.slug === "afzuigkap-lekt-bij-regen" && !a.verborgen);
+const heeftBolt = ARTIKELEN.some((a) => a.slug === "plafond-bolt-op-door-lekkage" && !a.verborgen);
+const heeftLamp = ARTIKELEN.some((a) => a.slug === "water-uit-lamp-plafond" && !a.verborgen);
 // Namen voor de pagina's per plaats en klus, zoals mensen zoeken (dakgoot repareren, niet alleen vervangen). Ook gebruikt in de gegevens voor Google en AI.
 const KLUS_NAAM: Record<string, string> = { daklekkage: "Daklekkage", "dakgoot-vervangen": "Dakgoot repareren of vervangen", "goten-reinigen": "Dakgoot schoonmaken", stormschade: "Stormschade", dakreparatie: "Dakreparatie", dakrenovatie: "Dakrenovatie" };
 const klusNaam = (d: { slug: string; titel: string }) => KLUS_NAAM[d.slug] ?? d.titel;
@@ -142,6 +144,7 @@ const schema = [
           : <>Hoe ik een lek opspoor zonder onnodig sloopwerk, lees je bij <a href="/diensten/daklekkage/">daklekkage</a>.</>}
         Stuur me de foto via <a href={waHref(`Hallo, mijn dak lekt in ${p.naam}. Ik stuur je een foto.`)}>WhatsApp</a>, dan hoor je eerlijk wat ik zie en wat de beste volgende stap is.
       </p>
+      {(heeftBolt || heeftLamp) && (<p>Bolt het plafond op of komt er water uit een lamp of spotje? Ga er niet onder staan, en zit er een lamp in de buurt, zet dan in de meterkast de groep van die kamer uit. Wat je verder doet, lees je in {heeftBolt && <a href="/kennisbank/plafond-bolt-op-door-lekkage/">plafond bolt op door lekkage</a>}{heeftBolt && heeftLamp && " en "}{heeftLamp && <a href="/kennisbank/water-uit-lamp-plafond/">water uit je lamp of spotjes</a>}.</p>)}
       <p>Druppelt het ook als het een paar dagen droog is? Dan komt het water vaak van een leiding en niet van het dak. Lees dan eerst <a href="/kennisbank/lekkage-dakdekker-of-loodgieter/">lekkage: dakdekker of loodgieter?</a></p>
       {(heeftKetel || heeftAfzuig) && (<p>Druppelt het bij je cv-ketel of uit je afzuigkap als het regent? Dan komt het water vaak langs de pijp door het dak naar binnen. Lees {heeftKetel && <a href="/kennisbank/cv-ketel-lekt-bij-regen/">water bij je cv-ketel als het regent</a>}{heeftKetel && heeftAfzuig && " of "}{heeftAfzuig && <a href="/kennisbank/afzuigkap-lekt-bij-regen/">water uit je afzuigkap</a>}.</p>)}
       {heeftGootPagina && (<p>Is het nat bovenin de muur, vlak onder de goot, of loopt er bij een bui water over de rand? Dan zit het vaak in de goot en niet in het dak. Hoe ik een lekkende goot in {p.naam} repareer, lees je bij <a href={`/werkgebied/${p.slug}/dakgoot-vervangen/`}>dakgoot repareren in {p.naam}</a>.</p>)}
