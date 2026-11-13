@@ -495,6 +495,9 @@ export const FAQ_ERBIJ_2: Record<string, Artikel["faq"]> = {
   "lekkage-bij-dakdoorvoer": [
     { v: `Op de ontluchtingspijp op mijn dak zit geen kapje. Regent het daardoor binnen?`, a: `Bij de ontluchting van het riool meestal niet. Die pijp staat in verbinding met je riool, en het beetje regen dat erin valt, loopt gewoon met het rioolwater mee weg. Daarom staat zo'n pijp vaak open of zit er alleen een rooster of kapje op tegen blad en vogels. Anders is het bij de pijp van een afzuigkap, de ventilatie of de cv-ketel: daar hoort meestal wel een kap op, anders kan er regen in de pijp of het kanaal lopen. Wordt het op zolder nat langs de buitenkant van een pijp, bovenaan waar hij door het dak gaat, dan zit het lek meestal in de kraag of de doorvoerpan en niet in de opening bovenaan. Stuur me een foto van de pijp vanaf de straat en van de natte plek op zolder via WhatsApp, dan zeg ik wat ik zie.` },
   ],
+  "nokvorsten-los": [
+    { v: `Er ligt na de storm een nokvorst in mijn tuin of op de stoep. Wat doe ik ermee?`, a: `Kijk eerst of er nog meer los ligt. Blijf weg onder de dakrand aan die kant en zorg dat niemand eronder loopt of parkeert. Raap de vorst alleen op als dat veilig kan, en leg hem apart in plaats van in de container. Is hij heel, dan kan hij vaak terug op de nok, en ook aan een gebroken vorst zie ik welk model ik moet zoeken. Maak een foto van de vorst en van de nok vanaf de straat, want die heb je ook nodig voor je verzekering. Kijk op zolder of het onder de nok nat wordt. Ligt de nok open en regent het, dan is het spoed: stuur de foto's meteen via WhatsApp. Je hoort vooraf wat het kost.` },
+  ],
 };
 
 // Artikelen en korte antwoorden uit artikelen-extra-3.ts (sinds 12-11-2026) erachter, zodat ze via artikelen-extra.ts in ARTIKELEN en KORT_ANTWOORD komen.
