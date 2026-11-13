@@ -69,4 +69,5 @@ export const ARTIKEL_CORRECTIES: Record<string, Partial<Pick<Artikel, "secties" 
   "dakpan-kapot-of-verschoven": { metaTitle: "Dakpan scheef, kapot of verschoven? | Spoed Dak Service" },
   "lood-op-dak": { dienst: { label: "Bekijk: lood vastzetten of vervangen", href: "/diensten/lood-vervangen/" } },
   "lekkage-gedeelde-schoorsteen": { dienst: { label: "Bekijk: lood vervangen bij de schoorsteen", href: "/diensten/lood-vervangen/" } },
+  "condens-of-lekkage-op-zolder": { metaTitle: "Condens op zolder of een daklek? | Spoed Dak Service" },
 };
