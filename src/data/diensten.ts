@@ -454,6 +454,39 @@ export const DIENSTEN: Dienst[] = [
     ],
   },
   {
+    slug: "bakgoot-repareren",
+    titel: "Bakgoot repareren",
+    vanafPrijs: "stuur een foto",
+    h1: "Bakgoot repareren: een lekkende zinken bakgoot weer dicht",
+    kort: "Lekt je bakgoot in de rand van het dak? Ik soldeer de naad of uitloop, of coat de goot van binnen, zodat het water niet meer de muur in loopt.",
+    metaTitle: "Bakgoot lekt? Bakgoot repareren | Spoed Dak Service",
+    metaDescription:
+      "Lekt je zinken bakgoot en is het nat bovenin de muur? Vaak is een naad solderen of de goot van binnen coaten genoeg. Stuur een foto, dan hoor je de prijs.",
+    icoon: "🛠",
+    geenAfbeelding: true,
+    zieOok: [
+      { label: "Dakgoot solderen", href: "/diensten/dakgoot-solderen/" },
+      { label: "Dakgoot van binnen coaten", href: "/diensten/dakgoot-coaten/" },
+      { label: "Goten reinigen", href: "/diensten/goten-reinigen/" },
+    ],
+    intro:
+      "Een bakgoot hangt niet aan beugels voor het dak, maar zit in de rand van het dak zelf, bovenop de muur: een houten bak met zink erin. Lekt zo'n goot, dan loopt het water niet langs de buitenkant naar beneden, maar vaak de muur of het plafond in. Je ziet dan een natte plek bovenin de muur, vlak onder het plafond, of een vochtige rand op zolder bij de voet van het dak. Meestal zit het lek bij een naad, een hoek of de uitloop naar de regenpijp. Die soldeer ik opnieuw, of ik coat de goot van binnen als het zink op meer plekken dun wordt. Is het zink op of het hout eronder zacht geworden, dan zeg ik dat eerlijk, want dan helpt solderen of coaten niet lang.",
+    punten: [
+      "Lekkende naad, hoek of uitloop in een zinken bakgoot opnieuw solderen",
+      "Een bakgoot die op meer plekken dun wordt van binnen coaten",
+      "Goot eerst leeg en droog, zodat soldeer en coating goed hechten",
+      "Meteen een blik op de onderste pannen en het lood boven de goot",
+      "Je hoort vooraf wat het kost, de troep gaat mee",
+    ],
+    faq: [
+      { v: "Wat kost een bakgoot repareren?", a: "Dat hangt af van wat er lek is, hoe lang de goot is en hoe goed ik erbij kan. Eén naad solderen is een andere klus dan de hele bak van binnen coaten. Stuur een foto van de goot vanaf de straat en van de natte plek binnen via WhatsApp, dan hoor je vooraf wat het kost." },
+      { v: "Het is nat bovenin mijn muur, vlak onder het plafond. Komt dat van de bakgoot?", a: "Dat kan. Een bakgoot ligt bovenop de muur, dus als hij lekt, trekt het water vaak eerst in de muur en zie je het binnen bovenin, of op zolder langs de voet van het dak. Het kan ook water zijn dat achter een gewone goot langs loopt, of lood boven een raam dat los zit. Kijk tijdens of vlak na een bui of de plek groter wordt, en of het buiten op dezelfde hoogte nat is. Stuur me een foto van binnen en van buiten, dan zeg ik eerlijk wat ik denk dat het is." },
+      { v: "Solderen of van binnen coaten?", a: "Lekt de bakgoot op één of twee plekken, bij een naad, een hoek of de uitloop, en is het zink verder nog stevig, dan is solderen meestal genoeg. Lekt hij op meer plekken een beetje, of wordt het zink dun op de plek waar altijd water bleef staan, dan maak ik de goot schoon en droog en coat ik hem van binnen. Is het zink op of het hout eronder zacht, dan helpt geen van beide lang, en dan zeg ik dat eerlijk." },
+      { v: "Kan een lekkende bakgoot wachten tot het voorjaar?", a: "Liever niet. Het water loopt bij een bakgoot niet naar buiten maar de muur of het hout in, en bij vorst kan water dat in een naad staat die naad verder openduwen. Solderen en coaten doe ik op een droge dag. Is het nu te nat, dan maak ik de goot vaak eerst leeg, zodat het water weer naar de regenpijp loopt, en kom ik op een droge dag terug voor de reparatie." },
+      { v: "Maak je een bakgoot ook schoon?", a: "Ja. Een bakgoot maak ik net zo leeg als een gewone goot, met de uitloop naar de regenpijp vrij. Juist bij een bakgoot is dat belangrijk: blijft er blad liggen, dan staat het water hoger en zoekt het sneller een weg de muur in. Bij het leegmaken kijk ik meteen naar de naden en de hoeken. Zie ik iets wat lekt, dan laat ik het je zien met een foto, en hoor je vooraf wat het kost." },
+    ],
+  },
+  {
     slug: "dakcoating",
     verborgen: true,
     titel: "Verweerde dakpannen",
