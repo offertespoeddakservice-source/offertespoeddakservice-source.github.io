@@ -460,6 +460,47 @@ export const ARTIKELEN_EXTRA_3: Artikel[] = [
       { v: `Ik vind brokjes specie in de goot, maar binnen is het droog. Moet ik iets doen?`, a: `Wacht er niet te lang mee. Het is meestal geen spoed, maar een vorst die los ligt, kan bij de volgende storm van het dak waaien, en dan ligt de nok open. Maak een foto van de nok vanaf de straat en stuur die via WhatsApp, dan kijk ik mee.` },
     ],
   },
+  {
+    slug: `dakpannen-zakken-af`,
+    datum: `2026-11-13`,
+    titel: `Zakken je dakpannen naar beneden?`,
+    h1: `Dakpannen zakken af of schuiven naar beneden: hoe komt dat en wat doe je?`,
+    metaTitle: `Dakpannen zakken af of schuiven? | Spoed Dak Service`,
+    metaDescription: `Ligt er een pan lager dan de rest, zie je een kier bij de pan erboven of ligt er een pan in de goot? Vaak is een nokje afgebroken of een panlat rot. Zo zie je het.`,
+    intro: `Van een afstand zie je het soms ineens: een pan die een stukje lager ligt dan de rest van de rij, met een donkere kier erboven. Of er ligt na een rustige nacht zonder wind een hele pan in de goot. Een pan hangt aan een houten lat, en als dat ophangen niet meer goed werkt, gaat hij langzaam naar beneden. Hieronder lees je hoe dat komt, hoe je het vanaf de straat herkent en wat eraan te doen is.`,
+    secties: [
+      { kop: `Zo hangt een pan op je dak`, tekst: [
+        `Op een pannendak liggen houten latten dwars over het dak, de panlatten. Aan de achterkant van elke pan zitten een of twee uitsteeksels, de ophangnokjes, die over zo'n lat haken. Daardoor blijft de pan hangen, en de pan erboven ligt er net overheen. Op veel daken zijn niet alle pannen extra vastgezet: ze blijven op hun plek door hun eigen gewicht en de nokjes.`,
+      ] },
+      { kop: `Waarom een pan gaat zakken`, tekst: [
+        `Een afgebroken nokje. Bij oude pannen kan een nokje door vorst afbreken, of doordat iemand over het dak heeft gelopen. Dan hangt de pan nergens meer aan en schuift hij langzaam naar beneden.`,
+        `Een rotte of gebroken panlat. Is er jaren water langs een lat gelopen, bijvoorbeeld onder een oud lek, dan wordt het hout zacht. De nokjes houden dan geen grip meer, of de lat breekt, en een paar pannen zakken samen een stukje.`,
+        `Een pan die is opgetild. Na werk op het dak, bijvoorbeeld voor een antenne of zonnepanelen, ligt een pan soms net niet meer goed over de lat. Bij de volgende bui of windvlaag schuift hij verder. Is je pan door een storm verschoven, lees dan <a href="/kennisbank/dakpan-kapot-of-verschoven/">dakpan kapot of verschoven</a>.`,
+        `Een pan die niet past. Is er ooit een pan van een ander model tussen gelegd, dan sluit hij niet goed aan op de rij en blijft hij niet op zijn plek. Lees ook <a href="/kennisbank/welke-dakpan-heb-ik/">welke dakpan heb ik?</a>`,
+      ] },
+      { kop: `Zo zie je het vanaf de straat`, tekst: [
+        `Ga aan de overkant van de straat staan en zoom met je telefoon in op het dak. Kijk of alle pannen in een rij even hoog liggen. Een gezakte pan ligt een stukje lager en steekt onderaan verder uit dan de rest, met boven zich een donkere kier waar je de lat of de folie kunt zien. Liggen er meerdere pannen onder elkaar een stukje lager, dan zit het vaker in de lat. Kijk ook in de goot: een hele pan of een stuk pan in de goot betekent dat er boven een gat zit.`,
+      ] },
+      { kop: `Waarom je het niet laat zitten`, tekst: [
+        `Waar een pan is gezakt, zit erboven een kier. Bij gewone regen gaat het vaak nog goed, maar bij harde wind waait de regen er zo onder. En een pan die verder zakt, valt uiteindelijk in de goot of naar beneden. Lees ook <a href="/kennisbank/dak-lekt-bij-harde-wind/">dak lekt bij harde wind</a>.`,
+      ] },
+      { kop: `Wat je zelf beter niet doet`, tekst: [
+        `Ga niet zelf het dak op om de pan terug te duwen, en duw hem ook niet van binnenuit omhoog. Dan breek je makkelijk het nokje van de pan erboven, en je weet niet of de lat het nog houdt. Ligt de pan boven een stoep of je voordeur, blijf daar dan bij harde wind uit de buurt.`,
+      ] },
+      { kop: `Hoe ik het aanpak`, tekst: [
+        `Ik til de pannen erboven een stukje op en kijk hoe de pan en de lat erbij liggen. Is alleen een nokje afgebroken, dan vervang ik de pan door een pan die past. Is een stuk lat rot of gebroken, dan vervang ik dat stuk en leg ik de pannen terug. Zie ik dat de latten op veel plekken zacht zijn, dan zeg ik eerlijk dat een groter stuk dak aanpakken slimmer is, bijvoorbeeld bij een dakrenovatie met nieuwe panlatten. Zie <a href="/diensten/dakpannen-vervangen/">dakpannen vervangen</a>.`,
+      ] },
+      { kop: `Wat kost het?`, tekst: [
+        `Een paar gezakte pannen terugleggen of vervangen valt meestal onder een kleine reparatie: ${inclBtw("dakpan")}. Moet er een stuk lat vervangen worden, of liggen er veel pannen los, dan hoor je de prijs als je een foto hebt gestuurd. Stuur een foto van je dak vanaf de straat via WhatsApp, dan hoor je vooraf wat het kost.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: dakpannen vervangen`, href: `/diensten/dakpannen-vervangen/` },
+    faq: [
+      { v: `Is een gezakte dakpan spoed?`, a: `Meestal niet, zolang het binnen droog blijft en de pan niet boven een stoep of voordeur dreigt te vallen. Laat het wel snel maken, zeker voor een storm, want door de kier erboven waait de regen naar binnen. Druppelt het al op zolder, stuur dan meteen een foto.` },
+      { v: `Er zakken steeds weer pannen, ook na een reparatie. Hoe kan dat?`, a: `Dan zit het vaak niet in de pan, maar in de lat eronder. Is die op meer plekken zacht geworden, dan blijven de pannen niet hangen, hoe vaak je ze ook terugschuift. Dan is het slim om dat stuk dak open te laten maken en te laten kijken hoe de latten erbij liggen.` },
+      { v: `Mijn dak is oud. Moet het hele dak eraf als er een pan zakt?`, a: `Niet vanzelf. Vaak is het één pan met een afgebroken nokje of één stukje rotte lat. Pas als er op veel plekken pannen zakken of de latten op veel plekken zacht zijn, wordt een groter stuk of een nieuw dak het overwegen waard. Dat zeg ik eerlijk als ik heb gekeken.` },
+    ],
+  },
 ];
 
 // Kort antwoord bovenaan een artikel (zie KORT_ANTWOORD in artikelen-extra.ts). Geen bedragen met de hand.
@@ -493,4 +534,5 @@ export const KORT_ANTWOORD_3: Record<string, string> = {
   "plat-dak-losgewaaid-na-storm": `Is na een storm de rand of een baan van je platte dak losgekomen, kijk dan vanuit een raam boven en ga niet zelf het dak op. Een randje van een paar centimeter dat omhoog staat terwijl het binnen droog blijft, kan meestal een paar dagen wachten. Klappert er een hele baan of zie je het hout eronder, dan moet het snel worden afgedekt. Leg geen stenen of tegels op de bedekking.`,
   "vuurwerk-schade-dak": `Ligt er na oud en nieuw vuurwerk op of bij je dak, kijk dan op een droge dag vanaf de straat en ga niet zelf de ladder op. Een pijl of karton in de goot is meestal alleen troep, maar kan de uitloop naar de regenpijp dichtzetten. Een gebroken pan, een gesmolten stuk kunststof goot of een brandplek in een plat dak moet voor de volgende bui dicht. Rookt er iets, bel dan 112.`,
   "lood-van-dak-gestolen": `Mist er lood op je dak, dan ligt je dak op die plek open. Vang binnen het water op, maak foto's, doe aangifte bij de politie en meld het bij je verzekeraar. Ga niet zelf het dak op. Het gat wordt dichtgemaakt met nieuw lood of met loodvervanger, en loodvervanger is voor dieven niet interessant.`,
+  "dakpannen-zakken-af": `Een dakpan die lager ligt dan de rest van de rij, hangt meestal niet meer goed aan de panlat: het nokje aan de achterkant is afgebroken, de lat is rot of gebroken, of de pan is bij werk op het dak opgetild. Boven zo'n pan zit een kier waar regen onder kan waaien. Vaak is één pan of een stukje lat vervangen genoeg.`,
 };
