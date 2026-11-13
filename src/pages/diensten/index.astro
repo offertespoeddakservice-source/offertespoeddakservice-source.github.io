@@ -5,6 +5,8 @@ import { DIENSTEN } from "../../data/diensten.ts";
 import DienstIcon from "../../components/DienstIcon.astro";
 import { MATRIX } from "../../data/matrix.ts";
 import { getPlaats } from "../../data/plaatsen.ts";
+import { ARTIKELEN } from "../../data/artikelen.ts";
+const fluitBestaat = ARTIKELEN.some((a) => a.slug === "dak-fluit-bij-harde-wind" && !a.verborgen);
 // Dakreparatie per plaats: alle plaatsen met een eigen pagina, zodat nieuwe pagina's vanzelf meekomen.
 const dakrepPlaatsen = MATRIX.filter((c) => c.dienst === "dakreparatie").map((c) => getPlaats(c.plaats)).filter((p) => p) as NonNullable<ReturnType<typeof getPlaats>>[];
 // Dakgoot schoonmaken en dakgoot repareren per plaats: komt vanzelf uit de lijst met pagina's. Den Bosch, Vught en Veghel staan voor het repareren al in de zin hierboven.
@@ -66,6 +68,7 @@ const faqSchema = { "@context": "https://schema.org", "@type": "FAQPage", mainEn
       <ul>
         <li><strong>Druppelt het nu binnen?</strong> Kijk eerst op de <a href="/spoed/">spoedpagina</a> wat je meteen doet, en lees bij <a href="/diensten/daklekkage/">daklekkage</a> hoe ik het lek zoek.</li>
         <li><strong>Ligt er na een storm een pan scheef of mist er iets?</strong> Dan is het <a href="/diensten/stormschade/">stormschade</a>: ik dek eerst af en herstel daarna netjes.</li>
+        <li><strong>Hoor je bij harde wind getik, geklapper of gefluit op je dak?</strong> Dan zit er vaak iets los, of blaast de wind door een kier bij een pan, de nok of het lood. Lees <a href="/kennisbank/dakpannen-klapperen-bij-wind/">dakpannen klapperen bij wind</a>{fluitBestaat && <> of <a href="/kennisbank/dak-fluit-bij-harde-wind/">fluiten of gieren bij harde wind</a></>}, en kijk bij <a href="/diensten/dakreparatie/">dakreparatie</a> wat ik eraan doe.</li>
         <li><strong>Loopt je goot bij een bui over de rand?</strong> Meestal zit hij vol of is de uitloop verstopt. Dan is <a href="/diensten/goten-reinigen/">dakgoot schoonmaken</a> vaak genoeg.</li>
         <li><strong>Druppelt je goot steeds op dezelfde plek, ook als hij leeg is?</strong> Dan lekt hij bij een naad, een hoek of de uitloop: zie <a href="/diensten/dakgoot-vervangen/">dakgoot repareren of vervangen</a>.</li>
         <li><strong>Een losse of kapotte pan, een nokvorst die scheef ligt of lood dat loszit?</strong> Dat valt onder <a href="/diensten/dakreparatie/">dakreparatie</a>.</li>
