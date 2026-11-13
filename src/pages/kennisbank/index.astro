@@ -1,6 +1,6 @@
 ---
 import Base from "../../layouts/Base.astro";
-import { SITE } from "../../site.config.ts";
+import { SITE, waHref } from "../../site.config.ts";
 import { ARTIKELEN } from "../../data/artikelen.ts";
 // Kennisbank in groepjes per onderwerp, lekkage eerst. Artikelen die nergens in staan komen in de laatste groep.
 const GROEPEN: { kop: string; slugs: string[] }[] = [
@@ -47,6 +47,7 @@ const lijstSchema = {
       <h1>Daktips & eerlijke uitleg</h1>
       <p class="lead">Praktische uitleg over je dak, zonder verkooppraatje. Zo weet je wat er speelt voordat je belt.</p>
       <p class="lead" style="margin-top:10px;">Uitleg van Rens van Spoed Dak Service, dakdekker uit 's-Hertogenbosch voor lekkage, losse pannen, goten en stormschade in de regio Den Bosch.</p>
+      <p class="lead" style="margin-top:10px;"><strong>Lekt het nu?</strong> Op de <a href="/spoed/" style="color:#ffb486;">spoedpagina</a> lees je wat je meteen zelf kunt doen, of stuur me een foto van de natte plek via <a href={waHref("Hallo, mijn dak lekt. Ik stuur je een foto.")} style="color:#ffb486;">WhatsApp</a>.</p>
     </div>
   </section>
   <section class="section">
