@@ -129,6 +129,9 @@ const spoedSchema = {
           {heeftHuurhuis && <> Huur je je huis, lees dan in <a href="/kennisbank/lekkage-huurhuis/">lekkage in een huurhuis</a> hoe je het meldt en wie de reparatie regelt.</>}
         </p>
       )}
+      {bestaat("wachten-op-dakdekker-na-storm") && (
+        <p style="margin-top:16px;">Is het na een zware storm overal druk en moet je wachten tot er een dakdekker komt? Wat je intussen doet om het binnen droog te houden, en welk dak meestal als eerste aan de beurt is, lees je in <a href="/kennisbank/wachten-op-dakdekker-na-storm/">wachten op een dakdekker na een storm</a>.</p>
+      )}
       <p style="margin-top:22px;">Een scheve of kapotte pan zie je van beneden bijna niet. Twee foto's die ik zelf op het dak maakte:</p>
       <EchteFotos soort="pannen" max={2} inline />
     </div>
