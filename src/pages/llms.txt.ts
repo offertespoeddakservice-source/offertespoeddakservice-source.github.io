@@ -1,4 +1,4 @@
-// llms.txt (03-11-2026, bijgewerkt 04-11-2026, 07-11-2026: alle artikelen erbij, 10-11-2026: bereikbaar en korte namen, 11-11-2026: korte antwoorden, 12-11-2026: zonder 'doet het werk zelf', 12-11-2026 ronde 5: Gelderland in Waar): korte, feitelijke uitleg voor AI-zoekmachines (ChatGPT, Gemini, Perplexity, Copilot).
+// llms.txt (03-11-2026, bijgewerkt 04-11-2026, 07-11-2026: alle artikelen erbij, 10-11-2026: bereikbaar en korte namen, 11-11-2026: korte antwoorden, 12-11-2026: zonder 'doet het werk zelf', 12-11-2026 ronde 5: Gelderland in Waar, 13-11-2026: blok Ook verder weg): korte, feitelijke uitleg voor AI-zoekmachines (ChatGPT, Gemini, Perplexity, Copilot).
 // Plaatsen komen vanzelf uit plaatsen.ts en diensten uit diensten.ts (verborgen diensten, die Rens niet doet, vallen weg). Geen prijzen, geen beloftes.
 import type { APIRoute } from "astro";
 import { SITE } from "../site.config.ts";
@@ -116,6 +116,19 @@ export const GET: APIRoute = () => {
     `- Prinsenbeek, Teteringen, Bavel, Ulvenhout, Etten-Leur en Rijen: [Dakdekker in Breda](${u}/werkgebied/breda/)`,
     `- Stiphout, Mierlo-Hout, Brandevoort, Mierlo, Beek en Donk en Aarle-Rixtel: [Dakdekker in Helmond](${u}/werkgebied/helmond/)`,
     `- Best, Son en Breugel, Nuenen, Geldrop en Valkenswaard: [Dakdekker in Eindhoven](${u}/werkgebied/eindhoven/)`,
+    "",
+    "## Ook verder weg, op afspraak",
+    "Deze plaatsen hebben geen eigen pagina, maar staan wel op de site. Een klus daar wordt vooraf ingepland.",
+    `- Oosterhout, Made, Terheijden en Drimmelen: [Daklekkage in Breda](${u}/werkgebied/breda/daklekkage/)`,
+    `- Roosendaal en Bergen op Zoom: [Dakdekker in Breda](${u}/werkgebied/breda/)`,
+    `- Hilvarenbeek en Diessen: [Daklekkage in Tilburg](${u}/werkgebied/tilburg/daklekkage/)`,
+    `- Veldhoven en Waalre: [Daklekkage in Eindhoven](${u}/werkgebied/eindhoven/daklekkage/)`,
+    `- Deurne en Someren: [Daklekkage in Helmond](${u}/werkgebied/helmond/daklekkage/)`,
+    `- Mill, Cuijk en Boxmeer: [Daklekkage in Uden](${u}/werkgebied/uden/daklekkage/)`,
+    `- Werkendam, Sleeuwijk en Woudrichem: [Daklekkage in Heusden](${u}/werkgebied/heusden/daklekkage/)`,
+    `- Drongelen, Dussen en Hank: [Daklekkage in Waalwijk](${u}/werkgebied/waalwijk/daklekkage/)`,
+    `- Nijmegen en Beuningen: [Daklekkage in Wijchen](${u}/werkgebied/wijchen/daklekkage/)`,
+    `- Tiel, Culemborg, Geldermalsen, Gorinchem, Arnhem, Oosterbeek, Bladel en Eersel: [Werkgebied](${u}/werkgebied/)`,
     "",
     "## Per plaats en klus",
     ...LOKAAL.map((l) => `- [${l.naam}](${u}${l.pad})`),
