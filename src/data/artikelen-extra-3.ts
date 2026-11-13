@@ -419,6 +419,47 @@ export const ARTIKELEN_EXTRA_3: Artikel[] = [
       { v: `Kan ik je ook 's avonds of in het weekend een foto sturen?`, a: `Ja, bellen en WhatsApp kan dag en nacht. Stuur je foto's gewoon meteen, ook 's avonds. Dan hoor je wat ik zie en wanneer ik kan komen.` },
     ],
   },
+  {
+    slug: `zand-in-dakgoot`,
+    datum: `2026-11-13`,
+    titel: `Zand of korrels in je dakgoot?`,
+    h1: `Zand, korrels of scherven in je dakgoot: wat zegt het over je dak?`,
+    metaTitle: `Zand of korrels in je dakgoot: erg? | Spoed Dak Service`,
+    metaDescription: `Ligt er zand, gruis, zwarte korrels of een stukje pan in je goot? Vaak komt het van je eigen dak. Zo zie je wat het is, wanneer het erg is en wat je doet.`,
+    intro: `Je maakt je goot leeg, of je kijkt na een bui in de bak onder de regenpijp, en daar ligt meer dan blad. Een laagje zand, grijs gruis, zwarte korrels of een scherf van een pan. Dat komt meestal van je eigen dak, en wat het is, zegt iets over hoe je dak erbij ligt. Hieronder lees je wat je kunt vinden, wat het betekent en wanneer je er iets mee moet.`,
+    secties: [
+      { kop: `Zand of grijs gruis`, tekst: [
+        `Liggen er betonnen dakpannen op je dak, dan is een laagje zand of grijs gruis in de goot heel gewoon. Een betonpan is gemaakt van zand en cement, met een kleurlaag erover. Door regen, vorst en mos slijt die bovenste laag in de loop van de jaren, en het zand spoelt bij elke bui de goot in. Een beetje is geen probleem. Ligt er na een jaar een flinke laag, of zijn de pannen dof, ruw en vlekkerig geworden, dan nemen ze meer water op en worden ze kwetsbaarder bij vorst. Lees ook <a href="/kennisbank/poreuze-dakpannen/">poreuze dakpannen</a>.`,
+      ] },
+      { kop: `Brokjes specie`, tekst: [
+        `Grijze of witte brokjes die op stukjes cement lijken, komen meestal van de nok of van de hoekkepers. Op veel oudere daken liggen de vorsten in specie, en die wordt na jaren bros. Vind je die brokjes in de goot onder de nok of onder een hoek van het dak, kijk dan vanaf de straat of de vorsten nog recht liggen. Een vorst die los ligt, waait er bij een storm makkelijk af. Lees <a href="/kennisbank/nokvorsten-los/">losse nokvorsten</a>.`,
+      ] },
+      { kop: `Een scherf of een stuk pan`, tekst: [
+        `Een scherf van een pan in de goot betekent dat er ergens een pan is gebroken, door vorst, een vallende tak of iemand die over het dak heeft gelopen. Bij gebakken pannen zie je na een vorstperiode soms ook dunne schilfers van de bovenkant. Kijk met de zoom van je telefoon of er recht boven de plek waar je de scherf vond een pan met een barst ligt of een pan waar een stuk uit is. Zie <a href="/kennisbank/dakpan-kapot-of-verschoven/">dakpan kapot of verschoven</a> en <a href="/kennisbank/vorstschade-dakpannen/">vorstschade aan dakpannen</a>.`,
+      ] },
+      { kop: `Zwarte korrels of steentjes`, tekst: [
+        `Zwarte, grijze of gekleurde korrels die op grof zand lijken, komen meestal van een plat dak met bitumen, zoals de aanbouw of de garage waarvan het water in deze goot loopt. In de bovenste laag van die dakbedekking zitten kleine steentjes, en die laten na veel jaren los. Een paar is normaal. Zie je veel korrels en kale plekken op het platte dak, dan raakt de bedekking op. Lees <a href="/kennisbank/plat-dak-onderhouden/">plat dak onderhouden</a>.`,
+      ] },
+      { kop: `Proppen mos`, tekst: [
+        `Groene of bruine proppen mos komen van de pannen. Op de noordkant van het dak en onder bomen groeit het snel, en bij elke bui spoelt er een stuk de goot in. Dat zet vooral de uitloop naar de regenpijp dicht. Daken schoonmaken doe ik zelf niet, de goot leegmaken en de uitloop vrijmaken wel.`,
+      ] },
+      { kop: `Wat je zelf beter niet doet`, tekst: [
+        `Ga niet zelf op het dak kijken waar het vandaan komt, en klim niet met een ladder naar de nok. Een foto vanaf de overkant van de straat is meestal genoeg om te zien of er een vorst scheef ligt of een pan mist. Spoel het zand of de korrels niet met de tuinslang de regenpijp in, want het zakt naar de bocht onderin en zet die dicht.`,
+      ] },
+      { kop: `Hoe ik het aanpak`, tekst: [
+        `Bij het leegmaken van je goot let ik op wat erin ligt, en ik kijk meteen naar het stuk dak erboven. Ligt er een vorst los, dan zet ik die weer vast. Een gebroken pan vervang ik door een pan die past. Zie ik dat de pannen of de dakbedekking van een plat dak flink slijten, dan zeg ik dat eerlijk, en ook als er niets aan de hand is. Zie <a href="/diensten/goten-reinigen/">dakgoot schoonmaken</a>.`,
+      ] },
+      { kop: `Wat kost het?`, tekst: [
+        `Eén goot leegmaken, bijvoorbeeld alleen de voorgoot, kost ${inclBtw("goot_reinigen")}, met de uitloop naar de regenpijp vrij en de troep mee. Een losse vorst weer vastzetten of een paar pannen vervangen kost ${inclBtw("dakpan")}. Stuur een foto van wat je in de goot vond en van je dak vanaf de straat via WhatsApp, dan hoor je vooraf wat het kost.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: dakgoot schoonmaken`, href: `/diensten/goten-reinigen/` },
+    faq: [
+      { v: `Is zand in mijn dakgoot erg?`, a: `Een dun laagje zand of gruis onder een dak met betonnen pannen is normaal. Het wordt pas iets om naar te kijken als er elk jaar een flinke laag ligt, als de pannen ruw en dof zijn geworden of als het zand de uitloop naar de regenpijp dichtzet.` },
+      { v: `Moet mijn dak vervangen worden als de pannen zand verliezen?`, a: `Meestal niet meteen. Een betonpan die wat zand verliest, kan nog jaren mee. Pas als er veel pannen gebarsten of poreus zijn, of als het op meer plekken lekt, is vernieuwen het overwegen waard. Stuur een foto van je dak, dan zeg ik eerlijk wat ik zie.` },
+      { v: `Ik vind brokjes specie in de goot, maar binnen is het droog. Moet ik iets doen?`, a: `Wacht er niet te lang mee. Het is meestal geen spoed, maar een vorst die los ligt, kan bij de volgende storm van het dak waaien, en dan ligt de nok open. Maak een foto van de nok vanaf de straat en stuur die via WhatsApp, dan kijk ik mee.` },
+    ],
+  },
 ];
 
 // Kort antwoord bovenaan een artikel (zie KORT_ANTWOORD in artikelen-extra.ts). Geen bedragen met de hand.
@@ -444,4 +485,5 @@ export const KORT_ANTWOORD_3: Record<string, string> = {
   "lekkage-huurhuis": `Lekt het dak van je huurhuis, vang het water dan op, maak foto's en meld het meteen bij je verhuurder of woningcorporatie, het liefst schriftelijk. In de regel is het dak de zaak van de verhuurder, en die regelt de reparatie. Schade aan je eigen spullen valt meestal onder je eigen inboedelverzekering. Woon je in een appartement, dan regelt meestal de VvE het dak.`,
   "welke-dakpan-heb-ik": `Kijk naar drie dingen: het materiaal (gebakken klei of beton), de vorm en de kleur. Op zolder staat op de achterkant van een pan vaak een naam of nummer van de fabriek. Stuur een foto van je dak vanaf de straat en, als het kan, van de achterkant van een pan, dan zoek ik een pan die past.`,
   "wachten-op-dakdekker-na-storm": `Na een zware storm hebben dakdekkers het druk. Houd intussen binnen zo veel mogelijk droog: een emmer onder elke druppel, spullen weg en de stroom uit bij een natte lamp of stopcontact. Ga niet zelf het dak op en leg geen stenen op losse pannen. Stuur foto's van binnen en van je dak vanaf de straat, en zeg of het nu druppelt: een dak dat open ligt of waar het binnen nat wordt, gaat meestal voor.`,
+  "zand-in-dakgoot": `Zand of grijs gruis in je goot komt meestal van betonnen pannen waarvan de bovenste laag slijt, en een beetje daarvan is normaal. Brokjes specie wijzen op een nok of hoekkeper waarvan de vorsten los gaan liggen, een scherf op een gebroken pan, en zwarte korrels op een plat dak met bitumen dat slijt. Kijk vanaf de straat naar het stuk dak erboven.`,
 };
