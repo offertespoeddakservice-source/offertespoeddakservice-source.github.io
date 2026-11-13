@@ -3,7 +3,7 @@
 // Kennisbank [slug].astro legt hem over het artikel heen: alleen de velden die hier staan, veranderen (ook de titel voor Google).
 import type { Artikel } from "./artikelen";
 
-export const ARTIKEL_CORRECTIES: Record<string, Partial<Pick<Artikel, "secties" | "faq" | "dienst" | "metaTitle">>> = {
+export const ARTIKEL_CORRECTIES: Record<string, Partial<Pick<Artikel, "secties" | "faq" | "dienst" | "metaTitle" | "metaDescription">>> = {
   "mos-op-dak-verwijderen": {
     secties: [
       { kop: "Is mos echt schadelijk?", tekst: [
@@ -70,4 +70,6 @@ export const ARTIKEL_CORRECTIES: Record<string, Partial<Pick<Artikel, "secties" 
   "lood-op-dak": { dienst: { label: "Bekijk: lood vastzetten of vervangen", href: "/diensten/lood-vervangen/" } },
   "lekkage-gedeelde-schoorsteen": { dienst: { label: "Bekijk: lood vervangen bij de schoorsteen", href: "/diensten/lood-vervangen/" } },
   "condens-of-lekkage-op-zolder": { metaTitle: "Condens op zolder of een daklek? | Spoed Dak Service" },
+  "dak-lekt-bij-hevige-regen": { metaDescription: "Lekt je dak alleen bij hevige regen of een stortbui? Meestal kan het water dan niet snel genoeg weg bij de goot, een kilgoot, de afvoer van een plat dak of een dakraam." },
+  "bakgoot-lekt": { dienst: { label: "Bekijk: bakgoot repareren", href: "/diensten/bakgoot-repareren/" } },
 };
