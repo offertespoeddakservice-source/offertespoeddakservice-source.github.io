@@ -471,6 +471,13 @@ export const FAQ_ERBIJ_2: Record<string, Artikel["faq"]> = {
   "water-achter-dakgoot": [
     { v: `Het water loopt alleen achter mijn goot langs als er ijs of sneeuw in de goot ligt. Hoe kan dat?`, a: `Bij dooi smelt de sneeuw op het dak vaak eerder dan het ijs in de goot. Het smeltwater kan dan niet weg, komt hoger te staan en loopt terug onder de onderste rij pannen, en zo achter de goot langs de muur naar beneden. Meestal houdt het op als de goot weer ontdooid is. Hak het ijs er niet uit en giet er geen heet water in: daarmee beschadig je de goot, en verderop bevriest het meteen weer. Kijk na de dooi of de goot nog recht hangt, want ijs is zwaar en kan een beugel laten zakken, en of er een naad is opengedrukt. Ligt er blad of mos in de goot, dan blijft er makkelijker water in staan dat bevriest, dus laat hem voor de vorst leegmaken. Stuur me een foto van de goot en van de natte plek, dan hoor je vooraf wat het kost.` },
   ],
+  "dakraam-lekt": [
+    { v: `Mijn dakraam is pas vervangen of nieuw geplaatst, en nu lekt het. Ligt dat aan het raam?`, a: `Meestal niet aan het glas, maar aan hoe het raam op het dak is aangesloten: het gootstuk, de folie rond het raam of een pan ernaast die niet goed terugligt. Neem eerst contact op met wie het raam heeft geplaatst en stuur foto's mee, want een lek kort na het plaatsen hoort in de regel bij dat werk. Lukt dat niet, of is het al langer geleden, stuur mij dan een foto van het raam van binnen en van buiten vanaf de straat. Hoe je zelf ziet waar het zit, lees je in het artikel over lekkage sinds een nieuw dakraam.` },
+  ],
+  "daktermen-uitgelegd": [
+    { v: `Wat is een lessenaarsdak?`, a: `Een dak met maar één schuin vlak, zonder nok in het midden. Je ziet het vaak op een aanbouw, keuken of schuur die tegen het huis staat: de hoge kant ligt tegen de muur, de lage kant boven de goot. Bovenaan, tegen de muur, ligt een strook lood of loodvervanger over de pannen. Lekt het daar, lees dan het artikel over een lekkend schuin dakje van je aanbouw.` },
+    { v: `Wat is een gootstuk bij een dakraam?`, a: `Het gootstuk is de set stroken rond een dakraam in een pannendak, meestal van aluminium en bij oudere ramen soms van lood of zink. Het leidt het water dat van boven komt om het raam heen, en onder het raam weer over de pannen. Ligt het niet goed onder of over de pannen, of is het na veel jaren op, dan loopt het water langs het raam naar binnen. Zie het artikel over een lekkend dakraam.` },
+  ],
 };
 
 // Artikelen en korte antwoorden uit artikelen-extra-3.ts (sinds 12-11-2026) erachter, zodat ze via artikelen-extra.ts in ARTIKELEN en KORT_ANTWOORD komen.
