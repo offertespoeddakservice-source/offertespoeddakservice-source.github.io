@@ -216,6 +216,48 @@ export const ARTIKELEN_EXTRA_4: Artikel[] = [
       { v: `Moet het hele dakje eraf als het lekt?`, a: `Meestal niet. Vaak zit het lek op één plek: de strook tegen de muur, een pan of de goot. Dan repareer ik alleen die plek. Zijn de pannen op veel plekken gebroken of poreus, of zijn de latten eronder rot, dan zeg ik eerlijk dat een groter stuk opnieuw slimmer is. Je hoort vooraf wat het kost.` },
     ],
   },
+  {
+    slug: `dak-lekt-boven-en-benedenwoning`,
+    datum: `2026-11-13`,
+    titel: `Lekt het dak van je boven- of benedenwoning?`,
+    h1: `Dak lekt bij een boven- en benedenwoning: wie regelt en betaalt de reparatie?`,
+    metaTitle: `Dak lekt bij boven- en benedenwoning? | Spoed Dak Service`,
+    metaDescription: `Woon je in een bovenwoning of een klein appartementengebouw en lekt het dak? Zo beperk je de schade, zo zit het meestal met de VvE en zo regel je de reparatie.`,
+    intro: `Woon je boven of beneden in een huis dat in twee of drie woningen is verdeeld, of in een klein appartementengebouw, en lekt het dak? Dan wil je niet alleen dat het droog wordt. Je wilt ook weten wie het regelt en wie het betaalt. Meestal is het dak van alle eigenaren samen, ook als het water alleen bij de bovenste woning binnenkomt. Hieronder lees je wat je meteen doet, hoe het meestal zit en hoe je de reparatie samen regelt.`,
+    secties: [
+      { kop: `Lekt het nu? Eerst dit`, tekst: [
+        `Zet een emmer onder de druppel, leg er een handdoek in en haal spullen weg. Zit de natte plek bij een lamp of stopcontact, zet dan in de meterkast de groep van die kamer uit. Ga niet zelf het dak op. Maak foto's van de natte plek, van de schade en vanaf de straat van het dak, en noteer de datum. Woon je beneden en druppelt het bij jou, laat het de bovenburen dan meteen weten. Wat je verder meteen kunt doen, staat op de <a href="/spoed/">spoedpagina</a>.`,
+      ] },
+      { kop: `Van wie is het dak?`, tekst: [
+        `Is een huis in appartementsrechten gesplitst, dan bestaat er een Vereniging van Eigenaars, ook als die nooit vergadert. Het dak hoort in de regel bij de delen die van alle eigenaren samen zijn. De kosten worden dan verdeeld zoals in de splitsingsakte staat, ook als het water alleen bij de bovenste woning binnenkomt. Wat er bij jullie precies geldt, staat in de splitsingsakte en het reglement. Heb je die niet meer, dan kun je de akte opvragen bij het Kadaster.`,
+      ] },
+      { kop: `Een kleine VvE die eigenlijk niets doet`, tekst: [
+        `Bij een huis met twee of drie woningen is er vaak geen bestuur, geen spaarpot en geen vergadering. Dan regel je het samen. Stuur de andere eigenaren je foto's, vertel wat er aan de hand is en spreek af wie de dakdekker belt. Zet in een appje of mail wie welk deel betaalt. Dat voorkomt gedoe achteraf, en het helpt als je later bij de verzekering moet laten zien wat er is afgesproken.`,
+      ] },
+      { kop: `Huur je de woning?`, tekst: [
+        `Dan meld je het lek bij je verhuurder, met je foto's erbij. Die regelt het verder met de VvE of de andere eigenaren. Wat je zelf doet en wat je van de verhuurder mag verwachten, lees je in <a href="/kennisbank/lekkage-huurhuis/">dak lekt in een huurhuis</a>.`,
+      ] },
+      { kop: `Komt het water wel van het dak?`, tekst: [
+        `Woon je beneden en zit er nog een woning boven je, dan komt het water vaak niet van het dak, maar van een badkamer, een wc of een leiding van de bovenburen. Wordt het ook nat als het dagen droog is, of juist als er boven iemand doucht, dan heb je eerder een loodgieter nodig. Lees <a href="/kennisbank/lekkage-dakdekker-of-loodgieter/">lekkage: dakdekker of loodgieter?</a> en <a href="/kennisbank/lekkage-badkamer-plafond/">lekkage in het plafond onder de badkamer</a>.`,
+      ] },
+      { kop: `Waar het lek meestal zit`, tekst: [
+        `Bij een ouder huis dat later in woningen is verdeeld, ligt er vaak een pannendak met een schoorsteen en soms een dakraam, en achter het huis een plat dak op een aanbouw. Een lek begint dan meestal bij het lood rond de schoorsteen, bij een pan die is gaan schuiven, bij de aansluiting van een dakraam of bij de afvoer en de rand van het platte dak. Bij een klein appartementengebouw met een plat dak kijk ik eerst naar de afvoer, de naden en de randen. Meer over zoeken lees je in <a href="/kennisbank/daklekkage-opsporen/">daklekkage opsporen</a>.`,
+      ] },
+      { kop: `Hoe ik het aanpak`, tekst: [
+        `Ik spreek af met wie me belt, en als het kan ook met de bewoner van de bovenste woning, want vaak moet ik op zolder of in die woning kijken waar het water binnenkomt. Ik zoek het lek en zeg eerlijk wat er nodig is, voordat ik iets doe. Na afloop krijg je foto's van wat ik aantrof en van wat ik heb gemaakt. Die kun je doorsturen naar de andere eigenaren, zodat iedereen ziet waar het om ging. Zie <a href="/diensten/daklekkage/">daklekkage opsporen en repareren</a>.`,
+      ] },
+      { kop: `Wat kost het?`, tekst: [
+        `Moet ik zoeken waar het water binnenkomt en het lek dichtmaken, dan is het meestal een gerichte lekreparatie: ${inclBtw("daklekkage")}, inclusief materiaal. Je hoort vooraf wat het kost, zodat jullie samen kunnen afspreken wie welk deel betaalt. Spreek ook vooraf af op wiens naam de rekening komt.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: daklekkage opsporen en repareren`, href: `/diensten/daklekkage/` },
+    faq: [
+      { v: `Ik woon boven en alleen bij mij lekt het. Moet de benedenbuurman meebetalen?`, a: `Meestal wel. Is het huis gesplitst, dan is het dak in de regel van alle eigenaren samen, en worden de kosten verdeeld zoals in de splitsingsakte staat. Dat het water alleen bij jou binnenkomt, verandert daar meestal niets aan. Kijk voor de zekerheid in de akte en het reglement, en bespreek het met je buren voordat de reparatie begint.` },
+      { v: `We hebben een VvE, maar die doet niets. Mag ik dan zelf een dakdekker bellen?`, a: `Lekt het nu, zorg dan eerst dat de schade niet groter wordt: vang het water op en laat het lek zo nodig tijdelijk dichtmaken. Laat de andere eigenaren meteen weten wat er is gebeurd, met foto's. Voor de echte reparatie is het verstandig om eerst samen af te spreken wat er gebeurt en wie welk deel betaalt. Wat jullie reglement daarover zegt, verschilt per gebouw.` },
+      { v: `Betaalt de verzekering de schade in mijn woning?`, a: `Dat hangt af van de polis en van de oorzaak. Schade aan je eigen spullen valt meestal onder je eigen inboedelverzekering. Voor het gebouw heeft de VvE vaak een opstalverzekering. Een lek door slijtage of achterstallig onderhoud wordt meestal niet vergoed, schade door een storm vaker wel. Meer lees je in het artikel over daklekkage en je verzekering.` },
+      { v: `Wie moet er thuis zijn als je komt?`, a: `Vaak moet ik op zolder of in de bovenste woning kijken waar het water binnenkomt. Spreek dus af dat de bewoner van die woning thuis is, of dat iemand anders me binnenlaat. Kan ik van buiten bij het lek en hebben we de prijs vooraf afgesproken, dan hoeft dat niet altijd.` },
+    ],
+  },
 ];
 
 // Kort antwoord bovenaan een artikel (zie KORT_ANTWOORD in artikelen-extra.ts). Geen bedragen met de hand.
@@ -225,4 +267,5 @@ export const KORT_ANTWOORD_4: Record<string, string> = {
   "goot-schoonmaken-glazenwasser-of-dakdekker": `Zit je goot alleen vol blad en lekt hij niet, dan kan de glazenwasser hem prima leegmaken, zolang de uitloop naar de regenpijp ook vrij wordt gemaakt. Druppelt de goot, loopt het water achter de goot langs de gevel, ligt er specie of een stuk pan in, of gaat het om een bakgoot of kilgoot, dan is een dakdekker slimmer: die kan het in dezelfde keer nakijken en repareren.`,
   "lekt-sinds-nieuw-dakraam": `Lekt het sinds er een nieuw dakraam in je pannendak zit, dan zit het bijna nooit in het glas, maar in de aansluiting op het dak: het gootstuk rond het raam, de folie boven het raam of een pan ernaast die niet goed terugligt. Is het raam pas geplaatst, neem dan eerst contact op met wie het heeft geplaatst. Lekt het alleen als het raam op de ventilatiestand staat, dan zit het in het raam zelf.`,
   "schuin-dak-aanbouw-lekt": `Lekt het schuine pannendakje van je aanbouw, dan zit het meestal bovenaan: in de strook lood of loodvervanger die met de bovenrand in de muur zit en over de bovenste rij pannen valt. Ook een ingekorte bovenste pan die is gaan schuiven, een volle goot onderaan of een gevel die bij slagregen water doorlaat kan de oorzaak zijn. Vaak is het een reparatie op die ene plek.`,
+  "dak-lekt-boven-en-benedenwoning": `Lekt het dak van een huis dat in een boven- en benedenwoning of een paar appartementen is verdeeld, dan is het dak meestal van alle eigenaren samen. De kosten worden dan in de regel verdeeld zoals in de splitsingsakte staat, ook als het water alleen bij de bovenste woning binnenkomt. Vang eerst het water op, maak foto's en spreek met de andere eigenaren af wie de dakdekker belt. Huur je, meld het dan bij je verhuurder.`,
 };
