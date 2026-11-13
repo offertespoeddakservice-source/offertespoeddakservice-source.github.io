@@ -4,6 +4,7 @@ import { SITE, telHref, waHref } from "../site.config.ts";
 import { DIENSTEN } from "../data/diensten.ts";
 import { PLAATSEN } from "../data/plaatsen.ts";
 import DienstIcon from "../components/DienstIcon.astro";
+import EchteFotos from "../components/EchteFotos.astro";
 import { ARTIKELEN } from "../data/artikelen.ts";
 import { PRIJZEN, prijsVan, BTW_REGEL } from "../data/prijzen.ts";
 
@@ -128,6 +129,9 @@ const faqSchema = {
           <h3>Uit de regio</h3>
           <p>Ik werk in {SITE.regioOmschrijving}, vaak ben ik al bij jou in de buurt.</p>
         </div>
+      </div>
+      <div style="margin-top:28px;">
+        <EchteFotos soort="pannen" max={3} inline />
       </div>
       <h3 style="margin-top:28px;">In het kort</h3>
       <ul>
