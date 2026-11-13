@@ -355,6 +355,7 @@ export const DIENSTEN: Dienst[] = [
       { label: "Regenpijp vervangen", href: "/diensten/regenpijp-vervangen/" },
       { label: "Goten reinigen", href: "/diensten/goten-reinigen/" },
       { label: "Dakgoot solderen", href: "/diensten/dakgoot-solderen/" },
+      { label: "Bakgoot repareren", href: "/diensten/bakgoot-repareren/" },
     ],
     h1: "Dakgoot repareren of vervangen: bij lekkende naden, roest of een goot die blijft overlopen",
     kort: "Versleten of lekkende goot? Nieuwe zinken, kunststof of pvc goot, netjes gemonteerd.",
@@ -402,6 +403,7 @@ export const DIENSTEN: Dienst[] = [
       { label: "Dakgoot repareren of vervangen", href: "/diensten/dakgoot-vervangen/" },
       { label: "Goten reinigen", href: "/diensten/goten-reinigen/" },
       { label: "Dakgoot solderen", href: "/diensten/dakgoot-solderen/" },
+      { label: "Bakgoot repareren", href: "/diensten/bakgoot-repareren/" },
     ],
     intro:
       "Lekt je zinken goot op een paar plekken, of wordt het zink dun op de plek waar altijd water en blad bleven liggen, terwijl de goot zelf nog stevig hangt? Dan hoeft hij er vaak niet uit. Ik maak de goot leeg, schoon en droog, en breng er van binnen een coating op, over het stuk dat lekt of over de hele lengte. Zo blijft het regenwater in de goot en loopt het niet meer langs je gevel naar beneden. Hangt de goot door, zit hij los van de beugels of is het zink op, dan helpt coaten niet, en dat zeg ik je eerlijk.",
@@ -435,6 +437,7 @@ export const DIENSTEN: Dienst[] = [
     zieOok: [
       { label: "Dakgoot van binnen coaten", href: "/diensten/dakgoot-coaten/" },
       { label: "Dakgoot repareren of vervangen", href: "/diensten/dakgoot-vervangen/" },
+      { label: "Bakgoot repareren", href: "/diensten/bakgoot-repareren/" },
     ],
     intro:
       "Druppelt je zinken goot bij elke bui op dezelfde plek, bij een naad, een hoek of de uitloop naar de regenpijp? Dan is daar meestal de soldeernaad opengegaan. Zink zet uit als het warm is en krimpt als het koud is, en na jaren laat zo'n naad los. Vaak hoeft de goot er dan niet uit: ik maak de goot leeg en droog, schuur de naad schoon en soldeer hem opnieuw dicht. Lekt de goot op veel plekken of is het zink over een groot stuk dun, dan helpt solderen niet meer. Is de goot verder nog stevig, dan kan van binnen coaten nog, en is het zink echt op, dan is een nieuwe goot beter. Dat zeg ik je eerlijk als ik heb gekeken. Je hoort vooraf wat het kost.",
