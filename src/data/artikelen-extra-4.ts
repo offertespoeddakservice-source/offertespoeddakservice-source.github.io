@@ -92,10 +92,48 @@ export const ARTIKELEN_EXTRA_4: Artikel[] = [
       { v: `Ik hoor het fluiten alleen bij wind uit één richting. Wat zegt dat?`, a: `Dat helpt bij het zoeken. De kier zit dan meestal aan de kant waar de wind tegenaan blaast, of bij de nok, waar de wind over het dak trekt. Noteer de windrichting en waar je het geluid hoort, en stuur dat mee met een foto van je dak vanaf de straat.` },
     ],
   },
+  {
+    slug: `goot-schoonmaken-glazenwasser-of-dakdekker`,
+    datum: `2026-11-13`,
+    titel: `Goot schoonmaken: glazenwasser of dakdekker?`,
+    h1: `Je dakgoot laten schoonmaken: door de glazenwasser of door een dakdekker?`,
+    metaTitle: `Dakgoot legen: glazenwasser of dakdekker? | Spoed Dak Service`,
+    metaDescription: `Veel glazenwassers maken in het najaar ook goten schoon. Wanneer dat prima is, wanneer je beter een dakdekker vraagt en wat je bij allebei vooraf navraagt.`,
+    intro: `In het najaar bieden veel glazenwassers aan om ook je dakgoot leeg te maken. Dat is handig, want ze komen toch al langs. Soms is dat de beste keus, en soms juist niet. Het verschil zit niet in het leegmaken zelf, maar in wat er gebeurt als er meer aan de hand is. Hieronder lees je wanneer de glazenwasser prima is, wanneer een dakdekker slimmer is en wat je bij allebei vooraf vraagt.`,
+    secties: [
+      { kop: `Wanneer de glazenwasser prima is`, tekst: [
+        `Zit je goot alleen vol blad, kun je er goed bij en heb je geen last van lekkage of een natte muur? Dan maakt het weinig uit wie hem leegmaakt, zolang het netjes gebeurt en de uitloop naar de regenpijp ook vrij wordt gemaakt. Sommige glazenwassers werken met een ladder, andere met een lange stok of zuigbuis vanaf de grond.`,
+      ] },
+      { kop: `Wanneer een dakdekker slimmer is`, tekst: [
+        `Druppelt je goot op een vaste plek, ook als hij leeg is, of loopt het water achter de goot langs je gevel? Dan is leegmaken alleen niet genoeg. Een dakdekker kan in dezelfde keer zien of een naad lek is, of de goot nog op afschot hangt en of het water van de pannen nog in de goot valt. Lees ook <a href="/kennisbank/dakgoot-lekt/">dakgoot lekt</a> en <a href="/kennisbank/water-achter-dakgoot/">water achter de dakgoot</a>.`,
+        `Ligt er meer dan blad in de goot, zoals brokjes specie, een scherf van een pan of veel zand? Dan zit er boven de goot vaak iets los. Lees <a href="/kennisbank/zand-in-dakgoot/">zand of korrels in je dakgoot</a>.`,
+        `Heb je een bakgoot achter een houten lijst, een kilgoot tussen twee daken of een goot vlak onder zonnepanelen? Daar kom je vanaf de grond lastig bij, en een lek komt daar eerder binnen dan buiten. Lees <a href="/kennisbank/bakgoot-lekt/">bakgoot lekt</a> en <a href="/kennisbank/kilgoot-lekt/">kilgoot lekt</a>.`,
+      ] },
+      { kop: `Wat je bij allebei vooraf vraagt`, tekst: [
+        `Wordt de uitloop naar de regenpijp ook vrijgemaakt, of alleen de goot? Gaat de troep mee, of blijft hij in de tuin liggen? Hoor je het, met een foto, als er iets kapot blijkt? Komt de ladder tegen de muur en niet tegen de goot? Is hij verzekerd als er iets misgaat? En wat kost het voor jouw huis: voor één goot of voor alle goten? Met die antwoorden vergelijk je eerlijk dezelfde klus.`,
+      ] },
+      { kop: `Lekt je goot sinds hij is leeggemaakt?`, tekst: [
+        `Soms druppelt een goot pas na het schoonmaken, omdat het vuil een oud lek dichthield of omdat er een beugel is verbogen. Hoe dat zit, lees je in <a href="/kennisbank/dakgoot-lekt-na-schoonmaken/">dakgoot lekt sinds hij is schoongemaakt</a>.`,
+      ] },
+      { kop: `Hoe ik het doe`, tekst: [
+        `Ik werk vanaf de ladder langs de goot, maak hem leeg en maak de uitloop naar de regenpijp vrij. De troep gaat mee. Ondertussen kijk ik naar de goot zelf en naar het dak erboven: de onderste pannen, de nok en het lood. Zie ik iets wat niet goed is, dan laat ik het je zien met een foto, en hoor je vooraf wat het kost om het mee te nemen. Jij beslist of het in dezelfde keer gebeurt. Zie <a href="/diensten/goten-reinigen/">dakgoot schoonmaken</a>.`,
+      ] },
+      { kop: `Wat kost het?`, tekst: [
+        `Eén goot leegmaken, bijvoorbeeld alleen de voorgoot, kost bij mij ${inclBtw('goot_reinigen')}, met de uitloop vrij en de troep mee. Voor beide goten of een groter huis hoor je vooraf de prijs. Stuur een foto van je huis vanaf de straat via WhatsApp, dan kan ik die vaak meteen noemen.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: dakgoot schoonmaken`, href: `/diensten/goten-reinigen/` },
+    faq: [
+      { v: `Is een glazenwasser goedkoper dan een dakdekker voor de goot?`, a: `Dat verschilt per bedrijf en per huis. Vraag bij allebei vooraf wat het kost voor jouw goten en wat erbij hoort, zoals de uitloop vrijmaken en de troep meenemen. Vergelijk dan dezelfde klus.` },
+      { v: `Mijn glazenwasser zag iets kapot aan mijn goot of dak. Kun jij ernaar kijken?`, a: `Ja. Vraag of hij er een foto van heeft gemaakt, of maak er zelf een vanaf de straat, en stuur die via WhatsApp. Dan zeg ik eerlijk wat ik zie en hoor je vooraf wat het kost.` },
+      { v: `Kun je het leegmaken van de goot combineren met ander werk aan het dak?`, a: `Ja. Ligt er een pan scheef of zit de nok los, dan kan dat meestal in dezelfde keer, als ik het passende materiaal bij me heb. Je hoort eerst wat het kost, en jij beslist.` },
+    ],
+  },
 ];
 
 // Kort antwoord bovenaan een artikel (zie KORT_ANTWOORD in artikelen-extra.ts). Geen bedragen met de hand.
 export const KORT_ANTWOORD_4: Record<string, string> = {
   "dakgoot-lekt-na-schoonmaken": `Lekt je goot sinds hij is leeggemaakt, dan zat er vaak al een klein lek in een naad, een hoek of een verbinding, en hield het vuil dat dicht. Het kan ook zijn dat er bij het werk een beugel is verbogen, of dat de uitloop niet meer goed in de regenpijp zit. Kijk tijdens een bui waar het precies druppelt en maak er een foto van.`,
   "dak-fluit-bij-harde-wind": `Gefluit of gegier op zolder bij harde wind komt van wind die door een smalle opening blaast: een kier onder de nokvorsten, een pan die niet goed sluit, een ventilatiepan, het kapje op een pijp, een open schoorsteen of de rand van een dakraam. Een fluitende ventilatiepan is meestal gewoon. Voel je tocht of zie je daglicht bij de nok of tussen de pannen, laat het dan nakijken.`,
+  "goot-schoonmaken-glazenwasser-of-dakdekker": `Zit je goot alleen vol blad en lekt hij niet, dan kan de glazenwasser hem prima leegmaken, zolang de uitloop naar de regenpijp ook vrij wordt gemaakt. Druppelt de goot, loopt het water achter de goot langs de gevel, ligt er specie of een stuk pan in, of gaat het om een bakgoot of kilgoot, dan is een dakdekker slimmer: die kan het in dezelfde keer nakijken en repareren.`,
 };
