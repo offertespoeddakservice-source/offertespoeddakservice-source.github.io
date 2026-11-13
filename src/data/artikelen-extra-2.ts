@@ -483,6 +483,9 @@ export const FAQ_ERBIJ_2: Record<string, Artikel["faq"]> = {
     { v: `Wat is een lessenaarsdak?`, a: `Een dak met maar één schuin vlak, zonder nok in het midden. Je ziet het vaak op een aanbouw, keuken of schuur die tegen het huis staat: de hoge kant ligt tegen de muur, de lage kant boven de goot. Bovenaan, tegen de muur, ligt een strook lood of loodvervanger over de pannen. Lekt het daar, lees dan het artikel over een lekkend schuin dakje van je aanbouw.` },
     { v: `Wat is een gootstuk bij een dakraam?`, a: `Het gootstuk is de set stroken rond een dakraam in een pannendak, meestal van aluminium en bij oudere ramen soms van lood of zink. Het leidt het water dat van boven komt om het raam heen, en onder het raam weer over de pannen. Ligt het niet goed onder of over de pannen, of is het na veel jaren op, dan loopt het water langs het raam naar binnen. Zie het artikel over een lekkend dakraam.` },
   ],
+  "lekkage-huurhuis": [
+    { v: `Ik huur niet, maar ik ben eigenaar van een bovenwoning. Wie regelt het dak dan?`, a: `Dan ben jij samen met de andere eigenaren aan zet. Is het huis gesplitst, dan is het dak in de regel van alle eigenaren samen en betalen jullie de reparatie volgens de verdeling in de splitsingsakte, ook als het alleen bij jou lekt. Is er geen actief bestuur, spreek het dan samen af voordat de reparatie begint. Hoe je dat regelt, lees je in het artikel over een lekkend dak bij een boven- en benedenwoning.` },
+  ],
 };
 
 // Artikelen en korte antwoorden uit artikelen-extra-3.ts (sinds 12-11-2026) erachter, zodat ze via artikelen-extra.ts in ARTIKELEN en KORT_ANTWOORD komen.
