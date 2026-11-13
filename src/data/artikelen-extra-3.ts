@@ -4,6 +4,7 @@
  */
 import type { Artikel } from "./artikelen";
 import { inclBtw } from "./prijzen";
+import { ARTIKELEN_EXTRA_4, KORT_ANTWOORD_4 } from "./artikelen-extra-4";
 
 export const ARTIKELEN_EXTRA_3: Artikel[] = [
   {
@@ -536,3 +537,7 @@ export const KORT_ANTWOORD_3: Record<string, string> = {
   "lood-van-dak-gestolen": `Mist er lood op je dak, dan ligt je dak op die plek open. Vang binnen het water op, maak foto's, doe aangifte bij de politie en meld het bij je verzekeraar. Ga niet zelf het dak op. Het gat wordt dichtgemaakt met nieuw lood of met loodvervanger, en loodvervanger is voor dieven niet interessant.`,
   "dakpannen-zakken-af": `Een dakpan die lager ligt dan de rest van de rij, hangt meestal niet meer goed aan de panlat: het nokje aan de achterkant is afgebroken, de lat is rot of gebroken, of de pan is bij werk op het dak opgetild. Boven zo'n pan zit een kier waar regen onder kan waaien. Vaak is één pan of een stukje lat vervangen genoeg.`,
 };
+
+// Artikelen en korte antwoorden uit artikelen-extra-4.ts (sinds 13-11-2026) erachter, zodat ze via artikelen-extra-2.ts in ARTIKELEN en KORT_ANTWOORD komen.
+ARTIKELEN_EXTRA_3.push(...ARTIKELEN_EXTRA_4.filter((x) => !ARTIKELEN_EXTRA_3.some((a) => a.slug === x.slug)));
+Object.assign(KORT_ANTWOORD_3, KORT_ANTWOORD_4);
