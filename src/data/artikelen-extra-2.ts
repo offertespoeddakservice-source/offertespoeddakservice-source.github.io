@@ -492,6 +492,9 @@ export const FAQ_ERBIJ_2: Record<string, Artikel["faq"]> = {
   "water-uit-lamp-plafond": [
     { v: `Er komt water uit mijn lamp, maar op zolder of boven is alles droog. Hoe kan dat?`, a: `Dan komt het water vaak van opzij. In huizen met betonnen vloeren lopen de stroomdraden door buizen in het beton. Water dat ergens anders binnenkomt, bijvoorbeeld bij een platte aanbouw, een balkon of dakterras of langs een kozijn, kan door zo'n buis een eind meelopen en komt pas bij de lamp of een spotje naar buiten. Ook een leiding of de afvoer van een badkamer erboven kan het zijn, en in een appartement de woning boven je. Laat de groep in de meterkast uit staan. Let op wanneer het druppelt: alleen tijdens of na regen wijst naar buiten, ook bij droog weer eerder naar een leiding, en dan bel je een loodgieter. Stuur me een foto van de lamp en van wat er boven en naast die kamer zit, dan zeg ik eerlijk of het bij mij hoort.` },
   ],
+  "lekkage-bij-dakdoorvoer": [
+    { v: `Op de ontluchtingspijp op mijn dak zit geen kapje. Regent het daardoor binnen?`, a: `Bij de ontluchting van het riool meestal niet. Die pijp staat in verbinding met je riool, en het beetje regen dat erin valt, loopt gewoon met het rioolwater mee weg. Daarom staat zo'n pijp vaak open of zit er alleen een rooster of kapje op tegen blad en vogels. Anders is het bij de pijp van een afzuigkap, de ventilatie of de cv-ketel: daar hoort meestal wel een kap op, anders kan er regen in de pijp of het kanaal lopen. Wordt het op zolder nat langs de buitenkant van een pijp, bovenaan waar hij door het dak gaat, dan zit het lek meestal in de kraag of de doorvoerpan en niet in de opening bovenaan. Stuur me een foto van de pijp vanaf de straat en van de natte plek op zolder via WhatsApp, dan zeg ik wat ik zie.` },
+  ],
 };
 
 // Artikelen en korte antwoorden uit artikelen-extra-3.ts (sinds 12-11-2026) erachter, zodat ze via artikelen-extra.ts in ARTIKELEN en KORT_ANTWOORD komen.
