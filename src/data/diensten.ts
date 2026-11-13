@@ -103,6 +103,10 @@ export const DIENSTEN: Dienst[] = [
         v: "Mijn goot zit nog vol, maar het gaat vriezen. Kun je hem nu nog leegmaken?",
         a: "Ja, op een droge dag waarop er geen ijs in de goot zit. Wacht er liever niet mee tot het voorjaar. Nat blad dat in de goot blijft liggen, bevriest tot een harde prop, en dan kan het smeltwater bij de dooi nergens heen. Het loopt dan over de rand langs je gevel, of het ijs duwt een naad of hoek van de goot open. Zit de goot op dit moment vol ijs, dan wacht ik tot het dooit, want ijs eruit hakken beschadigt de goot. Stuur me een foto van je goot vanaf de straat via WhatsApp, dan hoor je vooraf wat het kost.",
       },
+      {
+        v: "Er ligt zand of grijs gruis in mijn goot. Komt dat van mijn dak?",
+        a: "Meestal wel. Bij betonnen dakpannen slijt de bovenste laag na veel jaren, en dat zand spoelt bij elke bui de goot in. Een dun laagje is normaal, maar het zakt naar de uitloop en zet die samen met blad dicht. Bij het leegmaken haal ik het eruit en kijk ik meteen naar de pannen erboven. Liggen er brokjes specie of een stuk pan in de goot, dan zeg ik je waar die vandaan komen. Stuur gerust een foto van wat je vond.",
+      },
     ],
   },
   {
