@@ -193,6 +193,20 @@ const KNOP_NAAM: Record<string, string> = { "goten-reinigen": "Dakgoot schoonmak
             <figcaption>{review.naam} · {review.klus} · <a href={SITE.werkspotUrl} target="_blank" rel="noopener">op Werkspot</a></figcaption>
           </figure>
         )}
+        {!d.verborgen && (
+          <>
+            <h3 style="margin-top:22px;">In het kort</h3>
+            <ul>
+              <li><strong>Wie:</strong> Spoed Dak Service, het bedrijf van {SITE.eigenaar}, dakdekker uit 's-Hertogenbosch.</li>
+              <li><strong>Klus:</strong> {d.titel}.</li>
+              <li><strong>Waar:</strong> vanuit 's-Hertogenbosch in de regio Den Bosch, verder in Brabant en in Gelderland rond Wijchen en Nijmegen. Een klus verder weg plan ik vooraf met je in. Zie <a href="/werkgebied/">mijn werkgebied</a>.</li>
+              <li><strong>Contact:</strong> bellen of WhatsApp op <a href={telHref}>{SITE.telefoonWeergave}</a>, dag en nacht bereikbaar.</li>
+              <li><strong>Prijs:</strong> je hoort de vaste prijs voordat ik begin.</li>
+              <li><strong>Verzekerd:</strong> bedrijfsaansprakelijk verzekerd.</li>
+              <li><strong>Reviews:</strong> <a href={SITE.werkspotUrl} target="_blank" rel="noopener">{SITE.reviews.score.toString().replace(".", ",")} op Werkspot</a>{SITE.reviews.werkspotAantal > 0 ? ` (${SITE.reviews.werkspotAantal} reviews)` : ""}.</li>
+            </ul>
+          </>
+        )}
       </div>
       <aside>
         <div class="card">
