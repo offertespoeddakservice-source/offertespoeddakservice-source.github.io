@@ -486,6 +486,9 @@ export const FAQ_ERBIJ_2: Record<string, Artikel["faq"]> = {
   "lekkage-huurhuis": [
     { v: `Ik huur niet, maar ik ben eigenaar van een bovenwoning. Wie regelt het dak dan?`, a: `Dan ben jij samen met de andere eigenaren aan zet. Is het huis gesplitst, dan is het dak in de regel van alle eigenaren samen en betalen jullie de reparatie volgens de verdeling in de splitsingsakte, ook als het alleen bij jou lekt. Is er geen actief bestuur, spreek het dan samen af voordat de reparatie begint. Hoe je dat regelt, lees je in het artikel over een lekkend dak bij een boven- en benedenwoning.` },
   ],
+  "golfplaten-lekken": [
+    { v: `Kun je oude golfplaten op mijn schuur of carport vervangen door nieuwe platen?`, a: `Ja. Zijn de platen bros, gescheurd of lekken ze op veel plekken, dan haal ik ze eraf en schroef ik nieuwe platen op de balken, met genoeg overlap en nieuwe schroeven. Ik kijk dan meteen of de balken eronder nog stevig zijn. Zijn je oude platen grijs en van voor 1994, laat ze dan eerst onderzoeken op asbest. In platen met asbest boor of zaag ik niet, die moeten volgens de regels worden weggehaald. Stuur een foto van het dak en, als het kan, van de binnenkant, dan hoor je vooraf wat het kost.` },
+  ],
 };
 
 // Artikelen en korte antwoorden uit artikelen-extra-3.ts (sinds 12-11-2026) erachter, zodat ze via artikelen-extra.ts in ARTIKELEN en KORT_ANTWOORD komen.
