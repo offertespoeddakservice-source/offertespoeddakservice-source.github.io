@@ -522,6 +522,46 @@ export const ARTIKELEN_EXTRA_4: Artikel[] = [
       { v: `Is een lek bij de ontluchtingspijp op mijn dak spoed?`, a: `Druppelt het bij elke bui langs de pijp naar binnen, of zit het bij een lamp of stopcontact, dan wel. Is het alleen op koude ochtenden vochtig rond de pijp, ook zonder regen, dan is het vaak condens in de pijp en geen lek. Stuur me een foto van de pijp op zolder en van het dak vanaf de straat.` },
     ],
   },
+  {
+    slug: `kerstverlichting-dakgoot`,
+    datum: `2026-11-14`,
+    titel: `Kerstverlichting aan je dakgoot?`,
+    h1: `Kerstverlichting aan je dakgoot of dak: zo voorkom je een lek of schade`,
+    metaTitle: `Kerstverlichting aan je dakgoot? | Spoed Dak Service`,
+    metaDescription: `Lichtjes aan je goot of dak? Waarom je niet in de goot boort of pannen optilt, hoe de kabel droog naar binnen gaat en wat je na de feestdagen nakijkt.`,
+    intro: `In december hangen veel mensen lichtjes langs de dakgoot of over de rand van het dak. Dat kan prima, maar een gaatje in de goot, een opgetilde pan of een kabel door het dakraam geeft in januari soms een lek. Hieronder lees je hoe je het ophangt zonder schade, en waar je na de feestdagen even naar kijkt. Lichtjes ophangen doe ik zelf niet, maar ik leg uit waar je op let.`,
+    secties: [
+      { kop: `Maak eerst de goot leeg`, tekst: [
+        `Hang je lichtjes aan of in de goot, zorg dan dat hij eerst leeg is. Blad dat onder de lichtjes blijft liggen, zet de uitloop naar de regenpijp dicht, en bij vorst wordt dat een prop ijs. Dan loopt het smeltwater over de rand of langs je gevel. Hoe je een lage goot zelf veilig leegmaakt, lees je in <a href="/kennisbank/dakgoot-zelf-schoonmaken/">dakgoot zelf schoonmaken</a>. Een hoge goot laat je liever doen, zie <a href="/diensten/goten-reinigen/">dakgoot schoonmaken</a>.`,
+      ] },
+      { kop: `Zo hang je het aan de goot`, tekst: [
+        `Gebruik klemmen die over de voorrand van de goot vallen, zonder schroef of spijker. Boor geen gaatjes in een zinken of kunststof goot: elk gaatje is een plek waar het later druppelt, en in zink gaat zo'n gaatje roesten of uitscheuren.`,
+        `Leg de snoeren niet onderin de goot, waar het water loopt. Daar blijft blad tegen hangen, en dan kan het water niet meer naar de regenpijp.`,
+        `Hang er niets zwaars aan. Een kunststof goot is niet gemaakt om gewicht te dragen, en hangt hij op één plek lager, dan blijft daar water staan. Zie <a href="/kennisbank/dakgoot-hangt-door/">dakgoot hangt door</a>.`,
+      ] },
+      { kop: `Niet onder de pannen`, tekst: [
+        `Schuif geen haakjes of klemmen onder je dakpannen en til ze niet op. Een pan die een paar millimeter omhoog staat, ligt niet meer in zijn sluiting. Regen en wind komen er dan onder, en bij een storm kan hij gaan schuiven of wegwaaien. Ga ook niet op het dak lopen om lichtjes langs de nok te leggen: oude pannen breken snel, en een dak is in december vaak nat of glad. Zie <a href="/kennisbank/dakpan-kapot-of-verschoven/">dakpan kapot of verschoven</a>.`,
+      ] },
+      { kop: `De kabel naar binnen`, tekst: [
+        `Leg de kabel niet door een dakraam of tussen twee pannen door naar binnen. Een dakraam dat op een kabel dichtvalt, sluit niet meer en lekt bij de eerste bui, en een pan die op een kabel ligt, staat open. Gebruik liever een buitenstopcontact, en twijfel je hoe je de stroom veilig buiten krijgt, vraag dan een installateur. Gebruik ook alleen verlichting die voor buiten bedoeld is.`,
+      ] },
+      { kop: `Veilig op de ladder`, tekst: [
+        `Zet de ladder tegen de muur en niet tegen de goot, op een droge dag zonder wind of vorst. Een ladder tegen de goot kan een beugel verbuigen of een kunststof goot laten knappen. Zit de goot hoog, of moet je over de rand van het dak reiken, laat het dan zitten.`,
+      ] },
+      { kop: `Na de feestdagen`, tekst: [
+        `Haal de lichtjes er rustig af en trek niet aan een snoer dat vastzit. Kijk daarna vanaf de straat of alle pannen langs de rand nog recht liggen, of de goot nog op dezelfde hoogte hangt en of er geen klem in de goot is achtergebleven. Wordt het daarna binnen nat, kijk dan bij <a href="/kennisbank/lekt-sinds-iemand-op-dak/">lekt het sinds er iemand op je dak was?</a>`,
+      ] },
+      { kop: `Wat ik wel en niet doe`, tekst: [
+        `Lichtjes ophangen doe ik niet. Wel maak ik je goten leeg, leg ik een pan terug die is opgetild of verschoven, en repareer ik een goot die lekt. Eén goot leegmaken, bijvoorbeeld alleen de voorgoot, kost ${inclBtw('goot_reinigen')}. Voor een reparatie hoor je vooraf de prijs. Stuur een foto van je goot of dak vanaf de straat via WhatsApp.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: dakgoot schoonmaken`, href: `/diensten/goten-reinigen/` },
+    faq: [
+      { v: `Mag ik een gaatje in mijn dakgoot boren voor een haakje?`, a: `Liever niet. Elk gaatje in de goot is een plek waar het later kan druppelen, en in zink kan zo'n gaatje gaan roesten. Gebruik klemmen die over de voorrand van de goot vallen. Is er al een gaatje geboord en druppelt het nu, stuur me dan een foto.` },
+      { v: `Kan ik de kabel door mijn dakraam naar binnen leggen?`, a: `Beter niet. Valt het raam op de kabel dicht, dan sluit het niet meer goed, en dan regent het bij een flinke bui naar binnen. Gebruik een buitenstopcontact, of vraag een installateur hoe je de stroom veilig buiten krijgt.` },
+      { v: `Na de feestdagen ligt er een pan scheef langs de rand. Wat nu?`, a: `Ga er niet zelf op. Een scheve pan ligt niet meer in zijn sluiting, en bij regen of storm kan het daar lekken of kan de pan gaan schuiven. Maak een foto vanaf de straat en stuur die via WhatsApp. Vaak is terugleggen of vastzetten een kleine klus.` },
+    ],
+  },
 ];
 
 // Kort antwoord bovenaan een artikel (zie KORT_ANTWOORD in artikelen-extra.ts). Geen bedragen met de hand.
@@ -542,4 +582,5 @@ export const KORT_ANTWOORD_4: Record<string, string> = {
   "daktermen-uitgelegd": `Op een pannendak heet het hoogste punt de nok, met daarop de nokvorsten. Waar twee dakvlakken in een hoek samenkomen, ligt een kilgoot, en een schuine nok op een schilddak heet een hoekkeper. Langs de zijkant zit de windveer met de gevelpannen, en rond een schoorsteen, dakraam of muur ligt lood of loodvervanger. Onder de pannen liggen panlatten en vaak folie.`,
   "jaren-30-huis-dak-lekt": `Lekt het dak van een huis uit de jaren '20 of '30, dan zit het meestal in het lood rond de schoorsteen, in een zinken goot of bakgoot met een open naad, in een nok of hoekkeper waarvan de specie is afgebrokkeld, of in een oude pan die gebroken of verschoven is. Vaak ligt er geen folie onder de pannen, dus een kapotte pan geeft al snel een lek. Meestal is een reparatie op die ene plek genoeg.`,
   "dak-jaren-70-rijtjeshuis": `Lekt het dak van een rijtjeshuis uit de jaren '60 of '70, dan zit het meestal bij de nok, waarvan de specie bros is geworden, bij een pijp door het dak met een uitgedroogde kraag, bij het lood rond de schoorsteen of het dakraam, of bij een oude kunststof goot. Ook het platte dak van de berging erachter lekt vaak waar het tegen de gevel komt. Meestal is een reparatie op die plek genoeg.`,
+  "kerstverlichting-dakgoot": `Hang lichtjes aan je dakgoot met klemmen over de voorrand, zonder te boren, en leg de snoeren niet onderin de goot. Schuif niets onder je dakpannen, want een opgetilde pan laat regen en wind door. Leg de kabel niet door een dakraam naar binnen, en maak de goot vooraf leeg. Kijk na de feestdagen vanaf de straat of de pannen en de goot nog goed liggen.`,
 };
