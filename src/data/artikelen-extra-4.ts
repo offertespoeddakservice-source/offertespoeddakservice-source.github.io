@@ -644,6 +644,50 @@ export const ARTIKELEN_EXTRA_4: Artikel[] = [
       { v: `Bel ik eerst de verzekeraar of eerst jou?`, a: `Komt er nog water binnen, bel of app dan eerst mij, want de schade beperken gaat voor. Maak wel eerst foto's. Meld het daarna zo snel mogelijk bij je verzekeraar. Ik maak foto's van wat ik aantref en van de reparatie, met een korte omschrijving die je kunt meesturen.` },
     ],
   },
+  {
+    slug: `groene-strepen-gevel-onder-dakgoot`,
+    datum: `2026-11-14`,
+    titel: `Groene strepen op je gevel onder de goot?`,
+    h1: `Groene of donkere strepen op je gevel onder de dakgoot: wat zeggen ze?`,
+    metaTitle: `Groene strepen op gevel onder dakgoot? | Spoed Dak Service`,
+    metaDescription: `Een groene of donkere streep op je muur, net onder de goot? Waar de streep zit, zegt vaak waar je goot lekt of overloopt. Zo lees je het en zo los je het op.`,
+    intro: `Een groene of donkere streep op je gevel valt meestal pas op als hij er al een tijd zit. Zit hij net onder de dakgoot, dan loopt daar bij regen steeds water langs de muur. Waar en hoe de streep loopt, vertelt vaak waar het probleem zit. Hieronder lees je hoe je de streep leest, wat het kwaad kan en wat je doet.`,
+    secties: [
+      { kop: `Eén smalle streep onder een vaste plek`, tekst: [
+        `Loopt er een smalle streep recht naar beneden, steeds vanaf dezelfde plek onder de goot, dan druppelt de goot daar. Zit die plek onder een naad, een hoek of het eindstuk, dan lekt de goot daar meestal. Bij een zinken goot is het vaak een soldeernaad, bij kunststof een verbinding of een hoekstuk. Zie <a href="/kennisbank/zinken-dakgoot-lekt/">zinken dakgoot lekt</a> en <a href="/kennisbank/kunststof-dakgoot-lekt/">kunststof dakgoot lekt</a>.`,
+      ] },
+      { kop: `Een brede baan over een groot stuk`, tekst: [
+        `Is de muur over een flinke breedte groen of donker, net onder de voorkant van de goot, dan loopt de goot bij een bui over. Meestal zit hij vol blad, mos of naalden, of is de uitloop naar de regenpijp dicht. Hangt de goot op die plek lager, dan blijft daar water staan en loopt het er het eerst over. Zie <a href="/kennisbank/dakgoot-loopt-over/">dakgoot loopt over</a> en <a href="/kennisbank/dakgoot-hangt-door/">dakgoot hangt door</a>.`,
+      ] },
+      { kop: `Tegen de muur, terwijl de voorkant van de goot droog blijft`, tekst: [
+        `Begint de streep tegen de muur, achter de goot, en blijft de voorkant van de goot droog, dan loopt het water achter de goot langs. Vaak hangt de goot te laag of komt het water van onder de pannen niet in de goot terecht. Zie <a href="/kennisbank/water-achter-dakgoot/">water achter de dakgoot</a>.`,
+      ] },
+      { kop: `Rond de regenpijp`, tekst: [
+        `Zit de streep langs of vlak naast de regenpijp, dan lekt vaak de uitloop of een verbinding van de pijp, of is de pijp ergens een stukje uit de verbinding gezakt. Zie <a href="/kennisbank/dakgoot-lekt-bij-regenpijp/">dakgoot lekt bij de regenpijp</a>.`,
+      ] },
+      { kop: `Niet altijd de goot`, tekst: [
+        `Een streep die pas halverwege de muur begint, onder een raam, komt vaak van de vensterbank buiten of van het kozijn, en niet van de goot. Groen op een muur aan de noordkant of onder bomen kan ook gewoon aanslag zijn op een plek die nooit goed opdroogt. Kijk tijdens een bui waar het water echt langs de muur loopt, dan weet je het zeker.`,
+      ] },
+      { kop: `Wat het kwaad kan`, tekst: [
+        `Een muur die bij elke bui op dezelfde plek nat wordt, droogt slecht op. Het vocht kan op den duur naar binnen trekken, en dan zie je binnen een vochtige plek bovenin de muur. Bij vorst kan de buitenkant van natte stenen afbrokkelen, en het hout van de dakrand achter de goot gaat rotten. Zie <a href="/kennisbank/natte-plek-bovenin-muur/">natte plek bovenin de muur</a>.`,
+      ] },
+      { kop: `Eerst de oorzaak, dan de muur`, tekst: [
+        `Laat eerst de goot maken of leegmaken. Een groene streep wegpoetsen heeft weinig zin zolang er water langs blijft lopen, want dan is hij na een paar maanden terug. Is de oorzaak weg, dan droogt de muur op en wordt de streep na een tijd vanzelf lichter. Wil je hem eerder weg hebben, vraag dan iemand die gevels schoonmaakt, en laat op oude voegen niet met hoge druk spuiten.`,
+      ] },
+      { kop: `Hoe ik het aanpak`, tekst: [
+        `Ik kijk waar het water de goot uit komt: over de voorkant, achter de goot, bij een naad of bij de uitloop. Een volle goot maak ik leeg en de uitloop maak ik vrij. Een lekke naad in een zinken goot soldeer ik, en een kunststof verbinding of hoekstuk vervang ik. Hangt de goot scheef, dan hang ik hem weer op afschot naar de regenpijp. Zie <a href="/diensten/dakgoot-vervangen/">dakgoot repareren of vervangen</a> en <a href="/diensten/goten-reinigen/">dakgoot schoonmaken</a>.`,
+      ] },
+      { kop: `Wat kost het?`, tekst: [
+        `Eén goot leegmaken, bijvoorbeeld alleen de voorgoot, kost ${inclBtw('goot_reinigen')}. Voor een reparatie aan de goot hoor je vooraf de prijs. Stuur een foto van de streep en van de goot erboven vanaf de straat via WhatsApp.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: dakgoot repareren of vervangen`, href: `/diensten/dakgoot-vervangen/` },
+    faq: [
+      { v: `Is een groene streep onder mijn goot erg?`, a: `Niet meteen, maar het betekent dat er al een tijd water langs je muur loopt. Laat de oorzaak maken voordat de muur binnen vochtig wordt of het hout van de dakrand gaat rotten. Komt het water al binnen, stuur me dan meteen een foto.` },
+      { v: `Kan ik de streep gewoon wegpoetsen?`, a: `Dat kan, maar zolang er water langs blijft lopen, komt hij terug. Laat eerst de goot nakijken. Gebruik geen hogedrukreiniger op oude voegen of zachte stenen.` },
+      { v: `De streep zit onder de goot van de buren, niet onder de mijne. Hoe kan dat?`, a: `Bij een rij huizen loopt de goot vaak door, met een naad op de grens. Lekt die naad, dan kan de streep aan de ene of de andere kant zitten. Kijk tijdens een bui samen met je buren waar het water de goot uit komt, en lees het artikel over een gedeelde dakgoot die lekt.` },
+    ],
+  },
 ];
 
 // Kort antwoord bovenaan een artikel (zie KORT_ANTWOORD in artikelen-extra.ts). Geen bedragen met de hand.
@@ -667,4 +711,5 @@ export const KORT_ANTWOORD_4: Record<string, string> = {
   "kerstverlichting-dakgoot": `Hang lichtjes aan je dakgoot met klemmen over de voorrand, zonder te boren, en leg de snoeren niet onderin de goot. Schuif niets onder je dakpannen, want een opgetilde pan laat regen en wind door. Leg de kabel niet door een dakraam naar binnen, en maak de goot vooraf leeg. Kijk na de feestdagen vanaf de straat of de pannen en de goot nog goed liggen.`,
   "water-uit-stopcontact-bij-regen": `Komt er na regen water uit een stopcontact of schakelaar, zet dan meteen de groep in de meterkast uit en raak het niet aan. Het water komt bijna nooit uit het stopcontact zelf: het loopt hoger in de muur binnen, bijvoorbeeld bij een overlopende goot, een lekke bakgoot, los lood of de rand van een plat dak, en zakt langs de buis met de draden naar beneden. Laat een installateur het stopcontact nakijken en een dakdekker het lek zoeken.`,
   "plafond-naar-beneden-door-lekkage": `Is er door een lek een stuk plafond naar beneden gekomen, ga dan de kamer uit, zet de groep van die kamer uit en ga niet onder de rest van het plafond staan. Vang het water op, maak foto's van het gat en de schade voordat je opruimt en meld het bij je verzekeraar. Laat eerst het lek in het dak dichten en alles erboven drogen. Het plafond zelf herstelt een stukadoor of afbouwbedrijf.`,
+  "groene-strepen-gevel-onder-dakgoot": `Een groene of donkere streep op je gevel onder de dakgoot betekent dat daar bij regen steeds water langs de muur loopt. Een smalle streep onder een naad of hoek wijst op een lekke goot, een brede baan over een groot stuk op een goot die overloopt, en een streep die tegen de muur begint op water dat achter de goot langs loopt. Laat eerst de oorzaak maken, dan droogt de muur vanzelf op.`,
 };
