@@ -258,6 +258,51 @@ export const ARTIKELEN_EXTRA_4: Artikel[] = [
       { v: `Wie moet er thuis zijn als je komt?`, a: `Vaak moet ik op zolder of in de bovenste woning kijken waar het water binnenkomt. Spreek dus af dat de bewoner van die woning thuis is, of dat iemand anders me binnenlaat. Kan ik van buiten bij het lek en hebben we de prijs vooraf afgesproken, dan hoeft dat niet altijd.` },
     ],
   },
+  {
+    slug: `lekt-sinds-iemand-op-dak`,
+    datum: `2026-11-14`,
+    titel: `Lekt het sinds er iemand op je dak was?`,
+    h1: `Lekt het sinds er iemand op je dak is geweest? Hier zit het meestal`,
+    metaTitle: `Lekt het sinds er iemand op je dak was? | Spoed Dak Service`,
+    metaDescription: `Lekt het sinds de schoorsteenveger, een monteur of de schilder op je dak stond? Vaak is er een pan gebroken of verschoven. Zo zie je het en zo regel je het.`,
+    intro: `De schoorsteenveger is langs geweest, er is een schotel of een kabel aangelegd, of de schilder heeft de windveren gedaan. En bij de eerste flinke bui daarna zie je een natte plek. Dat is vaak geen toeval: wie over een pannendak loopt, kan een pan breken of uit zijn sluiting duwen zonder dat te merken. Hieronder lees je waar het dan meestal zit, wat je vastlegt en wie het oplost.`,
+    secties: [
+      { kop: `Lekt het nu? Eerst dit`, tekst: [
+        `Zet een emmer onder de druppel, leg er een handdoek in en haal spullen weg. Zit de natte plek bij een lamp of stopcontact, zet dan in de meterkast de groep van die kamer uit. Ga niet zelf het dak op om te kijken. Wat je verder meteen kunt doen, staat op de <a href="/spoed/">spoedpagina</a>.`,
+      ] },
+      { kop: `Waarom een pan zo makkelijk breekt`, tekst: [
+        `Dakpannen zijn gemaakt om regen tegen te houden, niet om op te lopen. Stap je midden op een pan in plaats van op de plek waar hij op de lat rust, dan kan hij barsten. Zo'n barst zie je vanaf de straat bijna nooit. Een pan kan ook een stukje omhoog komen of uit de sluiting schuiven als er iemand overheen loopt, een ladder tegen het dak zet of een kabel onder de pan door trekt. Bij de volgende bui met wind loopt het water dan onder die pan door naar binnen.`,
+      ] },
+      { kop: `Wie er vaak op of aan je dak komt`, tekst: [
+        `De schoorsteenveger. Veegt hij vanaf het dak, dan loopt hij naar de schoorsteen en staat hij een tijd naast de kap. Is het daarna nat naast de schoorsteen, kijk dan naar de pannen rond de voet en naar het lood. Zie <a href="/kennisbank/lekkage-bij-schoorsteen/">lekkage bij de schoorsteen</a>.`,
+        `Een monteur voor een schotel, antenne of kabel. Die zet een beugel op het dak of trekt een kabel onder een pan door naar binnen. Ligt die pan daarna niet meer goed, dan komt het water binnen op de plek waar de kabel het dak in gaat. Zie <a href="/kennisbank/lekkage-bij-schotel-of-antenne/">lekkage bij een schotel of antenne</a>.`,
+        `Een installateur van zonnepanelen, een airco of een warmtepomp. Zie <a href="/kennisbank/lekkage-bij-zonnepanelen/">lekkage bij zonnepanelen</a> en <a href="/kennisbank/lekkage-warmtepomp-of-airco/">lekt het sinds de warmtepomp of airco?</a>`,
+        `De schilder of de glazenwasser. Staat de ladder tegen de goot in plaats van tegen de muur, dan kan de goot verbuigen of de onderste rij pannen omhoog komen. Dan loopt het water bij een bui achter de goot langs of onder die pannen door. Zie <a href="/kennisbank/water-achter-dakgoot/">water achter de dakgoot</a>.`,
+        `Jijzelf of de buurman, bijvoorbeeld om kerstverlichting op te hangen of een bal van het dak te halen. Een klemmetje dat onder een pan wordt geschoven, tilt die pan net een stukje op.`,
+      ] },
+      { kop: `Zo zie je of het daardoor komt`, tekst: [
+        `Vergelijk de plek waar het nat is met de plek waar er gewerkt is. Is het nat naast de schoorsteen na het vegen, rond de plek waar een kabel binnenkomt of onder het stuk dak waar de ladder stond, dan is de kans groot dat het daar zit. Ga aan de overkant van de straat staan en kijk met de zoom van je telefoon of er een pan scheef ligt, hoger ligt dan de rest of een barst heeft. Op zolder zie je soms daglicht bij een pan die niet goed sluit. Bleef het daar altijd droog en lekt het nu ook bij gewone regen, dan is het meestal geen toeval.`,
+      ] },
+      { kop: `Wat je vastlegt`, tekst: [
+        `Schrijf op wie er op je dak was, op welke dag, en wanneer je de natte plek voor het eerst zag. Maak foto's van de natte plek binnen en van je dak vanaf de straat. Bewaar de rekening of het appje met de afspraak. Daarmee kun je laten zien dat het lek na het werk is begonnen.`,
+      ] },
+      { kop: `Wie lost het op?`, tekst: [
+        `Neem eerst contact op met wie er op je dak heeft gewerkt, en stuur je foto's mee. Is er bij het werk iets kapotgegaan, dan lost die het in de regel zelf op of meldt die het bij zijn verzekering. Komt het daar niet goed, of was het werk al lang geleden, dan kijk ik ernaar. Ik maak dan foto's van wat ik aantref, zodat je die kunt doorsturen.`,
+      ] },
+      { kop: `Hoe ik het aanpak`, tekst: [
+        `Ik begin binnen bij de natte plek en kijk daarna buiten naar het stuk dak waar gewerkt is. Een gebroken pan vervang ik door een die past, een verschoven pan leg ik terug in de sluiting, en waar een kabel naar binnen gaat, zorg ik dat de pan er weer goed overheen ligt. Zit het lood rond de schoorsteen los, dan zet ik het weer vast. Zie <a href="/diensten/dakpannen-vervangen/">dakpannen vervangen</a> en <a href="/diensten/daklekkage/">daklekkage opsporen en repareren</a>.`,
+      ] },
+      { kop: `Wat kost het?`, tekst: [
+        `Een gebroken of verschoven pan vervangen of terugleggen valt meestal onder een kleine reparatie: ${inclBtw("dakpan")}. Moet ik eerst zoeken waar het water binnenkomt, dan is het een lekreparatie: ${inclBtw("daklekkage")}, inclusief materiaal. Stuur een foto van de natte plek en van je dak vanaf de straat, dan hoor je vooraf wat het kost.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: daklekkage opsporen en repareren`, href: `/diensten/daklekkage/` },
+    faq: [
+      { v: `De schoorsteenveger is geweest en nu lekt het naast de schoorsteen. Ligt het aan hem?`, a: `Dat kan, maar het hoeft niet. Het lood rond een schoorsteen kan ook toevallig nu op zijn, en dan valt het lek samen met het vegen. Laat hem je foto's zien en vraag of hij heeft gezien hoe het lood en de pannen erbij lagen. Daarna kan ik kijken of er een pan gebroken is of dat het lood los zit, en dat zeg ik eerlijk.` },
+      { v: `Kan ik zien of er een pan gebroken is zonder het dak op te gaan?`, a: `Soms. Een pan die scheef ligt of hoger ligt dan de rest, zie je vanaf de overkant van de straat met de zoom van je telefoon. Een barst zie je vaak alleen van dichtbij, of op zolder als er daglicht door komt. Ga niet zelf het dak op, ook niet even.` },
+      { v: `Moet de vakman die op mijn dak was de reparatie betalen?`, a: `Is er bij zijn werk iets kapotgegaan, dan ligt dat in de regel bij hem. Daarom helpt het als je kunt laten zien wanneer hij er was en wanneer het begon te lekken. Kom je er samen niet uit, vraag dan bij je eigen verzekering wat zij kunnen doen.` },
+    ],
+  },
 ];
 
 // Kort antwoord bovenaan een artikel (zie KORT_ANTWOORD in artikelen-extra.ts). Geen bedragen met de hand.
@@ -270,5 +315,6 @@ export const KORT_ANTWOORD_4: Record<string, string> = {
   "dak-lekt-boven-en-benedenwoning": `Lekt het dak van een huis dat in een boven- en benedenwoning of een paar appartementen is verdeeld, dan is het dak meestal van alle eigenaren samen. De kosten worden dan in de regel verdeeld zoals in de splitsingsakte staat, ook als het water alleen bij de bovenste woning binnenkomt. Vang eerst het water op, maak foto's en spreek met de andere eigenaren af wie de dakdekker belt. Huur je, meld het dan bij je verhuurder.`,
   "mos-op-dak-verwijderen": `Mos op je dak houdt water vast. Op oudere pannen kan dat bij vorst schade geven, en mos dat bij een bui losspoelt, verstopt je goot en de uitloop naar de regenpijp. Laat het liever met de hand of met lage druk weghalen dan met een hogedrukreiniger, want die beschadigt de toplaag van de pannen. Daken ontmossen doe ik zelf niet, maar ik maak wel je goten leeg en vervang pannen die kapot zijn.`,
   "schoorsteen-vegen-hoe-vaak": `Stook je regelmatig hout, dan is één keer per jaar vegen het advies, het liefst voor het stookseizoen. Stook je weinig, dan kan het vaak minder vaak, maar kijk ook wat je verzekeraar in de polis vraagt. Vegen doe ik zelf niet, dat laat je doen door een erkende schoorsteenveger. Lekt het naast je schoorsteen, dan kijk ik wel naar het lood rondom.`,
+  "lekt-sinds-iemand-op-dak": `Lekt het sinds de schoorsteenveger, een monteur, de schilder of de glazenwasser op of aan je dak is geweest, dan is er vaak een pan gebroken of uit zijn sluiting geschoven, of zit er iets los waar een kabel of beugel het dak in gaat. Zo'n barst zie je vanaf de straat bijna nooit. Vang het water op, maak foto's, noteer wanneer er gewerkt is en meld het eerst bij wie het werk deed.`,
   "plat-dak-onderhouden": `Kijk een of twee keer per jaar naar je platte dak, laat in de herfst en in het voorjaar, het liefst vanuit een raam boven. Let op of de afvoer vrij is, of er na een paar droge dagen nog een plas staat en of de naden, de rand en de strook tegen de muur nog dicht zitten. Laat blad en takken niet liggen en smeer geen kit op een plek die je niet vertrouwt.`,
 };
