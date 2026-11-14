@@ -606,6 +606,44 @@ export const ARTIKELEN_EXTRA_4: Artikel[] = [
       { v: `Kan het water bij mijn stopcontact van de buren komen?`, a: `Dat kan, in een rij huizen of een appartement. Water dat bij de buren binnenkomt, kan langs een muur of een buis naar jouw kant lopen. Zit het stopcontact in de muur met de buren, vraag dan of het bij hen ook nat is. Lees ook het artikel over lekkage langs de muur met de buren.` },
     ],
   },
+  {
+    slug: `plafond-naar-beneden-door-lekkage`,
+    datum: `2026-11-14`,
+    titel: `Plafond naar beneden gekomen door lekkage?`,
+    h1: `Plafond naar beneden gekomen door een lek: wat doe je nu?`,
+    metaTitle: `Plafond ingestort door lekkage? | Spoed Dak Service`,
+    metaDescription: `Is er door een lek een stuk plafond naar beneden gekomen? Eerst veilig maken en de stroom eraf, dan foto's maken en het lek laten dichten. Zo pak je het aan.`,
+    intro: `Eerst bolde het plafond op, en nu is er een stuk naar beneden gekomen, met water, gips en isolatie op de vloer. Of het gebeurde in één keer, midden in de nacht. Dat is schrikken. Hieronder lees je wat je nu meteen doet, wat je beter laat, hoe je het met je verzekering regelt en wie wat herstelt.`,
+    secties: [
+      { kop: `Eerst: veilig maken`, tekst: [
+        `Ga de kamer uit en houd kinderen en huisdieren weg, want er kan nog meer plafond loskomen. Nat gips en natte isolatie zijn zwaar. Zet in de meterkast de groep van die kamer uit, of de hoofdschakelaar als je niet weet welke groep het is, zeker als er een lamp of draden in het plafond zaten. Ga niet onder de rest van het plafond staan om iets weg te halen. Hangt er in een andere kamer een plafond dat doorbuigt, lees dan <a href="/kennisbank/plafond-bolt-op-door-lekkage/">plafond bolt op door lekkage</a>. Ruik je een brandlucht of zie je rook, bel dan 112.`,
+      ] },
+      { kop: `Vang het water op`, tekst: [
+        `Komt er nog water naar beneden, zet er dan een emmer of bak onder en leg handdoeken neer, als dat kan zonder onder het plafond te staan. Schuif spullen weg die nat kunnen worden. Ligt er parket of tapijt, leg er dan plastic over met handdoeken erop. Ga niet zelf het dak op, zeker niet als het nog regent of waait. Wat je verder meteen kunt doen, staat op de <a href="/spoed/">spoedpagina</a>.`,
+      ] },
+      { kop: `Maak foto's voordat je opruimt`, tekst: [
+        `Maak foto's en een kort filmpje van het gat in het plafond, van wat er op de vloer ligt en van wat er nat is geworden, ook van dichtbij. Schrijf de datum en de tijd op, en wat voor weer het was. Dat heb je nodig voor je verzekering. Ruim daarna pas op wat in de weg ligt, en gooi kapotte spullen nog niet weg voordat je verzekeraar zegt dat het mag. Hoe het met de vergoeding zit, lees je in <a href="/kennisbank/daklekkage-verzekering/">daklekkage en je verzekering</a>.`,
+      ] },
+      { kop: `Waarom het plafond naar beneden kwam`, tekst: [
+        `Bij een lek blijft het water vaak eerst boven op het plafond liggen, op de plaat of in de isolatie. Komt er bij elke bui meer bij, dan wordt dat zwaar, de plaat wordt zacht en op een gegeven moment breekt hij. Het water kwam dus meestal al een tijd binnen. Waar het precies binnenkomt, zit vaak niet recht boven het gat, want het water loopt eerst een stuk over de folie of langs een balk. Zie <a href="/kennisbank/daklekkage-opsporen/">daklekkage opsporen</a>.`,
+      ] },
+      { kop: `Eerst het lek dicht, dan het plafond`, tekst: [
+        `Een nieuw plafond heeft pas zin als het lek dicht is en alles erboven droog is. Anders zit je bij de volgende bui weer met een natte plek. Is de isolatie erboven nat geworden, dan moet die vaak drogen of eruit. Lees <a href="/kennisbank/isolatie-nat-na-lekkage/">isolatie nat na een lek</a> en <a href="/kennisbank/plafond-drogen-na-lekkage/">hoe lang een plafond moet drogen</a>.`,
+      ] },
+      { kop: `Wie doet wat?`, tekst: [
+        `Ik zoek waar het water binnenkomt en maak het dak of de goot dicht. Lukt een nette reparatie niet meteen, dan zorg ik eerst dat het binnen droog blijft. Het plafond zelf is werk voor een stukadoor of een afbouwbedrijf. Zat er een lamp of draad in het stuk dat naar beneden kwam, laat dan een installateur kijken voordat je de groep weer aanzet. Huur je, meld het dan meteen bij je verhuurder, zie <a href="/kennisbank/lekkage-huurhuis/">lekkage in een huurhuis</a>.`,
+      ] },
+      { kop: `Wat kost het?`, tekst: [
+        `Een lek opsporen en dichten kost meestal ${inclBtw('daklekkage')}, inclusief materiaal. Stuur een foto van het gat in het plafond en van je dak vanaf de straat via WhatsApp, dan hoor je vooraf wat het kost.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: daklekkage & spoed`, href: `/diensten/daklekkage/` },
+    faq: [
+      { v: `Kan ik vannacht in huis blijven?`, a: `Meestal wel, als je de deur van die kamer dichthoudt, de stroom van die kamer uit staat en niemand onder de rest van het plafond komt. Buigt er in een andere kamer ook een plafond door, of lekt het op meer plekken, stuur me dan meteen een foto. Twijfel je of het huis veilig is, bel dan 112.` },
+      { v: `Betaalt de verzekering een nieuw plafond?`, a: `Vaak wel als het lek plotseling ontstond, bijvoorbeeld door storm. Komt het door slijtage of achterstallig onderhoud, dan vergoeden veel verzekeraars de reparatie van het dak zelf niet, maar soms wel de schade binnen. Dat verschilt per polis. Bel je verzekeraar, stuur je foto's mee en vraag wat ze nodig hebben.` },
+      { v: `Bel ik eerst de verzekeraar of eerst jou?`, a: `Komt er nog water binnen, bel of app dan eerst mij, want de schade beperken gaat voor. Maak wel eerst foto's. Meld het daarna zo snel mogelijk bij je verzekeraar. Ik maak foto's van wat ik aantref en van de reparatie, met een korte omschrijving die je kunt meesturen.` },
+    ],
+  },
 ];
 
 // Kort antwoord bovenaan een artikel (zie KORT_ANTWOORD in artikelen-extra.ts). Geen bedragen met de hand.
@@ -628,4 +666,5 @@ export const KORT_ANTWOORD_4: Record<string, string> = {
   "dak-jaren-70-rijtjeshuis": `Lekt het dak van een rijtjeshuis uit de jaren '60 of '70, dan zit het meestal bij de nok, waarvan de specie bros is geworden, bij een pijp door het dak met een uitgedroogde kraag, bij het lood rond de schoorsteen of het dakraam, of bij een oude kunststof goot. Ook het platte dak van de berging erachter lekt vaak waar het tegen de gevel komt. Meestal is een reparatie op die plek genoeg.`,
   "kerstverlichting-dakgoot": `Hang lichtjes aan je dakgoot met klemmen over de voorrand, zonder te boren, en leg de snoeren niet onderin de goot. Schuif niets onder je dakpannen, want een opgetilde pan laat regen en wind door. Leg de kabel niet door een dakraam naar binnen, en maak de goot vooraf leeg. Kijk na de feestdagen vanaf de straat of de pannen en de goot nog goed liggen.`,
   "water-uit-stopcontact-bij-regen": `Komt er na regen water uit een stopcontact of schakelaar, zet dan meteen de groep in de meterkast uit en raak het niet aan. Het water komt bijna nooit uit het stopcontact zelf: het loopt hoger in de muur binnen, bijvoorbeeld bij een overlopende goot, een lekke bakgoot, los lood of de rand van een plat dak, en zakt langs de buis met de draden naar beneden. Laat een installateur het stopcontact nakijken en een dakdekker het lek zoeken.`,
+  "plafond-naar-beneden-door-lekkage": `Is er door een lek een stuk plafond naar beneden gekomen, ga dan de kamer uit, zet de groep van die kamer uit en ga niet onder de rest van het plafond staan. Vang het water op, maak foto's van het gat en de schade voordat je opruimt en meld het bij je verzekeraar. Laat eerst het lek in het dak dichten en alles erboven drogen. Het plafond zelf herstelt een stukadoor of afbouwbedrijf.`,
 };
