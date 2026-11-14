@@ -20,6 +20,9 @@ const groepen = GROEPEN.map((g, i) => ({
 // Veel gelezen: de uitleg met de meeste bezoekers in de eigen teller (11-11-2026). Een artikel dat verborgen is of niet bestaat, valt vanzelf weg.
 const VEEL_GELEZEN = ["water-achter-dakgoot", "dak-lekt-bij-harde-wind", "lekkage-bij-dakdoorvoer", "lekkage-bij-kachelpijp", "nat-achter-knieschot"];
 const veelGelezen = VEEL_GELEZEN.map((s) => zichtbaar.find((a) => a.slug === s)).filter((a) => a) as typeof ARTIKELEN;
+// Kopen, verkopen of huren: een gewone regel met de uitleg voor wie een huis koopt, verkoopt, huurt of een woning deelt (14-11-2026). Een artikel dat verborgen is of niet bestaat, valt vanzelf weg.
+const WONEN = ["dak-keuren-bij-huis-kopen", "huis-gekocht-dak-lekt", "dak-lekt-huis-verkopen", "lekkage-huurhuis", "dakgoot-schoonmaken-huurder-of-verhuurder", "dak-lekt-boven-en-benedenwoning"];
+const wonen = WONEN.map((s) => zichtbaar.find((a) => a.slug === s)).filter((a) => a) as typeof ARTIKELEN;
 // Gestructureerde gegevens: de kennisbank als verzameling, met alle zichtbare artikelen in de volgorde van de pagina.
 const lijstSchema = {
   "@context": "https://schema.org",
@@ -57,6 +60,9 @@ const lijstSchema = {
       </div>
       {veelGelezen.length > 0 && (
         <p style="margin:0 0 28px;"><strong>Veel gelezen:</strong> {veelGelezen.map((a, i) => (<>{i > 0 && ", "}<a href={`/kennisbank/${a.slug}/`}>{a.titel.replace(/\?$/, "")}</a></>))}.</p>
+      )}
+      {wonen.length > 0 && (
+        <p style="margin:0 0 28px;"><strong>Kopen, verkopen of huren?</strong> {wonen.map((a, i) => (<>{i > 0 && ", "}<a href={`/kennisbank/${a.slug}/`}>{a.titel.replace(/\?$/, "")}</a></>))}.</p>
       )}
       {groepen.map((g, i) => (
         <>
