@@ -7,6 +7,8 @@ import { MATRIX } from "../../data/matrix.ts";
 import { getPlaats } from "../../data/plaatsen.ts";
 import { ARTIKELEN } from "../../data/artikelen.ts";
 const fluitBestaat = ARTIKELEN.some((a) => a.slug === "dak-fluit-bij-harde-wind" && !a.verborgen);
+const stopcontactBestaat = ARTIKELEN.some((a) => a.slug === "water-uit-stopcontact-bij-regen" && !a.verborgen);
+const plafondBestaat = ARTIKELEN.some((a) => a.slug === "plafond-naar-beneden-door-lekkage" && !a.verborgen);
 // Dakreparatie per plaats: alle plaatsen met een eigen pagina, zodat nieuwe pagina's vanzelf meekomen.
 const dakrepPlaatsen = MATRIX.filter((c) => c.dienst === "dakreparatie").map((c) => getPlaats(c.plaats)).filter((p) => p) as NonNullable<ReturnType<typeof getPlaats>>[];
 // Dakgoot schoonmaken en dakgoot repareren per plaats: komt vanzelf uit de lijst met pagina's. Den Bosch, Vught en Veghel staan voor het repareren al in de zin hierboven.
@@ -67,6 +69,8 @@ const faqSchema = { "@context": "https://schema.org", "@type": "FAQPage", mainEn
       <h2 style="margin-top:28px;">Welke klus heb je nodig?</h2>
       <ul>
         <li><strong>Druppelt het nu binnen?</strong> Kijk eerst op de <a href="/spoed/">spoedpagina</a> wat je meteen doet, en lees bij <a href="/diensten/daklekkage/">daklekkage</a> hoe ik het lek zoek.</li>
+        <li><strong>Komt er water uit een lamp, spotje{stopcontactBestaat && " of stopcontact"}?</strong> Zet eerst in de meterkast de groep van die kamer uit. Lees dan <a href="/kennisbank/water-uit-lamp-plafond/">water uit je lamp of spotjes</a>{stopcontactBestaat && <> of <a href="/kennisbank/water-uit-stopcontact-bij-regen/">water uit je stopcontact</a></>}.</li>
+        {plafondBestaat && <li><strong>Is er door een lek een stuk plafond naar beneden gekomen?</strong> Ga de kamer uit, zet de stroom van die kamer uit en lees <a href="/kennisbank/plafond-naar-beneden-door-lekkage/">plafond naar beneden door lekkage</a>.</li>}
         <li><strong>Ligt er na een storm een pan scheef of mist er iets?</strong> Dan is het <a href="/diensten/stormschade/">stormschade</a>: ik dek eerst af en herstel daarna netjes.</li>
         <li><strong>Hoor je bij harde wind getik, geklapper of gefluit op je dak?</strong> Dan zit er vaak iets los, of blaast de wind door een kier bij een pan, de nok of het lood. Lees <a href="/kennisbank/dakpannen-klapperen-bij-wind/">dakpannen klapperen bij wind</a>{fluitBestaat && <> of <a href="/kennisbank/dak-fluit-bij-harde-wind/">fluiten of gieren bij harde wind</a></>}, en kijk bij <a href="/diensten/dakreparatie/">dakreparatie</a> wat ik eraan doe.</li>
         <li><strong>Loopt je goot bij een bui over de rand?</strong> Meestal zit hij vol of is de uitloop verstopt. Dan is <a href="/diensten/goten-reinigen/">dakgoot schoonmaken</a> vaak genoeg.</li>
@@ -74,6 +78,7 @@ const faqSchema = { "@context": "https://schema.org", "@type": "FAQPage", mainEn
         <li><strong>Een losse of kapotte pan, een nokvorst die scheef ligt of lood dat loszit?</strong> Dat valt onder <a href="/diensten/dakreparatie/">dakreparatie</a>.</li>
         <li><strong>Lekt het platte dak van je aanbouw, garage of berging?</strong> Zie <a href="/diensten/platte-daken/">platte daken</a>.</li>
         <li><strong>Lekt het naast de schoorsteen, rond een dakraam of bij een dakkapel?</strong> Dan zit het vaak in het lood of in de aansluiting op de pannen: zie <a href="/diensten/lood-vervangen/">lood vervangen</a>. Hoe je het herkent, lees je in <a href="/kennisbank/dakraam-lekt/">dakraam lekt</a> en <a href="/kennisbank/dakkapel-lekt/">dakkapel lekt</a>.</li>
+        <li><strong>Druppelt het langs een pijp die door het dak gaat, bij je cv-ketel, afzuigkap of kachel?</strong> Dan zit het vaak in de kraag of de doorvoerpan op het dak: zie <a href="/diensten/dakdoorvoer/">dakdoorvoer plaatsen of herstellen</a>.</li>
         <li><strong>Wil je weten hoe je hele dak ervoor staat?</strong> Vraag dan de <a href="/dak-apk/">Dak-APK</a> aan: ik kijk je hele dak na en je krijgt een rapport met foto's.</li>
       </ul>
       <p>Twijfel je welke klus het is? Stuur een foto via <a href={waHref("Hallo, ik weet niet welke klus ik nodig heb. Ik stuur een foto.")}>WhatsApp</a>, dan zeg ik het je.</p>
