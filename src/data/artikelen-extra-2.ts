@@ -526,6 +526,9 @@ export const FAQ_ERBIJ_2: Record<string, Artikel["faq"]> = {
   "dak-lekt-bij-sneeuw-of-vorst": [
     { v: `Wat kan ik voor de winter laten doen, zodat mijn dak droog blijft bij sneeuw en vorst?`, a: `Laat de goten leegmaken als de bomen kaal zijn, zodat smeltwater weg kan en er geen ijs in de goot blijft staan. Laat losse nokvorsten en pannen die scheef liggen vastzetten, want daar waait stuifsneeuw het eerst onder door. Heb je een kilgoot, laat die dan ook leegmaken. Bij een plat dak kijk je vanuit een raam boven of de afvoer vrij is. En kijk na een sneeuwbui met harde wind even op zolder of er sneeuw ligt, voordat het gaat dooien. Stuur me een foto van je dak vanaf de straat, dan zeg ik eerlijk wat er voor de winter nodig is en wat het kost.` },
   ],
+  "dakonderhoud-per-seizoen": [
+    { v: `Wat kost dakonderhoud per jaar?`, a: `Dat hangt af van je dak, maar bij een gewoon pannendak gaat het meestal om een paar kleine dingen. De goten één keer per jaar laten leegmaken, na de bladval: één goot, bijvoorbeeld alleen de voorgoot, kost ${inclBtw("goot_reinigen")}. Ligt er een pan scheef of zit een nokvorst los, dan valt terugleggen of vastzetten meestal onder een kleine reparatie: ${inclBtw("dakpan")}. Wil je je hele dak laten nakijken, met een rapport en foto's, dan kan dat met de Dak-APK. Stuur een foto van je dak vanaf de straat, dan hoor je vooraf wat het kost.` },
+  ],
 };
 
 // Artikelen en korte antwoorden uit artikelen-extra-3.ts (sinds 12-11-2026) erachter, zodat ze via artikelen-extra.ts in ARTIKELEN en KORT_ANTWOORD komen.
