@@ -516,6 +516,9 @@ export const FAQ_ERBIJ_2: Record<string, Artikel["faq"]> = {
   "dak-keuren-bij-huis-kopen": [
     { v: `De verkoper zegt dat het dak nooit heeft gelekt. Hoe kan ik dat zelf nagaan?`, a: `Kijk bij de bezichtiging op zolder en op de bovenste verdieping naar kringen of vlekken op het plafond en het hout, naar een plek die net is geverfd terwijl de rest dat niet is, naar zwarte stipjes schimmel achter het knieschot en naar een bak of handdoek die nog op zolder staat. Vraag de makelaar naar de vragenlijst die de verkoper heeft ingevuld: daarin staat of er lekkages zijn geweest en of ze zijn gemaakt. Is er gerepareerd, vraag dan om de rekening of foto's. Wil je meer zekerheid, dan kan ik met toestemming van de verkoper je dak nakijken met de Dak-APK.` },
   ],
+  "water-blijft-staan-op-plat-dak": [
+    { v: `Er ligt sneeuw op mijn platte dak. Moet die eraf?`, a: `Meestal niet. Een gewone laag sneeuw kan een plat dak in de regel prima hebben, en eraf scheppen is vaak gevaarlijker dan laten liggen: je staat op een glad dak, en met een schep beschadig je de dakbedekking zo. Let vooral op als het gaat dooien. Het smeltwater moet dan weg kunnen, dus kijk vanuit een raam of de afvoer en de uitloop naar de regenpijp niet vol blad of ijs zitten. Blijft er na de dooi een plas staan, of wordt het binnen nat, stuur me dan een foto van het dak en van de afvoer via WhatsApp. Zie je binnen een plafond doorbuigen, ga er dan niet onder staan en bel of app me meteen.` },
+  ],
 };
 
 // Artikelen en korte antwoorden uit artikelen-extra-3.ts (sinds 12-11-2026) erachter, zodat ze via artikelen-extra.ts in ARTIKELEN en KORT_ANTWOORD komen.
