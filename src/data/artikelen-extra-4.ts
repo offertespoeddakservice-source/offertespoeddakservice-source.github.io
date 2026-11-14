@@ -303,6 +303,47 @@ export const ARTIKELEN_EXTRA_4: Artikel[] = [
       { v: `Moet de vakman die op mijn dak was de reparatie betalen?`, a: `Is er bij zijn werk iets kapotgegaan, dan ligt dat in de regel bij hem. Daarom helpt het als je kunt laten zien wanneer hij er was en wanneer het begon te lekken. Kom je er samen niet uit, vraag dan bij je eigen verzekering wat zij kunnen doen.` },
     ],
   },
+  {
+    slug: `dakpan-in-tuin-gevonden`,
+    datum: `2026-11-14`,
+    titel: `Dakpan in je tuin of op de stoep gevonden?`,
+    h1: `Een dakpan in je tuin of op de stoep: waar komt hij vandaan en is het spoed?`,
+    metaTitle: `Dakpan in je tuin gevonden: wat nu? | Spoed Dak Service`,
+    metaDescription: `Ligt er na de wind een dakpan of een stuk pan in je tuin of op de stoep? Zo zie je van welk dak hij komt, of er nu een gat in zit en wat je meteen doet.`,
+    intro: `Je loopt na een winderige nacht de tuin in, of je ziet op de stoep een dakpan of een stuk pan liggen. Dan wil je twee dingen weten: komt hij van mijn dak, en regent het nu binnen? Hieronder lees je hoe je dat in een paar minuten uitzoekt, wat je meteen doet en wanneer het spoed is.`,
+    secties: [
+      { kop: `Eerst veilig`, tekst: [
+        `Blijf uit de buurt van de gevel zolang het nog hard waait, want waar één pan losliet, kan een tweede volgen. Houd kinderen en huisdieren weg en leg de pan of de stukken opzij, maar gooi ze niet weg. Ga niet op een ladder of het dak om te kijken.`,
+      ] },
+      { kop: `Welk stuk is het?`, tekst: [
+        `Een gewone pan is vlak of golvend, met aan de bovenkant nokjes waarmee hij aan de lat hangt. Een nokvorst is rond of hoekig en hoort bovenop de nok, zie <a href="/kennisbank/nokvorsten-los/">losse nokvorsten</a>. Een gevelpan heeft aan één kant een rand die over de zijkant van het dak valt, zie <a href="/kennisbank/gevelpannen-los/">gevelpannen los</a>. Liggen er alleen kleine scherven of brokjes grijze specie, dan komt het vaak van een pan die al gebarsten was of van de specie onder de nok.`,
+      ] },
+      { kop: `Komt hij van jouw dak?`, tekst: [
+        `Leg de pan naast een foto van je dak en vergelijk de kleur en de vorm. Ga daarna aan de overkant van de straat staan en zoom met je telefoon in op je dak. Een plek waar een pan mist, zie je als een donkere opening, vaak met de latten of de folie eronder in zicht. Kijk ook naar de daken van de buren en naar een schuur of garage in de buurt. In een rij lijken de pannen vaak op elkaar, en bij harde wind kan een pan een flink stuk verder neerkomen. Zie je het gat bij de buren, laat het ze dan meteen weten.`,
+      ] },
+      { kop: `Kijk ook op zolder`, tekst: [
+        `Ga met een zaklamp op zolder kijken onder het stuk dak waar de pan vandaan kan komen. Zie je daglicht, een natte plek op de folie of het hout, of druppels, dan ligt je dak open. Zet er een emmer of bak onder en leg spullen opzij.`,
+      ] },
+      { kop: `Is het spoed?`, tekst: [
+        `Mist er een pan of een nokvorst en zie je een opening, dan is het spoed: bij de volgende bui loopt het water er recht naar binnen, en de wind krijgt vat op de pannen eromheen. Bel of app me dan met een foto. Is het alleen een losse scherf en zie je nergens een gat, dan kan het meestal wachten tot een gewone werkdag. Twijfel je, stuur dan de foto's, dan zeg ik eerlijk wat ik zie. Wat je verder meteen doet, staat op de <a href="/spoed/">spoedpagina</a>.`,
+      ] },
+      { kop: `Is er iets geraakt?`, tekst: [
+        `Is de pan op een auto, een schutting of het dak van de buren gevallen, maak er dan foto's van en lees <a href="/kennisbank/dakpan-op-auto-buren/">dakpan op de auto van de buren</a>. Voor je eigen verzekering helpt het als je foto's maakt van de pan, de plek waar hij lag en het gat in je dak, met de datum erbij.`,
+      ] },
+      { kop: `Hoe ik het aanpak`, tekst: [
+        `Ligt het dak open, dan maak ik het eerst dicht, zodat het binnen droog blijft. Daarna leg ik de pan terug of vervang ik hem door een die past, en kijk ik of de pannen eromheen nog goed liggen. Is de pan heel gebleven, bewaar hem dan: dan zie ik meteen welk model het is. Lukt het niet meteen om een passende pan te vinden, dan maak ik het eerst waterdicht en kom ik terug voor de nette reparatie. Zie ook <a href="/kennisbank/welke-dakpan-heb-ik/">welke dakpan heb ik?</a> en <a href="/diensten/stormschade/">stormschade aan je dak</a>.`,
+      ] },
+      { kop: `Wat kost het?`, tekst: [
+        `Een paar losse pannen terugleggen of vervangen valt meestal onder een kleine reparatie: ${inclBtw("dakpan")}. Moeten de nokvorsten opnieuw worden aangesmeerd, dan kost dat ${inclBtw("nok_repareren")}. Stuur een foto van de pan en van je dak vanaf de straat, dan hoor je vooraf wat het kost.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: stormschade aan je dak`, href: `/diensten/stormschade/` },
+    faq: [
+      { v: `Er ligt een pan in mijn tuin, maar ik zie geen gat in mijn dak. Wat nu?`, a: `Kijk dan bij de buren, bij een schuur of garage in de buurt, en op zolder of er ergens daglicht door komt. Soms ligt er nog een oude losse pan op een plat dak of in de goot, en die waait er bij harde wind af. Zie je nergens een opening, stuur me dan een foto van de pan en van je dak vanaf de straat.` },
+      { v: `Kan ik de pan zelf terugleggen?`, a: `Liever niet. Om erbij te komen moet je op een ladder of het dak, en een pan die niet goed in de sluiting ligt, waait bij de volgende storm weer los. Bewaar de pan, dan gebruik ik hem als hij heel is.` },
+      { v: `Valt een weggewaaide dakpan onder de verzekering?`, a: `Schade door storm valt vaak onder je opstalverzekering, maar dat hangt af van je polis. Maak foto's met de datum erbij en meld het bij je verzekeraar. Na de reparatie maak ik foto's van wat ik aantrof en wat ik heb gedaan, en die kun je meesturen.` },
+    ],
+  },
 ];
 
 // Kort antwoord bovenaan een artikel (zie KORT_ANTWOORD in artikelen-extra.ts). Geen bedragen met de hand.
@@ -316,5 +357,6 @@ export const KORT_ANTWOORD_4: Record<string, string> = {
   "mos-op-dak-verwijderen": `Mos op je dak houdt water vast. Op oudere pannen kan dat bij vorst schade geven, en mos dat bij een bui losspoelt, verstopt je goot en de uitloop naar de regenpijp. Laat het liever met de hand of met lage druk weghalen dan met een hogedrukreiniger, want die beschadigt de toplaag van de pannen. Daken ontmossen doe ik zelf niet, maar ik maak wel je goten leeg en vervang pannen die kapot zijn.`,
   "schoorsteen-vegen-hoe-vaak": `Stook je regelmatig hout, dan is één keer per jaar vegen het advies, het liefst voor het stookseizoen. Stook je weinig, dan kan het vaak minder vaak, maar kijk ook wat je verzekeraar in de polis vraagt. Vegen doe ik zelf niet, dat laat je doen door een erkende schoorsteenveger. Lekt het naast je schoorsteen, dan kijk ik wel naar het lood rondom.`,
   "lekt-sinds-iemand-op-dak": `Lekt het sinds de schoorsteenveger, een monteur, de schilder of de glazenwasser op of aan je dak is geweest, dan is er vaak een pan gebroken of uit zijn sluiting geschoven, of zit er iets los waar een kabel of beugel het dak in gaat. Zo'n barst zie je vanaf de straat bijna nooit. Vang het water op, maak foto's, noteer wanneer er gewerkt is en meld het eerst bij wie het werk deed.`,
+  "dakpan-in-tuin-gevonden": `Ligt er een dakpan of een stuk pan in je tuin of op de stoep, kijk dan eerst vanaf de overkant van de straat met de zoom van je telefoon of er een opening in je dak zit, en op zolder of je daglicht ziet. Mist er een pan of nokvorst, dan is het spoed, want bij de volgende bui regent het daar binnen. Bewaar de pan, ga niet zelf het dak op en stuur een foto.`,
   "plat-dak-onderhouden": `Kijk een of twee keer per jaar naar je platte dak, laat in de herfst en in het voorjaar, het liefst vanuit een raam boven. Let op of de afvoer vrij is, of er na een paar droge dagen nog een plas staat en of de naden, de rand en de strook tegen de muur nog dicht zitten. Laat blad en takken niet liggen en smeer geen kit op een plek die je niet vertrouwt.`,
 };
