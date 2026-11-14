@@ -119,7 +119,7 @@ export const DIENSTEN: Dienst[] = [
     vanafPrijs: LEK_PRIJS,
     h1: "Daklekkage met spoed verhelpen: vaak dezelfde dag langs in de regio Den Bosch",
     kort: "Lek opsporen zonder sloopwerk en snel dichten, ook bij spoed.",
-    metaTitle: "Daklekkage spoed: lek dichten Den Bosch | Spoed Dak Service",
+    metaTitle: "Daklekkage spoed: lek zoeken en dichten | Spoed Dak Service",
     metaDescription:
       "Daklekkage? Ik spoor het lek op zonder onnodig sloopwerk en dicht het, bij spoed vaak nog dezelfde dag in de regio Den Bosch. Bel of WhatsApp me.",
     icoon: "💧",
@@ -363,7 +363,7 @@ export const DIENSTEN: Dienst[] = [
     ],
     h1: "Dakgoot repareren of vervangen: bij lekkende naden, roest of een goot die blijft overlopen",
     kort: "Versleten of lekkende goot? Nieuwe zinken, kunststof of pvc goot, netjes gemonteerd.",
-    metaTitle: "Dakgoot repareren of vervangen Den Bosch | Spoed Dak Service",
+    metaTitle: "Dakgoot repareren of vervangen | Spoed Dak Service",
     metaDescription:
       "Lekkende of roestige dakgoot repareren of vervangen in de regio Den Bosch. Zink, kunststof of pvc, inclusief afvoer. Vaste prijs vooraf, troep gaat mee.",
     icoon: "🛠",
