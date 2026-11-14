@@ -562,6 +562,50 @@ export const ARTIKELEN_EXTRA_4: Artikel[] = [
       { v: `Na de feestdagen ligt er een pan scheef langs de rand. Wat nu?`, a: `Ga er niet zelf op. Een scheve pan ligt niet meer in zijn sluiting, en bij regen of storm kan het daar lekken of kan de pan gaan schuiven. Maak een foto vanaf de straat en stuur die via WhatsApp. Vaak is terugleggen of vastzetten een kleine klus.` },
     ],
   },
+  {
+    slug: `water-uit-stopcontact-bij-regen`,
+    datum: `2026-11-14`,
+    titel: `Water uit je stopcontact als het regent?`,
+    h1: `Water uit een stopcontact of schakelaar als het regent: wat doe je en waar komt het vandaan?`,
+    metaTitle: `Water uit stopcontact bij regen? | Spoed Dak Service`,
+    metaDescription: `Druppelt er water uit een stopcontact of schakelaar na een bui? Zet eerst de stroom eraf. Zo zoek je of het van het dak, de goot, de gevel of een leiding komt.`,
+    intro: `Na een flinke bui zie je water uit een stopcontact of schakelaar komen, of een natte rand eromheen. Dat is schrikken, en terecht: water en stroom gaan niet samen. Het water komt bijna nooit uit het stopcontact zelf. Het loopt hoger in de muur binnen en zakt langs de buis met de draden naar beneden, tot het bij een opening naar buiten komt. Hieronder lees je wat je meteen doet, waar het meestal vandaan komt en wie je belt.`,
+    secties: [
+      { kop: `Eerst: de stroom eraf`, tekst: [
+        `Zet in de meterkast de groep uit waar dat stopcontact op zit. Weet je niet welke het is, zet dan de hoofdschakelaar uit. Raak het stopcontact en wat erin zit niet aan, trek geen stekker met natte handen uit de muur en zet de groep pas weer aan als een installateur ernaar heeft gekeken. Leg een handdoek of zet een bak onder de druppel. Ruik je een brandlucht of zie je rook, bel dan 112. Wat je verder meteen kunt doen bij een lek, staat op de <a href="/spoed/">spoedpagina</a>.`,
+      ] },
+      { kop: `Hoe het water bij je stopcontact komt`, tekst: [
+        `In de meeste huizen lopen de stroomdraden door buizen in de muur, de vloer of het plafond. Komt er hoger in de muur water binnen, dan loopt het langs zo'n buis naar beneden en komt het naar buiten bij de eerste opening: een stopcontact, een schakelaar of een aansluiting voor een lamp. De plek waar je het water ziet, is dus zelden de plek waar het binnenkomt. Bij een lamp of spotje in het plafond werkt het net zo, zie <a href="/kennisbank/water-uit-lamp-plafond/">water uit je lamp of spotjes</a>.`,
+      ] },
+      { kop: `Zit het stopcontact boven, of onder een schuin dak?`, tekst: [
+        `Zit het stopcontact op zolder, op de bovenste verdieping of in een zolderkamer, dan komt het water vaak van het dak of de goot erboven. Denk aan een goot die overloopt of waar het water achter langs de muur in loopt, een bakgoot in de dakrand die lekt, lood langs een muur of schoorsteen dat los zit, of een pan die is gaan schuiven. Zie <a href="/kennisbank/water-achter-dakgoot/">water achter de dakgoot</a>, <a href="/kennisbank/bakgoot-lekt/">bakgoot lekt</a> en <a href="/kennisbank/natte-plek-bovenin-muur/">natte plek bovenin de muur</a>.`,
+      ] },
+      { kop: `Zit het in een kamer onder een plat dak?`, tekst: [
+        `In een aanbouw, uitbouw of garage met een plat dak zit het lek dan vaak bij de rand van het dak, bij de afvoer of in de strook waar het platte dak tegen de muur van het huis omhoog loopt. Het water zakt dan in de muur naar beneden. Zie <a href="/kennisbank/lekkage-bij-aanbouw/">lekkage bij de aanbouw</a>.`,
+      ] },
+      { kop: `Zit het beneden in een buitenmuur?`, tekst: [
+        `Zit het stopcontact op de begane grond in een buitenmuur, en ligt er geen dak of goot vlak boven, dan komt het water vaker door de gevel zelf, langs een kozijn of via een buitenlamp of buitenstopcontact. Dat is geen werk voor een dakdekker. Zit er wel een dakje of goot vlak boven, zoals bij een erker of een luifel, dan kan het water daarvandaan komen. Zie <a href="/kennisbank/erker-lekt/">erker of luifel lekt</a>.`,
+      ] },
+      { kop: `Of is het een leiding?`, tekst: [
+        `Druppelt het ook als het dagen droog is, of zit er boven of naast die muur een badkamer, toilet of keuken, dan is een waterleiding of afvoer waarschijnlijker. Dan bel je een loodgieter. Lees ook <a href="/kennisbank/lekkage-dakdekker-of-loodgieter/">lekkage: dakdekker of loodgieter?</a>`,
+      ] },
+      { kop: `Wie bel je?`, tekst: [
+        `Twee mensen, voor twee verschillende dingen. Een installateur kijkt of het stopcontact, de schakelaar en de groep weer veilig zijn, en vervangt wat nat is geworden. Een dakdekker zoekt waar het water van buiten binnenkomt en maakt dat dicht, anders gebeurt het bij de volgende bui weer. Laat de groep uit staan tot de installateur is geweest.`,
+      ] },
+      { kop: `Hoe ik het aanpak`, tekst: [
+        `Ik begin buiten, recht boven de muur waar het stopcontact zit en een flink stuk hoger: de goot, de dakrand, het lood en de pannen. Kan ik op zolder komen, dan kijk ik ook daar langs de muur waar het water naar beneden loopt. Een goot die overloopt maak ik leeg, een lekke naad in een zinken goot soldeer ik, en lood dat los zit zet ik weer vast of vervang ik. Aan het stopcontact en de bedrading kom ik niet, dat doet je installateur. Zie <a href="/diensten/daklekkage/">daklekkage opsporen en repareren</a>.`,
+      ] },
+      { kop: `Wat kost het?`, tekst: [
+        `Een lek opsporen en dichten kost meestal ${inclBtw('daklekkage')}, inclusief materiaal. Zit de goot alleen vol, dan is het vaak minder werk. Stuur een foto van het stopcontact, van de muur en van je dak of goot erboven vanaf de straat via WhatsApp, dan hoor je vooraf wat het kost.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: daklekkage opsporen en repareren`, href: `/diensten/daklekkage/` },
+    faq: [
+      { v: `Mag ik het stopcontact weer gebruiken als het droog lijkt?`, a: `Liever niet. Ook als het aan de buitenkant droog lijkt, kan er binnenin nog vocht zitten of roest op de contacten. Laat de groep uit staan en laat een installateur kijken of het stopcontact en de draden weer veilig zijn.` },
+      { v: `Is water uit een stopcontact spoed?`, a: `Voor de stroom wel: zet meteen de groep uit. Het lek in het dak of de goot is spoed als het bij elke bui terugkomt of als het binnen ook op andere plekken nat wordt. Stuur me een foto, dan zeg ik eerlijk hoe snel het moet.` },
+      { v: `Kan het water bij mijn stopcontact van de buren komen?`, a: `Dat kan, in een rij huizen of een appartement. Water dat bij de buren binnenkomt, kan langs een muur of een buis naar jouw kant lopen. Zit het stopcontact in de muur met de buren, vraag dan of het bij hen ook nat is. Lees ook het artikel over lekkage langs de muur met de buren.` },
+    ],
+  },
 ];
 
 // Kort antwoord bovenaan een artikel (zie KORT_ANTWOORD in artikelen-extra.ts). Geen bedragen met de hand.
@@ -583,4 +627,5 @@ export const KORT_ANTWOORD_4: Record<string, string> = {
   "jaren-30-huis-dak-lekt": `Lekt het dak van een huis uit de jaren '20 of '30, dan zit het meestal in het lood rond de schoorsteen, in een zinken goot of bakgoot met een open naad, in een nok of hoekkeper waarvan de specie is afgebrokkeld, of in een oude pan die gebroken of verschoven is. Vaak ligt er geen folie onder de pannen, dus een kapotte pan geeft al snel een lek. Meestal is een reparatie op die ene plek genoeg.`,
   "dak-jaren-70-rijtjeshuis": `Lekt het dak van een rijtjeshuis uit de jaren '60 of '70, dan zit het meestal bij de nok, waarvan de specie bros is geworden, bij een pijp door het dak met een uitgedroogde kraag, bij het lood rond de schoorsteen of het dakraam, of bij een oude kunststof goot. Ook het platte dak van de berging erachter lekt vaak waar het tegen de gevel komt. Meestal is een reparatie op die plek genoeg.`,
   "kerstverlichting-dakgoot": `Hang lichtjes aan je dakgoot met klemmen over de voorrand, zonder te boren, en leg de snoeren niet onderin de goot. Schuif niets onder je dakpannen, want een opgetilde pan laat regen en wind door. Leg de kabel niet door een dakraam naar binnen, en maak de goot vooraf leeg. Kijk na de feestdagen vanaf de straat of de pannen en de goot nog goed liggen.`,
+  "water-uit-stopcontact-bij-regen": `Komt er na regen water uit een stopcontact of schakelaar, zet dan meteen de groep in de meterkast uit en raak het niet aan. Het water komt bijna nooit uit het stopcontact zelf: het loopt hoger in de muur binnen, bijvoorbeeld bij een overlopende goot, een lekke bakgoot, los lood of de rand van een plat dak, en zakt langs de buis met de draden naar beneden. Laat een installateur het stopcontact nakijken en een dakdekker het lek zoeken.`,
 };
