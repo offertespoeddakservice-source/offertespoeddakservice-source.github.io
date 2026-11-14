@@ -88,7 +88,7 @@ if (d.slug === "daklekkage" && p.slug === "veghel") {
   metaTitelPerDienst.daklekkage = "Daklekkage Veghel: lek opsporen en repareren";
   omschrijvingPerDienst.daklekkage = "Daklekkage in Veghel? Ik zoek waar het water binnenkomt, bijvoorbeeld onder een dakraam of bij de schoorsteen, en repareer alleen wat nodig is. Bel of app Rens.";
 }
-// Daklekkage in Tilburg (gemaakt 24-10), Eindhoven en Waalwijk (gemaakt 25-10): de 14 dagen zijn om, dus ook hier het zoekwoord vooraan. Eigen omschrijving zonder 'vaste prijs vooraf'. Breda (gemaakt 27-10) sinds 10-11 ook. Sinds 12-11-2026 ook Vught, Oisterwijk, Boxtel, Vlijmen en Schijndel (plek 6 tot 17, nog 0 kliks): eigen omschrijving, titel ongewijzigd. Sinds 13-11-2026 ook Helmond (eigen omschrijving).
+// Daklekkage in Tilburg (gemaakt 24-10), Eindhoven en Waalwijk (gemaakt 25-10): de 14 dagen zijn om, dus ook hier het zoekwoord vooraan. Eigen omschrijving zonder 'vaste prijs vooraf'. Breda (gemaakt 27-10) sinds 10-11 ook. Sinds 12-11-2026 ook Vught, Oisterwijk, Boxtel, Vlijmen en Schijndel (plek 6 tot 17, nog 0 kliks): eigen omschrijving, titel ongewijzigd. Sinds 13-11-2026 ook Helmond (eigen omschrijving). Sinds 14-11-2026 ook Rosmalen, Uden, Drunen, Heusden, Berlicum en Sint-Michielsgestel (eigen omschrijving, titel ongewijzigd).
 const LEK_OMSCHRIJVING_NIEUW: Record<string, string> = {
   tilburg: "Daklekkage in Tilburg? Ik zoek waar het water binnenkomt, bijvoorbeeld bij een dak uit de jaren '80 of '90 in de Reeshof, en repareer alleen wat nodig is. Bel of app Rens.",
   eindhoven: "Daklekkage in Eindhoven? Ik zoek waar het water binnenkomt, bijvoorbeeld bij de zonnepanelen of onder de dakrand, en repareer alleen wat nodig is. Stuur een foto of app Rens.",
@@ -100,6 +100,12 @@ const LEK_OMSCHRIJVING_NIEUW: Record<string, string> = {
   vlijmen: "Lekkage in Vlijmen, Nieuwkuijk of Haarsteeg? Ik zoek waar het water binnenkomt, bijvoorbeeld bij een lichtkoepel of het platte dak van de berging. App Rens.",
   schijndel: "Daklekkage in Schijndel of Wijbosch? Ik zoek waar het water binnenkomt, bijvoorbeeld bij oude pannen of een schuur, en repareer wat nodig is. App Rens.",
   helmond: "Daklekkage in Helmond, Stiphout of Brandevoort? Ik zoek waar het water binnenkomt, bijvoorbeeld bij het lood rond de schoorsteen of in een kilgoot vol blad. Stuur een foto.",
+  rosmalen: "Daklekkage in Rosmalen, Hintham of De Groote Wielen? Bij de nok, een dakdoorvoer of het platte dak van de aanbouw zoek ik waar het binnenkomt. App Rens.",
+  uden: "Daklekkage in Uden, Volkel of Odiliapeel? Ik zoek waar het water binnenkomt, bijvoorbeeld rond een dakraam of de schoorsteen, en repareer wat nodig is. App Rens.",
+  drunen: "Daklekkage in Drunen of Elshout? Bij oud lood rond de schoorsteen of een goot vol zand en blad zoek ik waar het water binnenkomt. Stuur een foto.",
+  heusden: "Daklekkage in Heusden, Oudheusden of Herpt? Ik zoek waar het water binnenkomt, ook bij oude pannen en lood in de vesting, en repareer wat nodig is. App Rens.",
+  berlicum: "Daklekkage in Berlicum of Middelrode? Bij het lood rond de schoorsteen of een pan die is gaan schuiven zoek ik waar het binnenkomt. Stuur een foto via WhatsApp.",
+  "sint-michielsgestel": "Daklekkage in Sint-Michielsgestel, Den Dungen of Gemonde? Ik zoek waar het binnenkomt, bij het lood, de nok of een goot vol blad, en repareer wat nodig is.",
 };
 if (d.slug === "daklekkage" && LEK_OMSCHRIJVING_NIEUW[p.slug]) {
   metaTitelPerDienst.daklekkage = `Daklekkage ${p.naam}: lek opsporen en repareren`;
