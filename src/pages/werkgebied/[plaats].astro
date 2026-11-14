@@ -42,6 +42,15 @@ const heeftKetel = ARTIKELEN.some((a) => a.slug === "cv-ketel-lekt-bij-regen" &&
 const heeftAfzuig = ARTIKELEN.some((a) => a.slug === "afzuigkap-lekt-bij-regen" && !a.verborgen);
 const heeftBolt = ARTIKELEN.some((a) => a.slug === "plafond-bolt-op-door-lekkage" && !a.verborgen);
 const heeftLamp = ARTIKELEN.some((a) => a.slug === "water-uit-lamp-plafond" && !a.verborgen);
+// Uitleg per soort huis (14-11-2026): een gewone zin naar het kennisartikel dat past bij de huizen die op deze plaatspagina al genoemd worden. Alleen als het artikel bestaat en zichtbaar is.
+const WONING_ARTIKEL: Record<string, { slug: string; zin: string; anker: string }> = {
+  vlijmen: { slug: "dak-jaren-70-rijtjeshuis", zin: "Woon je in een rijtjeshuis uit de jaren '60 of '70, zoals er in Vliedberg en de andere naoorlogse wijken veel staan? Waar zo'n dak na vijftig jaar meestal lekt, lees je bij", anker: "het dak van een jaren 70-rijtjeshuis" },
+  uden: { slug: "dak-jaren-70-rijtjeshuis", zin: "Woon je in een rijtjeshuis uit de jaren '70, zoals in Bitswijk of Hoenderbos? Waar zo'n dak na zoveel jaren meestal lekt, lees je bij", anker: "het dak van een jaren 70-rijtjeshuis" },
+  waalwijk: { slug: "dak-jaren-70-rijtjeshuis", zin: "Woon je in een naoorlogs rijtjeshuis met de eerste betonpannen? Waar zo'n dak na zoveel jaren meestal lekt, lees je bij", anker: "het dak van een jaren 70-rijtjeshuis" },
+  vught: { slug: "jaren-30-huis-dak-lekt", zin: "Woon je in een villa of een ander huis van voor de oorlog? Waar zo'n oud dak meestal lekt, lees je bij", anker: "het dak van een jaren 30-huis" },
+};
+const woning = WONING_ARTIKEL[p.slug];
+const woningArtikel = woning ? ARTIKELEN.find((a) => a.slug === woning.slug && !a.verborgen) : undefined;
 // Namen voor de pagina's per plaats en klus, zoals mensen zoeken (dakgoot repareren, niet alleen vervangen). Ook gebruikt in de gegevens voor Google en AI.
 const KLUS_NAAM: Record<string, string> = { daklekkage: "Daklekkage", "dakgoot-vervangen": "Dakgoot repareren of vervangen", "goten-reinigen": "Dakgoot schoonmaken", stormschade: "Stormschade", dakreparatie: "Dakreparatie", dakrenovatie: "Dakrenovatie" };
 const klusNaam = (d: { slug: string; titel: string }) => KLUS_NAAM[d.slug] ?? d.titel;
@@ -134,6 +143,9 @@ const schema = [
       )}
       {p.wijken.length > 0 && (
         <p>Ik kom door heel {p.naam}, waaronder {p.wijken.join(", ")}.</p>
+      )}
+      {woning && woningArtikel && (
+        <p>{woning.zin} <a href={`/kennisbank/${woningArtikel.slug}/`}>{woning.anker}</a>.</p>
       )}
       <h3>Lekt het nu?</h3>
       <p>
