@@ -141,6 +141,17 @@ const spoedSchema = {
       {bestaat("wachten-op-dakdekker-na-storm") && (
         <p style="margin-top:16px;">Is het na een zware storm overal druk en moet je wachten tot er een dakdekker komt? Wat je intussen doet om het binnen droog te houden, en welk dak meestal als eerste aan de beurt is, lees je in <a href="/kennisbank/wachten-op-dakdekker-na-storm/">wachten op een dakdekker na een storm</a>.</p>
       )}
+      {(bestaat("dak-lekt-bij-sneeuw-of-vorst") || bestaat("ijspegels-aan-dakgoot") || bestaat("regenpijp-kapot-door-vorst") || bestaat("dak-repareren-in-de-winter")) && (
+        <p style="margin-top:16px;">
+          {bestaat("dak-lekt-bij-sneeuw-of-vorst") && <>Vriest het, ligt er sneeuw op je dak of dooit het net, en wordt het binnen nat? Lees dan <a href="/kennisbank/dak-lekt-bij-sneeuw-of-vorst/">dak lekt bij sneeuw of vorst</a>.</>}
+          {bestaat("ijspegels-aan-dakgoot") && <> Hangen er ijspegels aan je goot, kijk dan bij <a href="/kennisbank/ijspegels-aan-dakgoot/">ijspegels aan je dakgoot</a>.</>}
+          {bestaat("regenpijp-kapot-door-vorst") && <> Is je regenpijp na de vorst gescheurd, lees <a href="/kennisbank/regenpijp-kapot-door-vorst/">regenpijp kapot door vorst</a>.</>}
+          {bestaat("dak-repareren-in-de-winter") && <> En wat ik in de winter wel en niet kan repareren, lees je in <a href="/kennisbank/dak-repareren-in-de-winter/">je dak repareren in de winter</a>.</>}
+        </p>
+      )}
+      {bestaat("foto-van-je-dak-maken") && (
+        <p style="margin-top:16px;">Weet je niet goed welke foto's je moet sturen? In <a href="/kennisbank/foto-van-je-dak-maken/">foto's van je dak maken</a> lees je welke foto's het meest helpen en hoe je ze veilig vanaf de grond maakt.</p>
+      )}
       <p style="margin-top:22px;">Een scheve of kapotte pan zie je van beneden bijna niet. Twee foto's die ik zelf op het dak maakte:</p>
       <EchteFotos soort="pannen" max={2} inline />
     </div>
