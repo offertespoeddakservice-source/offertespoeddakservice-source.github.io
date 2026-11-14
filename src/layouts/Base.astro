@@ -25,6 +25,9 @@ const apkPrijs = PRIJZEN.find((r) => r.sleutel === "apk")?.prijs ?? "";
 // De quiz (/quiz/): daar geen vaste quiz-knop onderaan (je staat er al), wel meting van bezoek en kliks.
 const opQuiz = huidigPad.startsWith("/quiz/");
 const QUIZ_KNOP = "Gratis prijsindicatie, vaak binnen 10 minuten";
+// Spoed- en lekkagepagina's (14-11-2026): onderaan op de telefoon Bellen en WhatsApp, net als op /quiz/, in plaats van de quizknop. Wie een lek heeft, wil meestal meteen bellen.
+const BEL_PADEN = ["/spoed/", "/diensten/daklekkage/", "/diensten/stormschade/", "/diensten/dakreparatie/", "/kennisbank/dak-lekt-bij-harde-wind/", "/kennisbank/lekkage-bij-dakdoorvoer/", "/kennisbank/water-achter-dakgoot/", "/kennisbank/lekkage-bij-kachelpijp/", "/kennisbank/lekkage-bij-aanbouw/", "/kennisbank/water-uit-lamp-plafond/", "/kennisbank/plafond-bolt-op-door-lekkage/", "/kennisbank/daklek-tijdelijk-dichten/", "/kennisbank/stormschade-eerste-hulp/", "/kennisbank/wachten-op-dakdekker-na-storm/", "/kennisbank/dakpan-in-tuin-gevonden/", "/kennisbank/daklek-hoe-lang-wachten/"];
+const belSticky = BEL_PADEN.includes(huidigPad) || /^\/werkgebied\/[^/]+\/(daklekkage|stormschade)\/$/.test(huidigPad);
 
 const businessSchema: Record<string, unknown> = {
   "@context": "https://schema.org",
@@ -428,7 +431,7 @@ const schemas = [businessSchema, websiteSchema, ...(breadcrumbSchema ? [breadcru
       </div>
     </footer>
 
-    {opQuiz ? (
+    {opQuiz || belSticky ? (
       <div class="sticky-cta">
         <a class="btn btn--wa" href={waHref()} aria-label="WhatsApp Rens">WhatsApp</a>
         <a class="btn btn--primary" href={telHref} aria-label={`Bel ${SITE.telefoonWeergave}`}>Bellen</a>
