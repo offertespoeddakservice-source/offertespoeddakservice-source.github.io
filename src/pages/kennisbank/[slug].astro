@@ -382,6 +382,14 @@ const schema = faqSchema ? [articleSchema, faqSchema] : articleSchema;
     </section>
   )}
 
+  {/* Over de schrijver (14-11-2026): alleen feiten die al op de site staan en die Rens heeft bevestigd. Niets over wie het werk uitvoert. */}
+  <section class="section">
+    <div class="wrap prose">
+      <h2>Over de schrijver</h2>
+      <p>{SITE.bedrijfsnaam} is het bedrijf van {SITE.eigenaar}, dakdekker uit 's-Hertogenbosch (Den Bosch). Je belt of appt met {SITE.eigenaar} zelf, niet met een callcenter. Hij werkt in de regio Den Bosch en verder in Brabant, is bedrijfsaansprakelijk verzekerd en staat bij de KvK ingeschreven onder nummer {SITE.kvk}.{SITE.reviews.werkspotAantal > 0 && <> Op <a href={SITE.werkspotUrl}>Werkspot</a> staat hij op {String(SITE.reviews.score).replace(".", ",")} uit {SITE.reviews.werkspotAantal} reviews.</>} Meer lees je op de pagina <a href="/over/">over {SITE.eigenaar}</a>.</p>
+    </div>
+  </section>
+
   {gerelateerd.length > 0 && (
     <section class="section section--soft">
       <div class="wrap">
