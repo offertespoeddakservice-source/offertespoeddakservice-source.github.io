@@ -523,6 +523,9 @@ export const FAQ_ERBIJ_2: Record<string, Artikel["faq"]> = {
   "isolatie-nat-na-lekkage": [
     { v: `Kan ik natte isolatie drogen met een ontvochtiger of een kachel op zolder?`, a: `Een ontvochtiger helpt bij een klein stuk dat maar kort nat is geweest, als het lek dicht is en er lucht bij de natte plek kan. Zet hem op zolder met de deur dicht en leeg de bak elke dag. Zet geen kachel, föhn of bouwlamp vlak tegen de isolatie of de folie, want dat kan brand geven. Zit de isolatie in het schuine dak achter folie of platen, dan droogt hij zo nauwelijks. Is het na een paar weken nog vochtig, of gaat het muf ruiken, laat het dan vervangen door een isolatiebedrijf. Isoleren doe ik zelf niet, maar het lek erboven maak ik wel dicht.` },
   ],
+  "dak-lekt-bij-sneeuw-of-vorst": [
+    { v: `Wat kan ik voor de winter laten doen, zodat mijn dak droog blijft bij sneeuw en vorst?`, a: `Laat de goten leegmaken als de bomen kaal zijn, zodat smeltwater weg kan en er geen ijs in de goot blijft staan. Laat losse nokvorsten en pannen die scheef liggen vastzetten, want daar waait stuifsneeuw het eerst onder door. Heb je een kilgoot, laat die dan ook leegmaken. Bij een plat dak kijk je vanuit een raam boven of de afvoer vrij is. En kijk na een sneeuwbui met harde wind even op zolder of er sneeuw ligt, voordat het gaat dooien. Stuur me een foto van je dak vanaf de straat, dan zeg ik eerlijk wat er voor de winter nodig is en wat het kost.` },
+  ],
 };
 
 // Artikelen en korte antwoorden uit artikelen-extra-3.ts (sinds 12-11-2026) erachter, zodat ze via artikelen-extra.ts in ARTIKELEN en KORT_ANTWOORD komen.
