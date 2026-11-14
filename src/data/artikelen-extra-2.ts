@@ -520,6 +520,9 @@ export const FAQ_ERBIJ_2: Record<string, Artikel["faq"]> = {
   "water-blijft-staan-op-plat-dak": [
     { v: `Er ligt sneeuw op mijn platte dak. Moet die eraf?`, a: `Meestal niet. Een gewone laag sneeuw kan een plat dak in de regel prima hebben, en eraf scheppen is vaak gevaarlijker dan laten liggen: je staat op een glad dak, en met een schep beschadig je de dakbedekking zo. Let vooral op als het gaat dooien. Het smeltwater moet dan weg kunnen, dus kijk vanuit een raam of de afvoer en de uitloop naar de regenpijp niet vol blad of ijs zitten. Blijft er na de dooi een plas staan, of wordt het binnen nat, stuur me dan een foto van het dak en van de afvoer via WhatsApp. Zie je binnen een plafond doorbuigen, ga er dan niet onder staan en bel of app me meteen.` },
   ],
+  "isolatie-nat-na-lekkage": [
+    { v: `Kan ik natte isolatie drogen met een ontvochtiger of een kachel op zolder?`, a: `Een ontvochtiger helpt bij een klein stuk dat maar kort nat is geweest, als het lek dicht is en er lucht bij de natte plek kan. Zet hem op zolder met de deur dicht en leeg de bak elke dag. Zet geen kachel, föhn of bouwlamp vlak tegen de isolatie of de folie, want dat kan brand geven. Zit de isolatie in het schuine dak achter folie of platen, dan droogt hij zo nauwelijks. Is het na een paar weken nog vochtig, of gaat het muf ruiken, laat het dan vervangen door een isolatiebedrijf. Isoleren doe ik zelf niet, maar het lek erboven maak ik wel dicht.` },
+  ],
 };
 
 // Artikelen en korte antwoorden uit artikelen-extra-3.ts (sinds 12-11-2026) erachter, zodat ze via artikelen-extra.ts in ARTIKELEN en KORT_ANTWOORD komen.
