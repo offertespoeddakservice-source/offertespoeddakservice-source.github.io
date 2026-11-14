@@ -1,4 +1,4 @@
-// llms.txt (03-11-2026, bijgewerkt 04-11-2026, 07-11-2026: alle artikelen erbij, 10-11-2026: bereikbaar en korte namen, 11-11-2026: korte antwoorden, 12-11-2026: zonder 'doet het werk zelf', 12-11-2026 ronde 5: Gelderland in Waar, 13-11-2026: blok Ook verder weg): korte, feitelijke uitleg voor AI-zoekmachines (ChatGPT, Gemini, Perplexity, Copilot).
+// llms.txt (03-11-2026, bijgewerkt 04-11-2026, 07-11-2026: alle artikelen erbij, 10-11-2026: bereikbaar en korte namen, 11-11-2026: korte antwoorden, 12-11-2026: zonder 'doet het werk zelf', 12-11-2026 ronde 5: Gelderland in Waar, 13-11-2026: blok Ook verder weg, 14-11-2026: blok Voor wie): korte, feitelijke uitleg voor AI-zoekmachines (ChatGPT, Gemini, Perplexity, Copilot).
 // Plaatsen komen vanzelf uit plaatsen.ts en diensten uit diensten.ts (verborgen diensten, die Rens niet doet, vallen weg). Geen prijzen, geen beloftes.
 import type { APIRoute } from "astro";
 import { SITE } from "../site.config.ts";
@@ -55,6 +55,12 @@ export const GET: APIRoute = () => {
     "## Zo werkt het",
     "- Stuur een foto via WhatsApp of bel. Je hoort de prijs voordat het werk begint.",
     `- Bij lekkage of stormschade: kijk eerst op ${u}/spoed/ wat je zelf meteen kunt doen.`,
+    "",
+    "## Voor wie",
+    "- Huiseigenaren met een pannendak, een plat dak op een aanbouw, garage of schuur, of een dakgoot die lekt of vol zit.",
+    "- Huurders: meld een lek eerst bij je verhuurder. Die regelt in de regel de reparatie.",
+    "- VvE's, beheerders en verhuurders, bijvoorbeeld van een rij huurwoningen, een klein appartementengebouw of een winkel met een woning erboven. De klus en de prijs worden vooraf afgesproken met wie de opdracht geeft.",
+    "- Ook kleine klussen in de regio Den Bosch, zoals één losse pan of een nokvorst die scheef ligt.",
     "",
     "## Korte antwoorden",
     `- Wie is ${SITE.bedrijfsnaam}? Een dakdekkersbedrijf uit ${SITE.basisplaats} van één vaste dakdekker, ${SITE.eigenaar}. Je hebt rechtstreeks contact met hem.`,
