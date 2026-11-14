@@ -510,6 +510,9 @@ export const FAQ_ERBIJ_2: Record<string, Artikel["faq"]> = {
   "daklekkage-verzekering": [
     { v: `Moet ik de rekening van de dakdekker eerst zelf betalen?`, a: `Meestal wel. Bij de meeste verzekeringen betaal je de reparatie zelf en stuur je daarna de rekening met foto's naar je verzekeraar. Soms regelt de verzekeraar het herstel zelf, of betaalt hij de vakman rechtstreeks, maar dat verschilt per verzekeraar en per polis. Vraag het na voordat de reparatie begint, zeker bij een grotere klus. Van mij krijg je foto's van wat ik aantrof en van de reparatie, met een korte omschrijving, die je kunt meesturen. Wat er vergoed wordt, beslist je verzekeraar.` },
   ],
+  "nat-achter-knieschot": [
+    { v: `Na een sneeuwbui ligt er sneeuw achter mijn knieschot, of is het daar nat. Lekt mijn dak?`, a: `Niet altijd. Bij harde wind waait fijne sneeuw onder de pannen door, zeker bij een dak zonder folie of als een pan of nokvorst niet goed sluit. Die stuifsneeuw blijft liggen op de vloer achter het knieschot, en als hij smelt, lijkt het een lek. Haal de sneeuw er met stoffer en blik uit zolang hij nog niet gesmolten is, en leg een handdoek neer. Wordt het daar ook nat bij gewone regen, of komt er steeds op dezelfde plek sneeuw binnen, dan ligt er waarschijnlijk een pan scheef of zit er een kier bij de onderste rij. Stuur me een foto van de plek en van je dak vanaf de straat, dan zeg ik eerlijk wat ik zie.` },
+  ],
 };
 
 // Artikelen en korte antwoorden uit artikelen-extra-3.ts (sinds 12-11-2026) erachter, zodat ze via artikelen-extra.ts in ARTIKELEN en KORT_ANTWOORD komen.
