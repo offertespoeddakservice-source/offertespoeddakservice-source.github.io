@@ -513,6 +513,9 @@ export const FAQ_ERBIJ_2: Record<string, Artikel["faq"]> = {
   "nat-achter-knieschot": [
     { v: `Na een sneeuwbui ligt er sneeuw achter mijn knieschot, of is het daar nat. Lekt mijn dak?`, a: `Niet altijd. Bij harde wind waait fijne sneeuw onder de pannen door, zeker bij een dak zonder folie of als een pan of nokvorst niet goed sluit. Die stuifsneeuw blijft liggen op de vloer achter het knieschot, en als hij smelt, lijkt het een lek. Haal de sneeuw er met stoffer en blik uit zolang hij nog niet gesmolten is, en leg een handdoek neer. Wordt het daar ook nat bij gewone regen, of komt er steeds op dezelfde plek sneeuw binnen, dan ligt er waarschijnlijk een pan scheef of zit er een kier bij de onderste rij. Stuur me een foto van de plek en van je dak vanaf de straat, dan zeg ik eerlijk wat ik zie.` },
   ],
+  "dak-keuren-bij-huis-kopen": [
+    { v: `De verkoper zegt dat het dak nooit heeft gelekt. Hoe kan ik dat zelf nagaan?`, a: `Kijk bij de bezichtiging op zolder en op de bovenste verdieping naar kringen of vlekken op het plafond en het hout, naar een plek die net is geverfd terwijl de rest dat niet is, naar zwarte stipjes schimmel achter het knieschot en naar een bak of handdoek die nog op zolder staat. Vraag de makelaar naar de vragenlijst die de verkoper heeft ingevuld: daarin staat of er lekkages zijn geweest en of ze zijn gemaakt. Is er gerepareerd, vraag dan om de rekening of foto's. Wil je meer zekerheid, dan kan ik met toestemming van de verkoper je dak nakijken met de Dak-APK.` },
+  ],
 };
 
 // Artikelen en korte antwoorden uit artikelen-extra-3.ts (sinds 12-11-2026) erachter, zodat ze via artikelen-extra.ts in ARTIKELEN en KORT_ANTWOORD komen.
