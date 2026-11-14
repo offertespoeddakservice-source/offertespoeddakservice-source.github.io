@@ -14,7 +14,8 @@ const apkPrijs = prijsVan("apk");
 // Richtprijzen op de homepage: een paar kleine klussen met een vanaf-bedrag, de rest staat op /prijzen (alles incl. btw)
 const HOME_PRIJZEN = ["goot_reinigen", "dakpan", "platdak", "daklekkage", "nok_repareren"].map((k) => PRIJZEN.find((r) => r.sleutel === k)!);
 const FOTO_WA = waHref("Hallo, ik wil graag weten wat het kost. Ik stuur een foto mee.");
-const HOME_UITLEG = ["daklek-tijdelijk-dichten", "dak-lekt-bij-harde-wind", "water-achter-dakgoot", "lekkage-bij-dakdoorvoer", "daklekkage-opsporen", "lekkage-bij-schoorsteen", "dakraam-lekt", "dakgoot-lekt", "stormschade-eerste-hulp"];
+// 14-11-2026: kachelpijp en aanbouw (meeste kliks en bezoeken) in plaats van opsporen en schoorsteen (0 kliks); die blijven in 'Alle uitleg op een rij'.
+const HOME_UITLEG = ["daklek-tijdelijk-dichten", "dak-lekt-bij-harde-wind", "water-achter-dakgoot", "lekkage-bij-dakdoorvoer", "lekkage-bij-kachelpijp", "lekkage-bij-aanbouw", "dakraam-lekt", "dakgoot-lekt", "stormschade-eerste-hulp"];
 const zichtbareArtikelen = ARTIKELEN.filter((a) => !a.verborgen);
 const uitgelicht = HOME_UITLEG.map((s) => zichtbareArtikelen.find((a) => a.slug === s)).filter((a) => a) as typeof ARTIKELEN;
 const overigeArtikelen = zichtbareArtikelen.filter((a) => !HOME_UITLEG.includes(a.slug));
