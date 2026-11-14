@@ -107,6 +107,10 @@ export const DIENSTEN: Dienst[] = [
         v: "Er ligt zand of grijs gruis in mijn goot. Komt dat van mijn dak?",
         a: "Meestal wel. Bij betonnen dakpannen slijt de bovenste laag na veel jaren, en dat zand spoelt bij elke bui de goot in. Een dun laagje is normaal, maar het zakt naar de uitloop en zet die samen met blad dicht. Bij het leegmaken haal ik het eruit en kijk ik meteen naar de pannen erboven. Liggen er brokjes specie of een stuk pan in de goot, dan zeg ik je waar die vandaan komen. Stuur gerust een foto van wat je vond.",
       },
+      {
+        v: "Zie je bij het leegmaken dat mijn goot lekt? Kun je het dan meteen maken?",
+        a: "Vaak wel, als het een kleine reparatie is en de goot droog genoeg is. Pas als de goot leeg is, zie ik goed of een naad, een hoek of de uitloop lekt. Een losse verbinding of een hoekstuk van een kunststof goot vervang ik vaak in dezelfde keer, en een lekke naad in een zinken goot kan ik solderen als hij droog is. Dat doe ik niet ongevraagd: je hoort eerst wat ik zie en wat het kost, en dan beslis jij. Van binnen coaten doe ik op een droge dag zonder vorst, dus dat plannen we soms apart. Stuur gerust vooraf een foto van de plek waar het druppelt.",
+      },
     ],
   },
   {
