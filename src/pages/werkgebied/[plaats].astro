@@ -42,6 +42,10 @@ const heeftKetel = ARTIKELEN.some((a) => a.slug === "cv-ketel-lekt-bij-regen" &&
 const heeftAfzuig = ARTIKELEN.some((a) => a.slug === "afzuigkap-lekt-bij-regen" && !a.verborgen);
 const heeftBolt = ARTIKELEN.some((a) => a.slug === "plafond-bolt-op-door-lekkage" && !a.verborgen);
 const heeftLamp = ARTIKELEN.some((a) => a.slug === "water-uit-lamp-plafond" && !a.verborgen);
+// Zinnen bij Lekt het nu? naar stopcontact, lekdetectie en kleine klus, alleen als het artikel bestaat (14-11-2026).
+const heeftStopcontact = ARTIKELEN.some((a) => a.slug === "water-uit-stopcontact-bij-regen" && !a.verborgen);
+const heeftLekdetectie = ARTIKELEN.some((a) => a.slug === "lekdetectie-daklek" && !a.verborgen);
+const heeftKleineKlus = ARTIKELEN.some((a) => a.slug === "dakdekker-kleine-klus" && !a.verborgen);
 // Uitleg per soort huis (14-11-2026): een gewone zin naar het kennisartikel dat past bij de huizen die op deze plaatspagina al genoemd worden. Alleen als het artikel bestaat en zichtbaar is.
 const WONING_ARTIKEL: Record<string, { slug: string; zin: string; anker: string }> = {
   vlijmen: { slug: "dak-jaren-70-rijtjeshuis", zin: "Woon je in een rijtjeshuis uit de jaren '60 of '70, zoals er in Vliedberg en de andere naoorlogse wijken veel staan? Waar zo'n dak na vijftig jaar meestal lekt, lees je bij", anker: "het dak van een jaren 70-rijtjeshuis" },
@@ -157,10 +161,13 @@ const schema = [
         Stuur me de foto via <a href={waHref(`Hallo, mijn dak lekt in ${p.naam}. Ik stuur je een foto.`)}>WhatsApp</a>, dan hoor je eerlijk wat ik zie en wat de beste volgende stap is.
       </p>
       {(heeftBolt || heeftLamp) && (<p>Bolt het plafond op of komt er water uit een lamp of spotje? Ga er niet onder staan, en zit er een lamp in de buurt, zet dan in de meterkast de groep van die kamer uit. Wat je verder doet, lees je in {heeftBolt && <a href="/kennisbank/plafond-bolt-op-door-lekkage/">plafond bolt op door lekkage</a>}{heeftBolt && heeftLamp && " en "}{heeftLamp && <a href="/kennisbank/water-uit-lamp-plafond/">water uit je lamp of spotjes</a>}.</p>)}
+      {heeftStopcontact && (<p>Komt er water uit een stopcontact of schakelaar? Zet dan meteen de groep van die kamer uit en raak het niet aan. Waar dat water vandaan komt, lees je in <a href="/kennisbank/water-uit-stopcontact-bij-regen/">water uit je stopcontact als het regent</a>.</p>)}
       <p>Druppelt het ook als het een paar dagen droog is? Dan komt het water vaak van een leiding en niet van het dak. Lees dan eerst <a href="/kennisbank/lekkage-dakdekker-of-loodgieter/">lekkage: dakdekker of loodgieter?</a></p>
+      {heeftLekdetectie && (<p>Lees je over lekdetectie met een warmtecamera? Bij een lek in je dak is dat meestal niet nodig, want ik zoek het lek op zolder en op het dak zelf. Wanneer meten wel zin heeft, lees je in <a href="/kennisbank/lekdetectie-daklek/">lekdetectie of dakdekker?</a></p>)}
       {(heeftKetel || heeftAfzuig) && (<p>Druppelt het bij je cv-ketel of uit je afzuigkap als het regent? Dan komt het water vaak langs de pijp door het dak naar binnen. Lees {heeftKetel && <a href="/kennisbank/cv-ketel-lekt-bij-regen/">water bij je cv-ketel als het regent</a>}{heeftKetel && heeftAfzuig && " of "}{heeftAfzuig && <a href="/kennisbank/afzuigkap-lekt-bij-regen/">water uit je afzuigkap</a>}.</p>)}
       {heeftGootPagina && (<p>Is het nat bovenin de muur, vlak onder de goot, of loopt er bij een bui water over de rand? Dan zit het vaak in de goot en niet in het dak. Hoe ik een lekkende goot in {p.naam} repareer, lees je bij <a href={`/werkgebied/${p.slug}/dakgoot-vervangen/`}>dakgoot repareren in {p.naam}</a>.</p>)}
       {heeftReparatiePagina && (<p>Ligt er een pan scheef, mist er een of liggen er brokjes specie van de nok in de goot? Dan is het vaak een kleine reparatie. Hoe ik losse pannen en nokvorsten in {p.naam} vastzet of vervang, lees je bij <a href={`/werkgebied/${p.slug}/dakreparatie/`}>dakreparatie in {p.naam}</a>.</p>)}
+      {!heeftReparatiePagina && heeftKleineKlus && !p.reistijd?.startsWith("±") && (<p>Gaat het om één losse pan, een nokvorst die scheef ligt of een stukje lood dat loszit? Ook voor zo'n kleine klus kun je me appen. Waarom kleine klussen vaak blijven liggen en wat je meestuurt, lees je bij <a href="/kennisbank/dakdekker-kleine-klus/">een dakdekker voor een kleine klus</a>.</p>)}
       {heeftStormPagina && (
         <>
           <h3>Na een storm</h3>
