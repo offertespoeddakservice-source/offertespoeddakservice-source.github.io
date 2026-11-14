@@ -392,6 +392,50 @@ export const ARTIKELEN_EXTRA_4: Artikel[] = [
       { v: `Het is nat in de onderste hoek van mijn zolder, bij de vloer. Kan dat van de dakgoot komen?`, a: `Ja. Waar de goot aan de zijkant van het huis eindigt, zit een eindstuk, en lekt dat of loopt de goot daar over, dan wordt juist die hoek nat. Kijk tijdens een bui of er water langs het eindstuk of over de rand van de goot loopt, en maak daar een foto van. Lees ook het artikel over water achter de dakgoot.` },
     ],
   },
+  {
+    slug: `dak-lekt-huis-verkopen`,
+    datum: `2026-11-14`,
+    titel: `Verkoop je je huis en lekt het dak?`,
+    h1: `Je verkoopt je huis en het dak lekt of heeft gelekt: wat doe je en wat vertel je?`,
+    metaTitle: `Huis verkopen en het dak lekt? | Spoed Dak Service`,
+    metaDescription: `Verkoop je je huis en lekt het dak, of heeft het gelekt? Zo laat je het maken, leg je vast wat er is gedaan en praat je er eerlijk over met kopers.`,
+    intro: `Je huis staat te koop, en net nu zie je een natte plek op zolder. Of het dak heeft ooit gelekt, en je twijfelt of je dat moet vertellen. Hieronder lees je wat je meteen doet, wat je vastlegt, wanneer repareren slim is en hoe je er eerlijk over praat met kopers. Wat je bij de verkoop precies moet vermelden, is een vraag voor je makelaar of notaris. Ik vertel je wat er aan het dak gebeurt.`,
+    secties: [
+      { kop: `Lekt het nu? Eerst dit`, tekst: [
+        `Zet een emmer onder de druppel, leg er een handdoek in en haal spullen weg. Zit de natte plek bij een lamp of stopcontact, zet dan in de meterkast de groep van die kamer uit. Ga niet zelf het dak op. Maak foto's van de natte plek en, als dat veilig kan, van je dak vanaf de straat. Wat je verder meteen kunt doen, staat op de <a href="/spoed/">spoedpagina</a>.`,
+      ] },
+      { kop: `Laat een lek eerst maken`, tekst: [
+        `Een lek dat nu actief is, laat je het beste meteen repareren. Water in het hout, de isolatie of het plafond maakt de schade alleen groter, en een natte plek op zolder valt bij een bezichtiging meteen op. Een lek dat is gemaakt, met een rekening en foto's erbij, geeft een koper meestal meer vertrouwen dan een vlek waar niemand iets over kan zeggen.`,
+      ] },
+      { kop: `Leg vast wat er was en wat er is gedaan`, tekst: [
+        `Bewaar de rekening van de reparatie en vraag om foto's van wat er kapot was en van wat er is gemaakt. Schrijf op wanneer het lekte, waar en bij wat voor weer. Zo kun je een koper of zijn bouwkundige precies laten zien wat er aan de hand was en dat het is opgelost.`,
+      ] },
+      { kop: `Vertel het de koper`, tekst: [
+        `Bij de verkoop vul je meestal via je makelaar een vragenlijst in, met ook vragen over lekkages. Het is in de regel verstandig om een lek dat je kent daar te noemen, ook als het al is gemaakt, en de rekening erbij te doen. Een koper die het later zelf ontdekt, voelt zich vaak misleid, en dat geeft gedoe. Wat je in jouw geval precies moet vermelden, vraag je aan je makelaar of notaris.`,
+      ] },
+      { kop: `Een oude vlek die al droog is`, tekst: [
+        `Zit er een oude kring op het plafond of op het hout van je zolder, en lekt het al lang niet meer? Kijk dan na de volgende flinke bui of de plek droog blijft en niet groter wordt. Schilder er pas overheen als je zeker weet dat het droog blijft, en verstop hem niet: een vers geschilderde plek op een oud plafond valt een bouwkundige juist op. Hoe lang drogen duurt, lees je in <a href="/kennisbank/plafond-drogen-na-lekkage/">je plafond laten drogen na een daklek</a>.`,
+      ] },
+      { kop: `Repareren of erover praten met de koper?`, tekst: [
+        `Vraagt een koper na de bouwkundige keuring om iets aan het dak, dan is een kleine reparatie, zoals een losse pan, een stukje lood of een lekkende naad in de goot, vaak het makkelijkst om vooraf te laten doen. Dan is het van tafel. Gaat het om een dak dat helemaal aan vervanging toe is, dan kan het slimmer zijn om dat met de koper te bespreken. Laat je daarover adviseren door je makelaar.`,
+      ] },
+      { kop: `Je dak laten nakijken voor de verkoop`, tekst: [
+        `Twijfel je hoe je dak ervoor staat, dan kan ik het nakijken met de <a href="/dak-apk/">Dak-APK</a>: de pannen, de nok, het lood, de goten en sporen van vocht op zolder, met foto's erbij. Zo weet je vooraf wat er speelt en kun je kleine dingen nog laten maken. Koop je zelf een ander huis, lees dan ook <a href="/kennisbank/dak-keuren-bij-huis-kopen/">dak keuren als je een huis koopt</a>.`,
+      ] },
+      { kop: `Hoe ik het aanpak`, tekst: [
+        `Ik zoek waar het water binnenkomt en maak het dicht. Je krijgt foto's van wat ik aantrof en van wat ik heb gedaan, met een korte omschrijving en een rekening. Die kun je aan je makelaar of de koper geven. Je hoort vooraf wat het kost. Zie <a href="/diensten/daklekkage/">daklekkage opsporen en repareren</a>.`,
+      ] },
+      { kop: `Wat kost het?`, tekst: [
+        `Een lek opsporen en dichten kost meestal ${inclBtw('daklekkage')}, inclusief materiaal. Gaat het om een losse of gebroken pan, dan is het vaak een kleine reparatie: ${inclBtw('dakpan')}. Stuur een foto van de natte plek en van je dak vanaf de straat, dan hoor je vooraf wat het kost.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: daklekkage opsporen en repareren`, href: `/diensten/daklekkage/` },
+    faq: [
+      { v: `Moet ik een lek dat al is gerepareerd aan de koper vertellen?`, a: `Het is in de regel verstandig om dat te doen, met de rekening en foto's van de reparatie erbij. Dan weet de koper wat er was en dat het is opgelost. Wat je in jouw geval precies moet vermelden, vraag je aan je makelaar of notaris.` },
+      { v: `Kun je mijn dak nakijken voordat mijn huis in de verkoop gaat?`, a: `Ja. Met de Dak-APK kijk ik je hele dak na en krijg je een rapport met foto's. Zo weet je vooraf wat er speelt en kun je kleine dingen nog laten maken voordat de eerste kopers komen kijken.` },
+      { v: `Mijn huis is verkocht maar nog niet overgedragen, en nu lekt het. Wat doe ik?`, a: `Zorg eerst dat de schade niet groter wordt: vang het water op en laat het lek dichtmaken. Meld het meteen bij je makelaar en de koper, met foto's van de schade en van de reparatie. Wat er verder moet gebeuren, staat meestal in de koopovereenkomst. Vraag je makelaar of notaris hoe het in jouw geval zit.` },
+    ],
+  },
 ];
 
 // Kort antwoord bovenaan een artikel (zie KORT_ANTWOORD in artikelen-extra.ts). Geen bedragen met de hand.
@@ -408,4 +452,5 @@ export const KORT_ANTWOORD_4: Record<string, string> = {
   "dakpan-in-tuin-gevonden": `Ligt er een dakpan of een stuk pan in je tuin of op de stoep, kijk dan eerst vanaf de overkant van de straat met de zoom van je telefoon of er een opening in je dak zit, en op zolder of je daglicht ziet. Mist er een pan of nokvorst, dan is het spoed, want bij de volgende bui regent het daar binnen. Bewaar de pan, ga niet zelf het dak op en stuur een foto.`,
   "plat-dak-onderhouden": `Kijk een of twee keer per jaar naar je platte dak, laat in de herfst en in het voorjaar, het liefst vanuit een raam boven. Let op of de afvoer vrij is, of er na een paar droge dagen nog een plas staat en of de naden, de rand en de strook tegen de muur nog dicht zitten. Laat blad en takken niet liggen en smeer geen kit op een plek die je niet vertrouwt.`,
   "zolder-nat-langs-zijmuur": `Wordt het op zolder nat langs de zijmuur van je hoekhuis, twee-onder-een-kap of vrijstaande huis, dan komt het water meestal van de rand van het dak erboven: een gevelpan die los ligt of gebroken is, een windveer die los zit of rot is, brokkelige specie langs de rand of het eindstuk van de goot. Soms trekt slagregen door de muur zelf. Kijk tijdens een bui waar het nat begint en maak een foto.`,
+  "dak-lekt-huis-verkopen": `Lekt het dak terwijl je je huis verkoopt, laat het dan eerst maken en bewaar de rekening en foto's van wat er kapot was en wat er is gedaan. Het is in de regel verstandig om een lek dat je kent aan de koper te melden, ook als het al is gemaakt. Wat je in jouw geval precies moet vermelden, vraag je aan je makelaar of notaris.`,
 };
