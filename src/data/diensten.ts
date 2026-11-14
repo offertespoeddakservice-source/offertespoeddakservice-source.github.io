@@ -426,6 +426,7 @@ export const DIENSTEN: Dienst[] = [
       { v: "Kun je een goot ook in de winter coaten?", a: "Alleen op een droge dag zonder vorst, want op een natte of bevroren goot hecht het niet. Lekt het nu en is het te koud of te nat, dan kan ik de goot vaak eerst leegmaken, zodat het water weer naar de regenpijp loopt, en kom ik op een droge dag terug om te coaten." },
       { v: "Kun je ook een zinken bakgoot van binnen coaten?", a: "Vaak wel. Een bakgoot ligt in de rand van het dak, en lekt hij, dan komt het water vaak binnen in de muur of in de kamer eronder. Is het zink nog stevig, dan kan coaten een goede reparatie zijn. Ik kijk eerst of het hout eronder nog gezond is." },
       { v: "Kom je ook buiten Den Bosch om een goot te coaten?", a: "Ja, in mijn werkgebied, onder andere in Boxtel, Veghel, Vught, Rosmalen en Oss. Coaten plan ik met je in op een droge dag. Stuur eerst een foto van de goot, dan hoor je wanneer ik kan komen." },
+      { v: "Hoe gaat het coaten van een dakgoot in zijn werk?", a: "Eerst maak ik de goot leeg, ook de uitloop naar de regenpijp, en maak ik de binnenkant schoon. Daarna moet de goot goed droog zijn. Dan breng ik aan de binnenkant een laag aan die de goot weer waterdicht maakt, op het stuk dat lekt of over de hele lengte. Die laag moet drogen voordat er weer water door mag lopen, daarom doe ik dit op een droge dag zonder vorst. Stuur een foto van de goot vanaf de straat en van de plek waar het druppelt, dan hoor je vooraf wat het kost." },
     ],
   },
   {
