@@ -321,7 +321,7 @@ export const PLAATSEN: Plaats[] = [
     slug: "breda",
     naam: "Breda",
     lokaal:
-      "Ook in Breda en omstreken kom ik voor lekkage en ander dakwerk. Je vindt hier een mix van vooroorlogse en naoorlogse daken die onderhoud aan pannen, lood en goten vragen.",
+      "Binnen de singels van Breda staan oude panden dicht op elkaar, met steile daken en goten die je vanaf de straat lastig ziet. Princenhage en Ginneken waren vroeger eigen dorpen en horen nu bij de stad.",
     wijken: ["Prinsenbeek", "Teteringen", "Ginneken", "Haagse Beemden"],
     reistijd: "± 40 min vanaf Den Bosch",
     omschrijving: "Dakdekker in Breda, Prinsenbeek en Teteringen: daklekkage, een lekkende dakgoot en losse pannen. Stuur een foto, dan hoor je eerlijk wanneer ik kan komen.",
@@ -339,7 +339,7 @@ export const PLAATSEN: Plaats[] = [
     slug: "helmond",
     naam: "Helmond",
     lokaal:
-      "Ruime naoorlogse wijken met schuine daken; voor dakwerk en lekkage kom ik in Helmond en de omliggende kernen.",
+      "Helmond is een oude textielstad aan de Zuid-Willemsvaart. Naast de oude straten rond het centrum heeft de stad grote woonwijken die vanaf de jaren '70 zijn gebouwd, zoals Brouwhuis en Rijpelberg.",
     wijken: ["Brouwhuis", "Dierdonk", "Mierlo-Hout", "Stiphout"],
     reistijd: "± 40 min vanaf Den Bosch",
     omschrijving: "Dakdekker in Helmond, Brandevoort en Stiphout: daklekkage bij het lood, blad in de kilgoot en losse pannen. Stuur een foto, dan hoor je wanneer ik kan komen.",
@@ -356,7 +356,7 @@ export const PLAATSEN: Plaats[] = [
     slug: "eindhoven",
     naam: "Eindhoven",
     lokaal:
-      "Ook in de regio Eindhoven kom ik voor lekkage en ander dakwerk. Veel naoorlogse woningen met schuine pannendaken en platte uitbouwen.",
+      "Eindhoven werd in 1920 één gemeente met Woensel, Stratum, Strijp, Gestel en Tongelre. Daardoor staan er in elk stadsdeel nog straten met huizen van voor de oorlog, met daaromheen wijken met rijtjes en twee-onder-een-kappers van na de oorlog.",
     wijken: ["Tongelre", "Woensel", "Gestel", "Stratum"],
     reistijd: "± 40 min vanaf Den Bosch",
     omschrijving: "Dakdekker in Eindhoven, Stratum en Woensel: daklekkage, dakgoten repareren of vervangen en losse pannen. Stuur een foto, dan hoor je wanneer ik kan komen.",
