@@ -436,6 +436,49 @@ export const ARTIKELEN_EXTRA_4: Artikel[] = [
       { v: `Mijn huis is verkocht maar nog niet overgedragen, en nu lekt het. Wat doe ik?`, a: `Zorg eerst dat de schade niet groter wordt: vang het water op en laat het lek dichtmaken. Meld het meteen bij je makelaar en de koper, met foto's van de schade en van de reparatie. Wat er verder moet gebeuren, staat meestal in de koopovereenkomst. Vraag je makelaar of notaris hoe het in jouw geval zit.` },
     ],
   },
+  {
+    slug: `jaren-30-huis-dak-lekt`,
+    datum: `2026-11-14`,
+    titel: `Lekt het dak van je jaren 30-huis?`,
+    h1: `Dak van een jaren 30-huis lekt: waar het meestal zit en wat je doet`,
+    metaTitle: `Jaren 30-huis: waar lekt het dak? | Spoed Dak Service`,
+    metaDescription: `Een huis uit de jaren '20 of '30 lekt vaak bij het lood, de zinken goot, de nok of oude pannen zonder folie eronder. Zo zie je waar het zit en wat je doet.`,
+    intro: `Huizen uit de jaren '20 en '30 hebben vaak een steil pannendak, een of twee schoorstenen, een erker en zinken goten. Zo'n dak is gemaakt om lang mee te gaan, maar na bijna honderd jaar is het lood, het zink of de nok vaak al eens vernieuwd, of juist nog nooit. Een lek zit daardoor meestal op een paar vaste plekken. Hieronder lees je welke dat zijn, hoe je ze herkent en wat eraan te doen is.`,
+    secties: [
+      { kop: `Lekt het nu? Eerst dit`, tekst: [
+        `Zet een emmer onder de druppel, haal spullen weg en zet in de meterkast de groep uit als het bij een lamp of stopcontact lekt. Ga niet zelf het dak op: oude pannen breken snel als je erop staat, en een steil dak is glad. Maak een foto van de natte plek en, als dat veilig kan, van je dak vanaf de straat. Wat je verder meteen kunt doen, staat op de <a href="/spoed/">spoedpagina</a>.`,
+      ] },
+      { kop: `Zo zit zo'n oud dak in elkaar`, tekst: [
+        `Bij veel huizen uit die tijd liggen de pannen op panlatten zonder folie eronder. Soms ligt er een houten beschot onder, soms kijk je op zolder zo tegen de achterkant van de pannen aan. Een streepje daglicht of wat stuifsneeuw na een sneeuwbui is bij zo'n dak niet vreemd. Maar er ligt ook geen tweede laag die water opvangt: is een pan gebroken of verschoven, dan komt het water vaak meteen binnen. Meer daarover lees je in <a href="/kennisbank/licht-tussen-dakpannen/">licht tussen je dakpannen</a> en <a href="/kennisbank/dakfolie-kapot/">folie onder je pannen kapot</a>.`,
+      ] },
+      { kop: `Waar het meestal lekt`, tekst: [
+        `Het lood rond de schoorsteen. Ook als er al lang niet meer gestookt wordt, staat de schoorsteen er vaak nog. Het lood rond de voet is soms tientallen jaren oud. Scheurt het in de vouwen of staat het van de steen af, dan loopt de regen erachter langs naar binnen. Zie <a href="/kennisbank/lood-op-dak/">lood op je dak</a>.`,
+        `De zinken goot of bakgoot. Bij veel van deze huizen ligt de goot verzonken in de rand van het dak, of hangt er een zinken goot aan de voorkant. Een soldeernaad die opengaat of zink dat dun is geworden, geeft een natte plek bovenin de muur of langs het plafond. Zie <a href="/kennisbank/bakgoot-lekt/">bakgoot lekt</a> en <a href="/kennisbank/zinken-dakgoot-lekt/">zinken dakgoot lekt</a>.`,
+        `De nok en de schuine hoeken. De vorsten liggen vaak nog in specie, en die brokkelt na veel jaren af. Ligt er gruis of een brokje specie in de goot, dan zit de nok of een hoekkeper los. Zie <a href="/kennisbank/nokvorsten-los/">losse nokvorsten</a> en <a href="/kennisbank/hoekkeper-lekt/">lekkage bij de hoekkeper</a>.`,
+        `De erker en de luifel. Het dakje van een erker of de luifel boven de voordeur sluit met een strook lood of zink op de gevel aan. Laat die los, dan wordt het nat boven het raam. Zie <a href="/kennisbank/erker-lekt/">erker of luifel lekt</a>.`,
+        `De kilgoot. Heeft je dak hoeken waar twee dakvlakken samenkomen, dan ligt daar een kilgoot van lood of zink. Daar blijft blad liggen, en oud lood kan er scheuren. Zie <a href="/kennisbank/kilgoot-lekt/">kilgoot lekt</a>.`,
+        `Oude pannen. Gebakken pannen van die leeftijd kunnen water opnemen en na een vorstperiode schilferen of barsten. Zie <a href="/kennisbank/poreuze-dakpannen/">poreuze dakpannen</a>.`,
+      ] },
+      { kop: `Zo vind je het`, tekst: [
+        `Ga tijdens of vlak na een bui met een zaklamp naar zolder. Omdat er vaak geen folie onder de pannen ligt, zie je de natte plek op de panlatten of het beschot meestal vlak onder het lek. Kijk ook langs de schoorsteen en in de hoeken bij de goot. Maak daarna vanaf de overkant van de straat een foto met de zoom van je telefoon: een pan die scheef ligt, lood dat omhoog staat of een donkere streep onder de goot zie je vaak al van beneden.`,
+      ] },
+      { kop: `Repareren of het dak vernieuwen?`, tekst: [
+        `Lekt het op één plek, dan is repareren meestal genoeg: een pan vervangen, lood vastzetten of een naad in de goot solderen. Breken er elk jaar meer pannen, is het lood op veel plekken op en ligt de nok over de hele lengte los, dan kan een dakvlak vernieuwen slimmer zijn. Bij een renovatie kan er op wens ook folie en nieuwe panlatten onder de pannen. Wanneer vervangen slimmer wordt, lees je in <a href="/kennisbank/hoe-lang-gaat-een-dak-mee/">hoe lang gaat een pannendak mee</a>. Woon je in een monument of een beschermd stadsgezicht, kijk dan ook bij <a href="/kennisbank/dak-monument-repareren/">je dak repareren in een monument</a>.`,
+      ] },
+      { kop: `Hoe ik het aanpak`, tekst: [
+        `Ik kijk eerst op zolder waar het water binnenkomt en daarna buiten op het dak. Losgeraakt lood zet ik weer vast of vervang ik, meestal met loodvervanger en met echt lood als je dat liever hebt. Een lekkende naad in een zinken goot soldeer ik, en is het zink op meer plekken dun, dan kan de goot vaak van binnen gecoat worden. Voor een gebroken pan zoek ik een pan die past bij de rest, zie <a href="/kennisbank/welke-dakpan-heb-ik/">welke dakpan heb ik</a>. Zijn de stenen of voegen van de schoorsteen zelf slecht, dan zeg ik dat eerlijk, want daarvoor heb je een metselaar nodig. Zie ook <a href="/diensten/daklekkage/">daklekkage opsporen en repareren</a>.`,
+      ] },
+      { kop: `Wat kost het?`, tekst: [
+        `Een paar losse of gebroken pannen vervangen kost meestal ${inclBtw('dakpan')}. Een lek opsporen en dichten kost meestal ${inclBtw('daklekkage')}, inclusief materiaal. Voor lood langs een hele schoorsteen, een goot of een groter stuk dak hoor je vooraf de vaste prijs. Stuur een foto van de natte plek en van je dak vanaf de straat via WhatsApp.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: daklekkage opsporen en repareren`, href: `/diensten/daklekkage/` },
+    faq: [
+      { v: `Op mijn zolder zie ik de achterkant van de pannen, zonder folie. Moet daar folie onder?`, a: `Niet per se. Zo'n dak is zo gebouwd, en zolang de pannen goed liggen, blijft het meestal droog. Folie kan er alleen onder als de pannen en de latten er eerst af gaan, dus dat doe je bij een renovatie. Wil je de zolder isoleren of als kamer gebruiken, vraag dan eerst een isolatiebedrijf wat er nodig is. Isoleren doe ik zelf niet, maar ik zorg wel dat het dak eerst dicht is.` },
+      { v: `Ik woon in een rij jaren 30-huizen. Lekt het bij mij of bij de buren?`, a: `Dat kan allebei. In een rij lopen de pannen, de nok en de goot vaak door over de grens, en het water loopt onder de pannen soms een stuk opzij voordat het binnenkomt. Kijk op zolder of de natte plek vlak bij de muur met de buren zit. Stuur me een foto van de natte plek en van het dak vanaf de straat, dan zeg ik waar ik zou beginnen.` },
+      { v: `Is een lek in een oud dak spoed?`, a: `Druppelt het binnen, zit het bij een lamp of stopcontact of ligt er een pan of vorst op straat, dan wel: bel of app me meteen. Een oude, droge kring die niet groter wordt, kan meestal een paar dagen wachten. Wacht geen weken, want bij een dak zonder folie komt elke bui meteen bij het hout.` },
+    ],
+  },
 ];
 
 // Kort antwoord bovenaan een artikel (zie KORT_ANTWOORD in artikelen-extra.ts). Geen bedragen met de hand.
@@ -454,4 +497,5 @@ export const KORT_ANTWOORD_4: Record<string, string> = {
   "zolder-nat-langs-zijmuur": `Wordt het op zolder nat langs de zijmuur van je hoekhuis, twee-onder-een-kap of vrijstaande huis, dan komt het water meestal van de rand van het dak erboven: een gevelpan die los ligt of gebroken is, een windveer die los zit of rot is, brokkelige specie langs de rand of het eindstuk van de goot. Soms trekt slagregen door de muur zelf. Kijk tijdens een bui waar het nat begint en maak een foto.`,
   "dak-lekt-huis-verkopen": `Lekt het dak terwijl je je huis verkoopt, laat het dan eerst maken en bewaar de rekening en foto's van wat er kapot was en wat er is gedaan. Het is in de regel verstandig om een lek dat je kent aan de koper te melden, ook als het al is gemaakt. Wat je in jouw geval precies moet vermelden, vraag je aan je makelaar of notaris.`,
   "daktermen-uitgelegd": `Op een pannendak heet het hoogste punt de nok, met daarop de nokvorsten. Waar twee dakvlakken in een hoek samenkomen, ligt een kilgoot, en een schuine nok op een schilddak heet een hoekkeper. Langs de zijkant zit de windveer met de gevelpannen, en rond een schoorsteen, dakraam of muur ligt lood of loodvervanger. Onder de pannen liggen panlatten en vaak folie.`,
+  "jaren-30-huis-dak-lekt": `Lekt het dak van een huis uit de jaren '20 of '30, dan zit het meestal in het lood rond de schoorsteen, in een zinken goot of bakgoot met een open naad, in een nok of hoekkeper waarvan de specie is afgebrokkeld, of in een oude pan die gebroken of verschoven is. Vaak ligt er geen folie onder de pannen, dus een kapotte pan geeft al snel een lek. Meestal is een reparatie op die ene plek genoeg.`,
 };
