@@ -344,6 +344,54 @@ export const ARTIKELEN_EXTRA_4: Artikel[] = [
       { v: `Valt een weggewaaide dakpan onder de verzekering?`, a: `Schade door storm valt vaak onder je opstalverzekering, maar dat hangt af van je polis. Maak foto's met de datum erbij en meld het bij je verzekeraar. Na de reparatie maak ik foto's van wat ik aantrof en wat ik heb gedaan, en die kun je meesturen.` },
     ],
   },
+  {
+    slug: `zolder-nat-langs-zijmuur`,
+    datum: `2026-11-14`,
+    titel: `Nat op zolder langs de zijmuur?`,
+    h1: `Nat op zolder langs de zijmuur van je huis: waar komt het water vandaan?`,
+    metaTitle: `Zolder nat langs de zijmuur? | Spoed Dak Service`,
+    metaDescription: `Nat op zolder langs de zijmuur van je hoekhuis of twee-onder-een-kap? Vaak zit het bij de gevelpannen, de windveer of het lood. Zo zie je waar.`,
+    intro: `Bij een hoekhuis, het eindhuis van een rij, een twee-onder-een-kap of een vrijstaand huis komt het schuine dak aan de zijkant uit op een buitenmuur: de kopgevel. Wordt het op zolder nat langs die muur, of zie je een donkere streep op het hout onder de schuine kant van het dak, dan komt het water meestal van de rand van het dak erboven. Soms komt het door de muur zelf. Hieronder lees je hoe je dat uit elkaar houdt en wat eraan te doen is.`,
+    secties: [
+      { kop: `Lekt het nu? Eerst dit`, tekst: [
+        `Zet een emmer of bak onder de druppel en schuif kasten en dozen een stuk van de muur af. Loopt het water langs de muur naar een stopcontact of lamp, zet dan in de meterkast de groep van die kamer uit. Ga niet zelf het dak op en zet geen ladder tegen de zijgevel. Maak een foto van de natte plek. Wat je verder meteen kunt doen, staat op de <a href="/spoed/">spoedpagina</a>.`,
+      ] },
+      { kop: `Zo zit de rand van je dak in elkaar`, tekst: [
+        `Langs de schuine zijkant van het dak liggen gevelpannen: pannen met een omgezette rand die over de rand van het dak heen valt. Bij veel huizen zit daaronder een houten plank, de windveer. Bij oudere huizen zonder windveer liggen de pannen aan de zijkant soms op de muur, met specie eronder. En op sommige huizen ligt er een strook lood of zink over de bovenkant van de muur. Samen houden ze de regen tegen die langs de zijkant onder de pannen wil waaien.`,
+      ] },
+      { kop: `Waar het meestal zit`, tekst: [
+        `Een gevelpan die los ligt of gebroken is. Bij harde wind krijgt de rand van het dak het zwaarst te verduren. Ligt een gevelpan een stukje open of mist hij, dan waait de regen er langs de zijkant onder. Zie <a href="/kennisbank/gevelpannen-los/">gevelpannen los na een storm</a>.`,
+        `Een windveer die los zit of rot is. Dan sluiten de gevelpannen niet meer goed aan en loopt het water achter de plank langs naar binnen. Vaak begint het rot onderaan, vlak boven de goot. Zie <a href="/kennisbank/windveer-los-of-rot/">windveer los of rot</a>.`,
+        `Specie langs de rand die is gaan brokkelen. Liggen de pannen aan de zijkant in specie op de muur, dan scheurt die na veel jaren en vallen er brokjes uit. Door die kieren komen regen en stuifsneeuw naar binnen. Brokjes specie in de goot of in de tuin onder de zijkant zijn een teken.`,
+        `Een pan naast de gevelpan. Ligt de eerste pan naast de rand scheef, of heeft hij een barst, dan loopt het water onder de pannen door naar de muur. Zie <a href="/kennisbank/dakpan-kapot-of-verschoven/">dakpan kapot of verschoven</a>.`,
+        `Het eindstuk van de goot. Waar de goot aan de zijkant van het huis eindigt, zit een eindstuk. Lekt dat, of loopt de goot daar over, dan wordt de onderste hoek van je zolder nat, vlak bij de vloer. Zie <a href="/kennisbank/dakgoot-lekt/">dakgoot lekt</a>.`,
+      ] },
+      { kop: `Of komt het door de muur zelf?`, tekst: [
+        `Een zijgevel vangt bij slagregen veel water. Zijn de voegen open of zit er een scheur in de muur, dan kan dat water erdoor trekken. Je herkent het aan een natte plek die lager in de muur begint, of aan een muur die over een groot stuk vochtig is, vooral als de regen hard tegen die kant slaat, en soms pas een dag later. Werk aan de stenen en de voegen doe ik niet. Zie ik dat het daar zit, dan zeg ik dat eerlijk, zodat je niet betaalt voor werk aan het dak dat niet helpt.`,
+      ] },
+      { kop: `Of is het condens?`, tekst: [
+        `Een buitenmuur op zolder is in de winter koud. Vocht uit huis slaat daar neer, vooral in een hoek achter een kast, een stapel dozen of het knieschot. Zie je zwarte puntjes of een vochtige waas, ook na dagen zonder regen, dan is het vaak condens. Lees dan <a href="/kennisbank/condens-of-lekkage-op-zolder/">condens of lekkage op zolder</a>.`,
+      ] },
+      { kop: `Zo vind je waar het zit`, tekst: [
+        `Kijk tijdens of vlak na een bui met een zaklamp op zolder. Begint het nat bovenaan, bij de nok, of langs de hele schuine kant? Dan zit het meestal aan de rand van het dak. Begint het onderaan, bij de vloer, dan eerder bij het eindstuk van de goot of de onderkant van de windveer. Ga daarna op een droge dag aan de overkant van de straat staan en kijk met de zoom van je telefoon langs de zijkant van het dak: ligt er een gevelpan scheef, hangt de windveer los of mist er specie? Maak van beide een foto en schrijf erbij uit welke hoek de wind kwam.`,
+      ] },
+      { kop: `Wat je zelf beter niet doet`, tekst: [
+        `Zet geen ladder tegen de zijgevel om te kijken: aan de zijkant sta je hoog en vang je de meeste wind. Kit een gevelpan niet vast en spuit geen kit in de kieren langs de rand. Dat houdt een paar maanden, en daarna loopt het water erachter langs, terwijl je het van buiten niet meer ziet.`,
+      ] },
+      { kop: `Hoe ik het aanpak`, tekst: [
+        `Ik kijk eerst op zolder waar het water binnenkomt, en daarna buiten langs de rand van het dak. Een losse gevelpan zet ik weer vast en een gebroken pan vervang ik door een die past. Zit de windveer los, dan zet ik hem vast, en is hij rot, dan vervang ik hem en leg ik de pannen langs de rand weer goed. Lood dat langs de rand of op de muur los zit, zet ik vast of vervang ik, meestal met loodvervanger en op wens met echt lood. Zit het in de specie langs de rand of in de stenen van de gevel, dan zeg ik eerlijk wat er nodig is. Zie <a href="/diensten/windveer-vervangen/">windveer vervangen</a> en <a href="/diensten/dakreparatie/">dakreparatie</a>.`,
+      ] },
+      { kop: `Wat kost het?`, tekst: [
+        `Een losse gevelpan vastzetten of een paar pannen langs de rand vervangen valt meestal onder een kleine reparatie: ${inclBtw('dakpan')}. Moet de windveer of het lood langs de rand vervangen worden, dan hangt de prijs af van hoe lang dat stuk is en hoe hoog het zit. Stuur een foto van de zijkant van je dak en van de natte plek op zolder, dan hoor je vooraf wat het kost.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: windveer vervangen of vastzetten`, href: `/diensten/windveer-vervangen/` },
+    faq: [
+      { v: `Is een natte plek langs de zijmuur van mijn zolder spoed?`, a: `Druppelt het bij elke bui, of loopt het water langs de muur naar een stopcontact of lamp, dan wel: zet de groep uit en stuur me een foto. Is de plek alleen vochtig en wordt hij niet groter, dan kan het vaak een paar dagen wachten. Wacht niet tot de volgende storm, want aan de zijkant van het dak waait een losse pan of plank het eerst weg.` },
+      { v: `Het is alleen nat als de wind op die kant van het huis staat. Wat zegt dat?`, a: `Dan zit het bijna altijd aan die kant: bij de gevelpannen, de windveer of de eerste rij pannen naast de rand, of in de muur zelf als de regen er hard tegenaan slaat. Schrijf op bij welk weer het nat werd en stuur dat mee met een foto van de zijkant van je dak.` },
+      { v: `Het is nat in de onderste hoek van mijn zolder, bij de vloer. Kan dat van de dakgoot komen?`, a: `Ja. Waar de goot aan de zijkant van het huis eindigt, zit een eindstuk, en lekt dat of loopt de goot daar over, dan wordt juist die hoek nat. Kijk tijdens een bui of er water langs het eindstuk of over de rand van de goot loopt, en maak daar een foto van. Lees ook het artikel over water achter de dakgoot.` },
+    ],
+  },
 ];
 
 // Kort antwoord bovenaan een artikel (zie KORT_ANTWOORD in artikelen-extra.ts). Geen bedragen met de hand.
@@ -359,4 +407,5 @@ export const KORT_ANTWOORD_4: Record<string, string> = {
   "lekt-sinds-iemand-op-dak": `Lekt het sinds de schoorsteenveger, een monteur, de schilder of de glazenwasser op of aan je dak is geweest, dan is er vaak een pan gebroken of uit zijn sluiting geschoven, of zit er iets los waar een kabel of beugel het dak in gaat. Zo'n barst zie je vanaf de straat bijna nooit. Vang het water op, maak foto's, noteer wanneer er gewerkt is en meld het eerst bij wie het werk deed.`,
   "dakpan-in-tuin-gevonden": `Ligt er een dakpan of een stuk pan in je tuin of op de stoep, kijk dan eerst vanaf de overkant van de straat met de zoom van je telefoon of er een opening in je dak zit, en op zolder of je daglicht ziet. Mist er een pan of nokvorst, dan is het spoed, want bij de volgende bui regent het daar binnen. Bewaar de pan, ga niet zelf het dak op en stuur een foto.`,
   "plat-dak-onderhouden": `Kijk een of twee keer per jaar naar je platte dak, laat in de herfst en in het voorjaar, het liefst vanuit een raam boven. Let op of de afvoer vrij is, of er na een paar droge dagen nog een plas staat en of de naden, de rand en de strook tegen de muur nog dicht zitten. Laat blad en takken niet liggen en smeer geen kit op een plek die je niet vertrouwt.`,
+  "zolder-nat-langs-zijmuur": `Wordt het op zolder nat langs de zijmuur van je hoekhuis, twee-onder-een-kap of vrijstaande huis, dan komt het water meestal van de rand van het dak erboven: een gevelpan die los ligt of gebroken is, een windveer die los zit of rot is, brokkelige specie langs de rand of het eindstuk van de goot. Soms trekt slagregen door de muur zelf. Kijk tijdens een bui waar het nat begint en maak een foto.`,
 };
