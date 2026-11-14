@@ -73,12 +73,18 @@ if (d.slug === "dakgoot-vervangen" && GOOT_OMSCHRIJVING_NIEUW[p.slug]) {
   metaTitelPerDienst["dakgoot-vervangen"] = `Dakgoot repareren of vervangen in ${p.naam}`;
   omschrijvingPerDienst["dakgoot-vervangen"] = GOOT_OMSCHRIJVING_NIEUW[p.slug];
 }
-// Dakgoot schoonmaken in Oisterwijk, Vught, Oss en Den Bosch: een eigen omschrijving in plaats van dezelfde zin met alleen een andere plaatsnaam (13-11-2026). De titel blijft gelijk, de andere gootpagina's houden de standaard.
+// Dakgoot schoonmaken in Oisterwijk, Vught, Oss en Den Bosch: een eigen omschrijving in plaats van dezelfde zin met alleen een andere plaatsnaam (13-11-2026). De titel blijft gelijk, de andere gootpagina's houden de standaard. Sinds 14-11-2026 (ronde 4) ook Veghel, Boxtel, Sint-Michielsgestel, Waalwijk, Rosmalen en Drunen.
 const GOOT_SCHOON_OMSCHRIJVING: Record<string, string> = {
   oisterwijk: `Dakgoot schoonmaken in Oisterwijk, Moergestel of Haaren? Blad, naalden en mos eruit en de uitloop vrij. Eén goot: ${gotenPrijs} incl. btw. Stuur een foto.`,
   vught: `Dakgoot schoonmaken in Vught of Helvoirt? Ik haal blad en dennennaalden uit de goot en maak de uitloop vrij. Eén goot: ${gotenPrijs} incl. btw.`,
   oss: `Dakgoot schoonmaken in Oss of Berghem? Ook de goot aan de achterkant, als ik er veilig bij kan, met de uitloop vrij. Eén goot: ${gotenPrijs} incl. btw.`,
   "den-bosch": `Dakgoot schoonmaken in Den Bosch? Ook een goot achter de gevel of tussen twee panden in de binnenstad, met de uitloop vrij. Eén goot: ${gotenPrijs} incl. btw.`,
+  veghel: `Dakgoot schoonmaken in Veghel of Mariaheide? Ook onder een rooster of borstel, en de lage goot van je garage. Eén goot: ${gotenPrijs} incl. btw.`,
+  boxtel: `Dakgoot schoonmaken in Boxtel? Ook blad en nestmateriaal van duiven onder zonnepanelen, met de uitloop vrij. Eén goot: ${gotenPrijs} incl. btw.`,
+  "sint-michielsgestel": `Dakgoot schoonmaken in Sint-Michielsgestel of Den Dungen? Goot leeg, uitloop vrij en de bladvanger in je regenpijp schoon. Eén goot: ${gotenPrijs} incl. btw.`,
+  waalwijk: `Dakgoot schoonmaken in Waalwijk? Ook de afvoer van een plat dak met grind achter je huis, met de uitloop vrij. Eén goot: ${gotenPrijs} incl. btw.`,
+  rosmalen: `Dakgoot schoonmaken in Rosmalen? Blad en brokjes specie van de nok eruit, en de afvoer van een plat dak in De Groote Wielen. Eén goot: ${gotenPrijs} incl. btw.`,
+  drunen: `Dakgoot schoonmaken in Drunen? Dennennaalden, zand en mos eruit, ook onder een rooster, en de uitloop vrij. Eén goot: ${gotenPrijs} incl. btw.`,
 };
 if (d.slug === "goten-reinigen" && GOOT_SCHOON_OMSCHRIJVING[p.slug]) {
   omschrijvingPerDienst["goten-reinigen"] = GOOT_SCHOON_OMSCHRIJVING[p.slug];
