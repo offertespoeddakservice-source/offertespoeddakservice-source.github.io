@@ -964,7 +964,7 @@ export const DIENSTEN: Dienst[] = [
     kort: "Versleten dak grondig opknappen: pannen, lood, nok en goten in één keer aangepakt.",
     metaTitle: "Dakrenovatie Den Bosch & regio | Spoed Dak Service",
     metaDescription:
-      "Dakrenovatie in de regio Den Bosch: versleten pannen vervangen, lood en nok vernieuwen en de goten meteen mee. Eerlijk advies of renoveren genoeg is, vaste prijs vooraf.",
+      "Dakrenovatie in de regio Den Bosch en verder in Brabant: versleten pannen, lood en nok vernieuwd, op wens met nieuwe folie en panlatten. Prijs vooraf.",
     icoon: "🏚",
     intro:
       "Is onderhoud niet meer genoeg, maar een compleet nieuw dak overdreven? Dan knap ik je dak grondig op: versleten pannen vervangen, lood en nok herstellen, goten aanpakken, in één keer, zodat je dak er weer jaren tegen kan.",
