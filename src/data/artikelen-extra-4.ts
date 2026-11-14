@@ -479,6 +479,49 @@ export const ARTIKELEN_EXTRA_4: Artikel[] = [
       { v: `Is een lek in een oud dak spoed?`, a: `Druppelt het binnen, zit het bij een lamp of stopcontact of ligt er een pan of vorst op straat, dan wel: bel of app me meteen. Een oude, droge kring die niet groter wordt, kan meestal een paar dagen wachten. Wacht geen weken, want bij een dak zonder folie komt elke bui meteen bij het hout.` },
     ],
   },
+  {
+    slug: `dak-jaren-70-rijtjeshuis`,
+    datum: `2026-11-14`,
+    titel: `Lekt het dak van je jaren 70-rijtjeshuis?`,
+    h1: `Rijtjeshuis uit de jaren '60 of '70: waar het dak na vijftig jaar lekt`,
+    metaTitle: `Jaren 70-rijtjeshuis: waar lekt het dak? | Spoed Dak Service`,
+    metaDescription: `Een rijtjeshuis uit de jaren '60 of '70 heeft vaak nog de eerste betonpannen en nok. Zo zie je waar het dak lekt en of repareren nog genoeg is.`,
+    intro: `In veel wijken uit de jaren '60 en '70 staan lange rijen huizen met hetzelfde zadeldak: betonpannen, een nok in de specie, een paar pijpen door het dak en achter het huis vaak een berging met een plat dak. Op een deel van die huizen ligt nog het eerste dak. Na zoveel jaren begint het op een paar vaste plekken te lekken. Hieronder lees je waar, hoe je het ziet en wanneer repareren nog genoeg is.`,
+    secties: [
+      { kop: `Lekt het nu? Eerst dit`, tekst: [
+        `Zet een emmer onder de druppel, haal spullen weg en zet de groep in de meterkast uit als het bij een lamp of stopcontact lekt. Ga niet zelf het dak op. Maak een foto van de natte plek en van je dak vanaf de overkant van de straat. Wat je verder meteen kunt doen, staat op de <a href="/spoed/">spoedpagina</a>.`,
+      ] },
+      { kop: `Waar het meestal lekt`, tekst: [
+        `De nok. De nokvorsten liggen vaak nog in de specie van toen. Die wordt bros, er vallen brokjes in de goot en bij harde wind gaat een vorst schuiven. Een natte plek helemaal bovenin de zolder wijst vaak naar de nok. Zie <a href="/kennisbank/nokvorsten-los/">losse nokvorsten</a>.`,
+        `Pijpen door het dak. De ontluchting van het riool, de afvoer van de cv-ketel en soms de afzuigkap gaan door een speciale pan of een kraag naar buiten. Het rubber of de kit daarvan droogt na jaren uit. Zie <a href="/kennisbank/lekkage-bij-dakdoorvoer/">lekkage bij een dakdoorvoer</a> en <a href="/kennisbank/cv-ketel-lekt-bij-regen/">water bij je cv-ketel als het regent</a>.`,
+        `De schoorsteen, of de plek waar hij stond. Heeft je huis nog een schoorsteen, dan zit het lek vaak in het lood eromheen. Is hij ooit weggehaald, dan lekt het soms bij de pannen waarmee het gat is gedicht. Zie <a href="/kennisbank/lekkage-weggehaalde-schoorsteen/">lekkage waar de schoorsteen stond</a>.`,
+        `Het dakraam. Veel van deze huizen kregen later een dakraam op zolder. Lekt het eromheen, dan zit het meestal in het gootstuk of in de aansluiting op de pannen erboven. Zie <a href="/kennisbank/dakraam-lekt/">dakraam lekt</a>.`,
+        `De goot. In die jaren kwamen de eerste kunststof goten. Gelijmde naden en hoekstukken worden na veel jaren bros en gaan lekken. Zie <a href="/kennisbank/kunststof-dakgoot-lekt/">kunststof dakgoot lekt</a>.`,
+        `Het platte dak achter het huis. De berging of aanbouw heeft vaak een plat dak, met een rand en een afvoer. Daar lekt het vaak waar het dak tegen de gevel van het huis komt. Zie <a href="/kennisbank/lekkage-bij-aanbouw/">lekkage bij de aanbouw</a>.`,
+      ] },
+      { kop: `Slijtende betonpannen`, tekst: [
+        `Betonpannen hebben een toplaag die na veel jaren slijt. Je ziet dan zand of grijs gruis in de goot, de pannen worden ruw en er blijft meer mos op zitten. Dat geeft niet meteen een lek, maar een ruwe pan neemt meer water op en breekt eerder. Ligt er alleen wat gruis in de goot, dan is dat meestal geen reden om je dak te vervangen. Zie <a href="/kennisbank/zand-in-dakgoot/">zand of korrels in je dakgoot</a> en <a href="/kennisbank/poreuze-dakpannen/">poreuze dakpannen</a>.`,
+      ] },
+      { kop: `Lekt het bij jou of bij de buren?`, tekst: [
+        `In een rij lopen de pannen, de nok en de goot vaak door over de grens tussen twee huizen. Water dat bij de buren onder een pan komt, kan bij jou binnen een natte plek geven. Is het nat vlak langs de muur met de buren, lees dan <a href="/kennisbank/lekkage-muur-buren/">nat langs de muur met de buren</a>. Hebben je buren hun dak net vernieuwd, kijk dan bij <a href="/kennisbank/lekkage-na-dakwerk-buren/">lekt het sinds dakwerk bij de buren?</a>`,
+      ] },
+      { kop: `Repareren of het dak vernieuwen?`, tekst: [
+        `Een paar losse pannen, een vorst of een kraag rond een pijp is een gewone reparatie. Moet er elk jaar ergens anders iets gebeuren, liggen er na een vorstperiode schilfers in de goot of zit de nok over de hele lengte los, dan is een dakvlak vernieuwen op termijn vaak slimmer. Dat hoeft niet altijd het hele dak te zijn, en in een rij kun je ook alleen je eigen dak laten doen, met een nette aansluiting op de buren. Lees <a href="/kennisbank/dak-vernieuwen-rijtjeshuis/">je dak vernieuwen in een rijtjeshuis</a> en <a href="/kennisbank/hoe-lang-gaat-een-dak-mee/">hoe lang gaat een pannendak mee</a>. Bij een renovatie kan er op wens nieuwe folie en nieuwe panlatten onder de pannen, zie <a href="/diensten/dakrenovatie/">dakrenovatie</a>. Woon je in Waalwijk, lees dan ook <a href="/werkgebied/waalwijk/dakrenovatie/">dakrenovatie in Waalwijk</a>.`,
+      ] },
+      { kop: `Hoe ik het aanpak`, tekst: [
+        `Ik kijk eerst op zolder en daarna vanaf het dak. Een losse vorst zet ik weer vast, en is de specie over de hele nok op, dan smeer ik de vorsten opnieuw aan. Gebroken pannen vervang ik door pannen die passen, en een uitgedroogde kraag rond een pijp vervang ik. Zie ik dat het dak op meer plekken op is, dan zeg ik dat eerlijk, en dan hoor je wat repareren en wat vernieuwen kost. Zie <a href="/diensten/dakreparatie/">spoed dakreparatie</a>.`,
+      ] },
+      { kop: `Wat kost het?`, tekst: [
+        `Een paar losse of gebroken pannen vervangen, of een nokvorst weer vastzetten, kost meestal ${inclBtw('dakpan')}. De nok opnieuw aansmeren kost ${inclBtw('nok_repareren')}. Een lek opsporen en dichten kost meestal ${inclBtw('daklekkage')}, inclusief materiaal. Voor een heel dakvlak hoor je de vaste prijs nadat ik heb gekeken. Stuur gerust eerst een foto van je dak vanaf de straat.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: spoed dakreparatie`, href: `/diensten/dakreparatie/` },
+    faq: [
+      { v: `Mijn buren hebben hun dak al vernieuwd. Moet ik nu ook?`, a: `Niet per se. Lekt jouw dak niet en liggen de pannen en de nok nog goed, dan kan het vaak nog jaren mee. Let wel op de grens met de buren: daar komen hun nieuwe en jouw oude pannen samen, en daar kan het gaan lekken als de aansluiting niet goed is. Stuur me een foto van je dak vanaf de straat, dan zeg ik eerlijk hoe het ervoor staat.` },
+      { v: `Er ligt grijs zand in mijn goot. Is mijn dak dan op?`, a: `Meestal niet. Betonpannen slijten aan de bovenkant, en dat zand spoelt bij elke bui de goot in. Een dun laagje is normaal. Liggen er ook stukjes pan of brokjes specie in de goot, of zijn de pannen erg ruw en vol mos, laat het dak dan een keer nakijken.` },
+      { v: `Is een lek bij de ontluchtingspijp op mijn dak spoed?`, a: `Druppelt het bij elke bui langs de pijp naar binnen, of zit het bij een lamp of stopcontact, dan wel. Is het alleen op koude ochtenden vochtig rond de pijp, ook zonder regen, dan is het vaak condens in de pijp en geen lek. Stuur me een foto van de pijp op zolder en van het dak vanaf de straat.` },
+    ],
+  },
 ];
 
 // Kort antwoord bovenaan een artikel (zie KORT_ANTWOORD in artikelen-extra.ts). Geen bedragen met de hand.
@@ -498,4 +541,5 @@ export const KORT_ANTWOORD_4: Record<string, string> = {
   "dak-lekt-huis-verkopen": `Lekt het dak terwijl je je huis verkoopt, laat het dan eerst maken en bewaar de rekening en foto's van wat er kapot was en wat er is gedaan. Het is in de regel verstandig om een lek dat je kent aan de koper te melden, ook als het al is gemaakt. Wat je in jouw geval precies moet vermelden, vraag je aan je makelaar of notaris.`,
   "daktermen-uitgelegd": `Op een pannendak heet het hoogste punt de nok, met daarop de nokvorsten. Waar twee dakvlakken in een hoek samenkomen, ligt een kilgoot, en een schuine nok op een schilddak heet een hoekkeper. Langs de zijkant zit de windveer met de gevelpannen, en rond een schoorsteen, dakraam of muur ligt lood of loodvervanger. Onder de pannen liggen panlatten en vaak folie.`,
   "jaren-30-huis-dak-lekt": `Lekt het dak van een huis uit de jaren '20 of '30, dan zit het meestal in het lood rond de schoorsteen, in een zinken goot of bakgoot met een open naad, in een nok of hoekkeper waarvan de specie is afgebrokkeld, of in een oude pan die gebroken of verschoven is. Vaak ligt er geen folie onder de pannen, dus een kapotte pan geeft al snel een lek. Meestal is een reparatie op die ene plek genoeg.`,
+  "dak-jaren-70-rijtjeshuis": `Lekt het dak van een rijtjeshuis uit de jaren '60 of '70, dan zit het meestal bij de nok, waarvan de specie bros is geworden, bij een pijp door het dak met een uitgedroogde kraag, bij het lood rond de schoorsteen of het dakraam, of bij een oude kunststof goot. Ook het platte dak van de berging erachter lekt vaak waar het tegen de gevel komt. Meestal is een reparatie op die plek genoeg.`,
 };
