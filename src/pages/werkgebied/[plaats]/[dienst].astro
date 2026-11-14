@@ -122,10 +122,13 @@ const nieuweStormPaginas = ["waalwijk", "veghel"];
 if (d.slug === "stormschade" && !nieuweStormPaginas.includes(p.slug)) {
   metaTitelPerDienst.stormschade = `Stormschade dak ${p.naam}: afdekken en herstellen`;
 }
-// Dakreparatie in Oss en Waalwijk: gemaakt voor 29-10, titel nooit aangepast ('dakreparatie oss' 82 vertoningen op plek 83, 'dakpannen waalwijk' 44 op plek 71). Titel met dakpannen en nok, eigen omschrijving zonder 'vaste prijs vooraf' (12-11-2026). De andere dakreparatiepagina's meten we eerst.
+// Dakreparatie in Oss en Waalwijk: gemaakt voor 29-10, titel nooit aangepast ('dakreparatie oss' 82 vertoningen op plek 83, 'dakpannen waalwijk' 44 op plek 71). Titel met dakpannen en nok, eigen omschrijving zonder 'vaste prijs vooraf' (12-11-2026). De andere dakreparatiepagina's meten we eerst. Sinds 14-11-2026 ook Veghel, Vught en Rosmalen (gemaakt voor 1-11, titel nooit aangepast).
 const REPARATIE_NIEUW: Record<string, { titel: string; omschrijving: string }> = {
   oss: { titel: "Dakreparatie Oss: dakpannen en nok", omschrijving: "Dakreparatie in Oss, Berghem of Geffen? Ik leg losse pannen terug, vervang een kapotte pan of nokvorst en zet waar nodig stormhaken bij. Stuur een foto." },
   waalwijk: { titel: "Dakreparatie Waalwijk: dakpannen en nok", omschrijving: "Dakreparatie in Waalwijk, Sprang-Capelle of Waspik? Ik vervang kapotte of losse pannen, ook oud-Hollandse, en zet de nok weer vast. Stuur een foto." },
+  veghel: { titel: "Dakreparatie Veghel: losse en kapotte dakpannen", omschrijving: "Dakreparatie in Veghel? Ik leg pannen terug die door vogelnesten omhoog zijn geduwd, vervang kapotte pannen en zet er vogelwering onder. Stuur een foto." },
+  vught: { titel: "Dakreparatie Vught: dakpannen, nok en hoekvorsten", omschrijving: "Dakreparatie in Vught? Ik zet losse nok- en hoekvorsten op een schilddak vast, leg gezakte pannen weer recht en vervang wat kapot is. Stuur een foto." },
+  rosmalen: { titel: "Dakreparatie Rosmalen: dakpannen en windveer", omschrijving: "Dakreparatie in Rosmalen? Ik zet losse pannen langs de windveer vast, vervang kapotte pannen en maak een lekkende doorvoer dicht. Stuur een foto." },
 };
 if (d.slug === "dakreparatie" && REPARATIE_NIEUW[p.slug]) {
   metaTitelPerDienst.dakreparatie = REPARATIE_NIEUW[p.slug].titel;
