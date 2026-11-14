@@ -244,6 +244,11 @@ const volgende = [1, 2, 3, 4, 5, 6, 7].map((n) => ARTIKELEN[(idx + n) % ARTIKELE
 const gerelateerd = [...uitGroep, ...volgende]
   .filter((x, i, lijst) => x.slug !== a.slug && !x.verborgen && lijst.findIndex((y) => y.slug === x.slug) === i)
   .slice(0, 6);
+// Nieuw in de kennisbank: de zes nieuwste zichtbare artikelen op datum, zodat een nieuw artikel meteen vanaf elk kennisartikel een link krijgt (14-11-2026). Niet het artikel zelf en niet wat al bij 'Lees ook' staat.
+const nieuwste = ARTIKELEN
+  .filter((x) => !x.verborgen && x.datum && x.slug !== a.slug && !gerelateerd.some((g) => g.slug === x.slug))
+  .sort((x, y) => (y.datum ?? "").localeCompare(x.datum ?? ""))
+  .slice(0, 6);
 
 const articleSchema = {
   "@context": "https://schema.org",
@@ -378,6 +383,17 @@ const schema = faqSchema ? [articleSchema, faqSchema] : articleSchema;
             </a>
           ))}
         </div>
+      </div>
+    </section>
+  )}
+
+  {nieuwste.length > 0 && (
+    <section class="section">
+      <div class="wrap prose">
+        <h2>Nieuw in de kennisbank</h2>
+        <ul>
+          {nieuwste.map((n) => <li><a href={`/kennisbank/${n.slug}/`}>{n.titel}</a></li>)}
+        </ul>
       </div>
     </section>
   )}
