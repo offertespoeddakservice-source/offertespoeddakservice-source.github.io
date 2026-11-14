@@ -86,6 +86,7 @@ export const PLAATSEN: Plaats[] = [
     faq: [
       { v: "Kom je ook in Elshout?", a: "Ja. Elshout ligt vlak bij Drunen en hoort net als Drunen bij de gemeente Heusden. Ik kom er voor dezelfde klussen als in Drunen zelf, zoals goten vol zand en blad, lekkage bij oud lood en losse pannen na een storm. Het is zo'n 20 minuten rijden vanaf Den Bosch." },
       { v: "Mijn goot in Drunen zit elk najaar vol zand en blad. Hoe vaak moet hij leeg?", a: "Staat je huis aan de kant van de Loonse en Drunense Duinen of tussen de bomen, dan is één keer per jaar vaak te weinig. Een goed moment is laat in de herfst, als het meeste blad eraf is. Komt er naast blad ook veel zand in je goot, dan zakt dat naar de uitloop naar de regenpijp en wordt het daar een zware prop. Dan is een tweede keer in het voorjaar vaak slim. Loopt je goot bij een bui over aan de voorkant, wacht dan niet tot die tijd. Stuur me een foto van de goot vanaf de straat via WhatsApp, dan hoor je vooraf wat het kost." },
+      { v: "Ik zoek een dakdekker in Drunen. Zit je daar zelf?", a: "Nee, ik werk vanuit 's-Hertogenbosch, en naar Drunen en Elshout ben ik zo'n twintig minuten onderweg. Je hebt geen planner of callcenter aan de lijn, maar mij, Rens: ik bekijk je foto, kom zelf kijken en spreek de prijs met je af voordat ik begin. Woon je aan de kant van de duinen, zet er dan bij of je goot vol zand en naalden zit. Woon je in het oude centrum, maak dan ook een foto van de schoorsteen. Stuur je foto's via WhatsApp." },
     ],
   },
   {
@@ -99,6 +100,7 @@ export const PLAATSEN: Plaats[] = [
     faq: [
       { v: "Kom je ook in Middelrode?", a: "Ja. Middelrode ligt vlak bij Berlicum, en allebei horen ze bij de gemeente Sint-Michielsgestel. Het is zo'n kwartier rijden vanaf Den Bosch, dus ik kom er voor dezelfde klussen als in Berlicum zelf." },
       { v: "Kom je ook in Heeswijk-Dinther en Loosbroek?", a: "Ja. Heeswijk-Dinther en Loosbroek horen bij de gemeente Bernheze. Heeswijk-Dinther ligt vlak bij Middelrode, en Loosbroek daar niet ver vandaan. Ik kom er voor dezelfde klussen als in Berlicum zelf: lekkage, goten, pannen en lood. Stuur gerust eerst een foto via WhatsApp, dan hoor je wanneer ik kan komen." },
+      { v: "Ik zoek een dakdekker in Berlicum. Zit je daar zelf?", a: "Niet in Berlicum zelf. Ik werk vanuit 's-Hertogenbosch, en Berlicum en Middelrode liggen op zo'n kwartier rijden. Je belt of appt niet met een planner, maar met mij, Rens. Ik bekijk je foto, kom zelf kijken en spreek de prijs met je af voordat ik begin. In Berlicum staan veel vrijstaande huizen en twee-onder-een-kappers, vaak met een schoorsteen, een lange goot of een garage naast het huis. Zet in je bericht wat voor huis je hebt, dan weet ik wat ik mee moet nemen." },
     ],
   },
   {
@@ -114,6 +116,7 @@ export const PLAATSEN: Plaats[] = [
     faq: [
       { v: "Kom je ook in Den Dungen, Gemonde en Maaskantje?", a: "Ja. Den Dungen, Maaskantje en Gemonde horen bij de gemeente Sint-Michielsgestel, net als Berlicum en Middelrode. Ik kom er voor dezelfde klussen als in Gestel zelf: lekkage, goten, pannen en lood. Het is zo'n kwartier tot twintig minuten rijden vanaf Den Bosch." },
       { v: "Ik wil mijn dak in Sint-Michielsgestel laten isoleren. Kun je eerst kijken of het dak dicht is?", a: "Ja. Isoleren doe ik zelf niet, maar je dak moet eerst droog en dicht zijn, want isoleren op een dak dat water doorlaat maakt het erger. Bij de oudere huizen in het centrum van Gestel en langs de Dommel kijk ik naar de pannen, de nok en het lood. Ligt er een pan scheef of laat het lood los, dan maak ik dat eerst in orde. Daarna kan een isolatiebedrijf aan de slag. Je hoort vooraf wat het kost." },
+      { v: "Ik zoek een dakdekker in Sint-Michielsgestel. Zit je daar zelf?", a: "Nee, ik werk vanuit 's-Hertogenbosch. Naar Gestel, Den Dungen en Gemonde ben ik zo'n kwartier tot twintig minuten onderweg. Je hebt geen planner of callcenter aan de lijn, maar mij, Rens: ik bekijk je foto, kom zelf kijken en spreek de prijs met je af voordat ik begin. Woon je in een ouder huis langs de Dommel of in het centrum van Gestel, maak dan ook een foto van de schoorsteen. Heb je een platte aanbouw, maak dan vanuit een raam boven een foto van dat dak. Stuur ze via WhatsApp." },
     ],
   },
   {
@@ -317,6 +320,7 @@ export const PLAATSEN: Plaats[] = [
     faq: [
       { v: "Ik woon in een oud arbeidershuis in het Goirke of Korvel. Moet bij een lek het hele dak eraf?", a: "Meestal niet. Bij die oude rijtjes zit een lek vaak in het lood rond de schoorsteen of bij één pan die is gaan schuiven, en dat repareer ik gericht. Zijn de pannen op veel plekken gescheurd of poreus, dan zeg ik eerlijk dat een groter stuk vervangen slimmer is. Tilburg is voor mij zo'n half uur rijden. Stuur daarom eerst een foto van de natte plek en van je dak vanaf de straat via WhatsApp, dan hoor je wanneer ik kan komen." },
       { v: "Kom je ook in Goirle en Dongen?", a: "Ja. Goirle ligt aan de zuidkant van Tilburg en Dongen aan de noordkant, elk met een eigen gemeente. Ik kom er voor dezelfde klussen als in Tilburg: lekkage, goten, pannen en lood. Tilburg is voor mij zo'n half uur rijden, dus stuur eerst een foto via WhatsApp, dan hoor je wanneer ik kan komen." },
+      { v: "Ik zoek een dakdekker in Tilburg. Zit je daar zelf?", a: "Nee, ik werk vanuit 's-Hertogenbosch, en Tilburg is voor mij zo'n half uur rijden. Udenhout en Berkel-Enschot liggen het dichtst bij. Je spreekt geen planner, maar mij, Rens: ik bekijk je foto's, kom zelf kijken en noem de prijs voordat ik begin. Omdat het voor mij een stuk rijden is, wil ik vooraf graag zien wat er speelt. Stuur een foto van de natte plek binnen en van je dak vanaf de straat, of het nu gaat om een oud arbeidershuis in het Goirke of een rijtjeshuis in de Reeshof. Dan zeg ik eerlijk wat ik zie en wanneer ik kan komen." },
     ],
   },
   {
