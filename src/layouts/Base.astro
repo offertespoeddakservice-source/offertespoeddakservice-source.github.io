@@ -100,7 +100,7 @@ const breadcrumbSchema = crumbs.length
       ],
     }
   : null;
-const websiteSchema = { "@context": "https://schema.org", "@type": "WebSite", "@id": `${SITE.url}/#website`, name: SITE.bedrijfsnaam, alternateName: "Spoeddakservice", url: SITE.url, inLanguage: "nl-NL", publisher: { "@id": `${SITE.url}/#bedrijf` } };
+const websiteSchema = { "@context": "https://schema.org", "@type": "WebSite", "@id": `${SITE.url}/#website`, name: SITE.bedrijfsnaam, alternateName: ["Spoed Dak", "Spoeddakservice"], url: SITE.url, inLanguage: "nl-NL", publisher: { "@id": `${SITE.url}/#bedrijf` } };
 const schemas = [businessSchema, websiteSchema, ...(breadcrumbSchema ? [breadcrumbSchema] : []), ...(Array.isArray(schema) ? schema : schema ? [schema] : [])];
 ---
 
