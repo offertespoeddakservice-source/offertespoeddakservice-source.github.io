@@ -259,6 +259,7 @@ const schema = [
         <li><strong>Klus:</strong> {KLUS_NAAM[d.slug] ?? d.titel} in {p.naam}{gemeente && gemeente !== p.naam ? ` (gemeente ${gemeente})` : ""}.</li>
         <li><strong>Afstand:</strong> {p.reistijd ?? SITE.regioOmschrijving}.</li>
         <li><strong>Contact:</strong> bellen of WhatsApp op <a href={telHref}>{SITE.telefoonWeergave}</a>, dag en nacht bereikbaar.</li>
+        {(d.slug === "daklekkage" || d.slug === "stormschade") && (<li><strong>Spoed:</strong> {p.reistijd?.startsWith("±") ? `${p.naam} ligt verder weg, dus een klus hier plan ik meestal vooraf met je in. Stuur eerst een foto, dan hoor je eerlijk wanneer ik kan komen.` : "druppelt het binnen of ligt er een open plek in je dak, bel of app dan meteen. Bij spoed kan ik vaak nog dezelfde dag komen."}</li>)}
         <li><strong>Prijs:</strong> je hoort de vaste prijs voordat ik begin.</li>
         <li><strong>Verzekerd:</strong> bedrijfsaansprakelijk verzekerd.</li>
         <li><strong>Reviews:</strong> <a href={SITE.werkspotUrl} target="_blank" rel="noopener">{SITE.reviews.score.toString().replace(".", ",")} op Werkspot</a>{SITE.reviews.werkspotAantal > 0 ? ` (${SITE.reviews.werkspotAantal} reviews)` : ""}.</li>
