@@ -87,10 +87,47 @@ export const ARTIKELEN_EXTRA_5: Artikel[] = [
       { v: `Kun je op een foto al een prijs geven?`, a: `Vaak kan ik dan al zeggen wat het ongeveer wordt. De vaste prijs hoor je voordat ik begin. Zie ik op de foto niet alles, dan kom ik eerst kijken.` },
     ],
   },
+  {
+    slug: `dak-repareren-via-buren`,
+    datum: `2026-11-16`,
+    titel: `Kan de dakdekker alleen via de buren bij je dak?`,
+    h1: `Kan de dakdekker alleen via de tuin of het dak van de buren bij je goot of dak? Zo regel je het`,
+    metaTitle: `Dakdekker via de tuin van de buren? | Spoed Dak Service`,
+    metaDescription: `Kan de dakdekker alleen via de tuin, het pad of het platte dak van de buren bij je goot of dak? Wat het ladderrecht zegt en hoe je het samen goed regelt.`,
+    intro: `Bij een rijtjeshuis, of een huis zonder achterom, komt een dakdekker soms alleen via de tuin, het pad of het platte dak van de buren bij de goot of het dak aan de achterkant. Meestal is dat met een praatje zo geregeld. Hieronder lees je wat je vooraf afspreekt, wat de wet zegt als het niet lukt en hoe ik het aanpak.`,
+    secties: [
+      { kop: `Eerst gewoon vragen`, tekst: [
+        `Vraag je buren een paar dagen van tevoren of de dakdekker via hun tuin of pad mag. Vertel waarvoor, hoe lang het ongeveer duurt en waar de ladder komt te staan. De meeste buren vinden het prima, zeker als ze weten wanneer het is. Spreek af wie er thuis is om het hek open te doen, en of er planten, een schutting of een tuinset in de weg staan.`,
+      ] },
+      { kop: `Wat het ladderrecht zegt`, tekst: [
+        `Willen de buren niet, dan is er het ladderrecht, artikel 5:56 van het Burgerlijk Wetboek. Kort gezegd moet een eigenaar toestaan dat zijn grond wordt gebruikt voor onderhoud of herstel aan het huis van de buren, als dat werk anders niet, of alleen op een heel lastige of dure manier kan. Ontstaat er daarbij schade, bijvoorbeeld aan de tuin of de schutting, dan heeft de buurman recht op vergoeding.`,
+        `Het ladderrecht is bedoeld voor als het echt niet anders kan, niet om een omweg te sparen. Vraag het dus altijd van tevoren. Kom je er samen niet uit, vraag dan advies bij het Juridisch Loket. Dit is uitleg van een dakdekker, geen juridisch advies.`,
+      ] },
+      { kop: `Via het platte dak van de buren`, tekst: [
+        `Soms kan ik alleen bij je dak of goot komen via het platte dak van de aanbouw of garage van de buren. Niet elk plat dak is gemaakt om op te lopen of een ladder op te zetten. Ik kijk daarom eerst of dat dak er stevig genoeg voor is. Is het dat niet, dan zoeken we samen een andere manier. Vraag je buren ook hier altijd vooraf of ze het goed vinden.`,
+      ] },
+      { kop: `Een goot of dak dat doorloopt naar de buren`, tekst: [
+        `Loopt je goot of dak door naar de buren en zit het lek op de grens, dan is het vaak slim om het samen aan te pakken. Zie <a href="/kennisbank/gedeelde-dakgoot-lekt/">gedeelde dakgoot lekt</a> en <a href="/kennisbank/lekkage-muur-buren/">lekkage langs de muur met de buren</a>.`,
+      ] },
+      { kop: `Maak vooraf een foto`, tekst: [
+        `Maak samen met je buren een foto van de tuin, het pad of het platte dak voordat het werk begint. Dan is er achteraf geen discussie over hoe het eruitzag. Ik ben bedrijfsaansprakelijk verzekerd.`,
+      ] },
+      { kop: `Hoe ik het aanpak`, tekst: [
+        `Stuur me een foto van je dak of goot vanaf de straat of uit de tuin, en zet erbij of er een achterom is. Dan zeg ik of ik er via de voorkant bij kan, of dat ik via de buren moet. Je hoort vooraf wat het kost, en we spreken samen een dag af, zodat jij het met je buren kunt regelen. Zie <a href="/diensten/dakgoot-vervangen/">dakgoot repareren of vervangen</a>.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: dakgoot repareren of vervangen`, href: `/diensten/dakgoot-vervangen/` },
+    faq: [
+      { v: `Mijn buren willen niet. Mag de dakdekker dan toch via hun tuin?`, a: `Niet zomaar. Het ladderrecht geldt alleen als het werk echt niet, of alleen heel lastig anders kan, en ook dan is het verstandig om het eerst samen op te lossen. Vraag of er een moment is dat het hen beter uitkomt, of dat er iemand bij kan zijn. Kom je er niet uit, vraag dan advies bij het Juridisch Loket. Kan ik er ook langs een andere kant bij, dan zeg ik dat eerlijk.` },
+      { v: `Wat als er bij de buren iets kapotgaat?`, a: `Volgens het ladderrecht heeft je buurman recht op vergoeding van schade die door het werk ontstaat. Maak daarom voor het werk samen een foto van de tuin of de schutting, en spreek af waar de ladder komt te staan.` },
+      { v: `Moet ik mijn buren zelf vragen, of doe jij dat?`, a: `Vraag het liefst zelf, want het zijn jouw buren. Ik vertel je vooraf waar de ladder komt te staan en hoe lang het ongeveer duurt, zodat je dat kunt doorgeven.` },
+    ],
+  },
 ];
 
 // Kort antwoord bovenaan een artikel. Geen bedragen.
 export const KORT_ANTWOORD_5: Record<string, string> = {
   "noodreparatie-dak": `Een noodreparatie zorgt dat er geen water meer binnenkomt, ook als het nog niet netjes kan: een losse pan terugleggen, een open stuk afdekken met folie of een zeil, of een volle goot leegmaken. Een zeil is bedoeld voor dagen tot een paar weken. Lood, kit en dakmortel hebben een droge dag nodig, dus de nette reparatie volgt dan later. Maak foto's voor je verzekeraar en bewaar de rekening.`,
   "foto-van-je-dak-maken": `De foto's die een dakdekker het meest helpen: je hele dak vanaf de overkant van de straat, met daarna ingezoomd de plek waar je iets ziet; de natte plek binnen van dichtbij en van een afstand; en zolder boven die plek met een zaklamp. Bij een goot helpt een kort filmpje tijdens een bui. Ga voor een foto niet het dak op en zet geen ladder tegen de goot.`,
+  "dak-repareren-via-buren": `Kan een dakdekker alleen via de tuin, het pad of het platte dak van de buren bij je goot of dak, vraag het je buren dan een paar dagen van tevoren. Weigeren ze, dan is er het ladderrecht (artikel 5:56 Burgerlijk Wetboek): kan het werk anders niet, of alleen heel lastig, dan moeten ze het toestaan, en schade bij hen moet worden vergoed. Kom je er samen niet uit, vraag dan advies bij het Juridisch Loket.`,
 };
