@@ -46,9 +46,51 @@ export const ARTIKELEN_EXTRA_5: Artikel[] = [
       { v: `Hoe lang mag een zeil op mijn dak blijven liggen?`, a: `Zo kort mogelijk. Het is bedoeld om de tijd tot de nette reparatie te overbruggen, meestal dagen en hooguit een paar weken. Hoe langer het ligt, hoe groter de kans dat de wind er een keer onder komt. Spreek daarom meteen een dag af voor de nette reparatie.` },
     ],
   },
+  {
+    slug: `foto-van-je-dak-maken`,
+    datum: `2026-11-16`,
+    titel: `Foto's van je dak maken: welke helpen?`,
+    h1: `Foto's van je dak maken voor de dakdekker: welke helpen het meest, veilig vanaf de grond`,
+    metaTitle: `Foto van je dak maken voor de dakdekker | Spoed Dak Service`,
+    metaDescription: `Wil je via WhatsApp een prijs of advies? Deze foto's helpen een dakdekker het meest: je dak vanaf de straat, de natte plek binnen en zolder. Zo maak je ze veilig.`,
+    intro: `Via WhatsApp kan ik al veel zien, als de foto's de goede dingen laten zien. Met een paar goede foto's weet ik meestal wat er speelt en wat ik mee moet nemen, en vaak kan ik dan al zeggen wat het ongeveer wordt. Hieronder lees je welke foto's het meest helpen en hoe je ze maakt zonder het dak op te gaan.`,
+    secties: [
+      { kop: `Blijf op de grond`, tekst: [
+        `Ga voor een foto niet het dak op en zet geen ladder tegen de goot. Alles wat ik nodig heb, maak je vanaf de straat, uit een raam boven of op zolder. Liever een foto minder dan een val.`,
+      ] },
+      { kop: `Je dak vanaf de overkant van de straat`, tekst: [
+        `Ga aan de overkant van de straat staan, zodat je het hele dakvlak ziet, van de goot tot de nok. Maak eerst een foto van het hele dak, en zoom daarna met je telefoon in op de plek waar je iets ziet: een pan die scheef ligt, een gat bij de nok of lood bij de schoorsteen dat omhoog staat. Gaat het om de achterkant, maak de foto dan vanuit de tuin, of vraag de buren of het mag vanuit hun tuin of een raam boven.`,
+      ] },
+      { kop: `De natte plek binnen`, tekst: [
+        `Maak een foto van dichtbij, en een tweede van een paar meter afstand. Dan zie ik waar in de kamer het zit: bij een raam, een lamp, de schoorsteen of in een hoek. Zet erbij op welke verdieping het is en of het nog druppelt.`,
+      ] },
+      { kop: `Op zolder, boven de natte plek`, tekst: [
+        `Kun je veilig op zolder komen, kijk dan met een zaklamp boven de natte plek. Maak een foto van het hout, de folie of de pannen waar het nat is, of waar je daglicht ziet. Die foto zegt vaak meer dan de vlek op het plafond, want het water komt vaak een eind verderop binnen dan waar je het ziet. Zie ook <a href="/kennisbank/daklekkage-opsporen/">daklekkage opsporen</a>.`,
+      ] },
+      { kop: `Bij een goot: tijdens of vlak na een bui`, tekst: [
+        `Een lekkende goot zie je het best als het regent. Film tien seconden lang de plek waar het water de goot uit komt: over de voorkant, achter de goot langs de muur, bij een naad of bij de regenpijp. Zie <a href="/kennisbank/dakgoot-lekt/">dakgoot lekt</a>.`,
+      ] },
+      { kop: `Bij een plat dak: uit een raam boven`, tekst: [
+        `Maak vanuit een raam op de verdieping erboven een foto van het hele platte dak, met de rand en de afvoer erop. Staat er na een paar droge dagen nog een plas, zet dat erbij. Ga er niet op staan als het nat of glad is. Zie <a href="/kennisbank/water-blijft-staan-op-plat-dak/">water blijft staan op je platte dak</a>.`,
+      ] },
+      { kop: `Zet er een paar woorden bij`, tekst: [
+        `Schrijf in je bericht in welke plaats je woont, sinds wanneer je het ziet, bij wat voor weer het nat wordt (bij elke bui, alleen bij harde wind of alleen bij dooi) en of er onlangs iemand op je dak is geweest. Daarmee kan ik de foto's beter lezen.`,
+      ] },
+      { kop: `Wat ik met je foto's doe`, tekst: [
+        `Ik kijk wat ik zie en zeg eerlijk wat ik denk dat het is. Vaak kan ik dan al zeggen wat het ongeveer wordt, en de vaste prijs hoor je voordat ik begin. Op een foto zie je niet altijd alles. Dan kom ik eerst kijken. Lekt het nu, kijk dan eerst op de <a href="/spoed/">spoedpagina</a> wat je meteen kunt doen.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: daklekkage & spoed`, href: `/diensten/daklekkage/` },
+    faq: [
+      { v: `Ik kan mijn dak vanaf de straat niet goed zien. Wat dan?`, a: `Maak dan de foto's die wel lukken: de natte plek binnen, zolder met een zaklamp en het dak vanuit de tuin of een raam boven. Zet erbij wat voor huis het is, bijvoorbeeld een rijtjeshuis of een huis met een plat dak achter. Dan vraag ik zelf wat ik nog wil zien.` },
+      { v: `Is een filmpje beter dan een foto?`, a: `Bij een goot of een druppel vaak wel, omdat je dan ziet waar het water loopt. Houd het kort, tien tot twintig seconden. Voor een pan, de nok of het lood is een scherpe foto met zoom meestal genoeg.` },
+      { v: `Kun je op een foto al een prijs geven?`, a: `Vaak kan ik dan al zeggen wat het ongeveer wordt. De vaste prijs hoor je voordat ik begin. Zie ik op de foto niet alles, dan kom ik eerst kijken.` },
+    ],
+  },
 ];
 
 // Kort antwoord bovenaan een artikel. Geen bedragen.
 export const KORT_ANTWOORD_5: Record<string, string> = {
   "noodreparatie-dak": `Een noodreparatie zorgt dat er geen water meer binnenkomt, ook als het nog niet netjes kan: een losse pan terugleggen, een open stuk afdekken met folie of een zeil, of een volle goot leegmaken. Een zeil is bedoeld voor dagen tot een paar weken. Lood, kit en dakmortel hebben een droge dag nodig, dus de nette reparatie volgt dan later. Maak foto's voor je verzekeraar en bewaar de rekening.`,
+  "foto-van-je-dak-maken": `De foto's die een dakdekker het meest helpen: je hele dak vanaf de overkant van de straat, met daarna ingezoomd de plek waar je iets ziet; de natte plek binnen van dichtbij en van een afstand; en zolder boven die plek met een zaklamp. Bij een goot helpt een kort filmpje tijdens een bui. Ga voor een foto niet het dak op en zet geen ladder tegen de goot.`,
 };
