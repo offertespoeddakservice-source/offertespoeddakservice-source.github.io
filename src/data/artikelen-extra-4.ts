@@ -4,6 +4,7 @@
  */
 import type { Artikel } from "./artikelen";
 import { inclBtw } from "./prijzen";
+import { ARTIKELEN_EXTRA_5, KORT_ANTWOORD_5 } from "./artikelen-extra-5";
 
 export const ARTIKELEN_EXTRA_4: Artikel[] = [
   {
@@ -713,3 +714,7 @@ export const KORT_ANTWOORD_4: Record<string, string> = {
   "plafond-naar-beneden-door-lekkage": `Is er door een lek een stuk plafond naar beneden gekomen, ga dan de kamer uit, zet de groep van die kamer uit en ga niet onder de rest van het plafond staan. Vang het water op, maak foto's van het gat en de schade voordat je opruimt en meld het bij je verzekeraar. Laat eerst het lek in het dak dichten en alles erboven drogen. Het plafond zelf herstelt een stukadoor of afbouwbedrijf.`,
   "groene-strepen-gevel-onder-dakgoot": `Een groene of donkere streep op je gevel onder de dakgoot betekent dat daar bij regen steeds water langs de muur loopt. Een smalle streep onder een naad of hoek wijst op een lekke goot, een brede baan over een groot stuk op een goot die overloopt, en een streep die tegen de muur begint op water dat achter de goot langs loopt. Laat eerst de oorzaak maken, dan droogt de muur vanzelf op.`,
 };
+
+// Artikelen en korte antwoorden uit artikelen-extra-5.ts (sinds 16-11-2026) erachter, zodat ze via artikelen-extra-3.ts in ARTIKELEN en KORT_ANTWOORD komen.
+ARTIKELEN_EXTRA_4.push(...ARTIKELEN_EXTRA_5.filter((x) => !ARTIKELEN_EXTRA_4.some((a) => a.slug === x.slug)));
+Object.assign(KORT_ANTWOORD_4, KORT_ANTWOORD_5);
