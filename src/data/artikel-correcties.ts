@@ -1,6 +1,7 @@
 // Correcties op bestaande kennisartikelen (11-11-2026).
 // artikelen.ts en artikelen-extra.ts zijn te groot voor de automatische controle, daarom staat een correctie hier.
 // 14-11-2026: knop van drie stormartikelen heet spoed dakreparatie.
+// 16-11-2026: titel voor Google van natte isolatie en dakpannen vastzetten tegen storm.
 // Kennisbank [slug].astro legt hem over het artikel heen: alleen de velden die hier staan, veranderen (ook de titel voor Google).
 import type { Artikel } from "./artikelen";
 
@@ -74,6 +75,7 @@ export const ARTIKEL_CORRECTIES: Record<string, Partial<Pick<Artikel, "secties" 
   "dak-lekt-bij-hevige-regen": { metaDescription: "Lekt je dak alleen bij hevige regen of een stortbui? Meestal kan het water dan niet snel genoeg weg bij de goot, een kilgoot, de afvoer van een plat dak of een dakraam." },
   "bakgoot-lekt": { dienst: { label: "Bekijk: bakgoot repareren", href: "/diensten/bakgoot-repareren/" } },
   "dak-lekt-bij-harde-wind": { dienst: { label: "Bekijk: spoed dakreparatie (pannen, lood en nok)", href: "/diensten/dakreparatie/" } },
-  "dakpannen-vastzetten-tegen-storm": { dienst: { label: "Bekijk: spoed dakreparatie (pannen, lood en nok)", href: "/diensten/dakreparatie/" } },
+  "dakpannen-vastzetten-tegen-storm": { dienst: { label: "Bekijk: spoed dakreparatie (pannen, lood en nok)", href: "/diensten/dakreparatie/" }, metaTitle: "Dakpannen vastzetten met stormhaken? | Spoed Dak Service" },
   "dakpannen-klapperen-bij-wind": { dienst: { label: "Bekijk: spoed dakreparatie", href: "/diensten/dakreparatie/" } },
+  "isolatie-nat-na-lekkage": { metaTitle: "Isolatie nat na daklek: drogen of eruit? | Spoed Dak Service" },
 };
