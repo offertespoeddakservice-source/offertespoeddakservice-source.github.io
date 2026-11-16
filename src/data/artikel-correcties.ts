@@ -6,6 +6,7 @@
 // 16-11-2026 (ronde 3): titel voor Google van water uit lamp of spotje (plek 4,5, maar 3,2% klikt).
 // 16-11-2026 (ronde 3): titel voor Google van lekkage bij de schoorsteen met het zoekwoord vooraan (655 vertoningen, plek 74).
 // 16-11-2026 (ronde 4): titel voor Google van lood-op-dak met schoorsteen en dakraam (plek 5,6, 1 klik uit 78 vertoningen).
+// 16-11-2026 (ronde 5): eigen omschrijving voor Google van lekkage bij een dakdoorvoer (plek 5,9, maar 3,2% klikt).
 // Kennisbank [slug].astro legt hem over het artikel heen: alleen de velden die hier staan, veranderen (ook de titel voor Google).
 import type { Artikel } from "./artikelen";
 
@@ -85,4 +86,5 @@ export const ARTIKEL_CORRECTIES: Record<string, Partial<Pick<Artikel, "secties" 
   "veranda-of-overkapping-lekt": { metaTitle: "Veranda lekt bij de muur, platen of goot? | Spoed Dak Service" },
   "water-uit-lamp-plafond": { metaTitle: "Water uit lamp of spotje? Doe eerst dit | Spoed Dak Service" },
   "lekkage-bij-schoorsteen": { metaTitle: "Lekkage bij schoorsteen: waar zit het? | Spoed Dak Service" },
+  "lekkage-bij-dakdoorvoer": { metaDescription: "Druppelt het langs de ontluchting, de afzuiging of de cv-pijp door je dak? Meestal zit het in de kraag of de doorvoerpan. Zo zie je of het een lek is of condens." },
 };
