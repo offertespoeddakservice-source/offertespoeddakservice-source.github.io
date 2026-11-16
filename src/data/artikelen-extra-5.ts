@@ -238,6 +238,48 @@ export const ARTIKELEN_EXTRA_5: Artikel[] = [
       { v: `Er zit een dikke laag mos op het dak van mijn boerderij. Moet dat eraf?`, a: `Een dikke laag mos houdt water vast, en bij vorst kan een oude pan dan barsten. Op een groot dak spoelt het mos ook naar de lange goot en zet het de uitloop dicht. Daken schoonmaken of ontmossen doe ik zelf niet. Wel maak ik de goten leeg en vervang ik pannen die door mos en vorst gebarsten zijn. Laat je het dak door iemand anders schoonmaken, vraag dan of die met lage druk werkt, want oude pannen zijn kwetsbaar.` },
     ],
   },
+  {
+    slug: `water-spat-over-dakgoot`,
+    datum: `2026-11-16`,
+    titel: `Water spat over je dakgoot heen?`,
+    h1: `Regen spat over je dakgoot heen: waarom het water de goot mist en wat eraan te doen is`,
+    metaTitle: `Water spat over de dakgoot heen? | Spoed Dak Service`,
+    metaDescription: `Klettert het regenwater bij een bui over je goot heen, terwijl die bijna leeg is? Dan mist het water de goot. Zo zie je waarom, en hoe hij weer goed komt te hangen.`,
+    intro: `Het regent hard en je ziet het water als een gordijn voor je dakgoot langs naar beneden vallen, terwijl er in de goot zelf bijna niets staat. Dan loopt de goot niet over, maar schiet het water eroverheen. Dat is iets anders dan een volle of een lekke goot, en het vraagt ook iets anders. Hieronder lees je hoe je het herkent, waar het meestal door komt en wat eraan te doen is.`,
+    secties: [
+      { kop: `Wordt het binnen nat?`, tekst: [
+        `Valt het water alleen buiten op de stoep of het terras, dan is het meestal geen spoed. Wordt de muur binnen nat, bovenin of rond een kozijn, kijk dan op de <a href="/spoed/">spoedpagina</a> wat je meteen doet, en lees <a href="/kennisbank/natte-plek-bovenin-muur/">natte plek bovenin de muur</a>. Ga niet bij regen of wind de ladder op.`,
+      ] },
+      { kop: `Eroverheen, overlopen of erachter?`, tekst: [
+        `Kijk tijdens een flinke bui vanaf de overkant van de straat of vanuit de tuin. Schiet het water vanaf de pannen in een boog over de voorkant van de goot, terwijl er weinig water in de goot staat, dan mist het water de goot. Staat de goot vol en loopt het water over de rand, dan loopt hij over: lees dan <a href="/kennisbank/dakgoot-loopt-over/">dakgoot loopt over</a>. Loopt het water tussen de goot en de muur naar beneden, kijk dan bij <a href="/kennisbank/water-achter-dakgoot/">water achter de dakgoot</a>.`,
+      ] },
+      { kop: `Waarom het water over de goot heen schiet`, tekst: [
+        `Een steil dak. Hoe steiler het dak, hoe harder het water van de pannen af komt. Bij een stortbui krijgt het zoveel vaart dat het over een goot schiet die bij gewone regen prima werkt.`,
+        `Gladde pannen of zonnepanelen. Van geglazuurde pannen en van zonnepanelen loopt het water sneller af dan van oude, ruwe pannen. Gebeurt het pas sinds er panelen op je dak liggen, dan kan dat de reden zijn.`,
+        `De goot hangt te laag of te ver naar achteren. De onderste pannen moeten een stukje boven de goot uitsteken, zodat het water ongeveer in het midden van de goot valt. Is de goot na jaren gezakt, of is hij bij een vervanging lager gehangen, dan komt het water op of over de voorrand terecht.`,
+        `De onderste pannen liggen niet goed. Steken ze te ver uit, of is er bij werk op het dak een pan verschoven, dan valt het water op die plek vlak bij de voorrand of eroverheen.`,
+        `Een smalle goot onder een groot dakvlak. Een smalle goot heeft weinig ruimte om het water op te vangen. Onder een groot of steil dakvlak kan een bredere goot beter werken.`,
+        `Een kil die op de goot uitkomt. Waar een kilgoot op de goot uitkomt, komt het water van twee dakvlakken op één plek samen. Daar schiet het vaak het eerst over de rand. Zie <a href="/kennisbank/kilgoot-lekt/">kilgoot lekt</a>.`,
+      ] },
+      { kop: `Waarom je het niet laat zitten`, tekst: [
+        `Water dat bij elke bui over de goot heen valt, komt steeds op dezelfde plek terecht: op je terras, je kozijnen of tegen de gevel. Daar wordt de muur nat en groen, zie <a href="/kennisbank/groene-strepen-gevel-onder-dakgoot/">groene strepen op de gevel onder de dakgoot</a>. Bij vorst wordt het een gladde plek op de stoep of het terras. En spat het steeds tegen de muur, dan kan het vocht op den duur naar binnen trekken.`,
+      ] },
+      { kop: `Wat je zelf beter niet doet`, tekst: [
+        `Buig de voorkant van de goot niet omhoog, en zet er geen plankje of strook op met kit of tape. Dan blijft er water in de goot staan, of loopt het juist achter de goot langs. Zet ook geen ladder tegen de goot om te kijken, en ga niet bij regen of wind naar boven.`,
+      ] },
+      { kop: `Hoe ik het aanpak`, tekst: [
+        `Stuur me tijdens een bui een kort filmpje van de plek waar het water de goot mist, en een foto van de goot vanaf de straat. Ter plekke kijk ik hoe de onderste pannen liggen, hoe hoog en hoe ver de goot hangt en of de beugels nog goed zitten. Vaak is het genoeg om de goot op die plek een stukje hoger of verder naar voren te hangen, nog steeds op afschot naar de regenpijp, of om een verschoven pan weer goed te leggen.`,
+        `Is de goot te smal voor het dak erboven, of is hij op, dan zeg ik eerlijk dat een andere goot beter is. Komen er zonnepanelen tot vlak boven de goot, dan kijk ik naar de goot en de pannen; aan de panelen zelf werkt je installateur. Je hoort vooraf wat het kost. Zie <a href="/diensten/dakgoot-vervangen/">dakgoot repareren of vervangen</a>.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: dakgoot repareren of vervangen`, href: `/diensten/dakgoot-vervangen/` },
+    faq: [
+      { v: `Het gebeurt alleen bij een stortbui. Is dat erg?`, a: `Bij een echte wolkbreuk kan dat bij veel goten gebeuren, en dan is het niet meteen een probleem. Gebeurt het bij elke flinke bui, steeds op dezelfde plek, of valt het water tegen je gevel of op een plek waar je loopt, dan is het de moeite waard om de goot te laten nakijken. Stuur me een filmpje van een bui, dan zeg ik eerlijk wat ik zie.` },
+      { v: `Het gebeurt sinds er een nieuwe goot hangt. Ligt het aan de goot?`, a: `Vaak ligt het aan hoe hij hangt: een stukje te laag, te ver naar achteren of met de beugels op een andere plek dan bij de oude goot. Meld het eerst bij wie de goot heeft opgehangen en stuur foto's of een filmpje mee. Meer lees je in het artikel over <a href="/kennisbank/lekt-sinds-nieuwe-dakgoot/">lekkage sinds een nieuwe dakgoot</a>.` },
+      { v: `Helpt een bredere goot?`, a: `Soms. Onder een groot of steil dakvlak kan een bredere goot meer water opvangen. Vaak ligt het niet aan de breedte, maar aan hoe de goot hangt of hoe de onderste pannen liggen, en dan is opnieuw ophangen genoeg. Ik kijk eerst wat het bij jouw dak is, en je hoort vooraf wat het kost.` },
+      { v: `Is water dat over de goot spat spoed?`, a: `Meestal niet, zolang het water buiten blijft. Wordt het binnen nat, bovenin de muur of rond een kozijn, of valt het water op een plek waar het bij vorst glad wordt, bel of app me dan met een foto.` },
+    ],
+  },
 ];
 
 // Kort antwoord bovenaan een artikel. Geen bedragen.
@@ -248,4 +290,5 @@ export const KORT_ANTWOORD_5: Record<string, string> = {
   "hagelschade-dak": `Na een hagelbui raakt de schade meestal eerst glas en kunststof: dakramen, lichtkoepels, kunststof platen en oude kunststof goten. Gewone dakpannen in goede staat kunnen een flinke bui meestal hebben, maar oude, poreuze pannen kunnen barsten. Lekt het, vang het water dan op en ga niet het dak op. Maak foto's met de datum van de bui erbij: hagelschade valt vaak onder je opstalverzekering, maar dat verschilt per polis.`,
   "planten-in-dakgoot": `Groeit er gras, mos of een plantje in je dakgoot, dan ligt er een laag van blad, mos en zand die tot natte aarde is geworden. Die laag houdt het water tegen, waardoor de goot bij een bui overloopt, en maakt de goot zwaar, zodat hij kan gaan doorhangen. Trek niet hard aan een plant met wortels en gooi er geen onkruidmiddel in. Laat de hele laag eruit halen, ook bij de uitloop naar de regenpijp.`,
   "boerderij-dak-lekt": `Een boerderijdak lekt meestal bij de lange goot die bij een bui overloopt, bij de kilgoot waar een aanbouw of schuur tegen het hoofddak komt, bij de nok en de schuine hoeken, bij het lood rond de schoorsteen of bij oude pannen. Vaak ligt er geen folie onder de pannen, dus een gebroken of verschoven pan geeft meteen water binnen. Kijk tijdens een bui met een zaklamp op zolder en ga niet zelf het dak op.`,
+  "water-spat-over-dakgoot": `Spat het regenwater bij een bui over je goot heen, terwijl er weinig water in de goot staat, dan mist het water de goot. Meestal hangt de goot te laag of te ver naar achteren, steken de onderste pannen te ver uit, of komt het water van een steil dak, gladde pannen of zonnepanelen zo hard naar beneden dat het over de rand schiet. Vaak is de goot op die plek opnieuw ophangen genoeg.`,
 };
