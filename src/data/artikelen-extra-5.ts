@@ -318,6 +318,41 @@ export const ARTIKELEN_EXTRA_5: Artikel[] = [
       { v: `Het lekt binnen sinds de noodoverloop liep. Hoort dat bij elkaar?`, a: `Dat kan. Stond het water lang hoog op het dak, dan kan het bij een naad, de rand of de aansluiting tegen de muur een weg naar binnen hebben gevonden. Zet een bak onder de druppel, maak foto's van de natte plek en van het dak vanuit een raam boven, en stuur die via WhatsApp. Is het nu nat binnen, kijk dan ook op de spoedpagina wat je meteen kunt doen.` },
     ],
   },
+  {
+    slug: `kraaien-mos-van-dak`,
+    datum: `2026-11-16`,
+    titel: `Trekken kraaien mos van je dak?`,
+    h1: `Kraaien of kauwen trekken mos van je dak: is dat erg, en wat doe je ermee?`,
+    metaTitle: `Kraaien trekken mos van je dak: erg? | Spoed Dak Service`,
+    metaDescription: `Liggen er plukken mos op je stoep, terras of in de goot, en zie je kraaien of kauwen op je dak? Waarom ze dat doen, wat het voor je dak en goot betekent en wat je doet.`,
+    intro: `Je stapt 's ochtends naar buiten en de stoep, de oprit of het terras ligt vol plukken mos. Op het dak zie je kauwen of kraaien die met hun snavel het mos tussen de pannen weg trekken. Dat ziet er rommelig uit, en je vraagt je af of je dak er schade van krijgt. Hieronder lees je waarom ze het doen, wat het voor je dak en je goot betekent en wat je wel en niet doet.`,
+    secties: [
+      { kop: `Waarom ze het doen`, tekst: [
+        `Kauwen en kraaien zoeken in en onder het mos naar insecten, larven en wormpjes. Vooral in de herfst, de winter en het vroege voorjaar, als er op de grond minder te vinden is, draaien ze de mosplukken op je dak om. Wat ze niet nodig hebben, gooien ze weg. Dat rolt van het dak naar beneden of blijft in de goot liggen.`,
+      ] },
+      { kop: `Is het erg voor je dak?`, tekst: [
+        `Voor de pannen zelf meestal niet. De vogels trekken het mos los en laten de pannen in de regel liggen. Het zegt wel iets: op je dak groeit zoveel mos dat er genoeg te halen is. Mos houdt water vast, en op oudere pannen kan dat bij vorst schade geven. Wat je daaraan doet, lees je in <a href="/kennisbank/mos-op-dak-verwijderen/">mos op je dak</a>. Zie je na zo'n ochtend toch een pan die scheef ligt of omhoog staat, kijk dan bij <a href="/kennisbank/dakpan-kapot-of-verschoven/">dakpan kapot of verschoven</a>.`,
+      ] },
+      { kop: `Het grootste risico: je goot`, tekst: [
+        `De plukken mos die niet naar beneden vallen, blijven in de goot liggen. Daar worden ze samen met blad een natte prop, vaak precies bij de uitloop naar de regenpijp. Bij de volgende flinke bui kan het water dan niet weg en loopt de goot over, of loopt het water achter de goot langs de muur. Zie <a href="/kennisbank/dakgoot-loopt-over/">dakgoot loopt over</a> en <a href="/kennisbank/verstopte-regenpijp-lekkende-dakgoot/">verstopte regenpijp</a>. Op een plat dak spoelt het mos naar de afvoer, zie <a href="/kennisbank/plat-dak-lekt-bij-afvoer/">plat dak lekt bij de afvoer</a>.`,
+      ] },
+      { kop: `Wat je beter niet doet`, tekst: [
+        `Ga niet zelf het dak op om het mos weg te halen of de vogels weg te jagen, en zet geen ladder tegen de goot om erin te kijken. Doe niets om de vogels kwaad te doen: wilde vogels zijn in Nederland beschermd. En spuit het dak niet met een hogedrukreiniger schoon, want dat beschadigt de pannen.`,
+      ] },
+      { kop: `Wat je wel kunt doen`, tekst: [
+        `Veeg de plukken van je stoep en terras en gooi ze bij het gft. Kijk vanaf de straat of de goot vol ligt. Zie je mos of gras boven de rand uitsteken, of loopt het water bij een bui over de rand, laat hem dan leegmaken. Liggen er veel plukken in je tuin, dan zit er vaak ook veel in de goot. Hoe vaak je goot leeg moet, lees je in <a href="/kennisbank/hoe-vaak-dakgoot-reinigen/">hoe vaak dakgoot reinigen</a>.`,
+      ] },
+      { kop: `Hoe ik het aanpak`, tekst: [
+        `Ik maak de goot van begin tot eind leeg, ook de uitloop naar de regenpijp, en de troep neem ik mee. Terwijl ik boven ben, kijk ik of er pannen scheef liggen of gebarsten zijn, en of de nok nog vast ligt. Zie ik iets, dan hoor je dat, en wat het kost voordat ik iets doe. Daken ontmossen doe ik zelf niet. Stuur me een foto van je dak en je goot vanaf de straat via WhatsApp. Zie <a href="/diensten/goten-reinigen/">dakgoot schoonmaken</a>.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: dakgoot schoonmaken`, href: `/diensten/goten-reinigen/` },
+    faq: [
+      { v: `Komen de kraaien terug?`, a: `Zolang er mos op je dak groeit, vaak wel, want daar vinden ze hun eten. Het gebeurt vooral in de herfst, de winter en het vroege voorjaar. Is het mos weg, dan valt er voor ze weinig meer te halen.` },
+      { v: `Kunnen kraaien mijn dakpannen kapotmaken?`, a: `In de regel niet. Ze trekken het mos los en laten de pannen liggen. Zie je na zo'n ochtend toch een pan die scheef ligt of een stuk pan op de stoep, stuur me dan een foto van je dak vanaf de straat. Dan kijk ik of er iets gemaakt moet worden.` },
+      { v: `Helpt vogelwering tegen kraaien op mijn dak?`, a: `Vogelwering onder de onderste rij pannen houdt vogels tegen die onder je pannen willen nestelen, zoals mussen en spreeuwen. Kraaien en kauwen die bovenop het dak in het mos zoeken, houd je daar niet mee weg. Wat wel helpt, is zorgen dat je goot en de uitloop vrij blijven, zodat het mos dat ze losmaken het water niet tegenhoudt.` },
+    ],
+  },
 ];
 
 // Kort antwoord bovenaan een artikel. Geen bedragen.
@@ -330,4 +365,5 @@ export const KORT_ANTWOORD_5: Record<string, string> = {
   "boerderij-dak-lekt": `Een boerderijdak lekt meestal bij de lange goot die bij een bui overloopt, bij de kilgoot waar een aanbouw of schuur tegen het hoofddak komt, bij de nok en de schuine hoeken, bij het lood rond de schoorsteen of bij oude pannen. Vaak ligt er geen folie onder de pannen, dus een gebroken of verschoven pan geeft meteen water binnen. Kijk tijdens een bui met een zaklamp op zolder en ga niet zelf het dak op.`,
   "water-spat-over-dakgoot": `Spat het regenwater bij een bui over je goot heen, terwijl er weinig water in de goot staat, dan mist het water de goot. Meestal hangt de goot te laag of te ver naar achteren, steken de onderste pannen te ver uit, of komt het water van een steil dak, gladde pannen of zonnepanelen zo hard naar beneden dat het over de rand schiet. Vaak is de goot op die plek opnieuw ophangen genoeg.`,
   "noodoverloop-plat-dak": `Komt er bij regen water uit de noodoverloop, het buisje in de rand van je platte dak, dan staat het water op je dak hoger dan zou moeten. Meestal zit de gewone afvoer dicht met blad, mos of grind, of is de regenpijp verstopt. Bij een echte wolkbreuk kan een korte straal normaal zijn. Laat de afvoer vrijmaken en maak de noodoverloop nooit dicht.`,
+  "kraaien-mos-van-dak": `Kraaien en kauwen trekken mos van je dak omdat ze eronder naar insecten en larven zoeken, vooral in de herfst, de winter en het vroege voorjaar. Voor de pannen zelf is dat meestal niet erg. Het losse mos komt wel in je goot en bij de uitloop naar de regenpijp terecht, en dan kan de goot bij een flinke bui overlopen. Laat de goot leegmaken en ga niet zelf het dak op.`,
 };
