@@ -2,6 +2,7 @@
 // artikelen.ts en artikelen-extra.ts zijn te groot voor de automatische controle, daarom staat een correctie hier.
 // 14-11-2026: knop van drie stormartikelen heet spoed dakreparatie.
 // 16-11-2026: titel voor Google van natte isolatie en dakpannen vastzetten tegen storm.
+// 16-11-2026 (ronde 2): titel voor Google van veranda of overkapping lekt, met alle drie de plekken uit het artikel (muur, platen, goot).
 // Kennisbank [slug].astro legt hem over het artikel heen: alleen de velden die hier staan, veranderen (ook de titel voor Google).
 import type { Artikel } from "./artikelen";
 
@@ -78,4 +79,5 @@ export const ARTIKEL_CORRECTIES: Record<string, Partial<Pick<Artikel, "secties" 
   "dakpannen-vastzetten-tegen-storm": { dienst: { label: "Bekijk: spoed dakreparatie (pannen, lood en nok)", href: "/diensten/dakreparatie/" }, metaTitle: "Dakpannen vastzetten met stormhaken? | Spoed Dak Service" },
   "dakpannen-klapperen-bij-wind": { dienst: { label: "Bekijk: spoed dakreparatie", href: "/diensten/dakreparatie/" } },
   "isolatie-nat-na-lekkage": { metaTitle: "Isolatie nat na daklek: drogen of eruit? | Spoed Dak Service" },
+  "veranda-of-overkapping-lekt": { metaTitle: "Veranda lekt bij de muur, platen of goot? | Spoed Dak Service" },
 };
