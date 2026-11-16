@@ -535,6 +535,9 @@ export const FAQ_ERBIJ_2: Record<string, Artikel["faq"]> = {
   "welke-dakpan-heb-ik": [
     { v: `Kan ik zelf een losse dakpan kopen die past?`, a: `Dat kan, bij een handel in bouwmaterialen of in dakpannen, en voor oudere pannen soms bij een handel in gebruikte pannen. Neem een foto mee van je dak vanaf de straat en, als het kan, van de achterkant van een pan met de naam of het stempel erop. Koop er liever een of twee extra, voor als er later nog een breekt. Ga de pan niet zelf leggen: op het dak trap je zo een andere pan kapot, en op een nat dak glij je uit. Twijfel je of hij past, stuur me dan eerst die foto's via WhatsApp.` },
   ],
+  "vogels-onder-dakpannen": [
+    { v: `Kraaien pikken mos van mijn dak. Zitten die ook onder mijn pannen?`, a: `Meestal niet. Kraaien en kauwen trekken mos los omdat ze daaronder naar insecten en larven zoeken. Ze zitten bovenop het dak en kruipen niet onder de onderste rij pannen, zoals mussen en spreeuwen doen. Vogelwering onder de pannen houdt ze dus niet tegen. Wel komt het losse mos in je goot terecht, en bij de uitloop naar de regenpijp kan het de goot laten overlopen. Ligt er veel mos op de stoep of in de goot, laat de goot dan leegmaken en kijk vanaf de straat of er geen pan is gaan schuiven. Meer lees je in het artikel over kraaien die mos van je dak trekken.` },
+  ],
 };
 
 // Artikelen en korte antwoorden uit artikelen-extra-3.ts (sinds 12-11-2026) erachter, zodat ze via artikelen-extra.ts in ARTIKELEN en KORT_ANTWOORD komen.
