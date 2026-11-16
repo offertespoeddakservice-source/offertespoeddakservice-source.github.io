@@ -280,6 +280,44 @@ export const ARTIKELEN_EXTRA_5: Artikel[] = [
       { v: `Is water dat over de goot spat spoed?`, a: `Meestal niet, zolang het water buiten blijft. Wordt het binnen nat, bovenin de muur of rond een kozijn, of valt het water op een plek waar het bij vorst glad wordt, bel of app me dan met een foto.` },
     ],
   },
+  {
+    slug: `noodoverloop-plat-dak`,
+    datum: `2026-11-16`,
+    titel: `Water uit de noodoverloop van je platte dak?`,
+    h1: `Er komt water uit de noodoverloop van je platte dak: wat dat betekent en wat je doet`,
+    metaTitle: `Water uit noodoverloop plat dak: wat nu? | Spoed Dak Service`,
+    metaDescription: `Spuit er bij regen water uit het buisje in de rand van je platte dak? Dan kan de gewone afvoer het niet aan of zit hij dicht. Zo zie je wat er speelt en wat je doet.`,
+    intro: `Op veel platte daken zit in de rand, net iets hoger dan de gewone afvoer, een kort buisje of kokertje naar buiten: de noodoverloop, ook wel spuwer genoemd. Meestal komt daar nooit iets uit. Zie je bij regen ineens een straal water uit dat buisje komen, dan is dat een teken. Hieronder lees je wat het betekent, wat je zelf kunt nakijken en wanneer je beter even belt.`,
+    secties: [
+      { kop: `Lekt het binnen?`, tekst: [
+        `Zet een emmer of bak onder de druppel, haal spullen weg en zet de groep in de meterkast uit als het bij een lamp of stopcontact nat wordt. Ga niet zelf het dak op. Wat je verder meteen kunt doen, staat op de <a href="/spoed/">spoedpagina</a>.`,
+      ] },
+      { kop: `Wat is een noodoverloop?`, tekst: [
+        `Een plat dak watert af via een afvoer: een opening in het dak of in de rand, met daaronder een regenpijp. Raakt die afvoer verstopt, of valt er meer regen dan hij aankan, dan stijgt het water op het dak. De noodoverloop ligt net iets hoger dan de afvoer. Komt het water zo hoog, dan loopt het daar naar buiten, en niet over de rand of onder een deur door naar binnen. Het is dus een uitweg voor als het misgaat, geen gewone afvoer.`,
+      ] },
+      { kop: `Wat het betekent als er water uitkomt`, tekst: [
+        `Een korte straal bij een echte wolkbreuk kan normaal zijn: dan kon de afvoer het water even niet bijhouden. Komt er bij een gewone bui water uit, of blijft het lang lopen, dan staat het water op je dak hoger dan zou moeten. Meestal zit de gewone afvoer dan dicht met blad, takjes, mos of grind, of zit de regenpijp eronder verstopt. Hoe dat werkt, lees je in <a href="/kennisbank/plat-dak-lekt-bij-afvoer/">plat dak lekt bij de afvoer</a>.`,
+      ] },
+      { kop: `Waarom je het niet laat zitten`, tekst: [
+        `Water dat lang op een plat dak staat, drukt tegen de naden, de rand en de aansluiting tegen de muur. Daar vindt het eerder een kier dan op een dak dat droog valt. Bij een dakterras of een deur naar het platte dak kan het water bij een volle afvoer ook onder de dorpel door naar binnen lopen. En in de winter bevriest een plas die blijft staan. Zie <a href="/kennisbank/water-blijft-staan-op-plat-dak/">water blijft staan op je platte dak</a> en <a href="/kennisbank/dakterras-lekt/">dakterras lekt</a>.`,
+      ] },
+      { kop: `Zo kijk je het veilig na`, tekst: [
+        `Kijk na de bui vanuit een raam boven naar het platte dak. Staat er nog water bij de afvoer, ligt er blad of grind voor de opening, of staat er een plas over een groot stuk van het dak? Kijk beneden of er water uit de regenpijp komt. Komt er weinig uit terwijl de noodoverloop loopt, dan zit het in de afvoer of de pijp. Ga niet zelf het dak op als het nat, glad of donker is, en niet op een dak waarvan je niet weet of het je houdt. Maak een foto en stuur die via WhatsApp. Welke foto's het meest helpen, lees je in <a href="/kennisbank/foto-van-je-dak-maken/">foto's van je dak maken</a>.`,
+      ] },
+      { kop: `Heeft je dak geen noodoverloop?`, tekst: [
+        `Veel oudere platte daken op een aanbouw, garage of berging hebben er geen. Raakt de enige afvoer dan dicht, dan kan het water nergens anders heen en zoekt het een weg over de rand of naar binnen. Juist dan is het slim om de afvoer in de herfst leeg te laten maken, als het blad gevallen is. Of er een noodoverloop bij kan, hangt af van je dak en de rand. Vraag het gerust als ik er ben, dan hoor je eerlijk wat er kan.`,
+      ] },
+      { kop: `Hoe ik het aanpak`, tekst: [
+        `Ik maak de afvoer en de uitloop naar de regenpijp vrij en haal het blad, mos en losse grind rond de afvoer weg. Daarna kijk ik of het water weer goed wegloopt, en of de dakbedekking rond de afvoer en de noodoverloop nog dicht is. Zie ik daar een scheur of een naad die loslaat, dan hoor je dat, en wat het kost voordat er iets gebeurt. Zie <a href="/diensten/platte-daken/">platte daken</a>.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: platte daken`, href: `/diensten/platte-daken/` },
+    faq: [
+      { v: `Er komt bij elke bui een beetje water uit de noodoverloop. Is dat erg?`, a: `Bij elke bui is niet de bedoeling. Dan staat het water op je dak bij elke bui hoger dan de afvoer, en dat wijst meestal op een afvoer die half dicht zit of een regenpijp die verstopt is. Laat de afvoer leegmaken voordat het gaat vriezen. Stuur me een foto van het dak vanuit een raam boven en van de regenpijp, dan zeg ik eerlijk wat ik zie.` },
+      { v: `Kan ik de noodoverloop dichtmaken? Het water spat tegen mijn gevel.`, a: `Nee, maak hem niet dicht. Hij zit er juist om te voorkomen dat het water bij een volle afvoer over de rand of naar binnen loopt. Het probleem zit bij de afvoer, niet bij de overloop. Zorg dat de gewone afvoer vrij is, dan komt er uit de overloop weer bijna nooit iets.` },
+      { v: `Het lekt binnen sinds de noodoverloop liep. Hoort dat bij elkaar?`, a: `Dat kan. Stond het water lang hoog op het dak, dan kan het bij een naad, de rand of de aansluiting tegen de muur een weg naar binnen hebben gevonden. Zet een bak onder de druppel, maak foto's van de natte plek en van het dak vanuit een raam boven, en stuur die via WhatsApp. Is het nu nat binnen, kijk dan ook op de spoedpagina wat je meteen kunt doen.` },
+    ],
+  },
 ];
 
 // Kort antwoord bovenaan een artikel. Geen bedragen.
@@ -291,4 +329,5 @@ export const KORT_ANTWOORD_5: Record<string, string> = {
   "planten-in-dakgoot": `Groeit er gras, mos of een plantje in je dakgoot, dan ligt er een laag van blad, mos en zand die tot natte aarde is geworden. Die laag houdt het water tegen, waardoor de goot bij een bui overloopt, en maakt de goot zwaar, zodat hij kan gaan doorhangen. Trek niet hard aan een plant met wortels en gooi er geen onkruidmiddel in. Laat de hele laag eruit halen, ook bij de uitloop naar de regenpijp.`,
   "boerderij-dak-lekt": `Een boerderijdak lekt meestal bij de lange goot die bij een bui overloopt, bij de kilgoot waar een aanbouw of schuur tegen het hoofddak komt, bij de nok en de schuine hoeken, bij het lood rond de schoorsteen of bij oude pannen. Vaak ligt er geen folie onder de pannen, dus een gebroken of verschoven pan geeft meteen water binnen. Kijk tijdens een bui met een zaklamp op zolder en ga niet zelf het dak op.`,
   "water-spat-over-dakgoot": `Spat het regenwater bij een bui over je goot heen, terwijl er weinig water in de goot staat, dan mist het water de goot. Meestal hangt de goot te laag of te ver naar achteren, steken de onderste pannen te ver uit, of komt het water van een steil dak, gladde pannen of zonnepanelen zo hard naar beneden dat het over de rand schiet. Vaak is de goot op die plek opnieuw ophangen genoeg.`,
+  "noodoverloop-plat-dak": `Komt er bij regen water uit de noodoverloop, het buisje in de rand van je platte dak, dan staat het water op je dak hoger dan zou moeten. Meestal zit de gewone afvoer dicht met blad, mos of grind, of is de regenpijp verstopt. Bij een echte wolkbreuk kan een korte straal normaal zijn. Laat de afvoer vrijmaken en maak de noodoverloop nooit dicht.`,
 };
