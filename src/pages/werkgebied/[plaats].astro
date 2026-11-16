@@ -46,12 +46,18 @@ const heeftLamp = ARTIKELEN.some((a) => a.slug === "water-uit-lamp-plafond" && !
 const heeftStopcontact = ARTIKELEN.some((a) => a.slug === "water-uit-stopcontact-bij-regen" && !a.verborgen);
 const heeftLekdetectie = ARTIKELEN.some((a) => a.slug === "lekdetectie-daklek" && !a.verborgen);
 const heeftKleineKlus = ARTIKELEN.some((a) => a.slug === "dakdekker-kleine-klus" && !a.verborgen);
-// Uitleg per soort huis (14-11-2026): een gewone zin naar het kennisartikel dat past bij de huizen die op deze plaatspagina al genoemd worden. Alleen als het artikel bestaat en zichtbaar is.
+// Uitleg per soort huis (14-11-2026): een gewone zin naar het kennisartikel dat past bij de huizen die op deze plaatspagina al genoemd worden. Alleen als het artikel bestaat en zichtbaar is. 16-11-2026: ook Rosmalen, Den Bosch, Tilburg, Schijndel, Boxtel en Sint-Michielsgestel. De zin verschijnt alleen als het artikel bestaat.
 const WONING_ARTIKEL: Record<string, { slug: string; zin: string; anker: string }> = {
   vlijmen: { slug: "dak-jaren-70-rijtjeshuis", zin: "Woon je in een rijtjeshuis uit de jaren '60 of '70, zoals er in Vliedberg en de andere naoorlogse wijken veel staan? Waar zo'n dak na vijftig jaar meestal lekt, lees je bij", anker: "het dak van een jaren 70-rijtjeshuis" },
   uden: { slug: "dak-jaren-70-rijtjeshuis", zin: "Woon je in een rijtjeshuis uit de jaren '70, zoals in Bitswijk of Hoenderbos? Waar zo'n dak na zoveel jaren meestal lekt, lees je bij", anker: "het dak van een jaren 70-rijtjeshuis" },
   waalwijk: { slug: "dak-jaren-70-rijtjeshuis", zin: "Woon je in een naoorlogs rijtjeshuis met de eerste betonpannen? Waar zo'n dak na zoveel jaren meestal lekt, lees je bij", anker: "het dak van een jaren 70-rijtjeshuis" },
   vught: { slug: "jaren-30-huis-dak-lekt", zin: "Woon je in een villa of een ander huis van voor de oorlog? Waar zo'n oud dak meestal lekt, lees je bij", anker: "het dak van een jaren 30-huis" },
+  rosmalen: { slug: "dak-jaren-70-rijtjeshuis", zin: "Woon je in een rijtjeshuis uit de jaren '60 of '70, zoals in Molenhoek of Sparrenburg? Waar zo'n dak na een halve eeuw het eerst gaat lekken, lees je bij", anker: "het dak van een jaren 70-rijtjeshuis" },
+  "den-bosch": { slug: "jaren-30-huis-dak-lekt", zin: "Woon je in een huis van voor de oorlog, zoals in de Muntel of het Zand? Wat er bij zo'n oud dak meestal als eerste lekt, lees je bij", anker: "het dak van een jaren 30-huis" },
+  tilburg: { slug: "jaren-30-huis-dak-lekt", zin: "Woon je in een oud arbeidershuis in het Goirke, Korvel of de Hasselt? Op welke plekken het dak van zo'n huis van voor de oorlog meestal lekt, lees je bij", anker: "het dak van een jaren 30-huis" },
+  schijndel: { slug: "boerderij-dak-lekt", zin: "Woon je op een boerderij in het buitengebied van Schijndel of Wijbosch, met een schuur ernaast? Waar zo'n groot dak meestal lekt, lees je bij", anker: "het dak van een boerderij" },
+  boxtel: { slug: "boerderij-dak-lekt", zin: "Woon je op een boerderij of in een vrijstaand huis met een groot dak in Liempde of Esch? Waar zo'n dak meestal gaat lekken, lees je bij", anker: "het dak van een boerderij" },
+  "sint-michielsgestel": { slug: "boerderij-dak-lekt", zin: "Woon je op een boerderij in Den Dungen of Gemonde, met veel open land om je huis? Waar zo'n groot pannendak meestal lekt, lees je bij", anker: "het dak van een boerderij" },
 };
 const woning = WONING_ARTIKEL[p.slug];
 const woningArtikel = woning ? ARTIKELEN.find((a) => a.slug === woning.slug && !a.verborgen) : undefined;
