@@ -4,6 +4,7 @@
 // 16-11-2026: titel voor Google van natte isolatie en dakpannen vastzetten tegen storm.
 // 16-11-2026 (ronde 2): titel voor Google van veranda of overkapping lekt, met alle drie de plekken uit het artikel (muur, platen, goot).
 // 16-11-2026 (ronde 3): titel voor Google van water uit lamp of spotje (plek 4,5, maar 3,2% klikt).
+// 16-11-2026 (ronde 3): titel voor Google van lekkage bij de schoorsteen met het zoekwoord vooraan (655 vertoningen, plek 74).
 // Kennisbank [slug].astro legt hem over het artikel heen: alleen de velden die hier staan, veranderen (ook de titel voor Google).
 import type { Artikel } from "./artikelen";
 
@@ -82,4 +83,5 @@ export const ARTIKEL_CORRECTIES: Record<string, Partial<Pick<Artikel, "secties" 
   "isolatie-nat-na-lekkage": { metaTitle: "Isolatie nat na daklek: drogen of eruit? | Spoed Dak Service" },
   "veranda-of-overkapping-lekt": { metaTitle: "Veranda lekt bij de muur, platen of goot? | Spoed Dak Service" },
   "water-uit-lamp-plafond": { metaTitle: "Water uit lamp of spotje? Doe eerst dit | Spoed Dak Service" },
+  "lekkage-bij-schoorsteen": { metaTitle: "Lekkage bij schoorsteen: waar zit het? | Spoed Dak Service" },
 };
