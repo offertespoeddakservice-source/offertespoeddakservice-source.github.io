@@ -540,6 +540,9 @@ export const FAQ_ERBIJ_2: Record<string, Artikel["faq"]> = {
   "vogels-onder-dakpannen": [
     { v: `Kraaien pikken mos van mijn dak. Zitten die ook onder mijn pannen?`, a: `Meestal niet. Kraaien en kauwen trekken mos los omdat ze daaronder naar insecten en larven zoeken. Ze zitten bovenop het dak en kruipen niet onder de onderste rij pannen, zoals mussen en spreeuwen doen. Vogelwering onder de pannen houdt ze dus niet tegen. Wel komt het losse mos in je goot terecht, en bij de uitloop naar de regenpijp kan het de goot laten overlopen. Ligt er veel mos op de stoep of in de goot, laat de goot dan leegmaken en kijk vanaf de straat of er geen pan is gaan schuiven. Meer lees je in het artikel over kraaien die mos van je dak trekken.` },
   ],
+  "dakpan-kapot-of-verschoven": [
+    { v: `Kan ik een verschoven dakpan vanaf zolder zelf terugduwen?`, a: `Meestal niet, en liever ook niet. Ligt er folie of een houten beschot onder de pannen, dan kom je er van binnen niet bij zonder die kapot te maken, en dan lekt het daarna juist meer. Bij een oud dak zonder folie zie je de pannen van binnen wel, maar een pan moet precies in de pannen ernaast en in de pan erboven haken. Van onderen zie je niet of dat lukt, en duw je te hard, dan breekt de pan of schuift de pan erboven mee. Lekt het, zet dan een bak onder de plek. Maak op zolder een foto van de pan en buiten een vanaf de straat, en stuur die via WhatsApp. Dan hoor je vooraf wat rechtleggen of vervangen kost.` },
+  ],
 };
 
 // Artikelen en korte antwoorden uit artikelen-extra-3.ts (sinds 12-11-2026) erachter, zodat ze via artikelen-extra.ts in ARTIKELEN en KORT_ANTWOORD komen.
