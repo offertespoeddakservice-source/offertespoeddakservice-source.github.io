@@ -532,6 +532,9 @@ export const FAQ_ERBIJ_2: Record<string, Artikel["faq"]> = {
   "dakgoot-loopt-over": [
     { v: `Het water schiet over mijn goot heen, terwijl die bijna leeg is. Is dat ook overlopen?`, a: `Nee, dan mist het water de goot. Bij een flinke bui komt het water met zoveel vaart van de pannen dat het over de voorrand schiet. Vaak hangt de goot dan te laag of te ver naar achteren, of steken de onderste pannen te ver uit. Je ziet een gordijn van water voor de goot langs vallen, terwijl er in de goot weinig staat. Leegmaken helpt dan niet: de goot moet op die plek anders hangen. Stuur me tijdens een bui een kort filmpje via WhatsApp, dan zeg ik wat ik zie. Meer lees je in het artikel over water dat over je dakgoot heen spat.` },
   ],
+  "welke-dakpan-heb-ik": [
+    { v: `Kan ik zelf een losse dakpan kopen die past?`, a: `Dat kan, bij een handel in bouwmaterialen of in dakpannen, en voor oudere pannen soms bij een handel in gebruikte pannen. Neem een foto mee van je dak vanaf de straat en, als het kan, van de achterkant van een pan met de naam of het stempel erop. Koop er liever een of twee extra, voor als er later nog een breekt. Ga de pan niet zelf leggen: op het dak trap je zo een andere pan kapot, en op een nat dak glij je uit. Twijfel je of hij past, stuur me dan eerst die foto's via WhatsApp.` },
+  ],
 };
 
 // Artikelen en korte antwoorden uit artikelen-extra-3.ts (sinds 12-11-2026) erachter, zodat ze via artikelen-extra.ts in ARTIKELEN en KORT_ANTWOORD komen.
