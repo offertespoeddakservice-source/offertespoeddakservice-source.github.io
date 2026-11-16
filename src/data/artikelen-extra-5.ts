@@ -195,6 +195,49 @@ export const ARTIKELEN_EXTRA_5: Artikel[] = [
       { v: `Moet mijn goot vervangen worden als er planten in groeiden?`, a: `Meestal niet. Vaak is leegmaken genoeg. Hangt de goot door, dan kan hij vaak weer op afschot gehangen worden, en een lekke naad in een zinken goot kan vaak opnieuw gesoldeerd worden. Alleen als de goot op veel plekken lek of doorgeroest is, zeg ik dat vervangen slimmer is.` },
     ],
   },
+  {
+    slug: `boerderij-dak-lekt`,
+    datum: `2026-11-16`,
+    titel: `Lekt het dak van je boerderij?`,
+    h1: `Het dak van je boerderij of woonboerderij lekt: waar het meestal zit en wat je doet`,
+    metaTitle: `Dak van je boerderij lekt: waar zit het? | Spoed Dak Service`,
+    metaDescription: `Een boerderij heeft een groot pannendak, lange goten, een kilgoot bij de schuur en vaak oude pannen zonder folie. Zo zie je waar het lekt en wat je doet.`,
+    intro: `Een boerderij of woonboerderij heeft een ander dak dan een huis in de straat. Het dak is groot en loopt vaak laag door tot vlak boven de grond, het woonhuis en de oude stal zitten soms onder één kap, en er zijn later stukken aangebouwd. Zo'n dak heeft daardoor zijn eigen zwakke plekken. Hieronder lees je welke dat zijn, hoe je ziet waar het lekt en wat je zelf kunt doen.`,
+    secties: [
+      { kop: `Lekt het nu? Eerst dit`, tekst: [
+        `Zet een emmer onder de druppel, haal spullen weg en zet in de meterkast de groep uit als het bij een lamp of stopcontact lekt. Ga niet zelf het dak op, ook niet waar het laag bij de grond komt: oude pannen breken snel als je erop staat, en met mos erop zijn ze glad. Maak een foto van de natte plek. Wat je verder meteen kunt doen, staat op de <a href="/spoed/">spoedpagina</a>.`,
+      ] },
+      { kop: `Oude pannen, vaak zonder folie`, tekst: [
+        `Op veel oude boerderijdaken haken de pannen direct op de latten, zonder folie eronder. Vanaf de hooizolder kijk je zo tegen de onderkant van de pannen aan. Zo'n dak ademt goed, en een streepje licht is daar niet vreemd. Het nadeel: valt er een pan stuk of schuift er een, dan druppelt het meteen op de balken of de vloer eronder. In het deel dat later tot woonruimte is verbouwd, ligt soms wel folie met isolatie, terwijl de oude stal nog het oude dak heeft. Zie <a href="/kennisbank/licht-tussen-dakpannen/">licht tussen je dakpannen</a>.`,
+      ] },
+      { kop: `Waar het meestal lekt`, tekst: [
+        `De lange goot. Van een groot dakvlak komt bij een bui veel water tegelijk in de goot. Ligt er blad of mos in, of is de uitloop naar de regenpijp half dicht, dan loopt hij over en wordt de muur eronder nat. Ook een naad of hoek in een oude zinken goot kan opengaan. Zie <a href="/kennisbank/dakgoot-loopt-over/">dakgoot loopt over</a> en <a href="/kennisbank/zinken-dakgoot-lekt/">zinken dakgoot lekt</a>.`,
+        `De kilgoot bij een aanbouw of schuur. Waar een later gebouwd stuk met zijn dak tegen het hoofddak aankomt, ligt een kilgoot. Daar komt het water van twee dakvlakken samen, en daar blijft ook blad liggen. Oud lood of zink kan er scheuren. Zie <a href="/kennisbank/kilgoot-lekt/">kilgoot lekt</a>.`,
+        `De nok en de schuine hoeken. Veel boerderijen hebben aan de kopse kant een schuin afgeschuind stuk dak, soms een wolfseind genoemd, met hoekkepers langs de schuine randen. De vorsten op de nok en op de hoeken liggen vaak nog in specie, en die laat na veel jaren los. In het open land heeft de wind daar veel grip op. Zie <a href="/kennisbank/nokvorsten-los/">losse nokvorsten</a> en <a href="/kennisbank/hoekkeper-lekt/">lekkage bij de hoekkeper</a>.`,
+        `De schoorsteen. Ook als er niet meer gestookt wordt, staat hij er vaak nog, met lood rond de voet dat al heel lang meegaat. Zie <a href="/kennisbank/lood-op-dak/">lood op je dak</a>.`,
+        `Dakramen in het verbouwde deel. Bij een verbouwing zijn er vaak dakramen in het grote dakvlak gekomen. Boven zo'n raam blijft blad hangen, en het gootstuk eronder kan na jaren lekken. Zie <a href="/kennisbank/dakraam-lekt/">dakraam lekt</a>.`,
+        `Oude pannen. Gebakken pannen van tientallen jaren oud nemen water op, en na een vorstperiode kunnen ze schilferen of barsten. Zie <a href="/kennisbank/poreuze-dakpannen/">poreuze dakpannen</a> en <a href="/kennisbank/vorstschade-dakpannen/">vorstschade aan dakpannen</a>.`,
+      ] },
+      { kop: `De schuur of stal ernaast`, tekst: [
+        `Naast veel boerderijen staat een schuur, stal of loods met een eigen dak en een eigen goot, en die vergeet je snel. Ligt er een pannendak op, lees dan <a href="/kennisbank/pannendak-schuur-lekt/">het pannendak van je schuur lekt</a>. Liggen er golfplaten op, kijk dan bij <a href="/kennisbank/golfplaten-lekken/">golfplaten lekken</a>. Zijn de platen grijs en van voor 1994, laat ze dan eerst onderzoeken op asbest, want daar boor of zaag ik niet in.`,
+      ] },
+      { kop: `Zo vind je het`, tekst: [
+        `Ga tijdens of vlak na een bui met een zaklamp naar de zolder of de hooizolder boven de natte plek. Zonder folie zie je het natte hout meestal recht onder het lek. Ligt er wel folie, dan loopt het water eerst een stuk naar beneden voordat je het ziet. Maak daarna vanaf het erf of de weg foto's van beide kanten van het dak en van de kopse kant, met de zoom van je telefoon. Een pan die scheef ligt, een gat in de nok of blad in de kilgoot zie je vaak al van beneden. Zie ook <a href="/kennisbank/foto-van-je-dak-maken/">foto's van je dak maken</a>.`,
+      ] },
+      { kop: `Repareren of een dakvlak vernieuwen?`, tekst: [
+        `Lekt het op één plek, dan is repareren meestal genoeg: een pan vervangen, de nok weer vastzetten, lood herstellen of een naad in de goot solderen. Breken er elk jaar op meer plekken pannen, dan kan het slimmer zijn om een dakvlak in één keer te vernieuwen. Als je dat wilt, kan er dan ook nieuwe folie en kunnen er nieuwe panlatten onder. Staat je boerderij op de monumentenlijst, lees dan ook <a href="/kennisbank/dak-monument-repareren/">je dak repareren in een monument</a>. Wanneer vernieuwen slimmer wordt, staat in <a href="/kennisbank/hoe-lang-gaat-een-dak-mee/">hoe lang gaat een pannendak mee</a>.`,
+      ] },
+      { kop: `Hoe ik het aanpak`, tekst: [
+        `Ik kijk eerst binnen waar het water binnenkomt en daarna buiten op het dak. Bij een groot of hoog dak spreken we vooraf af hoe ik er veilig bij kan. Voor een gebroken pan zoek ik een pan die bij de rest past, zie <a href="/kennisbank/welke-dakpan-heb-ik/">welke dakpan heb ik</a>. Los lood zet ik weer vast of vervang ik, meestal met loodvervanger en met echt lood als je dat liever hebt. Een lekkende naad in een zinken goot soldeer ik. Je hoort vooraf wat het kost. Zie ook <a href="/diensten/daklekkage/">daklekkage opsporen en repareren</a>.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: daklekkage opsporen en repareren`, href: `/diensten/daklekkage/` },
+    faq: [
+      { v: `Mijn boerderij ligt ver buiten het dorp. Kom je daar ook?`, a: `Ja. Zet in je bericht in welke plaats je woont, en stuur een foto van de natte plek en van het dak vanaf het erf of de weg. Dan weet ik wat ik mee moet nemen, en hoor je eerlijk wanneer ik kan komen.` },
+      { v: `Ik wil de oude stal verbouwen tot woonruimte. Waar let ik op bij het dak?`, a: `Zorg dat het dak eerst dicht is, voordat er isolatie of een plafond onder komt. Anders zie je een lek pas als het water al door de isolatie is gelopen. Laat het dak vooraf nakijken, bijvoorbeeld met de Dak-APK, en laat gebroken pannen, los lood en de goten eerst herstellen. Isoleren doe ik zelf niet, dat doet een isolatiebedrijf. Wil je bij die verbouwing ook nieuwe folie en panlatten onder de pannen, dan kan dat als het dakvlak toch open gaat.` },
+      { v: `Er zit een dikke laag mos op het dak van mijn boerderij. Moet dat eraf?`, a: `Een dikke laag mos houdt water vast, en bij vorst kan een oude pan dan barsten. Op een groot dak spoelt het mos ook naar de lange goot en zet het de uitloop dicht. Daken schoonmaken of ontmossen doe ik zelf niet. Wel maak ik de goten leeg en vervang ik pannen die door mos en vorst gebarsten zijn. Laat je het dak door iemand anders schoonmaken, vraag dan of die met lage druk werkt, want oude pannen zijn kwetsbaar.` },
+    ],
+  },
 ];
 
 // Kort antwoord bovenaan een artikel. Geen bedragen.
@@ -204,4 +247,5 @@ export const KORT_ANTWOORD_5: Record<string, string> = {
   "dak-repareren-via-buren": `Kan een dakdekker alleen via de tuin, het pad of het platte dak van de buren bij je goot of dak, vraag het je buren dan een paar dagen van tevoren. Weigeren ze, dan is er het ladderrecht (artikel 5:56 Burgerlijk Wetboek): kan het werk anders niet, of alleen heel lastig, dan moeten ze het toestaan, en schade bij hen moet worden vergoed. Kom je er samen niet uit, vraag dan advies bij het Juridisch Loket.`,
   "hagelschade-dak": `Na een hagelbui raakt de schade meestal eerst glas en kunststof: dakramen, lichtkoepels, kunststof platen en oude kunststof goten. Gewone dakpannen in goede staat kunnen een flinke bui meestal hebben, maar oude, poreuze pannen kunnen barsten. Lekt het, vang het water dan op en ga niet het dak op. Maak foto's met de datum van de bui erbij: hagelschade valt vaak onder je opstalverzekering, maar dat verschilt per polis.`,
   "planten-in-dakgoot": `Groeit er gras, mos of een plantje in je dakgoot, dan ligt er een laag van blad, mos en zand die tot natte aarde is geworden. Die laag houdt het water tegen, waardoor de goot bij een bui overloopt, en maakt de goot zwaar, zodat hij kan gaan doorhangen. Trek niet hard aan een plant met wortels en gooi er geen onkruidmiddel in. Laat de hele laag eruit halen, ook bij de uitloop naar de regenpijp.`,
+  "boerderij-dak-lekt": `Een boerderijdak lekt meestal bij de lange goot die bij een bui overloopt, bij de kilgoot waar een aanbouw of schuur tegen het hoofddak komt, bij de nok en de schuine hoeken, bij het lood rond de schoorsteen of bij oude pannen. Vaak ligt er geen folie onder de pannen, dus een gebroken of verschoven pan geeft meteen water binnen. Kijk tijdens een bui met een zaklamp op zolder en ga niet zelf het dak op.`,
 };
