@@ -394,6 +394,48 @@ export const ARTIKELEN_EXTRA_5: Artikel[] = [
       { v: `De verf van mijn mastgoot bladdert. Lekt hij dan?`, a: `Niet altijd, maar het is wel een reden om te laten kijken. Bladdert de verf vooral onder een naad, een hoek of bij de uitloop, of is het hout daar donker, dan loopt er vaak water achter het zink. Laat de goot eerst nakijken en zo nodig herstellen, en laat daarna de schilder komen. Anders bladdert de nieuwe verf er zo weer af.` },
     ],
   },
+  {
+    slug: `dakgoot-lekt-in-de-hoek`,
+    datum: `2026-11-17`,
+    titel: `Dakgoot lekt in de hoek?`,
+    h1: `Dakgoot lekt in de hoek: waarom juist daar, en wat eraan te doen is`,
+    metaTitle: `Dakgoot lekt in de hoek: wat nu? | Spoed Dak Service`,
+    metaDescription: `Druppelt je dakgoot op de hoek van het huis, of is het binnen nat in de hoek van de kamer? Waarom een goot juist in de hoek lekt en hoe hij weer dicht komt.`,
+    intro: `Een dakgoot lekt vaak niet in het midden, maar precies op de hoek van het huis. Daar komen twee stukken goot samen, en bij een binnenhoek komt daar ook het water van twee dakvlakken tegelijk naar beneden. Je ziet het aan een druppel die na een bui op de hoek blijft vallen, aan een donkere streep op de hoek van de gevel of aan een natte plek binnen, in de hoek van de kamer vlak onder het plafond. Hieronder lees je waarom een goot juist daar lekt, wat je zelf doet en hoe ik hem weer dichtmaak.`,
+    secties: [
+      { kop: `Is het binnen nat?`, tekst: [
+        `Wordt het binnen nat, in de hoek van de kamer of op het plafond langs de buitenmuur, zet dan een bak of handdoek neer en schuif kasten een stukje van de muur. Zit de natte plek bij een lamp of stopcontact, zet dan in de meterkast de groep van die kamer uit. Ga niet zelf met een ladder bij de goot staan, zeker niet als het nat is of waait. Wat je verder meteen kunt doen, staat op de <a href="/spoed/">spoedpagina</a>.`,
+      ] },
+      { kop: `Buitenhoek of binnenhoek`, tekst: [
+        `Een buitenhoek zit op de hoek van je huis, waar de goot aan de voorkant overgaat in de goot langs de zijkant. Dat zie je vaak bij een hoekhuis, een vrijstaand huis of een twee-onder-een-kap.`,
+        `Een binnenhoek zit waar twee daken in een hoek tegen elkaar komen, bijvoorbeeld bij een huis in L-vorm of waar een aanbouw met een eigen dak tegen het huis staat. Daar komt het water van twee dakvlakken op één punt in de goot samen. Ligt er daarboven een kil, dan valt daar bij een bui nog meer water. Zie ook <a href="/kennisbank/kilgoot-lekt/">kilgoot lekt</a>.`,
+      ] },
+      { kop: `Waarom juist de hoek lekt`, tekst: [
+        `Bij een zinken goot is de hoek gemaakt van twee stukken zink die aan elkaar zijn gesoldeerd. Zink zet uit als het warm wordt en krimpt als het koud is, en in een hoek trekt het daarbij in twee richtingen aan dezelfde naad. Na veel jaren laat zo'n soldeernaad los of komt er een haarscheurtje naast. Hoe je een lekkende zinken goot verder herkent, lees je in <a href="/kennisbank/zinken-dakgoot-lekt/">zinken dakgoot lekt</a>.`,
+        `Bij een kunststof goot zit op de hoek een los hoekstuk, waar de twee stukken goot in steken. Dat is gelijmd of heeft een rubber. Na jaren droogt het rubber uit of laat de lijm los, en bij vorst kan een stuk goot een eindje uit het hoekstuk schuiven. Zie ook <a href="/kennisbank/kunststof-dakgoot-lekt/">kunststof dakgoot lekt</a>.`,
+        `De hoek is ook vaak de plek waar een goot het eerst gaat hangen. Mist er vlak bij de hoek een beugel, of is het hout erachter zacht, dan zakt de hoek een stukje. Daar blijft na elke bui water staan, en waar water blijft staan, gaat een naad het eerst lekken. Bij een houten goot op klossen kijk je dus ook naar het hout, zie <a href="/kennisbank/mastgoot-lekt/">mastgoot lekt</a>.`,
+      ] },
+      { kop: `Overloop of echt lek?`, tekst: [
+        `Loopt het water bij een flinke bui over de rand van de hoek, terwijl het na de bui droog is? Dan kan de goot daar het water niet snel genoeg kwijt, vaak omdat er blad ligt of omdat de regenpijp ver van de hoek zit. Druppelt het ook nog een hele tijd na de bui op precies dezelfde plek, of zie je onder de hoek een donkere of groene streep op de gevel, dan is de hoek zelf lek. Kijk tijdens een bui vanaf de straat of uit een raam boven, en maak een foto of een kort filmpje. Lees ook <a href="/kennisbank/dakgoot-loopt-over/">dakgoot loopt over</a>.`,
+      ] },
+      { kop: `Wat je beter niet doet`, tekst: [
+        `Smeer geen kit over een lekke hoek. Op een natte of vuile goot hecht het slecht, het houdt meestal niet lang, en bij een zinken goot moet het er weer helemaal af voordat de hoek gesoldeerd kan worden. Zet ook geen ladder tegen de hoek van de goot: daar is de goot het zwakst, en een kunststof hoekstuk kan breken. Wat je tot de reparatie wel kunt doen, lees je in <a href="/kennisbank/lekkende-dakgoot-tijdelijk-oplossen/">lekkende dakgoot tijdelijk oplossen</a>.`,
+      ] },
+      { kop: `Hoe ik het aanpak`, tekst: [
+        `Ik maak de hoek eerst leeg en droog, en kijk dan wat er lek is. Een zinken hoek met een losse naad soldeer ik opnieuw. Is het zink rond de hoek op meer plekken dun, maar hangt de goot nog goed, dan kan ik hem van binnen coaten. Is het zink op, dan vervang ik de hoek of dat stuk goot. Bij een kunststof goot vervang ik het hoekstuk of het rubber. Hangt de hoek te laag, dan zet ik hem eerst weer op afschot, met een extra beugel als dat nodig is. Solderen en coaten kan alleen op een droge goot, dus bij regen of vorst wacht ik op een droge dag. Zie <a href="/diensten/dakgoot-solderen/">dakgoot solderen</a> en <a href="/diensten/dakgoot-vervangen/">dakgoot repareren of vervangen</a>.`,
+      ] },
+      { kop: `Wat kost het?`, tekst: [
+        `Dat hangt af van wat er lek is: een naad solderen, een hoekstuk vervangen of een stuk goot vernieuwen. Stuur een foto van de hoek vanaf de straat en, als het binnen nat is, ook van de natte plek. Dan hoor je vooraf wat het kost.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: dakgoot solderen`, href: `/diensten/dakgoot-solderen/` },
+    faq: [
+      { v: `Waarom lekt mijn dakgoot alleen op de hoek?`, a: `Omdat daar twee stukken goot aan elkaar zitten. Bij zink is dat een soldeernaad, bij kunststof een hoekstuk met lijm of een rubber. Die verbinding krijgt het meest te verduren van warmte, kou en vorst, en een hoek zakt ook vaak als eerste een stukje. Vaak hoeft alleen de hoek gemaakt te worden en kan de rest van de goot blijven.` },
+      { v: `Het is nat in de hoek van mijn slaapkamer, vlak onder het plafond. Kan dat van de goot komen?`, a: `Ja, zeker als er buiten op die hoek van het huis een hoek van de goot zit. Lekt die, dan loopt het water langs de muur naar binnen en zie je het binnen precies in de hoek. Het kan ook van de onderste pannen of de dakrand komen. Kijk tijdens een bui buiten naar die hoek, en stuur me een foto van binnen en van buiten. Meer lees je in het artikel over een natte plek bovenin de muur.` },
+      { v: `Moet de hele goot eruit als de hoek lekt?`, a: `Meestal niet. Is de rest van de goot nog stevig, dan soldeer ik de hoek opnieuw of vervang ik alleen het hoekstuk. Lekt de goot ook op andere plekken of is het zink overal dun, dan zeg ik eerlijk dat een nieuwe goot slimmer is. Je hoort vooraf wat het kost.` },
+      { v: `Is een lekkende hoek van de goot spoed?`, a: `Meestal niet, zolang het buiten druppelt. Laat het wel maken voor de winter, want water dat in de hoek blijft staan, bevriest en drukt de naad verder open. Komt het water binnen of hangt de hoek los boven de stoep, dan wel: zet een bak neer en bel of app me met een foto.` },
+    ],
+  },
 ];
 
 // Kort antwoord bovenaan een artikel. Geen bedragen.
@@ -408,4 +450,5 @@ export const KORT_ANTWOORD_5: Record<string, string> = {
   "noodoverloop-plat-dak": `Komt er bij regen water uit de noodoverloop, het buisje in de rand van je platte dak, dan staat het water op je dak hoger dan zou moeten. Meestal zit de gewone afvoer dicht met blad, mos of grind, of is de regenpijp verstopt. Bij een echte wolkbreuk kan een korte straal normaal zijn. Laat de afvoer vrijmaken en maak de noodoverloop nooit dicht.`,
   "kraaien-mos-van-dak": `Kraaien en kauwen trekken mos van je dak omdat ze eronder naar insecten en larven zoeken, vooral in de herfst, de winter en het vroege voorjaar. Voor de pannen zelf is dat meestal niet erg. Het losse mos komt wel in je goot en bij de uitloop naar de regenpijp terecht, en dan kan de goot bij een flinke bui overlopen. Laat de goot leegmaken en ga niet zelf het dak op.`,
   "mastgoot-lekt": `Een mastgoot is een houten goot op klossen voor de gevel, met aan de binnenkant meestal zink. Hij lekt meestal bij een naad of hoek, bij de uitloop naar de regenpijp of op een dunne plek waar jaren blad lag. Vaak is opnieuw solderen genoeg, of kan de binnenkant gecoat worden. Kijk ook naar het hout: bladderende verf of zacht hout onder de goot betekent dat er al langer water achter het zink loopt.`,
+  "dakgoot-lekt-in-de-hoek": `Lekt je dakgoot precies op de hoek, dan zit het meestal in de verbinding van de twee stukken goot: een soldeernaad in een zinken goot, of een hoekstuk met lijm of een rubber in een kunststof goot. Soms is de hoek gezakt, zodat er water blijft staan. Vaak hoeft alleen de hoek gemaakt te worden: opnieuw solderen, een nieuw hoekstuk of de goot weer op afschot.`,
 };
