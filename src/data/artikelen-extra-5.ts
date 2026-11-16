@@ -123,6 +123,44 @@ export const ARTIKELEN_EXTRA_5: Artikel[] = [
       { v: `Moet ik mijn buren zelf vragen, of doe jij dat?`, a: `Vraag het liefst zelf, want het zijn jouw buren. Ik vertel je vooraf waar de ladder komt te staan en hoe lang het ongeveer duurt, zodat je dat kunt doorgeven.` },
     ],
   },
+  {
+    slug: `hagelschade-dak`,
+    datum: `2026-11-16`,
+    titel: `Hagelschade aan je dak: wat nu?`,
+    h1: `Hagelschade aan je dak: waar je na de bui kijkt, wat je meteen doet en hoe het zit met je verzekering`,
+    metaTitle: `Hagelschade aan je dak: wat nu? | Spoed Dak Service`,
+    metaDescription: `Na een hagelbui een lek, een gebarsten pan of een kapotte lichtkoepel? Waar hagel een dak het eerst raakt, wat je meteen doet en wat je verzekeraar wil zien.`,
+    intro: `Na een flinke hagelbui wil je weten of je dak het gehouden heeft. Meestal valt het mee, want gewone dakpannen kunnen veel hebben. Wat hagel wel snel kapotmaakt, is glas en kunststof: een lichtkoepel, een dakraam of de platen van je veranda. Hieronder lees je waar je na de bui naar kijkt, wat je meteen doet als het lekt en hoe het zit met je verzekering.`,
+    secties: [
+      { kop: `Lekt het nu? Eerst dit`, tekst: [
+        `Zet een emmer onder de druppel, haal spullen weg en zet in de meterkast de groep uit als het bij een lamp of stopcontact nat wordt. Ga niet zelf het dak op: na een hagelbui liggen er ijsballetjes en natte blaadjes op de pannen, en dan is een dak spiegelglad. Ga ook niet op een veranda of een lichtkoepel staan om te kijken. Wat je verder meteen kunt doen, staat op de <a href="/spoed/">spoedpagina</a>.`,
+      ] },
+      { kop: `Waar hagel een dak het eerst raakt`, tekst: [
+        `Gewone dakpannen kunnen meestal flink wat hagel hebben. Bij een heel zware bui, of bij oude pannen die al water opnemen, kan er wel een pan barsten of gaat er een hoekje af. Zie <a href="/kennisbank/poreuze-dakpannen/">poreuze dakpannen</a>.`,
+        `Kwetsbaarder is alles van glas of kunststof. Een lichtkoepel van kunststof wordt na jaren zon bros, en dan slaat hagel er een barst of een gat in. Zie <a href="/kennisbank/lichtkoepel-lekt/">lichtkoepel lekt</a>. Ook een dakraam, een glazen dakpan en de platen van een veranda of overkapping raken sneller beschadigd. Zie <a href="/kennisbank/dakraam-lekt/">dakraam lekt</a> en <a href="/kennisbank/veranda-of-overkapping-lekt/">veranda of overkapping lekt</a>.`,
+        `Een oude kunststof goot of regenpijp kan na veel jaren ook bros zijn en scheuren. En op een plat dak spoelen de hagelkorrels samen met blad naar de afvoer. Kijk na de bui of die niet dichtzit, anders blijft het water staan. Zie <a href="/kennisbank/plat-dak-lekt-bij-afvoer/">plat dak lekt bij de afvoer</a>.`,
+      ] },
+      { kop: `Na de bui: zo kijk je veilig`, tekst: [
+        `Wacht tot het droog is en kijk vanaf de overkant van de straat en vanuit de tuin naar je dak, met de zoom van je telefoon. Let op pannen met een barst of een stukje eraf, een dakraam of koepel met een ster of een scheur, en scherven of stukjes pan op de stoep, het terras of in de goot. Kijk van binnen tegen het licht in naar een lichtkoepel of dakraam: een haarscheur zie je dan beter.`,
+        `Kijk bij de volgende flinke bui even op zolder, met een zaklamp, of het droog blijft. Een kleine barst lekt soms pas als het weer hard regent of waait. Welke foto's mij het meest helpen, lees je in <a href="/kennisbank/foto-van-je-dak-maken/">foto's van je dak maken</a>.`,
+      ] },
+      { kop: `Hagel in de goot`, tekst: [
+        `Na een zware hagelbui ligt de goot soms ineens vol ijs, met blad en takjes ertussen. Het ijs smelt vanzelf, maar het blad blijft liggen en zet de uitloop naar de regenpijp dicht. Loopt je goot na de bui over of komt er water langs de gevel, lees dan <a href="/kennisbank/dakgoot-loopt-over/">dakgoot loopt over</a> en <a href="/kennisbank/water-achter-dakgoot/">water achter de dakgoot</a>.`,
+      ] },
+      { kop: `Je verzekering`, tekst: [
+        `Hagelschade aan je dak valt vaak onder je opstalverzekering, maar dat verschilt per polis, dus kijk in je voorwaarden. Maak foto's van de schade voordat er iets wordt weggehaald, binnen en vanaf de straat, en schrijf de datum en het tijdstip van de bui erbij. Bewaar ook de rekening van een noodreparatie. Ik maak foto's van wat ik aantref en van de reparatie, met een korte omschrijving die je kunt meesturen. Lees ook <a href="/kennisbank/daklekkage-verzekering/">daklekkage en je verzekering</a>.`,
+      ] },
+      { kop: `Hoe ik het aanpak`, tekst: [
+        `Eerst zorg ik dat het binnen droog blijft. Een gebroken lichtkoepel of een open plek dek ik af, en een gebarsten pan vervang ik door een pan die in vorm en kleur bij de rest past. Is het glas van een dakraam gebroken, dan dek ik het af en zeg ik eerlijk wie het glas het beste kan vervangen. Kan het niet meteen netjes, bijvoorbeeld omdat ik eerst een passende pan moet zoeken, dan maak ik het eerst waterdicht en kom ik terug, zie <a href="/kennisbank/noodreparatie-dak/">noodreparatie aan je dak</a>. Je hoort vooraf wat het kost. Zie ook <a href="/diensten/stormschade/">stormschade aan je dak</a>.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: stormschade aan je dak`, href: `/diensten/stormschade/` },
+    faq: [
+      { v: `Kan hagel door gewone dakpannen heen slaan?`, a: `Zelden. Een gebakken of betonnen pan in goede staat kan meestal flink wat hagel hebben. Bij heel grote hagelstenen, of bij oude pannen die al poreus zijn, kan er wel een pan barsten of een hoek afbreken. Glas en kunststof, zoals een lichtkoepel, een dakraam of de platen van een veranda, gaan eerder kapot.` },
+      { v: `Mijn dak lekt pas een paar dagen na de hagelbui. Kan dat nog door de hagel komen?`, a: `Dat kan. Een haarscheur in een pan of een koepel laat vaak pas water door bij de volgende flinke bui, zeker als het waait. Schrijf de datum van de hagelbui op en meld het ook dan bij je verzekeraar. Stuur me een foto van de natte plek en van je dak vanaf de straat, dan kijk ik waar het binnenkomt.` },
+      { v: `Moet ik na hagel mijn zonnepanelen laten nakijken?`, a: `Aan de panelen zelf werk ik niet, dat doet je installateur. Zie je een barst in een paneel, laat hem dan kijken. Lekt het sinds de bui op zolder, of is er een pan naast de panelen gebroken, dan kijk ik daarnaar. Ligt die pan onder een paneel, dan moet het paneel eerst los, en dat doet je installateur.` },
+    ],
+  },
 ];
 
 // Kort antwoord bovenaan een artikel. Geen bedragen.
@@ -130,4 +168,5 @@ export const KORT_ANTWOORD_5: Record<string, string> = {
   "noodreparatie-dak": `Een noodreparatie zorgt dat er geen water meer binnenkomt, ook als het nog niet netjes kan: een losse pan terugleggen, een open stuk afdekken met folie of een zeil, of een volle goot leegmaken. Een zeil is bedoeld voor dagen tot een paar weken. Lood, kit en dakmortel hebben een droge dag nodig, dus de nette reparatie volgt dan later. Maak foto's voor je verzekeraar en bewaar de rekening.`,
   "foto-van-je-dak-maken": `De foto's die een dakdekker het meest helpen: je hele dak vanaf de overkant van de straat, met daarna ingezoomd de plek waar je iets ziet; de natte plek binnen van dichtbij en van een afstand; en zolder boven die plek met een zaklamp. Bij een goot helpt een kort filmpje tijdens een bui. Ga voor een foto niet het dak op en zet geen ladder tegen de goot.`,
   "dak-repareren-via-buren": `Kan een dakdekker alleen via de tuin, het pad of het platte dak van de buren bij je goot of dak, vraag het je buren dan een paar dagen van tevoren. Weigeren ze, dan is er het ladderrecht (artikel 5:56 Burgerlijk Wetboek): kan het werk anders niet, of alleen heel lastig, dan moeten ze het toestaan, en schade bij hen moet worden vergoed. Kom je er samen niet uit, vraag dan advies bij het Juridisch Loket.`,
+  "hagelschade-dak": `Na een hagelbui raakt de schade meestal eerst glas en kunststof: dakramen, lichtkoepels, kunststof platen en oude kunststof goten. Gewone dakpannen in goede staat kunnen een flinke bui meestal hebben, maar oude, poreuze pannen kunnen barsten. Lekt het, vang het water dan op en ga niet het dak op. Maak foto's met de datum van de bui erbij: hagelschade valt vaak onder je opstalverzekering, maar dat verschilt per polis.`,
 };
