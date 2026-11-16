@@ -111,6 +111,10 @@ export const DIENSTEN: Dienst[] = [
         v: "Zie je bij het leegmaken dat mijn goot lekt? Kun je het dan meteen maken?",
         a: "Vaak wel, als het een kleine reparatie is en de goot droog genoeg is. Pas als de goot leeg is, zie ik goed of een naad, een hoek of de uitloop lekt. Een losse verbinding of een hoekstuk van een kunststof goot vervang ik vaak in dezelfde keer, en een lekke naad in een zinken goot kan ik solderen als hij droog is. Dat doe ik niet ongevraagd: je hoort eerst wat ik zie en wat het kost, en dan beslis jij. Van binnen coaten doe ik op een droge dag zonder vorst, dus dat plannen we soms apart. Stuur gerust vooraf een foto van de plek waar het druppelt.",
       },
+      {
+        v: "Er groeit gras of een plantje in mijn goot. Haal je dat ook weg?",
+        a: "Ja. Groeit er gras, mos of een plantje in je goot, dan ligt er een laag van oud blad, mos en zand in die tot natte aarde is geworden. Die haal ik er helemaal uit, met de wortels, ook bij de uitloop naar de regenpijp. Daarna kijk ik of het water weer goed wegloopt en of de goot nog op afschot hangt. Zie ik een lek of een goot die doorhangt, dan hoor je eerst wat het kost om dat te herstellen. Stuur me een foto van de goot vanaf de straat, dan hoor je vooraf wat het kost.",
+      },
     ],
   },
   {
