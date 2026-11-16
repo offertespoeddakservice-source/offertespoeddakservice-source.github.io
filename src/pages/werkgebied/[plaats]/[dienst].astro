@@ -20,8 +20,8 @@ const path = `/werkgebied/${p.slug}/${d.slug}`;
 const titel = `${d.titel} in ${p.naam}`;
 // Kop zoals mensen zoeken ('dakgoot schoonmaken oss'): bij goten reinigen dezelfde woorden als in de titel.
 const kop = d.slug === "goten-reinigen" ? `Dakgoot schoonmaken in ${p.naam}` : titel;
-// Kop (h1) van de lekkagepagina's per plaats in de woorden waarop mensen zoeken ('daklekkage vught'), gelijk aan de titel. Alleen pagina's die ouder zijn dan 14 dagen. De h2 eronder blijft zoals hij was. Sinds 12-11-2026 ook Den Bosch, Uden, Veghel, Eindhoven, Waalwijk en Tilburg, sinds 13-11-2026 ook Helmond en Breda. Wijchen nog niet (gemaakt 01-11, vanaf 15-11).
-const LEK_H1_PLAATSEN = ["oss", "rosmalen", "vught", "berlicum", "vlijmen", "drunen", "boxtel", "schijndel", "heusden", "sint-michielsgestel", "oisterwijk", "den-bosch", "uden", "veghel", "eindhoven", "waalwijk", "tilburg", "helmond", "breda"];
+// Kop (h1) van de lekkagepagina's per plaats in de woorden waarop mensen zoeken ('daklekkage vught'), gelijk aan de titel. Alleen pagina's die ouder zijn dan 14 dagen. De h2 eronder blijft zoals hij was. Sinds 12-11-2026 ook Den Bosch, Uden, Veghel, Eindhoven, Waalwijk en Tilburg, sinds 13-11-2026 ook Helmond en Breda. Sinds 16-11-2026 ook Wijchen (gemaakt 01-11).
+const LEK_H1_PLAATSEN = ["oss", "rosmalen", "vught", "berlicum", "vlijmen", "drunen", "boxtel", "schijndel", "heusden", "sint-michielsgestel", "oisterwijk", "den-bosch", "uden", "veghel", "eindhoven", "waalwijk", "tilburg", "helmond", "breda", "wijchen"];
 // Kop (h1) van de gootpagina's per plaats zoals mensen zoeken ('dakgoot reparatie den bosch'), gelijk aan de titel. Alleen pagina's die ouder zijn dan 14 dagen en waarvan de kop nooit is aangepast (12-11-2026). Sinds 14-11-2026 ook Waalwijk en Uden (gemaakt 31-10).
 const GOOT_H1_PLAATSEN = ["den-bosch", "vught", "veghel", "oisterwijk", "boxtel", "sint-michielsgestel", "oss", "waalwijk", "uden"];
 const h1 = d.slug === "daklekkage" && LEK_H1_PLAATSEN.includes(p.slug)
