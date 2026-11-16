@@ -529,6 +529,9 @@ export const FAQ_ERBIJ_2: Record<string, Artikel["faq"]> = {
   "dakonderhoud-per-seizoen": [
     { v: `Wat kost dakonderhoud per jaar?`, a: `Dat hangt af van je dak, maar bij een gewoon pannendak gaat het meestal om een paar kleine dingen. De goten één keer per jaar laten leegmaken, na de bladval: één goot, bijvoorbeeld alleen de voorgoot, kost ${inclBtw("goot_reinigen")}. Ligt er een pan scheef of zit een nokvorst los, dan valt terugleggen of vastzetten meestal onder een kleine reparatie: ${inclBtw("dakpan")}. Wil je je hele dak laten nakijken, met een rapport en foto's, dan kan dat met de Dak-APK. Stuur een foto van je dak vanaf de straat, dan hoor je vooraf wat het kost.` },
   ],
+  "dakgoot-loopt-over": [
+    { v: `Het water schiet over mijn goot heen, terwijl die bijna leeg is. Is dat ook overlopen?`, a: `Nee, dan mist het water de goot. Bij een flinke bui komt het water met zoveel vaart van de pannen dat het over de voorrand schiet. Vaak hangt de goot dan te laag of te ver naar achteren, of steken de onderste pannen te ver uit. Je ziet een gordijn van water voor de goot langs vallen, terwijl er in de goot weinig staat. Leegmaken helpt dan niet: de goot moet op die plek anders hangen. Stuur me tijdens een bui een kort filmpje via WhatsApp, dan zeg ik wat ik zie. Meer lees je in het artikel over water dat over je dakgoot heen spat.` },
+  ],
 };
 
 // Artikelen en korte antwoorden uit artikelen-extra-3.ts (sinds 12-11-2026) erachter, zodat ze via artikelen-extra.ts in ARTIKELEN en KORT_ANTWOORD komen.
