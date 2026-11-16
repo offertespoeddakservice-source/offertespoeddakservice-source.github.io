@@ -161,6 +161,40 @@ export const ARTIKELEN_EXTRA_5: Artikel[] = [
       { v: `Moet ik na hagel mijn zonnepanelen laten nakijken?`, a: `Aan de panelen zelf werk ik niet, dat doet je installateur. Zie je een barst in een paneel, laat hem dan kijken. Lekt het sinds de bui op zolder, of is er een pan naast de panelen gebroken, dan kijk ik daarnaar. Ligt die pan onder een paneel, dan moet het paneel eerst los, en dat doet je installateur.` },
     ],
   },
+  {
+    slug: `planten-in-dakgoot`,
+    datum: `2026-11-16`,
+    titel: `Gras of plantjes in je dakgoot?`,
+    h1: `Er groeit gras, mos of een plantje in je dakgoot: wat dat zegt en wat je eraan doet`,
+    metaTitle: `Gras of planten in je dakgoot? | Spoed Dak Service`,
+    metaDescription: `Groeit er gras, mos of zelfs een boompje in je dakgoot? Dan ligt er een laag aarde in. Waarom dat kwaad kan, wat je beter niet doet en hoe hij weer leeg komt.`,
+    intro: `Kijk je vanaf de straat omhoog en zie je sprietjes gras, mos of een klein boompje boven de rand van je dakgoot uitsteken? Dan is de goot al een tijd niet leeg geweest. Het ziet er onschuldig uit, maar zo'n begroeide goot kan het water niet meer goed kwijt. Hieronder lees je wat het betekent, waarom je het beter niet laat zitten en hoe je hem weer schoon krijgt.`,
+    secties: [
+      { kop: `Wat het betekent`, tekst: [
+        `Een plant groeit alleen als er iets is om in te wortelen. In een goot is dat een laag van blad, mos, zand dat van de pannen afspoelt en vogelpoep, die na een paar jaar verandert in een soort natte aarde. Zaadjes van gras, onkruid of een berk waaien erin en kiemen. Zie je groen in je goot, dan ligt er dus al een flinke laag, en meestal ook bij de uitloop naar de regenpijp. Zie ook <a href="/kennisbank/zand-in-dakgoot/">zand of korrels in je dakgoot</a>.`,
+      ] },
+      { kop: `Waarom het kwaad kan`, tekst: [
+        `Het water kan niet weg. De laag aarde houdt het tegen, en bij een flinke bui loopt de goot over de rand, of achter de goot langs de muur. Zie <a href="/kennisbank/dakgoot-loopt-over/">dakgoot loopt over</a> en <a href="/kennisbank/water-achter-dakgoot/">water achter de dakgoot</a>.`,
+        `Het wordt zwaar. Natte aarde weegt veel meer dan droog blad. Een goot die jaren zo'n laag draagt, kan tussen de beugels gaan doorhangen, en dan blijft er na elke bui water staan. Zie <a href="/kennisbank/dakgoot-hangt-door/">dakgoot hangt door</a>.`,
+        `De goot blijft nat. Een laag die altijd vochtig is, laat een zinken goot sneller slijten, en wortels groeien graag in een naad of een hoek. Zie <a href="/kennisbank/zinken-dakgoot-lekt/">zinken dakgoot lekt</a>.`,
+      ] },
+      { kop: `Wat je beter niet doet`, tekst: [
+        `Trek vanaf een ladder niet hard aan een plant met flinke wortels. Die kunnen in een naad vastzitten, en met een ruk trek je de goot uit de beugels of de naad open. Gooi er geen onkruidmiddel of zout in: dat spoelt met de regen naar je regenpijp en het riool, en de laag aarde blijft gewoon liggen. Ga ook niet vanaf het dak of uit een dakraam in de goot reiken. Wil je het zelf doen, lees dan eerst <a href="/kennisbank/dakgoot-zelf-schoonmaken/">dakgoot zelf schoonmaken</a>.`,
+      ] },
+      { kop: `Hoe ik het aanpak`, tekst: [
+        `Ik haal de hele laag eruit, met de planten en de wortels, ook bij de uitloop naar de regenpijp, en de troep neem ik mee. Daarna kijk ik of het water weer goed wegloopt, of de goot nog op afschot hangt en of de naden en hoeken nog dicht zijn. Zie ik een lek of een goot die doorhangt, dan zeg ik dat eerlijk, en hoor je eerst wat het kost om het te herstellen, voordat ik iets doe. Wat leegmaken kost, lees je in <a href="/kennisbank/wat-kost-dakgoot-schoonmaken/">wat kost dakgoot schoonmaken</a>.`,
+      ] },
+      { kop: `Zo voorkom je het`, tekst: [
+        `Laat je goot laat in de herfst leegmaken, als het meeste blad gevallen is. Staan er bomen dicht bij je huis, dan is een tweede keer in het voorjaar vaak slim. Hoe vaak het bij jou nodig is, lees je in <a href="/kennisbank/hoe-vaak-dakgoot-reinigen/">hoe vaak dakgoot reinigen</a>. Of een bladvanger of gaas helpt, staat in <a href="/kennisbank/bladvanger-dakgoot/">bladvanger of gaas in je dakgoot</a>.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: dakgoot schoonmaken`, href: `/diensten/goten-reinigen/` },
+    faq: [
+      { v: `Er groeit een klein boompje in mijn dakgoot. Is dat erg?`, a: `Laat het niet staan. Een boompje groeit elk jaar, en de wortels zoeken een weg in een naad, een hoek of onder de onderste pannen. Hoe eerder het eruit gaat, hoe kleiner de kans dat de goot of een pan schade krijgt. Stuur me een foto vanaf de straat via WhatsApp, dan hoor je vooraf wat het kost.` },
+      { v: `Kan ik het groen niet gewoon laten zitten als het niet lekt?`, a: `Liever niet. Zolang het droog is, merk je er weinig van, maar bij een stevige bui kan de goot het water niet kwijt en loopt hij over. En hoe langer het blijft liggen, hoe dikker de laag en hoe zwaarder de goot wordt.` },
+      { v: `Moet mijn goot vervangen worden als er planten in groeiden?`, a: `Meestal niet. Vaak is leegmaken genoeg. Hangt de goot door, dan kan hij vaak weer op afschot gehangen worden, en een lekke naad in een zinken goot kan vaak opnieuw gesoldeerd worden. Alleen als de goot op veel plekken lek of doorgeroest is, zeg ik dat vervangen slimmer is.` },
+    ],
+  },
 ];
 
 // Kort antwoord bovenaan een artikel. Geen bedragen.
@@ -169,4 +203,5 @@ export const KORT_ANTWOORD_5: Record<string, string> = {
   "foto-van-je-dak-maken": `De foto's die een dakdekker het meest helpen: je hele dak vanaf de overkant van de straat, met daarna ingezoomd de plek waar je iets ziet; de natte plek binnen van dichtbij en van een afstand; en zolder boven die plek met een zaklamp. Bij een goot helpt een kort filmpje tijdens een bui. Ga voor een foto niet het dak op en zet geen ladder tegen de goot.`,
   "dak-repareren-via-buren": `Kan een dakdekker alleen via de tuin, het pad of het platte dak van de buren bij je goot of dak, vraag het je buren dan een paar dagen van tevoren. Weigeren ze, dan is er het ladderrecht (artikel 5:56 Burgerlijk Wetboek): kan het werk anders niet, of alleen heel lastig, dan moeten ze het toestaan, en schade bij hen moet worden vergoed. Kom je er samen niet uit, vraag dan advies bij het Juridisch Loket.`,
   "hagelschade-dak": `Na een hagelbui raakt de schade meestal eerst glas en kunststof: dakramen, lichtkoepels, kunststof platen en oude kunststof goten. Gewone dakpannen in goede staat kunnen een flinke bui meestal hebben, maar oude, poreuze pannen kunnen barsten. Lekt het, vang het water dan op en ga niet het dak op. Maak foto's met de datum van de bui erbij: hagelschade valt vaak onder je opstalverzekering, maar dat verschilt per polis.`,
+  "planten-in-dakgoot": `Groeit er gras, mos of een plantje in je dakgoot, dan ligt er een laag van blad, mos en zand die tot natte aarde is geworden. Die laag houdt het water tegen, waardoor de goot bij een bui overloopt, en maakt de goot zwaar, zodat hij kan gaan doorhangen. Trek niet hard aan een plant met wortels en gooi er geen onkruidmiddel in. Laat de hele laag eruit halen, ook bij de uitloop naar de regenpijp.`,
 };
