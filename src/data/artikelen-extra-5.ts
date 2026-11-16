@@ -353,6 +353,47 @@ export const ARTIKELEN_EXTRA_5: Artikel[] = [
       { v: `Helpt vogelwering tegen kraaien op mijn dak?`, a: `Vogelwering onder de onderste rij pannen houdt vogels tegen die onder je pannen willen nestelen, zoals mussen en spreeuwen. Kraaien en kauwen die bovenop het dak in het mos zoeken, houd je daar niet mee weg. Wat wel helpt, is zorgen dat je goot en de uitloop vrij blijven, zodat het mos dat ze losmaken het water niet tegenhoudt.` },
     ],
   },
+  {
+    slug: `mastgoot-lekt`,
+    datum: `2026-11-16`,
+    titel: `Mastgoot lekt: wat nu?`,
+    h1: `Je mastgoot lekt: de houten goot op klossen voor de gevel, en wat eraan te doen is`,
+    metaTitle: `Mastgoot lekt: zink, naad of hout? | Spoed Dak Service`,
+    metaDescription: `Een mastgoot is een houten goot op klossen voor de gevel, met zink erin. Lekt hij, dan wordt vaak eerst het hout nat. Zo zie je waar het zit en wat je doet.`,
+    intro: `Bij veel oudere huizen hangt de goot niet aan beugels, maar ligt hij als een houten bak op klossen die onder de rand van het dak uitsteken. Dat heet een mastgoot. Aan de binnenkant zit meestal zink. Lekt dat zink, dan merk je het vaak niet aan een druppel, maar aan het hout: bladderende verf, donkere plekken of een goot die zakt. Hieronder lees je hoe je een mastgoot herkent, waar hij meestal lekt en wat eraan te doen is.`,
+    secties: [
+      { kop: `Lekt het binnen?`, tekst: [
+        `Komt er water binnen, bovenin de muur of langs het plafond van de kamer aan de straatkant, zet dan een emmer of handdoek neer en haal spullen weg. Zet in de meterkast de groep uit als het bij een lamp of stopcontact nat wordt. Zet geen ladder tegen de goot, want een mastgoot met zacht hout kan dat niet hebben. Wat je verder meteen kunt doen, staat op de <a href="/spoed/">spoedpagina</a>.`,
+      ] },
+      { kop: `Mastgoot, bakgoot of hanggoot?`, tekst: [
+        `Een hanggoot hangt aan beugels onder de onderste rij pannen. Een bakgoot ligt in de rand van het dak, achter een houten lijst, en die zie je van buiten bijna niet. Een mastgoot zit daartussenin: een houten goot die voor de gevel uitsteekt en op houten klossen rust. Aan de binnenkant zit meestal zink, soms dakleer. Vanaf de straat zie je hem als een brede houten rand onder het dak, vaak in de kleur van de kozijnen geschilderd. Twijfel je wat je hebt, stuur dan een foto van de dakrand vanaf de overkant van de straat. Zie ook <a href="/kennisbank/bakgoot-lekt/">bakgoot lekt</a>.`,
+      ] },
+      { kop: `Waar een mastgoot meestal lekt`, tekst: [
+        `Bij een naad of hoek in het zink. Zink zet uit als het warm is en krimpt als het koud is, en na veel jaren laat een soldeernaad los. Zie <a href="/kennisbank/zinken-dakgoot-lekt/">zinken dakgoot lekt</a>.`,
+        `Bij de uitloop naar de regenpijp. Daar blijft blad hangen, het water komt hoger te staan en vindt een weg langs de aansluiting.`,
+        `Op een dunne plek in de bodem. Waar jaren blad en water in de goot hebben gelegen, wordt het zink dun en komen er kleine gaatjes in.`,
+        `Waar de goot zakt. Wordt een klos of de bodem van de houten bak zacht, dan zakt de goot een stukje. Daar blijft na elke bui water staan, en daar slijt het zink het snelst.`,
+      ] },
+      { kop: `Waarom het hout erbij hoort`, tekst: [
+        `Bij een mastgoot draagt het hout de goot. Loopt er water achter het zink, dan trekt het in de houten bak en de klossen. Dat zie je aan verf die bladdert, donkere of groene plekken onder de goot en hout dat zacht aanvoelt. Hoe langer het lek blijft zitten, hoe meer hout er nat wordt. Een nieuw stuk zink in een rotte bak houdt het niet lang. Daarom kijk ik bij een lekkende mastgoot ook naar het hout eronder.`,
+      ] },
+      { kop: `Wat je zelf beter niet doet`, tekst: [
+        `Smeer geen kit of teer over een lekke naad. Op nat of vuil zink hecht het slecht, en het moet er weer helemaal af voordat de naad gesoldeerd kan worden. Schilder ook niet over hout dat nat of zacht is, want dan sluit je het vocht in. En ga niet op een ladder tegen de goot staan om te kijken.`,
+      ] },
+      { kop: `Hoe ik het aanpak`, tekst: [
+        `Ik maak de goot leeg en kijk over de hele lengte naar het zink, de naden, de uitloop en het hout. Lekt het op één naad of hoek en is het zink verder stevig, dan soldeer ik die naad opnieuw. Lekt het zink op meer plekken een beetje, maar is de goot nog stevig, dan kan de binnenkant gecoat worden. Is het zink op, dan zeg ik eerlijk dat er nieuw zink in moet. Is het hout van de bak of een klos zacht, dan hoor je dat van me voordat er iets gebeurt, want dat moet eerst goed zijn. Je hoort vooraf wat het kost. Zie <a href="/diensten/dakgoot-solderen/">dakgoot solderen</a> en <a href="/diensten/dakgoot-coaten/">dakgoot van binnen coaten</a>.`,
+      ] },
+      { kop: `Monument of beschermd stadsgezicht`, tekst: [
+        `Een mastgoot hoort bij het uiterlijk van veel oude huizen. Staat je huis op de monumentenlijst of in een beschermd stadsgezicht, vraag dan bij de gemeente na wat mag voordat de goot anders wordt, bijvoorbeeld een kunststof goot in plaats van de houten mastgoot. Herstel met hetzelfde materiaal valt meestal onder gewoon onderhoud. Zie ook <a href="/kennisbank/dak-monument-repareren/">je dak repareren in een monument</a> en <a href="/kennisbank/jaren-30-huis-dak-lekt/">het dak van een jaren 30-huis</a>.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: dakgoot solderen`, href: `/diensten/dakgoot-solderen/` },
+    faq: [
+      { v: `Hoe weet ik of ik een mastgoot heb?`, a: `Kijk vanaf de overkant van de straat naar de rand van je dak. Zie je onder de pannen een brede houten rand die een stukje voor de gevel uitsteekt en op houten blokjes rust, dan is het meestal een mastgoot. Hangt er een ronde of hoekige goot aan beugels, dan is het een hanggoot. Zie je bijna geen goot, alleen een houten lijst, dan ligt hij vaak als bakgoot in de dakrand. Stuur me gerust een foto.` },
+      { v: `Moet een lekkende mastgoot er helemaal uit?`, a: `Meestal niet. Vaak is één naad opnieuw solderen genoeg, of kan de binnenkant gecoat worden als het zink nog stevig is. Pas als het zink op veel plekken op is of het hout van de bak zacht is, is er meer nodig. Dat zeg ik eerlijk als ik heb gekeken, en je hoort vooraf wat het kost.` },
+      { v: `De verf van mijn mastgoot bladdert. Lekt hij dan?`, a: `Niet altijd, maar het is wel een reden om te laten kijken. Bladdert de verf vooral onder een naad, een hoek of bij de uitloop, of is het hout daar donker, dan loopt er vaak water achter het zink. Laat de goot eerst nakijken en zo nodig herstellen, en laat daarna de schilder komen. Anders bladdert de nieuwe verf er zo weer af.` },
+    ],
+  },
 ];
 
 // Kort antwoord bovenaan een artikel. Geen bedragen.
@@ -366,4 +407,5 @@ export const KORT_ANTWOORD_5: Record<string, string> = {
   "water-spat-over-dakgoot": `Spat het regenwater bij een bui over je goot heen, terwijl er weinig water in de goot staat, dan mist het water de goot. Meestal hangt de goot te laag of te ver naar achteren, steken de onderste pannen te ver uit, of komt het water van een steil dak, gladde pannen of zonnepanelen zo hard naar beneden dat het over de rand schiet. Vaak is de goot op die plek opnieuw ophangen genoeg.`,
   "noodoverloop-plat-dak": `Komt er bij regen water uit de noodoverloop, het buisje in de rand van je platte dak, dan staat het water op je dak hoger dan zou moeten. Meestal zit de gewone afvoer dicht met blad, mos of grind, of is de regenpijp verstopt. Bij een echte wolkbreuk kan een korte straal normaal zijn. Laat de afvoer vrijmaken en maak de noodoverloop nooit dicht.`,
   "kraaien-mos-van-dak": `Kraaien en kauwen trekken mos van je dak omdat ze eronder naar insecten en larven zoeken, vooral in de herfst, de winter en het vroege voorjaar. Voor de pannen zelf is dat meestal niet erg. Het losse mos komt wel in je goot en bij de uitloop naar de regenpijp terecht, en dan kan de goot bij een flinke bui overlopen. Laat de goot leegmaken en ga niet zelf het dak op.`,
+  "mastgoot-lekt": `Een mastgoot is een houten goot op klossen voor de gevel, met aan de binnenkant meestal zink. Hij lekt meestal bij een naad of hoek, bij de uitloop naar de regenpijp of op een dunne plek waar jaren blad lag. Vaak is opnieuw solderen genoeg, of kan de binnenkant gecoat worden. Kijk ook naar het hout: bladderende verf of zacht hout onder de goot betekent dat er al langer water achter het zink loopt.`,
 };
