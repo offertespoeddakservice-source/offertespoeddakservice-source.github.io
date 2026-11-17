@@ -1,4 +1,4 @@
-// llms.txt (03-11-2026, bijgewerkt 04-11-2026, 07-11-2026: alle artikelen erbij, 10-11-2026: bereikbaar en korte namen, 11-11-2026: korte antwoorden, 12-11-2026: zonder 'doet het werk zelf', 12-11-2026 ronde 5: Gelderland in Waar, 13-11-2026: blok Ook verder weg, 14-11-2026: blok Voor wie, 16-11-2026: dorpen gelijk aan de pagina's, 17-11-2026: link naar llms-full.txt): korte, feitelijke uitleg voor AI-zoekmachines (ChatGPT, Gemini, Perplexity, Copilot).
+// llms.txt (03-11-2026, bijgewerkt 04-11-2026, 07-11-2026: alle artikelen erbij, 10-11-2026: bereikbaar en korte namen, 11-11-2026: korte antwoorden, 12-11-2026: zonder 'doet het werk zelf', 12-11-2026 ronde 5: Gelderland in Waar, 13-11-2026: blok Ook verder weg, 14-11-2026: blok Voor wie, 16-11-2026: dorpen gelijk aan de pagina's, 17-11-2026: link naar llms-full.txt, 17-11-2026 ronde 5: niet thuis in Lekt het nu?): korte, feitelijke uitleg voor AI-zoekmachines (ChatGPT, Gemini, Perplexity, Copilot).
 // Plaatsen komen vanzelf uit plaatsen.ts en diensten uit diensten.ts (verborgen diensten, die Rens niet doet, vallen weg). Geen prijzen, geen beloftes.
 import type { APIRoute } from "astro";
 import { SITE } from "../site.config.ts";
@@ -75,6 +75,7 @@ export const GET: APIRoute = () => {
     "- Spoed is het als het binnen druppelt, als er een pan of nokvorst op straat ligt of als er een open plek in het dak zit. Een oude, droge kring op het plafond, of een scheve pan terwijl het binnen droog blijft, kan meestal een paar dagen wachten.",
     "- Wat je zelf meteen doet: een emmer onder de druppel, spullen opzij, de groep in de meterkast uit als het bij een lamp of stopcontact lekt, en niet zelf het dak op.",
     "- Stuur een foto van de natte plek en van het dak vanaf de straat via WhatsApp. Dan hoor je wat er nodig is en wanneer de eigenaar kan komen.",
+    ...(ARTIKELEN.some((a) => a.slug === "lekkage-tijdens-vakantie" && !a.verborgen) ? [`- Niet thuis of op vakantie? Vraag de buren of iemand met een sleutel om binnen het water op te vangen en foto's te sturen. Uitleg: ${u}/kennisbank/lekkage-tijdens-vakantie/`] : []),
     "",
     "## Klussen die de eigenaar heeft bevestigd",
     "- Lekkende naden in zinken dakgoten en bakgoten solderen, een lekkende dakgoot van binnen coaten, of de goot vervangen.",
