@@ -209,6 +209,8 @@ const schema = [
         {GEMEENTE[p.slug] && <li><strong>Gemeente:</strong> {p.slug === "den-bosch" ? "'s-Hertogenbosch (Den Bosch)" : GEMEENTE[p.slug] === p.naam ? p.naam : `${GEMEENTE[p.slug]}, waar ${p.naam} bij hoort`}, provincie {provincie}.</li>}
         <li><strong>Klussen:</strong> daklekkage, losse dakpannen en nokvorsten, lood, dakgoten repareren en schoonmaken, platte daken, windveren, stormschade en oude antennes of schotels weghalen.</li>
         <li><strong>Contact:</strong> bellen of WhatsApp op <a href={telHref}>{SITE.telefoonWeergave}</a>, dag en nacht bereikbaar.</li>
+        {/* 18-11-2026: regel Spoed, gelijk aan de vaste vraag over snel langskomen. Plaatsen op ± 40 minuten zonder 'dezelfde dag'. */}
+        <li><strong>Spoed:</strong> druppelt het binnen of ligt je dak open, bel of app dan meteen met een foto. {p.slug === "den-bosch" ? "Den Bosch is mijn thuisbasis, dus dan kan ik vaak nog dezelfde dag komen." : (p.verweg || p.reistijd?.startsWith("±")) ? "Dan hoor je eerlijk wanneer ik kan komen." : `In ${p.naam} kan ik dan vaak nog dezelfde dag komen.`}</li>
         <li><strong>Prijs:</strong> je hoort de vaste prijs voordat ik begin.</li>
         <li><strong>Verzekerd:</strong> bedrijfsaansprakelijk verzekerd.</li>
         <li><strong>Reviews:</strong> <a href={SITE.werkspotUrl} target="_blank" rel="noopener">{SITE.reviews.score.toString().replace(".", ",")} op Werkspot</a>{SITE.reviews.werkspotAantal > 0 ? ` (${SITE.reviews.werkspotAantal} reviews)` : ""}.</li>
