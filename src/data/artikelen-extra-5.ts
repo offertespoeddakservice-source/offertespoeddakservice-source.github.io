@@ -3,6 +3,7 @@
  * artikelen-extra-4.ts zet ze achter ARTIKELEN_EXTRA_4 en in KORT_ANTWOORD_4.
  * 17-11-2026 ronde 2: water in de meterkast
  * 17-11-2026 ronde 3: dak lekt na dagen regen, lood bij de schoorsteen (kosten), jaren 50-huis
+ * 17-11-2026 ronde 3: schimmel op zolder (lek of condens)
  */
 import type { Artikel } from "./artikelen";
 
@@ -615,6 +616,47 @@ export const ARTIKELEN_EXTRA_5: Artikel[] = [
       { v: `Kan ik het dak van een jaren 50-huis laten nakijken voordat ik het koop?`, a: `Ja. Met de Dak-APK loop ik het hele dak na en krijg je een rapport met foto's. Bij een huis uit de jaren '50 kijk ik vooral naar het lood rond de schoorsteen, de nok, de pannen en de goot. Vraag wel eerst toestemming aan de verkoper, want ik moet op het dak en op zolder kunnen kijken. Meer lees je in het artikel over je dak laten keuren als je een huis koopt.` },
     ],
   },
+  {
+    slug: `schimmel-op-zolder`,
+    datum: `2026-11-17`,
+    titel: `Schimmel op zolder: lek of condens?`,
+    h1: `Schimmel op je zolder of tegen het dakbeschot: komt het door een lek of door condens?`,
+    metaTitle: `Schimmel op zolder: lek of condens? | Spoed Dak Service`,
+    metaDescription: `Zwarte plekken of schimmel op zolder? Waar de schimmel zit, zegt of het van een daklek komt of van vocht uit je eigen huis. Zo zie je het verschil.`,
+    intro: `Je komt op zolder en ziet zwarte puntjes op het hout, grijze plekken op de platen, of er hangt een muffe lucht. Dan wil je weten: lekt mijn dak, of is het iets anders? Schimmel groeit waar het lang vochtig blijft. Dat vocht kan van buiten komen, door een lek, of van binnen, door warme, vochtige lucht uit je huis die tegen het koude dak afkoelt. Waar en hoe de schimmel zit, vertelt meestal welke van de twee het is. Hieronder lees je hoe je dat ziet en wat je doet.`,
+    secties: [
+      { kop: `Eerst: is het nu nat?`, tekst: [
+        `Voel of het hout of de plaat nu nat is, of alleen verkleurd en droog. Druppelt het, of is er een natte kring die na een bui groter wordt, zet dan een bak onder de plek en kijk op de <a href="/spoed/">spoedpagina</a> wat je meteen kunt doen. Is alles droog en zie je alleen oude vlekken, dan heb je tijd om rustig uit te zoeken waar het vandaan komt.`,
+      ] },
+      { kop: `Op één plek, met een kring eromheen`, tekst: [
+        `Zit de schimmel op één plek, vaak met een bruine of gele rand, en wordt die plek na een bui donker of nat? Dan komt er waarschijnlijk water van buiten. Kijk recht boven die plek en ook iets hoger, want water loopt onder de pannen vaak een stuk naar beneden voordat het binnenkomt. Bekende plekken zijn rond de schoorsteen, bij een pijp door het dak, rond een dakraam, onder de nok en bij de onderste rij pannen boven de goot. Hoe je het lek zelf vindt, lees je bij <a href="/kennisbank/daklekkage-opsporen/">daklekkage opsporen</a>.`,
+      ] },
+      { kop: `Verspreid over een groot stuk`, tekst: [
+        `Zie je fijne zwarte puntjes verspreid over een groot deel van het dakbeschot of de platen, en is het ook op droge dagen vochtig? Dan is het meestal condens. Warme lucht uit je huis neemt vocht mee naar boven. Op een koude nacht slaat dat vocht neer tegen de koudste plek: de onderkant van het dak. Dat gebeurt vaak het meest aan de kant die op het noorden ligt en hoog onder de nok. Blijft dat steeds terugkomen, dan gaat er schimmel groeien. Meer over het verschil lees je bij <a href="/kennisbank/condens-of-lekkage-op-zolder/">condens of lekkage op zolder</a>.`,
+      ] },
+      { kop: `Waar het vocht vaak vandaan komt`, tekst: [
+        `Een wasdroger op zolder zonder afvoer naar buiten, of was die op zolder hangt te drogen. Een badkamer of douche op zolder zonder goede afzuiging. Een zolderluik dat niet goed sluit, zodat de warme lucht van de overloop naar boven trekt. Roosters of ventilatiepannen die zijn dichtgemaakt. En een dak dat net van binnen is geïsoleerd, waarbij de warme kant niet goed is afgesloten. Zie ook <a href="/kennisbank/lekt-sinds-dakisolatie/">lekt het sinds je dak is geïsoleerd?</a>`,
+      ] },
+      { kop: `Hoeken en het knieschot`, tekst: [
+        `Achter het knieschot en in de hoeken bij de onderkant van het dak is het koud en komt weinig lucht. Daar groeit schimmel het eerst, door condens, maar ook als er water van de onderste rij pannen of van een volle goot naar binnen komt. Is de vloer daar nat of ligt er na een bui een plas, dan is het eerder een lek. Lees <a href="/kennisbank/nat-achter-knieschot/">nat achter het knieschot</a>.`,
+      ] },
+      { kop: `Wat je beter niet doet`, tekst: [
+        `Ga de schimmel niet wegpoetsen en overschilderen zolang je niet weet waar het vocht vandaan komt. Dan lijkt het weg, maar het vocht blijft, en hout dat steeds nat is, kan gaan rotten. Maak ook geen roosters of ventilatiepannen dicht om de kou buiten te houden, want dan blijft het vocht juist binnen. Haal je zelf wat schimmel weg, zet dan een raam open en draag een stofmasker.`,
+      ] },
+      { kop: `Hoe ik het aanpak`, tekst: [
+        `Stuur me via WhatsApp een foto van de schimmel, van dichtbij en van een afstand, en zeg erbij of de plek na een bui natter wordt. Lijkt het op een lek, dan zoek ik waar het water binnenkomt en maak ik dat dicht, bijvoorbeeld bij een pan, het lood rond de schoorsteen of de kraag rond een pijp. Is het condens, dan zeg ik dat eerlijk. Dan ligt de oplossing binnen, bij ventilatie en vocht, en daarvoor vraag je een isolatie- of ventilatiebedrijf om advies. Isoleren doe ik zelf niet. Is het hout door een oud lek zacht geworden, dan hoor je dat van me. Zie ook <a href="/diensten/daklekkage/">daklekkage opsporen en repareren</a>.`,
+      ] },
+      { kop: `Wat kost het?`, tekst: [
+        `Gaat het om een lek, dan hoor je vooraf wat het opsporen en dichtmaken kost. Richtprijzen staan op de <a href="/prijzen/">prijzenpagina</a>. Is het condens, dan hoef je mij niet te laten komen.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: daklekkage & spoed`, href: `/diensten/daklekkage/` },
+    faq: [
+      { v: `Is schimmel op zolder erg?`, a: `Een paar zwarte puntjes op het hout zijn niet meteen een probleem voor je huis, maar het is wel een teken dat het daar te lang vochtig is. Blijft het jaren zo, dan kan het hout gaan rotten. Slaap je op zolder of heb je last van je luchtwegen, laat het dan niet zitten. Zoek eerst uit of het van een lek of van condens komt, want dan weet je wat de oplossing is.` },
+      { v: `De schimmel zit vooral rond mijn dakraam. Is dat een lek?`, a: `Dat kan allebei. Een dakraam is een koude plek, en daar slaat vocht uit huis snel neer, zeker als het raam altijd dicht is. Dan zie je druppels op het glas en schimmel in de hoeken van het kozijn. Wordt het hout of de wand onder het raam juist nat na een bui, ook als het glas droog is, dan zit het eerder in het gootstuk of de aansluiting op de pannen. Meer lees je in het artikel over een lekkend dakraam.` },
+      { v: `Ik heb de schimmel weggehaald, maar hij komt terug. Wat nu?`, a: `Dan blijft er vocht komen. Let op wanneer hij terugkomt: na een periode met veel regen wijst het eerder naar een lek, in een koude, droge periode eerder naar condens. Maak foto's met de datum erbij, dan zie je hoe het verloopt. Stuur ze via WhatsApp, dan zeg ik eerlijk of het iets voor mij is.` },
+    ],
+  },
 ];
 
 // Kort antwoord bovenaan een artikel. Geen bedragen.
@@ -634,4 +676,5 @@ export const KORT_ANTWOORD_5: Record<string, string> = {
   "dak-jaren-90-huis-lekt": `Bij een huis uit de jaren '80 of '90 zijn de pannen vaak nog goed, en zit een lek meestal bij een aansluiting: het rubber rond een pijp door het dak, het gootstuk van een dakraam, een klem of strook van een droge nok of een verbinding in de kunststof goot. Wordt het alleen nat op koude ochtenden, ook als het droog is, dan is het eerder condens. Vaak is een gerichte reparatie genoeg.`,
   "dak-lekt-na-dagen-regen": `Lekt je dak pas na een paar dagen regen, en niet bij een korte bui, dan trekt het water meestal langzaam ergens doorheen of loopt er iets pas na dagen over: oude pannen die water opnemen, de stenen van de schoorsteen, een goot of kilgoot die langzaam volloopt, of een plas op het platte dak. Kijk tijdens zo'n natte periode met een zaklamp op zolder waar het begint.`,
   "dak-jaren-50-huis-lekt": `Bij een huis uit de jaren '50 lekt het dak meestal bij het lood rond de eigen schoorsteen, op de plek waar een schoorsteen is weggehaald, bij een nok in oude specie, bij een naad in de zinken goot of bij een pan die is verschoven. Vaak ligt er geen folie onder de pannen, dus het water komt meestal vlak onder het lek binnen. Een gerichte reparatie is vaak genoeg.`,
+  "schimmel-op-zolder": `Zit de schimmel op zolder op één plek, met een kring eromheen, en wordt die plek na een bui donker of nat, dan komt er meestal water van buiten door een lek. Zitten er fijne zwarte puntjes verspreid over een groot stuk van het dakbeschot, ook op droge dagen, dan is het meestal condens: vocht uit je eigen huis dat tegen het koude dak neerslaat. Bij een lek ligt de oplossing op het dak, bij condens binnen, bij ventilatie en vocht.`,
 };
