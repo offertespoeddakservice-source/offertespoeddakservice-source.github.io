@@ -5,6 +5,7 @@
  * 17-11-2026 ronde 3: dak lekt na dagen regen, lood bij de schoorsteen (kosten), jaren 50-huis
  * 17-11-2026 ronde 3: schimmel op zolder (lek of condens)
  * 17-11-2026 ronde 3: dak nakijken voor je de zolder verbouwt
+ * 17-11-2026 ronde 5: lekkage terwijl je op vakantie bent
  */
 import type { Artikel } from "./artikelen";
 
@@ -699,6 +700,47 @@ export const ARTIKELEN_EXTRA_5: Artikel[] = [
       { v: `Moet de folie onder de pannen vervangen worden voordat ik isoleer?`, a: `Niet altijd. Is de folie heel en zit hij nog goed, dan kan hij blijven. Is hij gescheurd, vergaan of hangt hij in stukken, dan komt er bij harde wind regen of stuifsneeuw langs, en dat komt na het isoleren in je isolatie terecht. Nieuwe folie kan er alleen onder als de pannen eraf gaan, bij een renovatie. Meer lees je in het artikel over dakfolie die kapot is.` },
     ],
   },
+  {
+    slug: `lekkage-tijdens-vakantie`,
+    datum: `2026-11-17`,
+    titel: `Lekkage terwijl je op vakantie bent?`,
+    h1: `Je bent op vakantie of niet thuis en je dak lekt: wat de buren kunnen doen en hoe het verder gaat`,
+    metaTitle: `Daklekkage terwijl je op vakantie bent | Spoed Dak Service`,
+    metaDescription: `Ben je weg en zien de buren een natte plek of een pan op de stoep? Wat zij veilig kunnen doen, wat je via de app regelt en hoe het lek dicht komt.`,
+    intro: `Je zit in de sneeuw of aan zee, en dan appt de buurvrouw: er ligt een dakpan op de stoep. Of de oppas ziet een natte plek op het plafond. Op afstand voelt dat machteloos, maar je kunt veel regelen zonder zelf thuis te zijn. Hieronder lees je wat de buren of je oppas veilig kunnen doen, hoe het lek gemaakt wordt terwijl je weg bent en wat je vooraf regelt als je op reis gaat.`,
+    secties: [
+      { kop: `Eerst: veilig`, tekst: [
+        `Vraag wie er bij je huis is om niet op een ladder of het dak te gaan, ook niet even om te kijken. Ligt er een pan of een stuk goot op de stoep, laat het dan opzij leggen en uit de buurt van de gevel blijven zolang het hard waait. Hangt er iets los boven de stoep of de straat dat elk moment kan vallen, dan is 112 bellen de juiste stap. Wat je verder meteen kunt doen, staat op de <a href="/spoed/">spoedpagina</a>.`,
+      ] },
+      { kop: `Wat iemand met een sleutel binnen kan doen`, tekst: [
+        `Een emmer of bak onder de druppel, met een doek erin tegen het spatten. Spullen weg van de natte plek en een handdoek of plastic op de vloer. Zit de natte plek bij een lamp, spotje of stopcontact, dan de groep van die kamer uit in de meterkast. Bolt het plafond op, dan niet eronder gaan staan. Kan iemand veilig op zolder komen, dan helpt een bak onder de plek waar het van het hout of de folie druppelt.`,
+      ] },
+      { kop: `Laat foto's maken`, tekst: [
+        `Vraag om een foto van de natte plek binnen, van dichtbij en van een afstand, en een of twee foto's van je dak vanaf de overkant van de straat, met de zoom van de telefoon. Een kort filmpje van de goot tijdens een bui helpt ook. Laat ze die naar jou sturen, of meteen naar mij. Welke foto's het meest helpen, lees je bij <a href="/kennisbank/foto-van-je-dak-maken/">foto's van je dak maken</a>.`,
+      ] },
+      { kop: `Repareren terwijl je weg bent`, tekst: [
+        `Ligt er een pan of nokvorst los en kan ik er van buiten bij, bijvoorbeeld vanaf de stoep of via een achterom, dan kan ik dat ook doen als er niemand thuis is. We spreken dan via WhatsApp vooraf de prijs af, en jij zegt waar ik mijn ladder kan zetten. Als je wilt, stuur ik je na afloop een foto van wat ik heb gedaan. Moet ik op zolder kijken waar het water binnenkomt, dan heb ik iemand nodig die de deur open kan doen, zoals de buren of de oppas. Ligt het dak open en is het te nat of waait het te hard voor een nette reparatie, dan maak ik het eerst dicht. Hoe dat gaat, lees je bij <a href="/kennisbank/noodreparatie-dak/">noodreparatie aan je dak</a>.`,
+      ] },
+      { kop: `En je verzekering?`, tekst: [
+        `Meld de schade zo snel als het kan bij je verzekeraar, ook vanaf je vakantieadres, en vraag wat ze nodig hebben. De foto's van de buren, met de datum erbij, helpen daarbij. Kosten om erger te voorkomen, zoals het lek tijdelijk laten dichtmaken, worden vaak vergoed als de schade zelf onder je polis valt, maar dat verschilt per polis. Ik maak foto's van wat ik aantref en van de reparatie, met een korte omschrijving die je kunt doorsturen. Lees ook <a href="/kennisbank/daklekkage-verzekering/">daklekkage en je verzekering</a>.`,
+      ] },
+      { kop: `Als je weer thuis bent`, tekst: [
+        `Kijk na de eerste flinke bui op zolder of de plek droog blijft. Een plafond dat nat is geweest, droogt langzaam, ook als het lek dicht is. Schilder er pas overheen als het helemaal droog is, zie <a href="/kennisbank/plafond-drogen-na-lekkage/">plafond drogen na een lekkage</a>.`,
+      ] },
+      { kop: `Voordat je op reis gaat`, tekst: [
+        `Ga je in de herfst of winter weg, laat dan vooraf je goot leegmaken als hij vol blad zit, en kijk vanaf de straat of er een pan scheef ligt of specie van de nok in de goot ligt. Geef iemand in de buurt een sleutel en zeg waar de meterkast en het zolderluik zitten. Zet mijn nummer in hun telefoon, zodat ze bij een lek of een storm meteen een foto kunnen sturen. Komt er een storm aan, lees dan <a href="/kennisbank/storm-op-komst-dak/">storm op komst</a>.`,
+      ] },
+      { kop: `Wat kost het?`, tekst: [
+        `Dat hangt af van wat er los of lek is. Ook als je niet thuis bent, hoor je via WhatsApp vooraf wat het kost. Richtprijzen staan op de <a href="/prijzen/">prijzenpagina</a>.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: daklekkage & spoed`, href: `/diensten/daklekkage/` },
+    faq: [
+      { v: `Kan de reparatie wachten tot ik terug ben?`, a: `Dat hangt ervan af. Druppelt het binnen of ligt er een open plek in het dak, dan liever niet, want bij elke bui trekt er meer water in het plafond en de isolatie. Ligt er alleen een pan een beetje scheef en blijft het binnen droog, dan kan het vaak wel wachten. Laat de buren een foto sturen, dan zeg ik eerlijk wat ik zie.` },
+      { v: `De buren willen zelf een zeil over het dak leggen. Is dat slim?`, a: `Liever niet. Een nat dak is glad, en een zeil trekt bij wind hard aan alles wat het vasthoudt, ook aan wie op de ladder staat. Vraag ze het water binnen op te vangen en foto's te maken. Het afdekken van buiten laat je aan mij over.` },
+      { v: `Kan ik vanaf mijn vakantieadres alles regelen?`, a: `Meestal wel. Stuur de foto's die de buren maken via WhatsApp door, met je adres en wie er een sleutel heeft. Dan zeg ik wat ik zie, spreken we de prijs af en laat ik weten wanneer ik kom. Moet ik binnen of op zolder kijken, dan stemmen we af wie de deur open doet.` },
+    ],
+  },
 ];
 
 // Kort antwoord bovenaan een artikel. Geen bedragen.
@@ -720,4 +762,5 @@ export const KORT_ANTWOORD_5: Record<string, string> = {
   "dak-jaren-50-huis-lekt": `Bij een huis uit de jaren '50 lekt het dak meestal bij het lood rond de eigen schoorsteen, op de plek waar een schoorsteen is weggehaald, bij een nok in oude specie, bij een naad in de zinken goot of bij een pan die is verschoven. Vaak ligt er geen folie onder de pannen, dus het water komt meestal vlak onder het lek binnen. Een gerichte reparatie is vaak genoeg.`,
   "schimmel-op-zolder": `Zit de schimmel op zolder op één plek, met een kring eromheen, en wordt die plek na een bui donker of nat, dan komt er meestal water van buiten door een lek. Zitten er fijne zwarte puntjes verspreid over een groot stuk van het dakbeschot, ook op droge dagen, dan is het meestal condens: vocht uit je eigen huis dat tegen het koude dak neerslaat. Bij een lek ligt de oplossing op het dak, bij condens binnen, bij ventilatie en vocht.`,
   "dak-nakijken-voor-zolder-verbouwen": `Ga je je zolder verbouwen, laat dan eerst je dak nakijken, want na het afwerken zie je de onderkant van het dak niet meer. Laat vooraf gebroken of verschoven pannen, een losse nok, los lood rond de schoorsteen en de kraag rond pijpen door het dak maken. Zorg dat het dak dicht is voordat de isolatie erin gaat, en vraag het isolatiebedrijf hoe het vocht uit je nieuwe kamer weg kan.`,
+  "lekkage-tijdens-vakantie": `Ben je op vakantie of niet thuis en lekt je dak, laat dan iemand met een sleutel het water opvangen, spullen weghalen en de groep uitzetten als het bij een lamp of stopcontact nat is, zonder op een ladder of het dak te gaan. Laat foto's maken van de natte plek en van het dak vanaf de straat. Een losse pan of nokvorst kan vaak van buiten worden gerepareerd als de prijs vooraf is afgesproken.`,
 };
