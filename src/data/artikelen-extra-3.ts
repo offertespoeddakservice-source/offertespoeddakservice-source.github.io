@@ -136,6 +136,7 @@ export const ARTIKELEN_EXTRA_3: Artikel[] = [
       { v: `Moet de nieuwe isolatie eruit als hij nat is?`, a: `Niet altijd. Is hij op één plek kort nat geweest en is de oorzaak opgelost, dan kan die plek vaak drogen. Is hij lang of flink nat geweest, dan is het vaak beter om dat stuk te vervangen. Laat dat beoordelen door het bedrijf dat de isolatie heeft aangebracht.` },
       { v: `Is het spoed?`, a: `Druppelt het binnen, of zit de natte plek bij een lamp of stopcontact, dan wel: bel of app me met een foto. Gaat het om een paar druppels na een koude nacht en droogt het weer op, dan is het meestal geen spoed, maar laat het wel nakijken.` },
       { v: `Isoleer jij ook daken?`, a: `Nee, isoleren doe ik niet. Ik zorg wel dat je dak dicht is, en dat is ook verstandig om te laten nakijken voordat er geïsoleerd wordt. Op een dak dat water doorlaat, wordt isolatie nat.` },
+      { v: `Sinds mijn dak is geïsoleerd zie ik zwarte plekjes op het hout of de platen. Is dat een lek?`, a: `Meestal niet. Zwarte puntjes verspreid over een groter stuk, ook op droge dagen, wijzen vaker op schimmel door condens: vocht uit je huis dat achter de isolatie of tegen het koude dak neerslaat. Dat gebeurt als de warme kant niet goed is afgesloten of als er te weinig ventilatie is, en daarvoor ga je terug naar het bedrijf dat heeft geïsoleerd. Zit er één natte plek met een kring eromheen, die na een bui groter wordt, dan is het eerder een lek. Stuur me dan een foto. Meer lees je in het artikel over schimmel op zolder.` },
     ],
   },
   {
