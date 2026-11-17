@@ -4,6 +4,7 @@
  * 17-11-2026 ronde 2: water in de meterkast
  * 17-11-2026 ronde 3: dak lekt na dagen regen, lood bij de schoorsteen (kosten), jaren 50-huis
  * 17-11-2026 ronde 3: schimmel op zolder (lek of condens)
+ * 17-11-2026 ronde 3: dak nakijken voor je de zolder verbouwt
  */
 import type { Artikel } from "./artikelen";
 
@@ -657,6 +658,47 @@ export const ARTIKELEN_EXTRA_5: Artikel[] = [
       { v: `Ik heb de schimmel weggehaald, maar hij komt terug. Wat nu?`, a: `Dan blijft er vocht komen. Let op wanneer hij terugkomt: na een periode met veel regen wijst het eerder naar een lek, in een koude, droge periode eerder naar condens. Maak foto's met de datum erbij, dan zie je hoe het verloopt. Stuur ze via WhatsApp, dan zeg ik eerlijk of het iets voor mij is.` },
     ],
   },
+  {
+    slug: `dak-nakijken-voor-zolder-verbouwen`,
+    datum: `2026-11-17`,
+    titel: `Zolder verbouwen? Laat eerst je dak nakijken`,
+    h1: `Ga je je zolder verbouwen? Laat eerst je dak nakijken, voordat alles is dichtgemaakt`,
+    metaTitle: `Zolder verbouwen? Eerst je dak nakijken | Spoed Dak Service`,
+    metaDescription: `Wordt je zolder een slaapkamer? Als de wanden dicht zijn, zie je een lek niet meer. Dit laat je vooraf nakijken: pannen, nok, lood, dakraam en goot.`,
+    intro: `Een zolder die een slaapkamer, werkplek of logeerkamer wordt, krijgt isolatie, platen of schrootjes tegen het schuine dak en vaak een nieuwe vloer. Daarna zie je de onderkant van je dak niet meer. Een klein lek dat je nu nog op tijd ziet, merk je dan pas als er een vlek op je nieuwe wand komt. Daarom is het slim om je dak na te laten kijken voordat de verbouwing begint. Hieronder lees je waar je op let, wat je vooraf laat maken en wie wat doet.`,
+    secties: [
+      { kop: `Waarom vooraf`, tekst: [
+        `Nu kun je met een zaklamp nog overal op zolder kijken: langs de schoorsteen, rond pijpen door het dak, onder de nok en achter het knieschot. Is de zolder eenmaal afgewerkt, dan moet er bij een lek eerst een stuk wand of plafond open om te zien waar het zit. Een lek vinden achter een afgewerkte wand kan wel, maar het is meer zoekwerk. Vooraf repareren is meestal goedkoper dan achteraf je nieuwe kamer openmaken.`,
+      ] },
+      { kop: `Zelf kijken op zolder`, tekst: [
+        `Ga na een flinke bui, het liefst met wind, met een zaklamp naar boven. Let op donkere kringen of natte plekken op het hout of de folie, licht tussen de pannen, brokjes specie of gruis op de vloer, en sporen langs de schoorsteen of een pijp. Ruik ook even: een muffe hoek zegt vaak al iets. Maak overal waar je iets ziet een foto. Lees ook <a href="/kennisbank/condens-of-lekkage-op-zolder/">condens of lekkage op zolder</a> en <a href="/kennisbank/schimmel-op-zolder/">schimmel op zolder</a>.`,
+      ] },
+      { kop: `Wat ik vooraf nakijk`, tekst: [
+        `De pannen: gebroken, verschoven of poreuze pannen vervang ik of leg ik recht. De nok: losse vorsten zet ik vast, of ik smeer de nok opnieuw aan. Het lood rond de schoorsteen en langs muren: los of gescheurd lood zet ik vast of vervang ik, meestal met loodvervanger en op wens met echt lood. De kraag rond pijpen door het dak en het gootstuk rond een dakraam dat er al zit. En de goot en de onderste rij pannen, want water dat onder de pannen loopt, komt daar als laatste langs, precies achter je nieuwe knieschot. Wat ik zie, hoor je van me, met foto's erbij.`,
+      ] },
+      { kop: `De Dak-APK`, tekst: [
+        `Wil je alles op een rij, dan kan dat met de <a href="/dak-apk/">Dak-APK</a>: ik loop je hele dak na en je krijgt een rapport met foto's. Dan weet je wat er voor de verbouwing moet gebeuren en wat nog kan wachten. Wat dat kost, lees je bij <a href="/kennisbank/wat-kost-een-dakinspectie/">wat kost een dakinspectie</a>.`,
+      ] },
+      { kop: `Nieuwe dakramen`, tekst: [
+        `Komen er nieuwe dakramen in, of verandert er iets aan de constructie van het dak, dan regelt je aannemer of timmerman dat. Vraag die om de aansluiting van het raam op de pannen goed af te werken, want daar begint een lek bij een nieuw raam meestal. Lekt het later toch, lees dan <a href="/kennisbank/lekt-sinds-nieuw-dakraam/">lekt het sinds je nieuwe dakraam?</a>`,
+      ] },
+      { kop: `Isolatie en vocht`, tekst: [
+        `Isoleren doe ik zelf niet. Wel is het slim dat het dak dicht is voordat de isolatie erin gaat, want isolatie die nat wordt, droogt slecht. Vraag het isolatiebedrijf ook hoe het vocht uit je nieuwe kamer weg kan, met een folie aan de warme kant en goede ventilatie. Anders kan er condens tegen het koude dak komen, en dat lijkt later op een lek. Zie <a href="/kennisbank/lekt-sinds-dakisolatie/">lekt het sinds je dak is geïsoleerd?</a> en <a href="/kennisbank/isolatie-nat-na-lekkage/">isolatie nat na een lek</a>.`,
+      ] },
+      { kop: `Repareren of eerst vernieuwen?`, tekst: [
+        `Is je dak bijna op, met veel poreuze of gebroken pannen en lood dat op meer plekken los zit, dan wil je dat weten voordat je binnen alles afwerkt. Een dakrenovatie gebeurt van buitenaf, maar het is prettiger als die klaar is voordat je nieuwe kamer af is. Bij een renovatie kan er op wens nieuwe folie en kunnen er nieuwe panlatten onder de pannen. Zie <a href="/diensten/dakrenovatie/">dakrenovatie</a> en <a href="/kennisbank/hoe-lang-gaat-een-dak-mee/">hoe lang gaat een pannendak mee</a>.`,
+      ] },
+      { kop: `Wat kost het?`, tekst: [
+        `Een paar losse pannen of een nokvorst vastzetten is meestal een kleine reparatie. Voor lood, een kraag of een groter stuk dak stuur je een foto, en je hoort vooraf wat het kost. Richtprijzen staan op de <a href="/prijzen/">prijzenpagina</a>.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: de Dak-APK`, href: `/dak-apk/` },
+    faq: [
+      { v: `Hoe lang voor de verbouwing laat ik mijn dak nakijken?`, a: `Liefst een paar weken van tevoren. Dan is er tijd om een pan of het lood te laten maken, en moet er meer gebeuren, dan kun je dat nog plannen voordat de aannemer begint. Stuur me een foto van je dak vanaf de straat en een paar van zolder, dan zeg ik wat ik zie.` },
+      { v: `Er komt een badkamer op zolder. Waar let ik op bij het dak?`, a: `Een badkamer geeft veel vocht, en dat moet naar buiten. De afvoer van de ventilatie gaat vaak met een pijp door het dak. Een nieuwe doorvoer door het dak kan ik plaatsen, met een passende pan en een kraag rond de pijp. De ventilatie zelf regelt je installateur. Komt de afvoer niet buiten uit maar op zolder, dan slaat het vocht neer tegen het koude dak. Meer lees je in de artikelen over een nat badkamerplafond en over lekkage bij een dakdoorvoer.` },
+      { v: `Moet de folie onder de pannen vervangen worden voordat ik isoleer?`, a: `Niet altijd. Is de folie heel en zit hij nog goed, dan kan hij blijven. Is hij gescheurd, vergaan of hangt hij in stukken, dan komt er bij harde wind regen of stuifsneeuw langs, en dat komt na het isoleren in je isolatie terecht. Nieuwe folie kan er alleen onder als de pannen eraf gaan, bij een renovatie. Meer lees je in het artikel over dakfolie die kapot is.` },
+    ],
+  },
 ];
 
 // Kort antwoord bovenaan een artikel. Geen bedragen.
@@ -677,4 +719,5 @@ export const KORT_ANTWOORD_5: Record<string, string> = {
   "dak-lekt-na-dagen-regen": `Lekt je dak pas na een paar dagen regen, en niet bij een korte bui, dan trekt het water meestal langzaam ergens doorheen of loopt er iets pas na dagen over: oude pannen die water opnemen, de stenen van de schoorsteen, een goot of kilgoot die langzaam volloopt, of een plas op het platte dak. Kijk tijdens zo'n natte periode met een zaklamp op zolder waar het begint.`,
   "dak-jaren-50-huis-lekt": `Bij een huis uit de jaren '50 lekt het dak meestal bij het lood rond de eigen schoorsteen, op de plek waar een schoorsteen is weggehaald, bij een nok in oude specie, bij een naad in de zinken goot of bij een pan die is verschoven. Vaak ligt er geen folie onder de pannen, dus het water komt meestal vlak onder het lek binnen. Een gerichte reparatie is vaak genoeg.`,
   "schimmel-op-zolder": `Zit de schimmel op zolder op één plek, met een kring eromheen, en wordt die plek na een bui donker of nat, dan komt er meestal water van buiten door een lek. Zitten er fijne zwarte puntjes verspreid over een groot stuk van het dakbeschot, ook op droge dagen, dan is het meestal condens: vocht uit je eigen huis dat tegen het koude dak neerslaat. Bij een lek ligt de oplossing op het dak, bij condens binnen, bij ventilatie en vocht.`,
+  "dak-nakijken-voor-zolder-verbouwen": `Ga je je zolder verbouwen, laat dan eerst je dak nakijken, want na het afwerken zie je de onderkant van het dak niet meer. Laat vooraf gebroken of verschoven pannen, een losse nok, los lood rond de schoorsteen en de kraag rond pijpen door het dak maken. Zorg dat het dak dicht is voordat de isolatie erin gaat, en vraag het isolatiebedrijf hoe het vocht uit je nieuwe kamer weg kan.`,
 };
