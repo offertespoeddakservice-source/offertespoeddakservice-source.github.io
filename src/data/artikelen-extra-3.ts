@@ -319,6 +319,9 @@ export const ARTIKELEN_EXTRA_3: Artikel[] = [
       { kop: `Of is het condens?`, tekst: [
         `Warme lucht uit je huis bevat vocht. Sluit het luik niet goed aan, dan stroomt die warme lucht langs de kieren de koude zolder op. Daar koelt hij af tegen de pannen, de folie of het hout, en het vocht slaat neer. Die druppels vallen terug op de vloer en lopen naar het luik, of het luik zelf wordt aan de zolderkant nat. Dat zie je vooral na koude, heldere nachten, vaak op meer plekken tegelijk, ook als het dagen droog is geweest. Zie <a href="/kennisbank/condens-of-lekkage-op-zolder/">condens of lekkage op zolder</a>.`,
       ] },
+      { kop: `Zwarte puntjes rond het luik?`, tekst: [
+        `Zie je aan de zolderkant van het luik, in de hoeken van het luikgat of op het hout erboven zwarte puntjes of grijze plekken, dan is het daar al langer vochtig. Rond een luik dat niet goed sluit, is dat meestal condens. Zit het op één plek met een kring eromheen, en wordt die plek na een bui donker, dan eerder een lek. Hoe je het verschil ziet, lees je bij <a href="/kennisbank/schimmel-op-zolder/">schimmel op zolder: lek of condens?</a>`,
+      ] },
       { kop: `Zo zie je het verschil`, tekst: [
         `Ga met een zaklamp op zolder kijken, tijdens of vlak na een bui als dat veilig kan. Volg het natte spoor op de vloer of langs een balk terug naar boven. Komt het uit één hoek, bij de schoorsteen, een dakraam of een pijp, en alleen als het regent? Dan is het een lek. Zie je druppels verspreid over de onderkant van het dak en is het ook nat na een droge, koude nacht? Dan is het eerder condens. Maak foto's van wat je ziet, met de datum en het weer erbij.`,
       ] },
@@ -402,6 +405,9 @@ export const ARTIKELEN_EXTRA_3: Artikel[] = [
       ] },
       { kop: `Zo maak je je vraag duidelijk`, tekst: [
         `Hoe meer een dakdekker vooraf ziet, hoe sneller hij weet hoe dringend het is en wat hij mee moet nemen. Stuur daarom in één bericht een foto van de natte plek binnen, een of twee foto's van je dak vanaf de overkant van de straat, gemaakt met de zoom van je telefoon, je adres, en of het nu druppelt of alleen nat is geweest. Zeg erbij of er een pan, een nokvorst of een stuk goot op straat of in de tuin ligt. Een paar zinnen en goede foto's zeggen vaak meer dan een lang telefoongesprek.`,
+      ] },
+      { kop: `Ben je niet thuis?`, tekst: [
+        `Ben je op vakantie of aan het werk als de storm komt, vraag dan de buren of iemand met een sleutel om binnen het water op te vangen en foto's te maken van de natte plek en van je dak vanaf de straat. Die foto's kun je doorsturen. Wat zij veilig kunnen doen en hoe een reparatie gaat als je weg bent, lees je bij <a href="/kennisbank/lekkage-tijdens-vakantie/">lekkage terwijl je op vakantie bent</a>.`,
       ] },
       { kop: `Welk dak gaat eerst?`, tekst: [
         `Na een storm gaat bij mij een dak voor waar het binnen nat wordt of dat open ligt: een gat waar pannen of een nokvorst zijn weggewaaid, een losgewaaide dakbedekking of een goot die los boven de stoep hangt. Ligt er een pan scheef terwijl het binnen droog blijft, dan kan dat meestal een paar dagen wachten, en dat zeg ik je dan eerlijk. Zo kan ik eerst de daken dichtmaken waar het water nu naar binnen loopt. Wanneer ik bij jou kan komen, hoor je als je een foto stuurt.`,
