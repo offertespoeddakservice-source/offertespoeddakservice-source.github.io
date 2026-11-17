@@ -8,6 +8,7 @@
  * 17-11-2026 ronde 5: lekkage terwijl je op vakantie bent
  * 17-11-2026 ronde 5: lekkende ventilatiepan
  * 17-11-2026 ronde 5: zelf een dakpan terugleggen of vervangen
+ * 18-11-2026 ronde 1: doorslaand vocht of daklek
  */
 import type { Artikel } from "./artikelen";
 
@@ -823,6 +824,49 @@ export const ARTIKELEN_EXTRA_5: Artikel[] = [
       { v: `Mijn pan wordt niet meer gemaakt. Wat nu?`, a: `Dan kan er een pan van een plek die je vanaf de straat niet ziet, op de plek komen die je wel ziet. Op die verborgen plek komt dan een pan die in vorm en maat past, ook als de kleur iets anders is. Dat is werk op het dak zelf, dus laat het doen.` },
     ],
   },
+  {
+    slug: `doorslaand-vocht-of-daklek`,
+    datum: `2026-11-18`,
+    titel: `Doorslaand vocht of een daklek?`,
+    h1: `Natte binnenmuur na regen: doorslaand vocht door de gevel, of een lek van het dak of de goot?`,
+    metaTitle: `Doorslaand vocht of een daklek? | Spoed Dak Service`,
+    metaDescription: `Natte plek op je binnenmuur na regen? Bovenin, vlak onder het plafond, komt het vaak van de goot of het dak. Midden op de muur eerder door de gevel.`,
+    intro: `Na een flinke bui zie je binnen een natte of donkere plek op de muur. Komt dat van je dak, van de goot, of slaat de regen door de gevel heen? Dat laatste heet doorslaand vocht, en daarvoor heb je geen dakdekker nodig. Hieronder lees je hoe je het verschil ziet, zodat je meteen de goede vakman belt.`,
+    secties: [
+      { kop: `Lekt het nu?`, tekst: [
+        `Zet een emmer of een handdoek onder de plek, haal spullen weg en zet de groep in de meterkast uit als het bij een lamp of stopcontact nat is. Ga niet zelf het dak of een ladder op. Wat je verder meteen kunt doen, staat op de <a href="/spoed/">spoedpagina</a>.`,
+      ] },
+      { kop: `Kijk eerst waar de plek zit`, tekst: [
+        `Bovenin de muur, vlak onder het plafond of onder de dakrand. Dan komt het water vaak van boven: een goot die overloopt of lekt, water dat achter de goot langs loopt, of het lood boven een raam of een aanbouw. Lees <a href="/kennisbank/natte-plek-bovenin-muur/">natte plek bovenin de muur</a> en <a href="/kennisbank/water-achter-dakgoot/">water achter de dakgoot</a>.`,
+        `Midden op de muur, als een vlek die opkomt na regen met wind en na een paar droge dagen weer wegtrekt. Dat past eerder bij doorslaand vocht: regen die door de stenen of de voegen van de gevel naar binnen trekt.`,
+        `Onderin de muur, vlak boven de vloer. Dat komt zelden van het dak. Denk dan eerder aan vocht van onderen of aan een leiding.`,
+      ] },
+      { kop: `Wanneer wordt het nat?`, tekst: [
+        `Alleen bij regen met harde wind uit één richting, aan de kant van het huis waar het weer vandaan komt. Dat kan doorslaand vocht zijn, maar ook regen die onder de pannen of langs een raam naar binnen waait. Zie <a href="/kennisbank/dak-lekt-bij-harde-wind/">dak lekt bij harde wind</a>.`,
+        `Bij elke flinke bui, ook zonder veel wind, en vooral als de goot erboven volloopt. Dan zit het vaker in de goot of het dak.`,
+        `Ook na een week zonder regen. Dan komt het meestal niet van buiten. Lees <a href="/kennisbank/lekkage-dakdekker-of-loodgieter/">lekkage: dakdekker of loodgieter?</a>`,
+      ] },
+      { kop: `Wat je buiten ziet`, tekst: [
+        `Kijk tijdens of vlak na een bui vanaf de straat naar de gevel boven de natte plek. Loopt er water over de rand van de goot, of zie je een natte streep onder de goot of de regenpijp, dan zit het daar. Groene strepen op de gevel onder de goot wijzen ook die kant op, zie <a href="/kennisbank/groene-strepen-gevel-onder-dakgoot/">groene strepen op je gevel</a>.`,
+        `Is de gevel op die plek nat en donker terwijl de goot erboven droog blijft, en zie je open voegen, scheurtjes of stenen die lang nat blijven, dan is doorslaand vocht waarschijnlijker.`,
+      ] },
+      { kop: `Een oude muur of een spouwmuur`, tekst: [
+        `Veel oude huizen hebben een massieve muur zonder spouw. Bij zo'n muur trekt slagregen makkelijker helemaal door naar binnen. Een spouwmuur heeft een ruimte tussen de buitenmuur en de binnenmuur, en daar loopt het water normaal gesproken naar beneden. Ook daar kan het soms doorslaan, bijvoorbeeld als er vuil of specie in de spouw ligt. Toch komt een natte plek bovenin bij zo'n muur vaak van de goot, het lood of de dakrand erboven.`,
+      ] },
+      { kop: `Wat je beter niet doet`, tekst: [
+        `Laat de gevel niet meteen impregneren en schilder de binnenmuur niet over zolang je niet weet waar het water vandaan komt. Zit het in de goot of het dak, dan helpt dat niets, en vocht dat al in de muur zit, kan er dan slechter uit. Kit ook geen kieren dicht op de gevel als je niet weet waar het lek zit.`,
+      ] },
+      { kop: `Hoe ik het aanpak`, tekst: [
+        `Stuur me een foto van de natte plek binnen en van de gevel en de goot erboven, het liefst tijdens of vlak na een bui. Ik kijk naar de goot, de uitloop naar de regenpijp, het lood boven ramen en aanbouwen en de dakrand. Zit het daar, dan maak ik het dicht, en je hoort vooraf wat het kost. Zit het in de stenen of de voegen van de gevel, dan zeg ik dat eerlijk: aan de stenen van een gevel werk ik niet, daarvoor heb je een gevelspecialist nodig. Zie <a href="/diensten/daklekkage/">daklekkage</a>.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: daklekkage & spoed`, href: `/diensten/daklekkage/` },
+    faq: [
+      { v: `Kan een lekkende dakgoot een natte binnenmuur geven?`, a: `Ja. Loopt een goot over, of lekt hij bij een naad of de uitloop, dan loopt het water langs de gevel of achter de goot de muur in. Binnen zie je dat meestal bovenin, vlak onder het plafond. Kijk tijdens een bui of er water over de rand komt, en stuur me daar een foto of een kort filmpje van.` },
+      { v: `Mijn muur is alleen nat aan de kant waar de regen vandaan komt. Is dat doorslaand vocht?`, a: `Dat kan, maar niet altijd. Bij regen met harde wind kan het water ook onder de pannen, langs een raam of achter de goot naar binnen waaien. Zit de plek midden op de muur en blijft de goot erboven droog, dan is doorslaand vocht waarschijnlijker. Zit hij bovenin, kijk dan eerst naar de goot en het dak.` },
+      { v: `Wie bel ik voor doorslaand vocht?`, a: `Een gevelspecialist, die de stenen en de voegen nakijkt. Aan de gevel zelf werk ik niet. Twijfel je of het van de gevel, de goot of het dak komt, stuur me dan een foto van de natte plek en van de gevel erboven. Dan zeg ik eerlijk wie je het beste kunt bellen.` },
+    ],
+  },
 ];
 
 // Kort antwoord bovenaan een artikel. Geen bedragen.
@@ -847,4 +891,5 @@ export const KORT_ANTWOORD_5: Record<string, string> = {
   "lekkage-tijdens-vakantie": `Ben je op vakantie of niet thuis en lekt je dak, laat dan iemand met een sleutel het water opvangen, spullen weghalen en de groep uitzetten als het bij een lamp of stopcontact nat is, zonder op een ladder of het dak te gaan. Laat foto's maken van de natte plek en van het dak vanaf de straat. Een losse pan of nokvorst kan vaak van buiten worden gerepareerd als de prijs vooraf is afgesproken.`,
   "ventilatiepan-lekt": `Druppelt het op zolder onder een ventilatiepan, dan is die pan vaak gebroken, is het kapje weg of ligt hij niet goed in de pannen ernaast. Een paar druppels na een sneeuwstorm of op koude, droge dagen zijn vaak stuifsneeuw of condens, bijvoorbeeld van een losse slang van de ventilatie. Maak een ventilatiepan niet dicht, maar laat een kapotte vervangen door een die bij je dak past.`,
   "dakpan-zelf-terugleggen": `Een verschoven pan kun je soms van binnenuit, vanaf zolder, voorzichtig terugschuiven als er geen folie of plaat onder de pannen zit. Een pan op het dak zelf vervangen doe je liever niet: het dak is glad, pannen breken onder je voet en een pan die niet goed in de sluiting ligt, waait weer los. Bij de nok, de zijkant, de schoorsteen of zonnepanelen laat je het doen.`,
+  "doorslaand-vocht-of-daklek": `Zit de natte plek bovenin de muur, vlak onder het plafond, dan komt het water vaak van een goot die overloopt of lekt, of van het lood of de dakrand erboven. Zit hij midden op de muur, komt hij op na regen met harde wind en trekt hij na een paar droge dagen weer weg, dan is het eerder doorslaand vocht door de stenen of de voegen van de gevel. Wordt het ook nat na dagen zonder regen, denk dan aan een leiding.`,
 };
