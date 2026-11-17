@@ -22,8 +22,8 @@ const titel = `${d.titel} in ${p.naam}`;
 const kop = d.slug === "goten-reinigen" ? `Dakgoot schoonmaken in ${p.naam}` : titel;
 // Kop (h1) van de lekkagepagina's per plaats in de woorden waarop mensen zoeken ('daklekkage vught'), gelijk aan de titel. Alleen pagina's die ouder zijn dan 14 dagen. De h2 eronder blijft zoals hij was. Sinds 12-11-2026 ook Den Bosch, Uden, Veghel, Eindhoven, Waalwijk en Tilburg, sinds 13-11-2026 ook Helmond en Breda. Sinds 16-11-2026 ook Wijchen (gemaakt 01-11).
 const LEK_H1_PLAATSEN = ["oss", "rosmalen", "vught", "berlicum", "vlijmen", "drunen", "boxtel", "schijndel", "heusden", "sint-michielsgestel", "oisterwijk", "den-bosch", "uden", "veghel", "eindhoven", "waalwijk", "tilburg", "helmond", "breda", "wijchen"];
-// Kop (h1) van de gootpagina's per plaats zoals mensen zoeken ('dakgoot reparatie den bosch'), gelijk aan de titel. Alleen pagina's die ouder zijn dan 14 dagen en waarvan de kop nooit is aangepast (12-11-2026). Sinds 14-11-2026 ook Waalwijk en Uden (gemaakt 31-10).
-const GOOT_H1_PLAATSEN = ["den-bosch", "vught", "veghel", "oisterwijk", "boxtel", "sint-michielsgestel", "oss", "waalwijk", "uden"];
+// Kop (h1) van de gootpagina's per plaats zoals mensen zoeken ('dakgoot reparatie den bosch'), gelijk aan de titel. Alleen pagina's die ouder zijn dan 14 dagen en waarvan de kop nooit is aangepast (12-11-2026). Sinds 14-11-2026 ook Waalwijk en Uden (gemaakt 31-10). Sinds 17-11-2026 ook Rosmalen (kop nooit aangepast).
+const GOOT_H1_PLAATSEN = ["den-bosch", "vught", "veghel", "oisterwijk", "boxtel", "sint-michielsgestel", "oss", "waalwijk", "uden", "rosmalen"];
 const h1 = d.slug === "daklekkage" && LEK_H1_PLAATSEN.includes(p.slug)
   ? `Daklekkage in ${p.naam}: lek opsporen en repareren`
   : d.slug === "dakgoot-vervangen" && GOOT_H1_PLAATSEN.includes(p.slug)
@@ -60,7 +60,7 @@ if (d.slug === "dakgoot-vervangen" && p.slug === "veghel") {
   metaTitelPerDienst["dakgoot-vervangen"] = "Dakgoot repareren of vervangen in Veghel";
   omschrijvingPerDienst["dakgoot-vervangen"] = "Lekt je dakgoot in Veghel of een van de kerkdorpen? Ik repareer een lekkende naad, hoek of uitloop, of vervang de goot als hij op is. Stuur een foto voor de prijs.";
 }
-// Dakgoot repareren in Oisterwijk, Boxtel en Sint-Michielsgestel: gemaakt op 29-10, dus vanaf 12-11 mag de titel. Oss: vanaf 13-11 ('dakgoot reparatie oss' plek 55,6). Elk een eigen omschrijving, zonder 'vaste prijs vooraf'. Waalwijk en Uden sinds 14-11-2026.
+// Dakgoot repareren in Oisterwijk, Boxtel en Sint-Michielsgestel: gemaakt op 29-10, dus vanaf 12-11 mag de titel. Oss: vanaf 13-11 ('dakgoot reparatie oss' plek 55,6). Elk een eigen omschrijving, zonder 'vaste prijs vooraf'. Waalwijk en Uden sinds 14-11-2026. Rosmalen sinds 17-11-2026 (158 vertoningen op plek 41, 0 kliks).
 const GOOT_OMSCHRIJVING_NIEUW: Record<string, string> = {
   oisterwijk: "Lekt je dakgoot in Oisterwijk of Moergestel, of zit hij vol naalden en blad? Ik soldeer een lekke naad, zet een losse hoek vast of vervang de goot. Stuur een foto.",
   boxtel: "Druppelt je dakgoot in Boxtel of Liempde bij een hoek of de regenpijp? Ik repareer de naad of uitloop, of vervang de goot als hij op is. App een foto voor de prijs.",
@@ -68,6 +68,7 @@ const GOOT_OMSCHRIJVING_NIEUW: Record<string, string> = {
   oss: "Lekt je dakgoot in Oss of Berghem, of hangt hij door? Een zinken naad soldeer ik, kunststof zet ik weer vast, en een goot die op is vervang ik. App een foto.",
   waalwijk: "Loopt je dakgoot over of lekt hij in Waalwijk, Sprang-Capelle of Waspik? Ik kijk of het een naad, de uitloop of de regenpijp is. Stuur een foto.",
   uden: "Lekt je kunststof dakgoot in Uden bij een naad of hoek, zoals in Bitswijk of Hoenderbos? Vaak is één stuk vervangen genoeg. Stuur een foto.",
+  rosmalen: "Lekt je dakgoot in Rosmalen, of zakt hij bij een rotte houten gootklos? Ik herstel de naad, hang de goot weer op afschot of vervang hem. Stuur een foto.",
 };
 if (d.slug === "dakgoot-vervangen" && GOOT_OMSCHRIJVING_NIEUW[p.slug]) {
   metaTitelPerDienst["dakgoot-vervangen"] = `Dakgoot repareren of vervangen in ${p.naam}`;
@@ -122,7 +123,7 @@ const nieuweStormPaginas = ["waalwijk", "veghel"];
 if (d.slug === "stormschade" && !nieuweStormPaginas.includes(p.slug)) {
   metaTitelPerDienst.stormschade = `Stormschade dak ${p.naam}: afdekken en herstellen`;
 }
-// Dakreparatie in Oss en Waalwijk: gemaakt voor 29-10, titel nooit aangepast ('dakreparatie oss' 82 vertoningen op plek 83, 'dakpannen waalwijk' 44 op plek 71). Titel met dakpannen en nok, eigen omschrijving zonder 'vaste prijs vooraf' (12-11-2026). De andere dakreparatiepagina's meten we eerst. Sinds 14-11-2026 ook Veghel, Vught en Rosmalen (gemaakt voor 1-11, titel nooit aangepast). Sinds 16-11-2026 ook Den Bosch (titel nooit aangepast, 87 vertoningen op plek 42,6).
+// Dakreparatie in Oss en Waalwijk: gemaakt voor 29-10, titel nooit aangepast ('dakreparatie oss' 82 vertoningen op plek 83, 'dakpannen waalwijk' 44 op plek 71). Titel met dakpannen en nok, eigen omschrijving zonder 'vaste prijs vooraf' (12-11-2026). De andere dakreparatiepagina's meten we eerst. Sinds 14-11-2026 ook Veghel, Vught en Rosmalen (gemaakt voor 1-11, titel nooit aangepast). Sinds 16-11-2026 ook Den Bosch (titel nooit aangepast, 87 vertoningen op plek 42,6). Sinds 17-11-2026 ook Oisterwijk (titel nooit aangepast, 124 vertoningen op plek 45).
 const REPARATIE_NIEUW: Record<string, { titel: string; omschrijving: string }> = {
   oss: { titel: "Dakreparatie Oss: dakpannen en nok", omschrijving: "Dakreparatie in Oss, Berghem of Geffen? Ik leg losse pannen terug, vervang een kapotte pan of nokvorst en zet waar nodig stormhaken bij. Stuur een foto." },
   waalwijk: { titel: "Dakreparatie Waalwijk: dakpannen en nok", omschrijving: "Dakreparatie in Waalwijk, Sprang-Capelle of Waspik? Ik vervang kapotte of losse pannen, ook oud-Hollandse, en zet de nok weer vast. Stuur een foto." },
@@ -130,6 +131,7 @@ const REPARATIE_NIEUW: Record<string, { titel: string; omschrijving: string }> =
   vught: { titel: "Dakreparatie Vught: dakpannen, nok en hoekvorsten", omschrijving: "Dakreparatie in Vught? Ik zet losse nok- en hoekvorsten op een schilddak vast, leg gezakte pannen weer recht en vervang wat kapot is. Stuur een foto." },
   rosmalen: { titel: "Dakreparatie Rosmalen: dakpannen en windveer", omschrijving: "Dakreparatie in Rosmalen? Ik zet losse pannen langs de windveer vast, vervang kapotte pannen en maak een lekkende doorvoer dicht. Stuur een foto." },
   "den-bosch": { titel: "Dakreparatie Den Bosch: kapotte en losse dakpannen", omschrijving: "Dakreparatie in Den Bosch? Een gebroken pan vervang ik door een passende, ook bij oude gesmoorde pannen, en losse gevelpannen zet ik weer vast. Stuur een foto." },
+  oisterwijk: { titel: "Dakreparatie Oisterwijk: pannen onder bomen en klimop", omschrijving: "Dakreparatie in Oisterwijk? Pannen die door takken of klimop uit de sluiting zijn geduwd leg ik terug, en een gebroken pan vervang ik door een die past. Stuur een foto." },
 };
 if (d.slug === "dakreparatie" && REPARATIE_NIEUW[p.slug]) {
   metaTitelPerDienst.dakreparatie = REPARATIE_NIEUW[p.slug].titel;
