@@ -7,6 +7,7 @@
 // 16-11-2026 (ronde 3): titel voor Google van lekkage bij de schoorsteen met het zoekwoord vooraan (655 vertoningen, plek 74).
 // 16-11-2026 (ronde 4): titel voor Google van lood-op-dak met schoorsteen en dakraam (plek 5,6, 1 klik uit 78 vertoningen).
 // 16-11-2026 (ronde 5): eigen omschrijving voor Google van lekkage bij een dakdoorvoer (plek 5,9, maar 3,2% klikt).
+// 17-11-2026: titel voor Google van dakleer repareren ('dakleer reparatie' 172 vertoningen op plek 51) en gedeelde schoorsteen (361 vertoningen, 0 kliks).
 // Kennisbank [slug].astro legt hem over het artikel heen: alleen de velden die hier staan, veranderen (ook de titel voor Google).
 import type { Artikel } from "./artikelen";
 
@@ -75,7 +76,7 @@ export const ARTIKEL_CORRECTIES: Record<string, Partial<Pick<Artikel, "secties" 
   "dakinspectie": { metaTitle: "Dakinspectie: wat een dakdekker nakijkt | Spoed Dak Service" },
   "dakpan-kapot-of-verschoven": { metaTitle: "Dakpan scheef, kapot of verschoven? | Spoed Dak Service" },
   "lood-op-dak": { dienst: { label: "Bekijk: lood vastzetten of vervangen", href: "/diensten/lood-vervangen/" }, metaTitle: "Lood rond schoorsteen of dakraam lekt? | Spoed Dak Service" },
-  "lekkage-gedeelde-schoorsteen": { dienst: { label: "Bekijk: lood vervangen bij de schoorsteen", href: "/diensten/lood-vervangen/" } },
+  "lekkage-gedeelde-schoorsteen": { dienst: { label: "Bekijk: lood vervangen bij de schoorsteen", href: "/diensten/lood-vervangen/" }, metaTitle: "Gedeelde schoorsteen lekt: wie betaalt? | Spoed Dak Service" },
   "condens-of-lekkage-op-zolder": { metaTitle: "Condens op zolder of een daklek? | Spoed Dak Service" },
   "dak-lekt-bij-hevige-regen": { metaDescription: "Lekt je dak alleen bij hevige regen of een stortbui? Meestal kan het water dan niet snel genoeg weg bij de goot, een kilgoot, de afvoer van een plat dak of een dakraam." },
   "bakgoot-lekt": { dienst: { label: "Bekijk: bakgoot repareren", href: "/diensten/bakgoot-repareren/" } },
@@ -87,4 +88,5 @@ export const ARTIKEL_CORRECTIES: Record<string, Partial<Pick<Artikel, "secties" 
   "water-uit-lamp-plafond": { metaTitle: "Water uit lamp of spotje? Doe eerst dit | Spoed Dak Service" },
   "lekkage-bij-schoorsteen": { metaTitle: "Lekkage bij schoorsteen: waar zit het? | Spoed Dak Service" },
   "lekkage-bij-dakdoorvoer": { metaDescription: "Druppelt het langs de ontluchting, de afzuiging of de cv-pijp door je dak? Meestal zit het in de kraag of de doorvoerpan. Zo zie je of het een lek is of condens." },
+  "dakleer-repareren": { metaTitle: "Dakleer reparatie: scheur, blaas of lek? | Spoed Dak Service" },
 };
