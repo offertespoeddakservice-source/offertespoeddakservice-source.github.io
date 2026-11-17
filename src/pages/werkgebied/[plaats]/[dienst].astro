@@ -119,6 +119,14 @@ if (d.slug === "daklekkage" && LEK_OMSCHRIJVING_NIEUW[p.slug]) {
   metaTitelPerDienst.daklekkage = `Daklekkage ${p.naam}: lek opsporen en repareren`;
   omschrijvingPerDienst.daklekkage = LEK_OMSCHRIJVING_NIEUW[p.slug];
 }
+// 17-11-2026 ronde 5: daklekkage Vught (186 vertoningen op plek 10,5) en Oisterwijk (84 op plek 9,7), allebei 0 kliks. Titel ongewijzigd sinds eind oktober. Zoekwoord vooraan, daarna wat mensen willen weten. Kop (h1) en omschrijving blijven zoals ze zijn.
+const LEK_TITEL_NIEUW: Record<string, string> = {
+  vught: "Daklekkage Vught? Vaak dezelfde dag langs",
+  oisterwijk: "Daklekkage Oisterwijk? Vaak dezelfde dag langs",
+};
+if (d.slug === "daklekkage" && LEK_TITEL_NIEUW[p.slug]) {
+  metaTitelPerDienst.daklekkage = LEK_TITEL_NIEUW[p.slug];
+}
 // Stormschade per plaats: titel met 'stormschade dak' vooraan, zoals mensen zoeken. Niet voor de stormpagina's die na 23-10 zijn gemaakt (Waalwijk 01-11, Veghel 03-11), die meten we eerst. 17-11-2026: de 14 dagen voor Waalwijk (01-11) en Veghel (03-11) zijn om, dus nu alle stormpagina's.
 const nieuweStormPaginas: string[] = [];
 if (d.slug === "stormschade" && !nieuweStormPaginas.includes(p.slug)) {
