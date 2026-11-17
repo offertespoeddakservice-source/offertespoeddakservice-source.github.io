@@ -6,6 +6,7 @@
  * 17-11-2026 ronde 3: schimmel op zolder (lek of condens)
  * 17-11-2026 ronde 3: dak nakijken voor je de zolder verbouwt
  * 17-11-2026 ronde 5: lekkage terwijl je op vakantie bent
+ * 17-11-2026 ronde 5: lekkende ventilatiepan
  */
 import type { Artikel } from "./artikelen";
 
@@ -741,6 +742,48 @@ export const ARTIKELEN_EXTRA_5: Artikel[] = [
       { v: `Kan ik vanaf mijn vakantieadres alles regelen?`, a: `Meestal wel. Stuur de foto's die de buren maken via WhatsApp door, met je adres en wie er een sleutel heeft. Dan zeg ik wat ik zie, spreken we de prijs af en laat ik weten wanneer ik kom. Moet ik binnen of op zolder kijken, dan stemmen we af wie de deur open doet.` },
     ],
   },
+  {
+    slug: `ventilatiepan-lekt`,
+    datum: `2026-11-17`,
+    titel: `Lekt het bij een ventilatiepan?`,
+    h1: `Lekt of druppelt het bij een ventilatiepan? Kapot, verschoven of condens`,
+    metaTitle: `Ventilatiepan lekt of druppelt: wat nu? | Spoed Dak Service`,
+    metaDescription: `Druppelt het op zolder onder een pan met een roostertje of kapje? Vaak is de ventilatiepan gebroken, verschoven of is het condens. Zo zie je wat het is.`,
+    intro: `Op veel daken ligt tussen de gewone pannen een pan met een roostertje, sleuven of een klein kapje: een ventilatiepan. Daardoor kan er lucht onder de pannen en op zolder komen, zodat vocht weg kan. Wordt het op zolder nat precies onder zo'n pan, dan denk je al snel dat hij lekt. Soms klopt dat, soms is het condens of komt het water van hoger. Hieronder lees je hoe je het verschil ziet en wat eraan te doen is.`,
+    secties: [
+      { kop: `Lekt het nu?`, tekst: [
+        `Zet een emmer of bak onder de druppel en leg spullen opzij. Zit de natte plek bij een lamp of stopcontact, zet dan in de meterkast de groep van die kamer uit. Ga niet zelf het dak op. Wat je verder meteen kunt doen, staat op de <a href="/spoed/">spoedpagina</a>.`,
+      ] },
+      { kop: `Wat een ventilatiepan doet`, tekst: [
+        `Een ventilatiepan heeft dezelfde vorm als de pannen ernaast, maar met een opening die aan de bovenkant is afgeschermd. Zo kan er wel lucht door, maar geen regen. Soms zit er onder de pan een slang of kanaal vast, bijvoorbeeld van de ventilatie in de badkamer. Een ventilatiepan zit er dus meestal met een reden. Weghalen of dichtmaken is geen goed idee, want dan blijft het vocht juist binnen.`,
+      ] },
+      { kop: `Waar het meestal zit`, tekst: [
+        `Een gebroken pan of kapje. Een ventilatiepan van kunststof wordt na veel jaren in de zon bros, en een stenen pan kan bij vorst of een storm barsten. Door een scheur of een afgebroken kapje komt de regen naar binnen.`,
+        `Een pan die niet goed ligt. Ligt de ventilatiepan een stukje scheef of niet goed in de sluiting van de pannen ernaast, bijvoorbeeld na een storm of na werk op het dak, dan waait de regen eronder.`,
+        `Stuifsneeuw en slagregen. Bij een sneeuwstorm of harde regen uit één hoek kan er door een hele ventilatiepan een beetje sneeuw of water naar binnen waaien. Een paar druppels na zo'n bui zijn vaak geen lek. Komt het bij elke bui terug, dan wel. Lees ook <a href="/kennisbank/dak-lekt-bij-sneeuw-of-vorst/">dak lekt bij sneeuw of vorst</a>.`,
+        `Condens. Zit er onder de pan een slang van de ventilatie of de badkamer die los is geraakt, dan blaast er warme, vochtige lucht tegen het koude dak. Dat geeft druppels die op een lek lijken, vaak juist op koude, droge dagen. Zie <a href="/kennisbank/condens-of-lekkage-op-zolder/">condens of lekkage op zolder</a>.`,
+        `Water van hoger. Onder de pannen loopt water vaak een eind naar beneden voordat het binnenkomt. De natte plek onder de ventilatiepan kan dus ook van een pan, de nok of het lood erboven komen. Zie <a href="/kennisbank/daklekkage-opsporen/">daklekkage opsporen</a>.`,
+      ] },
+      { kop: `Zo zie je het verschil`, tekst: [
+        `Kijk tijdens of vlak na een bui met een zaklamp op zolder. Zie je daglicht naast de pan, of is de plek alleen na regen nat, dan zit het meestal in de pan of in hoe hij ligt. Is het ook nat na een droge, koude nacht, of hangt er een losse slang onder de pan, dan is het eerder condens. Kijk op een droge dag vanaf de overkant van de straat met de zoom van je telefoon of de pan heel is en net zo plat ligt als de pannen ernaast, en maak een foto.`,
+      ] },
+      { kop: `Wat je beter niet doet`, tekst: [
+        `Prop geen doeken, isolatie of tape in de opening van de pan en kit hem niet dicht. Dan houd je het vocht binnen, en op den duur geeft dat schimmel op het hout. Ga niet zelf het dak op en zet geen ladder tegen de goot.`,
+      ] },
+      { kop: `Hoe ik het aanpak`, tekst: [
+        `Ik kijk eerst op zolder waar het water binnenkomt en daarna op het dak. Is de ventilatiepan gebroken of is het kapje weg, dan vervang ik hem door een ventilatiepan die bij je dak past. Ligt hij scheef, dan leg ik hem en de pannen eromheen weer goed in de sluiting. Komt het water van hoger, dan zoek ik verder bij de pannen, de nok of het lood. Zit er een losse slang van de ventilatie onder, dan zeg ik dat eerlijk: die aansluiten doet je installateur. Zie ook <a href="/diensten/dakpannen-vervangen/">dakpannen vervangen</a> en <a href="/kennisbank/lekkage-bij-dakdoorvoer/">lekkage bij een dakdoorvoer</a>.`,
+      ] },
+      { kop: `Wat kost het?`, tekst: [
+        `Een ventilatiepan vervangen of terugleggen is meestal een kleine reparatie. Stuur een foto van de pan vanaf de straat en van de natte plek op zolder via WhatsApp, dan hoor je vooraf wat het kost. Richtprijzen staan op de <a href="/prijzen/">prijzenpagina</a>.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: dakpannen vervangen`, href: `/diensten/dakpannen-vervangen/` },
+    faq: [
+      { v: `Kan ik een ventilatiepan gewoon dicht laten maken?`, a: `Liever niet. Hij zit er meestal om vocht onder de pannen en op zolder weg te laten. Maak je hem dicht, dan blijft dat vocht binnen. Is hij kapot, laat hem dan vervangen door een nieuwe ventilatiepan die bij je dak past.` },
+      { v: `Hoe zie ik of ik een ventilatiepan heb?`, a: `Kijk vanaf de straat of vanuit de tuin naar je dak. Een ventilatiepan heeft de kleur en vorm van de pannen ernaast, maar met een roostertje, sleuven of een klein kapje erop. Op zolder zie je eronder vaak een opening in de folie of een slang die erop vastzit.` },
+      { v: `Is een lekkende ventilatiepan spoed?`, a: `Druppelt het bij elke bui, of zit de natte plek bij een lamp of stopcontact, dan wel: zet de groep uit en stuur me een foto. Een paar druppels na een sneeuwstorm of op een koude ochtend zijn meestal geen spoed, maar laat het wel nakijken als het terugkomt.` },
+    ],
+  },
 ];
 
 // Kort antwoord bovenaan een artikel. Geen bedragen.
@@ -763,4 +806,5 @@ export const KORT_ANTWOORD_5: Record<string, string> = {
   "schimmel-op-zolder": `Zit de schimmel op zolder op één plek, met een kring eromheen, en wordt die plek na een bui donker of nat, dan komt er meestal water van buiten door een lek. Zitten er fijne zwarte puntjes verspreid over een groot stuk van het dakbeschot, ook op droge dagen, dan is het meestal condens: vocht uit je eigen huis dat tegen het koude dak neerslaat. Bij een lek ligt de oplossing op het dak, bij condens binnen, bij ventilatie en vocht.`,
   "dak-nakijken-voor-zolder-verbouwen": `Ga je je zolder verbouwen, laat dan eerst je dak nakijken, want na het afwerken zie je de onderkant van het dak niet meer. Laat vooraf gebroken of verschoven pannen, een losse nok, los lood rond de schoorsteen en de kraag rond pijpen door het dak maken. Zorg dat het dak dicht is voordat de isolatie erin gaat, en vraag het isolatiebedrijf hoe het vocht uit je nieuwe kamer weg kan.`,
   "lekkage-tijdens-vakantie": `Ben je op vakantie of niet thuis en lekt je dak, laat dan iemand met een sleutel het water opvangen, spullen weghalen en de groep uitzetten als het bij een lamp of stopcontact nat is, zonder op een ladder of het dak te gaan. Laat foto's maken van de natte plek en van het dak vanaf de straat. Een losse pan of nokvorst kan vaak van buiten worden gerepareerd als de prijs vooraf is afgesproken.`,
+  "ventilatiepan-lekt": `Druppelt het op zolder onder een ventilatiepan, dan is die pan vaak gebroken, is het kapje weg of ligt hij niet goed in de pannen ernaast. Een paar druppels na een sneeuwstorm of op koude, droge dagen zijn vaak stuifsneeuw of condens, bijvoorbeeld van een losse slang van de ventilatie. Maak een ventilatiepan niet dicht, maar laat een kapotte vervangen door een die bij je dak past.`,
 };
