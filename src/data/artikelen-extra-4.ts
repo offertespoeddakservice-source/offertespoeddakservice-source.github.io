@@ -506,6 +506,9 @@ export const ARTIKELEN_EXTRA_4: Artikel[] = [
       { kop: `Lekt het bij jou of bij de buren?`, tekst: [
         `In een rij lopen de pannen, de nok en de goot vaak door over de grens tussen twee huizen. Water dat bij de buren onder een pan komt, kan bij jou binnen een natte plek geven. Is het nat vlak langs de muur met de buren, lees dan <a href="/kennisbank/lekkage-muur-buren/">nat langs de muur met de buren</a>. Hebben je buren hun dak net vernieuwd, kijk dan bij <a href="/kennisbank/lekkage-na-dakwerk-buren/">lekt het sinds dakwerk bij de buren?</a>`,
       ] },
+      { kop: `Is je huis van na 1980?`, tekst: [
+        `Dan ligt er vaak een ander soort dak. Onder de pannen liggen meestal dakplaten met isolatie in plaats van losse planken, de nok ligt steeds vaker droog met klemmen, de goot is van kunststof en er gaan meer pijpen door het dak voor de cv-ketel en de ventilatie. Waar zo'n dak lekt, lees je in <a href="/kennisbank/dak-jaren-90-huis-lekt/">het dak van een huis uit de jaren '80 of '90</a>.`,
+      ] },
       { kop: `Repareren of het dak vernieuwen?`, tekst: [
         `Een paar losse pannen, een vorst of een kraag rond een pijp is een gewone reparatie. Moet er elk jaar ergens anders iets gebeuren, liggen er na een vorstperiode schilfers in de goot of zit de nok over de hele lengte los, dan is een dakvlak vernieuwen op termijn vaak slimmer. Dat hoeft niet altijd het hele dak te zijn, en in een rij kun je ook alleen je eigen dak laten doen, met een nette aansluiting op de buren. Lees <a href="/kennisbank/dak-vernieuwen-rijtjeshuis/">je dak vernieuwen in een rijtjeshuis</a> en <a href="/kennisbank/hoe-lang-gaat-een-dak-mee/">hoe lang gaat een pannendak mee</a>. Bij een renovatie kan er op wens nieuwe folie en nieuwe panlatten onder de pannen, zie <a href="/diensten/dakrenovatie/">dakrenovatie</a>. Woon je in Waalwijk, lees dan ook <a href="/werkgebied/waalwijk/dakrenovatie/">dakrenovatie in Waalwijk</a>.`,
       ] },
