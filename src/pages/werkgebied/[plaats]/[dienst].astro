@@ -119,12 +119,12 @@ if (d.slug === "daklekkage" && LEK_OMSCHRIJVING_NIEUW[p.slug]) {
   metaTitelPerDienst.daklekkage = `Daklekkage ${p.naam}: lek opsporen en repareren`;
   omschrijvingPerDienst.daklekkage = LEK_OMSCHRIJVING_NIEUW[p.slug];
 }
-// Stormschade per plaats: titel met 'stormschade dak' vooraan, zoals mensen zoeken. Niet voor de stormpagina's die na 23-10 zijn gemaakt (Waalwijk 01-11, Veghel 03-11), die meten we eerst.
-const nieuweStormPaginas = ["waalwijk", "veghel"];
+// Stormschade per plaats: titel met 'stormschade dak' vooraan, zoals mensen zoeken. Niet voor de stormpagina's die na 23-10 zijn gemaakt (Waalwijk 01-11, Veghel 03-11), die meten we eerst. 17-11-2026: de 14 dagen voor Waalwijk (01-11) en Veghel (03-11) zijn om, dus nu alle stormpagina's.
+const nieuweStormPaginas: string[] = [];
 if (d.slug === "stormschade" && !nieuweStormPaginas.includes(p.slug)) {
   metaTitelPerDienst.stormschade = `Stormschade dak ${p.naam}: afdekken en herstellen`;
 }
-// Dakreparatie in Oss en Waalwijk: gemaakt voor 29-10, titel nooit aangepast ('dakreparatie oss' 82 vertoningen op plek 83, 'dakpannen waalwijk' 44 op plek 71). Titel met dakpannen en nok, eigen omschrijving zonder 'vaste prijs vooraf' (12-11-2026). De andere dakreparatiepagina's meten we eerst. Sinds 14-11-2026 ook Veghel, Vught en Rosmalen (gemaakt voor 1-11, titel nooit aangepast). Sinds 16-11-2026 ook Den Bosch (titel nooit aangepast, 87 vertoningen op plek 42,6). Sinds 17-11-2026 ook Oisterwijk (titel nooit aangepast, 124 vertoningen op plek 45).
+// Dakreparatie in Oss en Waalwijk: gemaakt voor 29-10, titel nooit aangepast ('dakreparatie oss' 82 vertoningen op plek 83, 'dakpannen waalwijk' 44 op plek 71). Titel met dakpannen en nok, eigen omschrijving zonder 'vaste prijs vooraf' (12-11-2026). De andere dakreparatiepagina's meten we eerst. Sinds 14-11-2026 ook Veghel, Vught en Rosmalen (gemaakt voor 1-11, titel nooit aangepast). Sinds 16-11-2026 ook Den Bosch (titel nooit aangepast, 87 vertoningen op plek 42,6). Sinds 17-11-2026 ook Oisterwijk (titel nooit aangepast, 124 vertoningen op plek 45). Sinds 17-11-2026 (ronde 4) ook Boxtel (titel nooit aangepast).
 const REPARATIE_NIEUW: Record<string, { titel: string; omschrijving: string }> = {
   oss: { titel: "Dakreparatie Oss: dakpannen en nok", omschrijving: "Dakreparatie in Oss, Berghem of Geffen? Ik leg losse pannen terug, vervang een kapotte pan of nokvorst en zet waar nodig stormhaken bij. Stuur een foto." },
   waalwijk: { titel: "Dakreparatie Waalwijk: dakpannen en nok", omschrijving: "Dakreparatie in Waalwijk, Sprang-Capelle of Waspik? Ik vervang kapotte of losse pannen, ook oud-Hollandse, en zet de nok weer vast. Stuur een foto." },
@@ -133,6 +133,7 @@ const REPARATIE_NIEUW: Record<string, { titel: string; omschrijving: string }> =
   rosmalen: { titel: "Dakreparatie Rosmalen: dakpannen en windveer", omschrijving: "Dakreparatie in Rosmalen? Ik zet losse pannen langs de windveer vast, vervang kapotte pannen en maak een lekkende doorvoer dicht. Stuur een foto." },
   "den-bosch": { titel: "Dakreparatie Den Bosch: kapotte en losse dakpannen", omschrijving: "Dakreparatie in Den Bosch? Een gebroken pan vervang ik door een passende, ook bij oude gesmoorde pannen, en losse gevelpannen zet ik weer vast. Stuur een foto." },
   oisterwijk: { titel: "Dakreparatie Oisterwijk: pannen onder bomen en klimop", omschrijving: "Dakreparatie in Oisterwijk? Pannen die door takken of klimop uit de sluiting zijn geduwd leg ik terug, en een gebroken pan vervang ik door een die past. Stuur een foto." },
+  boxtel: { titel: "Dakreparatie Boxtel: kapotte en verschoven pannen", omschrijving: "Dakreparatie in Boxtel, Liempde of Esch? Ik vervang pannen die door een ladder of een storm zijn gebroken of verschoven, ook op een schuur. Stuur een foto." },
 };
 if (d.slug === "dakreparatie" && REPARATIE_NIEUW[p.slug]) {
   metaTitelPerDienst.dakreparatie = REPARATIE_NIEUW[p.slug].titel;
