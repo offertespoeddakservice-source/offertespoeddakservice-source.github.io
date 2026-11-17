@@ -195,6 +195,8 @@ export const DIENSTEN: Dienst[] = [
       { label: "Nokvorsten repareren of vervangen", href: "/diensten/nokvorsten-vervangen/" },
       { label: "Lood bij schoorsteen, muur of dakraam vervangen", href: "/diensten/lood-vervangen/" },
       { label: "Dakdoorvoer plaatsen", href: "/diensten/dakdoorvoer/" },
+      { label: "Windveer vervangen of vastzetten", href: "/diensten/windveer-vervangen/" },
+      { label: "Lekkend dakraam repareren", href: "/diensten/dakraam-lekkage/" },
     ],
     h1: "Spoed dakreparatie: pannen, lood en nokvorsten hersteld",
     kort: "Gebroken pannen, lood bij schoorsteen of dakraam, losse nokvorsten.",
@@ -209,7 +211,7 @@ export const DIENSTEN: Dienst[] = [
       "Gebroken of verschoven dakpannen vervangen",
       "Lood/loodslabben bij schoorsteen, dakkapel en dakraam",
       "Nokvorsten opnieuw vastzetten of vervangen",
-      "Kitwerk en aansluitingen waterdicht maken",
+      "Aansluitingen rond pijpen, dakramen en muren weer waterdicht, niet met alleen een rand kit",
     ],
     faq: [
       {
