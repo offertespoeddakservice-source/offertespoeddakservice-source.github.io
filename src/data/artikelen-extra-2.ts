@@ -559,6 +559,9 @@ export const FAQ_ERBIJ_2: Record<string, Artikel["faq"]> = {
   "dak-vernieuwen-rijtjeshuis": [
     { v: `Krijg ik subsidie als ik het dak van mijn rijtjeshuis laat vernieuwen?`, a: `Voor alleen nieuwe pannen, een nieuwe nok of nieuw lood is er in de regel geen subsidie. Laat je het dak tegelijk isoleren, dan is er voor die isolatie soms wel een regeling, landelijk via de ISDE-subsidie of bij je gemeente. Kijk daarvoor op rvo.nl en op de site van je gemeente, want de regels en bedragen veranderen. Isoleren doe ik zelf niet. Gaan de pannen er bij de renovatie toch af, overleg dan met het isolatiebedrijf of het isoleren op hetzelfde moment kan, zodat het dak maar één keer open hoeft. Woon je in een rijksmonument, kijk dan ook bij de Rijksdienst voor het Cultureel Erfgoed welke regelingen er zijn.` },
   ],
+  "dakgoot-zelf-schoonmaken": [
+    { v: `Kan ik mijn dakgoot schoonmaken zonder ladder, met een lange steel of een bladblazer?`, a: `Bij een lage goot, zoals van een schuur, garage of aanbouw, lukt dat soms. Met een telescoopsteel met een grijper of haakje trek je vanaf de grond los blad uit de goot, en met een bladblazer met een gebogen verlengstuk blaas je droog blad eruit. Bij een goot op de eerste verdieping of hoger werkt het meestal slecht: je ziet niet wat je doet, nat blad en de laag slib onderin blijven liggen, en bij de uitloop naar de regenpijp, waar het vaak vastzit, kom je zo niet. Wat je eruit blaast, komt op je pannen, je terras of bij de buren terecht. Zet geen ladder tegen de goot zelf. Kun je er niet veilig bij, laat het dan doen. Eén goot, bijvoorbeeld alleen de voorgoot, kost ${inclBtw("goot_reinigen")}. Voor beide goten hoor je vooraf de prijs.` },
+  ],
 };
 
 // Artikelen en korte antwoorden uit artikelen-extra-3.ts (sinds 12-11-2026) erachter, zodat ze via artikelen-extra.ts in ARTIKELEN en KORT_ANTWOORD komen.
