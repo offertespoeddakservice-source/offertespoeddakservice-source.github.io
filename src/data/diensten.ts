@@ -633,7 +633,7 @@ export const DIENSTEN: Dienst[] = [
     kort: "Los, gescheurd of opgekruld lood vastzetten of vervangen, zodat het water weer over de pannen loopt.",
     metaTitle: "Schoorsteen lekt? Lood vervangen | Spoed Dak Service",
     metaDescription:
-      "Lekt het bij je schoorsteen, langs de muur of bij een dakraam? Vaak zit het lood los of is het gescheurd. Ik zet het vast of vervang het. Stuur een foto, dan hoor je wat het kost.",
+      "Lekt het bij je schoorsteen, langs een muur of bij een dakraam? Vaak zit het lood los of is het gescheurd. Ik zet het vast of vervang het. Stuur een foto.",
     icoon: "🧰",
     geenAfbeelding: true,
     fotos: ["/fotos/open-dak-gescheurd-zink-5927e8.webp", "/fotos/schoorsteen-met-loodslabben-173c1a.webp"],
@@ -782,7 +782,7 @@ export const DIENSTEN: Dienst[] = [
     kort: "Een nieuwe doorvoer door je pannendak, netjes en waterdicht aangesloten op de pannen.",
     metaTitle: "Dakdoorvoer plaatsen of vervangen | Spoed Dak Service",
     metaDescription:
-      "Een dakdoorvoer nodig voor ventilatie, een afzuigkap, een WTW-unit of een rookgasafvoer? Ik plaats hem door je pannendak en sluit hem waterdicht aan. Stuur een foto voor de prijs.",
+      "Lekt het langs een pijp door je dak, of moet er een afvoer voor ventilatie of afzuiging door? Ik maak de doorvoer dicht of plaats een nieuwe. Stuur een foto.",
     icoon: "🧰",
     geenAfbeelding: true,
     fotos: ["/fotos/rookgasafvoer-door-pannendak-653b84.webp"],
