@@ -32,7 +32,8 @@ const h1 = d.slug === "daklekkage" && LEK_H1_PLAATSEN.includes(p.slug)
 // Titel en omschrijving per dienst waar de standaardzin niet goed loopt; de andere diensten houden de standaard.
 const gotenPrijs = PRIJZEN.find((r) => r.sleutel === "goot_reinigen")?.prijs ?? "";
 const metaTitelPerDienst: Record<string, string> = {
-  "goten-reinigen": `Dakgoot schoonmaken in ${p.naam}`,
+  // 17-11-2026: bij dakgoot schoonmaken per plaats de vanaf-prijs uit prijzen.ts in de titel, net als op de dienstpagina. Er wordt vooral op prijs gezocht, en de 14 pagina's hadden samen honderden vertoningen en 0 kliks.
+  "goten-reinigen": `Dakgoot schoonmaken in ${p.naam}: ${gotenPrijs}`,
 };
 const omschrijvingPerDienst: Record<string, string> = {
   "goten-reinigen": `Dakgoot schoonmaken in ${p.naam}: ${gotenPrijs} incl. btw voor één goot, uitloop naar de regenpijp vrij en eerlijk advies over je dak. Stuur een foto of app Rens.`,
