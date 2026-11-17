@@ -587,6 +587,9 @@ export const ARTIKELEN_EXTRA_4: Artikel[] = [
       { kop: `Zit het beneden in een buitenmuur?`, tekst: [
         `Zit het stopcontact op de begane grond in een buitenmuur, en ligt er geen dak of goot vlak boven, dan komt het water vaker door de gevel zelf, langs een kozijn of via een buitenlamp of buitenstopcontact. Dat is geen werk voor een dakdekker. Zit er wel een dakje of goot vlak boven, zoals bij een erker of een luifel, dan kan het water daarvandaan komen. Zie <a href="/kennisbank/erker-lekt/">erker of luifel lekt</a>.`,
       ] },
+      { kop: `Is het nat in je meterkast?`, tekst: [
+        `Komt het water niet bij een stopcontact maar in de meterkast naar buiten, bij de groepenkast, langs de kabels of op de vloer, dan doe je eerst hetzelfde: niets aanraken met natte handen en de stroom eraf als dat veilig kan. Waar het water in de meterkast vandaan kan komen, van het afdakje boven de voordeur tot de kabels uit de straat, lees je in <a href="/kennisbank/lekkage-meterkast-bij-regen/">water in je meterkast als het regent</a>.`,
+      ] },
       { kop: `Of is het een leiding?`, tekst: [
         `Druppelt het ook als het dagen droog is, of zit er boven of naast die muur een badkamer, toilet of keuken, dan is een waterleiding of afvoer waarschijnlijker. Dan bel je een loodgieter. Lees ook <a href="/kennisbank/lekkage-dakdekker-of-loodgieter/">lekkage: dakdekker of loodgieter?</a>`,
       ] },
