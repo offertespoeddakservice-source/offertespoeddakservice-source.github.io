@@ -547,6 +547,9 @@ export const FAQ_ERBIJ_2: Record<string, Artikel["faq"]> = {
   "gedeelde-dakgoot-lekt": [
     { v: `De lekke naad zit boven de tuin van de buren, en zij willen niet dat er iemand door hun tuin komt. Wat nu?`, a: `Praat eerst rustig met je buren en laat ze de foto zien van de plek waar het lekt. Vaak helpt het als ze weten dat het om een korte klus gaat, wanneer die is en dat er geen rommel achterblijft. Kan het werk echt alleen via hun tuin of hun dak, dan geeft de wet je in de regel het recht om voor nodig onderhoud tijdelijk het erf van de buren te gebruiken, als het anders niet of alleen tegen veel hogere kosten kan. Dat heet het ladderrecht, en het staat in artikel 5:56 van het Burgerlijk Wetboek. Ontstaat er daarbij schade, dan moet die worden vergoed. Komen jullie er samen niet uit, dan kun je advies vragen bij buurtbemiddeling of bij je rechtsbijstandsverzekering, als je die hebt. Soms kan ik er ook vanaf jouw kant bij, bijvoorbeeld vanaf je eigen dak of via een ander stuk van de goot. Stuur me een foto van de goot vanaf de straat, dan kijk ik wat er kan. Meer lees je in het artikel over je dak laten repareren via de buren.` },
   ],
+  "wat-kost-een-dakinspectie": [
+    { v: `Wat kost een dakinspectie als ik een huis wil kopen?`, a: `Dan doe ik de gewone Dak-APK. Wat die kost, staat op de pagina over de Dak-APK. Wel heb ik vooraf toestemming van de verkoper nodig om op het dak en op zolder te kijken. Je krijgt een rapport met foto's van de pannen, de nok, het lood, de goten en sporen van vocht. Zie ik iets wat gemaakt moet worden, dan hoor je wat dat kost, zodat je dat kunt meenemen voordat je tekent. Meer lees je in het artikel over het dak laten keuren als je een huis koopt.` },
+  ],
 };
 
 // Artikelen en korte antwoorden uit artikelen-extra-3.ts (sinds 12-11-2026) erachter, zodat ze via artikelen-extra.ts in ARTIKELEN en KORT_ANTWOORD komen.
