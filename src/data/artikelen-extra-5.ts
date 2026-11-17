@@ -1,6 +1,7 @@
 /**
  * Nieuwe kennisartikelen en korte antwoorden sinds 16-11-2026.
  * artikelen-extra-4.ts zet ze achter ARTIKELEN_EXTRA_4 en in KORT_ANTWOORD_4.
+ * 17-11-2026 ronde 2: water in de meterkast
  */
 import type { Artikel } from "./artikelen";
 
@@ -436,6 +437,51 @@ export const ARTIKELEN_EXTRA_5: Artikel[] = [
       { v: `Is een lekkende hoek van de goot spoed?`, a: `Meestal niet, zolang het buiten druppelt. Laat het wel maken voor de winter, want water dat in de hoek blijft staan, bevriest en drukt de naad verder open. Komt het water binnen of hangt de hoek los boven de stoep, dan wel: zet een bak neer en bel of app me met een foto.` },
     ],
   },
+  {
+    slug: `lekkage-meterkast-bij-regen`,
+    datum: `2026-11-17`,
+    titel: `Water in je meterkast als het regent?`,
+    h1: `Water in je meterkast als het regent: komt het van het dak, de goot of van onderen?`,
+    metaTitle: `Water in de meterkast bij regen? | Spoed Dak Service`,
+    metaDescription: `Nat in je meterkast na een bui? Eerst veilig blijven, dan uitzoeken waar het vandaan komt: het afdakje boven de voordeur, de goot, het dak of van onderen.`,
+    intro: `Na een flinke bui staat er een plasje onder de meters, loopt er een natte streep langs de kabels of druppelt het bij de groepenkast. Dat wil je snel opgelost hebben, want in de meterkast komt de stroom van je hele huis samen. Het goede nieuws: het water komt meestal langs een vaste route binnen, en die is goed te vinden. Hieronder lees je wat je eerst doet, welke routes er zijn en wie welk deel oplost.`,
+    secties: [
+      { kop: `Eerst veilig`, tekst: [
+        `Raak in een natte meterkast niets aan met natte handen en ga niet in een plas staan. Kun je de hoofdschakelaar bereiken zonder natte onderdelen aan te raken, zet hem dan uit. Lukt dat niet veilig, ruik je een brandlucht of zie je vonken, ga dan weg bij de kast en bel je netbeheerder. Het storingsnummer staat vaak in de meterkast of op de site van je netbeheerder. Is er direct gevaar, bel dan 112.`,
+        `Leg daarna een handdoek neer of zet een bak onder de druppel, en laat een installateur de groepenkast nakijken voordat de stroom weer aangaat. Wat je verder meteen doet bij een lek, staat op de <a href="/spoed/">spoedpagina</a>.`,
+      ] },
+      { kop: `Boven, langs de kabels of op de vloer?`, tekst: [
+        `Kijk met een zaklamp waar het water het eerst te zien is. Is de muur bovenin nat, of loopt er een streep langs de kabels of buizen naar beneden, dan komt het van boven. Is alleen de vloer nat, terwijl de muren en de kabels erboven droog zijn, dan komt het eerder van onderen. Maak een foto van de natte plek en vergelijk die na de volgende bui.`,
+        `Let ook op wanneer het nat wordt. Alleen tijdens of vlak na regen wijst naar buiten. Ook na een paar dagen zonder regen wijst eerder naar een leiding, bijvoorbeeld bij de watermeter of een afvoer van de wc of badkamer erboven. Dan heb je een loodgieter nodig. Zie <a href="/kennisbank/lekkage-dakdekker-of-loodgieter/">lekkage: dakdekker of loodgieter?</a>`,
+      ] },
+      { kop: `Het afdakje boven de voordeur`, tekst: [
+        `In veel rijtjeshuizen en twee-onder-een-kappers zit de meterkast in de hal, vlak naast de voordeur. Boven die deur zit vaak een afdakje of luifel, en waar dat dakje tegen de gevel komt, ligt een strook lood of zink die het water van de muur over het dakje leidt. Komt die strook los, scheurt hij in een hoek of is de bedekking van het dakje zelf kapot, dan loopt het water de muur in. Het zakt naar beneden en komt vaak juist in de meterkast naar buiten, omdat daar kabels en buizen door de muur gaan.`,
+        `Zie je ook bladderende verf boven de voordeur, of een donkere streep op de gevel boven het dakje, dan is dit een goede kandidaat. Lees ook <a href="/kennisbank/erker-lekt/">erker of luifel lekt</a>.`,
+      ] },
+      { kop: `De goot en de regenpijp aan de voorkant`, tekst: [
+        `Loopt de goot aan de voorkant over, of lekt hij bij een naad of de uitloop, dan komt er bij een bui veel water tegen de gevel boven je voordeur. Dat kan via de muur of het kozijn naar binnen trekken. Zit de regenpijp naast de voordeur, of loopt hij binnen door een koker in de hal, kijk dan ook naar de verbindingen van die pijp. Zie <a href="/kennisbank/dakgoot-lekt/">dakgoot lekt</a> en <a href="/kennisbank/regenpijp-in-de-muur-lekt/">regenpijp in de muur lekt</a>.`,
+      ] },
+      { kop: `Vanaf het dak, langs een pijp of kabel`, tekst: [
+        `Soms loopt er vanaf zolder iets naar beneden langs of door de meterkast: een ontluchtingspijp, of de kabel van de omvormer van je zonnepanelen naar de groepenkast. Komt er boven water binnen waar zo'n pijp of kabel door het dak gaat, dan kan het daar helemaal langs naar beneden lopen. Kijk op zolder of de pijp of de kabel daar ook nat is. Zie <a href="/kennisbank/lekkage-bij-dakdoorvoer/">lekkage bij een dakdoorvoer</a> en <a href="/kennisbank/lekkage-bij-zonnepanelen/">lekkage bij zonnepanelen</a>.`,
+      ] },
+      { kop: `Van onderen: de kabels uit de straat`, tekst: [
+        `De kabels en leidingen van de straat komen meestal onder in de meterkast binnen, door buizen in de vloer of de fundering. Na veel regen, als de grond nat is, kan daar water langs naar binnen komen. Je ziet dat aan een natte vloer of een natte onderkant van de kast, terwijl alles erboven droog is. Dat is geen werk voor een dakdekker. Meld het bij je netbeheerder of laat een installateur kijken.`,
+      ] },
+      { kop: `Condens op de koude leidingen`, tekst: [
+        `Op warme, vochtige dagen kan er condens op de koude waterleiding en de watermeter staan. Dat zijn druppels op de pijp zelf, ook als het niet regent. Dat is geen lek en heeft niets met je dak te maken.`,
+      ] },
+      { kop: `Hoe ik het aanpak`, tekst: [
+        `Stuur me via WhatsApp een foto van de natte plek in de meterkast, een foto van je voorgevel vanaf de overkant van de straat, met het afdakje en de goot erop, en zeg erbij of het alleen bij regen nat wordt. Ter plekke kijk ik naar de strook langs de gevel, het afdakje, de goot en, als het nodig is, op zolder en op het dak. Zit het in het lood, het dakje of de goot, dan maak ik dat dicht. Zit het in de leidingen, de groepenkast of de kabels uit de straat, dan zeg ik dat eerlijk, zodat je de goede vakman belt. Aan de stroom zelf kom ik niet. Je hoort vooraf wat het kost. Zie <a href="/kennisbank/water-uit-stopcontact-bij-regen/">water uit je stopcontact als het regent</a> als het ook bij een stopcontact nat is.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: daklekkage & spoed`, href: `/diensten/daklekkage/` },
+    faq: [
+      { v: `Is water in de meterkast gevaarlijk?`, a: `Het kan gevaarlijk zijn, want in de meterkast komt de stroom van je hele huis samen. Raak niets aan met natte handen, ga niet in het water staan en zet de hoofdschakelaar alleen uit als je erbij kunt zonder natte onderdelen aan te raken. Bel bij twijfel je netbeheerder en bij direct gevaar 112. Laat een installateur de kast nakijken voordat de stroom weer aangaat.` },
+      { v: `Wie bel ik: de netbeheerder, een installateur of een dakdekker?`, a: `Vaak meer dan één. Een installateur voor de veiligheid en de groepenkast, en je netbeheerder bij gevaar of als het water van onderen langs de kabels uit de straat komt. Komt het water van boven, langs de muur of de kabels, en alleen als het regent, dan zit de oorzaak vaak in het afdakje boven de voordeur, de goot of het dak. Daarvoor kun je mij bellen of appen.` },
+      { v: `Kan het condens zijn?`, a: `Ja. Zie je druppels op de koude waterleiding of de watermeter, ook als het niet heeft geregend, dan is het meestal condens en geen lek. Wordt het alleen nat bij regen, of loopt er van boven een natte streep langs de muur of de kabels, dan komt het water eerder van buiten.` },
+      { v: `Is water in de meterkast spoed?`, a: `Voor de stroom wel: zorg eerst dat het veilig is. Komt het water van boven en wordt het bij elke bui weer nat, stuur me dan meteen een foto. Is het een vochtige plek onderin de muur, ver van de groepenkast, die na de bui weer opdroogt, dan kan de reparatie vaak een paar dagen wachten.` },
+    ],
+  },
 ];
 
 // Kort antwoord bovenaan een artikel. Geen bedragen.
@@ -451,4 +497,5 @@ export const KORT_ANTWOORD_5: Record<string, string> = {
   "kraaien-mos-van-dak": `Kraaien en kauwen trekken mos van je dak omdat ze eronder naar insecten en larven zoeken, vooral in de herfst, de winter en het vroege voorjaar. Voor de pannen zelf is dat meestal niet erg. Het losse mos komt wel in je goot en bij de uitloop naar de regenpijp terecht, en dan kan de goot bij een flinke bui overlopen. Laat de goot leegmaken en ga niet zelf het dak op.`,
   "mastgoot-lekt": `Een mastgoot is een houten goot op klossen voor de gevel, met aan de binnenkant meestal zink. Hij lekt meestal bij een naad of hoek, bij de uitloop naar de regenpijp of op een dunne plek waar jaren blad lag. Vaak is opnieuw solderen genoeg, of kan de binnenkant gecoat worden. Kijk ook naar het hout: bladderende verf of zacht hout onder de goot betekent dat er al langer water achter het zink loopt.`,
   "dakgoot-lekt-in-de-hoek": `Lekt je dakgoot precies op de hoek, dan zit het meestal in de verbinding van de twee stukken goot: een soldeernaad in een zinken goot, of een hoekstuk met lijm of een rubber in een kunststof goot. Soms is de hoek gezakt, zodat er water blijft staan. Vaak hoeft alleen de hoek gemaakt te worden: opnieuw solderen, een nieuw hoekstuk of de goot weer op afschot.`,
+  "lekkage-meterkast-bij-regen": `Wordt je meterkast alleen nat als het regent, dan komt het water meestal van boven: van het afdakje of de luifel boven de voordeur, van een goot of regenpijp aan de voorgevel, of langs een pijp of kabel vanaf het dak. Is vooral de vloer nat, dan kan het ook van onderen komen, langs de kabels uit de straat. Zorg eerst dat het veilig is: raak niets aan met natte handen en zet de hoofdschakelaar uit als dat veilig kan.`,
 };
