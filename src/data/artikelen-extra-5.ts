@@ -482,6 +482,48 @@ export const ARTIKELEN_EXTRA_5: Artikel[] = [
       { v: `Is water in de meterkast spoed?`, a: `Voor de stroom wel: zorg eerst dat het veilig is. Komt het water van boven en wordt het bij elke bui weer nat, stuur me dan meteen een foto. Is het een vochtige plek onderin de muur, ver van de groepenkast, die na de bui weer opdroogt, dan kan de reparatie vaak een paar dagen wachten.` },
     ],
   },
+  {
+    slug: `dak-jaren-90-huis-lekt`,
+    datum: `2026-11-17`,
+    titel: `Lekt het dak van je huis uit de jaren 90?`,
+    h1: `Huis uit de jaren '80 of '90: waar het dak na al die jaren gaat lekken`,
+    metaTitle: `Huis uit de jaren 90: waar lekt het dak? | Spoed Dak Service`,
+    metaDescription: `Een huis uit de jaren '80 of '90 heeft vaak dakplaten, een droge nok, kunststof goten en meer pijpen door het dak. Zo zie je waar het na al die jaren lekt.`,
+    intro: `Huizen uit de jaren '80 en '90 zijn anders gebouwd dan de rijtjes van daarvoor. Onder de pannen liggen vaak grote dakplaten met isolatie, de nok ligt steeds vaker droog met klemmen in plaats van in specie, en er gaan meer pijpen door het dak, voor de cv-ketel, het riool en de ventilatie. De pannen zelf zijn op zulke daken vaak nog goed. Een lek zit dan meestal bij een aansluiting. Hieronder lees je waar, hoe je het herkent en wat eraan te doen is.`,
+    secties: [
+      { kop: `Druppelt het nu?`, tekst: [
+        `Vang het water op met een emmer, schuif spullen opzij en zet in de meterkast de groep van die kamer uit als het water bij een lamp of stopcontact komt. Blijf zelf van het dak af, ook als het droog lijkt. Op de <a href="/spoed/">spoedpagina</a> lees je wat je verder meteen kunt doen.`,
+      ] },
+      { kop: `Hoe zo'n dak in elkaar zit`, tekst: [
+        `Bij veel huizen uit die tijd liggen de pannen op latten op grote dakplaten. Zo'n plaat heeft isolatie in het midden en is aan de binnenkant afgewerkt, dus op zolder zie je vaak geen losse planken of folie, maar een glad vlak tussen de balken. Water dat onder de pannen komt, loopt over de bovenkant van die platen naar beneden en komt vaak pas binnen bij een naad tussen twee platen, of helemaal onderaan bij de goot. De natte plek zit dan een eind van het lek af.`,
+      ] },
+      { kop: `Waar het meestal lekt`, tekst: [
+        `Pijpen door het dak. Op een huis uit die tijd steken er vaak meerdere door de pannen, zoals de ontluchting van het riool, de afvoer van de cv-ketel en de afvoer van de mechanische ventilatie. Om elke pijp zit op het dak een kraag op een speciale pan. Na jaren zon en vorst is het rubber daarvan vaak hard of gescheurd. Zie <a href="/kennisbank/lekkage-bij-dakdoorvoer/">lekkage bij een dakdoorvoer</a>.`,
+        `Het dakraam. Veel van deze huizen hebben een of meer dakramen in het schuine dak. Lekt het onder of naast het raam, dan zit het vaak in het gootstuk of in de aansluiting op de pannen erboven, en minder vaak in het raam zelf. Zie <a href="/kennisbank/dakraam-lekt/">dakraam lekt</a>.`,
+        `De droge nok. Ligt je nok niet in specie, dan zit er onder de vorsten een strook die de nok dichthoudt, en elke vorst zit met een klem vast. Raakt bij een storm een klem los of scheurt die strook, dan kan regen met wind eronder komen. Zie <a href="/kennisbank/nokvorsten-los/">losse nokvorsten</a>.`,
+        `De kunststof goot. Goten uit die tijd zijn vaak van kunststof, met hoekstukken en verbindingen die gelijmd zijn of een rubber hebben. Na zoveel jaren laat zo'n verbinding los. Zie <a href="/kennisbank/kunststof-dakgoot-lekt/">kunststof dakgoot lekt</a> en <a href="/kennisbank/dakgoot-lekt-in-de-hoek/">dakgoot lekt in de hoek</a>.`,
+        `Wat er later bij kwam. Zonnepanelen, de kabel naar de omvormer of de leidingen van een airco of warmtepomp gaan soms onder een pan door of door een pan die daarvoor is aangepast. Ligt die pan niet goed, dan loopt het water erlangs. Zie <a href="/kennisbank/lekkage-bij-zonnepanelen/">lekkage bij zonnepanelen</a> en <a href="/kennisbank/lekkage-warmtepomp-of-airco/">lekkage sinds de warmtepomp of airco</a>.`,
+      ] },
+      { kop: `Lek of condens?`, tekst: [
+        `Huizen uit die tijd zijn beter geïsoleerd en dichter dan oudere huizen. Staat de ventilatie laag of uit, dan blijft er meer vocht binnen, en dat kan op koude dagen neerslaan op een koude plek: bij een naad tussen de dakplaten, op een koude pijp of onder een dakraam. Wordt het nat op koude ochtenden, ook als het dagen droog is, dan is het eerder condens. Wordt het alleen nat bij regen, of bij wind uit dezelfde hoek, dan is het eerder een lek. Lees <a href="/kennisbank/condens-of-lekkage-op-zolder/">condens of lekkage op zolder</a>.`,
+      ] },
+      { kop: `Bij jou in de buurt`, tekst: [
+        `Woon je in Maaspoort of Empel in Den Bosch, in de Reeshof in Tilburg of in de Haagse Beemden in Breda, dan staat je huis in een wijk die grotendeels vanaf de jaren '80 is gebouwd. Hoe ik een lek daar aanpak, lees je bij <a href="/werkgebied/den-bosch/daklekkage/">daklekkage in Den Bosch</a>, <a href="/werkgebied/tilburg/daklekkage/">daklekkage in Tilburg</a> en <a href="/werkgebied/breda/daklekkage/">daklekkage in Breda</a>.`,
+      ] },
+      { kop: `Hoe ik het aanpak`, tekst: [
+        `Ik kijk eerst op zolder waar het water binnenkomt en volg het naar boven, en daarna buiten naar de pijp, het raam, de nok of de goot erboven. Een uitgedroogde kraag vervang ik, een losse vorst zet ik weer vast, een kunststof verbinding vernieuw ik en de aansluiting rond een dakraam maak ik weer dicht. Meestal blijft de rest van het dak gewoon liggen. Zie <a href="/diensten/dakreparatie/">spoed dakreparatie</a> en <a href="/diensten/dakdoorvoer/">dakdoorvoer plaatsen of herstellen</a>.`,
+      ] },
+      { kop: `Wat kost het?`, tekst: [
+        `Dat hangt af van wat er lek is: een kraag, een vorst, een verbinding in de goot of de aansluiting van een dakraam. Stuur een foto van de natte plek en van je dak vanaf de straat, dan hoor je vooraf wat het in jouw geval kost. Richtprijzen staan op de <a href="/prijzen/">prijzenpagina</a>.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: spoed dakreparatie`, href: `/diensten/dakreparatie/` },
+    faq: [
+      { v: `Mijn huis is nog niet zo oud. Moet het dak er dan al af?`, a: `Meestal niet. Op daken uit de jaren '80 en '90 zijn de pannen vaak nog goed. Wat na zoveel jaren op raakt, zijn de dingen eromheen: het rubber rond de pijpen, de aansluiting van een dakraam en de verbindingen van een kunststof goot. Die vervang ik los. Stuur me een foto van je dak vanaf de straat, dan zeg ik eerlijk wat ik zie.` },
+      { v: `Hoe weet ik of mijn nok droog ligt of in specie?`, a: `Kijk vanaf de straat met de zoom van je telefoon naar de nok. Zie je tussen de vorsten en de pannen grijze specie, dan ligt hij in specie. Zie je daar een strook in een kleur die bij de pannen past, en geen specie, dan ligt hij droog met klemmen. Ligt er brokkelige specie in de goot, dan is het een nok in specie die los begint te raken.` },
+      { v: `Het druppelt alleen op koude ochtenden bij een pijp op zolder. Is dat een lek?`, a: `Vaak niet. Een pijp van de ventilatie of het riool die over een koude zolder loopt, wordt zelf koud, en vocht uit huis slaat erop neer. Dat zie je ook als het droog is. Druppelt het alleen bij regen en begint de natte plek bovenaan bij het dak, dan is het eerder de kraag rond de pijp. Twijfel je, stuur me dan een foto.` },
+    ],
+  },
 ];
 
 // Kort antwoord bovenaan een artikel. Geen bedragen.
@@ -498,4 +540,5 @@ export const KORT_ANTWOORD_5: Record<string, string> = {
   "mastgoot-lekt": `Een mastgoot is een houten goot op klossen voor de gevel, met aan de binnenkant meestal zink. Hij lekt meestal bij een naad of hoek, bij de uitloop naar de regenpijp of op een dunne plek waar jaren blad lag. Vaak is opnieuw solderen genoeg, of kan de binnenkant gecoat worden. Kijk ook naar het hout: bladderende verf of zacht hout onder de goot betekent dat er al langer water achter het zink loopt.`,
   "dakgoot-lekt-in-de-hoek": `Lekt je dakgoot precies op de hoek, dan zit het meestal in de verbinding van de twee stukken goot: een soldeernaad in een zinken goot, of een hoekstuk met lijm of een rubber in een kunststof goot. Soms is de hoek gezakt, zodat er water blijft staan. Vaak hoeft alleen de hoek gemaakt te worden: opnieuw solderen, een nieuw hoekstuk of de goot weer op afschot.`,
   "lekkage-meterkast-bij-regen": `Wordt je meterkast alleen nat als het regent, dan komt het water meestal van boven: van het afdakje of de luifel boven de voordeur, van een goot of regenpijp aan de voorgevel, of langs een pijp of kabel vanaf het dak. Is vooral de vloer nat, dan kan het ook van onderen komen, langs de kabels uit de straat. Zorg eerst dat het veilig is: raak niets aan met natte handen en zet de hoofdschakelaar uit als dat veilig kan.`,
+  "dak-jaren-90-huis-lekt": `Bij een huis uit de jaren '80 of '90 zijn de pannen vaak nog goed, en zit een lek meestal bij een aansluiting: het rubber rond een pijp door het dak, het gootstuk van een dakraam, een klem of strook van een droge nok of een verbinding in de kunststof goot. Wordt het alleen nat op koude ochtenden, ook als het droog is, dan is het eerder condens. Vaak is een gerichte reparatie genoeg.`,
 };
