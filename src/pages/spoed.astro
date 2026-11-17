@@ -147,6 +147,9 @@ const spoedSchema = {
           {bestaat("foto-van-je-dak-maken") && <> Welke foto's mij het meest helpen, en hoe je ze maakt zonder het dak op te gaan, staat in <a href="/kennisbank/foto-van-je-dak-maken/">foto's van je dak maken</a>.</>}
         </p>
       )}
+      {bestaat("lekkage-meterkast-bij-regen") && (
+        <p style="margin-top:16px;">Is het nat in je meterkast, bij de groepenkast of langs de kabels? Raak niets aan met natte handen en zet de hoofdschakelaar alleen uit als dat veilig kan. Waar dat water vandaan komt, van het afdakje boven de voordeur tot de kabels uit de straat, lees je in <a href="/kennisbank/lekkage-meterkast-bij-regen/">water in je meterkast als het regent</a>.</p>
+      )}
       <p style="margin-top:22px;">Een scheve of kapotte pan zie je van beneden bijna niet. Twee foto's die ik zelf op het dak maakte:</p>
       <EchteFotos soort="pannen" max={2} inline />
     </div>
