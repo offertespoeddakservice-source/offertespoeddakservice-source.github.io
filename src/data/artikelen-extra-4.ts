@@ -463,6 +463,9 @@ export const ARTIKELEN_EXTRA_4: Artikel[] = [
       { kop: `Zo vind je het`, tekst: [
         `Ga tijdens of vlak na een bui met een zaklamp naar zolder. Omdat er vaak geen folie onder de pannen ligt, zie je de natte plek op de panlatten of het beschot meestal vlak onder het lek. Kijk ook langs de schoorsteen en in de hoeken bij de goot. Maak daarna vanaf de overkant van de straat een foto met de zoom van je telefoon: een pan die scheef ligt, lood dat omhoog staat of een donkere streep onder de goot zie je vaak al van beneden.`,
       ] },
+      { kop: `Is je huis van net na de oorlog?`, tekst: [
+        `Woon je in een huis uit de jaren '50? Dat dak lijkt in veel dingen op dat van een jaren 30-huis, met een eigen schoorsteen en vaak geen folie onder de pannen, maar er is ook het een en ander anders. Wat, en waar zo'n dak meestal lekt, lees je in <a href="/kennisbank/dak-jaren-50-huis-lekt/">het dak van een huis uit de jaren '50</a>.`,
+      ] },
       { kop: `Repareren of het dak vernieuwen?`, tekst: [
         `Lekt het op één plek, dan is repareren meestal genoeg: een pan vervangen, lood vastzetten of een naad in de goot solderen. Breken er elk jaar meer pannen, is het lood op veel plekken op en ligt de nok over de hele lengte los, dan kan een dakvlak vernieuwen slimmer zijn. Bij een renovatie kan er op wens ook folie en nieuwe panlatten onder de pannen. Wanneer vervangen slimmer wordt, lees je in <a href="/kennisbank/hoe-lang-gaat-een-dak-mee/">hoe lang gaat een pannendak mee</a>. Woon je in een monument of een beschermd stadsgezicht, kijk dan ook bij <a href="/kennisbank/dak-monument-repareren/">je dak repareren in een monument</a>.`,
       ] },
