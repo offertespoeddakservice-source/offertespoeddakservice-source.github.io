@@ -569,6 +569,52 @@ export const ARTIKELEN_EXTRA_5: Artikel[] = [
       { v: `Kan ik het zelf dichtsmeren met kit?`, a: `Liever niet. Trekt het water door een pan of door de stenen, dan zit het niet op één plek die je dicht kunt smeren. Kit op een natte pan hecht ook slecht, en je maakt het later juist lastiger om te zien waar het echt zit.` },
     ],
   },
+  {
+    slug: `dak-jaren-50-huis-lekt`,
+    datum: `2026-11-17`,
+    titel: `Lekt het dak van je huis uit de jaren 50?`,
+    h1: `Huis uit de jaren '50: waar het dak na zeventig jaar lekt`,
+    metaTitle: `Huis uit de jaren 50: waar lekt het dak? | Spoed Dak Service`,
+    metaDescription: `Een jaren 50-huis heeft vaak een eigen schoorsteen, pannen zonder folie, een nok in specie en een zinken goot. Zo zie je waar het dak lekt en wat je doet.`,
+    intro: `Na de oorlog moest er snel veel gebouwd worden. Daarom staan er in veel steden en dorpen hele straten met rijtjeshuizen en twee-onder-een-kappers uit de jaren '50: eenvoudig gebouwd, met een zadeldak, een eigen schoorsteen en vaak een zinken goot. Op een deel van die huizen ligt nog veel van het eerste dak. Na zoveel jaren lekt zo'n dak meestal op een paar vaste plekken. Hieronder lees je welke dat zijn, hoe je ze herkent en wanneer repareren nog genoeg is.`,
+    secties: [
+      { kop: `Lekt het nu? Eerst dit`, tekst: [
+        `Vang de druppels op met een emmer, leg een handdoek eronder en schuif spullen opzij. Zit de natte plek bij een lamp of stopcontact, zet dan in de meterkast de groep van die kamer uit. Ga niet zelf het dak op, want oude pannen breken als je erop staat. Wat je verder meteen kunt doen, staat op de <a href="/spoed/">spoedpagina</a>.`,
+      ] },
+      { kop: `Zo zit zo'n dak in elkaar`, tekst: [
+        `Kijk je op zolder omhoog, dan zie je bij veel van deze huizen direct de onderkant van de pannen of van een houten beschot, en geen folie. Dat hoort bij de bouw van toen. Het betekent wel dat er geen tweede laag is die water opvangt: ligt een pan scheef of is hij gebroken, dan druppelt het meestal vlak onder die plek naar binnen. Dat maakt zoeken makkelijker dan bij een nieuwer dak, maar elke bui komt ook meteen bij het hout. Op een deel van de daken liggen nog gebakken pannen, op andere al de eerste betonpannen. Zie ook <a href="/kennisbank/licht-tussen-dakpannen/">licht tussen je dakpannen</a>.`,
+      ] },
+      { kop: `Waar het meestal lekt`, tekst: [
+        `De schoorsteen. De meeste huizen uit die tijd kregen een eigen schoorsteen voor een kolenkachel. Sinds de cv er is, staat hij er vaak voor niets, maar het lood rond de voet moet nog steeds het water tegenhouden. Scheurt dat lood in een hoek of komt het los van de steen, dan loopt de regen erachter naar binnen. Staat het kanaal bovenaan open, dan kan het er ook in regenen. Zie <a href="/kennisbank/lekkage-bij-schoorsteen/">lekkage bij de schoorsteen</a> en <a href="/kennisbank/vochtplek-schoorsteen-binnen/">vochtplek op de schoorsteen binnen</a>.`,
+        `De plek waar de schoorsteen stond. Is de schoorsteen later weggehaald, dan is het gat in het dak met pannen dichtgelegd. Sluiten die niet goed aan op de pannen eromheen, dan lekt het jaren later precies daar. Zie <a href="/kennisbank/lekkage-weggehaalde-schoorsteen/">lekkage waar de schoorsteen stond</a>.`,
+        `De nok. Op de meeste van deze daken zitten de vorsten met specie vast. Die specie wordt na zoveel winters bros, en bij een storm gaat er dan een vorst schuiven. Vind je brokjes specie op de stoep of in de goot, kijk dan vanaf de overkant van de straat of de rij vorsten nog recht ligt. Zie <a href="/kennisbank/nokvorsten-los/">losse nokvorsten</a>.`,
+        `De goot. Hangt er nog een zinken goot, of ligt de goot als bak in de rand van het dak, dan gaat na al die jaren vaak een naad of een hoek open, of is het zink dun geworden op de plek waar altijd blad lag. Binnen zie je dat bovenin de muur of langs het plafond. Is de goot al eens vervangen door kunststof, kijk dan bij de verbindingen. Zie <a href="/kennisbank/zinken-dakgoot-lekt/">zinken dakgoot lekt</a>.`,
+        `Een dakraam dat er later in kwam. Toen zolders kamers werden, kregen veel van deze huizen een dakraam. Lekt het eromheen, dan zit het meestal in het gootstuk of in de aansluiting op de pannen erboven. Zie <a href="/kennisbank/dakraam-lekt/">dakraam lekt</a>.`,
+        `Het platte dak achter het huis. Achter veel van deze huizen kwam later een berging, schuur of aanbouw met een plat dak. Waar dat dak tegen de achtergevel aansluit, zit een strook lood of zink, en daar komt het water het eerst langs. Zie <a href="/kennisbank/lekkage-bij-aanbouw/">lekkage bij de aanbouw</a>.`,
+      ] },
+      { kop: `Let op met asbest`, tekst: [
+        `In huizen uit de jaren '50 tot en met de jaren '80 kan asbest zijn gebruikt, bijvoorbeeld in golfplaten op de schuur, in platen onder de dakrand of in een oud rookkanaal. Twijfel je of iets asbest is, boor of zaag er dan niet in en breek het niet af. Laat het eerst onderzoeken. Asbest weghalen is werk voor een bedrijf dat daarvoor gecertificeerd is. Zie ook <a href="/kennisbank/golfplaten-lekken/">golfplaten lekken</a>.`,
+      ] },
+      { kop: `Bij jou in de buurt`, tekst: [
+        `In Den Bosch staan zulke naoorlogse rijtjes onder andere in de Kruiskamp en Boschveld. Hoe ik een lek daar aanpak, lees je bij <a href="/werkgebied/den-bosch/daklekkage/">daklekkage in Den Bosch</a>. In Waalwijk staan rond het oude centrum veel rijtjeshuizen en twee-onder-een-kappers uit de jaren '50 en '60, zie <a href="/werkgebied/waalwijk/dakrenovatie/">dakrenovatie in Waalwijk</a>.`,
+      ] },
+      { kop: `Repareren of het dak vernieuwen?`, tekst: [
+        `Gaat het om één pan, één vorst of een stuk lood, dan is een reparatie genoeg en kan de rest van het dak blijven liggen. Wordt het elk jaar ergens anders nat, breken de pannen na elke vorstperiode en zit de nok over de hele lengte los, dan is steeds plakken op den duur vaak duurder dan een dakvlak in één keer vernieuwen. In een rij kan dat ook voor alleen jouw huis, met een nette overgang naar de buren. Kies je voor vernieuwen, dan kan er op wens folie en kunnen er nieuwe panlatten onder de pannen. Lees <a href="/kennisbank/dak-vernieuwen-rijtjeshuis/">je dak vernieuwen in een rijtjeshuis</a> en <a href="/kennisbank/hoe-lang-gaat-een-dak-mee/">hoe lang gaat een pannendak mee</a>.`,
+      ] },
+      { kop: `Hoe ik het aanpak`, tekst: [
+        `Eerst kijk ik op zolder, want bij een dak zonder folie zie je daar vaak precies waar het water binnenkomt. Daarna kijk ik buiten naar die plek. Los of gescheurd lood zet ik vast of vervang ik, meestal met loodvervanger en met echt lood als je dat liever hebt. Losse vorsten zet ik vast, en is de specie over de hele nok op, dan smeer ik de nok opnieuw aan. Een gebroken pan vervang ik door een pan die past in vorm en kleur, zie <a href="/kennisbank/welke-dakpan-heb-ik/">welke dakpan heb ik</a>. Een open naad in een zinken goot soldeer ik. Zijn de stenen of voegen van de schoorsteen zelf slecht, dan zeg ik dat eerlijk, want daarvoor heb je een metselaar nodig. Zie ook <a href="/diensten/daklekkage/">daklekkage opsporen en repareren</a>.`,
+      ] },
+      { kop: `Wat kost het?`, tekst: [
+        `Dat hangt af van wat er lek is: een pan, een vorst, het lood of een naad in de goot. Stuur via WhatsApp een foto van de natte plek en van je dak vanaf de overkant van de straat, dan hoor je vooraf wat het kost. Richtprijzen staan op de <a href="/prijzen/">prijzenpagina</a>.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: daklekkage & spoed`, href: `/diensten/daklekkage/` },
+    faq: [
+      { v: `Er wordt al jaren niet meer gestookt in mijn schoorsteen. Moet hij dan nog nagekeken worden?`, a: `Ja, want ook een schoorsteen waarin niet meer gestookt wordt, staat nog gewoon in de regen. Het lood rond de voet en de bovenkant van het kanaal blijven plekken waar water naar binnen kan. Kijk vanaf de straat met de zoom van je telefoon of het lood nog strak tegen de steen ligt en of de bovenkant van de schoorsteen dicht of afgedekt is. Zie je binnen een bruine of natte plek op de schoorsteen, stuur me dan een foto van die plek en een van de schoorsteen buiten.` },
+      { v: `Ik huur een huis uit de jaren '50 en het dak lekt. Wat doe ik?`, a: `Meld het eerst bij je verhuurder, want die regelt in de regel de reparatie van het dak. Zet tot die tijd een emmer onder de druppel, haal spullen weg en maak foto's van de natte plek met de datum erbij. Druppelt het bij een lamp of stopcontact, zet dan de groep in de meterkast uit en zeg dat er meteen bij als je het lek meldt. Meer lees je in het artikel over lekkage in een huurhuis.` },
+      { v: `Kan ik het dak van een jaren 50-huis laten nakijken voordat ik het koop?`, a: `Ja. Met de Dak-APK loop ik het hele dak na en krijg je een rapport met foto's. Bij een huis uit de jaren '50 kijk ik vooral naar het lood rond de schoorsteen, de nok, de pannen en de goot. Vraag wel eerst toestemming aan de verkoper, want ik moet op het dak en op zolder kunnen kijken. Meer lees je in het artikel over je dak laten keuren als je een huis koopt.` },
+    ],
+  },
 ];
 
 // Kort antwoord bovenaan een artikel. Geen bedragen.
@@ -587,4 +633,5 @@ export const KORT_ANTWOORD_5: Record<string, string> = {
   "lekkage-meterkast-bij-regen": `Wordt je meterkast alleen nat als het regent, dan komt het water meestal van boven: van het afdakje of de luifel boven de voordeur, van een goot of regenpijp aan de voorgevel, of langs een pijp of kabel vanaf het dak. Is vooral de vloer nat, dan kan het ook van onderen komen, langs de kabels uit de straat. Zorg eerst dat het veilig is: raak niets aan met natte handen en zet de hoofdschakelaar uit als dat veilig kan.`,
   "dak-jaren-90-huis-lekt": `Bij een huis uit de jaren '80 of '90 zijn de pannen vaak nog goed, en zit een lek meestal bij een aansluiting: het rubber rond een pijp door het dak, het gootstuk van een dakraam, een klem of strook van een droge nok of een verbinding in de kunststof goot. Wordt het alleen nat op koude ochtenden, ook als het droog is, dan is het eerder condens. Vaak is een gerichte reparatie genoeg.`,
   "dak-lekt-na-dagen-regen": `Lekt je dak pas na een paar dagen regen, en niet bij een korte bui, dan trekt het water meestal langzaam ergens doorheen of loopt er iets pas na dagen over: oude pannen die water opnemen, de stenen van de schoorsteen, een goot of kilgoot die langzaam volloopt, of een plas op het platte dak. Kijk tijdens zo'n natte periode met een zaklamp op zolder waar het begint.`,
+  "dak-jaren-50-huis-lekt": `Bij een huis uit de jaren '50 lekt het dak meestal bij het lood rond de eigen schoorsteen, op de plek waar een schoorsteen is weggehaald, bij een nok in oude specie, bij een naad in de zinken goot of bij een pan die is verschoven. Vaak ligt er geen folie onder de pannen, dus het water komt meestal vlak onder het lek binnen. Een gerichte reparatie is vaak genoeg.`,
 };
