@@ -9,6 +9,7 @@
  * 17-11-2026 ronde 5: lekkende ventilatiepan
  * 17-11-2026 ronde 5: zelf een dakpan terugleggen of vervangen
  * 18-11-2026 ronde 1: doorslaand vocht of daklek
+ * 18-11-2026 ronde 1: zakgoot lekt
  */
 import type { Artikel } from "./artikelen";
 
@@ -867,6 +868,50 @@ export const ARTIKELEN_EXTRA_5: Artikel[] = [
       { v: `Wie bel ik voor doorslaand vocht?`, a: `Een gevelspecialist, die de stenen en de voegen nakijkt. Aan de gevel zelf werk ik niet. Twijfel je of het van de gevel, de goot of het dak komt, stuur me dan een foto van de natte plek en van de gevel erboven. Dan zeg ik eerlijk wie je het beste kunt bellen.` },
     ],
   },
+  {
+    slug: `zakgoot-lekt`,
+    datum: `2026-11-18`,
+    titel: `Zakgoot lekt?`,
+    h1: `Zakgoot lekt: de goot tussen twee daken loopt over of lekt naar binnen`,
+    metaTitle: `Zakgoot lekt: goot tussen twee daken | Spoed Dak Service`,
+    metaDescription: `Ligt er een goot tussen twee daken en wordt het binnen nat? Een zakgoot loopt bij een volle uitloop over naar binnen. Zo zie je wat er mis is en wat je doet.`,
+    intro: `Een zakgoot ligt tussen twee daken die naar elkaar toe aflopen, bijvoorbeeld tussen twee panden, tussen twee daken van hetzelfde huis of tussen het huis en een aanbouw. Al het water van twee kanten komt erin samen. Loopt een gewone goot over, dan valt het water langs de gevel naar buiten. Bij een zakgoot kan dat niet: loopt hij over, dan loopt het water onder de pannen of over de rand naar binnen. Hieronder lees je hoe je dat herkent en wat eraan te doen is.`,
+    secties: [
+      { kop: `Lekt het nu?`, tekst: [
+        `Zet een emmer onder de druppel, haal spullen weg en zet de groep in de meterkast uit als het bij een lamp of stopcontact nat wordt. Ga niet zelf naar de goot: die ligt tussen twee daken, en daar kom je niet veilig bij. Wat je verder meteen kunt doen, staat op de <a href="/spoed/">spoedpagina</a>.`,
+      ] },
+      { kop: `Zakgoot, kilgoot of bakgoot?`, tekst: [
+        `Een kilgoot ligt schuin, in de hoek waar twee schuine dakvlakken samenkomen, en het water loopt erdoor naar beneden. Een bakgoot zit in de rand van het dak, bovenop de gevel. Een zakgoot ligt bijna vlak tussen twee daken, en het water moet er via een uitloop uit: een pijp die binnen of buiten naar beneden loopt, of een opening door de gevel. Lekt het in de hoek van een schuin dak, lees dan <a href="/kennisbank/kilgoot-lekt/">kilgoot lekt</a>. Zit je goot in de dakrand, kijk dan bij <a href="/kennisbank/bakgoot-lekt/">bakgoot lekt</a>.`,
+      ] },
+      { kop: `Waar het meestal misgaat`, tekst: [
+        `De uitloop zit dicht. Blad, mos en gruis van de pannen spoelen van twee daken naar de zakgoot en blijven bij de uitloop liggen. Kan het water niet weg, dan komt het hoger te staan dan de rand van de goot en loopt het onder de pannen door naar binnen. Bij een stortbui gaat dat het snelst.`,
+        `Een naad of hoek in het zink lekt. Een zakgoot is vaak een houten bak met zink erin. Na veel jaren scheurt een soldeernaad, of wordt het zink dun op de plek waar steeds water en vuil bleven staan.`,
+        `De aansluiting op de pannen of de muur. Liggen de onderste pannen niet ver genoeg over de goot, of is de strook langs een muur losgekomen, dan loopt het water naast de goot in plaats van erin.`,
+        `IJs. In de winter kan de uitloop bevriezen. Het smeltwater van het dak kan dan niet weg en zoekt een andere weg, vaak naar binnen.`,
+      ] },
+      { kop: `Zo herken je het`, tekst: [
+        `Een natte plek of kring op het plafond of op zolder, midden in het huis of langs de muur waar twee daken samenkomen. Vaak wordt het vooral nat bij een stortbui of in de herfst, als er veel blad valt. Loopt de uitloop binnen in een pijp naar beneden, dan kan het ook nat worden in een kast of langs die pijp, zie <a href="/kennisbank/regenpijp-in-de-muur-lekt/">regenpijp in de muur lekt</a>. Kun je vanuit een dakraam of een raam boven in de goot kijken, kijk dan of er blad, mos of water in blijft staan.`,
+      ] },
+      { kop: `Ligt de goot tussen jou en de buren?`, tekst: [
+        `Tussen twee panden is een zakgoot vaak van jullie samen, en het water van beide daken komt erin. Lekt hij, dan is het meestal slim om het samen aan te pakken. Hoe je dat regelt, lees je in <a href="/kennisbank/gedeelde-dakgoot-lekt/">gedeelde dakgoot lekt</a>. Kan ik er alleen via het dak of de tuin van de buren bij, lees dan <a href="/kennisbank/dak-repareren-via-buren/">je dak repareren via de buren</a>.`,
+      ] },
+      { kop: `Zo voorkom je het`, tekst: [
+        `Laat een zakgoot elk jaar na de bladval leegmaken, ook als hij nog niet lekt, en laat daarbij de uitloop vrijmaken. Juist bij een zakgoot is dat belangrijk, want overlopen betekent hier water binnen. Heeft je zakgoot een noodoverloop, een opening door de gevel voor als de uitloop dicht zit, maak die dan nooit dicht.`,
+      ] },
+      { kop: `Hoe ik het aanpak`, tekst: [
+        `Ik maak de goot eerst leeg en de uitloop vrij, zodat het water weer weg kan. Daarna kijk ik naar het zink. Een lekke naad of hoek soldeer ik opnieuw. Wordt het zink op meer plekken dun, dan kan ik de goot van binnen coaten. Is het zink op of het hout eronder zacht, dan zeg ik dat eerlijk, want dan helpt solderen of coaten niet lang. Solderen en coaten doe ik op een droge dag. Zie <a href="/diensten/dakgoot-solderen/">dakgoot solderen</a> en <a href="/diensten/dakgoot-coaten/">dakgoot van binnen coaten</a>.`,
+      ] },
+      { kop: `Wat kost het?`, tekst: [
+        `Dat hangt af van wat er mis is, hoe lang de goot is en hoe goed ik erbij kan. Leegmaken is een andere klus dan een naad solderen of de goot coaten. Stuur een foto van de natte plek en, als het kan, van de goot vanuit een raam boven via WhatsApp. Dan hoor je vooraf wat het kost.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: bakgoot repareren`, href: `/diensten/bakgoot-repareren/` },
+    faq: [
+      { v: `Kan ik een zakgoot zelf leegmaken?`, a: `Liever niet. Een zakgoot ligt tussen twee daken, en om erbij te komen moet je over de pannen of over een plat stuk dak lopen. Dat is glad, zeker in de herfst en de winter. Kun je hem vanuit een dakraam zien, maak dan een foto en stuur die op.` },
+      { v: `Mijn zakgoot loopt alleen over bij een stortbui. Is hij dan lek?`, a: `Niet per se. Vaak kan de uitloop het water bij een stortbui niet snel genoeg kwijt, zeker als er blad of gruis in ligt. Dan komt het water hoger te staan dan de rand. Wordt het ook nat bij een gewone bui, of blijft het druppelen als de bui voorbij is, dan is er eerder een naad of hoek lek.` },
+      { v: `Is een lekkende zakgoot spoed?`, a: `Vaak wel, want bij een zakgoot komt het water binnen en niet langs de gevel. Druppelt het in een kamer, bij een lamp of in een kast, zet dan een emmer neer en stuur me meteen een foto. Is het op zolder één druppel na een stortbui, dan kan het meestal een paar dagen wachten, maar laat het niet te lang liggen.` },
+    ],
+  },
 ];
 
 // Kort antwoord bovenaan een artikel. Geen bedragen.
@@ -892,4 +937,5 @@ export const KORT_ANTWOORD_5: Record<string, string> = {
   "ventilatiepan-lekt": `Druppelt het op zolder onder een ventilatiepan, dan is die pan vaak gebroken, is het kapje weg of ligt hij niet goed in de pannen ernaast. Een paar druppels na een sneeuwstorm of op koude, droge dagen zijn vaak stuifsneeuw of condens, bijvoorbeeld van een losse slang van de ventilatie. Maak een ventilatiepan niet dicht, maar laat een kapotte vervangen door een die bij je dak past.`,
   "dakpan-zelf-terugleggen": `Een verschoven pan kun je soms van binnenuit, vanaf zolder, voorzichtig terugschuiven als er geen folie of plaat onder de pannen zit. Een pan op het dak zelf vervangen doe je liever niet: het dak is glad, pannen breken onder je voet en een pan die niet goed in de sluiting ligt, waait weer los. Bij de nok, de zijkant, de schoorsteen of zonnepanelen laat je het doen.`,
   "doorslaand-vocht-of-daklek": `Zit de natte plek bovenin de muur, vlak onder het plafond, dan komt het water vaak van een goot die overloopt of lekt, of van het lood of de dakrand erboven. Zit hij midden op de muur, komt hij op na regen met harde wind en trekt hij na een paar droge dagen weer weg, dan is het eerder doorslaand vocht door de stenen of de voegen van de gevel. Wordt het ook nat na dagen zonder regen, denk dan aan een leiding.`,
+  "zakgoot-lekt": `Een zakgoot ligt bijna vlak tussen twee daken die naar elkaar toe aflopen, bijvoorbeeld tussen twee panden of tussen het huis en een aanbouw. Loopt hij over, dan komt het water niet langs de gevel maar binnen. Meestal zit de uitloop dicht met blad, mos of gruis, of lekt een naad in het zink. Vaak is leegmaken en de uitloop vrijmaken genoeg, en een lekke naad kan opnieuw gesoldeerd worden.`,
 };
