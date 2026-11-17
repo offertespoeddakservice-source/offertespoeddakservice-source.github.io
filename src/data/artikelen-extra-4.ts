@@ -76,6 +76,9 @@ export const ARTIKELEN_EXTRA_4: Artikel[] = [
       { kop: `Wanneer het erg is`, tekst: [
         `Gefluit uit een ventilatiepan of een open pijp is meestal gewoon en hoeft niet weg. Laat het wel nakijken als je op zolder tocht of daglicht ziet bij de nok of tussen de pannen, als er na een bui een natte plek is, als je na een sneeuwbui sneeuw op zolder vindt of als het geluid er pas sinds een storm is. Waar de wind doorheen komt, kan bij de volgende bui ook regen komen. Lees ook <a href="/kennisbank/dak-lekt-bij-harde-wind/">dak lekt bij harde wind</a>.`,
       ] },
+      { kop: `Druppelt het bij een ventilatiepan?`, tekst: [
+        `Hoor je het fluiten bij een ventilatiepan en zie je daar na een bui ook een natte plek op zolder, dan kan de pan gebroken zijn, kan het kapje weg zijn of ligt hij niet goed in de pannen ernaast. Hoe je dat ziet en wat eraan te doen is, lees je bij <a href="/kennisbank/ventilatiepan-lekt/">lekt het bij een ventilatiepan?</a>`,
+      ] },
       { kop: `Wat je zelf beter niet doet`, tekst: [
         `Prop geen doeken of isolatie in een kier of in een ventilatiepan. Dat houdt vocht vast, en een ventilatiepan heeft zijn opening juist nodig. Plak ook geen tape op de buitenkant van een dakraam of een pijp, en ga bij wind niet het dak op.`,
       ] },
@@ -372,6 +375,9 @@ export const ARTIKELEN_EXTRA_4: Artikel[] = [
       ] },
       { kop: `Of is het condens?`, tekst: [
         `Een buitenmuur op zolder is in de winter koud. Vocht uit huis slaat daar neer, vooral in een hoek achter een kast, een stapel dozen of het knieschot. Zie je zwarte puntjes of een vochtige waas, ook na dagen zonder regen, dan is het vaak condens. Lees dan <a href="/kennisbank/condens-of-lekkage-op-zolder/">condens of lekkage op zolder</a>.`,
+      ] },
+      { kop: `Ga je deze zolder afwerken?`, tekst: [
+        `Wil je de zolder verbouwen tot slaapkamer of werkplek, laat de rand van het dak dan eerst nakijken en maken, voordat er platen of isolatie tegen de schuine kant en de zijmuur komen. Daarna zie je een natte plek pas als hij door je nieuwe wand komt. Waar je vooraf op let, lees je bij <a href="/kennisbank/dak-nakijken-voor-zolder-verbouwen/">zolder verbouwen? Laat eerst je dak nakijken</a>.`,
       ] },
       { kop: `Zo vind je waar het zit`, tekst: [
         `Kijk tijdens of vlak na een bui met een zaklamp op zolder. Begint het nat bovenaan, bij de nok, of langs de hele schuine kant? Dan zit het meestal aan de rand van het dak. Begint het onderaan, bij de vloer, dan eerder bij het eindstuk van de goot of de onderkant van de windveer. Ga daarna op een droge dag aan de overkant van de straat staan en kijk met de zoom van je telefoon langs de zijkant van het dak: ligt er een gevelpan scheef, hangt de windveer los of mist er specie? Maak van beide een foto en schrijf erbij uit welke hoek de wind kwam.`,
