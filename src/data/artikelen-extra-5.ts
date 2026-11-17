@@ -2,6 +2,7 @@
  * Nieuwe kennisartikelen en korte antwoorden sinds 16-11-2026.
  * artikelen-extra-4.ts zet ze achter ARTIKELEN_EXTRA_4 en in KORT_ANTWOORD_4.
  * 17-11-2026 ronde 2: water in de meterkast
+ * 17-11-2026 ronde 3: dak lekt na dagen regen, lood bij de schoorsteen (kosten), jaren 50-huis
  */
 import type { Artikel } from "./artikelen";
 
@@ -524,6 +525,50 @@ export const ARTIKELEN_EXTRA_5: Artikel[] = [
       { v: `Het druppelt alleen op koude ochtenden bij een pijp op zolder. Is dat een lek?`, a: `Vaak niet. Een pijp van de ventilatie of het riool die over een koude zolder loopt, wordt zelf koud, en vocht uit huis slaat erop neer. Dat zie je ook als het droog is. Druppelt het alleen bij regen en begint de natte plek bovenaan bij het dak, dan is het eerder de kraag rond de pijp. Twijfel je, stuur me dan een foto.` },
     ],
   },
+  {
+    slug: `dak-lekt-na-dagen-regen`,
+    datum: `2026-11-17`,
+    titel: `Lekt je dak pas na dagen regen?`,
+    h1: `Je dak lekt pas na een paar dagen regen: waar het water dan meestal vandaan komt`,
+    metaTitle: `Dak lekt na dagen regen: waar zit het? | Spoed Dak Service`,
+    metaDescription: `Blijft het droog bij een korte bui, maar wordt het nat na dagen regen? Dan trekt het water vaak langzaam naar binnen. Zo vind je waar het zit en wat je doet.`,
+    intro: `Bij een korte bui blijft alles droog. Maar na een week met veel regen zie je ineens een natte plek op het plafond, op zolder of bovenin de muur. Dat is verwarrend, want het dak lijkt dan niet echt lek. Meestal komt het water er bij zo'n lange natte periode niet door een open kier. Het trekt langzaam ergens doorheen, of iets loopt pas na dagen over. Hieronder lees je waar dat meestal zit, hoe je het zelf nagaat en wat eraan te doen is.`,
+    secties: [
+      { kop: `Lekt het nu?`, tekst: [
+        `Zet een emmer onder de druppel, haal spullen weg en zet de groep in de meterkast uit als het bij een lamp of stopcontact nat wordt. Ga niet zelf het dak op, zeker niet als het nat is of waait. Wat je verder meteen kunt doen, staat op de <a href="/spoed/">spoedpagina</a>.`,
+      ] },
+      { kop: `Waarom pas na dagen?`, tekst: [
+        `Een korte bui is voorbij voordat het water ergens doorheen kan trekken. Bij dagen achter elkaar regen krijgen pannen, stenen en hout geen tijd om op te drogen. Dan raakt het materiaal zo nat dat het water er langzaam doorheen komt, of loopt een goot of afvoer die al half vol lag op een gegeven moment toch over. Dat is iets anders dan een lek dat alleen bij een stortbui of alleen bij harde wind optreedt. Die lees je bij <a href="/kennisbank/dak-lekt-bij-hevige-regen/">dak lekt bij een stortbui</a> en <a href="/kennisbank/dak-lekt-bij-harde-wind/">dak lekt bij harde wind</a>.`,
+      ] },
+      { kop: `Oude pannen die water opnemen`, tekst: [
+        `Pannen die al heel lang op het dak liggen, nemen na jaren meer water op. Bij een korte bui merk je daar niets van. Na dagen regen raken ze verzadigd, en dan komt er aan de onderkant vocht door. Op zolder zie je dan donkere plekken op het hout of druppels onder de pannen, vaak verspreid over een groter stuk en niet op één punt. Hoe je ziet of je pannen water opnemen, lees je bij <a href="/kennisbank/poreuze-dakpannen/">poreuze dakpannen</a>.`,
+      ] },
+      { kop: `De schoorsteen`, tekst: [
+        `Een schoorsteen staat helemaal in de regen. Na dagen regen kunnen de stenen en de voegen zo nat worden dat het water er binnen doorheen komt, ook als het lood rond de voet nog goed is. Je ziet dat als een natte of bruine plek op de schoorsteen binnen, of op zolder langs het metselwerk. Lekt het daar ook bij een korte bui met wind, dan zit het vaker in het lood. Meer lees je bij <a href="/kennisbank/lekkage-bij-schoorsteen/">lekkage bij de schoorsteen</a>.`,
+      ] },
+      { kop: `Een goot of kilgoot die langzaam volloopt`, tekst: [
+        `Ligt er blad in de goot of in de kilgoot, de hoek waar twee daken samenkomen, dan kan het water bij een korte bui nog net weg. Bij dagen regen blijft het steeds hoger staan, en op een gegeven moment loopt het over de rand onder de pannen of achter de goot langs de muur. Zie <a href="/kennisbank/kilgoot-lekt/">kilgoot lekt</a> en <a href="/kennisbank/dakgoot-loopt-over/">dakgoot loopt over</a>.`,
+      ] },
+      { kop: `Een plas op het platte dak`, tekst: [
+        `Op een plat dak blijft na een lange natte periode vaak een plas staan, zeker als de afvoer half dicht zit. Staat die plas dagen tegen een naad of de rand, dan vindt het water daar een weg naar binnen. Zie <a href="/kennisbank/water-blijft-staan-op-plat-dak/">water blijft staan op je platte dak</a>.`,
+      ] },
+      { kop: `Of is het de muur?`, tekst: [
+        `Zit de natte plek bovenin een buitenmuur, vlak onder het plafond, dan kan ook de gevel zelf het water na dagen regen doorlaten. Het lijkt dan op een daklek. Hoe je het verschil ziet, lees je bij <a href="/kennisbank/natte-plek-bovenin-muur/">natte plek bovenin de muur</a>. Zit het in de stenen of de voegen, dan zeg ik dat eerlijk, want dat is werk voor een metselaar.`,
+      ] },
+      { kop: `Zo zoek je het zelf uit`, tekst: [
+        `Schrijf op na hoeveel dagen regen het nat werd en uit welke hoek de wind kwam. Kijk tijdens of vlak na zo'n natte periode met een zaklamp op zolder waar het hout nat is: op één punt, langs de schoorsteen, in een hoek of verspreid onder de pannen. Kijk buiten vanaf de straat of de goot vol staat. Wordt het ook nat na een paar droge, koude dagen, dan is het eerder condens, zie <a href="/kennisbank/condens-of-lekkage-op-zolder/">condens of lekkage op zolder</a>.`,
+      ] },
+      { kop: `Hoe ik het aanpak`, tekst: [
+        `Stuur me een foto van de natte plek, van zolder als dat kan en van je dak vanaf de straat, en zet erbij na hoeveel dagen regen het begon. Dan zoek ik eerst waar het water echt binnenkomt. Een volle goot of kilgoot maak ik leeg, losse of kapotte pannen vervang ik door pannen die passen, en lood dat los zit zet ik vast. Zijn de pannen op een heel dakvlak op, dan zeg ik eerlijk of vervangen slimmer is dan steeds één pan. Je hoort vooraf wat het kost. Zie ook <a href="/diensten/daklekkage/">daklekkage</a>.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: daklekkage & spoed`, href: `/diensten/daklekkage/` },
+    faq: [
+      { v: `Is het spoed als het pas na dagen regen lekt?`, a: `Druppelt het binnen, of zit de natte plek bij een lamp of stopcontact, bel of app me dan meteen. Is het een vochtige plek die niet groter wordt, dan kan het meestal een paar dagen wachten, maar laat het wel nakijken voordat de volgende natte periode komt. Een plek die steeds opnieuw nat wordt, maakt het hout en de isolatie op den duur kapot.` },
+      { v: `Waarom zie ik op zolder geen gat, terwijl het toch nat wordt?`, a: `Omdat er vaak ook geen gat is. Water dat langzaam door een oude pan of door de stenen van de schoorsteen trekt, laat geen open plek achter. Je ziet alleen vocht of donkere plekken op het hout. Kijk tijdens een lange natte periode met een zaklamp waar het begint, en stuur me daar een foto van.` },
+      { v: `Kan ik het zelf dichtsmeren met kit?`, a: `Liever niet. Trekt het water door een pan of door de stenen, dan zit het niet op één plek die je dicht kunt smeren. Kit op een natte pan hecht ook slecht, en je maakt het later juist lastiger om te zien waar het echt zit.` },
+    ],
+  },
 ];
 
 // Kort antwoord bovenaan een artikel. Geen bedragen.
@@ -541,4 +586,5 @@ export const KORT_ANTWOORD_5: Record<string, string> = {
   "dakgoot-lekt-in-de-hoek": `Lekt je dakgoot precies op de hoek, dan zit het meestal in de verbinding van de twee stukken goot: een soldeernaad in een zinken goot, of een hoekstuk met lijm of een rubber in een kunststof goot. Soms is de hoek gezakt, zodat er water blijft staan. Vaak hoeft alleen de hoek gemaakt te worden: opnieuw solderen, een nieuw hoekstuk of de goot weer op afschot.`,
   "lekkage-meterkast-bij-regen": `Wordt je meterkast alleen nat als het regent, dan komt het water meestal van boven: van het afdakje of de luifel boven de voordeur, van een goot of regenpijp aan de voorgevel, of langs een pijp of kabel vanaf het dak. Is vooral de vloer nat, dan kan het ook van onderen komen, langs de kabels uit de straat. Zorg eerst dat het veilig is: raak niets aan met natte handen en zet de hoofdschakelaar uit als dat veilig kan.`,
   "dak-jaren-90-huis-lekt": `Bij een huis uit de jaren '80 of '90 zijn de pannen vaak nog goed, en zit een lek meestal bij een aansluiting: het rubber rond een pijp door het dak, het gootstuk van een dakraam, een klem of strook van een droge nok of een verbinding in de kunststof goot. Wordt het alleen nat op koude ochtenden, ook als het droog is, dan is het eerder condens. Vaak is een gerichte reparatie genoeg.`,
+  "dak-lekt-na-dagen-regen": `Lekt je dak pas na een paar dagen regen, en niet bij een korte bui, dan trekt het water meestal langzaam ergens doorheen of loopt er iets pas na dagen over: oude pannen die water opnemen, de stenen van de schoorsteen, een goot of kilgoot die langzaam volloopt, of een plas op het platte dak. Kijk tijdens zo'n natte periode met een zaklamp op zolder waar het begint.`,
 };
