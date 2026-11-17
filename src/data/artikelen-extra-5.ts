@@ -7,6 +7,7 @@
  * 17-11-2026 ronde 3: dak nakijken voor je de zolder verbouwt
  * 17-11-2026 ronde 5: lekkage terwijl je op vakantie bent
  * 17-11-2026 ronde 5: lekkende ventilatiepan
+ * 17-11-2026 ronde 5: zelf een dakpan terugleggen of vervangen
  */
 import type { Artikel } from "./artikelen";
 
@@ -784,6 +785,44 @@ export const ARTIKELEN_EXTRA_5: Artikel[] = [
       { v: `Is een lekkende ventilatiepan spoed?`, a: `Druppelt het bij elke bui, of zit de natte plek bij een lamp of stopcontact, dan wel: zet de groep uit en stuur me een foto. Een paar druppels na een sneeuwstorm of op een koude ochtend zijn meestal geen spoed, maar laat het wel nakijken als het terugkomt.` },
     ],
   },
+  {
+    slug: `dakpan-zelf-terugleggen`,
+    datum: `2026-11-17`,
+    titel: `Zelf een dakpan terugleggen of vervangen?`,
+    h1: `Zelf een dakpan terugleggen of vervangen: wat kan wel, en wanneer laat je het doen?`,
+    metaTitle: `Dakpan zelf vervangen of terugleggen? | Spoed Dak Service`,
+    metaDescription: `Ligt er een pan scheef of is er een gebroken? Van binnenuit lukt terugschuiven soms, op het dak liever niet. Zo zie je wat kan en wanneer je het laat doen.`,
+    intro: `Eén pan die een stukje scheef ligt of een barst heeft: dat lijkt een klus die je zelf wel even doet. Soms kan dat ook, als je er veilig van binnenuit bij kunt. Maar een dakpan op het dak zelf vervangen is lastiger en gevaarlijker dan het lijkt. Hieronder lees je wat je zelf kunt doen, wat je beter laat en waar je op let als er een pan vervangen moet worden.`,
+    secties: [
+      { kop: `Lekt het nu?`, tekst: [
+        `Zet een emmer onder de druppel en ga niet het dak op, zeker niet als het nat is of waait. Wat je meteen kunt doen, staat op de <a href="/spoed/">spoedpagina</a>.`,
+      ] },
+      { kop: `Van binnenuit een verschoven pan terugschuiven`, tekst: [
+        `Bij een oud dak zonder folie of platen onder de pannen zie je op zolder de onderkant van de pannen. Ligt er een pan een stukje uit zijn plek, dan kun je hem soms van binnenuit voorzichtig optillen en terugschuiven, tot hij weer met de nokjes over de lat hangt en goed sluit op de pannen ernaast. Doe dat op een droge dag, zonder kracht, en stop als hij niet makkelijk gaat. Ligt er folie of een plaat onder de pannen, dan kom je er van binnen niet bij. Snijd de folie niet open om erbij te komen.`,
+      ] },
+      { kop: `Waarom liever niet op het dak`, tekst: [
+        `Een schuin dak is glad, zeker met mos of na regen, en pannen breken onder je voet. Een ladder tegen de goot drukt de goot of de beugels krom, en vanaf een ladder bij de goot kom je bijna nooit goed bij een pan halverwege het dak. Een pan die niet goed in de sluiting ligt, schuift of waait bij de volgende storm weer los. Daarom zeg ik ook bij een kleine klus: ga zelf niet het dak op.`,
+      ] },
+      { kop: `Een gebroken pan vervangen`, tekst: [
+        `Om een pan te vervangen moeten de pannen erboven en ernaast een stukje omhoog, zodat de oude eruit en de nieuwe erin kan. De nieuwe pan moet passen in vorm en maat, anders sluit hij niet. Welke pan je hebt, lees je bij <a href="/kennisbank/welke-dakpan-heb-ik/">welke dakpan heb ik?</a> Ligt er nog een reservepan op zolder of in de schuur, bewaar die dan, want dan weet je zeker dat hij past. Een barst lijmen of kitten houdt meestal maar kort, zie <a href="/kennisbank/dakpan-lijmen-of-kitten/">dakpan lijmen of kitten</a>.`,
+      ] },
+      { kop: `Wanneer je het laat doen`, tekst: [
+        `Gaat het om een nokvorst, een pan langs de zijkant van het dak, een pan bij de schoorsteen of het lood, of een pan onder zonnepanelen, laat het dan doen. Dat geldt ook bij een steil of hoog dak, bij meer dan een paar pannen en na een storm, als er misschien meer los zit dan je ziet. Zie <a href="/kennisbank/dakpan-kapot-of-verschoven/">dakpan kapot of verschoven</a> en <a href="/kennisbank/nokvorsten-los/">losse nokvorsten</a>.`,
+      ] },
+      { kop: `Hoe ik het aanpak`, tekst: [
+        `Stuur me een foto van je dak vanaf de overkant van de straat, met de zoom van je telefoon, en als het kan een van de pan van dichtbij of vanaf zolder. Dan zie ik meestal welke pan het is en neem ik een passende mee. Ik leg de pan terug of vervang hem, en kijk meteen of de pannen eromheen nog goed liggen. Kan ik er van buiten bij en spreken we de prijs vooraf af, dan kan dat ook als je niet thuis bent. Zie <a href="/diensten/dakpannen-vervangen/">dakpannen vervangen</a>.`,
+      ] },
+      { kop: `Wat kost het?`, tekst: [
+        `Wat één pan vervangen kost en waar de prijs van afhangt, lees je bij <a href="/kennisbank/wat-kost-dakpan-vervangen/">wat kost een dakpan vervangen</a>. Je hoort vooraf wat het kost.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: dakpannen vervangen`, href: `/diensten/dakpannen-vervangen/` },
+    faq: [
+      { v: `Waar vind ik een losse dakpan die past?`, a: `In een bouwmarkt liggen meestal maar een paar soorten. Een groothandel in dakmaterialen of een handel in gebruikte pannen heeft er vaak meer. Neem een foto of de kapotte pan mee, dan kun je vergelijken. Bij een ouder dak wordt jouw pan soms niet meer gemaakt. Dan helpt een pan die in vorm en maat past, ook als de kleur iets anders is.` },
+      { v: `Kan ik een gebarsten pan tijdelijk afplakken?`, a: `Van buiten liever niet, want dan moet je het dak op. Van binnen kun je onder de gebarsten pan een bak zetten, zodat het water niet op de vloer komt. Tape of kit houdt op een pan meestal maar kort, en op een natte pan plakt het niet.` },
+      { v: `Mijn pan wordt niet meer gemaakt. Wat nu?`, a: `Dan kan er een pan van een plek die je vanaf de straat niet ziet, op de plek komen die je wel ziet. Op die verborgen plek komt dan een pan die in vorm en maat past, ook als de kleur iets anders is. Dat is werk op het dak zelf, dus laat het doen.` },
+    ],
+  },
 ];
 
 // Kort antwoord bovenaan een artikel. Geen bedragen.
@@ -807,4 +846,5 @@ export const KORT_ANTWOORD_5: Record<string, string> = {
   "dak-nakijken-voor-zolder-verbouwen": `Ga je je zolder verbouwen, laat dan eerst je dak nakijken, want na het afwerken zie je de onderkant van het dak niet meer. Laat vooraf gebroken of verschoven pannen, een losse nok, los lood rond de schoorsteen en de kraag rond pijpen door het dak maken. Zorg dat het dak dicht is voordat de isolatie erin gaat, en vraag het isolatiebedrijf hoe het vocht uit je nieuwe kamer weg kan.`,
   "lekkage-tijdens-vakantie": `Ben je op vakantie of niet thuis en lekt je dak, laat dan iemand met een sleutel het water opvangen, spullen weghalen en de groep uitzetten als het bij een lamp of stopcontact nat is, zonder op een ladder of het dak te gaan. Laat foto's maken van de natte plek en van het dak vanaf de straat. Een losse pan of nokvorst kan vaak van buiten worden gerepareerd als de prijs vooraf is afgesproken.`,
   "ventilatiepan-lekt": `Druppelt het op zolder onder een ventilatiepan, dan is die pan vaak gebroken, is het kapje weg of ligt hij niet goed in de pannen ernaast. Een paar druppels na een sneeuwstorm of op koude, droge dagen zijn vaak stuifsneeuw of condens, bijvoorbeeld van een losse slang van de ventilatie. Maak een ventilatiepan niet dicht, maar laat een kapotte vervangen door een die bij je dak past.`,
+  "dakpan-zelf-terugleggen": `Een verschoven pan kun je soms van binnenuit, vanaf zolder, voorzichtig terugschuiven als er geen folie of plaat onder de pannen zit. Een pan op het dak zelf vervangen doe je liever niet: het dak is glad, pannen breken onder je voet en een pan die niet goed in de sluiting ligt, waait weer los. Bij de nok, de zijkant, de schoorsteen of zonnepanelen laat je het doen.`,
 };
