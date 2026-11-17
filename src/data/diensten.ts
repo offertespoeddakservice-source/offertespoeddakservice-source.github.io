@@ -257,7 +257,7 @@ export const DIENSTEN: Dienst[] = [
     vanafPrijs: PLATDAK_PRIJS,
     h1: "Plat dak repareren of vervangen: EPDM en bitumen",
     kort: "Lekkage in plat dak opsporen en herstellen, of de hele bedekking vernieuwen.",
-    metaTitle: "Lekkend plat dak repareren Den Bosch | Spoed Dak Service",
+    metaTitle: "Plat dak lekt? Repareren of vervangen | Spoed Dak Service",
     metaDescription:
       "Lekkage in een plat dak? EPDM- en bitumendaken repareren of vervangen in de regio Den Bosch. Eerlijke prijs, 1 jaar garantie op reparatie en 2 jaar op vervangen.",
     icoon: "🏠",
@@ -562,7 +562,7 @@ export const DIENSTEN: Dienst[] = [
     ],
     h1: "Dakpannen vervangen of recht leggen: voorkom lekkage",
     kort: "Gebroken, verschoven of versleten pannen vervangen of opnieuw recht leggen.",
-    metaTitle: "Dakpannen vervangen Den Bosch | Spoed Dak Service",
+    metaTitle: "Dakpannen vervangen of repareren | Spoed Dak Service",
     metaDescription:
       "Gebroken of verschoven dakpannen vervangen en recht leggen in de regio Den Bosch. Voorkomt lekkage en tocht. Vaste prijs vooraf. Bel of WhatsApp Rens.",
     icoon: "🧱",
