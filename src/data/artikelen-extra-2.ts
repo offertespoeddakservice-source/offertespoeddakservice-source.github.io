@@ -562,6 +562,9 @@ export const FAQ_ERBIJ_2: Record<string, Artikel["faq"]> = {
   "dakgoot-zelf-schoonmaken": [
     { v: `Kan ik mijn dakgoot schoonmaken zonder ladder, met een lange steel of een bladblazer?`, a: `Bij een lage goot, zoals van een schuur, garage of aanbouw, lukt dat soms. Met een telescoopsteel met een grijper of haakje trek je vanaf de grond los blad uit de goot, en met een bladblazer met een gebogen verlengstuk blaas je droog blad eruit. Bij een goot op de eerste verdieping of hoger werkt het meestal slecht: je ziet niet wat je doet, nat blad en de laag slib onderin blijven liggen, en bij de uitloop naar de regenpijp, waar het vaak vastzit, kom je zo niet. Wat je eruit blaast, komt op je pannen, je terras of bij de buren terecht. Zet geen ladder tegen de goot zelf. Kun je er niet veilig bij, laat het dan doen. Eén goot, bijvoorbeeld alleen de voorgoot, kost ${inclBtw("goot_reinigen")}. Voor beide goten hoor je vooraf de prijs.` },
   ],
+  "kilgoot-lekt": [
+    { v: `Wat is het verschil tussen een kilgoot en een zakgoot?`, a: `Een kilgoot ligt schuin, in de hoek waar twee schuine dakvlakken tegen elkaar aan komen, en het water loopt erdoor naar de goot onderaan het dak. Een zakgoot ligt bijna vlak tussen twee daken die naar elkaar toe aflopen, zoals tussen twee panden of tussen het huis en een aanbouw. Het water moet daar via een uitloop weg. Zit die dicht, dan loopt een zakgoot over naar binnen. Bij allebei begint een lek vaak met blad dat blijft liggen. Weet je niet welke je hebt, stuur me dan een foto vanaf de straat of uit een raam boven.` },
+  ],
 };
 
 // Artikelen en korte antwoorden uit artikelen-extra-3.ts (sinds 12-11-2026) erachter, zodat ze via artikelen-extra.ts in ARTIKELEN en KORT_ANTWOORD komen.
