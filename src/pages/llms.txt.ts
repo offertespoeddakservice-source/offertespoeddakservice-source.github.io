@@ -1,4 +1,4 @@
-// llms.txt (03-11-2026, bijgewerkt 04-11-2026, 07-11-2026: alle artikelen erbij, 10-11-2026: bereikbaar en korte namen, 11-11-2026: korte antwoorden, 12-11-2026: zonder 'doet het werk zelf', 12-11-2026 ronde 5: Gelderland in Waar, 13-11-2026: blok Ook verder weg, 14-11-2026: blok Voor wie, 16-11-2026: dorpen gelijk aan de pagina's, 17-11-2026: link naar llms-full.txt, 17-11-2026 ronde 5: niet thuis in Lekt het nu?, 18-11-2026: blok Komt het water niet van het dak?): korte, feitelijke uitleg voor AI-zoekmachines (ChatGPT, Gemini, Perplexity, Copilot).
+// llms.txt (03-11-2026, bijgewerkt 04-11-2026, 07-11-2026: alle artikelen erbij, 10-11-2026: bereikbaar en korte namen, 11-11-2026: korte antwoorden, 12-11-2026: zonder 'doet het werk zelf', 12-11-2026 ronde 5: Gelderland in Waar, 13-11-2026: blok Ook verder weg, 14-11-2026: blok Voor wie, 16-11-2026: dorpen gelijk aan de pagina's, 17-11-2026: link naar llms-full.txt, 17-11-2026 ronde 5: niet thuis in Lekt het nu?, 18-11-2026: blok Komt het water niet van het dak?, 18-11-2026 ronde 4: betalen en veelgelezen bijgewerkt): korte, feitelijke uitleg voor AI-zoekmachines (ChatGPT, Gemini, Perplexity, Copilot).
 // Plaatsen komen vanzelf uit plaatsen.ts en diensten uit diensten.ts (verborgen diensten, die Rens niet doet, vallen weg). Geen prijzen, geen beloftes.
 import type { APIRoute } from "astro";
 import { SITE } from "../site.config.ts";
@@ -20,7 +20,7 @@ const NAMEN: Record<string, string> = {
 const ZICHTBARE_DIENSTEN = DIENSTEN.filter((d) => !d.verborgen);
 
 // Veelgelezen uitleg uit de eigen kennisbank. Een artikel dat verborgen is of niet bestaat, valt vanzelf weg.
-const UITLEG = ["daklekkage-opsporen", "dak-lekt-bij-harde-wind", "water-achter-dakgoot", "dakgoot-lekt", "dakraam-lekt", "lekkage-bij-schoorsteen", "lood-op-dak", "lekkage-bij-dakdoorvoer", "nokvorsten-los", "stormschade-eerste-hulp", "daklekkage-verzekering", "lekkage-bij-kachelpijp", "lekkage-bij-aanbouw", "water-uit-lamp-plafond", "golfplaten-lekken", "nat-achter-knieschot"];
+const UITLEG = ["daklekkage-opsporen", "dak-lekt-bij-harde-wind", "water-achter-dakgoot", "dakgoot-lekt", "dakraam-lekt", "lekkage-bij-schoorsteen", "lood-op-dak", "lekkage-bij-dakdoorvoer", "nokvorsten-los", "stormschade-eerste-hulp", "daklekkage-verzekering", "lekkage-bij-kachelpijp", "lekkage-bij-aanbouw", "water-uit-lamp-plafond", "golfplaten-lekken", "nat-achter-knieschot", "dakpan-kapot-of-verschoven", "lekkage-warmtepomp-of-airco", "kerstverlichting-dakgoot"];
 const UITLEG_ARTIKELEN = UITLEG.map((s) => ARTIKELEN.find((a) => a.slug === s)).filter((a) => a && !a.verborgen) as typeof ARTIKELEN;
 // Pagina's per plaats en klus (uit matrix.ts), zodat een AI bij een vraag als "daklekkage in Vught" meteen de lokale pagina vindt. Verborgen diensten vallen weg.
 const KLUS_NAMEN: Record<string, string> = {
@@ -68,6 +68,7 @@ export const GET: APIRoute = () => {
     `- Waar? Vanuit ${SITE.basisplaats} in de regio Den Bosch en verder in Brabant, en in Gelderland rond Wijchen en Nijmegen. Klussen verder weg, zoals in Breda, Eindhoven en Helmond, worden vooraf ingepland.`,
     `- Wanneer bereikbaar? Dag en nacht, ook in het weekend, via bellen of WhatsApp op ${SITE.telefoonWeergave}.`,
     "- Hoe hoor je de prijs? Stuur een foto van je dak vanaf de straat, of van de natte plek binnen, via WhatsApp. Je hoort de prijs voordat het werk begint.",
+    "- Hoe betaal je? Een kleine klus, zoals een paar losse pannen of een goot leegmaken, betaal je als hij klaar is, via iDEAL. Bij groter werk wordt vooraf afgesproken hoe en wanneer je betaalt.",
     `- Waar staan de richtprijzen? Op ${u}/prijzen/.`,
     "- Wat doet hij niet? Geen dakisolatie, geen werk aan de stenen van een gevel of schoorsteen, en niet aan zonnepanelen zelf.",
     "",
