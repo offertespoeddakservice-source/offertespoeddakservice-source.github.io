@@ -121,9 +121,13 @@ if (d.slug === "daklekkage" && LEK_OMSCHRIJVING_NIEUW[p.slug]) {
   omschrijvingPerDienst.daklekkage = LEK_OMSCHRIJVING_NIEUW[p.slug];
 }
 // 17-11-2026 ronde 5: daklekkage Vught (186 vertoningen op plek 10,5) en Oisterwijk (84 op plek 9,7), allebei 0 kliks. Titel ongewijzigd sinds eind oktober. Zoekwoord vooraan, daarna wat mensen willen weten. Kop (h1) en omschrijving blijven zoals ze zijn.
+// 18-11-2026 ronde 5: ook Boxtel ('daklekkage boxtel' 91 vertoningen op plek 15), Schijndel (46 op plek 12,7) en Vlijmen ('lekkage vlijmen' 43 op plek 6,6), alle drie 0 kliks en de titel sinds oktober ongewijzigd. Kop (h1) en omschrijving blijven zoals ze zijn.
 const LEK_TITEL_NIEUW: Record<string, string> = {
   vught: "Daklekkage Vught? Vaak dezelfde dag langs",
   oisterwijk: "Daklekkage Oisterwijk? Vaak dezelfde dag langs",
+  boxtel: "Daklekkage Boxtel? Vaak dezelfde dag langs",
+  schijndel: "Daklekkage Schijndel? Vaak dezelfde dag langs",
+  vlijmen: "Daklekkage Vlijmen? Vaak dezelfde dag langs",
 };
 if (d.slug === "daklekkage" && LEK_TITEL_NIEUW[p.slug]) {
   metaTitelPerDienst.daklekkage = LEK_TITEL_NIEUW[p.slug];
