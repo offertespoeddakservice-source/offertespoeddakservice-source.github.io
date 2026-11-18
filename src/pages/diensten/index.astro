@@ -11,6 +11,9 @@ const stopcontactBestaat = ARTIKELEN.some((a) => a.slug === "water-uit-stopconta
 const plafondBestaat = ARTIKELEN.some((a) => a.slug === "plafond-naar-beneden-door-lekkage" && !a.verborgen);
 const noodBestaat = ARTIKELEN.some((a) => a.slug === "noodreparatie-dak" && !a.verborgen);
 const burenBestaat = ARTIKELEN.some((a) => a.slug === "dak-repareren-via-buren" && !a.verborgen);
+// 18-11-2026 ronde 3: regel voor een goot in de dakrand, in het dak of tussen twee daken. Alleen links naar artikelen die bestaan.
+const verholenBestaat = ARTIKELEN.some((a) => a.slug === "verholen-goot-lekt" && !a.verborgen);
+const zakgootBestaat = ARTIKELEN.some((a) => a.slug === "zakgoot-lekt" && !a.verborgen);
 // Dakreparatie per plaats: alle plaatsen met een eigen pagina, zodat nieuwe pagina's vanzelf meekomen.
 const dakrepPlaatsen = MATRIX.filter((c) => c.dienst === "dakreparatie").map((c) => getPlaats(c.plaats)).filter((p) => p) as NonNullable<ReturnType<typeof getPlaats>>[];
 // Dakgoot schoonmaken en dakgoot repareren per plaats: komt vanzelf uit de lijst met pagina's. Den Bosch, Vught en Veghel staan voor het repareren al in de zin hierboven.
@@ -79,6 +82,7 @@ const faqSchema = { "@context": "https://schema.org", "@type": "FAQPage", mainEn
         <li><strong>Hoor je bij harde wind getik, geklapper of gefluit op je dak?</strong> Dan zit er vaak iets los, of blaast de wind door een kier bij een pan, de nok of het lood. Lees <a href="/kennisbank/dakpannen-klapperen-bij-wind/">dakpannen klapperen bij wind</a>{fluitBestaat && <> of <a href="/kennisbank/dak-fluit-bij-harde-wind/">fluiten of gieren bij harde wind</a></>}, en kijk bij <a href="/diensten/dakreparatie/">dakreparatie</a> wat ik eraan doe.</li>
         <li><strong>Loopt je goot bij een bui over de rand?</strong> Meestal zit hij vol of is de uitloop verstopt. Dan is <a href="/diensten/goten-reinigen/">dakgoot schoonmaken</a> vaak genoeg.</li>
         <li><strong>Druppelt je goot steeds op dezelfde plek, ook als hij leeg is?</strong> Dan lekt hij bij een naad, een hoek of de uitloop: zie <a href="/diensten/dakgoot-vervangen/">dakgoot repareren of vervangen</a>.</li>
+        <li><strong>Hangt er geen goot aan de voorkant van je dak, maar ligt hij in de dakrand, in het dak of tussen twee daken?</strong> Dan is het een bakgoot, een verholen goot of een zakgoot. Lekt die, dan komt het water meestal binnen: zie <a href="/diensten/bakgoot-repareren/">bakgoot repareren</a>{(verholenBestaat || zakgootBestaat) && <>, en lees {verholenBestaat && <a href="/kennisbank/verholen-goot-lekt/">verholen goot lekt</a>}{verholenBestaat && zakgootBestaat && " of "}{zakgootBestaat && <a href="/kennisbank/zakgoot-lekt/">zakgoot lekt</a>}</>}.</li>
         <li><strong>Een losse of kapotte pan, een nokvorst die scheef ligt of lood dat loszit?</strong> Dat valt onder <a href="/diensten/dakreparatie/">dakreparatie</a>.</li>
         <li><strong>Lekt het platte dak van je aanbouw, garage of berging?</strong> Zie <a href="/diensten/platte-daken/">platte daken</a>.</li>
         <li><strong>Lekt het naast de schoorsteen, rond een dakraam of bij een dakkapel?</strong> Dan zit het vaak in het lood of in de aansluiting op de pannen: zie <a href="/diensten/lood-vervangen/">lood vervangen</a>. Hoe je het herkent, lees je in <a href="/kennisbank/dakraam-lekt/">dakraam lekt</a> en <a href="/kennisbank/dakkapel-lekt/">dakkapel lekt</a>.</li>
