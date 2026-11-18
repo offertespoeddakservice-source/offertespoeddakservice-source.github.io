@@ -10,6 +10,7 @@
  * 17-11-2026 ronde 5: zelf een dakpan terugleggen of vervangen
  * 18-11-2026 ronde 1: doorslaand vocht of daklek
  * 18-11-2026 ronde 1: zakgoot lekt
+ * 18-11-2026 ronde 3: lood rond de schoorsteen laten vervangen
  */
 import type { Artikel } from "./artikelen";
 
@@ -912,6 +913,51 @@ export const ARTIKELEN_EXTRA_5: Artikel[] = [
       { v: `Is een lekkende zakgoot spoed?`, a: `Vaak wel, want bij een zakgoot komt het water binnen en niet langs de gevel. Druppelt het in een kamer, bij een lamp of in een kast, zet dan een emmer neer en stuur me meteen een foto. Is het op zolder één druppel na een stortbui, dan kan het meestal een paar dagen wachten, maar laat het niet te lang liggen.` },
     ],
   },
+  {
+    slug: `lood-schoorsteen-vervangen`,
+    datum: `2026-11-18`,
+    titel: `Lood rond je schoorsteen laten vervangen`,
+    h1: `Lood rond je schoorsteen laten vervangen: zo gaat dat, stap voor stap`,
+    metaTitle: `Lood schoorsteen vervangen: zo gaat het | Spoed Dak Service`,
+    metaDescription: `Lekt het naast je schoorsteen en moet het lood vervangen worden? Zo gaat dat: van de eerste foto tot nieuwe stroken lood of loodvervanger, en wat jij doet.`,
+    intro: `Zit er een natte plek naast je schoorsteen, of zie je vanaf de straat dat het lood aan de voet gescheurd is of omhoog staat? Dan moet het lood vaak opnieuw vastgezet of vervangen worden. Hieronder lees je hoe dat gaat, van de eerste foto tot de eerste bui erna, en wat je zelf kunt doen.`,
+    secties: [
+      { kop: `Lekt het nu?`, tekst: [
+        `Zet een emmer onder de druppel, haal spullen weg en zet in de meterkast de groep van die kamer uit als het bij een lamp of stopcontact nat wordt. Ga niet zelf het dak op. Wat je verder meteen kunt doen, staat op de <a href="/spoed/">spoedpagina</a>.`,
+      ] },
+      { kop: `Vastzetten of vervangen?`, tekst: [
+        `Niet elk stuk lood hoeft eruit. Staat alleen de bovenrand uit de voeg, dan kan ik hem vaak weer vastzetten. Is het lood gescheurd, vooral in de hoeken, mist er een stuk, of is het zo hard geworden dat het niet meer tegen de stenen aan ligt, dan komt er nieuw. Hoe je vanaf de straat ziet hoe het lood erbij ligt, lees je bij <a href="/kennisbank/lood-op-dak/">lood op je dak</a>.`,
+      ] },
+      { kop: `Stap 1: foto's en kijken`, tekst: [
+        `Het begint met een foto van je schoorsteen vanaf de straat, met de zoom van je telefoon, en een foto van de natte plek binnen. Daarop zie ik vaak al aan welke kant het zit. Op het dak kijk ik naar alle vier de kanten: de kant van de nok, waar het water van boven tegen de schoorsteen stroomt, de twee zijkanten en de kant van de goot. Ik kijk ook naar de pannen eromheen, want een gebroken pan naast de schoorsteen geeft binnen hetzelfde beeld als lood dat lekt.`,
+      ] },
+      { kop: `Stap 2: het oude lood eraf`, tekst: [
+        `Het oude lood haal ik weg, en de voeg waar de bovenrand in zat, maak ik schoon. De pannen rond de schoorsteen gaan zo nodig even los, zodat ik goed bij de aansluiting kan.`,
+      ] },
+      { kop: `Stap 3: nieuwe stroken rond de voet`, tekst: [
+        `Rond de voet komen nieuwe stroken: aan de onderkant een strook die over de pannen valt, langs de zijkanten stroken die met de pannen meelopen, en aan de bovenkant een strook die het water van het dak om de schoorsteen heen leidt. De bovenrand gaat in een voeg van de schoorsteen en wordt daar vastgezet en afgedicht.`,
+        `Meestal werk ik met loodvervanger. Wil je liever echt lood, bijvoorbeeld bij een oud huis of een monument, dan kan dat ook. Het verschil lees je in <a href="/kennisbank/lood-of-loodvervanger/">lood of loodvervanger</a>.`,
+      ] },
+      { kop: `Stap 4: pannen terug en nakijken`, tekst: [
+        `Daarna leg ik de pannen eromheen weer goed, en vervang ik een pan die gebroken is. Ik maak foto's van het nieuwe lood, zodat je ziet wat er is gedaan. Kijk na de eerste flinke bui op zolder of het naast de schoorsteen droog blijft.`,
+      ] },
+      { kop: `Wat ik niet doe`, tekst: [
+        `Aan de stenen en de voegen van de schoorsteen zelf werk ik niet. Zie ik dat de stenen kapot zijn of dat de voegen eruit vallen, dan zeg ik dat eerlijk, zodat je daar een metselaar voor kunt vragen. Komt het water niet langs het lood, maar van boven door het open kanaal, dan kan er een kap of afdekplaat op. Zie <a href="/kennisbank/schoorsteen-afdekken/">schoorsteen afdekken</a>.`,
+      ] },
+      { kop: `Op welke dag`, tekst: [
+        `Nieuw lood leg ik het liefst op een droge dag. De afdichting in de voeg hecht alleen goed op stenen die droog en schoon zijn. Druppelt het nu al binnen, dan maak ik het eerst dicht en leg ik het nieuwe lood op een betere dag. Hoe dat gaat, lees je in <a href="/kennisbank/noodreparatie-dak/">noodreparatie aan je dak</a>.`,
+      ] },
+      { kop: `Wat kost het?`, tekst: [
+        `Dat hangt af van hoeveel lood er nieuw moet, hoe groot de schoorsteen is en hoe goed ik erbij kan. Stuur een foto van de schoorsteen vanaf de straat en van de natte plek binnen via WhatsApp, dan hoor je vooraf wat het kost. Zie ook <a href="/diensten/lood-vervangen/">lood vervangen</a>.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: lood vastzetten of vervangen`, href: `/diensten/lood-vervangen/` },
+    faq: [
+      { v: `Moet de schoorsteen eraf als het lood lekt?`, a: `Nee. Het lood ligt rond de voet en kan vervangen worden terwijl de schoorsteen blijft staan. Gebruik je de schoorsteen niet meer, dan kun je hem ook laten weghalen, maar dat is meer werk, want dan moet het gat in het dak goed dicht. Lees ook het artikel over lekkage waar vroeger een schoorsteen stond.` },
+      { v: `Betaalt mijn verzekering nieuw lood rond de schoorsteen?`, a: `Meestal niet als het lood door ouderdom is gescheurd of losgekomen, want dat zien verzekeraars als onderhoud. Is het lood bij een storm losgerukt, of is er binnen schade door een lek dat plotseling begon, dan wordt dat soms wel vergoed. Dat verschilt per polis. Maak foto's van de natte plek en van de schoorsteen, en vraag het na bij je verzekeraar. Van mij krijg je foto's van wat ik aantrof en van het nieuwe lood.` },
+      { v: `Hoe zie ik na de reparatie of het goed is?`, a: `Kijk na de eerste flinke bui, en het liefst ook na een bui met harde wind, op zolder naast de schoorsteen. Blijft het hout of de muur daar droog, dan zit het goed. Een oude vlek op het plafond kan nog een tijd te zien zijn, ook als het lek dicht is. Wordt hij groter of weer nat, stuur me dan meteen een foto.` },
+    ],
+  },
 ];
 
 // Kort antwoord bovenaan een artikel. Geen bedragen.
@@ -938,4 +984,5 @@ export const KORT_ANTWOORD_5: Record<string, string> = {
   "dakpan-zelf-terugleggen": `Een verschoven pan kun je soms van binnenuit, vanaf zolder, voorzichtig terugschuiven als er geen folie of plaat onder de pannen zit. Een pan op het dak zelf vervangen doe je liever niet: het dak is glad, pannen breken onder je voet en een pan die niet goed in de sluiting ligt, waait weer los. Bij de nok, de zijkant, de schoorsteen of zonnepanelen laat je het doen.`,
   "doorslaand-vocht-of-daklek": `Zit de natte plek bovenin de muur, vlak onder het plafond, dan komt het water vaak van een goot die overloopt of lekt, of van het lood of de dakrand erboven. Zit hij midden op de muur, komt hij op na regen met harde wind en trekt hij na een paar droge dagen weer weg, dan is het eerder doorslaand vocht door de stenen of de voegen van de gevel. Wordt het ook nat na dagen zonder regen, denk dan aan een leiding.`,
   "zakgoot-lekt": `Een zakgoot ligt bijna vlak tussen twee daken die naar elkaar toe aflopen, bijvoorbeeld tussen twee panden of tussen het huis en een aanbouw. Loopt hij over, dan komt het water niet langs de gevel maar binnen. Meestal zit de uitloop dicht met blad, mos of gruis, of lekt een naad in het zink. Vaak is leegmaken en de uitloop vrijmaken genoeg, en een lekke naad kan opnieuw gesoldeerd worden.`,
+  "lood-schoorsteen-vervangen": `Is het lood rond je schoorsteen gescheurd, mist er een stuk of staat het omhoog, dan komt er nieuw lood: het oude eraf, nieuwe stroken rond de voet met de bovenrand in een voeg, en de pannen eromheen weer goed. Meestal met loodvervanger, op wens met echt lood. Staat alleen de bovenrand los, dan is vastzetten vaak genoeg.`,
 };
