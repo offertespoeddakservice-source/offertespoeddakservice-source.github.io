@@ -17,6 +17,7 @@
  * 18-11-2026 ronde 4: vergunning nodig voor je dak
  * 18-11-2026 ronde 5: dakgoot laten vernieuwen
  * 18-11-2026 ronde 5: goot loopt over door een regenton
+ * 19-11-2026 ronde 1: het dak van je bungalow lekt
  */
 import type { Artikel } from "./artikelen";
 
@@ -1208,6 +1209,44 @@ export const ARTIKELEN_EXTRA_5: Artikel[] = [
       { v: `Moet mijn goot vaker leeg als er een regenton aan zit?`, a: `De goot zelf niet: één keer per jaar is meestal genoeg, het liefst als de bomen kaal zijn. Het zeefje in het tussenstuk wel. Maak dat na de bladval en in het voorjaar schoon, en na een storm als er veel blad is gevallen.` },
     ],
   },
+  {
+    slug: `bungalow-dak-lekt`,
+    datum: `2026-11-19`,
+    titel: `Dak van je bungalow lekt?`,
+    h1: `Het dak van je bungalow lekt: waar het zit als er geen zolder is`,
+    metaTitle: `Dak van je bungalow lekt? | Spoed Dak Service`,
+    metaDescription: `Lekt het dak van je bungalow? Zonder zolder zie je het lek pas aan je plafond. Zo vind je waar het zit bij een plat of flauw pannendak, en wat je meteen doet.`,
+    intro: `Een bungalow heeft alles op één verdieping, en vaak zit er geen zolder tussen het dak en je kamers. Lekt het dak, dan zie je dat daarom meteen aan het plafond van je woonkamer of slaapkamer, en kun je niet even boven kijken waar het water binnenkomt. Hieronder lees je waar een bungalowdak meestal lekt, wat je zelf meteen doet en hoe ik het lek zoek.`,
+    secties: [
+      { kop: `Lekt het nu?`, tekst: [
+        `Zet een emmer onder de druppel, haal spullen weg en zet in de meterkast de groep uit als het bij een lamp of spotje nat wordt. Bolt het plafond op, ga er dan niet onder staan. Ga niet zelf het dak op, ook al is het laag: een nat plat dak of een nat pannendak is glad. Wat je verder meteen kunt doen, staat op de <a href="/spoed/">spoedpagina</a>.`,
+      ] },
+      { kop: `Waarom je het lek bij een bungalow lastig vindt`, tekst: [
+        `Zonder zolder loopt het water van het lek tussen de dakbedekking of de pannen en je plafond door, langs de balken en de isolatie, en komt het pas ergens anders naar beneden. De natte plek op je plafond zit daardoor vaak niet recht onder het lek. Hoe dat werkt, lees je in <a href="/kennisbank/daklekkage-opsporen/">daklekkage opsporen</a>.`,
+      ] },
+      { kop: `Met een plat dak`, tekst: [
+        `Een deel van de bungalows, vooral uit de jaren '60 en '70, heeft een plat dak. Daar zit een lek meestal bij de afvoer of de regenpijp die vol blad zit, zodat er water op het dak blijft staan, bij de rand van het dak, rond een lichtkoepel of een schoorsteen, of bij een naad die is gaan openstaan. Is het dak groot en zijn er maar een of twee afvoeren, dan blijft er na een bui snel ergens een plas staan. Zie <a href="/kennisbank/water-blijft-staan-op-plat-dak/">water blijft staan op je platte dak</a> en <a href="/kennisbank/lichtkoepel-lekt/">lichtkoepel lekt</a>.`,
+      ] },
+      { kop: `Met een flauw pannendak`, tekst: [
+        `Andere bungalows hebben een pannendak dat niet zo steil is. Op een flauw dak loopt het water langzamer weg, en bij regen met harde wind kan het dan onder de pannen door waaien. Verder zit een lek vaak bij het lood rond de schoorsteen, bij een kilgoot waar twee delen van het dak samenkomen, zoals bij een bungalow in een L-vorm, of op de plek waar het pannendak overgaat in het platte dak van de garage. Zie <a href="/kennisbank/kilgoot-lekt/">kilgoot lekt</a> en <a href="/kennisbank/lekkage-overgang-schuin-plat-dak/">lekkage bij de overgang van een schuin naar een plat dak</a>.`,
+      ] },
+      { kop: `Lekt het bij een lamp of spotje?`, tekst: [
+        `In een bungalow zitten de lampen en spotjes vaak direct onder het dak. Komt het water daar naar beneden, laat de groep dan uit staan tot een installateur ernaar heeft gekeken. Lees ook <a href="/kennisbank/water-uit-lamp-plafond/">water uit de lamp of spotjes</a>.`,
+      ] },
+      { kop: `Wat je zelf kunt bekijken`, tekst: [
+        `Kijk vanuit de tuin of vanaf de straat met de zoom van je telefoon naar het dak. Bij een plat dak zie je soms vanaf een hoger huis in de buurt of er water blijft staan. Maak een foto van de natte plek binnen en schrijf op bij welk weer het lekt: bij elke bui, alleen bij een stortbui of alleen bij harde wind uit één richting. Dat helpt mij bij het zoeken.`,
+      ] },
+      { kop: `Hoe ik het aanpak`, tekst: [
+        `Ik zoek eerst buiten waar het water binnenkomt, en maak binnen alleen iets open als het echt niet anders kan, en dan in overleg. Een volle afvoer maak ik leeg, en een gebroken of verschoven pan vervang ik of leg ik terug. Zit het in een losse naad, de rand of een aansluiting van het platte dak, dan hoor je wat er nodig is. Is de dakbedekking op veel plekken op, dan zeg ik eerlijk dat een reparatie niet lang meer houdt. Je hoort vooraf wat het kost. Zie <a href="/diensten/daklekkage/">daklekkage</a> en <a href="/diensten/platte-daken/">platte daken</a>.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: daklekkage & spoed`, href: `/diensten/daklekkage/` },
+    faq: [
+      { v: `Mijn bungalow heeft geen zolder. Hoe vind je dan het lek zonder het plafond open te maken?`, a: `Meestal door buiten te zoeken. Ik kijk naar het dak boven de natte plek en een flink stuk hoger of verder, want het water loopt vaak eerst een eind voordat het binnenkomt. Het helpt als je opschrijft bij welk weer het lekt. Moet er toch iets open, dan bespreek ik dat eerst met je, en dan houd ik het zo klein mogelijk.` },
+      { v: `Is een lek in een bungalow eerder spoed?`, a: `Vaak wel, omdat het water meteen in je kamer komt en er geen zolder is die het eerst opvangt. Druppelt het, bolt het plafond op of zit het bij een lamp, bel of app me dan met een foto. Is het een oude, droge kring, dan kan het meestal een paar dagen wachten.` },
+      { v: `Kan ik zelf op het platte dak van mijn bungalow kijken?`, a: `Liever niet als het nat, glad of donker is, en ook niet als je niet weet of het dak je kan dragen. Een plat dak lijkt stevig, maar rond een lichtkoepel en aan de rand ga je makkelijk mis. Kijk liever vanaf de grond of vanaf een hoger punt in de buurt, en stuur me een foto.` },
+    ],
+  },
 ];
 
 // Kort antwoord bovenaan een artikel. Geen bedragen.
@@ -1241,4 +1280,5 @@ export const KORT_ANTWOORD_5: Record<string, string> = {
   "vergunning-dak-vernieuwen": `Een kapotte pan, los lood of een lekkende goot herstellen met hetzelfde materiaal is onderhoud, en daar is in de regel geen vergunning voor nodig. Bij een monument, in een beschermd stadsgezicht of als je dak er anders uit gaat zien, zoals andere pannen of een andere kleur, vraag je het eerst na bij je gemeente. Bij het Omgevingsloket kun je een vergunningcheck doen. Een steiger of container op de stoep vraagt vaak een melding bij de gemeente.`,
   "dakgoot-vernieuwen": `Een dakgoot vernieuwen is slim als hij over een groot stuk dun, bros of gescheurd is, of steeds op een andere plek lekt. Lekt hij op één plek, dan is repareren vaak genoeg. Bij vernieuwen gaat de oude goot eraf, komen er waar nodig nieuwe beugels, hangt de nieuwe goot op afschot naar de regenpijp en worden de naden gesoldeerd of verbonden. Dat gebeurt op een droge dag.`,
   "goot-loopt-over-door-regenton": `Loopt je dakgoot over sinds er een regenton aan de regenpijp zit, dan zit het meestal in het tussenstuk dat het water naar de ton stuurt: het zeefje zit dicht met blad of naalden, de ton heeft geen goede overloop, of er zit ijs in. Maak het zeefje schoon, zet het tussenstuk voor de winter in de winterstand of laat de ton leeglopen, en kijk of de goot dan nog overloopt.`,
+  "bungalow-dak-lekt": `Bij een bungalow zit er vaak geen zolder tussen het dak en je kamers, dus een lek zie je meteen aan het plafond, en vaak niet recht onder de plek waar het water binnenkomt. Bij een plat dak zit het meestal bij een volle afvoer, de rand, een lichtkoepel of een naad. Bij een flauw pannendak komt de regen bij wind onder de pannen door, of lekt het bij het lood rond de schoorsteen of een kilgoot. Zet een emmer neer en ga niet zelf het dak op.`,
 };
