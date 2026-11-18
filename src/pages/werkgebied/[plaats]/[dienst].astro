@@ -176,6 +176,19 @@ const RENOVATIE_EXTRA = [
   ARTIKELEN.some((a) => a.slug === "dak-vernieuwen-rijtjeshuis" && !a.verborgen) ? 'Hoe het vernieuwen gaat als je huis in een rij staat, lees je in <a href="/kennisbank/dak-vernieuwen-rijtjeshuis/">dak vernieuwen bij een rijtjeshuis</a>.' : "",
 ].filter(Boolean).join(" ");
 if (RENOVATIE_EXTRA) verderLezen.dakrenovatie = `${verderLezen.dakrenovatie} ${RENOVATIE_EXTRA}`;
+// 18-11-2026 ronde 5: bij dakgoot repareren en daklekkage per plaats een eigen extra zin naar de nieuwe uitleg van 18-11, alleen als die artikelen bestaan. De bestaande zinnen in verderLezen blijven zoals ze zijn.
+const bestaatArtikel = (slug: string) => ARTIKELEN.some((a) => a.slug === slug && !a.verborgen);
+const gootInHetDak = [bestaatArtikel("verholen-goot-lekt") ? '<a href="/kennisbank/verholen-goot-lekt/">verholen goot lekt</a>' : "", bestaatArtikel("zakgoot-lekt") ? '<a href="/kennisbank/zakgoot-lekt/">zakgoot lekt</a>' : ""].filter(Boolean).join(" of ");
+const GOOT_EXTRA = [
+  bestaatArtikel("dakgoot-vernieuwen") ? 'Is je goot echt op, lees dan hoe het gaat als ik hem vernieuw: <a href="/kennisbank/dakgoot-vernieuwen/">je dakgoot laten vernieuwen</a>.' : "",
+  bestaatArtikel("goot-loopt-over-door-regenton") ? 'Loopt je goot over sinds er een regenton aan de regenpijp zit, kijk dan bij <a href="/kennisbank/goot-loopt-over-door-regenton/">goot loopt over door een regenton</a>.' : "",
+  gootInHetDak ? `Ligt je goot niet aan de voorkant, maar in het dak of tussen twee daken, lees dan ${gootInHetDak}.` : "",
+].filter(Boolean).join(" ");
+const LEK_EXTRA = [
+  bestaatArtikel("aardlekschakelaar-slaat-af-bij-regen") ? 'Valt de stroom uit als het regent, lees dan <a href="/kennisbank/aardlekschakelaar-slaat-af-bij-regen/">aardlekschakelaar slaat af bij regen</a>.' : "",
+  bestaatArtikel("doorslaand-vocht-of-daklek") ? 'Is de muur nat na regen met harde wind, en twijfel je of het van het dak komt, kijk dan bij <a href="/kennisbank/doorslaand-vocht-of-daklek/">doorslaand vocht of een daklek</a>.' : "",
+  bestaatArtikel("garagebox-dak-lekt") ? 'Lekt het dak van je garagebox, lees dan <a href="/kennisbank/garagebox-dak-lekt/">het dak van je garagebox lekt</a>.' : "",
+].filter(Boolean).join(" ");
 const verder = verderLezen[d.slug];
 // Interne links: de andere klussen in deze plaats, en dezelfde klus in de andere plaatsen.
 const zelfdePlaats = MATRIX.filter((c) => c.plaats === p.slug && c.dienst !== d.slug)
@@ -271,6 +284,8 @@ const schema = [
         <>
           <h3>Handig om te weten</h3>
           <p set:html={verder} />
+          {d.slug === "dakgoot-vervangen" && GOOT_EXTRA && <p set:html={GOOT_EXTRA} />}
+          {d.slug === "daklekkage" && LEK_EXTRA && <p set:html={LEK_EXTRA} />}
         </>
       )}
       <h3>In het kort</h3>
