@@ -18,6 +18,7 @@
  * 18-11-2026 ronde 5: dakgoot laten vernieuwen
  * 18-11-2026 ronde 5: goot loopt over door een regenton
  * 19-11-2026 ronde 1: het dak van je bungalow lekt
+ * 19-11-2026 ronde 1: vergaarbak bovenaan de regenpijp lekt of loopt over
  */
 import type { Artikel } from "./artikelen";
 
@@ -1247,6 +1248,44 @@ export const ARTIKELEN_EXTRA_5: Artikel[] = [
       { v: `Kan ik zelf op het platte dak van mijn bungalow kijken?`, a: `Liever niet als het nat, glad of donker is, en ook niet als je niet weet of het dak je kan dragen. Een plat dak lijkt stevig, maar rond een lichtkoepel en aan de rand ga je makkelijk mis. Kijk liever vanaf de grond of vanaf een hoger punt in de buurt, en stuur me een foto.` },
     ],
   },
+  {
+    slug: `vergaarbak-lekt`,
+    datum: `2026-11-19`,
+    titel: `Vergaarbak lekt of loopt over?`,
+    h1: `De vergaarbak bovenaan je regenpijp lekt of loopt over: waar het zit en wat je doet`,
+    metaTitle: `Vergaarbak lekt of loopt over? | Spoed Dak Service`,
+    metaDescription: `Zit er bovenaan je regenpijp een bak waar de goot in uitkomt, en loopt die over of lekt hij? Zo komt het, wat je zelf veilig nakijkt en wat ik eraan doe.`,
+    intro: `Bij een deel van de huizen komt de goot niet rechtstreeks in de regenpijp uit, maar in een bak bovenaan de pijp: de vergaarbak, soms ook regenwaterbak genoemd. Je ziet hem vaak bij oudere huizen, bij een bakgoot en bij een plat dak. Loopt die bak over of lekt hij, dan komt het water langs je gevel naar beneden, en soms ook binnen. Hieronder lees je hoe zo'n bak werkt, waar het misgaat, wat je zelf veilig kunt bekijken en hoe ik het aanpak.`,
+    secties: [
+      { kop: `Komt het water binnen?`, tekst: [
+        `Wordt het bij een bui nat bovenin de muur of langs een kozijn onder de bak, zet daar dan een bak of handdoek neer, haal spullen weg en stuur me een foto. Zet geen ladder tegen de gevel of de regenpijp om zelf te kijken. Wat je verder meteen kunt doen, staat op de <a href="/spoed/">spoedpagina</a>.`,
+      ] },
+      { kop: `Zo werkt een vergaarbak`, tekst: [
+        `De vergaarbak hangt aan de gevel, bovenaan de regenpijp. Het water komt erin via de uitloop van de goot, of via een spuwer: een kort buisje dat door de dakrand of de gevel naar buiten steekt, bijvoorbeeld bij een bakgoot of een plat dak. Onderin de bak zit de opening naar de regenpijp. De meeste vergaarbakken zijn van zink, een deel is van kunststof.`,
+      ] },
+      { kop: `Waar het misgaat`, tekst: [
+        `De opening naar de pijp zit dicht. Blad, mos, zand en naalden uit de goot komen in de bak terecht en blijven liggen bij de opening onderin. Bij een flinke bui kan het water dan niet snel genoeg weg en loopt het over de rand van de bak. Vaak zie je onder de bak een natte of groene plek op de muur.`,
+        `Een naad of de bodem lekt. Een zinken bak is aan elkaar gesoldeerd. Na veel jaren laat een naad los, of wordt de bodem dun op de plek waar steeds water en vuil bleven staan. Dan druppelt het onder de bak, ook als hij niet overloopt.`,
+        `De pijp zit los. Is de regenpijp een stukje uit de bak gezakt, of hangt de bak scheef omdat een beugel los is, dan loopt het water langs de buitenkant van de pijp naar beneden in plaats van erin.`,
+        `IJs in de winter. Blijft er water in de bak staan omdat de opening half dicht zit, dan bevriest dat bij vorst. Bij de dooi kan het smeltwater er niet uit, en het ijs kan een naad openduwen. Lees ook <a href="/kennisbank/regenpijp-kapot-door-vorst/">regenpijp kapot door vorst</a>.`,
+      ] },
+      { kop: `Waarom het soms binnen nat wordt`, tekst: [
+        `Een bak die overloopt, geeft meestal water langs de gevel. Binnen wordt het nat als dat water steeds op dezelfde plek tegen de muur of een kozijn loopt en erin trekt, of als de goot of de afvoer erboven ook vol zit. Komt het water uit een bakgoot, kijk dan ook bij <a href="/kennisbank/bakgoot-lekt/">bakgoot lekt</a>. Komt het van een plat dak, lees dan <a href="/kennisbank/noodoverloop-plat-dak/">water uit de noodoverloop van je platte dak</a>.`,
+      ] },
+      { kop: `Wat je zelf veilig kunt bekijken`, tekst: [
+        `Kijk tijdens een flinke bui vanaf de straat of vanuit een raam naar de bak. Loopt het water over de rand, dan zit de opening waarschijnlijk dicht. Druppelt het onder de bak terwijl hij niet overloopt, dan lekt hij. Komt er onderaan de regenpijp bijna niets uit, dan zit de bak of de pijp ergens dicht. Maak er een foto of een kort filmpje van. Ga niet op een ladder staan om de bak zelf leeg te halen, want hij hangt vaak hoog, vlak onder de dakrand.`,
+      ] },
+      { kop: `Hoe ik het aanpak`, tekst: [
+        `Ik maak de bak leeg en de opening naar de regenpijp vrij, en kijk meteen of de goot erboven ook vol zit. Lekt een naad in een zinken bak, dan soldeer ik die opnieuw. Is de bak op, of is een kunststof bak gescheurd, dan vervang ik hem, vaak samen met het stuk regenpijp eronder. Is de pijp uit de bak gezakt, dan zet ik hem weer goed en maak ik hem vast met beugels. Stuur een foto van de bak en de gevel eronder via WhatsApp, dan hoor je vooraf wat het kost. Zie <a href="/diensten/regenpijp-vervangen/">regenpijp vervangen of repareren</a> en <a href="/diensten/dakgoot-solderen/">dakgoot solderen</a>.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: regenpijp vervangen of repareren`, href: `/diensten/regenpijp-vervangen/` },
+    faq: [
+      { v: `Hoe vaak moet een vergaarbak leeg?`, a: `Meestal is één keer per jaar genoeg, het liefst als de bomen kaal zijn. Staat je huis onder bomen, of komt er water met grind of zand van een plat dak in de bak, dan vaker. Als ik je goot leegmaak, neem ik de bak meteen mee.` },
+      { v: `Kan ik een lekke naad in mijn vergaarbak zelf dichtkitten?`, a: `Liever niet. Kit hecht slecht op nat of vuil zink, en als de naad later gesoldeerd moet worden, moet die kit er eerst weer helemaal af. Zet bij een druppel liever iets onder de bak en stuur me een foto.` },
+      { v: `Mijn vergaarbak loopt alleen over bij een stortbui. Is dat erg?`, a: `Bij een echte wolkbreuk kan een bak even over de rand gaan, en dat is niet meteen een probleem. Gebeurt het bij elke flinke bui, dan zit de opening naar de pijp vaak half dicht, of komt er meer water in dan de bak en de pijp kunnen hebben. Stuur me een kort filmpje tijdens een bui, dan zie ik wat er speelt.` },
+    ],
+  },
 ];
 
 // Kort antwoord bovenaan een artikel. Geen bedragen.
@@ -1281,4 +1320,5 @@ export const KORT_ANTWOORD_5: Record<string, string> = {
   "dakgoot-vernieuwen": `Een dakgoot vernieuwen is slim als hij over een groot stuk dun, bros of gescheurd is, of steeds op een andere plek lekt. Lekt hij op één plek, dan is repareren vaak genoeg. Bij vernieuwen gaat de oude goot eraf, komen er waar nodig nieuwe beugels, hangt de nieuwe goot op afschot naar de regenpijp en worden de naden gesoldeerd of verbonden. Dat gebeurt op een droge dag.`,
   "goot-loopt-over-door-regenton": `Loopt je dakgoot over sinds er een regenton aan de regenpijp zit, dan zit het meestal in het tussenstuk dat het water naar de ton stuurt: het zeefje zit dicht met blad of naalden, de ton heeft geen goede overloop, of er zit ijs in. Maak het zeefje schoon, zet het tussenstuk voor de winter in de winterstand of laat de ton leeglopen, en kijk of de goot dan nog overloopt.`,
   "bungalow-dak-lekt": `Bij een bungalow zit er vaak geen zolder tussen het dak en je kamers, dus een lek zie je meteen aan het plafond, en vaak niet recht onder de plek waar het water binnenkomt. Bij een plat dak zit het meestal bij een volle afvoer, de rand, een lichtkoepel of een naad. Bij een flauw pannendak komt de regen bij wind onder de pannen door, of lekt het bij het lood rond de schoorsteen of een kilgoot. Zet een emmer neer en ga niet zelf het dak op.`,
+  "vergaarbak-lekt": `Een vergaarbak is de bak bovenaan de regenpijp waar de goot of een spuwer in uitkomt. Loopt hij over, dan zit de opening naar de pijp meestal dicht met blad, mos of zand. Druppelt het onder de bak terwijl hij niet overloopt, dan lekt een naad of de bodem. Een volle bak maak je leeg, en een lekke naad in zink kan vaak opnieuw gesoldeerd worden. Zet geen ladder tegen de gevel om zelf te kijken.`,
 };
