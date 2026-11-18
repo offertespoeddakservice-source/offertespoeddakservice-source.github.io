@@ -13,6 +13,7 @@
  * 18-11-2026 ronde 3: lood rond de schoorsteen laten vervangen
  * 18-11-2026 ronde 3: verholen goot lekt
  * 18-11-2026 ronde 4: aardlekschakelaar slaat af bij regen
+ * 18-11-2026 ronde 4: dak van je garagebox lekt
  */
 import type { Artikel } from "./artikelen";
 
@@ -1042,6 +1043,47 @@ export const ARTIKELEN_EXTRA_5: Artikel[] = [
       { v: `Is het spoed?`, a: `Valt de stroom uit en blijft de aardlekschakelaar afslaan, dan wil je dat snel geregeld hebben. Laat de groep uit staan en bel een installateur voor de elektra. Komt het water van je dak of van de goot, bel of app mij dan met een foto. Druppelt het binnen bij een lamp of stopcontact, of is de meterkast nat, dan is het spoed.` },
     ],
   },
+  {
+    slug: `garagebox-dak-lekt`,
+    datum: `2026-11-18`,
+    titel: `Dak van je garagebox lekt?`,
+    h1: `Het dak van je garagebox lekt: waar het meestal zit, wie het regelt en wat eraan te doen is`,
+    metaTitle: `Dak garagebox lekt: wat nu? | Spoed Dak Service`,
+    metaDescription: `Lekt het dak van je garagebox? Vaak zit het bij de naad met de box ernaast, de rand of de afvoer. Zo zie je waar, wie het regelt en wat eraan te doen is.`,
+    intro: `Een garagebox staat vaak in een rij, soms een eind van je huis, en je komt er niet elke dag. Daardoor merk je een lek vaak pas als er een plas op de vloer staat of je spullen nat zijn. Bijna elke garagebox heeft een plat dak, en bij een rij boxen loopt dat dak vaak door over meerdere boxen. Hieronder lees je waar het meestal lekt, hoe je dat regelt met de andere eigenaren en wat ik eraan doe.`,
+    secties: [
+      { kop: `Lekt het nu?`, tekst: [
+        `Zet spullen hoger of haal ze weg en zet een bak onder de druppel. Zit er een lamp, stopcontact of vriezer in de box en wordt het daar nat, zet dan de stroom eraf als dat veilig kan. Ga niet zelf op het dak staan: een oud plat dak kan op plekken zacht zijn, en de rand is vaak laag. Maak een foto van de natte plek binnen. Wat je verder meteen kunt doen, staat op de <a href="/spoed/">spoedpagina</a>.`,
+      ] },
+      { kop: `Waar het meestal lekt`, tekst: [
+        `Op de grens met de box ernaast. Daar loopt de dakbedekking over de muur tussen de boxen, of zit er een naad of een opstaande rand. Het dak werkt bij warm en koud weer steeds een beetje, en op zo'n overgang scheurt de bedekking vaak het eerst.`,
+        `Aan de rand. Aan de voorkant boven de deur en aan de achterkant zit een rand van hout, aluminium of zink. Laat de dakbedekking daar los, dan loopt het water langs de muur naar binnen. Lees ook <a href="/kennisbank/daktrim-lekt/">daktrim lekt</a>.`,
+        `Bij de afvoer. Vaak heeft een rij boxen één afvoer of een gootje aan de achterkant. Zit die vol blad of mos, dan blijft het water op het dak staan en zoekt het een weg naar binnen. Zie <a href="/kennisbank/plat-dak-lekt-bij-afvoer/">plat dak lekt bij de afvoer</a>.`,
+        `Op een zachte plek. Heeft het lang gelekt, dan wordt het hout onder de dakbedekking zacht, en daar blijft na een bui een plas staan. Lees <a href="/kennisbank/zachte-plek-plat-dak/">zachte plek in je platte dak</a>.`,
+      ] },
+      { kop: `Dakleer, EPDM of golfplaten?`, tekst: [
+        `Op veel garageboxen ligt dakleer of een andere bitumen dakbedekking, op nieuwere boxen ook EPDM, een rubber dakbedekking. Op oudere boxen liggen soms golfplaten. Zijn die grijs en van voor 1994, laat ze dan eerst onderzoeken op asbest, want daar boor of zaag ik niet in. Meer lees je bij <a href="/kennisbank/dakleer-repareren/">dakleer repareren</a>, <a href="/kennisbank/epdm-dak-lekt/">EPDM-dak lekt</a> en <a href="/kennisbank/golfplaten-lekken/">golfplaten lekken</a>.`,
+      ] },
+      { kop: `Een rij boxen: wie regelt het dak?`, tekst: [
+        `Bij een rij garageboxen is het dak soms van elke eigenaar apart, maar vaak hoort het bij een VvE of staat in de akte dat jullie het samen onderhouden. Kijk in je koopakte of de splitsingsakte, of vraag het na bij de VvE of de beheerder. Huur je de box, meld het lek dan bij de verhuurder. Lekt het op de grens met de box ernaast, dan is het slim om het samen te laten maken. Dan hoeft er maar één keer iemand op het dak, en blijft de naad tussen jullie boxen dicht.`,
+      ] },
+      { kop: `Repareren of een nieuwe dakbedekking?`, tekst: [
+        `Gaat het om één scheur, een losse naad of een lek bij de rand of de afvoer, dan is een gerichte reparatie vaak genoeg. Is de dakbedekking over het hele dak bros, zitten er veel blazen in of is hij al vaak gelapt, dan zeg ik eerlijk dat een nieuwe dakbedekking op termijn slimmer is. Bij een rij boxen is het dan vaak handig om dat samen met de andere eigenaren te doen.`,
+      ] },
+      { kop: `Hoe ik het aanpak`, tekst: [
+        `Ik kijk eerst binnen waar het water binnenkomt, en daarna op het dak bij de naden, de rand en de afvoer. Een scheur of losse naad maak ik dicht, en een verstopte afvoer maak ik vrij. Is het hout onder de dakbedekking op een plek rot, dan vervang ik dat stuk en maak ik het dak daar weer dicht. Zie <a href="/diensten/platte-daken/">plat dak repareren</a> en <a href="/diensten/dakbeschot-vervangen/">rot dakbeschot vervangen</a>.`,
+      ] },
+      { kop: `Wat kost het?`, tekst: [
+        `Dat hangt af van wat er mis is en hoe groot het stuk is. Stuur een foto van het dak, gemaakt vanaf een plek waar je veilig staat, en van de natte plek binnen via WhatsApp. Zeg erbij of het om één box gaat of om meer. Dan hoor je vooraf wat het kost.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: plat dak repareren`, href: `/diensten/platte-daken/` },
+    faq: [
+      { v: `Kan ik het lek zelf dichtmaken met bitumenkit?`, a: `Op een droge, schone plek houdt een likje kit soms een tijdje, maar vaak zit het lek ergens anders dan de plek die je ziet. Water loopt onder de dakbedekking een stuk door voordat het binnenkomt, en op een nat of vuil dak plakt kit niet. Ga er ook niet op staan als het dak zacht voelt. Stuur liever een foto van de natte plek binnen en van het dak.` },
+      { v: `Ik wil alleen het stuk boven mijn eigen box laten maken. Kan dat?`, a: `Vaak wel, als het lek boven jouw box zit en de dakbedekking verder nog goed is. Ik let dan extra op de naad met de boxen ernaast, zodat het daar dicht blijft. Hoort het dak bij een VvE, vraag dan eerst of jij de opdracht mag geven.` },
+      { v: `Moet ik erbij zijn als je komt kijken?`, a: `Voor de eerste keer kijken is het fijn als de box open is, want dan zie ik binnen waar het water binnenkomt. Spreek met me af wanneer dat kan, en zeg erbij waar de box staat en hoe ik erbij kom. Of je bij de reparatie zelf moet zijn, spreken we daarna samen af.` },
+    ],
+  },
 ];
 
 // Kort antwoord bovenaan een artikel. Geen bedragen.
@@ -1071,4 +1113,5 @@ export const KORT_ANTWOORD_5: Record<string, string> = {
   "lood-schoorsteen-vervangen": `Is het lood rond je schoorsteen gescheurd, mist er een stuk of staat het omhoog, dan komt er nieuw lood: het oude eraf, nieuwe stroken rond de voet met de bovenrand in een voeg, en de pannen eromheen weer goed. Meestal met loodvervanger, op wens met echt lood. Staat alleen de bovenrand los, dan is vastzetten vaak genoeg.`,
   "verholen-goot-lekt": `Een verholen goot is een zinken goot die in het dakvlak ligt, een stukje boven de onderrand, in plaats van aan de voorkant van het dak. Lekt hij, dan komt het water binnen, bovenin de muur of op zolder. Meestal zit het bij de uitloop naar de regenpijp, een naad of een hoek. Vaak is leegmaken, een naad solderen of de goot van binnen coaten genoeg.`,
   "aardlekschakelaar-slaat-af-bij-regen": `Slaat je aardlekschakelaar af als het regent, dan komt er ergens water bij de elektra. Vaak is dat buiten, in een lamp aan de gevel, een buitenstopcontact of tuinverlichting. Soms komt het via een daklek of een goot die overloopt bij een lamp, een lasdoos op zolder of een kabel door het dak. Laat de groep die afslaat uit staan en zet hem niet steeds opnieuw aan. De installateur maakt de elektra veilig, een dakdekker maakt het lek dicht.`,
+  "garagebox-dak-lekt": `Lekt het dak van je garagebox, dan zit het meestal bij de naad op de grens met de box ernaast, bij de rand boven de deur of aan de achterkant, of bij een afvoer die vol blad zit. Bij een rij boxen is het dak vaak van een VvE of van de eigenaren samen, dus kijk in je akte wie het regelt. Een scheur of losse naad is vaak gericht te repareren. Oude grijze golfplaten laat je eerst onderzoeken op asbest.`,
 };
