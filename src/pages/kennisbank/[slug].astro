@@ -10,7 +10,18 @@ import EchteFotos from "../../components/EchteFotos.astro";
 import { FOTOS } from "../../data/fotos.ts";
 
 export function getStaticPaths() {
-  return ARTIKELEN.map((a) => { const c = { ...a, ...(ARTIKEL_CORRECTIES[a.slug] ?? {}) }; return { params: { slug: a.slug }, props: { a: { ...c, faq: [...c.faq, ...(FAQ_ERBIJ[a.slug] ?? []), ...(FAQ_ERBIJ_2[a.slug] ?? [])] } } }; });
+  // 18-11-2026 ronde 3: verborgen artikelen zonder eigen correctie gaan over werk dat ik niet doe. Google toont ze nog, dus ze krijgen een eerlijke korte tekst over wat ik wel doe.
+  const NIET_MIJN_WERK = {
+    intro: "Dit werk doe ik zelf niet. Daarom staat deze uitleg niet meer in mijn kennisbank. Hieronder lees je wat ik wel voor je dak kan doen.",
+    metaDescription: "Dit werk doe ik zelf niet. Wel help ik bij lekkage, losse dakpannen en nokvorsten, lood en dakgoten in de regio Den Bosch. Stuur een foto voor een eerlijk antwoord.",
+    secties: [{ kop: "Wat ik wel doe", tekst: [
+      "Ik ben Rens, dakdekker uit 's-Hertogenbosch. Ik help bij lekkage, losse of kapotte dakpannen en nokvorsten, lood rond de schoorsteen en het dakraam, en dakgoten die vol zitten of lekken. Zijn je pannen verweerd of gebroken, dan vervang ik de pannen die op zijn, of zeg ik eerlijk wanneer een groter stuk dak beter vernieuwd kan worden. Liggen er zonnepanelen op je dak, dan kijk ik naar de pannen eronder en eromheen, niet naar de panelen zelf.",
+      'Alles wat ik doe, staat bij <a href="/diensten/">mijn diensten</a>. Twijfel je of jouw klus erbij hoort, stuur me dan een foto van je dak vanaf de straat via WhatsApp. Dan zeg ik eerlijk of ik je kan helpen.',
+    ] }],
+    faq: [],
+    dienst: { label: "Bekijk: wat ik wel doe", href: "/diensten/" },
+  };
+  return ARTIKELEN.map((a) => { const c = { ...a, ...(ARTIKEL_CORRECTIES[a.slug] ?? {}), ...(a.verborgen && !ARTIKEL_CORRECTIES[a.slug] ? NIET_MIJN_WERK : {}) }; return { params: { slug: a.slug }, props: { a: { ...c, faq: [...c.faq, ...(a.verborgen && !ARTIKEL_CORRECTIES[a.slug] ? [] : [...(FAQ_ERBIJ[a.slug] ?? []), ...(FAQ_ERBIJ_2[a.slug] ?? [])])] } } }; });
 }
 const { a } = Astro.props;
 const apkPrijs = PRIJZEN.find((r) => r.dienst.startsWith("Dak-APK"))?.prijs ?? "";
