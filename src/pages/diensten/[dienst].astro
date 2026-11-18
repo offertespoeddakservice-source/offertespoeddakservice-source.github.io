@@ -129,6 +129,8 @@ const WAT_PER_DIENST: Record<string, string> = {
 const watZin = WAT_PER_DIENST[d.slug] ?? d.titel.toLowerCase();
 // Knoppen naar de pagina's per plaats: de namen waarop mensen zoeken, net als op de plaatspagina's.
 const KNOP_NAAM: Record<string, string> = { "goten-reinigen": "Dakgoot schoonmaken", "dakgoot-vervangen": "Dakgoot repareren of vervangen", daklekkage: "Daklekkage" };
+// 18-11-2026 ronde 5: bij de klussen waar het vaak om een lek of schade gaat een regel Spoed in 'In het kort', net als op de plaatspagina's.
+const SPOED_DIENSTEN = ["daklekkage", "stormschade", "dakreparatie", "dakraam-lekkage", "lood-vervangen", "nokvorsten-vervangen", "dakdoorvoer", "bakgoot-repareren", "kilgoot-repareren"];
 ---
 
 <Base title={d.metaTitle} description={d.metaDescription} path={path} schema={schema} noindex={d.verborgen === true}>
@@ -206,6 +208,7 @@ const KNOP_NAAM: Record<string, string> = { "goten-reinigen": "Dakgoot schoonmak
               <li><strong>Klus:</strong> {d.titel}.</li>
               <li><strong>Waar:</strong> vanuit 's-Hertogenbosch in de regio Den Bosch, verder in Brabant en in Gelderland rond Wijchen en Nijmegen. Een klus verder weg plan ik vooraf met je in. Zie <a href="/werkgebied/">mijn werkgebied</a>.</li>
               <li><strong>Contact:</strong> bellen of WhatsApp op <a href={telHref}>{SITE.telefoonWeergave}</a>, dag en nacht bereikbaar.</li>
+              {SPOED_DIENSTEN.includes(d.slug) && <li><strong>Spoed:</strong> druppelt het binnen of ligt er een open plek in je dak, bel of app dan meteen. In de regio Den Bosch kan ik bij spoed vaak nog dezelfde dag komen. Verder weg plan ik een klus meestal vooraf met je in.</li>}
               <li><strong>Prijs:</strong> je hoort de vaste prijs voordat ik begin.</li>
               <li><strong>Verzekerd:</strong> bedrijfsaansprakelijk verzekerd.</li>
               <li><strong>Reviews:</strong> <a href={SITE.werkspotUrl} target="_blank" rel="noopener">{SITE.reviews.score.toString().replace(".", ",")} op Werkspot</a>{SITE.reviews.werkspotAantal > 0 ? ` (${SITE.reviews.werkspotAantal} reviews)` : ""}.</li>
