@@ -14,6 +14,7 @@
  * 18-11-2026 ronde 3: verholen goot lekt
  * 18-11-2026 ronde 4: aardlekschakelaar slaat af bij regen
  * 18-11-2026 ronde 4: dak van je garagebox lekt
+ * 18-11-2026 ronde 4: vergunning nodig voor je dak
  */
 import type { Artikel } from "./artikelen";
 
@@ -1084,6 +1085,47 @@ export const ARTIKELEN_EXTRA_5: Artikel[] = [
       { v: `Moet ik erbij zijn als je komt kijken?`, a: `Voor de eerste keer kijken is het fijn als de box open is, want dan zie ik binnen waar het water binnenkomt. Spreek met me af wanneer dat kan, en zeg erbij waar de box staat en hoe ik erbij kom. Of je bij de reparatie zelf moet zijn, spreken we daarna samen af.` },
     ],
   },
+  {
+    slug: `vergunning-dak-vernieuwen`,
+    datum: `2026-11-18`,
+    titel: `Vergunning nodig voor je dak?`,
+    h1: `Heb je een vergunning nodig om je dak te repareren of te vernieuwen?`,
+    metaTitle: `Vergunning nodig voor je dak? | Spoed Dak Service`,
+    metaDescription: `Pannen, lood of een goot herstellen is meestal gewoon onderhoud. Bij een monument, beschermd stadsgezicht of andere pannen ligt dat anders. Zo zoek je het uit.`,
+    intro: `Ga je je dak laten repareren of vernieuwen, dan vraag je je misschien af of je daar toestemming voor nodig hebt. Meestal niet: een kapotte pan, een lekkende goot of los lood herstellen is onderhoud. Maar bij een monument, in een beschermd stadsgezicht of als je dak er anders uit gaat zien, kan dat anders zijn. Hieronder lees je waar je op let en waar je het nakijkt.`,
+    secties: [
+      { kop: `Gewone reparatie: meestal geen vergunning`, tekst: [
+        `Een gebroken pan vervangen, een nokvorst vastzetten, lood rond de schoorsteen vernieuwen of een lekkende goot repareren is onderhoud. Blijft het dak er daarna net zo uitzien, met dezelfde soort en kleur pannen, dan heb je daar in de regel geen vergunning voor nodig. Lekt het nu, wacht dan niet: eerst moet het binnen droog blijven. Zie de <a href="/spoed/">spoedpagina</a>.`,
+      ] },
+      { kop: `Het hele dak vernieuwen`, tekst: [
+        `Gaan alle pannen eraf en komen er pannen terug van dezelfde soort, vorm en kleur, dan is dat bij een gewoon huis meestal ook vergunningvrij. Wil je een andere kleur of een ander soort pan, of verandert de vorm van het dak, vraag het dan eerst na. Sommige gemeenten letten in bepaalde straten op hoe een dak eruitziet. Hoe het vernieuwen bij een huis in een rij gaat, lees je in <a href="/kennisbank/dak-vernieuwen-rijtjeshuis/">dak vernieuwen bij een rijtjeshuis</a>.`,
+      ] },
+      { kop: `Een monument of een beschermd stadsgezicht`, tekst: [
+        `Woon je in een rijksmonument of een gemeentelijk monument, dan heb je voor veel veranderingen aan het dak een vergunning nodig, ook voor dingen die bij een gewoon huis vrij zijn. Gewoon onderhoud met hetzelfde materiaal valt daar meestal niet onder, maar vraag het bij twijfel eerst na. In een beschermd stadsgezicht, zoals de binnenstad van Den Bosch of de vesting Heusden, gelden vaak regels voor wat je vanaf de straat ziet. Meer lees je in <a href="/kennisbank/dak-monument-repareren/">je dak repareren in een monument</a>.`,
+      ] },
+      { kop: `Zink, lood en de goot`, tekst: [
+        `Een zinken goot vervangen door een kunststof goot, of echt lood door loodvervanger, verandert hoe je huis eruitziet. Bij een gewoon huis is dat meestal geen probleem, bij een monument vaak wel. Lees ook <a href="/kennisbank/lood-of-loodvervanger/">lood of loodvervanger</a> en <a href="/kennisbank/dakgoot-zink-of-kunststof/">dakgoot van zink of kunststof</a>.`,
+      ] },
+      { kop: `Een steiger of container op de stoep`, tekst: [
+        `Staat er voor het werk een steiger, een container of een bouwlift op de stoep of de straat, dan vraagt de gemeente daar vaak een melding of een vergunning voor, omdat je dan de openbare ruimte gebruikt. Hoe dat werkt, verschilt per gemeente. Bij een korte klus met een ladder speelt dat meestal niet.`,
+      ] },
+      { kop: `VvE, huur en de buren`, tekst: [
+        `Woon je in een appartement, dan beslist meestal de VvE over het dak. Huur je, dan regelt de verhuurder het. En moet er voor het werk iets via de tuin of het dak van de buren, lees dan <a href="/kennisbank/dak-repareren-via-buren/">je dak repareren via de buren</a>.`,
+      ] },
+      { kop: `Zo zoek je het uit`, tekst: [
+        `Bij het Omgevingsloket van de overheid kun je met de vergunningcheck kijken of je voor jouw plan een vergunning nodig hebt. Twijfel je, bel of mail dan je gemeente. Zeg erbij wat er precies gebeurt: welke pannen, welke kleur en of er iets aan de vorm van het dak verandert.`,
+      ] },
+      { kop: `Hoe ik het aanpak`, tekst: [
+        `Bij een reparatie of renovatie vertel ik je vooraf wat ik ga doen en met welk materiaal, zodat je dat kunt doorgeven als de gemeente erom vraagt. Een kapotte pan vervang ik door een pan die in vorm en kleur past, zodat je dak er vanaf de straat hetzelfde uitziet. Bij een renovatie kunnen er, als je dat wilt, nieuwe folie en nieuwe panlatten onder de pannen. De vergunning zelf vraag je als eigenaar aan. Zie <a href="/diensten/dakrenovatie/">dakrenovatie</a>.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: dakrenovatie`, href: `/diensten/dakrenovatie/` },
+    faq: [
+      { v: `Mag ik andere dakpannen kiezen dan mijn buren?`, a: `Bij een gewoon huis meestal wel. In een rij huizen valt een dak met andere pannen wel op, en in sommige straten let de gemeente daarop, dus vraag het bij twijfel na. Bij een monument of in een beschermd stadsgezicht heb je voor een ander soort of een andere kleur pan in de regel toestemming nodig.` },
+      { v: `Moet ik met een lek wachten tot ik weet of het mag?`, a: `Nee. Een lek dichtmaken, ook tijdelijk, is onderhoud en kan in de regel meteen. Maak wel foto's van hoe het eruitzag. Gaat er bij de nette reparatie daarna iets aan het uiterlijk van je dak veranderen, vraag dat dan na bij je gemeente.` },
+      { v: `Kost een vergunning geld?`, a: `Vaak wel. Een gemeente vraagt meestal leges voor een vergunning, en hoeveel dat is, verschilt per gemeente. Kijk op de site van je gemeente of vraag het daar na voordat je de aanvraag doet.` },
+    ],
+  },
 ];
 
 // Kort antwoord bovenaan een artikel. Geen bedragen.
@@ -1114,4 +1156,5 @@ export const KORT_ANTWOORD_5: Record<string, string> = {
   "verholen-goot-lekt": `Een verholen goot is een zinken goot die in het dakvlak ligt, een stukje boven de onderrand, in plaats van aan de voorkant van het dak. Lekt hij, dan komt het water binnen, bovenin de muur of op zolder. Meestal zit het bij de uitloop naar de regenpijp, een naad of een hoek. Vaak is leegmaken, een naad solderen of de goot van binnen coaten genoeg.`,
   "aardlekschakelaar-slaat-af-bij-regen": `Slaat je aardlekschakelaar af als het regent, dan komt er ergens water bij de elektra. Vaak is dat buiten, in een lamp aan de gevel, een buitenstopcontact of tuinverlichting. Soms komt het via een daklek of een goot die overloopt bij een lamp, een lasdoos op zolder of een kabel door het dak. Laat de groep die afslaat uit staan en zet hem niet steeds opnieuw aan. De installateur maakt de elektra veilig, een dakdekker maakt het lek dicht.`,
   "garagebox-dak-lekt": `Lekt het dak van je garagebox, dan zit het meestal bij de naad op de grens met de box ernaast, bij de rand boven de deur of aan de achterkant, of bij een afvoer die vol blad zit. Bij een rij boxen is het dak vaak van een VvE of van de eigenaren samen, dus kijk in je akte wie het regelt. Een scheur of losse naad is vaak gericht te repareren. Oude grijze golfplaten laat je eerst onderzoeken op asbest.`,
+  "vergunning-dak-vernieuwen": `Een kapotte pan, los lood of een lekkende goot herstellen met hetzelfde materiaal is onderhoud, en daar is in de regel geen vergunning voor nodig. Bij een monument, in een beschermd stadsgezicht of als je dak er anders uit gaat zien, zoals andere pannen of een andere kleur, vraag je het eerst na bij je gemeente. Bij het Omgevingsloket kun je een vergunningcheck doen. Een steiger of container op de stoep vraagt vaak een melding bij de gemeente.`,
 };
