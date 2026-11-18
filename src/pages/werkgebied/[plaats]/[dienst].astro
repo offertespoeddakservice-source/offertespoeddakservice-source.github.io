@@ -137,7 +137,7 @@ const nieuweStormPaginas: string[] = [];
 if (d.slug === "stormschade" && !nieuweStormPaginas.includes(p.slug)) {
   metaTitelPerDienst.stormschade = `Stormschade dak ${p.naam}: afdekken en herstellen`;
 }
-// Dakreparatie in Oss en Waalwijk: gemaakt voor 29-10, titel nooit aangepast ('dakreparatie oss' 82 vertoningen op plek 83, 'dakpannen waalwijk' 44 op plek 71). Titel met dakpannen en nok, eigen omschrijving zonder 'vaste prijs vooraf' (12-11-2026). De andere dakreparatiepagina's meten we eerst. Sinds 14-11-2026 ook Veghel, Vught en Rosmalen (gemaakt voor 1-11, titel nooit aangepast). Sinds 16-11-2026 ook Den Bosch (titel nooit aangepast, 87 vertoningen op plek 42,6). Sinds 17-11-2026 ook Oisterwijk (titel nooit aangepast, 124 vertoningen op plek 45). Sinds 17-11-2026 (ronde 4) ook Boxtel (titel nooit aangepast).
+// Dakreparatie in Oss en Waalwijk: gemaakt voor 29-10, titel nooit aangepast ('dakreparatie oss' 82 vertoningen op plek 83, 'dakpannen waalwijk' 44 op plek 71). Titel met dakpannen en nok, eigen omschrijving zonder 'vaste prijs vooraf' (12-11-2026). De andere dakreparatiepagina's meten we eerst. Sinds 14-11-2026 ook Veghel, Vught en Rosmalen (gemaakt voor 1-11, titel nooit aangepast). Sinds 16-11-2026 ook Den Bosch (titel nooit aangepast, 87 vertoningen op plek 42,6). Sinds 17-11-2026 ook Oisterwijk (titel nooit aangepast, 124 vertoningen op plek 45). Sinds 17-11-2026 (ronde 4) ook Boxtel (titel nooit aangepast). Sinds 18-11-2026 (ronde 5) ook Vlijmen (titel nooit aangepast, 102 vertoningen op plek 49).
 const REPARATIE_NIEUW: Record<string, { titel: string; omschrijving: string }> = {
   oss: { titel: "Dakreparatie Oss: dakpannen en nok", omschrijving: "Dakreparatie in Oss, Berghem of Geffen? Ik leg losse pannen terug, vervang een kapotte pan of nokvorst en zet waar nodig stormhaken bij. Stuur een foto." },
   waalwijk: { titel: "Dakreparatie Waalwijk: dakpannen en nok", omschrijving: "Dakreparatie in Waalwijk, Sprang-Capelle of Waspik? Ik vervang kapotte of losse pannen, ook oud-Hollandse, en zet de nok weer vast. Stuur een foto." },
@@ -147,10 +147,16 @@ const REPARATIE_NIEUW: Record<string, { titel: string; omschrijving: string }> =
   "den-bosch": { titel: "Dakreparatie Den Bosch: kapotte en losse dakpannen", omschrijving: "Dakreparatie in Den Bosch? Een gebroken pan vervang ik door een passende, ook bij oude gesmoorde pannen, en losse gevelpannen zet ik weer vast. Stuur een foto." },
   oisterwijk: { titel: "Dakreparatie Oisterwijk: pannen onder bomen en klimop", omschrijving: "Dakreparatie in Oisterwijk? Pannen die door takken of klimop uit de sluiting zijn geduwd leg ik terug, en een gebroken pan vervang ik door een die past. Stuur een foto." },
   boxtel: { titel: "Dakreparatie Boxtel: kapotte en verschoven pannen", omschrijving: "Dakreparatie in Boxtel, Liempde of Esch? Ik vervang pannen die door een ladder of een storm zijn gebroken of verschoven, ook op een schuur. Stuur een foto." },
+  vlijmen: { titel: "Dakreparatie Vlijmen: losse pannen en nok", omschrijving: "Dakreparatie in Vlijmen, Nieuwkuijk of Haarsteeg? Een verschoven nokvorst of losse pan zet ik weer vast, ook op een droge nok met klemmen, en een gebroken pan vervang ik. Stuur een foto." },
 };
 if (d.slug === "dakreparatie" && REPARATIE_NIEUW[p.slug]) {
   metaTitelPerDienst.dakreparatie = REPARATIE_NIEUW[p.slug].titel;
   omschrijvingPerDienst.dakreparatie = REPARATIE_NIEUW[p.slug].omschrijving;
+}
+// 18-11-2026 ronde 5: dakrenovatie in Waalwijk ('dakrenovatie waalwijk' 102 vertoningen op plek 47, pagina 130 op plek 50, 0 kliks). Titel nooit aangepast. Zoekwoord vooraan, eigen omschrijving zonder 'vaste prijs vooraf'.
+if (d.slug === "dakrenovatie" && p.slug === "waalwijk") {
+  metaTitelPerDienst.dakrenovatie = "Dakrenovatie Waalwijk: oude betonpannen en nok";
+  omschrijvingPerDienst.dakrenovatie = "Dakrenovatie in Waalwijk, Sprang-Capelle of Waspik? Ik vervang de pannen die op zijn, leg de nok opnieuw en neem het lood en de goten mee. Ik kom eerst kijken.";
 }
 const metaTitel =metaTitelPerDienst[d.slug] ?? titel;
 // Eén zin bovenaan die Google en AI kunnen overnemen: wie, wat en waar (net als op de plaatspagina's).
