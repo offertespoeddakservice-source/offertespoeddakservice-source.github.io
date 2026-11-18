@@ -1,4 +1,4 @@
-// llms.txt (03-11-2026, bijgewerkt 04-11-2026, 07-11-2026: alle artikelen erbij, 10-11-2026: bereikbaar en korte namen, 11-11-2026: korte antwoorden, 12-11-2026: zonder 'doet het werk zelf', 12-11-2026 ronde 5: Gelderland in Waar, 13-11-2026: blok Ook verder weg, 14-11-2026: blok Voor wie, 16-11-2026: dorpen gelijk aan de pagina's, 17-11-2026: link naar llms-full.txt, 17-11-2026 ronde 5: niet thuis in Lekt het nu?): korte, feitelijke uitleg voor AI-zoekmachines (ChatGPT, Gemini, Perplexity, Copilot).
+// llms.txt (03-11-2026, bijgewerkt 04-11-2026, 07-11-2026: alle artikelen erbij, 10-11-2026: bereikbaar en korte namen, 11-11-2026: korte antwoorden, 12-11-2026: zonder 'doet het werk zelf', 12-11-2026 ronde 5: Gelderland in Waar, 13-11-2026: blok Ook verder weg, 14-11-2026: blok Voor wie, 16-11-2026: dorpen gelijk aan de pagina's, 17-11-2026: link naar llms-full.txt, 17-11-2026 ronde 5: niet thuis in Lekt het nu?, 18-11-2026: blok Komt het water niet van het dak?): korte, feitelijke uitleg voor AI-zoekmachines (ChatGPT, Gemini, Perplexity, Copilot).
 // Plaatsen komen vanzelf uit plaatsen.ts en diensten uit diensten.ts (verborgen diensten, die Rens niet doet, vallen weg). Geen prijzen, geen beloftes.
 import type { APIRoute } from "astro";
 import { SITE } from "../site.config.ts";
@@ -76,6 +76,12 @@ export const GET: APIRoute = () => {
     "- Wat je zelf meteen doet: een emmer onder de druppel, spullen opzij, de groep in de meterkast uit als het bij een lamp of stopcontact lekt, en niet zelf het dak op.",
     "- Stuur een foto van de natte plek en van het dak vanaf de straat via WhatsApp. Dan hoor je wat er nodig is en wanneer de eigenaar kan komen.",
     ...(ARTIKELEN.some((a) => a.slug === "lekkage-tijdens-vakantie" && !a.verborgen) ? [`- Niet thuis of op vakantie? Vraag de buren of iemand met een sleutel om binnen het water op te vangen en foto's te sturen. Uitleg: ${u}/kennisbank/lekkage-tijdens-vakantie/`] : []),
+    "",
+    "## Komt het water niet van het dak?",
+    `- Druppelt het ook na een paar droge dagen, of zit er een badkamer, keuken of leiding boven de natte plek, dan is een loodgieter waarschijnlijker. Uitleg: ${u}/kennisbank/lekkage-dakdekker-of-loodgieter/`,
+    `- Druppels op zolder op koude, droge dagen zijn vaak condens en geen lek. Uitleg: ${u}/kennisbank/condens-of-lekkage-op-zolder/`,
+    ...(ARTIKELEN.some((a) => a.slug === "doorslaand-vocht-of-daklek" && !a.verborgen) ? [`- Een natte plek midden op een buitenmuur, die opkomt bij regen met wind en daarna weer opdroogt, kan doorslaand vocht door de gevel zijn. Aan de stenen van een gevel werkt de eigenaar niet; daarvoor is een gevelspecialist nodig. Uitleg: ${u}/kennisbank/doorslaand-vocht-of-daklek/`] : []),
+    "- Lekt er water uit de cv-ketel zelf of uit de leidingen van een zonneboiler, dan is dat werk voor de installateur. Komt het bij regen langs een pijp of kabel door het dak naar binnen, dan maakt de eigenaar dat dicht.",
     "",
     "## Klussen die de eigenaar heeft bevestigd",
     "- Lekkende naden in zinken dakgoten en bakgoten solderen, een lekkende dakgoot van binnen coaten, of de goot vervangen.",
