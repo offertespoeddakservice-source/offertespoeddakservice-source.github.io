@@ -16,6 +16,7 @@
  * 18-11-2026 ronde 4: dak van je garagebox lekt
  * 18-11-2026 ronde 4: vergunning nodig voor je dak
  * 18-11-2026 ronde 5: dakgoot laten vernieuwen
+ * 18-11-2026 ronde 5: goot loopt over door een regenton
  */
 import type { Artikel } from "./artikelen";
 
@@ -1169,6 +1170,44 @@ export const ARTIKELEN_EXTRA_5: Artikel[] = [
       { v: `Hoe lang duurt het om een dakgoot te vernieuwen?`, a: `Dat hangt af van de lengte van de goot, het aantal hoeken en regenpijpen en hoe goed ik erbij kan. Voor solderen en lijmen is een droge dag nodig. Hoe lang ik bezig ben, hoor je vooraf, net als wat het kost.` },
     ],
   },
+  {
+    slug: `goot-loopt-over-door-regenton`,
+    datum: `2026-11-18`,
+    titel: `Goot loopt over sinds je een regenton hebt?`,
+    h1: `Je dakgoot loopt over sinds er een regenton aan de regenpijp zit: hoe komt dat?`,
+    metaTitle: `Goot loopt over door regenton? | Spoed Dak Service`,
+    metaDescription: `Loopt je dakgoot over sinds er een regenton aan de regenpijp zit? Vaak zit het zeefje dicht, staat de ton te hoog of zit er ijs in. Zo zoek je het uit.`,
+    intro: `Een regenton aan je regenpijp is handig voor de tuin. Maar soms loopt de dakgoot daarna bij een flinke bui over, terwijl hij schoon is. Dat komt dan meestal niet door de goot, maar door het stuk in de regenpijp dat het water naar de ton stuurt. Hieronder lees je hoe dat werkt, waar het misgaat en wat je zelf veilig kunt nakijken.`,
+    secties: [
+      { kop: `Komt het water binnen?`, tekst: [
+        `Loopt de goot over en komt het water binnen, bovenin de muur of langs een kozijn, zet dan een bak neer, haal spullen weg en stuur me een foto. Ga niet op een ladder tegen de goot staan. Wat je verder meteen kunt doen, staat op de <a href="/spoed/">spoedpagina</a>.`,
+      ] },
+      { kop: `Zo zit een regenton aan je regenpijp`, tekst: [
+        `Meestal zit er halverwege de regenpijp een tussenstuk, een vulautomaat of regenwaterafscheider. Daarin vangt een zeefje of een rand een deel van het water op en stuurt het via een slang naar de ton. Is de ton vol, dan hoort het water gewoon verder door de regenpijp naar beneden te lopen. Soms is er geen tussenstuk en is de regenpijp doorgezaagd, zodat hij boven of in de ton uitkomt.`,
+      ] },
+      { kop: `Waar het misgaat`, tekst: [
+        `Het zeefje zit dicht. Blad, naalden, mos en zand uit de goot spoelen mee naar beneden en blijven hangen in het zeefje van het tussenstuk. Dan kan het water er bij een flinke bui niet snel genoeg door, het komt in de regenpijp omhoog en de goot loopt over. Vaak loopt de goot juist over boven de pijp met de ton, en niet boven een andere pijp.`,
+        `De ton heeft geen goede overloop. Komt de regenpijp onderin de ton uit, of zit de ton hoger dan het tussenstuk, dan kan het water bij een volle ton nergens heen. Het blijft in de pijp staan tot in de goot, of het loopt over de rand van de ton tegen je gevel.`,
+        `IJs in de winter. Staat er water in het tussenstuk, de slang of de ton, dan bevriest dat bij vorst. Het ijs zet de pijp dicht, en bij de dooi of de eerste bui daarna loopt de goot over. Soms scheurt het tussenstuk of de pijp zelfs open. Lees ook <a href="/kennisbank/regenpijp-kapot-door-vorst/">regenpijp kapot door vorst</a>.`,
+      ] },
+      { kop: `Wat je zelf veilig kunt doen`, tekst: [
+        `Het tussenstuk zit meestal op ooghoogte, dus daar kun je vaak vanaf de grond bij. Haal het zeefje eruit, maak het schoon en kijk of de slang naar de ton vrij is. Doe dat na de bladval en in het voorjaar, en kijk na een storm of er blad in zit.`,
+        `Voor de winter: sommige tussenstukken hebben een stand voor de winter, waarbij al het water gewoon naar beneden loopt. Heeft het jouwe dat niet, haal dan de slang los en laat de ton leeglopen voordat het gaat vriezen. Kijk in de uitleg van je eigen tussenstuk, want ze werken niet allemaal hetzelfde. Ga niet op een ladder tegen de goot staan om bovenin te kijken.`,
+      ] },
+      { kop: `Ligt het toch aan de goot?`, tekst: [
+        `Loopt de goot ook over boven een regenpijp zonder ton, of blijft hij overlopen nu het zeefje schoon is, dan zit het vaak in de goot zelf: blad bij de uitloop, een goot die doorhangt of niet goed afloopt naar de pijp. Lees dan <a href="/kennisbank/dakgoot-loopt-over/">dakgoot loopt over</a> en <a href="/kennisbank/verstopte-regenpijp-lekkende-dakgoot/">verstopte regenpijp of lekkende dakgoot</a>.`,
+      ] },
+      { kop: `Hoe ik het aanpak`, tekst: [
+        `Ik maak de goot en de uitloop naar de regenpijp leeg en kijk of het water daarna goed wegloopt. Is de regenpijp of een bocht gescheurd, bijvoorbeeld door ijs, dan vervang ik dat stuk. Stuur een foto van de goot, van de regenpijp met het tussenstuk en van de ton via WhatsApp, dan hoor je vooraf wat het kost. Zie <a href="/diensten/regenpijp-vervangen/">regenpijp vervangen of repareren</a> en <a href="/diensten/goten-reinigen/">dakgoot schoonmaken</a>.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: regenpijp vervangen of repareren`, href: `/diensten/regenpijp-vervangen/` },
+    faq: [
+      { v: `Kan ik de regenton in de winter gewoon laten staan?`, a: `Dat kan, als er geen water in het tussenstuk en de slang blijft staan. Zet het tussenstuk in de winterstand als het die heeft, of haal de slang los en laat de ton leeglopen voordat het gaat vriezen. Een volle ton die bevriest, kan zelf ook scheuren.` },
+      { v: `Mijn goot loopt alleen over bij een stortbui. Kan dat door de ton komen?`, a: `Dat kan. Een zeefje dat half dicht zit, laat bij gewone regen genoeg door, maar bij een stortbui niet. Maak het zeefje schoon en kijk bij de volgende flinke bui of het beter gaat. Loopt de goot dan nog over, stuur me dan een kort filmpje van de goot tijdens de bui.` },
+      { v: `Moet mijn goot vaker leeg als er een regenton aan zit?`, a: `De goot zelf niet: één keer per jaar is meestal genoeg, het liefst als de bomen kaal zijn. Het zeefje in het tussenstuk wel. Maak dat na de bladval en in het voorjaar schoon, en na een storm als er veel blad is gevallen.` },
+    ],
+  },
 ];
 
 // Kort antwoord bovenaan een artikel. Geen bedragen.
@@ -1201,4 +1240,5 @@ export const KORT_ANTWOORD_5: Record<string, string> = {
   "garagebox-dak-lekt": `Lekt het dak van je garagebox, dan zit het meestal bij de naad op de grens met de box ernaast, bij de rand boven de deur of aan de achterkant, of bij een afvoer die vol blad zit. Bij een rij boxen is het dak vaak van een VvE of van de eigenaren samen, dus kijk in je akte wie het regelt. Een scheur of losse naad is vaak gericht te repareren. Oude grijze golfplaten laat je eerst onderzoeken op asbest.`,
   "vergunning-dak-vernieuwen": `Een kapotte pan, los lood of een lekkende goot herstellen met hetzelfde materiaal is onderhoud, en daar is in de regel geen vergunning voor nodig. Bij een monument, in een beschermd stadsgezicht of als je dak er anders uit gaat zien, zoals andere pannen of een andere kleur, vraag je het eerst na bij je gemeente. Bij het Omgevingsloket kun je een vergunningcheck doen. Een steiger of container op de stoep vraagt vaak een melding bij de gemeente.`,
   "dakgoot-vernieuwen": `Een dakgoot vernieuwen is slim als hij over een groot stuk dun, bros of gescheurd is, of steeds op een andere plek lekt. Lekt hij op één plek, dan is repareren vaak genoeg. Bij vernieuwen gaat de oude goot eraf, komen er waar nodig nieuwe beugels, hangt de nieuwe goot op afschot naar de regenpijp en worden de naden gesoldeerd of verbonden. Dat gebeurt op een droge dag.`,
+  "goot-loopt-over-door-regenton": `Loopt je dakgoot over sinds er een regenton aan de regenpijp zit, dan zit het meestal in het tussenstuk dat het water naar de ton stuurt: het zeefje zit dicht met blad of naalden, de ton heeft geen goede overloop, of er zit ijs in. Maak het zeefje schoon, zet het tussenstuk voor de winter in de winterstand of laat de ton leeglopen, en kijk of de goot dan nog overloopt.`,
 };
