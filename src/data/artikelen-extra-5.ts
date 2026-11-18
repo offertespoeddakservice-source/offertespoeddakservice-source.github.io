@@ -11,6 +11,7 @@
  * 18-11-2026 ronde 1: doorslaand vocht of daklek
  * 18-11-2026 ronde 1: zakgoot lekt
  * 18-11-2026 ronde 3: lood rond de schoorsteen laten vervangen
+ * 18-11-2026 ronde 3: verholen goot lekt
  */
 import type { Artikel } from "./artikelen";
 
@@ -958,6 +959,47 @@ export const ARTIKELEN_EXTRA_5: Artikel[] = [
       { v: `Hoe zie ik na de reparatie of het goed is?`, a: `Kijk na de eerste flinke bui, en het liefst ook na een bui met harde wind, op zolder naast de schoorsteen. Blijft het hout of de muur daar droog, dan zit het goed. Een oude vlek op het plafond kan nog een tijd te zien zijn, ook als het lek dicht is. Wordt hij groter of weer nat, stuur me dan meteen een foto.` },
     ],
   },
+  {
+    slug: `verholen-goot-lekt`,
+    datum: `2026-11-18`,
+    titel: `Verholen goot lekt?`,
+    h1: `Je verholen goot lekt: de goot in je dak die je van de straat bijna niet ziet`,
+    metaTitle: `Verholen goot lekt: waar en wat nu? | Spoed Dak Service`,
+    metaDescription: `Een verholen goot ligt in het dak, een stuk boven de rand. Lekt hij, dan komt het water binnen, bovenin de muur of op zolder. Zo herken je hem en zo los je het op.`,
+    intro: `Bij veel oudere huizen hangt de goot niet aan de voorkant van het dak. Hij ligt erin: een zinken goot in het dakvlak, een stukje boven de onderrand, met daaronder vaak nog een rij pannen of een strook zink tot aan de rand. Dat heet een verholen goot. Van de straat zie je hem bijna niet, en lekt hij, dan loopt het water niet langs de gevel naar beneden, maar komt het binnen. Hieronder lees je hoe je hem herkent, waar hij meestal lekt en wat eraan te doen is.`,
+    secties: [
+      { kop: `Lekt het nu?`, tekst: [
+        `Zet een bak onder de druppel, schuif spullen van de natte muur af en zet in de meterkast de groep van die kamer uit als het bij een lamp of stopcontact nat wordt. Ga niet zelf het dak op. Wat je verder meteen doet, staat op de <a href="/spoed/">spoedpagina</a>.`,
+      ] },
+      { kop: `Zo herken je een verholen goot`, tekst: [
+        `Kijk vanaf de overkant van de straat naar de onderkant van je dak. Hangt er geen goot aan de voorkant, maar loopt de regenpijp toch tot aan het dak, of komt hij een stukje uit het dakvlak? Dan ligt de goot waarschijnlijk in het dak. Bij een bakgoot ligt de goot in de rand van het dak, vaak achter een houten lijst. Bij een verholen goot ligt hij nog iets hoger, in het dakvlak zelf. Twijfel je, stuur me dan een foto, dan zeg ik wat je hebt. Zie ook <a href="/kennisbank/bakgoot-lekt/">bakgoot lekt</a>.`,
+      ] },
+      { kop: `Waar hij meestal lekt`, tekst: [
+        `Bij de uitloop naar de regenpijp. Daar blijven blad en mos hangen, en zit die dicht, dan komt het water hoger dan de rand van het zink te staan en loopt het eroverheen naar binnen.`,
+        `Bij een naad of een hoek in het zink, die na veel jaren openscheurt, zeker na een winter met ijs in de goot.`,
+        `Op een plek waar het zink dun is geworden, omdat er jarenlang water en blad op heeft gelegen.`,
+        `Aan de bovenrand, waar het zink onder de pannen erboven doorloopt. Ligt daar een pan scheef of is het zink daar gescheurd, dan loopt het water erachter.`,
+      ] },
+      { kop: `Waarom je het binnen ziet`, tekst: [
+        `Een gewone goot hangt buiten de muur. Lekt hij, dan valt het water naar buiten. Een verholen goot ligt boven de muur of boven je zolder, dus wat er door het zink gaat, komt in het hout eronder, in de muur of op je zolder terecht. Je ziet het als een natte plek bovenin de muur, vlak onder het plafond, of als een donkere rand op de zoldervloer langs de voet van het dak. Lees ook <a href="/kennisbank/natte-plek-bovenin-muur/">natte plek bovenin de muur</a>.`,
+      ] },
+      { kop: `Wat je zelf beter niet doet`, tekst: [
+        `Ga niet zelf het dak op om bij de goot te komen. Hij ligt in het dakvlak, en daar sta je op pannen die nat en glad kunnen zijn. Kit uit de bouwmarkt op een natte, vuile naad houdt meestal niet lang, en moet de naad later gesoldeerd worden, dan moet die kit er eerst weer af.`,
+      ] },
+      { kop: `Hoe ik het aanpak`, tekst: [
+        `Eerst maak ik de goot leeg en de uitloop naar de regenpijp vrij, en kijk ik over de hele lengte hoe het zink erbij ligt. Lekt hij bij één naad of hoek en is het zink verder goed, dan soldeer ik die naad opnieuw. Lekt de goot op meer plekken een beetje, maar is het zink nog stevig, dan kan ik de goot van binnen coaten. Is het zink op veel plekken dun of zitten er gaten in, dan zeg ik eerlijk dat er een nieuw stuk zink in moet. Is het hout onder de goot zacht geworden, dan hoor je dat ook van me. Zie <a href="/diensten/dakgoot-solderen/">dakgoot solderen</a> en <a href="/diensten/bakgoot-repareren/">bakgoot repareren</a>.`,
+      ] },
+      { kop: `Wat kost het?`, tekst: [
+        `Dat hangt af van wat er nodig is en hoe ik erbij kan: alleen leegmaken, een naad solderen, de goot van binnen coaten of een stuk zink vervangen. Stuur een foto van je dak vanaf de straat en van de natte plek binnen via WhatsApp, dan hoor je vooraf wat het kost.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: bakgoot repareren`, href: `/diensten/bakgoot-repareren/` },
+    faq: [
+      { v: `Wat is het verschil tussen een verholen goot en een bakgoot?`, a: `Allebei liggen ze in het dak en niet aan de voorkant. Een bakgoot zit in de rand van het dak, vaak achter een houten lijst die je vanaf de straat ziet. Een verholen goot ligt nog wat hoger, in het dakvlak zelf, met daaronder vaak nog een rij pannen of een strook zink. Lekt een van de twee, dan komt het water in de regel binnen en niet langs de gevel.` },
+      { v: `Hoe vaak moet een verholen goot leeg?`, a: `Minstens één keer per jaar, het liefst als de bomen kaal zijn. Staan er veel bomen bij je huis, dan is twee keer per jaar slim. Juist bij deze goot loont dat, want loopt hij over, dan gaat het water naar binnen in plaats van naar buiten.` },
+      { v: `Is een lekkende verholen goot spoed?`, a: `Druppelt het binnen, zit de natte plek bij een lamp of stopcontact of wordt hij bij elke bui groter, dan wel: zet de groep van die kamer uit en bel of app me met een foto. Is het alleen een oude, droge kring die niet groter wordt, dan kan het meestal een paar dagen wachten. Laat het niet de hele winter liggen.` },
+    ],
+  },
 ];
 
 // Kort antwoord bovenaan een artikel. Geen bedragen.
@@ -985,4 +1027,5 @@ export const KORT_ANTWOORD_5: Record<string, string> = {
   "doorslaand-vocht-of-daklek": `Zit de natte plek bovenin de muur, vlak onder het plafond, dan komt het water vaak van een goot die overloopt of lekt, of van het lood of de dakrand erboven. Zit hij midden op de muur, komt hij op na regen met harde wind en trekt hij na een paar droge dagen weer weg, dan is het eerder doorslaand vocht door de stenen of de voegen van de gevel. Wordt het ook nat na dagen zonder regen, denk dan aan een leiding.`,
   "zakgoot-lekt": `Een zakgoot ligt bijna vlak tussen twee daken die naar elkaar toe aflopen, bijvoorbeeld tussen twee panden of tussen het huis en een aanbouw. Loopt hij over, dan komt het water niet langs de gevel maar binnen. Meestal zit de uitloop dicht met blad, mos of gruis, of lekt een naad in het zink. Vaak is leegmaken en de uitloop vrijmaken genoeg, en een lekke naad kan opnieuw gesoldeerd worden.`,
   "lood-schoorsteen-vervangen": `Is het lood rond je schoorsteen gescheurd, mist er een stuk of staat het omhoog, dan komt er nieuw lood: het oude eraf, nieuwe stroken rond de voet met de bovenrand in een voeg, en de pannen eromheen weer goed. Meestal met loodvervanger, op wens met echt lood. Staat alleen de bovenrand los, dan is vastzetten vaak genoeg.`,
+  "verholen-goot-lekt": `Een verholen goot is een zinken goot die in het dakvlak ligt, een stukje boven de onderrand, in plaats van aan de voorkant van het dak. Lekt hij, dan komt het water binnen, bovenin de muur of op zolder. Meestal zit het bij de uitloop naar de regenpijp, een naad of een hoek. Vaak is leegmaken, een naad solderen of de goot van binnen coaten genoeg.`,
 };
