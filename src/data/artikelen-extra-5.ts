@@ -12,6 +12,7 @@
  * 18-11-2026 ronde 1: zakgoot lekt
  * 18-11-2026 ronde 3: lood rond de schoorsteen laten vervangen
  * 18-11-2026 ronde 3: verholen goot lekt
+ * 18-11-2026 ronde 4: aardlekschakelaar slaat af bij regen
  */
 import type { Artikel } from "./artikelen";
 
@@ -1000,6 +1001,47 @@ export const ARTIKELEN_EXTRA_5: Artikel[] = [
       { v: `Is een lekkende verholen goot spoed?`, a: `Druppelt het binnen, zit de natte plek bij een lamp of stopcontact of wordt hij bij elke bui groter, dan wel: zet de groep van die kamer uit en bel of app me met een foto. Is het alleen een oude, droge kring die niet groter wordt, dan kan het meestal een paar dagen wachten. Laat het niet de hele winter liggen.` },
     ],
   },
+  {
+    slug: `aardlekschakelaar-slaat-af-bij-regen`,
+    datum: `2026-11-18`,
+    titel: `Stroom valt uit als het regent?`,
+    h1: `Je aardlekschakelaar slaat af als het regent: zit er water bij de elektra, en komt dat van je dak?`,
+    metaTitle: `Aardlekschakelaar slaat af bij regen? | Spoed Dak Service`,
+    metaDescription: `Slaat je aardlekschakelaar af als het regent? Vaak zit er water in een buitenlamp of stopcontact. Soms komt het via een daklek of een volle goot bij de elektra.`,
+    intro: `Het regent, en ineens is het donker in een deel van je huis. In de meterkast staat de aardlekschakelaar omlaag. Die schakelt de stroom uit zodra er ergens stroom weglekt, en water is daar een bekende oorzaak van. Vaak zit het water buiten, in een lamp of stopcontact aan de gevel. Soms komt het via je dak of een volle goot bij een lamp, een lasdoos of een kabel binnen. Hieronder lees je hoe je dat uitzoekt, wat je zelf veilig kunt doen en wie je belt.`,
+    secties: [
+      { kop: `Eerst veilig`, tekst: [
+        `Raak niets aan met natte handen, en ook geen lamp, stopcontact of schakelaar die nat is. Zet de aardlekschakelaar niet steeds opnieuw aan als hij meteen weer afslaat. Is de meterkast zelf nat, raak dan niets aan en lees eerst <a href="/kennisbank/lekkage-meterkast-bij-regen/">water in je meterkast als het regent</a>. Ruik je een brandlucht of zie je vonken, bel dan 112.`,
+      ] },
+      { kop: `Zoek uit welke groep het is`, tekst: [
+        `Is de meterkast droog, dan kun je zelf kijken welke groep het is. Zet alle groepen uit, zet de aardlekschakelaar weer aan en zet de groepen daarna een voor een aan. Slaat hij af bij één groep, laat die groep dan uit staan. De rest van je huis heeft dan weer stroom. Schrijf op welke groep het is en welke lampen en stopcontacten erop zitten, want dat helpt de installateur en mij.`,
+      ] },
+      { kop: `Buiten: een lamp of stopcontact in de regen`, tekst: [
+        `Heel vaak zit het water buiten: in een lamp aan de gevel, een buitenstopcontact, tuinverlichting of de kabel naar een schuur. Dat is werk voor een installateur. Kijk wel waar die lamp of dat stopcontact hangt. Zit hij vlak onder de goot, en loopt die goot bij een bui over, dan valt het water er precies op. Ook onder een afdakje boven de voordeur dat lekt, kan een lamp nat worden. Dan moet ook de goot of het afdak gemaakt worden, anders gebeurt het bij de volgende bui weer. Lees ook <a href="/kennisbank/dakgoot-loopt-over/">dakgoot loopt over</a>.`,
+      ] },
+      { kop: `Binnen: water dat via het dak bij de elektra komt`, tekst: [
+        `Zit de groep op de bovenste verdieping, op zolder of in een aanbouw met een plat dak, dan kan het water van het dak komen. Het loopt eerst over de folie, een balk of de isolatie en komt dan in een lampdoos, het gat van een spotje of een lasdoos op zolder terecht. Soms zie je beneden nog geen natte plek. Ook de kabel van zonnepanelen die onder een pan of door het dak naar binnen gaat, kan water naar binnen leiden. Lees <a href="/kennisbank/water-uit-lamp-plafond/">water uit je lamp of spotjes</a>, <a href="/kennisbank/water-uit-stopcontact-bij-regen/">water uit je stopcontact als het regent</a> en <a href="/kennisbank/lekkage-bij-zonnepanelen/">lekkage bij zonnepanelen</a>.`,
+      ] },
+      { kop: `Zo kijk je zelf, zonder het dak op te gaan`, tekst: [
+        `Ga tijdens of vlak na een bui met een zaklamp naar zolder, boven de lampen en stopcontacten van de groep die afslaat. Kijk of het hout, de folie of de isolatie daar nat is, en of er water langs een kabel loopt. Kijk buiten vanaf de straat of de goot boven een buitenlamp overloopt. Gebeurt het alleen bij harde wind uit één richting, let dan vooral op de kant van het huis waar de regen tegenaan slaat. Maak van alles een foto.`,
+      ] },
+      { kop: `Wat je beter niet doet`, tekst: [
+        `Schroef geen lamp of stopcontact open om te kijken, ook niet als de groep uit staat. Er kan nog water in de doos of in de buis erachter zitten. Föhn niets droog en plak niets af met tape. En ga niet zelf het dak op om het lek te zoeken.`,
+      ] },
+      { kop: `Wie doet wat`, tekst: [
+        `De installateur maakt de elektra weer veilig: hij kijkt of de lamp, het stopcontact en de bedrading droog en heel zijn, en vervangt wat kapot is. Ik maak het lek dicht waardoor het water bij de elektra kwam: op het dak, bij een kabel door het dak of bij de goot. Komt het water niet van boven, dan zeg ik dat eerlijk. Zie ook <a href="/diensten/daklekkage/">daklekkage opsporen en repareren</a>.`,
+      ] },
+      { kop: `Hoe ik het aanpak`, tekst: [
+        `Stuur me een foto van de plek op zolder of buiten, zeg welke groep het is en wat erop zit, en wanneer het gebeurt: bij elke bui of alleen bij harde wind. Op zolder volg ik het spoor van het water omhoog naar de plek waar het binnenkomt, en buiten kijk ik naar de pannen, het lood, de doorvoer van een kabel en de goot. Aan de elektra zelf kom ik niet. Je hoort vooraf wat het kost.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: daklekkage & spoed`, href: `/diensten/daklekkage/` },
+    faq: [
+      { v: `Mag ik de groep weer aanzetten als het droog is?`, a: `Liever pas als een installateur heeft gekeken. Ook als het droog lijkt, kan er nog water in een lampdoos, een stopcontact of de buis erachter zitten. Laat die groep tot die tijd uit staan. De rest van je huis kan meestal gewoon weer aan.` },
+      { v: `Het gebeurt alleen bij harde regen uit één richting. Wat zegt dat?`, a: `Dat de regen ergens naar binnen waait op een plek die bij gewone regen droog blijft. Buiten kan dat een lamp of stopcontact aan die kant van het huis zijn. Op het dak kan het een pan zijn die een stukje scheef ligt, of lood dat omhoog staat, waardoor de regen bij harde wind onder de pannen komt en langs een kabel naar beneden loopt. Kijk na zo'n bui op zolder aan die kant van het huis.` },
+      { v: `Is het spoed?`, a: `Valt de stroom uit en blijft de aardlekschakelaar afslaan, dan wil je dat snel geregeld hebben. Laat de groep uit staan en bel een installateur voor de elektra. Komt het water van je dak of van de goot, bel of app mij dan met een foto. Druppelt het binnen bij een lamp of stopcontact, of is de meterkast nat, dan is het spoed.` },
+    ],
+  },
 ];
 
 // Kort antwoord bovenaan een artikel. Geen bedragen.
@@ -1028,4 +1070,5 @@ export const KORT_ANTWOORD_5: Record<string, string> = {
   "zakgoot-lekt": `Een zakgoot ligt bijna vlak tussen twee daken die naar elkaar toe aflopen, bijvoorbeeld tussen twee panden of tussen het huis en een aanbouw. Loopt hij over, dan komt het water niet langs de gevel maar binnen. Meestal zit de uitloop dicht met blad, mos of gruis, of lekt een naad in het zink. Vaak is leegmaken en de uitloop vrijmaken genoeg, en een lekke naad kan opnieuw gesoldeerd worden.`,
   "lood-schoorsteen-vervangen": `Is het lood rond je schoorsteen gescheurd, mist er een stuk of staat het omhoog, dan komt er nieuw lood: het oude eraf, nieuwe stroken rond de voet met de bovenrand in een voeg, en de pannen eromheen weer goed. Meestal met loodvervanger, op wens met echt lood. Staat alleen de bovenrand los, dan is vastzetten vaak genoeg.`,
   "verholen-goot-lekt": `Een verholen goot is een zinken goot die in het dakvlak ligt, een stukje boven de onderrand, in plaats van aan de voorkant van het dak. Lekt hij, dan komt het water binnen, bovenin de muur of op zolder. Meestal zit het bij de uitloop naar de regenpijp, een naad of een hoek. Vaak is leegmaken, een naad solderen of de goot van binnen coaten genoeg.`,
+  "aardlekschakelaar-slaat-af-bij-regen": `Slaat je aardlekschakelaar af als het regent, dan komt er ergens water bij de elektra. Vaak is dat buiten, in een lamp aan de gevel, een buitenstopcontact of tuinverlichting. Soms komt het via een daklek of een goot die overloopt bij een lamp, een lasdoos op zolder of een kabel door het dak. Laat de groep die afslaat uit staan en zet hem niet steeds opnieuw aan. De installateur maakt de elektra veilig, een dakdekker maakt het lek dicht.`,
 };
