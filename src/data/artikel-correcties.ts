@@ -8,6 +8,7 @@
 // 16-11-2026 (ronde 4): titel voor Google van lood-op-dak met schoorsteen en dakraam (plek 5,6, 1 klik uit 78 vertoningen).
 // 16-11-2026 (ronde 5): eigen omschrijving voor Google van lekkage bij een dakdoorvoer (plek 5,9, maar 3,2% klikt).
 // 17-11-2026: titel voor Google van dakleer repareren ('dakleer reparatie' 172 vertoningen op plek 51) en gedeelde schoorsteen (361 vertoningen, 0 kliks).
+// 18-11-2026: titel voor Google van dakgoot lekt met oorzaak en wat nu (1219 vertoningen, 1 klik).
 // Kennisbank [slug].astro legt hem over het artikel heen: alleen de velden die hier staan, veranderen (ook de titel voor Google).
 import type { Artikel } from "./artikelen";
 
@@ -89,4 +90,5 @@ export const ARTIKEL_CORRECTIES: Record<string, Partial<Pick<Artikel, "secties" 
   "lekkage-bij-schoorsteen": { metaTitle: "Lekkage bij schoorsteen: waar zit het? | Spoed Dak Service" },
   "lekkage-bij-dakdoorvoer": { metaDescription: "Druppelt het langs de ontluchting, de afzuiging of de cv-pijp door je dak? Meestal zit het in de kraag of de doorvoerpan. Zo zie je of het een lek is of condens." },
   "dakleer-repareren": { metaTitle: "Dakleer reparatie: scheur, blaas of lek? | Spoed Dak Service" },
+  "dakgoot-lekt": { metaTitle: "Dakgoot lekt: oorzaak vinden en wat nu? | Spoed Dak Service" },
 };
