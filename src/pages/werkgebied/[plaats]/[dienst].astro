@@ -6,6 +6,7 @@ import { getPlaats } from "../../../data/plaatsen.ts";
 import { getDienst } from "../../../data/diensten.ts";
 import { PRIJZEN } from "../../../data/prijzen.ts";
 import EchteFotos from "../../../components/EchteFotos.astro";
+import { ARTIKELEN } from "../../../data/artikelen.ts";
 
 export function getStaticPaths() {
   return MATRIX.map((c) => {
@@ -169,6 +170,12 @@ const verderLezen: Record<string, string> = {
   dakrenovatie: 'Twijfel je of je dak echt aan renovatie toe is? In <a href="/kennisbank/dakinspectie/">dakinspectie</a> lees je wat ik nakijk en wanneer dat zinvol is. Ligt er specie in de goot of staat de nok scheef, kijk dan bij <a href="/kennisbank/nokvorsten-los/">losse nokvorsten</a>. Zitten er na een vorstperiode schilfers van je pannen in de goot, lees dan <a href="/kennisbank/vorstschade-dakpannen/">vorstschade aan dakpannen</a>. Hoe je ziet dat het lood rond de schoorsteen op is, staat in <a href="/kennisbank/lood-op-dak/">lood op je dak</a>, en of je goot nog mee kan, lees je in <a href="/kennisbank/hoe-lang-gaat-een-dakgoot-mee/">hoe lang gaat een dakgoot mee</a>.',
   "dak-reinigen": 'Waarom mos kwaad kan en hoe je het het beste weghaalt, lees je in <a href="/kennisbank/mos-op-dak-verwijderen/">mos op je dak</a>. Zitten er na een vorstperiode schilfers van je pannen in de goot, kijk dan bij <a href="/kennisbank/vorstschade-dakpannen/">vorstschade aan dakpannen</a>. Wat je per seizoen aan je dak nakijkt, staat in <a href="/kennisbank/dakonderhoud-per-seizoen/">dakonderhoud per seizoen</a>.',
 };
+// 18-11-2026 ronde 4: bij dakrenovatie ook de uitleg over een vergunning en over een dak vernieuwen in een rij, alleen als die artikelen bestaan.
+const RENOVATIE_EXTRA = [
+  ARTIKELEN.some((a) => a.slug === "vergunning-dak-vernieuwen" && !a.verborgen) ? 'Vraag je je af of je voor andere pannen of een andere kleur toestemming nodig hebt, lees dan <a href="/kennisbank/vergunning-dak-vernieuwen/">vergunning voor je dak</a>.' : "",
+  ARTIKELEN.some((a) => a.slug === "dak-vernieuwen-rijtjeshuis" && !a.verborgen) ? 'Hoe het vernieuwen gaat als je huis in een rij staat, lees je in <a href="/kennisbank/dak-vernieuwen-rijtjeshuis/">dak vernieuwen bij een rijtjeshuis</a>.' : "",
+].filter(Boolean).join(" ");
+if (RENOVATIE_EXTRA) verderLezen.dakrenovatie = `${verderLezen.dakrenovatie} ${RENOVATIE_EXTRA}`;
 const verder = verderLezen[d.slug];
 // Interne links: de andere klussen in deze plaats, en dezelfde klus in de andere plaatsen.
 const zelfdePlaats = MATRIX.filter((c) => c.plaats === p.slug && c.dienst !== d.slug)
