@@ -15,6 +15,7 @@
  * 18-11-2026 ronde 4: aardlekschakelaar slaat af bij regen
  * 18-11-2026 ronde 4: dak van je garagebox lekt
  * 18-11-2026 ronde 4: vergunning nodig voor je dak
+ * 18-11-2026 ronde 5: dakgoot laten vernieuwen
  */
 import type { Artikel } from "./artikelen";
 
@@ -1126,6 +1127,48 @@ export const ARTIKELEN_EXTRA_5: Artikel[] = [
       { v: `Kost een vergunning geld?`, a: `Vaak wel. Een gemeente vraagt meestal leges voor een vergunning, en hoeveel dat is, verschilt per gemeente. Kijk op de site van je gemeente of vraag het daar na voordat je de aanvraag doet.` },
     ],
   },
+  {
+    slug: `dakgoot-vernieuwen`,
+    datum: `2026-11-18`,
+    titel: `Je dakgoot laten vernieuwen: hoe gaat dat?`,
+    h1: `Je dakgoot laten vernieuwen: zo gaat dat, van de oude goot tot de eerste bui`,
+    metaTitle: `Dakgoot vernieuwen: zo gaat dat | Spoed Dak Service`,
+    metaDescription: `Moet je dakgoot vernieuwd worden? Eerst kijk ik of repareren nog kan. Daarna kies je zink of kunststof, gaat de oude goot eraf en hangt de nieuwe op afschot.`,
+    intro: `Lekt je dakgoot op steeds meer plekken, hangt hij door of is hij bros geworden, dan houdt een reparatie het vaak niet lang meer. Dan komt er een nieuwe goot. Hieronder lees je hoe dat gaat: wat ik eerst nakijk, welke keuzes je hebt, wat er op de dag zelf gebeurt en waar je daarna op let. Zo weet je wat je kunt verwachten voordat je belt.`,
+    secties: [
+      { kop: `Eerst: moet hij echt nieuw?`, tekst: [
+        `Een goot die lekt, hoeft er niet altijd uit. Lekt hij bij één naad, één hoek of de uitloop naar de regenpijp, dan is dat stuk vaak te repareren: een zinken naad opnieuw solderen, een kunststof hoekstuk vervangen of de goot weer op afschot hangen. Een zinken goot die op een paar plekken dun wordt maar nog stevig hangt, kan vaak van binnen gecoat worden.`,
+        `Vernieuwen is slimmer als de goot over een groot stuk dun, gescheurd of bros is, als er bij elke bui een nieuw lek bij komt, of als hij al vaak gelapt is. Hoe je ziet dat een goot op raakt, lees je in <a href="/kennisbank/hoe-lang-gaat-een-dakgoot-mee/">hoe lang gaat een dakgoot mee</a>.`,
+      ] },
+      { kop: `Zink of kunststof`, tekst: [
+        `Bij de meeste huizen kies je tussen zink en kunststof. Zink gaat lang mee en past bij een ouder huis of een zinken regenpijp. Kunststof is lichter en vraagt weinig onderhoud. Staat je huis in een rij, kijk dan ook naar de buren: loopt de goot in één lijn door, dan moet de nieuwe goot op de grens netjes aansluiten op die van hen. Het verschil lees je in <a href="/kennisbank/dakgoot-zink-of-kunststof/">dakgoot van zink of kunststof</a>.`,
+        `Woon je in een monument of in een beschermd stadsgezicht, vraag dan eerst bij de gemeente na of je een zinken goot door kunststof mag vervangen. Meer lees je in <a href="/kennisbank/vergunning-dak-vernieuwen/">vergunning nodig voor je dak</a>.`,
+      ] },
+      { kop: `Wat ik vooraf nakijk`, tekst: [
+        `Voordat je een prijs hoort, kijk ik naar de hele goot: hoe lang hij is, waar de regenpijpen zitten, hoe hij nu hangt en of het water van de onderste rij pannen goed in de goot valt. Ik kijk ook naar het hout waar de goot aan vastzit. Is dat op een plek zacht, dan hoor je dat vooraf, want een nieuwe goot aan zacht hout blijft niet lang recht hangen.`,
+        `Stuur me een foto van de goot vanaf de straat, van beide uiteinden en van de plek waar het lekt. Dan zie ik vaak al wat er nodig is.`,
+      ] },
+      { kop: `Op de dag zelf`, tekst: [
+        `De oude goot gaat eraf, en het oude zink of kunststof neem ik mee. Beugels die krom, los of verroest zijn, vervang ik. Daarna hang ik de nieuwe goot op met een klein beetje afschot naar de regenpijp, zodat er na een bui geen water in blijft staan. Bij zink soldeer ik de naden en de hoeken, bij kunststof gaan de stukken in elkaar met passende verbindingen. Tot slot sluit ik de uitloop aan op de regenpijp.`,
+        `Is de regenpijp ook gescheurd of los, dan kan die in dezelfde keer mee. Zie <a href="/diensten/regenpijp-vervangen/">regenpijp vervangen of repareren</a>.`,
+      ] },
+      { kop: `Het weer`, tekst: [
+        `Een nieuwe goot ophangen kan ook als het koud is, op een droge dag. Solderen en lijmen gaan alleen op een droge goot zonder ijs, dus bij regen, sneeuw of vorst wacht ik met dat deel. Lekt je oude goot nu, dan maak ik hem vaak eerst leeg, zodat het water weer naar de regenpijp loopt tot de nieuwe er hangt. Wat je zelf tot die tijd kunt doen, lees je in <a href="/kennisbank/lekkende-dakgoot-tijdelijk-oplossen/">een lekkende dakgoot tijdelijk oplossen</a>.`,
+      ] },
+      { kop: `Na de eerste bui`, tekst: [
+        `Kijk bij de eerste flinke bui vanaf de straat of het water netjes in de goot valt, bij de regenpijp wegloopt en nergens langs de gevel druppelt. Zie je iets, stuur me dan een foto of een kort filmpje. Laat de goot daarna één keer per jaar leegmaken, het liefst als de bomen kaal zijn.`,
+      ] },
+      { kop: `Wat kost het?`, tekst: [
+        `Dat hangt af van hoe lang de goot is, zink of kunststof, hoeveel hoeken en regenpijpen er zijn en hoe goed ik erbij kan. Een vast bedrag noem ik hier daarom niet. Stuur een foto via WhatsApp, dan hoor je vooraf wat het kost. Zie ook <a href="/diensten/dakgoot-vervangen/">dakgoot repareren of vervangen</a>.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: dakgoot repareren of vervangen`, href: `/diensten/dakgoot-vervangen/` },
+    faq: [
+      { v: `Kan eerst alleen de voorgoot nieuw, en de goot aan de achterkant later?`, a: `Ja, dat kan. Vaak is de ene kant er slechter aan toe dan de andere, bijvoorbeeld de kant onder de bomen of op het noorden. Dan vernieuw je eerst die goot en laat je de andere nakijken. Bij een huis in een rij let ik op de aansluiting op de goot van de buren, zodat het op de grens dicht blijft.` },
+      { v: `Mag ik mijn oude zinken goot vervangen door kunststof?`, a: `Bij een gewoon huis meestal wel. Bij een monument of in een beschermd stadsgezicht let de gemeente op wat je vanaf de straat ziet, dus vraag het daar eerst na. Twijfel je wat bij je huis past, stuur dan een foto van de goot en de gevel, dan denk ik mee.` },
+      { v: `Hoe lang duurt het om een dakgoot te vernieuwen?`, a: `Dat hangt af van de lengte van de goot, het aantal hoeken en regenpijpen en hoe goed ik erbij kan. Voor solderen en lijmen is een droge dag nodig. Hoe lang ik bezig ben, hoor je vooraf, net als wat het kost.` },
+    ],
+  },
 ];
 
 // Kort antwoord bovenaan een artikel. Geen bedragen.
@@ -1157,4 +1200,5 @@ export const KORT_ANTWOORD_5: Record<string, string> = {
   "aardlekschakelaar-slaat-af-bij-regen": `Slaat je aardlekschakelaar af als het regent, dan komt er ergens water bij de elektra. Vaak is dat buiten, in een lamp aan de gevel, een buitenstopcontact of tuinverlichting. Soms komt het via een daklek of een goot die overloopt bij een lamp, een lasdoos op zolder of een kabel door het dak. Laat de groep die afslaat uit staan en zet hem niet steeds opnieuw aan. De installateur maakt de elektra veilig, een dakdekker maakt het lek dicht.`,
   "garagebox-dak-lekt": `Lekt het dak van je garagebox, dan zit het meestal bij de naad op de grens met de box ernaast, bij de rand boven de deur of aan de achterkant, of bij een afvoer die vol blad zit. Bij een rij boxen is het dak vaak van een VvE of van de eigenaren samen, dus kijk in je akte wie het regelt. Een scheur of losse naad is vaak gericht te repareren. Oude grijze golfplaten laat je eerst onderzoeken op asbest.`,
   "vergunning-dak-vernieuwen": `Een kapotte pan, los lood of een lekkende goot herstellen met hetzelfde materiaal is onderhoud, en daar is in de regel geen vergunning voor nodig. Bij een monument, in een beschermd stadsgezicht of als je dak er anders uit gaat zien, zoals andere pannen of een andere kleur, vraag je het eerst na bij je gemeente. Bij het Omgevingsloket kun je een vergunningcheck doen. Een steiger of container op de stoep vraagt vaak een melding bij de gemeente.`,
+  "dakgoot-vernieuwen": `Een dakgoot vernieuwen is slim als hij over een groot stuk dun, bros of gescheurd is, of steeds op een andere plek lekt. Lekt hij op één plek, dan is repareren vaak genoeg. Bij vernieuwen gaat de oude goot eraf, komen er waar nodig nieuwe beugels, hangt de nieuwe goot op afschot naar de regenpijp en worden de naden gesoldeerd of verbonden. Dat gebeurt op een droge dag.`,
 };
