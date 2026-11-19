@@ -22,6 +22,7 @@
  * 19-11-2026 ronde 1: de dakdekker komt, wat regel je vooraf
  * 19-11-2026 ronde 3: dak nakijken na een schoorsteenbrand
  * 19-11-2026 ronde 3: klimop op je dak of in je dakgoot
+ * 19-11-2026 ronde 3: marter onder je dakpannen of op zolder
  */
 import type { Artikel } from "./artikelen";
 
@@ -1396,6 +1397,39 @@ export const ARTIKELEN_EXTRA_5: Artikel[] = [
       { v: `Wanneer laat ik het het beste weghalen?`, a: `Het liefst in de herfst of de winter, na het snoeien aan de gevel. Dan zitten er meestal geen vogels meer te broeden in de klimop. Broeden er wel vogels, wacht dan tot de jongen zijn uitgevlogen. Het werk op het dak gaat het best op een droge dag zonder vorst.` },
     ],
   },
+  {
+    slug: `marter-onder-dakpannen`,
+    datum: `2026-11-19`,
+    titel: `Marter onder je dakpannen of op zolder?`,
+    h1: `Een marter onder je dakpannen of op zolder: wat het met je dak doet en wat je eraan doet`,
+    metaTitle: `Marter onder je dakpannen? | Spoed Dak Service`,
+    metaDescription: `Gestommel op zolder in de nacht, kapotte folie of isolatie uit elkaar getrokken? Dan kan er een marter onder je pannen zitten. Zo herken je het en dit doe je.`,
+    intro: `Hoor je 's nachts gestommel, gekrabbel of geren boven je slaapkamer, en vind je op zolder isolatie die uit elkaar is getrokken? Dan kan er een steenmarter onder je dakpannen of op zolder zitten. Dat is vervelend, en het kan je dak en je isolatie flink beschadigen. Hieronder lees je hoe je het herkent, wat je zelf wel en niet doet, en wat ik daarna aan je dak doe.`,
+    secties: [
+      { kop: `Een marter, een muis of een vogel?`, tekst: [
+        `Een marter is vooral 's nachts actief. Je hoort dan zwaar gestommel en gerommel, alsof er iets groots over de zoldervloer rent. Muizen en ratten maken eerder fijn geknaag en geritsel. Vogels hoor je vooral 's ochtends vroeg, vlak boven de goot onder de onderste rij pannen. Lees daarover <a href="/kennisbank/vogels-onder-dakpannen/">vogels onder je dakpannen</a>.`,
+        `Andere tekenen van een marter: keutels op één vaste plek, vaak met haar of pitjes erin, een sterke, muffe lucht, resten van prooi zoals veren of eierschalen, en isolatie of folie die kapot is getrokken.`,
+      ] },
+      { kop: `Hoe komt een marter onder je dak?`, tekst: [
+        `Een marter klimt goed. Hij komt via een boom vlak bij het dak, klimop tegen de gevel, een regenpijp of een schuur naast het huis op het dak, en kruipt dan onder de pannen door. Daar is maar een kleine opening voor nodig: onder de onderste rij pannen boven de goot, langs de zijkant van het dak, bij de nok of bij een pan die een stukje is verschoven.`,
+      ] },
+      { kop: `Wat je zelf beter niet doet`, tekst: [
+        `De steenmarter is in Nederland een beschermd dier. Je mag hem niet zomaar vangen, doden of zijn nest verstoren. Zet daarom geen klem of gif neer, en maak de opening niet dicht terwijl hij nog binnen zit, zeker niet in het voorjaar als er jongen kunnen zijn. Vraag eerst advies aan een bedrijf in plaagdierbeheersing of aan je gemeente. Zij weten wat er bij jou mag en hoe je hem op een goede manier wegkrijgt.`,
+      ] },
+      { kop: `Wat een marter op je dak kapot kan maken`, tekst: [
+        `Een marter trekt isolatie uit elkaar om er een nest in te maken, en hij scheurt de folie onder de pannen kapot. Ook kan hij een pan of nokvorst een stukje opduwen als hij er onderdoor kruipt. Zo'n kier laat bij harde wind regen of stuifsneeuw door. Is de folie op een paar plekken kapot en liggen de pannen goed, dan is dat meestal geen spoed. Hoe het zit met kapotte folie, lees je in <a href="/kennisbank/dakfolie-kapot/">dakfolie kapot of vergaan</a>.`,
+      ] },
+      { kop: `Hoe ik het aanpak`, tekst: [
+        `Is de marter weg, dan kijk ik op zolder en op het dak waar hij in en uit ging. Pannen die verschoven of gebroken zijn, leg ik weer goed of vervang ik, en een losse nokvorst zet ik weer vast. Zo komt er bij harde wind geen regen meer binnen. Isoleren doe ik zelf niet: kapotte of natte isolatie laat je vervangen door een isolatiebedrijf. Stuur een foto van je dak vanaf de straat en van de plek op zolder via WhatsApp, dan hoor je vooraf wat het kost. Zie <a href="/diensten/dakpannen-vervangen/">dakpannen vervangen of recht leggen</a>.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: dakpannen vervangen of recht leggen`, href: `/diensten/dakpannen-vervangen/` },
+    faq: [
+      { v: `Helpt vogelwering tegen een marter?`, a: `Meestal niet. Kunststof vogelwering onder de onderste rij pannen houdt mussen en spreeuwen tegen, maar een marter is sterk en komt er vaak doorheen of eronderdoor. Wat er bij jouw dak tegen een marter helpt, bespreek je met een bedrijf in plaagdierbeheersing.` },
+      { v: `Is een marter op zolder spoed?`, a: `Voor je dak meestal niet, zolang het binnen droog blijft. Voor je nachtrust wel vervelend. Bel voor de marter zelf eerst een bedrijf in plaagdierbeheersing. Zie je daarna een pan die scheef ligt, of komt er water binnen, stuur me dan een foto.` },
+      { v: `Betaalt mijn verzekering de schade die een marter maakt?`, a: `Dat verschilt per verzekeraar, en schade door dieren wordt niet altijd vergoed. Kijk in je polis of bel je verzekeraar, en maak foto's van de schade voordat er iets wordt hersteld.` },
+    ],
+  },
 ];
 
 // Kort antwoord bovenaan een artikel. Geen bedragen.
@@ -1434,4 +1468,5 @@ export const KORT_ANTWOORD_5: Record<string, string> = {
   "dakdekker-komt-wat-regel-je": `Komt de dakdekker, regel dan vooraf een plek voor de ladder en zet auto's, fietsen en tuinmeubels onder de dakrand opzij. Maak het zolderluik en de plek boven de natte plek vrij, houd foto's van het lek of je dak bij de hand en laat je buren het weten als het werk via hun kant moet. Bij regen, harde wind, ijs of sneeuw wordt het werk op het dak verzet naar een veilige dag.`,
   "dak-nakijken-na-schoorsteenbrand": `Na een schoorsteenbrand stook je niet meer tot een erkende schoorsteenveger het kanaal heeft nagekeken, want door de hitte kunnen er scheuren komen die je niet ziet. Maak foto's voor je verzekeraar. Op het dak kunnen het lood of de loodvervanger rond de voet, de pannen eromheen en de kop van de schoorsteen beschadigd zijn. Brandt het nog, bel dan 112 en gooi geen water in de kachel.`,
   "klimop-op-dak-of-in-dakgoot": `Groeit klimop of wilde wingerd over je dakrand, dan vult hij de goot, zet hij de uitloop naar de regenpijp dicht en dringt hij onder de pannen boven de goot, die hij omhoog drukt. Ruk de ranken niet zelf van het dak, want dan komen de pannen mee. Laat de klimop aan de gevel terugsnoeien tot een flink stuk onder de goot, en laat de ranken onder de pannen en in de goot weghalen.`,
+  "marter-onder-dakpannen": `Zwaar gestommel op zolder in de nacht, keutels op één vaste plek, een muffe lucht en isolatie of folie die kapot is getrokken, wijzen vaak op een steenmarter. Die komt via een boom, klimop of een regenpijp op het dak en kruipt onder de pannen door. De steenmarter is beschermd: vraag eerst advies aan een bedrijf in plaagdierbeheersing of je gemeente. Is hij weg, laat dan verschoven pannen en een losse nok herstellen.`,
 };
