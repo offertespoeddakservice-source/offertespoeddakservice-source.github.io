@@ -1,0 +1,61 @@
+---
+import Base from "../layouts/Base.astro";
+import { SITE, telHref, waHref } from "../site.config.ts";
+import EchteFotos from "../components/EchteFotos.astro";
+import { FOTOS } from "../data/fotos.ts";
+// Foto's van mijn werk (19-11-2026): alleen echte foto's uit src/data/fotos.ts, via EchteFotos met een vaste lijst per kopje. Elke foto staat maar bij één kopje. Geen plaatsnamen bij de foto's.
+// Per kopje staat alleen de naam van een foto uit fotos.ts; kies() zoekt die op in FOTOS, dus een foto die daar niet staat komt er nooit op.
+const naam = (bestand: string) => (bestand.split("/").pop() ?? "").split(".")[0];
+const kies = (namen: string[]) => namen.map((n) => FOTOS.find((f) => naam(f.bestand) === n && !f.voor)?.bestand).filter((b): b is string => !!b);
+const PANNEN = kies(["verschoven-dakpan-omcirkeld-31e323", "kapotte-pan-bij-nok-f9152c", "nette-nok-met-nokvorsten-a56a3a", "dak-opmeten-meetlint-9edf07", "mos-langs-dakrand-049fd9", "nieuw-dak-panlatten-dakramen-6b7483"]);
+const LOOD = kies(["schoorsteen-met-loodslabben-173c1a", "schoorsteen-met-lood-742508", "nokvorsten-bij-schoorsteen-bef73b", "rookgasafvoer-door-pannendak-653b84", "zinken-dakrand-afdekking-ce4ab5"]);
+const GOTEN = kies(["dakgoot-hele-lengte-gecoat-973b86", "goot-vol-staand-water-ae9944", "zinken-goot-met-vogelwering-a1519b", "regenpijp-aansluiten-bestrating-open-6d4a97"]);
+const PLAT = kies(["nieuwe-dakplaten-aanbouw-1be656", "plat-dak-zonnepanelen-68c227", "regenpijp-aftakking-plat-dak-98b289", "regenpijp-met-aftakking-72b9bb", "veranda-overkapping-onderkant-9bf5ac"]);
+const VOGEL = kies(["vogelwering-onder-dakpannen-da1dea", "vogelschroot-onder-dakpannen-bf6057", "vogelwering-onder-dakpannen-d3c49f", "vogelwering-onder-dakpannen-0f55e0", "vogelpinnen-boven-raam-633f7f"]);
+---
+
+<Base
+  title={`Foto's van mijn werk als dakdekker | ${SITE.bedrijfsnaam}`}
+  description="Echte foto's van mijn eigen klussen als dakdekker in de regio Den Bosch: pannen en nok, lood bij de schoorsteen, dakgoten, platte daken en vogelwering."
+  path="/mijn-werk"
+>
+  <section class="hero">
+    <div class="wrap">
+      <p class="eyebrow" style="color:#ffb486;">Mijn werk</p>
+      <h1>Foto's van mijn eigen klussen</h1>
+      <p class="lead" style="margin-bottom:12px;">Spoed Dak Service is een dakdekker uit 's-Hertogenbosch. Op deze pagina staan foto's die ik zelf op het dak maakte, bij klussen in de regio Den Bosch. Geen stockfoto's.</p>
+      <p class="lead">Op een deel van de foto's zie je waar een dak of goot aandacht nodig had, op andere het werk dat ik deed. Lekt het nu? Kijk dan eerst op de <a href="/spoed/" style="color:#ffb486;">spoedpagina</a>.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap prose">
+      <h2>Pannen en nokvorsten</h2>
+      <p>Een pan die scheef ligt of gebroken is, zie je van beneden bijna niet. Ik leg verschoven pannen terug, vervang een kapotte pan door een pan die past en zet losse nokvorsten weer vast. Meer lees je bij <a href="/diensten/dakreparatie/">dakreparatie</a>.</p>
+      <EchteFotos bestanden={PANNEN} max={6} inline />
+
+      <h2 style="margin-top:36px;">Lood en zink bij de schoorsteen en de dakrand</h2>
+      <p>Waar het dak tegen een schoorsteen of muur aan komt, ligt lood of zink. Laat dat los of scheurt het, dan loopt het water erachter. Ik zet het weer vast of vervang het, meestal met loodvervanger en op wens met echt lood. Zie <a href="/diensten/lood-vervangen/">lood vervangen</a>.</p>
+      <EchteFotos bestanden={LOOD} max={6} inline />
+
+      <h2 style="margin-top:36px;">Dakgoten en regenpijpen</h2>
+      <p>Ik maak goten leeg, soldeer een lekke naad in een zinken goot, coat een goot van binnen als het zink op meer plekken dun wordt en vervang of verleng regenpijpen. Zie <a href="/diensten/goten-reinigen/">dakgoot schoonmaken</a> en <a href="/diensten/dakgoot-vervangen/">dakgoot repareren of vervangen</a>.</p>
+      <EchteFotos bestanden={GOTEN} max={6} inline />
+
+      <h2 style="margin-top:36px;">Platte daken, aanbouw en overkapping</h2>
+      <p>Op een plat dak kijk ik naar de dakbedekking, de rand, de afvoer en wat er op het dak staat, zoals zonnepanelen. Zie <a href="/diensten/platte-daken/">platte daken</a>.</p>
+      <EchteFotos bestanden={PLAT} max={6} inline />
+
+      <h2 style="margin-top:36px;">Vogelwering</h2>
+      <p>Onder de onderste rij pannen zet ik vogelwering van kunststof, zodat vogels niet onder je dak kunnen nestelen en er toch lucht onder de pannen blijft. Zie <a href="/diensten/vogelwering/">vogelwering</a>.</p>
+      <EchteFotos bestanden={VOGEL} max={6} inline />
+
+      <h2 style="margin-top:36px;">Wat speelt er bij jou?</h2>
+      <p>Stuur een foto van je dak vanaf de straat, of van de natte plek binnen, via WhatsApp. Dan hoor je wat ik zie, en wat het kost voordat ik begin. Wat klanten over mij schreven, lees je op <a href={SITE.werkspotUrl} target="_blank" rel="noopener">Werkspot</a>, en wie ik ben op <a href="/over/">over Rens</a>.</p>
+      <div class="btn-row" style="margin-top:20px;">
+        <a class="btn btn--wa" href={waHref("Hallo, ik stuur je een foto van mijn dak.")}>WhatsApp Rens</a>
+        <a class="btn btn--primary" href={telHref}>Bel {SITE.telefoonWeergave}</a>
+      </div>
+    </div>
+  </section>
+</Base>
