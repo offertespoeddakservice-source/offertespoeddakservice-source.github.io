@@ -231,6 +231,12 @@ const SPOED_DIENSTEN = ["daklekkage", "stormschade", "dakreparatie", "dakraam-le
   </section>
 
   {d.fotos ? <EchteFotos dienst={d.slug} bestanden={d.fotos} /> : <EchteFotos dienst={d.slug} />}
+  {/* 19-11-2026 ronde 4: link naar alle echte foto's van Rens op /mijn-werk/. */}
+  {!d.verborgen && (
+    <div class="wrap" style="margin-top:12px; margin-bottom:12px;">
+      <p>Foto's van mijn eigen klussen, van pannen en lood tot goten en vogelwering, zie je op <a href="/mijn-werk/">foto's van mijn werk</a>.</p>
+    </div>
+  )}
 
   {d.faq.length > 0 && (
     <section class="section section--soft">
