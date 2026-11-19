@@ -109,6 +109,7 @@ export const ARTIKELEN_EXTRA_5: Artikel[] = [
       { v: `Ik kan mijn dak vanaf de straat niet goed zien. Wat dan?`, a: `Maak dan de foto's die wel lukken: de natte plek binnen, zolder met een zaklamp en het dak vanuit de tuin of een raam boven. Zet erbij wat voor huis het is, bijvoorbeeld een rijtjeshuis of een huis met een plat dak achter. Dan vraag ik zelf wat ik nog wil zien.` },
       { v: `Is een filmpje beter dan een foto?`, a: `Bij een goot of een druppel vaak wel, omdat je dan ziet waar het water loopt. Houd het kort, tien tot twintig seconden. Voor een pan, de nok of het lood is een scherpe foto met zoom meestal genoeg.` },
       { v: `Kun je op een foto al een prijs geven?`, a: `Vaak kan ik dan al zeggen wat het ongeveer wordt. De vaste prijs hoor je voordat ik begin. Zie ik op de foto niet alles, dan kom ik eerst kijken.` },
+      { v: `Ik kan mijn dak zelf niet goed zien. Heb je iets aan Google Street View of een luchtfoto?`, a: `Een beetje. Op Street View of een luchtfoto zie ik vaak wat voor dak je hebt: de vorm, het soort pannen en waar de schoorsteen, de dakramen en de goten zitten. Maar zo'n beeld kan een paar jaar oud zijn, dus een pan die vorige week is gaan schuiven of lood dat nu los zit, zie je er niet op. Stuur je adres gerust mee, maar maak daarnaast een foto van de natte plek binnen en, als het lukt, een foto van je dak vanuit de tuin of een raam boven. Dan heb ik het beeld van nu.` },
     ],
   },
   {
