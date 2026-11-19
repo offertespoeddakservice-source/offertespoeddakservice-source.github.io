@@ -154,6 +154,12 @@ const spoedSchema = {
       {bestaat("aardlekschakelaar-slaat-af-bij-regen") && (
         <p style="margin-top:16px;">Valt de stroom uit of slaat je aardlekschakelaar af als het regent? Laat de groep die steeds afslaat uit staan en raak geen natte lamp of stopcontact aan. Of het water van een lamp buiten komt of via je dak bij de elektra, lees je in <a href="/kennisbank/aardlekschakelaar-slaat-af-bij-regen/">aardlekschakelaar slaat af bij regen</a>.</p>
       )}
+      {(bestaat("bungalow-dak-lekt") || bestaat("vergaarbak-lekt")) && (
+        <p style="margin-top:16px;">
+          {bestaat("bungalow-dak-lekt") && <>Woon je in een bungalow zonder zolder, en zie je het water meteen aan je plafond? Waar zo'n dak meestal lekt, lees je in <a href="/kennisbank/bungalow-dak-lekt/">het dak van je bungalow lekt</a>.</>}
+          {bestaat("vergaarbak-lekt") && <> Loopt het water over de bak bovenaan je regenpijp langs de gevel naar beneden, kijk dan bij <a href="/kennisbank/vergaarbak-lekt/">vergaarbak lekt of loopt over</a>.</>}
+        </p>
+      )}
       <p style="margin-top:22px;">Een scheve of kapotte pan zie je van beneden bijna niet. Twee foto's die ik zelf op het dak maakte:</p>
       <EchteFotos soort="pannen" max={2} inline />
     </div>
