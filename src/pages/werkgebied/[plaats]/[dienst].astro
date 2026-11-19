@@ -199,6 +199,11 @@ const LEK_EXTRA = [
   bestaatArtikel("doorslaand-vocht-of-daklek") ? 'Is de muur nat na regen met harde wind, en twijfel je of het van het dak komt, kijk dan bij <a href="/kennisbank/doorslaand-vocht-of-daklek/">doorslaand vocht of een daklek</a>.' : "",
   bestaatArtikel("garagebox-dak-lekt") ? 'Lekt het dak van je garagebox, lees dan <a href="/kennisbank/garagebox-dak-lekt/">het dak van je garagebox lekt</a>.' : "",
 ].filter(Boolean).join(" ");
+// 19-11-2026 ronde 3: bij dakreparatie per plaats een eigen extra zin naar de nieuwe uitleg over klimop en een schoorsteenbrand, alleen als die artikelen bestaan. De zin in verderLezen blijft zoals hij is.
+const REPARATIE_EXTRA = [
+  bestaatArtikel("klimop-op-dak-of-in-dakgoot") ? 'Groeit er klimop of wingerd over je dakrand en onder de pannen, lees dan <a href="/kennisbank/klimop-op-dak-of-in-dakgoot/">klimop op je dak of in je dakgoot</a>.' : "",
+  bestaatArtikel("dak-nakijken-na-schoorsteenbrand") ? 'Heb je een schoorsteenbrand gehad, kijk dan bij <a href="/kennisbank/dak-nakijken-na-schoorsteenbrand/">je dak nakijken na een schoorsteenbrand</a> wat er beschadigd kan zijn.' : "",
+].filter(Boolean).join(" ");
 const verder = verderLezen[d.slug];
 // Interne links: de andere klussen in deze plaats, en dezelfde klus in de andere plaatsen.
 const zelfdePlaats = MATRIX.filter((c) => c.plaats === p.slug && c.dienst !== d.slug)
@@ -296,6 +301,7 @@ const schema = [
           <p set:html={verder} />
           {d.slug === "dakgoot-vervangen" && GOOT_EXTRA && <p set:html={GOOT_EXTRA} />}
           {d.slug === "daklekkage" && LEK_EXTRA && <p set:html={LEK_EXTRA} />}
+          {d.slug === "dakreparatie" && REPARATIE_EXTRA && <p set:html={REPARATIE_EXTRA} />}
         </>
       )}
       <h3>In het kort</h3>
