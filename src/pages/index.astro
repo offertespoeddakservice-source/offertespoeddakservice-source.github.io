@@ -19,6 +19,15 @@ const HOME_UITLEG = ["daklek-tijdelijk-dichten", "dak-lekt-bij-harde-wind", "wat
 const zichtbareArtikelen = ARTIKELEN.filter((a) => !a.verborgen);
 const uitgelicht = HOME_UITLEG.map((s) => zichtbareArtikelen.find((a) => a.slug === s)).filter((a) => a) as typeof ARTIKELEN;
 const overigeArtikelen = zichtbareArtikelen.filter((a) => !HOME_UITLEG.includes(a.slug));
+// 19-11-2026: een gewone regel 'Nu in de winter' met links naar de seizoensuitleg. Alleen artikelen die bestaan en zichtbaar zijn.
+const WINTER_UITLEG = [
+  { slug: "kerstverlichting-dakgoot", tekst: "lichtjes aan je dakgoot" },
+  { slug: "vuurwerk-schade-dak", tekst: "vuurwerkschade aan je dak" },
+  { slug: "dak-lekt-bij-sneeuw-of-vorst", tekst: "lekkage bij sneeuw of vorst" },
+  { slug: "ijspegels-aan-dakgoot", tekst: "ijspegels aan je goot" },
+  { slug: "storm-op-komst-dak", tekst: "storm op komst" },
+  { slug: "dak-repareren-in-de-winter", tekst: "je dak repareren in de winter" },
+].filter((w) => zichtbareArtikelen.some((a) => a.slug === w.slug));
 
 const faq = [
   { v: "Wat kost het om iemand te laten komen?", a: `Wil je weten hoe je dak ervoor staat? Dat doe ik via de Dak-APK: binnen een dagdeel een compleet keuringsrapport met foto's, voor ${apkPrijs}. Weet je al wat er moet gebeuren, bijvoorbeeld goten reinigen? Dan hoor je gewoon de vaste prijs vooraf.` },
@@ -274,6 +283,9 @@ const faqSchema = {
           </a>
         ))}
       </div>
+      {WINTER_UITLEG.length > 0 && (
+        <p style="margin-top:18px;"><strong>Nu in de winter:</strong> {WINTER_UITLEG.map((w, i) => <>{i > 0 && (i === WINTER_UITLEG.length - 1 ? " en " : ", ")}<a href={`/kennisbank/${w.slug}/`}>{w.tekst}</a></>)}.</p>
+      )}
       <h3 style="margin-top:28px;">Alle uitleg op een rij</h3>
       <ul style="columns:2 260px; column-gap:28px; margin:12px 0 0; padding-left:18px;">
         {overigeArtikelen.map((a) => <li style="margin:0 0 6px; break-inside:avoid;"><a href={`/kennisbank/${a.slug}/`}>{a.titel}</a></li>)}
