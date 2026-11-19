@@ -23,8 +23,10 @@
  * 19-11-2026 ronde 3: dak nakijken na een schoorsteenbrand
  * 19-11-2026 ronde 3: klimop op je dak of in je dakgoot
  * 19-11-2026 ronde 3: marter onder je dakpannen of op zolder
+ * 19-11-2026 ronde 4: artikelen uit artikelen-extra-6.ts komen erachter
  */
 import type { Artikel } from "./artikelen";
+import { ARTIKELEN_EXTRA_6, KORT_ANTWOORD_6 } from "./artikelen-extra-6";
 
 export const ARTIKELEN_EXTRA_5: Artikel[] = [
   {
@@ -1470,3 +1472,7 @@ export const KORT_ANTWOORD_5: Record<string, string> = {
   "klimop-op-dak-of-in-dakgoot": `Groeit klimop of wilde wingerd over je dakrand, dan vult hij de goot, zet hij de uitloop naar de regenpijp dicht en dringt hij onder de pannen boven de goot, die hij omhoog drukt. Ruk de ranken niet zelf van het dak, want dan komen de pannen mee. Laat de klimop aan de gevel terugsnoeien tot een flink stuk onder de goot, en laat de ranken onder de pannen en in de goot weghalen.`,
   "marter-onder-dakpannen": `Zwaar gestommel op zolder in de nacht, keutels op één vaste plek, een muffe lucht en isolatie of folie die kapot is getrokken, wijzen vaak op een steenmarter. Die komt via een boom, klimop of een regenpijp op het dak en kruipt onder de pannen door. De steenmarter is beschermd: vraag eerst advies aan een bedrijf in plaagdierbeheersing of je gemeente. Is hij weg, laat dan verschoven pannen en een losse nok herstellen.`,
 };
+
+// Artikelen en korte antwoorden uit artikelen-extra-6.ts (sinds 19-11-2026 ronde 4) erachter, zodat ze via artikelen-extra-4.ts in ARTIKELEN en KORT_ANTWOORD komen.
+ARTIKELEN_EXTRA_5.push(...ARTIKELEN_EXTRA_6.filter((x) => !ARTIKELEN_EXTRA_5.some((a) => a.slug === x.slug)));
+Object.assign(KORT_ANTWOORD_5, KORT_ANTWOORD_6);
