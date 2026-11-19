@@ -19,6 +19,7 @@
  * 18-11-2026 ronde 5: goot loopt over door een regenton
  * 19-11-2026 ronde 1: het dak van je bungalow lekt
  * 19-11-2026 ronde 1: vergaarbak bovenaan de regenpijp lekt of loopt over
+ * 19-11-2026 ronde 1: de dakdekker komt, wat regel je vooraf
  */
 import type { Artikel } from "./artikelen";
 
@@ -1286,6 +1287,44 @@ export const ARTIKELEN_EXTRA_5: Artikel[] = [
       { v: `Mijn vergaarbak loopt alleen over bij een stortbui. Is dat erg?`, a: `Bij een echte wolkbreuk kan een bak even over de rand gaan, en dat is niet meteen een probleem. Gebeurt het bij elke flinke bui, dan zit de opening naar de pijp vaak half dicht, of komt er meer water in dan de bak en de pijp kunnen hebben. Stuur me een kort filmpje tijdens een bui, dan zie ik wat er speelt.` },
     ],
   },
+  {
+    slug: `dakdekker-komt-wat-regel-je`,
+    datum: `2026-11-19`,
+    titel: `De dakdekker komt: wat regel je vooraf?`,
+    h1: `De dakdekker komt: wat je vooraf regelt, zodat het werk vlot en veilig gaat`,
+    metaTitle: `Dakdekker komt: wat regel je vooraf? | Spoed Dak Service`,
+    metaDescription: `Komt de dakdekker langs? Zo regel je vooraf een plek voor de ladder, maak je de zolder bereikbaar en weet je wat je klaarlegt. Een kort lijstje, zonder gedoe.`,
+    intro: `Staat er een afspraak voor je dak of je goot, dan scheelt het tijd als een paar dingen vooraf geregeld zijn. Dan kan ik meteen beginnen, en hoef je niet halverwege nog iets op te ruimen of aan de buren te vragen. Hieronder staat wat ik graag weet en wat je zelf kunt klaarzetten. Druppelt het nu binnen, dan hoef je niets voor te bereiden: vang het water op en kijk op de <a href="/spoed/">spoedpagina</a>.`,
+    secties: [
+      { kop: `Een plek voor de ladder`, tekst: [
+        `Ik zet mijn ladder tegen de gevel of op een plat dak, niet tegen de goot. Zeg vooraf waar dat kan: aan de voorkant op de stoep of de oprit, of achter in de tuin. Staat er onder die plek een auto, een fiets, plantenbakken of tuinmeubels, zet die dan een stukje opzij. Bij het werk kan er vuil of een stukje oude specie onder de dakrand naar beneden vallen.`,
+      ] },
+      { kop: `Kan ik er alleen via de buren bij?`, tekst: [
+        `Kom ik alleen via de tuin, het pad of het platte dak van de buren bij je goot of dak, vraag het je buren dan een paar dagen van tevoren. Laat ze weten wanneer ik kom en hoe lang het ongeveer duurt. Hoe het zit als ze niet willen, lees je in <a href="/kennisbank/dak-repareren-via-buren/">je dak laten repareren via de buren</a>.`,
+      ] },
+      { kop: `De zolder bereikbaar maken`, tekst: [
+        `Gaat het om een lek, dan wil ik vaak ook binnen kijken, op zolder of achter het knieschot boven de natte plek. Maak het zolderluik en de plek eromheen vrij, en schuif dozen en spullen bij de natte plek een stukje opzij. Een goede lamp op zolder helpt ook. Heb je geen zolder, dan is het genoeg als ik in de kamer bij de natte plek kan.`,
+      ] },
+      { kop: `Foto's en wat je hebt gezien`, tekst: [
+        `Heb je foto's van de natte plek, van je dak vanaf de straat of een filmpje van de goot tijdens een bui, stuur ze dan vooraf via WhatsApp of houd ze bij de hand. Schrijf op wanneer het nat werd en bij welk weer: bij elke bui, alleen bij harde wind of pas na dagen regen. Welke foto's het meest helpen, lees je in <a href="/kennisbank/foto-van-je-dak-maken/">foto's van je dak maken</a>.`,
+      ] },
+      { kop: `Thuis zijn of niet?`, tekst: [
+        `Moet ik binnen kijken, dan is het fijn als er iemand thuis is. Gaat het om een losse pan, een nokvorst of een goot waar ik van buiten bij kan, dan kan het vaak ook als je aan het werk bent, als we de prijs vooraf hebben afgesproken. Zeg dan waar de ladder kan staan en of het hek open is. Huisdieren houd je liever binnen of in een andere kamer, zeker als ik door de tuin moet.`,
+      ] },
+      { kop: `Het weer`, tekst: [
+        `Op een nat dak, bij harde wind of als er ijs of sneeuw ligt, is het niet veilig om op het dak te werken. Dan bel of app ik je om een andere dag af te spreken. Werk met lood, kit, dakmortel of solderen doe ik op een droge dag, en sommige klussen ook alleen als het niet vriest. Lekt het intussen binnen, dan zorg ik eerst dat het droog blijft.`,
+      ] },
+      { kop: `Na afloop`, tekst: [
+        `Ik ruim op wat er bij het werk vrijkomt, zoals blad en vuil uit de goot of oude pannen. Als je wilt, krijg je foto's van wat ik heb gedaan, en je krijgt een rekening met wat er is gedaan, die je zo nodig ook naar je verzekeraar kunt sturen. Een kleine klus betaal je als hij klaar is, via iDEAL. Bij groter werk spreken we vooraf af hoe en wanneer je betaalt.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: wat ik allemaal doe`, href: `/diensten/` },
+    faq: [
+      { v: `Moet ik zelf een ladder of gereedschap klaarzetten?`, a: `Nee. Ik neem mijn eigen ladder en gereedschap mee. Wat wel helpt, is een vrije plek om de ladder neer te zetten en, bij een lek, een vrije weg naar de zolder.` },
+      { v: `Kan ik erbij blijven als je op het dak werkt?`, a: `Kijken mag, maar blijf niet onder de dakrand staan waar ik werk, en klim niet zelf mee de ladder op. Wil je zien wat ik heb gedaan, dan maak ik er een foto van.` },
+      { v: `Moet ik mijn buren laten weten dat je komt?`, a: `Dat is netjes, zeker in een rij huizen of als ik via hun kant moet. Bij een goot of een nok die doorloopt naar de buren kijk ik ook even naar hun stuk, en dan is het fijn als ze het weten.` },
+    ],
+  },
 ];
 
 // Kort antwoord bovenaan een artikel. Geen bedragen.
@@ -1321,4 +1360,5 @@ export const KORT_ANTWOORD_5: Record<string, string> = {
   "goot-loopt-over-door-regenton": `Loopt je dakgoot over sinds er een regenton aan de regenpijp zit, dan zit het meestal in het tussenstuk dat het water naar de ton stuurt: het zeefje zit dicht met blad of naalden, de ton heeft geen goede overloop, of er zit ijs in. Maak het zeefje schoon, zet het tussenstuk voor de winter in de winterstand of laat de ton leeglopen, en kijk of de goot dan nog overloopt.`,
   "bungalow-dak-lekt": `Bij een bungalow zit er vaak geen zolder tussen het dak en je kamers, dus een lek zie je meteen aan het plafond, en vaak niet recht onder de plek waar het water binnenkomt. Bij een plat dak zit het meestal bij een volle afvoer, de rand, een lichtkoepel of een naad. Bij een flauw pannendak komt de regen bij wind onder de pannen door, of lekt het bij het lood rond de schoorsteen of een kilgoot. Zet een emmer neer en ga niet zelf het dak op.`,
   "vergaarbak-lekt": `Een vergaarbak is de bak bovenaan de regenpijp waar de goot of een spuwer in uitkomt. Loopt hij over, dan zit de opening naar de pijp meestal dicht met blad, mos of zand. Druppelt het onder de bak terwijl hij niet overloopt, dan lekt een naad of de bodem. Een volle bak maak je leeg, en een lekke naad in zink kan vaak opnieuw gesoldeerd worden. Zet geen ladder tegen de gevel om zelf te kijken.`,
+  "dakdekker-komt-wat-regel-je": `Komt de dakdekker, regel dan vooraf een plek voor de ladder en zet auto's, fietsen en tuinmeubels onder de dakrand opzij. Maak het zolderluik en de plek boven de natte plek vrij, houd foto's van het lek of je dak bij de hand en laat je buren het weten als het werk via hun kant moet. Bij regen, harde wind, ijs of sneeuw wordt het werk op het dak verzet naar een veilige dag.`,
 };
