@@ -260,6 +260,8 @@ const schema = [
     mainEntity: faq.map((f) => ({ "@type": "Question", name: f.v, acceptedAnswer: { "@type": "Answer", text: f.a } })),
   },
 ];
+// 19-11-2026 ronde 5: spoedklussen per plaats ook in de gegevens dag en nacht bereikbaar, net als op /spoed/ en de dienstpagina's. In de tekst staat het al bij 'In het kort'.
+if (["daklekkage", "stormschade", "dakreparatie"].includes(d.slug)) (schema[0] as Record<string, unknown>).hoursAvailable = { "@type": "OpeningHoursSpecification", dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"], opens: "00:00", closes: "23:59" };
 ---
 
 <Base
