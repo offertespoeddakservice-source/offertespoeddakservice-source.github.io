@@ -20,6 +20,7 @@
  * 19-11-2026 ronde 1: het dak van je bungalow lekt
  * 19-11-2026 ronde 1: vergaarbak bovenaan de regenpijp lekt of loopt over
  * 19-11-2026 ronde 1: de dakdekker komt, wat regel je vooraf
+ * 19-11-2026 ronde 3: dak nakijken na een schoorsteenbrand
  */
 import type { Artikel } from "./artikelen";
 
@@ -1325,6 +1326,41 @@ export const ARTIKELEN_EXTRA_5: Artikel[] = [
       { v: `Moet ik mijn buren laten weten dat je komt?`, a: `Dat is netjes, zeker in een rij huizen of als ik via hun kant moet. Bij een goot of een nok die doorloopt naar de buren kijk ik ook even naar hun stuk, en dan is het fijn als ze het weten.` },
     ],
   },
+  {
+    slug: `dak-nakijken-na-schoorsteenbrand`,
+    datum: `2026-11-19`,
+    titel: `Schoorsteenbrand gehad: wat aan je dak nakijken?`,
+    h1: `Je hebt een schoorsteenbrand gehad: wat je aan je dak en schoorsteen laat nakijken`,
+    metaTitle: `Schoorsteenbrand gehad? Dit kijk je na | Spoed Dak Service`,
+    metaDescription: `Na een schoorsteenbrand kunnen het kanaal, het lood en de pannen rond de schoorsteen beschadigd zijn. Zo weet je wie wat nakijkt voordat je weer stookt.`,
+    intro: `In het stookseizoen gebeurt het vaker: het roet in het kanaal van je houtkachel of open haard vat vlam. Je hoort een harde, brullende toon, er komen vonken of vlammen uit de schoorsteen en de muur rond het kanaal wordt heet. Is het vuur uit, dan wil je weten wat er kapot kan zijn. Hieronder lees je wat je meteen doet, wie wat nakijkt en waar ik op het dak naar kijk.`,
+    secties: [
+      { kop: `Brandt het nog? Bel 112`, tekst: [
+        `Denk je dat je schoorsteen in brand staat, bel dan meteen 112 en ga met iedereen naar buiten. Gooi geen water in de kachel of de haard: het water wordt in één keer stoom en kan het kanaal of de kachel laten barsten. Sluit als dat veilig kan de luchttoevoer van de kachel en doe de deur van de kachel dicht. Ga niet zelf het dak op, ook niet als het vuur uit lijkt.`,
+      ] },
+      { kop: `Na de brand: niet stoken tot het kanaal is nagekeken`, tekst: [
+        `Bij een schoorsteenbrand wordt het kanaal heel heet. Daardoor kunnen er scheurtjes komen in het kanaal, in de voegen of in de binnenbuis, en die zie je van buiten niet. Stook daarom niet meer op die kachel of haard tot een erkende schoorsteenveger het kanaal heeft geveegd en nagekeken. Dat werk doe ik zelf niet. De schoorsteenveger zegt je of het kanaal weer veilig is, of dat er iets aan moet gebeuren.`,
+      ] },
+      { kop: `Wat er op het dak beschadigd kan zijn`, tekst: [
+        `Het lood of de loodvervanger rond de voet van de schoorsteen. Door de hitte kan de kit in de voeg loslaten, en sommige soorten loodvervanger kunnen zacht worden of gaan bollen. Dan kan er bij de volgende bui water achter lopen.`,
+        `De pannen rond de schoorsteen. Vonken en hete stukjes roet vallen op de pannen eromheen. Meestal kunnen die dat hebben, maar is er bij het blussen op het dak gelopen, dan kan er een pan gebroken of verschoven zijn.`,
+        `De kop en de stenen van de schoorsteen. Een scheur in de kop, de afdekplaat of de voegen laat later regen in de stenen trekken. Aan de stenen en de voegen werk ik niet, daarvoor heb je een metselaar nodig. Ik zeg je wel eerlijk wat ik zie.`,
+        `Het hout op zolder rond het kanaal. Kijk met een zaklamp of het hout, de folie of de isolatie vlak bij het kanaal verkleurd of verschroeid is, en of je nog een brandlucht ruikt. Zie je dat, laat het dan meteen nakijken.`,
+      ] },
+      { kop: `En je verzekering?`, tekst: [
+        `Maak foto's van de schade voordat er iets wordt opgeruimd of gerepareerd, binnen en, als het veilig kan, van de schoorsteen vanaf de straat. Bel je verzekeraar en vraag wat ze nodig hebben. Schade door brand valt vaak onder je opstalverzekering, maar wat er vergoed wordt, verschilt per polis.`,
+      ] },
+      { kop: `Hoe ik het aanpak`, tekst: [
+        `Heeft de schoorsteenveger het kanaal nagekeken, dan kijk ik op het dak naar het lood of de loodvervanger rond de voet, naar de pannen eromheen en naar de nok als die vlakbij ligt. Zit het lood los of is het beschadigd, dan zet ik het weer vast of vervang ik het, meestal met loodvervanger en op wens met echt lood. Een gebroken of verschoven pan vervang ik of leg ik terug. Ik maak foto's van wat ik aantref en van wat ik heb gedaan, met een korte omschrijving die je naar je verzekeraar kunt sturen. Stuur eerst een foto van de schoorsteen vanaf de straat via WhatsApp, dan hoor je vooraf wat het kost. Zie <a href="/diensten/lood-vervangen/">lood vervangen</a> en <a href="/kennisbank/lekkage-bij-schoorsteen/">lekkage bij de schoorsteen</a>.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: lood vervangen bij de schoorsteen`, href: `/diensten/lood-vervangen/` },
+    faq: [
+      { v: `Hoe weet ik of het een schoorsteenbrand was?`, a: `Vaak hoor je een harde, brullende of zuigende toon in de kachel of het kanaal, en zie je vonken, vlammen of dikke rook uit de schoorsteen komen. De muur rond het kanaal kan heet worden. Achteraf vind je soms grote zwarte schilfers onder in de haard, op het dak of in de goot. Twijfel je, stook dan niet en laat het kanaal eerst nakijken door een schoorsteenveger.` },
+      { v: `Lekt mijn dak nu door de brand?`, a: `Niet vanzelf. Vaak blijft het droog. Maar zit het lood rond de schoorsteen los, is er een pan gebroken of zit er een scheur in de kop, dan kan er bij de volgende bui water binnenkomen. Kijk na de eerste flinke bui op zolder langs de schoorsteen of het droog blijft, en stuur me een foto als je een natte plek ziet.` },
+      { v: `Wie bel ik eerst na een schoorsteenbrand?`, a: `Brandt het, bel dan 112. Is het vuur uit, bel dan je verzekeraar en een erkende schoorsteenveger voor het kanaal. Voor het lood en de pannen rond de schoorsteen op het dak kun je mij bellen of appen. Stuur dan een foto van de schoorsteen vanaf de straat mee.` },
+    ],
+  },
 ];
 
 // Kort antwoord bovenaan een artikel. Geen bedragen.
@@ -1361,4 +1397,5 @@ export const KORT_ANTWOORD_5: Record<string, string> = {
   "bungalow-dak-lekt": `Bij een bungalow zit er vaak geen zolder tussen het dak en je kamers, dus een lek zie je meteen aan het plafond, en vaak niet recht onder de plek waar het water binnenkomt. Bij een plat dak zit het meestal bij een volle afvoer, de rand, een lichtkoepel of een naad. Bij een flauw pannendak komt de regen bij wind onder de pannen door, of lekt het bij het lood rond de schoorsteen of een kilgoot. Zet een emmer neer en ga niet zelf het dak op.`,
   "vergaarbak-lekt": `Een vergaarbak is de bak bovenaan de regenpijp waar de goot of een spuwer in uitkomt. Loopt hij over, dan zit de opening naar de pijp meestal dicht met blad, mos of zand. Druppelt het onder de bak terwijl hij niet overloopt, dan lekt een naad of de bodem. Een volle bak maak je leeg, en een lekke naad in zink kan vaak opnieuw gesoldeerd worden. Zet geen ladder tegen de gevel om zelf te kijken.`,
   "dakdekker-komt-wat-regel-je": `Komt de dakdekker, regel dan vooraf een plek voor de ladder en zet auto's, fietsen en tuinmeubels onder de dakrand opzij. Maak het zolderluik en de plek boven de natte plek vrij, houd foto's van het lek of je dak bij de hand en laat je buren het weten als het werk via hun kant moet. Bij regen, harde wind, ijs of sneeuw wordt het werk op het dak verzet naar een veilige dag.`,
+  "dak-nakijken-na-schoorsteenbrand": `Na een schoorsteenbrand stook je niet meer tot een erkende schoorsteenveger het kanaal heeft nagekeken, want door de hitte kunnen er scheuren komen die je niet ziet. Maak foto's voor je verzekeraar. Op het dak kunnen het lood of de loodvervanger rond de voet, de pannen eromheen en de kop van de schoorsteen beschadigd zijn. Brandt het nog, bel dan 112 en gooi geen water in de kachel.`,
 };
