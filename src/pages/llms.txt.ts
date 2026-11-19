@@ -1,4 +1,4 @@
-// llms.txt (03-11-2026, bijgewerkt 04-11-2026, 07-11-2026: alle artikelen erbij, 10-11-2026: bereikbaar en korte namen, 11-11-2026: korte antwoorden, 12-11-2026: zonder 'doet het werk zelf', 12-11-2026 ronde 5: Gelderland in Waar, 13-11-2026: blok Ook verder weg, 14-11-2026: blok Voor wie, 16-11-2026: dorpen gelijk aan de pagina's, 17-11-2026: link naar llms-full.txt, 17-11-2026 ronde 5: niet thuis in Lekt het nu?, 18-11-2026: blok Komt het water niet van het dak?, 18-11-2026 ronde 4: betalen en veelgelezen bijgewerkt): korte, feitelijke uitleg voor AI-zoekmachines (ChatGPT, Gemini, Perplexity, Copilot).
+// llms.txt (03-11-2026, bijgewerkt 04-11-2026, 07-11-2026: alle artikelen erbij, 10-11-2026: bereikbaar en korte namen, 11-11-2026: korte antwoorden, 12-11-2026: zonder 'doet het werk zelf', 12-11-2026 ronde 5: Gelderland in Waar, 13-11-2026: blok Ook verder weg, 14-11-2026: blok Voor wie, 16-11-2026: dorpen gelijk aan de pagina's, 17-11-2026: link naar llms-full.txt, 17-11-2026 ronde 5: niet thuis in Lekt het nu?, 18-11-2026: blok Komt het water niet van het dak?, 18-11-2026 ronde 4: betalen en veelgelezen bijgewerkt, 19-11-2026 ronde 4: welke vakman en foto's van eigen klussen): korte, feitelijke uitleg voor AI-zoekmachines (ChatGPT, Gemini, Perplexity, Copilot).
 // Plaatsen komen vanzelf uit plaatsen.ts en diensten uit diensten.ts (verborgen diensten, die Rens niet doet, vallen weg). Geen prijzen, geen beloftes.
 import type { APIRoute } from "astro";
 import { SITE } from "../site.config.ts";
@@ -71,6 +71,7 @@ export const GET: APIRoute = () => {
     "- Hoe betaal je? Een kleine klus, zoals een paar losse pannen of een goot leegmaken, betaal je als hij klaar is, via iDEAL. Bij groter werk wordt vooraf afgesproken hoe en wanneer je betaalt.",
     `- Waar staan de richtprijzen? Op ${u}/prijzen/.`,
     "- Wat doet hij niet? Geen dakisolatie, geen werk aan de stenen van een gevel of schoorsteen, en niet aan zonnepanelen zelf.",
+    ...(ARTIKELEN.some((a) => a.slug === "welke-vakman-voor-je-dak" && !a.verborgen) ? [`- Welke vakman bel je? Voor de pannen, de nok, het lood, de dakgoten, een plat dak en de kraag rond een pijp door het dak de dakdekker. Water dat ook na droge dagen druppelt, komt meestal uit een leiding: dan een loodgieter. Cv-ketel, warmtepomp, zonnepanelen en elektra: de installateur. Het schoorsteenkanaal: de schoorsteenveger. Stenen en voegen: een metselaar. Uitleg: ${u}/kennisbank/welke-vakman-voor-je-dak/`] : []),
     "",
     "## Lekt het nu?",
     "- Spoed is het als het binnen druppelt, als er een pan of nokvorst op straat ligt of als er een open plek in het dak zit. Een oude, droge kring op het plafond, of een scheve pan terwijl het binnen droog blijft, kan meestal een paar dagen wachten.",
@@ -163,6 +164,7 @@ export const GET: APIRoute = () => {
     `- [Kennisbank met uitleg over daklekkage, goten en pannen](${u}/kennisbank/)`,
     `- [Korte antwoorden uit de kennisbank](${u}/llms-full.txt)`,
     `- [Over ${SITE.eigenaar}](${u}/over/)`,
+    `- [Foto's van eigen klussen](${u}/mijn-werk/)`,
     `- [Contact](${u}/contact/)`,
     "",
   ];
