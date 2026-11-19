@@ -179,6 +179,7 @@ export const ARTIKELEN_EXTRA_3: Artikel[] = [
       { v: `Kan ik de vlek gewoon overschilderen?`, a: `Pas als de oorzaak weg is en de muur droog is. Verf je eroverheen terwijl er nog vocht in zit, dan komt de vlek terug of gaat de verf bladderen.` },
       { v: `Is een natte schoorsteen binnen spoed?`, a: `Meestal niet, tenzij het druppelt of de plek bij een stopcontact of lamp zit. Zet dan de groep uit en bel of app me met een foto. Een vochtplek die langzaam groter wordt, laat je wel op korte termijn nakijken, want natte stenen en balken worden er niet beter van.` },
       { v: `Mijn buren hebben dezelfde schoorsteen. Kan het van hun kant komen?`, a: `Dat kan. Staat de schoorsteen op de muur tussen jullie huizen, dan kan het lood of het kanaal aan hun kant de oorzaak zijn. Lees daarover lekkage bij een gedeelde schoorsteen in de kennisbank.` },
+      { v: `Na een schoorsteenbrand zie ik nieuwe vlekken op de schoorsteen in mijn kamer. Komt dat door de brand?`, a: `Dat kan. Door de hitte kunnen er scheurtjes komen in het kanaal of in de voegen, en daardoor komen roet, rook of vocht sneller door de muur heen. Stook niet tot een schoorsteenveger het kanaal heeft nagekeken. Worden de vlekken groter na regen, dan kan er ook water van buiten bij komen, bijvoorbeeld langs het lood rond de voet of door een scheur in de kop. Het lood en de pannen kijk ik na, aan de stenen en de voegen werk ik niet. Maak foto's van de vlekken voor je verzekeraar. Meer lees je in het artikel over je dak nakijken na een schoorsteenbrand.` },
     ],
   },
   {
