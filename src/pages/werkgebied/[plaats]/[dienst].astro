@@ -97,8 +97,11 @@ if (d.slug === "daklekkage" && p.slug === "veghel") {
   metaTitelPerDienst.daklekkage = "Daklekkage Veghel: lek opsporen en repareren";
   omschrijvingPerDienst.daklekkage = "Daklekkage in Veghel? Ik zoek waar het water binnenkomt, bijvoorbeeld onder een dakraam of bij de schoorsteen, en repareer alleen wat nodig is. Bel of app Rens.";
 }
-// Daklekkage in Tilburg (gemaakt 24-10), Eindhoven en Waalwijk (gemaakt 25-10): de 14 dagen zijn om, dus ook hier het zoekwoord vooraan. Eigen omschrijving zonder 'vaste prijs vooraf'. Breda (gemaakt 27-10) sinds 10-11 ook. Sinds 12-11-2026 ook Vught, Oisterwijk, Boxtel, Vlijmen en Schijndel (plek 6 tot 17, nog 0 kliks): eigen omschrijving, titel ongewijzigd. Sinds 13-11-2026 ook Helmond (eigen omschrijving). Sinds 14-11-2026 ook Rosmalen, Uden, Drunen, Heusden, Berlicum en Sint-Michielsgestel (eigen omschrijving, titel ongewijzigd).
+// Daklekkage in Tilburg (gemaakt 24-10), Eindhoven en Waalwijk (gemaakt 25-10): de 14 dagen zijn om, dus ook hier het zoekwoord vooraan. Eigen omschrijving zonder 'vaste prijs vooraf'. Breda (gemaakt 27-10) sinds 10-11 ook. Sinds 12-11-2026 ook Vught, Oisterwijk, Boxtel, Vlijmen en Schijndel (plek 6 tot 17, nog 0 kliks): eigen omschrijving, titel ongewijzigd. Sinds 13-11-2026 ook Helmond (eigen omschrijving). Sinds 14-11-2026 ook Rosmalen, Uden, Drunen, Heusden, Berlicum en Sint-Michielsgestel (eigen omschrijving, titel ongewijzigd). Sinds 20-11-2026 ook Den Bosch, Oss en Wijchen (hadden nog de standaardzin).
 const LEK_OMSCHRIJVING_NIEUW: Record<string, string> = {
+  "den-bosch": "Daklekkage in Den Bosch, Empel of Engelen? In de binnenstad, de Kruiskamp of Maaspoort zoek ik waar het water binnenkomt en maak ik het dicht. App Rens.",
+  oss: "Daklekkage in Oss, Berghem of Ussen? Bij het lood rond de schoorsteen, onder een dakraam of bij een regenpijp in de muur zoek ik waar het binnenkomt.",
+  wijchen: "Daklekkage in Wijchen, Alverna of Batenburg? Onder een dakraam, bij het platte dak van de aanbouw of de schoorsteen zoek ik waar het binnenkomt. App Rens.",
   tilburg: "Daklekkage in Tilburg? Ik zoek waar het water binnenkomt, bijvoorbeeld bij een dak uit de jaren '80 of '90 in de Reeshof, en repareer alleen wat nodig is. Bel of app Rens.",
   eindhoven: "Daklekkage in Eindhoven? Ik zoek waar het water binnenkomt, bijvoorbeeld bij de zonnepanelen of onder de dakrand, en repareer alleen wat nodig is. Stuur een foto of app Rens.",
   waalwijk: "Daklekkage in Waalwijk, Sprang-Capelle of Waspik? Ik zoek waar het water binnenkomt, bijvoorbeeld bij een oude schoorsteen of een schuur met golfplaten, en repareer alleen wat nodig is. Bel of app Rens.",
@@ -122,7 +125,9 @@ if (d.slug === "daklekkage" && LEK_OMSCHRIJVING_NIEUW[p.slug]) {
 }
 // 17-11-2026 ronde 5: daklekkage Vught (186 vertoningen op plek 10,5) en Oisterwijk (84 op plek 9,7), allebei 0 kliks. Titel ongewijzigd sinds eind oktober. Zoekwoord vooraan, daarna wat mensen willen weten. Kop (h1) en omschrijving blijven zoals ze zijn.
 // 18-11-2026 ronde 5: ook Boxtel ('daklekkage boxtel' 91 vertoningen op plek 15), Schijndel (46 op plek 12,7) en Vlijmen ('lekkage vlijmen' 43 op plek 6,6), alle drie 0 kliks en de titel sinds oktober ongewijzigd. Kop (h1) en omschrijving blijven zoals ze zijn.
+// 20-11-2026 ronde 1: ook Oss (daklekkage oss 111 vertoningen op plek 20,9, 0 kliks, titel sinds oktober ongewijzigd).
 const LEK_TITEL_NIEUW: Record<string, string> = {
+  oss: "Daklekkage Oss? Vaak dezelfde dag langs",
   vught: "Daklekkage Vught? Vaak dezelfde dag langs",
   oisterwijk: "Daklekkage Oisterwijk? Vaak dezelfde dag langs",
   boxtel: "Daklekkage Boxtel? Vaak dezelfde dag langs",
@@ -136,6 +141,26 @@ if (d.slug === "daklekkage" && LEK_TITEL_NIEUW[p.slug]) {
 const nieuweStormPaginas: string[] = [];
 if (d.slug === "stormschade" && !nieuweStormPaginas.includes(p.slug)) {
   metaTitelPerDienst.stormschade = `Stormschade dak ${p.naam}: afdekken en herstellen`;
+}
+// 20-11-2026 ronde 1: elke stormpagina een eigen omschrijving in plaats van dezelfde zin met alleen een andere plaatsnaam. Titel en kop blijven zoals ze zijn.
+const STORM_OMSCHRIJVING: Record<string, string> = {
+  oss: "Stormschade in Oss of Berghem? Een losgewaaide loodslab, een scheve kap op de schoorsteen of losse pannen: eerst afdekken, daarna netjes herstellen.",
+  "den-bosch": "Stormschade in Den Bosch? Losse pannen langs de topgevel in de binnenstad of een verschoven nokvorst in Maaspoort: ik dek eerst af en herstel het daarna.",
+  rosmalen: "Stormschade in Rosmalen? Losse pannen langs de rand bij de Maliskamp of een gebroken pan onder de zonnepanelen: eerst dicht, dan netjes herstellen.",
+  vught: "Stormschade in Vught? Een tak op je dak, een goot uit de beugels of losse pannen onderaan het dak: ik dek eerst af en maak het daarna netjes.",
+  berlicum: "Stormschade in Berlicum of Middelrode? Opgetilde pannen aan de kant van het open land, een losse nok of een carportdak: eerst afdekken, dan herstellen.",
+  vlijmen: "Stormschade in Vlijmen? Een verschoven nokvorst, of een losgewaaide rand of lichtkoepel op het platte dak van de berging: eerst dicht, dan herstellen.",
+  drunen: "Stormschade in Drunen of Elshout? Takken van de bomen bij de Duinen op je dak, een gebroken pan of los lood: ik dek eerst af en herstel het daarna.",
+  boxtel: "Stormschade in Boxtel, Liempde of Esch? Een scheve nokvorst bij de gevel of losse pannen langs je hoekhuis: eerst afdekken, daarna netjes herstellen.",
+  schijndel: "Stormschade in Schijndel of Wijbosch? Een omgewaaide antenne, losse nokvorsten of het dak van je schuur: ik maak het eerst dicht en herstel het daarna.",
+  heusden: "Stormschade in de vesting Heusden, Oudheusden of Herpt? Eerst dek ik af, daarna herstel ik met pannen en lood die passen bij wat er al ligt.",
+  "sint-michielsgestel": "Stormschade in Sint-Michielsgestel of Den Dungen? Daglicht tussen de pannen op zolder of een losse nok: eerst afdekken, dan netjes herstellen.",
+  oisterwijk: "Stormschade in Oisterwijk of Moergestel? Een tak op je dak, een losgestoten nokvorst of een goot vol takken: ik dek eerst af en herstel het daarna.",
+  waalwijk: "Stormschade in Waalwijk of Sprang-Capelle? Een opgewaaide rand van het platte dak achter je huis of losse pannen: eerst dicht, dan netjes herstellen.",
+  veghel: "Stormschade in Veghel of de kerkdorpen? Losse gevelpannen, een scheve nok of de kap op een ventilatiepijp: eerst afdekken, daarna netjes herstellen.",
+};
+if (d.slug === "stormschade" && STORM_OMSCHRIJVING[p.slug]) {
+  omschrijvingPerDienst.stormschade = STORM_OMSCHRIJVING[p.slug];
 }
 // Dakreparatie in Oss en Waalwijk: gemaakt voor 29-10, titel nooit aangepast ('dakreparatie oss' 82 vertoningen op plek 83, 'dakpannen waalwijk' 44 op plek 71). Titel met dakpannen en nok, eigen omschrijving zonder 'vaste prijs vooraf' (12-11-2026). De andere dakreparatiepagina's meten we eerst. Sinds 14-11-2026 ook Veghel, Vught en Rosmalen (gemaakt voor 1-11, titel nooit aangepast). Sinds 16-11-2026 ook Den Bosch (titel nooit aangepast, 87 vertoningen op plek 42,6). Sinds 17-11-2026 ook Oisterwijk (titel nooit aangepast, 124 vertoningen op plek 45). Sinds 17-11-2026 (ronde 4) ook Boxtel (titel nooit aangepast). Sinds 18-11-2026 (ronde 5) ook Vlijmen (titel nooit aangepast, 102 vertoningen op plek 49).
 const REPARATIE_NIEUW: Record<string, { titel: string; omschrijving: string }> = {
