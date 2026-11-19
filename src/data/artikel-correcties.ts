@@ -10,8 +10,10 @@
 // 17-11-2026: titel voor Google van dakleer repareren ('dakleer reparatie' 172 vertoningen op plek 51) en gedeelde schoorsteen (361 vertoningen, 0 kliks).
 // 18-11-2026: titel voor Google van dakgoot lekt met oorzaak en wat nu (1219 vertoningen, 1 klik).
 // 19-11-2026 ronde 4: titel voor Google van druppelen horen (plek 5,9, 0 kliks) en lichtkoepel lekt (plek 23,8, 0 kliks).
+// 19-11-2026 ronde 5: titel voor Google van wat kost dakgoot schoonmaken met de vanaf-prijs voor één goot uit prijzen.ts (1476 vertoningen op plek 79, 0 kliks). Niet 'per goot': de prijs geldt voor één goot, voor beide goten hoor je hem vooraf.
 // Kennisbank [slug].astro legt hem over het artikel heen: alleen de velden die hier staan, veranderen (ook de titel voor Google).
 import type { Artikel } from "./artikelen";
+import { prijsVan } from "./prijzen";
 
 export const ARTIKEL_CORRECTIES: Record<string, Partial<Pick<Artikel, "secties" | "faq" | "dienst" | "metaTitle" | "metaDescription">>> = {
   "mos-op-dak-verwijderen": {
@@ -94,4 +96,5 @@ export const ARTIKEL_CORRECTIES: Record<string, Partial<Pick<Artikel, "secties" 
   "dakgoot-lekt": { metaTitle: "Dakgoot lekt: oorzaak vinden en wat nu? | Spoed Dak Service" },
   "druppelen-horen-plafond": { metaTitle: "Druppelen in plafond, maar geen vlek? | Spoed Dak Service" },
   "lichtkoepel-lekt": { metaTitle: "Lichtkoepel lekt: rand of condens? | Spoed Dak Service" },
+  "wat-kost-dakgoot-schoonmaken": { metaTitle: `Dakgoot schoonmaken kosten: ${prijsVan("goot_reinigen")} voor één goot` },
 };
