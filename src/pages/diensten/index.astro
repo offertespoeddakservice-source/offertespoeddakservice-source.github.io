@@ -18,6 +18,8 @@ const zakgootBestaat = ARTIKELEN.some((a) => a.slug === "zakgoot-lekt" && !a.ver
 const brandBestaat = ARTIKELEN.some((a) => a.slug === "dak-nakijken-na-schoorsteenbrand" && !a.verborgen);
 const klimopBestaat = ARTIKELEN.some((a) => a.slug === "klimop-op-dak-of-in-dakgoot" && !a.verborgen);
 const marterBestaat = ARTIKELEN.some((a) => a.slug === "marter-onder-dakpannen" && !a.verborgen);
+// 19-11-2026 ronde 4: zin naar de uitleg over welke vakman je belt, alleen als dat artikel bestaat.
+const vakmanBestaat = ARTIKELEN.some((a) => a.slug === "welke-vakman-voor-je-dak" && !a.verborgen);
 // Dakreparatie per plaats: alle plaatsen met een eigen pagina, zodat nieuwe pagina's vanzelf meekomen.
 const dakrepPlaatsen = MATRIX.filter((c) => c.dienst === "dakreparatie").map((c) => getPlaats(c.plaats)).filter((p) => p) as NonNullable<ReturnType<typeof getPlaats>>[];
 // Dakgoot schoonmaken en dakgoot repareren per plaats: komt vanzelf uit de lijst met pagina's. Den Bosch, Vught en Veghel staan voor het repareren al in de zin hierboven.
@@ -119,6 +121,7 @@ const faqSchema = { "@context": "https://schema.org", "@type": "FAQPage", mainEn
         Geen probleem. Bel of stuur een foto via WhatsApp,
         dan zeg ik eerlijk of ik je kan helpen en wat het ongeveer kost. Een offerte is gratis.
       </p>
+      {vakmanBestaat && <p style="margin:0 auto 22px; color:#c2d2e3;">Twijfel je of je klus bij een dakdekker hoort, of eerder bij een loodgieter, installateur of metselaar? Lees dan <a href="/kennisbank/welke-vakman-voor-je-dak/" style="color:#ffb486;">wie je belt voor welk werk aan je dak</a>.</p>}
       <div class="btn-row" style="justify-content:center;">
         <a class="btn btn--wa" href={waHref("Hallo, ik heb een vraag over mijn dak.")}>WhatsApp Rens</a>
         <a class="btn btn--primary" href={telHref}>Bel {SITE.telefoonWeergave}</a>
