@@ -80,6 +80,13 @@ const WONING_ARTIKEL: Record<string, { slug: string; zin: string; anker: string 
 };
 const woning = WONING_ARTIKEL[p.slug];
 const woningArtikel = woning ? ARTIKELEN.find((a) => a.slug === woning.slug && !a.verborgen) : undefined;
+// 19-11-2026 ronde 5: een gewone zin naar de uitleg per bouwperiode en soort dak die op de plaatspagina's nog niet gelinkt is, alleen artikelen die bestaan en niet al in de zin van WONING_ARTIKEL staan.
+const BOUWJAAR_LINKS = [
+  { slug: "dak-jaren-50-huis-lekt", anker: "een huis uit de jaren '50" },
+  { slug: "dak-jaren-90-huis-lekt", anker: "een huis uit de jaren '80 of '90" },
+  { slug: "bungalow-dak-lekt", anker: "een bungalow zonder zolder" },
+  { slug: "mansardedak-lekt", anker: "een mansardedak" },
+].filter((l) => l.slug !== woning?.slug && ARTIKELEN.some((a) => a.slug === l.slug && !a.verborgen));
 // Namen voor de pagina's per plaats en klus, zoals mensen zoeken (dakgoot repareren, niet alleen vervangen). Ook gebruikt in de gegevens voor Google en AI.
 const KLUS_NAAM: Record<string, string> = { daklekkage: "Daklekkage", "dakgoot-vervangen": "Dakgoot repareren of vervangen", "goten-reinigen": "Dakgoot schoonmaken", stormschade: "Stormschade", dakreparatie: "Dakreparatie", dakrenovatie: "Dakrenovatie" };
 const klusNaam = (d: { slug: string; titel: string }) => KLUS_NAAM[d.slug] ?? d.titel;
@@ -175,6 +182,9 @@ const schema = [
       )}
       {woning && woningArtikel && (
         <p>{woning.zin} <a href={`/kennisbank/${woningArtikel.slug}/`}>{woning.anker}</a>.</p>
+      )}
+      {BOUWJAAR_LINKS.length > 0 && (
+        <p>Waar een dak lekt, hangt ook af van hoe oud je huis is en wat voor dak erop ligt. Lees ook over {BOUWJAAR_LINKS.map((l, i) => (<>{i > 0 && (i === BOUWJAAR_LINKS.length - 1 ? " en " : ", ")}<a href={`/kennisbank/${l.slug}/`}>{l.anker}</a></>))}.</p>
       )}
       <h3>Lekt het nu?</h3>
       <p>
