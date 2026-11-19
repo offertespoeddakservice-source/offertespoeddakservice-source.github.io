@@ -21,6 +21,7 @@
  * 19-11-2026 ronde 1: vergaarbak bovenaan de regenpijp lekt of loopt over
  * 19-11-2026 ronde 1: de dakdekker komt, wat regel je vooraf
  * 19-11-2026 ronde 3: dak nakijken na een schoorsteenbrand
+ * 19-11-2026 ronde 3: klimop op je dak of in je dakgoot
  */
 import type { Artikel } from "./artikelen";
 
@@ -1361,6 +1362,40 @@ export const ARTIKELEN_EXTRA_5: Artikel[] = [
       { v: `Wie bel ik eerst na een schoorsteenbrand?`, a: `Brandt het, bel dan 112. Is het vuur uit, bel dan je verzekeraar en een erkende schoorsteenveger voor het kanaal. Voor het lood en de pannen rond de schoorsteen op het dak kun je mij bellen of appen. Stuur dan een foto van de schoorsteen vanaf de straat mee.` },
     ],
   },
+  {
+    slug: `klimop-op-dak-of-in-dakgoot`,
+    datum: `2026-11-19`,
+    titel: `Klimop op je dak of in je dakgoot?`,
+    h1: `Klimop of wingerd groeit over je dakrand: wat het met je pannen en je goot doet`,
+    metaTitle: `Klimop op je dak of in je dakgoot? | Spoed Dak Service`,
+    metaDescription: `Groeit klimop of wilde wingerd over je dakrand, in je goot of onder de pannen? Zo zie je wat het kapotmaakt, wat je zelf doet en wie wat weghaalt.`,
+    intro: `Klimop en wilde wingerd tegen de gevel zien er mooi uit, maar ze groeien door tot ze ergens houvast vinden. Bereiken ze de dakrand, dan gaan ze de goot in, onder de onderste pannen door en soms tot op zolder. Hieronder lees je wat dat met je dak en je goot doet, hoe je het vanaf de straat ziet en wie wat aanpakt.`,
+    secties: [
+      { kop: `Wat klimop op je dak doet`, tekst: [
+        `In de goot. Blad, ranken en wortels vullen de goot en zetten de uitloop naar de regenpijp dicht. Dan loopt de goot bij een bui over, langs je gevel of achter de goot naar binnen. Een volle goot met natte ranken is ook zwaar, en dan kan hij gaan doorhangen.`,
+        `Onder de pannen. Een rank zoekt een donker, beschut plekje en vindt dat onder de pannen vlak boven de goot. Daar wordt hij elk jaar dikker, tot hij de pan een stukje omhoog drukt of uit de sluiting met de pan ernaast duwt. Bij harde wind en regen waait het water daar dan onder door.`,
+        `Bij de rand van het dak. Langs de windveer of de gevelpannen aan de zijkant van het dak kan klimop tussen het hout en de muur groeien. Het hout blijft daar nat en gaat sneller rotten.`,
+      ] },
+      { kop: `Zo zie je het vanaf de straat`, tekst: [
+        `Ga aan de overkant van de straat staan en zoom met je telefoon in op de randen van je dak: de pannen vlak boven de goot en de zijkant van het dak. Zie je groen tussen of onder de pannen, een pan die schever of hoger ligt dan zijn buren, of blad dat boven de goot uitsteekt, dan is de klimop al verder dan de gevel. Kijk ook op zolder met een zaklamp langs de onderkant van het dak. Komen daar ranken of streepjes daglicht door, dan zit hij tussen de pannen. Lees ook <a href="/kennisbank/licht-tussen-dakpannen/">licht tussen je dakpannen</a>.`,
+      ] },
+      { kop: `Wat je zelf beter niet doet`, tekst: [
+        `Ga niet vanaf een ladder aan de ranken op het dak rukken. Ze zitten vaak klem onder de pannen, en met één ruk komt er een pan mee naar beneden of breekt hij. Zet ook geen ladder tegen de goot om de klimop eruit te halen. Wat je wel kunt doen: de klimop aan de gevel terugsnoeien tot een flink stuk onder de dakrand, zelf vanaf de grond of door een hovenier, zodat hij niet opnieuw het dak op groeit.`,
+      ] },
+      { kop: `Wie doet wat?`, tekst: [
+        `De klimop of wingerd aan de gevel is werk voor een hovenier, of voor jezelf vanaf de grond. Het stuk op het dak en in de goot doe ik: de ranken onder de pannen uit halen zonder de pannen te breken, verschoven pannen terugleggen zodat ze weer in elkaar haken, gebroken pannen vervangen door pannen die passen, en de goot en de uitloop naar de regenpijp leegmaken. Een windveer die rot is, vervang ik als het nodig is. Zie <a href="/diensten/windveer-vervangen/">windveer vervangen</a>.`,
+      ] },
+      { kop: `Hoe ik het aanpak`, tekst: [
+        `Stuur een foto van de gevel en de dakrand vanaf de straat via WhatsApp, en als het kan een van de goot. Is de klimop aan de gevel al teruggesnoeid, dan doe ik het dak en de goot in één keer. Je hoort vooraf wat het kost. Zie <a href="/diensten/dakpannen-vervangen/">dakpannen vervangen of recht leggen</a> en <a href="/diensten/goten-reinigen/">dakgoot schoonmaken</a>.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: dakpannen vervangen of recht leggen`, href: `/diensten/dakpannen-vervangen/` },
+    faq: [
+      { v: `Moet de klimop helemaal van mijn gevel af?`, a: `Niet per se. Of klimop goed of slecht is voor je gevel, is een vraag voor een hovenier of een gevelspecialist. Voor je dak is het genoeg als hij niet meer bij de dakrand, de goot en de pannen komt. Houd hem daarom een flink stuk onder de goot, en snoei hem elk jaar terug.` },
+      { v: `Kan klimop een lek geven?`, a: `Ja, maar meestal niet meteen. Eerst loopt de goot vaker over of duwt een rank een pan omhoog. Pas als er bij een bui of harde wind water onder die pan door waait, wordt het op zolder nat. Zie je ranken onder de pannen, laat het dan nakijken voordat het gaat lekken.` },
+      { v: `Wanneer laat ik het het beste weghalen?`, a: `Het liefst in de herfst of de winter, na het snoeien aan de gevel. Dan zitten er meestal geen vogels meer te broeden in de klimop. Broeden er wel vogels, wacht dan tot de jongen zijn uitgevlogen. Het werk op het dak gaat het best op een droge dag zonder vorst.` },
+    ],
+  },
 ];
 
 // Kort antwoord bovenaan een artikel. Geen bedragen.
@@ -1398,4 +1433,5 @@ export const KORT_ANTWOORD_5: Record<string, string> = {
   "vergaarbak-lekt": `Een vergaarbak is de bak bovenaan de regenpijp waar de goot of een spuwer in uitkomt. Loopt hij over, dan zit de opening naar de pijp meestal dicht met blad, mos of zand. Druppelt het onder de bak terwijl hij niet overloopt, dan lekt een naad of de bodem. Een volle bak maak je leeg, en een lekke naad in zink kan vaak opnieuw gesoldeerd worden. Zet geen ladder tegen de gevel om zelf te kijken.`,
   "dakdekker-komt-wat-regel-je": `Komt de dakdekker, regel dan vooraf een plek voor de ladder en zet auto's, fietsen en tuinmeubels onder de dakrand opzij. Maak het zolderluik en de plek boven de natte plek vrij, houd foto's van het lek of je dak bij de hand en laat je buren het weten als het werk via hun kant moet. Bij regen, harde wind, ijs of sneeuw wordt het werk op het dak verzet naar een veilige dag.`,
   "dak-nakijken-na-schoorsteenbrand": `Na een schoorsteenbrand stook je niet meer tot een erkende schoorsteenveger het kanaal heeft nagekeken, want door de hitte kunnen er scheuren komen die je niet ziet. Maak foto's voor je verzekeraar. Op het dak kunnen het lood of de loodvervanger rond de voet, de pannen eromheen en de kop van de schoorsteen beschadigd zijn. Brandt het nog, bel dan 112 en gooi geen water in de kachel.`,
+  "klimop-op-dak-of-in-dakgoot": `Groeit klimop of wilde wingerd over je dakrand, dan vult hij de goot, zet hij de uitloop naar de regenpijp dicht en dringt hij onder de pannen boven de goot, die hij omhoog drukt. Ruk de ranken niet zelf van het dak, want dan komen de pannen mee. Laat de klimop aan de gevel terugsnoeien tot een flink stuk onder de goot, en laat de ranken onder de pannen en in de goot weghalen.`,
 };
