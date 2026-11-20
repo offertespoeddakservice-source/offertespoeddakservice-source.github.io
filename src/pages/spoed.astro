@@ -44,6 +44,7 @@ const faq = [
   { v: "Het is donker en ik kan mijn dak niet zien. Wat stuur ik je dan?", a: "Dat is genoeg om mee te beginnen. Maak binnen een foto of een kort filmpje van de plek waar het druppelt of nat is, en een van het plafond of de muur eromheen. Zeg erbij op welke verdieping het is, of het bij een lamp, raam of schoorsteen zit en of het nog druppelt. Kun je veilig op zolder komen, maak daar dan met een zaklamp ook een foto van de plek boven de natte plek. Ga niet met een lamp naar buiten om het dak te bekijken en zet geen ladder neer. Een foto van je dak vanaf de straat kan morgen bij daglicht nog. Stuur alles via WhatsApp, dan zeg ik wat je nu zelf kunt doen en wanneer ik kan komen." },
   { v: "Welke dakdekker in Den Bosch kan ik bij een lek dag en nacht bellen?", a: "Mij: Rens van Spoed Dak Service, dakdekker uit 's-Hertogenbosch. Je belt of appt mij zelf op 06 10 18 53 57, dag en nacht, ook in het weekend. Den Bosch is mijn thuisbasis, en ook in Rosmalen, Vught, Vlijmen en Berlicum kan ik bij een lek vaak nog dezelfde dag komen. Stuur een foto van de natte plek en, als het veilig kan, van je dak vanaf de straat via WhatsApp. Dan zeg ik wat je nu zelf kunt doen en wanneer ik er ben. Eerst zorg ik dat het binnen droog blijft, daarna volgt de nette reparatie. Je hoort vooraf wat het kost." },
   { v: "Ik zoek met spoed een dakdekker op internet. Hoe weet ik of die te vertrouwen is?", a: "Ook als het lekt, kun je in een paar minuten een paar dingen nagaan. Zoek de bedrijfsnaam op in het Handelsregister van de KvK en kijk of de plaats klopt. Vraag wie er komt en spreek de prijs af voordat er iemand het dak op gaat, het liefst in een appje, zodat je hem zwart op wit hebt. Let op als iemand geen bedrijfsnaam of adres wil noemen, als de prijs pas achteraf komt, of als je contant moet betalen voordat er iets is gedaan. Achter sommige advertenties met een landelijk nummer zit geen dakdekker, maar een bureau dat je doorstuurt naar wie er die dag tijd heeft. Bij mij kun je het zo nagaan: mijn KvK-nummer staat onderaan deze site, ik ben bedrijfsaansprakelijk verzekerd, je spreekt mij zelf, Rens, en je hoort de prijs voordat ik begin, ook 's nachts." },
+  { v: "Ik heb al een andere dakdekker, maar die kan pas over een week of komt niet. Kun jij eerder komen?", a: "Lekt het nu, of ligt er een stuk dak open, bel of app me dan gewoon. Dan zorg ik eerst dat het binnen droog blijft. Zeg erbij dat je al een afspraak hebt met een andere dakdekker, dan spreken we samen af of ik alleen het lek dichtmaak of ook de nette reparatie doe. Is het binnen droog en kan het veilig wachten, dan zeg ik dat eerlijk. Je hoort vooraf wat het kost." },
 ];
 const faqSchema = {
   "@context": "https://schema.org",
@@ -159,6 +160,12 @@ const spoedSchema = {
         <p style="margin-top:16px;">
           {bestaat("bungalow-dak-lekt") && <>Woon je in een bungalow zonder zolder, en zie je het water meteen aan je plafond? Waar zo'n dak meestal lekt, lees je in <a href="/kennisbank/bungalow-dak-lekt/">het dak van je bungalow lekt</a>.</>}
           {bestaat("vergaarbak-lekt") && <> Loopt het water over de bak bovenaan je regenpijp langs de gevel naar beneden, kijk dan bij <a href="/kennisbank/vergaarbak-lekt/">vergaarbak lekt of loopt over</a>.</>}
+        </p>
+      )}
+      {(bestaat("dakdekker-komt-niet-opdagen") || bestaat("daklekkage-vve")) && (
+        <p style="margin-top:16px;">
+          {bestaat("dakdekker-komt-niet-opdagen") && <>Komt de dakdekker met wie je een afspraak had niet, of ligt je dak half af, lees dan <a href="/kennisbank/dakdekker-komt-niet-opdagen/">je dakdekker komt niet opdagen</a>.</>}
+          {bestaat("daklekkage-vve") && <> Woon je in een appartement en komt het water door het dak van het gebouw, kijk dan bij <a href="/kennisbank/daklekkage-vve/">daklekkage bij een VvE</a> hoe je het meldt en wie de reparatie regelt.</>}
         </p>
       )}
       <p style="margin-top:22px;">Een scheve of kapotte pan zie je van beneden bijna niet. Twee foto's die ik zelf op het dak maakte:</p>
