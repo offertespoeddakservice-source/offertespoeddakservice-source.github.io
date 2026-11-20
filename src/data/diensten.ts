@@ -256,7 +256,7 @@ export const DIENSTEN: Dienst[] = [
     slug: "platte-daken",
     titel: "Platte daken (EPDM)",
     vanafPrijs: PLATDAK_PRIJS,
-    h1: "Plat dak repareren of vervangen: EPDM en bitumen",
+    h1: "Plat dak lekt? Dakbedekking repareren of vervangen (EPDM en bitumen)",
     kort: "Lekkage in plat dak opsporen en herstellen, of de hele bedekking vernieuwen.",
     metaTitle: "Plat dak lekt? Repareren of vervangen | Spoed Dak Service",
     metaDescription:
