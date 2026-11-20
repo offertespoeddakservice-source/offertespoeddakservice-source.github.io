@@ -4,6 +4,7 @@
  * 19-11-2026 ronde 4: dakdekker, loodgieter of een ander vak, wie bel je?
  * 19-11-2026 ronde 5: je mansardedak lekt.
  * 20-11-2026 ronde 2: je serre lekt bij de muur.
+ * 20-11-2026 ronde 2: je dakluik lekt.
  */
 import type { Artikel } from "./artikelen";
 
@@ -127,6 +128,43 @@ export const ARTIKELEN_EXTRA_6: Artikel[] = [
       { v: `Mijn serre lekt alleen bij harde wind en regen. Hoe kan dat?`, a: `Dan waait de regen waarschijnlijk tegen de muur boven de serre en loopt hij achter een strook of profiel naar binnen dat bij gewone regen nog net droog blijft. Ook regen die onder een losse rand of een rubber door wordt geblazen, zie je vooral bij wind. Kijk na zo'n bui waar het als eerste nat is: bovenin tegen de muur wijst naar de aansluiting, midden in het dak eerder naar de serre zelf.` },
     ],
   },
+  {
+    slug: `dakluik-lekt`,
+    datum: `2026-11-20`,
+    titel: `Lekt je dakluik?`,
+    h1: `Dakluik lekt: de rand, het rubber of het platte dak eromheen?`,
+    metaTitle: `Dakluik lekt: rand, rubber of condens? | Spoed Dak Service`,
+    metaDescription: `Druppelt het langs je dakluik naar het platte dak? Meestal zit het in de opstaande rand, het rubber van het luik of in water dat tegen het luik blijft staan.`,
+    intro: `Een dakluik is een luik in een plat dak waardoor je met een trap of ladder het dak op kunt, bijvoorbeeld bij een bovenwoning, een portiekflat of een huis met een dakterras. Zo'n luik ligt laag op het dak, en daardoor lekt het vaker dan je denkt. Hieronder lees je waar het meestal zit, hoe je het herkent en wat je zelf kunt doen.`,
+    secties: [
+      { kop: `Lekt het nu? Eerst dit`, tekst: [
+        `Zet een emmer onder de druppel en leg een handdoek op de trap of de vloer, want een natte trap is glad. Ga niet het dak op als het regent, waait, glad of donker is. Kijk wel of het luik goed dicht zit en of de sluiting vastzit. Wat je verder meteen kunt doen, staat op de <a href="/spoed/">spoedpagina</a>.`,
+      ] },
+      { kop: `De opstaande rand`, tekst: [
+        `Een dakluik staat op een opstaande rand, meestal van hout, waar de dakbedekking van het platte dak tegen omhoog loopt. Laat de dakbedekking daar los, scheurt hij in een hoek of is de rand te laag, dan loopt het water bij een flinke bui over of achter de dakbedekking naar binnen. Binnen zie je dat als een natte plek op de rand of op het plafond rond het luik, vaak in een hoek. Is het hout van de rand al zacht, dan moet dat eerst worden hersteld. Lees ook <a href="/kennisbank/zachte-plek-plat-dak/">zachte plek op je platte dak</a>.`,
+      ] },
+      { kop: `Het rubber en de sluiting`, tekst: [
+        `Tussen het luik en de rand zit een rubber dat het luik afdicht. Na veel jaren wordt dat hard, gaat het scheuren of laat het los, en dan waait de regen er bij wind onderdoor. Ook een luik dat scheef hangt of niet goed meer sluit, laat water door. Druppelt het vooral langs de rand van het luik zelf, en alleen bij wind en regen, dan is het rubber vaak de eerste plek om te kijken.`,
+      ] },
+      { kop: `Water dat tegen het luik blijft staan`, tekst: [
+        `Ligt het luik op een lage plek van het dak, of zit de afvoer vol blad of grind, dan blijft er na een bui een plas tegen de rand staan. Komt die hoger dan de rand, dan loopt het water zo naar binnen. Kijk vanuit een raam boven of er na een bui water rond het luik blijft staan. Lees ook <a href="/kennisbank/water-blijft-staan-op-plat-dak/">water blijft staan op je platte dak</a>.`,
+      ] },
+      { kop: `Lek of condens?`, tekst: [
+        `Een dakluik is vaak dunner dan de rest van het dak. Op koude ochtenden slaat vocht uit huis neer tegen de binnenkant, en dat druppelt dan naar beneden. Gebeurt het ook na een droge, koude nacht, dan is het meestal condens en geen lek. Meer over het verschil lees je in <a href="/kennisbank/condens-of-lekkage-op-zolder/">condens of lekkage op zolder</a>. Is je luik een lichtkoepel die open kan, kijk dan ook bij <a href="/kennisbank/lichtkoepel-lekt/">lichtkoepel lekt</a>.`,
+      ] },
+      { kop: `Hoe ik het aanpak`, tekst: [
+        `Ik kijk eerst binnen waar het water binnenkomt en daarna op het dak naar de rand, de dakbedekking eromheen en de afvoer. Een losse of gescheurde aansluiting van de dakbedekking tegen de rand maak ik weer dicht, en een afvoer vol blad of grind maak ik vrij. Is het hout van de rand rot, dan hoor je dat voordat ik verder ga. Zit het in het rubber of in het luik zelf, dan zeg ik eerlijk wat er nodig is en wie dat het beste kan doen. Zie <a href="/diensten/platte-daken/">plat dak repareren</a>.`,
+      ] },
+      { kop: `Wat kost het?`, tekst: [
+        `Dat hangt af van waar het lekt en hoeveel er hersteld moet worden. Stuur een foto van de natte plek binnen en, als dat veilig kan, een van het luik en het dak eromheen, dan hoor je vooraf wat het kost.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: plat dak repareren of vervangen`, href: `/diensten/platte-daken/` },
+    faq: [
+      { v: `Hoort het dakluik bij mij of bij de VvE?`, a: `Dat staat in de splitsingsakte. Bij een appartement of bovenwoning is het dak, met het dakluik erin, meestal van alle eigenaren samen, en dan meld je een lek bij het bestuur of de beheerder van de VvE. Huur je, meld het dan bij je verhuurder. Meer lees je in het artikel over een lekkend dak bij een boven- en benedenwoning.` },
+      { v: `Het lekt alleen als ik het luik heb opengehad. Hoe kan dat?`, a: `Dan sluit het luik na het openen waarschijnlijk niet meer helemaal goed. Het rubber kan dubbel zijn geklapt, er kan vuil of grind tussen zitten, of de sluiting trekt het luik niet meer goed aan. Kijk na het sluiten of het rubber rondom netjes aanligt en of het luik recht op de rand ligt. Lekt het daarna nog, stuur me dan een foto van het luik van binnen en, als het veilig kan, van buiten.` },
+    ],
+  },
 ];
 
 // Kort antwoord bovenaan een artikel. Geen bedragen.
@@ -134,4 +172,5 @@ export const KORT_ANTWOORD_6: Record<string, string> = {
   "welke-vakman-voor-je-dak": `Voor alles wat de regen buiten moet houden, zoals de pannen, de nok, het lood, de dakgoten, een plat dak en de kraag rond een pijp door het dak, bel je een dakdekker. Water dat ook na droge dagen druppelt, komt meestal uit een leiding: dan een loodgieter. De cv-ketel, een warmtepomp, zonnepanelen en de elektra zijn voor de installateur, het schoorsteenkanaal voor de schoorsteenveger en de stenen en voegen voor een metselaar.`,
   "mansardedak-lekt": `Bij een mansardedak, met onderaan een steil deel en daarboven een flauwer deel, zit een lek meestal bij de knik tussen die twee, waar lood of zink ligt, rond een raam in het steile deel of in de bakgoot onderaan. Binnen zie je het vaak boven in de kamer, waar de wand overgaat in het schuine stuk. Zet een emmer neer, ga niet zelf op het steile deel en stuur een foto van het dak en de natte plek.`,
   "serre-lekt": `Lekt je serre langs de muur van het huis, dan zit het meestal in de aansluiting tegen de gevel: een strook lood, loodvervanger of een profiel die los zit, of een kitnaad die is gescheurd. Ook een overlopende dakgoot of een regenpijp boven de serre kan het zijn. Komt het water tussen het glas of de platen binnen, dan is het werk voor de leverancier van de serre.`,
+  "dakluik-lekt": `Lekt het bij je dakluik op een plat dak, dan zit het meestal in de opstaande rand waar de dakbedekking tegen omhoog loopt, in het rubber tussen het luik en de rand, of in water dat na een bui tegen het luik blijft staan. Druppelt het alleen op koude ochtenden, ook na een droge nacht, dan is het vaak condens.`,
 };
