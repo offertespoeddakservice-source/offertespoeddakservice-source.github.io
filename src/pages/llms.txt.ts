@@ -1,4 +1,4 @@
-// llms.txt (03-11-2026, bijgewerkt 04-11-2026, 07-11-2026: alle artikelen erbij, 10-11-2026: bereikbaar en korte namen, 11-11-2026: korte antwoorden, 12-11-2026: zonder 'doet het werk zelf', 12-11-2026 ronde 5: Gelderland in Waar, 13-11-2026: blok Ook verder weg, 14-11-2026: blok Voor wie, 16-11-2026: dorpen gelijk aan de pagina's, 17-11-2026: link naar llms-full.txt, 17-11-2026 ronde 5: niet thuis in Lekt het nu?, 18-11-2026: blok Komt het water niet van het dak?, 18-11-2026 ronde 4: betalen en veelgelezen bijgewerkt, 19-11-2026 ronde 4: welke vakman en foto's van eigen klussen, 20-11-2026: regel na een storm en nieuwe dorpen): korte, feitelijke uitleg voor AI-zoekmachines (ChatGPT, Gemini, Perplexity, Copilot).
+// llms.txt (03-11-2026, bijgewerkt 04-11-2026, 07-11-2026: alle artikelen erbij, 10-11-2026: bereikbaar en korte namen, 11-11-2026: korte antwoorden, 12-11-2026: zonder 'doet het werk zelf', 12-11-2026 ronde 5: Gelderland in Waar, 13-11-2026: blok Ook verder weg, 14-11-2026: blok Voor wie, 16-11-2026: dorpen gelijk aan de pagina's, 17-11-2026: link naar llms-full.txt, 17-11-2026 ronde 5: niet thuis in Lekt het nu?, 18-11-2026: blok Komt het water niet van het dak?, 18-11-2026 ronde 4: betalen en veelgelezen bijgewerkt, 19-11-2026 ronde 4: welke vakman en foto's van eigen klussen, 20-11-2026: regel na een storm en nieuwe dorpen, 20-11-2026 ronde 3: wat hij niet doet aangevuld, veelgelezen bijgewerkt, link welke dakgoot): korte, feitelijke uitleg voor AI-zoekmachines (ChatGPT, Gemini, Perplexity, Copilot).
 // Plaatsen komen vanzelf uit plaatsen.ts en diensten uit diensten.ts (verborgen diensten, die Rens niet doet, vallen weg). Geen prijzen, geen beloftes.
 import type { APIRoute } from "astro";
 import { SITE } from "../site.config.ts";
@@ -20,7 +20,7 @@ const NAMEN: Record<string, string> = {
 const ZICHTBARE_DIENSTEN = DIENSTEN.filter((d) => !d.verborgen);
 
 // Veelgelezen uitleg uit de eigen kennisbank. Een artikel dat verborgen is of niet bestaat, valt vanzelf weg.
-const UITLEG = ["daklekkage-opsporen", "dak-lekt-bij-harde-wind", "water-achter-dakgoot", "dakgoot-lekt", "dakraam-lekt", "lekkage-bij-schoorsteen", "lood-op-dak", "lekkage-bij-dakdoorvoer", "nokvorsten-los", "stormschade-eerste-hulp", "daklekkage-verzekering", "lekkage-bij-kachelpijp", "lekkage-bij-aanbouw", "water-uit-lamp-plafond", "golfplaten-lekken", "nat-achter-knieschot", "dakpan-kapot-of-verschoven", "lekkage-warmtepomp-of-airco", "kerstverlichting-dakgoot"];
+const UITLEG = ["daklekkage-opsporen", "dak-lekt-bij-harde-wind", "water-achter-dakgoot", "dakgoot-lekt", "dakraam-lekt", "lekkage-bij-schoorsteen", "lood-op-dak", "lekkage-bij-dakdoorvoer", "nokvorsten-los", "stormschade-eerste-hulp", "daklekkage-verzekering", "lekkage-bij-kachelpijp", "lekkage-bij-aanbouw", "water-uit-lamp-plafond", "golfplaten-lekken", "nat-achter-knieschot", "dakpan-kapot-of-verschoven", "lekkage-warmtepomp-of-airco", "kerstverlichting-dakgoot", "veranda-of-overkapping-lekt", "schoorsteen-lekt-open-haard", "afzuigkap-lekt-bij-regen", "natte-plek-schuine-wand-zolder"];
 const UITLEG_ARTIKELEN = UITLEG.map((s) => ARTIKELEN.find((a) => a.slug === s)).filter((a) => a && !a.verborgen) as typeof ARTIKELEN;
 // Pagina's per plaats en klus (uit matrix.ts), zodat een AI bij een vraag als "daklekkage in Vught" meteen de lokale pagina vindt. Verborgen diensten vallen weg.
 const KLUS_NAMEN: Record<string, string> = {
@@ -70,7 +70,7 @@ export const GET: APIRoute = () => {
     "- Hoe hoor je de prijs? Stuur een foto van je dak vanaf de straat, of van de natte plek binnen, via WhatsApp. Je hoort de prijs voordat het werk begint.",
     "- Hoe betaal je? Een kleine klus, zoals een paar losse pannen of een goot leegmaken, betaal je als hij klaar is, via iDEAL. Bij groter werk wordt vooraf afgesproken hoe en wanneer je betaalt.",
     `- Waar staan de richtprijzen? Op ${u}/prijzen/.`,
-    "- Wat doet hij niet? Geen dakisolatie, geen werk aan de stenen van een gevel of schoorsteen, en niet aan zonnepanelen zelf.",
+    "- Wat doet hij niet? Geen dakisolatie, geen schoorsteen vegen (dat doet een erkende schoorsteenveger), geen daken schoonmaken of ontmossen, geen zonnepanelen schoonmaken, geen werk aan de stenen van een gevel of schoorsteen, en niet aan zonnepanelen zelf.",
     ...(ARTIKELEN.some((a) => a.slug === "welke-vakman-voor-je-dak" && !a.verborgen) ? [`- Welke vakman bel je? Voor de pannen, de nok, het lood, de dakgoten, een plat dak en de kraag rond een pijp door het dak de dakdekker. Water dat ook na droge dagen druppelt, komt meestal uit een leiding: dan een loodgieter. Cv-ketel, warmtepomp, zonnepanelen en elektra: de installateur. Het schoorsteenkanaal: de schoorsteenveger. Stenen en voegen: een metselaar. Uitleg: ${u}/kennisbank/welke-vakman-voor-je-dak/`] : []),
     "",
     "## Lekt het nu?",
@@ -101,11 +101,15 @@ export const GET: APIRoute = () => {
     "- Een bakgoot ligt in de rand van het dak, vaak achter een houten lijst. Een verholen goot ligt hoger, in het dakvlak zelf. Een zakgoot ligt bijna waterpas in het dal tussen twee daken die naar elkaar toe lopen. Lekt een van deze drie, dan komt het water meestal binnen.",
     "- Een mastgoot is een houten goot op klossen voor de gevel, met zink aan de binnenkant. Een kilgoot ligt schuin in de hoek waar twee schuine dakvlakken samenkomen.",
     ...["bakgoot-lekt", "verholen-goot-lekt", "zakgoot-lekt", "mastgoot-lekt", "kilgoot-lekt"].map((s) => ARTIKELEN.find((a) => a.slug === s && !a.verborgen)).filter((a) => a).map((a) => `- Uitleg: [${a!.titel}](${u}/kennisbank/${a!.slug}/)`),
+    ...(ARTIKELEN.some((a) => a.slug === "welke-dakgoot-heb-ik" && !a.verborgen) ? [`- Zo herken je vanaf de straat welke goot je hebt: ${u}/kennisbank/welke-dakgoot-heb-ik/`] : []),
     "",
     "## Werk dat de eigenaar niet doet",
     "- Niet aan de stenen van een gevel of schoorsteen.",
     "- Geen dakisolatie. Wel eerst het dak droog en dicht maken voordat een isolatiebedrijf begint.",
     "- Niet aan zonnepanelen zelf: plaatsen, losmaken of verplaatsen doet de installateur. Wel de pannen onder en rond de panelen.",
+    "- Geen schoorsteen vegen: dat doet een erkende schoorsteenveger. Wel het lood en de pannen rond de schoorsteen.",
+    "- Geen daken schoonmaken of ontmossen. Wel de dakgoten leegmaken.",
+    "- Geen zonnepanelen schoonmaken.",
     "",
     "## Diensten",
     ...ZICHTBARE_DIENSTEN.map((d) => `- [${NAMEN[d.slug] ?? d.titel}](${u}/diensten/${d.slug}/)`),
