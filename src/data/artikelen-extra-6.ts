@@ -10,6 +10,7 @@
  * 20-11-2026 ronde 3: welk soort dak heb ik.
  * 20-11-2026 ronde 4: je dakgoot lekt aan het eind, bij het eindstuk.
  * 20-11-2026 ronde 4: welke dakbedekking ligt er op je platte dak.
+ * 21-11-2026 ronde 1: het dak van je appartementengebouw lekt (VvE).
  */
 import type { Artikel } from "./artikelen";
 
@@ -381,6 +382,44 @@ export const ARTIKELEN_EXTRA_6: Artikel[] = [
       { v: `Ik weet niet wat er op mijn dak ligt. Kun je het aan een foto zien?`, a: `Meestal wel. Met een foto vanuit een raam boven, het liefst met de zoom van je telefoon, zie ik vaak al wat voor bedekking het is en waar ik bij een lek zou beginnen. Stuur hem via WhatsApp, samen met een foto van de natte plek binnen als het lekt.` },
     ],
   },
+  {
+    slug: `daklekkage-vve`,
+    datum: `2026-11-21`,
+    titel: `Lekt het dak van je appartementengebouw?`,
+    h1: `Het dak van je appartementengebouw lekt: wat je zelf doet en hoe je het met de VvE regelt`,
+    metaTitle: `Daklekkage bij een VvE: wie regelt het? | Spoed Dak Service`,
+    metaDescription: `Lekt het in je appartement door het platte dak of de dakrand? Zo beperk je de schade, meld je het bij de VvE en wordt de reparatie geregeld, ook bij spoed.`,
+    intro: `Woon je in een appartement en komt er water door het plafond, dan is het dak meestal niet alleen van jou. In een appartementengebouw is het dak in de regel van alle eigenaren samen, en regelt de Vereniging van Eigenaars (VvE) de reparatie. Dat maakt het soms lastig om snel iemand te laten komen. Hieronder lees je wat je meteen doet, hoe je het meldt en hoe het meestal verder gaat.`,
+    secties: [
+      { kop: `Lekt het nu? Eerst dit`, tekst: [
+        `Zet een emmer onder de druppel, leg er een handdoek onder en haal spullen weg die nat kunnen worden. Druppelt het bij een lamp of stopcontact, zet dan in de meterkast de groep van die kamer uit. Bolt het plafond op, ga er dan niet onder staan. Ga niet zelf het dak op, ook niet als er in het trappenhuis een luik naar het dak zit. Wat je verder meteen kunt doen, staat op de <a href="/spoed/">spoedpagina</a>.`,
+      ] },
+      { kop: `Komt het wel van het dak?`, tekst: [
+        `Woon je op de bovenste verdieping, dan komt het water vaak van het platte dak, de dakrand of een afvoer boven je. Woon je lager, dan kan het ook van een balkon, een leiding of de woning boven je komen. Druppelt het ook na een paar droge dagen, dan is een leiding waarschijnlijker dan het dak. Lees ook <a href="/kennisbank/lekkage-dakdekker-of-loodgieter/">dakdekker of loodgieter bij lekkage</a> en <a href="/kennisbank/dakterras-lekt/">balkon of dakterras lekt naar beneden</a>.`,
+      ] },
+      { kop: `Meld het meteen bij de VvE`, tekst: [
+        `Meld het lek bij het bestuur of de beheerder van de VvE, en huur je, ook bij je verhuurder. Stuur foto's van de natte plek mee, met de datum, en zeg of het nog druppelt. Vraag de buren boven of naast je of het bij hen ook nat is, want dat helpt om de plek te vinden. Wat van iedereen samen is en wie over een reparatie beslist, staat in de splitsingsakte en het huishoudelijk reglement.`,
+      ] },
+      { kop: `Bij spoed niet wachten op de vergadering`, tekst: [
+        `Een lek dat binnen schade geeft, kan niet wachten tot de volgende ledenvergadering. Vaak mag het bestuur of de beheerder een spoedreparatie meteen laten doen. Is er 's avonds of in het weekend niemand van de VvE te bereiken en blijft het binnen druppelen, dan mag je de schade in de regel eerst laten beperken, bijvoorbeeld door het lek tijdelijk te laten dichtmaken. Leg vast wat er is gedaan, bewaar de rekening en meld het daarna zo snel mogelijk bij de VvE. Wat een noodreparatie is, lees je in <a href="/kennisbank/noodreparatie-dak/">noodreparatie aan je dak</a>.`,
+      ] },
+      { kop: `Wie betaalt?`, tekst: [
+        `Is het dak van alle eigenaren samen, dan betaalt de VvE de reparatie van het dak, meestal uit het reservefonds. De schade in je eigen woning, zoals aan een plafond of een vloer, loopt vaak via je eigen verzekering of via de opstalverzekering van de VvE. Hoe dat bij jullie zit, staat in de polis van de VvE en in de splitsingsakte. Lees ook <a href="/kennisbank/daklekkage-verzekering/">daklekkage en je verzekering</a>.`,
+      ] },
+      { kop: `Een klein gebouw zonder actief bestuur`, tekst: [
+        `In een klein gebouw, bijvoorbeeld een pand met twee of drie woningen boven een winkel, is er vaak geen bestuur dat het regelt. Spreek dan met de andere eigenaren af wie de opdracht geeft en hoe jullie de rekening verdelen, voordat de reparatie begint, het liefst in een appje of mail. Gaat het om twee woningen boven elkaar, lees dan <a href="/kennisbank/dak-lekt-boven-en-benedenwoning/">een lekkend dak bij een boven- en benedenwoning</a>.`,
+      ] },
+      { kop: `Hoe ik het aanpak`, tekst: [
+        `Ik kom voor een lek in het dak van een klein appartementengebouw, in overleg met wie de opdracht geeft: het bestuur, de beheerder of de eigenaren samen. Eerst zorg ik dat het binnen droog blijft. Daarna zoek ik waar het water binnenkomt, bijvoorbeeld bij de afvoer, de dakrand, een naad in de dakbedekking of een pijp door het dak, en zeg ik eerlijk of een reparatie genoeg is. Je krijgt foto's van wat ik aantref en van wat ik doe, met een korte omschrijving die je aan de VvE en de verzekeraar kunt laten zien. Wie de opdracht geeft, hoort de prijs voordat ik begin. Zie <a href="/diensten/daklekkage/">daklekkage</a> en <a href="/diensten/platte-daken/">plat dak repareren</a>.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: daklekkage & spoed`, href: `/diensten/daklekkage/` },
+    faq: [
+      { v: `Mag ik als bewoner zelf een dakdekker bellen?`, a: `Bij spoed wel, als het binnen druppelt en de VvE niet te bereiken is: dan mag je de schade in de regel eerst laten beperken. Voor de nette reparatie geeft meestal het bestuur of de beheerder de opdracht. Meld het daarom ook bij de VvE, en spreek af wie de rekening krijgt voordat er meer gebeurt dan het lek dichtmaken.` },
+      { v: `Ik woon niet bovenin, maar het lekt toch bij regen. Kan het van het dak komen?`, a: `Soms wel. Water van een plat dak kan langs een leiding, een schacht of de binnenkant van de gevel naar beneden lopen en een verdieping lager binnenkomen. Vaker komt het dan van een balkon, een leiding of de woning boven je. Vraag de bewoners boven je of het bij hen ook nat is, en meld het bij de VvE.` },
+      { v: `Kan de VvE het dak laten nakijken voordat het lekt?`, a: `Ja. Laat het platte dak, de afvoeren en de dakranden bijvoorbeeld nakijken als het blad gevallen is. Een afvoer die vol blad zit, is op een plat dak een van de bekendste oorzaken van een lek. Stuur gerust een foto van het dak die je maakt zonder het dak op te gaan, bijvoorbeeld vanuit een raam hoger in de buurt, dan zeg ik wat ik zie.` },
+    ],
+  },
 ];
 
 // Kort antwoord bovenaan een artikel. Geen bedragen.
@@ -394,4 +433,5 @@ export const KORT_ANTWOORD_6: Record<string, string> = {
   "welk-soort-dak-heb-ik": `Twee schuine vlakken met een driehoekige muur aan de zijkant is een zadeldak, vier schuine vlakken een schilddak, één schuin vlak tegen de muur een lessenaarsdak en een dak met een knik een mansardedak. Een plat dak ligt bijna vlak. Een zadeldak lekt vaak bij de nok en de zijkanten, een schilddak bij de hoekvorsten, een lessenaarsdak bovenaan tegen de muur en een plat dak bij de afvoer en de randen.`,
   "dakgoot-lekt-aan-het-eind": `Lekt je dakgoot precies aan het uiteinde, op de hoek bij de zijgevel, dan zit het meestal in het eindstuk: de lijm of het rubber van een kunststof kapje is op, of de soldeernaad van een zinken goot is gescheurd. Vaak blijft er ook water bij het eind staan, omdat de goot niet goed naar de regenpijp afloopt. Dan is een nieuw eindstuk alleen niet genoeg, en moet de goot ook weer op afschot.`,
   "welke-dakbedekking-heb-ik": `Bitumen herken je aan banen met een overlap en vaak steentjes bovenop. EPDM is glad zwart rubber, meestal in één stuk met een aluminium rand. Zie je alleen grind, dan ligt de bedekking eronder, en een lichtgrijze, gladde bedekking is vaak een kunststof dakbaan. Welke het ook is: een plat dak lekt meestal bij de afvoer, de rand, de hoeken of waar het tegen een muur omhoog loopt.`,
+  "daklekkage-vve": `Lekt het in je appartement door het dak, zet dan eerst een emmer neer en meld het meteen bij het bestuur of de beheerder van de VvE, met foto's en de datum. In een appartementengebouw is het dak in de regel van alle eigenaren samen, en de VvE geeft de opdracht voor de reparatie. Druppelt het binnen en is er niemand te bereiken, dan mag je de schade in de regel eerst laten beperken.`,
 };
