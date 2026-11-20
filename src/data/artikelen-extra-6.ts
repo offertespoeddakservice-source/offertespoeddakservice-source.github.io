@@ -6,6 +6,7 @@
  * 20-11-2026 ronde 2: je serre lekt bij de muur.
  * 20-11-2026 ronde 2: je dakluik lekt.
  * 20-11-2026 ronde 3: welke dakgoot heb ik.
+ * 20-11-2026 ronde 3: je dak winterklaar maken.
  */
 import type { Artikel } from "./artikelen";
 
@@ -207,6 +208,47 @@ export const ARTIKELEN_EXTRA_6: Artikel[] = [
       { v: `Welke goten lekken naar binnen?`, a: `Een bakgoot, een verholen goot, een zakgoot en een kilgoot liggen op of in het dak, boven de muur of de zolder. Lekt een van die goten, dan komt het water meestal binnen, bovenin de muur, op het plafond of op zolder. Een hangende goot en een mastgoot zitten voor de gevel, en daar valt een lek meestal buiten. Komt het water binnen, stuur me dan zo snel je kunt een foto.` },
     ],
   },
+  {
+    slug: `dak-winterklaar-maken`,
+    datum: `2026-11-20`,
+    titel: `Je dak winterklaar maken?`,
+    h1: `Je dak winterklaar maken: wat je nakijkt voordat het gaat vriezen en stormen`,
+    metaTitle: `Dak winterklaar maken: wat kijk je na? | Spoed Dak Service`,
+    metaDescription: `Voor de winter je dak nakijken? Zo kijk je vanaf de straat en op zolder naar pannen, nok, lood en goot, en dit laat je doen voordat het gaat vriezen.`,
+    intro: `In de winter krijgt je dak het zwaar: storm, regen die dagen aanhoudt, sneeuw en vorst. Wat in de herfst nog een losse pan of een volle goot was, wordt dan sneller een lek. Veel zie je zelf, vanaf de straat en op zolder, zonder het dak op te gaan. Hieronder lees je waar je naar kijkt, wat je zelf kunt doen en wat je beter laat doen.`,
+    secties: [
+      { kop: `Het beste moment`, tekst: [
+        `Als de meeste bomen kaal zijn en voordat het gaat vriezen. Dan ligt het blad in de goot en niet meer in de boom, en kan er op een droge dag nog gewerkt worden zonder ijs op de pannen. Is dat moment voorbij, dan kan het meeste werk nog steeds, op een droge dag zonder vorst. Lees ook <a href="/kennisbank/dak-repareren-in-de-winter/">je dak repareren in de winter</a>.`,
+      ] },
+      { kop: `Kijk vanaf de straat`, tekst: [
+        `Ga aan de overkant van de straat staan en zoom met je telefoon in. Liggen de rijen pannen recht, zonder een pan die uitsteekt of een donkere streep waar er een is gaan schuiven? Liggen de nokvorsten recht op de nok, en ligt het lood rond de schoorsteen en een dakraam strak tegen de stenen en over de pannen? Hangt de goot recht, of groeit er gras of een plantje uit? Staat er nog een oude antenne die bij storm heen en weer gaat? Lees <a href="/kennisbank/dakpan-kapot-of-verschoven/">dakpan kapot of verschoven</a>, <a href="/kennisbank/nokvorsten-los/">losse nokvorsten</a> en <a href="/kennisbank/lood-op-dak/">lood op je dak</a>.`,
+      ] },
+      { kop: `Kijk op zolder`, tekst: [
+        `Ga na een flinke bui met een zaklamp naar zolder. Kijk naar het hout, de folie of de platen onder de pannen: een donkere kring of een natte plek wijst op een lek, ook als je beneden nog niets ziet. Zie je op een droge dag daglicht tussen de pannen, dan kan daar bij storm regen of stuifsneeuw door waaien. Lees <a href="/kennisbank/licht-tussen-dakpannen/">licht tussen je dakpannen</a> en <a href="/kennisbank/condens-of-lekkage-op-zolder/">condens of lekkage op zolder</a>.`,
+      ] },
+      { kop: `De goot en de regenpijp`, tekst: [
+        `Een goot vol blad houdt water vast. Gaat het vriezen, dan zet het ijs uit en kan het een naad of een hoek openduwen, en bij dooi loopt het smeltwater terug onder de pannen. Laat de goot daarom leegmaken als het blad gevallen is, en let vooral op de uitloop naar de regenpijp. Zit er een regenton aan de regenpijp, kijk dan of het water er bij vorst nog door kan. Lees <a href="/kennisbank/dakgoot-schoonmaken-in-de-winter/">je dakgoot schoonmaken in de winter</a> en <a href="/kennisbank/regenpijp-kapot-door-vorst/">regenpijp kapot door vorst</a>.`,
+      ] },
+      { kop: `Heb je een plat dak?`, tekst: [
+        `Kijk vanuit een raam boven of de afvoer vrij is en of er na een bui geen plas blijft staan. Blad, takjes en mos in de afvoer zijn in de winter een bekende oorzaak van water dat naar binnen loopt, zeker als het daarna gaat vriezen. Lees <a href="/kennisbank/water-blijft-staan-op-plat-dak/">water blijft staan op je platte dak</a>.`,
+      ] },
+      { kop: `Bomen en takken`, tekst: [
+        `Hangen er takken over je dak, laat die dan voor de stormen snoeien door een hovenier of boomverzorger. Een tak die bij storm over de pannen schuurt of erop valt, breekt makkelijk een pan. Lees <a href="/kennisbank/tak-of-boom-op-dak/">tak of boom op je dak</a>.`,
+      ] },
+      { kop: `Wat je zelf beter niet doet`, tekst: [
+        `Ga niet zelf het dak op, ook niet om even een pan recht te leggen. Natte pannen, blad en rijp zijn glad. Zet geen ladder tegen de goot, want die deukt of breekt. En smeer geen kit op een naad of een pan: dat laat bij vorst los en moet er later weer af.`,
+      ] },
+      { kop: `Wat ik in één bezoek kan doen`, tekst: [
+        `Ik maak de goten en de uitloop naar de regenpijp leeg en kijk meteen naar de nok, de pannen en het lood rond de schoorsteen en het dakraam. Zit er iets los, dan hoor je eerst wat het kost om het vast te zetten, en dan beslis jij. Wil je een verslag met foto's van je hele dak, dan is de <a href="/dak-apk/">Dak-APK</a> handiger. Stuur een foto van je dak vanaf de straat via WhatsApp, dan hoor je vooraf wat het kost.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: dakgoot schoonmaken`, href: `/diensten/goten-reinigen/` },
+    faq: [
+      { v: `Is het in december te laat om mijn dak winterklaar te maken?`, a: `Nee. Zolang het droog is en er geen ijs op de pannen of in de goot ligt, kunnen de goot leegmaken en een losse pan vastzetten gewoon. Alleen werk met dakmortel of lijm wacht op een dag zonder vorst. Ligt er sneeuw of ijs op het dak, dan wacht ik tot het veilig is.` },
+      { v: `Moet mijn dak elk jaar voor de winter nagekeken worden?`, a: `De goot laten leegmaken na de bladval is elk jaar verstandig, zeker onder bomen. Je dak zelf kun je vaak vanaf de straat en op zolder nakijken. Is je dak ouder, lag er vorige winter iets los of is er een storm geweest, laat het dan wel nakijken voordat het gaat vriezen.` },
+      { v: `Wat doe ik als er in de winter na een storm iets los ligt?`, a: `Blijf weg onder de dakrand aan die kant, ga niet zelf het dak op en maak foto's voor je verzekeraar. Kijk op zolder of het nat wordt. Ligt er een stuk dak open of lekt het binnen, stuur me dan meteen een foto via WhatsApp. Meer lees je in het artikel over stormschade en eerste hulp.` },
+    ],
+  },
 ];
 
 // Kort antwoord bovenaan een artikel. Geen bedragen.
@@ -216,4 +258,5 @@ export const KORT_ANTWOORD_6: Record<string, string> = {
   "serre-lekt": `Lekt je serre langs de muur van het huis, dan zit het meestal in de aansluiting tegen de gevel: een strook lood, loodvervanger of een profiel die los zit, of een kitnaad die is gescheurd. Ook een overlopende dakgoot of een regenpijp boven de serre kan het zijn. Komt het water tussen het glas of de platen binnen, dan is het werk voor de leverancier van de serre.`,
   "dakluik-lekt": `Lekt het bij je dakluik op een plat dak, dan zit het meestal in de opstaande rand waar de dakbedekking tegen omhoog loopt, in het rubber tussen het luik en de rand, of in water dat na een bui tegen het luik blijft staan. Druppelt het alleen op koude ochtenden, ook na een droge nacht, dan is het vaak condens.`,
   "welke-dakgoot-heb-ik": `Hangt er een goot met beugels voor de onderste rij pannen, dan heb je een hangende goot van zink of kunststof. Zie je alleen een houten lijst, dan ligt er vaak een bakgoot achter, en een brede houten bak op klossen is een mastgoot. Verholen goten, zakgoten en kilgoten liggen in of tussen de daken, en als die lekken, komt het water meestal binnen.`,
+  "dak-winterklaar-maken": `Kijk vanaf de straat of de pannen en nokvorsten recht liggen, of het lood rond de schoorsteen strak zit en of de goot recht hangt. Kijk na een bui op zolder naar natte plekken. Laat de goot leegmaken als het blad gevallen is, en laat een losse pan of nokvorst vastzetten voordat het gaat vriezen en stormen. Ga niet zelf het dak op.`,
 };
