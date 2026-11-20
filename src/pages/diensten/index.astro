@@ -20,6 +20,13 @@ const klimopBestaat = ARTIKELEN.some((a) => a.slug === "klimop-op-dak-of-in-dakg
 const marterBestaat = ARTIKELEN.some((a) => a.slug === "marter-onder-dakpannen" && !a.verborgen);
 // 19-11-2026 ronde 4: zin naar de uitleg over welke vakman je belt, alleen als dat artikel bestaat.
 const vakmanBestaat = ARTIKELEN.some((a) => a.slug === "welke-vakman-voor-je-dak" && !a.verborgen);
+// 20-11-2026 ronde 4: regel om je dak, goot, pannen of dakbedekking te herkennen. Alleen links naar artikelen die bestaan.
+const herken = [
+  { slug: "welk-soort-dak-heb-ik", anker: "welk soort dak" },
+  { slug: "welke-dakgoot-heb-ik", anker: "welke dakgoot" },
+  { slug: "welke-dakpan-heb-ik", anker: "welke dakpan" },
+  { slug: "welke-dakbedekking-heb-ik", anker: "welke dakbedekking op je platte dak" },
+].filter((h) => ARTIKELEN.some((a) => a.slug === h.slug && !a.verborgen));
 // Dakreparatie per plaats: alle plaatsen met een eigen pagina, zodat nieuwe pagina's vanzelf meekomen.
 const dakrepPlaatsen = MATRIX.filter((c) => c.dienst === "dakreparatie").map((c) => getPlaats(c.plaats)).filter((p) => p) as NonNullable<ReturnType<typeof getPlaats>>[];
 // Dakgoot schoonmaken en dakgoot repareren per plaats: komt vanzelf uit de lijst met pagina's. Den Bosch, Vught en Veghel staan voor het repareren al in de zin hierboven.
@@ -97,6 +104,7 @@ const faqSchema = { "@context": "https://schema.org", "@type": "FAQPage", mainEn
         <li><strong>Druppelt het langs een pijp die door het dak gaat, bij je cv-ketel, afzuigkap of kachel?</strong> Dan zit het vaak in de kraag of de doorvoerpan op het dak: zie <a href="/diensten/dakdoorvoer/">dakdoorvoer plaatsen of herstellen</a>.</li>
         {burenBestaat && <li><strong>Kun je alleen via de tuin of het dak van de buren bij je goot of dak?</strong> Hoe je dat samen regelt, en wat het ladderrecht zegt, lees je in <a href="/kennisbank/dak-repareren-via-buren/">via de buren bij je dak</a>.</li>}
         <li><strong>Wil je weten hoe je hele dak ervoor staat?</strong> Vraag dan de <a href="/dak-apk/">Dak-APK</a> aan: ik kijk je hele dak na en je krijgt een rapport met foto's.</li>
+        {herken.length > 0 && <li><strong>Weet je niet hoe het onderdeel van je dak heet?</strong> Lees eerst hoe je herkent {herken.map((h, i) => (<>{i > 0 && (i === herken.length - 1 ? " en " : ", ")}<a href={`/kennisbank/${h.slug}/`}>{h.anker}</a></>))} je hebt. Daarna is een foto via WhatsApp vaak genoeg om je te zeggen wat er nodig is.</li>}
       </ul>
       <p>Twijfel je welke klus het is? Stuur een foto via <a href={waHref("Hallo, ik weet niet welke klus ik nodig heb. Ik stuur een foto.")}>WhatsApp</a>, dan zeg ik het je.</p>
       <p style="margin-top:16px;">Lekt het bij jou thuis? Hoe ik een lek aanpak in jouw buurt, lees je bij daklekkage in <a href="/werkgebied/vlijmen/daklekkage/">Vlijmen</a>, <a href="/werkgebied/heusden/daklekkage/">Heusden</a>, <a href="/werkgebied/oisterwijk/daklekkage/">Oisterwijk</a>, <a href="/werkgebied/schijndel/daklekkage/">Schijndel</a>, <a href="/werkgebied/boxtel/daklekkage/">Boxtel</a> en <a href="/werkgebied/sint-michielsgestel/daklekkage/">Sint-Michielsgestel</a>. Andere plaatsen vind je bij <a href="/werkgebied/">mijn werkgebied</a>.</p>
