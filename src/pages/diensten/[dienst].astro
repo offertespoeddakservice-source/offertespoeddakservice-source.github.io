@@ -131,6 +131,11 @@ const watZin = WAT_PER_DIENST[d.slug] ?? d.titel.toLowerCase();
 const KNOP_NAAM: Record<string, string> = { "goten-reinigen": "Dakgoot schoonmaken", "dakgoot-vervangen": "Dakgoot repareren of vervangen", daklekkage: "Daklekkage" };
 // 18-11-2026 ronde 5: bij de klussen waar het vaak om een lek of schade gaat een regel Spoed in 'In het kort', net als op de plaatspagina's.
 const SPOED_DIENSTEN = ["daklekkage", "stormschade", "dakreparatie", "dakraam-lekkage", "lood-vervangen", "nokvorsten-vervangen", "dakdoorvoer", "bakgoot-repareren", "kilgoot-repareren"];
+// 20-11-2026 ronde 4: bij de goot- en plat-dakdiensten een gewone zin naar de uitleg om je goot of dakbedekking te herkennen, alleen als dat artikel bestaat.
+const HERKEN_GOOT = ["dakgoot-vervangen", "dakgoot-solderen", "dakgoot-coaten", "bakgoot-repareren", "regenpijp-vervangen", "goten-reinigen"];
+const HERKEN_PLAT = ["platte-daken", "dakbeschot-vervangen"];
+const gootHerkenBestaat = ARTIKELEN.some((a) => a.slug === "welke-dakgoot-heb-ik" && !a.verborgen);
+const platHerkenBestaat = ARTIKELEN.some((a) => a.slug === "welke-dakbedekking-heb-ik" && !a.verborgen);
 ---
 
 <Base title={d.metaTitle} description={d.metaDescription} path={path} schema={schema} noindex={d.verborgen === true}>
@@ -193,6 +198,8 @@ const SPOED_DIENSTEN = ["daklekkage", "stormschade", "dakreparatie", "dakraam-le
             </ul>
           </>
         )}
+        {HERKEN_GOOT.includes(d.slug) && gootHerkenBestaat && <p style="margin-top:18px;">Weet je niet wat voor goot er aan je huis hangt, een hangende goot van zink of kunststof, een bakgoot of een mastgoot? Lees dan <a href="/kennisbank/welke-dakgoot-heb-ik/">welke dakgoot heb ik</a>, en stuur me daarna een foto.</p>}
+        {HERKEN_PLAT.includes(d.slug) && platHerkenBestaat && <p style="margin-top:18px;">Weet je niet wat er op je platte dak ligt, bitumen, EPDM, grind of kunststof? Lees dan <a href="/kennisbank/welke-dakbedekking-heb-ik/">welke dakbedekking ligt er op je platte dak</a>, en stuur me daarna een foto vanuit een raam boven.</p>}
         {review && (
           <figure class="reviewkaart" style="margin:20px 0 0;">
             <span class="rster" aria-label="5 van 5 sterren">★★★★★</span>
