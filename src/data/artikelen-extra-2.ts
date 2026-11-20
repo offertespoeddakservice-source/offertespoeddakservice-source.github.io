@@ -591,6 +591,12 @@ export const FAQ_ERBIJ_2: Record<string, Artikel["faq"]> = {
   "kerstverlichting-dakgoot": [
     { v: `Mag ik haakjes voor de lichtjes in mijn houten windveer schroeven?`, a: `Liever niet te veel. Elk schroefgat is een plek waar water in het hout kan trekken, en verf die daar openscheurt, laat het hout eronder sneller rotten. Gebruik je toch een paar haakjes, schroef ze dan alleen in gezond, geverfd hout, niet in de pannen en niet in een zinken of kunststof afwerking, en zet de gaatjes na de feestdagen weer dicht of in de verf. Is de windveer al zacht, zit er een kier tussen de plank en de muur of bladdert de verf, hang er dan niets aan. Zie je na de winter dat de windveer los zit of rot is, stuur me dan een foto via WhatsApp. Een losse of rotte windveer vervang ik, en je hoort vooraf wat het kost.` },
   ],
+  "veranda-of-overkapping-lekt": [
+    { v: `Ik heb geen veranda, maar een serre met glas tegen het huis. Lekt die op dezelfde plekken?`, a: `Voor een deel wel. Ook bij een serre zit een lek vaak in de aansluiting tegen de muur van het huis, of in een goot die vol blad zit. Het verschil is dat een serre een dichte ruimte is, en dat je het water binnen vaak pas ziet als het al langs de muur of een profiel naar beneden loopt. Komt het water tussen het glas of de profielen van de serre zelf door, dan is dat werk voor de leverancier van de serre. Meer lees je in het artikel over een serre die lekt bij de muur.` },
+  ],
+  "lichtkoepel-lekt": [
+    { v: `Mijn lichtkoepel kan open, en ik gebruik hem als luik naar het dak. Lekt die anders?`, a: `Vaak op dezelfde plekken, met één extra: het rubber tussen de koepel en de rand. Gaat een koepel vaak open en dicht, dan slijt dat rubber sneller, en dan waait de regen er bij wind onderdoor. Druppelt het langs de rand van de koepel zelf, kijk dan eerst of het rubber nog netjes aanligt en of de koepel goed sluit. Zit het water juist langs de buitenkant van de opstaande rand, dan zit het in de aansluiting van de dakbedekking, en die maak ik dicht. Meer lees je in het artikel over een dakluik dat lekt.` },
+  ],
 };
 
 // Artikelen en korte antwoorden uit artikelen-extra-3.ts (sinds 12-11-2026) erachter, zodat ze via artikelen-extra.ts in ARTIKELEN en KORT_ANTWOORD komen.
