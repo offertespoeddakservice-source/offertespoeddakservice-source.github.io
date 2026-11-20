@@ -9,6 +9,7 @@
  * 20-11-2026 ronde 3: je dak winterklaar maken.
  * 20-11-2026 ronde 3: welk soort dak heb ik.
  * 20-11-2026 ronde 4: je dakgoot lekt aan het eind, bij het eindstuk.
+ * 20-11-2026 ronde 4: welke dakbedekking ligt er op je platte dak.
  */
 import type { Artikel } from "./artikelen";
 
@@ -336,6 +337,50 @@ export const ARTIKELEN_EXTRA_6: Artikel[] = [
       { v: `Lekt het eindstuk vooral in de winter?`, a: `Vaak merk je het dan eerder. Staat er water bij het eind en gaat het vriezen, dan zet het ijs uit en drukt het tegen het eindstuk en de naad. Bij dooi druppelt het dan op een plek die eerst droog bleef. Hangen er in de winter ijspegels aan het uiteinde van je goot, dan is dat vaak een teken dat daar water blijft staan.` },
     ],
   },
+  {
+    slug: `welke-dakbedekking-heb-ik`,
+    datum: `2026-11-20`,
+    titel: `Welke dakbedekking ligt er op je platte dak?`,
+    h1: `Welke dakbedekking ligt er op je platte dak? Zo herken je bitumen, EPDM, grind en kunststof`,
+    metaTitle: `Welke dakbedekking heeft je platte dak? | Spoed Dak Service`,
+    metaDescription: `Bitumen, EPDM, grind of kunststof? Zo herken je de dakbedekking op je platte dak vanuit een raam, en waar zo'n dak meestal gaat lekken.`,
+    intro: `Op het platte dak van een aanbouw, garage, berging of bungalow kan van alles liggen: bitumen, EPDM, grind, kunststof of een groen dak. Lekt het, of wil je weten wat er nodig is, dan helpt het om te weten wat er op je dak ligt. Vaak zie je dat al vanuit een raam boven, zonder het dak op te gaan. Hieronder lees je hoe je het herkent en waar zo'n dak meestal lekt.`,
+    secties: [
+      { kop: `Kijk eerst vanuit een raam`, tekst: [
+        `Kijk vanuit een raam op de verdieping, of vanaf een plek waar je veilig staat, naar het dak. Let op de kleur, op de naden en op wat er bovenop ligt. Ga het dak niet op als het nat, glad of donker is, en ook niet als je niet weet of het je houdt. Een foto met de zoom van je telefoon is genoeg.`,
+      ] },
+      { kop: `Bitumen`, tekst: [
+        `Bitumen ligt op veel oudere platte daken. Het ligt in banen die elkaar een stuk overlappen, zodat je om de zoveel tijd een naad ziet lopen. Vaak liggen er kleine steentjes of schilfers op, in grijs, zwart of groen, en het lijkt een beetje op asfalt. Op een schuur of tuinhuis ligt vaak een dunne versie, die mensen dakleer noemen. Bitumen lekt meestal bij een naad die loslaat, bij een scheur of blaas, langs de rand of rond de afvoer. Lees <a href="/kennisbank/dakleer-repareren/">dakleer repareren</a>.`,
+      ] },
+      { kop: `EPDM`, tekst: [
+        `EPDM is zwart rubber dat in één groot vel over het dak ligt, zonder steentjes erop. Het is glad, een beetje rekbaar en heeft weinig of geen naden. Langs de rand zit het meestal tegen een aluminium daktrim. Een EPDM-dak lekt zelden midden in het vel, maar vaker langs de rand, in een hoek, tegen de muur of rond de afvoer. Lees <a href="/kennisbank/epdm-dak-lekt/">EPDM-dak lekt</a>.`,
+      ] },
+      { kop: `Grind`, tekst: [
+        `Zie je alleen grind, dan ligt de echte dakbedekking eronder, meestal bitumen en soms EPDM. Het grind houdt die bedekking op zijn plek en beschermt hem tegen de zon. Bij een lek zie je dan niet waar het zit, en soms spoelt er grind in de afvoer. Lees <a href="/kennisbank/plat-dak-met-grind-lekt/">plat dak met grind lekt</a>.`,
+      ] },
+      { kop: `Kunststof banen`, tekst: [
+        `Een lichtgrijze of witte, gladde bedekking met strakke naden is vaak een kunststof dakbaan. Die zie je vooral op nieuwere gebouwen. Ligt er zo'n bedekking op je dak, stuur dan eerst een foto. Dan zeg ik eerlijk of ik het herstel zelf kan doen, of dat je beter iemand belt die daarin gespecialiseerd is.`,
+      ] },
+      { kop: `Een groen dak`, tekst: [
+        `Liggen er plantjes, zoals sedum, op je dak, dan zit de dakbedekking onder een laag aarde of matten. Lekt zo'n dak, dan moet eerst de plek onder het groen gevonden worden, en dat is lastiger dan bij een kaal dak. Stuur een foto, dan kijk ik wat er kan.`,
+      ] },
+      { kop: `Geen bedekking maar platen?`, tekst: [
+        `Liggen er golfplaten of dakplaten op een schuur, carport of overkapping, dan is het geen dakbedekking in banen. Zo'n dak lekt vaker bij de schroeven en waar de platen over elkaar liggen. Lees <a href="/kennisbank/golfplaten-lekken/">golfplaten lekken</a>. Grijze golfplaten van voor 1994 kunnen asbest bevatten: laat die eerst onderzoeken, want daarin boor of zaag ik niet.`,
+      ] },
+      { kop: `Waar een plat dak meestal lekt`, tekst: [
+        `Welke bedekking het ook is: een plat dak lekt het vaakst bij de afvoer, langs de rand, in de hoeken en waar het dak tegen een muur omhoog loopt. Blijft er na een bui water staan, dan zoekt dat water juist die plekken op. Lees <a href="/kennisbank/plat-dak-lekt-bij-afvoer/">plat dak lekt bij de afvoer</a> en <a href="/kennisbank/water-blijft-staan-op-plat-dak/">water blijft staan op je platte dak</a>.`,
+      ] },
+      { kop: `Hoe ik het aanpak`, tekst: [
+        `Ik kijk eerst binnen waar het water binnenkomt en daarna op het dak naar de bedekking, de naden, de rand en de afvoer. Zit het lek op één plek, dan is een gerichte reparatie vaak genoeg. Is de bedekking op veel plekken versleten, of is het hout eronder zacht, dan zeg ik eerlijk dat een nieuwe bedekking slimmer is. Zie <a href="/diensten/platte-daken/">plat dak repareren of vervangen</a>. Stuur een foto van het dak vanuit een raam en van de natte plek binnen via WhatsApp, dan hoor je vooraf wat het kost.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: plat dak repareren of vervangen`, href: `/diensten/platte-daken/` },
+    faq: [
+      { v: `Hoe zie ik het verschil tussen bitumen en EPDM?`, a: `Kijk naar de naden en het oppervlak. Bitumen ligt in banen met om de zoveel tijd een overlap, en heeft vaak steentjes of schilfers bovenop. EPDM is glad zwart rubber, ligt meestal in één stuk en heeft bijna geen naden. Twijfel je, stuur dan een foto van een hoek of de rand van het dak.` },
+      { v: `Er ligt grind op mijn dak. Moet dat eraf om de bedekking te zien?`, a: `Niet om te weten wat er ligt. Vaak zie je aan de rand of bij de afvoer een stukje van de bedekking onder het grind. Moet er een lek gezocht worden, dan schuif ik het grind op die plek opzij en leg ik het daarna terug. Haal het grind niet zelf weg, want het beschermt de bedekking tegen de zon.` },
+      { v: `Ik weet niet wat er op mijn dak ligt. Kun je het aan een foto zien?`, a: `Meestal wel. Met een foto vanuit een raam boven, het liefst met de zoom van je telefoon, zie ik vaak al wat voor bedekking het is en waar ik bij een lek zou beginnen. Stuur hem via WhatsApp, samen met een foto van de natte plek binnen als het lekt.` },
+    ],
+  },
 ];
 
 // Kort antwoord bovenaan een artikel. Geen bedragen.
@@ -348,4 +393,5 @@ export const KORT_ANTWOORD_6: Record<string, string> = {
   "dak-winterklaar-maken": `Kijk vanaf de straat of de pannen en nokvorsten recht liggen, of het lood rond de schoorsteen strak zit en of de goot recht hangt. Kijk na een bui op zolder naar natte plekken. Laat de goot leegmaken als het blad gevallen is, en laat een losse pan of nokvorst vastzetten voordat het gaat vriezen en stormen. Ga niet zelf het dak op.`,
   "welk-soort-dak-heb-ik": `Twee schuine vlakken met een driehoekige muur aan de zijkant is een zadeldak, vier schuine vlakken een schilddak, één schuin vlak tegen de muur een lessenaarsdak en een dak met een knik een mansardedak. Een plat dak ligt bijna vlak. Een zadeldak lekt vaak bij de nok en de zijkanten, een schilddak bij de hoekvorsten, een lessenaarsdak bovenaan tegen de muur en een plat dak bij de afvoer en de randen.`,
   "dakgoot-lekt-aan-het-eind": `Lekt je dakgoot precies aan het uiteinde, op de hoek bij de zijgevel, dan zit het meestal in het eindstuk: de lijm of het rubber van een kunststof kapje is op, of de soldeernaad van een zinken goot is gescheurd. Vaak blijft er ook water bij het eind staan, omdat de goot niet goed naar de regenpijp afloopt. Dan is een nieuw eindstuk alleen niet genoeg, en moet de goot ook weer op afschot.`,
+  "welke-dakbedekking-heb-ik": `Bitumen herken je aan banen met een overlap en vaak steentjes bovenop. EPDM is glad zwart rubber, meestal in één stuk met een aluminium rand. Zie je alleen grind, dan ligt de bedekking eronder, en een lichtgrijze, gladde bedekking is vaak een kunststof dakbaan. Welke het ook is: een plat dak lekt meestal bij de afvoer, de rand, de hoeken of waar het tegen een muur omhoog loopt.`,
 };
