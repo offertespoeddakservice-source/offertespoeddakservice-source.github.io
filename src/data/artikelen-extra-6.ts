@@ -8,6 +8,7 @@
  * 20-11-2026 ronde 3: welke dakgoot heb ik.
  * 20-11-2026 ronde 3: je dak winterklaar maken.
  * 20-11-2026 ronde 3: welk soort dak heb ik.
+ * 20-11-2026 ronde 4: je dakgoot lekt aan het eind, bij het eindstuk.
  */
 import type { Artikel } from "./artikelen";
 
@@ -291,6 +292,50 @@ export const ARTIKELEN_EXTRA_6: Artikel[] = [
       { v: `Ik weet niet hoe mijn dak heet. Kun je het aan een foto zien?`, a: `Meestal wel. Met een foto van je huis vanaf de straat, en als het kan van de zijkant, zie ik welke vorm je dak heeft en waar ik bij een lek zou beginnen. Stuur hem via WhatsApp.` },
     ],
   },
+  {
+    slug: `dakgoot-lekt-aan-het-eind`,
+    datum: `2026-11-20`,
+    titel: `Lekt je dakgoot aan het eind?`,
+    h1: `Dakgoot lekt aan het eind, bij het eindstuk: waarom juist daar, en wat eraan te doen is`,
+    metaTitle: `Dakgoot lekt aan het eind (eindstuk) | Spoed Dak Service`,
+    metaDescription: `Druppelt je dakgoot aan het uiteinde, op de hoek bij de zijgevel? Vaak laat het eindstuk los of blijft daar water staan. Zo zie je wat het is en wat helpt.`,
+    intro: `Een hangende dakgoot houdt aan het eind op met een afsluitend stuk: het eindstuk, ook wel kopschot genoemd. Druppelt je goot precies daar, op de hoek van het huis bij de zijgevel, dan is dat een bekende plek. Hieronder lees je waarom een goot juist aan het eind gaat lekken, hoe je ziet wat het is en wat je zelf kunt doen.`,
+    secties: [
+      { kop: `Lekt het nu? Eerst dit`, tekst: [
+        `Valt de druppel buiten, langs de gevel of op de stoep, dan is het meestal geen spoed. Zet er iets onder als het op een pad of terras valt, zodat het daar niet glad wordt. Ga niet met een ladder tegen de goot staan om het eindstuk vast te duwen, want daarmee breek je een kunststof goot of buig je een zinken goot. Komt het water binnen, bovenin de muur of in de hoek van een kamer, kijk dan op de <a href="/spoed/">spoedpagina</a> wat je meteen kunt doen.`,
+      ] },
+      { kop: `Wat is het eindstuk?`, tekst: [
+        `Aan het uiteinde van de goot zit een dichte kop, zodat het water er niet uit loopt. Bij een kunststof goot is dat een los kapje dat met lijm of een rubber op de goot zit. Bij een zinken goot is het een stukje zink dat erin gesoldeerd is. Je ziet het eindstuk vanaf de straat op de hoek van het huis, aan de kant waar de goot ophoudt. Weet je niet wat voor goot je hebt, lees dan <a href="/kennisbank/welke-dakgoot-heb-ik/">welke dakgoot heb ik</a>.`,
+      ] },
+      { kop: `Waarom een goot juist aan het eind lekt`, tekst: [
+        `De lijm of het rubber is op. Een kunststof goot zet in de zon uit en krimpt als het vriest. Na veel jaren laat de lijm van het eindstuk los of wordt het rubber hard, en dan druppelt het langs de rand van het kapje. Lees ook <a href="/kennisbank/kunststof-dakgoot-lekt/">kunststof dakgoot lekt</a>.`,
+        `De soldeernaad is gescheurd. Bij een zinken goot zit het eindstuk vast met een soldeernaad. Door warmte en kou, en door ijs dat in de winter in de goot staat, kan die naad na jaren openscheuren. Zie <a href="/kennisbank/zinken-dakgoot-lekt/">zinken dakgoot lekt</a>.`,
+        `Er blijft water staan bij het eind. Een goot hoort licht af te lopen naar de regenpijp. Hangt hij verkeerd om, of is er een beugel gezakt, dan loopt het water juist naar het eindstuk en blijft het daar staan. Het eindstuk staat dan steeds in het water, en zo'n naad houdt dat niet lang. Ook blad en mos spoelen naar dat eind en blijven daar liggen. Lees <a href="/kennisbank/dakgoot-hangt-door/">dakgoot hangt door</a>.`,
+        `Het eindstuk is geraakt. Een ladder die tegen het uiteinde van de goot heeft gestaan, of een tak die er bij storm tegenaan sloeg, kan het kapje losduwen of de naad openbuigen.`,
+      ] },
+      { kop: `Zo zie je wat het is`, tekst: [
+        `Kijk tijdens of vlak na een bui vanaf de straat naar het uiteinde van de goot. Druppelt het precies onder het kapje of de naad, dan zit het in het eindstuk zelf. Loopt het water over de rand, dan staat er te veel water bij het eind, en ligt het vaker aan het afschot of aan blad. Staat er na een droge dag nog water in de goot bij het eind, dan loopt hij verkeerd af. Zie je op de zijgevel onder het uiteinde een groene of donkere streep, dan lekt het daar al een tijd: lees <a href="/kennisbank/groene-strepen-gevel-onder-dakgoot/">groene strepen op de gevel onder de dakgoot</a>.`,
+      ] },
+      { kop: `Druppelt het ergens anders?`, tekst: [
+        `Lekt de goot op de hoek waar twee stukken goot samenkomen, lees dan <a href="/kennisbank/dakgoot-lekt-in-de-hoek/">dakgoot lekt in de hoek</a>. Druppelt het waar de regenpijp begint, kijk dan bij <a href="/kennisbank/dakgoot-lekt-bij-regenpijp/">dakgoot lekt bij de regenpijp</a>. En loopt je goot door naar de buren, zodat er op de grens geen eindstuk maar een koppelstuk zit, lees dan <a href="/kennisbank/gedeelde-dakgoot-lekt/">gedeelde dakgoot lekt</a>.`,
+      ] },
+      { kop: `Ligt je goot in de dakrand?`, tekst: [
+        `Bij een bakgoot, een goot die in de rand van het dak ligt, zit het eind ingebouwd in de hoek van het huis. Lekt die kop, dan zie je het niet buiten, maar binnen: een natte plek bovenin de hoek van de kamer bij de zijgevel. Wacht daar niet mee, want onder het zink zit hout. Lees <a href="/kennisbank/bakgoot-lekt/">bakgoot lekt</a>.`,
+      ] },
+      { kop: `Hoe ik het aanpak`, tekst: [
+        `Eerst kijk ik of het aan het eindstuk zelf ligt of aan het water dat er blijft staan. Bij een kunststof goot zet ik een nieuw eindstuk op en maak ik het goed dicht. Bij een zinken goot soldeer ik de naad opnieuw. Loopt de goot verkeerd af, dan hang ik hem weer op afschot naar de regenpijp, anders gaat ook een nieuw eindstuk na een tijd weer lekken. Is de goot aan dat eind over een groter stuk dun of doorgeroest, dan vervang ik dat stuk. Zie <a href="/diensten/dakgoot-solderen/">dakgoot solderen</a> en <a href="/diensten/dakgoot-vervangen/">dakgoot repareren of vervangen</a>.`,
+      ] },
+      { kop: `Wat kost het?`, tekst: [
+        `Dat hangt af van wat er mis is en hoe goed ik bij het eind van de goot kan. Maak tijdens of vlak na een bui een foto van het uiteinde van de goot vanaf de straat, en stuur die via WhatsApp. Dan hoor je vooraf wat het kost. Welke foto's het meest helpen, lees je bij <a href="/kennisbank/foto-van-je-dak-maken/">foto's van je dak maken</a>.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: dakgoot repareren of vervangen`, href: `/diensten/dakgoot-vervangen/` },
+    faq: [
+      { v: `Kan ik een los eindstuk zelf weer vastlijmen of kitten?`, a: `Bij een lage goot, zoals van een schuur of garage, waar je veilig met een trap bij kunt, kan een nieuw kapje met de juiste lijm soms even helpen. Doe het alleen als de goot leeg en droog is, want op een natte of vuile rand hecht het niet. Bij een goot op hoogte laat je het liever doen. En staat er water bij het eind omdat de goot verkeerd afloopt, dan lekt een nieuw kapje na een tijd ook weer. Lees ook het artikel over een lekkende dakgoot tijdelijk oplossen.` },
+      { v: `Waarom staat er water in mijn goot bij het eindstuk?`, a: `Dan loopt de goot op die plek niet goed af naar de regenpijp. Vaak is er een beugel gezakt of verbogen, of is de goot ooit zo opgehangen dat het eind net iets lager hangt. Soms ligt er een laag blad en slib die het water tegenhoudt. Een beetje water vlak na een bui is niet erg, maar staat het er na een droge dag nog, dan hangt de goot niet goed. Stuur me een foto van de goot vanaf de straat, dan zeg ik wat ik zie.` },
+      { v: `Lekt het eindstuk vooral in de winter?`, a: `Vaak merk je het dan eerder. Staat er water bij het eind en gaat het vriezen, dan zet het ijs uit en drukt het tegen het eindstuk en de naad. Bij dooi druppelt het dan op een plek die eerst droog bleef. Hangen er in de winter ijspegels aan het uiteinde van je goot, dan is dat vaak een teken dat daar water blijft staan.` },
+    ],
+  },
 ];
 
 // Kort antwoord bovenaan een artikel. Geen bedragen.
@@ -302,4 +347,5 @@ export const KORT_ANTWOORD_6: Record<string, string> = {
   "welke-dakgoot-heb-ik": `Hangt er een goot met beugels voor de onderste rij pannen, dan heb je een hangende goot van zink of kunststof. Zie je alleen een houten lijst, dan ligt er vaak een bakgoot achter, en een brede houten bak op klossen is een mastgoot. Verholen goten, zakgoten en kilgoten liggen in of tussen de daken, en als die lekken, komt het water meestal binnen.`,
   "dak-winterklaar-maken": `Kijk vanaf de straat of de pannen en nokvorsten recht liggen, of het lood rond de schoorsteen strak zit en of de goot recht hangt. Kijk na een bui op zolder naar natte plekken. Laat de goot leegmaken als het blad gevallen is, en laat een losse pan of nokvorst vastzetten voordat het gaat vriezen en stormen. Ga niet zelf het dak op.`,
   "welk-soort-dak-heb-ik": `Twee schuine vlakken met een driehoekige muur aan de zijkant is een zadeldak, vier schuine vlakken een schilddak, één schuin vlak tegen de muur een lessenaarsdak en een dak met een knik een mansardedak. Een plat dak ligt bijna vlak. Een zadeldak lekt vaak bij de nok en de zijkanten, een schilddak bij de hoekvorsten, een lessenaarsdak bovenaan tegen de muur en een plat dak bij de afvoer en de randen.`,
+  "dakgoot-lekt-aan-het-eind": `Lekt je dakgoot precies aan het uiteinde, op de hoek bij de zijgevel, dan zit het meestal in het eindstuk: de lijm of het rubber van een kunststof kapje is op, of de soldeernaad van een zinken goot is gescheurd. Vaak blijft er ook water bij het eind staan, omdat de goot niet goed naar de regenpijp afloopt. Dan is een nieuw eindstuk alleen niet genoeg, en moet de goot ook weer op afschot.`,
 };
