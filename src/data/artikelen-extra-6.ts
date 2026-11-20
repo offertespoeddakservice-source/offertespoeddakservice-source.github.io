@@ -7,6 +7,7 @@
  * 20-11-2026 ronde 2: je dakluik lekt.
  * 20-11-2026 ronde 3: welke dakgoot heb ik.
  * 20-11-2026 ronde 3: je dak winterklaar maken.
+ * 20-11-2026 ronde 3: welk soort dak heb ik.
  */
 import type { Artikel } from "./artikelen";
 
@@ -249,6 +250,47 @@ export const ARTIKELEN_EXTRA_6: Artikel[] = [
       { v: `Wat doe ik als er in de winter na een storm iets los ligt?`, a: `Blijf weg onder de dakrand aan die kant, ga niet zelf het dak op en maak foto's voor je verzekeraar. Kijk op zolder of het nat wordt. Ligt er een stuk dak open of lekt het binnen, stuur me dan meteen een foto via WhatsApp. Meer lees je in het artikel over stormschade en eerste hulp.` },
     ],
   },
+  {
+    slug: `welk-soort-dak-heb-ik`,
+    datum: `2026-11-20`,
+    titel: `Welk soort dak heb ik?`,
+    h1: `Welk soort dak heb ik? Zo herken je de vorm, en waar zo'n dak meestal lekt`,
+    metaTitle: `Welk soort dak heb ik? Zo herken je het | Spoed Dak Service`,
+    metaDescription: `Zadeldak, schilddak, lessenaarsdak, mansardedak of plat dak? Zo herken je je dakvorm vanaf de straat, en waar zo'n dak het eerst gaat lekken.`,
+    intro: `Als je een dakdekker belt, helpt het als je kunt zeggen wat voor dak je hebt. En de vorm van je dak zegt ook iets over waar het het eerst gaat lekken. Hieronder lees je hoe je de bekendste dakvormen vanaf de straat herkent, en waar je bij elke vorm op let.`,
+    secties: [
+      { kop: `Zadeldak`, tekst: [
+        `Twee schuine dakvlakken die bovenin tegen elkaar komen in de nok, met aan de zijkanten een rechte, driehoekige muur. Dat is de vorm van de meeste rijtjeshuizen en van veel vrijstaande huizen. Een zadeldak lekt vaak bij de nok, bij de pannen langs de schuine zijkanten en bij de schoorsteen. Langs die zijkanten liggen gevelpannen en vaak een windveer, en die vangen veel wind. Lees <a href="/kennisbank/nokvorsten-los/">losse nokvorsten</a>, <a href="/kennisbank/gevelpannen-los/">losse gevelpannen</a> en <a href="/kennisbank/windveer-los-of-rot/">windveer los of rot</a>.`,
+      ] },
+      { kop: `Schilddak`, tekst: [
+        `Vier schuine dakvlakken: ook aan de korte kanten loopt het dak schuin naar beneden, zodat er geen driehoekige muur is. Je ziet het vaak bij villa's en vrijstaande huizen. Waar twee vlakken naar buiten toe samenkomen, ligt een schuine rand met hoekvorsten, de hoekkeper. Daar en bij de nok lekt zo'n dak het vaakst. Lees <a href="/kennisbank/hoekkeper-lekt/">lekkage bij de hoekkeper</a>.`,
+      ] },
+      { kop: `Een dak met een hoek`, tekst: [
+        `Heeft je huis een L-vorm, of staat er een aanbouw of schuur met een eigen schuin dak tegenaan, dan komen twee dakvlakken in een hoek naar binnen toe samen. Daar ligt een kilgoot, en in die kil blijft blad liggen. Een kil is een bekende plek voor een lek. Lees <a href="/kennisbank/kilgoot-lekt/">kilgoot lekt</a>.`,
+      ] },
+      { kop: `Lessenaarsdak`, tekst: [
+        `Een dak met maar één schuin vlak, zonder nok in het midden. Je ziet het vaak op een aanbouw, een keuken of een schuur tegen het huis: de hoge kant ligt tegen de muur. Bovenaan, waar het dak tegen de muur komt, ligt een strook lood of loodvervanger, en daar zit een lek meestal. Lees <a href="/kennisbank/schuin-dak-aanbouw-lekt/">lekkend schuin dakje van je aanbouw</a>.`,
+      ] },
+      { kop: `Mansardedak`, tekst: [
+        `Een dak met een knik: onderaan een steil deel dat bijna rechtop staat, daarboven een flauwer deel. Je ziet het vooral op huizen en villa's van rond 1900 tot de jaren '30. Zo'n dak lekt vaak bij de knik, rond een raam in het steile deel of in de goot onderaan. Lees <a href="/kennisbank/mansardedak-lekt/">mansardedak lekt</a>.`,
+      ] },
+      { kop: `Plat dak`, tekst: [
+        `Een plat dak ligt bijna vlak, met een kleine helling naar de afvoer. Je vindt het op aanbouwen, garages, bergingen, bungalows en veel nieuwere huizen. Een plat dak lekt vaak bij de afvoer, bij de rand of waar het dak tegen een muur omhoog loopt. Lees <a href="/kennisbank/plat-dak-lekt-bij-afvoer/">plat dak lekt bij de afvoer</a> en <a href="/kennisbank/bungalow-dak-lekt/">het dak van je bungalow lekt</a>.`,
+      ] },
+      { kop: `Schuin en plat samen`, tekst: [
+        `Veel huizen hebben aan de voorkant een schuin pannendak en aan de achterkant een platte aanbouw. Waar het schuine dak overgaat in het platte, of waar het platte dak tegen de achtergevel zit, komt bij een flinke bui veel water samen. Lees <a href="/kennisbank/lekkage-overgang-schuin-plat-dak/">lekkage waar je schuine dak overgaat in een plat dak</a>.`,
+      ] },
+      { kop: `Weet je het niet zeker?`, tekst: [
+        `Maak vanaf de overkant van de straat een foto van je huis, en als het kan ook een van de zijkant of de achterkant. Stuur die via WhatsApp, dan zeg ik wat voor dak je hebt en waar ik bij een lek als eerste zou kijken. Wil je ook weten welke pannen er liggen, lees dan <a href="/kennisbank/welke-dakpan-heb-ik/">welke dakpan heb ik</a>. De namen van de onderdelen van je dak staan bij <a href="/kennisbank/daktermen-uitgelegd/">daktermen uitgelegd</a>.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: daklekkage opsporen en repareren`, href: `/diensten/daklekkage/` },
+    faq: [
+      { v: `Wat is het verschil tussen een zadeldak en een schilddak?`, a: `Een zadeldak heeft twee schuine vlakken en aan de korte kanten een rechte, driehoekige muur. Een schilddak heeft vier schuine vlakken, dus ook aan de korte kanten loopt het dak naar beneden. Bij een schilddak liggen er daarom hoekvorsten op de schuine randen, en daar let ik bij een lek extra op.` },
+      { v: `Lekt een plat dak sneller dan een schuin dak?`, a: `Niet vanzelf. Op een schuin dak loopt het water snel weg, op een plat dak blijft het langer liggen. Daarom telt bij een plat dak vooral of de afvoer vrij is en of de randen en naden dicht zijn. Een goed onderhouden plat dak blijft gewoon droog. Kijk na een bui vanuit een raam boven of er een plas blijft staan.` },
+      { v: `Ik weet niet hoe mijn dak heet. Kun je het aan een foto zien?`, a: `Meestal wel. Met een foto van je huis vanaf de straat, en als het kan van de zijkant, zie ik welke vorm je dak heeft en waar ik bij een lek zou beginnen. Stuur hem via WhatsApp.` },
+    ],
+  },
 ];
 
 // Kort antwoord bovenaan een artikel. Geen bedragen.
@@ -259,4 +301,5 @@ export const KORT_ANTWOORD_6: Record<string, string> = {
   "dakluik-lekt": `Lekt het bij je dakluik op een plat dak, dan zit het meestal in de opstaande rand waar de dakbedekking tegen omhoog loopt, in het rubber tussen het luik en de rand, of in water dat na een bui tegen het luik blijft staan. Druppelt het alleen op koude ochtenden, ook na een droge nacht, dan is het vaak condens.`,
   "welke-dakgoot-heb-ik": `Hangt er een goot met beugels voor de onderste rij pannen, dan heb je een hangende goot van zink of kunststof. Zie je alleen een houten lijst, dan ligt er vaak een bakgoot achter, en een brede houten bak op klossen is een mastgoot. Verholen goten, zakgoten en kilgoten liggen in of tussen de daken, en als die lekken, komt het water meestal binnen.`,
   "dak-winterklaar-maken": `Kijk vanaf de straat of de pannen en nokvorsten recht liggen, of het lood rond de schoorsteen strak zit en of de goot recht hangt. Kijk na een bui op zolder naar natte plekken. Laat de goot leegmaken als het blad gevallen is, en laat een losse pan of nokvorst vastzetten voordat het gaat vriezen en stormen. Ga niet zelf het dak op.`,
+  "welk-soort-dak-heb-ik": `Twee schuine vlakken met een driehoekige muur aan de zijkant is een zadeldak, vier schuine vlakken een schilddak, één schuin vlak tegen de muur een lessenaarsdak en een dak met een knik een mansardedak. Een plat dak ligt bijna vlak. Een zadeldak lekt vaak bij de nok en de zijkanten, een schilddak bij de hoekvorsten, een lessenaarsdak bovenaan tegen de muur en een plat dak bij de afvoer en de randen.`,
 };
