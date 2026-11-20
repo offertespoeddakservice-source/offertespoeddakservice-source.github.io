@@ -3,6 +3,7 @@
  * artikelen-extra-5.ts zet ze achter ARTIKELEN_EXTRA_5 en in KORT_ANTWOORD_5.
  * 19-11-2026 ronde 4: dakdekker, loodgieter of een ander vak, wie bel je?
  * 19-11-2026 ronde 5: je mansardedak lekt.
+ * 20-11-2026 ronde 2: je serre lekt bij de muur.
  */
 import type { Artikel } from "./artikelen";
 
@@ -89,10 +90,48 @@ export const ARTIKELEN_EXTRA_6: Artikel[] = [
       { v: `Op het steile deel liggen leien. Kom je daar ook voor?`, a: `Stuur eerst een foto. Gaat het om het lood bij de knik, de goot of de pannen op het bovenste deel, dan help ik je. Bij leien zeg ik na de foto eerlijk of ik het herstel zelf kan doen, of dat je beter iemand kunt vragen die daarin gespecialiseerd is.` },
     ],
   },
+  {
+    slug: `serre-lekt`,
+    datum: `2026-11-20`,
+    titel: `Lekt je serre bij de muur?`,
+    h1: `Serre lekt bij de muur van het huis: de aansluiting, de goot of de serre zelf?`,
+    metaTitle: `Serre lekt bij de muur: waar zit het? | Spoed Dak Service`,
+    metaDescription: `Druppelt het in je serre of glazen uitbouw langs de muur van het huis? Vaak zit het in de aansluiting tegen de gevel of in de goot erboven. Zo zie je waar.`,
+    intro: `Een serre is een glazen of half glazen uitbouw tegen je huis. Lekt het erin, dan denk je eerst aan het glas. Toch zit het vaak ergens anders: in de aansluiting waar de serre tegen de gevel komt, of in de goot of het dak erboven. Hieronder lees je hoe je ziet waar het water binnenkomt, wat ik eraan doe en wanneer je beter de leverancier van de serre belt.`,
+    secties: [
+      { kop: `Lekt het nu? Eerst dit`, tekst: [
+        `Zet een emmer of handdoek onder de druppel en haal kussens, planten en elektrische spullen weg. Zit er een lamp of stopcontact bij de natte plek, zet dan in de meterkast de groep uit. Ga niet op het dak van de serre staan: glas en kunststof platen kunnen breken, ook als ze stevig lijken. Wat je verder meteen kunt doen, staat op de <a href="/spoed/">spoedpagina</a>.`,
+      ] },
+      { kop: `Langs de muur van het huis`, tekst: [
+        `De bovenkant van een serre zit vast tegen de gevel. Daar hoort een strook lood, loodvervanger of een profiel die over de aansluiting valt, zodat het water van de muur op het dak van de serre loopt en niet erachter. Laat die strook los, is hij te kort of zit er alleen een kitnaad die na een paar jaar is gescheurd, dan loopt het regenwater langs de muur naar binnen. Binnen zie je dat als druppels of een natte streep bovenin, vlak tegen de gevel, vaak over een groot stuk van de breedte. Een kitnaad alleen houdt het meestal niet lang droog.`,
+      ] },
+      { kop: `Water van hoger op het huis`, tekst: [
+        `Soms komt het water niet van de serre, maar van erboven. Hangt de dakgoot van het huis boven de serre en loopt die over, of lekt er een naad, dan valt het water met kracht op de aansluiting. Ook een regenpijp die op het dak van de serre uitkomt, zet veel water op één plek. Kijk tijdens een bui of er water over de goot van het huis komt. Lees ook <a href="/kennisbank/dakgoot-loopt-over/">dakgoot loopt over</a> en <a href="/kennisbank/regenpijp-loost-op-dak/">je regenpijp komt uit op het dak eronder</a>.`,
+      ] },
+      { kop: `De goot van de serre`, tekst: [
+        `Aan de voorkant van de serre zit meestal een eigen, smalle goot. Zit die vol blad, dan blijft het water op het dak van de serre staan en zoekt het een weg langs de rubbers naar binnen. Leegmaken is dan vaak genoeg. Dat gootje neem ik mee als ik toch je dakgoten leegmaak.`,
+      ] },
+      { kop: `Tussen het glas of de platen`, tekst: [
+        `Komt het water binnen tussen twee glasplaten, langs een profiel midden in het dak of bij een raam of deur van de serre zelf, dan zit het in de serre. Dat is werk voor de leverancier of de monteur van de serre, en dat zeg ik je eerlijk. Druppelt het alleen op koude ochtenden, ook na een droge nacht, dan is het vaak condens aan de binnenkant van het glas en geen lek.`,
+      ] },
+      { kop: `Hoe ik het aanpak`, tekst: [
+        `Ik kijk eerst binnen waar het water binnenkomt, en daarna buiten naar de aansluiting tegen de gevel, de goot en het dak erboven. Een losse of te korte strook zet ik weer vast of vervang ik, meestal met loodvervanger en op wens met echt lood, zodat hij weer over de aansluiting valt. Ligt het aan de goot van het huis, dan maak ik die leeg of repareer ik de naad. Zit het in de serre zelf, dan hoor je dat meteen. Zie <a href="/diensten/lood-vervangen/">lood vervangen</a>.`,
+      ] },
+      { kop: `Wat kost het?`, tekst: [
+        `Dat hangt af van waar het lekt en hoe goed ik erbij kan. Stuur een foto van de natte plek binnen en een van de serre en de muur erboven van buiten via WhatsApp, dan hoor je vooraf wat het kost. Welke foto's het meest helpen, lees je bij <a href="/kennisbank/foto-van-je-dak-maken/">foto's van je dak maken</a>.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: lood vastzetten of vervangen`, href: `/diensten/lood-vervangen/` },
+    faq: [
+      { v: `Kan ik de naad tussen de serre en de muur zelf dichtkitten?`, a: `Voor even kan dat helpen, maar meestal niet lang. Kit hecht slecht op een natte of vuile muur, en scheurt als de serre en het huis door warmte en kou net iets anders bewegen. Bovendien loopt het water vaak al hoger achter de strook naar binnen, en dan houdt kit onderaan het niet tegen. Beter is een strook lood of loodvervanger die over de aansluiting valt. Stuur me een foto, dan zeg ik wat ik zie.` },
+      { v: `Mijn serre lekt alleen bij harde wind en regen. Hoe kan dat?`, a: `Dan waait de regen waarschijnlijk tegen de muur boven de serre en loopt hij achter een strook of profiel naar binnen dat bij gewone regen nog net droog blijft. Ook regen die onder een losse rand of een rubber door wordt geblazen, zie je vooral bij wind. Kijk na zo'n bui waar het als eerste nat is: bovenin tegen de muur wijst naar de aansluiting, midden in het dak eerder naar de serre zelf.` },
+    ],
+  },
 ];
 
 // Kort antwoord bovenaan een artikel. Geen bedragen.
 export const KORT_ANTWOORD_6: Record<string, string> = {
   "welke-vakman-voor-je-dak": `Voor alles wat de regen buiten moet houden, zoals de pannen, de nok, het lood, de dakgoten, een plat dak en de kraag rond een pijp door het dak, bel je een dakdekker. Water dat ook na droge dagen druppelt, komt meestal uit een leiding: dan een loodgieter. De cv-ketel, een warmtepomp, zonnepanelen en de elektra zijn voor de installateur, het schoorsteenkanaal voor de schoorsteenveger en de stenen en voegen voor een metselaar.`,
   "mansardedak-lekt": `Bij een mansardedak, met onderaan een steil deel en daarboven een flauwer deel, zit een lek meestal bij de knik tussen die twee, waar lood of zink ligt, rond een raam in het steile deel of in de bakgoot onderaan. Binnen zie je het vaak boven in de kamer, waar de wand overgaat in het schuine stuk. Zet een emmer neer, ga niet zelf op het steile deel en stuur een foto van het dak en de natte plek.`,
+  "serre-lekt": `Lekt je serre langs de muur van het huis, dan zit het meestal in de aansluiting tegen de gevel: een strook lood, loodvervanger of een profiel die los zit, of een kitnaad die is gescheurd. Ook een overlopende dakgoot of een regenpijp boven de serre kan het zijn. Komt het water tussen het glas of de platen binnen, dan is het werk voor de leverancier van de serre.`,
 };
