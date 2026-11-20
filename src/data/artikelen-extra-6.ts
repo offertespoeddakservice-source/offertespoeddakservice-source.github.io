@@ -5,6 +5,7 @@
  * 19-11-2026 ronde 5: je mansardedak lekt.
  * 20-11-2026 ronde 2: je serre lekt bij de muur.
  * 20-11-2026 ronde 2: je dakluik lekt.
+ * 20-11-2026 ronde 3: welke dakgoot heb ik.
  */
 import type { Artikel } from "./artikelen";
 
@@ -165,6 +166,47 @@ export const ARTIKELEN_EXTRA_6: Artikel[] = [
       { v: `Het lekt alleen als ik het luik heb opengehad. Hoe kan dat?`, a: `Dan sluit het luik na het openen waarschijnlijk niet meer helemaal goed. Het rubber kan dubbel zijn geklapt, er kan vuil of grind tussen zitten, of de sluiting trekt het luik niet meer goed aan. Kijk na het sluiten of het rubber rondom netjes aanligt en of het luik recht op de rand ligt. Lekt het daarna nog, stuur me dan een foto van het luik van binnen en, als het veilig kan, van buiten.` },
     ],
   },
+  {
+    slug: `welke-dakgoot-heb-ik`,
+    datum: `2026-11-20`,
+    titel: `Welke dakgoot heb ik?`,
+    h1: `Welke dakgoot heb ik? Zo herken je je goot vanaf de straat`,
+    metaTitle: `Welke dakgoot heb ik? Zo herken je hem | Spoed Dak Service`,
+    metaDescription: `Hangende goot van zink of kunststof, bakgoot, mastgoot, verholen goot, zakgoot of kilgoot? Zo herken je je dakgoot, en waarom dat uitmaakt als hij lekt.`,
+    intro: `Lekt je goot, of wil je weten wat er nodig is, dan helpt het om te weten wat voor goot je hebt. Er zijn er meer dan je denkt: een goot die voor het dak hangt, een goot die in de dakrand ligt, een houten goot op klossen, en goten die in of tussen de daken liggen. Ze lekken op andere plekken, en bij sommige komt het water niet buiten maar binnen terecht. Hieronder lees je hoe je ze vanaf de straat herkent.`,
+    secties: [
+      { kop: `Kijk eerst vanaf de overkant van de straat`, tekst: [
+        `Ga aan de overkant staan en kijk met de zoom van je telefoon naar de onderkant van je dak. Hangt er een goot voor de onderste rij pannen, of zie je alleen een houten lijst of rand? Zit er een brede houten bak op steunen voor de gevel? En waar komt de regenpijp bovenaan uit: in een goot die je ziet, of verdwijnt hij in de dakrand? Daarmee weet je vaak al genoeg. Ga er niet voor op een ladder staan.`,
+      ] },
+      { kop: `Een hangende goot van zink`, tekst: [
+        `Een hangende goot hangt met beugels aan de voorkant van het dak, net onder de onderste rij pannen. Een zinken goot is grijs en mat, en wordt na een paar jaar donkerder. De stukken zijn aan elkaar gesoldeerd, dus bij de naden en de hoeken zie je dunne randjes soldeer en geen losse verbindingsstukken. Lekt zo'n goot, dan zie je dat meestal buiten: een druppel op één vaste plek of een groene streep op de gevel. Een lekke naad is vaak opnieuw te solderen. Lees <a href="/kennisbank/zinken-dakgoot-lekt/">zinken dakgoot lekt</a>.`,
+      ] },
+      { kop: `Een hangende goot van kunststof`, tekst: [
+        `Een kunststof goot hangt op dezelfde manier, maar is glad en heeft vaak een duidelijke kleur: grijs, wit, zwart of bruin. De stukken zitten met verbindingsstukken in elkaar, en op de hoeken zit een los hoekstuk. Daar lekt hij ook het vaakst, als het rubber of de lijm na jaren is uitgedroogd. Meestal is dat ene stuk te vervangen. Lees <a href="/kennisbank/kunststof-dakgoot-lekt/">kunststof dakgoot lekt</a>. Moet er een nieuwe goot komen en twijfel je, kijk dan bij <a href="/kennisbank/dakgoot-zink-of-kunststof/">dakgoot vervangen: zink of kunststof</a>.`,
+      ] },
+      { kop: `Een bakgoot achter een houten lijst`, tekst: [
+        `Zie je aan de voorkant geen goot, maar een houten lijst of een rand onderaan het dak, dan ligt de goot vaak daarachter, als een bak in de rand van het dak, bovenop de muur. Zo'n bakgoot is meestal van zink, en je ziet hem vooral bij huizen van voor de oorlog. Lekt een bakgoot, dan loopt het water niet langs de gevel, maar de muur in, en zie je het binnen bovenin de muur of langs het kozijn. Lees <a href="/kennisbank/bakgoot-lekt/">bakgoot lekt</a>.`,
+      ] },
+      { kop: `Een mastgoot op klossen`, tekst: [
+        `Een mastgoot is een brede houten goot die op klossen voor de gevel ligt, onder de rand van het dak. Binnenin zit meestal zink. Je herkent hem aan de dikke houten bak die een stuk voor de muur uitsteekt. Lekt het zink, dan wordt eerst het hout nat: de verf bladdert en het hout wordt zacht. Lees <a href="/kennisbank/mastgoot-lekt/">mastgoot lekt</a>.`,
+      ] },
+      { kop: `Goten die in of tussen de daken liggen`, tekst: [
+        `Een verholen goot ligt in het dakvlak zelf, een stukje boven de onderrand van het dak. Van beneden zie je hem moeilijk, wel een regenpijp die bovenaan in het dak verdwijnt. Een zakgoot ligt bijna vlak in het dal tussen twee daken die naar elkaar toe lopen, bijvoorbeeld tussen twee panden of tussen het huis en een aanbouw. Die zie je meestal alleen vanuit een raam boven of op een luchtfoto. Een kilgoot ligt schuin in de hoek waar twee dakvlakken samenkomen, zoals bij een huis met een hoek of een aanbouw met een eigen schuin dak. Lekt een van deze goten, dan komt het water meestal binnen. Lees <a href="/kennisbank/verholen-goot-lekt/">verholen goot lekt</a>, <a href="/kennisbank/zakgoot-lekt/">zakgoot lekt</a> en <a href="/kennisbank/kilgoot-lekt/">kilgoot lekt</a>.`,
+      ] },
+      { kop: `Waarom het uitmaakt welke goot je hebt`, tekst: [
+        `Bij een hangende goot valt een lek buiten, en dan kan het vaak een paar dagen wachten. Bij een bakgoot, verholen goot, zakgoot of kilgoot komt het water binnen, en dan wacht je beter niet. Ook de reparatie verschilt. Een lekke naad in zink soldeer ik opnieuw, en is het zink op meer plekken dun, dan kan ik de goot van binnen coaten. Bij kunststof vervang ik een losse verbinding of een hoekstuk. Is een goot echt op, dan vervang ik hem. Zie <a href="/diensten/dakgoot-solderen/">dakgoot solderen</a> en <a href="/diensten/dakgoot-coaten/">dakgoot van binnen coaten</a>.`,
+      ] },
+      { kop: `Twijfel je?`, tekst: [
+        `Maak vanaf de straat een foto van de onderkant van je dak, en een van de plek waar de regenpijp bovenaan uitkomt. Lekt het binnen, maak dan ook een foto van de natte plek. Stuur ze via WhatsApp, dan zeg ik wat voor goot je hebt en wat er nodig is. Je hoort vooraf wat het kost. Welke foto's het meest helpen, lees je bij <a href="/kennisbank/foto-van-je-dak-maken/">foto's van je dak maken</a>.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: dakgoot repareren of vervangen`, href: `/diensten/dakgoot-vervangen/` },
+    faq: [
+      { v: `Hoe zie ik of mijn goot van zink of kunststof is?`, a: `Kijk naar de kleur en de naden. Zink is grijs en mat, wordt na een paar jaar donkerder en heeft dunne gesoldeerde naden. Kunststof is glad, heeft vaak een duidelijke kleur zoals grijs, wit, zwart of bruin, en zit met losse verbindingsstukken en hoekstukken in elkaar. Twijfel je, stuur dan een foto van een hoek van de goot.` },
+      { v: `Ik zie aan de voorkant van mijn huis geen goot. Heb ik er dan geen?`, a: `Meestal wel, maar dan ligt hij in het dak. Vaak is het een bakgoot achter de houten lijst, of een verholen goot die wat hoger in het dakvlak ligt. Kijk waar de regenpijp bovenaan uitkomt: verdwijnt hij in de dakrand of in het dak, dan ligt de goot daar. Stuur me een foto van de dakrand vanaf de straat, dan zeg ik wat ik zie.` },
+      { v: `Welke goten lekken naar binnen?`, a: `Een bakgoot, een verholen goot, een zakgoot en een kilgoot liggen op of in het dak, boven de muur of de zolder. Lekt een van die goten, dan komt het water meestal binnen, bovenin de muur, op het plafond of op zolder. Een hangende goot en een mastgoot zitten voor de gevel, en daar valt een lek meestal buiten. Komt het water binnen, stuur me dan zo snel je kunt een foto.` },
+    ],
+  },
 ];
 
 // Kort antwoord bovenaan een artikel. Geen bedragen.
@@ -173,4 +215,5 @@ export const KORT_ANTWOORD_6: Record<string, string> = {
   "mansardedak-lekt": `Bij een mansardedak, met onderaan een steil deel en daarboven een flauwer deel, zit een lek meestal bij de knik tussen die twee, waar lood of zink ligt, rond een raam in het steile deel of in de bakgoot onderaan. Binnen zie je het vaak boven in de kamer, waar de wand overgaat in het schuine stuk. Zet een emmer neer, ga niet zelf op het steile deel en stuur een foto van het dak en de natte plek.`,
   "serre-lekt": `Lekt je serre langs de muur van het huis, dan zit het meestal in de aansluiting tegen de gevel: een strook lood, loodvervanger of een profiel die los zit, of een kitnaad die is gescheurd. Ook een overlopende dakgoot of een regenpijp boven de serre kan het zijn. Komt het water tussen het glas of de platen binnen, dan is het werk voor de leverancier van de serre.`,
   "dakluik-lekt": `Lekt het bij je dakluik op een plat dak, dan zit het meestal in de opstaande rand waar de dakbedekking tegen omhoog loopt, in het rubber tussen het luik en de rand, of in water dat na een bui tegen het luik blijft staan. Druppelt het alleen op koude ochtenden, ook na een droge nacht, dan is het vaak condens.`,
+  "welke-dakgoot-heb-ik": `Hangt er een goot met beugels voor de onderste rij pannen, dan heb je een hangende goot van zink of kunststof. Zie je alleen een houten lijst, dan ligt er vaak een bakgoot achter, en een brede houten bak op klossen is een mastgoot. Verholen goten, zakgoten en kilgoten liggen in of tussen de daken, en als die lekken, komt het water meestal binnen.`,
 };
