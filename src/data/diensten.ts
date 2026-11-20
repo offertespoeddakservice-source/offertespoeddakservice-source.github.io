@@ -121,6 +121,13 @@ export const DIENSTEN: Dienst[] = [
     slug: "daklekkage",
     titel: "Daklekkage & spoed",
     vanafPrijs: LEK_PRIJS,
+    zieOok: [
+      { label: "Lekkend dakraam repareren", href: "/diensten/dakraam-lekkage/" },
+      { label: "Lood bij schoorsteen, muur of dakraam vervangen", href: "/diensten/lood-vervangen/" },
+      { label: "Lekkage langs een pijp door het dak (dakdoorvoer)", href: "/diensten/dakdoorvoer/" },
+      { label: "Kilgoot repareren", href: "/diensten/kilgoot-repareren/" },
+      { label: "Bakgoot repareren", href: "/diensten/bakgoot-repareren/" },
+    ],
     h1: "Daklekkage met spoed verhelpen: vaak dezelfde dag langs in de regio Den Bosch",
     kort: "Lek opsporen zonder sloopwerk en snel dichten, ook bij spoed.",
     metaTitle: "Daklekkage spoed: lek zoeken en dichten | Spoed Dak Service",
