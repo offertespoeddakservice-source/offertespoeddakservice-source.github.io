@@ -363,7 +363,7 @@ export const DIENSTEN: Dienst[] = [
   },
   {
     slug: "dakgoot-vervangen",
-    titel: "Dakgoot vervangen",
+    titel: "Dakgoot repareren of vervangen",
     vanafPrijs: "stuur een foto",
     zieOok: [
       { label: "Regenpijp vervangen", href: "/diensten/regenpijp-vervangen/" },
