@@ -11,6 +11,7 @@
  * 20-11-2026 ronde 4: je dakgoot lekt aan het eind, bij het eindstuk.
  * 20-11-2026 ronde 4: welke dakbedekking ligt er op je platte dak.
  * 21-11-2026 ronde 1: het dak van je appartementengebouw lekt (VvE).
+ * 21-11-2026 ronde 1: je dakdekker komt niet opdagen of maakt het werk niet af.
  */
 import type { Artikel } from "./artikelen";
 
@@ -420,6 +421,44 @@ export const ARTIKELEN_EXTRA_6: Artikel[] = [
       { v: `Kan de VvE het dak laten nakijken voordat het lekt?`, a: `Ja. Laat het platte dak, de afvoeren en de dakranden bijvoorbeeld nakijken als het blad gevallen is. Een afvoer die vol blad zit, is op een plat dak een van de bekendste oorzaken van een lek. Stuur gerust een foto van het dak die je maakt zonder het dak op te gaan, bijvoorbeeld vanuit een raam hoger in de buurt, dan zeg ik wat ik zie.` },
     ],
   },
+  {
+    slug: `dakdekker-komt-niet-opdagen`,
+    datum: `2026-11-21`,
+    titel: `Je dakdekker komt niet of maakt het niet af?`,
+    h1: `Je dakdekker komt niet opdagen of maakt het werk niet af: wat doe je nu?`,
+    metaTitle: `Dakdekker komt niet opdagen: wat nu? | Spoed Dak Service`,
+    metaDescription: `Komt je dakdekker niet, reageert hij niet meer of ligt je dak half open? Zo houd je het binnen droog, leg je het vast en laat je het werk zo nodig afmaken.`,
+    intro: `Je had een afspraak, maar de dakdekker komt niet. Of hij is begonnen en daarna niet meer teruggekomen, en nu ligt er een stuk dak open. Dat is vervelend, zeker als het binnen nat wordt. Hieronder lees je wat je eerst doet, hoe je het netjes vastlegt en wanneer je iemand anders het werk kunt laten afmaken.`,
+    secties: [
+      { kop: `Lekt het nu, of ligt je dak open?`, tekst: [
+        `Zet een emmer onder de druppel, haal spullen weg en zet in de meterkast de groep van die kamer uit als het bij een lamp of stopcontact nat wordt. Ga niet zelf het dak op en trek niet aan een zeil of folie dat er nog ligt. Maak foto's van hoe het dak er nu bij ligt, vanaf de straat, en van de natte plek binnen, met de datum erbij. Wat je verder meteen kunt doen, staat op de <a href="/spoed/">spoedpagina</a>.`,
+      ] },
+      { kop: `Stuur een bericht en leg het vast`, tekst: [
+        `Bel of app de dakdekker nog een keer, en zet het daarna ook in een mail of brief: wat jullie hadden afgesproken, wat er al is gedaan, wat er nog moet en dat je wilt weten wanneer hij komt. Noem een datum waarop je antwoord wilt. Bewaar de offerte, de appjes, de foto's en de betaalbewijzen. Dan heb je later zwart op wit wat er is gebeurd.`,
+      ] },
+      { kop: `Heb je al iets betaald?`, tekst: [
+        `Zet dat dan in hetzelfde bericht, met het bedrag en de datum, en vraag wanneer het werk wordt afgemaakt. Reageert hij helemaal niet meer, zoek het bedrijf dan op in het Handelsregister van de KvK om te zien of het nog bestaat. Weet je niet hoe je verder moet, dan kun je gratis advies vragen bij het Juridisch Loket. Betaal niet nog een keer vooruit aan iemand die al eens niet kwam.`,
+      ] },
+      { kop: `Mag een ander het afmaken?`, tekst: [
+        `Meestal wel, maar spreek het eerst helder af. Schrijf je eerste dakdekker dat je het werk door iemand anders laat afmaken als hij niet vóór de datum in je bericht komt. Dan weet hij waar hij aan toe is, en voorkom je later gedoe over wie wat heeft gedaan. Lekt het in de tussentijd, dan hoef je daar niet op te wachten: een lek laten dichtmaken of een open stuk laten afdekken om erger te voorkomen, mag in de regel meteen. Bewaar daar de rekening van.`,
+      ] },
+      { kop: `Waar het bij half werk meestal misgaat`, tekst: [
+        `Pannen die er los op liggen en niet goed in de rij haken. Een strook lood of loodvervanger die nog niet is vastgezet. Een nieuwe goot zonder eindstuk, of een goot die niet naar de regenpijp afloopt. Een plat dak waar de nieuwe bedekking nog niet tegen de rand of de muur is afgewerkt. Juist op zulke plekken komt het water bij de eerste flinke bui binnen. Kijk vanaf de straat of de tuin, niet vanaf een ladder.`,
+      ] },
+      { kop: `Hoe ik het aanpak`, tekst: [
+        `Stuur me foto's van je dak vanaf de straat en van de natte plek, en zeg erbij wat er met je vorige dakdekker was afgesproken. Lekt het, dan zorg ik eerst dat het binnen droog blijft. Daarna kijk ik wat er ligt en zeg ik eerlijk wat er nog moet gebeuren om het af te maken, en wat dat kost, voordat ik begin. Ik maak foto's van wat ik aantref en van wat ik doe, zodat je die kunt bewaren. Wat er met de afspraak en de rekening van je vorige dakdekker gebeurt, regel je met hem zelf. Zie <a href="/diensten/dakreparatie/">dakreparatie</a> en <a href="/diensten/daklekkage/">daklekkage</a>.`,
+      ] },
+      { kop: `Zo voorkom je het de volgende keer`, tekst: [
+        `Spreek vooraf af wanneer het werk begint en wanneer het klaar is, en zet dat in de offerte of een appje. Kijk of het bedrijf in het Handelsregister staat en vraag of het verzekerd is. Lees ook <a href="/kennisbank/hoe-herken-je-een-betrouwbare-dakdekker/">hoe herken je een betrouwbare dakdekker</a>, <a href="/kennisbank/keurmerk-dakdekker/">wat een keurmerk zegt</a> en <a href="/kennisbank/dakdekker-komt-wat-regel-je/">wat je regelt als de dakdekker komt</a>.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: spoed dakreparatie (pannen, lood en nok)`, href: `/diensten/dakreparatie/` },
+    faq: [
+      { v: `Hoe lang wacht ik voordat ik een andere dakdekker bel?`, a: `Dat hangt af van je dak. Lekt het of ligt er een stuk open, dan wacht je niet: laat het eerst dichtmaken of afdekken. Is het binnen droog, geef de eerste dakdekker dan in je bericht een duidelijke datum, bijvoorbeeld over een week of twee. Komt hij dan nog niet, dan weet hij dat je het door een ander laat afmaken.` },
+      { v: `Kun jij werk afmaken waar een ander aan begonnen is?`, a: `Vaak wel. Ik kijk eerst wat er ligt en wat er al gedaan is, en zeg eerlijk wat er nog moet. Soms moet een deel opnieuw, bijvoorbeeld als pannen niet goed in de rij liggen of de goot verkeerd afloopt. Je hoort vooraf wat het kost.` },
+      { v: `Er ligt nog materiaal van de vorige dakdekker bij mijn huis. Mag dat gebruikt worden?`, a: `Vraag hem eerst of het materiaal van jou is of van hem, en zet zijn antwoord op papier of in een appje. Is het van jou en past het bij je dak, dan kan ik het vaak gewoon gebruiken. Zeg het erbij als je foto's stuurt.` },
+    ],
+  },
 ];
 
 // Kort antwoord bovenaan een artikel. Geen bedragen.
@@ -434,4 +473,5 @@ export const KORT_ANTWOORD_6: Record<string, string> = {
   "dakgoot-lekt-aan-het-eind": `Lekt je dakgoot precies aan het uiteinde, op de hoek bij de zijgevel, dan zit het meestal in het eindstuk: de lijm of het rubber van een kunststof kapje is op, of de soldeernaad van een zinken goot is gescheurd. Vaak blijft er ook water bij het eind staan, omdat de goot niet goed naar de regenpijp afloopt. Dan is een nieuw eindstuk alleen niet genoeg, en moet de goot ook weer op afschot.`,
   "welke-dakbedekking-heb-ik": `Bitumen herken je aan banen met een overlap en vaak steentjes bovenop. EPDM is glad zwart rubber, meestal in één stuk met een aluminium rand. Zie je alleen grind, dan ligt de bedekking eronder, en een lichtgrijze, gladde bedekking is vaak een kunststof dakbaan. Welke het ook is: een plat dak lekt meestal bij de afvoer, de rand, de hoeken of waar het tegen een muur omhoog loopt.`,
   "daklekkage-vve": `Lekt het in je appartement door het dak, zet dan eerst een emmer neer en meld het meteen bij het bestuur of de beheerder van de VvE, met foto's en de datum. In een appartementengebouw is het dak in de regel van alle eigenaren samen, en de VvE geeft de opdracht voor de reparatie. Druppelt het binnen en is er niemand te bereiken, dan mag je de schade in de regel eerst laten beperken.`,
+  "dakdekker-komt-niet-opdagen": `Komt je dakdekker niet, of heeft hij het werk niet afgemaakt, zorg dan eerst dat het binnen droog blijft: een lek of een open stuk dak laat je meteen dichtmaken of afdekken. Stuur de dakdekker daarna een bericht met wat er was afgesproken en een datum waarop je antwoord wilt, en bewaar de offerte, de appjes en de foto's. Komt hij dan nog niet, dan kun je het werk door een ander laten afmaken.`,
 };
