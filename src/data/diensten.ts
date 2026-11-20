@@ -323,7 +323,7 @@ export const DIENSTEN: Dienst[] = [
     vanafPrijs: "spoed, prijs vooraf",
     h1: "Stormschade aan je dak? Bel direct, ik beperk eerst de schade",
     kort: "Weggewaaide pannen, losse delen of lekkage na storm? Snel actie.",
-    metaTitle: "Stormschade dak: noodreparatie Den Bosch | Spoed Dak Service",
+    metaTitle: "Stormschade aan je dak: noodreparatie | Spoed Dak Service",
     metaDescription:
       "Stormschade aan je dak: weggewaaide pannen, een losse nok of lekkage? Ik dek eerst af en herstel daarna netjes, met foto's voor je verzekering. Regio Den Bosch.",
     icoon: "🌬️",
