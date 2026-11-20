@@ -11,6 +11,7 @@
 // 18-11-2026: titel voor Google van dakgoot lekt met oorzaak en wat nu (1219 vertoningen, 1 klik).
 // 19-11-2026 ronde 4: titel voor Google van druppelen horen (plek 5,9, 0 kliks) en lichtkoepel lekt (plek 23,8, 0 kliks).
 // 19-11-2026 ronde 5: titel voor Google van wat kost dakgoot schoonmaken met de vanaf-prijs voor één goot uit prijzen.ts (1476 vertoningen op plek 79, 0 kliks). Niet 'per goot': de prijs geldt voor één goot, voor beide goten hoor je hem vooraf.
+// 20-11-2026 ronde 2: titel voor Google van wat kost een dakinspectie, met het zoekwoord vooraan en de Dak-APK-prijs uit prijzen.ts (dakinspectie kosten 241 vertoningen op plek 48, 0 kliks).
 // Kennisbank [slug].astro legt hem over het artikel heen: alleen de velden die hier staan, veranderen (ook de titel voor Google).
 import type { Artikel } from "./artikelen";
 import { prijsVan } from "./prijzen";
@@ -97,4 +98,5 @@ export const ARTIKEL_CORRECTIES: Record<string, Partial<Pick<Artikel, "secties" 
   "druppelen-horen-plafond": { metaTitle: "Druppelen in plafond, maar geen vlek? | Spoed Dak Service" },
   "lichtkoepel-lekt": { metaTitle: "Lichtkoepel lekt: rand of condens? | Spoed Dak Service" },
   "wat-kost-dakgoot-schoonmaken": { metaTitle: `Dakgoot schoonmaken kosten: ${prijsVan("goot_reinigen")} voor één goot` },
+  "wat-kost-een-dakinspectie": { metaTitle: `Dakinspectie kosten: Dak-APK voor ${prijsVan("apk")} | Spoed Dak Service` },
 };
