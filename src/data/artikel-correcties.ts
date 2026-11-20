@@ -13,6 +13,7 @@
 // 19-11-2026 ronde 5: titel voor Google van wat kost dakgoot schoonmaken met de vanaf-prijs voor één goot uit prijzen.ts (1476 vertoningen op plek 79, 0 kliks). Niet 'per goot': de prijs geldt voor één goot, voor beide goten hoor je hem vooraf.
 // 20-11-2026 ronde 2: titel voor Google van wat kost een dakinspectie, met het zoekwoord vooraan en de Dak-APK-prijs uit prijzen.ts (dakinspectie kosten 241 vertoningen op plek 48, 0 kliks).
 // 20-11-2026 ronde 3: titel voor Google van dakterras of balkon lekt (plek 8,8, 57 vertoningen, 0 kliks), met de situatie die mensen herkennen.
+// 20-11-2026 ronde 5: titel voor Google van dakgoot loopt over, met de woorden waarop mensen zoeken ('water loopt over de dakgoot' 46 vertoningen op plek 26,5, artikel 107 vertoningen op plek 34,8, 0 kliks).
 // Kennisbank [slug].astro legt hem over het artikel heen: alleen de velden die hier staan, veranderen (ook de titel voor Google).
 import type { Artikel } from "./artikelen";
 import { prijsVan } from "./prijzen";
@@ -101,4 +102,5 @@ export const ARTIKEL_CORRECTIES: Record<string, Partial<Pick<Artikel, "secties" 
   "wat-kost-dakgoot-schoonmaken": { metaTitle: `Dakgoot schoonmaken kosten: ${prijsVan("goot_reinigen")} voor één goot` },
   "wat-kost-een-dakinspectie": { metaTitle: `Dakinspectie kosten: Dak-APK voor ${prijsVan("apk")} | Spoed Dak Service` },
   "dakterras-lekt": { metaTitle: "Balkon of dakterras lekt naar beneden? | Spoed Dak Service" },
+  "dakgoot-loopt-over": { metaTitle: "Water loopt over je dakgoot bij regen? | Spoed Dak Service" },
 };
