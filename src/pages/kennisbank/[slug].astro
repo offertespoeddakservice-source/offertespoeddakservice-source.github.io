@@ -347,7 +347,7 @@ const schema = faqSchema ? [articleSchema, faqSchema] : articleSchema;
             <h2>{s.kop}</h2>
             {s.tekst.map((p) => <p set:html={p} />)}
             {i === 0 && toonSpoedregel && (
-              <p><strong>Lekt het nu?</strong> Ga niet zelf het dak op. Wat je meteen kunt doen, staat op de <a href="/spoed/">spoedpagina</a>. Of stuur me een foto van de natte plek via <a href={waHref("Hallo, mijn dak lekt. Ik stuur je een foto.")}>WhatsApp</a>, dan kijk ik mee.</p>
+              <p><strong>Lekt het nu?</strong> Ga niet zelf het dak op. Wat je meteen kunt doen, staat op de <a href="/spoed/">spoedpagina</a>. Of stuur me een foto van de natte plek via <a href={waHref("Hallo, mijn dak lekt. Ik stuur je een foto.")}>WhatsApp</a>, dan kijk ik mee. Druppelt het hard of bolt het plafond op, bel dan meteen: <a href={telHref}>{SITE.telefoonWeergave}</a>, dag en nacht.</p>
             )}
             {i === 0 && GOOT_FOTOREGEL.has(a.slug) && (
               <p><strong>Vol of lek?</strong> Twijfel je of je goot alleen vol zit of echt lekt? Maak vanaf de straat een foto, het liefst tijdens of vlak na een bui, en stuur die via <a href={waHref("Hallo, ik heb een vraag over mijn dakgoot. Ik stuur je een foto.")}>WhatsApp</a>. Dan zeg ik wat ik zie, en je hoort vooraf de vaste prijs.</p>
