@@ -260,6 +260,22 @@ const REPARATIE_EXTRA_2 = [
 const GOTEN_SCHOON_EXTRA_2 = [
   bestaatArtikel("dak-winterklaar-maken") ? 'Wil je weten waar je voor de winter verder op je dak naar kijkt, lees dan <a href="/kennisbank/dak-winterklaar-maken/">je dak winterklaar maken</a>.' : "",
 ].filter(Boolean).join(" ");
+// 21-11-2026 ronde 1: per klus nog een extra zin naar uitleg met weinig binnenkomende links en naar de nieuwe artikelen van 21-11, alleen als het artikel bestaat. De zinnen erboven blijven zoals ze zijn.
+const LEK_EXTRA_3 = [
+  bestaatArtikel("daklekkage-vve") ? 'Woon je in een appartementengebouw en komt het water door het dak van het gebouw, lees dan in <a href="/kennisbank/daklekkage-vve/">daklekkage bij een VvE</a> hoe je het meldt en wie de reparatie regelt.' : "",
+  bestaatArtikel("ventilatiepan-lekt") ? 'Druppelt het op zolder onder een pan met een roostertje of kapje, kijk dan bij <a href="/kennisbank/ventilatiepan-lekt/">ventilatiepan lekt</a>.' : "",
+  bestaatArtikel("water-uit-zolderluik") ? 'En komt er water uit je zolderluik of langs de vlizotrap, lees dan <a href="/kennisbank/water-uit-zolderluik/">water uit je zolderluik</a>.' : "",
+].filter(Boolean).join(" ");
+const REPARATIE_EXTRA_3 = [
+  bestaatArtikel("lood-schoorsteen-vervangen") ? 'Moet het lood rond je schoorsteen vervangen worden, lees dan stap voor stap hoe dat gaat in <a href="/kennisbank/lood-schoorsteen-vervangen/">lood rond je schoorsteen laten vervangen</a>.' : "",
+  bestaatArtikel("dakdekker-komt-niet-opdagen") ? 'Is een andere dakdekker aan je dak begonnen en niet teruggekomen, kijk dan bij <a href="/kennisbank/dakdekker-komt-niet-opdagen/">je dakdekker komt niet opdagen</a> wat je nu doet.' : "",
+].filter(Boolean).join(" ");
+const STORM_EXTRA_2 = [
+  bestaatArtikel("hagelschade-dak") ? 'Is er na een hagelbui iets kapot op je dak, zoals een lichtkoepel of een glazen pan, lees dan <a href="/kennisbank/hagelschade-dak/">hagelschade aan je dak</a>.' : "",
+].filter(Boolean).join(" ");
+const GOOT_EXTRA_3 = [
+  bestaatArtikel("water-spat-over-dakgoot") ? 'Klettert het water bij een bui over je goot heen terwijl hij bijna leeg is, kijk dan bij <a href="/kennisbank/water-spat-over-dakgoot/">water spat over de dakgoot</a>.' : "",
+].filter(Boolean).join(" ");
 const verder = verderLezen[d.slug];
 // Interne links: de andere klussen in deze plaats, en dezelfde klus in de andere plaatsen.
 const zelfdePlaats = MATRIX.filter((c) => c.plaats === p.slug && c.dienst !== d.slug)
@@ -366,6 +382,10 @@ if (["daklekkage", "stormschade", "dakreparatie"].includes(d.slug)) (schema[0] a
           {d.slug === "dakgoot-vervangen" && GOOT_EXTRA_2 && <p set:html={GOOT_EXTRA_2} />}
           {d.slug === "dakreparatie" && REPARATIE_EXTRA_2 && <p set:html={REPARATIE_EXTRA_2} />}
           {d.slug === "goten-reinigen" && GOTEN_SCHOON_EXTRA_2 && <p set:html={GOTEN_SCHOON_EXTRA_2} />}
+          {d.slug === "daklekkage" && LEK_EXTRA_3 && <p set:html={LEK_EXTRA_3} />}
+          {d.slug === "dakreparatie" && REPARATIE_EXTRA_3 && <p set:html={REPARATIE_EXTRA_3} />}
+          {d.slug === "stormschade" && STORM_EXTRA_2 && <p set:html={STORM_EXTRA_2} />}
+          {d.slug === "dakgoot-vervangen" && GOOT_EXTRA_3 && <p set:html={GOOT_EXTRA_3} />}
         </>
       )}
       <h3>In het kort</h3>
