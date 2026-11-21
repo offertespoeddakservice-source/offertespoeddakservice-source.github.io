@@ -16,12 +16,14 @@
 // 20-11-2026 ronde 5: titel voor Google van dakgoot loopt over, met de woorden waarop mensen zoeken ('water loopt over de dakgoot' 46 vertoningen op plek 26,5, artikel 107 vertoningen op plek 34,8, 0 kliks).
 // 21-11-2026 ronde 2: knop onder golfplaten lekken en welke golfplaten heb ik naar de nieuwe dienst golfplaten en dakplaten vervangen, alleen als die dienst bestaat.
 // 21-11-2026 ronde 3: titel voor Google van plat dak repareren of vervangen (1093 vertoningen op plek 83, 0 kliks), met 'dakbedekking' vooraan en anders dan de titel van de dienstpagina platte daken; en een omschrijving voor natte isolatie (plek 5,5, 245 vertoningen, 0,8% klikt).
+// 21-11-2026 ronde 5: knop onder dakonderhoud per seizoen naar de nieuwe dienst dakonderhoud, alleen als die dienst bestaat.
 // Kennisbank [slug].astro legt hem over het artikel heen: alleen de velden die hier staan, veranderen (ook de titel voor Google).
 import type { Artikel } from "./artikelen";
 import { prijsVan } from "./prijzen";
 import { DIENSTEN } from "./diensten";
 
 const GOLFPLATEN_DIENST = DIENSTEN.some((d) => d.slug === "golfplaten-vervangen" && !d.verborgen);
+const DAKONDERHOUD_DIENST = DIENSTEN.some((d) => d.slug === "dakonderhoud" && !d.verborgen);
 
 export const ARTIKEL_CORRECTIES: Record<string, Partial<Pick<Artikel, "secties" | "faq" | "dienst" | "metaTitle" | "metaDescription">>> = {
   "mos-op-dak-verwijderen": {
@@ -110,4 +112,5 @@ export const ARTIKEL_CORRECTIES: Record<string, Partial<Pick<Artikel, "secties" 
   "dakterras-lekt": { metaTitle: "Balkon of dakterras lekt naar beneden? | Spoed Dak Service" },
   "dakgoot-loopt-over": { metaTitle: "Water loopt over je dakgoot bij regen? | Spoed Dak Service" },
   ...(GOLFPLATEN_DIENST ? { "golfplaten-lekken": { dienst: { label: "Bekijk: golfplaten en dakplaten vervangen", href: "/diensten/golfplaten-vervangen/" } }, "welke-golfplaten-heb-ik": { dienst: { label: "Bekijk: golfplaten en dakplaten vervangen", href: "/diensten/golfplaten-vervangen/" } } } : {}),
+  ...(DAKONDERHOUD_DIENST ? { "dakonderhoud-per-seizoen": { dienst: { label: "Bekijk: dakonderhoud", href: "/diensten/dakonderhoud/" } } } : {}),
 };
