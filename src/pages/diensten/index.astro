@@ -20,6 +20,9 @@ const klimopBestaat = ARTIKELEN.some((a) => a.slug === "klimop-op-dak-of-in-dakg
 const marterBestaat = ARTIKELEN.some((a) => a.slug === "marter-onder-dakpannen" && !a.verborgen);
 // 19-11-2026 ronde 4: zin naar de uitleg over welke vakman je belt, alleen als dat artikel bestaat.
 const vakmanBestaat = ARTIKELEN.some((a) => a.slug === "welke-vakman-voor-je-dak" && !a.verborgen);
+// 21-11-2026 ronde 1: regel voor lekkage in een appartementengebouw en een dakdekker die niet komt. Alleen links naar artikelen die bestaan.
+const vveBestaat = ARTIKELEN.some((a) => a.slug === "daklekkage-vve" && !a.verborgen);
+const nietGekomenBestaat = ARTIKELEN.some((a) => a.slug === "dakdekker-komt-niet-opdagen" && !a.verborgen);
 // 20-11-2026 ronde 4: regel om je dak, goot, pannen of dakbedekking te herkennen. Alleen links naar artikelen die bestaan.
 const herken = [
   { slug: "welk-soort-dak-heb-ik", anker: "welk soort dak" },
@@ -99,6 +102,7 @@ const faqSchema = { "@context": "https://schema.org", "@type": "FAQPage", mainEn
         <li><strong>Een losse of kapotte pan, een nokvorst die scheef ligt of lood dat loszit?</strong> Dat valt onder <a href="/diensten/dakreparatie/">dakreparatie</a>.</li>
         {(klimopBestaat || marterBestaat) && <li><strong>Groeit er klimop over je dakrand, of hoor je 's nachts gestommel onder de pannen?</strong> Dan kunnen er pannen zijn opgetild of verschoven. Lees {klimopBestaat && <a href="/kennisbank/klimop-op-dak-of-in-dakgoot/">klimop op je dak of in je dakgoot</a>}{klimopBestaat && marterBestaat && " of "}{marterBestaat && <a href="/kennisbank/marter-onder-dakpannen/">een marter onder je dakpannen</a>}, en kijk bij <a href="/diensten/dakpannen-vervangen/">dakpannen vervangen</a> wat ik eraan doe.</li>}
         <li><strong>Lekt het platte dak van je aanbouw, garage of berging?</strong> Zie <a href="/diensten/platte-daken/">platte daken</a>.</li>
+        {(vveBestaat || nietGekomenBestaat) && <li><strong>Woon je in een appartement, of komt je dakdekker niet?</strong> {vveBestaat && <>Lekt het door het dak van je appartementengebouw, lees dan <a href="/kennisbank/daklekkage-vve/">daklekkage bij een VvE</a>.</>}{vveBestaat && nietGekomenBestaat && " "}{nietGekomenBestaat && <>Is een andere dakdekker niet gekomen of niet teruggekomen, kijk dan bij <a href="/kennisbank/dakdekker-komt-niet-opdagen/">je dakdekker komt niet opdagen</a>.</>}</li>}
         <li><strong>Lekt het naast de schoorsteen, rond een dakraam of bij een dakkapel?</strong> Dan zit het vaak in het lood of in de aansluiting op de pannen: zie <a href="/diensten/lood-vervangen/">lood vervangen</a>. Hoe je het herkent, lees je in <a href="/kennisbank/dakraam-lekt/">dakraam lekt</a> en <a href="/kennisbank/dakkapel-lekt/">dakkapel lekt</a>.</li>
         {brandBestaat && <li><strong>Heb je een schoorsteenbrand gehad?</strong> Stook niet tot een schoorsteenveger het kanaal heeft nagekeken. Het lood en de pannen rond de schoorsteen kijk ik daarna na: lees <a href="/kennisbank/dak-nakijken-na-schoorsteenbrand/">je dak nakijken na een schoorsteenbrand</a>.</li>}
         <li><strong>Druppelt het langs een pijp die door het dak gaat, bij je cv-ketel, afzuigkap of kachel?</strong> Dan zit het vaak in de kraag of de doorvoerpan op het dak: zie <a href="/diensten/dakdoorvoer/">dakdoorvoer plaatsen of herstellen</a>.</li>
