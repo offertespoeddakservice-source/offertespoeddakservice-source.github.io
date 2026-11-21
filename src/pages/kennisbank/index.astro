@@ -35,6 +35,9 @@ const soortHuis = SOORT_HUIS.map((s) => zichtbaar.find((a) => a.slug === s)).fil
 // Dieren en planten op je dak: een gewone regel met de uitleg over vogels, kraaien, duiven, een marter, klimop en planten in de goot (19-11-2026). Een artikel dat verborgen is of niet bestaat, valt vanzelf weg.
 const DIEREN = ["vogels-onder-dakpannen", "kraaien-mos-van-dak", "duiven-onder-zonnepanelen", "marter-onder-dakpannen", "klimop-op-dak-of-in-dakgoot", "planten-in-dakgoot"];
 const dieren = DIEREN.map((s) => zichtbaar.find((a) => a.slug === s)).filter((a) => a) as typeof ARTIKELEN;
+// Schuur, carport en aanbouw: een gewone regel met de uitleg over daken van bijgebouwen (21-11-2026 ronde 2). Een artikel dat verborgen is of niet bestaat, valt vanzelf weg.
+const SCHUUR = ["golfplaten-lekken", "pannendak-schuur-lekt", "garagebox-dak-lekt", "dakleer-repareren", "veranda-of-overkapping-lekt", "serre-lekt", "lekkage-bij-aanbouw"];
+const schuur = SCHUUR.map((s) => zichtbaar.find((a) => a.slug === s)).filter((a) => a) as typeof ARTIKELEN;
 // Gestructureerde gegevens: de kennisbank als verzameling, met alle zichtbare artikelen in de volgorde van de pagina.
 const lijstSchema = {
   "@context": "https://schema.org",
@@ -87,6 +90,9 @@ const lijstSchema = {
       )}
       {dieren.length > 0 && (
         <p style="margin:0 0 28px;"><strong>Dieren en planten op je dak:</strong> {dieren.map((a, i) => (<>{i > 0 && ", "}<a href={`/kennisbank/${a.slug}/`}>{a.titel.replace(/\?$/, "")}</a></>))}.</p>
+      )}
+      {schuur.length > 0 && (
+        <p style="margin:0 0 28px;"><strong>Schuur, carport en aanbouw:</strong> {schuur.map((a, i) => (<>{i > 0 && ", "}<a href={`/kennisbank/${a.slug}/`}>{a.titel.replace(/\?$/, "")}</a></>))}.</p>
       )}
       {groepen.map((g, i) => (
         <>
