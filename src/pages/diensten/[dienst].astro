@@ -162,7 +162,8 @@ const platHerkenBestaat = ARTIKELEN.some((a) => a.slug === "welke-dakbedekking-h
       <div class="btn-row" style="margin-top:22px;">
         {!d.verborgen && <a class="btn btn--primary" href="/quiz/">Gratis prijsindicatie, vaak binnen 10 minuten</a>}
         <a class="btn btn--wa" href={waHref(`Hallo, ik heb een vraag over ${d.titel.toLowerCase()}. Ik stuur een foto mee.`)}>Stuur een foto via WhatsApp</a>
-        {d.verborgen && <a class="btn btn--primary" href={telHref}>Bel {SITE.telefoonWeergave}</a>}
+        {/* 21-11-2026 ronde 2: bij de spoed-diensten ook bovenaan een belknop, naast de quiz en WhatsApp. */}
+        {(d.verborgen || SPOED_DIENSTEN.includes(d.slug)) && <a class="btn btn--primary" href={telHref}>Bel {SITE.telefoonWeergave}</a>}
       </div>
       {!d.geenAfbeelding && <img src={d.afbeelding ?? `/img/${d.slug}.jpg`} alt={`${d.titel}, Spoed Dak Service`} loading="eager" fetchpriority="high" width="1000" height="746" style="margin-top:28px;border-radius:12px;width:100%;max-width:820px;height:auto;display:block;" />}
     </div>
