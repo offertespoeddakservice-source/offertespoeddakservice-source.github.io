@@ -12,6 +12,7 @@
  * 20-11-2026 ronde 4: welke dakbedekking ligt er op je platte dak.
  * 21-11-2026 ronde 1: het dak van je appartementengebouw lekt (VvE).
  * 21-11-2026 ronde 1: je dakdekker komt niet opdagen of maakt het werk niet af.
+ * 21-11-2026 ronde 2: welke golfplaten of dakplaten liggen er op je schuur.
  */
 import type { Artikel } from "./artikelen";
 
@@ -459,6 +460,48 @@ export const ARTIKELEN_EXTRA_6: Artikel[] = [
       { v: `Er ligt nog materiaal van de vorige dakdekker bij mijn huis. Mag dat gebruikt worden?`, a: `Vraag hem eerst of het materiaal van jou is of van hem, en zet zijn antwoord op papier of in een appje. Is het van jou en past het bij je dak, dan kan ik het vaak gewoon gebruiken. Zeg het erbij als je foto's stuurt.` },
     ],
   },
+  {
+    slug: `welke-golfplaten-heb-ik`,
+    datum: `2026-11-21`,
+    titel: `Welke golfplaten of dakplaten liggen er op je schuur?`,
+    h1: `Welke golfplaten of dakplaten liggen er op je schuur, carport of aanbouw? Zo herken je ze`,
+    metaTitle: `Welke golfplaten heb ik? Zo herken je ze | Spoed Dak Service`,
+    metaDescription: `Grijze golfplaten, bitumen, lichtplaten of staal? Zo zie je wat er op je schuur, carport of aanbouw ligt, waar het meestal lekt en wanneer je eerst laat testen.`,
+    intro: `Op schuren, carports, bergingen en aanbouwen liggen vaak geen pannen, maar platen. Van onderen lijken ze op elkaar, maar ze zijn van heel verschillend materiaal. Dat maakt uit als het lekt: elke soort lekt op zijn eigen plekken, en bij oude grijze platen moet je eerst weten of er asbest in zit voordat iemand eraan werkt. Hieronder lees je hoe je de soorten herkent, vanaf de grond of van binnen.`,
+    secties: [
+      { kop: `Ga niet op de platen staan`, tekst: [
+        `Golfplaten, lichtplaten en de meeste dakplaten zijn niet gemaakt om op te lopen. Een oude plaat kan onder je voeten breken, en dan val je erdoorheen. Kijk dus van onderen, vanuit de schuur of carport, of vanaf de grond met de zoom van je telefoon. Lekt het nu, zet dan een bak onder de druppel en haal spullen weg die nat kunnen worden.`,
+      ] },
+      { kop: `Grijze golfplaten`, tekst: [
+        `Grijs, stug en met een ruw oppervlak, vaak met mos of korstmos erop. Dat zijn golfplaten van vezelcement. Platen van voor 1994 kunnen asbest bevatten. Boor, zaag of schuur er dan niet in, spuit ze niet schoon met een hogedrukreiniger en breek ze niet. Laat eerst onderzoeken of er asbest in zit. Hoe dat in jouw plaats gaat, kun je navragen bij je gemeente. Lekken doen deze platen meestal bij een schroef, bij een scheur of bij de overlap met de plaat ernaast.`,
+      ] },
+      { kop: `Bitumen golfplaten`, tekst: [
+        `Lichter en buigzamer dan vezelcement, vaak zwart, rood, groen of bruin. Je ziet ze veel op tuinhuisjes en bergingen. Ze zitten vast met spijkers of schroeven met een kapje. Na jaren in de zon worden ze bros en dof, en dan scheuren ze rond de spijkers of zakken ze door tussen de balken. Daar blijft water staan, en bij de overlap loopt het naar binnen.`,
+      ] },
+      { kop: `Doorzichtige lichtplaten`, tekst: [
+        `Kunststof platen die licht doorlaten, los of tussen de andere platen in. Door de zon worden ze na veel jaren geel en bros. Dan scheuren ze rond de schroeven, of breken ze bij hagel of een tak. Ook de overlap met een plaat van een ander soort sluit niet altijd goed, omdat het profiel net iets anders is.`,
+      ] },
+      { kop: `Stalen dakplaten`, tekst: [
+        `Dunne stalen platen met een gekleurde laklaag, vaak antraciet of grijs, met rechte ribbels of in de vorm van pannen. Ze zitten vast met schroeven met een rubber ring. Wordt die ring hard of zit een schroef los, dan loopt het water langs de schroef naar binnen. Waar de laklaag beschadigd is, kan de plaat gaan roesten. Druppelt het in een schuur zonder isolatie op koude ochtenden onder zo'n plaat, ook als het niet heeft geregend, dan is het vaak condens tegen de koude plaat en geen lek.`,
+      ] },
+      { kop: `Geïsoleerde dakpanelen`, tekst: [
+        `Platen van een paar centimeter dik, met isolatie tussen twee stalen lagen. Je ziet ze op aanbouwen, garages en bedrijfshallen. Van binnen zie je dan een gladde, vaak witte onderkant. Lekken doen ze meestal bij de naden tussen twee panelen, bij de schroeven en waar het paneel tegen de muur of de goot aansluit.`,
+      ] },
+      { kop: `Waar het bij alle platen vaak lekt`, tekst: [
+        `Bij de muur: waar het dak van de schuur of aanbouw tegen het huis komt, hoort een strook lood, loodvervanger of een profiel. Zit die los, dan loopt het water erachter. Bij de bovenkant en de randen: waar de platen ophouden, hoort een afdekking of nokstuk. En bij de goot: hangt die te laag of zit hij vol, dan loopt het water over de onderkant van de platen naar binnen. Meer over de plekken waar zo'n dak lekt, lees je in <a href="/kennisbank/golfplaten-lekken/">golfplaten lekken</a>.`,
+      ] },
+      { kop: `Wat ik doe`, tekst: [
+        `Golfplaten, lichtplaten en dakplaten die bros, gescheurd of lek zijn, vervang ik door nieuwe platen die passen, met genoeg overlap en nieuwe schroeven met ringen, en ik kijk of de balken eronder nog stevig zijn. Zit het in de strook tegen de muur of in de goot, dan maak ik die. Aan platen met asbest werk ik niet: die moeten eerst volgens de regels worden weggehaald. Stuur een foto van buiten en van binnen via WhatsApp, dan hoor je vooraf wat het kost.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: platte daken repareren`, href: `/diensten/platte-daken/` },
+    faq: [
+      { v: `Kan ik op golfplaten lopen om te kijken waar het lekt?`, a: `Nee, liever niet. Golfplaten en lichtplaten kunnen je gewicht niet dragen, zeker oude platen niet, en je zakt er zo doorheen. Kijk tijdens of na een bui van binnen waar het druppelt, en maak vanaf de grond een foto van het dak. Die foto's zijn voor mij genoeg om te zien waar ik moet beginnen.` },
+      { v: `Hoe weet ik of er asbest in mijn golfplaten zit?`, a: `Aan de buitenkant zie je dat niet zeker. Grijze golfplaten van voor 1994 kunnen asbest bevatten, en dat laat je onderzoeken. Hoe dat in jouw plaats gaat, kun je navragen bij je gemeente. Tot je het weet: niet boren, zagen, breken of schoonspuiten. Zit er asbest in, dan moeten de platen volgens de regels worden weggehaald, en daar werk ik niet aan.` },
+      { v: `Kan ik één kapotte plaat laten vervangen, of moet alles eraf?`, a: `Vaak kan één plaat apart, als er een nieuwe te krijgen is die in profiel en maat past op de platen ernaast. Zijn de andere platen ook bros, verkleurd of gescheurd, dan zeg ik eerlijk of het slimmer is om alles in één keer te doen. Stuur een foto van buiten en van binnen, dan hoor je vooraf wat het kost.` },
+      { v: `Het druppelt in mijn schuur op koude ochtenden, terwijl het droog is. Lekt het dak?`, a: `Meestal niet. Onder een stalen plaat zonder isolatie slaat vocht uit de lucht neer tegen de koude plaat, en dat druppelt naar beneden. Je ziet dan druppels over een groot stuk van de plaat, niet op één plek. Wordt het alleen nat tijdens of na regen, en altijd op dezelfde plek, dan is het eerder een lek bij een schroef, een overlap of de muur.` },
+    ],
+  },
 ];
 
 // Kort antwoord bovenaan een artikel. Geen bedragen.
@@ -474,4 +517,5 @@ export const KORT_ANTWOORD_6: Record<string, string> = {
   "welke-dakbedekking-heb-ik": `Bitumen herken je aan banen met een overlap en vaak steentjes bovenop. EPDM is glad zwart rubber, meestal in één stuk met een aluminium rand. Zie je alleen grind, dan ligt de bedekking eronder, en een lichtgrijze, gladde bedekking is vaak een kunststof dakbaan. Welke het ook is: een plat dak lekt meestal bij de afvoer, de rand, de hoeken of waar het tegen een muur omhoog loopt.`,
   "daklekkage-vve": `Lekt het in je appartement door het dak, zet dan eerst een emmer neer en meld het meteen bij het bestuur of de beheerder van de VvE, met foto's en de datum. In een appartementengebouw is het dak in de regel van alle eigenaren samen, en de VvE geeft de opdracht voor de reparatie. Druppelt het binnen en is er niemand te bereiken, dan mag je de schade in de regel eerst laten beperken.`,
   "dakdekker-komt-niet-opdagen": `Komt je dakdekker niet, of heeft hij het werk niet afgemaakt, zorg dan eerst dat het binnen droog blijft: een lek of een open stuk dak laat je meteen dichtmaken of afdekken. Stuur de dakdekker daarna een bericht met wat er was afgesproken en een datum waarop je antwoord wilt, en bewaar de offerte, de appjes en de foto's. Komt hij dan nog niet, dan kun je het werk door een ander laten afmaken.`,
+  "welke-golfplaten-heb-ik": `Grijze, stugge golfplaten zijn van vezelcement, en platen van voor 1994 kunnen asbest bevatten. Lichtere, buigzame platen in zwart, rood of groen zijn bitumen golfplaten, doorzichtige platen zijn lichtplaten van kunststof, en dunne gelakte platen zijn stalen dakplaten. Ga er niet op staan, kijk van binnen waar het druppelt en laat oude grijze platen eerst onderzoeken.`,
 };
