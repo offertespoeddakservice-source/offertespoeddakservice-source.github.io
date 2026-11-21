@@ -16,6 +16,7 @@
  * 21-11-2026 ronde 2: daklek bij je ouders of een oudere buur.
  * 21-11-2026 ronde 3: hoe oud is mijn dak.
  * 21-11-2026 ronde 4: sneldekpannen vervangen of repareren.
+ * 21-11-2026 ronde 5: je zinken dak lekt.
  */
 import type { Artikel } from "./artikelen";
 
@@ -625,6 +626,46 @@ export const ARTIKELEN_EXTRA_6: Artikel[] = [
       { v: `Mijn dak met sneldekpannen is oud. Moet het eraf als ik zonnepanelen wil?`, a: `Niet altijd. Laat eerst kapotte en verschoven pannen vervangen, want onder de panelen kom je er later lastig bij. Zijn veel pannen op, dan is het slimmer om eerst het dakvlak te vernieuwen. Lees ook het artikel over je dak nakijken voor zonnepanelen.` },
     ],
   },
+  {
+    slug: `zinken-dak-lekt`,
+    datum: `2026-11-21`,
+    titel: `Lekt je zinken dak?`,
+    h1: `Zinken dak lekt: bij een naad, langs de muur of bij de rand?`,
+    metaTitle: `Zinken dak repareren: waar lekt het? | Spoed Dak Service`,
+    metaDescription: `Lekt het zinken dak van je erker, uitbouw of bovenwoning? Meestal zit het in een open naad, langs de muur of bij de rand. Zo zie je waar en wat eraan te doen is.`,
+    intro: `Zink ligt niet alleen in je dakgoot. Op een erker, een luifel, een uitbouw of het platte deel van een ouder huis ligt soms een heel dakje van zink. Zink gaat lang mee, maar na veel jaren gaat het op een paar vaste plekken lekken. Hieronder lees je hoe je een zinken dak herkent, waar het meestal lekt, wat je zelf beter niet doet en hoe ik het aanpak.`,
+    secties: [
+      { kop: `Zo herken je een zinken dak`, tekst: [
+        `Een zinken dak is grijs en dof, soms met een witte waas. Het ligt in lange banen die met een opstaande naad aan elkaar vastzitten, of over houten latten heen, zodat je om de zoveel centimeter een ribbel ziet. Je vindt het vooral op kleine, bijna platte daken: boven een erker of de voordeur, op een uitbouw, of op het platte stuk van een oud herenhuis of een bovenwoning. Vanaf de straat of uit een raam boven zie je het meestal goed. Twijfel je wat er op je platte dak ligt, kijk dan bij <a href="/kennisbank/welke-dakbedekking-heb-ik/">welke dakbedekking heb ik?</a>`,
+      ] },
+      { kop: `Waar een zinken dak meestal lekt`, tekst: [
+        `Bij een naad. Zink zet uit als het warm is en krimpt als het koud is. Na veel jaren gaat een soldeernaad of een gevouwen naad daardoor open, vaak op de plek waar het water het langst blijft staan.`,
+        `Langs de muur. Waar het dak tegen de gevel loopt, zit een strook lood of zink die met de bovenrand in de muur vastzit. Laat die los, dan loopt het water achter de strook naar binnen. Zie <a href="/kennisbank/lood-op-dak/">lood op je dak</a>.`,
+        `Bij de rand en het gootje. Ligt er blad in het gootje aan de voorkant of zit de uitloop dicht, dan komt het water hoger te staan dan de rand en loopt het onder het zink door.`,
+        `Op een dunne plek. Waar jarenlang blad, mos of water op het zink heeft gelegen, wordt het dun en komen er op den duur kleine gaatjes. Bij een oude zinken goot zie je hetzelfde, lees <a href="/kennisbank/zinken-dakgoot-lekt/">zinken dakgoot lekt</a>.`,
+        `Rond een pijp. Gaat er een pijp of afvoer door het zinken dak, dan zit het lek vaak in de aansluiting eromheen. Zie <a href="/kennisbank/lekkage-bij-dakdoorvoer/">lekkage bij een dakdoorvoer</a>.`,
+      ] },
+      { kop: `Of is het condens?`, tekst: [
+        `Zink wordt 's nachts koud. Zit er onder het zink weinig lucht, dan kan vocht uit het huis tegen de koude onderkant neerslaan en op het hout eronder druppelen. Wordt het binnen vooral nat op koude ochtenden, ook als het niet heeft geregend, dan is dat vaak condens en geen lek. Lees ook <a href="/kennisbank/condens-of-lekkage-op-zolder/">condens of lekkage op zolder</a>.`,
+      ] },
+      { kop: `Wat je zelf beter niet doet`, tekst: [
+        `Smeer geen kit of bitumen over een naad of een gaatje in zink. Het hecht slecht op nat of vuil zink, en als de plek later gesoldeerd moet worden, moet al dat spul er eerst weer af. Loop niet over het zinken dak: zink deukt, en op een nat of berijpt dak glijd je zo weg. Zet ook geen ladder tegen het gootje aan de voorkant. Lekt het nu, kijk dan op de <a href="/spoed/">spoedpagina</a> wat je meteen kunt doen.`,
+      ] },
+      { kop: `Solderen, een stuk vervangen of meer?`, tekst: [
+        `Zit het lek in een naad of een klein gaatje en is het zink eromheen nog goed, dan is die plek vaak opnieuw te solderen, net als een naad in een zinken goot. Laat de strook langs de muur los, dan zet ik die weer vast of vervang ik hem, meestal met loodvervanger en op wens met echt lood. Is het zink over een groot stuk dun, of is het hout eronder zacht geworden, dan houdt een reparatie het niet lang. Dat zeg ik je eerlijk voordat er iets gebeurt.`,
+        `Lekt het bij een erker of een luifel boven de voordeur, lees dan ook <a href="/kennisbank/erker-lekt/">erker of luifel lekt</a>. Twijfel je welk vak je voor je dak nodig hebt, kijk dan bij <a href="/kennisbank/welke-vakman-voor-je-dak/">wie bel je voor welk werk aan je dak</a>.`,
+      ] },
+      { kop: `Hoe ik het aanpak`, tekst: [
+        `Stuur een foto van het zinken dak vanaf de straat of uit een raam boven, en een foto van de natte plek binnen. Zet erbij of het nat wordt bij elke bui, alleen bij harde wind of ook als het droog is. Dan zie ik vaak al waar ik moet zoeken. Ik kijk eerst waar het water echt binnenkomt, en je hoort vooraf wat het kost. Zie ook <a href="/diensten/dakgoot-solderen/">zink solderen</a> en <a href="/diensten/daklekkage/">daklekkage opsporen en repareren</a>.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: daklekkage opsporen en repareren`, href: `/diensten/daklekkage/` },
+    faq: [
+      { v: `Kan een lek in een zinken dak gesoldeerd worden?`, a: `Vaak wel, als het om een open naad of een klein gaatje gaat en het zink eromheen nog stevig is. Solderen kan alleen op schoon en droog zink, dus bij regen of vorst wacht ik op een droge dag. Is het zink over een groot stuk dun, dan zeg ik eerlijk dat solderen het niet lang houdt.` },
+      { v: `Hoe lang gaat een zinken dak mee?`, a: `Vaak tientallen jaren, als het water goed weg kan en er geen blad of mos op blijft liggen. Op plekken waar het lang nat blijft, wordt het zink het eerst dun. Een open naad of een losse strook langs de muur is meestal eerder aan de beurt dan het zink zelf.` },
+      { v: `Is een lekkend zinken dak spoed?`, a: `Druppelt het binnen, zit de natte plek bij een lamp of stopcontact, of bolt het plafond op, dan wel: zet een emmer neer, zet bij een lamp de groep uit en bel of app me met een foto. Is het een oude, droge vlek die niet groter wordt, dan kan het meestal een paar dagen wachten.` },
+    ],
+  },
 ];
 
 // Kort antwoord bovenaan een artikel. Geen bedragen.
@@ -644,4 +685,5 @@ export const KORT_ANTWOORD_6: Record<string, string> = {
   "daklek-bij-je-ouders": `Lekt het bij je ouders, laat ze dan een emmer neerzetten, spullen weghalen en bij een lamp de groep uitzetten, maar niet de ladder of het dak op gaan. Vraag om een foto van de natte plek, en bel of app daarna zelf de dakdekker met het adres, wie er thuis is en wie het aanspreekpunt is. Spreek de prijs vooraf af, en laat je ouders niets afspreken met iemand die aanbelt.`,
   "hoe-oud-is-mijn-dak": `Het bouwjaar van je huis vind je in het WOZ-waardeloket of de BAG Viewer, maar je dak kan later vernieuwd zijn. Vraag het na bij de vorige eigenaar of de buren en kijk in de papieren van de aankoop. Op zolder zie je of er folie of dakplaten onder de pannen liggen, en buiten of de nok in specie ligt of droog met klemmen. Dat zegt veel over de leeftijd.`,
   "sneldekpannen-vervangen": `Sneldekpannen zijn grote, vrij vlakke pannen, vaak van beton, op veel huizen van na de oorlog. Zo'n dak lekt meestal bij een pan die is gaan schuiven of gebroken is, bij de randen waar de wind aan de pannen trekt, of bij een nok in oude specie. Eén kapotte pan is vaak te vervangen door een pan die in maat en profiel past. Zijn veel pannen op, dan is een dakvlak in één keer vernieuwen slimmer.`,
+  "zinken-dak-lekt": `Een zinken dak, zoals op een erker, een luifel, een uitbouw of het platte deel van een ouder huis, lekt meestal bij een naad die open is gegaan, bij de strook langs de muur, bij een vol gootje aan de rand of op een plek waar het zink dun is geworden. Druppelt het alleen op koude ochtenden zonder regen, dan is het vaak condens. Smeer er geen kit op en loop er niet over, maar stuur een foto van het dak en de natte plek.`,
 };
