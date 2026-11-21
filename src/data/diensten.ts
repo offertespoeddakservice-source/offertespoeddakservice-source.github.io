@@ -366,6 +366,13 @@ export const DIENSTEN: Dienst[] = [
     metaDescription:
       "Stormschade aan je dak: weggewaaide pannen, een losse nok of lekkage? Ik dek eerst af en herstel daarna netjes, met foto's voor je verzekering. Regio Den Bosch.",
     icoon: "🌬️",
+    zieOok: [
+      { label: "Windveer vervangen of vastzetten", href: "/diensten/windveer-vervangen/" },
+      { label: "Nokvorsten repareren of vervangen", href: "/diensten/nokvorsten-vervangen/" },
+      { label: "Dakpannen vervangen of repareren", href: "/diensten/dakpannen-vervangen/" },
+      { label: "Dakgoot repareren of vervangen", href: "/diensten/dakgoot-vervangen/" },
+      { label: "Oude antenne of schotel weghalen", href: "/diensten/antenne-verwijderen/" },
+    ],
     intro:
       "Na een storm telt elk uur. Losse of weggewaaide pannen en open plekken laten regen binnen. Ik beperk eerst de schade (afdekken/dichten) en herstel daarna netjes, en maak duidelijke foto's die je kunt gebruiken voor je verzekering.",
     punten: [
