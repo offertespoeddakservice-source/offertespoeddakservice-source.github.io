@@ -3,6 +3,7 @@ import Base from "../layouts/Base.astro";
 import { SITE, telHref, waHref } from "../site.config.ts";
 import EchteFotos from "../components/EchteFotos.astro";
 import { FOTOS } from "../data/fotos.ts";
+import { DIENSTEN } from "../data/diensten.ts";
 // Foto's van mijn werk (19-11-2026): alleen echte foto's uit src/data/fotos.ts, via EchteFotos met een vaste lijst per kopje. Elke foto staat maar bij één kopje. Geen plaatsnamen bij de foto's.
 // Per kopje staat alleen de naam van een foto uit fotos.ts; kies() zoekt die op in FOTOS, dus een foto die daar niet staat komt er nooit op.
 const naam = (bestand: string) => (bestand.split("/").pop() ?? "").split(".")[0];
@@ -12,6 +13,7 @@ const LOOD = kies(["schoorsteen-met-loodslabben-173c1a", "schoorsteen-met-lood-7
 const GOTEN = kies(["dakgoot-hele-lengte-gecoat-973b86", "goot-vol-staand-water-ae9944", "zinken-goot-met-vogelwering-a1519b", "regenpijp-aansluiten-bestrating-open-6d4a97"]);
 const PLAT = kies(["nieuwe-dakplaten-aanbouw-1be656", "plat-dak-zonnepanelen-68c227", "regenpijp-aftakking-plat-dak-98b289", "regenpijp-met-aftakking-72b9bb", "veranda-overkapping-onderkant-9bf5ac"]);
 const VOGEL = kies(["vogelwering-onder-dakpannen-da1dea", "vogelschroot-onder-dakpannen-bf6057", "vogelwering-onder-dakpannen-d3c49f", "vogelwering-onder-dakpannen-0f55e0", "vogelpinnen-boven-raam-633f7f"]);
+const golfplatenDienst = DIENSTEN.some((d) => d.slug === "golfplaten-vervangen" && !d.verborgen);
 ---
 
 <Base
@@ -45,6 +47,13 @@ const VOGEL = kies(["vogelwering-onder-dakpannen-da1dea", "vogelschroot-onder-da
       <h2 style="margin-top:36px;">Platte daken, aanbouw en overkapping</h2>
       <p>Op een plat dak kijk ik naar de dakbedekking, de rand, de afvoer en wat er op het dak staat, zoals zonnepanelen. Zie <a href="/diensten/platte-daken/">platte daken</a>.</p>
       <EchteFotos bestanden={PLAT} max={6} inline />
+
+      {golfplatenDienst && (
+        <>
+          <h2 style="margin-top:36px;">Golfplaten en dakplaten</h2>
+          <p>Op een schuur, carport of aanbouw liggen vaak golfplaten, lichtplaten of dakplaten, zoals de nieuwe dakplaten op de aanbouw hierboven. Platen die bros, gescheurd of lek zijn, vervang ik door nieuwe, die ik strak vastzet met nieuwe schroeven en ringen. Aan platen met asbest werk ik niet. Zie <a href="/diensten/golfplaten-vervangen/">golfplaten en dakplaten vervangen</a>.</p>
+        </>
+      )}
 
       <h2 style="margin-top:36px;">Vogelwering</h2>
       <p>Onder de onderste rij pannen zet ik vogelwering van kunststof, zodat vogels niet onder je dak kunnen nestelen en er toch lucht onder de pannen blijft. Zie <a href="/diensten/vogelwering/">vogelwering</a>.</p>
