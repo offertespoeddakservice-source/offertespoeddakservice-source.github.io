@@ -238,6 +238,8 @@ const schema = [
         {/* 18-11-2026: regel Spoed, gelijk aan de vaste vraag over snel langskomen. Plaatsen op ± 40 minuten zonder 'dezelfde dag'. */}
         <li><strong>Spoed:</strong> druppelt het binnen of ligt je dak open, bel of app dan meteen met een foto. {p.slug === "den-bosch" ? "Den Bosch is mijn thuisbasis, dus dan kan ik vaak nog dezelfde dag komen." : (p.verweg || p.reistijd?.startsWith("±")) ? "Dan hoor je eerlijk wanneer ik kan komen." : `In ${p.naam} kan ik dan vaak nog dezelfde dag komen.`}</li>
         <li><strong>Prijs:</strong> je hoort de vaste prijs voordat ik begin.</li>
+        {/* 21-11-2026 ronde 4: regel Betalen, gelijk aan de vraag 'Hoe betaal ik?' op de homepage en llms.txt. */}
+        <li><strong>Betalen:</strong> een kleine klus, zoals een paar losse pannen of een goot leegmaken, betaal je als hij klaar is, via iDEAL. Bij groter werk spreken we vooraf af hoe en wanneer je betaalt.</li>
         <li><strong>Verzekerd:</strong> bedrijfsaansprakelijk verzekerd.</li>
         <li><strong>Reviews:</strong> <a href={SITE.werkspotUrl} target="_blank" rel="noopener">{SITE.reviews.score.toString().replace(".", ",")} op Werkspot</a>{SITE.reviews.werkspotAantal > 0 ? ` (${SITE.reviews.werkspotAantal} reviews)` : ""}.</li>
       </ul>

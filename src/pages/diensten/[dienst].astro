@@ -220,6 +220,8 @@ const platHerkenBestaat = ARTIKELEN.some((a) => a.slug === "welke-dakbedekking-h
               <li><strong>Contact:</strong> bellen of WhatsApp op <a href={telHref}>{SITE.telefoonWeergave}</a>, dag en nacht bereikbaar.</li>
               {SPOED_DIENSTEN.includes(d.slug) && <li><strong>Spoed:</strong> druppelt het binnen of ligt er een open plek in je dak, bel of app dan meteen. In de regio Den Bosch kan ik bij spoed vaak nog dezelfde dag komen. Verder weg plan ik een klus meestal vooraf met je in.</li>}
               <li><strong>Prijs:</strong> je hoort de vaste prijs voordat ik begin.</li>
+              {/* 21-11-2026 ronde 4: regel Betalen, gelijk aan de vraag 'Hoe betaal ik?' op de homepage en llms.txt. */}
+              <li><strong>Betalen:</strong> een kleine klus, zoals een paar losse pannen of een goot leegmaken, betaal je als hij klaar is, via iDEAL. Bij groter werk spreken we vooraf af hoe en wanneer je betaalt.</li>
               <li><strong>Verzekerd:</strong> bedrijfsaansprakelijk verzekerd.</li>
               <li><strong>Reviews:</strong> <a href={SITE.werkspotUrl} target="_blank" rel="noopener">{SITE.reviews.score.toString().replace(".", ",")} op Werkspot</a>{SITE.reviews.werkspotAantal > 0 ? ` (${SITE.reviews.werkspotAantal} reviews)` : ""}.</li>
             </ul>
