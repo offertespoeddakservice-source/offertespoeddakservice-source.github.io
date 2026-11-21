@@ -14,6 +14,7 @@
  * 21-11-2026 ronde 1: je dakdekker komt niet opdagen of maakt het werk niet af.
  * 21-11-2026 ronde 2: welke golfplaten of dakplaten liggen er op je schuur.
  * 21-11-2026 ronde 2: daklek bij je ouders of een oudere buur.
+ * 21-11-2026 ronde 3: hoe oud is mijn dak.
  */
 import type { Artikel } from "./artikelen";
 
@@ -544,6 +545,44 @@ export const ARTIKELEN_EXTRA_6: Artikel[] = [
       { v: `Er belde iemand bij mijn moeder aan die zegt dat haar dak met spoed moet worden gemaakt. Wat nu?`, a: `Laat haar niets afspreken en niets betalen aan de deur. Vraag om een naam en een telefoonnummer en zeg dat jij het regelt. Laat daarna iemand anders kijken, of stuur mij een foto van het dak vanaf de straat. Dan zeg ik eerlijk of er iets aan de hand is.` },
     ],
   },
+  {
+    slug: `hoe-oud-is-mijn-dak`,
+    datum: `2026-11-21`,
+    titel: `Hoe oud is mijn dak?`,
+    h1: `Hoe oud is mijn dak? Zo kom je erachter, ook zonder papieren`,
+    metaTitle: `Hoe oud is mijn dak? Zo zoek je het uit | Spoed Dak Service`,
+    metaDescription: `Het bouwjaar van je huis zegt niet alles over je dak. Zo zoek je uit hoe oud het is, met de papieren, de buren, de folie op zolder en de nok, en wat dat zegt.`,
+    intro: `Het bouwjaar van je huis is makkelijk te vinden, maar je dak kan jonger zijn. Misschien heeft een vorige eigenaar het vernieuwd, of zijn alleen de pannen aan één kant vervangen. Wil je weten hoe oud je dak echt is, bijvoorbeeld omdat je een huis koopt, zonnepanelen wilt of het dak vaker lekt, dan kom je een eind met wat papieren en een blik op zolder. Hieronder lees je hoe.`,
+    secties: [
+      { kop: `Begin bij het bouwjaar van je huis`, tekst: [
+        `Het bouwjaar van je woning vind je in het WOZ-waardeloket en in de BAG Viewer van het Kadaster. Vul je adres in, en je ziet in welk jaar het huis is gebouwd. Ligt het eerste dak er nog op, dan is dat ook de leeftijd van je dak. Maar of dat zo is, zie je daar niet: een dak kan in de tussentijd vernieuwd zijn, helemaal of maar aan één kant.`,
+      ] },
+      { kop: `Vraag het na en zoek in de papieren`, tekst: [
+        `Heb je het huis gekocht, kijk dan in de papieren van de aankoop, zoals een bouwkundig rapport, en vraag de vorige eigenaar of het dak ooit is vernieuwd. Een oude rekening van een dakdekker zegt meer dan het bouwjaar. Bij de gemeente kun je het bouwdossier van je huis inzien, maar voor pannen vervangen in dezelfde soort en kleur is meestal geen vergunning nodig, dus daar staat het vaak niet in. Woon je in een rij, vraag dan ook de buren: een rij huizen is vaak in één keer gebouwd, en soms ook samen vernieuwd.`,
+      ] },
+      { kop: `Kijk op zolder`, tekst: [
+        `Zie je op zolder de onderkant van de pannen en de panlatten, dan ligt er niets onder de pannen. Dat zie je vooral bij oudere daken. Ligt er wel folie, of zie je dakplaten, dan zegt dat iets over hoe het dak is gemaakt: zulke daken zijn meestal jonger, of het dak is al eens vernieuwd. Op gebakken pannen staat aan de achterkant soms een stempel of de naam van de fabriek, en een enkele keer een jaartal. Kijk alleen als je veilig op zolder kunt komen, en ga niet op het plafond tussen de balken staan.`,
+      ] },
+      { kop: `Kijk naar de nok en de pannen`, tekst: [
+        `Liggen de nokvorsten in specie, dan is het vaak een ouder dak. Op nieuwere daken ligt de nok meestal droog, met een strook eronder en een klem bij elke vorst. Kijk ook naar de pannen zelf. Betonpannen worden na veel jaren ruw en laten zand los, dat je terugvindt in de goot. Oude gebakken pannen nemen meer water op, en dan zie je mos en na een vorstnacht soms schilfers. Zijn de pannen aan de ene kant van het dak duidelijk anders dan aan de andere kant, dan is die kant waarschijnlijk al eens vernieuwd. Lees ook <a href="/kennisbank/welke-dakpan-heb-ik/">welke dakpan heb ik?</a> en <a href="/kennisbank/poreuze-dakpannen/">poreuze dakpannen</a>.`,
+      ] },
+      { kop: `Wat zegt de leeftijd?`, tekst: [
+        `Minder dan je denkt. Een oud dak dat goed is onderhouden, kan nog jaren mee, en een jonger dak kan lekken bij de nok of het lood. Kijk daarom vooral welk deel aandacht nodig heeft, zie <a href="/kennisbank/hoe-lang-gaat-een-dak-mee/">hoe lang gaat een dak mee?</a> Weet je ongeveer uit welke tijd je dak komt, dan helpt de uitleg per bouwperiode: <a href="/kennisbank/jaren-30-huis-dak-lekt/">jaren 30</a>, <a href="/kennisbank/dak-jaren-50-huis-lekt/">jaren 50</a>, <a href="/kennisbank/dak-jaren-70-rijtjeshuis/">jaren 70</a> en <a href="/kennisbank/dak-jaren-90-huis-lekt/">jaren 90</a>.`,
+      ] },
+      { kop: `Wanneer het handig is om het te weten`, tekst: [
+        `Koop je een huis, komen er zonnepanelen op je dak of ga je de zolder verbouwen, dan wil je weten of het dak nog jaren mee kan voordat er iets op of tegenaan komt. Lees <a href="/kennisbank/dak-keuren-bij-huis-kopen/">dak keuren bij een huis kopen</a>, <a href="/kennisbank/dak-nakijken-voor-zonnepanelen/">dak nakijken voor zonnepanelen</a> en <a href="/kennisbank/dak-nakijken-voor-zolder-verbouwen/">dak nakijken voor je de zolder verbouwt</a>. Ook bij schade kijkt je verzekeraar naar onderhoud, zie <a href="/kennisbank/daklekkage-verzekering/">daklekkage en je verzekering</a>.`,
+      ] },
+      { kop: `Hoe ik het aanpak`, tekst: [
+        `Weet je het niet zeker, dan kijk ik het na met de <a href="/dak-apk/">Dak-APK</a>: ik loop je hele dak na en je krijgt een rapport met foto's. Dan zie je zelf hoe het ervoor staat en wat eerst moet. Stuur gerust eerst een foto van je dak vanaf de straat via WhatsApp, dan zeg ik eerlijk wat ik zie.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: de Dak-APK, je hele dak nagekeken`, href: `/dak-apk/` },
+    faq: [
+      { v: `Staat het bouwjaar van mijn dak ergens geregistreerd?`, a: `Nee, alleen het bouwjaar van je huis. Dat vind je in het WOZ-waardeloket of de BAG Viewer. Of het dak daarna is vernieuwd, staat daar niet bij. Daarvoor vraag je de vorige eigenaar, kijk je in de papieren van de aankoop of laat je het dak nakijken.` },
+      { v: `Mijn huis is oud, maar het dak ziet er nieuw uit. Hoe kan dat?`, a: `Dan is het dak waarschijnlijk al eens vernieuwd, of zijn er nieuwe pannen op gelegd. Kijk op zolder of er folie of dakplaten onder de pannen liggen en of de nok droog ligt met klemmen. Dat wijst op later werk. Vraag het ook na bij de vorige eigenaar of de buren.` },
+      { v: `Moet een oud dak vervangen worden?`, a: `Niet alleen omdat het oud is. Een dak dat al lang ligt en goed is onderhouden, kan nog jaren mee. Moet er elk jaar op meer plekken iets gebeuren, of zijn veel pannen poreus of gescheurd, dan is vernieuwen vaak slimmer. Ik zeg eerlijk wat ik zie.` },
+    ],
+  },
 ];
 
 // Kort antwoord bovenaan een artikel. Geen bedragen.
@@ -561,4 +600,5 @@ export const KORT_ANTWOORD_6: Record<string, string> = {
   "dakdekker-komt-niet-opdagen": `Komt je dakdekker niet, of heeft hij het werk niet afgemaakt, zorg dan eerst dat het binnen droog blijft: een lek of een open stuk dak laat je meteen dichtmaken of afdekken. Stuur de dakdekker daarna een bericht met wat er was afgesproken en een datum waarop je antwoord wilt, en bewaar de offerte, de appjes en de foto's. Komt hij dan nog niet, dan kun je het werk door een ander laten afmaken.`,
   "welke-golfplaten-heb-ik": `Grijze, stugge golfplaten zijn van vezelcement, en platen van voor 1994 kunnen asbest bevatten. Lichtere, buigzame platen in zwart, rood of groen zijn bitumen golfplaten, doorzichtige platen zijn lichtplaten van kunststof, en dunne gelakte platen zijn stalen dakplaten. Ga er niet op staan, kijk van binnen waar het druppelt en laat oude grijze platen eerst onderzoeken.`,
   "daklek-bij-je-ouders": `Lekt het bij je ouders, laat ze dan een emmer neerzetten, spullen weghalen en bij een lamp de groep uitzetten, maar niet de ladder of het dak op gaan. Vraag om een foto van de natte plek, en bel of app daarna zelf de dakdekker met het adres, wie er thuis is en wie het aanspreekpunt is. Spreek de prijs vooraf af, en laat je ouders niets afspreken met iemand die aanbelt.`,
+  "hoe-oud-is-mijn-dak": `Het bouwjaar van je huis vind je in het WOZ-waardeloket of de BAG Viewer, maar je dak kan later vernieuwd zijn. Vraag het na bij de vorige eigenaar of de buren en kijk in de papieren van de aankoop. Op zolder zie je of er folie of dakplaten onder de pannen liggen, en buiten of de nok in specie ligt of droog met klemmen. Dat zegt veel over de leeftijd.`,
 };
