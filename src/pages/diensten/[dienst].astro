@@ -60,6 +60,7 @@ const relArtikel = ({
   "zonnepanelen-reinigen": { label: "Zonnepanelen reinigen: is het nodig?", href: "/kennisbank/zonnepanelen-reinigen-nodig/" },
 } as Record<string, { label: string; href: string }>)[d.slug];
 // Meer weten: twee of drie kennisartikelen per dienst. Bestaat een artikel niet, dan valt het weg.
+// 21-11-2026 ronde 5: Meer weten en de zin bovenaan voor de nieuwe dienst dakonderhoud.
 const leesVerder: Record<string, string[]> = {
   "goten-reinigen": ["wat-kost-dakgoot-schoonmaken", "hoe-vaak-dakgoot-reinigen", "verstopte-regenpijp-lekkende-dakgoot", "dakgoot-zelf-schoonmaken", "dakgoot-loopt-over", "ijspegels-aan-dakgoot", "vuurwerk-schade-dak", "bladvanger-dakgoot", "dakgoot-schoonmaken-in-de-winter", "dakgoot-schoonmaken-huurder-of-verhuurder", "zand-in-dakgoot", "goot-schoonmaken-glazenwasser-of-dakdekker"],
   daklekkage: ["daklekkage-opsporen", "lekdetectie-daklek", "vochtplek-plafond", "plafond-bolt-op-door-lekkage", "water-uit-lamp-plafond", "lekkage-bij-schoorsteen", "wat-kost-daklekkage-repareren", "lekkage-bij-aanbouw", "dak-lekt-bij-sneeuw-of-vorst", "lekkage-muur-buren", "erker-lekt", "dakfolie-kapot", "dak-lekt-na-reparatie", "plafond-drogen-na-lekkage", "nieuw-dak-lekt", "lekkage-dakdekker-of-loodgieter", "lekkage-badkamer-plafond", "lekkage-bij-de-nok", "daklek-hoe-lang-wachten", "verzekering-betaalt-daklekkage-niet", "natte-plek-schuine-wand-zolder", "lekt-sinds-dakisolatie", "hoekkeper-lekt", "cv-ketel-lekt-bij-regen", "dak-lekt-boven-en-benedenwoning"],
@@ -87,6 +88,7 @@ const leesVerder: Record<string, string[]> = {
   "kilgoot-repareren": ["kilgoot-lekt", "lood-op-dak", "dak-lekt-bij-hevige-regen", "zinken-dakgoot-lekt", "dak-lekt-bij-sneeuw-of-vorst", "hoe-vaak-dakgoot-reinigen", "hoekkeper-lekt", "jaren-30-huis-dak-lekt"],
   "dakbeschot-vervangen": ["zachte-plek-plat-dak", "dakleer-repareren", "water-blijft-staan-op-plat-dak", "plat-dak-vervangen-of-repareren", "lekkage-bij-aanbouw", "wat-kost-plat-dak-repareren"],
   "golfplaten-vervangen": ["golfplaten-lekken", "welke-golfplaten-heb-ik", "pannendak-schuur-lekt", "garagebox-dak-lekt", "veranda-of-overkapping-lekt", "hagelschade-dak", "dakleer-repareren"],
+  dakonderhoud: ["dakonderhoud-per-seizoen", "dak-winterklaar-maken", "hoe-vaak-dakgoot-reinigen", "plat-dak-onderhouden", "nokvorsten-los", "lood-op-dak", "noodoverloop-plat-dak", "plat-dak-met-grind-lekt", "regenpijp-loost-op-dak", "hoe-lang-gaat-een-dak-mee", "dakinspectie", "welke-vakman-voor-je-dak"],
 };
 const leesArtikelen = (leesVerder[d.slug] ?? [])
   .map((s) => ARTIKELEN.find((x) => x.slug === s))
@@ -126,7 +128,8 @@ const WAT_PER_DIENST: Record<string, string> = {
   "bakgoot-repareren": "het repareren van lekkende zinken bakgoten, door naden te solderen of de goot van binnen te coaten",
   "kilgoot-repareren": "het repareren en vervangen van kilgoten",
   "dakbeschot-vervangen": "het vervangen van rot dakbeschot onder het platte dak van een schuur, garage of aanbouw",
-  "golfplaten-vervangen": "het vervangen van golfplaten, lichtplaten en dakplaten op een schuur, carport of aanbouw"
+  "golfplaten-vervangen": "het vervangen van golfplaten, lichtplaten en dakplaten op een schuur, carport of aanbouw",
+  "dakonderhoud": "dakonderhoud, zoals de dakgoten leegmaken en de nok, de pannen en het lood nalopen"
 };
 const watZin = WAT_PER_DIENST[d.slug] ?? d.titel.toLowerCase();
 // Knoppen naar de pagina's per plaats: de namen waarop mensen zoeken, net als op de plaatspagina's.
