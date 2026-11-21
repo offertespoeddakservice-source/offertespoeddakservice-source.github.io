@@ -87,12 +87,14 @@ const WONING_ARTIKEL: Record<string, { slug: string; zin: string; anker: string 
 };
 const woning = WONING_ARTIKEL[p.slug];
 const woningArtikel = woning ? ARTIKELEN.find((a) => a.slug === woning.slug && !a.verborgen) : undefined;
-// 19-11-2026 ronde 5: een gewone zin naar de uitleg per bouwperiode en soort dak die op de plaatspagina's nog niet gelinkt is, alleen artikelen die bestaan en niet al in de zin van WONING_ARTIKEL staan.
+// 19-11-2026 ronde 5: een gewone zin naar de uitleg per bouwperiode en soort dak die op de plaatspagina's nog niet gelinkt is, alleen artikelen die bestaan en niet al in de zin van WONING_ARTIKEL staan. 21-11-2026 ronde 4: ook sneldekpannen en hoe oud is mijn dak, alleen als ze bestaan.
 const BOUWJAAR_LINKS = [
   { slug: "dak-jaren-50-huis-lekt", anker: "een huis uit de jaren '50" },
   { slug: "dak-jaren-90-huis-lekt", anker: "een huis uit de jaren '80 of '90" },
   { slug: "bungalow-dak-lekt", anker: "een bungalow zonder zolder" },
   { slug: "mansardedak-lekt", anker: "een mansardedak" },
+  { slug: "sneldekpannen-vervangen", anker: "sneldekpannen op een naoorlogs huis" },
+  { slug: "hoe-oud-is-mijn-dak", anker: "hoe je uitzoekt hoe oud je dak is" },
 ].filter((l) => l.slug !== woning?.slug && ARTIKELEN.some((a) => a.slug === l.slug && !a.verborgen));
 // Namen voor de pagina's per plaats en klus, zoals mensen zoeken (dakgoot repareren, niet alleen vervangen). Ook gebruikt in de gegevens voor Google en AI.
 const KLUS_NAAM: Record<string, string> = { daklekkage: "Daklekkage", "dakgoot-vervangen": "Dakgoot repareren of vervangen", "goten-reinigen": "Dakgoot schoonmaken", stormschade: "Stormschade", dakreparatie: "Dakreparatie", dakrenovatie: "Dakrenovatie" };
