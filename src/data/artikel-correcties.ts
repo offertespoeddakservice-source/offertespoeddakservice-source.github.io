@@ -17,6 +17,7 @@
 // 21-11-2026 ronde 2: knop onder golfplaten lekken en welke golfplaten heb ik naar de nieuwe dienst golfplaten en dakplaten vervangen, alleen als die dienst bestaat.
 // 21-11-2026 ronde 3: titel voor Google van plat dak repareren of vervangen (1093 vertoningen op plek 83, 0 kliks), met 'dakbedekking' vooraan en anders dan de titel van de dienstpagina platte daken; en een omschrijving voor natte isolatie (plek 5,5, 245 vertoningen, 0,8% klikt).
 // 21-11-2026 ronde 5: knop onder dakonderhoud per seizoen naar de nieuwe dienst dakonderhoud, alleen als die dienst bestaat.
+// 22-11-2026 ronde 1: titel voor Google van wat kost plat dak repareren (1593 vertoningen op plek 48,6, 0 kliks; 'lekkage plat dak' 135 en 'plat dak lekkage repareren' 117 vertoningen), met 'lekkend plat dak repareren' vooraan.
 // Kennisbank [slug].astro legt hem over het artikel heen: alleen de velden die hier staan, veranderen (ook de titel voor Google).
 import type { Artikel } from "./artikelen";
 import { prijsVan } from "./prijzen";
@@ -111,6 +112,7 @@ export const ARTIKEL_CORRECTIES: Record<string, Partial<Pick<Artikel, "secties" 
   "wat-kost-een-dakinspectie": { metaTitle: `Dakinspectie kosten: Dak-APK voor ${prijsVan("apk")} | Spoed Dak Service` },
   "dakterras-lekt": { metaTitle: "Balkon of dakterras lekt naar beneden? | Spoed Dak Service" },
   "dakgoot-loopt-over": { metaTitle: "Water loopt over je dakgoot bij regen? | Spoed Dak Service" },
+  "wat-kost-plat-dak-repareren": { metaTitle: "Lekkend plat dak repareren: wat kost het? | Spoed Dak Service" },
   ...(GOLFPLATEN_DIENST ? { "golfplaten-lekken": { dienst: { label: "Bekijk: golfplaten en dakplaten vervangen", href: "/diensten/golfplaten-vervangen/" } }, "welke-golfplaten-heb-ik": { dienst: { label: "Bekijk: golfplaten en dakplaten vervangen", href: "/diensten/golfplaten-vervangen/" } } } : {}),
   ...(DAKONDERHOUD_DIENST ? { "dakonderhoud-per-seizoen": { dienst: { label: "Bekijk: dakonderhoud", href: "/diensten/dakonderhoud/" } } } : {}),
 };
