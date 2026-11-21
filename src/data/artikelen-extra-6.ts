@@ -13,6 +13,7 @@
  * 21-11-2026 ronde 1: het dak van je appartementengebouw lekt (VvE).
  * 21-11-2026 ronde 1: je dakdekker komt niet opdagen of maakt het werk niet af.
  * 21-11-2026 ronde 2: welke golfplaten of dakplaten liggen er op je schuur.
+ * 21-11-2026 ronde 2: daklek bij je ouders of een oudere buur.
  */
 import type { Artikel } from "./artikelen";
 
@@ -502,6 +503,47 @@ export const ARTIKELEN_EXTRA_6: Artikel[] = [
       { v: `Het druppelt in mijn schuur op koude ochtenden, terwijl het droog is. Lekt het dak?`, a: `Meestal niet. Onder een stalen plaat zonder isolatie slaat vocht uit de lucht neer tegen de koude plaat, en dat druppelt naar beneden. Je ziet dan druppels over een groot stuk van de plaat, niet op één plek. Wordt het alleen nat tijdens of na regen, en altijd op dezelfde plek, dan is het eerder een lek bij een schroef, een overlap of de muur.` },
     ],
   },
+  {
+    slug: `daklek-bij-je-ouders`,
+    datum: `2026-11-21`,
+    titel: `Daklek bij je ouders of een oudere buur?`,
+    h1: `Lekt het dak bij je ouders of een oudere buur? Zo regel je het, ook als je verder weg woont`,
+    metaTitle: `Daklek bij je ouders? Zo regel je het | Spoed Dak Service`,
+    metaDescription: `Lekt het bij je vader, moeder of een oudere buur en woon je verder weg? Wat zij meteen veilig doen, hoe je het op afstand regelt en waar je op let.`,
+    intro: `Vaak hoor je het via de telefoon: bij je vader of moeder druppelt het uit het plafond, of de buurvrouw ziet een pan op de stoep liggen. Woon je zelf niet om de hoek, dan wil je het toch goed regelen. Hieronder lees je wat je ouders meteen veilig kunnen doen, wat je zelf op afstand regelt en waar je op let als er iemand aanbelt die zegt dat het dak kapot is.`,
+    secties: [
+      { kop: `Eerst veilig, zonder trap of ladder`, tekst: [
+        `Vraag of ze een emmer of bak onder de druppel zetten, met een handdoek erin zodat het niet spat, en spullen weghalen die nat kunnen worden. Druppelt het bij een lamp of stopcontact, laat dan in de meterkast de groep van die kamer uitzetten, of de hoofdschakelaar als niemand weet welke groep het is, zonder iets aan te raken wat nat is. Laat ze niet de ladder of het dak op gaan, en ook niet via een steile vlizotrap naar zolder als dat niet makkelijk gaat. Bolt het plafond op, dan niet eronder staan. Wat er verder meteen kan, staat op de <a href="/spoed/">spoedpagina</a>.`,
+      ] },
+      { kop: `Laat foto's maken`, tekst: [
+        `Een paar foto's zeggen meer dan een lang verhaal aan de telefoon. Vraag je vader of moeder om een foto van de natte plek en van het plafond eromheen. Lukt dat niet, vraag dan een buur om vanaf de straat een foto van het dak te maken, of kijk samen mee via een videogesprek. Welke foto's een dakdekker het meest helpen, lees je in <a href="/kennisbank/foto-van-je-dak-maken/">foto's van je dak maken</a>.`,
+      ] },
+      { kop: `Bel of app zelf de dakdekker`, tekst: [
+        `Je kunt de dakdekker gewoon zelf bellen of appen, ook als je in een andere plaats woont. Geef het adres, de foto's, wie er thuis is en het telefoonnummer van je ouders, en zeg dat jij het aanspreekpunt bent. Spreek de prijs vooraf af, het liefst in een appje, zodat je hem zwart op wit hebt. Spreek ook af wie de rekening krijgt: jij of je ouders.`,
+      ] },
+      { kop: `Moet er iemand thuis zijn?`, tekst: [
+        `Voor een losse pan of nokvorst niet altijd. Kan ik er van buiten bij, bijvoorbeeld vanaf de stoep of via een open tuinpad, en is de prijs vooraf afgesproken, dan kan ik die ook maken als er niemand thuis is. Moet ik op zolder kijken waar het water binnenkomt, dan is het fijn als er iemand is die de deur opendoet en het luik kan wijzen. Dat mag ook een buur of een familielid zijn. Je ouders hoeven niet mee naar zolder.`,
+      ] },
+      { kop: `Na afloop`, tekst: [
+        `Vraag om foto's van wat er is gedaan, zodat jij ook ziet dat het in orde is. Als je wilt, stuur ik je na afloop een foto van wat ik heb gedaan. Laat je ouders bij de eerstvolgende flinke bui even kijken of het binnen droog blijft.`,
+      ] },
+      { kop: `Let op mensen die aanbellen`, tekst: [
+        `Belt er iemand aan die zegt dat het dak kapot is en dat het vandaag nog moet, laat je ouders dan niets afspreken aan de deur en niets contant betalen. Laat ze zeggen dat jij het regelt, en vraag om een naam en een telefoonnummer. Een betrouwbare dakdekker vindt het geen probleem als je eerst zelf een foto bekijkt of iemand anders laat kijken. Lees ook <a href="/kennisbank/dakdekker-aan-de-deur/">dakdekker aan de deur</a>.`,
+      ] },
+      { kop: `Huur, een VvE of de verzekering`, tekst: [
+        `Huren je ouders hun huis, meld het lek dan eerst bij de verhuurder of de woningcorporatie, want die regelt de reparatie meestal zelf. Wonen ze in een appartement, dan is het dak vaak van de VvE, zie <a href="/kennisbank/daklekkage-vve/">daklekkage bij een VvE</a>. Is het huis van hen, kijk dan samen in hun polis of de schade binnen onder de verzekering valt, en bewaar de foto's en de rekening. Zie <a href="/kennisbank/daklekkage-verzekering/">daklekkage en je verzekering</a>.`,
+      ] },
+      { kop: `Hoe ik het aanpak`, tekst: [
+        `Bel of app me met het adres en de foto's, en zeg dat het om het huis van je ouders gaat. Lekt het, dan zorg ik eerst dat het binnen droog blijft, daarna volgt de nette reparatie. Je hoort vooraf wat het kost, en je krijgt mij zelf aan de lijn, ook als je ouders bellen. Zie <a href="/diensten/daklekkage/">daklekkage</a>.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: daklekkage opsporen en repareren`, href: `/diensten/daklekkage/` },
+    faq: [
+      { v: `Mijn vader wil zelf even de ladder op om te kijken. Wat zeg ik?`, a: `Vraag hem het niet te doen. Een nat dak en een ladder tegen de goot zijn voor iedereen gevaarlijk, en van boven ziet hij vaak minder dan je denkt. Een foto vanaf de straat met de zoom van een telefoon is genoeg om te zien of er een pan scheef ligt. Die kan ook een buur maken.` },
+      { v: `Kun je de prijs en de foto's naar mij sturen in plaats van naar mijn moeder?`, a: `Ja. Zeg dat als je belt of appt, en geef het adres en het nummer van je moeder erbij, zodat ik weet wie er thuis is. Dan spreek ik de prijs met jou af en stuur ik jou de foto's van wat ik aantref en wat ik heb gedaan.` },
+      { v: `Er belde iemand bij mijn moeder aan die zegt dat haar dak met spoed moet worden gemaakt. Wat nu?`, a: `Laat haar niets afspreken en niets betalen aan de deur. Vraag om een naam en een telefoonnummer en zeg dat jij het regelt. Laat daarna iemand anders kijken, of stuur mij een foto van het dak vanaf de straat. Dan zeg ik eerlijk of er iets aan de hand is.` },
+    ],
+  },
 ];
 
 // Kort antwoord bovenaan een artikel. Geen bedragen.
@@ -518,4 +560,5 @@ export const KORT_ANTWOORD_6: Record<string, string> = {
   "daklekkage-vve": `Lekt het in je appartement door het dak, zet dan eerst een emmer neer en meld het meteen bij het bestuur of de beheerder van de VvE, met foto's en de datum. In een appartementengebouw is het dak in de regel van alle eigenaren samen, en de VvE geeft de opdracht voor de reparatie. Druppelt het binnen en is er niemand te bereiken, dan mag je de schade in de regel eerst laten beperken.`,
   "dakdekker-komt-niet-opdagen": `Komt je dakdekker niet, of heeft hij het werk niet afgemaakt, zorg dan eerst dat het binnen droog blijft: een lek of een open stuk dak laat je meteen dichtmaken of afdekken. Stuur de dakdekker daarna een bericht met wat er was afgesproken en een datum waarop je antwoord wilt, en bewaar de offerte, de appjes en de foto's. Komt hij dan nog niet, dan kun je het werk door een ander laten afmaken.`,
   "welke-golfplaten-heb-ik": `Grijze, stugge golfplaten zijn van vezelcement, en platen van voor 1994 kunnen asbest bevatten. Lichtere, buigzame platen in zwart, rood of groen zijn bitumen golfplaten, doorzichtige platen zijn lichtplaten van kunststof, en dunne gelakte platen zijn stalen dakplaten. Ga er niet op staan, kijk van binnen waar het druppelt en laat oude grijze platen eerst onderzoeken.`,
+  "daklek-bij-je-ouders": `Lekt het bij je ouders, laat ze dan een emmer neerzetten, spullen weghalen en bij een lamp de groep uitzetten, maar niet de ladder of het dak op gaan. Vraag om een foto van de natte plek, en bel of app daarna zelf de dakdekker met het adres, wie er thuis is en wie het aanspreekpunt is. Spreek de prijs vooraf af, en laat je ouders niets afspreken met iemand die aanbelt.`,
 };
