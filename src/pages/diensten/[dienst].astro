@@ -86,6 +86,7 @@ const leesVerder: Record<string, string[]> = {
   "bakgoot-repareren": ["bakgoot-lekt", "zinken-dakgoot-lekt", "water-achter-dakgoot", "natte-plek-bovenin-muur", "dakgoot-lekt-na-schoonmaken", "mastgoot-lekt"],
   "kilgoot-repareren": ["kilgoot-lekt", "lood-op-dak", "dak-lekt-bij-hevige-regen", "zinken-dakgoot-lekt", "dak-lekt-bij-sneeuw-of-vorst", "hoe-vaak-dakgoot-reinigen", "hoekkeper-lekt", "jaren-30-huis-dak-lekt"],
   "dakbeschot-vervangen": ["zachte-plek-plat-dak", "dakleer-repareren", "water-blijft-staan-op-plat-dak", "plat-dak-vervangen-of-repareren", "lekkage-bij-aanbouw", "wat-kost-plat-dak-repareren"],
+  "golfplaten-vervangen": ["golfplaten-lekken", "welke-golfplaten-heb-ik", "pannendak-schuur-lekt", "garagebox-dak-lekt", "veranda-of-overkapping-lekt", "hagelschade-dak", "dakleer-repareren"],
 };
 const leesArtikelen = (leesVerder[d.slug] ?? [])
   .map((s) => ARTIKELEN.find((x) => x.slug === s))
@@ -124,7 +125,8 @@ const WAT_PER_DIENST: Record<string, string> = {
   "dakgoot-solderen": "het solderen van lekkende naden, hoeken en uitlopen in zinken dakgoten en bakgoten",
   "bakgoot-repareren": "het repareren van lekkende zinken bakgoten, door naden te solderen of de goot van binnen te coaten",
   "kilgoot-repareren": "het repareren en vervangen van kilgoten",
-  "dakbeschot-vervangen": "het vervangen van rot dakbeschot onder het platte dak van een schuur, garage of aanbouw"
+  "dakbeschot-vervangen": "het vervangen van rot dakbeschot onder het platte dak van een schuur, garage of aanbouw",
+  "golfplaten-vervangen": "het vervangen van golfplaten, lichtplaten en dakplaten op een schuur, carport of aanbouw"
 };
 const watZin = WAT_PER_DIENST[d.slug] ?? d.titel.toLowerCase();
 // Knoppen naar de pagina's per plaats: de namen waarop mensen zoeken, net als op de plaatspagina's.
