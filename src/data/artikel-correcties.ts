@@ -15,6 +15,7 @@
 // 20-11-2026 ronde 3: titel voor Google van dakterras of balkon lekt (plek 8,8, 57 vertoningen, 0 kliks), met de situatie die mensen herkennen.
 // 20-11-2026 ronde 5: titel voor Google van dakgoot loopt over, met de woorden waarop mensen zoeken ('water loopt over de dakgoot' 46 vertoningen op plek 26,5, artikel 107 vertoningen op plek 34,8, 0 kliks).
 // 21-11-2026 ronde 2: knop onder golfplaten lekken en welke golfplaten heb ik naar de nieuwe dienst golfplaten en dakplaten vervangen, alleen als die dienst bestaat.
+// 21-11-2026 ronde 3: titel voor Google van plat dak repareren of vervangen (1093 vertoningen op plek 83, 0 kliks), met 'dakbedekking' vooraan en anders dan de titel van de dienstpagina platte daken; en een omschrijving voor natte isolatie (plek 5,5, 245 vertoningen, 0,8% klikt).
 // Kennisbank [slug].astro legt hem over het artikel heen: alleen de velden die hier staan, veranderen (ook de titel voor Google).
 import type { Artikel } from "./artikelen";
 import { prijsVan } from "./prijzen";
@@ -94,7 +95,8 @@ export const ARTIKEL_CORRECTIES: Record<string, Partial<Pick<Artikel, "secties" 
   "dak-lekt-bij-harde-wind": { dienst: { label: "Bekijk: spoed dakreparatie (pannen, lood en nok)", href: "/diensten/dakreparatie/" } },
   "dakpannen-vastzetten-tegen-storm": { dienst: { label: "Bekijk: spoed dakreparatie (pannen, lood en nok)", href: "/diensten/dakreparatie/" }, metaTitle: "Dakpannen vastzetten met stormhaken? | Spoed Dak Service" },
   "dakpannen-klapperen-bij-wind": { dienst: { label: "Bekijk: spoed dakreparatie", href: "/diensten/dakreparatie/" } },
-  "isolatie-nat-na-lekkage": { metaTitle: "Isolatie nat na daklek: drogen of eruit? | Spoed Dak Service" },
+  "isolatie-nat-na-lekkage": { metaTitle: "Isolatie nat na daklek: drogen of eruit? | Spoed Dak Service", metaDescription: "Isolatie nat door een daklek? Een klein stuk droogt vaak weer, maar is het ingezakt of ruikt het muf, dan moet het eruit. Eerst moet het lek dicht." },
+  "plat-dak-vervangen-of-repareren": { metaTitle: "Dakbedekking vervangen of nog repareren? | Spoed Dak Service" },
   "veranda-of-overkapping-lekt": { metaTitle: "Veranda lekt bij de muur, platen of goot? | Spoed Dak Service" },
   "water-uit-lamp-plafond": { metaTitle: "Water uit lamp of spotje? Doe eerst dit | Spoed Dak Service" },
   "lekkage-bij-schoorsteen": { metaTitle: "Lekkage bij schoorsteen: waar zit het? | Spoed Dak Service" },
