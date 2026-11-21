@@ -456,7 +456,7 @@ export const DIENSTEN: Dienst[] = [
     vanafPrijs: "stuur een foto",
     h1: "Dakgoot van binnen coaten: een lekkende goot weer dicht, zonder nieuwe goot",
     kort: "Een goot die nog stevig hangt maar op een paar plekken lekt of dun wordt, van binnen gecoat, zodat het water weer in de goot blijft.",
-    metaTitle: "Dakgoot coaten bij lekkage | Spoed Dak Service",
+    metaTitle: "Dakgoot coaten: zinken goot of bakgoot | Spoed Dak Service",
     metaDescription:
       "Lekt je zinken goot of bakgoot op een paar plekken, of wordt het zink dun? Vaak kan hij van binnen gecoat worden in plaats van vervangen. Stuur een foto voor de prijs.",
     icoon: "🛠",
