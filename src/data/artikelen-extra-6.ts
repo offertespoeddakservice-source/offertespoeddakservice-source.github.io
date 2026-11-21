@@ -15,6 +15,7 @@
  * 21-11-2026 ronde 2: welke golfplaten of dakplaten liggen er op je schuur.
  * 21-11-2026 ronde 2: daklek bij je ouders of een oudere buur.
  * 21-11-2026 ronde 3: hoe oud is mijn dak.
+ * 21-11-2026 ronde 4: sneldekpannen vervangen of repareren.
  */
 import type { Artikel } from "./artikelen";
 
@@ -583,6 +584,47 @@ export const ARTIKELEN_EXTRA_6: Artikel[] = [
       { v: `Moet een oud dak vervangen worden?`, a: `Niet alleen omdat het oud is. Een dak dat al lang ligt en goed is onderhouden, kan nog jaren mee. Moet er elk jaar op meer plekken iets gebeuren, of zijn veel pannen poreus of gescheurd, dan is vernieuwen vaak slimmer. Ik zeg eerlijk wat ik zie.` },
     ],
   },
+  {
+    slug: `sneldekpannen-vervangen`,
+    datum: `2026-11-21`,
+    titel: `Sneldekpannen vervangen of repareren?`,
+    h1: `Sneldekpannen op je dak: een pan vervangen, repareren of het hele dakvlak?`,
+    metaTitle: `Sneldekpannen vervangen of repareren? | Spoed Dak Service`,
+    metaDescription: `Grote, vlakke pannen op een huis uit de jaren 60 of 70? Zo herken je sneldekpannen, waar ze lekken en wanneer één pan vervangen nog genoeg is.`,
+    intro: `Op veel huizen die na de oorlog zijn gebouwd, liggen sneldekpannen: grote, vrij vlakke pannen, vaak van beton. Is er een kapot of lekt het, dan wil je weten of er nog een pan te krijgen is die past, en of het bij één pan blijft. Hieronder lees je hoe je sneldekpannen herkent, waar zo'n dak meestal lekt, en wanneer het slimmer is om een dakvlak in één keer te vernieuwen.`,
+    secties: [
+      { kop: `Zo herken je sneldekpannen`, tekst: [
+        `Een sneldekpan is groter dan de meeste andere pannen en vrij vlak, met een golf aan de zijkant. Er gaan er minder van op een vierkante meter, en daarom ging het dekken van een dak er snel mee. Daar komt de naam vandaan.`,
+        `Ze bestaan van beton en van gebakken klei. Een betonpan is dik en zwaar, en aan de achterkant grijs en ruw. Kun je op zolder bij de pannen, kijk dan naar de achterkant: daar staat soms een naam of nummer van de fabriek. Twijfel je wat er op je dak ligt, lees dan <a href="/kennisbank/welke-dakpan-heb-ik/">welke dakpan heb ik?</a>`,
+      ] },
+      { kop: `Waar een dak met sneldekpannen meestal lekt`, tekst: [
+        `Bij een pan die is gaan schuiven. Een sneldekpan hangt met nokjes aan de achterkant over de panlat. Breekt zo'n nokje, of is de lat eronder zacht geworden, dan zakt de pan een stukje en waait de regen bij harde wind door de kier erboven. Zie <a href="/kennisbank/dakpannen-zakken-af/">dakpannen zakken af</a>.`,
+        `Bij de randen van het dak. Een grote pan biedt de wind veel houvast. Op oudere daken liggen de pannen langs de zijkant, de onderste rij en de rij onder de nok lang niet altijd vast met een haak. Lees <a href="/kennisbank/dakpannen-vastzetten-tegen-storm/">dakpannen vastzetten tegen storm</a>.`,
+        `Bij de nok. Op daken van die leeftijd liggen de nokvorsten vaak nog in specie, en die brokkelt na veel jaren af. Zie <a href="/kennisbank/nokvorsten-los/">losse nokvorsten</a>.`,
+        `Bij een versleten toplaag. Bij betonnen sneldekpannen zit de kleur in een laagje aan de bovenkant. Na veel jaren slijt dat, de pan wordt ruw, er groeit sneller mos op en je vindt zand in je goot. Dat is op zich nog geen lek, maar zo'n pan neemt wel meer water op. Lees <a href="/kennisbank/zand-in-dakgoot/">zand in je dakgoot</a> en <a href="/kennisbank/poreuze-dakpannen/">poreuze dakpannen</a>.`,
+      ] },
+      { kop: `Is er nog een pan te krijgen die past?`, tekst: [
+        `Een nieuwe pan moet in maat en profiel aansluiten op de pannen eromheen. Een pan die net iets anders is, ligt niet goed in de sluiting, en dan waait de regen eronder. Van oudere modellen wordt niet elke pan meer gemaakt. Dan zoek ik een pan van een andere fabriek met dezelfde maat en vorm, of een gebruikte pan van hetzelfde type. Lukt dat niet, dan kan ik een pan van een plek die je vanaf de straat niet ziet naar voren halen, en op die plek een pan leggen die er iets anders uitziet.`,
+        `Liggen er op zolder of in de schuur nog losse pannen van de bouw? Gooi ze niet weg: zo'n pan past vaak beter dan een nieuwe.`,
+      ] },
+      { kop: `Eén pan, of het hele dakvlak?`, tekst: [
+        `Is er één pan gebroken of verschoven, dan is vervangen of terugleggen vaak een kleine klus. Zijn er op één dakvlak veel pannen gebarsten of ruw, schuiven ze steeds opnieuw of zijn de latten eronder zacht, dan is blijven repareren op den duur duurder dan dat dakvlak in één keer vernieuwen. Dan gaan de pannen eraf, en als je dat wilt, komt er meteen nieuwe folie en nieuwe panlatten onder. Zie <a href="/diensten/dakrenovatie/">dakrenovatie</a>.`,
+        `Woon je in een rij, dan kan jouw kant los van die van de buren worden vernieuwd. Hoe dat op de grens gaat, lees je in <a href="/kennisbank/dak-vernieuwen-rijtjeshuis/">je dak vernieuwen in een rijtjeshuis</a>. Wil je weten hoe oud je dak eigenlijk is, kijk dan bij <a href="/kennisbank/hoe-oud-is-mijn-dak/">hoe oud is mijn dak?</a>`,
+      ] },
+      { kop: `Wat je zelf beter niet doet`, tekst: [
+        `Ga niet op de pannen lopen om te kijken. Een oude betonpan kan breken als je op de verkeerde plek staat, en op een nat dak glijd je zo weg. Smeer geen kit of lijm op een gebarsten pan, want dat laat na een tijd weer los. Lees <a href="/kennisbank/dakpan-lijmen-of-kitten/">dakpan lijmen of kitten</a>. Lekt het nu, kijk dan op de <a href="/spoed/">spoedpagina</a> wat je meteen kunt doen.`,
+      ] },
+      { kop: `Hoe ik het aanpak`, tekst: [
+        `Stuur een foto van je dak vanaf de straat, het liefst met de zoom van je telefoon, en als het kan een foto van de achterkant van een pan op zolder. Dan zie ik meestal welk model het is en neem ik een passende pan mee. Ik vervang wat kapot is, leg verschoven pannen terug en kijk meteen naar de nok en het lood. Je hoort vooraf wat het kost. Richtprijzen staan op de <a href="/prijzen/">prijzenpagina</a>.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: dakpannen vervangen`, href: `/diensten/dakpannen-vervangen/` },
+    faq: [
+      { v: `Zijn sneldekpannen slechter dan andere dakpannen?`, a: `Niet vanzelf. Veel daken met sneldekpannen liggen er al tientallen jaren. Wel slijt bij betonpannen na veel jaren de toplaag, en liggen ze op oudere daken vaak los op de latten. Zijn de pannen nog heel en liggen ze recht, dan is er meestal niets aan de hand.` },
+      { v: `Kan er tussen mijn sneldekpannen een pan van een ander model?`, a: `Meestal niet zomaar. Een pan met een andere maat of golf sluit niet goed aan, en dan waait de regen eronder. Er moet een pan in die in maat en profiel past. Kan ik die niet vinden, dan zoek ik samen met je een andere oplossing.` },
+      { v: `Mijn dak met sneldekpannen is oud. Moet het eraf als ik zonnepanelen wil?`, a: `Niet altijd. Laat eerst kapotte en verschoven pannen vervangen, want onder de panelen kom je er later lastig bij. Zijn veel pannen op, dan is het slimmer om eerst het dakvlak te vernieuwen. Lees ook het artikel over je dak nakijken voor zonnepanelen.` },
+    ],
+  },
 ];
 
 // Kort antwoord bovenaan een artikel. Geen bedragen.
@@ -601,4 +643,5 @@ export const KORT_ANTWOORD_6: Record<string, string> = {
   "welke-golfplaten-heb-ik": `Grijze, stugge golfplaten zijn van vezelcement, en platen van voor 1994 kunnen asbest bevatten. Lichtere, buigzame platen in zwart, rood of groen zijn bitumen golfplaten, doorzichtige platen zijn lichtplaten van kunststof, en dunne gelakte platen zijn stalen dakplaten. Ga er niet op staan, kijk van binnen waar het druppelt en laat oude grijze platen eerst onderzoeken.`,
   "daklek-bij-je-ouders": `Lekt het bij je ouders, laat ze dan een emmer neerzetten, spullen weghalen en bij een lamp de groep uitzetten, maar niet de ladder of het dak op gaan. Vraag om een foto van de natte plek, en bel of app daarna zelf de dakdekker met het adres, wie er thuis is en wie het aanspreekpunt is. Spreek de prijs vooraf af, en laat je ouders niets afspreken met iemand die aanbelt.`,
   "hoe-oud-is-mijn-dak": `Het bouwjaar van je huis vind je in het WOZ-waardeloket of de BAG Viewer, maar je dak kan later vernieuwd zijn. Vraag het na bij de vorige eigenaar of de buren en kijk in de papieren van de aankoop. Op zolder zie je of er folie of dakplaten onder de pannen liggen, en buiten of de nok in specie ligt of droog met klemmen. Dat zegt veel over de leeftijd.`,
+  "sneldekpannen-vervangen": `Sneldekpannen zijn grote, vrij vlakke pannen, vaak van beton, op veel huizen van na de oorlog. Zo'n dak lekt meestal bij een pan die is gaan schuiven of gebroken is, bij de randen waar de wind aan de pannen trekt, of bij een nok in oude specie. Eén kapotte pan is vaak te vervangen door een pan die in maat en profiel past. Zijn veel pannen op, dan is een dakvlak in één keer vernieuwen slimmer.`,
 };
