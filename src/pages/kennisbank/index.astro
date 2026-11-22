@@ -1,6 +1,6 @@
 ---
 import Base from "../../layouts/Base.astro";
-import { SITE, waHref } from "../../site.config.ts";
+import { SITE, telHref, waHref } from "../../site.config.ts";
 import { ARTIKELEN } from "../../data/artikelen.ts";
 // Kennisbank in groepjes per onderwerp, lekkage eerst. Artikelen die nergens in staan komen in de laatste groep.
 // 22-11-2026 ronde 3: lekt tijdens verbouwing, water van de buren op je dak en droge nok of specie gekoppeld (bleven in ronde 2 liggen, omdat de koppel-tip draaide voordat ze bestonden).
@@ -42,6 +42,7 @@ const schuur = SCHUUR.map((s) => zichtbaar.find((a) => a.slug === s)).filter((a)
 // Je dak en de buren: een gewone regel met de uitleg over werk aan je dak dat met de buren te maken heeft (22-11-2026 ronde 2). Een artikel dat verborgen is of niet bestaat, valt vanzelf weg.
 const BUREN = ["lekkage-muur-buren", "gedeelde-dakgoot-lekt", "lekkage-na-dakwerk-buren", "dak-repareren-via-buren", "dak-vernieuwen-rijtjeshuis", "dakpan-op-auto-buren", "water-van-buren-op-je-dak"];
 const buren = BUREN.map((s) => zichtbaar.find((a) => a.slug === s)).filter((a) => a) as typeof ARTIKELEN;
+// 22-11-2026 ronde 4: In het kort onderaan, gelijk aan /diensten/ en de andere pagina's, voor Google en AI.
 // Gestructureerde gegevens: de kennisbank als verzameling, met alle zichtbare artikelen in de volgorde van de pagina.
 const lijstSchema = {
   "@context": "https://schema.org",
@@ -114,6 +115,16 @@ const lijstSchema = {
           </div>
         </>
       ))}
+      <h2 id="in-het-kort" style="margin-top:40px;">In het kort</h2>
+      <ul>
+        <li><strong>Wie:</strong> Spoed Dak Service, het bedrijf van {SITE.eigenaar}, dakdekker uit 's-Hertogenbosch. Deze uitleg schrijf ik zelf, en je belt of appt met mij zelf, niet met een callcenter.</li>
+        <li><strong>Waarover:</strong> daklekkage en natte plekken binnen, dakgoten, stormschade, platte daken, pannen en nokvorsten, lood rond de schoorsteen, onderhoud en wat dakwerk kost.</li>
+        <li><strong>Klussen:</strong> daklekkage, losse dakpannen en nokvorsten, lood rond schoorsteen en dakraam, dakgoten repareren en schoonmaken, platte daken en stormschade.</li>
+        <li><strong>Waar:</strong> vanuit Den Bosch in de regio Den Bosch en verder in Brabant. Een klus verder weg plan ik vooraf met je in. Zie <a href="/werkgebied/">mijn werkgebied</a>.</li>
+        <li><strong>Contact:</strong> bellen of WhatsApp op <a href={telHref}>{SITE.telefoonWeergave}</a>, dag en nacht bereikbaar.</li>
+        <li><strong>Prijs:</strong> je hoort de vaste prijs voordat ik begin. De richtprijzen staan op de <a href="/prijzen/">prijzen-pagina</a>.</li>
+        <li><strong>Verzekerd:</strong> bedrijfsaansprakelijk verzekerd.</li>
+      </ul>
     </div>
   </section>
 </Base>
