@@ -19,6 +19,7 @@
  * 21-11-2026 ronde 5: je zinken dak lekt.
  * 22-11-2026 ronde 1: vochtplek of schimmel in de hoek van het plafond bij de buitenmuur (daklek of koudebrug).
  * 22-11-2026 ronde 1: lekkage bij de schoorsteen en de verzekering.
+ * 22-11-2026 ronde 1: het dak van een leegstaand huis lekt.
  */
 import type { Artikel } from "./artikelen";
 
@@ -741,6 +742,41 @@ export const ARTIKELEN_EXTRA_6: Artikel[] = [
       { v: `Krijg ik iets op papier voor mijn verzekeraar?`, a: `Ja. Je krijgt foto's van wat ik aantrof en van de reparatie, met een korte omschrijving van de oorzaak en van wat ik heb gedaan.` },
     ],
   },
+  {
+    slug: `dak-lekt-leegstaand-huis`,
+    datum: `2026-11-22`,
+    titel: `Lekt het dak van een leegstaand huis?`,
+    h1: `Het dak van een leegstaand huis lekt: wat regel je, ook als je er niet woont?`,
+    metaTitle: `Dak lekt in een leegstaand huis: wat nu? | Spoed Dak Service`,
+    metaDescription: `Lekt het dak van een huis dat leeg staat, na een verhuizing, bij verkoop of na een erfenis? Zo houd je het droog, regel je het op afstand en kijk je naar je verzekering.`,
+    intro: `Staat een huis een tijd leeg, bijvoorbeeld omdat je al verhuisd bent, omdat het te koop staat of omdat het van een overleden ouder is, dan merkt niemand een lek op tijd. Het water kan dan weken naar binnen lopen voordat iemand het ziet. Hieronder lees je hoe je een leeg huis droog houdt, hoe je een lek regelt als je er niet bent en waar je op let bij de verzekering.`,
+    secties: [
+      { kop: `Laat iemand regelmatig binnen kijken`, tekst: [
+        `Spreek met een buur, familie of de makelaar af dat iemand na een flinke bui of storm even binnen kijkt, ook op zolder en bij de schoorsteen. Een natte plek op het plafond of water op de vloer zie je dan op tijd. Vraag of ze meteen een foto sturen.`,
+      ] },
+      { kop: `Kijk vanaf de straat`, tekst: [
+        `Kom je langs, kijk dan vanaf de overkant van de straat naar het dak. Ligt er een pan scheef, staat een nokvorst schuin of hangt de goot door? Liggen er stukken pan in de tuin, of zit de goot vol blad? Na de herfst loopt een volle goot bij een leeg huis vaak wekenlang over langs de muur, zonder dat iemand het ziet. Lees ook <a href="/kennisbank/dak-winterklaar-maken/">je dak winterklaar maken</a>.`,
+      ] },
+      { kop: `Lekt het? Zo regel je het op afstand`, tekst: [
+        `Zorg dat iemand met een sleutel een bak onder de druppel zet en spullen weghaalt. Zit de natte plek bij een lamp of stopcontact, laat dan de groep in de meterkast uitzetten. Stuur me de foto's, het adres en wie de sleutel heeft. Kan ik van buiten bij de plek en spreken we de prijs vooraf af, dan kan ik een losse pan of nokvorst ook repareren als er niemand is. Moet ik op zolder kijken, dan spreken we af wie er opendoet. Na afloop krijg je foto's van wat ik heb gedaan. Lees ook <a href="/kennisbank/lekkage-tijdens-vakantie/">lekkage terwijl je niet thuis bent</a> en <a href="/kennisbank/daklek-bij-je-ouders/">lekt het dak bij je ouders?</a>`,
+      ] },
+      { kop: `De verzekering bij een leeg huis`, tekst: [
+        `Veel opstalpolissen hebben aparte regels voor een huis dat langer leeg staat. Soms moet je het melden, of gelden er andere voorwaarden. Kijk het na in je polis of bel je verzekeraar, het liefst voordat er iets gebeurt. Is het huis van een overleden ouder, laat de verzekeraar dan ook weten wie nu het aanspreekpunt is. Bij schade maak je foto's, schrijf je de datum op en laat je het lek snel dichtmaken. Hoe het met lekkage en je verzekering zit, lees je in <a href="/kennisbank/daklekkage-verzekering/">daklekkage en je verzekering</a>.`,
+      ] },
+      { kop: `Staat het huis te koop?`, tekst: [
+        `Weet je van een lek of een ander gebrek aan het dak, vertel dat dan aan je makelaar, want een verkoper moet bekende gebreken in de regel melden. Laat een lek liever maken voordat er kopers komen kijken. Lees <a href="/kennisbank/dak-lekt-huis-verkopen/">het dak lekt en je verkoopt je huis</a>.`,
+      ] },
+      { kop: `Hoe ik het aanpak`, tekst: [
+        `Stuur een foto van het dak vanaf de straat en, als iemand binnen kan kijken, van de natte plek. Zet erbij dat het huis leeg staat en wie de sleutel heeft. Ik zeg eerlijk wat ik zie, wat er meteen moet en wat kan wachten, en je hoort vooraf wat het kost. Lekt het nu, kijk dan op de <a href="/spoed/">spoedpagina</a> wat er meteen moet gebeuren.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: daklekkage opsporen en repareren`, href: `/diensten/daklekkage/` },
+    faq: [
+      { v: `Kun je een lek repareren als er niemand in het huis is?`, a: `Vaak wel, als ik van buiten bij de plek kan en we de prijs vooraf afspreken. Moet ik op zolder kijken waar het water binnenkomt, dan moet er iemand opendoen. Na afloop krijg je foto's.` },
+      { v: `Hoe vaak moet iemand in een leeg huis kijken?`, a: `Na elke flinke bui of storm is een goed moment, en verder af en toe, zeker in de herfst en de winter. Kijk ook op zolder en bij de schoorsteen.` },
+      { v: `Moet de goot van een leeg huis ook schoon?`, a: `Ja. Na de bladval zit een goot snel vol, en bij een leeg huis ziet niemand dat hij overloopt. Laat hem leegmaken als het meeste blad eraf is.` },
+    ],
+  },
 ];
 
 // Kort antwoord bovenaan een artikel. Geen bedragen.
@@ -763,4 +799,5 @@ export const KORT_ANTWOORD_6: Record<string, string> = {
   "zinken-dak-lekt": `Een zinken dak, zoals op een erker, een luifel, een uitbouw of het platte deel van een ouder huis, lekt meestal bij een naad die open is gegaan, bij de strook langs de muur, bij een vol gootje aan de rand of op een plek waar het zink dun is geworden. Druppelt het alleen op koude ochtenden zonder regen, dan is het vaak condens. Smeer er geen kit op en loop er niet over, maar stuur een foto van het dak en de natte plek.`,
   "vochtplek-hoek-plafond-buitenmuur": `Een grijze waas of zwarte puntjes in de hoek van het plafond bij de buitenmuur, vooral in de winter en ook na droge dagen, is meestal condens in een koude hoek en geen daklek. Wordt de plek natter na regen, zit er een bruine kring of zit hij recht onder de goot, dan komt het water vaak van buiten: van een overlopende of lekkende goot, de dakrand of de onderste rij pannen.`,
   "schoorsteen-lekt-verzekering": `Lekt het bij de schoorsteen door een storm, dan valt de schade binnen vaak onder je opstalverzekering. Komt het door oud of gescheurd lood, open voegen of regen in een open kanaal, dan zien verzekeraars dat meestal als slijtage of onderhoud, en wordt vooral de reparatie zelf vaak niet vergoed. Maak foto's, schrijf de datum en het weer op en laat het lek snel dichtmaken.`,
+  "dak-lekt-leegstaand-huis": `Staat een huis leeg, laat dan na elke flinke bui of storm iemand binnen kijken, ook op zolder. Lekt het, laat iemand met een sleutel een bak neerzetten en stuur de dakdekker foto's, het adres en wie de sleutel heeft. Een losse pan of nokvorst kan vaak gerepareerd worden zonder dat er iemand thuis is. Kijk in je polis of je moet melden dat het huis leeg staat.`,
 };
