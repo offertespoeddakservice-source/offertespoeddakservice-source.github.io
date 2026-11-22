@@ -106,6 +106,8 @@ const KLUS_NAAM: Record<string, string> = { daklekkage: "Daklekkage", "dakgoot-v
 const klusNaam = (d: { slug: string; titel: string }) => KLUS_NAAM[d.slug] ?? d.titel;
 // Gemeente en provincie per plaats, voor de gegevens voor Google en AI (zodat 'Heusden' of 'Den Bosch' niet verward wordt). Plaats zonder gemeente in deze lijst: dan alleen de provincie.
 const GEMEENTE: Record<string, string> = { rosmalen: "'s-Hertogenbosch", "den-bosch": "'s-Hertogenbosch", vught: "Vught", vlijmen: "Heusden", drunen: "Heusden", heusden: "Heusden", berlicum: "Sint-Michielsgestel", "sint-michielsgestel": "Sint-Michielsgestel", schijndel: "Meierijstad", veghel: "Meierijstad", boxtel: "Boxtel", oss: "Oss", oisterwijk: "Oisterwijk", wijchen: "Wijchen", waalwijk: "Waalwijk", uden: "Maashorst", tilburg: "Tilburg", breda: "Breda", helmond: "Helmond", eindhoven: "Eindhoven" };
+// 22-11-2026 ronde 2: dorpen die zichtbaar op deze plaatspagina staan, ook in de gegevens voor Google en AI (areaServed). Alleen namen die echt in de tekst van de pagina voorkomen.
+const DORPEN_PER_PLAATS: Record<string, string[]> = { vught: ['Helvoirt', 'Cromvoirt'], 'den-bosch': ['Engelen', 'Bokhoven', 'Nuland', 'Vinkel', 'Hedel', 'Ammerzoden', 'Kerkdriel', 'Velddriel', 'Hoenzadriel', 'Alem', 'Rossum', 'Heerewaarden', 'Zaltbommel', 'Brakel', 'Gameren', 'Kerkwijk'], rosmalen: ['Kruisstraat', 'Maliskamp', 'Hintham', 'Maren-Kessel', 'Lithoijen'], vlijmen: ['Nieuwkuijk', 'Haarsteeg'], drunen: ['Elshout'], berlicum: ['Middelrode', 'Heeswijk-Dinther', 'Loosbroek'], 'sint-michielsgestel': ['Den Dungen', 'Gemonde', 'Maaskantje'], schijndel: ['Wijbosch', 'Sint-Oedenrode', 'Nijnsel', 'Olland', 'Boskant'], boxtel: ['Liempde', 'Esch', 'Lennisheuvel', 'Oirschot', 'Middelbeers', 'Oostelbeers', 'Westelbeers'], heusden: ['Oudheusden', 'Herpt', 'Doeveren', 'Heesbeen', 'Hedikhuizen', 'Wijk en Aalburg', 'Genderen', 'Eethen'], oss: ['Berghem', 'Geffen', 'Lith', 'Megen', 'Ravenstein', 'Herpen', 'Macharen', 'Oijen', 'Heesch', 'Nistelrode', 'Vorstenbosch', 'Dreumel', 'Wamel', 'Beneden-Leeuwen', 'Maasbommel'], oisterwijk: ['Moergestel', 'Haaren', 'Biezenmortel'], wijchen: ['Batenburg', 'Bergharen', 'Hernen', 'Balgoij', 'Grave', 'Druten', 'Afferden', 'Deest', 'Horssen', 'Puiflijk', 'Malden', 'Heumen', 'Overasselt', 'Nederasselt', 'Ewijk', 'Weurt', 'Winssen'], waalwijk: ['Sprang-Capelle', 'Waspik', 'Kaatsheuvel', 'Loon op Zand', 'De Moer', 'Raamsdonksveer', 'Geertruidenberg'], uden: ['Volkel', 'Odiliapeel', 'Zeeland', 'Schaijk'], veghel: ['Erp', 'Zijtaart', 'Eerde', 'Mariaheide', 'Keldonk', 'Boerdonk', 'Boekel', 'Venhorst', 'Gemert', 'Lieshout', 'Mariahout'], tilburg: ['Udenhout', 'Berkel-Enschot', 'Goirle', 'Dongen'], breda: ['Prinsenbeek', 'Teteringen', 'Bavel', 'Ulvenhout', 'Etten-Leur', 'Rijen'], helmond: ['Stiphout', 'Mierlo-Hout', 'Brandevoort', 'Mierlo', 'Beek en Donk', 'Aarle-Rixtel'], eindhoven: ['Son en Breugel', 'Nuenen', 'Geldrop', 'Valkenswaard', 'Dommelen', 'Heeze', 'Leende'] };
 const provincie = p.slug === "wijchen" ? "Gelderland" : "Noord-Brabant";
 const areaServed = {
   "@type": "City",
@@ -122,6 +124,8 @@ const faq = [
   { v: `Wat kost een dakdekker in ${p.naam}?`, a: `Een dakgoot reinigen ${gotenPrijs} (één goot), een dakpan vervangen ${kleinPrijs}, een daklekkage repareren ${lekPrijs}. Alle bedragen zijn inclusief btw. Stuur gerust een foto: een prijs aanvragen is gratis en je hoort vooraf de vaste prijs.` },
   ...(p.faq ?? []),
 ];
+const zichtbareTekst = [p.lokaal, p.extra ?? '', ...p.wijken, ...faq.map((f) => `${f.v} ${f.a}`)].join(' ');
+const dorpenOpPagina = (DORPEN_PER_PLAATS[p.slug] ?? []).filter((naam) => zichtbareTekst.includes(naam));
 
 const schema = [
   {
@@ -131,7 +135,7 @@ const schema = [
     serviceType: "Dakdekker",
     description: `Spoed Dak Service is een dakdekker uit 's-Hertogenbosch voor daklekkage, losse dakpannen en dakgoten ${p.slug === "den-bosch" ? "in de hele stad en de dorpen eromheen" : `in ${p.naam} en omgeving`}.`,
     provider: { "@type": "RoofingContractor", "@id": `${SITE.url}/#bedrijf`, name: SITE.bedrijfsnaam, telephone: `+${SITE.telefoonE164}` },
-    areaServed,
+    areaServed: dorpenOpPagina.length > 0 ? [areaServed, ...dorpenOpPagina.map((naam) => ({ "@type": "Place", name: naam }))] : areaServed,
     url: `${SITE.url}/werkgebied/${p.slug}/`,
     ...(matrixVoorPlaats.length > 0 ? { hasOfferCatalog: { "@type": "OfferCatalog", name: `Dakwerk in ${p.naam}`, itemListElement: matrixVoorPlaats.map((d) => ({ "@type": "Offer", itemOffered: { "@type": "Service", name: `${klusNaam(d!)} in ${p.naam}`, url: `${SITE.url}/werkgebied/${p.slug}/${d!.slug}/` } })) } } : {}),
   },
