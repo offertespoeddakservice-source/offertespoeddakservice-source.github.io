@@ -23,6 +23,7 @@
 // 22-11-2026 ronde 3: titel voor Google van daktermen uitgelegd (plek 8,3, 199 vertoningen, 1% klikt), met de begrippen die mensen opzoeken.
 // 22-11-2026 ronde 4: titel voor Google van zinken dakgoot lekt met 'op de naad' ('zinken dakgoot lekt op naad' 64 vertoningen op plek 52; artikel 542 vertoningen, 1 klik).
 // 22-11-2026 ronde 4: titel voor Google van daklekkage en je verzekering, gelijk aan de kop en met de bedrijfsnaam erachter (enige kennisartikel zonder; 512 vertoningen op plek 47, 1 klik).
+// 22-11-2026 ronde 5: titel voor Google van kilgoot lekt ('kilgoot lekkage' 54 vertoningen op plek 14,5) en lekkage bij zonnepanelen ('daklekkage onder zonnepanelen' 46 op plek 88, 'lekkage door zonnepanelen' 82 op plek 26), allebei nooit aangepast.
 // Kennisbank [slug].astro legt hem over het artikel heen: alleen de velden die hier staan, veranderen (ook de titel voor Google).
 import type { Artikel } from "./artikelen";
 import { prijsVan } from "./prijzen";
@@ -122,6 +123,8 @@ export const ARTIKEL_CORRECTIES: Record<string, Partial<Pick<Artikel, "secties" 
   "wat-kost-nokvorsten-repareren": { metaTitle: "Nok of nokvorsten repareren: wat kost het? | Spoed Dak Service" },
   "daktermen-uitgelegd": { metaTitle: "Daktermen: nokvorst, kil, windveer en meer | Spoed Dak Service" },
   "daklekkage-verzekering": { metaTitle: "Daklekkage en je verzekering: wat wordt vergoed? | Spoed Dak Service" },
+  "kilgoot-lekt": { metaTitle: "Kilgoot lekt? Lekkage in de hoek van je dak | Spoed Dak Service" },
+  "lekkage-bij-zonnepanelen": { metaTitle: "Lekkage door of onder zonnepanelen? | Spoed Dak Service" },
   ...(GOLFPLATEN_DIENST ? { "golfplaten-lekken": { dienst: { label: "Bekijk: golfplaten en dakplaten vervangen", href: "/diensten/golfplaten-vervangen/" } }, "welke-golfplaten-heb-ik": { dienst: { label: "Bekijk: golfplaten en dakplaten vervangen", href: "/diensten/golfplaten-vervangen/" } } } : {}),
   ...(DAKONDERHOUD_DIENST ? { "dakonderhoud-per-seizoen": { dienst: { label: "Bekijk: dakonderhoud", href: "/diensten/dakonderhoud/" } } } : {}),
 };
