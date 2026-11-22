@@ -21,6 +21,7 @@
 // 22-11-2026 ronde 1: titel voor Google van wat kost nokvorsten repareren met 'nok' erin ('daknok reparatie kosten' 28 en 'nokvorsten vervangen' 50 vertoningen; artikel 162 vertoningen op plek 61, 0 kliks).
 // 22-11-2026 ronde 3: titel voor Google van dakraam lekt ('lekkage dakraam' 102 vertoningen op plek 89), zodat hij niet meer bijna gelijk is aan de titel van de dienstpagina lekkend dakraam.
 // 22-11-2026 ronde 3: titel voor Google van daktermen uitgelegd (plek 8,3, 199 vertoningen, 1% klikt), met de begrippen die mensen opzoeken.
+// 22-11-2026 ronde 4: titel voor Google van zinken dakgoot lekt met 'op de naad' ('zinken dakgoot lekt op naad' 64 vertoningen op plek 52; artikel 542 vertoningen, 1 klik).
 // Kennisbank [slug].astro legt hem over het artikel heen: alleen de velden die hier staan, veranderen (ook de titel voor Google).
 import type { Artikel } from "./artikelen";
 import { prijsVan } from "./prijzen";
@@ -61,6 +62,7 @@ export const ARTIKEL_CORRECTIES: Record<string, Partial<Pick<Artikel, "secties" 
   },
   "zinken-dakgoot-lekt": {
     dienst: { label: `Bekijk: dakgoot solderen`, href: `/diensten/dakgoot-solderen/` },
+    metaTitle: "Zinken dakgoot lekt op de naad: solderen of coaten? | Spoed Dak Service",
   },
   "zachte-plek-plat-dak": {
     dienst: { label: `Bekijk: rot dakbeschot vervangen`, href: `/diensten/dakbeschot-vervangen/` },
