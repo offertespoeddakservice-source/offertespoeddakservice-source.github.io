@@ -619,6 +619,13 @@ export const FAQ_ERBIJ_2: Record<string, Artikel["faq"]> = {
   "lekkage-gedeelde-schoorsteen": [
     { v: `De buren willen hun deel van onze gedeelde schoorsteen laten weghalen. Wat betekent dat voor mijn dak?`, a: `Praat er eerst samen over. Een schoorsteen op de muur tussen twee huizen is vaak van jullie samen, en dan is het verstandig om het samen af te spreken. Wordt het deel aan hun kant weggehaald, dan moet het dak op de grens weer dicht en moet het lood aan jouw kant goed blijven aansluiten. Gebeurt dat niet netjes, dan loopt het water bij de volgende bui juist bij jou naar binnen. Spreek vooraf af wie het werk doet en hoe de grens wordt afgewerkt, en maak voor en na foto's van jouw kant. Aan de stenen werk ik niet, maar het lood en de pannen rond de schoorsteen herstel ik, ook op de grens met de buren. Lees ook het artikel over lekkage waar vroeger een schoorsteen stond. Je hoort vooraf wat het kost.` },
   ],
+  // 22-11-2026 ronde 2: twee vragen bij de nieuwe uitleg over een verbouwing en water van de buren.
+  "lekkage-na-dakwerk-buren": [
+    { v: `De buren zijn nog met hun dak bezig, en het lekt nu al bij mij. Wat doe ik?`, a: `Zet een emmer onder de druppel en maak foto's met de datum. Vraag de buren meteen om hun dakdekker of aannemer te bellen, want wie een dak openmaakt, hoort het ook 's avonds en in het weekend dicht te houden, ook op de grens met jouw dak. Ga niet zelf op hun steiger of op je dak. Komt er niemand en blijft het binnenkomen, bel of app me dan met een foto. Dan dek ik jouw kant af zodat het binnen droog blijft, en maak ik foto's van wat ik zie. Je hoort vooraf wat het kost. Meer lees je in de uitleg over lekkage tijdens een verbouwing.` },
+  ],
+  "regenpijp-loost-op-dak": [
+    { v: `Het is niet mijn regenpijp, maar die van de buren die op mijn dak uitkomt. Wat nu?`, a: `Dan is het hetzelfde probleem, alleen is de pijp van de buren. Praat eerst met hen en laat een foto zien die je tijdens een bui maakt. Vaak is hun pijp doortrekken tot in hun eigen goot of afvoer de oplossing. Aan hun pijp werk ik alleen als zij akkoord zijn, en wie wat betaalt, spreken jullie samen af. Is jouw dak op die plek al beschadigd, dan maak ik dat dicht. Meer lees je in de uitleg over water van de buren op je dak.` },
+  ],
 };
 
 // Artikelen en korte antwoorden uit artikelen-extra-3.ts (sinds 12-11-2026) erachter, zodat ze via artikelen-extra.ts in ARTIKELEN en KORT_ANTWOORD komen.
