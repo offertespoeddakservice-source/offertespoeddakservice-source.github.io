@@ -634,6 +634,10 @@ export const FAQ_ERBIJ_2: Record<string, Artikel["faq"]> = {
   "lekkage-bij-schotel-of-antenne": [
     { v: `Er is bliksem ingeslagen in mijn antenne of schotel. Wat moet ik nakijken?`, a: `Eerst je eigen veiligheid. Ruik je brand of zie je rook, bel dan 112. Doet de tv, het modem of een groep in de meterkast het niet meer, laat dan een installateur naar de elektra kijken voordat je alles weer aanzet. Kijk daarna vanaf de straat of de mast nog recht staat en of er pannen of stukken lood los liggen rond de voet van de mast of de schoorsteen, en kijk op zolder bij de plek waar de kabel binnenkomt. Een beschadigde mast haal ik weg, met de beugel en de kabel, en het dak maak ik op die plek weer dicht. Kapotte pannen vervang ik, en lood dat is losgeraakt zet ik weer vast. Maak foto's voordat er iets wordt opgeruimd en stuur me er een van je dak vanaf de straat. Je hoort vooraf wat het kost.` },
   ],
+  // 22-11-2026 ronde 5: vraag over een dakdekker die niet meer bestaat.
+  "dak-lekt-na-reparatie": [
+    { v: `De dakdekker die mijn dak heeft gerepareerd, bestaat niet meer. Wie lost het nu op?`, a: `Kijk eerst in het Handelsregister van de KvK of het bedrijf nog bestaat, en zoek in het Centraal Insolventieregister of het failliet is. Is het failliet, dan kun je het in de regel niet meer laten terugkomen voor het herstel, en dan laat je het lek door een andere dakdekker maken. Zorg eerst dat het binnen droog blijft en maak foto's van de natte plek en van het dak. Ik zoek waar het water binnenkomt, kijk wat er bij de vorige reparatie is gedaan en maak het dicht. Je hoort vooraf wat het kost. Meer lees je in de uitleg over een dakdekker die failliet is of gestopt.` },
+  ],
 };
 
 // Artikelen en korte antwoorden uit artikelen-extra-3.ts (sinds 12-11-2026) erachter, zodat ze via artikelen-extra.ts in ARTIKELEN en KORT_ANTWOORD komen.
