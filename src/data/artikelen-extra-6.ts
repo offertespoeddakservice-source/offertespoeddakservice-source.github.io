@@ -18,6 +18,7 @@
  * 21-11-2026 ronde 4: sneldekpannen vervangen of repareren.
  * 21-11-2026 ronde 5: je zinken dak lekt.
  * 22-11-2026 ronde 1: vochtplek of schimmel in de hoek van het plafond bij de buitenmuur (daklek of koudebrug).
+ * 22-11-2026 ronde 1: lekkage bij de schoorsteen en de verzekering.
  */
 import type { Artikel } from "./artikelen";
 
@@ -702,6 +703,44 @@ export const ARTIKELEN_EXTRA_6: Artikel[] = [
       { v: `Kan ik de plek gewoon overschilderen?`, a: `Pas als je weet waar het vocht vandaan komt en de plek helemaal droog is. Schilder je over condens of een lek heen, dan komt de plek terug.` },
     ],
   },
+  {
+    slug: `schoorsteen-lekt-verzekering`,
+    datum: `2026-11-22`,
+    titel: `Schoorsteen lekt: betaalt de verzekering?`,
+    h1: `Lekkage bij de schoorsteen: betaalt de verzekering de schade en de reparatie?`,
+    metaTitle: `Schoorsteen lekt: betaalt de verzekering? | Spoed Dak Service`,
+    metaDescription: `Lekt het bij je schoorsteen? Bij stormschade betaalt de opstalverzekering vaak de schade binnen, bij oud lood of een open kanaal meestal niet. Zo zit het, en dit leg je vast.`,
+    intro: `Lekt het bij de schoorsteen, dan komt al snel de vraag of de verzekering betaalt. Ik ben geen verzekeraar en elke polis is anders, maar bij een schoorsteen hangt het antwoord bijna altijd af van één ding: hoe het water binnenkomt. Hieronder lees je hoe het meestal zit, wat je vastlegt en wat je meteen doet.`,
+    secties: [
+      { kop: `Lekt het nu? Eerst dit`, tekst: [
+        `Zet een bak onder de druppel, of in de haard als het daar binnenkomt, en haal spullen weg. Stook niet tot je weet waar het water vandaan komt. Ga niet zelf het dak op. Wat je verder meteen doet, staat op de <a href="/spoed/">spoedpagina</a>.`,
+      ] },
+      { kop: `Plotseling of door slijtage?`, tekst: [
+        `Verzekeraars kijken vooral of de schade plotseling is ontstaan. Waait er bij een storm een pan rond de voet van de schoorsteen los of raakt er iets van de schoorsteen beschadigd, en regent het daardoor binnen, dan valt de schade binnen vaak onder je opstalverzekering. Lekt het omdat het lood na veel jaren gescheurd of losgekomen is, of omdat de voegen open zijn, dan zien ze dat meestal als slijtage of onderhoud. Dan wordt vooral de reparatie aan de schoorsteen zelf vaak niet vergoed. Hoe dat bij lekkage in het algemeen zit, lees je in <a href="/kennisbank/daklekkage-verzekering/">daklekkage en je verzekering</a>.`,
+      ] },
+      { kop: `Regen in een open kanaal`, tekst: [
+        `Valt de regen bovenin het kanaal naar beneden, omdat de schoorsteen niet meer gebruikt wordt en er niets op zit, dan zien veel verzekeraars dat als iets wat je had kunnen voorkomen. Druppelt het in je haard of zie je bruine plekken op de schoorsteen binnen, lees dan <a href="/kennisbank/schoorsteen-lekt-open-haard/">water in je open haard</a> en <a href="/kennisbank/schoorsteen-afdekken/">schoorsteen afdekken</a>.`,
+      ] },
+      { kop: `Na een schoorsteenbrand`, tekst: [
+        `Is het dak rond de schoorsteen beschadigd door een schoorsteenbrand, bijvoorbeeld lood dat door de hitte is losgekomen of pannen die bij het blussen zijn gebroken, vraag dan je verzekeraar of dat onder brandschade valt. Laat het kanaal eerst nakijken door een erkende schoorsteenveger. Lees ook <a href="/kennisbank/dak-nakijken-na-schoorsteenbrand/">je dak nakijken na een schoorsteenbrand</a>.`,
+      ] },
+      { kop: `Staat de schoorsteen op de muur met de buren?`, tekst: [
+        `Dan is hij vaak van jullie samen, en is het slim om de reparatie samen te regelen. De schade bij jou binnen meld je bij je eigen verzekeraar. Lees <a href="/kennisbank/lekkage-gedeelde-schoorsteen/">lekkage bij een gedeelde schoorsteen</a>.`,
+      ] },
+      { kop: `Dit leg je vast`, tekst: [
+        `Maak foto's van de natte plek binnen, van de haard of de muur bij de schoorsteen en, vanaf de straat, van de schoorsteen zelf. Schrijf de datum op, wat voor weer het was en sinds wanneer het lekt. Gooi beschadigde spullen niet weg voordat je verzekeraar heeft gereageerd. Wacht niet met dichtmaken: schade die erger wordt omdat je lang wacht, wordt niet altijd vergoed.`,
+      ] },
+      { kop: `Wat ik doe`, tekst: [
+        `Ik kijk waar het water echt binnenkomt: het lood rond de voet, de pannen eromheen, de kop of het kanaal. Ik maak foto's van wat ik aantref en van de reparatie, met een korte omschrijving, en die kun je meesturen naar je verzekeraar. Of en hoeveel die vergoedt, beslist je verzekeraar zelf. Het lood en de pannen herstel ik, aan de stenen en de voegen werk ik niet. Zie <a href="/kennisbank/lekkage-bij-schoorsteen/">lekkage bij de schoorsteen</a> en <a href="/diensten/lood-vervangen/">lood vervangen bij de schoorsteen</a>. Je hoort vooraf wat het kost.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: lood vervangen bij de schoorsteen`, href: `/diensten/lood-vervangen/` },
+    faq: [
+      { v: `Vergoedt de opstalverzekering lekkage bij de schoorsteen?`, a: `Vaak wel als het plotseling ontstond, bijvoorbeeld door storm. Komt het door oud lood, open voegen of regen in een open kanaal, dan meestal niet, of alleen de schade binnen. Kijk altijd in je eigen polisvoorwaarden.` },
+      { v: `Moet ik met repareren wachten tot de verzekeraar is geweest?`, a: `Een noodreparatie om erger te voorkomen mag meestal gewoon. Maak eerst goede foto's en bewaar de rekening. Over de nette reparatie kun je het beste even met je verzekeraar overleggen.` },
+      { v: `Krijg ik iets op papier voor mijn verzekeraar?`, a: `Ja. Je krijgt foto's van wat ik aantrof en van de reparatie, met een korte omschrijving van de oorzaak en van wat ik heb gedaan.` },
+    ],
+  },
 ];
 
 // Kort antwoord bovenaan een artikel. Geen bedragen.
@@ -723,4 +762,5 @@ export const KORT_ANTWOORD_6: Record<string, string> = {
   "sneldekpannen-vervangen": `Sneldekpannen zijn grote, vrij vlakke pannen, vaak van beton, op veel huizen van na de oorlog. Zo'n dak lekt meestal bij een pan die is gaan schuiven of gebroken is, bij de randen waar de wind aan de pannen trekt, of bij een nok in oude specie. Eén kapotte pan is vaak te vervangen door een pan die in maat en profiel past. Zijn veel pannen op, dan is een dakvlak in één keer vernieuwen slimmer.`,
   "zinken-dak-lekt": `Een zinken dak, zoals op een erker, een luifel, een uitbouw of het platte deel van een ouder huis, lekt meestal bij een naad die open is gegaan, bij de strook langs de muur, bij een vol gootje aan de rand of op een plek waar het zink dun is geworden. Druppelt het alleen op koude ochtenden zonder regen, dan is het vaak condens. Smeer er geen kit op en loop er niet over, maar stuur een foto van het dak en de natte plek.`,
   "vochtplek-hoek-plafond-buitenmuur": `Een grijze waas of zwarte puntjes in de hoek van het plafond bij de buitenmuur, vooral in de winter en ook na droge dagen, is meestal condens in een koude hoek en geen daklek. Wordt de plek natter na regen, zit er een bruine kring of zit hij recht onder de goot, dan komt het water vaak van buiten: van een overlopende of lekkende goot, de dakrand of de onderste rij pannen.`,
+  "schoorsteen-lekt-verzekering": `Lekt het bij de schoorsteen door een storm, dan valt de schade binnen vaak onder je opstalverzekering. Komt het door oud of gescheurd lood, open voegen of regen in een open kanaal, dan zien verzekeraars dat meestal als slijtage of onderhoud, en wordt vooral de reparatie zelf vaak niet vergoed. Maak foto's, schrijf de datum en het weer op en laat het lek snel dichtmaken.`,
 };
