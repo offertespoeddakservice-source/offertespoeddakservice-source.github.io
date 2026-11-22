@@ -119,6 +119,18 @@ const faqSchema = { "@context": "https://schema.org", "@type": "FAQPage", mainEn
       {gotenPlaatsen.length > 0 && (
         <p style="margin-top:12px;">Zit je goot vol blad? Hoe ik een volle goot leegmaak en de uitloop vrijmaak, lees je per plaats bij dakgoot schoonmaken in {gotenPlaatsen.map((p, i) => (<>{i > 0 && (i === gotenPlaatsen.length - 1 ? " en " : ", ")}<a href={`/werkgebied/${p.slug}/goten-reinigen/`}>{p.naam}</a></>))}.{gootRepPlaatsen.length > 0 && (<> Een lekkende goot repareer ik ook in {gootRepPlaatsen.map((p, i) => (<>{i > 0 && (i === gootRepPlaatsen.length - 1 ? " en " : ", ")}<a href={`/werkgebied/${p.slug}/dakgoot-vervangen/`}>{p.naam}</a></>))}.</>)}</p>
       )}
+      {/* 22-11-2026 ronde 3: In het kort, gelijk aan de andere pagina's, voor Google en AI. */}
+      <h3 style="margin-top:28px;">In het kort</h3>
+      <ul>
+        <li><strong>Wie:</strong> Spoed Dak Service, het bedrijf van {SITE.eigenaar}, dakdekker uit 's-Hertogenbosch. Je belt of appt met {SITE.eigenaar} zelf, niet met een callcenter.</li>
+        <li><strong>Klussen:</strong> daklekkage, losse dakpannen en nokvorsten, lood rond schoorsteen en dakraam, dakgoten repareren en schoonmaken, kilgoten en bakgoten, platte daken, golfplaten op een schuur of carport, windveren, stormschade, vogelwering, dakonderhoud en oude antennes of schotels weghalen.</li>
+        <li><strong>Waar:</strong> vanuit Den Bosch in de regio Den Bosch en verder in Brabant. Een klus verder weg plan ik vooraf met je in.</li>
+        <li><strong>Contact:</strong> bellen of WhatsApp op <a href={telHref}>{SITE.telefoonWeergave}</a>, dag en nacht bereikbaar.</li>
+        <li><strong>Prijs:</strong> je hoort de vaste prijs voordat ik begin. De richtprijzen staan op de <a href="/prijzen/">prijzen-pagina</a>.</li>
+        <li><strong>Betalen:</strong> een kleine klus, zoals een paar losse pannen of een goot leegmaken, betaal je als hij klaar is, via iDEAL. Bij groter werk spreken we vooraf af hoe en wanneer je betaalt.</li>
+        <li><strong>Verzekerd:</strong> bedrijfsaansprakelijk verzekerd.</li>
+        <li><strong>Reviews:</strong> <a href={SITE.werkspotUrl} target="_blank" rel="noopener">{SITE.reviews.score.toString().replace(".", ",")} op Werkspot</a>{SITE.reviews.werkspotAantal > 0 ? ` (${SITE.reviews.werkspotAantal} reviews)` : ""}.</li>
+      </ul>
     </div>
   </section>
 
