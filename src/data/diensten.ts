@@ -687,7 +687,8 @@ export const DIENSTEN: Dienst[] = [
     vanafPrijs: "stuur een foto",
     h1: "Lood vervangen bij je schoorsteen, muur of dakraam",
     kort: "Los, gescheurd of opgekruld lood vastzetten of vervangen, zodat het water weer over de pannen loopt.",
-    metaTitle: "Schoorsteen lekt? Lood vervangen | Spoed Dak Service",
+    // 22-11-2026 ronde 1: titel zoals mensen zoeken ('reparatie lood schoorsteen' 45, 'schoorsteen lood reparatie' 36, 'schoorsteen lood vervangen' 36 vertoningen; pagina 481 vertoningen, 0 kliks).
+    metaTitle: "Lood bij schoorsteen repareren of vervangen | Spoed Dak Service",
     metaDescription:
       "Lekt het bij je schoorsteen, langs een muur of bij een dakraam? Vaak zit het lood los of is het gescheurd. Ik zet het vast of vervang het. Stuur een foto.",
     icoon: "🧰",
