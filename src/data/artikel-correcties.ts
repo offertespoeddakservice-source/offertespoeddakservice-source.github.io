@@ -22,6 +22,7 @@
 // 22-11-2026 ronde 3: titel voor Google van dakraam lekt ('lekkage dakraam' 102 vertoningen op plek 89), zodat hij niet meer bijna gelijk is aan de titel van de dienstpagina lekkend dakraam.
 // 22-11-2026 ronde 3: titel voor Google van daktermen uitgelegd (plek 8,3, 199 vertoningen, 1% klikt), met de begrippen die mensen opzoeken.
 // 22-11-2026 ronde 4: titel voor Google van zinken dakgoot lekt met 'op de naad' ('zinken dakgoot lekt op naad' 64 vertoningen op plek 52; artikel 542 vertoningen, 1 klik).
+// 22-11-2026 ronde 4: titel voor Google van daklekkage en je verzekering, gelijk aan de kop en met de bedrijfsnaam erachter (enige kennisartikel zonder; 512 vertoningen op plek 47, 1 klik).
 // Kennisbank [slug].astro legt hem over het artikel heen: alleen de velden die hier staan, veranderen (ook de titel voor Google).
 import type { Artikel } from "./artikelen";
 import { prijsVan } from "./prijzen";
@@ -120,6 +121,7 @@ export const ARTIKEL_CORRECTIES: Record<string, Partial<Pick<Artikel, "secties" 
   "wat-kost-plat-dak-repareren": { metaTitle: "Lekkend plat dak repareren: wat kost het? | Spoed Dak Service" },
   "wat-kost-nokvorsten-repareren": { metaTitle: "Nok of nokvorsten repareren: wat kost het? | Spoed Dak Service" },
   "daktermen-uitgelegd": { metaTitle: "Daktermen: nokvorst, kil, windveer en meer | Spoed Dak Service" },
+  "daklekkage-verzekering": { metaTitle: "Daklekkage en je verzekering: wat wordt vergoed? | Spoed Dak Service" },
   ...(GOLFPLATEN_DIENST ? { "golfplaten-lekken": { dienst: { label: "Bekijk: golfplaten en dakplaten vervangen", href: "/diensten/golfplaten-vervangen/" } }, "welke-golfplaten-heb-ik": { dienst: { label: "Bekijk: golfplaten en dakplaten vervangen", href: "/diensten/golfplaten-vervangen/" } } } : {}),
   ...(DAKONDERHOUD_DIENST ? { "dakonderhoud-per-seizoen": { dienst: { label: "Bekijk: dakonderhoud", href: "/diensten/dakonderhoud/" } } } : {}),
 };
