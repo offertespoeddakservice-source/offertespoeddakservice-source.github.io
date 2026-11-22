@@ -630,6 +630,10 @@ export const FAQ_ERBIJ_2: Record<string, Artikel["faq"]> = {
   "regenpijp-loost-op-dak": [
     { v: `Het is niet mijn regenpijp, maar die van de buren die op mijn dak uitkomt. Wat nu?`, a: `Dan is het hetzelfde probleem, alleen is de pijp van de buren. Praat eerst met hen en laat een foto zien die je tijdens een bui maakt. Vaak is hun pijp doortrekken tot in hun eigen goot of afvoer de oplossing. Aan hun pijp werk ik alleen als zij akkoord zijn, en wie wat betaalt, spreken jullie samen af. Is jouw dak op die plek al beschadigd, dan maak ik dat dicht. Meer lees je in de uitleg over water van de buren op je dak.` },
   ],
+  // 22-11-2026 ronde 5: vraag over bliksem in een antenne of schotel.
+  "lekkage-bij-schotel-of-antenne": [
+    { v: `Er is bliksem ingeslagen in mijn antenne of schotel. Wat moet ik nakijken?`, a: `Eerst je eigen veiligheid. Ruik je brand of zie je rook, bel dan 112. Doet de tv, het modem of een groep in de meterkast het niet meer, laat dan een installateur naar de elektra kijken voordat je alles weer aanzet. Kijk daarna vanaf de straat of de mast nog recht staat en of er pannen of stukken lood los liggen rond de voet van de mast of de schoorsteen, en kijk op zolder bij de plek waar de kabel binnenkomt. Een beschadigde mast haal ik weg, met de beugel en de kabel, en het dak maak ik op die plek weer dicht. Kapotte pannen vervang ik, en lood dat is losgeraakt zet ik weer vast. Maak foto's voordat er iets wordt opgeruimd en stuur me er een van je dak vanaf de straat. Je hoort vooraf wat het kost.` },
+  ],
 };
 
 // Artikelen en korte antwoorden uit artikelen-extra-3.ts (sinds 12-11-2026) erachter, zodat ze via artikelen-extra.ts in ARTIKELEN en KORT_ANTWOORD komen.
