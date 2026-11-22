@@ -19,6 +19,7 @@
 // 21-11-2026 ronde 5: knop onder dakonderhoud per seizoen naar de nieuwe dienst dakonderhoud, alleen als die dienst bestaat.
 // 22-11-2026 ronde 1: titel voor Google van wat kost plat dak repareren (1593 vertoningen op plek 48,6, 0 kliks; 'lekkage plat dak' 135 en 'plat dak lekkage repareren' 117 vertoningen), met 'lekkend plat dak repareren' vooraan.
 // 22-11-2026 ronde 1: titel voor Google van wat kost nokvorsten repareren met 'nok' erin ('daknok reparatie kosten' 28 en 'nokvorsten vervangen' 50 vertoningen; artikel 162 vertoningen op plek 61, 0 kliks).
+// 22-11-2026 ronde 3: titel voor Google van dakraam lekt ('lekkage dakraam' 102 vertoningen op plek 89), zodat hij niet meer bijna gelijk is aan de titel van de dienstpagina lekkend dakraam.
 // Kennisbank [slug].astro legt hem over het artikel heen: alleen de velden die hier staan, veranderen (ook de titel voor Google).
 import type { Artikel } from "./artikelen";
 import { prijsVan } from "./prijzen";
@@ -88,7 +89,7 @@ export const ARTIKEL_CORRECTIES: Record<string, Partial<Pick<Artikel, "secties" 
     ],
     dienst: { label: `Bekijk: lood vervangen bij de schoorsteen`, href: `/diensten/lood-vervangen/` },
   },
-  "dakraam-lekt": { dienst: { label: "Bekijk: lekkend dakraam repareren", href: "/diensten/dakraam-lekkage/" } },
+  "dakraam-lekt": { dienst: { label: "Bekijk: lekkend dakraam repareren", href: "/diensten/dakraam-lekkage/" }, metaTitle: "Dakraam lekt bij regen? Zo vind je het lek | Spoed Dak Service" },
   "dakinspectie": { metaTitle: "Dakinspectie: wat een dakdekker nakijkt | Spoed Dak Service" },
   "dakpan-kapot-of-verschoven": { metaTitle: "Dakpan scheef, kapot of verschoven? | Spoed Dak Service" },
   "lood-op-dak": { dienst: { label: "Bekijk: lood vastzetten of vervangen", href: "/diensten/lood-vervangen/" }, metaTitle: "Lood rond schoorsteen of dakraam lekt? | Spoed Dak Service" },
