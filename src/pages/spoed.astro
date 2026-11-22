@@ -64,10 +64,11 @@ const spoedSchema = {
   areaServed: [{ "@type": "State", name: "Noord-Brabant" }, { "@type": "City", name: SITE.basisplaats }],
   hoursAvailable: { "@type": "OpeningHoursSpecification", dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"], opens: "00:00", closes: "23:59" },
 };
+// 22-11-2026 ronde 4: titel voor Google met 'daklekkage' vooraan ('daklekkage spoed' 225 vertoningen op plek 82, 'lekkage spoed' 97 op plek 48; pagina 263 vertoningen, 0 kliks). Omschrijving en h1 niet veranderd.
 ---
 
 <Base
-  title={`Spoed dakdekker 24/7 regio Den Bosch | ${SITE.bedrijfsnaam}`}
+  title={`Spoed bij daklekkage: dakdekker 24/7 Den Bosch | ${SITE.bedrijfsnaam}`}
   description="Acute daklekkage of stormschade? Spoed dakdekker in de regio Den Bosch, vaak dezelfde dag langs, ook 's avonds en in het weekend. Bel 06 10 18 53 57."
   path="/spoed"
   schema={[faqSchema, spoedSchema]}
