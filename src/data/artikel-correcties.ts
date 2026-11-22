@@ -18,6 +18,7 @@
 // 21-11-2026 ronde 3: titel voor Google van plat dak repareren of vervangen (1093 vertoningen op plek 83, 0 kliks), met 'dakbedekking' vooraan en anders dan de titel van de dienstpagina platte daken; en een omschrijving voor natte isolatie (plek 5,5, 245 vertoningen, 0,8% klikt).
 // 21-11-2026 ronde 5: knop onder dakonderhoud per seizoen naar de nieuwe dienst dakonderhoud, alleen als die dienst bestaat.
 // 22-11-2026 ronde 1: titel voor Google van wat kost plat dak repareren (1593 vertoningen op plek 48,6, 0 kliks; 'lekkage plat dak' 135 en 'plat dak lekkage repareren' 117 vertoningen), met 'lekkend plat dak repareren' vooraan.
+// 22-11-2026 ronde 1: titel voor Google van wat kost nokvorsten repareren met 'nok' erin ('daknok reparatie kosten' 28 en 'nokvorsten vervangen' 50 vertoningen; artikel 162 vertoningen op plek 61, 0 kliks).
 // Kennisbank [slug].astro legt hem over het artikel heen: alleen de velden die hier staan, veranderen (ook de titel voor Google).
 import type { Artikel } from "./artikelen";
 import { prijsVan } from "./prijzen";
@@ -113,6 +114,7 @@ export const ARTIKEL_CORRECTIES: Record<string, Partial<Pick<Artikel, "secties" 
   "dakterras-lekt": { metaTitle: "Balkon of dakterras lekt naar beneden? | Spoed Dak Service" },
   "dakgoot-loopt-over": { metaTitle: "Water loopt over je dakgoot bij regen? | Spoed Dak Service" },
   "wat-kost-plat-dak-repareren": { metaTitle: "Lekkend plat dak repareren: wat kost het? | Spoed Dak Service" },
+  "wat-kost-nokvorsten-repareren": { metaTitle: "Nok of nokvorsten repareren: wat kost het? | Spoed Dak Service" },
   ...(GOLFPLATEN_DIENST ? { "golfplaten-lekken": { dienst: { label: "Bekijk: golfplaten en dakplaten vervangen", href: "/diensten/golfplaten-vervangen/" } }, "welke-golfplaten-heb-ik": { dienst: { label: "Bekijk: golfplaten en dakplaten vervangen", href: "/diensten/golfplaten-vervangen/" } } } : {}),
   ...(DAKONDERHOUD_DIENST ? { "dakonderhoud-per-seizoen": { dienst: { label: "Bekijk: dakonderhoud", href: "/diensten/dakonderhoud/" } } } : {}),
 };
