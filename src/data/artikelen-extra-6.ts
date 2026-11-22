@@ -22,6 +22,7 @@
  * 22-11-2026 ronde 1: het dak van een leegstaand huis lekt.
  * 22-11-2026 ronde 2: lekt het tijdens een verbouwing (dak open, aannemer aan het werk).
  * 22-11-2026 ronde 2: droge nok of nokvorsten in specie.
+ * 22-11-2026 ronde 2: de regenpijp of het water van het dak van de buren komt op jouw dak.
  */
 import type { Artikel } from "./artikelen";
 
@@ -854,6 +855,45 @@ export const ARTIKELEN_EXTRA_6: Artikel[] = [
       { v: `Kan een droge nok lekken?`, a: `Ja, als een klem losschiet of de strook onder de vorsten scheurt of loslaat, vooral bij een schoorsteen of aan het eind van de nok. Dan kan bij harde wind regen of stuifsneeuw onder de vorsten door. Een losse klem of een kapot stuk strook vervang ik.` },
     ],
   },
+  {
+    slug: `water-van-buren-op-je-dak`,
+    datum: `2026-11-22`,
+    titel: `Komt het water van de buren op jouw dak?`,
+    h1: `De regenpijp of het dak van de buren loost op jouw dak: kan dat kwaad, en wat doe je?`,
+    metaTitle: `Regenpijp van de buren op je dak? | Spoed Dak Service`,
+    metaDescription: `Komt de regenpijp of het water van het dak van de buren op jouw dak of aanbouw uit? Waarom dat kan lekken en hoe je het samen oplost.`,
+    intro: `In een rij huizen of bij twee-onder-een-kappers liggen de daken dicht op elkaar. Soms komt de regenpijp van de buren uit op het platte dak van jouw aanbouw, loopt hun goot over op jouw pannen of stroomt het water van hun hogere dak bij een bui op jouw lagere dak. Dat gaat vaak jaren goed, maar al dat water op één plek kan op den duur een lek geven. Hieronder lees je hoe je dat ziet en hoe je het samen met de buren oplost.`,
+    secties: [
+      { kop: `Lekt het nu? Eerst dit`, tekst: [
+        `Zet een emmer onder de druppel en haal spullen weg die nat kunnen worden. Ga niet op het lage dak staan als het nat is of waait. Wat je verder meteen kunt doen, staat op de <a href="/spoed/">spoedpagina</a>.`,
+      ] },
+      { kop: `Waarom het water van de buren je dak kan raken`, tekst: [
+        `Een regenpijp verzamelt het water van een heel dakvlak. Komt die uit op jouw dak, dan valt bij een stortbui al dat water op één plek, in plaats van verdeeld over het dak. Hetzelfde gebeurt als hun goot overloopt of lekt boven jouw dak, of als hun hogere dak aan jouw kant geen goot heeft. Hoe dat werkt bij je eigen regenpijp, lees je in <a href="/kennisbank/regenpijp-loost-op-dak/">regenpijp komt uit op het dak eronder</a>.`,
+      ] },
+      { kop: `Zo zie je het`, tekst: [
+        `Kijk tijdens een flinke bui vanuit een raam boven naar de plek waar het water van de buren op je dak komt. Spat het alle kanten op, blijft het staan of loopt het over de rand van je goot? Kijk na de bui of er grind is weggespoeld, of er een groene of donkere plek op de dakbedekking zit en of er een pan scheef ligt. Binnen zie je het aan een natte plek vlak onder of naast die plek, vooral na een stortbui.`,
+      ] },
+      { kop: `Op een plat dak of op pannen`, tekst: [
+        `Op een plat dak slijt de dakbedekking sneller waar de straal neerkomt, en kan de afvoer van jouw dak al dat extra water niet aan, dan blijft er na een bui een plas staan. Lees ook <a href="/kennisbank/water-blijft-staan-op-plat-dak/">water blijft staan op je platte dak</a>. Op pannen kan het water onder de rand van een pan spatten of een pan laten schuiven, en dan loopt het eronder door naar binnen. Zie <a href="/kennisbank/dakpan-kapot-of-verschoven/">dakpan kapot of verschoven</a>.`,
+      ] },
+      { kop: `Praat eerst met de buren`, tekst: [
+        `De pijp of de goot is van de buren, dus begin met een gesprek. Laat ze de foto's zien en vertel wat je ziet. Vaak weten ze niet eens dat hun water op jouw dak komt. In het burenrecht geldt in de regel dat je het regenwater van je eigen dak niet zomaar op het dak of erf van een ander laat lopen, maar soms is daar vroeger iets over afgesproken, bijvoorbeeld in de koopakte. Twijfel je wat bij jullie geldt, vraag het dan na bij het Juridisch Loket. Wie de rekening betaalt, spreken jullie samen af.`,
+      ] },
+      { kop: `Wat eraan te doen is`, tekst: [
+        `Meestal is de oplossing eenvoudig: de regenpijp van de buren doortrekken tot in hun eigen goot of afvoer, of er een bocht onder zetten zodat het water netjes wegloopt. Aan de pijp of de goot van de buren werk ik alleen als zij akkoord zijn. Is jouw dakbedekking of een pan op die plek al beschadigd, dan maak ik dat eerst dicht. Zie <a href="/diensten/regenpijp-vervangen/">regenpijp vervangen of repareren</a> en <a href="/diensten/platte-daken/">platte daken</a>.`,
+      ] },
+      { kop: `Wat kost het?`, tekst: [
+        `Dat hangt af van hoe lang de pijp moet worden, waar hij op aansluit en of er al schade is aan jouw dak. Stuur een foto van de plek waar het water van de buren op je dak komt en, als het lekt, van de natte plek binnen. Dan hoor je vooraf wat het kost, zodat je met je buren kunt afspreken wie wat betaalt.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: regenpijp vervangen of repareren`, href: `/diensten/regenpijp-vervangen/` },
+    faq: [
+      { v: `Mag de regenpijp van de buren op mijn dak uitkomen?`, a: `In de regel laat je het water van je eigen dak niet zomaar op het dak of erf van een ander lopen. Soms is daar wel iets over afgesproken, bijvoorbeeld bij de bouw of in de koopakte. Praat eerst met je buren, en twijfel je, vraag het dan na bij het Juridisch Loket.` },
+      { v: `De buren willen er niets aan doen. Wat nu?`, a: `Leg vast wat er gebeurt, met foto's en filmpjes tijdens een bui en van eventuele schade. Probeer het daarna nog eens samen, of vraag hulp bij buurtbemiddeling. Kom je er niet uit, dan kan je rechtsbijstandsverzekering je verder helpen, als je die hebt. Lekt het intussen binnen, laat dan in elk geval jouw kant dichtmaken.` },
+      { v: `Hun goot loopt bij elke bui over op mijn pannen. Ligt dat aan hun goot?`, a: `Vaak wel. Zit hun goot vol blad, hangt hij door of is de uitloop dicht, dan loopt het water over de rand op jouw dak. Leegmaken of de goot weer op afschot hangen is dan meestal genoeg. Laat de buren een foto zien die je tijdens een bui maakt.` },
+      { v: `Is het spoed?`, a: `Meestal niet, maar laat het niet de hele winter zo. Druppelt het binnen, zet dan een emmer neer en stuur me een foto. Blijft het binnen droog en zie je alleen dat het water op je dak spat, dan heb je tijd om het met de buren te regelen.` },
+    ],
+  },
 ];
 
 // Kort antwoord bovenaan een artikel. Geen bedragen.
@@ -879,4 +919,5 @@ export const KORT_ANTWOORD_6: Record<string, string> = {
   "dak-lekt-leegstaand-huis": `Staat een huis leeg, laat dan na elke flinke bui of storm iemand binnen kijken, ook op zolder. Lekt het, laat iemand met een sleutel een bak neerzetten en stuur de dakdekker foto's, het adres en wie de sleutel heeft. Een losse pan of nokvorst kan vaak gerepareerd worden zonder dat er iemand thuis is. Kijk in je polis of je moet melden dat het huis leeg staat.`,
   "lekt-tijdens-verbouwing": `Lekt het terwijl je dak openligt voor een verbouwing, vang het water dan op, zet bij een lamp of stopcontact de groep uit en bel meteen de aannemer of de uitvoerder: wie het dak openmaakt, hoort het in de regel ook dicht te houden. Maak foto's met de datum en meld het schriftelijk. Komt er niemand en blijft het binnenkomen, laat de open plek dan door een dakdekker afdekken.`,
   "droge-nok-of-specie": `Bij een nok in specie liggen de nokvorsten in dakmortel, die na veel jaren bros wordt, zodat er brokjes in de goot vallen en vorsten los gaan liggen. Bij een droge nok ligt er een strook over de nok en zit elke vorst met een klem vast. Daar gaat het mis als een klem losschiet of de strook scheurt. Allebei houden ze de nok dicht als ze goed liggen.`,
+  "water-van-buren-op-je-dak": `Komt de regenpijp of het water van het dak van de buren uit op jouw dak, dan valt bij elke bui veel water op één plek. Op een plat dak slijt de dakbedekking daar sneller, op pannen kan een pan gaan schuiven. Praat eerst met de buren: meestal is hun pijp doortrekken tot in hun eigen goot of afvoer de oplossing. Lekt het al, laat dan eerst jouw kant dichtmaken.`,
 };
