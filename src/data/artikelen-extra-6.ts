@@ -25,6 +25,7 @@
  * 22-11-2026 ronde 2: de regenpijp of het water van het dak van de buren komt op jouw dak.
  * 22-11-2026 ronde 5: bliksem ingeslagen op je dak, schoorsteen of antenne.
  * 22-11-2026 ronde 5: de dakdekker die je dak deed is failliet of gestopt, en nu lekt het.
+ * 22-11-2026 ronde 5: schade aan je dak door heien, slopen of bouwen in de buurt.
  */
 import type { Artikel } from "./artikelen";
 
@@ -978,6 +979,47 @@ export const ARTIKELEN_EXTRA_6: Artikel[] = [
       { v: `Wil een andere dakdekker werk van een ander herstellen?`, a: `Meestal wel. Ik kijk eerst wat er ligt en maak foto's, zodat je weet wat er mis is. Daarna hoor je wat het herstellen kost, voordat ik begin.` },
     ],
   },
+  {
+    slug: `dak-schade-door-bouw-in-de-buurt`,
+    datum: `2026-11-22`,
+    titel: `Dakschade door bouw in de straat?`,
+    h1: `Pannen verschoven of nok los door heien, slopen of bouwen in de buurt: wat doe je?`,
+    metaTitle: `Dakschade door heien of bouw in de buurt? | Spoed Dak Service`,
+    metaDescription: `Liggen er pannen scheef of brokjes specie in de goot sinds er in je straat wordt geheid of gebouwd? Zo leg je het vast en regel je het met de aannemer.`,
+    intro: `Er wordt in je straat gebouwd, gesloopt of geheid, en ineens ligt er een brokje specie in je goot of zie je een pan die scheef ligt. Komt dat door het werk in de buurt? Soms wel. Hieronder lees je hoe trillingen en bouwwerk een dak kunnen raken, wat je vastlegt en hoe je het met de aannemer regelt.`,
+    secties: [
+      { kop: `Lekt het nu? Eerst dit`, tekst: [
+        `Zet een emmer onder de druppel en haal spullen weg die nat kunnen worden. Ga niet zelf het dak op. Wat je verder meteen kunt doen, staat op de <a href="/spoed/">spoedpagina</a>.`,
+      ] },
+      { kop: `Hoe bouwwerk je dak kan raken`, tekst: [
+        `Heien, damwanden de grond in trillen, slopen en zwaar bouwverkeer geven trillingen die je soms in het hele huis voelt. Op een ouder dak kan de specie onder de nokvorsten daardoor gaan brokkelen, en een pan die al net niet goed in de sluiting lag, kan een stukje schuiven. Ook direct contact komt voor: een kraan, hoogwerker of verhuislift die tegen je goot komt, of een ladder of steiger die tegen je goot is gezet. Lees ook <a href="/kennisbank/nokvorsten-los/">nokvorsten los</a> en <a href="/kennisbank/dakpan-kapot-of-verschoven/">dakpan kapot of verschoven</a>.`,
+      ] },
+      { kop: `Zo zie je het`, tekst: [
+        `Kijk vanaf de straat met de zoom van je telefoon of de nokvorsten recht liggen en of er een pan scheef ligt of uitsteekt. Brokjes specie in de goot of op de stoep, en een goot die ineens lager hangt, zijn ook tekens. Op zolder zie je soms daglicht tussen de pannen waar dat eerst niet was. Kijk bij de eerste flinke bui of het droog blijft.`,
+      ] },
+      { kop: `Leg het meteen vast`, tekst: [
+        `Maak foto's met de datum, van je dak vanaf de straat, van wat er in de goot of op de stoep ligt en van natte plekken binnen. Schrijf op wanneer er werd geheid of gesloopt en wanneer je het zag. Heeft de aannemer voor het werk een opname van je huis laten maken, een bouwkundige vooropname, vraag dan een kopie. Daarin staat hoe je huis er voor het werk bij lag.`,
+      ] },
+      { kop: `Meld het bij de aannemer`, tekst: [
+        `Meld de schade schriftelijk bij de aannemer of bij de opdrachtgever van het werk, bijvoorbeeld de gemeente of de bouwer, met je foto's erbij. Een aannemer is in de regel verzekerd voor schade die hij bij anderen veroorzaakt. Wacht er niet te lang mee. Kom je er samen niet uit, kijk dan of je rechtsbijstandsverzekering je kan helpen, of vraag het Juridisch Loket om advies.`,
+      ] },
+      { kop: `Wat je zelf beter niet doet`, tekst: [
+        `Ga niet zelf het dak op om een pan terug te duwen of specie bij te smeren. Dan maak je het makkelijk erger, en het is lastiger om later te laten zien wat er door het bouwwerk kwam. Laat het ook niet tot na de bouw liggen: een losse pan of nokvorst kan bij de volgende storm wegwaaien.`,
+      ] },
+      { kop: `Hoe ik het aanpak`, tekst: [
+        `Ik kijk wat er los of kapot is en maak foto's met een korte omschrijving van wat ik aantref, die je naar de aannemer of je verzekeraar kunt sturen. Of het door het bouwwerk komt, kan ik niet altijd met zekerheid zeggen. Wel zie ik vaak of een schade vers is of er al langer zit. Daarna leg ik verschoven pannen terug, vervang ik gebroken pannen door pannen die passen en zet ik losse nokvorsten weer vast. Zie <a href="/diensten/dakreparatie/">dakreparatie</a>.`,
+      ] },
+      { kop: `Wat kost het?`, tekst: [
+        `Dat hangt af van wat er los is: een paar pannen terugleggen is iets anders dan een hele nok opnieuw vastzetten. Stuur een foto van je dak vanaf de straat via WhatsApp, dan hoor je vooraf wat het kost. Die prijs en mijn foto's kun je meesturen als je de schade bij de aannemer meldt.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: spoed dakreparatie (pannen, lood en nok)`, href: `/diensten/dakreparatie/` },
+    faq: [
+      { v: `Wie betaalt de schade aan mijn dak door heien in de straat?`, a: `Komt de schade door het bouwwerk, dan is vaak de partij die het werk uitvoert of laat uitvoeren ervoor aansprakelijk. Dat moet je wel aannemelijk maken, met foto's met de datum en het liefst een vooropname van voor het werk. Meld het schriftelijk bij de aannemer of de opdrachtgever.` },
+      { v: `Er komt een bouwproject in mijn straat. Kan ik vooraf iets doen?`, a: `Ja. Maak foto's van je dak, je goot en je gevel van voor het werk, met de datum. Vraag of de aannemer een bouwkundige vooropname van je huis laat maken. Ligt er al een pan scheef of zit de nok los, laat dat dan liever voor het werk maken, dan is er later geen discussie over.` },
+      { v: `De verhuislift van de buren heeft mijn goot geraakt. Wat nu?`, a: `Maak meteen foto's en vraag het verhuisbedrijf of de buren om hun gegevens. Een verhuisbedrijf is meestal verzekerd voor zulke schade. Hangt de goot scheef of lekt hij, stuur me dan een foto. Ik hang hem weer goed of vervang het stuk dat kapot is, en je hoort vooraf wat het kost.` },
+    ],
+  },
 ];
 
 // Kort antwoord bovenaan een artikel. Geen bedragen.
@@ -1006,4 +1048,5 @@ export const KORT_ANTWOORD_6: Record<string, string> = {
   "water-van-buren-op-je-dak": `Komt de regenpijp of het water van het dak van de buren uit op jouw dak, dan valt bij elke bui veel water op één plek. Op een plat dak slijt de dakbedekking daar sneller, op pannen kan een pan gaan schuiven. Praat eerst met de buren: meestal is hun pijp doortrekken tot in hun eigen goot of afvoer de oplossing. Lekt het al, laat dan eerst jouw kant dichtmaken.`,
   "blikseminslag-dak": `Is de bliksem op je dak ingeslagen, ga dan bij brand of rook naar buiten en bel 112, laat de elektra nakijken door een installateur en ga niet zelf het dak op. Kijk daarna vanaf de straat naar gebarsten pannen, een scheve nokvorst, los lood en de antenne. Een open plek wordt eerst afgedekt, daarna worden de kapotte pannen en het lood hersteld. Maak foto's voor je verzekeraar.`,
   "dakdekker-failliet-dak-lekt": `Bestaat de dakdekker die je dak deed niet meer, zoek dan in het Handelsregister van de KvK en in het Centraal Insolventieregister of het bedrijf failliet of gestopt is. Bij een faillissement kun je het werk in de regel niet meer door dat bedrijf laten herstellen. Zorg eerst dat het binnen droog blijft, maak foto's, zoek de offerte en factuur op en laat het lek door een andere dakdekker maken.`,
+  "dak-schade-door-bouw-in-de-buurt": `Liggen er pannen scheef, brokjes specie in de goot of hangt de goot lager sinds er in je straat wordt geheid, gesloopt of gebouwd, maak dan foto's met de datum en meld het schriftelijk bij de aannemer of de opdrachtgever. Vraag of er een vooropname van je huis is gemaakt. Ga niet zelf het dak op, en laat losse pannen en nokvorsten op tijd vastzetten, voor de volgende storm.`,
 };
