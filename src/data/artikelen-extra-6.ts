@@ -23,6 +23,7 @@
  * 22-11-2026 ronde 2: lekt het tijdens een verbouwing (dak open, aannemer aan het werk).
  * 22-11-2026 ronde 2: droge nok of nokvorsten in specie.
  * 22-11-2026 ronde 2: de regenpijp of het water van het dak van de buren komt op jouw dak.
+ * 22-11-2026 ronde 5: bliksem ingeslagen op je dak, schoorsteen of antenne.
  */
 import type { Artikel } from "./artikelen";
 
@@ -894,6 +895,47 @@ export const ARTIKELEN_EXTRA_6: Artikel[] = [
       { v: `Is het spoed?`, a: `Meestal niet, maar laat het niet de hele winter zo. Druppelt het binnen, zet dan een emmer neer en stuur me een foto. Blijft het binnen droog en zie je alleen dat het water op je dak spat, dan heb je tijd om het met de buren te regelen.` },
     ],
   },
+  {
+    slug: `blikseminslag-dak`,
+    datum: `2026-11-22`,
+    titel: `Bliksem ingeslagen op je dak?`,
+    h1: `Bliksem ingeslagen op je dak of schoorsteen: wat doe je nu?`,
+    metaTitle: `Blikseminslag op je dak: wat nu? | Spoed Dak Service`,
+    metaDescription: `Is de bliksem ingeslagen op je dak, schoorsteen of antenne? Eerst je veiligheid, dan de schade: gebarsten pannen, los lood en wie je voor welk deel belt.`,
+    intro: `Een blikseminslag op een huis gebeurt niet vaak, maar als het gebeurt, schrik je flink. De bliksem slaat meestal in op een hoog punt, zoals de schoorsteen, een antenne of de nok. Daar kan hij pannen laten barsten, lood losslaan of stenen uit de schoorsteen laten springen, en via de kabels kan er ook binnen iets kapotgaan. Hieronder lees je wat je meteen doet, waar je daarna naar kijkt en wie je voor welk deel belt.`,
+    secties: [
+      { kop: `Eerst je veiligheid`, tekst: [
+        `Ruik je brand, zie je rook of hoor je iets knetteren, ga dan naar buiten en bel 112. Een brand kan ook op zolder of onder de pannen beginnen, waar je hem niet meteen ziet. Ga niet zelf het dak of een ladder op zolang het onweert, en blijf uit de buurt van de kant van het huis waar stukken pan of steen naar beneden kunnen komen.`,
+      ] },
+      { kop: `De elektra`, tekst: [
+        `Valt de stroom uit, slaat een groep in de meterkast af of doen apparaten het niet meer, laat dan een installateur kijken voordat je alles weer aanzet. Ook als het dak er goed uitziet, kan er via de kabels van een antenne, een schotel of zonnepanelen binnen iets kapot zijn. Aan de elektra en aan zonnepanelen werk ik niet.`,
+      ] },
+      { kop: `Waar je op het dak naar kijkt`, tekst: [
+        `Kijk als het droog en veilig is vanaf de straat en vanuit de tuin, met de zoom van je telefoon. Let op gebarsten of weggeslagen pannen, een nokvorst die scheef ligt, lood rond de schoorsteen dat los staat, een antenne die scheef hangt of zwart is, en stukken pan of steen in de goot, de tuin of op de stoep. Kijk op zolder met een zaklamp naar donkere plekken of schroeiplekken op het hout of de folie, en kijk bij de eerste bui of het droog blijft. Hoe je goede foto's maakt, lees je in <a href="/kennisbank/foto-van-je-dak-maken/">foto's van je dak maken</a>.`,
+      ] },
+      { kop: `De schoorsteen`, tekst: [
+        `Slaat de bliksem in de schoorsteen, dan kunnen er stenen uit de kop springen of scheuren in komen. Aan de stenen en voegen werk ik niet, dat is werk voor een metselaar. Het lood rond de voet van de schoorsteen en de pannen eromheen herstel ik wel. Stook niet in een open haard of kachel voordat een schoorsteenveger het kanaal heeft nagekeken. Lees ook <a href="/kennisbank/lekkage-bij-schoorsteen/">lekkage bij de schoorsteen</a>.`,
+      ] },
+      { kop: `Een antenne of schotel`, tekst: [
+        `Staat er een oude antenne op je dak die de klap heeft gekregen, dan is dit een goed moment om hem weg te laten halen. Ik haal de mast, de beugel en de kabel weg en maak het dak op die plek weer dicht. Zie <a href="/diensten/antenne-verwijderen/">antenne of schotel weghalen</a>.`,
+      ] },
+      { kop: `Hoe ik het aanpak`, tekst: [
+        `Ligt er een open plek in je dak, dan dek ik die eerst af, zodat het binnen droog blijft. Daarna vervang ik gebarsten pannen door pannen die passen, zet ik een losse nokvorst weer vast en herstel ik het lood, meestal met loodvervanger en op wens met echt lood. Ik maak foto's van wat ik aantref en van de reparatie, met een korte omschrijving die je naar je verzekeraar kunt sturen. Zie <a href="/diensten/stormschade/">stormschade aan je dak</a>.`,
+      ] },
+      { kop: `Je verzekering`, tekst: [
+        `Schade door blikseminslag valt bij veel opstalverzekeringen onder de dekking, en schade aan apparaten door overspanning vaak onder je inboedelverzekering. Wat jij vergoed krijgt, staat in je eigen polis. Maak foto's voordat er iets wordt opgeruimd of gerepareerd, schrijf de datum en het tijdstip van het onweer op en bewaar de rekeningen. Lees ook <a href="/kennisbank/daklekkage-verzekering/">daklekkage en je verzekering</a>.`,
+      ] },
+      { kop: `Wat kost het?`, tekst: [
+        `Dat hangt af van de schade: een paar gebarsten pannen vervangen is iets anders dan een open stuk dak afdekken en het lood rond de schoorsteen vernieuwen. Stuur een foto van je dak vanaf de straat en van wat er naar beneden is gekomen via WhatsApp, dan hoor je vooraf wat het kost.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: stormschade aan je dak`, href: `/diensten/stormschade/` },
+    faq: [
+      { v: `Moet ik mijn dak laten nakijken als de bliksem vlakbij is ingeslagen?`, a: `Niet altijd. Is de bliksem in een boom of in het huis naast je ingeslagen, kijk dan vanaf de straat of er bij jou pannen, lood of de antenne beschadigd zijn, en kijk bij de volgende bui op zolder. Zie je niets en blijft het droog, dan is er meestal niets aan de hand. Twijfel je, stuur me dan een foto.` },
+      { v: `Kan een blikseminslag een daklek geven?`, a: `Ja. Een pan die barst of wegslaat, of lood dat losschiet, laat bij de volgende bui water door. Soms zie je dat pas dagen later als een natte plek op zolder of op het plafond. Zet dan een emmer neer en stuur me een foto van de natte plek en van het dak.` },
+      { v: `Is schade na een blikseminslag spoed?`, a: `Bij brand of rook bel je 112. Ligt er een open plek in je dak of komt er water binnen, dan is het spoed: bel of app me met een foto, dan hoor je wanneer ik kan komen en dek ik het eerst af. Zijn er alleen een paar gebarsten pannen en blijft het binnen droog, dan kan het meestal een paar dagen wachten tot een droge dag.` },
+    ],
+  },
 ];
 
 // Kort antwoord bovenaan een artikel. Geen bedragen.
@@ -920,4 +962,5 @@ export const KORT_ANTWOORD_6: Record<string, string> = {
   "lekt-tijdens-verbouwing": `Lekt het terwijl je dak openligt voor een verbouwing, vang het water dan op, zet bij een lamp of stopcontact de groep uit en bel meteen de aannemer of de uitvoerder: wie het dak openmaakt, hoort het in de regel ook dicht te houden. Maak foto's met de datum en meld het schriftelijk. Komt er niemand en blijft het binnenkomen, laat de open plek dan door een dakdekker afdekken.`,
   "droge-nok-of-specie": `Bij een nok in specie liggen de nokvorsten in dakmortel, die na veel jaren bros wordt, zodat er brokjes in de goot vallen en vorsten los gaan liggen. Bij een droge nok ligt er een strook over de nok en zit elke vorst met een klem vast. Daar gaat het mis als een klem losschiet of de strook scheurt. Allebei houden ze de nok dicht als ze goed liggen.`,
   "water-van-buren-op-je-dak": `Komt de regenpijp of het water van het dak van de buren uit op jouw dak, dan valt bij elke bui veel water op één plek. Op een plat dak slijt de dakbedekking daar sneller, op pannen kan een pan gaan schuiven. Praat eerst met de buren: meestal is hun pijp doortrekken tot in hun eigen goot of afvoer de oplossing. Lekt het al, laat dan eerst jouw kant dichtmaken.`,
+  "blikseminslag-dak": `Is de bliksem op je dak ingeslagen, ga dan bij brand of rook naar buiten en bel 112, laat de elektra nakijken door een installateur en ga niet zelf het dak op. Kijk daarna vanaf de straat naar gebarsten pannen, een scheve nokvorst, los lood en de antenne. Een open plek wordt eerst afgedekt, daarna worden de kapotte pannen en het lood hersteld. Maak foto's voor je verzekeraar.`,
 };
