@@ -20,6 +20,7 @@
  * 22-11-2026 ronde 1: vochtplek of schimmel in de hoek van het plafond bij de buitenmuur (daklek of koudebrug).
  * 22-11-2026 ronde 1: lekkage bij de schoorsteen en de verzekering.
  * 22-11-2026 ronde 1: het dak van een leegstaand huis lekt.
+ * 22-11-2026 ronde 2: lekt het tijdens een verbouwing (dak open, aannemer aan het werk).
  */
 import type { Artikel } from "./artikelen";
 
@@ -777,6 +778,45 @@ export const ARTIKELEN_EXTRA_6: Artikel[] = [
       { v: `Moet de goot van een leeg huis ook schoon?`, a: `Ja. Na de bladval zit een goot snel vol, en bij een leeg huis ziet niemand dat hij overloopt. Laat hem leegmaken als het meeste blad eraf is.` },
     ],
   },
+  {
+    slug: `lekt-tijdens-verbouwing`,
+    datum: `2026-11-22`,
+    titel: `Lekt het tijdens een verbouwing?`,
+    h1: `Het regent binnen terwijl je dak openligt voor een verbouwing: wat doe je nu?`,
+    metaTitle: `Lekt het tijdens de verbouwing? Doe dit | Spoed Dak Service`,
+    metaDescription: `Ligt je dak open voor een aanbouw, een dakraam of nieuwe pannen, en regent het binnen? Zo vang je het op, wie het moet dichtmaken en hoe het zit met de schade.`,
+    intro: `Er wordt aan je huis gewerkt: er komt een aanbouw, er gaat een dakraam in, er komt nieuwe folie onder de pannen of de installateur legt zonnepanelen. Dan ligt een stuk van je dak een tijdje open of half dicht. Gaat het juist dan hard regenen, dan staat er ineens water op je zolder of komt het door het plafond. Hieronder lees je wat je meteen doet, wie het moet dichtmaken en hoe je het vastlegt voor de schade.`,
+    secties: [
+      { kop: `Lekt het nu? Eerst dit`, tekst: [
+        `Zet emmers en bakken onder de druppels en haal spullen, meubels en elektrische apparaten weg. Druppelt het bij een lamp, spotje of stopcontact, zet dan in de meterkast de groep van die kamer uit. Bolt het plafond op, ga er dan niet onder staan. Ga niet zelf het dak of de steiger op, zeker niet bij regen of wind. Wat je verder meteen kunt doen, staat op de <a href="/spoed/">spoedpagina</a>.`,
+      ] },
+      { kop: `Bel eerst wie er aan het werk is`, tekst: [
+        `Ligt het dak open voor de verbouwing, dan is het in de regel aan de aannemer, de dakdekker of de installateur die daar werkt om het dicht te houden, ook 's avonds en in het weekend. Bel of app de uitvoerder meteen en zeg waar het water binnenkomt. Vraag wanneer er iemand komt om de open plek af te dekken. Zet het ook in een appje of mail, met de tijd erbij, zodat je later kunt laten zien wanneer je het hebt gemeld.`,
+      ] },
+      { kop: `Leg het vast`, tekst: [
+        `Maak foto's en een kort filmpje van het water binnen, van de natte plek en, als het veilig kan, van het dak of de steiger vanaf de straat. Schrijf op wanneer het begon en wat voor weer het was. Gooi natte spullen niet meteen weg, maar maak er eerst een foto van. Dat heb je nodig als je de schade later wilt laten vergoeden.`,
+      ] },
+      { kop: `Wie betaalt de schade?`, tekst: [
+        `Komt het water binnen doordat het dak tijdens het werk niet goed was afgedekt, dan ligt de schade in de regel bij wie het werk deed. Veel aannemers hebben daar zelf een verzekering voor, voor schade tijdens de bouw. Meld het ook bij je eigen verzekeraar en kijk in je polis, want wat er tijdens een verbouwing wordt vergoed, verschilt per verzekeraar. Hoe het verder met lekkage en je verzekering zit, lees je in <a href="/kennisbank/daklekkage-verzekering/">daklekkage en je verzekering</a>.`,
+      ] },
+      { kop: `Komt er niemand?`, tekst: [
+        `Is de aannemer niet te bereiken en blijft het binnenkomen, dan kun je een andere dakdekker vragen om de open plek tijdelijk af te dekken. Laat de aannemer weten dat je dat doet, en bewaar de rekening en de foto's. Bel je mij, dan dek ik de open plek af zodat het binnen droog blijft, en maak ik foto's van wat ik aantref. Aan het werk van de aannemer zelf ga ik niet verder, tenzij jullie dat samen met mij afspreken. Je hoort vooraf wat het kost. Lees ook <a href="/kennisbank/dakdekker-komt-niet-opdagen/">je dakdekker komt niet opdagen</a>.`,
+      ] },
+      { kop: `Klus je zelf?`, tekst: [
+        `Heb je zelf pannen weggehaald, bijvoorbeeld voor een dakraam of om bij de folie te komen, en lukt het niet om het voor de bui weer dicht te krijgen? Ga dan niet bij regen, wind of in het donker het dak op. Een los zeil vangt bij wind zoveel kracht dat het je van de ladder trekt. Vang het water binnen op en bel of app me met een foto van het dak en van de plek binnen.`,
+      ] },
+      { kop: `Als het weer droog is`, tekst: [
+        `Is het dak weer dicht, kijk dan of er water in de isolatie of achter een betimmering is gelopen. Natte isolatie droogt niet altijd vanzelf. Lees <a href="/kennisbank/isolatie-nat-na-lekkage/">isolatie nat na een lek</a> en <a href="/kennisbank/plafond-drogen-na-lekkage/">plafond drogen na een lekkage</a>. Lekt het nog nadat het werk af is, meld dat dan bij wie het dak heeft gemaakt: zie <a href="/kennisbank/nieuw-dak-lekt/">nieuw dak lekt al</a>.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: daklekkage & spoed`, href: `/diensten/daklekkage/` },
+    faq: [
+      { v: `Mag ik een andere dakdekker bellen als de aannemer niet komt?`, a: `Om erger te voorkomen mag je de open plek in de regel laten afdekken. Meld het wel aan de aannemer, het liefst schriftelijk, en bewaar de rekening en de foto's. De nette afwerking hoort daarna meestal weer bij wie het werk deed.` },
+      { v: `Moet de aannemer het dak ook 's nachts en in het weekend dicht houden?`, a: `In de regel wel. Wie een dak openmaakt, hoort het zo af te dekken dat het droog blijft, ook als er niet gewerkt wordt. Spreek vooraf af wie je kunt bellen als het toch misgaat.` },
+      { v: `Wat spreek ik vooraf af met de aannemer?`, a: `Vraag hoe het dak wordt afgedekt als het openligt, wie je 's avonds of in het weekend kunt bellen en of hij verzekerd is voor schade tijdens het werk. Maak voor het werk een paar foto's van je zolder en je plafonds, dan heb je later iets om mee te vergelijken.` },
+      { v: `Is een lek tijdens een verbouwing spoed?`, a: `Stroomt het binnen, komt het water bij een lamp of stopcontact of bolt het plafond op, dan wel: bel eerst de aannemer, en als die niet komt mij. Gaat het om een paar druppels op de zoldervloer, vang ze dan op en vraag de aannemer om het zo snel mogelijk af te dekken.` },
+    ],
+  },
 ];
 
 // Kort antwoord bovenaan een artikel. Geen bedragen.
@@ -800,4 +840,5 @@ export const KORT_ANTWOORD_6: Record<string, string> = {
   "vochtplek-hoek-plafond-buitenmuur": `Een grijze waas of zwarte puntjes in de hoek van het plafond bij de buitenmuur, vooral in de winter en ook na droge dagen, is meestal condens in een koude hoek en geen daklek. Wordt de plek natter na regen, zit er een bruine kring of zit hij recht onder de goot, dan komt het water vaak van buiten: van een overlopende of lekkende goot, de dakrand of de onderste rij pannen.`,
   "schoorsteen-lekt-verzekering": `Lekt het bij de schoorsteen door een storm, dan valt de schade binnen vaak onder je opstalverzekering. Komt het door oud of gescheurd lood, open voegen of regen in een open kanaal, dan zien verzekeraars dat meestal als slijtage of onderhoud, en wordt vooral de reparatie zelf vaak niet vergoed. Maak foto's, schrijf de datum en het weer op en laat het lek snel dichtmaken.`,
   "dak-lekt-leegstaand-huis": `Staat een huis leeg, laat dan na elke flinke bui of storm iemand binnen kijken, ook op zolder. Lekt het, laat iemand met een sleutel een bak neerzetten en stuur de dakdekker foto's, het adres en wie de sleutel heeft. Een losse pan of nokvorst kan vaak gerepareerd worden zonder dat er iemand thuis is. Kijk in je polis of je moet melden dat het huis leeg staat.`,
+  "lekt-tijdens-verbouwing": `Lekt het terwijl je dak openligt voor een verbouwing, vang het water dan op, zet bij een lamp of stopcontact de groep uit en bel meteen de aannemer of de uitvoerder: wie het dak openmaakt, hoort het in de regel ook dicht te houden. Maak foto's met de datum en meld het schriftelijk. Komt er niemand en blijft het binnenkomen, laat de open plek dan door een dakdekker afdekken.`,
 };
