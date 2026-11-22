@@ -24,6 +24,7 @@
  * 22-11-2026 ronde 2: droge nok of nokvorsten in specie.
  * 22-11-2026 ronde 2: de regenpijp of het water van het dak van de buren komt op jouw dak.
  * 22-11-2026 ronde 5: bliksem ingeslagen op je dak, schoorsteen of antenne.
+ * 22-11-2026 ronde 5: de dakdekker die je dak deed is failliet of gestopt, en nu lekt het.
  */
 import type { Artikel } from "./artikelen";
 
@@ -936,6 +937,47 @@ export const ARTIKELEN_EXTRA_6: Artikel[] = [
       { v: `Is schade na een blikseminslag spoed?`, a: `Bij brand of rook bel je 112. Ligt er een open plek in je dak of komt er water binnen, dan is het spoed: bel of app me met een foto, dan hoor je wanneer ik kan komen en dek ik het eerst af. Zijn er alleen een paar gebarsten pannen en blijft het binnen droog, dan kan het meestal een paar dagen wachten tot een droge dag.` },
     ],
   },
+  {
+    slug: `dakdekker-failliet-dak-lekt`,
+    datum: `2026-11-22`,
+    titel: `Dakdekker failliet of gestopt?`,
+    h1: `De dakdekker die je dak deed is failliet of gestopt, en nu lekt het: wat nu?`,
+    metaTitle: `Dakdekker failliet en je dak lekt? | Spoed Dak Service`,
+    metaDescription: `Lekt je dak en bestaat de dakdekker die het werk deed niet meer? Zo zoek je na wat er met het bedrijf is gebeurd en wie het lek nu oplost.`,
+    intro: `Je dak is een tijd geleden gerepareerd of vernieuwd, en nu lekt het. Je belt de dakdekker, maar het nummer werkt niet meer, de website is weg of je hoort dat het bedrijf failliet is. Hieronder lees je hoe je nagaat wat er met het bedrijf is gebeurd, wat dat betekent voor de afspraken van toen en hoe je het lek toch laat oplossen.`,
+    secties: [
+      { kop: `Lekt het nu? Eerst dit`, tekst: [
+        `Zet een emmer onder de druppel, haal spullen weg en zet bij een lamp of stopcontact de groep in de meterkast uit. Ga niet zelf het dak op. Wacht niet op het oude bedrijf: het lek moet eerst dicht of afgedekt worden, anders wordt de schade binnen groter. Wat je verder meteen kunt doen, staat op de <a href="/spoed/">spoedpagina</a>.`,
+      ] },
+      { kop: `Zoek uit wat er met het bedrijf is`, tekst: [
+        `Zoek de naam of het KvK-nummer van het bedrijf op in het Handelsregister van de KvK. Daar zie je of het nog bestaat of is uitgeschreven. Is het failliet verklaard, dan staat dat in het Centraal Insolventieregister, met de naam van de curator die het faillissement afhandelt. Het KvK-nummer staat vaak op je offerte of factuur.`,
+      ] },
+      { kop: `Failliet of gestopt: het verschil`, tekst: [
+        `Is het bedrijf failliet, dan kun je het in de regel niet meer laten terugkomen om het werk te herstellen. Je kunt de curator wel laten weten dat je een klacht of vordering hebt. Vaak levert dat weinig op, maar het staat dan op papier. Is het bedrijf gewoon gestopt, of is het verder gegaan onder een andere naam, dan kun je de vroegere eigenaar soms nog aanspreken. Twijfel je over je rechten, vraag het dan na bij het Juridisch Loket.`,
+      ] },
+      { kop: `En de afspraken van toen?`, tekst: [
+        `Bij een faillissement kun je in de regel niet meer bij dat bedrijf terecht om het werk van toen te laten herstellen. Soms was dat werk wel verzekerd, bijvoorbeeld via een regeling van een brancheorganisatie of een keurmerk waar het bedrijf bij was aangesloten. Kijk in je offerte, factuur of de andere papieren van toen of daar iets over staat, en meld je dan daar. Waar je op let bij een keurmerk, lees je in <a href="/kennisbank/keurmerk-dakdekker/">keurmerk voor dakdekkers</a>.`,
+      ] },
+      { kop: `Leg vast wat er nu ligt`, tekst: [
+        `Maak foto's van de natte plek binnen, met de datum, en van het dak vanaf de straat. Zoek de offerte, de factuur en de appjes of mails van toen op. Dan kan een andere dakdekker zien wat er is afgesproken en wat er is gedaan, en heb je alles bij elkaar als je je verzekeraar, de curator of een regeling iets wilt vragen. Lees ook <a href="/kennisbank/foto-van-je-dak-maken/">foto's van je dak maken</a>.`,
+      ] },
+      { kop: `Hoe ik het aanpak`, tekst: [
+        `Ook als het eerdere werk door een ander is gedaan, kijk ik ernaar. Ik zoek waar het water binnenkomt en kijk wat er bij de vorige klus is gedaan. Dan zie ik vaak of het lek op die plek zit of ergens anders. Ik maak foto's van wat ik aantref, zodat je weet wat er mis was, en ik zeg eerlijk wat er nodig is: alleen die ene plek dichtmaken, of ook iets wat de vorige keer niet goed is gedaan. Je hoort vooraf wat het kost. Zie <a href="/diensten/daklekkage/">daklekkage opsporen en repareren</a>.`,
+      ] },
+      { kop: `Is het werk nooit afgemaakt?`, tekst: [
+        `Ligt er nog een stuk dak open, of zijn er pannen, lood of een goot niet afgemaakt, lees dan ook <a href="/kennisbank/dakdekker-komt-niet-opdagen/">je dakdekker komt niet opdagen of maakt het werk niet af</a>. Lekt het kort na een reparatie en bestaat het bedrijf nog wel, kijk dan bij <a href="/kennisbank/dak-lekt-na-reparatie/">dak lekt na een reparatie</a>.`,
+      ] },
+      { kop: `Wat kost het?`, tekst: [
+        `Dat hangt af van wat er mis is en hoeveel er nog moet gebeuren. Stuur een foto van de natte plek, van je dak vanaf de straat en, als je die hebt, van de offerte of factuur van toen. Dan hoor je vooraf wat het kost.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: daklekkage & spoed`, href: `/diensten/daklekkage/` },
+    faq: [
+      { v: `Waar zie ik of een dakdekker failliet is?`, a: `In het Centraal Insolventieregister. Zoek op de naam van het bedrijf of het KvK-nummer. Daar zie je ook wie de curator is. In het Handelsregister van de KvK zie je of het bedrijf nog bestaat of is uitgeschreven.` },
+      { v: `Moet ik de curator laten weten dat mijn dak lekt?`, a: `Dat kan, zeker als je al hebt betaald voor werk dat niet af is of niet goed is gedaan. Vaak levert het weinig op, maar je vordering staat dan op papier. Wacht er niet mee om het lek te laten maken, want de schade binnen beperken gaat voor.` },
+      { v: `Wil een andere dakdekker werk van een ander herstellen?`, a: `Meestal wel. Ik kijk eerst wat er ligt en maak foto's, zodat je weet wat er mis is. Daarna hoor je wat het herstellen kost, voordat ik begin.` },
+    ],
+  },
 ];
 
 // Kort antwoord bovenaan een artikel. Geen bedragen.
@@ -963,4 +1005,5 @@ export const KORT_ANTWOORD_6: Record<string, string> = {
   "droge-nok-of-specie": `Bij een nok in specie liggen de nokvorsten in dakmortel, die na veel jaren bros wordt, zodat er brokjes in de goot vallen en vorsten los gaan liggen. Bij een droge nok ligt er een strook over de nok en zit elke vorst met een klem vast. Daar gaat het mis als een klem losschiet of de strook scheurt. Allebei houden ze de nok dicht als ze goed liggen.`,
   "water-van-buren-op-je-dak": `Komt de regenpijp of het water van het dak van de buren uit op jouw dak, dan valt bij elke bui veel water op één plek. Op een plat dak slijt de dakbedekking daar sneller, op pannen kan een pan gaan schuiven. Praat eerst met de buren: meestal is hun pijp doortrekken tot in hun eigen goot of afvoer de oplossing. Lekt het al, laat dan eerst jouw kant dichtmaken.`,
   "blikseminslag-dak": `Is de bliksem op je dak ingeslagen, ga dan bij brand of rook naar buiten en bel 112, laat de elektra nakijken door een installateur en ga niet zelf het dak op. Kijk daarna vanaf de straat naar gebarsten pannen, een scheve nokvorst, los lood en de antenne. Een open plek wordt eerst afgedekt, daarna worden de kapotte pannen en het lood hersteld. Maak foto's voor je verzekeraar.`,
+  "dakdekker-failliet-dak-lekt": `Bestaat de dakdekker die je dak deed niet meer, zoek dan in het Handelsregister van de KvK en in het Centraal Insolventieregister of het bedrijf failliet of gestopt is. Bij een faillissement kun je het werk in de regel niet meer door dat bedrijf laten herstellen. Zorg eerst dat het binnen droog blijft, maak foto's, zoek de offerte en factuur op en laat het lek door een andere dakdekker maken.`,
 };
