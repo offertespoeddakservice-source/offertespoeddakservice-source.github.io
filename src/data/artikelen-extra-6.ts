@@ -21,6 +21,7 @@
  * 22-11-2026 ronde 1: lekkage bij de schoorsteen en de verzekering.
  * 22-11-2026 ronde 1: het dak van een leegstaand huis lekt.
  * 22-11-2026 ronde 2: lekt het tijdens een verbouwing (dak open, aannemer aan het werk).
+ * 22-11-2026 ronde 2: droge nok of nokvorsten in specie.
  */
 import type { Artikel } from "./artikelen";
 
@@ -817,6 +818,42 @@ export const ARTIKELEN_EXTRA_6: Artikel[] = [
       { v: `Is een lek tijdens een verbouwing spoed?`, a: `Stroomt het binnen, komt het water bij een lamp of stopcontact of bolt het plafond op, dan wel: bel eerst de aannemer, en als die niet komt mij. Gaat het om een paar druppels op de zoldervloer, vang ze dan op en vraag de aannemer om het zo snel mogelijk af te dekken.` },
     ],
   },
+  {
+    slug: `droge-nok-of-specie`,
+    datum: `2026-11-22`,
+    titel: `Droge nok of nok in specie?`,
+    h1: `Droge nok of nokvorsten in specie: wat is het verschil, en wat past bij jouw dak?`,
+    metaTitle: `Droge nok of nok in specie: verschil? | Spoed Dak Service`,
+    metaDescription: `Liggen je nokvorsten in specie of droog op een ondervorst met klemmen? Zo zie je wat je hebt, wat er bij elk mis kan gaan en wat je doet als de nok los zit.`,
+    intro: `Bovenop je dak, op de nok, liggen de nokvorsten: de halfronde of hoekige pannen die de bovenkant van het dak dichtmaken. Die kunnen op twee manieren vastliggen: in specie, zoals op veel oudere daken, of droog, met een strook eronder en een klem per vorst. Hieronder lees je hoe je ziet welke je hebt, wat er bij elk mis kan gaan en wat er dan moet gebeuren.`,
+    secties: [
+      { kop: `Een nok in specie`, tekst: [
+        `Bij een nok in specie liggen de vorsten in een bed van dakmortel. Vanaf de straat zie je dat aan grijze randen tussen de vorsten en de pannen eronder. Zo zijn veel oudere daken gemaakt. Na veel jaren wordt die specie bros. Er komen scheurtjes in, er vallen brokjes in de goot en op een gegeven moment ligt er een vorst los. Dan kan regen met wind onder de nok door naar binnen komen.`,
+      ] },
+      { kop: `Een droge nok`, tekst: [
+        `Bij een droge nok ligt er een strook over de nok, de ondervorst, en zit elke vorst vast met een klem of schroef. Daar komt geen specie aan te pas. Je herkent het aan de strook die onder de vorsten uitsteekt, vaak in een donkere kleur, en aan de klemmen. Veel nieuwere daken hebben een droge nok, en de strook laat wat lucht door, zodat vocht onder de pannen weg kan.`,
+      ] },
+      { kop: `Wat er bij elk mis kan gaan`, tekst: [
+        `Bij specie is het vooral de leeftijd: brokkelige specie, een kier tussen twee vorsten of een vorst die scheef ligt. Bij een droge nok gaat het meestal om een klem die is losgeschoten, zodat één vorst gaat schuiven terwijl de rest blijft liggen, of om een strook die is gescheurd of losgekomen, vaak bij een schoorsteen of aan het eind van de nok. Dan waait de regen of fijne sneeuw onder de vorsten door. Op zolder zie je dat als een natte plek helemaal bovenin: lees <a href="/kennisbank/lekkage-bij-de-nok/">dak lekt bij de nok</a>.`,
+      ] },
+      { kop: `Zo kijk je zelf`, tekst: [
+        `Ga aan de overkant van de straat staan en zoom met je telefoon in op de nok. Liggen alle vorsten op één lijn, of steekt er een uit? Zie je grijze specie, of een strook met klemmen? Liggen er brokjes specie in de goot of op de stoep? Ga niet zelf het dak op. Lees ook <a href="/kennisbank/nokvorsten-los/">losse nokvorsten</a>.`,
+      ] },
+      { kop: `Hoe ik het aanpak`, tekst: [
+        `Liggen er maar een paar vorsten los, dan herstel ik ze op de manier waarop je nok nu ligt: in specie opnieuw aansmeren met dakmortel, of bij een droge nok een nieuwe klem en waar nodig een nieuw stuk strook. Moet de hele nok opnieuw, omdat de specie overal bros is of veel vorsten kapot zijn, dan bespreek ik met je of dat weer met dakmortel gebeurt of droog, met een ondervorst eronder, en zeg ik eerlijk wat bij jouw dak en je vorsten past. Dakmortel moet uitharden zonder vorst, dus dat werk plan ik op een dag zonder vorst. Een losse vorst op een droge nok kan ook bij koud weer vast, als het dak droog is. Zie <a href="/diensten/nokvorsten-vervangen/">nokvorsten repareren of vervangen</a>.`,
+      ] },
+      { kop: `Wat kost het?`, tekst: [
+        `Dat hangt af van hoeveel vorsten er los zitten, hoe lang je nok is en of de hele nok opnieuw moet. Wat het opnieuw aansmeren van een nok ongeveer kost, lees je in <a href="/kennisbank/wat-kost-nokvorsten-repareren/">wat kost nokvorsten repareren</a>. Stuur een foto van je nok vanaf de straat, dan hoor je vooraf de vaste prijs.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: nokvorsten repareren of vervangen`, href: `/diensten/nokvorsten-vervangen/` },
+    faq: [
+      { v: `Is een droge nok beter dan een nok in specie?`, a: `Niet vanzelf. Allebei houden ze de nok dicht als ze goed liggen. Een droge nok heeft geen specie die bros wordt en laat wat lucht door. Een nok in specie kan, goed aangesmeerd, ook jaren mee. Wat bij jouw dak past, hangt af van je vorsten en hoe de rest van je dak ligt.` },
+      { v: `Kan ik een paar losse vorsten zelf vastzetten met kit of schuim?`, a: `Liever niet. Kit of schuim houdt een vorst maar kort vast en sluit de nok vaak niet goed af. Bovendien is de nok het hoogste en gevaarlijkste stuk van je dak. Stuur liever een foto van de nok, dan zeg ik wat er nodig is.` },
+      { v: `Er ligt specie in mijn goot. Moet de hele nok opnieuw?`, a: `Niet altijd. Komt het van een paar vorsten, dan is alleen die vorsten opnieuw aansmeren vaak genoeg. Brokkelt de specie over de hele nok af, dan is de nok in één keer opnieuw slimmer. Ik kijk eerst hoeveel er los zit.` },
+      { v: `Kan een droge nok lekken?`, a: `Ja, als een klem losschiet of de strook onder de vorsten scheurt of loslaat, vooral bij een schoorsteen of aan het eind van de nok. Dan kan bij harde wind regen of stuifsneeuw onder de vorsten door. Een losse klem of een kapot stuk strook vervang ik.` },
+    ],
+  },
 ];
 
 // Kort antwoord bovenaan een artikel. Geen bedragen.
@@ -841,4 +878,5 @@ export const KORT_ANTWOORD_6: Record<string, string> = {
   "schoorsteen-lekt-verzekering": `Lekt het bij de schoorsteen door een storm, dan valt de schade binnen vaak onder je opstalverzekering. Komt het door oud of gescheurd lood, open voegen of regen in een open kanaal, dan zien verzekeraars dat meestal als slijtage of onderhoud, en wordt vooral de reparatie zelf vaak niet vergoed. Maak foto's, schrijf de datum en het weer op en laat het lek snel dichtmaken.`,
   "dak-lekt-leegstaand-huis": `Staat een huis leeg, laat dan na elke flinke bui of storm iemand binnen kijken, ook op zolder. Lekt het, laat iemand met een sleutel een bak neerzetten en stuur de dakdekker foto's, het adres en wie de sleutel heeft. Een losse pan of nokvorst kan vaak gerepareerd worden zonder dat er iemand thuis is. Kijk in je polis of je moet melden dat het huis leeg staat.`,
   "lekt-tijdens-verbouwing": `Lekt het terwijl je dak openligt voor een verbouwing, vang het water dan op, zet bij een lamp of stopcontact de groep uit en bel meteen de aannemer of de uitvoerder: wie het dak openmaakt, hoort het in de regel ook dicht te houden. Maak foto's met de datum en meld het schriftelijk. Komt er niemand en blijft het binnenkomen, laat de open plek dan door een dakdekker afdekken.`,
+  "droge-nok-of-specie": `Bij een nok in specie liggen de nokvorsten in dakmortel, die na veel jaren bros wordt, zodat er brokjes in de goot vallen en vorsten los gaan liggen. Bij een droge nok ligt er een strook over de nok en zit elke vorst met een klem vast. Daar gaat het mis als een klem losschiet of de strook scheurt. Allebei houden ze de nok dicht als ze goed liggen.`,
 };
