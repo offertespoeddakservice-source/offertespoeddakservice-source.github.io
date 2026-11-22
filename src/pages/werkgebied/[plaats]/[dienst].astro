@@ -281,6 +281,18 @@ const STORM_EXTRA_2 = [
 const GOOT_EXTRA_3 = [
   bestaatArtikel("water-spat-over-dakgoot") ? 'Klettert het water bij een bui over je goot heen terwijl hij bijna leeg is, kijk dan bij <a href="/kennisbank/water-spat-over-dakgoot/">water spat over de dakgoot</a>.' : "",
 ].filter(Boolean).join(" ");
+// 22-11-2026 ronde 2: per klus een extra zin naar de nieuwe uitleg van 22-11, alleen als het artikel bestaat. De zinnen erboven blijven zoals ze zijn.
+const LEK_EXTRA_4 = [
+  bestaatArtikel("lekt-tijdens-verbouwing") ? 'Ligt je dak open voor een verbouwing en regent het binnen, lees dan in <a href="/kennisbank/lekt-tijdens-verbouwing/">lekkage tijdens een verbouwing</a> wie het moet dichtmaken.' : "",
+  bestaatArtikel("dak-lekt-leegstaand-huis") ? 'Staat het huis leeg, bijvoorbeeld omdat het te koop staat, kijk dan bij <a href="/kennisbank/dak-lekt-leegstaand-huis/">het dak van een leegstaand huis lekt</a>.' : "",
+  bestaatArtikel("vochtplek-hoek-plafond-buitenmuur") ? 'En zit er een grijze of zwarte plek in de hoek van het plafond bij de buitenmuur, lees dan <a href="/kennisbank/vochtplek-hoek-plafond-buitenmuur/">vochtplek in de hoek: lek of koudebrug</a>.' : "",
+].filter(Boolean).join(" ");
+const REPARATIE_EXTRA_4 = [
+  bestaatArtikel("droge-nok-of-specie") ? 'Weet je niet of je nok in specie ligt of droog met klemmen, lees dan <a href="/kennisbank/droge-nok-of-specie/">droge nok of nok in specie</a>.' : "",
+].filter(Boolean).join(" ");
+const GOOT_EXTRA_4 = [
+  bestaatArtikel("water-van-buren-op-je-dak") ? 'Komt de regenpijp of het water van het dak van de buren op jouw dak uit, kijk dan bij <a href="/kennisbank/water-van-buren-op-je-dak/">water van de buren op je dak</a>.' : "",
+].filter(Boolean).join(" ");
 const verder = verderLezen[d.slug];
 // Interne links: de andere klussen in deze plaats, en dezelfde klus in de andere plaatsen.
 const zelfdePlaats = MATRIX.filter((c) => c.plaats === p.slug && c.dienst !== d.slug)
@@ -391,6 +403,9 @@ if (["daklekkage", "stormschade", "dakreparatie"].includes(d.slug)) (schema[0] a
           {d.slug === "dakreparatie" && REPARATIE_EXTRA_3 && <p set:html={REPARATIE_EXTRA_3} />}
           {d.slug === "stormschade" && STORM_EXTRA_2 && <p set:html={STORM_EXTRA_2} />}
           {d.slug === "dakgoot-vervangen" && GOOT_EXTRA_3 && <p set:html={GOOT_EXTRA_3} />}
+          {d.slug === "daklekkage" && LEK_EXTRA_4 && <p set:html={LEK_EXTRA_4} />}
+          {d.slug === "dakreparatie" && REPARATIE_EXTRA_4 && <p set:html={REPARATIE_EXTRA_4} />}
+          {d.slug === "dakgoot-vervangen" && GOOT_EXTRA_4 && <p set:html={GOOT_EXTRA_4} />}
         </>
       )}
       <h3>In het kort</h3>
