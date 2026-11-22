@@ -46,6 +46,11 @@ const andere = DIENSTEN.filter((x) => x.slug !== d.slug && !x.verborgen);
 const matrixVoorDienst = d.verborgen ? [] : MATRIX.filter((c) => c.dienst === d.slug)
   .map((c) => getPlaats(c.plaats))
   .filter((p) => p);
+// 22-11-2026 ronde 3: dienstpagina's zonder eigen pagina's per plaats tonen de pagina's per plaats van de klus waar ze bij horen (dakreparatie per plaats had 18 tot 30 binnenkomende links, dakgoot repareren per plaats 44).
+const MATRIX_VIA: Record<string, string> = { "dakpannen-vervangen": "dakreparatie", "windveer-vervangen": "dakreparatie", "kilgoot-repareren": "dakgoot-vervangen", "bakgoot-repareren": "dakgoot-vervangen", "dakgoot-solderen": "dakgoot-vervangen", "dakgoot-coaten": "dakgoot-vervangen" };
+const viaDienst = !d.verborgen && matrixVoorDienst.length === 0 ? MATRIX_VIA[d.slug] : undefined;
+const viaNaam = viaDienst === "dakreparatie" ? "Dakreparatie" : "Dakgoot repareren";
+const matrixVia = viaDienst ? MATRIX.filter((c) => c.dienst === viaDienst).map((c) => getPlaats(c.plaats)).filter((p) => p) : [];
 const relArtikel = ({
   "goten-reinigen": { label: "Hoe vaak moet je goten reinigen?", href: "/kennisbank/hoe-vaak-dakgoot-reinigen/" },
   "daklekkage": { label: "Daklekkage opsporen zonder sloopwerk", href: "/kennisbank/daklekkage-opsporen/" },
@@ -278,6 +283,14 @@ const platHerkenBestaat = ARTIKELEN.some((a) => a.slug === "welke-dakbedekking-h
           <p class="lead">Direct naar {d.titel.toLowerCase()} in jouw plaats:</p>
           <div class="chips" style="margin-bottom:18px;">
             {matrixVoorDienst.map((p) => <a class="chip" href={`/werkgebied/${p.slug}/${d.slug}/`}>{KNOP_NAAM[d.slug] ?? d.titel} in {p.naam}</a>)}
+          </div>
+        </>
+      )}
+      {matrixVia.length > 0 && (
+        <>
+          <p class="lead">{viaNaam} bij jou in de buurt:</p>
+          <div class="chips" style="margin-bottom:18px;">
+            {matrixVia.map((p) => <a class="chip" href={`/werkgebied/${p!.slug}/${viaDienst}/`}>{viaNaam} in {p!.naam}</a>)}
           </div>
         </>
       )}
