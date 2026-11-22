@@ -17,6 +17,7 @@
  * 21-11-2026 ronde 3: hoe oud is mijn dak.
  * 21-11-2026 ronde 4: sneldekpannen vervangen of repareren.
  * 21-11-2026 ronde 5: je zinken dak lekt.
+ * 22-11-2026 ronde 1: vochtplek of schimmel in de hoek van het plafond bij de buitenmuur (daklek of koudebrug).
  */
 import type { Artikel } from "./artikelen";
 
@@ -666,6 +667,41 @@ export const ARTIKELEN_EXTRA_6: Artikel[] = [
       { v: `Is een lekkend zinken dak spoed?`, a: `Druppelt het binnen, zit de natte plek bij een lamp of stopcontact, of bolt het plafond op, dan wel: zet een emmer neer, zet bij een lamp de groep uit en bel of app me met een foto. Is het een oude, droge vlek die niet groter wordt, dan kan het meestal een paar dagen wachten.` },
     ],
   },
+  {
+    slug: `vochtplek-hoek-plafond-buitenmuur`,
+    datum: `2026-11-22`,
+    titel: `Vochtplek in de hoek van je plafond?`,
+    h1: `Vochtplek of schimmel in de hoek van je plafond: daklek of koudebrug?`,
+    metaTitle: `Vochtplek in de hoek: lek of koudebrug? | Spoed Dak Service`,
+    metaDescription: `Grijze of zwarte plek in de hoek van je plafond, bij de buitenmuur? In de winter is het vaak condens in een koude hoek, soms een lek bij de goot. Zo zie je het verschil.`,
+    intro: `In de winter krijg je hem soms ineens: een grijze waas, zwarte puntjes of een vochtige plek in de hoek van het plafond, precies waar het plafond de buitenmuur raakt. Vaak in een slaapkamer boven, of in een kamer waar de was droogt. Dan wil je weten: lekt mijn dak, of is het iets anders? Meestal is het een koude hoek waar vocht uit het huis neerslaat. Soms komt het echt van buiten, van de goot, de dakrand of de onderste rij pannen. Hieronder lees je hoe je het verschil ziet en wat je doet.`,
+    secties: [
+      { kop: `Twee oorzaken die op elkaar lijken`, tekst: [
+        `Een koudebrug is een plek waar de muur, de vloer of het dak minder goed geïsoleerd is, zodat de binnenkant daar kouder blijft dan de rest van de kamer. Warme, vochtige lucht uit je huis, van douchen, koken, wasgoed of gewoon van ademen 's nachts, koelt daar af, en het vocht slaat neer op het plafond. Blijft dat lang nat, dan groeit er schimmel. Bij een lek komt het water juist van buiten: uit een goot die overloopt of lekt, langs de dakrand of onder de onderste rij pannen door.`,
+      ] },
+      { kop: `Zo herken je een koude hoek`, tekst: [
+        `De plek komt vooral in de winter en op koude nachten, ook als het dagen droog is geweest. Het is meer een waas of een rand van kleine zwarte puntjes dan een kring met een bruine rand. Vaak zit hij in meer hoeken tegelijk, of langs de hele rand van het plafond bij de buitenmuur. De ramen in die kamer zijn 's ochtends beslagen, en bij de muur voelt het koud aan. Dan is het meestal condens en niet je dak. Op zolder lees je hetzelfde verschil in <a href="/kennisbank/schimmel-op-zolder/">schimmel op zolder</a>.`,
+      ] },
+      { kop: `Zo herken je een lek`, tekst: [
+        `De plek wordt natter of groter na regen, vooral na een flinke bui of regen met wind, en droogt op als het een paar dagen droog is. Je ziet een kring met een bruine of gele rand, of de verf bladdert en het stucwerk wordt zacht. Hij zit op één plek, vaak recht onder de goot, onder een regenpijp of bij een hoek van het dak. Kijk buiten tijdens een bui of de goot daar overloopt, of er water langs de gevel loopt en of er in de onderste rij een pan scheef ligt. Lees ook <a href="/kennisbank/water-achter-dakgoot/">water achter de dakgoot</a> en <a href="/kennisbank/natte-plek-bovenin-muur/">natte plek bovenin de muur</a>.`,
+      ] },
+      { kop: `Een eenvoudige test`, tekst: [
+        `Trek met potlood een dun lijntje om de plek en zet de datum erbij. Kijk na de volgende bui, en na een paar droge, koude dagen, of hij gegroeid is. Groeit hij vooral na regen, dan wijst het naar buiten. Groeit hij vooral op koude, droge dagen, of zitten er 's ochtends druppels op het raam, dan wijst het naar condens. Maak er elke keer een foto van.`,
+      ] },
+      { kop: `Wat je zelf doet bij condens`, tekst: [
+        `Lucht elke dag een paar keer kort, zet de ventilatieroosters open, laat de afzuiging in de badkamer en de keuken goed werken en droog de was niet binnen in die kamer. Zet een kast of bed niet strak tegen de koude buitenmuur, zodat er lucht langs kan. Een beetje schimmel haal je weg met een doek en een schimmelreiniger, met een raam open. Isoleren doe ik niet. Blijft de hoek koud en nat, dan is een isolatiebedrijf of een bouwkundige de goede vakman. Lees ook <a href="/kennisbank/condens-of-lekkage-op-zolder/">condens of lekkage op zolder</a>.`,
+      ] },
+      { kop: `Wanneer je mij belt`, tekst: [
+        `Wordt de plek na regen natter, zit hij recht onder de goot of druppelt het, dan is het werk voor mij. Ik kijk naar de goot, de uitloop naar de regenpijp, de dakrand en de onderste rij pannen, en op zolder naar de plek boven de natte hoek als ik daar kan komen. Loopt de goot bij een bui over, lees dan ook <a href="/kennisbank/dakgoot-loopt-over/">dakgoot loopt over</a>. Lekt het nu, kijk dan eerst op de <a href="/spoed/">spoedpagina</a> wat je meteen kunt doen. Stuur me een foto van de plek binnen en van die kant van je huis vanaf de straat via WhatsApp. Dan zeg ik eerlijk of ik denk dat het van het dak komt, en je hoort vooraf wat het kost.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: daklekkage opsporen en repareren`, href: `/diensten/daklekkage/` },
+    faq: [
+      { v: `Is schimmel in de hoek van mijn slaapkamer een daklek?`, a: `Meestal niet. Een grijze waas of zwarte puntjes in de hoek bij de buitenmuur, vooral in de winter, is vaak condens in een koude hoek. Wordt de plek na regen natter of zit er een bruine kring, dan kan het wel van buiten komen, bijvoorbeeld van de goot. Twijfel je, stuur dan een foto.` },
+      { v: `Kan een volle dakgoot een natte hoek in mijn plafond geven?`, a: `Ja. Loopt een volle goot bij een bui over, dan kan het water achter de goot langs de muur naar binnen trekken. Je ziet het dan vaak bovenin de muur of in de hoek van het plafond, recht onder de goot. Laat de goot leegmaken en kijk of de plek daarna opdroogt.` },
+      { v: `Kan ik de plek gewoon overschilderen?`, a: `Pas als je weet waar het vocht vandaan komt en de plek helemaal droog is. Schilder je over condens of een lek heen, dan komt de plek terug.` },
+    ],
+  },
 ];
 
 // Kort antwoord bovenaan een artikel. Geen bedragen.
@@ -686,4 +722,5 @@ export const KORT_ANTWOORD_6: Record<string, string> = {
   "hoe-oud-is-mijn-dak": `Het bouwjaar van je huis vind je in het WOZ-waardeloket of de BAG Viewer, maar je dak kan later vernieuwd zijn. Vraag het na bij de vorige eigenaar of de buren en kijk in de papieren van de aankoop. Op zolder zie je of er folie of dakplaten onder de pannen liggen, en buiten of de nok in specie ligt of droog met klemmen. Dat zegt veel over de leeftijd.`,
   "sneldekpannen-vervangen": `Sneldekpannen zijn grote, vrij vlakke pannen, vaak van beton, op veel huizen van na de oorlog. Zo'n dak lekt meestal bij een pan die is gaan schuiven of gebroken is, bij de randen waar de wind aan de pannen trekt, of bij een nok in oude specie. Eén kapotte pan is vaak te vervangen door een pan die in maat en profiel past. Zijn veel pannen op, dan is een dakvlak in één keer vernieuwen slimmer.`,
   "zinken-dak-lekt": `Een zinken dak, zoals op een erker, een luifel, een uitbouw of het platte deel van een ouder huis, lekt meestal bij een naad die open is gegaan, bij de strook langs de muur, bij een vol gootje aan de rand of op een plek waar het zink dun is geworden. Druppelt het alleen op koude ochtenden zonder regen, dan is het vaak condens. Smeer er geen kit op en loop er niet over, maar stuur een foto van het dak en de natte plek.`,
+  "vochtplek-hoek-plafond-buitenmuur": `Een grijze waas of zwarte puntjes in de hoek van het plafond bij de buitenmuur, vooral in de winter en ook na droge dagen, is meestal condens in een koude hoek en geen daklek. Wordt de plek natter na regen, zit er een bruine kring of zit hij recht onder de goot, dan komt het water vaak van buiten: van een overlopende of lekkende goot, de dakrand of de onderste rij pannen.`,
 };
