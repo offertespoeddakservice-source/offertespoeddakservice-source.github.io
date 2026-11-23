@@ -15,7 +15,7 @@ export function getStaticPaths() {
 const { p } = Astro.props;
 const path = `/werkgebied/${p.slug}`;
 const titel = `Dakdekker in ${p.naam}`;
-// Titel per plaats waar vooral op een klus wordt gezocht ('dakreparatie eindhoven', 'dakgoot reparatie breda'). Lekkage zit hier niet in, want die plaatsen hebben een eigen lekkagepagina. De andere plaatsen houden de standaard. 19-11-2026 ronde 4: ook Wijchen ('dakreparatie wijchen' 87 vertoningen op plek 92, titel nooit aangepast). 22-11-2026 ronde 1: ook Vught, Oss, Veghel, Schijndel en Waalwijk, met de grootste dorpen van de gemeente erbij ('dakdekker vught' 216, 'dakdekker veghel' 151, 'dakdekker oss' 125, 'dakdekker schijndel' 104 en 'dakdekker waalwijk' 77 vertoningen, samen 2 kliks; titel sinds 21-10 ongewijzigd).
+// Titel per plaats waar vooral op een klus wordt gezocht ('dakreparatie eindhoven', 'dakgoot reparatie breda'). Lekkage zit hier niet in, want die plaatsen hebben een eigen lekkagepagina. De andere plaatsen houden de standaard. 19-11-2026 ronde 4: ook Wijchen ('dakreparatie wijchen' 87 vertoningen op plek 92, titel nooit aangepast). 22-11-2026 ronde 1: ook Vught, Oss, Veghel, Schijndel en Waalwijk, met de grootste dorpen van de gemeente erbij ('dakdekker vught' 216, 'dakdekker veghel' 151, 'dakdekker oss' 125, 'dakdekker schijndel' 104 en 'dakdekker waalwijk' 77 vertoningen, samen 2 kliks; titel sinds 21-10 ongewijzigd). 23-11-2026 ronde 2: ook Den Bosch (538 vertoningen op plek 61, 0 kliks, titel bijna gelijk aan de homepage), Rosmalen en Vlijmen, met dorpen of wijken die al op de pagina staan; titel sinds 21-10 ongewijzigd.
 const METATITEL_PER_PLAATS: Record<string, string> = {
   eindhoven: "Dakreparatie en dakgoten in Eindhoven",
   helmond: "Dakreparatie en dakgoten in Helmond",
@@ -26,6 +26,9 @@ const METATITEL_PER_PLAATS: Record<string, string> = {
   veghel: "Dakdekker Veghel, Erp en Zijtaart",
   schijndel: "Dakdekker Schijndel en Sint-Oedenrode",
   waalwijk: "Dakdekker Waalwijk en Sprang-Capelle",
+  "den-bosch": "Dakdekker Den Bosch, Nuland en Engelen",
+  rosmalen: "Dakdekker Rosmalen en De Groote Wielen",
+  vlijmen: "Dakdekker Vlijmen en Nieuwkuijk",
 };
 const metaTitel = `${METATITEL_PER_PLAATS[p.slug] ?? `Dakdekker ${p.naam}: lekkage en dakwerk`} | ${SITE.bedrijfsnaam}`;
 const apkPrijs = PRIJZEN.find((r) => r.sleutel === "apk")?.prijs ?? "";
