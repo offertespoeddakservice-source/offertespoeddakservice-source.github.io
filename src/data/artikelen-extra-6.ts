@@ -27,6 +27,7 @@
  * 22-11-2026 ronde 5: de dakdekker die je dak deed is failliet of gestopt, en nu lekt het.
  * 22-11-2026 ronde 5: schade aan je dak door heien, slopen of bouwen in de buurt.
  * 23-11-2026 ronde 2: dak omdekken (pannen eraf, nieuwe latten en folie, dezelfde pannen terug).
+ * 23-11-2026 ronde 3: je zonnepanelen gaan eraf, wat moet er dan aan je dak gebeuren.
  */
 import type { Artikel } from "./artikelen";
 
@@ -1062,6 +1063,47 @@ export const ARTIKELEN_EXTRA_6: Artikel[] = [
       { v: `Wat als er pannen breken bij het afhalen?`, a: `Bij oude pannen breekt er bij het afhalen wel eens een. Die vervang ik door een pan die in vorm en kleur past. Liggen er pannen op die niet meer gemaakt worden, dan zoek ik eerst een pan die past. Lukt dat niet, dan kan ik een goede pan van een plek die je vanaf de straat niet ziet naar voren halen. Je hoort vooraf hoe ik het aanpak.` },
     ],
   },
+  {
+    slug: `zonnepanelen-eraf-dak-nakijken`,
+    datum: `2026-11-23`,
+    titel: `Gaan je zonnepanelen eraf?`,
+    h1: `Je zonnepanelen gaan eraf: zo laat je je dak eronder nakijken en dichtmaken`,
+    metaTitle: `Zonnepanelen eraf: wat moet er aan je dak? | Spoed Dak Service`,
+    metaDescription: `Gaan je zonnepanelen eraf voor nieuwe panelen, een verhuizing of werk aan je dak? Dan zie je pas hoe de pannen eronder liggen. Waar je op let en wat ik herstel.`,
+    intro: `Zonnepanelen liggen er vaak jaren, en al die tijd kijkt niemand naar de pannen eronder. Gaan ze eraf, omdat er nieuwe panelen komen, omdat je verhuist en ze meeneemt of omdat er aan je dak gewerkt moet worden, dan is dat het moment om te zien hoe je dak erbij ligt. Hieronder lees je wat je dan vaak tegenkomt, wie wat doet en hoe ik het dak weer dicht en netjes maak.`,
+    secties: [
+      { kop: `Wie haalt de panelen eraf?`, tekst: [
+        `De panelen, de rails en de kabels haalt je installateur eraf, want aan de panelen zelf werk ik niet. Vraag hem ook of hij de dakhaken meeneemt als er geen panelen terugkomen: die haken zitten onder de pannen aan het dak vast en horen bij het montagesysteem. Spreek vooraf af wanneer hij komt, dan kunnen we de pannen kort daarna laten nakijken, zodat je dak niet langer dan nodig met open plekken ligt.`,
+      ] },
+      { kop: `Wat je onder de panelen vaak ziet`, tekst: [
+        `Pannen bij de dakhaken. Een dakhaak gaat tussen twee pannen door naar buiten. Soms is er bij het leggen een stukje uit een pan geslepen om de haak erdoor te krijgen, of is een pan gebarsten toen er iemand op stond. Zolang de panelen erop lagen, viel dat niet op. Liggen ze er niet meer, dan kan het daar bij de eerste bui naar binnen lopen.`,
+        `De plek waar de kabel het dak in ging. Liep de kabel onder een pan door naar zolder, dan ligt die pan vaak niet meer goed in de sluiting. Komen er geen panelen terug, dan moet die plek weer dicht.`,
+        `Pannen die zijn gaan schuiven. Waar jarenlang een rail op de pannen drukte of waar iemand overheen liep, ligt een pan soms een stukje uit de sluiting.`,
+        `Blad, nestmateriaal en vuil. Onder panelen blijft blad liggen, en soms hebben duiven er een nest gebouwd. Dat schuift bij een bui naar de goot. Zie <a href="/kennisbank/duiven-onder-zonnepanelen/">duiven onder je zonnepanelen</a>.`,
+      ] },
+      { kop: `Komen er nieuwe panelen op?`, tekst: [
+        `Dan is dit het moment om kapotte, poreuze of verschoven pannen te laten vervangen, voordat de nieuwe panelen erop gaan. Daarna kom je er jaren niet meer goed bij. Lees ook <a href="/kennisbank/dak-nakijken-voor-zonnepanelen/">je dak laten nakijken voor zonnepanelen</a>. Stem met je installateur af wie wanneer komt.`,
+      ] },
+      { kop: `Komen er geen panelen terug?`, tekst: [
+        `Dan moeten de open plekken dicht en moet het dakvlak er weer netjes bij liggen. Een pan waar een stuk uit is geslepen, vervang ik door een hele pan die in vorm en kleur past. Waar de kabel het dak in ging, leg ik de pan weer goed of vervang ik hem. Is een oude pan niet meer te krijgen, dan zoek ik een pan die past, of haal ik er een van een plek die je vanaf de straat niet ziet naar voren. Een nieuwe pan kan wel iets anders van kleur zijn dan de pannen die jaren onder de panelen lagen.`,
+      ] },
+      { kop: `En de goot?`, tekst: [
+        `Lag het onderste paneel vlak boven de goot, dan zit daar vaak veel blad en vuil, en soms is de goot bij het leggen geraakt. Laat hem dan in dezelfde keer leegmaken en kijk of hij nog goed op afschot hangt. Zie <a href="/diensten/goten-reinigen/">dakgoot schoonmaken</a>.`,
+      ] },
+      { kop: `Lekte het al onder de panelen?`, tekst: [
+        `Zag je de afgelopen tijd al een natte plek op zolder onder het deel met de panelen, zeg dat er dan bij. Dan kijk ik extra naar die plek als de panelen eraf zijn. Lees ook <a href="/kennisbank/lekkage-bij-zonnepanelen/">lekkage door of onder zonnepanelen</a>.`,
+      ] },
+      { kop: `Hoe ik het aanpak`, tekst: [
+        `Stuur me een foto van je dak vanaf de straat, het liefst voordat de panelen eraf gaan, en zeg wanneer de installateur komt en of er nieuwe panelen terugkomen. Zijn ze eraf, dan kijk ik naar de pannen, de plek van de kabel, de nok en de goot, en vervang ik wat kapot of verschoven is. Je hoort vooraf wat het kost. Zie ook <a href="/diensten/dakpannen-vervangen/">dakpannen vervangen</a>.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: dakpannen vervangen`, href: `/diensten/dakpannen-vervangen/` },
+    faq: [
+      { v: `Kan ik de panelen zelf van het dak halen?`, a: `Liever niet. Je staat dan op een schuin en vaak glad dak, met grote platen die bij wind gaan trekken, en de panelen zitten aan de stroom. Dat is werk voor je installateur. Daarna kijk ik naar de pannen.` },
+      { v: `Hoe snel moet het dak dicht als de panelen eraf zijn?`, a: `Liefst voor de eerste flinke bui. Liggen er pannen met een uitgeslepen stuk of een open plek waar de kabel zat, dan kan het daar meteen binnenlopen. Spreek daarom vooraf af wanneer de installateur komt, dan plannen we de pannen kort daarna. Lekt het al, zet dan een bak op zolder onder die plek en stuur me een foto.` },
+      { v: `De pannen onder mijn oude panelen zien er anders uit dan de rest. Is dat erg?`, a: `Meestal niet. Onder de panelen kwamen jarenlang minder zon en regen op de pannen, en daardoor kunnen ze er anders uitzien dan de rest van het dak. Dat zegt niets over of ze nog dicht zijn. Ik kijk of ze heel zijn en goed in de sluiting liggen. Daken schoonmaken doe ik zelf niet.` },
+    ],
+  },
 ];
 
 // Kort antwoord bovenaan een artikel. Geen bedragen.
@@ -1092,4 +1134,5 @@ export const KORT_ANTWOORD_6: Record<string, string> = {
   "dakdekker-failliet-dak-lekt": `Bestaat de dakdekker die je dak deed niet meer, zoek dan in het Handelsregister van de KvK en in het Centraal Insolventieregister of het bedrijf failliet of gestopt is. Bij een faillissement kun je het werk in de regel niet meer door dat bedrijf laten herstellen. Zorg eerst dat het binnen droog blijft, maak foto's, zoek de offerte en factuur op en laat het lek door een andere dakdekker maken.`,
   "dak-schade-door-bouw-in-de-buurt": `Liggen er pannen scheef, brokjes specie in de goot of hangt de goot lager sinds er in je straat wordt geheid, gesloopt of gebouwd, maak dan foto's met de datum en meld het schriftelijk bij de aannemer of de opdrachtgever. Vraag of er een vooropname van je huis is gemaakt. Ga niet zelf het dak op, en laat losse pannen en nokvorsten op tijd vastzetten, voor de volgende storm.`,
   "dak-omdekken": `Omdekken betekent dat je eigen dakpannen eraf gaan en daarna terugkomen, terwijl ik eronder vernieuw wat op is: de panlatten, en als je dat wilt ook folie en tengels. Het is zinvol als de pannen nog gaaf zijn, maar er geen folie onder ligt of de latten zacht zijn. Zijn de pannen zelf op, dan zijn nieuwe pannen beter.`,
+  "zonnepanelen-eraf-dak-nakijken": `Gaan je zonnepanelen eraf, dan haalt je installateur de panelen, de rails en de kabels weg. Daarna zie je pas hoe de pannen eronder liggen: vaak is er bij een dakhaak een pan uitgeslepen of gebarsten, ligt de pan waar de kabel naar binnen ging niet meer goed, of zit de goot eronder vol. Komen er nieuwe panelen, laat kapotte pannen dan eerst vervangen. Komen er geen terug, dan moeten de open plekken dicht.`,
 };
