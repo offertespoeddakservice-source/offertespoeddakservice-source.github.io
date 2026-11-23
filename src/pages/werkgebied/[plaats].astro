@@ -46,6 +46,8 @@ const heeftLekPagina = MATRIX.some((c) => c.plaats === p.slug && c.dienst === "d
 const heeftGootPagina = MATRIX.some((c) => c.plaats === p.slug && c.dienst === "dakgoot-vervangen");
 const heeftStormPagina = MATRIX.some((c) => c.plaats === p.slug && c.dienst === "stormschade");
 const heeftReparatiePagina = MATRIX.some((c) => c.plaats === p.slug && c.dienst === "dakreparatie");
+// 23-11-2026 ronde 4: zin naar dakrenovatie per plaats (nu alleen Waalwijk, 11 binnenkomende links), alleen als die pagina bestaat en de dienst zichtbaar is.
+const heeftRenovatiePagina = MATRIX.some((c) => c.plaats === p.slug && c.dienst === "dakrenovatie") && !getDienst("dakrenovatie")?.verborgen;
 // Zin over water bij de cv-ketel of afzuigkap alleen als die artikelen bestaan, zodat er nooit een kapotte link komt.
 const heeftKetel = ARTIKELEN.some((a) => a.slug === "cv-ketel-lekt-bij-regen" && !a.verborgen);
 const heeftAfzuig = ARTIKELEN.some((a) => a.slug === "afzuigkap-lekt-bij-regen" && !a.verborgen);
@@ -211,6 +213,7 @@ const schema = [
       {BOUWJAAR_LINKS.length > 0 && (
         <p>Waar een dak lekt, hangt ook af van hoe oud je huis is en wat voor dak erop ligt. Lees ook over {BOUWJAAR_LINKS.map((l, i) => (<>{i > 0 && (i === BOUWJAAR_LINKS.length - 1 ? " en " : ", ")}<a href={`/kennisbank/${l.slug}/`}>{l.anker}</a></>))}.</p>
       )}
+      {heeftRenovatiePagina && (<p>Is je dak na al die jaren toe aan meer dan een reparatie? Hoe ik in {p.naam} een oud pannendak vernieuw, met nieuwe pannen en als je dat wilt nieuwe folie en panlatten eronder, lees je bij <a href={`/werkgebied/${p.slug}/dakrenovatie/`}>dakrenovatie in {p.naam}</a>.</p>)}
       <h3>Lekt het nu?</h3>
       <p>
         Zet een emmer onder de druppel, maak een foto van de natte plek en ga niet zelf het dak op.
