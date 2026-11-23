@@ -8,6 +8,7 @@ import { ARTIKEL_CORRECTIES } from "../../data/artikel-correcties.ts";
 import { PRIJZEN } from "../../data/prijzen.ts";
 import EchteFotos from "../../components/EchteFotos.astro";
 import { FOTOS } from "../../data/fotos.ts";
+import { PLAATSEN } from "../../data/plaatsen.ts";
 
 export function getStaticPaths() {
   // 18-11-2026 ronde 3: verborgen artikelen zonder eigen correctie gaan over werk dat ik niet doe. Google toont ze nog, dus ze krijgen een eerlijke korte tekst over wat ik wel doe.
@@ -330,6 +331,13 @@ const FOTOS_BESTANDEN: Record<string, string[]> = {
 const fotoBestanden = FOTOS_BESTANDEN[a.slug]
   ?.map((code) => FOTOS.find((f) => f.bestand.includes(`-${code}.`))?.bestand)
   .filter((b): b is string => !!b);
+// 23-11-2026 ronde 4: zijblok met vier plaatspagina's die per artikel wisselen. De plaatspagina's hadden maar 52 tot 63 binnenkomende links (les 170). Den Bosch staat al in de kop van elk artikel.
+const BUURT_BRON = PLAATSEN.filter((p) => p.slug !== "den-bosch");
+const buurtStart = [...a.slug].reduce((s, c) => s + c.charCodeAt(0), 0) % BUURT_BRON.length;
+const buurtPlaatsen = [0, 5, 10, 15].map((i) => BUURT_BRON[(buurtStart + i) % BUURT_BRON.length]);
+// 23-11-2026 ronde 4: schoorsteenartikelen linken naar lood rond je schoorsteen laten vervangen (15 binnenkomende links), alleen als dat artikel bestaat.
+const SCHOORSTEEN_LOOD = new Set(["lekkage-bij-schoorsteen", "schoorsteen-lekt-open-haard", "vochtplek-schoorsteen-binnen", "lekkage-gedeelde-schoorsteen", "schoorsteen-lekt-verzekering", "schoorsteen-na-storm", "lood-op-dak"]);
+const toonLoodSchoorsteen = SCHOORSTEEN_LOOD.has(a.slug) && ARTIKELEN.some((x) => x.slug === "lood-schoorsteen-vervangen" && !x.verborgen);
 const plek = groep.indexOf(a.slug);
 const uitGroep = [...groep.slice(plek + 1), ...groep.slice(0, Math.max(plek, 0))]
   .map((s) => ARTIKELEN.find((x) => x.slug === s))
@@ -405,6 +413,7 @@ const schema = faqSchema ? [articleSchema, faqSchema] : articleSchema;
         ))}
         {fotoBij && <EchteFotos soort={fotoBij.soort} max={fotoBij.max} inline />}
         {!fotoBij && fotoBestanden && fotoBestanden.length > 0 && <EchteFotos bestanden={fotoBestanden} max={fotoBestanden.length} inline />}
+        {toonLoodSchoorsteen && (<p>Is het lood rond je schoorsteen op en moet het eruit? Stap voor stap hoe ik dat vervang, met lood of loodvervanger, lees je in <a href="/kennisbank/lood-schoorsteen-vervangen/">lood rond je schoorsteen laten vervangen</a>.</p>)}
         {LEK_ARTIKELEN.has(a.slug) && !STORM_ARTIKELEN.has(a.slug) && (
           <p>Woon je in de regio Den Bosch? Hoe ik een lek bij jou in de buurt aanpak, lees je bij daklekkage in <a href="/werkgebied/den-bosch/daklekkage/">Den Bosch</a>, <a href="/werkgebied/vught/daklekkage/">Vught</a>, <a href="/werkgebied/rosmalen/daklekkage/">Rosmalen</a>, <a href="/werkgebied/oss/daklekkage/">Oss</a>, <a href="/werkgebied/veghel/daklekkage/">Veghel</a>, <a href="/werkgebied/oisterwijk/daklekkage/">Oisterwijk</a>, <a href="/werkgebied/heusden/daklekkage/">Heusden</a>, <a href="/werkgebied/vlijmen/daklekkage/">Vlijmen</a>, <a href="/werkgebied/schijndel/daklekkage/">Schijndel</a> en <a href="/werkgebied/boxtel/daklekkage/">Boxtel</a>. Andere plaatsen vind je bij <a href="/werkgebied/">mijn werkgebied</a>.</p>
         )}
@@ -464,6 +473,7 @@ const schema = faqSchema ? [articleSchema, faqSchema] : articleSchema;
             {toonLekdetectieLink && <p>Twijfel je of je een lekdetectiebedrijf nodig hebt? Lees eerst <a href="/kennisbank/lekdetectie-daklek/">lekdetectie of dakdekker</a>.</p>}
           </div>
         )}
+        <div class="card" style="margin-top:16px;"><h3>Dakdekker bij jou in de buurt</h3><p>Ik werk vanuit 's-Hertogenbosch en kom onder meer in {buurtPlaatsen.map((pl, i) => (<>{i > 0 && (i === buurtPlaatsen.length - 1 ? " en " : ", ")}<a href={`/werkgebied/${pl.slug}/`}>{pl.naam}</a></>))}. Alle plaatsen vind je bij <a href="/werkgebied/">mijn werkgebied</a>.</p></div>
       </aside>
     </div>
   </section>
