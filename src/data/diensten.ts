@@ -437,8 +437,9 @@ export const DIENSTEN: Dienst[] = [
     h1: "Dakgoot repareren of vervangen: bij lekkende naden, roest of een goot die blijft overlopen",
     kort: "Versleten of lekkende goot? Nieuwe zinken, kunststof of pvc goot, netjes gemonteerd.",
     metaTitle: "Dakgoot repareren of vervangen | Spoed Dak Service",
+    // 23-11-2026 ronde 4: omschrijving met de reparaties waar mensen op zoeken (sinds oktober ongewijzigd).
     metaDescription:
-      "Lekkende of roestige dakgoot repareren of vervangen in de regio Den Bosch. Zink, kunststof of pvc, inclusief afvoer. Vaste prijs vooraf, troep gaat mee.",
+      "Lekkende dakgoot? Een naad solderen, een hoekstuk vervangen of de goot weer op afschot hangen is vaak genoeg. Is hij op, dan komt er een nieuwe. Stuur een foto.",
     icoon: "🛠",
     intro:
       "Lekt je dakgoot bij een naad, een hoek of de uitloop naar de regenpijp, of hangt hij door? Vaak is dat nog te repareren: ik herstel dat ene stuk of hang de goot weer op afschot naar de regenpijp. Is de goot doorgeroest, bros of op veel plekken lek, dan vervang ik hem in zink, kunststof of pvc, passend bij je huis, zodat je gevel en fundering droog blijven. Je hoort eerlijk wat het wordt, en vooraf wat het kost.",
