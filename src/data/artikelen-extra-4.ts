@@ -248,6 +248,10 @@ export const ARTIKELEN_EXTRA_4: Artikel[] = [
       { kop: `Waar het lek meestal zit`, tekst: [
         `Bij een ouder huis dat later in woningen is verdeeld, ligt er vaak een pannendak met een schoorsteen en soms een dakraam, en achter het huis een plat dak op een aanbouw. Een lek begint dan meestal bij het lood rond de schoorsteen, bij een pan die is gaan schuiven, bij de aansluiting van een dakraam of bij de afvoer en de rand van het platte dak. Bij een klein appartementengebouw met een plat dak kijk ik eerst naar de afvoer, de naden en de randen. Meer over zoeken lees je in <a href="/kennisbank/daklekkage-opsporen/">daklekkage opsporen</a>.`,
       ] },
+      // 23-11-2026 ronde 3: nieuw kort stuk met een link naar een weinig gelinkt artikel.
+      { kop: `Een groter gebouw met een eigen VvE-bestuur?`, tekst: [
+        `Woon je in een appartementengebouw met meer woningen, een bestuur en vaak een beheerder, dan gaat het net iets anders: je meldt het lek bij het bestuur of de beheerder, en de VvE geeft de opdracht voor de reparatie. Wat je zelf meteen doet en hoe je het meldt, lees je in <a href="/kennisbank/daklekkage-vve/">het dak van je appartementengebouw lekt</a>.`,
+      ] },
       { kop: `Hoe ik het aanpak`, tekst: [
         `Ik spreek af met wie me belt, en als het kan ook met de bewoner van de bovenste woning, want vaak moet ik op zolder of in die woning kijken waar het water binnenkomt. Ik zoek het lek en zeg eerlijk wat er nodig is, voordat ik iets doe. Na afloop krijg je foto's van wat ik aantrof en van wat ik heb gemaakt. Die kun je doorsturen naar de andere eigenaren, zodat iedereen ziet waar het om ging. Zie <a href="/diensten/daklekkage/">daklekkage opsporen en repareren</a>.`,
       ] },
@@ -293,6 +297,10 @@ export const ARTIKELEN_EXTRA_4: Artikel[] = [
       ] },
       { kop: `Wie lost het op?`, tekst: [
         `Neem eerst contact op met wie er op je dak heeft gewerkt, en stuur je foto's mee. Is er bij het werk iets kapotgegaan, dan lost die het in de regel zelf op of meldt die het bij zijn verzekering. Komt het daar niet goed, of was het werk al lang geleden, dan kijk ik ernaar. Ik maak dan foto's van wat ik aantref, zodat je die kunt doorsturen.`,
+      ] },
+      // 23-11-2026 ronde 3: nieuw kort stuk met een link naar een weinig gelinkt artikel.
+      { kop: `Wordt er in je straat gebouwd of geheid?`, tekst: [
+        `Was er niemand op je dak, maar wordt er in je straat gesloopt, geheid of gebouwd, of heeft een verhuislift je goot geraakt? Ook dan kan er een pan zijn gaan schuiven of een nokvorst los zijn gekomen. Wat je dan vastlegt en hoe je het met de aannemer regelt, lees je in <a href="/kennisbank/dak-schade-door-bouw-in-de-buurt/">schade aan je dak door bouwwerk in de buurt</a>.`,
       ] },
       { kop: `Hoe ik het aanpak`, tekst: [
         `Ik begin binnen bij de natte plek en kijk daarna buiten naar het stuk dak waar gewerkt is. Een gebroken pan vervang ik door een die past, een verschoven pan leg ik terug in de sluiting, en waar een kabel naar binnen gaat, zorg ik dat de pan er weer goed overheen ligt. Zit het lood rond de schoorsteen los, dan zet ik het weer vast. Zie <a href="/diensten/dakpannen-vervangen/">dakpannen vervangen</a> en <a href="/diensten/daklekkage/">daklekkage opsporen en repareren</a>.`,
