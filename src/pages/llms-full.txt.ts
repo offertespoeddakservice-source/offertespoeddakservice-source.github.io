@@ -4,6 +4,8 @@ import { SITE } from "../site.config.ts";
 import { ARTIKELEN } from "../data/artikelen.ts";
 import { KORT_ANTWOORD } from "../data/artikelen-extra.ts";
 import { DIENSTEN } from "../data/diensten.ts";
+import { PLAATSEN } from "../data/plaatsen.ts";
+import { MATRIX } from "../data/matrix.ts";
 
 const NIET = ["schoorsteen-na-storm"];
 const ANTWOORDEN = ARTIKELEN.filter((a) => !a.verborgen && !NIET.includes(a.slug) && KORT_ANTWOORD[a.slug] && !/\d/.test(KORT_ANTWOORD[a.slug]));
@@ -13,6 +15,13 @@ const WEG = /\d|toesla|garan|bitum|bran|zelfde da|binnen (een|het u)|sne|mete|di
 const DIENST_VRAGEN = DIENSTEN.filter((d) => !d.verborgen && !NIET_DIENST.includes(d.slug))
   .map((d) => ({ d, faq: (d.faq ?? []).filter((f) => !WEG.test(`${f.v} ${f.a}`)) }))
   .filter((x) => x.faq.length > 0);
+// 23-11-2026 ronde 1: vragen en antwoorden van de plaatspagina's en de pagina's per plaats en klus voor AI. Het telefoonnummer telt niet mee bij het filter; een vraag of antwoord met een ander cijfer of een woorddeel uit WEG valt weg. Dakrenovatie en verborgen klussen doen niet mee.
+const KLUS: Record<string, string> = { daklekkage: "Daklekkage", "goten-reinigen": "Dakgoot schoonmaken", "dakgoot-vervangen": "Dakgoot repareren of vervangen", stormschade: "Stormschade", dakreparatie: "Dakreparatie" };
+const zonderNummer = (t: string) => t.split(SITE.telefoonWeergave).join("");
+const magMee = (f: { v: string; a: string }) => !WEG.test(zonderNummer(`${f.v} ${f.a}`));
+const PLAATS_VRAGEN = PLAATSEN.map((p) => ({ kop: `Dakdekker in ${p.naam}`, pad: `/werkgebied/${p.slug}/`, faq: (p.faq ?? []).filter(magMee) })).filter((x) => x.faq.length > 0);
+const KLUS_VRAGEN = MATRIX.filter((c) => KLUS[c.dienst] && DIENSTEN.some((d) => d.slug === c.dienst && !d.verborgen))
+  .flatMap((c) => { const p = PLAATSEN.find((x) => x.slug === c.plaats); const faq = (c.faq ?? []).filter(magMee); return p && faq.length > 0 ? [{ kop: `${KLUS[c.dienst]} in ${p.naam}`, pad: `/werkgebied/${p.slug}/${c.dienst}/`, faq }] : []; });
 
 export const GET: APIRoute = () => {
   const regels = [
@@ -37,6 +46,9 @@ export const GET: APIRoute = () => {
       `Meer: ${SITE.url}/diensten/${d.slug}/`,
       "",
     ]),
+    "# Vragen per plaats",
+    "",
+    ...[...PLAATS_VRAGEN, ...KLUS_VRAGEN].flatMap(({ kop, pad, faq }) => [`## ${kop}`, "", ...faq.flatMap((f) => [`Vraag: ${f.v}`, `Antwoord: ${f.a.replace(/<[^>]+>/g, "")}`, ""]), `Meer: ${SITE.url}${pad}`, ""]),
   ];
   return new Response(regels.join("\n"), { headers: { "Content-Type": "text/plain; charset=utf-8" } });
 };
