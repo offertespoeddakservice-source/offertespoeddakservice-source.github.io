@@ -30,6 +30,7 @@
  * 23-11-2026 ronde 3: je zonnepanelen gaan eraf, wat moet er dan aan je dak gebeuren.
  */
 import type { Artikel } from "./artikelen";
+import { ARTIKELEN_EXTRA_7, KORT_ANTWOORD_7 } from "./artikelen-extra-7";
 
 export const ARTIKELEN_EXTRA_6: Artikel[] = [
   {
@@ -1219,3 +1220,7 @@ export const KORT_ANTWOORD_6: Record<string, string> = {
   "wat-kost-dakgoot-repareren": `Wat een lekkende dakgoot repareren kost, hangt af van wat er lek is, of de goot van zink of kunststof is, hoe lang hij is en hoe goed ik erbij kan. Een losse naad of hoek is meestal een kleine klus, een goot die op veel plekken lekt meer werk. Stuur een foto van de goot, dan hoor je de prijs voordat ik begin.`,
   "dak-in-bouwkundig-rapport": `Een punt over het dak in een bouwkundig rapport is vaak een aanwijzing om het van dichtbij te laten bekijken, want bij een keuring wordt het dak meestal van een afstand bekeken. Losse nokvorsten, een lek of een pan die kan vallen, laat je snel maken. Verweerde pannen, oud lood dat nog dicht zit of een dak zonder folie kun je meestal plannen.`,
 };
+
+// Artikelen en korte antwoorden uit artikelen-extra-7.ts (sinds 24-11-2026) erachter, zodat ze via artikelen-extra-5.ts in ARTIKELEN en KORT_ANTWOORD komen.
+ARTIKELEN_EXTRA_6.push(...ARTIKELEN_EXTRA_7.filter((x) => !ARTIKELEN_EXTRA_6.some((a) => a.slug === x.slug)));
+Object.assign(KORT_ANTWOORD_6, KORT_ANTWOORD_7);
