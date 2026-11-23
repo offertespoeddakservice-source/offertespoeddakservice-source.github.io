@@ -48,6 +48,13 @@ const heeftStormPagina = MATRIX.some((c) => c.plaats === p.slug && c.dienst === 
 const heeftReparatiePagina = MATRIX.some((c) => c.plaats === p.slug && c.dienst === "dakreparatie");
 // 23-11-2026 ronde 4: zin naar dakrenovatie per plaats (nu alleen Waalwijk, 11 binnenkomende links), alleen als die pagina bestaat en de dienst zichtbaar is.
 const heeftRenovatiePagina = MATRIX.some((c) => c.plaats === p.slug && c.dienst === "dakrenovatie") && !getDienst("dakrenovatie")?.verborgen;
+// 23-11-2026 ronde 5: een gewone zin voor wie in deze plaats een huis koopt, verkoopt of de zolder verbouwt. De artikelen over verkopen en een zolderverbouwing hadden maar 9 binnenkomende links, en het artikel over het bouwkundig rapport is nieuw. Alleen artikelen die bestaan en zichtbaar zijn.
+const KOOP_LINKS = [
+  { slug: "dak-keuren-bij-huis-kopen", anker: "je dak laten keuren als je een huis koopt" },
+  { slug: "dak-in-bouwkundig-rapport", anker: "wat de punten over het dak in een bouwkundig rapport betekenen" },
+  { slug: "dak-lekt-huis-verkopen", anker: "je huis verkopen als het dak lekt of heeft gelekt" },
+  { slug: "dak-nakijken-voor-zolder-verbouwen", anker: "je dak laten nakijken voordat je de zolder verbouwt" },
+].filter((l) => ARTIKELEN.some((a) => a.slug === l.slug && !a.verborgen));
 // Zin over water bij de cv-ketel of afzuigkap alleen als die artikelen bestaan, zodat er nooit een kapotte link komt.
 const heeftKetel = ARTIKELEN.some((a) => a.slug === "cv-ketel-lekt-bij-regen" && !a.verborgen);
 const heeftAfzuig = ARTIKELEN.some((a) => a.slug === "afzuigkap-lekt-bij-regen" && !a.verborgen);
@@ -214,6 +221,7 @@ const schema = [
         <p>Waar een dak lekt, hangt ook af van hoe oud je huis is en wat voor dak erop ligt. Lees ook over {BOUWJAAR_LINKS.map((l, i) => (<>{i > 0 && (i === BOUWJAAR_LINKS.length - 1 ? " en " : ", ")}<a href={`/kennisbank/${l.slug}/`}>{l.anker}</a></>))}.</p>
       )}
       {heeftRenovatiePagina && (<p>Is je dak na al die jaren toe aan meer dan een reparatie? Hoe ik in {p.naam} een oud pannendak vernieuw, met nieuwe pannen en als je dat wilt nieuwe folie en panlatten eronder, lees je bij <a href={`/werkgebied/${p.slug}/dakrenovatie/`}>dakrenovatie in {p.naam}</a>.</p>)}
+      {KOOP_LINKS.length > 0 && (<p>Ga je in {p.naam} een huis kopen of verkopen, of wil je de zolder verbouwen? Lees dan over {KOOP_LINKS.map((l, i) => (<>{i > 0 && (i === KOOP_LINKS.length - 1 ? " en " : ", ")}<a href={`/kennisbank/${l.slug}/`}>{l.anker}</a></>))}.</p>)}
       <h3>Lekt het nu?</h3>
       <p>
         Zet een emmer onder de druppel, maak een foto van de natte plek en ga niet zelf het dak op.
