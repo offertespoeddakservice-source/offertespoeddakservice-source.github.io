@@ -1144,6 +1144,47 @@ export const ARTIKELEN_EXTRA_6: Artikel[] = [
       { v: `Kan het repareren ook in de winter?`, a: `Op een droge dag zonder ijs in de goot meestal wel. Solderen en het van binnen coaten van een dakgoot kan alleen op een droge goot. Is het te nat of ligt er ijs, dan maak ik de goot vaak eerst leeg, zodat het water weer naar de regenpijp loopt, en kom ik op een droge dag terug.` },
     ],
   },
+  // 23-11-2026 ronde 4: punten over het dak in een bouwkundig rapport (Rens 03-11: Dak-APK ook bij een huis dat iemand wil kopen).
+  {
+    slug: `dak-in-bouwkundig-rapport`,
+    datum: `2026-11-23`,
+    titel: `Dak in je bouwkundig rapport: wat nu?`,
+    h1: `Je bouwkundig rapport noemt gebreken aan het dak: wat betekenen ze, en wat moet er echt gebeuren?`,
+    metaTitle: `Dak in je bouwkundig rapport: wat nu? | Spoed Dak Service`,
+    metaDescription: `Staan er in het bouwkundig rapport van je nieuwe huis punten over het dak, zoals losse nokvorsten of oud lood? Zo lees je ze en weet je wat er echt moet.`,
+    intro: `Koop je een huis, dan laat je vaak een bouwkundige keuring doen. In het rapport staan dan ook punten over het dak, in korte zinnen en vaktermen. Wat betekent 'nokvorsten deels los' of 'geen onderdakfolie aanwezig', en hoe erg is dat? Hieronder lees je wat de punten die vaak in zo'n rapport staan meestal betekenen, wat snel moet en wat kan wachten, en hoe je er een prijs voor krijgt.`,
+    secties: [
+      { kop: `Eerst: hoe is het dak bekeken?`, tekst: [
+        `Een bouwkundige keuring bekijkt het hele huis. Het dak wordt daarbij vaak vanaf de grond, vanuit een dakraam of met een camera aan een stok bekeken, en niet van dichtbij. Een punt in het rapport is dus vaak een aanwijzing om het beter te laten bekijken, en nog geen oordeel over wat er moet gebeuren. Staat er 'nader onderzoek aanbevolen' bij, laat het dak dan van dichtbij nakijken. Hoe dat gaat voordat de koop rond is, lees je in <a href="/kennisbank/dak-keuren-bij-huis-kopen/">dak keuren als je een huis koopt</a>.`,
+      ] },
+      { kop: `Punten over de pannen en de nok`, tekst: [
+        `<strong>Pannen verschoven of gebroken.</strong> Een paar losse of kapotte pannen zijn meestal een kleine reparatie. Zie <a href="/kennisbank/dakpan-kapot-of-verschoven/">dakpan kapot of verschoven</a>.`,
+        `<strong>Pannen poreus, verweerd of met mos.</strong> Dat zegt iets over de leeftijd van het dak, maar niet meteen dat het lekt. Lees <a href="/kennisbank/poreuze-dakpannen/">poreuze dakpannen</a>.`,
+        `<strong>Nokvorsten los of specie gescheurd.</strong> Dit laat je meestal niet lang liggen, want bij een storm kan een losse vorst eraf waaien. Zie <a href="/kennisbank/nokvorsten-los/">losse nokvorsten</a>.`,
+      ] },
+      { kop: `Punten over lood, goten en het platte dak`, tekst: [
+        `<strong>Lood verweerd, gescheurd of los.</strong> Rond de schoorsteen, een dakraam of langs een muur. Vaak hoeft alleen dat stuk vastgezet of vervangen te worden. Lees <a href="/kennisbank/lood-op-dak/">lood op je dak</a>.`,
+        `<strong>Dakgoot lekt, hangt door of is vervuild.</strong> Een volle goot is een kwestie van leegmaken. Een lekke naad of een goot die doorhangt, is een reparatie. Zie <a href="/kennisbank/dakgoot-lekt/">dakgoot lekt</a>.`,
+        `<strong>Dakbedekking van de aanbouw of garage aan het eind van de levensduur.</strong> Dat betekent dat de bedekking oud is. Lekt het nog niet, dan kan het vaak nog even, maar houd er rekening mee dat er de komende jaren iets moet gebeuren. Lees <a href="/kennisbank/plat-dak-vervangen-of-repareren/">plat dak repareren of vervangen</a>.`,
+      ] },
+      { kop: `Geen folie, of vochtplekken op zolder`, tekst: [
+        `<strong>Geen onderdakfolie aanwezig.</strong> Bij veel oudere huizen ligt er onder de pannen geen folie. Dat is op zich geen gebrek, maar bij harde wind of stuifsneeuw kan er dan wat water of sneeuw op zolder komen. Wil je de zolder afwerken, dan is het slim om dat eerst te regelen. Lees <a href="/kennisbank/dak-omdekken/">dak omdekken</a> en <a href="/kennisbank/dak-nakijken-voor-zolder-verbouwen/">je dak nakijken voordat je de zolder verbouwt</a>.`,
+        `<strong>Vochtplekken of sporen van lekkage op zolder.</strong> Vraag de verkoper of die plekken oud zijn en of het lek gemaakt is. Een oude, droge kring kan van een lek zijn dat al gerepareerd is. Lees ook <a href="/kennisbank/dak-lekt-huis-verkopen/">het dak lekt en je verkoopt je huis</a>.`,
+      ] },
+      { kop: `Wat moet snel, en wat kan wachten?`, tekst: [
+        `Een lek, een losse nokvorst of een pan die kan vallen, laat je het liefst snel maken, zeker voor de winter. Verweerde pannen, oud lood dat nog dicht zit of een oude dakbedekking die nog niet lekt, kun je vaak plannen. Twijfel je, stuur dan het stuk uit het rapport en een paar foto's, dan zeg ik eerlijk wat ik ervan denk.`,
+      ] },
+      { kop: `Een prijs voor de punten uit het rapport`, tekst: [
+        `Wil je weten wat de punten kosten voordat de koop rond is, bijvoorbeeld om met de verkoper te praten, stuur me dan via WhatsApp het stuk uit het rapport over het dak en de foto's die erin staan. Vaak kan ik dan al zeggen wat het ongeveer wordt. Wil je het precies weten, dan kijk ik met de <a href="/dak-apk/">Dak-APK</a> het hele dak na, met toestemming van de verkoper. Je hoort vooraf wat het kost. Heb je de sleutel al en lekt het, lees dan <a href="/kennisbank/huis-gekocht-dak-lekt/">huis gekocht en het dak lekt</a>.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: de Dak-APK`, href: `/dak-apk/` },
+    faq: [
+      { v: `Moet ik alle punten uit het rapport laten maken?`, a: `Nee. Een rapport noemt alles wat de keurder opviel, ook kleine dingen en dingen die nog jaren mee kunnen. Laat eerst maken wat lekt of los zit, en plan de rest. Twijfel je, stuur dan het stuk over het dak, dan zeg ik eerlijk wat ik zou doen.` },
+      { v: `Wat betekent 'nader onderzoek aanbevolen' bij het dak?`, a: `Dat de keurder iets zag wat hij van een afstand niet goed kon beoordelen, bijvoorbeeld bij de nok, het lood of de goot. Het betekent niet dat er iets kapot is, wel dat iemand het van dichtbij moet bekijken.` },
+      { v: `Kan ik het dak nog laten nakijken als ik de sleutel al heb?`, a: `Ja. Stuur een paar foto's van je dak vanaf de straat en van de zolder, en het stuk uit het rapport. Dan zeg ik wat ik zie en wat er eerst moet.` },
+    ],
+  },
 ];
 
 // Kort antwoord bovenaan een artikel. Geen bedragen.
@@ -1176,4 +1217,5 @@ export const KORT_ANTWOORD_6: Record<string, string> = {
   "dak-omdekken": `Omdekken betekent dat je eigen dakpannen eraf gaan en daarna terugkomen, terwijl ik eronder vernieuw wat op is: de panlatten, en als je dat wilt ook folie en tengels. Het is zinvol als de pannen nog gaaf zijn, maar er geen folie onder ligt of de latten zacht zijn. Zijn de pannen zelf op, dan zijn nieuwe pannen beter.`,
   "zonnepanelen-eraf-dak-nakijken": `Gaan je zonnepanelen eraf, dan haalt je installateur de panelen, de rails en de kabels weg. Daarna zie je pas hoe de pannen eronder liggen: vaak is er bij een dakhaak een pan uitgeslepen of gebarsten, ligt de pan waar de kabel naar binnen ging niet meer goed, of zit de goot eronder vol. Komen er nieuwe panelen, laat kapotte pannen dan eerst vervangen. Komen er geen terug, dan moeten de open plekken dicht.`,
   "wat-kost-dakgoot-repareren": `Wat een lekkende dakgoot repareren kost, hangt af van wat er lek is, of de goot van zink of kunststof is, hoe lang hij is en hoe goed ik erbij kan. Een losse naad of hoek is meestal een kleine klus, een goot die op veel plekken lekt meer werk. Stuur een foto van de goot, dan hoor je de prijs voordat ik begin.`,
+  "dak-in-bouwkundig-rapport": `Een punt over het dak in een bouwkundig rapport is vaak een aanwijzing om het van dichtbij te laten bekijken, want bij een keuring wordt het dak meestal van een afstand bekeken. Losse nokvorsten, een lek of een pan die kan vallen, laat je snel maken. Verweerde pannen, oud lood dat nog dicht zit of een dak zonder folie kun je meestal plannen.`,
 };
