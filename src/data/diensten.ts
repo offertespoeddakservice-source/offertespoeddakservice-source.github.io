@@ -115,6 +115,8 @@ export const DIENSTEN: Dienst[] = [
         v: "Er groeit gras of een plantje in mijn goot. Haal je dat ook weg?",
         a: "Ja. Groeit er gras, mos of een plantje in je goot, dan ligt er een laag van oud blad, mos en zand in die tot natte aarde is geworden. Die haal ik er helemaal uit, met de wortels, ook bij de uitloop naar de regenpijp. Daarna kijk ik of het water weer goed wegloopt en of de goot nog op afschot hangt. Zie ik een lek of een goot die doorhangt, dan hoor je eerst wat het kost om dat te herstellen. Stuur me een foto van de goot vanaf de straat, dan hoor je vooraf wat het kost.",
       },
+      // 23-11-2026 ronde 1: seizoensvraag over lichtjes aan de goot (kerstverlichting-dakgoot 275 vertoningen op plek 6,8, 10 kliks).
+      { v: `Ik wil lichtjes aan mijn dakgoot hangen. Kun je de goot eerst leegmaken?`, a: `Ja, dat is een goed moment. Zit de goot vol blad, dan blijft dat onder de snoeren en clips hangen, en bij vorst en dooi loopt het smeltwater dan niet goed weg. De lichtjes zelf hang ik niet op. Hang ze niet met schroeven of spijkers in de goot en til geen pannen op om er een snoer onder door te leggen, want dan blijft er een gaatje of een open kier achter. Hoe je ze wel ophangt, lees je in het artikel over kerstverlichting aan je dakgoot. Eén goot, bijvoorbeeld alleen de voorgoot, kost ${inclBtw("goot_reinigen")}. Voor beide goten hoor je vooraf de prijs.` },
     ],
   },
   {
