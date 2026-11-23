@@ -14,12 +14,19 @@ const GOTEN = kies(["dakgoot-hele-lengte-gecoat-973b86", "goot-vol-staand-water-
 const PLAT = kies(["nieuwe-dakplaten-aanbouw-1be656", "plat-dak-zonnepanelen-68c227", "regenpijp-aftakking-plat-dak-98b289", "regenpijp-met-aftakking-72b9bb", "veranda-overkapping-onderkant-9bf5ac"]);
 const VOGEL = kies(["vogelwering-onder-dakpannen-da1dea", "vogelschroot-onder-dakpannen-bf6057", "vogelwering-onder-dakpannen-d3c49f", "vogelwering-onder-dakpannen-0f55e0", "vogelpinnen-boven-raam-633f7f"]);
 const golfplatenDienst = DIENSTEN.some((d) => d.slug === "golfplaten-vervangen" && !d.verborgen);
+// 23-11-2026 ronde 3: twee vragen over de foto's, met FAQ-schema, voor vertrouwen, Google en AI. Alleen feiten die al op de site staan.
+const faq = [
+  { v: `Zijn dit echte foto's van je eigen werk?`, a: `Ja. Ik maak ze zelf, op het dak of vanaf de ladder, bij klussen in de regio Den Bosch. Het zijn geen stockfoto's en geen plaatjes uit een folder. Bij de foto's staat geen adres of straat, zodat je niet kunt zien bij wie ik was.` },
+  { v: `Maak je ook foto's van de klus bij mij?`, a: `Ja. Ik maak foto's van wat ik aantref en van wat ik heb gedaan, met een korte omschrijving. Die kun je meesturen naar je verzekeraar, of laten zien aan je buren of je VvE.` },
+];
+const faqSchema = { "@context": "https://schema.org", "@type": "FAQPage", mainEntity: faq.map((f) => ({ "@type": "Question", name: f.v, acceptedAnswer: { "@type": "Answer", text: f.a } })) };
 ---
 
 <Base
   title={`Foto's van mijn werk als dakdekker | ${SITE.bedrijfsnaam}`}
   description="Echte foto's van mijn eigen klussen als dakdekker in de regio Den Bosch: pannen en nok, lood bij de schoorsteen, dakgoten, platte daken en vogelwering."
   path="/mijn-werk"
+  schema={faqSchema}
 >
   <section class="hero">
     <div class="wrap">
@@ -58,6 +65,11 @@ const golfplatenDienst = DIENSTEN.some((d) => d.slug === "golfplaten-vervangen" 
       <h2 style="margin-top:36px;">Vogelwering</h2>
       <p>Onder de onderste rij pannen zet ik vogelwering van kunststof, zodat vogels niet onder je dak kunnen nestelen en er toch lucht onder de pannen blijft. Zie <a href="/diensten/vogelwering/">vogelwering</a>.</p>
       <EchteFotos bestanden={VOGEL} max={6} inline />
+
+      <h2 style="margin-top:36px;">Vragen over deze foto's</h2>
+      <div class="faq" style="margin-top:16px;">
+        {faq.map((f) => (<details><summary>{f.v}</summary><p>{f.a}</p></details>))}
+      </div>
 
       <h2 style="margin-top:36px;">Wat speelt er bij jou?</h2>
       <p>Stuur een foto van je dak vanaf de straat, of van de natte plek binnen, via WhatsApp. Dan hoor je wat ik zie, en wat het kost voordat ik begin. Wat klanten over mij schreven, lees je op <a href={SITE.werkspotUrl} target="_blank" rel="noopener">Werkspot</a>, en wie ik ben op <a href="/over/">over Rens</a>.</p>
