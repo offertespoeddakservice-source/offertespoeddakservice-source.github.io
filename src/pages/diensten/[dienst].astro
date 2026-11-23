@@ -146,6 +146,16 @@ const HERKEN_GOOT = ["dakgoot-vervangen", "dakgoot-solderen", "dakgoot-coaten", 
 const HERKEN_PLAT = ["platte-daken", "dakbeschot-vervangen"];
 const gootHerkenBestaat = ARTIKELEN.some((a) => a.slug === "welke-dakgoot-heb-ik" && !a.verborgen);
 const platHerkenBestaat = ARTIKELEN.some((a) => a.slug === "welke-dakbedekking-heb-ik" && !a.verborgen);
+// 23-11-2026 ronde 3: per dienst één gewone zin naar een kennisartikel dat bij die klus hoort en weinig binnenkomende links heeft (dakkapel lekt 9, regenton 18, vergaarbak 23, zakgoot 25, ventilatiepan 29, garagebox 29, bliksem 38). Alleen als elk artikel in de zin bestaat en zichtbaar is.
+const OOK_HANDIG: Record<string, { slugs: string[]; html: string }> = {
+  "dakraam-lekkage": { slugs: ["dakkapel-lekt"], html: `Lekt het niet bij een dakraam, maar bij je dakkapel, aan de zijkant, onder het raam of op het platte dakje erop? Lees dan <a href="/kennisbank/dakkapel-lekt/">dakkapel lekt</a>.` },
+  "antenne-verwijderen": { slugs: ["blikseminslag-dak"], html: `Is de bliksem ingeslagen in je antenne of schotel? Wat je dan eerst doet en waar je naar kijkt, lees je in <a href="/kennisbank/blikseminslag-dak/">bliksem op je dak</a>.` },
+  "regenpijp-vervangen": { slugs: ["vergaarbak-lekt", "goot-loopt-over-door-regenton"], html: `Zit er bovenaan je regenpijp een bak die overloopt, of onderaan een regenton? Lees dan <a href="/kennisbank/vergaarbak-lekt/">vergaarbak lekt of loopt over</a> en <a href="/kennisbank/goot-loopt-over-door-regenton/">goot loopt over door een regenton</a>.` },
+  dakdoorvoer: { slugs: ["ventilatiepan-lekt"], html: `Zit er op die plek geen pijp, maar een pan met een roostertje, en druppelt het daaronder? Lees dan <a href="/kennisbank/ventilatiepan-lekt/">lekkage bij een ventilatiepan</a>.` },
+  "dakbeschot-vervangen": { slugs: ["garagebox-dak-lekt"], html: `Gaat het om het platte dak van een garagebox in een rij? Lees dan <a href="/kennisbank/garagebox-dak-lekt/">het dak van je garagebox lekt</a>.` },
+  "kilgoot-repareren": { slugs: ["zakgoot-lekt"], html: `Ligt je goot niet schuin in de hoek van het dak, maar bijna vlak tussen twee daken? Dan is het een zakgoot. Lees <a href="/kennisbank/zakgoot-lekt/">zakgoot lekt</a>.` },
+};
+const ookHandig = OOK_HANDIG[d.slug] && OOK_HANDIG[d.slug].slugs.every((s) => ARTIKELEN.some((a) => a.slug === s && !a.verborgen)) ? OOK_HANDIG[d.slug] : undefined;
 ---
 
 <Base title={d.metaTitle} description={d.metaDescription} path={path} schema={schema} noindex={d.verborgen === true}>
@@ -211,6 +221,7 @@ const platHerkenBestaat = ARTIKELEN.some((a) => a.slug === "welke-dakbedekking-h
         )}
         {HERKEN_GOOT.includes(d.slug) && gootHerkenBestaat && <p style="margin-top:18px;">Weet je niet wat voor goot er aan je huis hangt, een hangende goot van zink of kunststof, een bakgoot of een mastgoot? Lees dan <a href="/kennisbank/welke-dakgoot-heb-ik/">welke dakgoot heb ik</a>, en stuur me daarna een foto.</p>}
         {HERKEN_PLAT.includes(d.slug) && platHerkenBestaat && <p style="margin-top:18px;">Weet je niet wat er op je platte dak ligt, bitumen, EPDM, grind of kunststof? Lees dan <a href="/kennisbank/welke-dakbedekking-heb-ik/">welke dakbedekking ligt er op je platte dak</a>, en stuur me daarna een foto vanuit een raam boven.</p>}
+        {ookHandig && <p style="margin-top:18px;" set:html={ookHandig.html} />}
         {review && (
           <figure class="reviewkaart" style="margin:20px 0 0;">
             <span class="rster" aria-label="5 van 5 sterren">★★★★★</span>
