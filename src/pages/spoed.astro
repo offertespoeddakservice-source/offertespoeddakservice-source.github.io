@@ -63,7 +63,8 @@ const spoedSchema = {
   description: "Spoed bij daklekkage en stormschade aan je dak: eerst de schade beperken, daarna een nette reparatie. Dag en nacht bereikbaar.",
   url: `${SITE.url}/spoed/`,
   provider: { "@type": "RoofingContractor", "@id": `${SITE.url}/#bedrijf`, name: SITE.bedrijfsnaam, telephone: `+${SITE.telefoonE164}` },
-  areaServed: [{ "@type": "State", name: "Noord-Brabant" }, { "@type": "City", name: SITE.basisplaats }],
+  // 23-11-2026 ronde 2: de plaatsen die de vraag over dag en nacht bellen noemt, ook in de gegevens.
+  areaServed: [{ "@type": "State", name: "Noord-Brabant" }, { "@type": "City", name: SITE.basisplaats }, { "@type": "City", name: "Rosmalen" }, { "@type": "City", name: "Vught" }, { "@type": "City", name: "Vlijmen" }, { "@type": "City", name: "Berlicum" }],
   hoursAvailable: { "@type": "OpeningHoursSpecification", dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"], opens: "00:00", closes: "23:59" },
 };
 // 22-11-2026 ronde 4: titel voor Google met 'daklekkage' vooraan ('daklekkage spoed' 225 vertoningen op plek 82, 'lekkage spoed' 97 op plek 48; pagina 263 vertoningen, 0 kliks). Omschrijving en h1 niet veranderd.
