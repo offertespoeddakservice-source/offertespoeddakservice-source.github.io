@@ -278,7 +278,7 @@ export const DIENSTEN: Dienst[] = [
     metaDescription:
       "Lekkage in een plat dak? EPDM- en bitumendaken repareren of vervangen in de regio Den Bosch. Eerlijke prijs, 1 jaar garantie op reparatie en 2 jaar op vervangen.",
     icoon: "🏠",
-    zieOok: [ { label: "Rot dakbeschot vervangen", href: "/diensten/dakbeschot-vervangen/" } ],
+    zieOok: [ { label: "Rot dakbeschot vervangen", href: "/diensten/dakbeschot-vervangen/" }, { label: "Golfplaten en dakplaten vervangen", href: "/diensten/golfplaten-vervangen/" }, { label: "Dakonderhoud", href: "/diensten/dakonderhoud/" } ],
     intro:
       "Platte daken lekken het vaakst bij naden en aansluitingen, en het water loopt vaak verderop naar binnen dan waar het lek zit. Ik spoor het op en herstel met EPDM of bitumen, of vervang de hele bedekking als dat verstandiger is.",
     punten: [
@@ -1050,7 +1050,7 @@ export const DIENSTEN: Dienst[] = [
       "Vogelwering onder dakpannen en zonnepanelen",
       "Voorkomt schade aan latten, isolatie en kabels",
       "Netjes weggewerkt, niet zichtbaar lelijk",
-      "Bestaande nesten eerst veilig verwijderd",
+      "Een oud nest alleen weg als er niet meer in gebroed wordt en het mag",
     ],
     faq: [
       { v: "Werkt vogelwering blijvend?", a: "Als de vogelwering goed geplaatst is en de hele rij onder de pannen afsluit, komen vogels er in de regel niet meer onder. Daarom kijk ik naar de hele dakvoet, niet alleen naar de plek waar je ze ziet." },
@@ -1074,6 +1074,13 @@ export const DIENSTEN: Dienst[] = [
     metaDescription:
       "Dakrenovatie in de regio Den Bosch en verder in Brabant: versleten pannen, lood en nok vernieuwd, op wens met nieuwe folie en panlatten. Prijs vooraf.",
     icoon: "🏚",
+    // 23-11-2026 ronde 2: blok Hoort hier ook bij (had er nog geen).
+    zieOok: [
+      { label: "Dakpannen vervangen of repareren", href: "/diensten/dakpannen-vervangen/" },
+      { label: "Nokvorsten repareren of vervangen", href: "/diensten/nokvorsten-vervangen/" },
+      { label: "Lood bij schoorsteen, muur of dakraam vervangen", href: "/diensten/lood-vervangen/" },
+      { label: "Dakonderhoud", href: "/diensten/dakonderhoud/" },
+    ],
     intro:
       "Is onderhoud niet meer genoeg, maar een compleet nieuw dak overdreven? Dan knap ik je dak grondig op: versleten pannen vervangen, lood en nok herstellen, goten aanpakken, in één keer, zodat je dak er weer jaren tegen kan.",
     punten: [
