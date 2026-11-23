@@ -27,6 +27,7 @@
 // 22-11-2026 ronde 5: titel voor Google van hoe lang gaat een dakgoot mee (zink en kunststof, de reden van de afkeuring van 14-11 is weg) en dakgoot zelf schoonmaken ('dakgoot schoonmaken vanuit dakraam' 54 en 'dakgoot reinigen zonder ladder' 34 vertoningen).
 // 23-11-2026 ronde 1: titel voor Google van bladvanger of gaas ('dakgoot gaas' 72 vertoningen op plek 9,9; artikel plek 9, 0,9% klikt), dakgoot zink of kunststof (1536 vertoningen op plek 52, 0 kliks) en wat kost een dakdekker ('dakreparatie kosten' 129 vertoningen op plek 86; artikel 351 op plek 73, 0 kliks). Alle drie nooit aangepast.
 // 23-11-2026 ronde 3: titel voor Google van lekkende dakgoot tijdelijk oplossen ('tijdelijke oplossing dakgoot lekkage' 52 vertoningen op plek 49; artikel 183 vertoningen op plek 68, 0 kliks) en lekkende dakgoot en de verzekering ('schade aan muur door lekkende dakgoot verzekering' 42 op plek 39). Allebei nooit aangepast.
+// 23-11-2026 ronde 4: titel voor Google van losse nokvorsten met de storm erin (169 vertoningen op plek 16, 1 klik, titel nooit aangepast).
 // Kennisbank [slug].astro legt hem over het artikel heen: alleen de velden die hier staan, veranderen (ook de titel voor Google).
 import type { Artikel } from "./artikelen";
 import { prijsVan } from "./prijzen";
@@ -135,6 +136,7 @@ export const ARTIKEL_CORRECTIES: Record<string, Partial<Pick<Artikel, "secties" 
   "wat-kost-een-dakdekker": { metaTitle: "Dakreparatie kosten: prijs per klus | Spoed Dak Service" },
   "lekkende-dakgoot-tijdelijk-oplossen": { metaTitle: "Lekkende dakgoot: tijdelijke oplossing | Spoed Dak Service" },
   "lekkende-dakgoot-verzekering": { metaTitle: "Natte muur door lekkende dakgoot: verzekerd? | Spoed Dak Service" },
+  "nokvorsten-los": { metaTitle: "Nokvorst los of scheef na een storm? | Spoed Dak Service" },
   ...(GOLFPLATEN_DIENST ? { "golfplaten-lekken": { dienst: { label: "Bekijk: golfplaten en dakplaten vervangen", href: "/diensten/golfplaten-vervangen/" } }, "welke-golfplaten-heb-ik": { dienst: { label: "Bekijk: golfplaten en dakplaten vervangen", href: "/diensten/golfplaten-vervangen/" } } } : {}),
   ...(DAKONDERHOUD_DIENST ? { "dakonderhoud-per-seizoen": { dienst: { label: "Bekijk: dakonderhoud", href: "/diensten/dakonderhoud/" } } } : {}),
 };
