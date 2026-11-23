@@ -26,6 +26,7 @@
  * 22-11-2026 ronde 5: bliksem ingeslagen op je dak, schoorsteen of antenne.
  * 22-11-2026 ronde 5: de dakdekker die je dak deed is failliet of gestopt, en nu lekt het.
  * 22-11-2026 ronde 5: schade aan je dak door heien, slopen of bouwen in de buurt.
+ * 23-11-2026 ronde 2: dak omdekken (pannen eraf, nieuwe latten en folie, dezelfde pannen terug).
  */
 import type { Artikel } from "./artikelen";
 
@@ -1020,6 +1021,47 @@ export const ARTIKELEN_EXTRA_6: Artikel[] = [
       { v: `De verhuislift van de buren heeft mijn goot geraakt. Wat nu?`, a: `Maak meteen foto's en vraag het verhuisbedrijf of de buren om hun gegevens. Een verhuisbedrijf is meestal verzekerd voor zulke schade. Hangt de goot scheef of lekt hij, stuur me dan een foto. Ik hang hem weer goed of vervang het stuk dat kapot is, en je hoort vooraf wat het kost.` },
     ],
   },
+  {
+    slug: `dak-omdekken`,
+    datum: `2026-11-23`,
+    titel: `Dak omdekken: wat is het?`,
+    h1: `Dak omdekken: de pannen eraf, nieuwe latten en folie eronder, en je eigen pannen terug`,
+    metaTitle: `Dak omdekken: wanneer is het slim? | Spoed Dak Service`,
+    metaDescription: `Bij omdekken gaan je pannen eraf, komen er nieuwe panlatten en op wens nieuwe folie op en gaan dezelfde pannen terug. Wanneer dat zinvol is en wat je op zolder ziet.`,
+    intro: `Zijn je dakpannen nog goed, maar is het hout of de folie eronder op, dan hoeft er niet meteen een heel nieuw dak op. Dan kun je je dak laten omdekken. Hieronder lees je wat dat is, wanneer het slim is, waaraan je het op zolder ziet en hoe ik het aanpak.`,
+    secties: [
+      { kop: `Wat is omdekken precies?`, tekst: [
+        `Een pannendak bestaat uit lagen. Bij veel huizen ligt op het dakbeschot of de sporen een folie, daarop liggen tengels, de latjes die van de nok naar de goot lopen, en daaroverheen de panlatten waar de pannen aan hangen. Bij omdekken gaan de pannen er voorzichtig af, worden de oude panlatten vervangen en komt er als je dat wilt nieuwe folie met tengels onder. Daarna gaan je eigen pannen er weer op. Het verschil met een nieuw dak is dat je je pannen houdt, zodat je dak er vanaf de straat net zo uitziet als nu.`,
+      ] },
+      { kop: `Wanneer is het slim?`, tekst: [
+        `Als de pannen zelf nog gaaf zijn, maar het eronder niet meer goed is. Bijvoorbeeld als er onder je pannen geen folie ligt, zoals bij veel oudere huizen, en het bij harde wind of stuifsneeuw op zolder nat wordt. Of als de folie die er ligt bros, gescheurd of verkleurd is. Ook als de panlatten zacht worden, doorbuigen of als de spijkers erin zijn doorgeroest, zodat pannen gaan schuiven of afzakken. Lees ook <a href="/kennisbank/dakpannen-zakken-af/">dakpannen zakken af</a> en <a href="/kennisbank/dakfolie-kapot/">dakfolie kapot of vergaan</a>.`,
+      ] },
+      { kop: `Wanneer het niet nodig is`, tekst: [
+        `Gaat het om een paar losse of gebroken pannen, een nokvorst die los ligt of lood bij de schoorsteen, dan is een gewone reparatie genoeg, zie <a href="/diensten/dakreparatie/">dakreparatie</a>. Zijn de pannen zelf op, poreus, vol haarscheurtjes of schilferend na vorst, dan heeft terugleggen weinig zin, en zijn nieuwe pannen beter. Lees <a href="/kennisbank/poreuze-dakpannen/">poreuze dakpannen</a>. Ik zeg je eerlijk wat ik zie, ook als omdekken niet nodig is.`,
+      ] },
+      { kop: `Wat je zelf op zolder kunt zien`, tekst: [
+        `Ga op een droge dag met een zaklamp naar zolder. Zie je de onderkant van de pannen, dan ligt er geen folie. Zie je wel folie, kijk dan of die heel is en of er licht doorheen komt. Kijk ook naar de latten: zijn ze donker, voelen ze zacht als je erop drukt, of hangen ze door? Liggen er brokjes, roest of zand op de zoldervloer onder de pannen? Maak er foto's van, daar heb ik meer aan dan aan een beschrijving. Lees ook <a href="/kennisbank/licht-tussen-dakpannen/">licht tussen de dakpannen</a> en <a href="/kennisbank/hoe-oud-is-mijn-dak/">hoe oud is mijn dak</a>.`,
+      ] },
+      { kop: `Hoe ik het aanpak`, tekst: [
+        `Ik werk dakvlak voor dakvlak. De pannen gaan er voorzichtig af en ik leg ze opzij. Daarna gaan de oude latten eraf, komen er als je dat wilt nieuwe folie en tengels op, en dan nieuwe panlatten op de afstand die bij jouw pannen past. Daarna gaan de pannen er weer op. Wat bij het afhalen breekt of al kapot was, vervang ik door een pan die in vorm en kleur past. Is een oude pan niet meer te krijgen, dan zeg ik eerlijk wat er kan. De nok, de randen en het lood rond de schoorsteen of een dakraam neem ik in dezelfde keer mee, want die moeten toch los. Ligt er aan het eind van een werkdag nog een stuk open, dan dek ik dat af, zodat het binnen droog blijft.`,
+      ] },
+      { kop: `Weer, zonnepanelen en isolatie`, tekst: [
+        `Omdekken doe ik op droge dagen. Bij vorst, ijs of harde wind wacht ik even, want dan is het op het dak niet veilig. Liggen er zonnepanelen op dat dakvlak, dan moeten die er eerst af. Dat doet je installateur, en we stemmen vooraf af wanneer, zodat je dak niet langer open ligt dan nodig. Wil je het dak in dezelfde keer laten isoleren, dan doet een isolatiebedrijf dat. Daken isoleren doe ik zelf niet, maar we kunnen samen afspreken wie wanneer komt.`,
+      ] },
+      { kop: `Heb ik een vergunning nodig?`, tekst: [
+        `Gaan je eigen pannen er weer op, dan verandert er van buiten niets, en dan is meestal geen vergunning nodig. Woon je in een monument of in een beschermd stadsgezicht, vraag het dan eerst na bij je gemeente. Meer lees je in <a href="/kennisbank/vergunning-dak-vernieuwen/">vergunning voor je dak</a>.`,
+      ] },
+      { kop: `Wat kost het?`, tekst: [
+        `Dat hangt af van hoe groot het dakvlak is, of er nieuwe folie bij komt, hoeveel pannen vervangen moeten worden en hoe goed ik erbij kan. Ik kom eerst kijken, en je hoort vooraf de vaste prijs. Stuur gerust eerst een paar foto's van je dak vanaf de straat en van de onderkant op zolder via WhatsApp.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: dakrenovatie`, href: `/diensten/dakrenovatie/` },
+    faq: [
+      { v: `Wat is het verschil tussen omdekken en een nieuw dak?`, a: `Bij omdekken gaan je eigen pannen er weer op, en vernieuw ik wat eronder zit: de panlatten, en als je dat wilt de folie en de tengels. Bij een nieuw dak komen er ook nieuwe pannen. Omdekken kan als je pannen nog goed zijn. Zijn ze op, dan zeg ik dat eerlijk.` },
+      { v: `Moet het hele dak in één keer?`, a: `Nee. Vaak is het ene dakvlak er slechter aan toe dan het andere, bijvoorbeeld de kant waar de meeste regen en wind op staat. Dan kan dat vlak eerst, en het andere later. Bij een rijtjeshuis kijk ik ook naar de aansluiting op het dak van de buren, zodat die dicht blijft.` },
+      { v: `Wat als er pannen breken bij het afhalen?`, a: `Bij oude pannen breekt er bij het afhalen wel eens een. Die vervang ik door een pan die in vorm en kleur past. Liggen er pannen op die niet meer gemaakt worden, dan zoek ik eerst een pan die past. Lukt dat niet, dan kan ik een goede pan van een plek die je vanaf de straat niet ziet naar voren halen. Je hoort vooraf hoe ik het aanpak.` },
+    ],
+  },
 ];
 
 // Kort antwoord bovenaan een artikel. Geen bedragen.
@@ -1049,4 +1091,5 @@ export const KORT_ANTWOORD_6: Record<string, string> = {
   "blikseminslag-dak": `Is de bliksem op je dak ingeslagen, ga dan bij brand of rook naar buiten en bel 112, laat de elektra nakijken door een installateur en ga niet zelf het dak op. Kijk daarna vanaf de straat naar gebarsten pannen, een scheve nokvorst, los lood en de antenne. Een open plek wordt eerst afgedekt, daarna worden de kapotte pannen en het lood hersteld. Maak foto's voor je verzekeraar.`,
   "dakdekker-failliet-dak-lekt": `Bestaat de dakdekker die je dak deed niet meer, zoek dan in het Handelsregister van de KvK en in het Centraal Insolventieregister of het bedrijf failliet of gestopt is. Bij een faillissement kun je het werk in de regel niet meer door dat bedrijf laten herstellen. Zorg eerst dat het binnen droog blijft, maak foto's, zoek de offerte en factuur op en laat het lek door een andere dakdekker maken.`,
   "dak-schade-door-bouw-in-de-buurt": `Liggen er pannen scheef, brokjes specie in de goot of hangt de goot lager sinds er in je straat wordt geheid, gesloopt of gebouwd, maak dan foto's met de datum en meld het schriftelijk bij de aannemer of de opdrachtgever. Vraag of er een vooropname van je huis is gemaakt. Ga niet zelf het dak op, en laat losse pannen en nokvorsten op tijd vastzetten, voor de volgende storm.`,
+  "dak-omdekken": `Omdekken betekent dat je eigen dakpannen eraf gaan en daarna terugkomen, terwijl ik eronder vernieuw wat op is: de panlatten, en als je dat wilt ook folie en tengels. Het is zinvol als de pannen nog gaaf zijn, maar er geen folie onder ligt of de latten zacht zijn. Zijn de pannen zelf op, dan zijn nieuwe pannen beter.`,
 };
