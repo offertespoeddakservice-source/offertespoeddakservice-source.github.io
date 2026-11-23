@@ -640,6 +640,13 @@ export const FAQ_ERBIJ_2: Record<string, Artikel["faq"]> = {
   "dak-lekt-na-reparatie": [
     { v: `De dakdekker die mijn dak heeft gerepareerd, bestaat niet meer. Wie lost het nu op?`, a: `Kijk eerst in het Handelsregister van de KvK of het bedrijf nog bestaat, en zoek in het Centraal Insolventieregister of het failliet is. Is het failliet, dan kun je het in de regel niet meer laten terugkomen voor het herstel, en dan laat je het lek door een andere dakdekker maken. Zorg eerst dat het binnen droog blijft en maak foto's van de natte plek en van het dak. Ik zoek waar het water binnenkomt, kijk wat er bij de vorige reparatie is gedaan en maak het dicht. Je hoort vooraf wat het kost. Meer lees je in de uitleg over een dakdekker die failliet is of gestopt.` },
   ],
+  // 23-11-2026 ronde 2: purschuim van binnenuit en een prijs op basis van een foto (twee lekkage-artikelen die 14 dagen niet zijn aangepast).
+  "daklek-tijdelijk-dichten": [
+    { v: `Kan ik het lek op zolder van binnen dichtspuiten met purschuim of kit?`, a: `Liever niet. Het water komt buiten binnen, bij een pan, de nok, het lood of een naad, en daar kom je met schuim of kit van binnenuit niet bij. Het loopt dan achter het schuim langs en komt een stukje verderop alsnog binnen. Schuim houdt ook vocht vast tegen het hout, waardoor de panlatten op die plek sneller rotten. En de pannen zitten daarna aan elkaar en aan de latten vast, zodat een kapotte pan er niet meer uit kan zonder dat er meer breken. Onder de pannen kan er dan ook minder lucht langs, en dat geeft eerder condens op zolder. Vang het water liever op met een bak en een stuk plastic, en stuur me een foto van de plek op zolder. Heb je al geschuimd of gekit, zeg dat er dan bij, dan neem ik mee wat nodig is om het weg te halen.` },
+  ],
+  "wat-kost-daklekkage-repareren": [
+    { v: `Kun je aan de hand van een foto al zeggen wat mijn lek kost?`, a: `Vaak ongeveer wel. Op een foto van de natte plek binnen en een van je dak vanaf de straat zie ik meestal of het om een losse of kapotte pan gaat, om de nok, het lood rond de schoorsteen of het dakraam, of om de goot. Dan kan ik je zeggen wat het waarschijnlijk wordt. De vaste prijs noem ik als ik weet waar het water echt binnenkomt, en altijd voordat ik begin. Maak de foto van je dak vanaf de overkant van de straat, met de zoom van je telefoon, en zet erbij wanneer het lekt: bij elke bui, alleen bij harde wind of alleen bij een stortbui. Dat zegt mij vaak al waar ik moet zoeken.` },
+  ],
 };
 
 // Artikelen en korte antwoorden uit artikelen-extra-3.ts (sinds 12-11-2026) erachter, zodat ze via artikelen-extra.ts in ARTIKELEN en KORT_ANTWOORD komen.
