@@ -392,6 +392,10 @@ export const ARTIKELEN_EXTRA_2: Artikel[] = [
       { kop: `Hoe ik met kleine klussen omga`, tekst: [
         `In de regio Den Bosch kom ik ook voor één losse pan, een scheve nokvorst of een stukje lood. Je krijgt mij zelf aan de lijn, en ik zeg eerlijk wat ik op de foto zie en wanneer ik kan komen. Gaat het om een losse pan of nokvorst, kan ik er van buiten goed bij en spreken we de prijs vooraf af, dan hoef je er niet per se bij te zijn. Woon je verder weg, stuur dan ook eerst een foto, dan hoor je eerlijk of en wanneer ik kan komen.`,
       ] },
+      // 23-11-2026 ronde 4: nieuw stuk met links naar de dakdekker komt (8 binnenkomende links) en een foto van je dak maken.
+      { kop: `Als ik kom voor die kleine klus`, tekst: [
+        `Een kleine klus gaat het vlotst als ik meteen bij de plek kan. Laat weten waar ik een ladder tegen de gevel kan zetten, of de achterkant via een poort te bereiken is en waar ik kan parkeren. Moet ik ook op zolder kijken, maak het luik dan vrij. Wat je verder klaarzet, lees je in <a href="/kennisbank/dakdekker-komt-wat-regel-je/">de dakdekker komt: wat regel je vooraf?</a> En hoe je een foto maakt waar ik echt iets aan heb, staat in <a href="/kennisbank/foto-van-je-dak-maken/">een foto van je dak maken</a>.`,
+      ] },
       { kop: `Wat kost een kleine klus?`, tekst: [
         `Een paar losse of gebroken pannen vervangen, of een nokvorst weer vastzetten, kost bij mij ${inclBtw("dakpan")}. Eén goot leegmaken, bijvoorbeeld alleen de voorgoot, kost ${inclBtw("goot_reinigen")}. Voor lood, een lekkende goot of een windveer hoor je de prijs als je een foto hebt gestuurd. Je hoort één vaste prijs voor de klus voordat ik begin, geen bedrag per uur. Zie ook de <a href="/prijzen/">prijzenpagina</a> en <a href="/diensten/dakreparatie/">dakreparatie</a>.`,
       ] },
