@@ -28,6 +28,9 @@ const wonen = WONEN.map((s) => zichtbaar.find((a) => a.slug === s)).filter((a) =
 // Winter en vorst: een gewone regel met de uitleg voor sneeuw, ijs en vorst (16-11-2026). Een artikel dat verborgen is of niet bestaat, valt vanzelf weg.
 const WINTER = ["dak-winterklaar-maken", "dak-lekt-bij-sneeuw-of-vorst", "dak-repareren-in-de-winter", "ijspegels-aan-dakgoot", "dakgoot-schoonmaken-in-de-winter", "regenpijp-kapot-door-vorst", "vorstschade-dakpannen"];
 const winter = WINTER.map((s) => zichtbaar.find((a) => a.slug === s)).filter((a) => a) as typeof ARTIKELEN;
+// 23-11-2026 ronde 1: regel Rond de feestdagen, met lichtjes aan de goot, vuurwerk en lekkage terwijl je weg bent. Een artikel dat verborgen is of niet bestaat, valt vanzelf weg.
+const FEESTDAGEN = ["kerstverlichting-dakgoot", "vuurwerk-schade-dak", "lekkage-tijdens-vakantie"];
+const feestdagen = FEESTDAGEN.map((s) => zichtbaar.find((a) => a.slug === s)).filter((a) => a) as typeof ARTIKELEN;
 // Stookseizoen en schoorsteen: een gewone regel met de uitleg over de schoorsteen, het lood eromheen en de kachelpijp (17-11-2026). Een artikel dat verborgen is of niet bestaat, valt vanzelf weg.
 const STOOK = ["lekkage-bij-schoorsteen", "schoorsteen-lekt-open-haard", "vochtplek-schoorsteen-binnen", "lekkage-bij-kachelpijp", "schoorsteen-afdekken", "schoorsteen-vegen-hoe-vaak"];
 const stook = STOOK.map((s) => zichtbaar.find((a) => a.slug === s)).filter((a) => a) as typeof ARTIKELEN;
@@ -87,6 +90,9 @@ const lijstSchema = {
       )}
       {winter.length > 0 && (
         <p style="margin:0 0 28px;"><strong>Winter en vorst:</strong> {winter.map((a, i) => (<>{i > 0 && ", "}<a href={`/kennisbank/${a.slug}/`}>{a.titel.replace(/\?$/, "")}</a></>))}.</p>
+      )}
+      {feestdagen.length > 0 && (
+        <p style="margin:0 0 28px;"><strong>Rond de feestdagen:</strong> {feestdagen.map((a, i) => (<>{i > 0 && ", "}<a href={`/kennisbank/${a.slug}/`}>{a.titel.replace(/\?$/, "")}</a></>))}.</p>
       )}
       {stook.length > 0 && (
         <p style="margin:0 0 28px;"><strong>Stookseizoen en schoorsteen:</strong> {stook.map((a, i) => (<>{i > 0 && ", "}<a href={`/kennisbank/${a.slug}/`}>{a.titel.replace(/\?$/, "")}</a></>))}.</p>
