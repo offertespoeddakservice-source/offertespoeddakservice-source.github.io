@@ -1170,6 +1170,10 @@ export const ARTIKELEN_EXTRA_5: Artikel[] = [
       { kop: `Na de eerste bui`, tekst: [
         `Kijk bij de eerste flinke bui vanaf de straat of het water netjes in de goot valt, bij de regenpijp wegloopt en nergens langs de gevel druppelt. Zie je iets, stuur me dan een foto of een kort filmpje. Laat de goot daarna één keer per jaar leegmaken, het liefst als de bomen kaal zijn.`,
       ] },
+      // 23-11-2026 ronde 4: nieuw stuk met links naar twee weinig gelinkte gootartikelen.
+      { kop: `Lekt het juist sinds de nieuwe goot?`, tekst: [
+        `Wordt de muur nat of druppelt het sinds er een nieuwe goot hangt, dan zit het meestal niet in de goot zelf, maar in hoe hij hangt: te laag onder de pannen, zodat het water erachter valt, een uitloop die niet goed op de regenpijp aansluit, of een naad die niet dicht is. Kijk bij een bui waar het water precies naar beneden komt. Hoe je dat herkent en wat je dan doet, lees je in <a href="/kennisbank/lekt-sinds-nieuwe-dakgoot/">lekt het sinds je nieuwe dakgoot?</a> Loopt het water achter de goot langs de muur, lees dan ook <a href="/kennisbank/water-achter-dakgoot/">water achter de dakgoot</a>.`,
+      ] },
       { kop: `Wat kost het?`, tekst: [
         `Dat hangt af van hoe lang de goot is, zink of kunststof, hoeveel hoeken en regenpijpen er zijn en hoe goed ik erbij kan. Een vast bedrag noem ik hier daarom niet. Stuur een foto via WhatsApp, dan hoor je vooraf wat het kost. Zie ook <a href="/diensten/dakgoot-vervangen/">dakgoot repareren of vervangen</a>.`,
       ] },
