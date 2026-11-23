@@ -26,6 +26,7 @@
 // 22-11-2026 ronde 5: titel voor Google van kilgoot lekt ('kilgoot lekkage' 54 vertoningen op plek 14,5) en lekkage bij zonnepanelen ('daklekkage onder zonnepanelen' 46 op plek 88, 'lekkage door zonnepanelen' 82 op plek 26), allebei nooit aangepast.
 // 22-11-2026 ronde 5: titel voor Google van hoe lang gaat een dakgoot mee (zink en kunststof, de reden van de afkeuring van 14-11 is weg) en dakgoot zelf schoonmaken ('dakgoot schoonmaken vanuit dakraam' 54 en 'dakgoot reinigen zonder ladder' 34 vertoningen).
 // 23-11-2026 ronde 1: titel voor Google van bladvanger of gaas ('dakgoot gaas' 72 vertoningen op plek 9,9; artikel plek 9, 0,9% klikt), dakgoot zink of kunststof (1536 vertoningen op plek 52, 0 kliks) en wat kost een dakdekker ('dakreparatie kosten' 129 vertoningen op plek 86; artikel 351 op plek 73, 0 kliks). Alle drie nooit aangepast.
+// 23-11-2026 ronde 3: titel voor Google van lekkende dakgoot tijdelijk oplossen ('tijdelijke oplossing dakgoot lekkage' 52 vertoningen op plek 49; artikel 183 vertoningen op plek 68, 0 kliks) en lekkende dakgoot en de verzekering ('schade aan muur door lekkende dakgoot verzekering' 42 op plek 39). Allebei nooit aangepast.
 // Kennisbank [slug].astro legt hem over het artikel heen: alleen de velden die hier staan, veranderen (ook de titel voor Google).
 import type { Artikel } from "./artikelen";
 import { prijsVan } from "./prijzen";
@@ -132,6 +133,8 @@ export const ARTIKEL_CORRECTIES: Record<string, Partial<Pick<Artikel, "secties" 
   "bladvanger-dakgoot": { metaTitle: "Dakgoot gaas of bladvanger: helpt het? | Spoed Dak Service" },
   "dakgoot-zink-of-kunststof": { metaTitle: "Zink of kunststof dakgoot: wat is beter? | Spoed Dak Service" },
   "wat-kost-een-dakdekker": { metaTitle: "Dakreparatie kosten: prijs per klus | Spoed Dak Service" },
+  "lekkende-dakgoot-tijdelijk-oplossen": { metaTitle: "Lekkende dakgoot: tijdelijke oplossing | Spoed Dak Service" },
+  "lekkende-dakgoot-verzekering": { metaTitle: "Natte muur door lekkende dakgoot: verzekerd? | Spoed Dak Service" },
   ...(GOLFPLATEN_DIENST ? { "golfplaten-lekken": { dienst: { label: "Bekijk: golfplaten en dakplaten vervangen", href: "/diensten/golfplaten-vervangen/" } }, "welke-golfplaten-heb-ik": { dienst: { label: "Bekijk: golfplaten en dakplaten vervangen", href: "/diensten/golfplaten-vervangen/" } } } : {}),
   ...(DAKONDERHOUD_DIENST ? { "dakonderhoud-per-seizoen": { dienst: { label: "Bekijk: dakonderhoud", href: "/diensten/dakonderhoud/" } } } : {}),
 };
