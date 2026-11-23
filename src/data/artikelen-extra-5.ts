@@ -1075,6 +1075,10 @@ export const ARTIKELEN_EXTRA_5: Artikel[] = [
         `Bij de afvoer. Vaak heeft een rij boxen één afvoer of een gootje aan de achterkant. Zit die vol blad of mos, dan blijft het water op het dak staan en zoekt het een weg naar binnen. Zie <a href="/kennisbank/plat-dak-lekt-bij-afvoer/">plat dak lekt bij de afvoer</a>.`,
         `Op een zachte plek. Heeft het lang gelekt, dan wordt het hout onder de dakbedekking zacht, en daar blijft na een bui een plas staan. Lees <a href="/kennisbank/zachte-plek-plat-dak/">zachte plek in je platte dak</a>.`,
       ] },
+      // 23-11-2026 ronde 4: nieuw stuk met een link naar de noodoverloop (10 binnenkomende links).
+      { kop: `Is er een noodoverloop?`, tekst: [
+        `Heeft het dak van een rij boxen maar één afvoer, kijk dan of er ook een noodoverloop is: een opening of buisje in de opstaande rand, iets hoger dan het dak, waar het water heen kan als de afvoer dicht zit. Is die er niet, of zit hij vol blad, dan blijft het water bij een stortbui op het dak staan tot het een naad of de rand vindt. Wat een noodoverloop doet en waar je op let, lees je in <a href="/kennisbank/noodoverloop-plat-dak/">de noodoverloop van een plat dak</a>.`,
+      ] },
       { kop: `Dakleer, EPDM of golfplaten?`, tekst: [
         `Op veel garageboxen ligt dakleer of een andere bitumen dakbedekking, op nieuwere boxen ook EPDM, een rubber dakbedekking. Op oudere boxen liggen soms golfplaten. Zijn die grijs en van voor 1994, laat ze dan eerst onderzoeken op asbest, want daar boor of zaag ik niet in. Meer lees je bij <a href="/kennisbank/dakleer-repareren/">dakleer repareren</a>, <a href="/kennisbank/epdm-dak-lekt/">EPDM-dak lekt</a> en <a href="/kennisbank/golfplaten-lekken/">golfplaten lekken</a>.`,
       ] },
