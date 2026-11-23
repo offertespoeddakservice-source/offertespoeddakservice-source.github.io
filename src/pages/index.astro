@@ -28,6 +28,14 @@ const WINTER_UITLEG = [
   { slug: "storm-op-komst-dak", tekst: "storm op komst" },
   { slug: "dak-repareren-in-de-winter", tekst: "je dak repareren in de winter" },
 ].filter((w) => zichtbareArtikelen.some((a) => a.slug === w.slug));
+// 24-11-2026 ronde 1: een gewone regel 'Na een storm' met links naar de stormuitleg. Alleen artikelen die bestaan en zichtbaar zijn.
+const STORM_UITLEG = [
+  { slug: "wachten-op-dakdekker-na-storm", tekst: "wachten op de dakdekker" },
+  { slug: "dakpan-in-tuin-gevonden", tekst: "een dakpan in je tuin" },
+  { slug: "dakgoot-losgeraakt", tekst: "een losgeraakte goot" },
+  { slug: "plat-dak-losgewaaid-na-storm", tekst: "losgewaaide dakbedekking" },
+  { slug: "schade-expert-dak", tekst: "de schade-expert van je verzekeraar" },
+].filter((w) => zichtbareArtikelen.some((a) => a.slug === w.slug));
 
 const faq = [
   { v: "Wat kost het om iemand te laten komen?", a: `Wil je weten hoe je dak ervoor staat? Dat doe ik via de Dak-APK: binnen een dagdeel een compleet keuringsrapport met foto's, voor ${apkPrijs}. Weet je al wat er moet gebeuren, bijvoorbeeld goten reinigen? Dan hoor je gewoon de vaste prijs vooraf.` },
@@ -293,6 +301,9 @@ const faqSchema = {
       </div>
       {WINTER_UITLEG.length > 0 && (
         <p style="margin-top:18px;"><strong>Nu in de winter:</strong> {WINTER_UITLEG.map((w, i) => <>{i > 0 && (i === WINTER_UITLEG.length - 1 ? " en " : ", ")}<a href={`/kennisbank/${w.slug}/`}>{w.tekst}</a></>)}.</p>
+      )}
+      {STORM_UITLEG.length > 0 && (
+        <p style="margin-top:10px;"><strong>Na een storm:</strong> {STORM_UITLEG.map((w, i) => <>{i > 0 && (i === STORM_UITLEG.length - 1 ? " en " : ", ")}<a href={`/kennisbank/${w.slug}/`}>{w.tekst}</a></>)}.</p>
       )}
       <h3 style="margin-top:28px;">Alle uitleg op een rij</h3>
       <ul style="columns:2 260px; column-gap:28px; margin:12px 0 0; padding-left:18px;">
