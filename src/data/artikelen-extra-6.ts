@@ -1104,6 +1104,46 @@ export const ARTIKELEN_EXTRA_6: Artikel[] = [
       { v: `De pannen onder mijn oude panelen zien er anders uit dan de rest. Is dat erg?`, a: `Meestal niet. Onder de panelen kwamen jarenlang minder zon en regen op de pannen, en daardoor kunnen ze er anders uitzien dan de rest van het dak. Dat zegt niets over of ze nog dicht zijn. Ik kijk of ze heel zijn en goed in de sluiting liggen. Daken schoonmaken doe ik zelf niet.` },
     ],
   },
+  // 23-11-2026 ronde 4: wat kost een lekkende dakgoot repareren, zonder bedragen (Rens 03-11: geen gootprijzen).
+  {
+    slug: `wat-kost-dakgoot-repareren`,
+    datum: `2026-11-23`,
+    titel: `Wat kost een lekkende dakgoot repareren?`,
+    h1: `Wat kost het om een lekkende dakgoot te laten repareren? Waar de prijs van afhangt`,
+    metaTitle: `Dakgoot repareren: wat kost het? | Spoed Dak Service`,
+    metaDescription: `Wat een lekkende dakgoot repareren kost, hangt af van waar hij lekt, zink of kunststof en hoe hoog hij hangt. Zo zie je wat er nodig is en hoor je vooraf de prijs.`,
+    intro: `Lekt je dakgoot, dan wil je eerst weten wat het gaat kosten. Eén vast bedrag voor elke goot bestaat niet, want een losse verbinding in een lage kunststof goot is een heel andere klus dan een zinken bakgoot die op meer plekken lekt. Hieronder lees je wat de prijs bepaalt, welke reparaties er zijn en hoe je snel weet waar je aan toe bent.`,
+    secties: [
+      { kop: `Eerst: wat is er precies lek?`, tekst: [
+        `De prijs hangt vooral af van wat er mis is. Druppelt het op één vaste plek, onder een naad, een hoek, het eindstuk of de uitloop naar de regenpijp, dan zit het lek meestal alleen daar. Loopt het water bij een bui over de voorkant, dan is de goot vaak niet lek maar vol, of hangt hij niet goed op afschot. En lekt hij op steeds meer plekken, dan is de goot zelf op. Hoe je dat herkent, lees je in <a href="/kennisbank/dakgoot-lekt/">dakgoot lekt</a>.`,
+      ] },
+      { kop: `De reparaties, van klein naar groot`, tekst: [
+        `Een losse verbinding of een kapot hoekstuk in een kunststof goot vervangen is meestal de kleinste klus.`,
+        `Een open naad of hoek in een zinken goot soldeer ik opnieuw dicht. Zie <a href="/diensten/dakgoot-solderen/">dakgoot solderen</a>.`,
+        `Is een zinken dakgoot op meer plekken dun, maar hangt hij nog stevig, dan kan ik de dakgoot van binnen coaten, over het stuk dat lekt of over de hele lengte. Zie <a href="/diensten/dakgoot-coaten/">dakgoot van binnen coaten</a>.`,
+        `Hangt de goot door of zit hij los van de beugels, dan hang ik hem weer op afschot naar de regenpijp, met nieuwe beugels waar dat nodig is.`,
+        `Is de goot over een groot stuk doorgeroest, gescheurd of bros, dan is een nieuw stuk goot of een nieuwe goot de betere keus. Zie <a href="/diensten/dakgoot-vervangen/">dakgoot repareren of vervangen</a>.`,
+      ] },
+      { kop: `Wat de prijs verder bepaalt`, tekst: [
+        `Hoe lang de goot is en hoeveel hoeken, eindstukken en regenpijpen erin zitten. Of hij van zink of kunststof is, of een bakgoot in de rand van het dak. Hoe hoog hij hangt en hoe goed ik erbij kan: een lage goot aan een aanbouw is sneller gedaan dan een goot hoog aan de voorgevel of boven een serre. En of het hout erachter nog gezond is. Is een gootlijst of klos zacht geworden, dan moet dat eerst hersteld worden voordat een goot weer goed hangt.`,
+      ] },
+      { kop: `Waarom ik hier geen bedrag noem`, tekst: [
+        `Twee goten die er vanaf de straat hetzelfde uitzien, kunnen heel verschillend zijn. Daarom noem ik hier geen bedrag, maar kijk ik eerst naar jouw goot. Stuur me een foto van de goot vanaf de straat en, als het kan, van de plek waar het druppelt, het liefst tijdens of vlak na een bui. Vaak zie ik dan al wat het is. Je hoort de prijs voordat ik begin, en je beslist pas daarna.`,
+      ] },
+      { kop: `Wachten maakt het vaak duurder`, tekst: [
+        `Een kleine lekkage in de goot lijkt onschuldig, maar het water loopt dan steeds op dezelfde plek langs de gevel of achter de goot de muur in. Op den duur wordt het hout van de gootlijst zacht, komen er groene strepen op de gevel en kan het binnen nat worden. Dan is er meer te herstellen dan alleen de goot. Lees ook <a href="/kennisbank/groene-strepen-gevel-onder-dakgoot/">groene strepen op de gevel</a> en <a href="/kennisbank/water-achter-dakgoot/">water achter de dakgoot</a>.`,
+      ] },
+      { kop: `Tot het gemaakt is`, tekst: [
+        `Zet een bak onder de druppel als die op een terras of tegen de muur valt, en schuif binnen spullen weg als de muur nat wordt. Ga niet zelf met een ladder kitten of tapen, want op een natte goot houdt dat zelden. Meer lees je in <a href="/kennisbank/lekkende-dakgoot-tijdelijk-oplossen/">een lekkende dakgoot tijdelijk oplossen</a>. Of je verzekering meebetaalt, lees je bij <a href="/kennisbank/lekkende-dakgoot-verzekering/">een lekkende dakgoot en je verzekering</a>.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: dakgoot repareren of vervangen`, href: `/diensten/dakgoot-vervangen/` },
+    faq: [
+      { v: `Is repareren goedkoper dan een nieuwe goot?`, a: `Meestal wel, als het lek op één of een paar plekken zit en de goot verder nog goed is. Lekt hij op steeds meer plekken of is hij doorgeroest, dan ben je met een nieuwe goot op termijn vaak beter uit. Dat zeg ik eerlijk als ik de goot heb gezien.` },
+      { v: `Reken je per meter?`, a: `Nee. Je hoort één prijs voor de klus, nadat ik de goot op een foto of ter plekke heb gezien.` },
+      { v: `Kan het repareren ook in de winter?`, a: `Op een droge dag zonder ijs in de goot meestal wel. Solderen en het van binnen coaten van een dakgoot kan alleen op een droge goot. Is het te nat of ligt er ijs, dan maak ik de goot vaak eerst leeg, zodat het water weer naar de regenpijp loopt, en kom ik op een droge dag terug.` },
+    ],
+  },
 ];
 
 // Kort antwoord bovenaan een artikel. Geen bedragen.
@@ -1135,4 +1175,5 @@ export const KORT_ANTWOORD_6: Record<string, string> = {
   "dak-schade-door-bouw-in-de-buurt": `Liggen er pannen scheef, brokjes specie in de goot of hangt de goot lager sinds er in je straat wordt geheid, gesloopt of gebouwd, maak dan foto's met de datum en meld het schriftelijk bij de aannemer of de opdrachtgever. Vraag of er een vooropname van je huis is gemaakt. Ga niet zelf het dak op, en laat losse pannen en nokvorsten op tijd vastzetten, voor de volgende storm.`,
   "dak-omdekken": `Omdekken betekent dat je eigen dakpannen eraf gaan en daarna terugkomen, terwijl ik eronder vernieuw wat op is: de panlatten, en als je dat wilt ook folie en tengels. Het is zinvol als de pannen nog gaaf zijn, maar er geen folie onder ligt of de latten zacht zijn. Zijn de pannen zelf op, dan zijn nieuwe pannen beter.`,
   "zonnepanelen-eraf-dak-nakijken": `Gaan je zonnepanelen eraf, dan haalt je installateur de panelen, de rails en de kabels weg. Daarna zie je pas hoe de pannen eronder liggen: vaak is er bij een dakhaak een pan uitgeslepen of gebarsten, ligt de pan waar de kabel naar binnen ging niet meer goed, of zit de goot eronder vol. Komen er nieuwe panelen, laat kapotte pannen dan eerst vervangen. Komen er geen terug, dan moeten de open plekken dicht.`,
+  "wat-kost-dakgoot-repareren": `Wat een lekkende dakgoot repareren kost, hangt af van wat er lek is, of de goot van zink of kunststof is, hoe lang hij is en hoe goed ik erbij kan. Een losse naad of hoek is meestal een kleine klus, een goot die op veel plekken lekt meer werk. Stuur een foto van de goot, dan hoor je de prijs voordat ik begin.`,
 };
