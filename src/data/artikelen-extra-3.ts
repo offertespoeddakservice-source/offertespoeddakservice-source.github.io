@@ -249,6 +249,10 @@ export const ARTIKELEN_EXTRA_3: Artikel[] = [
       { kop: `Zo zie je het verschil`, tekst: [
         `Komt er water uit de afzuigkap tijdens of na regen, ook als je niet hebt gekookt? Dan komt het van buiten: langs de pijp door het dak, of door een kapje dat mist. Komt er alleen water na het koken, vooral als het koud is? Dan is het eerder condens in het kanaal. Kijk ook op zolder: is het hout of de folie rond de pijp nat, dan komt het van het dak.`,
       ] },
+      // 23-11-2026 ronde 3: kort stuk voor een ventiel in het plafond, met links naar het badkamerplafond en de ventilatiepan.
+      { kop: `Geen afzuigkap, maar een ventiel in het plafond?`, tekst: [
+        `Druppelt het niet uit je afzuigkap, maar uit een rond ventiel in het plafond van de badkamer, de wc of de keuken? Dan is dat meestal de ventilatie van je huis. Ook die heeft vaak een kanaal over de zolder naar een pijp door het dak, en ook daar kan het regen langs de pijp zijn of condens in het kanaal. Hoe je dat verschil ziet, lees je in <a href="/kennisbank/lekkage-badkamer-plafond/">nat plafond in de badkamer</a>. Zit er op je dak geen pijp maar een pan met een roostertje, kijk dan bij <a href="/kennisbank/ventilatiepan-lekt/">lekkage bij een ventilatiepan</a>.`,
+      ] },
       { kop: `Hoe ik het aanpak`, tekst: [
         `Ik kijk op zolder waar het water langs de pijp loopt en daarna op het dak naar de kraag, de doorvoerpan en het kapje. Een gescheurde kraag of een doorvoerpan die niet goed ligt, vervang ik. Mist het kapje of is de doorvoer zelf op, dan plaats ik een nieuwe doorvoer die bij je pannen past. Het kanaal binnen en de aansluiting op de afzuigkap doet je installateur of keukenleverancier. Zie <a href="/diensten/dakdoorvoer/">dakdoorvoer plaatsen of repareren</a> en <a href="/kennisbank/lekkage-bij-dakdoorvoer/">lekkage bij een dakdoorvoer</a>.`,
       ] },
