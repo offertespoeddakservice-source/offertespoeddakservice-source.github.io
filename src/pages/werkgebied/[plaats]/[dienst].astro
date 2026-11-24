@@ -328,7 +328,12 @@ const RENOVATIE_EXTRA_2 = [
 const STORM_EXTRA_4 = [
   bestaatArtikel("schade-expert-dak") ? 'Stuurt je verzekeraar na de storm een schade-expert, lees dan in <a href="/kennisbank/schade-expert-dak/">de schade-expert komt naar je dak kijken</a> wat je vooraf klaarlegt en of het lek al dicht mag.' : "",
 ].filter(Boolean).join(" ");
-const verder = verderLezen[d.slug];
+// 24-11-2026 ronde 2: bij daklekkage per plaats een zin naar de nieuwe uitleg over een lichtbuis en naar lekt het sinds een nieuw dakraam (30 binnenkomende links), alleen als het artikel bestaat. De zinnen erboven blijven zoals ze zijn.
+const LEK_EXTRA_6 = [
+  bestaatArtikel("lichtbuis-lekt") ? 'Druppelt het uit een rond rooster in je plafond, onder een lichtbuis voor daglicht, lees dan <a href="/kennisbank/lichtbuis-lekt/">lichtbuis of daglichtbuis lekt</a>.' : "",
+  bestaatArtikel("lekt-sinds-nieuw-dakraam") ? 'En lekt het sinds er een nieuw dakraam in je dak is gezet, kijk dan bij <a href="/kennisbank/lekt-sinds-nieuw-dakraam/">lekt het sinds er een nieuw dakraam in zit</a>.' : "",
+].filter(Boolean).join(" ");
+const verder =verderLezen[d.slug];
 // Interne links: de andere klussen in deze plaats, en dezelfde klus in de andere plaatsen.
 const zelfdePlaats = MATRIX.filter((c) => c.plaats === p.slug && c.dienst !== d.slug)
   .map((c) => getDienst(c.dienst))
@@ -442,6 +447,7 @@ if (["daklekkage", "stormschade", "dakreparatie"].includes(d.slug)) (schema[0] a
           {d.slug === "dakreparatie" && REPARATIE_EXTRA_4 && <p set:html={REPARATIE_EXTRA_4} />}
           {d.slug === "dakgoot-vervangen" && GOOT_EXTRA_4 && <p set:html={GOOT_EXTRA_4} />}
           {d.slug === "daklekkage" && LEK_EXTRA_5 && <p set:html={LEK_EXTRA_5} />}
+          {d.slug === "daklekkage" && LEK_EXTRA_6 && <p set:html={LEK_EXTRA_6} />}
           {d.slug === "dakreparatie" && REPARATIE_EXTRA_5 && <p set:html={REPARATIE_EXTRA_5} />}
           {d.slug === "dakgoot-vervangen" && GOOT_EXTRA_5 && <p set:html={GOOT_EXTRA_5} />}
           {d.slug === "stormschade" && STORM_EXTRA_3 && <p set:html={STORM_EXTRA_3} />}
