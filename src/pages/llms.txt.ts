@@ -1,4 +1,4 @@
-// llms.txt (03-11-2026, bijgewerkt 04-11-2026, 07-11-2026: alle artikelen erbij, 10-11-2026: bereikbaar en korte namen, 11-11-2026: korte antwoorden, 12-11-2026: zonder 'doet het werk zelf', 12-11-2026 ronde 5: Gelderland in Waar, 13-11-2026: blok Ook verder weg, 14-11-2026: blok Voor wie, 16-11-2026: dorpen gelijk aan de pagina's, 17-11-2026: link naar llms-full.txt, 17-11-2026 ronde 5: niet thuis in Lekt het nu?, 18-11-2026: blok Komt het water niet van het dak?, 18-11-2026 ronde 4: betalen en veelgelezen bijgewerkt, 19-11-2026 ronde 4: welke vakman en foto's van eigen klussen, 20-11-2026: regel na een storm en nieuwe dorpen, 20-11-2026 ronde 3: wat hij niet doet aangevuld, veelgelezen bijgewerkt, link welke dakgoot, 21-11-2026: blok Bijzondere situaties (VvE, dakdekker die niet komt), 22-11-2026: blok In de winter, 22-11-2026 ronde 2: blok Werk aan je dak en de buren, 23-11-2026: blok Waar zit het lek? per plek in huis, 23-11-2026 ronde 5: blok Losse pannen, nok en de rand van je dak, 24-11-2026: blok Na een storm, 24-11-2026 ronde 2: blok Lekt of loopt je dakgoot over?): korte, feitelijke uitleg voor AI-zoekmachines (ChatGPT, Gemini, Perplexity, Copilot).
+// llms.txt (03-11-2026, bijgewerkt 04-11-2026, 07-11-2026: alle artikelen erbij, 10-11-2026: bereikbaar en korte namen, 11-11-2026: korte antwoorden, 12-11-2026: zonder 'doet het werk zelf', 12-11-2026 ronde 5: Gelderland in Waar, 13-11-2026: blok Ook verder weg, 14-11-2026: blok Voor wie, 16-11-2026: dorpen gelijk aan de pagina's, 17-11-2026: link naar llms-full.txt, 17-11-2026 ronde 5: niet thuis in Lekt het nu?, 18-11-2026: blok Komt het water niet van het dak?, 18-11-2026 ronde 4: betalen en veelgelezen bijgewerkt, 19-11-2026 ronde 4: welke vakman en foto's van eigen klussen, 20-11-2026: regel na een storm en nieuwe dorpen, 20-11-2026 ronde 3: wat hij niet doet aangevuld, veelgelezen bijgewerkt, link welke dakgoot, 21-11-2026: blok Bijzondere situaties (VvE, dakdekker die niet komt), 22-11-2026: blok In de winter, 22-11-2026 ronde 2: blok Werk aan je dak en de buren, 23-11-2026: blok Waar zit het lek? per plek in huis, 23-11-2026 ronde 5: blok Losse pannen, nok en de rand van je dak, 24-11-2026: blok Na een storm, 24-11-2026 ronde 2: blok Lekt of loopt je dakgoot over?, 24-11-2026 ronde 4: plaatsen uit de vragen van na 22-11 bij Ook verder weg): korte, feitelijke uitleg voor AI-zoekmachines (ChatGPT, Gemini, Perplexity, Copilot).
 // Plaatsen komen vanzelf uit plaatsen.ts en diensten uit diensten.ts (verborgen diensten, die Rens niet doet, vallen weg). Geen prijzen, geen beloftes.
 import type { APIRoute } from "astro";
 import { SITE } from "../site.config.ts";
@@ -231,7 +231,14 @@ export const GET: APIRoute = () => {
     `- Werkendam, Sleeuwijk en Woudrichem: [Daklekkage in Heusden](${u}/werkgebied/heusden/daklekkage/)`,
     `- Drongelen, Dussen en Hank: [Daklekkage in Waalwijk](${u}/werkgebied/waalwijk/daklekkage/)`,
     `- Nijmegen en Beuningen: [Daklekkage in Wijchen](${u}/werkgebied/wijchen/daklekkage/)`,
-    `- Tiel, Culemborg, Geldermalsen, Beesd, Waardenburg, Haaften, Gorinchem, Arnhem, Oosterbeek, Utrecht, Nieuwegein, Houten, Dordrecht, Papendrecht, Sliedrecht, Bladel, Eersel en Bergeijk: [Werkgebied](${u}/werkgebied/)`,
+    `- Maurik, Lienden en Beusichem (gemeente Buren): [Werkgebied](${u}/werkgebied/)`,
+    `- Groesbeek, Berg en Dal en Mook: [Dakdekker in Wijchen](${u}/werkgebied/wijchen/)`,
+    `- Oudenbosch, Hoeven en Oud Gastel: [Daklekkage in Breda](${u}/werkgebied/breda/daklekkage/)`,
+    `- Zevenbergen, Klundert, Willemstad, Zundert en Rijsbergen: [Dakdekker in Breda](${u}/werkgebied/breda/)`,
+    `- Bakel en Asten: [Dakdekker in Helmond](${u}/werkgebied/helmond/)`,
+    `- Eersel, Bladel en Bergeijk (de Kempen): [Dakdekker in Eindhoven](${u}/werkgebied/eindhoven/)`,
+    `- Budel, Maarheeze, Weert, Venlo en Venray: [Werkgebied](${u}/werkgebied/)`,
+    `- Tiel, Culemborg, Geldermalsen, Beesd, Waardenburg, Haaften, Gorinchem, Arnhem, Oosterbeek, Utrecht, Nieuwegein, Houten, Dordrecht, Papendrecht en Sliedrecht: [Werkgebied](${u}/werkgebied/)`,
     "",
     "## Per plaats en klus",
     ...LOKAAL.map((l) => `- [${l.naam}](${u}${l.pad})`),
