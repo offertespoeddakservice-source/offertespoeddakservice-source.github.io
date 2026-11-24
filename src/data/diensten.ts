@@ -874,7 +874,8 @@ export const DIENSTEN: Dienst[] = [
     vanafPrijs: "stuur een foto",
     h1: "Dakdoorvoer plaatsen voor ventilatie, afzuiging of WTW",
     kort: "Een nieuwe doorvoer door je pannendak, netjes en waterdicht aangesloten op de pannen.",
-    metaTitle: "Dakdoorvoer plaatsen of vervangen | Spoed Dak Service",
+    // 24-11-2026 ronde 1: titel zoals mensen zoeken ('plaatsen dakdoorvoer pannendak' 41 vertoningen op plek 10,3, 0 kliks).
+    metaTitle: "Dakdoorvoer plaatsen in je pannendak | Spoed Dak Service",
     metaDescription:
       "Lekt het langs een pijp door je dak, of moet er een afvoer voor ventilatie of afzuiging door? Ik maak de doorvoer dicht of plaats een nieuwe. Stuur een foto.",
     icoon: "🧰",
