@@ -244,6 +244,10 @@ const schemas = [businessSchema, websiteSchema, ...(breadcrumbSchema ? [breadcru
         {huidigPad !== "/spoed/" && (
           <p class="lead" style="margin: 0 auto 24px; color:#c2d2e3;"><strong>Lekt het nu?</strong> Op de <a href="/spoed/" style="color:#ffb486;">spoedpagina</a> lees je wat je meteen zelf kunt doen.</p>
         )}
+        {/* 24-11-2026 ronde 3: link naar de echte foto's van mijn werk (25 binnenkomende links). */}
+        {huidigPad !== "/mijn-werk/" && (
+          <p class="lead" style="margin: 0 auto 24px; color:#c2d2e3;">Wil je eerst zien hoe ik werk? Bekijk <a href="/mijn-werk/" style="color:#ffb486;">foto's van mijn eigen klussen</a>.</p>
+        )}
         <div class="btn-row" style="justify-content:center;">
           {!opQuiz && <a class="btn btn--primary" href="/quiz/">{QUIZ_KNOP}</a>}
           <a class="btn btn--wa" href={waHref()}>WhatsApp Rens</a>
