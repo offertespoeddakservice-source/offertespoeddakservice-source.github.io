@@ -2,7 +2,8 @@
 import type { APIRoute } from "astro";
 import { SITE } from "../site.config.ts";
 import { ARTIKELEN } from "../data/artikelen.ts";
-import { KORT_ANTWOORD } from "../data/artikelen-extra.ts";
+import { KORT_ANTWOORD, FAQ_ERBIJ } from "../data/artikelen-extra.ts";
+import { FAQ_ERBIJ_2 } from "../data/artikelen-extra-2.ts";
 import { DIENSTEN } from "../data/diensten.ts";
 import { PLAATSEN } from "../data/plaatsen.ts";
 import { MATRIX } from "../data/matrix.ts";
@@ -22,6 +23,11 @@ const magMee = (f: { v: string; a: string }) => !WEG.test(zonderNummer(`${f.v} $
 const PLAATS_VRAGEN = PLAATSEN.map((p) => ({ kop: `Dakdekker in ${p.naam}`, pad: `/werkgebied/${p.slug}/`, faq: (p.faq ?? []).filter(magMee) })).filter((x) => x.faq.length > 0);
 const KLUS_VRAGEN = MATRIX.filter((c) => KLUS[c.dienst] && DIENSTEN.some((d) => d.slug === c.dienst && !d.verborgen))
   .flatMap((c) => { const p = PLAATSEN.find((x) => x.slug === c.plaats); const faq = (c.faq ?? []).filter(magMee); return p && faq.length > 0 ? [{ kop: `${KLUS[c.dienst]} in ${p.naam}`, pad: `/werkgebied/${p.slug}/${c.dienst}/`, faq }] : []; });
+// 24-11-2026 ronde 2: vragen en antwoorden van de kennisartikelen met de meeste kliks, voor AI. Zelfde filter als de plaatsvragen (magMee): een vraag of antwoord met een cijfer of een woorddeel uit WEG valt weg. Een artikel dat verborgen is of niet bestaat, valt weg.
+const KENNIS_SLUGS = ["lekkage-bij-dakdoorvoer", "water-achter-dakgoot", "dak-lekt-bij-harde-wind", "water-uit-lamp-plafond", "golfplaten-lekken", "kerstverlichting-dakgoot", "lekkage-bij-aanbouw", "dakpan-kapot-of-verschoven", "schoorsteen-lekt-open-haard", "lekkage-bij-kachelpijp", "veranda-of-overkapping-lekt", "nat-achter-knieschot", "lekkage-bij-zonnepanelen", "afzuigkap-lekt-bij-regen", "kilgoot-lekt", "lood-op-dak", "dakgoot-lekt"];
+const KENNIS_VRAGEN = KENNIS_SLUGS.map((s) => ARTIKELEN.find((a) => a.slug === s && !a.verborgen)).filter((a) => a)
+  .map((a) => ({ a: a!, faq: [...(a!.faq ?? []), ...(FAQ_ERBIJ[a!.slug] ?? []), ...(FAQ_ERBIJ_2[a!.slug] ?? [])].filter(magMee) }))
+  .filter((x) => x.faq.length > 0);
 
 export const GET: APIRoute = () => {
   const regels = [
@@ -46,6 +52,9 @@ export const GET: APIRoute = () => {
       `Meer: ${SITE.url}/diensten/${d.slug}/`,
       "",
     ]),
+    "# Vragen uit de kennisbank",
+    "",
+    ...KENNIS_VRAGEN.flatMap(({ a, faq }) => [`## ${a.titel}`, "", ...faq.flatMap((f) => [`Vraag: ${f.v}`, `Antwoord: ${f.a.replace(/<[^>]+>/g, "")}`, ""]), `Meer: ${SITE.url}/kennisbank/${a.slug}/`, ""]),
     "# Vragen per plaats",
     "",
     ...[...PLAATS_VRAGEN, ...KLUS_VRAGEN].flatMap(({ kop, pad, faq }) => [`## ${kop}`, "", ...faq.flatMap((f) => [`Vraag: ${f.v}`, `Antwoord: ${f.a.replace(/<[^>]+>/g, "")}`, ""]), `Meer: ${SITE.url}${pad}`, ""]),
