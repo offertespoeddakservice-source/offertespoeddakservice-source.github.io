@@ -50,6 +50,9 @@ const buren = BUREN.map((s) => zichtbaar.find((a) => a.slug === s)).filter((a) =
 // 23-11-2026 ronde 3: Zonnepanelen en je dak, een gewone regel met de uitleg voor voor, onder en na de panelen. Een artikel dat verborgen is of niet bestaat, valt vanzelf weg. 23-11-2026 ronde 4: zonnepanelen eraf alsnog erbij, nu het artikel bestaat.
 const ZONNEPANELEN = ["lekkage-bij-zonnepanelen", "dak-nakijken-voor-zonnepanelen", "zonnepanelen-eraf-dak-nakijken", "duiven-onder-zonnepanelen"];
 const zonnepanelen = ZONNEPANELEN.map((s) => zichtbaar.find((a) => a.slug === s)).filter((a) => a) as typeof ARTIKELEN;
+// 24-11-2026 ronde 2: Ramen, koepels en lichten in je dak, een gewone regel met de uitleg over alles wat licht door je dak laat. Een artikel dat verborgen is of niet bestaat, valt vanzelf weg.
+const RAMEN = ["dakraam-lekt", "lekt-sinds-nieuw-dakraam", "dakkapel-lekt", "lichtkoepel-lekt", "lichtstraat-lekt", "dakluik-lekt", "glazen-dakpan-lekt", "lichtbuis-lekt"];
+const ramen = RAMEN.map((s) => zichtbaar.find((a) => a.slug === s)).filter((a) => a) as typeof ARTIKELEN;
 // 22-11-2026 ronde 4: In het kort onderaan, gelijk aan /diensten/ en de andere pagina's, voor Google en AI.
 // Gestructureerde gegevens: de kennisbank als verzameling, met alle zichtbare artikelen in de volgorde van de pagina.
 const lijstSchema = {
@@ -115,6 +118,9 @@ const lijstSchema = {
       )}
       {zonnepanelen.length > 0 && (
         <p style="margin:0 0 28px;"><strong>Zonnepanelen en je dak:</strong> {zonnepanelen.map((a, i) => (<>{i > 0 && ", "}<a href={`/kennisbank/${a.slug}/`}>{a.titel.replace(/\?$/, "")}</a></>))}.</p>
+      )}
+      {ramen.length > 0 && (
+        <p style="margin:0 0 28px;"><strong>Ramen, koepels en lichten in je dak:</strong> {ramen.map((a, i) => (<>{i > 0 && ", "}<a href={`/kennisbank/${a.slug}/`}>{a.titel.replace(/\?$/, "")}</a></>))}.</p>
       )}
       {groepen.map((g, i) => (
         <>
