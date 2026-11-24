@@ -166,6 +166,8 @@ const OOK_HANDIG: Record<string, { slugs: string[]; html: string }> = {
   "dakgoot-vervangen": { slugs: ["dakgoot-lekt-in-de-hoek", "dakgoot-lekt-aan-het-eind"], html: `Druppelt je goot precies op de hoek van het huis, of juist aan het uiteinde bij de zijgevel? Lees dan <a href="/kennisbank/dakgoot-lekt-in-de-hoek/">dakgoot lekt in de hoek</a> of <a href="/kennisbank/dakgoot-lekt-aan-het-eind/">dakgoot lekt aan het eind</a>.` },
   "platte-daken": { slugs: ["regenpijp-loost-op-dak"], html: `Komt de regenpijp van je bovenste goot uit op het platte dak van je aanbouw of garage? Lees dan <a href="/kennisbank/regenpijp-loost-op-dak/">regenpijp komt uit op je dak</a>.` },
   "dakgoot-solderen": { slugs: ["zinken-dak-lekt"], html: `Lekt niet je goot, maar het zinken dakje van een erker, luifel of uitbouw? Lees dan <a href="/kennisbank/zinken-dak-lekt/">zinken dak lekt</a>.` },
+  // 24-11-2026 ronde 5: bakgoot naar verholen goot (25 binnenkomende links) en zakgoot (26). Dakdoorvoer had al een sleutel (ventilatiepan, 23-11), dus daar geen tweede.
+  "bakgoot-repareren": { slugs: ["verholen-goot-lekt", "zakgoot-lekt"], html: `Ligt je goot niet in de rand van het dak, maar hoger in het dakvlak of tussen twee daken in? Lees dan <a href="/kennisbank/verholen-goot-lekt/">verholen goot lekt</a> of <a href="/kennisbank/zakgoot-lekt/">zakgoot lekt</a>.` },
 };
 const ookHandig = OOK_HANDIG[d.slug] && OOK_HANDIG[d.slug].slugs.every((s) => ARTIKELEN.some((a) => a.slug === s && !a.verborgen)) ? OOK_HANDIG[d.slug] : undefined;
 ---
