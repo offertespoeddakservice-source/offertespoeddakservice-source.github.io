@@ -32,6 +32,7 @@
 // 24-11-2026 ronde 1: titel voor Google van lekkage na dakwerk bij de buren (165 vertoningen op plek 15,6, 2 kliks) en stormschade: eerste hulp (128 vertoningen op plek 59, 0 kliks), allebei nooit aangepast.
 // 24-11-2026 ronde 2: titel voor Google van dakgoot hangt door met de woorden waarop gezocht wordt ('water dat in de dakgoot blijft staan' 40 vertoningen op plek 47; artikel 107 vertoningen op plek 49,7, 1 klik, titel nooit aangepast).
 // 24-11-2026 ronde 4: titel voor Google van wie maakt de dakgoot schoon, huurder of verhuurder, met 'dakgoot' vooraan (198 vertoningen op plek 21,6, 1 klik, titel nooit aangepast).
+// 24-11-2026 ronde 5: titel voor Google van afzuigkap lekt bij regen (207 vertoningen op plek 6,7, 1,9% klikt, titel nooit aangepast), met de woorden waarop gezocht wordt vooraan.
 // Kennisbank [slug].astro legt hem over het artikel heen: alleen de velden die hier staan, veranderen (ook de titel voor Google).
 import type { Artikel } from "./artikelen";
 import { prijsVan } from "./prijzen";
@@ -146,6 +147,7 @@ export const ARTIKEL_CORRECTIES: Record<string, Partial<Pick<Artikel, "secties" 
   "stormschade-eerste-hulp": { metaTitle: "Stormschade aan je dak: wat nu eerst? | Spoed Dak Service" },
   "dakgoot-hangt-door": { metaTitle: "Dakgoot hangt door, water blijft staan? | Spoed Dak Service" },
   "dakgoot-schoonmaken-huurder-of-verhuurder": { metaTitle: "Dakgoot schoonmaken: huurder of verhuurder? | Spoed Dak Service" },
+  "afzuigkap-lekt-bij-regen": { metaTitle: "Afzuigkap lekt bij regen: dak of condens? | Spoed Dak Service" },
   ...(GOLFPLATEN_DIENST ? { "golfplaten-lekken": { dienst: { label: "Bekijk: golfplaten en dakplaten vervangen", href: "/diensten/golfplaten-vervangen/" } }, "welke-golfplaten-heb-ik": { dienst: { label: "Bekijk: golfplaten en dakplaten vervangen", href: "/diensten/golfplaten-vervangen/" } } } : {}),
   ...(DAKONDERHOUD_DIENST ? { "dakonderhoud-per-seizoen": { dienst: { label: "Bekijk: dakonderhoud", href: "/diensten/dakonderhoud/" } } } : {}),
 };
