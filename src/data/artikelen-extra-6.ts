@@ -254,6 +254,10 @@ export const ARTIKELEN_EXTRA_6: Artikel[] = [
       { kop: `Heb je een plat dak?`, tekst: [
         `Kijk vanuit een raam boven of de afvoer vrij is en of er na een bui geen plas blijft staan. Blad, takjes en mos in de afvoer zijn in de winter een bekende oorzaak van water dat naar binnen loopt, zeker als het daarna gaat vriezen. Lees <a href="/kennisbank/water-blijft-staan-op-plat-dak/">water blijft staan op je platte dak</a>.`,
       ] },
+      // 24-11-2026 ronde 2: nieuw stuk over dakramen, lichtkoepels en een dakluik
+      { kop: `Dakramen, lichtkoepels en een dakluik`, tekst: [
+        `Kijk van binnen langs de rand van een dakraam, een lichtkoepel of een dakluik of je vochtplekken of verkleurd hout ziet. Ligt er blad of mos boven een dakraam, dan blijft het water daar hangen en loopt het langs de zijkant onder de pannen door. Op een plat dak blijven blad en later sneeuw tegen de opstaande rand van een koepel of luik liggen, en bij de dooi zoekt dat water een weg naar binnen. Druppelt het vooral op koude ochtenden, ook als het droog is, dan is het vaak condens. Lees <a href="/kennisbank/dakraam-lekt/">dakraam lekt</a>, <a href="/kennisbank/lichtkoepel-lekt/">lichtkoepel lekt</a> en <a href="/kennisbank/dakluik-lekt/">dakluik lekt</a>.`,
+      ] },
       { kop: `Bomen en takken`, tekst: [
         `Hangen er takken over je dak, laat die dan voor de stormen snoeien door een hovenier of boomverzorger. Een tak die bij storm over de pannen schuurt of erop valt, breekt makkelijk een pan. Lees <a href="/kennisbank/tak-of-boom-op-dak/">tak of boom op je dak</a>.`,
       ] },
