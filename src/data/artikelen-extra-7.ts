@@ -3,6 +3,7 @@
  * artikelen-extra-6.ts zet ze achter ARTIKELEN_EXTRA_6 en in KORT_ANTWOORD_6.
  * 24-11-2026 ronde 1: de schade-expert van je verzekeraar komt naar je dak kijken.
  * 24-11-2026 ronde 2: je lichtbuis of daglichtbuis lekt.
+ * 24-11-2026 ronde 5: het lekt bij de zonneboiler op je dak.
  */
 import type { Artikel } from "./artikelen";
 
@@ -88,10 +89,53 @@ export const ARTIKELEN_EXTRA_7: Artikel[] = [
       { v: `De lichtbuis zit er pas een paar maanden in en lekt al. Wie lost dat op?`, a: `Meld het eerst bij wie hem heeft geplaatst, met foto's van de natte plek en van je dak vanaf de straat. Die moet in de regel terugkomen om het goed te maken. Komt er niemand, of bestaat het bedrijf niet meer, stuur me dan een foto, dan kijk ik naar de aansluiting op het dak.` },
     ],
   },
+  {
+    slug: `zonneboiler-lekt`,
+    datum: `2026-11-24`,
+    titel: `Lekt het bij je zonneboiler op het dak?`,
+    h1: `Het lekt bij de zonneboiler op je dak: de doorvoer van de leidingen, een pan bij de beugels, of de installatie zelf?`,
+    metaTitle: `Zonneboiler lekt bij regen? Zo vind je het | Spoed Dak Service`,
+    metaDescription: `Druppelt het op zolder langs de leidingen van je zonneboiler? Bij regen zit het vaak in de doorvoer of een pan bij de beugels. Zo zie je wie je belt.`,
+    intro: `Een zonneboiler verwarmt je water met de zon. Op het dak ligt een collector, een paneel of een rij glazen buizen, en daarvandaan lopen twee leidingen door het dak naar het vat op zolder of in een kast. Wordt het nat bij die leidingen, dan wil je weten of het regenwater van buiten is of vloeistof uit de installatie. Hieronder lees je hoe je dat ziet, waar het bij regen meestal zit en wie je belt.`,
+    secties: [
+      { kop: `Lekt het nu? Eerst dit`, tekst: [
+        `Zet een bak met een doek erin onder de druppel en haal spullen weg die nat kunnen worden. Komt het water bij een lamp, een stopcontact of de pomp en de regeling bij het vat, zet dan in de meterkast de groep uit en raak niets aan. Draai niet zelf aan kranen of ventielen van de installatie en ga niet het dak op. Wat je verder meteen kunt doen, staat op de <a href="/spoed/">spoedpagina</a>.`,
+      ] },
+      { kop: `Regenwater of vloeistof uit de installatie?`, tekst: [
+        `Dit is de eerste vraag, want het bepaalt wie je belt. Wordt het alleen nat bij of vlak na regen, en is de buitenkant van de leiding of het hout eromheen nat van boven naar beneden, dan komt er regenwater van buiten naar binnen. Dat is dakwerk.`,
+        `Druppelt het ook op droge dagen, of juist als de zon op het dak staat, dan lekt eerder de installatie zelf: een koppeling, een leiding of het vat. In veel zonneboilers zit geen gewoon water maar een vloeistof die niet bevriest. Voelt het druppelwater wat glad of plakkerig aan, of geeft een drukmetertje bij het vat een lagere druk aan dan normaal, dan is dat een aanwijzing. Dat is werk voor je installateur.`,
+        `Op koude dagen kan er ook condens op een leiding staan die niet goed is geïsoleerd. Dat zie je als druppels over de hele leiding, ook ver van de plek waar hij door het dak gaat. Lees ook <a href="/kennisbank/condens-of-lekkage-op-zolder/">condens of lekkage op zolder</a>.`,
+      ] },
+      { kop: `Waar het bij regen meestal lekt`, tekst: [
+        `Bij de doorvoer van de leidingen. De leidingen gaan samen of apart door het dak, meestal door een speciale doorvoerpan met een kraag. Is de kraag hard of gescheurd, of sluit de pan niet goed aan op de pannen eromheen, dan loopt het regenwater langs de leiding naar binnen. Dat werkt net zo als bij <a href="/kennisbank/lekkage-bij-dakdoorvoer/">lekkage bij een dakdoorvoer</a>.`,
+        `Bij de beugels. De collector staat op beugels die tussen de pannen door aan het dak vastzitten. Is daar bij het plaatsen een pan gebarsten of een stukje uitgeslepen, of ligt een pan niet meer goed in de sluiting, dan waait de regen eronder. Dat is hetzelfde als bij <a href="/kennisbank/lekkage-bij-zonnepanelen/">lekkage bij zonnepanelen</a>.`,
+        `Boven de collector. Blijft er blad liggen tussen de collector en de pannen erboven, dan kan het water bij een flinke bui opzij onder de pannen lopen.`,
+      ] },
+      { kop: `Zo kijk je zelf`, tekst: [
+        `Ga tijdens of vlak na een bui met een zaklamp naar zolder en kijk waar de leidingen door het dak komen. Is het hout of de folie rond die plek nat, dan zit het in de doorvoer. Is het nat onder de plek waar een beugel zit, of een eind van de leidingen vandaan, dan is het eerder een pan. Maak vanaf de straat met de zoom van je telefoon een foto van de collector en de pannen eromheen. Stuur beide foto's via WhatsApp, dan zie ik vaak al waar het zit.`,
+      ] },
+      { kop: `Wie doet wat?`, tekst: [
+        `De collector, de leidingen, de vloeistof en het vat horen bij je installateur. Is de zonneboiler pas geplaatst, meld het lek dan eerst bij wie hem heeft geplaatst. De pannen rond de beugels en de doorvoer waar de leidingen door het dak gaan, zijn dakwerk. Die maak ik weer dicht: een gebarsten of verschoven pan vervang ik of leg ik terug, en een kraag of doorvoerpan die op is, vervang ik. Moet de collector er even af om bij de pannen te komen, dan doet je installateur dat. Twijfel je wie je nodig hebt, kijk dan bij <a href="/kennisbank/welke-vakman-voor-je-dak/">wie je belt voor welk werk aan je dak</a>.`,
+      ] },
+      { kop: `Is de zonneboiler weggehaald?`, tekst: [
+        `Wordt een oude zonneboiler weggehaald, bijvoorbeeld omdat er een warmtepomp of zonnepanelen komen, dan blijven er open plekken in het dak over: waar de leidingen door het dak gingen en waar de beugels zaten. Is dat niet goed dichtgemaakt, dan lekt het daar bij de eerste flinke bui. Ik maak de doorvoer dicht en leg er pannen in die bij je dak passen. Wat je na het weghalen van panelen verder nakijkt, lees je in <a href="/kennisbank/zonnepanelen-eraf-dak-nakijken/">zonnepanelen eraf: wat moet er aan je dak</a>.`,
+      ] },
+      { kop: `Wat kost het?`, tekst: [
+        `Dat hangt af van wat er lek is en hoe goed ik erbij kan. Een pan bij een beugel vervangen is een andere klus dan een nieuwe doorvoer rond de leidingen. Je hoort vooraf wat het kost, voordat er iets gebeurt.`,
+      ] },
+    ],
+    dienst: { label: `Bekijk: dakdoorvoer plaatsen of repareren`, href: `/diensten/dakdoorvoer/` },
+    faq: [
+      { v: `Is een lekkende zonneboiler spoed?`, a: `Druppelt het flink, of komt het water bij de elektra, dan wel: zet de groep uit, vang het water op en bel of app me met een foto. Lekt de installatie zelf en zakt de druk, bel dan ook je installateur. Zijn het een paar druppels na een bui en blijft het verder droog, dan kan het vaak een paar dagen wachten.` },
+      { v: `De zonneboiler is pas geplaatst en nu lekt het. Wie lost dat op?`, a: `Meld het eerst bij het bedrijf dat hem heeft geplaatst, met foto's van de natte plek en van je dak vanaf de straat. Lekkage door het plaatsen hoort dat bedrijf in de regel zelf op te lossen. Komt er niemand, of bestaat het bedrijf niet meer, stuur me dan een foto. Dan kijk ik naar de pannen en de doorvoer.` },
+      { v: `Kun je de leidingen van mijn zonneboiler ook verleggen of afkoppelen?`, a: `Nee, aan de installatie zelf werk ik niet. Dat doet je installateur. Ik doe het stuk dak: de doorvoer waar de leidingen door het dak gaan en de pannen eromheen. Spreek vooraf af wie wat doet, dan ligt je dak niet langer open dan nodig.` },
+    ],
+  },
 ];
 
 // Kort antwoord bovenaan een artikel. Geen bedragen.
 export const KORT_ANTWOORD_7: Record<string, string> = {
   "schade-expert-dak": `Stuurt je verzekeraar een schade-expert na stormschade of een lek, dan bekijkt die wat er kapot is, hoe het kwam en wat het herstel mag kosten. Een open plek of lek mag je in de regel eerst laten dichtmaken. Maak vooraf foto's, bewaar kapotte pannen en rekeningen, en laat de nette reparatie wachten tot je verzekeraar akkoord is.`,
   "lichtbuis-lekt": `Druppelt het uit je lichtbuis of langs het rooster in je plafond, dan zit het meestal in de aansluiting van de buis op het dak: de kraag over de pannen of de opstaande rand op een plat dak. Soms is de koepel bovenop gebarsten. Druppelt het vooral op koude ochtenden, ook als het droog is, dan is het vaak condens in de buis.`,
+  "zonneboiler-lekt": `Wordt het nat op zolder bij de leidingen van je zonneboiler, kijk dan eerst wanneer. Lekt het alleen bij regen, dan zit het meestal in de doorvoer waar de leidingen door het dak gaan of in een pan bij de beugels van de collector. Dat is dakwerk. Druppelt het ook op droge dagen, dan lekt de installatie zelf, en dan bel je je installateur.`,
 };
