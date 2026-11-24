@@ -187,6 +187,8 @@ const schema = [
         Twijfel je over de staat van je dak? Vraag de <a href="/dak-apk/">Dak-APK</a> aan (voor {apkPrijs}) voor een compleet fotorapport.
         Weet je al wat er moet gebeuren? Dan hoor je gelijk een eerlijke, vaste prijs.
       </p>
+      {/* 24-11-2026 ronde 3: dag en nacht bereikbaar met het nummer in gewone tekst bovenaan, zoals op de homepage (les 109). */}
+      <p style="margin:12px 0 0; color:#fff; font-size:1.05rem;"><strong>Dag en nacht bereikbaar (24/7):</strong> bel of app <a href={telHref} style="color:inherit; text-decoration:underline;">{SITE.telefoonWeergave}</a>.{(p.verweg || p.reistijd?.startsWith("±")) ? " Je hoort dan eerlijk wanneer ik kan komen." : ""}</p>
       <div class="btn-row" style="margin-top:22px;">
         <a class="btn btn--primary" href={telHref}>Bel {SITE.telefoonWeergave}</a>
         <a class="btn btn--wa" href={waHref(`Hallo, ik zoek een dakdekker in ${p.naam}.`)}>WhatsApp Rens</a>
