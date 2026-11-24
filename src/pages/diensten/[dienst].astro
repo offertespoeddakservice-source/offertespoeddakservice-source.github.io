@@ -32,7 +32,8 @@ if (minPrice) serviceSchema.offers = { "@type": "Offer", priceSpecification: { "
 // Geen losse minPrice bij een prijs per vierkante meter of per paneel: dan zou Google het als prijs voor de hele klus lezen.
 if ((d.vanafPrijs ?? "").includes("p/")) delete serviceSchema.offers;
 // Spoedklussen: dag en nacht bereikbaar, net als op /spoed/
-if (["daklekkage", "stormschade", "dakreparatie"].includes(d.slug)) serviceSchema.hoursAvailable = { "@type": "OpeningHoursSpecification", dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"], opens: "00:00", closes: "23:59" };
+// 24-11-2026 ronde 3: dag en nacht bereikbaar ook bij de dienstpagina's met een regel Spoed in In het kort (dezelfde lijst als SPOED_DIENSTEN).
+if (["daklekkage", "stormschade", "dakreparatie", "dakraam-lekkage", "lood-vervangen", "nokvorsten-vervangen", "dakdoorvoer", "bakgoot-repareren", "kilgoot-repareren"].includes(d.slug)) serviceSchema.hoursAvailable = { "@type": "OpeningHoursSpecification", dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"], opens: "00:00", closes: "23:59" };
 const faqSchema = d.faq.length
   ? {
       "@context": "https://schema.org",
