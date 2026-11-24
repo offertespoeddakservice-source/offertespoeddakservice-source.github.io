@@ -29,6 +29,7 @@
 // 23-11-2026 ronde 3: titel voor Google van lekkende dakgoot tijdelijk oplossen ('tijdelijke oplossing dakgoot lekkage' 52 vertoningen op plek 49; artikel 183 vertoningen op plek 68, 0 kliks) en lekkende dakgoot en de verzekering ('schade aan muur door lekkende dakgoot verzekering' 42 op plek 39). Allebei nooit aangepast.
 // 23-11-2026 ronde 4: titel voor Google van losse nokvorsten met de storm erin (169 vertoningen op plek 16, 1 klik, titel nooit aangepast).
 // 23-11-2026 ronde 5: titel voor Google van dak lekt bij sneeuw of vorst (130 vertoningen op plek 25, 1 klik, titel nooit aangepast), met vorst erin zoals in de kop en het adres, voor de winter.
+// 24-11-2026 ronde 1: titel voor Google van lekkage na dakwerk bij de buren (165 vertoningen op plek 15,6, 2 kliks) en stormschade: eerste hulp (128 vertoningen op plek 59, 0 kliks), allebei nooit aangepast.
 // Kennisbank [slug].astro legt hem over het artikel heen: alleen de velden die hier staan, veranderen (ook de titel voor Google).
 import type { Artikel } from "./artikelen";
 import { prijsVan } from "./prijzen";
@@ -139,6 +140,8 @@ export const ARTIKEL_CORRECTIES: Record<string, Partial<Pick<Artikel, "secties" 
   "lekkende-dakgoot-verzekering": { metaTitle: "Natte muur door lekkende dakgoot: verzekerd? | Spoed Dak Service" },
   "nokvorsten-los": { metaTitle: "Nokvorst los of scheef na een storm? | Spoed Dak Service" },
   "dak-lekt-bij-sneeuw-of-vorst": { metaTitle: "Dak lekt bij sneeuw, vorst of dooi? | Spoed Dak Service" },
+  "lekkage-na-dakwerk-buren": { metaTitle: "Lekt het sinds dakwerk bij de buren? | Spoed Dak Service" },
+  "stormschade-eerste-hulp": { metaTitle: "Stormschade aan je dak: wat nu eerst? | Spoed Dak Service" },
   ...(GOLFPLATEN_DIENST ? { "golfplaten-lekken": { dienst: { label: "Bekijk: golfplaten en dakplaten vervangen", href: "/diensten/golfplaten-vervangen/" } }, "welke-golfplaten-heb-ik": { dienst: { label: "Bekijk: golfplaten en dakplaten vervangen", href: "/diensten/golfplaten-vervangen/" } } } : {}),
   ...(DAKONDERHOUD_DIENST ? { "dakonderhoud-per-seizoen": { dienst: { label: "Bekijk: dakonderhoud", href: "/diensten/dakonderhoud/" } } } : {}),
 };
