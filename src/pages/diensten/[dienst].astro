@@ -161,6 +161,11 @@ const OOK_HANDIG: Record<string, { slugs: string[]; html: string }> = {
   "dakpannen-vervangen": { slugs: ["dak-monument-repareren"], html: `Woon je in een monument of in een beschermd stadsgezicht, zoals de binnenstad van Den Bosch, lees dan eerst <a href="/kennisbank/dak-monument-repareren/">je dak repareren bij een monument</a> voordat er andere pannen op komen.` },
   "golfplaten-vervangen": { slugs: ["boerderij-dak-lekt"], html: `Liggen de golfplaten op een schuur of stal bij een boerderij, lees dan ook <a href="/kennisbank/boerderij-dak-lekt/">het dak van je boerderij lekt</a>.` },
   "windveer-vervangen": { slugs: ["klimop-op-dak-of-in-dakgoot"], html: `Groeit er klimop of wingerd over je windveer en onder de pannen, kijk dan bij <a href="/kennisbank/klimop-op-dak-of-in-dakgoot/">klimop op je dak of in je dakgoot</a>.` },
+  // 24-11-2026 ronde 4: nog vier dienstpagina's een gewone zin naar een artikel met weinig binnenkomende links (lekt sinds iemand op je dak was 19, dakgoot lekt in de hoek 20 en aan het eind 18, regenpijp op je dak 13, zinken dak 13).
+  daklekkage: { slugs: ["lekt-sinds-iemand-op-dak"], html: `Lekt het sinds er iemand op je dak is geweest, zoals de glazenwasser, de schoorsteenveger of een installateur? Lees dan <a href="/kennisbank/lekt-sinds-iemand-op-dak/">lekt het sinds er iemand op je dak was?</a>` },
+  "dakgoot-vervangen": { slugs: ["dakgoot-lekt-in-de-hoek", "dakgoot-lekt-aan-het-eind"], html: `Druppelt je goot precies op de hoek van het huis, of juist aan het uiteinde bij de zijgevel? Lees dan <a href="/kennisbank/dakgoot-lekt-in-de-hoek/">dakgoot lekt in de hoek</a> of <a href="/kennisbank/dakgoot-lekt-aan-het-eind/">dakgoot lekt aan het eind</a>.` },
+  "platte-daken": { slugs: ["regenpijp-loost-op-dak"], html: `Komt de regenpijp van je bovenste goot uit op het platte dak van je aanbouw of garage? Lees dan <a href="/kennisbank/regenpijp-loost-op-dak/">regenpijp komt uit op je dak</a>.` },
+  "dakgoot-solderen": { slugs: ["zinken-dak-lekt"], html: `Lekt niet je goot, maar het zinken dakje van een erker, luifel of uitbouw? Lees dan <a href="/kennisbank/zinken-dak-lekt/">zinken dak lekt</a>.` },
 };
 const ookHandig = OOK_HANDIG[d.slug] && OOK_HANDIG[d.slug].slugs.every((s) => ARTIKELEN.some((a) => a.slug === s && !a.verborgen)) ? OOK_HANDIG[d.slug] : undefined;
 ---
