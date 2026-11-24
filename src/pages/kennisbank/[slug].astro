@@ -339,6 +339,11 @@ const FOTOS_BESTANDEN: Record<string, string[]> = {
   // 24-11-2026 ronde 4: echte foto ae9944 (goot met staand water) bij twee gootartikelen zonder foto, waar het bijschrift past (een gezakte hoek of een eind waar water blijft staan).
   "dakgoot-lekt-in-de-hoek": ["ae9944"],
   "dakgoot-lekt-aan-het-eind": ["ae9944"],
+  // 24-11-2026 ronde 5: echte foto's bij vier artikelen zonder foto, alleen waar het bijschrift past (volle goot die overloopt, pijp door het pannendak, schoorsteen met lood, regenpijp die in de afvoer uitkomt).
+  "goot-loopt-over-door-regenton": ["ae9944"],
+  "dak-jaren-90-huis-lekt": ["653b84"],
+  "dak-jaren-50-huis-lekt": ["742508"],
+  "water-van-buren-op-je-dak": ["72b9bb", "98b289"],
 };
 const fotoBestanden = FOTOS_BESTANDEN[a.slug]
   ?.map((code) => FOTOS.find((f) => f.bestand.includes(`-${code}.`))?.bestand)
