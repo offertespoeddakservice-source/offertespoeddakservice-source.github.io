@@ -333,6 +333,15 @@ const LEK_EXTRA_6 = [
   bestaatArtikel("lichtbuis-lekt") ? 'Druppelt het uit een rond rooster in je plafond, onder een lichtbuis voor daglicht, lees dan <a href="/kennisbank/lichtbuis-lekt/">lichtbuis of daglichtbuis lekt</a>.' : "",
   bestaatArtikel("lekt-sinds-nieuw-dakraam") ? 'En lekt het sinds er een nieuw dakraam in je dak is gezet, kijk dan bij <a href="/kennisbank/lekt-sinds-nieuw-dakraam/">lekt het sinds er een nieuw dakraam in zit</a>.' : "",
 ].filter(Boolean).join(" ");
+// 24-11-2026 ronde 5: bij dakgoot schoonmaken en dakreparatie per plaats een zin naar artikelen met weinig binnenkomende links (16 tot 27), alleen als het artikel bestaat. De zinnen erboven blijven zoals ze zijn.
+const GOTEN_SCHOON_EXTRA_4 = [
+  bestaatArtikel("water-spat-over-dakgoot") ? 'Klettert het water bij een bui over je goot heen, ook als hij net is leeggemaakt, dan hangt hij vaak niet goed onder de pannen. Lees <a href="/kennisbank/water-spat-over-dakgoot/">water spat over de dakgoot</a>.' : "",
+  bestaatArtikel("mastgoot-lekt") ? 'Ligt je goot als houten bak met zink erin op klossen voor de gevel, lees dan bij <a href="/kennisbank/mastgoot-lekt/">mastgoot lekt</a> waar zo\'n goot meestal gaat lekken.' : "",
+].filter(Boolean).join(" ");
+const REPARATIE_EXTRA_6 = [
+  bestaatArtikel("dakdekker-kleine-klus") ? 'Gaat het maar om één pan of een stukje lood, lees dan in <a href="/kennisbank/dakdekker-kleine-klus/">een dakdekker voor een kleine klus</a> waarom zo\'n klus vaak blijft liggen en hoe het wel lukt.' : "",
+  bestaatArtikel("sneldekpannen-vervangen") ? 'Liggen er grote, vlakke betonpannen op je dak, kijk dan bij <a href="/kennisbank/sneldekpannen-vervangen/">sneldekpannen vervangen of repareren</a>.' : "",
+].filter(Boolean).join(" ");
 const verder =verderLezen[d.slug];
 // Interne links: de andere klussen in deze plaats, en dezelfde klus in de andere plaatsen.
 const zelfdePlaats = MATRIX.filter((c) => c.plaats === p.slug && c.dienst !== d.slug)
@@ -459,10 +468,12 @@ if (["daklekkage", "stormschade", "dakreparatie"].includes(d.slug)) (schema[0] a
           {d.slug === "daklekkage" && LEK_EXTRA_5 && <p set:html={LEK_EXTRA_5} />}
           {d.slug === "daklekkage" && LEK_EXTRA_6 && <p set:html={LEK_EXTRA_6} />}
           {d.slug === "dakreparatie" && REPARATIE_EXTRA_5 && <p set:html={REPARATIE_EXTRA_5} />}
+          {d.slug === "dakreparatie" && REPARATIE_EXTRA_6 && <p set:html={REPARATIE_EXTRA_6} />}
           {d.slug === "dakgoot-vervangen" && GOOT_EXTRA_5 && <p set:html={GOOT_EXTRA_5} />}
           {d.slug === "stormschade" && STORM_EXTRA_3 && <p set:html={STORM_EXTRA_3} />}
           {d.slug === "stormschade" && STORM_EXTRA_4 && <p set:html={STORM_EXTRA_4} />}
           {d.slug === "goten-reinigen" && GOTEN_SCHOON_EXTRA_3 && <p set:html={GOTEN_SCHOON_EXTRA_3} />}
+          {d.slug === "goten-reinigen" && GOTEN_SCHOON_EXTRA_4 && <p set:html={GOTEN_SCHOON_EXTRA_4} />}
           {d.slug === "dakrenovatie" && RENOVATIE_EXTRA_2 && <p set:html={RENOVATIE_EXTRA_2} />}
         </>
       )}
