@@ -333,6 +333,9 @@ const FOTOS_BESTANDEN: Record<string, string[]> = {
   // 23-11-2026 ronde 5: echte foto's bij twee nieuwe artikelen van vannacht, alleen waar het bijschrift past.
   "wat-kost-dakgoot-repareren": ["ae9944", "973b86"],
   "dak-in-bouwkundig-rapport": ["f9152c"],
+  // 24-11-2026 ronde 4: echte foto ae9944 (goot met staand water) bij twee gootartikelen zonder foto, waar het bijschrift past (een gezakte hoek of een eind waar water blijft staan).
+  "dakgoot-lekt-in-de-hoek": ["ae9944"],
+  "dakgoot-lekt-aan-het-eind": ["ae9944"],
 };
 const fotoBestanden = FOTOS_BESTANDEN[a.slug]
   ?.map((code) => FOTOS.find((f) => f.bestand.includes(`-${code}.`))?.bestand)
