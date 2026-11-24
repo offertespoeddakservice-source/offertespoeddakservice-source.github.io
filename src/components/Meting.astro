@@ -6,7 +6,7 @@
  *   zodat ze er nog zijn als iemand doorklikt naar /quiz/. Een nieuwe link met utm overschrijft ze.
  * - window.spoeddakUtm = { s, c, n } is te lezen door de quiz en het formulier.
  * - bezoek = true: telt meteen een bezoek. kliks = true: telt kliks op bellen en WhatsApp.
- * De teller (~/spoeddak-teller) neemt /e alleen aan voor paden onder /ads/ en /quiz/.
+ * De teller (~/spoeddak-teller) neemt /e alleen aan voor paden onder /ads/ en /quiz/, behalve bellen en whatsapp: die tellen sinds 25-11-2026 op de hele site.
  */
 interface Props { bezoek?: boolean; kliks?: boolean }
 const { bezoek = false, kliks = false } = Astro.props;

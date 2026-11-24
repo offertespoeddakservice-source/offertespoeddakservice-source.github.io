@@ -116,8 +116,8 @@ const schemas = [businessSchema, websiteSchema, ...(breadcrumbSchema ? [breadcru
     <meta name="google-site-verification" content="LC_t_SS_7UWDG15xt4AnSV3-0q_Duk3zyV3tbov5j-8" />
     <!-- Bezoekersteller (eigen, zonder cookies en zonder IP-adres): spoeddak-teller op Cloudflare, gelezen door de SEO-routine -->
     <script is:inline>try{navigator.sendBeacon("https://spoeddak-teller.heugten-ecommerce.workers.dev/t",JSON.stringify({p:location.pathname,r:document.referrer}))}catch(e){}</script>
-    <!-- Meting voor advertenties en de quiz (zelfde teller, route /e). Op de hele site bestaat window.spoeddakTel; tellen gebeurt alleen op /quiz/. -->
-    <Meting bezoek={opQuiz} kliks={opQuiz} />
+    <!-- Meting voor advertenties en de quiz (zelfde teller, route /e). Bezoek tellen alleen op /quiz/, kliks op bellen en WhatsApp op de hele site (25-11-2026). -->
+    <Meting bezoek={opQuiz} kliks={true} />
 
     <!-- Google Ads conversiemeting (AW-18338222053) — telt klik op bellen / WhatsApp / e-mail -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18338222053" is:inline></script>
