@@ -360,6 +360,12 @@ const faq = [
   },
 ];
 
+// 24-11-2026 ronde 4: dorpen en plaatsen die zichtbaar op deze pagina staan (in de lokale tekst of de vragen) ook in de gegevens voor Google en AI (areaServed), net als op de plaatspagina's sinds 22-11. Alleen namen die als los woord in de tekst van deze pagina staan, en niet de plaats zelf.
+const DORPEN_MATRIX = ["Engelen", "Bokhoven", "Nuland", "Vinkel", "Empel", "Kruisstraat", "Maliskamp", "Hintham", "Maren-Kessel", "Lithoijen", "Helvoirt", "Cromvoirt", "Nieuwkuijk", "Haarsteeg", "Elshout", "Middelrode", "Heeswijk-Dinther", "Loosbroek", "Den Dungen", "Gemonde", "Maaskantje", "Wijbosch", "Sint-Oedenrode", "Nijnsel", "Olland", "Boskant", "Liempde", "Esch", "Lennisheuvel", "Oirschot", "Oudheusden", "Herpt", "Doeveren", "Heesbeen", "Hedikhuizen", "Werkendam", "Sleeuwijk", "Woudrichem", "Berghem", "Geffen", "Lith", "Megen", "Ravenstein", "Herpen", "Moergestel", "Haaren", "Alverna", "Niftrik", "Batenburg", "Bergharen", "Hernen", "Nijmegen", "Beuningen", "Sprang-Capelle", "Waspik", "Kaatsheuvel", "Loon op Zand", "Drongelen", "Dussen", "Hank", "Volkel", "Odiliapeel", "Schaijk", "Reek", "Mill", "Cuijk", "Boxmeer", "Erp", "Zijtaart", "Eerde", "Mariaheide", "Keldonk", "Boerdonk", "Udenhout", "Berkel-Enschot", "Hilvarenbeek", "Diessen", "Gilze", "Riel", "Prinsenbeek", "Teteringen", "Bavel", "Ulvenhout", "Oosterhout", "Terheijden", "Oudenbosch", "Oud Gastel", "Stiphout", "Mierlo-Hout", "Brandevoort", "Deurne", "Someren", "Veldhoven", "Waalre"];
+const matrixTekst = [hook, ...faq.map((f) => `${f.v} ${f.a}`)].join(" ");
+const dorpenOpPagina = DORPEN_MATRIX.filter((naam) => naam !== p.naam && new RegExp(`(^|[^\\p{L}-])${naam}($|[^\\p{L}-])`, "u").test(matrixTekst));
+const stadAreaServed = { "@type": "City", name: p.slug === "den-bosch" ? "'s-Hertogenbosch" : p.naam, ...(p.slug === "den-bosch" ? { alternateName: "Den Bosch" } : {}), containedInPlace: gemeente ? { "@type": "AdministrativeArea", name: `gemeente ${gemeente}`, containedInPlace: { "@type": "State", name: provincie } } : { "@type": "State", name: provincie } };
+
 const schema = [
   {
     "@context": "https://schema.org",
@@ -368,7 +374,7 @@ const schema = [
     serviceType: KLUS_NAAM[d.slug] ?? d.titel,
     description: `Spoed Dak Service is een dakdekker uit 's-Hertogenbosch voor ${watZin} ${waarZin}.`,
     provider: { "@type": "RoofingContractor", "@id": `${SITE.url}/#bedrijf`, name: SITE.bedrijfsnaam, telephone: `+${SITE.telefoonE164}` },
-    areaServed: { "@type": "City", name: p.slug === "den-bosch" ? "'s-Hertogenbosch" : p.naam, ...(p.slug === "den-bosch" ? { alternateName: "Den Bosch" } : {}), containedInPlace: gemeente ? { "@type": "AdministrativeArea", name: `gemeente ${gemeente}`, containedInPlace: { "@type": "State", name: provincie } } : { "@type": "State", name: provincie } },
+    areaServed: dorpenOpPagina.length > 0 ? [stadAreaServed, ...dorpenOpPagina.map((naam) => ({ "@type": "Place", name: naam }))] : stadAreaServed,
     url: `${SITE.url}${path}/`,
   },
   {
