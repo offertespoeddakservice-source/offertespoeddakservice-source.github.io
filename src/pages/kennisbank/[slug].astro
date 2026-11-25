@@ -421,6 +421,13 @@ const schema = faqSchema ? [articleSchema, faqSchema] : articleSchema;
         {KORT_ANTWOORD[a.slug] && (
           <p class="notice" style="margin-top:0;"><strong>Kort antwoord:</strong> {KORT_ANTWOORD[a.slug]}</p>
         )}
+        {/* 26-11-2026 ronde 1: bel- en WhatsApp-regel direct onder het korte antwoord. De best bezochte lekkage- en gootartikelen kregen sinds 25-11 nog geen tik op Bellen of WhatsApp. */}
+        {KORT_ANTWOORD[a.slug] && LEK_ARTIKELEN.has(a.slug) && (
+          <p><strong>Wil je dat ik meekijk?</strong> Stuur een foto van de natte plek via <a href={waHref("Hallo, mijn dak lekt. Ik stuur je een foto.")}>WhatsApp</a> of bel <a href={telHref}>{SITE.telefoonWeergave}</a>, dag en nacht. Je hebt dan mij zelf aan de lijn: Rens, dakdekker uit 's-Hertogenbosch.</p>
+        )}
+        {KORT_ANTWOORD[a.slug] && !LEK_ARTIKELEN.has(a.slug) && GOOT_ZIJBLOK.has(a.slug) && (
+          <p><strong>Wil je dat ik naar je goot kijk?</strong> Maak vanaf de straat een foto van de goot en stuur die via <a href={waHref("Hallo, ik heb een vraag over mijn dakgoot. Ik stuur je een foto.")}>WhatsApp</a>, of bel <a href={telHref}>{SITE.telefoonWeergave}</a>. Dan hoor je vooraf wat het kost.</p>
+        )}
         {a.slug === "dakinspectie" && ARTIKELEN.some((x) => x.slug === "wat-kost-een-dakinspectie" && !x.verborgen) && (
           <p>Wil je precies weten wat een dakinspectie kost en wat je ervoor krijgt? Lees <a href="/kennisbank/wat-kost-een-dakinspectie/">wat kost een dakinspectie</a>.</p>
         )}
