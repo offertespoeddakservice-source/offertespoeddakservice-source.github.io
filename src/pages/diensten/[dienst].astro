@@ -170,6 +170,14 @@ const OOK_HANDIG: Record<string, { slugs: string[]; html: string }> = {
   "bakgoot-repareren": { slugs: ["verholen-goot-lekt", "zakgoot-lekt"], html: `Ligt je goot niet in de rand van het dak, maar hoger in het dakvlak of tussen twee daken in? Lees dan <a href="/kennisbank/verholen-goot-lekt/">verholen goot lekt</a> of <a href="/kennisbank/zakgoot-lekt/">zakgoot lekt</a>.` },
 };
 const ookHandig = OOK_HANDIG[d.slug] && OOK_HANDIG[d.slug].slugs.every((s) => ARTIKELEN.some((a) => a.slug === s && !a.verborgen)) ? OOK_HANDIG[d.slug] : undefined;
+// 26-11-2026 ronde 1: één gewone zin naar dezelfde klus in Den Bosch, alleen als die pagina in MATRIX staat ('daklekkage den bosch' plek 57, 'dakgoot reparatie den bosch' plek 38, 'dakreparatie den bosch' plek 82).
+const DEN_BOSCH_ZIN: Record<string, string> = {
+  daklekkage: 'Woon je in Den Bosch zelf? Hoe ik daar een lek opspoor, van de binnenstad en de Muntel tot de Kruiskamp, Maaspoort en Empel, lees je bij <a href="/werkgebied/den-bosch/daklekkage/">daklekkage in Den Bosch</a>.',
+  "dakgoot-vervangen": 'Woon je in Den Bosch zelf? Over de oude zinken goten en bakgoten in de stad, en wanneer repareren nog genoeg is, lees je bij <a href="/werkgebied/den-bosch/dakgoot-vervangen/">dakgoot repareren in Den Bosch</a>.',
+  dakreparatie: 'Woon je in Den Bosch zelf? Hoe ik daar een kapotte of losse pan vervang, ook bij een oud huis in de binnenstad, lees je bij <a href="/werkgebied/den-bosch/dakreparatie/">dakreparatie in Den Bosch</a>.',
+  "goten-reinigen": 'Woon je in Den Bosch zelf? Ook een goot achter de gevel of tussen twee panden maak ik leeg: lees <a href="/werkgebied/den-bosch/goten-reinigen/">dakgoot schoonmaken in Den Bosch</a>.',
+};
+const denBoschZin = !d.verborgen && DEN_BOSCH_ZIN[d.slug] && MATRIX.some((c) => c.plaats === "den-bosch" && c.dienst === d.slug) ? DEN_BOSCH_ZIN[d.slug] : "";
 ---
 
 <Base title={d.metaTitle} description={d.metaDescription} path={path} schema={schema} noindex={d.verborgen === true}>
@@ -215,6 +223,7 @@ const ookHandig = OOK_HANDIG[d.slug] && OOK_HANDIG[d.slug].slugs.every((s) => AR
           ik kom langs, leg uit wat ik zie, en je krijgt een vaste prijs vooraf. Geen callcenter,
           geen verrassingen.
         </p>
+        {denBoschZin && <p set:html={denBoschZin} />}
         {leesArtikelen.length > 0 ? (
           <>
             <p style="margin-top:18px;"><strong>Meer weten?</strong> Lees ook:</p>
