@@ -521,6 +521,19 @@ const schema = faqSchema ? [articleSchema, faqSchema] : articleSchema;
             <p style="margin-top:12px; font-size:.9rem;">★ {String(SITE.reviews.score).replace(".", ",")} op <a href={SITE.werkspotUrl}>Werkspot</a> ({SITE.reviews.werkspotAantal} reviews)</p>
           )}
         </div>
+        {/* 26-11-2026 ronde 3: een tweede kaart voor de stormartikelen en de artikelen over pannen, met wat je meteen doet en een gewone link om een foto te appen of te bellen. De eerste kaart blijft zoals hij is. */}
+        {STORM_ARTIKELEN.has(a.slug) && (
+          <div class="card" style="margin-top:16px;">
+            <h3>Schade na een storm?</h3>
+            <p>Ligt er een pan, nokvorst of stuk goot los, of zie je een open plek in je dak? Ga niet zelf het dak op en blijf weg onder de dakrand. Maak vanaf de overkant van de straat een foto en stuur die via <a href={waHref("Hallo, ik heb schade aan mijn dak na de storm. Ik stuur je een foto.")}>WhatsApp</a>, of bel <a href={telHref}>{SITE.telefoonWeergave}</a>, dag en nacht. Een open plek dek ik eerst af, daarna herstel ik het netjes.</p>
+          </div>
+        )}
+        {REPARATIE_ARTIKELEN.has(a.slug) && !STORM_ARTIKELEN.has(a.slug) && (
+          <div class="card" style="margin-top:16px;">
+            <h3>Pan kapot, los of scheef?</h3>
+            <p>Stuur me een foto van je dak vanaf de straat, het liefst met de zoom van je telefoon, via <a href={waHref("Hallo, er ligt een pan of nokvorst los of kapot op mijn dak. Ik stuur je een foto.")}>WhatsApp</a>, of bel <a href={telHref}>{SITE.telefoonWeergave}</a>. Dan zie ik vaak al welke pan of nokvorst het is en neem ik een passende mee. Je hoort vooraf wat het kost.</p>
+          </div>
+        )}
         {LEK_ARTIKELEN.has(a.slug) && (toonNoodLink || toonLekdetectieLink) && (
           <div class="card" style="margin-top:16px;">
             <h3>Handig bij een lek</h3>
