@@ -350,6 +350,10 @@ const FOTOS_BESTANDEN: Record<string, string[]> = {
   "daktermen-uitgelegd": ["bef73b", "a56a3a"],
   // 26-11-2026 ronde 2: echte foto's bij 'dak lekt na de reparatie' (nog geen foto), waar het bijschrift past: een tweede plek die je van beneden niet ziet.
   "dak-lekt-na-reparatie": ["f9152c", "31e323"],
+  // 26-11-2026 ronde 3: echte foto's bij drie best bezochte uitlegpagina's zonder foto (lamp 22, condens 12 en druppelen horen 6 bezoeken in 28 dagen), alleen waar het bijschrift past.
+  "water-uit-lamp-plafond": ["f9152c"],
+  "condens-of-lekkage-op-zolder": ["a56a3a"],
+  "druppelen-horen-plafond": ["31e323"],
 };
 const fotoBestanden = FOTOS_BESTANDEN[a.slug]
   ?.map((code) => FOTOS.find((f) => f.bestand.includes(`-${code}.`))?.bestand)
