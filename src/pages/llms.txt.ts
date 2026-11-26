@@ -193,7 +193,8 @@ export const GET: APIRoute = () => {
     "",
     "## Werkgebied",
     `Vanuit ${SITE.basisplaats} in de regio Den Bosch en verder in Brabant, en in Gelderland rond Wijchen en Nijmegen. Klussen verder weg, zoals in Breda, Eindhoven en Helmond, worden vooraf ingepland.`,
-    ...PLAATSEN.map((p) => `- [Dakdekker in ${p.naam}](${u}/werkgebied/${p.slug}/)`),
+    // 26-11-2026 ronde 1: per plaats de reistijd die ook op de plaatspagina staat, en bij plaatsen verder weg dat klussen vooraf worden ingepland. Geen spoedbelofte.
+    ...PLAATSEN.map((p) => `- [Dakdekker in ${p.naam}](${u}/werkgebied/${p.slug}/)${p.reistijd ? `: ${p.reistijd}` : ""}${p.verweg ? `${p.reistijd ? ", " : ": "}klussen worden vooraf ingepland` : ""}`),
     "",
     "## Ook in de dorpen eromheen",
     "Deze dorpen hebben geen eigen pagina. Ze staan op de pagina van de plaats ernaast.",
