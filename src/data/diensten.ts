@@ -132,7 +132,8 @@ export const DIENSTEN: Dienst[] = [
       { label: "Kilgoot repareren", href: "/diensten/kilgoot-repareren/" },
       { label: "Bakgoot repareren", href: "/diensten/bakgoot-repareren/" },
     ],
-    h1: "Daklekkage met spoed verhelpen: vaak dezelfde dag langs in de regio Den Bosch",
+    // 26-11-2026 ronde 4: kop zonder 'Den Bosch', net als de titel sinds 16-11, zodat de pagina daklekkage in Den Bosch op die plaats kan ranken ('daklekkage den bosch' plek 57, 0 kliks).
+    h1: "Daklekkage met spoed verhelpen: lek opsporen en dichten, vaak dezelfde dag langs",
     kort: "Lek opsporen zonder sloopwerk en snel dichten, ook bij spoed.",
     metaTitle: "Daklekkage spoed: lek zoeken en dichten | Spoed Dak Service",
     metaDescription:
