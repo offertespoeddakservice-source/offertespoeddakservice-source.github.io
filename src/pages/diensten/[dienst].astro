@@ -201,6 +201,10 @@ const denBoschZin = !d.verborgen && DEN_BOSCH_ZIN[d.slug] && MATRIX.some((c) => 
           <span style="color:#c2d2e3;">, dan hoor je wat het kost. De vaste prijs hoor je voordat ik begin. Offerte is gratis.</span>
         </p>
       )}
+      {/* 26-11-2026 ronde 3: bij de spoeddiensten bovenaan 'Dag en nacht bereikbaar (24/7)' met het nummer in gewone tekst, net als op de plaatspagina's en de pagina's per plaats en klus sinds 24-11 (les 109). */}
+      {!d.verborgen && SPOED_DIENSTEN.includes(d.slug) && (
+        <p style="margin:12px 0 0; color:#fff; font-size:1.05rem;"><strong>Dag en nacht bereikbaar (24/7):</strong> bel of app <a href={telHref} style="color:inherit; text-decoration:underline;">{SITE.telefoonWeergave}</a>. Woon je verder weg, dan hoor je eerlijk wanneer ik kan komen.</p>
+      )}
       <div class="btn-row" style="margin-top:22px;">
         {!d.verborgen && <a class="btn btn--primary" href="/quiz/">Gratis prijsindicatie, vaak binnen 10 minuten</a>}
         <a class="btn btn--wa" href={waHref(`Hallo, ik heb een vraag over ${d.titel.toLowerCase()}. Ik stuur een foto mee.`)}>Stuur een foto via WhatsApp</a>
