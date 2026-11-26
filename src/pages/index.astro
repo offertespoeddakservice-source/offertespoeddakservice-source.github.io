@@ -18,7 +18,6 @@ const FOTO_WA = waHref("Hallo, ik wil graag weten wat het kost. Ik stuur een fot
 const HOME_UITLEG = ["daklek-tijdelijk-dichten", "dak-lekt-bij-harde-wind", "water-achter-dakgoot", "lekkage-bij-dakdoorvoer", "lekkage-bij-kachelpijp", "lekkage-bij-aanbouw", "dakraam-lekt", "dakgoot-lekt", "stormschade-eerste-hulp"];
 const zichtbareArtikelen = ARTIKELEN.filter((a) => !a.verborgen);
 const uitgelicht = HOME_UITLEG.map((s) => zichtbareArtikelen.find((a) => a.slug === s)).filter((a) => a) as typeof ARTIKELEN;
-const overigeArtikelen = zichtbareArtikelen.filter((a) => !HOME_UITLEG.includes(a.slug));
 // 19-11-2026: een gewone regel 'Nu in de winter' met links naar de seizoensuitleg. Alleen artikelen die bestaan en zichtbaar zijn.
 const WINTER_UITLEG = [
   { slug: "kerstverlichting-dakgoot", tekst: "lichtjes aan je dakgoot" },
@@ -309,10 +308,8 @@ const faqSchema = {
       {STORM_UITLEG.length > 0 && (
         <p style="margin-top:10px;"><strong>Na een storm:</strong> {STORM_UITLEG.map((w, i) => <>{i > 0 && (i === STORM_UITLEG.length - 1 ? " en " : ", ")}<a href={`/kennisbank/${w.slug}/`}>{w.tekst}</a></>)}.</p>
       )}
-      <h3 style="margin-top:28px;">Alle uitleg op een rij</h3>
-      <ul style="columns:2 260px; column-gap:28px; margin:12px 0 0; padding-left:18px;">
-        {overigeArtikelen.map((a) => <li style="margin:0 0 6px; break-inside:avoid;"><a href={`/kennisbank/${a.slug}/`}>{a.titel}</a></li>)}
-      </ul>
+      {/* 26-11-2026 ronde 2: de lijst met een link naar elk uitlegartikel is weg. De homepage had 2330 vertoningen op plek 59 en 'dakdekker den bosch' staat niet tussen de zoekwoorden. De artikelen blijven gelinkt via de voettekst en /kennisbank/. */}
+      <p style="margin-top:18px;">Alle andere uitleg vind je in de kennisbank, per onderwerp op een rij: lekkage, dakgoten, storm, platte daken, pannen en de schoorsteen.</p>
       <p style="margin-top:18px;"><a class="btn btn--outline" href="/kennisbank/">Naar de kennisbank</a></p>
     </div>
   </section>
