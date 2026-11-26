@@ -270,6 +270,8 @@ export const MATRIX: MatrixCombo[] = [
     faq: [
       // 22-11-2026 ronde 4: eerste eigen vraag, wie-vraag voor Google en AI.
       { v: "Wie maakt in Schijndel of Wijbosch mijn dakgoot schoon?", a: "Dat kan bij mij: Rens van Spoed Dak Service, dakdekker uit 's-Hertogenbosch, op zo'n twintig minuten van Schijndel. Ik maak goten leeg in Schijndel zelf en in Wijbosch. Liggen er op je dak nog oude pannen, dan zit er onderin de goot vaak een vaste laag gruis en slib bij de uitloop, en die haal ik er ook uit. Staan er populieren bij je huis, dan kan een bladvanger of rooster in het voorjaar al dichtzitten met pluis. Stuur een foto van je huis vanaf de straat via WhatsApp, en zet erbij of het om de voorgoot, de achtergoot of allebei gaat. Dan hoor je vooraf wat het kost en spreken we een droge dag af. Zie ik bij het leegmaken een lekke naad of een kapotte pan, dan hoor je dat eerst." },
+      // 27-11-2026 ronde 1: Sint-Oedenrode en de kerkdorpen, die al op de lekkagepagina van Schijndel staan (de pagina had één vraag).
+      { v: "Maak je ook goten schoon in Sint-Oedenrode, Nijnsel, Olland en Boskant?", a: "Ja. Sint-Oedenrode hoort sinds 2017 samen met Schijndel en Veghel bij de gemeente Meierijstad, en Nijnsel, Olland en Boskant horen bij Sint-Oedenrode. Voor mij is het iets verder rijden dan Schijndel, dus we spreken samen een droge dag af. Staan er bomen bij je huis of langs de weg, of hangt er ook een goot aan een schuur of garage, zet dat dan in je appje. Ik maak de goten van begin tot eind leeg, ook het slib onderin bij de uitloop, en maak de uitloop naar de regenpijp vrij. Stuur een foto van je huis vanaf de straat via WhatsApp, dan hoor je vooraf wat het kost." },
     ],
   },
   {
