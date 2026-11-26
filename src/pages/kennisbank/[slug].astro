@@ -354,6 +354,9 @@ const FOTOS_BESTANDEN: Record<string, string[]> = {
   "water-uit-lamp-plafond": ["f9152c"],
   "condens-of-lekkage-op-zolder": ["a56a3a"],
   "druppelen-horen-plafond": ["31e323"],
+  // 26-11-2026 ronde 5: echte foto's bij twee artikelen zonder foto, waar het bijschrift past: lood langs een muur dat was losgescheurd (de strook waar een erker tegen de gevel zit) en loodslabben rond een schoorsteen (het lood dat bij diefstal ontbreekt).
+  "erker-lekt": ["5927e8"],
+  "lood-van-dak-gestolen": ["173c1a"],
 };
 const fotoBestanden = FOTOS_BESTANDEN[a.slug]
   ?.map((code) => FOTOS.find((f) => f.bestand.includes(`-${code}.`))?.bestand)
