@@ -53,6 +53,14 @@ const zonnepanelen = ZONNEPANELEN.map((s) => zichtbaar.find((a) => a.slug === s)
 // 24-11-2026 ronde 2: Ramen, koepels en lichten in je dak, een gewone regel met de uitleg over alles wat licht door je dak laat. Een artikel dat verborgen is of niet bestaat, valt vanzelf weg.
 const RAMEN = ["dakraam-lekt", "lekt-sinds-nieuw-dakraam", "dakkapel-lekt", "lichtkoepel-lekt", "lichtstraat-lekt", "dakluik-lekt", "glazen-dakpan-lekt", "lichtbuis-lekt"];
 const ramen = RAMEN.map((s) => zichtbaar.find((a) => a.slug === s)).filter((a) => a) as typeof ARTIKELEN;
+// 26-11-2026 ronde 4: onder elke kop een gewone zin naar de dienstpagina die bij die klus hoort. /kennisbank/ linkte nog naar geen enkele dienstpagina.
+const GROEP_DIENST: Record<string, string> = {
+  "Lekt je dak?": 'Wil je het lek laten opsporen en dichtmaken? Hoe ik dat aanpak, lees je bij <a href="/diensten/daklekkage/">daklekkage opsporen en repareren</a>. Lekt het nu, kijk dan eerst op de <a href="/spoed/">spoedpagina</a>.',
+  "Dakgoten: vol, lek of kapot": 'Moet je goot gerepareerd of leeggemaakt worden? Kijk bij <a href="/diensten/dakgoot-vervangen/">dakgoot repareren of vervangen</a> en <a href="/diensten/goten-reinigen/">dakgoot schoonmaken</a>.',
+  "Na een storm": 'Ligt er na de storm iets los of open? Hoe ik eerst afdek en daarna netjes herstel, lees je bij <a href="/diensten/stormschade/">stormschade aan je dak</a>.',
+  "Platte daken": 'Lekt het platte dak van je aanbouw, garage of berging? Kijk bij <a href="/diensten/platte-daken/">platte daken repareren of vervangen</a>.',
+  "Onderhoud, kosten en een goede dakdekker": 'Wil je een losse pan, de nok of het lood laten maken, of je dak laten onderhouden? Kijk bij <a href="/diensten/dakreparatie/">dakreparatie</a> en <a href="/diensten/dakonderhoud/">dakonderhoud</a>.',
+};
 // 22-11-2026 ronde 4: In het kort onderaan, gelijk aan /diensten/ en de andere pagina's, voor Google en AI.
 // Gestructureerde gegevens: de kennisbank als verzameling, met alle zichtbare artikelen in de volgorde van de pagina.
 const lijstSchema = {
@@ -125,6 +133,7 @@ const lijstSchema = {
       {groepen.map((g, i) => (
         <>
           <h2 id={`groep-${i + 1}`} style={i === 0 ? "" : "margin-top:40px;"}>{g.kop}</h2>
+          {GROEP_DIENST[g.kop] && <p style="margin-top:8px;" set:html={GROEP_DIENST[g.kop]} />}
           <div class="grid grid-3" style="margin-top:16px;">
             {g.artikelen.map((a) => (
               <a class="card" href={`/kennisbank/${a.slug}/`}>
