@@ -442,36 +442,11 @@ if (["daklekkage", "stormschade", "dakreparatie"].includes(d.slug)) (schema[0] a
       {d.slug === "goten-reinigen" && (
         <p><strong>Zit je goot vol?</strong> Maak vanaf de straat een foto van je goot, het liefst tijdens of vlak na een bui, en stuur die via <a href={waHref(`Hallo, ik wil mijn dakgoot laten schoonmaken in ${p.naam}. Ik stuur je een foto.`)}>WhatsApp</a>. Dan zeg ik eerlijk of leegmaken genoeg is, en je hoort vooraf wat het kost.</p>
       )}
+      {/* 26-11-2026 ronde 2: terug naar het blok van 17-11. Tussen 18 en 24-11 kwamen hier 26 vaste zinnen met links naar uitleg bij, op elke plaats dezelfde. In die dagen zakten de zoekwoorden met een plaats (dakgoot reparatie den bosch van 21 naar 46). De constanten blijven staan. */}
       {verder && (
         <>
           <h3>Handig om te weten</h3>
           <p set:html={verder} />
-          {d.slug === "dakgoot-vervangen" && GOOT_EXTRA && <p set:html={GOOT_EXTRA} />}
-          {d.slug === "daklekkage" && LEK_EXTRA && <p set:html={LEK_EXTRA} />}
-          {d.slug === "dakreparatie" && REPARATIE_EXTRA && <p set:html={REPARATIE_EXTRA} />}
-          {d.slug === "stormschade" && STORM_EXTRA && <p set:html={STORM_EXTRA} />}
-          {d.slug === "goten-reinigen" && GOTEN_SCHOON_EXTRA && <p set:html={GOTEN_SCHOON_EXTRA} />}
-          {d.slug === "daklekkage" && LEK_EXTRA_2 && <p set:html={LEK_EXTRA_2} />}
-          {d.slug === "dakgoot-vervangen" && GOOT_EXTRA_2 && <p set:html={GOOT_EXTRA_2} />}
-          {d.slug === "dakreparatie" && REPARATIE_EXTRA_2 && <p set:html={REPARATIE_EXTRA_2} />}
-          {d.slug === "goten-reinigen" && GOTEN_SCHOON_EXTRA_2 && <p set:html={GOTEN_SCHOON_EXTRA_2} />}
-          {d.slug === "daklekkage" && LEK_EXTRA_3 && <p set:html={LEK_EXTRA_3} />}
-          {d.slug === "dakreparatie" && REPARATIE_EXTRA_3 && <p set:html={REPARATIE_EXTRA_3} />}
-          {d.slug === "stormschade" && STORM_EXTRA_2 && <p set:html={STORM_EXTRA_2} />}
-          {d.slug === "dakgoot-vervangen" && GOOT_EXTRA_3 && <p set:html={GOOT_EXTRA_3} />}
-          {d.slug === "daklekkage" && LEK_EXTRA_4 && <p set:html={LEK_EXTRA_4} />}
-          {d.slug === "dakreparatie" && REPARATIE_EXTRA_4 && <p set:html={REPARATIE_EXTRA_4} />}
-          {d.slug === "dakgoot-vervangen" && GOOT_EXTRA_4 && <p set:html={GOOT_EXTRA_4} />}
-          {d.slug === "daklekkage" && LEK_EXTRA_5 && <p set:html={LEK_EXTRA_5} />}
-          {d.slug === "daklekkage" && LEK_EXTRA_6 && <p set:html={LEK_EXTRA_6} />}
-          {d.slug === "dakreparatie" && REPARATIE_EXTRA_5 && <p set:html={REPARATIE_EXTRA_5} />}
-          {d.slug === "dakreparatie" && REPARATIE_EXTRA_6 && <p set:html={REPARATIE_EXTRA_6} />}
-          {d.slug === "dakgoot-vervangen" && GOOT_EXTRA_5 && <p set:html={GOOT_EXTRA_5} />}
-          {d.slug === "stormschade" && STORM_EXTRA_3 && <p set:html={STORM_EXTRA_3} />}
-          {d.slug === "stormschade" && STORM_EXTRA_4 && <p set:html={STORM_EXTRA_4} />}
-          {d.slug === "goten-reinigen" && GOTEN_SCHOON_EXTRA_3 && <p set:html={GOTEN_SCHOON_EXTRA_3} />}
-          {d.slug === "goten-reinigen" && GOTEN_SCHOON_EXTRA_4 && <p set:html={GOTEN_SCHOON_EXTRA_4} />}
-          {d.slug === "dakrenovatie" && RENOVATIE_EXTRA_2 && <p set:html={RENOVATIE_EXTRA_2} />}
         </>
       )}
       <h3>In het kort</h3>
