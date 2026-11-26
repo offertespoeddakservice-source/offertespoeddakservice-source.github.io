@@ -33,6 +33,7 @@
 // 24-11-2026 ronde 2: titel voor Google van dakgoot hangt door met de woorden waarop gezocht wordt ('water dat in de dakgoot blijft staan' 40 vertoningen op plek 47; artikel 107 vertoningen op plek 49,7, 1 klik, titel nooit aangepast).
 // 24-11-2026 ronde 4: titel voor Google van wie maakt de dakgoot schoon, huurder of verhuurder, met 'dakgoot' vooraan (198 vertoningen op plek 21,6, 1 klik, titel nooit aangepast).
 // 24-11-2026 ronde 5: titel voor Google van afzuigkap lekt bij regen (207 vertoningen op plek 6,7, 1,9% klikt, titel nooit aangepast), met de woorden waarop gezocht wordt vooraan.
+// 26-11-2026 ronde 5: knop onder lekkage bij een dakdoorvoer in de woorden van wie een lek heeft (43 bezoeken, 0 tikken). Het label begint met 'Bekijk:', zodat [slug].astro de naam in het schema goed maakt (de reden van afkeuren van tip 60 in ronde 4).
 // Kennisbank [slug].astro legt hem over het artikel heen: alleen de velden die hier staan, veranderen (ook de titel voor Google).
 import type { Artikel } from "./artikelen";
 import { prijsVan } from "./prijzen";
@@ -119,7 +120,7 @@ export const ARTIKEL_CORRECTIES: Record<string, Partial<Pick<Artikel, "secties" 
   "veranda-of-overkapping-lekt": { metaTitle: "Veranda lekt bij de muur, platen of goot? | Spoed Dak Service" },
   "water-uit-lamp-plafond": { metaTitle: "Water uit lamp of spotje? Doe eerst dit | Spoed Dak Service" },
   "lekkage-bij-schoorsteen": { metaTitle: "Lekkage bij schoorsteen: waar zit het? | Spoed Dak Service" },
-  "lekkage-bij-dakdoorvoer": { metaDescription: "Druppelt het langs de ontluchting, de afzuiging of de cv-pijp door je dak? Meestal zit het in de kraag of de doorvoerpan. Zo zie je of het een lek is of condens." },
+  "lekkage-bij-dakdoorvoer": { dienst: { label: "Bekijk: lekkende dakdoorvoer laten repareren", href: "/diensten/dakdoorvoer/" }, metaDescription: "Druppelt het langs de ontluchting, de afzuiging of de cv-pijp door je dak? Meestal zit het in de kraag of de doorvoerpan. Zo zie je of het een lek is of condens." },
   "dakleer-repareren": { metaTitle: "Dakleer reparatie: scheur, blaas of lek? | Spoed Dak Service" },
   "dakgoot-lekt": { metaTitle: "Dakgoot lekt: oorzaak vinden en wat nu? | Spoed Dak Service" },
   "druppelen-horen-plafond": { metaTitle: "Druppelen in plafond, maar geen vlek? | Spoed Dak Service" },
