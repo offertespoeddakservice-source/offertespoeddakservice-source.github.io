@@ -1,6 +1,6 @@
 ---
 import Base from "../../layouts/Base.astro";
-import { SITE, telHref } from "../../site.config.ts";
+import { SITE, telHref, waHref } from "../../site.config.ts";
 import { PLAATSEN, getPlaats } from "../../data/plaatsen.ts";
 import { MATRIX } from "../../data/matrix.ts";
 import { getDienst } from "../../data/diensten.ts";
@@ -64,6 +64,12 @@ const lijstSchema = {
       <h1>Dakdekker in de regio Den Bosch, Brabant en de steden eromheen</h1>
       <p class="lead" style="margin-bottom:12px;">Spoed Dak Service is een dakdekker uit 's-Hertogenbosch voor daklekkage, dakreparatie en dakgoten. Ik werk vooral in Brabant en in de steden eromheen.</p>
       <p class="lead">Kies hieronder je plaats. Woon je verder weg, of staat je plaats er niet bij? Bel of app gerust met een foto van je dak, dan zeg ik eerlijk of ik kan komen.</p>
+      {/* 26-11-2026 ronde 3: dag en nacht bereikbaar met het nummer bovenaan, en dezelfde bel- en WhatsApp-knop als op de plaatspagina's (les 109). */}
+      <p style="margin:12px 0 0; color:#fff; font-size:1.05rem;"><strong>Dag en nacht bereikbaar (24/7):</strong> bel of app <a href={telHref} style="color:inherit; text-decoration:underline;">{SITE.telefoonWeergave}</a>. Bij lekkage in de plaatsen dicht bij Den Bosch kan ik vaak nog dezelfde dag komen. Woon je verder weg, dan hoor je eerlijk wanneer ik kan.</p>
+      <div class="btn-row" style="margin-top:22px;">
+        <a class="btn btn--primary" href={telHref}>Bel {SITE.telefoonWeergave}</a>
+        <a class="btn btn--wa" href={waHref("Hallo, ik zoek een dakdekker bij mij in de buurt.")}>WhatsApp Rens</a>
+      </div>
     </div>
   </section>
   <section class="section">
