@@ -188,6 +188,8 @@ const PLATDAK_FOTOREGEL = new Set(["water-blijft-staan-op-plat-dak", "plat-dak-o
 const GOOT_ZIJBLOK = new Set(ONDERWERPEN[1]);
 // Artikelen over pannen en reparatiekosten: een gewone zin met links naar dakreparatie per plaats.
 const REPARATIE_ARTIKELEN = new Set(["wat-kost-een-dakdekker", "vorstschade-dakpannen", "hoe-lang-gaat-een-dak-mee", "poreuze-dakpannen", "welke-dakpan-heb-ik", "dakpan-lijmen-of-kitten", "wat-kost-dakpan-vervangen", "dakpannen-zakken-af", "dakpan-zelf-terugleggen", "wat-kost-nokvorsten-repareren", "sneldekpannen-vervangen", "droge-nok-of-specie", "zonnepanelen-eraf-dak-nakijken"]);
+// 26-11-2026 ronde 2: artikelen over een dakdekker kiezen, je dak laten nakijken en onderhoud krijgen een gewone zin naar dakdekker per plaats (geen enkele klik op 'dakdekker + plaats', les 184).
+const DAKDEKKER_KIEZEN = new Set(["hoe-herken-je-een-betrouwbare-dakdekker", "keurmerk-dakdekker", "dakdekker-aan-de-deur", "dakdekker-kleine-klus", "offerte-dakdekker-vergelijken", "welke-vakman-voor-je-dak", "dakdekker-komt-niet-opdagen", "dakdekker-komt-wat-regel-je", "dakinspectie", "wat-kost-een-dakinspectie", "dakonderhoud-per-seizoen", "dak-keuren-bij-huis-kopen", "dak-in-bouwkundig-rapport", "plat-dak-onderhouden", "dak-nakijken-voor-zonnepanelen", "dak-nakijken-voor-zolder-verbouwen"]);
 // Stormartikelen: een gewone zin met links naar stormschade per plaats, in plaats van de zin met lekkagepagina's (geen twee linkzinnen onder elkaar).
 const STORM_ARTIKELEN = new Set(["stormschade-eerste-hulp", "nokvorsten-los", "dakpan-kapot-of-verschoven", "tak-of-boom-op-dak", "windveer-los-of-rot", "dakpannen-klapperen-bij-wind", "dakpannen-vastzetten-tegen-storm", "storm-op-komst-dak", "gevelpannen-los", "schoorsteen-na-storm", "dakpan-op-auto-buren", "plat-dak-losgewaaid-na-storm", "wachten-op-dakdekker-na-storm", "dak-fluit-bij-harde-wind", "hagelschade-dak", "blikseminslag-dak", "schade-expert-dak"]);
 // Echte foto's van Rens (uit fotos.ts) bij artikelen waar ze echt bij passen. Alleen artikelen die na publicatie niet zijn aangepast.
@@ -485,6 +487,9 @@ const schema = faqSchema ? [articleSchema, faqSchema] : articleSchema;
         )}
         {REPARATIE_ARTIKELEN.has(a.slug) && (
           <p>Woon je in de regio Den Bosch? Hoe ik een losse of kapotte pan bij jou in de buurt aanpak, lees je bij dakreparatie in <a href="/werkgebied/den-bosch/dakreparatie/">Den Bosch</a>, <a href="/werkgebied/rosmalen/dakreparatie/">Rosmalen</a>, <a href="/werkgebied/vught/dakreparatie/">Vught</a>, <a href="/werkgebied/vlijmen/dakreparatie/">Vlijmen</a>, <a href="/werkgebied/oss/dakreparatie/">Oss</a>, <a href="/werkgebied/veghel/dakreparatie/">Veghel</a>, <a href="/werkgebied/oisterwijk/dakreparatie/">Oisterwijk</a>, <a href="/werkgebied/boxtel/dakreparatie/">Boxtel</a> en <a href="/werkgebied/waalwijk/dakreparatie/">Waalwijk</a>. Andere plaatsen vind je bij <a href="/werkgebied/">mijn werkgebied</a>.</p>
+        )}
+        {DAKDEKKER_KIEZEN.has(a.slug) && (
+          <p>Zoek je zelf een dakdekker in de regio? Hoe ik werk, lees je bij dakdekker in <a href="/werkgebied/den-bosch/">Den Bosch</a>, <a href="/werkgebied/rosmalen/">Rosmalen</a>, <a href="/werkgebied/vught/">Vught</a>, <a href="/werkgebied/oss/">Oss</a>, <a href="/werkgebied/veghel/">Veghel</a> en <a href="/werkgebied/boxtel/">Boxtel</a>. Je belt of appt met mij zelf, en je hoort de prijs voordat ik begin.</p>
         )}
         <a class="btn btn--primary" href={a.dienst.href.endsWith("/") ? a.dienst.href : a.dienst.href + "/"} style="margin-top:8px;">{a.dienst.label}</a>
       </article>
