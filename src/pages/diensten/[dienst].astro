@@ -48,7 +48,8 @@ const matrixVoorDienst = d.verborgen ? [] : MATRIX.filter((c) => c.dienst === d.
   .map((c) => getPlaats(c.plaats))
   .filter((p) => p);
 // 22-11-2026 ronde 3: dienstpagina's zonder eigen pagina's per plaats tonen de pagina's per plaats van de klus waar ze bij horen (dakreparatie per plaats had 18 tot 30 binnenkomende links, dakgoot repareren per plaats 44).
-const MATRIX_VIA: Record<string, string> = { "dakpannen-vervangen": "dakreparatie", "windveer-vervangen": "dakreparatie", "kilgoot-repareren": "dakgoot-vervangen", "bakgoot-repareren": "dakgoot-vervangen", "dakgoot-solderen": "dakgoot-vervangen", "dakgoot-coaten": "dakgoot-vervangen" };
+// 26-11-2026 ronde 3: ook lood vervangen en nokvorsten naar dakreparatie per plaats, en regenpijp vervangen naar dakgoot repareren per plaats (lood 609 vertoningen op plek 67, nokvorsten plek 53,7, regenpijp plek 53).
+const MATRIX_VIA: Record<string, string> = { "dakpannen-vervangen": "dakreparatie", "windveer-vervangen": "dakreparatie", "kilgoot-repareren": "dakgoot-vervangen", "bakgoot-repareren": "dakgoot-vervangen", "dakgoot-solderen": "dakgoot-vervangen", "dakgoot-coaten": "dakgoot-vervangen", "lood-vervangen": "dakreparatie", "nokvorsten-vervangen": "dakreparatie", "regenpijp-vervangen": "dakgoot-vervangen" };
 const viaDienst = !d.verborgen && matrixVoorDienst.length === 0 ? MATRIX_VIA[d.slug] : undefined;
 const viaNaam = viaDienst === "dakreparatie" ? "Dakreparatie" : "Dakgoot repareren";
 const matrixVia = viaDienst ? MATRIX.filter((c) => c.dienst === viaDienst).map((c) => getPlaats(c.plaats)).filter((p) => p) : [];
