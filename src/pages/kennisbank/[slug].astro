@@ -374,6 +374,11 @@ const FOTOS_BESTANDEN: Record<string, string[]> = {
   "dakfolie-kapot": ["6b7483"],
   "nieuw-dak-lekt": ["6b7483"],
   "mastgoot-lekt": ["ae9944"],
+  // 27-11-2026 ronde 5: echte foto's bij vier artikelen zonder foto, alleen waar het bijschrift past: 9edf07 (dak opmeten, vaste prijs vooraf) bij wat kost daklekkage repareren, a56a3a (nok met ondervorst, het dak kan ademen) bij wat kost nokvorsten repareren en schimmel op zolder, f9152c (klein gat bij de nok) bij dak lekt na dagen regen.
+  "wat-kost-daklekkage-repareren": ["9edf07"],
+  "wat-kost-nokvorsten-repareren": ["a56a3a"],
+  "schimmel-op-zolder": ["a56a3a"],
+  "dak-lekt-na-dagen-regen": ["f9152c"],
 };
 const fotoBestanden = FOTOS_BESTANDEN[a.slug]
   ?.map((code) => FOTOS.find((f) => f.bestand.includes(`-${code}.`))?.bestand)
