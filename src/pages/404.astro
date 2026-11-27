@@ -20,6 +20,8 @@ import { SITE, telHref, waHref } from "../site.config.ts";
         <a class="btn btn--ghost" href={telHref}>Bel {SITE.telefoonWeergave}</a>
       </div>
       <p style="margin-top:22px; color:#c2d2e3;">Lekt je dak nu? Op de <a href="/spoed/">spoedpagina</a> zie je wat je meteen zelf kunt doen. Of ga naar <a href="/diensten/daklekkage/">daklekkage</a>, <a href="/diensten/goten-reinigen/">goten reinigen</a>, de <a href="/kennisbank/">kennisbank</a> of het <a href="/werkgebied/">werkgebied</a>.</p>
+      {/* 27-11-2026 ronde 3: oude adressen van verborgen pagina's per plaats (dak reinigen en schoorsteen vegen) krijgen nog vertoningen en komen hier uit. Gewone links naar plaatspagina's, zodat zo'n bezoeker toch een dakdekker in zijn plaats vindt. */}
+      <p style="margin-top:12px; color:#c2d2e3;">Zocht je een dakdekker bij jou in de buurt? Kijk bij <a href="/werkgebied/den-bosch/">Den Bosch</a>, <a href="/werkgebied/rosmalen/">Rosmalen</a>, <a href="/werkgebied/vught/">Vught</a>, <a href="/werkgebied/oss/">Oss</a> of <a href="/werkgebied/veghel/">Veghel</a>. Wil je je dakgoot laten leegmaken, kijk dan bij <a href="/werkgebied/den-bosch/goten-reinigen/">dakgoot schoonmaken in Den Bosch</a>.</p>
     </div>
   </section>
 </Base>
