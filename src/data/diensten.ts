@@ -219,7 +219,8 @@ export const DIENSTEN: Dienst[] = [
     ],
     h1: "Spoed dakreparatie: pannen, lood en nokvorsten hersteld",
     kort: "Gebroken pannen, lood bij schoorsteen of dakraam, losse nokvorsten.",
-    metaTitle: "Spoed dakreparatie regio Den Bosch | Spoed Dak Service",
+    // 27-11-2026 ronde 3: titel zonder 'regio Den Bosch', zodat /werkgebied/den-bosch/dakreparatie/ op 'dakreparatie den bosch' kan ranken (156 vertoningen op plek 82). Bij daklekkage ging 'daklekkage den bosch' na zo'n titel (16-11) van plek 86 naar 57. 'Spoed dakreparatie' blijft vooraan.
+    metaTitle: "Spoed dakreparatie: pannen, nok en lood | Spoed Dak Service",
     metaDescription:
       "Spoed dakreparatie in de regio Den Bosch: losse of kapotte pannen, lood dat loslaat of een scheve nokvorst. Vaak dezelfde dag. Stuur een foto, je hoort de prijs vooraf.",
     icoon: "🧰",
