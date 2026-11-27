@@ -370,6 +370,10 @@ const FOTOS_BESTANDEN: Record<string, string[]> = {
   "natte-plek-bovenin-muur": ["973b86"],
   "isolatie-nat-na-lekkage": ["f9152c"],
   "noodreparatie-dak": ["31e323"],
+  // 27-11-2026 ronde 4: echte foto's bij drie artikelen zonder foto, alleen waar het bijschrift past: 6b7483 (folie, tengels en panlatten op een nieuw dak) bij dakfolie kapot en nieuw dak lekt, ae9944 (water dat in de goot blijft staan) bij mastgoot lekt.
+  "dakfolie-kapot": ["6b7483"],
+  "nieuw-dak-lekt": ["6b7483"],
+  "mastgoot-lekt": ["ae9944"],
 };
 const fotoBestanden = FOTOS_BESTANDEN[a.slug]
   ?.map((code) => FOTOS.find((f) => f.bestand.includes(`-${code}.`))?.bestand)
