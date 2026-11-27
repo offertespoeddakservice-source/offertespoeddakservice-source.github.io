@@ -359,6 +359,10 @@ const FOTOS_BESTANDEN: Record<string, string[]> = {
   // 26-11-2026 ronde 5: echte foto's bij twee artikelen zonder foto, waar het bijschrift past: lood langs een muur dat was losgescheurd (de strook waar een erker tegen de gevel zit) en loodslabben rond een schoorsteen (het lood dat bij diefstal ontbreekt).
   "erker-lekt": ["5927e8"],
   "lood-van-dak-gestolen": ["173c1a"],
+  // 27-11-2026 ronde 2: echte foto's bij drie lekkage-uitlegpagina's zonder foto, alleen waar het bijschrift past: 973b86 (gecoate goot, het water loopt niet meer langs de muur) bij de natte plek bovenin de muur, f9152c (kapotte pan bij de nok, regen loopt onder de pannen) bij natte isolatie, 31e323 (scheve pan die ik rechtleg of vervang) bij de noodreparatie.
+  "natte-plek-bovenin-muur": ["973b86"],
+  "isolatie-nat-na-lekkage": ["f9152c"],
+  "noodreparatie-dak": ["31e323"],
 };
 const fotoBestanden = FOTOS_BESTANDEN[a.slug]
   ?.map((code) => FOTOS.find((f) => f.bestand.includes(`-${code}.`))?.bestand)
