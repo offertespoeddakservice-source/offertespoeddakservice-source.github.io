@@ -747,6 +747,10 @@ export const FAQ_ERBIJ_2: Record<string, Artikel["faq"]> = {
   "dakgoot-losgeraakt": [
     { v: `Wie kan ik in de regio Den Bosch bellen als mijn dakgoot los hangt?`, a: `Mij: Rens van Spoed Dak Service, dakdekker uit 's-Hertogenbosch. Hangt je goot na een storm, of door het gewicht van nat blad of ijs, los of scheef, dan zet ik hem weer vast op beugels die goed zitten en hang ik hem op afschot naar de regenpijp. Is er een stuk gescheurd of verbogen, dan vervang ik dat stuk. Hangt de goot boven de stoep, de oprit of het tuinpad, blijf daar dan weg en ga zelf niet de ladder op. Ik kom in Den Bosch, Rosmalen, Vught en de rest van de regio. Bellen of appen kan dag en nacht op 06 10 18 53 57. Stuur een foto van de goot vanaf de grond. Je hoort vooraf wat het kost.` },
   ],
+  // 27-11-2026 ronde 5: vraag in de woorden waarop gezocht wordt ('kan een dakdekker in de regen werken' 48 vertoningen op plek 56,7).
+  "dak-repareren-in-de-winter": [
+    { v: `Kan een dakdekker in de regen werken?`, a: `Voor een deel wel. Is het dak niet glad en waait het niet hard, dan kan ik bij regen vaak al iets doen om het binnen droog te houden: een verschoven pan terugleggen, een open plek afdekken of een volle goot leegmaken. Werk met loodvervanger, kit, dakmortel of dakbedekking doe ik op een droge dag, want op een natte ondergrond hecht het niet. Bij onweer, storm, ijzel of sneeuw op de pannen ga ik niet het dak op, dat is voor niemand veilig. Lekt het nu, zet dan een emmer onder de druppel en stuur me een foto van de natte plek via WhatsApp. Dan zeg ik eerlijk wat er vandaag kan en wat op een droge dag moet.` },
+  ],
 };
 
 // Artikelen en korte antwoorden uit artikelen-extra-3.ts (sinds 12-11-2026) erachter, zodat ze via artikelen-extra.ts in ARTIKELEN en KORT_ANTWOORD komen.
