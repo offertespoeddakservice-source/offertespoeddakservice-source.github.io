@@ -34,6 +34,7 @@
 // 24-11-2026 ronde 4: titel voor Google van wie maakt de dakgoot schoon, huurder of verhuurder, met 'dakgoot' vooraan (198 vertoningen op plek 21,6, 1 klik, titel nooit aangepast).
 // 24-11-2026 ronde 5: titel voor Google van afzuigkap lekt bij regen (207 vertoningen op plek 6,7, 1,9% klikt, titel nooit aangepast), met de woorden waarop gezocht wordt vooraan.
 // 26-11-2026 ronde 5: knop onder lekkage bij een dakdoorvoer in de woorden van wie een lek heeft (43 bezoeken, 0 tikken). Het label begint met 'Bekijk:', zodat [slug].astro de naam in het schema goed maakt (de reden van afkeuren van tip 60 in ronde 4).
+// 27-11-2026 ronde 2: titel voor Google van water in de open haard met 'bij regen' erin, zoals in de kop ('lekkage schoorsteen open haard' 189 vertoningen op plek 27,8, 'schoorsteen lekt regen' 50 op plek 27,1; artikel 619 vertoningen op plek 13,9, 1,3% kliks; titel sinds 27-10 niet aangepast).
 // Kennisbank [slug].astro legt hem over het artikel heen: alleen de velden die hier staan, veranderen (ook de titel voor Google).
 import type { Artikel } from "./artikelen";
 import { prijsVan } from "./prijzen";
@@ -149,6 +150,7 @@ export const ARTIKEL_CORRECTIES: Record<string, Partial<Pick<Artikel, "secties" 
   "dakgoot-hangt-door": { metaTitle: "Dakgoot hangt door, water blijft staan? | Spoed Dak Service" },
   "dakgoot-schoonmaken-huurder-of-verhuurder": { metaTitle: "Dakgoot schoonmaken: huurder of verhuurder? | Spoed Dak Service" },
   "afzuigkap-lekt-bij-regen": { metaTitle: "Afzuigkap lekt bij regen: dak of condens? | Spoed Dak Service" },
+  "schoorsteen-lekt-open-haard": { metaTitle: "Schoorsteen lekt bij regen in je open haard? | Spoed Dak Service" },
   ...(GOLFPLATEN_DIENST ? { "golfplaten-lekken": { dienst: { label: "Bekijk: golfplaten en dakplaten vervangen", href: "/diensten/golfplaten-vervangen/" } }, "welke-golfplaten-heb-ik": { dienst: { label: "Bekijk: golfplaten en dakplaten vervangen", href: "/diensten/golfplaten-vervangen/" } } } : {}),
   ...(DAKONDERHOUD_DIENST ? { "dakonderhoud-per-seizoen": { dienst: { label: "Bekijk: dakonderhoud", href: "/diensten/dakonderhoud/" } } } : {}),
 };
