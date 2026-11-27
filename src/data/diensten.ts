@@ -453,7 +453,8 @@ export const DIENSTEN: Dienst[] = [
     ],
     h1: "Dakgoot repareren of vervangen: bij lekkende naden, roest of een goot die blijft overlopen",
     kort: "Versleten of lekkende goot? Nieuwe zinken, kunststof of pvc goot, netjes gemonteerd.",
-    metaTitle: "Dakgoot repareren of vervangen | Spoed Dak Service",
+    // 27-11-2026 ronde 2: titel zoals mensen zoeken ('lekkende dakgoot' 278, 'dakgoot repareren' 245 en 'dakgoot reparatie' 234 vertoningen op plek 56 tot 62; pagina 409 vertoningen op plek 58, 0 kliks; titel sinds oktober ongewijzigd). Zonder plaatsnaam, zodat dakgoot repareren in Den Bosch op die plaats blijft ranken.
+    metaTitle: "Lekkende dakgoot repareren of vervangen | Spoed Dak Service",
     // 23-11-2026 ronde 4: omschrijving met de reparaties waar mensen op zoeken (sinds oktober ongewijzigd).
     metaDescription:
       "Lekkende dakgoot? Een naad solderen, een hoekstuk vervangen of de goot weer op afschot hangen is vaak genoeg. Is hij op, dan komt er een nieuwe. Stuur een foto.",
