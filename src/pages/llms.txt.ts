@@ -115,6 +115,8 @@ export const GET: APIRoute = () => {
     `- Waar? Vanuit ${SITE.basisplaats} in de regio Den Bosch en verder in Brabant, en in Gelderland rond Wijchen en Nijmegen. Klussen verder weg, zoals in Breda, Eindhoven en Helmond, worden vooraf ingepland.`,
     `- Wanneer bereikbaar? Dag en nacht, ook in het weekend, via bellen of WhatsApp op ${SITE.telefoonWeergave}.`,
     "- Hoe hoor je de prijs? Stuur een foto van je dak vanaf de straat, of van de natte plek binnen, via WhatsApp. Je hoort de prijs voordat het werk begint.",
+    // 27-11-2026 ronde 2: wat er bij een lek gebeurt, in dezelfde woorden als 'Eerst droog' op de spoedpagina. Geen belofte over hoe snel en geen belofte over de uitkomst.
+    "- Wat gebeurt er bij een lek? De eerste stap is het water tegenhouden: een open plek afdekken, een losse pan terugleggen of een volle goot leegmaken. Daarna zoekt de eigenaar waar het water echt binnenkomt, en volgt de nette reparatie. Werk met lood, kit of dakbedekking gebeurt op een droge dag, omdat het anders niet hecht.",
     "- Hoe betaal je? Een kleine klus, zoals een paar losse pannen of een goot leegmaken, betaal je als hij klaar is, via iDEAL. Bij groter werk wordt vooraf afgesproken hoe en wanneer je betaalt.",
     `- Waar staan de richtprijzen? Op ${u}/prijzen/.`,
     "- Wat doet hij niet? Geen dakisolatie, geen schoorsteen vegen (dat doet een erkende schoorsteenveger), geen daken schoonmaken of ontmossen, geen zonnepanelen schoonmaken, geen werk aan de stenen van een gevel of schoorsteen, en niet aan zonnepanelen zelf.",
