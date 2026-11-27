@@ -737,6 +737,16 @@ export const FAQ_ERBIJ_2: Record<string, Artikel["faq"]> = {
   "lood-op-dak": [
     { v: `Wie kan ik in de regio Den Bosch bellen als het lood op mijn dak los zit of lekt?`, a: `Mij: Rens, eigenaar van Spoed Dak Service, dakdekker uit 's-Hertogenbosch. Staat het lood bij je schoorsteen, langs een muur of onder een dakraam los, is het gescheurd of krult het omhoog, dan zet ik het weer vast of leg ik nieuw, meestal loodvervanger en op wens echt lood. De pannen eromheen leg ik in dezelfde keer weer goed. Aan de stenen en voegen van de schoorsteen werk ik niet, maar zie ik daar iets, dan hoor je dat. Ik kom in Den Bosch en de plaatsen eromheen. Bellen of appen kan dag en nacht op 06 10 18 53 57. Stuur een foto van het lood vanaf de straat, met de zoom van je telefoon. Je hoort vooraf wat het kost.` },
   ],
+  // 27-11-2026 ronde 3: wie-vragen bij drie gootartikelen, voor bezoekers, Google en AI.
+  "bladvanger-dakgoot": [
+    { v: `Wie kan in de regio Den Bosch mijn goot leegmaken en zeggen of een bladvanger of gaas bij mij helpt?`, a: `Dat kan ik doen: Rens van Spoed Dak Service, dakdekker uit 's-Hertogenbosch. Ik maak je goot van begin tot eind leeg, haal een rooster of gaas eruit en maak het schoon, en maak de uitloop naar de regenpijp vrij. Daarna zeg ik eerlijk of een bladvanger of gaas bij de bomen rond jouw huis iets oplevert, of dat de goot er juist sneller door dichtzit. Ik kom in Den Bosch, Rosmalen, Vught en de rest van de regio. Bellen of appen kan dag en nacht op 06 10 18 53 57. Stuur een foto van je goot vanaf de straat en zet erbij welke bomen er bij je huis staan. Je hoort vooraf wat het kost.` },
+  ],
+  "dakgoot-lekt-bij-regenpijp": [
+    { v: `Wie repareert in de regio Den Bosch een dakgoot die lekt bij de regenpijp?`, a: `Ik: Rens, eigenaar van Spoed Dak Service, dakdekker uit 's-Hertogenbosch. Lekt je goot bij de uitloop naar de regenpijp, dan kijk ik eerst of de uitloop vol blad zit of de regenpijp verderop dicht zit. Is dat het niet, dan zit het vaak in de aansluiting zelf. Bij zink soldeer ik de naad rond de uitloop opnieuw, bij kunststof vervang ik het uitloopstuk of de verbinding. Ik kom in Den Bosch, Rosmalen, Vught, Oss en de rest van de regio. Bellen of appen kan dag en nacht op 06 10 18 53 57. Maak tijdens of vlak na een bui een foto van de plek waar het druppelt, vanaf de grond. Je hoort vooraf wat het kost.` },
+  ],
+  "dakgoot-losgeraakt": [
+    { v: `Wie kan ik in de regio Den Bosch bellen als mijn dakgoot los hangt?`, a: `Mij: Rens van Spoed Dak Service, dakdekker uit 's-Hertogenbosch. Hangt je goot na een storm, of door het gewicht van nat blad of ijs, los of scheef, dan zet ik hem weer vast op beugels die goed zitten en hang ik hem op afschot naar de regenpijp. Is er een stuk gescheurd of verbogen, dan vervang ik dat stuk. Hangt de goot boven de stoep, de oprit of het tuinpad, blijf daar dan weg en ga zelf niet de ladder op. Ik kom in Den Bosch, Rosmalen, Vught en de rest van de regio. Bellen of appen kan dag en nacht op 06 10 18 53 57. Stuur een foto van de goot vanaf de grond. Je hoort vooraf wat het kost.` },
+  ],
 };
 
 // Artikelen en korte antwoorden uit artikelen-extra-3.ts (sinds 12-11-2026) erachter, zodat ze via artikelen-extra.ts in ARTIKELEN en KORT_ANTWOORD komen.
