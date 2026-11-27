@@ -509,6 +509,10 @@ const schema = faqSchema ? [articleSchema, faqSchema] : articleSchema;
         {DAKDEKKER_KIEZEN.has(a.slug) && (
           <p>Zoek je zelf een dakdekker in de regio? Hoe ik werk, lees je bij dakdekker in <a href="/werkgebied/den-bosch/">Den Bosch</a>, <a href="/werkgebied/rosmalen/">Rosmalen</a>, <a href="/werkgebied/vught/">Vught</a>, <a href="/werkgebied/oss/">Oss</a>, <a href="/werkgebied/veghel/">Veghel</a> en <a href="/werkgebied/boxtel/">Boxtel</a>. Je belt of appt met mij zelf, en je hoort de prijs voordat ik begin.</p>
         )}
+        {/* 27-11-2026 ronde 4: ook de plaatspagina's met de minste binnenkomende links (95 tot 114, tegen 486 tot 665 voor Den Bosch, Rosmalen en Vught), waar 'dakdekker + plaats' op plek 42 tot 77 staat. */}
+        {DAKDEKKER_KIEZEN.has(a.slug) && (
+          <p>Woon je in <a href="/werkgebied/oisterwijk/">Oisterwijk</a>, <a href="/werkgebied/schijndel/">Schijndel</a>, <a href="/werkgebied/sint-michielsgestel/">Sint-Michielsgestel</a>, <a href="/werkgebied/vlijmen/">Vlijmen</a>, <a href="/werkgebied/drunen/">Drunen</a>, <a href="/werkgebied/uden/">Uden</a> of <a href="/werkgebied/waalwijk/">Waalwijk</a>? Ook voor die plaatsen staat er een eigen pagina, met de klussen die ik daar doe en hoe je mij bereikt.</p>
+        )}
         <a class="btn btn--primary" href={a.dienst.href.endsWith("/") ? a.dienst.href : a.dienst.href + "/"} style="margin-top:8px;">{a.dienst.label}</a>
       </article>
       <aside>
