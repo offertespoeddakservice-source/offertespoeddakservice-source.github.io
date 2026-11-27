@@ -751,6 +751,10 @@ export const FAQ_ERBIJ_2: Record<string, Artikel["faq"]> = {
   "dak-repareren-in-de-winter": [
     { v: `Kan een dakdekker in de regen werken?`, a: `Voor een deel wel. Is het dak niet glad en waait het niet hard, dan kan ik bij regen vaak al iets doen om het binnen droog te houden: een verschoven pan terugleggen, een open plek afdekken of een volle goot leegmaken. Werk met loodvervanger, kit, dakmortel of dakbedekking doe ik op een droge dag, want op een natte ondergrond hecht het niet. Bij onweer, storm, ijzel of sneeuw op de pannen ga ik niet het dak op, dat is voor niemand veilig. Lekt het nu, zet dan een emmer onder de druppel en stuur me een foto van de natte plek via WhatsApp. Dan zeg ik eerlijk wat er vandaag kan en wat op een droge dag moet.` },
   ],
+  // 27-11-2026 ronde 5: vraag voor wie denkt dat de dakdekker alleen bij regen het lek kan vinden.
+  "daklekkage-opsporen": [
+    { v: `Kun je het lek ook vinden als het op dat moment droog is?`, a: `Vaak wel. Ook als het droog is, zie je op zolder meestal nog waar het water liep: een donkere kring of streep op het hout, een vlek op de folie of een plek waar de isolatie is ingezakt. Buiten kijk ik boven die plek naar de pannen, de nok, het lood en de naden. Lekt het alleen bij regen met harde wind uit één richting, zeg dat er dan bij, want dan kijk ik vooral aan die kant van het dak. Je helpt mee door bij de volgende bui een foto of filmpje te maken van de plek waar het druppelt. Vind ik het op een droge dag niet op het oog, dan zeg ik dat eerlijk en bespreken we de volgende stap. Je hoort vooraf wat het kost.` },
+  ],
 };
 
 // Artikelen en korte antwoorden uit artikelen-extra-3.ts (sinds 12-11-2026) erachter, zodat ze via artikelen-extra.ts in ARTIKELEN en KORT_ANTWOORD komen.
