@@ -31,6 +31,7 @@ const BEL_PADEN = ["/spoed/", "/diensten/daklekkage/", "/diensten/stormschade/",
 const belSticky = BEL_PADEN.includes(huidigPad) || /^\/werkgebied\/[^/]+\/(daklekkage|stormschade|dakgoot-vervangen|dakreparatie)\/$/.test(huidigPad) || /^\/kennisbank\/[^/]*lek[^/]*\/$/.test(huidigPad) || /^\/diensten\/(lood-vervangen|nokvorsten-vervangen|dakdoorvoer|bakgoot-repareren|kilgoot-repareren|dakgoot-vervangen|platte-daken)\/$/.test(huidigPad) || /^\/werkgebied\/([^/]+\/)?$/.test(huidigPad);
 
 // 21-11-2026 ronde 4: golfplaten vervangen in de voettekst en knowsAbout (les 123). 22-11-2026 ronde 2: dakonderhoud in de voettekst en knowsAbout (les 169). 24-11-2026 ronde 2: aansluiting van dakramen, lichtkoepels, lichtstraten, dakluiken en lichtbuizen in knowsAbout.
+// 28-11-2026 ronde 1: Den Bosch in areaServed als ''s-Hertogenbosch' met 'Den Bosch' als andere naam, net als op de plaatspagina's en in het adres.
 const businessSchema: Record<string, unknown> = {
   "@context": "https://schema.org",
   "@type": "RoofingContractor",
@@ -61,7 +62,7 @@ const businessSchema: Record<string, unknown> = {
     opens: "00:00",
     closes: "23:59",
   },
-  areaServed: [{ "@type": "State", name: "Noord-Brabant" }, { "@type": "State", name: "Gelderland" }, ...PLAATSEN.map((p) => ({ "@type": "City", name: p.naam }))],
+  areaServed: [{ "@type": "State", name: "Noord-Brabant" }, { "@type": "State", name: "Gelderland" }, ...PLAATSEN.map((p) => (p.slug === "den-bosch" ? { "@type": "City", name: "'s-Hertogenbosch", alternateName: "Den Bosch" } : { "@type": "City", name: p.naam }))],
   address: { "@type": "PostalAddress", addressLocality: SITE.basisplaats, addressRegion: "Noord-Brabant", addressCountry: "NL" },
   geo: { "@type": "GeoCoordinates", latitude: SITE.geo.lat, longitude: SITE.geo.lon },
   contactPoint: {
