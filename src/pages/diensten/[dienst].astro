@@ -179,8 +179,17 @@ const DEN_BOSCH_ZIN: Record<string, string> = {
   "dakgoot-vervangen": 'Woon je in Den Bosch zelf? Over de oude zinken goten en bakgoten in de stad, en wanneer repareren nog genoeg is, lees je bij <a href="/werkgebied/den-bosch/dakgoot-vervangen/">dakgoot repareren in Den Bosch</a>.',
   dakreparatie: 'Woon je in Den Bosch zelf? Hoe ik daar een kapotte of losse pan vervang, ook bij een oud huis in de binnenstad, lees je bij <a href="/werkgebied/den-bosch/dakreparatie/">dakreparatie in Den Bosch</a>.',
   "goten-reinigen": 'Woon je in Den Bosch zelf? Ook een goot achter de gevel of tussen twee panden maak ik leeg: lees <a href="/werkgebied/den-bosch/goten-reinigen/">dakgoot schoonmaken in Den Bosch</a>.',
+  // 28-11-2026 ronde 3: ook stormschade (het deel van tip 17 uit ronde 2 dat de controle goedkeurde; stormschade in Den Bosch staat in MATRIX).
+  stormschade: 'Woon je in Den Bosch zelf? Wat je na harde wind in de stad het eerst nakijkt, en hoe ik een open plek afdek voordat ik hem netjes herstel, lees je bij <a href="/werkgebied/den-bosch/stormschade/">stormschade in Den Bosch</a>.',
 };
 const denBoschZin = !d.verborgen && DEN_BOSCH_ZIN[d.slug] && MATRIX.some((c) => c.plaats === "den-bosch" && c.dienst === d.slug) ? DEN_BOSCH_ZIN[d.slug] : "";
+// 28-11-2026 ronde 3: gootdiensten zonder eigen pagina in Den Bosch linken naar dakgoot repareren in Den Bosch. Opnieuw tip 17 van ronde 2, nu zonder wijken en zonder tekst uit de hook van die pagina.
+const DEN_BOSCH_GOOT_ZIN: Record<string, string> = {
+  "dakgoot-solderen": 'Woon je in Den Bosch zelf? Wanneer solderen bij jou genoeg is en wanneer een nieuw stuk goot slimmer is, lees je bij <a href="/werkgebied/den-bosch/dakgoot-vervangen/">dakgoot repareren in Den Bosch</a>.',
+  "bakgoot-repareren": 'Woon je in Den Bosch zelf? Wat ik in de stad bij een lekkende goot als eerste nakijk, lees je bij <a href="/werkgebied/den-bosch/dakgoot-vervangen/">dakgoot repareren in Den Bosch</a>.',
+  "dakgoot-coaten": 'Woon je in Den Bosch zelf? Of coaten, solderen of een nieuw stuk goot bij jou het beste past, lees je bij <a href="/werkgebied/den-bosch/dakgoot-vervangen/">dakgoot repareren in Den Bosch</a>.',
+};
+const denBoschGootZin = !d.verborgen && DEN_BOSCH_GOOT_ZIN[d.slug] && MATRIX.some((c) => c.plaats === "den-bosch" && c.dienst === "dakgoot-vervangen") ? DEN_BOSCH_GOOT_ZIN[d.slug] : "";
 ---
 
 <Base title={d.metaTitle} description={d.metaDescription} path={path} schema={schema} noindex={d.verborgen === true}>
@@ -231,6 +240,7 @@ const denBoschZin = !d.verborgen && DEN_BOSCH_ZIN[d.slug] && MATRIX.some((c) => 
           geen verrassingen.
         </p>
         {denBoschZin && <p set:html={denBoschZin} />}
+        {denBoschGootZin && <p set:html={denBoschGootZin} />}
         {leesArtikelen.length > 0 ? (
           <>
             <p style="margin-top:18px;"><strong>Meer weten?</strong> Lees ook:</p>
