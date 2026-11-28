@@ -83,6 +83,15 @@ const GOTEN = [
   { slug: "lekt-sinds-nieuwe-dakgoot", tekst: "Wordt het nat sinds je dakgoot is vervangen, dan hangt de nieuwe goot vaak net lager of verder van de pannen, zodat het water erachter valt, of loopt hij niet goed af naar de regenpijp. Meld het eerst bij wie de goot heeft opgehangen." },
 ];
 const GOTEN_ZICHTBAAR = GOTEN.filter((r) => ARTIKELEN.some((a) => a.slug === r.slug && !a.verborgen));
+// 28-11-2026 ronde 1: blok Dakgoten schoonmaken, uit de gootartikelen voor het seizoen. Een artikel dat niet bestaat of verborgen is, valt weg. Geen prijzen, geen beloftes.
+const GOTEN_SCHOON = [
+  { slug: "hoe-vaak-dakgoot-reinigen", tekst: "Voor de meeste huizen is één keer per jaar genoeg, het liefst laat in de herfst als het blad gevallen is. Staan er bomen vlak bij het huis, of is er een bakgoot of kilgoot, dan is twee keer per jaar vaak slimmer." },
+  { slug: "goot-schoonmaken-glazenwasser-of-dakdekker", tekst: "Bij het leegmaken gaan blad, mos en zand uit de goot en wordt de uitloop naar de regenpijp vrijgemaakt. Een dakdekker kan in dezelfde keer zien of de goot lekt of doorhangt, en of er pannen of nokvorsten los liggen." },
+  { slug: "bladvanger-dakgoot", tekst: "Een gaas, borstel of bolletje in de goot houdt grof blad tegen, maar dennennaalden, mos en zand komen er toch onder. Ook een goot met gaas moet dus af en toe leeg." },
+  { slug: "dakgoot-schoonmaken-huurder-of-verhuurder", tekst: "Een goot op hoogte, waarvoor een lange ladder nodig is, hoort in de regel bij de verhuurder. Wat er bij een huurhuis geldt, staat in het huurcontract." },
+  { slug: "kerstverlichting-dakgoot", tekst: "Lichtjes aan de goot hang je met klemmen over de voorrand, zonder te boren en zonder iets onder de dakpannen te schuiven. Maak de goot vooraf leeg, zodat het smeltwater bij vorst en dooi weg kan." },
+];
+const GOTEN_SCHOON_ZICHTBAAR = GOTEN_SCHOON.filter((r) => ARTIKELEN.some((a) => a.slug === r.slug && !a.verborgen));
 
 export const GET: APIRoute = () => {
   const u = SITE.url;
@@ -138,6 +147,7 @@ export const GET: APIRoute = () => {
     ...(PER_PLEK_ZICHTBAAR.length > 0 ? ["## Waar zit het lek? Per plek in huis", ...PER_PLEK_ZICHTBAAR.map((r) => `- ${r.tekst} Uitleg: ${u}/kennisbank/${r.slug}/`), ""] : []),
     ...(PANNEN_ZICHTBAAR.length > 0 ? ["## Losse pannen, nok en de rand van je dak", ...PANNEN_ZICHTBAAR.map((r) => `- ${r.tekst} Uitleg: ${u}/kennisbank/${r.slug}/`), ""] : []),
     ...(GOTEN_ZICHTBAAR.length > 0 ? ["## Lekt of loopt je dakgoot over?", ...GOTEN_ZICHTBAAR.map((r) => `- ${r.tekst} Uitleg: ${u}/kennisbank/${r.slug}/`), ""] : []),
+    ...(GOTEN_SCHOON_ZICHTBAAR.length > 0 ? ["## Dakgoten schoonmaken", ...GOTEN_SCHOON_ZICHTBAAR.map((r) => `- ${r.tekst} Uitleg: ${u}/kennisbank/${r.slug}/`), ""] : []),
     ...(NA_STORM_ZICHTBAAR.length > 0 ? ["## Na een storm", ...NA_STORM_ZICHTBAAR.map((r) => `- ${r.tekst} Uitleg: ${u}/kennisbank/${r.slug}/`), ""] : []),
     ...(ARTIKELEN.some((a) => ["dak-lekt-bij-sneeuw-of-vorst", "ijspegels-aan-dakgoot", "dakgoot-schoonmaken-in-de-winter", "dak-winterklaar-maken", "vochtplek-hoek-plafond-buitenmuur"].includes(a.slug) && !a.verborgen) ? ["## In de winter"] : []),
     ...(ARTIKELEN.some((a) => a.slug === "dak-lekt-bij-sneeuw-of-vorst" && !a.verborgen) ? [`- Lekt het bij sneeuw of dooi, dan is het vaak stuifsneeuw die bij harde wind tussen de pannen door op zolder waait, of smeltwater dat niet weg kan omdat de goot of kilgoot vol ijs zit. Uitleg: ${u}/kennisbank/dak-lekt-bij-sneeuw-of-vorst/`] : []),
