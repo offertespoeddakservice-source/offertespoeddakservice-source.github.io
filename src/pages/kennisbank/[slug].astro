@@ -387,6 +387,10 @@ const FOTOS_BESTANDEN: Record<string, string[]> = {
   "wat-kost-nokvorsten-repareren": ["a56a3a"],
   "schimmel-op-zolder": ["a56a3a"],
   "dak-lekt-na-dagen-regen": ["f9152c"],
+  // 28-11-2026 ronde 5: echte foto's bij drie artikelen zonder foto, alleen waar het bijschrift past: 5927e8 (lood langs een muur losgescheurd) bij de overgang van schuin naar plat dak, ae9944 (goot die niet op afschot ligt) bij dakgoot losgeraakt, f9152c (kapotte pan bij de nok) bij water uit je stopcontact.
+  "lekkage-overgang-schuin-plat-dak": ["5927e8"],
+  "dakgoot-losgeraakt": ["ae9944"],
+  "water-uit-stopcontact-bij-regen": ["f9152c"],
 };
 const fotoBestanden = FOTOS_BESTANDEN[a.slug]
   ?.map((code) => FOTOS.find((f) => f.bestand.includes(`-${code}.`))?.bestand)
