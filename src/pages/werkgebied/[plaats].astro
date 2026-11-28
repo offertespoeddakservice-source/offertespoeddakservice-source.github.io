@@ -30,6 +30,12 @@ const METATITEL_PER_PLAATS: Record<string, string> = {
   rosmalen: "Dakdekker Rosmalen en De Groote Wielen",
   vlijmen: "Dakdekker Vlijmen en Nieuwkuijk",
 };
+// 28-11-2026 ronde 3: kop (h1) gelijk aan de titel voor Google bij Eindhoven, Helmond en Breda ('dakreparatie eindhoven' 317 vertoningen op plek 52, 'dak reparatie eindhoven' 139 op plek 26,9, 'dakreparatie helmond' 161 op plek 59, allemaal 0 kliks). Wijchen niet: die pagina is vannacht al aangepast. De andere plaatsen houden de standaardkop.
+const H1_PER_PLAATS: Record<string, string> = {
+  eindhoven: "Dakreparatie en dakgoten in Eindhoven",
+  helmond: "Dakreparatie en dakgoten in Helmond",
+  breda: "Dakreparatie en dakgoten in Breda",
+};
 const metaTitel = `${METATITEL_PER_PLAATS[p.slug] ?? `Dakdekker ${p.naam}: lekkage en dakwerk`} | ${SITE.bedrijfsnaam}`;
 const apkPrijs = PRIJZEN.find((r) => r.sleutel === "apk")?.prijs ?? "";
 const gotenPrijs = PRIJZEN.find((r) => r.sleutel === "goot_reinigen")?.prijs ?? "";
@@ -180,7 +186,7 @@ const schema = [
         <span class="eyebrow" style="color:#ffb486; margin:0;">Werkgebied · {p.reistijd ?? SITE.regioOmschrijving}</span>
         <span class="stars"><span class="ster">★★★★★</span> <b>{SITE.reviews.score.toString().replace(".", ",")}</b> <a class="bron" href={SITE.werkspotUrl} target="_blank" rel="noopener">op Werkspot</a></span>
       </div>
-      <h1>{titel}: goten, lekkage &amp; reparatie</h1>
+      <h1>{H1_PER_PLAATS[p.slug] ? H1_PER_PLAATS[p.slug] : <>{titel}: goten, lekkage &amp; reparatie</>}</h1>
       <p class="lead">
         {p.slug === "den-bosch"
           ? <>Spoed Dak Service is een dakdekker uit 's-Hertogenbosch voor daklekkage, losse dakpannen en dakgoten in de hele stad en de dorpen eromheen.</>
