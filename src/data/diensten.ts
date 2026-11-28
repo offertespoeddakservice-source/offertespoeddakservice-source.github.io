@@ -703,7 +703,8 @@ export const DIENSTEN: Dienst[] = [
     vanafPrijs: `repareren ${prijsVan("nok_repareren")}`,
     h1: "Nokvorsten repareren of vervangen: weer een dichte nok",
     kort: "Losse of kapotte nokvorsten opnieuw aansmeren met dakmortel, of de hele nok vernieuwen.",
-    metaTitle: "Nokvorsten vervangen of repareren | Spoed Dak Service",
+    // 28-11-2026 ronde 4: 'daknok' erbij, zoals er gezocht wordt ('nokvorsten vervangen' plek 76, 'daknok reparatie' plek 82,7, 0 kliks). Titel nooit eerder aangepast. h1, omschrijving en vragen blijven zoals ze zijn.
+    metaTitle: "Nokvorsten vervangen of daknok repareren | Spoed Dak Service",
     metaDescription:
       `Nokvorsten los of kapot? Opnieuw aansmeren met dakmortel ${inclBtw("nok_repareren")}, of de hele nok vernieuwen. Stuur een foto, dan hoor je vooraf wat het kost.`,
     icoon: "🏠",
