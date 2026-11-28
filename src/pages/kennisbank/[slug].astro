@@ -546,7 +546,8 @@ const schema = faqSchema ? [articleSchema, faqSchema] : articleSchema;
           ) : (
             <>
               <h3>Direct een vraag?</h3>
-              <p>Bel of WhatsApp Rens, of vraag de <a href="/dak-apk/">Dak-APK</a> aan (voor {apkPrijs}) voor een compleet keuringsrapport in {SITE.regioOmschrijving}.</p>
+              {/* 28-11-2026 ronde 3: eerst de gratis foto, daarna pas de Dak-APK (de uitlegpagina's leverden nog geen tik op Bellen of WhatsApp). */}
+              <p>Stuur me een foto van je dak vanaf de straat via WhatsApp, of bel me. Dan zeg ik eerlijk wat ik zie, en je hoort vooraf wat het kost. Wil je je hele dak laten nakijken, met een rapport met foto's, dan kan dat met de <a href="/dak-apk/">Dak-APK</a> (voor {apkPrijs}).</p>
             </>
           )}
           <div class="btn-row" style="margin-top:14px; flex-direction:column;">
