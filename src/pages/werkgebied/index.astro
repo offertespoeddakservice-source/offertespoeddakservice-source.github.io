@@ -52,10 +52,11 @@ const lijstSchema = {
     itemListElement: PLAATSEN.map((p, i) => ({ "@type": "ListItem", position: i + 1, url: `${SITE.url}/werkgebied/${p.slug}/`, name: `Dakdekker in ${p.naam}` })),
   },
 };
+// 28-11-2026 ronde 3: titel zonder 'regio Den Bosch' (zeven pagina's hadden 'dakdekker' en 'Den Bosch' in de titel). Omschrijving en kop blijven.
 ---
 
 <Base
-  title={`Werkgebied: dakdekker regio Den Bosch | ${SITE.bedrijfsnaam}`}
+  title={`Dakdekker in Brabant en omgeving | ${SITE.bedrijfsnaam}`}
   description="Dakdekker uit Den Bosch voor lekkage, pannen en goten: van Rosmalen, Vught en Oss tot Tilburg, Eindhoven, Breda en Nijmegen. Ook je dorp? App me gerust."
   path="/werkgebied"
   schema={[faqSchema, lijstSchema]}
