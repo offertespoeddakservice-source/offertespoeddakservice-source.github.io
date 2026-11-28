@@ -349,12 +349,13 @@ const zelfdeDienst = MATRIX.filter((c) => c.dienst === d.slug && c.plaats !== p.
   .filter((x) => x);
 
 // FAQ: combineer plaats-specifiek + dienst-specifiek → uniek én rijk per pagina.
+// 28-11-2026 ronde 1: plaatsen met verweg krijgen dezelfde tekst zonder spoedbelofte als de plaatsen met '±' in de reistijd (nu alleen Wijchen).
 const faq = [
   {
     v: `Kun je snel langskomen voor ${(KLUS_NAAM[d.slug] ?? d.titel).toLowerCase()} in ${p.naam}?`,
     a: p.slug === "den-bosch"
       ? `Vaak wel. Den Bosch is mijn thuisbasis, en bij spoed kan ik er in de regel nog dezelfde dag zijn. Stuur een foto via WhatsApp, dan hoor je meteen wanneer ik kom.`
-      : p.reistijd?.startsWith("±")
+      : (p.verweg || p.reistijd?.startsWith("±"))
         ? `${p.naam} ligt aan de rand van mijn werkgebied (${p.reistijd}). Ook hier kom ik voor lekkage en ander dakwerk. Stuur eerst een foto via WhatsApp of bel even, dan hoor je eerlijk wanneer ik kan komen.`
         : `Ja, ${p.naam} ligt in mijn vaste werkgebied rond Den Bosch${p.reistijd ? ` (${p.reistijd})` : ""}, dus vaak ben ik al in de buurt. Bij spoed kom ik regelmatig nog dezelfde dag.`,
   },
@@ -455,7 +456,7 @@ if (["daklekkage", "stormschade", "dakreparatie"].includes(d.slug)) (schema[0] a
         <li><strong>Klus:</strong> {KLUS_NAAM[d.slug] ?? d.titel} in {p.naam}{gemeente && gemeente !== p.naam ? ` (gemeente ${gemeente})` : ""}.</li>
         <li><strong>Afstand:</strong> {p.reistijd ?? SITE.regioOmschrijving}.</li>
         <li><strong>Contact:</strong> bellen of WhatsApp op <a href={telHref}>{SITE.telefoonWeergave}</a>, dag en nacht bereikbaar.</li>
-        {(d.slug === "daklekkage" || d.slug === "stormschade") && (<li><strong>Spoed:</strong> {p.reistijd?.startsWith("±") ? `${p.naam} ligt verder weg, dus een klus hier plan ik meestal vooraf met je in. Stuur eerst een foto, dan hoor je eerlijk wanneer ik kan komen.` : "druppelt het binnen of ligt er een open plek in je dak, bel of app dan meteen. Bij spoed kan ik vaak nog dezelfde dag komen."}</li>)}
+        {(d.slug === "daklekkage" || d.slug === "stormschade") && (<li><strong>Spoed:</strong> {(p.verweg || p.reistijd?.startsWith("±")) ?`${p.naam} ligt verder weg, dus een klus hier plan ik meestal vooraf met je in. Stuur eerst een foto, dan hoor je eerlijk wanneer ik kan komen.` : "druppelt het binnen of ligt er een open plek in je dak, bel of app dan meteen. Bij spoed kan ik vaak nog dezelfde dag komen."}</li>)}
         <li><strong>Prijs:</strong> je hoort de vaste prijs voordat ik begin.</li>
         <li><strong>Verzekerd:</strong> bedrijfsaansprakelijk verzekerd.</li>
         <li><strong>Reviews:</strong> <a href={SITE.werkspotUrl} target="_blank" rel="noopener">{SITE.reviews.score.toString().replace(".", ",")} op Werkspot</a>{SITE.reviews.werkspotAantal > 0 ? ` (${SITE.reviews.werkspotAantal} reviews)` : ""}.</li>
