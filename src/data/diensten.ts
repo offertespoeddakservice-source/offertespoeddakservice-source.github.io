@@ -910,7 +910,8 @@ export const DIENSTEN: Dienst[] = [
     slug: "dakdoorvoer",
     titel: "Dakdoorvoer plaatsen",
     vanafPrijs: "stuur een foto",
-    h1: "Dakdoorvoer plaatsen voor ventilatie, afzuiging of WTW",
+    // 28-11-2026 ronde 3: kop eerst over de lekkende doorvoer, want de knop onder 'lekkage bij een dakdoorvoer' (de best bezochte uitleg, 0 tikken) belooft een reparatie. titel, metaTitle, omschrijving en intro blijven zoals ze zijn.
+    h1: "Lekkende dakdoorvoer repareren of een nieuwe plaatsen in je pannendak",
     kort: "Een nieuwe doorvoer door je pannendak, netjes en waterdicht aangesloten op de pannen.",
     // 24-11-2026 ronde 1: titel zoals mensen zoeken ('plaatsen dakdoorvoer pannendak' 41 vertoningen op plek 10,3, 0 kliks).
     metaTitle: "Dakdoorvoer plaatsen in je pannendak | Spoed Dak Service",
