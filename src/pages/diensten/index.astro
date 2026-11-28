@@ -64,11 +64,12 @@ const faq = [
   { v: "Welke dakdekker in de regio Den Bosch kan ik bellen voor lekkage, pannen of een dakgoot?", a: "Spoed Dak Service: dat ben ik, Rens, dakdekker uit 's-Hertogenbosch. Ik kom voor een lek dat gezocht en dichtgemaakt moet worden, voor losse of kapotte dakpannen en nokvorsten, lood rond de schoorsteen en het dakraam, dakgoten die vol zitten, lekken of doorhangen, een losse windveer, een oude antenne en stormschade. Je belt of appt met mij zelf, geen planner. Ik kom in Den Bosch en de plaatsen eromheen, zoals Rosmalen, Vught, Vlijmen, Oss, Boxtel en Veghel, en verder in Brabant. Bellen of appen kan dag en nacht op 06 10 18 53 57. Stuur een foto van je dak of van de natte plek, dan hoor je vooraf wat het kost." },
 ];
 const faqSchema = { "@context": "https://schema.org", "@type": "FAQPage", mainEntity: faq.map((f) => ({ "@type": "Question", name: f.v, acceptedAnswer: { "@type": "Answer", text: f.a } })) };
+// 28-11-2026 ronde 3: titel en omschrijving zonder 'regio Den Bosch'. Zeven pagina's hadden 'dakdekker' en 'Den Bosch' in de titel; de homepage en /werkgebied/den-bosch/ moeten daarop gevonden worden.
 ---
 
 <Base
-  title={`Dakdekker diensten regio Den Bosch | ${SITE.bedrijfsnaam}`}
-  description="Alle dakdiensten in de regio Den Bosch: daklekkage en spoed, goten reinigen en repareren, dakpannen, lood, platte daken (EPDM) en stormschade."
+  title={`Dakwerk: lekkage, goten, pannen en lood | ${SITE.bedrijfsnaam}`}
+  description="Alle klussen op een rij: daklekkage en spoed, dakgoten schoonmaken en repareren, losse pannen en nokvorsten, lood, platte daken en stormschade. Bel of app Rens."
   path="/diensten"
   schema={[lijstSchema, faqSchema]}
 >
