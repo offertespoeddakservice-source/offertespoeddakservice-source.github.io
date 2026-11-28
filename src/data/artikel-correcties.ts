@@ -107,7 +107,8 @@ export const ARTIKEL_CORRECTIES: Record<string, Partial<Pick<Artikel, "secties" 
   },
   "dakraam-lekt": { dienst: { label: "Bekijk: lekkend dakraam repareren", href: "/diensten/dakraam-lekkage/" }, metaTitle: "Dakraam lekt bij regen? Zo vind je het lek | Spoed Dak Service" },
   "dakinspectie": { metaTitle: "Dakinspectie: wat een dakdekker nakijkt | Spoed Dak Service" },
-  "dakpan-kapot-of-verschoven": { metaTitle: "Dakpan scheef, kapot of verschoven? | Spoed Dak Service" },
+  // 28-11-2026 ronde 3: titel met 'dakpan ligt scheef' vooraan (153 vertoningen op plek 12,8, 0 kliks; pagina 1,4% klikratio).
+  "dakpan-kapot-of-verschoven": { metaTitle: "Dakpan ligt scheef of is kapot: wat nu? | Spoed Dak Service" },
   "lood-op-dak": { dienst: { label: "Bekijk: lood vastzetten of vervangen", href: "/diensten/lood-vervangen/" }, metaTitle: "Lood rond schoorsteen of dakraam lekt? | Spoed Dak Service" },
   "lekkage-gedeelde-schoorsteen": { dienst: { label: "Bekijk: lood vervangen bij de schoorsteen", href: "/diensten/lood-vervangen/" }, metaTitle: "Gedeelde schoorsteen lekt: wie betaalt? | Spoed Dak Service" },
   "condens-of-lekkage-op-zolder": { metaTitle: "Condens op zolder of een daklek? | Spoed Dak Service" },
