@@ -40,7 +40,8 @@ export const DIENSTEN: Dienst[] = [
     titel: "Goten reinigen",
     h1: "Dakgoot schoonmaken: snel, netjes en met eerlijk advies",
     kort: "Verstopte of volle goten leeg, en ik meld het eerlijk als er meer speelt op je dak.",
-    metaTitle: `Dakgoot schoonmaken: ${GOTEN_PRIJS} | Spoed Dak Service`,
+    // 28-11-2026 ronde 1: titel zonder prijs, zodat hij niet meer bijna gelijk is aan het prijsartikel 'wat kost dakgoot schoonmaken' (dienstpagina 1533 vertoningen op plek 77, artikel 2225 op plek 74, samen 1 klik). Het artikel houdt de prijs in de titel.
+    metaTitle: "Dakgoot schoonmaken en goten reinigen | Spoed Dak Service",
     metaDescription:
       `Goten laten reinigen in de regio Den Bosch: ${inclBtw("goot_reinigen")} voor één goot, vaste prijs vooraf. Netjes werk en eerlijk advies over je dak. Stuur een foto of app Rens.`,
     icoon: "🪣",
