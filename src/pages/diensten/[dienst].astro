@@ -26,7 +26,8 @@ const serviceSchema: Record<string, unknown> = {
   description: d.metaDescription,
   url: `${SITE.url}/diensten/${d.slug}/`,
   provider: { "@type": "RoofingContractor", "@id": `${SITE.url}/#bedrijf`, name: SITE.bedrijfsnaam, telephone: `+${SITE.telefoonE164}` },
-  areaServed: [{ "@type": "State", name: "Noord-Brabant" }, { "@type": "State", name: "Gelderland" }, ...PLAATSEN.map((p) => ({ "@type": "City", name: p.naam }))],
+  // 28-11-2026 ronde 2: Den Bosch als ''s-Hertogenbosch' met 'Den Bosch' als andere naam, net als in Base.astro en op de plaatspagina's.
+  areaServed: [{ "@type": "State", name: "Noord-Brabant" }, { "@type": "State", name: "Gelderland" }, ...PLAATSEN.map((p) => (p.slug === "den-bosch" ? { "@type": "City", name: "'s-Hertogenbosch", alternateName: "Den Bosch" } : { "@type": "City", name: p.naam }))],
 };
 if (minPrice) serviceSchema.offers = { "@type": "Offer", priceSpecification: { "@type": "UnitPriceSpecification", priceCurrency: "EUR", minPrice } };
 // Geen losse minPrice bij een prijs per vierkante meter of per paneel: dan zou Google het als prijs voor de hele klus lezen.
